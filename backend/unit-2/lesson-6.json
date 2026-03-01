@@ -1,0 +1,356 @@
+{
+  "id": 18,
+  "unit_id": 2,
+  "lesson_number": 6,
+  "title": "Small Talk",
+  "description": "Learn to make casual conversation",
+  "difficulty": "beginner",
+  "is_last_in_unit": true,
+  
+  "objectives": [
+    "Talk about the weather (It's hot/cold/nice today)",
+    "Ask about someone's weekend/week (How was your weekend?)",
+    "Make casual conversation at work or in public",
+    "Keep a conversation going with follow-up questions"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "How's it going? / How are you?",
+      "How was your weekend/week?",
+      "It's [hot/cold/nice/rainy] today",
+      "What did you do [this weekend/yesterday]?",
+      "That sounds [fun/nice/interesting]!",
+      "How about you?",
+      "Have a good day/weekend!"
+    ],
+    "grammar_pattern": "Past Simple (for weekends/yesterday):\n- What did you do?\n- I went to...\n- I saw...\n- I had...\n\nPresent for weather/now:\n- It's hot\n- It's raining\n- The weather is nice\n\nExamples:\n- How was your weekend?\n- It was good. I went to the park.\n- What did you do?\n- I saw a movie.",
+    "grammar_patterns": [
+      {
+        "label": "Talking about weather",
+        "pattern": "It's + [weather word]",
+        "examples": ["It's hot today.", "It's cold today.", "It's raining.", "The weather is nice!"]
+      },
+      {
+        "label": "Asking about the weekend",
+        "pattern": "How was your + [weekend/week]?",
+        "examples": ["How was your weekend?", "What did you do this weekend?", "Did you do anything fun?"]
+      },
+      {
+        "label": "Showing interest",
+        "pattern": "That sounds + [adjective]!",
+        "examples": ["That sounds fun!", "That sounds nice!", "That's interesting!", "Cool!"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "It's Monday morning. You see your coworker Sarah at work. You make small talk.",
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Good morning! How's it going?"
+      },
+      {
+        "speaker": "You",
+        "text": "Good morning! I'm good, thanks. How are you?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "I'm doing well. It's a nice day today, isn't it?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes! The weather is beautiful. Not too hot."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "How was your weekend?"
+      },
+      {
+        "speaker": "You",
+        "text": "It was good! I went to the park with my family. How about you?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "That sounds nice! I stayed home and watched movies. It was relaxing."
+      },
+      {
+        "speaker": "You",
+        "text": "That sounds fun! What movies did you watch?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "I watched a new comedy. It was really funny!"
+      },
+      {
+        "speaker": "You",
+        "text": "Cool! Well, have a good day!"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Thanks! You too!"
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Weather talk",
+      "instruction": "Fill in the blank with the correct weather word",
+      "prompts": [
+        {"sentence": "It's ___ today.", "answer": "hot"},
+        {"sentence": "It's ___ today.", "answer": "cold"},
+        {"sentence": "It's ___.", "answer": "raining"},
+        {"sentence": "The weather is ___!", "answer": "nice"}
+      ],
+      "examples": [
+        "It's hot today.",
+        "It's cold today.",
+        "It's raining.",
+        "The weather is nice!"
+      ],
+      "your_turn": "Now describe today's weather, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking about weekend",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "How was your ___?", "answer": "weekend"},
+        {"sentence": "What did you ___ this weekend?", "answer": "do"},
+        {"sentence": "Did you do anything ___?", "answer": "fun"},
+        {"sentence": "How was your ___?", "answer": "week"}
+      ],
+      "examples": [
+        "How was your weekend?",
+        "What did you do this weekend?",
+        "Did you do anything fun?",
+        "How was your week?"
+      ],
+      "your_turn": "Now ask someone about their weekend, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Responding and showing interest",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "That sounds ___!", "answer": "fun"},
+        {"sentence": "That sounds ___!", "answer": "nice"},
+        {"sentence": "That's ___!", "answer": "interesting"},
+        {"sentence": "Cool! How ___ it?", "answer": "was"}
+      ],
+      "examples": [
+        "That sounds fun!",
+        "That sounds nice!",
+        "That's interesting!",
+        "Cool! How was it?"
+      ],
+      "your_turn": "Now show interest in what someone says, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: How was Ahmed's weekend?",
+      "audio": "/audio/lesson14-listen1.mp3",
+      "options": ["Bad", "Okay", "Good", "Terrible"],
+      "correct": 2,
+      "explanation": "Ahmed says 'It was good'"
+    },
+    {
+      "question": "Listen: What did Ahmed do?",
+      "audio": "/audio/lesson14-listen2.mp3",
+      "options": ["Went to park", "Watched movies", "Went shopping", "Stayed home"],
+      "correct": 0,
+      "explanation": "Ahmed says 'I went to the park with my family'"
+    },
+    {
+      "question": "Listen: How's the weather?",
+      "audio": "/audio/lesson14-listen3.mp3",
+      "options": ["Hot", "Cold", "Rainy", "Nice"],
+      "correct": 3,
+      "explanation": "They say 'The weather is beautiful' and 'It's a nice day'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Talk about the weather",
+      "instruction": "Record yourself making small talk about today's weather.",
+      "example": "Hi! How are you? It's a nice day today, isn't it? The weather is beautiful. Not too hot or cold."
+    },
+    {
+      "title": "Task 2: Weekend conversation",
+      "instruction": "Record yourself answering: How was your weekend? What did you do?",
+      "example": "My weekend was good! I went to the park on Saturday. On Sunday, I stayed home and watched TV. It was relaxing. How was your weekend?"
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write about your weekend",
+      "instruction": "Write 5 sentences about what you did last weekend.",
+      "example": "1. My weekend was great.\n2. On Saturday, I went shopping.\n3. I bought new clothes.\n4. On Sunday, I visited my friend.\n5. We had dinner together."
+    },
+    {
+      "title": "Task 2: Small talk conversation",
+      "instruction": "Write a conversation (10-12 lines) where you make small talk with a coworker. Include: greeting, weather, asking about their weekend.",
+      "example": "You: Good morning!\nCoworker: Good morning! How are you?\nYou: I'm good, thanks. How about you?\nCoworker: Doing well! It's cold today, isn't it?\nYou: Yes, very cold! How was your weekend?\nCoworker: It was good. I went to the movies.\nYou: That sounds fun! What movie did you see?\nCoworker: I saw the new action movie.\nYou: Cool! Was it good?\nCoworker: Yes, I loved it!\nYou: Nice! Well, have a good day!\nCoworker: Thanks! You too!"
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Why do we talk about weather?",
+        "examples": [
+          "It's hot today, isn't it?",
+          "Nice weather!",
+          "It's cold this morning."
+        ],
+        "question": "Why is weather such a common topic?",
+        "explanation": "In English-speaking cultures, weather is a safe, neutral topic to start conversations. It's polite small talk before deeper conversation. Everyone experiences weather, so it's easy to relate to."
+      },
+      {
+        "title": "Past Simple for past events",
+        "examples": [
+          "I went to the park (go → went)",
+          "I saw a movie (see → saw)",
+          "I had dinner (have → had)",
+          "What did you do? (do → did)"
+        ],
+        "question": "How do we talk about the past?",
+        "explanation": "For completed past actions, we use Past Simple. Many common verbs are irregular (went, saw, had). In questions, we use 'did' + base verb."
+      },
+      {
+        "title": "Keeping conversation going",
+        "examples": [
+          "How about you? (asking back)",
+          "That sounds fun! (showing interest)",
+          "What did you watch? (follow-up question)",
+          "Cool! Tell me more. (encouraging)"
+        ],
+        "question": "How do we keep conversations flowing?",
+        "explanation": "Good conversations involve: asking back ('How about you?'), showing interest ('That sounds fun!'), and asking follow-up questions. This shows you're listening and engaged."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "It's Monday morning. Your coworker says 'Good morning!' What do you say?",
+      "options": [
+        "Yes",
+        "Good morning! How are you?",
+        "Okay",
+        "Fine"
+      ],
+      "correct": 1,
+      "explanation": "We greet back and often ask 'How are you?' to be friendly."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask about someone's weekend. What do you say?",
+      "options": [
+        "Your weekend how was?",
+        "How your weekend was?",
+        "How was your weekend?",
+        "Weekend how was?"
+      ],
+      "correct": 2,
+      "explanation": "'How was your weekend?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone tells you about their weekend. You want to show interest. What do you say?",
+      "options": [
+        "Okay",
+        "I see",
+        "That sounds fun!",
+        "Yes"
+      ],
+      "correct": 2,
+      "explanation": "'That sounds fun!' shows genuine interest and keeps the conversation going."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: It ___ hot today.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "'It is hot today' is correct. We use 'is' with 'it' for weather."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'How was your weekend?' You had a good weekend. What do you say?",
+      "options": [
+        "It is good",
+        "It was good",
+        "It will be good",
+        "It being good"
+      ],
+      "correct": 1,
+      "explanation": "'It was good' is correct. We use past tense to talk about the weekend (which is past)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask what someone did yesterday. What do you say?",
+      "options": [
+        "What you did yesterday?",
+        "What did you do yesterday?",
+        "What do you did yesterday?",
+        "What you do yesterday?"
+      ],
+      "correct": 1,
+      "explanation": "'What did you do yesterday?' is the correct past question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone tells you about their weekend. You want to ask them a question back. What do you say?",
+      "options": [
+        "And you?",
+        "How about you?",
+        "You how?",
+        "What you?"
+      ],
+      "correct": 1,
+      "explanation": "'How about you?' politely asks them to tell you about their weekend too."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It's the end of your conversation. What do you say?",
+      "options": [
+        "Bye",
+        "Go now",
+        "Have a good day!",
+        "Finish"
+      ],
+      "correct": 2,
+      "explanation": "'Have a good day!' is a friendly, polite way to end conversation."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-8 line small talk conversation. Include: greeting, weather, and asking about their weekend.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use phrases like: 'How are you?', 'It's [weather]', 'How was your weekend?', 'That sounds fun!'"
+    },
+    {
+      "type": "open-ended",
+      "question": "What topics are common for small talk in your culture? How is it different from or similar to American small talk?",
+      "options": [],
+      "correct": null,
+      "explanation": "Think about cultural differences in casual conversation. What's polite to ask about? What topics are avoided?"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": 2,
+  "unit_id": 1,
+  "lesson_number": 2,
+  "title": "At the Grocery Store",
+  "description": "Learn to shop and ask for things politely",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Ask for things politely (Can I have...?)",
+    "Ask about prices (How much is...?)",
+    "Use basic numbers for shopping",
+    "Make simple requests in stores"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Can I have [item]?",
+      "How much is this?",
+      "I need [item]",
+      "Do you have [item]?",
+      "Thank you / You're welcome",
+      "Here you go",
+      "That's all"
+    ],
+    "grammar_pattern": "Can I have + noun?\nHow much is + this/that?\nI need + noun\n\nExamples:\n- Can I have bread?\n- How much is this?\n- I need milk\n- Do you have eggs?",
+    "grammar_patterns": [
+      {
+        "label": "Polite requests",
+        "pattern": "Can I have + [thing]?",
+        "examples": ["Can I have milk?", "Can I have bread?", "Can I have water?"]
+      },
+      {
+        "label": "Asking about price",
+        "pattern": "How much is + [thing]?",
+        "examples": ["How much is this?", "How much is the milk?", "How much is the bread?"]
+      },
+      {
+        "label": "Saying what you need",
+        "pattern": "I need + [thing]",
+        "examples": ["I need milk", "I need bread", "I need eggs"]
+      },
+      {
+        "label": "Asking if something exists",
+        "pattern": "Do you have + [thing]?",
+        "examples": ["Do you have milk?", "Do you have bread?", "Do you have eggs?"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are at a grocery store. You need to buy milk, bread, and eggs. You talk to the clerk.",
+    "dialogue": [
+      {
+        "speaker": "You",
+        "text": "Hello."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Hello! How can I help you?"
+      },
+      {
+        "speaker": "You",
+        "text": "I need milk. Do you have milk?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, we have milk. Here you go."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. Can I have bread too?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Sure. Here is the bread."
+      },
+      {
+        "speaker": "You",
+        "text": "How much is this?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "The milk is three dollars. The bread is two dollars."
+      },
+      {
+        "speaker": "You",
+        "text": "Okay. That's all. Thank you."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "You're welcome. Have a good day!"
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Polite requests",
+      "instruction": "Fill in the blank with the correct item",
+      "prompts": [
+        {"sentence": "Can I have ___?", "answer": "milk"},
+        {"sentence": "Can I have ___?", "answer": "bread"},
+        {"sentence": "Can I have ___?", "answer": "eggs"},
+        {"sentence": "Can I have ___?", "answer": "water"}
+      ],
+      "examples": [
+        "Can I have milk?",
+        "Can I have bread?",
+        "Can I have eggs?",
+        "Can I have water?"
+      ],
+      "your_turn": "Now ask for something you need out loud using 'Can I have...' and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking about existence",
+      "instruction": "Fill in the blank with the correct item",
+      "prompts": [
+        {"sentence": "Do you have ___?", "answer": "milk"},
+        {"sentence": "Do you have ___?", "answer": "bread"},
+        {"sentence": "Do you have ___?", "answer": "apples"},
+        {"sentence": "Do you have ___?", "answer": "coffee"}
+      ],
+      "examples": [
+        "Do you have milk?",
+        "Do you have bread?",
+        "Do you have apples?",
+        "Do you have coffee?"
+      ],
+      "your_turn": "Now ask if the store has something you want, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Asking about prices",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "How much is ___?", "answer": "this"},
+        {"sentence": "How much is the ___?", "answer": "milk"},
+        {"sentence": "How much is the ___?", "answer": "bread"},
+        {"sentence": "How much are the ___?", "answer": "eggs"}
+      ],
+      "examples": [
+        "How much is this?",
+        "How much is the milk?",
+        "How much is the bread?",
+        "How much are the eggs?"
+      ],
+      "your_turn": "Now ask about the price of something you want to buy, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What does the customer need?",
+      "audio": "/audio/lesson2-listen1.mp3",
+      "options": ["Milk", "Bread", "Water", "Coffee"],
+      "correct": 0,
+      "explanation": "The customer says 'I need milk'"
+    },
+    {
+      "question": "Listen: How much is the bread?",
+      "audio": "/audio/lesson2-listen2.mp3",
+      "options": ["One dollar", "Two dollars", "Three dollars", "Four dollars"],
+      "correct": 1,
+      "explanation": "The clerk says 'The bread is two dollars'"
+    },
+    {
+      "question": "Listen: Does the store have eggs?",
+      "audio": "/audio/lesson2-listen3.mp3",
+      "options": ["Yes", "No", "Maybe", "Not mentioned"],
+      "correct": 0,
+      "explanation": "The clerk says 'Yes, we have eggs'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Ask for items",
+      "instruction": "Record yourself asking for three items: milk, bread, and eggs. Use 'Can I have...'",
+      "example": "Can I have milk? Can I have bread? Can I have eggs?"
+    },
+    {
+      "title": "Task 2: Shopping conversation",
+      "instruction": "Record a shopping conversation. Ask for milk, ask the price, and say thank you.",
+      "example": "You: Can I have milk?\nClerk: Here you go.\nYou: How much is this?\nClerk: Three dollars.\nYou: Thank you."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Make a shopping list",
+      "instruction": "Write 5 things you need from the grocery store. Use 'I need...' for each item.",
+      "example": "1. I need milk.\n2. I need bread.\n3. I need eggs.\n4. I need water.\n5. I need apples."
+    },
+    {
+      "title": "Task 2: Write a shopping conversation",
+      "instruction": "Write a conversation (8-10 lines) between you and a grocery store clerk. Ask for 2 items, ask the price, and say thank you.",
+      "example": "You: Hello.\nClerk: Hello! How can I help you?\nYou: Can I have milk?\nClerk: Sure. Here you go.\nYou: Thank you. Do you have bread?\nClerk: Yes, we have bread.\nYou: How much is the milk?\nClerk: Three dollars.\nYou: Thank you.\nClerk: You're welcome!"
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Making polite requests",
+        "examples": [
+          "Can I have milk?",
+          "Can I have bread?",
+          "Can I have water?"
+        ],
+        "question": "What pattern do you see for asking for something politely?",
+        "explanation": "We use 'Can I have + [thing]?' to ask for something politely. This is very common in stores."
+      },
+      {
+        "title": "Asking if something exists",
+        "examples": [
+          "Do you have milk?",
+          "Do you have bread?",
+          "Do you have eggs?"
+        ],
+        "question": "How do we ask if a store has something?",
+        "explanation": "We use 'Do you have + [thing]?' to ask if something is available."
+      },
+      {
+        "title": "Singular vs Plural",
+        "examples": [
+          "How much is this? (one item)",
+          "How much are these? (many items)",
+          "The milk is three dollars. (one)",
+          "The eggs are two dollars. (many)"
+        ],
+        "question": "What's different between 'is' and 'are'?",
+        "explanation": "We use 'is' for one thing (singular) and 'are' for many things (plural)."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to buy milk. What do you say?",
+      "options": [
+        "I want milk",
+        "Can I have milk?",
+        "Give me milk",
+        "Milk please I need"
+      ],
+      "correct": 1,
+      "explanation": "'Can I have milk?' is the most polite way to ask."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know if the store has bread. What do you ask?",
+      "options": [
+        "Is bread here?",
+        "Where bread?",
+        "Do you have bread?",
+        "Bread is where?"
+      ],
+      "correct": 2,
+      "explanation": "'Do you have bread?' is the correct way to ask."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know the price. What do you say?",
+      "options": [
+        "What price?",
+        "How much is this?",
+        "Price is what?",
+        "Tell me price"
+      ],
+      "correct": 1,
+      "explanation": "'How much is this?' is the standard question for asking about price."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: Can I ___ bread?",
+      "options": [
+        "has",
+        "had",
+        "have",
+        "having"
+      ],
+      "correct": 2,
+      "explanation": "We say 'Can I have bread?'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The clerk gives you something. You say:",
+      "options": [
+        "Okay",
+        "Yes",
+        "Thank you",
+        "Good"
+      ],
+      "correct": 2,
+      "explanation": "'Thank you' is the polite response when someone gives you something."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: The milk ___ three dollars.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "correct": 0,
+      "explanation": "We use 'is' for one item. 'The milk is three dollars.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: The eggs ___ two dollars.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "We use 'are' for multiple items (plural). 'The eggs are two dollars.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "I need milk and bread",
+        "I need milk and I need bread",
+        "Both are correct",
+        "Neither is correct"
+      ],
+      "correct": 2,
+      "explanation": "Both are correct! We can say 'I need milk and bread' or 'I need milk and I need bread.'"
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you buy milk and ask the price.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: greeting, asking for milk, asking the price, and saying thank you."
+    },
+    {
+      "type": "open-ended",
+      "question": "What is the most important phrase from this lesson for your daily life? Why?",
+      "options": [],
+      "correct": null,
+      "explanation": "Think about which phrase you will use most often when shopping."
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "lesson-25",
+  "unit_id": 4,
+  "lesson_number": 5,
+  "title": "At the DMV",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Apply for a driver's license or ID card",
+    "Understand what documents you need",
+    "Schedule and take driving tests",
+    "Renew licenses and registrations"
+  ],
+  "target_phrases": [
+    "I need to get a driver's license",
+    "What documents do I need?",
+    "When can I schedule my driving test?",
+    "How do I renew my registration?",
+    "Is there a written test?",
+    "How much does it cost?",
+    "Do I need an appointment?"
+  ],
+  "dialogue": {
+    "title": "Getting an Oregon Driver's License",
+    "context": "Ahmed goes to the DMV to get his Oregon driver's license. He talks to a DMV clerk.",
+    "lines": [
+      {"speaker": "Clerk", "text": "Next! How can I help you today?"},
+      {"speaker": "Ahmed", "text": "Hi, I need to get an Oregon driver's license. I have a license from Somalia but not a U.S. one."},
+      {"speaker": "Clerk", "text": "Okay, you'll need to take both the written test and the driving test. First, what documents do you have?"},
+      {"speaker": "Ahmed", "text": "I have my passport, my work permit, and two bills showing my Oregon address."},
+      {"speaker": "Clerk", "text": "Perfect. That's everything we need. The written test costs $90. If you pass, you can schedule your driving test."},
+      {"speaker": "Ahmed", "text": "Can I take the written test today?"},
+      {"speaker": "Clerk", "text": "Yes, you can take it right now on the computer. It's 35 questions and you need to get 28 correct to pass."},
+      {"speaker": "Ahmed", "text": "Is it in English? My English is okay but not perfect."},
+      {"speaker": "Clerk", "text": "We have the test in many languages including Arabic and Somali. Which would you prefer?"},
+      {"speaker": "Ahmed", "text": "I'll try it in English first. If I fail, can I retake it?"},
+      {"speaker": "Clerk", "text": "Yes, you can retake it after 24 hours. You get three attempts included in the $90 fee. Let me get you set up."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about requirements",
+      "pattern": "What [documents/tests] do I need?",
+      "examples": [
+        "What documents do I need to bring?",
+        "What tests do I need to take?",
+        "What forms do I need to fill out?",
+        "What identification do I need?",
+        "What proof of address do I need?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about procedures",
+      "pattern": "How do I [action] my [item]?",
+      "examples": [
+        "How do I renew my license?",
+        "How do I register my car?",
+        "How do I change my address?",
+        "How do I schedule my test?",
+        "How do I get my license plates?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Conditional questions",
+      "pattern": "If I [action], can I [action]?",
+      "examples": [
+        "If I pass the test, can I drive immediately?",
+        "If I fail, can I retake it?",
+        "If I move, can I keep my license?",
+        "If I lose my license, can I get a replacement?",
+        "If I'm under 18, can I get a permit?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson5-listen1.mp3",
+      "transcript": "To get an Oregon driver's license, you need: proof of identity like a passport, proof of Social Security number, and two documents showing your Oregon address. You must pass a vision test, a written knowledge test with 35 questions, and a driving skills test. The license costs $90 and is valid for 8 years.",
+      "question": "How many years is an Oregon driver's license valid?",
+      "options": ["4 years", "5 years", "8 years", "10 years"],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson5-listen2.mp3",
+      "transcript": "The DMV written test covers traffic laws, road signs, and safe driving practices. You can take a practice test online at oregon.gov/odot. Study the Oregon Driver Manual before taking the test. The test is available in English, Spanish, Russian, Chinese, Vietnamese, and other languages.",
+      "question": "Where can you take a practice test?",
+      "options": [
+        "Only at the DMV",
+        "At driving schools",
+        "Online at oregon.gov/odot",
+        "You can't practice"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson5-listen3.mp3",
+      "transcript": "For the driving test, bring a properly insured and registered vehicle. The examiner will check your lights, signals, brakes, and horn. The test takes about 20 minutes and includes parking, turning, and highway driving. If you fail, you must wait at least one week before retesting.",
+      "question": "How long must you wait to retake the driving test if you fail?",
+      "options": ["24 hours", "3 days", "One week", "One month"],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at the DMV. Ask: 'I need to get a driver's license. What documents do I need? How much does it cost? Can I take the test today?' Record yourself.",
+      "example": "Hello, I need to get an Oregon driver's license. I'm new to Oregon. What documents do I need to bring? Also, how much does the license cost? And can I take the written test today, or do I need an appointment? Thank you.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain the steps to get a driver's license in the U.S. Give at least 4 steps. Talk for 30 seconds.",
+      "example": "To get a driver's license, you need to follow several steps. First, gather your documents - passport, social security card, and proof of address. Second, study the driver's manual and take practice tests online. Third, go to the DMV and take the written test. If you pass, fourth, schedule and take the driving test. Finally, if you pass the driving test, you'll get your license. The whole process can take a few weeks.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a list of 5 documents you might need to bring to the DMV. Then write 2 sentences explaining why these documents are important.",
+      "min_words": 40,
+      "example": "Documents needed for the DMV: 1) Passport or birth certificate, 2) Social Security card, 3) Utility bill with your address, 4) Bank statement with your address, 5) Work permit or visa if not a U.S. citizen. These documents are important because the DMV needs to verify your identity and confirm that you live in Oregon. Without the correct documents, you cannot get a license."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Imagine you failed your driving test. Write an email to your friend explaining what happened and what you'll do next. (4-5 sentences)",
+      "min_words": 40,
+      "example": "Hi Maria, I took my driving test today but I didn't pass. I was too nervous and made some mistakes with parallel parking. The examiner was nice and told me what I need to practice. I have to wait one week before I can try again. I'm going to practice parking every day this week. Wish me luck! Ahmed"
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'Need to' for Requirements",
+      "explanation": "Use 'need to' to talk about things that are required or necessary.",
+      "examples": [
+        "I need to get a driver's license. (requirement)",
+        "You need to bring two forms of ID. (necessary)",
+        "He needs to pass the written test first. (requirement)",
+        "Do I need to make an appointment? (asking about requirement)"
+      ],
+      "practice": [
+        {"sentence": "You ___ to take the vision test.", "blank": "need", "options": ["need", "needs", "needing"]},
+        {"sentence": "I ___ to bring my passport.", "blank": "need", "options": ["need", "needs", "needed"]},
+        {"sentence": "She ___ to renew her license.", "blank": "needs", "options": ["need", "needs", "needing"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Conditional Questions with 'If'",
+      "explanation": "Use 'if' to ask about conditions or possibilities. 'If + present, can/will + base verb'",
+      "examples": [
+        "If I pass, can I drive today? (condition + question)",
+        "If I fail, will I get a refund? (condition + question)",
+        "If I move, do I need a new license? (condition + question)",
+        "What happens if I don't pass? (asking about consequence)"
+      ],
+      "practice": [
+        {"sentence": "If I ___ the test, can I retake it?", "blank": "fail", "options": ["fail", "fails", "failed"]},
+        {"sentence": "If you pass, you ___ get your license.", "blank": "can", "options": ["can", "could", "may"]},
+        {"sentence": "___ I lose my license, what do I do?", "blank": "If", "options": ["If", "When", "Because"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Future Arrangements with 'When can I...?'",
+      "explanation": "Use 'When can I...?' to ask about scheduling or arranging things in the future.",
+      "examples": [
+        "When can I schedule my test? (arranging future appointment)",
+        "When can I pick up my license? (future action)",
+        "When can I retake the exam? (future possibility)",
+        "When can I drive with my permit? (asking about timing)"
+      ],
+      "practice": [
+        {"sentence": "When ___ I take the driving test?", "blank": "can", "options": ["can", "will", "do"]},
+        {"sentence": "When can I ___ my registration?", "blank": "renew", "options": ["renew", "renewing", "renewed"]},
+        {"sentence": "___ can I schedule an appointment?", "blank": "When", "options": ["When", "What", "Where"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, how much does the written test cost?",
+        "options": ["$50", "$75", "$90", "$120"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "How many questions are on Oregon's written driving test?",
+        "options": ["20", "25", "35", "50"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What must you do if you fail the written test?",
+        "options": [
+          "Pay another $90",
+          "Wait 24 hours to retake it",
+          "Take a driving class",
+          "Give up"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: 'I ___ to bring my passport.'",
+        "options": ["need", "needs", "needed", "needing"],
+        "correct": 0,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "The DMV written test is only available in English.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You need proof of Oregon address to get an Oregon license.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "___ can I schedule my driving test? (asking about time)",
+        "correct": "When",
+        "accept": ["When", "when"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "If I pass, ___ I drive immediately? (conditional question)",
+        "correct": "can",
+        "accept": ["can"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the DMV term:",
+        "pairs": [
+          {"left": "Written test", "right": "Traffic laws knowledge"},
+          {"left": "Driving test", "right": "Behind-the-wheel exam"},
+          {"left": "Vision test", "right": "Check eyesight"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What can Ahmed do if he's worried about taking the test in English?",
+        "options": [
+          "He can't take the test",
+          "He must wait 6 months",
+          "He can take it in Somali or Arabic",
+          "He needs a translator"
+        ],
+        "correct": 2,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "license", "definition": "official document allowing you to drive", "example": "I got my driver's license last week."},
+    {"word": "permit", "definition": "temporary license for learning to drive", "example": "Teenagers get a learner's permit before a full license."},
+    {"word": "registration", "definition": "official record of vehicle ownership", "example": "Keep your car registration in the glove box."},
+    {"word": "insurance", "definition": "protection that pays for car accidents", "example": "You must have car insurance to drive legally."},
+    {"word": "vision test", "definition": "eye exam to check if you can see well enough", "example": "The vision test checks if you need glasses."},
+    {"word": "written exam", "definition": "test about traffic laws and road signs", "example": "Study the driver manual for the written exam."},
+    {"word": "road test", "definition": "driving test with an examiner", "example": "I passed my road test on the first try."},
+    {"word": "renewal", "definition": "getting a new license when old one expires", "example": "My license renewal is due next month."},
+    {"word": "appointment", "definition": "scheduled time to visit DMV", "example": "Make an appointment online to avoid waiting."},
+    {"word": "fee", "definition": "money you must pay for service", "example": "The license fee is $90."}
+  ],
+  "cultural_notes": [
+    "In the U.S., each state issues its own driver's licenses. If you move states, you usually need to get a new license within 30-90 days.",
+    "DMV wait times can be very long (2-4 hours). Making an appointment online saves time.",
+    "Most states accept foreign driver's licenses for a short time (30-90 days), but then you need a U.S. license.",
+    "The written test is available in many languages, so you don't have to take it in English.",
+    "If you're under 18, you need a learner's permit first and must have supervised driving hours.",
+    "Car insurance is REQUIRED in all states. Driving without insurance can result in fines and license suspension."
+  ]
+}

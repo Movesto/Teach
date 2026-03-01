@@ -1,0 +1,486 @@
+{
+  "id": "lesson-22",
+  "unit_id": 4,
+  "lesson_number": 2,
+  "title": "Planning a Trip on Public Transit",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Read a bus or train schedule to plan a journey",
+    "Ask about transfers, connections, and delays",
+    "Buy multi-ride passes and understand fare zones",
+    "Use a transit app to find routes and estimated arrival times"
+  ],
+  "target_phrases": [
+    "When does the next [bus/train] arrive?",
+    "Do I need to transfer to get there?",
+    "Which line do I take, and where do I transfer?",
+    "How long does the trip take?",
+    "Is there a delay on the [number] line?",
+    "I need a monthly pass, please.",
+    "Does my pass cover this zone?"
+  ],
+  "dialogue": {
+    "title": "Taking the Bus to Work",
+    "context": "Ahmed needs to travel from his apartment to a job training center across town. He is planning the trip in advance using a transit schedule at the community center. A transit helper, Patricia, assists him.",
+    "lines": [
+      {
+        "speaker": "Ahmed",
+        "text": "Excuse me, I need to get to Swan Island. Which bus goes there?"
+      },
+      {
+        "speaker": "Employee",
+        "text": "You'll want the number 17 bus. It stops right outside and runs every 15 minutes."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "How much is the fare?"
+      },
+      {
+        "speaker": "Employee",
+        "text": "$2.50 for a single ride, or you can buy a day pass for $5. The day pass is better if you're making more than two trips."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'll get a day pass. Where do I buy it?"
+      },
+      {
+        "speaker": "Employee",
+        "text": "Right here at this machine. It takes cash or cards. You can also use the Hop card - it's a reloadable fare card."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Do I need to transfer to get to Swan Island?"
+      },
+      {
+        "speaker": "Employee",
+        "text": "No, the 17 is direct. Just stay on for about 20 minutes. The driver will announce the stops."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Perfect! When is the next bus?"
+      },
+      {
+        "speaker": "Employee",
+        "text": "In about 5 minutes. You'll see it on the digital sign over there."
+      }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking which bus/train to take",
+      "pattern": "Which [bus/train] goes to [destination]?",
+      "examples": [
+        "Which bus goes to downtown?",
+        "Which train goes to the airport?",
+        "Which bus goes to the mall?",
+        "Which train goes to Beaverton?",
+        "Which bus goes to the hospital?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about frequency",
+      "pattern": "How often does [vehicle] run?",
+      "examples": [
+        "How often does this bus run?",
+        "How often does the train come?",
+        "How often does the 72 bus run?",
+        "How often does the MAX run?",
+        "How often does the express bus come?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Asking about transfers",
+      "pattern": "Do I need to transfer to get to [place]?",
+      "examples": [
+        "Do I need to transfer to get to Portland State?",
+        "Do I need to transfer to get to Clackamas?",
+        "Do I need to transfer to get to the zoo?",
+        "Do I need to transfer to get to Gresham?",
+        "Do I need to transfer to get to OHSU?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson2-listen1.mp3",
+      "transcript": "Attention passengers: The Blue Line train to Hillsboro is now arriving on platform 2. Please stand behind the yellow line. This train makes all stops. Estimated travel time is 35 minutes. For the Red Line to the airport, please wait for the next train in 8 minutes.",
+      "question": "How long does the Blue Line take to reach Hillsboro?",
+      "options": [
+        "8 minutes",
+        "20 minutes",
+        "35 minutes",
+        "45 minutes"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson2-listen2.mp3",
+      "transcript": "You can buy TriMet tickets at ticket machines, on the TriMet app, or with a Hop card. A single adult fare is $2.50 and is good for 2.5 hours on all buses, MAX trains, and streetcars. A day pass costs $5 and is unlimited for one day. Seniors and youth ride for reduced fares.",
+      "question": "How long is a single fare valid?",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "2.5 hours",
+        "All day"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson2-listen3.mp3",
+      "transcript": "When you board the bus, tap your Hop card or insert your ticket. If you're transferring from another bus or train, just show your transfer or tap your Hop card again - no additional charge within 2.5 hours. Pull the cord or press the yellow strip to request your stop. Exit through the back door.",
+      "question": "How do you request your stop?",
+      "options": [
+        "Tell the driver",
+        "Pull the cord or press the yellow strip",
+        "Wave your hand",
+        "Press a button by your seat"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at a bus stop. Ask someone: 'Excuse me, which bus goes to downtown? How much is the fare? Do I need exact change?' Record yourself clearly.",
+      "example": "Excuse me, can I ask you something? Which bus goes to downtown Portland? I'm new here. Also, how much is the fare? And do I need exact change, or can the driver give me change? Thank you so much for your help!",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain to a friend how to use public transportation in your city. Give 3 tips. Talk for 30 seconds.",
+      "example": "Using public transportation here is easy. First, you can buy tickets at machines or on your phone with the app. Second, check the schedule online or use Google Maps to see when buses come. Third, always have your ticket ready to show the driver or tap your card. Buses run every 15-30 minutes during the day. It's much cheaper than driving!",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about using public transportation. Use phrases like 'I take the bus...', 'The fare is...', 'I need to transfer...'",
+      "min_words": 40,
+      "example": "I take the bus to work every day. The fare is $2.50 for a single ride. I buy a monthly pass for $100 because it's cheaper. I need to transfer once to get to my job. The bus is usually on time and very clean."
+    },
+    {
+      "id": "write-2",
+      "prompt": "You're writing directions to your house using public transportation. Write step-by-step instructions (4-5 sentences).",
+      "min_words": 40,
+      "example": "To get to my house by bus, first take the number 72 bus from downtown. Ride it for about 20 minutes until you reach 82nd Avenue. Get off at the stop near the big Safeway grocery store. Then walk two blocks north on 82nd. My house is the blue one on the left, number 8234."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Questions with 'Which'",
+      "explanation": "Use 'which' when asking someone to choose from specific options.",
+      "examples": [
+        "Which bus goes downtown? (there are several buses)",
+        "Which train is faster? (choosing between trains)",
+        "Which stop should I get off at? (choosing the right stop)",
+        "Which platform is it? (specific platform number)"
+      ],
+      "practice": [
+        {
+          "sentence": "___ bus goes to the mall?",
+          "blank": "Which",
+          "options": [
+            "Which",
+            "What",
+            "Where"
+          ]
+        },
+        {
+          "sentence": "___ line do I take?",
+          "blank": "Which",
+          "options": [
+            "Which",
+            "What",
+            "Who"
+          ]
+        },
+        {
+          "sentence": "___ direction is the train going?",
+          "blank": "Which",
+          "options": [
+            "Which",
+            "What",
+            "When"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Frequency with 'How often'",
+      "explanation": "'How often' asks about frequency. Answer with time expressions.",
+      "examples": [
+        "How often does the bus run? - Every 15 minutes",
+        "How often do you take the train? - Twice a day",
+        "How often does it come? - Every half hour",
+        "How often do you ride the bus? - Five days a week"
+      ],
+      "practice": [
+        {
+          "sentence": "___ often does this bus come?",
+          "blank": "How",
+          "options": [
+            "How",
+            "What",
+            "When"
+          ]
+        },
+        {
+          "sentence": "The train runs ___ 10 minutes.",
+          "blank": "every",
+          "options": [
+            "every",
+            "all",
+            "each"
+          ]
+        },
+        {
+          "sentence": "I take the bus ___ times a day.",
+          "blank": "two",
+          "options": [
+            "two",
+            "twice",
+            "second"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Prepositions with Transportation",
+      "explanation": "Use 'on' for buses/trains, 'at' for stops/stations, 'to' for destinations.",
+      "examples": [
+        "I'm on the bus. (riding it)",
+        "I'm at the bus stop. (waiting)",
+        "The bus goes to downtown. (destination)",
+        "Get on at Main Street. (board)",
+        "Get off at 5th Avenue. (exit)"
+      ],
+      "practice": [
+        {
+          "sentence": "I'm ___ the train.",
+          "blank": "on",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ]
+        },
+        {
+          "sentence": "Wait ___ the bus stop.",
+          "blank": "at",
+          "options": [
+            "at",
+            "on",
+            "to"
+          ]
+        },
+        {
+          "sentence": "This bus goes ___ the airport.",
+          "blank": "to",
+          "options": [
+            "to",
+            "at",
+            "for"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, how much is a day pass?",
+        "options": [
+          "$2.50",
+          "$5.00",
+          "$10.00",
+          "$15.00"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What is a 'transfer'?",
+        "options": [
+          "A ticket",
+          "Changing from one bus/train to another",
+          "A bus stop",
+          "A day pass"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Complete: '___ bus goes to the airport?'",
+        "options": [
+          "What",
+          "Which",
+          "Where",
+          "When"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "How do you request your stop on a bus?",
+        "options": [
+          "Shout to the driver",
+          "Pull the cord or press the strip",
+          "Raise your hand",
+          "Nothing, the driver knows"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "A single TriMet fare is valid for 2.5 hours.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You must pay again when transferring within 2.5 hours.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "I'm riding ___ the bus. (preposition)",
+        "correct": "on",
+        "accept": [
+          "on"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ often does this bus run? (frequency question)",
+        "correct": "How",
+        "accept": [
+          "How",
+          "how"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the term to its meaning:",
+        "pairs": [
+          {
+            "left": "Fare",
+            "right": "Cost of riding"
+          },
+          {
+            "left": "Transfer",
+            "right": "Change buses/trains"
+          },
+          {
+            "left": "Stop",
+            "right": "Where bus picks up passengers"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Does Ahmed need to transfer to get to Swan Island?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Not mentioned"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "fare",
+      "definition": "the cost of riding public transportation",
+      "example": "The bus fare is $2.50."
+    },
+    {
+      "word": "transfer",
+      "definition": "changing from one bus or train to another",
+      "example": "I need to transfer to get to my destination."
+    },
+    {
+      "word": "route",
+      "definition": "the path a bus or train follows",
+      "example": "The number 17 bus follows this route."
+    },
+    {
+      "word": "schedule",
+      "definition": "times when buses or trains arrive",
+      "example": "Check the schedule to see when the next bus comes."
+    },
+    {
+      "word": "platform",
+      "definition": "the area where you wait for trains",
+      "example": "The train arrives on platform 2."
+    },
+    {
+      "word": "pass",
+      "definition": "a ticket for unlimited rides",
+      "example": "I have a monthly pass for all TriMet services."
+    },
+    {
+      "word": "exact change",
+      "definition": "the precise amount of money needed",
+      "example": "Bus drivers can't give change, so bring exact change."
+    },
+    {
+      "word": "zone",
+      "definition": "area that affects fare price",
+      "example": "Portland has different fare zones."
+    },
+    {
+      "word": "terminal",
+      "definition": "the main station or end of a route",
+      "example": "This bus ends at the downtown terminal."
+    },
+    {
+      "word": "express",
+      "definition": "faster service with fewer stops",
+      "example": "Take the express bus - it's quicker."
+    }
+  ],
+  "cultural_notes": [
+    "Most U.S. cities have public transportation, but it varies widely by city. Portland, NYC, and SF have good systems.",
+    "In many cities, you should have exact change for buses. Drivers usually cannot make change.",
+    "Senior citizens (65+) and people with disabilities often get reduced fares.",
+    "Many transit systems have apps for real-time tracking, tickets, and trip planning.",
+    "It's polite to give up your seat for elderly people, pregnant women, or people with disabilities.",
+    "Rush hour (7-9 AM, 4-6 PM) is when buses and trains are most crowded."
+  ]
+}

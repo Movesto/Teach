@@ -1,0 +1,427 @@
+{
+  "id": "placement-test",
+  "title": "English Level Placement Test",
+  "description": "Find your starting point - 15 minute assessment",
+  "version": "1.0",
+  "total_time_minutes": 15,
+  "total_points": 100,
+  
+  "instructions": {
+    "overview": "This test will help us find the right starting point for you. It has 4 sections: Grammar, Listening, Reading, and Speaking. Answer honestly - this helps us give you the best learning experience!",
+    "sections": [
+      "Section 1: Grammar & Vocabulary (15 questions)",
+      "Section 2: Listening Comprehension (5 audio clips)",
+      "Section 3: Reading Comprehension (2 passages)",
+      "Section 4: Speaking Assessment (3 prompts)"
+    ],
+    "rules": [
+      "Take your time - there's no time limit",
+      "Answer as many questions as you can",
+      "It's okay to skip questions you don't know",
+      "Use a quiet place for the listening and speaking sections",
+      "You need a microphone for the speaking section"
+    ]
+  },
+  
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Section 1: Grammar & Vocabulary",
+      "description": "Choose the best answer for each question",
+      "points": 30,
+      "questions": [
+        {
+          "id": "g1",
+          "question": "My name ___ Ahmed.",
+          "options": ["am", "is", "are", "be"],
+          "correct": 1,
+          "points": 2,
+          "level": "beginner"
+        },
+        {
+          "id": "g2",
+          "question": "She ___ from Somalia.",
+          "options": ["am", "is", "are", "be"],
+          "correct": 1,
+          "points": 2,
+          "level": "beginner"
+        },
+        {
+          "id": "g3",
+          "question": "I ___ two brothers.",
+          "options": ["have", "has", "am", "is"],
+          "correct": 0,
+          "points": 2,
+          "level": "beginner"
+        },
+        {
+          "id": "g4",
+          "question": "He ___ at a hospital.",
+          "options": ["work", "works", "working", "to work"],
+          "correct": 1,
+          "points": 2,
+          "level": "beginner"
+        },
+        {
+          "id": "g5",
+          "question": "Do you ___ English?",
+          "options": ["speak", "speaks", "speaking", "to speak"],
+          "correct": 0,
+          "points": 2,
+          "level": "beginner"
+        },
+        {
+          "id": "g6",
+          "question": "I ___ to the store yesterday.",
+          "options": ["go", "goes", "went", "going"],
+          "correct": 2,
+          "points": 2,
+          "level": "intermediate"
+        },
+        {
+          "id": "g7",
+          "question": "She has ___ in Portland for three years.",
+          "options": ["live", "lives", "lived", "living"],
+          "correct": 2,
+          "points": 2,
+          "level": "intermediate"
+        },
+        {
+          "id": "g8",
+          "question": "If I ___ more money, I would buy a car.",
+          "options": ["have", "has", "had", "having"],
+          "correct": 2,
+          "points": 2,
+          "level": "intermediate"
+        },
+        {
+          "id": "g9",
+          "question": "The book ___ by millions of people.",
+          "options": ["read", "reads", "was read", "reading"],
+          "correct": 2,
+          "points": 2,
+          "level": "intermediate"
+        },
+        {
+          "id": "g10",
+          "question": "I wish I ___ speak Spanish fluently.",
+          "options": ["can", "could", "will", "would"],
+          "correct": 1,
+          "points": 2,
+          "level": "advanced"
+        },
+        {
+          "id": "g11",
+          "question": "By next year, I ___ studying English for five years.",
+          "options": ["am", "will be", "will have been", "have been"],
+          "correct": 2,
+          "points": 2,
+          "level": "advanced"
+        },
+        {
+          "id": "g12",
+          "question": "The project should ___ by the end of the month.",
+          "options": ["complete", "completed", "be completed", "completing"],
+          "correct": 2,
+          "points": 2,
+          "level": "advanced"
+        },
+        {
+          "id": "g13",
+          "question": "She insisted ___ going alone.",
+          "options": ["on", "at", "in", "to"],
+          "correct": 0,
+          "points": 2,
+          "level": "advanced"
+        },
+        {
+          "id": "g14",
+          "question": "Neither the students nor the teacher ___ ready.",
+          "options": ["is", "are", "be", "been"],
+          "correct": 0,
+          "points": 2,
+          "level": "advanced"
+        },
+        {
+          "id": "g15",
+          "question": "Had I known about the meeting, I ___ attended.",
+          "options": ["will have", "would have", "will", "would"],
+          "correct": 1,
+          "points": 2,
+          "level": "advanced"
+        }
+      ]
+    },
+    
+    {
+      "id": "listening",
+      "title": "Section 2: Listening Comprehension",
+      "description": "Listen to each audio clip and answer the question",
+      "points": 25,
+      "questions": [
+        {
+          "id": "l1",
+          "audio": "/audio/placement-listen1.mp3",
+          "transcript": "My name is Sarah. I am 25 years old. I live in Portland.",
+          "question": "What is the speaker's name?",
+          "options": ["Sara", "Sarah", "Sally", "Sandra"],
+          "correct": 1,
+          "points": 5,
+          "level": "beginner"
+        },
+        {
+          "id": "l2",
+          "audio": "/audio/placement-listen2.mp3",
+          "transcript": "I work at a hospital. I am a nurse. I help sick people.",
+          "question": "Where does the speaker work?",
+          "options": ["School", "Hospital", "Restaurant", "Bank"],
+          "correct": 1,
+          "points": 5,
+          "level": "beginner"
+        },
+        {
+          "id": "l3",
+          "audio": "/audio/placement-listen3.mp3",
+          "transcript": "Last weekend, I went to the park with my family. We had a picnic and played soccer. It was very fun.",
+          "question": "What did the speaker do last weekend?",
+          "options": ["Went shopping", "Went to park", "Stayed home", "Went to work"],
+          "correct": 1,
+          "points": 5,
+          "level": "intermediate"
+        },
+        {
+          "id": "l4",
+          "audio": "/audio/placement-listen4.mp3",
+          "transcript": "I've been studying English for two years now. At first, it was really difficult, but I'm making progress. My goal is to speak fluently by next year.",
+          "question": "How long has the speaker been studying English?",
+          "options": ["One year", "Two years", "Three years", "Five years"],
+          "correct": 1,
+          "points": 5,
+          "level": "intermediate"
+        },
+        {
+          "id": "l5",
+          "audio": "/audio/placement-listen5.mp3",
+          "transcript": "The economic implications of the policy shift remain unclear. While proponents argue it will stimulate growth, critics contend that the potential risks outweigh the benefits, particularly for vulnerable populations.",
+          "question": "What is the main concern of the critics?",
+          "options": ["The policy is too expensive", "The risks outweigh benefits", "The policy won't work", "The timing is wrong"],
+          "correct": 1,
+          "points": 5,
+          "level": "advanced"
+        }
+      ]
+    },
+    
+    {
+      "id": "reading",
+      "title": "Section 3: Reading Comprehension",
+      "description": "Read each passage and answer the questions",
+      "points": 25,
+      "passages": [
+        {
+          "id": "r1",
+          "title": "A New Life in America",
+          "text": "Ahmed moved to Portland last year. He came from Somalia with his family. At first, everything was very difficult. He didn't speak English well. He couldn't find a job. But Ahmed didn't give up. He started taking English classes at the community college. He practiced every day. Now, one year later, Ahmed speaks English much better. He has a job at a grocery store. He is happy in his new home.",
+          "level": "beginner",
+          "questions": [
+            {
+              "id": "r1q1",
+              "question": "Where did Ahmed come from?",
+              "options": ["Ethiopia", "Somalia", "Kenya", "Portland"],
+              "correct": 1,
+              "points": 3
+            },
+            {
+              "id": "r1q2",
+              "question": "What was difficult for Ahmed at first?",
+              "options": ["The weather", "Speaking English", "Finding a house", "Making friends"],
+              "correct": 1,
+              "points": 3
+            },
+            {
+              "id": "r1q3",
+              "question": "Where does Ahmed work now?",
+              "options": ["Hospital", "School", "Grocery store", "Restaurant"],
+              "correct": 2,
+              "points": 3
+            },
+            {
+              "id": "r1q4",
+              "question": "How does Ahmed feel now?",
+              "options": ["Sad", "Angry", "Happy", "Worried"],
+              "correct": 2,
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "title": "The Digital Divide",
+          "text": "The rapid advancement of technology has created a significant gap between those who have access to digital resources and those who do not. This phenomenon, known as the digital divide, affects educational opportunities, economic mobility, and social participation. While urban areas often benefit from high-speed internet and modern devices, rural communities frequently lack these essential tools. Addressing this disparity requires coordinated efforts from government, private sector, and community organizations to ensure equitable access to technology for all citizens.",
+          "level": "advanced",
+          "questions": [
+            {
+              "id": "r2q1",
+              "question": "What is the 'digital divide'?",
+              "options": [
+                "A new type of computer",
+                "The gap in access to technology",
+                "A problem with internet speed",
+                "A difference in computer skills"
+              ],
+              "correct": 1,
+              "points": 4
+            },
+            {
+              "id": "r2q2",
+              "question": "According to the passage, who is most affected by the digital divide?",
+              "options": [
+                "Urban residents",
+                "Young people",
+                "Rural communities",
+                "Government workers"
+              ],
+              "correct": 2,
+              "points": 4
+            },
+            {
+              "id": "r2q3",
+              "question": "What does the passage suggest is needed to solve this problem?",
+              "options": [
+                "More computers",
+                "Better education",
+                "Coordinated efforts from multiple groups",
+                "Government funding only"
+              ],
+              "correct": 2,
+              "points": 5
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "speaking",
+      "title": "Section 4: Speaking Assessment",
+      "description": "Record yourself answering these questions",
+      "points": 20,
+      "prompts": [
+        {
+          "id": "s1",
+          "prompt": "Introduce yourself. Say your name, where you are from, and one thing about yourself.",
+          "example": "My name is Ahmed. I am from Somalia. I like to play soccer.",
+          "min_seconds": 10,
+          "max_seconds": 30,
+          "points": 6,
+          "level": "beginner",
+          "rubric": {
+            "pronunciation": 2,
+            "fluency": 2,
+            "content": 2
+          }
+        },
+        {
+          "id": "s2",
+          "prompt": "Describe your daily routine. What do you do in the morning? What do you do in the evening?",
+          "example": "In the morning, I wake up at 7 AM. I eat breakfast and go to work. In the evening, I come home and watch TV.",
+          "min_seconds": 20,
+          "max_seconds": 45,
+          "points": 7,
+          "level": "intermediate",
+          "rubric": {
+            "pronunciation": 2,
+            "fluency": 2,
+            "grammar": 2,
+            "content": 1
+          }
+        },
+        {
+          "id": "s3",
+          "prompt": "What are your goals for learning English? How will speaking English help you in your life?",
+          "example": "I want to learn English to get a better job. Speaking English will help me communicate with more people and have more opportunities.",
+          "min_seconds": 30,
+          "max_seconds": 60,
+          "points": 7,
+          "level": "advanced",
+          "rubric": {
+            "pronunciation": 2,
+            "fluency": 2,
+            "grammar": 2,
+            "vocabulary": 1
+          }
+        }
+      ]
+    }
+  ],
+  
+  "scoring": {
+    "total_points": 100,
+    "breakdown": {
+      "grammar": 30,
+      "listening": 25,
+      "reading": 25,
+      "speaking": 20
+    },
+    "levels": [
+      {
+        "min_score": 0,
+        "max_score": 30,
+        "level": "beginner",
+        "cefr": "A1",
+        "description": "You are just starting to learn English",
+        "recommended_unit": 1,
+        "unit_name": "Daily Life & Survival",
+        "message": "Welcome! You'll start with basic conversations and survival English. Don't worry - we'll guide you every step of the way!"
+      },
+      {
+        "min_score": 31,
+        "max_score": 50,
+        "level": "elementary",
+        "cefr": "A2",
+        "description": "You can handle basic conversations",
+        "recommended_unit": 3,
+        "unit_name": "Work & Money",
+        "message": "Great! You have a good foundation. We'll start with practical topics like work, shopping, and daily life situations."
+      },
+      {
+        "min_score": 51,
+        "max_score": 70,
+        "level": "intermediate",
+        "cefr": "B1",
+        "description": "You can communicate in most everyday situations",
+        "recommended_unit": 5,
+        "unit_name": "Opinions & Discussions",
+        "message": "Excellent! You can handle everyday conversations. We'll help you express opinions and have deeper discussions."
+      },
+      {
+        "min_score": 71,
+        "max_score": 85,
+        "level": "upper-intermediate",
+        "cefr": "B2",
+        "description": "You can express yourself fluently in most situations",
+        "recommended_unit": 8,
+        "unit_name": "Writing Sentences & Paragraphs",
+        "message": "Impressive! You speak English well. We'll focus on academic skills and writing to prepare you for advanced work or study."
+      },
+      {
+        "min_score": 86,
+        "max_score": 100,
+        "level": "advanced",
+        "cefr": "C1",
+        "description": "You have strong English skills",
+        "recommended_unit": 11,
+        "unit_name": "Essay Writing & Argument",
+        "message": "Outstanding! Your English is very strong. We'll focus on advanced academic skills and ACT preparation."
+      }
+    ]
+  },
+  
+  "result_details": {
+    "certificate": true,
+    "save_to_profile": true,
+    "retake_allowed": true,
+    "retake_wait_days": 30,
+    "show_detailed_breakdown": true
+  }
+}

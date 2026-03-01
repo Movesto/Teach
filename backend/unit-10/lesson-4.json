@@ -1,0 +1,590 @@
+{
+  "id": "lesson-77",
+  "unit_id": 10,
+  "lesson_number": 4,
+  "title": "Phrasal Verbs in Context",
+  "level": "advanced",
+  "estimated_time": 50,
+  "story_context": "Ahmed is one month into his supervisor role. During his first week, he had to navigate several team conversations using natural English — bringing up issues, following up with colleagues, and sorting out problems. He didn't realize how many phrasal verbs he was already using. This lesson identifies the eight most essential ones, groups them so they're easy to remember, and gives Ahmed the tools to use them confidently in any professional conversation.",
+  "objectives": [
+    "Understand and use 8 essential professional phrasal verbs",
+    "Distinguish separable from inseparable phrasal verbs",
+    "Group phrasal verbs by theme: problem-solving and professional workflow",
+    "Use phrasal verbs naturally in workplace conversations"
+  ],
+  "target_phrases": [
+    "Can you go over this report with me?",
+    "Let's sort out the scheduling issue.",
+    "I need to follow up with the client.",
+    "Please fill out this form before Friday.",
+    "Let's set up a time to meet.",
+    "I'd like to bring up a concern.",
+    "I'm trying to figure out the problem."
+  ],
+  "dialogue": {
+    "title": "Ahmed's First Week as Supervisor",
+    "context": "Ahmed has just been promoted to supervisor. During his first week, natural conversations with his team are full of phrasal verbs — words and particles that work together to create new meanings.",
+    "lines": [
+      {
+        "speaker": "Team Member (Marcus)",
+        "text": "Ahmed, I wanted to bring up something before our meeting starts. There's a scheduling conflict on Thursday."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Thanks, Marcus. Let's sort that out now. Can you find out what the conflict is exactly?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Rosa is taking over the Thursday shift from Carlos, but the new inventory system isn't set up yet."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Okay. I'll go over the setup checklist today and figure out what's missing. Can you follow up with IT?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Sure. Should I put off the Thursday handover until the system is ready?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "No, let's not put it off. Rosa, can you show up 30 minutes early on Thursday so we can go over the process together?"
+      },
+      {
+        "speaker": "Rosa",
+        "text": "Of course. I also need to hand in my timesheet — is there a form I need to fill out?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, fill out the blue form at the front desk. I'll look it up in the employee handbook if you're not sure which one."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "Got it. Also, do I get along with everyone on the Thursday team? I don't know all of them."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "You'll be fine — they're great to work with. Just carry out your normal duties and introduce yourself. If any problems come up, bring them up with me right away."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Should I set up a quick team meeting so everyone can get to know Rosa?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Good idea. Set it up for Wednesday afternoon. And Marcus — I appreciate you bringing this up early. It's much easier to sort out problems before they become crises."
+      }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Separable phrasal verbs: fill out, set up, figure out, bring up, sort out",
+      "pattern": "SEPARABLE: verb + object + particle OR verb + particle + object. When object is a pronoun, it MUST go in the middle.",
+      "examples": [
+        "fill out the form → fill the form out → fill it out ✓ (NOT: fill out it ✗)",
+        "set up the meeting → set the meeting up → set it up ✓",
+        "bring up the issue → bring the issue up → bring it up ✓",
+        "sort out the problem → sort the problem out → sort it out ✓",
+        "figure out the cause → figure the cause out → figure it out ✓"
+      ],
+      "your_turn": "Say: 'Can you set up a meeting? I need to bring up something important.'",
+      "prompts": [
+        {
+          "sentence": "Please fill ___ the form before leaving.",
+          "answer": "out"
+        },
+        {
+          "sentence": "Can you set ___ a meeting for Thursday afternoon?",
+          "answer": "up"
+        },
+        {
+          "sentence": "Let's sort ___ the scheduling problem before Monday.",
+          "answer": "out"
+        }
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Inseparable phrasal verbs: go over, find out, follow up",
+      "pattern": "INSEPARABLE: verb + particle + object (cannot split). Even pronouns come after the whole phrasal verb.",
+      "examples": [
+        "go over the report → go over it ✓ (NOT: go it over ✗)",
+        "find out the reason → find out about it ✓ (NOT: find it out ✗ — find out is inseparable)",
+        "follow up with the client → follow up with them ✓ (intransitive — object follows the preposition)",
+        "Let's go over the checklist before we begin. (always together)",
+        "I need to find out why the delivery was late. (inseparable before a clause)"
+      ],
+      "your_turn": "Say: 'I'll go over the report and follow up with you tomorrow.'",
+      "prompts": [
+        {
+          "sentence": "Let's go ___ the checklist before we start work.",
+          "answer": "over"
+        },
+        {
+          "sentence": "I need to find ___ why the shipment was delayed.",
+          "answer": "out"
+        },
+        {
+          "sentence": "She said she would follow ___ with the supplier.",
+          "answer": "up"
+        }
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "8 core professional phrasal verbs in context",
+      "pattern": "Theme 1 — Problem-solving: sort out, find out, figure out, go over | Theme 2 — Workflow: bring up, follow up, set up, fill out",
+      "examples": [
+        "sort out — We need to sort out the scheduling conflict before Thursday. (resolve/organize)",
+        "find out — I'll find out when the new shipment is expected. (discover information)",
+        "figure out — I'm trying to figure out why the numbers don't match. (understand/solve by thinking)",
+        "go over — Let's go over the safety checklist together before we start. (review carefully)",
+        "bring up — Please bring up any concerns at the start of the meeting. (raise/mention a topic)",
+        "follow up — I'll follow up with the client tomorrow if we don't hear back. (contact again to check)",
+        "set up — Can you set up a meeting for Thursday? (arrange/organize)",
+        "fill out — You need to fill out this form to request time off. (complete a document)"
+      ],
+      "your_turn": "Use three of these eight phrasal verbs in sentences about a real situation at work or school.",
+      "prompts": [
+        {
+          "sentence": "I need to ___ out why the numbers don't match. (understand/solve)",
+          "answer": "figure"
+        },
+        {
+          "sentence": "She said she would ___ up with the supplier by Friday.",
+          "answer": "follow"
+        },
+        {
+          "sentence": "Let's ___ up a call to go over the report together.",
+          "answer": "set"
+        }
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit10-lesson6-listen1.mp3",
+      "transcript": "Phrasal verbs combine a base verb with one or two particles — prepositions or adverbs — to create a new meaning. For example, 'give up' has nothing to do with 'giving' or 'up' literally — it means to stop trying. Many phrasal verbs are separable: the object can come between the verb and particle. 'Fill out the form' and 'fill the form out' are both correct. But pronouns must go in the middle: 'fill it out', not 'fill out it'. Inseparable phrasal verbs cannot be split: 'look after the children', never 'look the children after'.",
+      "question": "Where must pronouns go with separable phrasal verbs?",
+      "options": [
+        "After the particle",
+        "Before the verb",
+        "Between the verb and particle",
+        "It doesn't matter"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit10-lesson6-listen2.mp3",
+      "transcript": "Why are phrasal verbs so common in English? They developed from Old English and Germanic roots, making them feel natural and informal compared to their Latin-based equivalents. 'Put off' sounds more casual than 'postpone'. 'Find out' is more conversational than 'discover'. In professional American settings, phrasal verbs appear constantly in spoken language and emails. Learning phrasal verbs helps you sound natural rather than overly formal, and they appear frequently in meetings, presentations, and workplace conversations.",
+      "question": "Why do phrasal verbs feel more casual than their equivalents?",
+      "options": [
+        "They are newer words",
+        "They come from Old English/Germanic roots, while alternatives are Latin-based",
+        "They are shorter",
+        "They are used only in conversation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit10-lesson6-listen3.mp3",
+      "transcript": "Some common particles and their general meanings: 'up' often suggests completion or improvement — finish up, clean up, set up. 'Out' suggests discovery, distribution, or completion — find out, hand out, carry out. 'Over' suggests review or repetition — go over, think over, look over. 'Off' suggests delay or departure — put off, take off, set off. These patterns aren't rules — they're tendencies. The best way to learn phrasal verbs is in context, through reading and listening to real English, noting how each one is used.",
+      "question": "What does the particle 'up' often suggest?",
+      "options": [
+        "Discovery",
+        "Delay",
+        "Completion or improvement",
+        "Review"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe your typical workday or school day using as many phrasal verbs from this lesson as you can (aim for 6+). Record for 40 seconds.",
+      "example": "Let me tell you about a typical day as a supervisor. I show up at 7am and first go over the overnight reports to find out if anything needs attention. Then I set up the morning briefing for the team. During the meeting, I bring up any issues from the previous day and we figure out solutions together. I follow up with suppliers who haven't responded, and I fill out any required daily forms before lunch. In the afternoon, I sort out any problems that come up. I hand in my own supervisor report before leaving, and I never put off things that need to be done today.",
+      "min_seconds": 40,
+      "target_language": "english",
+      "sentence_starters": [
+        "First, I show up at ... and go over ...",
+        "During [the meeting / my shift], I bring up ... and sort out ...",
+        "I always follow up with ... and never put off ..."
+      ]
+    },
+    {
+      "id": "speak-2",
+      "prompt": "A new employee is starting tomorrow. Give them 5 pieces of advice using phrasal verbs. For each one, explain what the phrasal verb means. Record for 35 seconds.",
+      "example": "Welcome advice for your first day. First, show up five minutes early — that means arrive before your scheduled start time, not exactly on time. Second, go over any training materials the night before — that means review them carefully. Third, don't put off questions — ask right away if you're unsure about something; putting it off means delaying. Fourth, try to get along with everyone — having good relationships is essential here. Fifth, if a problem comes up, bring it up with your supervisor immediately — don't wait. Those are my top tips for your first week.",
+      "min_seconds": 35,
+      "target_language": "english",
+      "sentence_starters": [
+        "First, show up [on time / early] — that means ...",
+        "Second, go over ... before your first day — this means ...",
+        "If a problem comes up, bring it up with ... right away."
+      ]
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a short email from Ahmed to his team (80-100 words) about next week's schedule. Use at least 6 phrasal verbs from this lesson naturally in the email.",
+      "min_words": 80,
+      "example": "Subject: Next Week's Schedule and Updates\n\nHi team,\n\nI wanted to bring up a few important points for next week. Please show up 15 minutes early on Monday for a brief orientation. I've set up a shared calendar — can you all fill out your availability by Thursday? Rosa will take over the inventory process and Marcus will help her go over the procedures. If any issues come up, please follow up with me directly — don't put off reporting problems.\n\nFinally, hand in your timesheets by Friday noon.\n\nThanks,\nAhmed",
+      "rubric": [
+        "Use at least 6 phrasal verbs from this lesson naturally in the text — not forced",
+        "Write a real workplace email format (subject line, greeting, body, sign-off)",
+        "Separate separable phrasal verbs correctly when using pronouns (fill it out, not fill out it)"
+      ]
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write definitions and example sentences for all 8 phrasal verbs from this lesson. For each, write: 1) the phrasal verb, 2) its meaning in one sentence, 3) an example in a workplace context.",
+      "min_words": 100,
+      "example": "1. sort out — to resolve or organize a problem or situation.\nExample: We need to sort out the delivery schedule before the client calls.\n\n2. find out — to discover or learn information you didn't know.\nExample: I found out that the shipment had been delayed by two days.\n\n3. figure out — to understand or solve something through thinking.\nExample: I'm trying to figure out why the inventory count doesn't match our records.\n\n4. go over — to review or check something carefully.\nExample: Let's go over the checklist before the inspection.\n\n5. bring up — to mention a topic or issue in conversation.\nExample: Ahmed brought up the staffing problem in the meeting.\n\n6. follow up — to contact someone again to check on a previous matter.\nExample: She followed up with the supplier three times before getting a response.\n\n7. set up — to arrange or organize something.\nExample: Can you set up a meeting for Thursday afternoon?\n\n8. fill out — to complete a form by writing the required information.\nExample: Please fill out the incident report before you leave today.",
+      "rubric": [
+        "Define all 8 phrasal verbs — definition must capture the actual meaning, not just translate word for word",
+        "Each workplace example should use the verb naturally in a real sentence",
+        "Note whether each verb is separable or inseparable (e.g. 'fill it out' ✓ vs 'go over it' ✓ 'go it over' ✗)"
+      ]
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Separable vs Inseparable Phrasal Verbs",
+      "explanation": "Separable phrasal verbs allow the object between verb and particle; with pronouns it must go in the middle. Inseparable phrasal verbs keep the object after the full verb+particle.",
+      "examples": [
+        "SEPARABLE: fill out the form / fill the form out / fill it out (pronoun must be in middle)",
+        "SEPARABLE: set up the meeting / set the meeting up / set it up",
+        "SEPARABLE: bring up the issue / bring the issue up / bring it up",
+        "INSEPARABLE: go over the report / go over it (NOT: go it over)",
+        "INSEPARABLE: find out the reason / find out about it (NOT: find it out)"
+      ],
+      "practice": [
+        {
+          "sentence": "Please fill ___ the form before leaving.",
+          "blank": "out",
+          "options": [
+            "out",
+            "in",
+            "up"
+          ]
+        },
+        {
+          "sentence": "I need to go ___ these figures with you.",
+          "blank": "over",
+          "options": [
+            "over",
+            "up",
+            "out"
+          ]
+        },
+        {
+          "sentence": "Let's sort ___ the problem before the meeting.",
+          "blank": "out",
+          "options": [
+            "out",
+            "up",
+            "in"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Pronoun Placement with Separable Phrasal Verbs",
+      "explanation": "When using a pronoun (it, them, him, her) with a separable phrasal verb, the pronoun MUST go between the verb and particle.",
+      "examples": [
+        "Fill out the form → Fill it out ✓ (NOT: fill out it ✗)",
+        "Set up the meeting → Set it up ✓ (NOT: set up it ✗)",
+        "Bring up the issue → Bring it up ✓ (NOT: bring up it ✗)",
+        "Sort out the problem → Sort it out ✓ (NOT: sort out it ✗)",
+        "Figure out the answer → Figure it out ✓ (NOT: figure out it ✗)"
+      ],
+      "practice": [
+        {
+          "sentence": "Can you set up the call? → Can you set ___ up?",
+          "blank": "it",
+          "options": [
+            "it",
+            "up it",
+            "out it"
+          ]
+        },
+        {
+          "sentence": "I need to sort out the issue → I need to sort ___ out.",
+          "blank": "it",
+          "options": [
+            "it",
+            "out it",
+            "them out"
+          ]
+        },
+        {
+          "sentence": "Ahmed brought up two concerns → Ahmed brought ___ up.",
+          "blank": "them",
+          "options": [
+            "them",
+            "up them",
+            "it up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Two Themes: Problem-solving and Workflow",
+      "explanation": "Grouping phrasal verbs by meaning helps you remember and use them. These 8 verbs fall into two clear workplace themes.",
+      "examples": [
+        "PROBLEM-SOLVING: sort out (resolve), find out (discover), figure out (understand), go over (review)",
+        "WORKFLOW: bring up (raise), follow up (contact again), set up (arrange), fill out (complete a form)",
+        "Problem-solving example: I need to find out what caused the error and figure out a solution.",
+        "Workflow example: Can you set up a meeting so I can bring up the scheduling issue?",
+        "Combined: After you go over the report, follow up with me and we'll sort out any problems."
+      ],
+      "practice": [
+        {
+          "sentence": "I need to ___ out why the system crashed. (discover/understand — problem-solving)",
+          "blank": "figure",
+          "options": [
+            "figure",
+            "set",
+            "bring"
+          ]
+        },
+        {
+          "sentence": "Let's ___ up a time to go over the contract. (arrange — workflow)",
+          "blank": "set",
+          "options": [
+            "set",
+            "sort",
+            "find"
+          ]
+        },
+        {
+          "sentence": "I'll ___ up with the client tomorrow — I haven't heard back. (contact again — workflow)",
+          "blank": "follow",
+          "options": [
+            "follow",
+            "bring",
+            "sort"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Which sentence is correct? (Separable phrasal verb with pronoun)",
+        "options": [
+          "Please fill out it.",
+          "Please fill it out.",
+          "Please it fill out.",
+          "Please out fill it."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What does 'bring up' mean in 'She brought up a good point'?",
+        "options": [
+          "Carry something upward",
+          "Raise or mention a topic",
+          "Improve something",
+          "Arrive early"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What does 'sort out' mean?",
+        "options": [
+          "Postpone",
+          "Submit a document",
+          "Resolve or organize a problem",
+          "Discover information"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Which particle often suggests review or repetition?",
+        "options": [
+          "Off",
+          "Over",
+          "Up",
+          "Out"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "matching",
+        "question": "Match the phrasal verb to its meaning:",
+        "pairs": [
+          {
+            "left": "sort out",
+            "right": "resolve a problem"
+          },
+          {
+            "left": "follow up",
+            "right": "contact again to check"
+          },
+          {
+            "left": "figure out",
+            "right": "understand/solve by thinking"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "With inseparable phrasal verbs, the object can go between the verb and particle.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "I need to ___ ___ the client tomorrow — I haven't heard back yet. (contact again)",
+        "correct": "follow up with",
+        "accept": [
+          "follow up with",
+          "follow up on"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "Can you ___ ___ a meeting for Thursday? (arrange)",
+        "correct": "set up",
+        "accept": [
+          "set up"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "multiple-choice",
+        "question": "What does 'go over' mean?",
+        "options": [
+          "Move across something",
+          "Review carefully",
+          "Leave the room",
+          "Complete a task"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Which sentence uses 'figure out' correctly?",
+        "options": [
+          "I need to figure out the answer.",
+          "I need to figure the out answer.",
+          "I need to out figure the answer.",
+          "I need the answer to figure out."
+        ],
+        "correct": 0,
+        "points": 10
+      },
+      {
+        "id": "q11",
+        "type": "open-ended",
+        "question": "Find and fix the error: 'Please sort out it before the meeting.'",
+        "correct": "Please sort it out before the meeting.",
+        "accept": [
+          "Please sort it out before the meeting."
+        ],
+        "points": 10
+      },
+      {
+        "id": "q12",
+        "type": "open-ended",
+        "question": "Find and fix the error: 'Let me go the report over with you.'",
+        "correct": "Let me go over the report with you.",
+        "accept": [
+          "Let me go over the report with you."
+        ],
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "sort out",
+      "definition": "resolve or organize a problem or situation",
+      "example": "We need to sort out the scheduling conflict before Thursday."
+    },
+    {
+      "word": "find out",
+      "definition": "discover information about something",
+      "example": "I need to find out when the delivery is arriving."
+    },
+    {
+      "word": "figure out",
+      "definition": "understand or solve something through thinking",
+      "example": "I'm trying to figure out why the numbers don't match."
+    },
+    {
+      "word": "go over",
+      "definition": "review something carefully",
+      "example": "Let's go over the checklist before we start."
+    },
+    {
+      "word": "bring up",
+      "definition": "raise or mention a topic in conversation",
+      "example": "Please bring up any concerns at the meeting."
+    },
+    {
+      "word": "follow up",
+      "definition": "contact someone again to check on a previous matter",
+      "example": "I'll follow up with the supplier if we don't hear back."
+    },
+    {
+      "word": "set up",
+      "definition": "arrange or organize something (a meeting, system, process)",
+      "example": "Can you set up a call for Thursday afternoon?"
+    },
+    {
+      "word": "fill out",
+      "definition": "complete a form or document by writing in the required information",
+      "example": "You need to fill out this form to request time off."
+    },
+    {
+      "word": "separable",
+      "definition": "can be split apart; the object can go between verb and particle",
+      "example": "Fill out is separable: fill it out."
+    },
+    {
+      "word": "inseparable",
+      "definition": "cannot be split; the object must follow the complete phrasal verb",
+      "example": "Go over is inseparable: go over it (not go it over)."
+    }
+  ],
+  "cultural_notes": [
+    "Phrasal verbs are one of the most challenging aspects of English for non-native speakers because their meanings are often not predictable from the individual words.",
+    "Americans use phrasal verbs constantly in informal and semi-formal speech — knowing them is essential for sounding natural in workplace conversations.",
+    "In American workplace culture, knowing phrases like 'follow up', 'sort out', and 'bring up' is especially important for professional communication and meetings.",
+    "Some phrasal verbs have formal equivalents: 'resolve' sounds more formal than 'sort out', 'discover' is more formal than 'find out' — but the phrasal verbs feel more natural in everyday American workplace speech.",
+    "Phrasal verbs often appear in American business idioms and email subject lines: 'Following up on...', 'Checking in on...', 'Circling back on...' are extremely common in American professional email culture."
+  ]
+}

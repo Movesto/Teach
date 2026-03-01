@@ -1,0 +1,589 @@
+{
+  "id": "lesson-76",
+  "unit_id": 9,
+  "lesson_number": 9,
+  "title": "Reported Speech",
+  "level": "advanced",
+  "estimated_time": 45,
+  "story_context": "Ahmed has just come out of a meeting with Director Kim that Rosa missed. As he catches her up on what was discussed, Rosa notices something interesting: Ahmed is automatically shifting tenses and changing phrases as he reports what the director said. Without realizing it, he has been using reported speech all along. This lesson makes that instinct conscious and gives Ahmed the tools to report workplace communication accurately.",
+  "objectives": [
+    "Use 'say' and 'tell' correctly in reported speech",
+    "Apply tense backshift when reporting past statements",
+    "Report questions, commands, and requests accurately",
+    "Handle time expressions correctly in reported speech"
+  ],
+  "target_phrases": [
+    "She said that the meeting would start at noon.",
+    "He told me that the project had been approved.",
+    "She asked whether I could attend.",
+    "He said he would send the report.",
+    "The manager told us to submit the forms.",
+    "She mentioned that she had already finished.",
+    "He explained that the deadline had changed."
+  ],
+  "dialogue": {
+    "title": "Reporting the Manager's Instructions",
+    "context": "Ahmed has just come out of a meeting with his manager, Director Kim. His coworker Rosa missed the meeting and asks Ahmed what was discussed.",
+    "lines": [
+      {
+        "speaker": "Rosa",
+        "text": "Ahmed, I missed Director Kim's meeting. What did she say?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "She said that the deadline for the inventory report had been moved. She told us it was now due on Friday instead of next Monday."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "Really? She told you it was due on Friday? That's only two days away!"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I know. She also mentioned that she had already emailed everyone, but she wanted to tell us in person to make sure we understood."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "What else? Did she talk about the new software system?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes. She explained that the new system would be installed the following week. She said it would replace the current spreadsheet process."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "Did she say whether there would be training?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "She asked whether anyone had experience with the software. Then she told us she would arrange training sessions for everyone who needed them."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "What about the budget meeting? Was that discussed?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "She said the budget meeting had been rescheduled. She told the team not to worry — she would send a new calendar invite that afternoon."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "I notice you're saying 'she said' and 'she told us' — is there a difference?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Good catch! 'Say' doesn't need a person after it — 'she said the deadline had changed.' But 'tell' needs a person — 'she told us the deadline had changed.' You can't say 'she told the deadline had changed.'"
+      },
+      {
+        "speaker": "Rosa",
+        "text": "And I notice you changed the tenses — 'is due' became 'was due', 'will' became 'would'. Why?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "That's tense backshift — because the manager spoke in the past, everything shifts back one tense when we report it. Present becomes past, will becomes would, can becomes could."
+      }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Tense backshift in reported statements",
+      "pattern": "Direct: 'I am ready.' → Reported: She said (that) she was ready. | Direct: 'I will help.' → Reported: He said he would help.",
+      "examples": [
+        "'The meeting starts at 9.' → She said the meeting started at 9.",
+        "'I can attend tomorrow.' → He said he could attend the next day.",
+        "'We have finished the report.' → They said they had finished the report.",
+        "'I will send the documents.' → She said she would send the documents.",
+        "'The system is being updated.' → He explained that the system was being updated."
+      ],
+      "your_turn": "Report this: 'The meeting starts at 9 and everyone will attend.'",
+      "prompts": [
+        {
+          "sentence": "Direct: 'I am ready.' → She said she ___ ready.",
+          "answer": "was"
+        },
+        {
+          "sentence": "Direct: 'We will finish soon.' → They said they ___ finish soon.",
+          "answer": "would"
+        },
+        {
+          "sentence": "Direct: 'I have submitted it.' → He said he ___ submitted it.",
+          "answer": "had"
+        }
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Say vs Tell",
+      "pattern": "SAY: say (that)... — no person after say | TELL: tell + person + (that)... — always needs a person",
+      "examples": [
+        "She said (that) the meeting was postponed. ✓ | She told that the meeting was postponed. ✗",
+        "He told me (that) he would be late. ✓ | He said me (that) he would be late. ✗",
+        "The manager said the policy had changed. ✓",
+        "The manager told the team the policy had changed. ✓",
+        "She told us to submit our reports by Friday. ✓ (tell + person + infinitive for commands)"
+      ],
+      "your_turn": "Use 'told' in a sentence: 'The manager told [someone] that the deadline had changed.'",
+      "prompts": [
+        {
+          "sentence": "She ___ that the meeting was cancelled. (no person needed after this verb)",
+          "answer": "said"
+        },
+        {
+          "sentence": "He ___ me the project had been approved. (person required after this verb)",
+          "answer": "told"
+        },
+        {
+          "sentence": "The manager ___ us to submit the forms by Friday. (command)",
+          "answer": "told"
+        }
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Reporting questions and commands",
+      "pattern": "Reported questions: asked + if/whether (yes/no) or asked + wh-word (wh-questions) | Reported commands: told + person + to + infinitive",
+      "examples": [
+        "'Do you have experience?' → She asked whether I had experience. (yes/no → whether/if)",
+        "'When will you finish?' → He asked when I would finish. (wh-question — use wh-word)",
+        "'Please submit the form.' → She told us to submit the form. (command → told + to infinitive)",
+        "'Can you come to the meeting?' → She asked if I could come to the meeting.",
+        "'Don't be late.' → He told us not to be late. (negative command → told + not to)"
+      ],
+      "your_turn": "Report: 'Do you have experience?' and 'When will you finish?'",
+      "prompts": [
+        {
+          "sentence": "Direct: 'Do you understand?' → She asked ___ I understood.",
+          "answer": "if"
+        },
+        {
+          "sentence": "Direct: 'Where is the report?' → He asked where the report ___.",
+          "answer": "was"
+        },
+        {
+          "sentence": "Direct: 'Please sit down.' → She ___ us to sit down.",
+          "answer": "told"
+        }
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson9-listen1.mp3",
+      "transcript": "Rosa: 'So what did Director Kim say in the meeting?' Ahmed: 'She said the new inventory system would be installed next month. She mentioned that it would replace the current spreadsheet process — she said everyone would need to adjust their workflow.' Rosa: 'So she said «will» — but you said «would»?' Ahmed: 'Exactly. She said «The system will be installed.» But when I report what she said, it becomes «would» — because she said it in the past, and I'm reporting it now.' Rosa: 'Like a tense shift.' Ahmed: 'Right. «Will» in direct speech becomes «would» in reported speech.'",
+      "question": "What happens to 'will' in reported speech?",
+      "options": [
+        "It stays as 'will'",
+        "It becomes 'would'",
+        "It becomes 'should'",
+        "It is removed"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson9-listen2.mp3",
+      "transcript": "Marcus [on phone]: 'Hey Ahmed, I missed the briefing. What did Director Kim say?' Ahmed: 'She said training would start the following Monday — she said «next Monday» in the meeting, but that's now «the following Monday» when I report it.' Marcus: 'She said the following Monday? So «tomorrow» would become «the next day»?' Ahmed: 'Exactly. «Today» becomes «that day». «This week» becomes «that week». «Tomorrow» becomes «the next day» or «the following day». The time shifts because she spoke yesterday — I'm reporting today.' Marcus: 'That makes sense. What else?' Ahmed: 'She said the materials had already been sent — she used «yesterday», which became «the day before» in my report.'",
+      "question": "What does 'tomorrow' become in reported speech?",
+      "options": [
+        "Tomorrow",
+        "Today",
+        "The next day",
+        "The day before"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson9-listen3.mp3",
+      "transcript": "HR Manager: 'So I spoke with the employee this morning about the complaint. I asked her whether she felt comfortable continuing in her current role. She said she did, but she asked what process had been followed when the schedule was changed. I told her that the standard procedure had been applied. She also asked if her supervisor had been informed. I told her he had been. She asked what steps would be taken going forward, and I told her we would review the case within two weeks.' Director Kim: 'Good. And your recommendation?' HR: 'I asked her if she would be willing to meet with the team lead. She said she would if the timing worked.'",
+      "question": "What do we use for reported yes/no questions?",
+      "options": [
+        "That",
+        "Which",
+        "If or whether",
+        "What"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Your colleague missed a team meeting. Report what your manager said using reported speech. Include at least one command, one question the manager asked, and two statements. Record for 35 seconds.",
+      "example": "Let me fill you in on what the manager said. She told us that the quarterly targets had been revised and that we would need to increase our output by 15% over the next month. She asked whether anyone had ideas for improving efficiency, and several team members suggested better scheduling. She explained that the new tracking software would be introduced the following week. She also told us not to share the updated targets with clients yet — she said she would announce the changes officially the next day. She mentioned that she had already spoken with senior management and that they had approved the new plan.",
+      "min_seconds": 35,
+      "target_language": "english",
+      "sentence_starters": [
+        "She/He told us that ...",
+        "The manager explained that ... and that ...",
+        "She/He asked whether ... She/He also told us to ..."
+      ]
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Report a conversation you had recently — with a friend, family member, or colleague. Use reported statements, a question, and a command or request. Record for 30 seconds.",
+      "example": "I spoke with my brother last night. He told me that he had started a new job and that he was really enjoying it. He said the commute was long but that his colleagues were friendly. He asked me whether I had seen our parents recently, and I told him I had visited them the weekend before. He mentioned that he would come home for the holidays and asked if I could help him plan a small dinner. He also told me not to tell our mother about the new job yet — he said he wanted to surprise her himself when he visited.",
+      "min_seconds": 30,
+      "target_language": "english",
+      "sentence_starters": [
+        "I spoke with [my colleague / a friend / my manager] recently. They told me that ...",
+        "They mentioned that ... and that ...",
+        "They asked me whether ... They also told me to ..."
+      ]
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Convert this dialogue to reported speech in a paragraph (80-100 words). Write as if you are telling a colleague what was said.\n\nManager: 'The training will start at 9am tomorrow. Everyone must attend. Can you help set up the room today? The previous training went very well.'\nAhmed: 'Yes, I can help. Will there be materials we need to prepare?'\nManager: 'Yes. Please print the handouts this afternoon.'",
+      "min_words": 80,
+      "example": "The manager told us that the training would start at 9am the following day and that everyone had to attend. She asked Ahmed if he could help set up the room that day. She also mentioned that the previous training had gone very well. Ahmed replied that he could help and asked whether there were any materials they needed to prepare. The manager confirmed that there were and told him to print the handouts that afternoon.",
+      "rubric": [
+        "Apply tense backshift correctly throughout — no present tense verbs in your reported version",
+        "Use both 'said' and 'told' correctly (told needs a person object; said does not)",
+        "Change time expressions where needed (tomorrow → the following day, today → that day)"
+      ]
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a short email (80-100 words) to a colleague who missed a meeting. Use reported speech to summarize what was discussed — include at least 3 statements, 1 question that was raised, and 1 instruction the manager gave.",
+      "min_words": 80,
+      "example": "Hi Marcus,\n\nYou missed today's team meeting, so here's a summary. Director Kim said that the project deadline had been extended by one week. She explained that the client had requested additional revisions and that the team would need to incorporate them before the final submission. Someone asked whether the budget would be affected, and the director said it would not change. She also told everyone to update their task lists in the shared system by end of day Thursday. Let me know if you have questions.\n\nBest,\nAhmed",
+      "rubric": [
+        "Include at least 3 reported statements, 1 reported question (using if/whether or a wh-word), and 1 reported instruction (told + person + to + verb)",
+        "Vary your reporting verbs — use said, told, explained, mentioned, asked (not just 'said' repeatedly)",
+        "Use proper email format: greeting, body paragraphs, and sign-off"
+      ]
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Tense Backshift Chart",
+      "explanation": "When reporting past speech, shift all tenses one step back in time.",
+      "examples": [
+        "Present simple → Past simple: 'I work here.' → He said he worked there.",
+        "Present continuous → Past continuous: 'I am working.' → She said she was working.",
+        "Past simple → Past perfect: 'I finished.' → He said he had finished.",
+        "Will → Would: 'I will come.' → She said she would come.",
+        "Can → Could: 'I can help.' → He said he could help."
+      ],
+      "practice": [
+        {
+          "sentence": "Direct: 'I am ready.' → Reported: She said she ___ ready.",
+          "blank": "was",
+          "options": [
+            "was",
+            "is",
+            "will be"
+          ]
+        },
+        {
+          "sentence": "Direct: 'I will send it.' → Reported: He said he ___ send it.",
+          "blank": "would",
+          "options": [
+            "will",
+            "would",
+            "could"
+          ]
+        },
+        {
+          "sentence": "Direct: 'We have finished.' → Reported: They said they ___ finished.",
+          "blank": "had",
+          "options": [
+            "have",
+            "had",
+            "has"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Say vs Tell: Core Rules",
+      "explanation": "'Say' does not need a person object. 'Tell' always needs a person object. Both can introduce reported clauses.",
+      "examples": [
+        "She said (that) the meeting was cancelled. ✓ (no person after say)",
+        "She told me (that) the meeting was cancelled. ✓ (person 'me' after tell)",
+        "She told (that) the meeting was cancelled. ✗ (missing person after tell)",
+        "She said me the meeting was cancelled. ✗ (no person directly after say)",
+        "He told us to arrive early. ✓ (tell + person + to + infinitive for commands)"
+      ],
+      "practice": [
+        {
+          "sentence": "She ___ that she would be late.",
+          "blank": "said",
+          "options": [
+            "said",
+            "told",
+            "spoke"
+          ]
+        },
+        {
+          "sentence": "He ___ me the project had been approved.",
+          "blank": "told",
+          "options": [
+            "said",
+            "told",
+            "talked"
+          ]
+        },
+        {
+          "sentence": "The manager ___ us to submit the forms by Friday.",
+          "blank": "told",
+          "options": [
+            "said",
+            "told",
+            "spoke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Reported Questions: Word Order and Conjunctions",
+      "explanation": "Reported questions use normal (non-inverted) word order and no question mark. Use 'if/whether' for yes/no questions and the wh-word for open questions.",
+      "examples": [
+        "Direct: 'Is the report ready?' → Reported: She asked if the report was ready.",
+        "Direct: 'When will you finish?' → Reported: He asked when I would finish.",
+        "Direct: 'Can you help?' → Reported: She asked whether I could help.",
+        "Direct: 'Why did you arrive late?' → Reported: He asked why I had arrived late."
+      ],
+      "practice": [
+        {
+          "sentence": "Direct: 'Do you understand?' → She asked ___ I understood.",
+          "blank": "if",
+          "options": [
+            "if",
+            "that",
+            "what"
+          ]
+        },
+        {
+          "sentence": "Direct: 'What time does it start?' → He asked ___ time it started.",
+          "blank": "what",
+          "options": [
+            "what",
+            "if",
+            "that"
+          ]
+        },
+        {
+          "sentence": "Direct: 'Can she come?' → They asked ___ she could come.",
+          "blank": "whether",
+          "options": [
+            "whether",
+            "that",
+            "who"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Choose the correct reported speech: Direct: 'I am tired.'",
+        "options": [
+          "She said she is tired.",
+          "She said she was tired.",
+          "She told she was tired.",
+          "She said she were tired."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "Which sentence uses 'tell' correctly?",
+        "options": [
+          "He told that he would come.",
+          "He told the news to us.",
+          "He told us he would come.",
+          "He told he was ready."
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What does 'will' become in reported speech?",
+        "options": [
+          "Will",
+          "Would",
+          "Should",
+          "Could"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Reported question: Direct: 'Where is the report?' → He asked ___",
+        "options": [
+          "where is the report?",
+          "where the report was.",
+          "where was the report.",
+          "that where the report was."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "In reported questions, the subject and verb are inverted (like in direct questions).",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "'Say' can be directly followed by a person object (e.g., 'she said me...').",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "Direct: 'I can help.' → Reported: He said he ___ help.",
+        "correct": "could",
+        "accept": [
+          "could"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "Use if/whether or a wh-word: Direct: 'Do you understand?' → She asked ___ I understood.",
+        "correct": "if",
+        "accept": [
+          "if",
+          "whether"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match direct speech tense to reported speech tense:",
+        "pairs": [
+          {
+            "left": "Present simple",
+            "right": "Past simple"
+          },
+          {
+            "left": "Will",
+            "right": "Would"
+          },
+          {
+            "left": "Past simple",
+            "right": "Past perfect"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Reported command: Direct: 'Please sit down.' → The manager ___",
+        "options": [
+          "said us to sit down.",
+          "told us to sit down.",
+          "asked sit down.",
+          "told to sit down."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q11",
+        "type": "open-ended",
+        "question": "Find and fix the grammar error: 'She told that the meeting will be cancelled.'",
+        "correct": "She said that the meeting would be cancelled.",
+        "accept": [
+          "She said that the meeting would be cancelled.",
+          "She told us that the meeting would be cancelled."
+        ],
+        "points": 10
+      },
+      {
+        "id": "q12",
+        "type": "open-ended",
+        "question": "Find and fix the grammar error: 'He asked where is the document.'",
+        "correct": "He asked where the document was.",
+        "accept": [
+          "He asked where the document was."
+        ],
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "reported speech",
+      "definition": "reporting what someone said without using their exact words",
+      "example": "She said the meeting had been cancelled — this is reported speech."
+    },
+    {
+      "word": "direct speech",
+      "definition": "quoting someone's exact words, usually in quotation marks",
+      "example": "'I am ready,' he said — this is direct speech."
+    },
+    {
+      "word": "tense backshift",
+      "definition": "shifting verb tenses back when reporting past speech",
+      "example": "'I will come' becomes 'he said he would come' after tense backshift."
+    },
+    {
+      "word": "conjunction",
+      "definition": "connecting word; 'that', 'if', 'whether' introduce reported clauses",
+      "example": "She said that she had finished."
+    },
+    {
+      "word": "inversion",
+      "definition": "reversing subject-verb order (used in direct questions but NOT in reported questions)",
+      "example": "Direct: 'Are you ready?' — no inversion in reported: He asked if I was ready."
+    },
+    {
+      "word": "command",
+      "definition": "an instruction telling someone to do something",
+      "example": "The manager told us to submit the forms."
+    },
+    {
+      "word": "request",
+      "definition": "politely asking someone to do something",
+      "example": "She asked if I could help with the setup."
+    },
+    {
+      "word": "summarize",
+      "definition": "give the main points of something concisely",
+      "example": "Ahmed summarized what the manager had said."
+    },
+    {
+      "word": "backshift",
+      "definition": "moving a verb tense to an earlier time in reported speech",
+      "example": "'Is' backshifts to 'was' in reported speech."
+    },
+    {
+      "word": "clause",
+      "definition": "a group of words with a subject and verb",
+      "example": "She said that the report was ready — 'that the report was ready' is a reported clause."
+    }
+  ],
+  "cultural_notes": [
+    "In American professional settings, accurately reporting what was said in meetings is an important skill — miscommunicating a manager's instructions can cause real problems.",
+    "Americans often use reported speech without the word 'that': 'He said the meeting was cancelled' sounds perfectly natural without 'that'.",
+    "Email summaries after meetings (often called 'meeting minutes' or 'follow-up emails') are standard American workplace practice and rely heavily on reported speech.",
+    "In American conversation, people sometimes use the present tense to report current beliefs: 'She says she's coming.' Backshift is used when clearly reporting past speech.",
+    "The phrase 'I was told...' (passive reported speech) is commonly used in American workplaces to share information without revealing the source or to soften news."
+  ]
+}

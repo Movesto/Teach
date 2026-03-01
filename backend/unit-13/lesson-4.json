@@ -1,0 +1,272 @@
+{
+  "id": "lesson-84",
+  "unit_id": 13,
+  "lesson_number": 4,
+  "title": "Authentic Speech — Reductions, Fillers & Fast English",
+  "level": "advanced",
+  "estimated_time": 45,
+  "story_context": "Zoe speaks at approximately 200 words per minute. Ahmed has had several conversations with her that he could follow only partially — not because he lacks vocabulary, but because her speech sounds like one long blended word. 'Didja get the reading done?' sounds nothing like 'Did you get the reading done?' Ahmed decides to record a conversation with Zoe's permission and listen back several times, pausing and unpacking each sentence. He keeps a list of the sounds he hears versus what he expects to see written.",
+  "objectives": [
+    "Recognize and understand eight common phonological reductions in natural American speech",
+    "Understand the discourse functions of filler words (um, like, you know, I mean, right)",
+    "Identify the five grammatical roles of 'like' in American English",
+    "Listen to fast, reduced speech and extract meaning without needing every word"
+  ],
+  "target_phrases": [
+    "Didja get a chance to look at that?",
+    "I'm kinda gonna hafta pass on tonight.",
+    "Whatcha working on right now?",
+    "I dunno — lemme think about it.",
+    "You wanna grab food or like, just stay here?",
+    "Shoulda started earlier, honestly.",
+    "It was like the best day ever — I'm not even joking."
+  ],
+  "dialogue": {
+    "title": "Ahmed Listens Back",
+    "context": "Ahmed has replayed the recording of Zoe talking for the third time. He now plays it back phrase by phrase while Zoe sits next to him, translating herself.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Zoe, in this recording you said — and I am quoting — 'didja get the reading done or didja just, like, kinda look at it.' I heard this five times before I understood it. Can you help me?"},
+      {"speaker": "Zoe", "text": "Oh wow. Yeah okay. So 'didja' — that's just 'did you.' We blend them completely in speech."},
+      {"speaker": "Ahmed", "text": "And 'kinda'?"},
+      {"speaker": "Zoe", "text": "Kind of. Like a softener. So 'kinda look at it' just means you opened the document but didn't really read it."},
+      {"speaker": "Ahmed", "text": "Later you say: 'I'm gonna hafta tell Jake shoulda started earlier but whatcha gonna do.'"},
+      {"speaker": "Zoe", "text": "Okay so: gonna is 'going to', hafta is 'have to', shoulda is 'should have', and whatcha is 'what are you' or 'what do you.' You're basically transcribing how fast talkers actually speak."},
+      {"speaker": "Ahmed", "text": "I also counted eleven uses of 'like' in ninety seconds. I need to understand what 'like' is doing."},
+      {"speaker": "Zoe", "text": "Ha! Okay so 'like' is doing a lot of work. It can introduce a quote — 'she was like, wow.' It can introduce an example. It can mean approximately. It can fill a pause. And sometimes it just... hangs there."},
+      {"speaker": "Ahmed", "text": "In my transcription you also say 'um', 'you know', 'I mean', and 'right?' approximately every three sentences."},
+      {"speaker": "Zoe", "text": "Those are fillers — they're how we think out loud. 'Um' and 'uh' mean I'm still talking, don't interrupt. 'You know' and 'right?' check if you're following along. 'I mean' usually means I'm about to clarify or correct myself."},
+      {"speaker": "Ahmed", "text": "So they are not mistakes. They have functions."},
+      {"speaker": "Zoe", "text": "Exactly! Actually, if someone speaks with zero fillers it sounds almost robotic. Like a prepared speech. Fillers make you sound human."},
+      {"speaker": "Ahmed", "text": "I have been trying to eliminate them from my speech."},
+      {"speaker": "Zoe", "text": "That explains why you sometimes sound like a TED Talk."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Recognizing phonological reductions",
+      "pattern": "gonna (going to) · wanna (want to) · hafta (have to) · shoulda (should have) · coulda (could have) · lemme (let me) · didja (did you) · whatcha (what are you/do you)",
+      "examples": [
+        "I'm gonna need those notes by Thursday. (going to)",
+        "Do you wanna grab coffee before class? (want to)",
+        "I hafta finish this by midnight or I'm in trouble. (have to)",
+        "I shoulda started the project two weeks ago. (should have)",
+        "Lemme check if there's still room in the study group. (let me)",
+        "Didja read the whole chapter or just the intro? (did you)",
+        "Whatcha doing this weekend? (what are you)"
+      ],
+      "your_turn": "Say these sentences aloud using natural reductions instead of the written-out forms.",
+      "prompts": [
+        "Say 'I am going to have to study this weekend' using reductions.",
+        "Say 'Did you finish the assignment yet?' using reductions.",
+        "Say 'What are you working on right now?' using reductions."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "The five roles of 'like' in American English",
+      "pattern": "1. Approximation · 2. Filler/pause · 3. Quote introducer · 4. Example · 5. Softener",
+      "examples": [
+        "APPROXIMATION: It was like three hours long. (approximately three hours)",
+        "FILLER: I was just, like, standing there. (pause / thinking space)",
+        "QUOTE: She was like, 'Are you serious right now?' (introduces what someone said or thought)",
+        "EXAMPLE: You need like, office supplies — like, staples and pens. (introducing examples)",
+        "SOFTENER: Could you like, help me with this? (reduces directness of request)"
+      ],
+      "your_turn": "Use 'like' in three different roles in three different sentences.",
+      "prompts": [
+        "Describe how long something took using 'like' as approximation.",
+        "Report what someone said using 'like' as a quote introducer.",
+        "Use 'like' as a filler while describing a confusing situation."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Filler words and their discourse functions",
+      "pattern": "um/uh (I'm still talking) · you know (check comprehension) · I mean (clarifying) · right? (seeking agreement) · so (connecting thoughts)",
+      "examples": [
+        "Um, I think the reading is due Thursday. (um = thinking, hold the floor)",
+        "The exam is like, really conceptual, you know? (you know = are you following me?)",
+        "I mean, it's not the worst class, but it's a lot. (I mean = let me qualify that)",
+        "It's pretty clear from the syllabus, right? (right? = seeking agreement/confirmation)",
+        "So I was walking to class and I ran into Professor Chen... (so = connecting to next point)"
+      ],
+      "your_turn": "Tell a short story about your day using at least three different filler words naturally.",
+      "prompts": [
+        "Describe something that surprised you today, using 'I mean' to qualify.",
+        "Tell someone about a confusing class, using 'you know?' to check they follow.",
+        "Start a story with 'So' and include at least one 'um' while thinking."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit13-lesson4-listen1.mp3",
+      "transcript": "So I was gonna go to the library but then Priya texts me like, 'didja wanna grab dinner first?' and I'm kinda like, yeah actually I hafta eat. So we ended up just, um, going to that place near the quad — you know the one I mean, with the really good soup? Anyway we're sitting there and she's like, 'I shoulda started this paper way earlier' and I'm like yeah, same. I literally coulda done it last weekend but I just, like, didn't.",
+      "question": "What does the speaker mean by 'I coulda done it last weekend'?",
+      "options": [
+        "She could do it next weekend",
+        "She had the opportunity to do it last weekend but chose not to",
+        "She tried to do it last weekend but couldn't",
+        "She was told to do it last weekend"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit13-lesson4-listen2.mp3",
+      "transcript": "Jake: Yo Ahmed, didja end up going to that career fair? Ahmed: I did. It was, um, informative. But I'm still figuring out, like, what I actually want to do after graduation. Jake: Yeah man, I mean, you've got real experience though — that's kinda the whole thing. Most of us are like, I've never had a real job, you know? Ahmed: I suppose. I mean, in some ways that experience feels, like, disconnected from what we're studying here. Jake: Right, but that's kinda the point — you're connecting it now, you know? Ahmed: Yes. I am beginning to see that.",
+      "question": "What is Jake's main point about Ahmed's work experience?",
+      "options": [
+        "Ahmed's experience is not relevant to business school",
+        "Ahmed should be more confident because real experience is valuable",
+        "Ahmed should get a new job before graduating",
+        "Ahmed talks too formally for someone with experience"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit13-lesson4-listen3.mp3",
+      "transcript": "One of the hardest things for English learners is that the language they studied — clear, slow, each word distinct — is almost nothing like the language native speakers actually use at normal speed. When we say 'did you eat?' it sounds like 'didja eat?' When we say 'what do you want to do?' it comes out more like 'whatcha wanna do?' This isn't sloppy English — it's normal spoken English. Every language does this. French has liaisons, Spanish blends syllables, Arabic has assimilation. The key is not to try to slow everyone down, but to train your ears to expect these blends and extract the underlying words.",
+      "question": "Why does the speaker say fast, reduced English is NOT sloppy?",
+      "options": [
+        "Because it is taught in classrooms",
+        "Because it is a normal feature of natural spoken language in all languages",
+        "Because only educated people speak this way",
+        "Because it is easier to understand than slow speech"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Read this sentence aloud three times: first slowly and clearly, then at normal casual speed using reductions, then at full fast speed. 'I was going to let you know that I have to cancel tonight because I should have looked at my schedule earlier.' Record your three versions.",
+      "example": "SLOW: 'I was going to let you know that I have to cancel tonight because I should have looked at my schedule earlier.' CASUAL: 'I was gonna let you know that I hafta cancel tonight because I shoulda looked at my schedule earlier.' FAST: 'I was gonna letcha know I hafta cancel tonight 'cause I shoulda looked at my schedule earlier.'",
+      "sentence_starters": [
+        "Slow version: I was going to...",
+        "Casual version: I was gonna...",
+        "Fast version: I was gonna letcha know..."
+      ],
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Tell a classmate about something you did last weekend. Speak naturally — include at least three fillers (um, like, you know, I mean, right?) and at least two reductions (gonna, kinda, didja, etc.). Record for 40 seconds. The goal is natural, not perfect.",
+      "example": "So this weekend I, um, I was kinda just planning to stay home and study, you know? But then Priya texts me like, 'didja wanna go to the farmer's market?' and I'm like, sure, why not. So we go and it's like — I mean it was actually really nice. Really different from what I expected. Um, I ended up buying like, fresh bread and this jam that was kinda amazing honestly. I mean, I shoulda gone sooner — I didn't know it was there. So yeah, it was just like, a low-key good day, you know?",
+      "sentence_starters": [
+        "So this weekend I was kinda...",
+        "Then like, um...",
+        "And I'm just like..."
+      ],
+      "min_seconds": 40,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write Ahmed's transcription notes from the recording session. List 8 reduced forms he heard, write what they mean in standard English, and rate his confidence understanding each from 1 (confused) to 3 (got it). Format as a table or list. (50–70 words)",
+      "min_words": 50,
+      "example": "RECORDING TRANSCRIPTION NOTES — Week 3\n\nDidja → Did you [confidence: 3 — I can hear it now]\nGonna → Going to [confidence: 3]\nHafta → Have to [confidence: 2]\nShoulda → Should have [confidence: 2]\nWhatcha → What are you / What do you [confidence: 1 — still tricky]\nLemme → Let me [confidence: 3]\nKinda → Kind of [confidence: 3]\nCoulda → Could have [confidence: 2 — confusing with 'kinda' at speed]\n\nOverall: speed is the main challenge, not vocabulary."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a short scene (80–100 words) from Ahmed's perspective where he is having a conversation with Zoe at normal speed. Write Zoe's actual words as she says them (with reductions and fillers), and show Ahmed's inner monologue as he tries to decode what she said. Use a clear format to separate dialogue from thoughts.",
+      "min_words": 80,
+      "example": "Zoe: 'Didja see the email from Chen? We're gonna hafta do like a whole extra page for the reflection.'\n\n[Ahmed's internal decoding: Did you see... yes. Going to have to... okay. Like a whole extra page — 'like' is approximation here, not literal. So: Professor Chen sent an email requiring an additional page for the reflection assignment.]\n\nAhmed: 'I did. That is, um — I mean, yeah. That's kind of a lot.'\n\nZoe: 'Right? I shoulda finished it yesterday but I just, you know, didn't.'\n\n[Ahmed: Should have finished. She chose not to. Understandable. Reassuring, somehow.]"
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Phonological Reductions in Natural American Speech",
+      "explanation": "In natural connected speech, Americans blend and reduce words in predictable patterns. This is not sloppy — it is how the language functions at natural speed. Reductions follow phonological rules: 'want to' becomes 'wanna,' 'going to' becomes 'gonna,' 'have to' becomes 'hafta,' 'should have' becomes 'shoulda.' These are written out only to show pronunciation — in formal writing, use standard forms.",
+      "examples": [
+        "going to → gonna: 'I'm gonna need this by Friday.'",
+        "want to → wanna: 'Do you wanna study together?'",
+        "have to → hafta: 'I hafta finish this tonight.'",
+        "should have → shoulda: 'I shoulda read the syllabus first.'",
+        "did you → didja: 'Didja finish the reading?'",
+        "let me → lemme: 'Lemme check my schedule.'",
+        "what are you → whatcha: 'Whatcha doing this weekend?'"
+      ],
+      "practice": [
+        {"sentence": "What is the reduction of 'going to'?", "blank": "gonna", "options": ["gonna", "gointo", "goingto"]},
+        {"sentence": "What is the reduction of 'should have'?", "blank": "shoulda", "options": ["shoulda", "should've", "shouldof"]},
+        {"sentence": "What is the reduction of 'did you'?", "blank": "didja", "options": ["didja", "didyou", "dija"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Filler Words and Their Discourse Functions",
+      "explanation": "Filler words are not errors to eliminate — they serve real communicative functions. 'Um' and 'uh' signal that you are still speaking and thinking — they hold the floor. 'You know' and 'right?' check that the listener is following. 'I mean' signals clarification or correction. 'So' connects to the next point. Using zero fillers is characteristic of scripted or rehearsed speech, not conversation.",
+      "examples": [
+        "Um / uh — I'm thinking, please don't interrupt me yet",
+        "You know? — Are you following what I'm saying?",
+        "Right? — Do you agree with me?",
+        "I mean — Let me clarify or correct what I just said",
+        "So — I'm connecting this to the next thing I'll say"
+      ],
+      "practice": [
+        {"sentence": "Which filler signals the speaker is still thinking and holding the floor?", "blank": "um / uh", "options": ["um / uh", "right?", "so"]},
+        {"sentence": "Which filler invites the listener to agree or confirm understanding?", "blank": "right? / you know?", "options": ["right? / you know?", "um", "I mean"]},
+        {"sentence": "'I mean, it wasn't the worst class, but...' — what does 'I mean' signal here?", "blank": "Clarification or correction of previous statement", "options": ["Clarification or correction of previous statement", "Strong agreement", "A pause without function"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "The Five Grammatical Roles of 'Like'",
+      "explanation": "In American English, 'like' has expanded far beyond its original comparative role. It now performs five distinct grammatical functions. Understanding which role is being used helps comprehension enormously. This is not slang — it is a recognized feature of contemporary American English grammar.",
+      "examples": [
+        "COMPARISON: She runs like the wind. (original, formal use — as/similar to)",
+        "APPROXIMATION: It cost like forty dollars. (approximately forty)",
+        "FILLER: I was just, like, sitting there. (pause/thinking space, no semantic content)",
+        "QUOTE INTRODUCER: She was like, 'No way.' (reports speech or thought)",
+        "SOFTENER: Could you like, help me with this? (reduces directness)"
+      ],
+      "practice": [
+        {"sentence": "What role does 'like' play in: 'It was like three hours'?", "blank": "Approximation", "options": ["Approximation", "Quote introducer", "Comparison"]},
+        {"sentence": "What role does 'like' play in: 'He was like, I can't believe it'?", "blank": "Quote introducer", "options": ["Quote introducer", "Filler", "Approximation"]},
+        {"sentence": "What role does 'like' play in: 'I was just, like, confused'?", "blank": "Filler (pause/thinking space)", "options": ["Filler (pause/thinking space)", "Comparison", "Softener"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What does 'gonna' mean?", "options": ["going now", "going to", "gone already", "going around"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does 'shoulda' mean?", "options": ["should always", "should have", "should have to", "should ask"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does 'didja' mean?", "options": ["did Jake", "do you", "did you", "did Jess"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "true-false", "question": "Filler words like 'um' and 'you know' are grammatical errors that fluent speakers never use.", "correct": false, "points": 10},
+      {"id": "q5", "type": "multiple-choice", "question": "In the sentence 'She was like, I can't believe it,' what role does 'like' play?", "options": ["Comparison", "Approximation", "Quote introducer", "Filler"], "correct": 2, "points": 10},
+      {"id": "q6", "type": "fill-blank", "question": "What is the reduction of 'want to'? ___", "correct": "wanna", "accept": ["wanna"], "points": 10},
+      {"id": "q7", "type": "multiple-choice", "question": "Which filler word signals that the speaker is about to clarify or correct something?", "options": ["um", "right?", "I mean", "so"], "correct": 2, "points": 10},
+      {"id": "q8", "type": "multiple-choice", "question": "In the sentence 'It cost like forty dollars,' what role does 'like' play?", "options": ["Comparison", "Approximation", "Filler", "Softener"], "correct": 1, "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match reduced form to full form:", "pairs": [{"left": "hafta", "right": "have to"}, {"left": "lemme", "right": "let me"}, {"left": "whatcha", "right": "what are you"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Why does Zoe say Ahmed 'sometimes sounds like a TED Talk'?", "options": ["Because he speaks too loudly", "Because he speaks with zero fillers — like rehearsed, not conversational speech", "Because his content is very educational", "Because he speaks too slowly"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "gonna", "definition": "spoken reduction of 'going to' — used in casual speech and informal writing", "example": "I'm gonna head out after class."},
+    {"word": "wanna", "definition": "spoken reduction of 'want to'", "example": "Do you wanna grab food?"},
+    {"word": "kinda", "definition": "spoken reduction of 'kind of' — a softener or qualifier", "example": "That test was kinda brutal, honestly."},
+    {"word": "sorta", "definition": "spoken reduction of 'sort of' — similar to kinda", "example": "I sorta understood it, but not fully."},
+    {"word": "hafta", "definition": "spoken reduction of 'have to' — expressing obligation", "example": "I hafta finish this before midnight."},
+    {"word": "lemme", "definition": "spoken reduction of 'let me'", "example": "Lemme check if I have that file."},
+    {"word": "didja", "definition": "spoken reduction of 'did you'", "example": "Didja get a chance to read chapter five?"},
+    {"word": "whatcha", "definition": "spoken reduction of 'what are you' or 'what do you'", "example": "Whatcha doing after class?"},
+    {"word": "ya", "definition": "casual form of 'you' used in fast speech", "example": "See ya tomorrow — don't be late!"},
+    {"word": "'cause", "definition": "spoken reduction of 'because' — very common in fast casual speech", "example": "I was late 'cause the bus didn't show up."}
+  ],
+  "cultural_notes": [
+    "The gap between written English and spoken American English is enormous — perhaps larger than in most other languages. Students who learned 'textbook English' are often genuinely surprised that native speakers do not speak the way books are written.",
+    "Phonological reduction is not laziness — it is an efficiency feature of natural language. The rules are predictable and learnable. Developing 'listening ear' for reductions takes time and regular exposure, not just memorization.",
+    "American regional accents affect reductions significantly. Jake's Georgia accent produces different reductions than Zoe's New Jersey speech. 'Y'all' (you all), 'fixin' to' (going to), and 'might could' (might be able to) are Southern features. Learning one accent deeply is more valuable than trying to understand all accents at once.",
+    "Filler words signal different things across cultures. Japanese has 'eto' and 'ano.' Arabic has 'ya'ni.' Spanish has 'o sea.' The English equivalents (um, like, you know) serve similar functions. Recognizing fillers across languages helps learners not decode them as meaningful content.",
+    "Recording real conversations — with permission — is one of the most effective techniques for improving listening comprehension. Playing back at reduced speed (0.75x) and then at normal speed builds the auditory pattern recognition that enables fast-speech comprehension."
+  ]
+}

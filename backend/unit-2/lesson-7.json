@@ -1,0 +1,348 @@
+{
+  "id": 25,
+  "unit_id": 2,
+  "lesson_number": 7,
+  "title": "What Can You Do? Skills and Abilities",
+  "description": "Learn to talk about your skills, abilities, and what you are still learning",
+  "difficulty": "intermediate",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Say what you can and cannot do",
+    "Ask others about their abilities",
+    "Talk about skills you are learning",
+    "Connect personal skills to work situations"
+  ],
+  "target_language": {
+    "phrases": [
+      "I can [drive/cook/use a computer]",
+      "I know how to [fix cars/speak Arabic]",
+      "I'm good at [organizing/lifting heavy things]",
+      "I can't ... yet, but I'm learning",
+      "Can you ...?",
+      "Are you good at ...?",
+      "I'm still learning how to ..."
+    ],
+    "grammar_pattern": "Can / Can't\n  I can drive. → I am able to drive.\n  I can't speak French. → I am not able to speak French.\n  Can you cook? → Are you able to cook?\n\nKnow how to\n  I know how to use a computer.\n  I don't know how to swim yet.\n\nGood at + verb-ing\n  I'm good at cooking.\n  She's good at organizing things.",
+    "grammar_patterns": [
+      {
+        "label": "Ability with CAN",
+        "pattern": "I can / I can't + [base verb]",
+        "examples": [
+          "I can lift heavy boxes.",
+          "I can speak Somali and English.",
+          "I can't drive yet, but I'm learning.",
+          "Can you use a computer?"
+        ]
+      },
+      {
+        "label": "Know how to",
+        "pattern": "I know how to + [base verb]",
+        "examples": [
+          "I know how to cook Somali food.",
+          "She knows how to fix motorcycles.",
+          "I don't know how to use this machine yet.",
+          "Do you know how to drive a forklift?"
+        ]
+      },
+      {
+        "label": "Good at + verb-ing",
+        "pattern": "I'm good at + [verb-ing]",
+        "examples": [
+          "I'm good at organizing things.",
+          "He's good at working with customers.",
+          "Are you good at lifting heavy things?",
+          "I'm not very good at speaking on the phone yet."
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "Ahmed meets his neighbor Carlos, who works at a warehouse. Carlos is helping Ahmed think about his skills before he starts looking for a job.",
+    "dialogue": [
+      { "speaker": "Carlos", "text": "Ahmed! You've been here a few months now. Are you thinking about finding a job?" },
+      { "speaker": "Ahmed", "text": "Yes, I want to find work soon. But I don't know what jobs I can do." },
+      { "speaker": "Carlos", "text": "Let's think about your skills. Can you drive?" },
+      { "speaker": "Ahmed", "text": "Yes, I can drive. I drove a truck in Somalia for five years." },
+      { "speaker": "Carlos", "text": "Good! That's a real skill. Can you use a computer?" },
+      { "speaker": "Ahmed", "text": "A little. I know how to use email. I'm still learning other programs." },
+      { "speaker": "Carlos", "text": "That's fine. What are you good at? What do people always ask you to help with?" },
+      { "speaker": "Ahmed", "text": "I'm good at organizing and lifting heavy things. I'm also good at working hard for a long time." },
+      { "speaker": "Carlos", "text": "Ahmed, you have more skills than you think. Can you work with other people on a team?" },
+      { "speaker": "Ahmed", "text": "Yes, I can. In Somalia, I always worked with a team." },
+      { "speaker": "Carlos", "text": "Then you are ready. You can drive, you can lift, you work in a team. You have skills!" },
+      { "speaker": "Ahmed", "text": "I feel better now. Thank you, Carlos. I'm going to look for a job this week." }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Can and Can't",
+      "instruction": "Say what someone can or cannot do. Use: I can / I can't + [verb]",
+      "prompts": [
+        { "sentence": "Ahmed ___ drive a truck. (yes)", "answer": "can" },
+        { "sentence": "Ahmed ___ speak French. (no)", "answer": "can't" },
+        { "sentence": "Maria ___ use a computer. (yes)", "answer": "can" },
+        { "sentence": "I ___ lift 50 pounds. (yes)", "answer": "can" }
+      ],
+      "examples": [
+        "I can speak two languages.",
+        "I can't drive a forklift yet.",
+        "She can cook very well.",
+        "He can't work on weekends.",
+        "Can you start on Monday?"
+      ],
+      "your_turn": "Can you start on Monday?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Know How To",
+      "instruction": "Say what you know how to do. Use: I know how to / I don't know how to + [verb]",
+      "prompts": [
+        { "sentence": "I ___ how to cook Somali food. (yes)", "answer": "know" },
+        { "sentence": "She ___ how to use a cash register. (yes)", "answer": "knows" },
+        { "sentence": "I ___ how to use that machine yet. (no)", "answer": "don't know" },
+        { "sentence": "___ you know how to drive a forklift?", "answer": "Do" }
+      ],
+      "examples": [
+        "I know how to fix small machines.",
+        "I know how to speak three languages.",
+        "I don't know how to use that software yet.",
+        "She knows how to work the cash register.",
+        "Do you know how to drive a van?"
+      ],
+      "your_turn": "Do you know how to drive a van?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Good At",
+      "instruction": "Talk about what you are good at. Use: I'm good at / I'm not good at + [verb-ing]",
+      "prompts": [
+        { "sentence": "I'm good at ___ heavy things. (lift)", "answer": "lifting" },
+        { "sentence": "She's good at ___ with customers. (work)", "answer": "working" },
+        { "sentence": "I'm not very good at ___ on the phone. (speak)", "answer": "speaking" },
+        { "sentence": "Are you good at ___ people? (help)", "answer": "helping" }
+      ],
+      "examples": [
+        "I'm good at organizing boxes.",
+        "I'm good at working in a team.",
+        "He's good at fixing things.",
+        "I'm not good at sitting all day.",
+        "Are you good at following instructions?"
+      ],
+      "your_turn": "Are you good at following instructions?",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "What can Maria do at her job?",
+      "audio": "/audio/unit2-lesson7-listen1.mp3",
+      "options": [
+        "She can drive and use a forklift",
+        "She can only answer the phone",
+        "She can use a computer and speak to customers",
+        "She can only lift boxes"
+      ],
+      "correct": 2,
+      "explanation": "Maria says she can use a computer and she is good at speaking with customers. She does not drive or use a forklift."
+    },
+    {
+      "question": "What skill is the speaker still learning?",
+      "audio": "/audio/unit2-lesson7-listen2.mp3",
+      "options": [
+        "Driving",
+        "Cooking",
+        "Using a computer",
+        "Speaking English"
+      ],
+      "correct": 2,
+      "explanation": "The speaker says 'I can drive and I can cook, but I'm still learning how to use a computer.' Computer skills are what they are still developing."
+    },
+    {
+      "question": "Which skill does the employer ask about first?",
+      "audio": "/audio/unit2-lesson7-listen3.mp3",
+      "options": [
+        "Can you lift 50 pounds?",
+        "Can you speak English?",
+        "Can you drive?",
+        "Can you work weekends?"
+      ],
+      "correct": 0,
+      "explanation": "The job posting says the most important requirement is being able to lift 50 pounds. This is the first skill the employer asks about."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Your Skills List",
+      "instruction": "Record yourself talking about 3 things you can do and 1 thing you are still learning. Use: I can..., I know how to..., I'm good at..., and I'm still learning...",
+      "example": "I can drive a car. I know how to cook well. I'm good at lifting heavy things and working in a team. I'm still learning how to use a computer, but I practice every day."
+    },
+    {
+      "title": "Ask About Skills",
+      "instruction": "Record yourself asking a friend about their abilities. Ask 3 questions using: Can you...?, Are you good at...?, and Do you know how to...?",
+      "example": "Can you drive? Are you good at working with other people? Do you know how to use a cash register? These are useful skills for many jobs."
+    }
+  ],
+  "writing": [
+    {
+      "title": "My Skills",
+      "instruction": "Write 5 sentences about your skills and abilities. Include at least one thing you can do, one thing you know how to do, one thing you are good at, and one thing you are still learning.",
+      "example": "I can drive a truck. I know how to cook many different foods. I am good at organizing and keeping things clean. I can work in a team with no problems. I am still learning how to use a computer, but I practice every day."
+    },
+    {
+      "title": "Skills for a Job",
+      "instruction": "Think about a job you want. Write 4 sentences explaining why your skills are good for that job. Use: I can, I know how to, I'm good at.",
+      "example": "I want to work in a warehouse. I can lift heavy boxes and I can drive a truck. I know how to organize and count things carefully. I am good at following instructions and working fast. I think I am ready for this job."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "CAN for ability",
+        "examples": [
+          "I can drive. ✓",
+          "I can to drive. ✗ (never add 'to' after can)",
+          "She cans drive. ✗ (can never changes — no -s)",
+          "She can drive. ✓",
+          "Can you lift 50 pounds? ✓",
+          "Do you can lift 50 pounds? ✗"
+        ],
+        "question": "What comes after CAN? Does CAN change for he/she?",
+        "explanation": "CAN is always followed by a base verb (no 'to'). CAN never adds -s, even for he/she/it. To ask a question, put CAN before the person: 'Can you...?' — never use 'do' with CAN."
+      },
+      {
+        "title": "GOOD AT + verb-ing",
+        "examples": [
+          "I'm good at organize. ✗",
+          "I'm good at organizing. ✓",
+          "She's good at lift. ✗",
+          "She's good at lifting. ✓",
+          "Are you good at speaking English? ✓"
+        ],
+        "question": "What form does the verb take after 'good at'?",
+        "explanation": "After 'good at', the verb always ends in -ing (the gerund form). This is the same as after 'like', 'enjoy', and 'love'. Think: I like cooking → I'm good at cooking."
+      },
+      {
+        "title": "CAN vs KNOW HOW TO",
+        "examples": [
+          "I can swim. (natural, short)",
+          "I know how to swim. (more specific — I learned this skill)",
+          "I can cook. (general ability)",
+          "I know how to cook Somali food. (specific skill)",
+          "Do you know how to use this machine?"
+        ],
+        "question": "What is the difference between 'can' and 'know how to'?",
+        "explanation": "'Can' is general and natural for most situations. 'Know how to' emphasizes that you learned a specific skill. Both mean the same thing but 'know how to' sounds more deliberate, like a trained skill. In a job interview, 'I know how to operate a forklift' sounds more professional than 'I can operate a forklift.'"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I can to drive a truck.",
+        "I can drive a truck.",
+        "I cans drive a truck.",
+        "I can driving a truck."
+      ],
+      "correct": 1,
+      "explanation": "CAN is followed by the base verb only. No 'to', no -s, no -ing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask about someone's skill using CAN?",
+      "options": [
+        "Do you can cook?",
+        "Can you to cook?",
+        "Can you cook?",
+        "Are you can cook?"
+      ],
+      "correct": 2,
+      "explanation": "To make a question with CAN, put CAN before the subject: 'Can you...?' Do NOT use 'do' with can."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "I'm good at organize.",
+        "I'm good at organized.",
+        "I'm good at organizes.",
+        "I'm good at organizing."
+      ],
+      "correct": 3,
+      "explanation": "After 'good at', use verb-ing. Good at + organizing, lifting, cooking, speaking."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed says 'I'm still learning how to use a computer.' What does this mean?",
+      "options": [
+        "He can use a computer very well.",
+        "He cannot learn computers.",
+        "He is not perfect yet, but he is improving.",
+        "He does not want to use computers."
+      ],
+      "correct": 2,
+      "explanation": "'I'm still learning' means the process is not finished — you are getting better but not expert yet. It is a positive, honest thing to say."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase is the most professional for a job interview?",
+      "options": [
+        "I'm good at drive trucks.",
+        "I know how to operate a forklift.",
+        "I can to lift heavy things.",
+        "I good at working."
+      ],
+      "correct": 1,
+      "explanation": "'I know how to operate a forklift' is specific, professional, and grammatically correct. It shows you learned a specific skill."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct negative form?",
+      "options": [
+        "I don't can swim.",
+        "I can not to swim.",
+        "I can't swim.",
+        "I no can swim."
+      ],
+      "correct": 2,
+      "explanation": "The negative of CAN is CAN'T or CANNOT. Never use 'don't' with can."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Carlos asks Ahmed: '___ you work in a team?' What word goes in the blank?",
+      "options": ["Do", "Are", "Can", "Have"],
+      "correct": 2,
+      "explanation": "We use CAN to ask about ability: 'Can you work in a team?' This asks whether Ahmed has the ability to work with others."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In the dialogue, what does Carlos help Ahmed realize?",
+      "options": [
+        "Ahmed has no skills for work.",
+        "Ahmed needs to learn English first.",
+        "Ahmed has more skills than he thought.",
+        "Ahmed should not look for a job yet."
+      ],
+      "correct": 2,
+      "explanation": "Carlos says 'You have more skills than you think.' He helps Ahmed see that driving, lifting, and teamwork are all valuable job skills."
+    },
+    {
+      "type": "writing",
+      "question": "Write 3 sentences about your own skills using: I can..., I know how to..., I'm good at...",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice using all three ability structures: can + base verb, know how to + base verb, good at + verb-ing."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about a job you want. What one skill do you have that makes you good for that job? Explain in 2 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Connect your personal ability to a real job need. This is exactly what you will say in a job interview."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Life & Survival",
+    "description": "Essential English for everyday situations — greetings, shopping, transport, health, and emergencies",
+    "order_number": 1,
+    "total_lessons": 12,
+    "locked": false
+  },
+  {
+    "id": 2,
+    "title": "People, Work & First Steps",
+    "description": "Talk about family and people, then prepare for the working world with skills, job postings, and interviews",
+    "order_number": 2,
+    "total_lessons": 12,
+    "locked": false
+  },
+  {
+    "id": 3,
+    "title": "Work & Money",
+    "description": "Navigate the workplace, manage money, shop smart, and build financial independence",
+    "order_number": 3,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 4,
+    "title": "Community & Civic Life",
+    "description": "Use English in your community — post office, library, emergencies, DMV, and local services",
+    "order_number": 4,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 5,
+    "title": "Opinions & Discussions",
+    "description": "Express your views, discuss current events, talk about entertainment, and make social plans",
+    "order_number": 5,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 6,
+    "title": "Health & Wellbeing",
+    "description": "Communicate about health — doctors, pharmacy, healthy habits, mental health, and emergencies",
+    "order_number": 6,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 7,
+    "title": "Storytelling & Description",
+    "description": "Tell personal stories, describe people and places, explain cause and effect, and share family history",
+    "order_number": 7,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 8,
+    "title": "Writing Skills",
+    "description": "Build structured writing — sentences, paragraphs, descriptive writing, narratives, and how-to texts",
+    "order_number": 8,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 9,
+    "title": "Advanced Communication",
+    "description": "Master professional communication — debates, emails, presentations, interviews, negotiation, and advanced grammar for professional contexts",
+    "order_number": 9,
+    "total_lessons": 9,
+    "locked": false
+  },
+  {
+    "id": 10,
+    "title": "Global English",
+    "description": "Cross-cultural communication, leadership, strategic thinking, and media literacy",
+    "order_number": 10,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 11,
+    "title": "Academic English",
+    "description": "Master academic writing, presentations, literature review, peer review, and scholarly discourse",
+    "order_number": 11,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 12,
+    "title": "Professional Mastery",
+    "description": "Executive communication, global diplomacy, crisis management, mentoring, and lasting impact",
+    "order_number": 12,
+    "total_lessons": 6,
+    "locked": false
+  },
+  {
+    "id": 13,
+    "title": "American Life & Social Fluency",
+    "description": "Master informal English, American cultural references, authentic speech patterns, and the social confidence to feel at home in any American setting",
+    "order_number": 13,
+    "total_lessons": 6,
+    "locked": false
+  }
+]

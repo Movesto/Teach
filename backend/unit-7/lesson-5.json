@@ -1,0 +1,237 @@
+{
+  "id": "lesson-43",
+  "unit_id": 7,
+  "lesson_number": 5,
+  "title": "Describing Places",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Describe locations in vivid detail",
+    "Use sensory language effectively",
+    "Compare different places",
+    "Express feelings about locations"
+  ],
+  "target_phrases": [
+    "The place is...",
+    "It's located in/near...",
+    "What I love about it is...",
+    "It reminds me of...",
+    "Compared to..., it's...",
+    "The atmosphere is...",
+    "You can see/hear/smell..."
+  ],
+  "dialogue": {
+    "title": "Comparing Portland to Somalia",
+    "context": "Ahmed describes his hometown in Somalia and compares it to Portland during a conversation with American friends.",
+    "lines": [
+      {"speaker": "Lisa", "text": "Ahmed, you've talked about Somalia before, but I'd love to hear more. What was your hometown like?"},
+      {"speaker": "Ahmed", "text": "My hometown is Mogadishu, the capital. It's located right on the Indian Ocean, so you can always smell the salt air."},
+      {"speaker": "Carlos", "text": "That sounds beautiful! What's the atmosphere like there?"},
+      {"speaker": "Ahmed", "text": "It's very lively and bustling. The streets are full of people, vendors selling fruit and spices, and you can hear Arabic and Somali everywhere. The colors are vibrant - bright fabrics, colorful buildings."},
+      {"speaker": "Lisa", "text": "How does it compare to Portland?"},
+      {"speaker": "Ahmed", "text": "They're completely different! Portland is much quieter and greener. You see trees and parks everywhere. Mogadishu is more urban and crowded. Also, Portland is rainy and gray, while Mogadishu is hot and sunny almost every day."},
+      {"speaker": "Carlos", "text": "Do you prefer one over the other?"},
+      {"speaker": "Ahmed", "text": "That's hard to say. What I love about Mogadishu is the energy and the warmth - both the weather and the people. Everyone knows their neighbors. But what I appreciate about Portland is the safety and opportunities. It's peaceful here."},
+      {"speaker": "Lisa", "text": "Is there anything about Portland that reminds you of home?"},
+      {"speaker": "Ahmed", "text": "Actually, yes! The Saturday Market reminds me of markets in Mogadishu. You can smell food cooking, hear different languages, and see handmade crafts. It makes me feel connected to home."},
+      {"speaker": "Carlos", "text": "That's a beautiful way to look at it. Finding pieces of home in a new place."},
+      {"speaker": "Ahmed", "text": "Exactly. I'm learning that you can love two places at once. They're different, but both are important to who I am."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Basic location description",
+      "pattern": "It's located in/near/by [location]",
+      "examples": [
+        "It's located in the city center.",
+        "It's near the mountains and the coast.",
+        "It's by the river in the downtown area.",
+        "It's located on the east side of the city.",
+        "It's in a quiet neighborhood near the park."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Sensory descriptions",
+      "pattern": "You can see/hear/smell/feel [sensory detail]",
+      "examples": [
+        "You can see mountains in the distance.",
+        "You can hear children playing in the streets.",
+        "You can smell fresh bread from the bakery.",
+        "You can feel the warm breeze from the ocean.",
+        "You can see colorful flowers everywhere."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Comparative descriptions",
+      "pattern": "Compared to [place], [place] is [comparison]",
+      "examples": [
+        "Compared to my hometown, Portland is much greener.",
+        "Compared to the city, the countryside is quieter.",
+        "Compared to summer, winter here is very rainy.",
+        "Compared to America, my country is more crowded.",
+        "Compared to downtown, this neighborhood is peaceful."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit7-lesson5-listen1.mp3",
+      "transcript": "Effective place descriptions use all five senses: sight, sound, smell, taste, and touch. Instead of just saying 'The market was nice,' say 'At the market, you could see colorful vegetables, hear vendors calling out prices, and smell spices and grilled meat.' Sensory details help listeners imagine the place as if they're there.",
+      "question": "Why use sensory details when describing places?",
+      "options": [
+        "To make descriptions longer",
+        "To help listeners imagine the place",
+        "It's required in English",
+        "To sound more educated"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit7-lesson5-listen2.mp3",
+      "transcript": "When describing atmosphere or mood of a place, use adjectives like: bustling, peaceful, lively, serene, chaotic, tranquil, vibrant, quiet, energetic, calm. These words go beyond physical description to capture the feeling of being there. For example: 'The plaza had a lively atmosphere with street performers and crowds' versus just 'The plaza was big.'",
+      "question": "What does 'atmosphere' mean when describing places?",
+      "options": [
+        "The weather only",
+        "The size of the place",
+        "The feeling or mood of the place",
+        "The location"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit7-lesson5-listen3.mp3",
+      "transcript": "Use 'there is/are' to describe what exists in a place. 'There's a beautiful park in the center of town. There are cafes on every corner. There's always music playing.' This structure is more natural than listing things like 'The town has a park, has cafes, has music.' It creates a sense of discovery, as if you're walking through the place.",
+      "question": "How should you describe what exists in a place?",
+      "options": [
+        "List everything with 'has'",
+        "Use 'there is/are' structure",
+        "Don't mention specific things",
+        "Only use adjectives"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe a place that's important to you (hometown, favorite park, special building). Use sensory details. Record for 35 seconds.",
+      "example": "I want to describe Lido Beach in Mogadishu, a place I loved as a child. It's located right on the Indian Ocean, with white sand that feels soft and warm under your feet. You can see the turquoise water stretching to the horizon, and hear the waves crashing on the shore. The air always smells like salt and fresh fish from the nearby market. In the evenings, families gather there to watch the sunset. You can hear children laughing and playing in the waves. The atmosphere is relaxed and joyful. What I loved most was the feeling of freedom - running along the beach with my friends. Even though I'm far away now, I can close my eyes and remember every detail.",
+      "min_seconds": 35,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Compare two places you know well. How are they similar and different? Record for 30 seconds.",
+      "example": "I'll compare Mogadishu and Portland. Both are cities with diverse populations and interesting cultures. Both have markets where you can buy fresh food and local products. However, they're very different in many ways. Mogadishu is hot year-round, while Portland has four seasons. Mogadishu is more crowded and bustling, while Portland feels more spacious and organized. The architecture is completely different - Mogadishu has more traditional and modern buildings mixed together, while Portland has a lot of historic brick buildings. What I appreciate about both places is that they each have their own unique character and beauty.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Describe a place from your childhood. Include what you could see, hear, and smell. Explain why it was special to you. (90-110 words)",
+      "min_words": 90,
+      "example": "One place from my childhood that I'll never forget is my grandmother's house in the countryside outside Mogadishu. The house was simple but beautiful, painted white with blue shutters. It was surrounded by fruit trees - mangoes, papayas, and lemons. When you arrived, you could smell the sweet fruit and hear birds singing in the trees. Inside, you could always smell cardamom tea brewing and fresh bread baking. The atmosphere was peaceful and welcoming. What made it special was the feeling of safety and love. My grandmother would sit under the mango tree and tell us stories while we ate fruit straight from the trees. The sounds of her voice, the smell of the trees, and the warm sun - these memories are precious to me. That place represented everything good about my childhood.",
+      "min_words": 90
+    },
+    {
+      "id": "write-2",
+      "prompt": "Describe your current city or neighborhood to someone who has never been there. What makes it unique? (70-90 words)",
+      "min_words": 70,
+      "example": "I live in Southeast Portland, a diverse and friendly neighborhood. The area is located near the MAX light rail line, making it easy to get downtown. What makes this neighborhood unique is its multicultural character - you can hear many different languages and see restaurants from around the world. There's a large immigrant community here, which makes me feel at home. The streets are lined with trees, and there are several parks nearby. Compared to downtown, it's quieter and more residential. The atmosphere is welcoming and community-oriented. What I love most is that you see people from all backgrounds shopping at the same stores and their children playing together at the parks.",
+      "min_words": 70
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Present Simple for Permanent Features",
+      "explanation": "Use present simple to describe permanent or typical features of places.",
+      "examples": [
+        "The city is located on the coast. (permanent location)",
+        "Portland has many parks. (permanent feature)",
+        "The market sells fresh vegetables. (typical activity)",
+        "Mountains surround the valley. (permanent geography)"
+      ],
+      "practice": [
+        {"sentence": "The city ___ near the ocean.", "blank": "is", "options": ["is", "are", "was"]},
+        {"sentence": "Portland ___ many bridges.", "blank": "has", "options": ["has", "have", "is"]},
+        {"sentence": "The market ___ every Sunday.", "blank": "opens", "options": ["open", "opens", "opening"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'There is/are' for Describing What Exists",
+      "explanation": "Use 'there is/are' to describe things that exist in a place.",
+      "examples": [
+        "There's a beautiful park downtown. (singular)",
+        "There are many restaurants nearby. (plural)",
+        "There's always music playing. (uncountable)",
+        "There are trees everywhere. (plural)"
+      ],
+      "practice": [
+        {"sentence": "___ a park near my house.", "blank": "There's", "options": ["There's", "There are", "It's"]},
+        {"sentence": "___ many shops on this street.", "blank": "There are", "options": ["There's", "There are", "It is"]},
+        {"sentence": "There ___ always people walking.", "blank": "are", "options": ["is", "are", "be"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Comparatives and Superlatives",
+      "explanation": "Use comparatives to compare two places, superlatives for three or more.",
+      "examples": [
+        "Portland is greener than Mogadishu. (comparing two)",
+        "This is the most beautiful place I've seen. (superlative)",
+        "The coast is more peaceful than the city. (comparing two)",
+        "This is the quietest neighborhood. (superlative)"
+      ],
+      "practice": [
+        {"sentence": "Portland is ___ than my hometown.", "blank": "quieter", "options": ["quiet", "quieter", "most quiet"]},
+        {"sentence": "This is the ___ park in the city.", "blank": "biggest", "options": ["big", "bigger", "biggest"]},
+        {"sentence": "The beach is ___ peaceful than downtown.", "blank": "more", "options": ["more", "most", "much"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Where is Ahmed's hometown located?", "options": ["In the mountains", "On the Indian Ocean", "In a desert", "Near a lake"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "How does Ahmed describe Mogadishu's atmosphere?", "options": ["Quiet and peaceful", "Lively and bustling", "Dark and scary", "Cold and rainy"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What in Portland reminds Ahmed of home?", "options": ["The rain", "The Saturday Market", "The buildings", "The weather"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Compared ___ my hometown, Portland is greener.'", "options": ["with", "to", "than", "from"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Sensory details help listeners imagine a place.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should only describe what things look like, not what they sound or smell like.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ a park near my house. (there is/are)", "correct": "There's", "accept": ["There's", "There is"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Portland is ___ than Mogadishu. (comparative: green)", "correct": "greener", "accept": ["greener"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the sense:", "pairs": [{"left": "See", "right": "Mountains"}, {"left": "Hear", "right": "Music"}, {"left": "Smell", "right": "Spices"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What does 'atmosphere' mean when describing a place?", "options": ["The air quality", "The feeling or mood", "The temperature", "The population"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "landscape", "definition": "visible features of an area of land", "example": "The landscape is beautiful here."},
+    {"word": "scenery", "definition": "natural features of a place", "example": "The mountain scenery is breathtaking."},
+    {"word": "atmosphere", "definition": "feeling or mood of a place", "example": "The atmosphere is very welcoming."},
+    {"word": "surroundings", "definition": "area around a place", "example": "The surroundings are peaceful."},
+    {"word": "environment", "definition": "conditions and setting of a place", "example": "The environment is very clean."},
+    {"word": "view", "definition": "what you can see from a place", "example": "The view from here is amazing."},
+    {"word": "location", "definition": "position or place where something is", "example": "The location is convenient."},
+    {"word": "setting", "definition": "place where something is or happens", "example": "It's a beautiful setting for a wedding."},
+    {"word": "impression", "definition": "effect or feeling a place creates", "example": "My first impression was very positive."},
+    {"word": "vivid", "definition": "producing clear, powerful images or feelings", "example": "She gave a vivid description."}
+  ],
+  "cultural_notes": [
+    "Americans often describe places using comparisons to help others understand: 'It's like New York but smaller.'",
+    "Travel writing and food reviews are popular in American culture - vivid descriptions help readers imagine places.",
+    "When Americans move to new places, they often look for things that remind them of home.",
+    "Real estate descriptions in America emphasize atmosphere ('charming,' 'cozy,' 'spacious') not just facts.",
+    "Americans appreciate when immigrants share descriptions of their home countries - it builds cultural understanding.",
+    "Nature descriptions are important in American literature and culture - from national parks to hiking trails."
+  ]
+}

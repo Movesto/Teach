@@ -1,0 +1,280 @@
+{
+  "id": "lesson-79",
+  "unit_id": 10,
+  "lesson_number": 5,
+  "title": "Persuasive Language: Making Proposals",
+  "level": "advanced",
+  "estimated_time": 45,
+  "story_context": "Ahmed is two months into his supervisor role. He has noticed that deliveries at Bay 3 are frequently delayed because the check-in process requires staff to walk to the main office to log items. He believes a simple digital form on a tablet would cut delays by half. Now he needs to convince Director Kim to approve the investment.",
+  "objectives": [
+    "Frame a proposal professionally using modal verbs and hedging language",
+    "Use concession language (while, although, even though) to acknowledge concerns",
+    "Support claims with evidence language (the data suggests, this indicates)",
+    "Structure a persuasive argument: claim → evidence → concession → reaffirmation"
+  ],
+  "target_phrases": [
+    "I'd like to propose a change to our current process.",
+    "One approach would be to introduce a tablet-based check-in.",
+    "The data suggests this could reduce delays by around 40%.",
+    "While I understand the concern about upfront cost...",
+    "What if we piloted this for one month?",
+    "I'm confident this would improve our throughput.",
+    "Based on what I've observed over the last two months..."
+  ],
+  "dialogue": {
+    "title": "Ahmed's Process Improvement Proposal",
+    "context": "Ahmed has requested five minutes with Director Kim to present a proposal for improving the Bay 3 check-in process.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Thank you for your time, Director Kim. I'd like to propose a small change to the Bay 3 check-in process."},
+      {"speaker": "Director Kim", "text": "Go ahead."},
+      {"speaker": "Ahmed", "text": "Based on what I've observed over the last two months, the current process requires staff to walk to the main office to log each delivery. That's taking about eight minutes per delivery."},
+      {"speaker": "Director Kim", "text": "I'm aware of it. What are you suggesting?"},
+      {"speaker": "Ahmed", "text": "One approach would be to place a tablet at Bay 3 with a digital check-in form. Staff could log deliveries on-site. I believe this could reduce the delay to under two minutes."},
+      {"speaker": "Director Kim", "text": "That sounds like it could work — but what about the cost?"},
+      {"speaker": "Ahmed", "text": "While I understand the concern about upfront cost, the time savings would likely offset the expense within three months. We're currently losing around 45 staff minutes per shift to this process."},
+      {"speaker": "Director Kim", "text": "Do you have numbers to support that?"},
+      {"speaker": "Ahmed", "text": "Yes. I tracked delivery times over four weeks. The data suggests an average of 5.6 deliveries per shift at Bay 3. At eight minutes each, that's roughly 45 minutes of avoidable delays daily."},
+      {"speaker": "Director Kim", "text": "I see. What would you need to move forward?"},
+      {"speaker": "Ahmed", "text": "What if we piloted this for one month with a single tablet? If the data shows a 30% or greater reduction in check-in time, we could expand to the other bays."},
+      {"speaker": "Director Kim", "text": "I like that you're proposing a test rather than a full rollout. That shows good judgment. Submit a one-page summary and I'll consider it."},
+      {"speaker": "Ahmed", "text": "Thank you. I'm confident this would improve our throughput. I'll have the summary on your desk by tomorrow morning."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Modal verbs for proposals: would, could, might",
+      "pattern": "Use 'would' for confident proposals, 'could' for possibilities, 'might' for less certain ideas.",
+      "examples": [
+        "One approach would be to move the check-in station closer to Bay 3.",
+        "This could reduce delays by up to 40%. (possible result — not 100% certain)",
+        "A tablet system might also help with inventory accuracy. (additional possibility)",
+        "I believe this would improve the process significantly. (confident recommendation)",
+        "We could pilot this for one month before committing to a full rollout. (tentative suggestion)"
+      ],
+      "your_turn": "Propose a small improvement at your workplace or school. Use 'One approach would be to...' or 'This could help us...'",
+      "prompts": [
+        {"sentence": "One approach ___ be to digitize the check-in form. (confident proposal)", "answer": "would"},
+        {"sentence": "This ___ reduce wait times significantly. (possible result)", "answer": "could"},
+        {"sentence": "A pilot program ___ show us whether it works before we commit. (less certain)", "answer": "might"}
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Concession language: while, although, even though",
+      "pattern": "Acknowledge the concern (concession clause), then reaffirm your main point (main clause). Pattern: While/Although + concern, main claim.",
+      "examples": [
+        "While I understand the concern about cost, the time savings would offset the expense within three months.",
+        "Although the initial investment is significant, the long-term benefits are clear.",
+        "Even though we have limited IT support, the setup is simple enough for in-house installation.",
+        "While this is a change from the current process, the transition would take less than a day.",
+        "Although some staff may need brief training, the interface is designed to be intuitive."
+      ],
+      "your_turn": "Use 'While I understand...' to acknowledge a concern, then give your counter-argument.",
+      "prompts": [
+        {"sentence": "___ I understand the budget concern, the ROI is very strong.", "answer": "While"},
+        {"sentence": "___ the change requires training, it would only take one afternoon.", "answer": "Although"},
+        {"sentence": "___ even though the timeline is tight, the team is fully capable.", "answer": "Although"},
+        {"sentence": "Even ___ there are risks, the potential gains outweigh them.", "answer": "though"}
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Evidence language and claim structure",
+      "pattern": "CLAIM: 'I believe this would...' | EVIDENCE: 'The data suggests...' / 'Based on...' | CONCESSION: 'While...' | REAFFIRMATION: 'I'm confident...'",
+      "examples": [
+        "The data suggests that check-in time averages 8 minutes per delivery. (evidence — observable fact)",
+        "Based on four weeks of tracking, we're losing 45 minutes per shift to this process. (evidence — specific period)",
+        "This indicates that a digital solution could recover significant staff time. (interpretation — 'this indicates')",
+        "I'm confident this would pay for itself within one quarter. (confident conclusion)",
+        "What if we tested this for 30 days? The results would give us clear data to decide. (pilot framing)"
+      ],
+      "your_turn": "Say: 'Based on what I've observed, [something you have noticed]. This suggests that [your recommendation].'",
+      "prompts": [
+        {"sentence": "The ___ suggests that errors increase during peak hours. (evidence phrase)", "answer": "data"},
+        {"sentence": "___ on my observations, the current system has a key bottleneck. (evidence opener)", "answer": "Based"},
+        {"sentence": "I'm ___ this would improve accuracy if we implemented it. (confident conclusion)", "answer": "confident"}
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit10-lesson5-listen1.mp3",
+      "transcript": "Persuasive communication in professional settings relies on three elements: a clear claim, supporting evidence, and an acknowledgement of the other person's concerns. Simply stating 'I think we should do this' is less persuasive than 'Based on the data, this approach would reduce errors by 30%, and while I understand the concern about implementation time, the process is straightforward.' The second version is more persuasive because it anticipates objections rather than ignoring them.",
+      "question": "What makes the second example more persuasive?",
+      "options": [
+        "It is longer",
+        "It uses more formal vocabulary",
+        "It includes evidence and acknowledges concerns",
+        "It uses the word 'please'"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit10-lesson5-listen2.mp3",
+      "transcript": "Modal verbs carry different levels of confidence in proposals. 'Will' states something as certain. 'Would' proposes something as likely in the right conditions. 'Could' presents a possibility. 'Might' suggests something less certain. In professional proposals, 'would' and 'could' are preferred because they show confidence without overclaiming. Saying 'this will fix everything' can seem naive; 'this would likely improve the process by X%' sounds professional and credible.",
+      "question": "Why are 'would' and 'could' preferred over 'will' in professional proposals?",
+      "options": [
+        "They are more formal",
+        "They show confidence without overclaiming",
+        "They are easier to pronounce",
+        "They are required by workplace grammar rules"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit10-lesson5-listen3.mp3",
+      "transcript": "A pilot program is a powerful persuasive tool. Instead of asking for full approval of a large change, you propose a small test: 'What if we tried this for 30 days?' This reduces the perceived risk for the decision-maker. If the pilot succeeds, the data speaks for you. If it fails, the cost is small. Framing proposals as pilots or tests is a highly effective professional communication strategy, especially when proposing changes to established processes.",
+      "question": "Why is proposing a pilot program effective in persuasion?",
+      "options": [
+        "It avoids the need for evidence",
+        "It reduces perceived risk and lets results speak",
+        "It is required for all proposals",
+        "It makes the proposal sound less important"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Present a one-minute proposal to improve something at your workplace or school. Include: what you are proposing, evidence or observation supporting it, an acknowledgement of a possible concern, and your confident conclusion. Use 'I'd like to propose...', 'Based on...', 'While I understand...', and 'I'm confident...'",
+      "example": "I'd like to propose a change to how we communicate shift updates. Currently, supervisors post notices on the break room board, but based on my observations, many staff don't check the board until mid-shift. Over the last month, I've noticed at least three incidents where staff missed important updates. One approach would be to send a brief text message at the start of each shift. While I understand there are privacy concerns about using personal phones, we could use the company group chat that's already set up. I'm confident this would reduce missed communications by at least 60%, and the cost is zero.",
+      "min_seconds": 45,
+      "target_language": "english",
+      "sentence_starters": [
+        "I'd like to propose a change to ...",
+        "Based on what I've observed over the past [weeks/months], ...",
+        "While I understand the concern about ..., I'm confident that ..."
+      ]
+    },
+    {
+      "id": "speak-2",
+      "prompt": "You are on the other side: your manager is proposing a change you have concerns about. Acknowledge the proposal positively, then raise one concern using 'While I appreciate...', and ask a clarifying question using 'What if...?' or 'How would this affect...?' Record for 30 seconds.",
+      "example": "Thank you for sharing this proposal — I can see the potential benefits, especially for our peak-hour workflow. While I appreciate the efficiency gains, I do have a concern about the transition period. Some of our longer-serving staff are comfortable with the current system and may need time to adjust. What if we ran both systems in parallel for the first two weeks? That way, staff could familiarize themselves with the new process without the pressure of it being the only option.",
+      "min_seconds": 30,
+      "target_language": "english",
+      "sentence_starters": [
+        "I can see the potential here, especially for ...",
+        "While I appreciate [the proposal], I do have a concern about ...",
+        "What if we [tried / tested / piloted] ... first?"
+      ]
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a one-page proposal summary (100-120 words) for Director Kim. Include: the problem you observed, the proposed solution, supporting evidence, a brief acknowledgement of concerns, and a clear recommendation. Use the persuasive language structures from this lesson.",
+      "min_words": 100,
+      "example": "PROPOSAL: Digital Check-In System for Bay 3\n\nCurrently, Bay 3 check-in requires staff to log deliveries at the main office, resulting in an average delay of 8 minutes per delivery. Based on four weeks of tracking, this accounts for approximately 45 minutes of lost productivity per shift.\n\nI propose installing a tablet-based digital check-in form at Bay 3. This would allow on-site logging and could reduce check-in time to under 2 minutes.\n\nWhile I understand the concern about upfront cost, the time savings would likely offset the investment within three months.\n\nI recommend a one-month pilot with a single tablet. I'm confident the data will support a full rollout.\n\nSubmitted by: Ahmed Hassan, Supervisor",
+      "rubric": [
+        "State the problem clearly before proposing any solution",
+        "Use at least one evidence phrase (the data suggests, based on, I've observed) and one concession (while, although, even though)",
+        "End with a specific, concrete recommendation — not just a vague conclusion"
+      ]
+    },
+    {
+      "id": "write-2",
+      "prompt": "Think of something you would like to change at work or school. Write a persuasive paragraph (80-100 words) using this structure: 1) State the problem briefly. 2) Propose a solution using 'One approach would be to...' 3) Give one piece of evidence. 4) Acknowledge one concern using 'While...' 5) End with a confident recommendation.",
+      "min_words": 80,
+      "example": "In our department, weekly status updates are sent by email, but many team members admit they rarely read them fully. One approach would be to replace the email with a 5-minute stand-up meeting at the start of each Monday shift. Research on team communication consistently shows that brief in-person updates improve information retention significantly. While I understand this requires everyone to arrive at the same time, most team members already overlap by 15 minutes at shift start. I'm confident this change would improve team coordination and reduce duplicated work within the first month.",
+      "rubric": [
+        "Follow the 5-part structure: problem → solution → evidence → concession → recommendation",
+        "Use modal verbs (would, could, might) for the proposal — not 'will' or 'must'",
+        "The concession must genuinely acknowledge a real concern, not dismiss it"
+      ]
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Modal Verbs for Proposals: would, could, might",
+      "explanation": "'Would' is used for confident proposals and likely outcomes. 'Could' presents a possibility. 'Might' suggests something less certain. Choosing the right modal signals how confident you are.",
+      "examples": [
+        "One approach would be to digitize the process. (confident recommendation)",
+        "This could reduce delays by 40%. (possible outcome — we don't know for sure)",
+        "A pilot might give us useful data. (less certain — but worth trying)",
+        "I believe this would improve accuracy significantly. (belief + would = professional confidence)",
+        "We could start with one station before expanding. (tentative suggestion — open to feedback)"
+      ],
+      "practice": [
+        {"sentence": "One approach ___ be to pilot the system for 30 days. (confident proposal)", "blank": "would", "options": ["would", "will", "might"]},
+        {"sentence": "This ___ reduce our processing time significantly. (possible result)", "blank": "could", "options": ["could", "would", "must"]},
+        {"sentence": "A digital form ___ also improve accuracy. (additional possibility)", "blank": "might", "options": ["might", "will", "should"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Concession Clauses: while, although, even though",
+      "explanation": "Concession clauses acknowledge a valid concern before making your point. This makes arguments more persuasive because you show you have considered both sides.",
+      "examples": [
+        "While I understand the concern about cost, the time savings are significant. (while + concern, main claim)",
+        "Although the setup takes one day, the long-term benefit is clear. (although + cost, payoff)",
+        "Even though this is a change, staff would adapt quickly. (even though + downside, reassurance)",
+        "While this requires training, the interface is simple. (brief downside → brief reassurance)",
+        "Although I don't have all the answers yet, the direction is promising. (honest concession)"
+      ],
+      "practice": [
+        {"sentence": "___ I understand the budget concern, the data supports this investment.", "blank": "While", "options": ["While", "Because", "So"]},
+        {"sentence": "___ the timeline is tight, the team is ready to move forward.", "blank": "Although", "options": ["Although", "Therefore", "Since"]},
+        {"sentence": "Even ___ there is some risk, the potential gain outweighs it.", "blank": "though", "options": ["though", "so", "but"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Evidence and Claim Phrases",
+      "explanation": "Strong professional arguments separate claims from evidence. Use evidence phrases to introduce data, and claim phrases to state what the data means.",
+      "examples": [
+        "The data suggests that... (introducing evidence-based interpretation)",
+        "Based on [time period/source], [finding]. (grounding a claim in observation)",
+        "This indicates that... (drawing a conclusion from evidence)",
+        "I'm confident that... (expressing well-founded certainty)",
+        "What if we [proposed action]? (framing a recommendation as a question — less threatening)"
+      ],
+      "practice": [
+        {"sentence": "The ___ suggests that delays are concentrated in the morning shift.", "blank": "data", "options": ["data", "story", "feeling"]},
+        {"sentence": "___ on three weeks of observation, the pattern is consistent.", "blank": "Based", "options": ["Based", "Since", "Because"]},
+        {"sentence": "I'm ___ this would improve our processing time.", "blank": "confident", "options": ["confident", "hoping", "thinking"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Which modal verb is best for a confident proposal?", "options": ["Might", "Could", "Would", "Should"], "correct": 2, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Choose the most persuasive way to open a proposal:", "options": ["I think we should do this.", "I'd like to propose a change based on what I've observed.", "We must change this right away.", "This is probably wrong."], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "Which sentence uses concession language correctly?", "options": ["While I understand the cost concern, the benefits are significant.", "Because the cost is high, we should not do this.", "The cost is high. The benefits are significant.", "Although we should do this."], "correct": 0, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "What is the purpose of a concession clause?", "options": ["To admit you are wrong", "To make the sentence longer", "To acknowledge a concern before making your main point", "To avoid giving evidence"], "correct": 2, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Using 'could' instead of 'will' in a proposal sounds more professional because it shows confidence without overclaiming.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "'The data suggests' is a weaker phrase than 'I think' because it relies on evidence.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ I understand the concern about timing, the opportunity is significant.", "correct": "While", "accept": ["While", "Although"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "___ on my observations over the past month, the current process has a clear bottleneck.", "correct": "Based", "accept": ["Based"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match each phrase to its function:", "pairs": [{"left": "The data suggests...", "right": "introduce evidence"}, {"left": "While I understand...", "right": "acknowledge a concern"}, {"left": "I'm confident this would...", "right": "state confident conclusion"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Why is proposing a pilot program effective?", "options": ["It avoids the need for evidence", "It reduces perceived risk for the decision-maker", "It is required for all proposals", "It makes the proposal shorter"], "correct": 1, "points": 10},
+      {"id": "q11", "type": "open-ended", "question": "Fix the error: 'While the cost is high, but the benefits are worth it.'", "correct": "While the cost is high, the benefits are worth it.", "accept": ["While the cost is high, the benefits are worth it.", "Although the cost is high, the benefits are worth it."], "points": 10},
+      {"id": "q12", "type": "open-ended", "question": "Rewrite this as a professional proposal opener: 'I think you should change the process because it is slow.'", "correct": "I'd like to propose a change to the current process. Based on my observations, delays are averaging 8 minutes per delivery.", "accept": ["I'd like to propose", "Based on", "One approach would be"], "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "propose", "definition": "formally suggest a plan or course of action", "example": "Ahmed proposed a new check-in system to the director."},
+    {"word": "concession", "definition": "acknowledging a point made by the other side before arguing your own position", "example": "'While the cost is high, the benefits outweigh it' — this sentence opens with a concession."},
+    {"word": "evidence", "definition": "facts, data, or observations that support a claim", "example": "Ahmed used four weeks of tracking data as evidence for his proposal."},
+    {"word": "pilot", "definition": "a small-scale test of a new idea before full implementation", "example": "She proposed a one-month pilot before rolling out the system company-wide."},
+    {"word": "offset", "definition": "counterbalance or compensate for something", "example": "The time savings would offset the upfront cost within three months."},
+    {"word": "rollout", "definition": "the process of introducing or implementing something on a larger scale", "example": "After the successful pilot, management approved a full rollout."},
+    {"word": "throughput", "definition": "the amount of work processed in a given time period", "example": "The new system improved our daily throughput by 20%."},
+    {"word": "anticipate", "definition": "expect or prepare for something before it happens", "example": "A good proposal anticipates objections and addresses them."},
+    {"word": "credible", "definition": "convincing and trustworthy; worthy of belief", "example": "Using data makes a proposal more credible than using opinion alone."},
+    {"word": "reaffirmation", "definition": "a statement that restates or strengthens your main point, especially after a concession", "example": "After the concession, Ahmed ended with a confident reaffirmation of his recommendation."}
+  ],
+  "cultural_notes": [
+    "In American workplaces, proposals are expected to be data-driven. Saying 'I believe this would help' is much less persuasive than 'Based on four weeks of tracking, this would reduce delays by X%'.",
+    "Proposing a pilot or test rather than a full implementation is a very American professional strategy — it reduces risk perception and shows good judgment.",
+    "American managers often respond well to proposals that anticipate their objections. Raising the concern yourself ('While I understand the cost...') signals that you have thought it through carefully.",
+    "The structure Claim → Evidence → Concession → Recommendation is a standard American business communication pattern, taught in MBA programs and used in business proposals across industries.",
+    "Ahmed's approach — tracking data for four weeks before making a proposal — reflects a key American workplace value: letting the facts speak rather than relying on seniority or personal opinion alone."
+  ]
+}

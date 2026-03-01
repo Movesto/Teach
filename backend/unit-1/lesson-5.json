@@ -1,0 +1,349 @@
+{
+  "id": 5,
+  "unit_id": 1,
+  "lesson_number": 5,
+  "title": "Using Public Transportation",
+  "description": "Learn to use buses and ask for directions",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Ask which bus to take (Which bus goes to...?)",
+    "Ask for directions (How do I get to...?)",
+    "Understand basic direction words (take, go, stop)",
+    "Buy tickets and ask about fares"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Which bus goes to [place]?",
+      "How do I get to [place]?",
+      "Where do I get off?",
+      "How much is the fare?",
+      "Does this bus go to [place]?",
+      "Take bus number [number]",
+      "Get off at [stop]"
+    ],
+    "grammar_pattern": "Which + noun?\nHow do I + verb?\nDoes this + noun + verb?\n\nExamples:\n- Which bus goes to downtown?\n- How do I get to the library?\n- Does this bus go to Main Street?\n- Get off at the next stop",
+    "grammar_patterns": [
+      {
+        "label": "Choosing options",
+        "pattern": "Which + [noun] + goes to + [place]?",
+        "examples": ["Which bus goes to downtown?", "Which bus goes to the hospital?", "Which train goes to the airport?"]
+      },
+      {
+        "label": "Asking for directions",
+        "pattern": "How do I get to + [place]?",
+        "examples": ["How do I get to the library?", "How do I get to downtown?", "How do I get to the mall?"]
+      },
+      {
+        "label": "Yes/No confirmation",
+        "pattern": "Does this + [noun] + go to + [place]?",
+        "examples": ["Does this bus go to Main Street?", "Does this bus go to downtown?", "Does this train go to the airport?"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are at the bus stop. You need to go to the library. You ask someone for help.",
+    "dialogue": [
+      {
+        "speaker": "You",
+        "text": "Excuse me. Can you help me?"
+      },
+      {
+        "speaker": "Person",
+        "text": "Sure. What do you need?"
+      },
+      {
+        "speaker": "You",
+        "text": "I need to go to the library. Which bus goes to the library?"
+      },
+      {
+        "speaker": "Person",
+        "text": "Take bus number 5. It goes to the library."
+      },
+      {
+        "speaker": "You",
+        "text": "Where do I get off?"
+      },
+      {
+        "speaker": "Person",
+        "text": "Get off at Main Street."
+      },
+      {
+        "speaker": "You",
+        "text": "How much is the fare?"
+      },
+      {
+        "speaker": "Person",
+        "text": "The fare is two dollars."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you very much!"
+      },
+      {
+        "speaker": "Person",
+        "text": "You're welcome. The bus is coming now."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Which bus questions",
+      "instruction": "Fill in the blank with the correct place",
+      "prompts": [
+        {"sentence": "Which bus goes to ___?", "answer": "downtown"},
+        {"sentence": "Which bus goes to the ___?", "answer": "hospital"},
+        {"sentence": "Which bus goes to the ___?", "answer": "mall"},
+        {"sentence": "Which bus goes to ___ Street?", "answer": "Main"}
+      ],
+      "examples": [
+        "Which bus goes to downtown?",
+        "Which bus goes to the hospital?",
+        "Which bus goes to the mall?",
+        "Which bus goes to Main Street?"
+      ],
+      "your_turn": "Now ask which bus goes to a place you need, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: How do I get to...",
+      "instruction": "Fill in the blank with the correct place",
+      "prompts": [
+        {"sentence": "How do I get to the ___?", "answer": "library"},
+        {"sentence": "How do I get to ___?", "answer": "downtown"},
+        {"sentence": "How do I get to the ___?", "answer": "hospital"},
+        {"sentence": "How do I get to the ___?", "answer": "mall"}
+      ],
+      "examples": [
+        "How do I get to the library?",
+        "How do I get to downtown?",
+        "How do I get to the hospital?",
+        "How do I get to the mall?"
+      ],
+      "your_turn": "Now ask how to get to a place you need, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Does this bus go to...",
+      "instruction": "Fill in the blank with the correct place",
+      "prompts": [
+        {"sentence": "Does this bus go to ___ Street?", "answer": "Main"},
+        {"sentence": "Does this bus go to ___?", "answer": "downtown"},
+        {"sentence": "Does this bus go to the ___?", "answer": "hospital"},
+        {"sentence": "Does this bus go to the ___?", "answer": "library"}
+      ],
+      "examples": [
+        "Does this bus go to Main Street?",
+        "Does this bus go to downtown?",
+        "Does this bus go to the hospital?",
+        "Does this bus go to the library?"
+      ],
+      "your_turn": "Now ask if a bus goes to a place you need, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: Which bus goes to the library?",
+      "audio": "/audio/lesson5-listen1.mp3",
+      "options": ["Bus 3", "Bus 5", "Bus 7", "Bus 9"],
+      "correct": 1,
+      "explanation": "The person says 'Take bus number 5'"
+    },
+    {
+      "question": "Listen: Where should you get off?",
+      "audio": "/audio/lesson5-listen2.mp3",
+      "options": ["First Street", "Main Street", "Oak Street", "Park Street"],
+      "correct": 1,
+      "explanation": "The person says 'Get off at Main Street'"
+    },
+    {
+      "question": "Listen: How much is the bus fare?",
+      "audio": "/audio/lesson5-listen3.mp3",
+      "options": ["One dollar", "Two dollars", "Three dollars", "Free"],
+      "correct": 1,
+      "explanation": "The fare is two dollars"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Ask about buses",
+      "instruction": "Record yourself asking which bus goes to three places: the library, the hospital, and downtown.",
+      "example": "Which bus goes to the library? Which bus goes to the hospital? Which bus goes to downtown?"
+    },
+    {
+      "title": "Task 2: Bus conversation",
+      "instruction": "Record a conversation where you ask someone how to get to the library by bus.",
+      "example": "You: Excuse me. How do I get to the library?\nPerson: Take bus 5.\nYou: Where do I get off?\nPerson: Get off at Main Street.\nYou: Thank you!"
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write directions",
+      "instruction": "Someone asks you how to get to the hospital. Write 3-4 sentences giving them directions by bus.",
+      "example": "Take bus number 7. The bus goes to the hospital. Get off at Park Street. The hospital is there."
+    },
+    {
+      "title": "Task 2: Write a bus conversation",
+      "instruction": "Write a conversation (8-10 lines) where you ask someone at the bus stop how to get to the mall.",
+      "example": "You: Excuse me.\nPerson: Yes?\nYou: How do I get to the mall?\nPerson: Take bus 12.\nYou: Which stop?\nPerson: Get off at Oak Street.\nYou: How much is the fare?\nPerson: Two dollars.\nYou: Thank you!\nPerson: You're welcome."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Question words: Which vs How",
+        "examples": [
+          "Which bus goes to downtown? (asking to choose one option)",
+          "How do I get to downtown? (asking for the method/way)"
+        ],
+        "question": "What's the difference between 'which' and 'how'?",
+        "explanation": "'Which' asks you to choose from options (which bus, which stop). 'How' asks about the method or way to do something (how do I get there)."
+      },
+      {
+        "title": "Commands and instructions",
+        "examples": [
+          "Take bus 5",
+          "Get off at Main Street",
+          "Go to the library"
+        ],
+        "question": "How do we give directions and instructions?",
+        "explanation": "We use the base form of the verb (take, get, go) to give instructions. No 'I' or 'you' needed."
+      },
+      {
+        "title": "Yes/No questions with 'does'",
+        "examples": [
+          "Does this bus go to Main Street?",
+          "Does the bus stop here?",
+          "Does it cost money?"
+        ],
+        "question": "How do we ask yes/no questions about things?",
+        "explanation": "We use 'does' to ask yes/no questions about things. Pattern: Does + [thing] + [verb]?"
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to know which bus to take. What do you ask?",
+      "options": [
+        "What bus go downtown?",
+        "Which bus goes to downtown?",
+        "Bus to downtown which?",
+        "Downtown bus which?"
+      ],
+      "correct": 1,
+      "explanation": "'Which bus goes to downtown?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know how to get somewhere. What do you ask?",
+      "options": [
+        "How I get to library?",
+        "How do I get to the library?",
+        "I get to library how?",
+        "Get to library how?"
+      ],
+      "correct": 1,
+      "explanation": "'How do I get to the library?' is correct. We use 'do I' in questions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone tells you directions. They say 'Take bus 5'. What does 'take' mean?",
+      "options": [
+        "Hold the bus",
+        "Get on the bus / Use the bus",
+        "Buy the bus",
+        "Wait for the bus"
+      ],
+      "correct": 1,
+      "explanation": "'Take the bus' means 'get on the bus' or 'use the bus'. It's a common way to give transportation directions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to confirm the bus goes to Main Street. What do you ask?",
+      "options": [
+        "This bus go Main Street?",
+        "Does this bus go to Main Street?",
+        "This bus to Main Street?",
+        "Go this bus Main Street?"
+      ],
+      "correct": 1,
+      "explanation": "'Does this bus go to Main Street?' is the correct yes/no question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: ___ bus goes to the hospital?",
+      "options": [
+        "What",
+        "Where",
+        "Which",
+        "How"
+      ],
+      "correct": 2,
+      "explanation": "We use 'which' when choosing from options. 'Which bus' asks you to choose which one."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone says 'Get off at Park Street'. What does 'get off' mean?",
+      "options": [
+        "Leave the bus / Exit the bus",
+        "Enter the bus",
+        "Pay for the bus",
+        "Wait at the bus"
+      ],
+      "correct": 0,
+      "explanation": "'Get off' means to leave or exit the bus. It's the opposite of 'get on'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: How ___ I get to downtown?",
+      "options": [
+        "am",
+        "is",
+        "do",
+        "does"
+      ],
+      "correct": 2,
+      "explanation": "We say 'How do I get to downtown?' Use 'do' with 'I' in questions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the MOST polite way to ask?",
+      "options": [
+        "Which bus downtown?",
+        "Tell me the bus",
+        "Excuse me, which bus goes to downtown?",
+        "Bus to downtown"
+      ],
+      "correct": 2,
+      "explanation": "'Excuse me, which bus goes to downtown?' is the most polite. It starts with 'Excuse me' and uses a complete question."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you ask someone at the bus stop how to get to the hospital.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: getting attention politely, asking which bus, asking where to get off, and thanking them."
+    },
+    {
+      "type": "open-ended",
+      "question": "Where do you need to go by bus? Write the question you would ask: 'Which bus goes to ___?' or 'How do I get to ___?'",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice with real places you need to go. This will help you remember the phrases."
+    }
+  ]
+}

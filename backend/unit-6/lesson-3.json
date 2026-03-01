@@ -1,0 +1,238 @@
+{
+  "id": "lesson-35",
+  "unit_id": 6,
+  "lesson_number": 3,
+  "title": "Healthy Habits",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Discuss diet and nutrition basics",
+    "Talk about exercise routines",
+    "Understand importance of sleep",
+    "Set realistic health goals"
+  ],
+  "target_phrases": [
+    "I try to eat...",
+    "I exercise... times a week",
+    "I should get more sleep",
+    "My goal is to...",
+    "I'm trying to...",
+    "It's important to...",
+    "I need to cut down on..."
+  ],
+  "dialogue": {
+    "title": "Discussing Fitness and Nutrition",
+    "context": "Ahmed and coworkers talk about their health routines during lunch break.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "You guys always seem so energetic. Do you exercise regularly?"},
+      {"speaker": "Lisa", "text": "I try to! I go to the gym three times a week - Monday, Wednesday, and Friday mornings before work."},
+      {"speaker": "Carlos", "text": "I play soccer every Saturday and Sunday. It's fun and great exercise at the same time."},
+      {"speaker": "Ahmed", "text": "I should exercise more. I'm always too tired after work."},
+      {"speaker": "Lisa", "text": "That's why I go in the morning! If I wait until evening, I make excuses. What about your diet? Do you cook at home?"},
+      {"speaker": "Ahmed", "text": "Not as much as I should. I eat a lot of fast food because it's convenient. I know it's not healthy."},
+      {"speaker": "Carlos", "text": "I meal prep on Sundays. I cook healthy meals for the whole week and freeze them. It saves time and money."},
+      {"speaker": "Lisa", "text": "That's smart! Also, Ahmed, are you getting enough sleep? Sleep is just as important as exercise and diet."},
+      {"speaker": "Ahmed", "text": "Honestly, no. I usually sleep only 5-6 hours. I stay up late watching TV."},
+      {"speaker": "Carlos", "text": "You should aim for 7-8 hours. Your body needs rest to stay healthy and have energy."},
+      {"speaker": "Ahmed", "text": "You're right. My goal is to eat healthier, exercise more, and sleep better. Maybe we can be workout partners?"},
+      {"speaker": "Lisa", "text": "Absolutely! Let's start this weekend. Small changes make a big difference over time."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Frequency of healthy habits",
+      "pattern": "I [activity] [number] times a week",
+      "examples": [
+        "I exercise three times a week.",
+        "I eat vegetables every day.",
+        "I go to the gym five times a week.",
+        "I cook at home four times a week.",
+        "I drink water eight times a day."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Setting health goals",
+      "pattern": "My goal is to [healthy action]",
+      "examples": [
+        "My goal is to lose 10 pounds.",
+        "My goal is to exercise more regularly.",
+        "My goal is to eat less sugar.",
+        "My goal is to sleep 8 hours every night.",
+        "My goal is to drink more water."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Giving health advice",
+      "pattern": "You should [healthy recommendation]",
+      "examples": [
+        "You should eat more fruits and vegetables.",
+        "You should walk for 30 minutes daily.",
+        "You should get enough sleep.",
+        "You should drink more water.",
+        "You should reduce your stress."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit6-lesson3-listen1.mp3",
+      "transcript": "A balanced diet includes five food groups: fruits, vegetables, grains, proteins, and dairy. Try to fill half your plate with fruits and vegetables. Choose whole grains like brown rice and whole wheat bread over white rice and white bread. Include lean proteins like chicken, fish, beans, and nuts. Limit processed foods, sugar, and salt.",
+      "question": "What should fill half your plate?",
+      "options": [
+        "Meat and dairy",
+        "Fruits and vegetables",
+        "Grains and proteins",
+        "Sugar and salt"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit6-lesson3-listen2.mp3",
+      "transcript": "The CDC recommends adults get at least 150 minutes of moderate exercise per week. That's about 30 minutes, five days a week. Moderate exercise includes brisk walking, swimming, or bike riding. You don't need a gym membership - walking is free and very beneficial. Even breaking it into three 10-minute walks throughout the day works.",
+      "question": "How much exercise do adults need per week?",
+      "options": [
+        "30 minutes total",
+        "1 hour total",
+        "150 minutes total",
+        "300 minutes total"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit6-lesson3-listen3.mp3",
+      "transcript": "Sleep is crucial for health. Adults need 7-9 hours per night. Lack of sleep affects your immune system, weight, mood, and concentration. Create good sleep habits: go to bed at the same time, avoid screens an hour before bed, keep your bedroom cool and dark, and don't eat heavy meals late at night.",
+      "question": "How many hours of sleep do adults need?",
+      "options": [
+        "5-6 hours",
+        "6-7 hours",
+        "7-9 hours",
+        "9-10 hours"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe your weekly exercise routine OR a routine you want to start. Include how often and what type of exercise. Record for 30 seconds.",
+      "example": "I'm trying to develop a better exercise routine. Right now, I walk for 20 minutes three times a week during my lunch break. I want to increase this to 30 minutes, five days a week. I also want to add some strength training - maybe using free weights or doing push-ups and sit-ups at home. My goal is to feel more energetic and strong. I know I need to start slow and build up gradually to avoid injury.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Give advice to someone who wants to eat healthier but doesn't have much time. Suggest 3 tips. Record for 25 seconds.",
+      "example": "If you want to eat healthier but you're busy, here are three tips. First, meal prep on weekends - cook healthy meals and freeze them for the week. Second, keep healthy snacks available like fruits, nuts, and yogurt so you don't reach for junk food. Third, drink a lot of water throughout the day instead of soda or juice. These small changes are easy to maintain and will make a big difference in your health.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write about your current health habits. What do you do well? What do you want to improve? (60-80 words)",
+      "min_words": 60,
+      "example": "I think I have some good health habits, but I could improve in other areas. I drink a lot of water every day, which is good. I also try to eat fruits and vegetables with most meals. However, I need to exercise more regularly - right now I only walk occasionally. I also need to sleep more. I often stay up late on my phone and only get 6 hours of sleep. My goal is to exercise at least three times a week and sleep 8 hours every night.",
+      "min_words": 60
+    },
+    {
+      "id": "write-2",
+      "prompt": "Create a simple meal plan for one day. Include breakfast, lunch, dinner, and snacks. Make it healthy and balanced. (50-70 words)",
+      "min_words": 50,
+      "example": "Here's my healthy meal plan for one day: Breakfast - oatmeal with berries and a banana. Mid-morning snack - apple with peanut butter. Lunch - grilled chicken salad with vegetables and olive oil dressing. Afternoon snack - carrots and hummus. Dinner - baked salmon, brown rice, and steamed broccoli. This plan includes all food groups, lots of vegetables, lean protein, and whole grains. I would drink water throughout the day.",
+      "min_words": 50
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Frequency Adverbs (always, usually, sometimes, rarely, never)",
+      "explanation": "Use frequency adverbs to describe how often you do healthy activities. They usually come before the main verb.",
+      "examples": [
+        "I always eat breakfast. (100% of the time)",
+        "She usually exercises in the morning. (most of the time)",
+        "He sometimes eats fast food. (occasionally)",
+        "We rarely drink soda. (not often)",
+        "They never skip meals. (0% of the time)"
+      ],
+      "practice": [
+        {"sentence": "I ___ eat vegetables.", "blank": "always", "options": ["always", "never", "rarely"]},
+        {"sentence": "She ___ goes to the gym.", "blank": "usually", "options": ["usually", "never", "rarely"]},
+        {"sentence": "We ___ eat junk food.", "blank": "rarely", "options": ["always", "usually", "rarely"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Should' for Health Recommendations",
+      "explanation": "Use 'should' to give advice or recommendations about health.",
+      "examples": [
+        "You should exercise regularly. (recommendation)",
+        "I should eat more vegetables. (what I need to do)",
+        "We should get 8 hours of sleep. (advice)",
+        "She should drink more water. (recommendation)"
+      ],
+      "practice": [
+        {"sentence": "You ___ eat healthy food.", "blank": "should", "options": ["should", "can", "do"]},
+        {"sentence": "I ___ exercise more.", "blank": "should", "options": ["should", "am", "can"]},
+        {"sentence": "They ___ get enough sleep.", "blank": "should", "options": ["should", "are", "do"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Present Simple for Habits",
+      "explanation": "Use present simple to talk about regular habits and routines.",
+      "examples": [
+        "I exercise every morning. (habit)",
+        "She eats salad for lunch. (routine)",
+        "He drinks water all day. (habit)",
+        "They sleep 8 hours. (routine)"
+      ],
+      "practice": [
+        {"sentence": "I ___ to the gym daily.", "blank": "go", "options": ["go", "goes", "going"]},
+        {"sentence": "She ___ healthy meals.", "blank": "cooks", "options": ["cook", "cooks", "cooking"]},
+        {"sentence": "We ___ water instead of soda.", "blank": "drink", "options": ["drink", "drinks", "drinking"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "How often does Lisa go to the gym?", "options": ["Every day", "Three times a week", "Once a week", "Twice a week"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does Carlos do for exercise?", "options": ["Goes to gym", "Plays soccer", "Runs", "Swims"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How many hours of sleep should adults get?", "options": ["5-6 hours", "6-7 hours", "7-9 hours", "10-12 hours"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "What should fill half your plate?", "options": ["Meat", "Grains", "Fruits and vegetables", "Dairy"], "correct": 2, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Walking is a good form of moderate exercise.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You need a gym membership to exercise.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I ___ eat breakfast. (100% of time - frequency adverb)", "correct": "always", "accept": ["always"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "You ___ exercise regularly. (giving advice)", "correct": "should", "accept": ["should"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the health tip:", "pairs": [{"left": "Balanced diet", "right": "5 food groups"}, {"left": "Exercise", "right": "150 minutes/week"}, {"left": "Sleep", "right": "7-9 hours"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What does Carlos do on Sundays?", "options": ["Sleeps late", "Meal preps for the week", "Goes to gym", "Eats fast food"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "nutrition", "definition": "food needed for health and growth", "example": "Good nutrition is important for energy."},
+    {"word": "diet", "definition": "the food you regularly eat", "example": "I'm trying to improve my diet."},
+    {"word": "exercise", "definition": "physical activity for fitness", "example": "I exercise three times a week."},
+    {"word": "routine", "definition": "regular way of doing things", "example": "My morning routine includes a walk."},
+    {"word": "sleep", "definition": "rest with eyes closed and unconscious", "example": "I need 8 hours of sleep."},
+    {"word": "habit", "definition": "regular behavior pattern", "example": "Eating breakfast is a good habit."},
+    {"word": "healthy", "definition": "good for your physical wellbeing", "example": "Vegetables are healthy foods."},
+    {"word": "fitness", "definition": "physical health and strength", "example": "Exercise improves your fitness."},
+    {"word": "portion", "definition": "amount of food served", "example": "Watch your portion sizes."},
+    {"word": "balanced", "definition": "having the right amounts of different things", "example": "A balanced diet includes all food groups."}
+  ],
+  "cultural_notes": [
+    "The U.S. has high rates of obesity - about 40% of adults. Fast food and processed foods are major contributing factors.",
+    "Gyms are popular in the U.S. Common chains include Planet Fitness, LA Fitness, and 24 Hour Fitness.",
+    "Many Americans track fitness with apps and wearable devices like Fitbit or Apple Watch.",
+    "Meal prep on Sundays is a growing trend to save time and eat healthier during the week.",
+    "Farmer's markets are popular for buying fresh, local produce.",
+    "The 'MyPlate' model replaced the food pyramid - it shows how to fill your plate with healthy foods."
+  ]
+}

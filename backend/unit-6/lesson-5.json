@@ -1,0 +1,238 @@
+{
+  "id": "lesson-37",
+  "unit_id": 6,
+  "lesson_number": 5,
+  "title": "Mental Health & Stress",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Recognize signs of stress and anxiety",
+    "Discuss feelings appropriately",
+    "Learn healthy coping strategies",
+    "Know when to seek professional help"
+  ],
+  "target_phrases": [
+    "I feel stressed because...",
+    "I'm worried about...",
+    "What helps me relax is...",
+    "I'm feeling overwhelmed",
+    "I need to take a break",
+    "Have you considered talking to someone?",
+    "It's okay to ask for help"
+  ],
+  "dialogue": {
+    "title": "Managing Stress and Anxiety",
+    "context": "Ahmed talks with friends about feeling stressed. They share coping strategies and support each other.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Honestly, I've been feeling really stressed lately. Work is busy, I'm worried about money, and I miss my family."},
+      {"speaker": "Lisa", "text": "I'm sorry you're going through that. It's completely normal to feel overwhelmed sometimes. What's stressing you most?"},
+      {"speaker": "Ahmed", "text": "Mostly work. My boss wants me to work faster, but I'm still learning. I feel like I'm not good enough."},
+      {"speaker": "Carlos", "text": "I felt the same way when I started. You're doing great! Remember, you're still new. Don't be so hard on yourself."},
+      {"speaker": "Lisa", "text": "Carlos is right. Also, what helps me when I'm stressed is taking breaks. Even a five-minute walk can help."},
+      {"speaker": "Ahmed", "text": "I don't take breaks. I work through lunch because I want to prove I'm a good worker."},
+      {"speaker": "Carlos", "text": "That's actually making it worse! Your brain needs rest. I take a real lunch break every day, and it helps me focus better in the afternoon."},
+      {"speaker": "Lisa", "text": "I also do deep breathing exercises when I feel anxious. It sounds simple, but it really works."},
+      {"speaker": "Ahmed", "text": "I haven't tried that. What else helps you guys?"},
+      {"speaker": "Carlos", "text": "Exercise is huge for me. When I play soccer, I forget about my worries for a while. It releases stress."},
+      {"speaker": "Lisa", "text": "And talking to friends helps - like we're doing now! If stress gets really bad, though, there's no shame in seeing a counselor. Many workplaces offer free counseling through Employee Assistance Programs."},
+      {"speaker": "Ahmed", "text": "Thank you both. I feel better just talking about it. I'll try taking breaks and maybe start exercising again."},
+      {"speaker": "Carlos", "text": "We're here for you, man. Check in with us - let us know how you're doing. That's what friends are for."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Expressing feelings and stress",
+      "pattern": "I feel [emotion] because [reason]",
+      "examples": [
+        "I feel stressed because I have too much work.",
+        "I feel anxious because I have an exam tomorrow.",
+        "I feel overwhelmed because I don't have enough time.",
+        "I feel worried because my family is far away.",
+        "I feel tired because I'm not sleeping well."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Coping strategies",
+      "pattern": "What helps me [cope/relax] is [activity]",
+      "examples": [
+        "What helps me relax is taking a walk.",
+        "What helps me cope is talking to friends.",
+        "What helps me feel better is listening to music.",
+        "What helps me is doing deep breathing.",
+        "What helps me most is getting enough sleep."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Offering support",
+      "pattern": "Have you considered/tried [suggestion]?",
+      "examples": [
+        "Have you considered taking a break?",
+        "Have you tried meditation or yoga?",
+        "Have you considered talking to a counselor?",
+        "Have you tried exercising to reduce stress?",
+        "Have you considered setting boundaries at work?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit6-lesson5-listen1.mp3",
+      "transcript": "Common signs of stress include: difficulty sleeping, headaches, muscle tension, stomach problems, irritability, trouble concentrating, and feeling overwhelmed. If you experience several of these symptoms regularly, you may be dealing with chronic stress. It's important to address stress before it affects your physical health.",
+      "question": "What are signs of stress?",
+      "options": [
+        "Only headaches",
+        "Difficulty sleeping, headaches, and feeling overwhelmed",
+        "Just feeling tired",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit6-lesson5-listen2.mp3",
+      "transcript": "Healthy ways to manage stress: exercise regularly - physical activity reduces stress hormones; get enough sleep - aim for 7-9 hours; talk to someone - friends, family, or a counselor; practice mindfulness or meditation; take breaks during work; limit caffeine and alcohol; do activities you enjoy. Everyone's different, so find what works for you.",
+      "question": "Which is a healthy way to manage stress?",
+      "options": [
+        "Work without breaks",
+        "Drink more caffeine",
+        "Exercise regularly",
+        "Avoid talking to people"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit6-lesson5-listen3.mp3",
+      "transcript": "When should you seek professional help? If stress or anxiety interferes with daily life, if you feel depressed for more than two weeks, if you have thoughts of harming yourself, or if coping strategies aren't helping. Therapy is not a sign of weakness - it's a smart way to take care of your mental health. Many insurance plans cover mental health services.",
+      "question": "When should you seek professional help?",
+      "options": [
+        "Never - handle it alone",
+        "Only if hospitalized",
+        "When stress interferes with daily life",
+        "Only for extreme emergencies"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe a time you felt stressed. What was the situation? How did you handle it? Record for 30 seconds.",
+      "example": "Last month, I felt very stressed because I had to prepare for a big presentation at work. I was worried I would make mistakes in English. I couldn't sleep well and felt anxious all the time. To cope with the stress, I practiced my presentation many times. I also talked to my friend Lisa, and she helped me feel more confident. On the day of the presentation, I did deep breathing exercises beforehand. It went well! I learned that preparing and talking to friends really helps reduce my stress.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Give advice to a friend who's feeling overwhelmed with work and family responsibilities. Suggest 3 coping strategies. Record for 25 seconds.",
+      "example": "I understand feeling overwhelmed - it's really common. Here are three things that might help. First, try to take short breaks during the day, even just five or ten minutes to breathe and clear your mind. Second, talk to someone you trust about how you're feeling - sometimes just expressing your feelings helps. Third, try to get some exercise, even a short walk. And remember, it's okay to ask for help from family, friends, or a professional counselor. You don't have to handle everything alone.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write about what causes you stress and what helps you cope. Include at least 3 coping strategies. (60-80 words)",
+      "min_words": 60,
+      "example": "Several things cause me stress. Work deadlines and learning new skills can be stressful. I also worry about money sometimes, and I miss my family who lives far away. To cope with stress, I use several strategies. First, I try to exercise at least three times a week - physical activity really helps me feel better. Second, I talk to my friends when I'm feeling overwhelmed. Third, I make sure to get enough sleep. I also try to take breaks during work instead of working non-stop. These strategies help me manage my stress in a healthy way.",
+      "min_words": 60
+    },
+    {
+      "id": "write-2",
+      "prompt": "Your friend seems very stressed and won't talk about it. Write a supportive message encouraging them to open up or seek help. (50-60 words)",
+      "min_words": 50,
+      "example": "Hi Carlos, I've noticed you seem stressed lately and I'm worried about you. I want you to know I'm here if you need to talk - no judgment, just support. Sometimes it helps to share what we're going through with friends. If you're not comfortable talking to me, that's okay too, but please consider talking to someone - maybe a counselor or another friend. You don't have to handle everything alone. I care about you.",
+      "min_words": 50
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'Feel + adjective' for Emotions",
+      "explanation": "Use 'feel + adjective' to describe emotional states.",
+      "examples": [
+        "I feel stressed. (emotional state)",
+        "She feels anxious. (emotional state)",
+        "They feel overwhelmed. (emotional state)",
+        "He feels better now. (changed state)"
+      ],
+      "practice": [
+        {"sentence": "I ___ stressed about work.", "blank": "feel", "options": ["feel", "feels", "feeling"]},
+        {"sentence": "She feels ___.", "blank": "anxious", "options": ["anxious", "anxiety", "anxiously"]},
+        {"sentence": "They ___ overwhelmed.", "blank": "feel", "options": ["feel", "feels", "felt"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Make/Let + object + verb' for Causation",
+      "explanation": "Use 'make + object + verb' when something causes a feeling. Use 'let + object + verb' for permission.",
+      "examples": [
+        "This makes me feel anxious. (causes the feeling)",
+        "Stress makes me tired. (causes tiredness)",
+        "Exercise makes me feel better. (causes improvement)",
+        "Let yourself rest. (give yourself permission)"
+      ],
+      "practice": [
+        {"sentence": "This ___ me feel stressed.", "blank": "makes", "options": ["makes", "make", "making"]},
+        {"sentence": "Work makes ___ tired.", "blank": "me", "options": ["me", "I", "my"]},
+        {"sentence": "Let yourself ___ a break.", "blank": "take", "options": ["take", "takes", "taking"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Gerunds for Activities (-ing as noun)",
+      "explanation": "Use gerund (verb + -ing) as a noun to talk about activities that help with stress.",
+      "examples": [
+        "Talking helps me cope. (talking = activity as subject)",
+        "I enjoy exercising. (exercising = activity as object)",
+        "Walking reduces stress. (walking = activity as subject)",
+        "She's good at managing stress. (managing = activity after preposition)"
+      ],
+      "practice": [
+        {"sentence": "___ helps me relax.", "blank": "Walking", "options": ["Walking", "Walk", "Walked"]},
+        {"sentence": "I enjoy ___.", "blank": "exercising", "options": ["exercise", "exercising", "exercised"]},
+        {"sentence": "Talking ___ stress.", "blank": "reduces", "options": ["reduce", "reduces", "reducing"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What is Ahmed's main source of stress?", "options": ["Family problems", "Money only", "Work pressure", "Health issues"], "correct": 2, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does Ahmed do during lunch?", "options": ["Takes a break", "Works through it", "Exercises", "Naps"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What coping strategy does Lisa suggest?", "options": ["Work harder", "Deep breathing exercises", "Drink coffee", "Ignore the stress"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "How does exercise help Carlos?", "options": ["Makes more money", "Releases stress", "Gets promotion", "Saves time"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "It's okay to seek professional counseling for stress.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should work through lunch to prove you're a good worker.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I ___ stressed about work. (feel + adjective)", "correct": "feel", "accept": ["feel"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Work ___ me tired. (make + object + adjective)", "correct": "makes", "accept": ["makes"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the coping strategy:", "pairs": [{"left": "Exercise", "right": "Reduces stress hormones"}, {"left": "Breaks", "right": "Rest your brain"}, {"left": "Talking", "right": "Share feelings"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What does Lisa mention about workplace counseling?", "options": ["It's very expensive", "It's only for managers", "Many workplaces offer free EAP counseling", "You need a referral"], "correct": 2, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "stress", "definition": "mental or emotional strain from difficult situations", "example": "Work stress is affecting my sleep."},
+    {"word": "anxiety", "definition": "feeling of worry or nervousness", "example": "I have anxiety about the exam."},
+    {"word": "worried", "definition": "feeling anxious about something", "example": "I'm worried about my family."},
+    {"word": "overwhelmed", "definition": "feeling unable to cope with too much", "example": "I feel overwhelmed with all this work."},
+    {"word": "cope", "definition": "deal effectively with something difficult", "example": "How do you cope with stress?"},
+    {"word": "relax", "definition": "become less tense or anxious", "example": "Music helps me relax."},
+    {"word": "support", "definition": "help and encouragement", "example": "My friends give me emotional support."},
+    {"word": "counseling", "definition": "professional guidance for personal problems", "example": "She's seeing a counselor for stress."},
+    {"word": "therapy", "definition": "treatment to improve mental health", "example": "Therapy has helped me a lot."},
+    {"word": "mindfulness", "definition": "practice of being present and aware", "example": "Mindfulness meditation reduces my anxiety."}
+  ],
+  "cultural_notes": [
+    "Mental health is increasingly discussed openly in the U.S., though stigma still exists in some communities.",
+    "Many U.S. workplaces offer Employee Assistance Programs (EAP) with free confidential counseling.",
+    "Therapy and counseling are becoming more normalized - about 20% of American adults see a therapist.",
+    "Mental health days - taking time off work for mental health - are becoming more accepted.",
+    "Online therapy platforms like BetterHelp and Talkspace are popular and often cheaper than in-person therapy.",
+    "The 988 Suicide & Crisis Lifeline is a free, confidential 24/7 resource for anyone in crisis."
+  ]
+}

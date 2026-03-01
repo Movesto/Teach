@@ -1,0 +1,240 @@
+{
+  "id": "lesson-73",
+  "unit_id": 11,
+  "lesson_number": 5,
+  "title": "Grant Writing and Funding Proposals",
+  "level": "proficient",
+  "estimated_time": 45,
+  "objectives": [
+    "Write competitive funding proposals",
+    "Articulate intellectual merit and broader impacts",
+    "Justify budgets effectively",
+    "Address evaluation criteria strategically"
+  ],
+  "target_phrases": [
+    "The intellectual merit of this project lies in...",
+    "Broader impacts include...",
+    "This research addresses a critical gap by...",
+    "The proposed methodology is uniquely suited because...",
+    "Anticipated outcomes include...",
+    "The PI brings demonstrated expertise in...",
+    "This work will advance the field by..."
+  ],
+  "dialogue": {
+    "title": "Developing a Research Proposal",
+    "context": "Ahmed works with a grant writing consultant to develop his first NSF (National Science Foundation) proposal, learning to frame research significance for non-specialist reviewers.",
+    "lines": [
+      {"speaker": "Consultant", "text": "Ahmed, your research idea is strong, but grant proposals require more than good science. You need to convince reviewers why this matters and why you can deliver. Let's start with intellectual merit."},
+      {"speaker": "Ahmed", "text": "I'm proposing to study how supply chain sustainability practices affect long-term profitability across different industry sectors."},
+      {"speaker": "Consultant", "text": "That's a topic. Now frame it as intellectual merit. What fundamental question does this address? What don't we understand that your work will illuminate?"},
+      {"speaker": "Ahmed", "text": "The intellectual merit of this project lies in resolving contradictory findings about whether sustainability helps or hurts profitability. Current literature shows conflicting results because studies don't account for industry variation and time horizons."},
+      {"speaker": "Consultant", "text": "Better! You're identifying a gap and explaining how your work fills it. Now, what are the broader impacts? NSF requires demonstrating benefits beyond your field."},
+      {"speaker": "Ahmed", "text": "Broader impacts include informing business sustainability decisions, providing evidence for policy makers, and training graduate students in mixed-methods research."},
+      {"speaker": "Consultant", "text": "Good start. Be more specific about societal benefit. How does resolving this question matter for climate change, economic policy, or workforce development?"},
+      {"speaker": "Ahmed", "text": "This research addresses a critical gap by providing evidence to overcome the false choice between environmental sustainability and economic viability. Results will inform corporate strategy and environmental policy."},
+      {"speaker": "Consultant", "text": "Excellent. Now explain why your approach works. The proposed methodology is uniquely suited because...?"},
+      {"speaker": "Ahmed", "text": "The proposed methodology is uniquely suited because it combines longitudinal financial analysis with qualitative case studies, allowing both statistical testing and deep contextual understanding that neither approach alone provides."},
+      {"speaker": "Consultant", "text": "Perfect. What about anticipated outcomes? Reviewers want to know what success looks like."},
+      {"speaker": "Ahmed", "text": "Anticipated outcomes include: peer-reviewed publications, an open-access database of sustainability practices, and practitioner workshops disseminating findings to industry."},
+      {"speaker": "Consultant", "text": "Excellent. Finally, why are you the right person for this? The PI brings demonstrated expertise in...?"},
+      {"speaker": "Ahmed", "text": "The PI brings demonstrated expertise in supply chain operations, with publications in top-tier journals and industry partnerships providing data access essential for this research."},
+      {"speaker": "Consultant", "text": "Now you're thinking like a grant writer. You're telling a compelling story about significant questions, rigorous methods, broader benefits, and qualified leadership."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Articulating intellectual merit",
+      "pattern": "The intellectual merit of this project lies in... / This research addresses a critical gap by...",
+      "examples": [
+        "The intellectual merit of this project lies in developing theoretical frameworks explaining previously contradictory empirical findings.",
+        "This research addresses a critical gap by examining mechanisms underlying observed relationships rather than merely documenting correlations.",
+        "The intellectual merit of this project lies in integrating insights from disparate disciplines to generate novel theoretical synthesis.",
+        "This research addresses a critical gap by employing methodological innovations that overcome limitations of previous studies.",
+        "The intellectual merit of this project lies in challenging fundamental assumptions that have constrained theoretical development."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Describing broader impacts",
+      "pattern": "Broader impacts include... / This work will advance the field by...",
+      "examples": [
+        "Broader impacts include informing policy decisions affecting millions of stakeholders and training next-generation researchers.",
+        "This work will advance the field by providing open-access datasets and methodological tools for other researchers.",
+        "Broader impacts include partnerships with community organizations translating findings into practical interventions.",
+        "This work will advance the field by developing interdisciplinary frameworks applicable across multiple domains.",
+        "Broader impacts include educational outreach engaging K-12 students in science through hands-on research experiences."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Justifying methodology and expertise",
+      "pattern": "The proposed methodology is uniquely suited because... / The PI brings demonstrated expertise in...",
+      "examples": [
+        "The proposed methodology is uniquely suited because it addresses limitations that compromised previous research in this area.",
+        "The PI brings demonstrated expertise in this methodology with publications in top-tier journals and successful grant track record.",
+        "The proposed methodology is uniquely suited because it leverages novel data sources previously unavailable to researchers.",
+        "The PI brings demonstrated expertise through established partnerships providing essential research access and infrastructure.",
+        "The proposed methodology is uniquely suited because it integrates complementary approaches yielding richer insights than either alone."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit11-lesson5-listen1.mp3",
+      "transcript": "Competitive grant proposals require clear articulation of significance, rigorous methodology, feasibility, and PI qualifications. Reviewers ask: Why does this matter? How will you do it? Can you deliver? What's the payoff? Frame significance for generalist reviewers, not just specialists. Avoid jargon. Explain why your specific approach is necessary - why existing methods don't suffice. Demonstrate preliminary work showing feasibility. Budget must align with activities - every dollar justified. Timeline must be realistic with clear milestones.",
+      "question": "What must grant proposals articulate clearly?",
+      "options": [
+        "Only methodology",
+        "Significance, methodology, feasibility, and qualifications",
+        "Just the budget",
+        "Personal story only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit11-lesson5-listen2.mp3",
+      "transcript": "NSF evaluates proposals on intellectual merit and broader impacts. Intellectual merit: Does this advance knowledge and understanding? Is methodology sound? Are investigators qualified? Broader impacts: Benefits to society? Participation of underrepresented groups? Research infrastructure? Educational impact? Dissemination plan? Both criteria matter equally - strong intellectual merit with weak broader impacts gets rejected. Address both explicitly. Use headings matching review criteria. Make reviewer's job easy by organizing proposal to align with evaluation framework.",
+      "question": "What two criteria does NSF use?",
+      "options": [
+        "Cost and timeline",
+        "Intellectual merit and broader impacts",
+        "Only scientific quality",
+        "Prestige and connections"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit11-lesson5-listen3.mp3",
+      "transcript": "Budget justification explains why each expense is necessary. Don't just list costs - explain how they enable research. Personnel: Who, what percentage time, what tasks? Equipment: Why needed, why this specific model? Travel: Conference presentations for dissemination? Fieldwork for data collection? Participant costs: How many, compensation, why? Indirect costs (overhead): Set by institution. Reviewers scrutinize budgets for reasonableness. Over-budget raises concerns about judgment. Under-budget suggests you don't understand project scope. Budget and narrative must align perfectly.",
+      "question": "What should budget justification explain?",
+      "options": [
+        "Just total cost",
+        "Why each expense is necessary for research",
+        "Only salary information",
+        "Nothing - costs speak for themselves"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Present a 45-second elevator pitch for a research project as if proposing it for funding. Include: significance, approach, intellectual merit, and broader impacts. Use grant language.",
+      "example": "I'm proposing research examining how organizational diversity affects innovation outcomes. The intellectual merit of this project lies in moving beyond simple correlation to understand mechanisms - specifically, how diverse teams generate innovation through constructive conflict that challenges assumptions. This research addresses a critical gap - while correlation between diversity and innovation is documented, we don't understand why and when it occurs. The proposed methodology is uniquely suited because it combines quantitative analysis of 300 organizations with ethnographic observation of 15 diverse teams during innovation processes, providing both statistical power and contextual depth. Broader impacts include informing diversity initiatives with evidence about what works, training graduate students in mixed-methods research, and partnering with companies to implement findings. Anticipated outcomes include peer-reviewed publications, practitioner workshops, and open-access resources for organizations. The PI brings demonstrated expertise in organizational behavior with publications in top journals and established industry partnerships. This work will advance the field by providing empirical evidence for mechanisms, not just correlations, transforming how we understand diversity's role in innovation.",
+      "min_seconds": 45,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain why your proposed research methodology is the right approach (for any topic). Justify your choices. Record for 35 seconds.",
+      "example": "Let me explain why the proposed methodology is uniquely suited for this research question. I'm examining how remote work affects team collaboration over time - a question requiring both breadth and depth. The proposed methodology combines three complementary approaches. First, longitudinal survey of 500 teams quarterly for two years provides statistical power to detect changes over time and test hypotheses about moderating factors. Second, detailed case studies of 12 teams with weekly observations and interviews capture how collaboration evolves through challenges and adaptations - nuances surveys miss. Third, analysis of digital collaboration data - messages, documents, meeting patterns - provides objective behavioral measures avoiding self-report bias. This multi-method approach addresses limitations of previous research relying on single method. Cross-sectional surveys can't capture temporal dynamics. Case studies alone lack generalizability. Digital data misses subjective experience. Combining all three provides comprehensive understanding impossible from any single approach. The methodology is demanding but necessary given research question complexity.",
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a project summary (abstract) for a funding proposal. Include: significance, methodology, intellectual merit, and broader impacts. (140-170 words)",
+      "min_words": 140,
+      "example": "Project Summary: Bilingual Education and Cognitive Development\n\nIntellectual Merit: This research addresses a critical gap in understanding how bilingual education program quality affects cognitive development. While research demonstrates bilingualism enhances executive function, contradictory findings reflect failure to distinguish program quality, language combinations, and socioeconomic contexts. The intellectual merit of this project lies in disaggregating 'bilingual education' into meaningful categories with differential outcomes.\n\nMethodology: The proposed methodology is uniquely suited through longitudinal design tracking 500 students across three program types (dual-immersion, transitional, English-only) over five years. Mixed methods combine standardized cognitive assessments, classroom observations, and family interviews, providing both statistical power and contextual understanding.\n\nBroader Impacts: This work will advance the field by informing program design and policy decisions affecting millions of students. Anticipated outcomes include peer-reviewed publications, practitioner resources for educators, and partnerships with school districts implementing evidence-based practices. The research will train graduate students in rigorous educational research while addressing pressing educational equity questions.\n\nThe PI brings demonstrated expertise in cognitive development and bilingual education with established school partnerships enabling research access.",
+      "min_words": 140
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write budget justification for 2-3 major expense categories in a research project. Explain why each is necessary. (100-120 words)",
+      "min_words": 100,
+      "example": "Budget Justification\n\nPersonnel ($120,000): PI salary support at 10% effort ($50,000) is essential for project oversight, data analysis, and manuscript preparation. Graduate research assistant at 50% effort for two years ($45,000) will conduct interviews, observations, and preliminary analysis under PI supervision. Undergraduate research assistants ($25,000) will assist with data entry and literature review, gaining research experience while supporting project efficiency.\n\nEquipment ($15,000): Eye-tracking equipment is necessary for measuring attention patterns during bilingual tasks - a key outcome variable. This specific model was selected for portability enabling school-based data collection and compatibility with analysis software.\n\nTravel ($8,000): Conference presentations at AERA and NABE are essential for disseminating findings to educational research and practitioner communities. School site visits require local travel for data collection.\n\nParticipant Costs ($12,000): Compensation for 500 families ($20 per assessment session) ensures diverse participation and respects participants' time commitment.",
+      "min_words": 100
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Future Tense for Proposed Work",
+      "explanation": "Use future tense (will) to describe planned research activities.",
+      "examples": [
+        "This project will examine mechanisms underlying innovation. (future plan)",
+        "The research will employ mixed-methods design. (proposed methodology)",
+        "Results will inform policy and practice. (anticipated outcomes)",
+        "The study will track participants over five years. (future research)"
+      ],
+      "practice": [
+        {"sentence": "This research ___ address the gap.", "blank": "will", "options": ["will", "would", "can"]},
+        {"sentence": "The methodology ___ combine approaches.", "blank": "will", "options": ["will", "would", "could"]},
+        {"sentence": "Findings ___ inform practice.", "blank": "will", "options": ["will", "would", "might"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Nominalization for Formal Proposals",
+      "explanation": "Use nominalized forms for formal, professional proposal language.",
+      "examples": [
+        "The implementation of this methodology... (nominalized)",
+        "The examination of these questions... (formal)",
+        "The dissemination of findings... (professional)",
+        "The advancement of knowledge... (nominalized goal)"
+      ],
+      "practice": [
+        {"sentence": "The ___ of this approach is crucial.", "blank": "implementation", "options": ["implement", "implementation", "implementing"]},
+        {"sentence": "The ___ of participants matters.", "blank": "recruitment", "options": ["recruit", "recruitment", "recruiting"]},
+        {"sentence": "The ___ of findings is essential.", "blank": "dissemination", "options": ["disseminate", "dissemination", "disseminating"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Passive Voice for Methodology",
+      "explanation": "Use passive voice to describe methodological procedures formally.",
+      "examples": [
+        "Data will be collected through surveys. (passive, formal)",
+        "Participants will be recruited from schools. (passive procedure)",
+        "Results will be analyzed using statistical software. (passive methodology)",
+        "Findings will be disseminated through publications. (passive plan)"
+      ],
+      "practice": [
+        {"sentence": "Data will ___ collected quarterly.", "blank": "be", "options": ["be", "been", "being"]},
+        {"sentence": "Participants will ___ recruited carefully.", "blank": "be", "options": ["be", "been", "being"]},
+        {"sentence": "Results will ___ analyzed rigorously.", "blank": "be", "options": ["be", "been", "being"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What must grant proposals articulate?", "options": ["Only methodology", "Significance, methodology, feasibility, qualifications", "Just budget", "Personal story"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What two criteria does NSF use?", "options": ["Cost and timeline", "Intellectual merit and broader impacts", "Only science", "Prestige"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What should budget justification explain?", "options": ["Just total", "Why each expense is necessary", "Only salary", "Nothing"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'This research ___ address the gap.'", "options": ["would", "will", "might", "could"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Both intellectual merit and broader impacts matter equally for NSF.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Budget and narrative don't need to align.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "The ___ of this approach is crucial. (nominalization)", "correct": "implementation", "accept": ["implementation", "execution"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Data will ___ collected quarterly. (passive)", "correct": "be", "accept": ["be"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match proposal element:", "pairs": [{"left": "Intellectual merit", "right": "Advances knowledge"}, {"left": "Broader impacts", "right": "Benefits society"}, {"left": "Budget justification", "right": "Why expenses needed"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed learned to frame proposals emphasizing:", "options": ["Personal story", "Significance and impact", "Just methodology", "Budget only"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "grant", "definition": "funding awarded for research", "example": "Apply for research grants."},
+    {"word": "proposal", "definition": "plan submitted for funding", "example": "Write competitive proposals."},
+    {"word": "intellectual merit", "definition": "advancement of knowledge", "example": "Demonstrate intellectual merit."},
+    {"word": "broader impacts", "definition": "societal benefits of research", "example": "Address broader impacts."},
+    {"word": "feasibility", "definition": "practicality and achievability", "example": "Show project feasibility."},
+    {"word": "deliverable", "definition": "concrete output or product", "example": "Specify project deliverables."},
+    {"word": "dissemination", "definition": "spreading research findings", "example": "Plan for dissemination."},
+    {"word": "PI", "definition": "Principal Investigator, lead researcher", "example": "PI leads the project."},
+    {"word": "co-PI", "definition": "Co-Principal Investigator", "example": "Co-PI shares leadership."},
+    {"word": "overhead", "definition": "indirect institutional costs", "example": "Budget includes overhead."}
+  ],
+  "cultural_notes": [
+    "American research funding is highly competitive - NSF funds only 20-30% of proposals.",
+    "Grant writing is essential skill in American academia - 'publish or perish' extends to 'fund or perish.'",
+    "American funding agencies increasingly emphasize broader impacts and societal relevance alongside scientific merit.",
+    "Interdisciplinary proposals are valued in American research funding but require clear coherence.",
+    "American academic culture expects faculty to bring in external funding to support their research programs.",
+    "Preliminary data demonstrating feasibility significantly strengthens American grant proposals."
+  ]
+}

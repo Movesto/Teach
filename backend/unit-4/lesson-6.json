@@ -1,0 +1,327 @@
+{
+  "id": "lesson-26",
+  "unit_id": 4,
+  "lesson_number": 6,
+  "title": "Community Resources",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Find community help programs and services",
+    "Access food banks and assistance programs",
+    "Join community centers and free classes",
+    "Connect with immigrant support organizations"
+  ],
+  "target_phrases": [
+    "Where can I find help with...?",
+    "Is there a food bank near here?",
+    "Do you have ESL classes?",
+    "How do I sign up?",
+    "What services do you offer?",
+    "Am I eligible for assistance?",
+    "Is there a fee?"
+  ],
+  "dialogue": {
+    "title": "Learning About Free Resources",
+    "context": "Ahmed visits a community center to learn about free programs and services available to him and his family.",
+    "lines": [
+      {"speaker": "Social Worker", "text": "Welcome to the Portland Immigrant Resource Center. I'm Maria, a social worker. How can I help you today?"},
+      {"speaker": "Ahmed", "text": "Hi Maria. I just moved here from Somalia. I'm looking for help finding resources for my family."},
+      {"speaker": "Social Worker", "text": "I'm glad you came! We have many free services. What do you need most right now?"},
+      {"speaker": "Ahmed", "text": "Well, I need to improve my English. Do you have ESL classes?"},
+      {"speaker": "Social Worker", "text": "Yes! We offer free ESL classes Monday through Friday, morning and evening sessions. We also have computer classes and job training."},
+      {"speaker": "Ahmed", "text": "That's wonderful! My wife is at home with our children. Are there programs for her?"},
+      {"speaker": "Social Worker", "text": "Absolutely. We have a women's support group, childcare during classes, and parenting workshops. Is she interested in working?"},
+      {"speaker": "Ahmed", "text": "Yes, when the kids are older. Right now, we sometimes need help with food. Is there a food bank?"},
+      {"speaker": "Social Worker", "text": "Yes, the Oregon Food Bank has a location three blocks away. They're open Tuesdays and Thursdays, 10 AM to 2 PM. No appointment needed."},
+      {"speaker": "Ahmed", "text": "Do I need to prove anything? I'm working, but money is tight."},
+      {"speaker": "Social Worker", "text": "No proof needed at food banks. Everyone is welcome. We also have a clothing closet here with free clothes for your family. Would you like me to show you around?"},
+      {"speaker": "Ahmed", "text": "Yes, please! And how do I sign up for ESL classes?"},
+      {"speaker": "Social Worker", "text": "Just fill out this simple form. Classes start next Monday. I'll also give you a list of other community resources - health clinics, legal help, and more."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking where to find help",
+      "pattern": "Where can I find help with [need]?",
+      "examples": [
+        "Where can I find help with food?",
+        "Where can I find help with rent?",
+        "Where can I find help with healthcare?",
+        "Where can I find help with job searching?",
+        "Where can I find help with English classes?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about availability",
+      "pattern": "Is there a [service/place] near here?",
+      "examples": [
+        "Is there a food bank near here?",
+        "Is there a community center near here?",
+        "Is there a free clinic near here?",
+        "Is there a job training program near here?",
+        "Is there an immigration lawyer near here?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Asking about eligibility",
+      "pattern": "Am I eligible for [program/service]?",
+      "examples": [
+        "Am I eligible for food stamps?",
+        "Am I eligible for housing assistance?",
+        "Am I eligible for free healthcare?",
+        "Am I eligible for childcare help?",
+        "Am I eligible for job training?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson6-listen1.mp3",
+      "transcript": "The Portland Immigrant Resource Center offers free services including ESL classes, job training, legal consultation, and help with immigration paperwork. They also connect families with food banks, healthcare, and housing assistance. Services are free and no documentation is required. The center is open Monday through Friday, 9 AM to 5 PM.",
+      "question": "What do you need to use the center's services?",
+      "options": [
+        "A lot of money",
+        "Immigration papers",
+        "Nothing - services are free",
+        "A referral from a doctor"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson6-listen2.mp3",
+      "transcript": "Food banks provide free groceries to anyone who needs help. No income verification or ID is required. Most food banks are open 1-2 days per week. Bring your own bags if possible. Typical groceries include bread, canned goods, fresh produce, and sometimes meat. Many food banks also have baby items like diapers and formula.",
+      "question": "How often are food banks typically open?",
+      "options": [
+        "Every day",
+        "1-2 days per week",
+        "Only weekends",
+        "Only holidays"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson6-listen3.mp3",
+      "transcript": "211 is a free helpline that connects you with local resources. Call 211 or visit 211info.org to find food, housing, healthcare, job training, and more. Operators speak many languages and can text information directly to your phone. It's free, confidential, and available 24/7.",
+      "question": "When is the 211 helpline available?",
+      "options": [
+        "Only business hours",
+        "Only on weekdays",
+        "24/7 - all day, every day",
+        "Only on weekends"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at a community center. Ask: 'What services do you offer? Do you have ESL classes? Is there a fee? How do I sign up?' Record yourself clearly.",
+      "example": "Hello, I'm new to this community center. What services do you offer for immigrant families? I'm especially interested in ESL classes - do you have those? Is there any fee for the classes, or are they free? And how do I sign up? Do I need to bring any documents? Thank you!",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain three types of help that community organizations offer. Talk for 30 seconds.",
+      "example": "Community organizations offer many types of help. First, they offer free classes like ESL, computer skills, and job training to help people learn new skills. Second, they connect people with food banks and clothing closets for basic needs. Third, they provide information about healthcare, legal help, and housing assistance. These services are usually free and available to everyone, regardless of immigration status. They're an important resource for new immigrants.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write about 3 community resources that would be helpful for a new immigrant family. Explain what each resource does. (5-6 sentences)",
+      "min_words": 50,
+      "example": "There are several helpful community resources for new immigrants. First, ESL classes help immigrants learn English for free. Many community centers and libraries offer these classes. Second, food banks provide free groceries for families who need help. No proof of income is required. Third, immigrant resource centers offer help with legal questions, job searching, and connecting with other services. These three resources can make a big difference for families adjusting to a new country."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Imagine you're telling a friend about the 211 helpline. Write what you would say. (4-5 sentences)",
+      "min_words": 40,
+      "example": "Hi Maria! I learned about a great resource today. You can call 211 from any phone and they'll help you find community services. They can tell you about food banks, free clinics, job training, and more. It's completely free and they speak many languages. You can also text them or visit their website at 211info.org. I think this could really help your family!"
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Questions with 'Where can I...?'",
+      "explanation": "Use 'Where can I...?' to ask about locations of services or places.",
+      "examples": [
+        "Where can I find a food bank? (asking for location)",
+        "Where can I get free healthcare? (asking where to go)",
+        "Where can I sign up for classes? (asking about location/process)",
+        "Where can I apply for assistance? (asking where to apply)"
+      ],
+      "practice": [
+        {"sentence": "Where ___ I find help?", "blank": "can", "options": ["can", "do", "am"]},
+        {"sentence": "Where can I ___ for classes?", "blank": "sign up", "options": ["sign up", "signing up", "signed up"]},
+        {"sentence": "___ can I get free food?", "blank": "Where", "options": ["Where", "What", "When"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Is there/Are there' for Availability",
+      "explanation": "Use 'Is there...?' (singular) or 'Are there...?' (plural) to ask if something exists or is available.",
+      "examples": [
+        "Is there a food bank near here? (singular)",
+        "Are there ESL classes? (plural)",
+        "Is there help available? (uncountable)",
+        "Are there programs for children? (plural)"
+      ],
+      "practice": [
+        {"sentence": "___ there a community center nearby?", "blank": "Is", "options": ["Is", "Are", "Do"]},
+        {"sentence": "___ there free classes available?", "blank": "Are", "options": ["Is", "Are", "Do"]},
+        {"sentence": "Is ___ any help for housing?", "blank": "there", "options": ["there", "their", "they"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Infinitive of Purpose (to + verb)",
+      "explanation": "Use 'to + base verb' to explain why you're doing something or what something is for.",
+      "examples": [
+        "I came here to get help. (purpose)",
+        "We're trying to find resources. (purpose)",
+        "They offer classes to teach English. (purpose)",
+        "Call 211 to find services. (purpose)"
+      ],
+      "practice": [
+        {"sentence": "I came here ___ learn English.", "blank": "to", "options": ["to", "for", "at"]},
+        {"sentence": "She wants ___ sign up for classes.", "blank": "to", "options": ["to", "for", "at"]},
+        {"sentence": "We need help ___ find housing.", "blank": "to", "options": ["to", "for", "with"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, when are ESL classes offered?",
+        "options": [
+          "Only weekends",
+          "Monday through Friday",
+          "Only evenings",
+          "Once a month"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What do you need to use a food bank?",
+        "options": [
+          "Proof of income",
+          "Immigration documents",
+          "Nothing - everyone is welcome",
+          "A referral letter"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What is the 211 helpline for?",
+        "options": [
+          "Emergency only",
+          "Calling the police",
+          "Finding community resources",
+          "Making appointments"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: '___ can I find a food bank?'",
+        "options": ["What", "Where", "When", "Who"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "Community resources are only for U.S. citizens.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "The 211 helpline is available 24 hours a day.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "___ there a community center nearby? (asking about availability)",
+        "correct": "Is",
+        "accept": ["Is", "is"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "I came here ___ get help. (infinitive of purpose)",
+        "correct": "to",
+        "accept": ["to"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the resource to what it provides:",
+        "pairs": [
+          {"left": "Food bank", "right": "Free groceries"},
+          {"left": "ESL classes", "right": "English lessons"},
+          {"left": "211 helpline", "right": "Resource information"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "According to Maria, what does Ahmed NOT need to use food banks?",
+        "options": [
+          "Bags to carry food",
+          "Proof of income",
+          "To go on open days",
+          "To bring family members"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "food bank", "definition": "place that gives free groceries to people in need", "example": "I get food from the food bank twice a month."},
+    {"word": "assistance", "definition": "help or support", "example": "She received assistance with rent payments."},
+    {"word": "nonprofit", "definition": "organization that helps people, not make profit", "example": "Many community centers are nonprofit organizations."},
+    {"word": "community center", "definition": "place offering programs and services for local residents", "example": "The community center has free computer classes."},
+    {"word": "resource", "definition": "something that helps meet a need", "example": "The library is a great resource for job seekers."},
+    {"word": "program", "definition": "organized set of services or activities", "example": "They offer a job training program."},
+    {"word": "eligibility", "definition": "meeting requirements to receive something", "example": "Check your eligibility for food assistance."},
+    {"word": "volunteer", "definition": "person who works without pay to help others", "example": "She volunteers at the food bank every Tuesday."},
+    {"word": "donation", "definition": "something given to help others", "example": "Food banks depend on donations from the community."},
+    {"word": "support group", "definition": "people who meet to help each other with similar challenges", "example": "There's a support group for new immigrants."}
+  ],
+  "cultural_notes": [
+    "The U.S. has many nonprofit organizations that help people for free. Don't hesitate to ask for help when you need it.",
+    "Call 211 (like 911 but for community resources) to find food, housing, healthcare, and more in your area.",
+    "Food banks do NOT check immigration status. Everyone is welcome, regardless of legal status.",
+    "Many churches, mosques, and temples offer community services even if you're not a member.",
+    "Libraries offer free resources: computers, internet, printing, resume help, and often ESL classes.",
+    "Community colleges often have free or low-cost ESL classes and job training programs."
+  ]
+}

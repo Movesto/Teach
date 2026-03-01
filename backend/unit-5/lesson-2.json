@@ -1,0 +1,325 @@
+{
+  "id": "lesson-28",
+  "unit_id": 5,
+  "lesson_number": 2,
+  "title": "Talking About Current Events",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Discuss news and current events",
+    "Understand different news sources",
+    "Distinguish fact from opinion",
+    "Ask clarifying questions about news"
+  ],
+  "target_phrases": [
+    "Did you hear about...?",
+    "According to the news...",
+    "What do you think about...?",
+    "Where did you see that?",
+    "I read that...",
+    "Is that confirmed?",
+    "What's your source?"
+  ],
+  "dialogue": {
+    "title": "Discussing a New Park",
+    "context": "Ahmed and coworkers discuss a news story about a new park opening in their neighborhood.",
+    "lines": [
+      {"speaker": "Jennifer", "text": "Did you hear about the new park they're building on 82nd Avenue?"},
+      {"speaker": "Ahmed", "text": "No! Where did you see that?"},
+      {"speaker": "Jennifer", "text": "I read it in The Oregonian this morning. They're breaking ground next month."},
+      {"speaker": "Marcus", "text": "I saw something different. According to the news on TV, the project might be delayed due to funding."},
+      {"speaker": "Ahmed", "text": "That's confusing. Which source is more recent?"},
+      {"speaker": "Jennifer", "text": "The article I read was published yesterday. When was the TV report?"},
+      {"speaker": "Marcus", "text": "This morning on KGW News. Maybe the situation changed overnight."},
+      {"speaker": "Ahmed", "text": "What do you think about the park? Is it a good idea?"},
+      {"speaker": "Jennifer", "text": "I think it's great! The neighborhood needs more green space. That's a fact."},
+      {"speaker": "Ahmed", "text": "Well, needing green space is a fact, but whether this specific park is the best solution is an opinion."},
+      {"speaker": "Marcus", "text": "Good point, Ahmed. We should check multiple sources to get the full story."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Introducing news topics",
+      "pattern": "Did you hear about [news event]?",
+      "examples": [
+        "Did you hear about the new library opening?",
+        "Did you hear about the road construction on Main Street?",
+        "Did you hear about the school board meeting?",
+        "Did you hear about the weather warning?",
+        "Did you hear about the election results?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Citing sources",
+      "pattern": "According to [source], [information]",
+      "examples": [
+        "According to the news, it will rain tomorrow.",
+        "According to The Oregonian, the park opens in May.",
+        "According to city officials, traffic will improve.",
+        "According to the report, crime is decreasing.",
+        "According to experts, the economy is growing."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Asking for opinions on news",
+      "pattern": "What do you think about [news topic]?",
+      "examples": [
+        "What do you think about the new mayor?",
+        "What do you think about the school changes?",
+        "What do you think about the proposed tax increase?",
+        "What do you think about the park project?",
+        "What do you think about the road closure?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit5-lesson2-listen1.mp3",
+      "transcript": "When discussing current events, it's important to know the difference between facts and opinions. A fact can be proven true or false, like 'The park will cost $2 million.' An opinion is a judgment or belief, like 'The park is a waste of money.' News articles often mix facts and opinions, so read carefully.",
+      "question": "What is a fact?",
+      "options": [
+        "What someone believes",
+        "Something that can be proven true or false",
+        "What most people think",
+        "What the newspaper says"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit5-lesson2-listen2.mp3",
+      "transcript": "Check multiple news sources to get the full story. Different outlets may emphasize different aspects. Local newspapers like The Oregonian cover Portland news in detail. TV news like KGW and KOIN provide breaking updates. National sources like NPR and BBC offer broader context. Social media can spread misinformation, so verify information through reliable sources.",
+      "question": "Why should you check multiple news sources?",
+      "options": [
+        "To waste time",
+        "To get the full story",
+        "Because one source is always wrong",
+        "It's required by law"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit5-lesson2-listen3.mp3",
+      "transcript": "When sharing news, cite your source. Say 'According to The Oregonian' or 'I heard on NPR' rather than 'They say' or 'I heard somewhere.' This helps others evaluate the information's reliability. If you're not sure whether something is true, say 'I'm not sure if this is confirmed' rather than presenting it as fact.",
+      "question": "How should you share news information?",
+      "options": [
+        "Just say what you remember",
+        "Cite your source",
+        "Exaggerate to make it interesting",
+        "Only share opinions"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Tell about a recent news story you heard. Say: where you saw/heard it, what it was about, and what you think about it. Record for 30 seconds.",
+      "example": "I read an interesting article in The New York Times yesterday about electric cars. According to the article, electric car sales increased by 50% last year. The article explained that gas prices and environmental concerns are driving the change. I think this is good news because electric cars are better for the environment. However, I'm concerned about the cost - they're still very expensive for most families. The article mentioned that prices should decrease in the next few years, which would be helpful.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Someone tells you: 'I heard they're closing all the libraries.' Ask 3 clarifying questions. Record yourself.",
+      "example": "That's surprising! I have a few questions. First, where did you hear that information? What was your source? Second, is this for all libraries or just some specific branches? And third, when is this supposed to happen? I want to verify this before I worry too much, because closing all libraries seems like a big decision that would be widely reported in the news.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a short paragraph about a news story that interested you recently. Include: what the story was about, where you heard it, and whether it was fact or opinion. (60-80 words)",
+      "min_words": 60,
+      "example": "I recently read an article on BBC News about water shortages in several countries. The article stated that according to the United Nations, over 2 billion people lack access to clean water. This is a fact that can be verified through UN data. The article also included an opinion from an environmental expert who said that governments aren't doing enough to address the problem. I found this story important because it affects so many people globally and shows how lucky we are to have clean water."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Read this statement: 'The city announced higher bus fares starting next month.' Write 3 follow-up questions you would ask. (40-50 words)",
+      "min_words": 40,
+      "example": "I would ask three important questions about this news. First, where did you see this announcement - which news source reported it? Second, how much will the bus fare increase? Third, did the city explain why they're raising the fares? I want to understand the full situation before forming an opinion about whether this is fair."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Reported Speech (The news said...)",
+      "explanation": "Use reported speech to tell what someone else said. The verb tense usually shifts back.",
+      "examples": [
+        "The news said (that) it will rain. (reporting future)",
+        "She told me (that) the park is opening. (reporting fact)",
+        "The article stated (that) crime decreased. (reporting past)",
+        "Officials announced (that) they approved the plan. (reporting decision)"
+      ],
+      "practice": [
+        {"sentence": "The news ___ it will snow.", "blank": "said", "options": ["said", "says", "say"]},
+        {"sentence": "She told me the meeting ___ canceled.", "blank": "was", "options": ["is", "was", "been"]},
+        {"sentence": "They ___ the park will open in May.", "blank": "announced", "options": ["announce", "announced", "announcing"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Past Tense for News Events",
+      "explanation": "Use past tense to talk about events that already happened in the news.",
+      "examples": [
+        "The mayor announced a new plan. (past event)",
+        "The accident happened yesterday. (completed action)",
+        "They approved the budget last week. (finished event)",
+        "The store closed last month. (past change)"
+      ],
+      "practice": [
+        {"sentence": "The mayor ___ the news yesterday.", "blank": "announced", "options": ["announce", "announced", "announces"]},
+        {"sentence": "The accident ___ on Main Street.", "blank": "happened", "options": ["happen", "happened", "happens"]},
+        {"sentence": "They ___ the new school last year.", "blank": "built", "options": ["build", "built", "building"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Present Perfect for Recent News",
+      "explanation": "Use present perfect for news that just happened or continues to be relevant.",
+      "examples": [
+        "The city has approved the plan. (recently completed)",
+        "Prices have increased this year. (recent change, still relevant)",
+        "They've announced a new program. (just happened)",
+        "Crime has decreased in our area. (recent trend)"
+      ],
+      "practice": [
+        {"sentence": "The city ___ approved the budget.", "blank": "has", "options": ["has", "have", "had"]},
+        {"sentence": "Prices ___ increased.", "blank": "have", "options": ["has", "have", "had"]},
+        {"sentence": "They ___ announced new rules.", "blank": "have", "options": ["has", "have", "had"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Where did Jennifer read about the new park?",
+        "options": [
+          "On TV",
+          "In The Oregonian",
+          "On social media",
+          "From a friend"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "Why is Marcus's information different from Jennifer's?",
+        "options": [
+          "He made it up",
+          "His source is from this morning",
+          "He misunderstood",
+          "They're talking about different parks"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What does Ahmed point out about Jennifer's statement?",
+        "options": [
+          "She's completely wrong",
+          "She's mixing fact and opinion",
+          "She should be quiet",
+          "She's not citing sources"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: 'The news ___ it will rain.'",
+        "options": ["say", "says", "said", "saying"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "A fact is something that can be proven true or false.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "Social media is always a reliable news source.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "According ___ the news, traffic will improve.",
+        "correct": "to",
+        "accept": ["to"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "The city ___ approved the plan. (present perfect)",
+        "correct": "has",
+        "accept": ["has"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the phrase to when you use it:",
+        "pairs": [
+          {"left": "Did you hear about...?", "right": "Introduce news topic"},
+          {"left": "According to...", "right": "Cite a source"},
+          {"left": "What do you think...?", "right": "Ask for opinion"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Why should you cite your news source?",
+        "options": [
+          "To sound smart",
+          "It's the law",
+          "To help others evaluate reliability",
+          "To avoid talking"
+        ],
+        "correct": 2,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "news", "definition": "information about recent events", "example": "I watch the news every evening."},
+    {"word": "article", "definition": "piece of writing in newspaper or online", "example": "I read an interesting article about climate change."},
+    {"word": "headline", "definition": "title of a news story", "example": "The headline said 'New Park Coming to Neighborhood.'"},
+    {"word": "source", "definition": "where information comes from", "example": "Always check your source before sharing news."},
+    {"word": "journalist", "definition": "person who writes news stories", "example": "The journalist interviewed the mayor."},
+    {"word": "report", "definition": "detailed account of an event", "example": "The report covered the city council meeting."},
+    {"word": "fact", "definition": "something that can be proven true", "example": "It's a fact that water freezes at 32°F."},
+    {"word": "opinion", "definition": "what someone thinks or believes", "example": "In my opinion, the park is a good idea."},
+    {"word": "bias", "definition": "favoring one side unfairly", "example": "All news sources have some bias."},
+    {"word": "media", "definition": "communication channels (TV, newspapers, internet)", "example": "I get my news from multiple media sources."}
+  ],
+  "cultural_notes": [
+    "In the U.S., there is freedom of the press. News organizations can criticize the government without censorship.",
+    "Major national news sources include The New York Times, Washington Post, NPR, CNN, and Fox News.",
+    "Each news source may have a political leaning (left, right, or center). It's good to read from multiple sources.",
+    "Local newspapers and TV stations are good for community news that national media doesn't cover.",
+    "Fact-checking websites like Snopes.com and FactCheck.org help verify information.",
+    "It's common to discuss current events in casual conversation, but avoid heated political debates in professional settings."
+  ]
+}

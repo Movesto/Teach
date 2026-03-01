@@ -1,0 +1,238 @@
+{
+  "id": "lesson-36",
+  "unit_id": 6,
+  "lesson_number": 4,
+  "title": "Dental Care",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Make dental appointments",
+    "Understand dental procedures",
+    "Ask about dental insurance coverage",
+    "Learn preventive dental care"
+  ],
+  "target_phrases": [
+    "I have a toothache",
+    "I need a cleaning",
+    "Does my insurance cover this?",
+    "How can I prevent cavities?",
+    "Do I need a filling?",
+    "When should I come back?",
+    "Is this going to hurt?"
+  ],
+  "dialogue": {
+    "title": "Ahmed's Dental Checkup",
+    "context": "Ahmed schedules and attends his first dental appointment in the U.S.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Hello, I'd like to schedule a dental cleaning. It's been over a year since my last visit."},
+      {"speaker": "Receptionist", "text": "We can get you in next Tuesday at 2 PM. Is that okay? Please bring your insurance card."},
+      {"speaker": "Ahmed", "text": "Perfect, thank you. [At the appointment] Hi, I'm here for my 2 o'clock appointment."},
+      {"speaker": "Hygienist", "text": "Ahmed? Come on back. When was your last cleaning?"},
+      {"speaker": "Ahmed", "text": "About 18 months ago, in my home country. I just moved to the U.S."},
+      {"speaker": "Hygienist", "text": "Welcome! Let me clean your teeth first, then Dr. Martinez will check for any problems. Do you floss regularly?"},
+      {"speaker": "Ahmed", "text": "Honestly, not as much as I should. Maybe once or twice a week."},
+      {"speaker": "Hygienist", "text": "You should try to floss every day. It prevents gum disease and cavities between teeth. I'll show you the proper technique."},
+      {"speaker": "Dr. Martinez", "text": "Hi Ahmed, let me take a look. Your teeth look mostly good, but you have one small cavity on your back molar. We should fill it before it gets worse."},
+      {"speaker": "Ahmed", "text": "Does my insurance cover fillings?"},
+      {"speaker": "Dr. Martinez", "text": "Most dental insurance covers 80% of fillings. The receptionist can give you an exact cost estimate. The cavity is small, so the filling should be quick and painless."},
+      {"speaker": "Ahmed", "text": "Okay, let's schedule it. How can I prevent more cavities?"},
+      {"speaker": "Dr. Martinez", "text": "Brush twice a day, floss daily, limit sugary foods and drinks, and come for cleanings every six months. You're doing great by coming in now!"}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about procedures",
+      "pattern": "Do I need a [dental procedure]?",
+      "examples": [
+        "Do I need a filling?",
+        "Do I need a root canal?",
+        "Do I need braces?",
+        "Do I need x-rays?",
+        "Do I need a crown?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Frequency recommendations",
+      "pattern": "How often should I [dental care action]?",
+      "examples": [
+        "How often should I brush my teeth?",
+        "How often should I floss?",
+        "How often should I get a cleaning?",
+        "How often should I replace my toothbrush?",
+        "How often should I see the dentist?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Insurance questions",
+      "pattern": "Does insurance cover [procedure]?",
+      "examples": [
+        "Does insurance cover cleanings?",
+        "Does insurance cover fillings?",
+        "Does insurance cover crowns?",
+        "Does insurance cover x-rays?",
+        "Does insurance cover root canals?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit6-lesson4-listen1.mp3",
+      "transcript": "Proper dental care includes brushing twice daily for two minutes each time, flossing once a day, and visiting the dentist every six months for cleanings. Use a soft-bristle toothbrush and fluoride toothpaste. Replace your toothbrush every 3-4 months. Flossing removes plaque and food between teeth where brushes can't reach.",
+      "question": "How often should you visit the dentist?",
+      "options": [
+        "Every 3 months",
+        "Every 6 months",
+        "Once a year",
+        "Every 2 years"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit6-lesson4-listen2.mp3",
+      "transcript": "A cavity is a hole in your tooth caused by decay. Bacteria in your mouth produce acid that damages tooth enamel. Early cavities can be reversed with fluoride treatments, but larger cavities need fillings. Warning signs include tooth sensitivity to hot, cold, or sweet foods, visible holes or pits, and toothache.",
+      "question": "What causes cavities?",
+      "options": [
+        "Not drinking water",
+        "Bacteria producing acid",
+        "Brushing too hard",
+        "Eating vegetables"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit6-lesson4-listen3.mp3",
+      "transcript": "Dental insurance typically covers preventive care like cleanings and exams at 100%. Basic procedures like fillings are usually covered at 70-80%. Major procedures like crowns and root canals might be covered at 50%. Most plans have an annual maximum of $1000-2000. Always check with your insurance before expensive procedures.",
+      "question": "What do dental plans usually cover at 100%?",
+      "options": [
+        "Crowns",
+        "Root canals",
+        "Cleanings and exams",
+        "Fillings"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Call to schedule a dental cleaning. Say: you need a cleaning, you haven't been in a year, ask about available times. Record for 20 seconds.",
+      "example": "Hello, I'd like to schedule a dental cleaning please. It's been about a year since my last visit. Do you have any availability this week or next week? I'm flexible with the time - mornings or afternoons work for me. Also, do I need to bring anything specific? Thank you!",
+      "min_seconds": 20,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain good dental care habits to a friend. Give at least 3 tips. Record for 25 seconds.",
+      "example": "Let me tell you about good dental care. First, brush your teeth twice a day for at least two minutes each time. Use fluoride toothpaste. Second, floss every single day to clean between your teeth where the brush can't reach. Third, limit sugary foods and drinks because sugar causes cavities. Fourth, see your dentist every six months for a professional cleaning. These habits will keep your teeth healthy!",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Describe your dental care routine. How often do you brush? Do you floss? When was your last dentist visit? (50-60 words)",
+      "min_words": 50,
+      "example": "I brush my teeth twice a day - once in the morning after breakfast and once before bed. I use fluoride toothpaste and a soft toothbrush. I try to floss every day, but honestly I sometimes forget. My last dentist visit was about eight months ago for a routine cleaning. The hygienist said my teeth look good but I need to floss more consistently. I'm scheduled for my next cleaning in four months.",
+      "min_words": 50
+    },
+    {
+      "id": "write-2",
+      "prompt": "You have a toothache. Write what you would say when calling the dentist for an emergency appointment. (40-50 words)",
+      "min_words": 40,
+      "example": "Hello, I'm calling because I have a severe toothache. The pain started yesterday and it's getting worse. My back tooth hurts when I eat or drink anything. Do you have any emergency appointments available today or tomorrow? I'm a current patient - my name is Ahmed Hassan. The pain is really bad and I need to see someone soon.",
+      "min_words": 40
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'Need + noun/infinitive' for Dental Care",
+      "explanation": "Use 'need + noun' or 'need + to + verb' to talk about dental care requirements.",
+      "examples": [
+        "I need a cleaning. (need + noun)",
+        "You need to floss daily. (need + to + verb)",
+        "She needs a filling. (need + noun)",
+        "They need to see a dentist. (need + to + verb)"
+      ],
+      "practice": [
+        {"sentence": "I need ___ cleaning.", "blank": "a", "options": ["a", "to", "the"]},
+        {"sentence": "You need ___ floss every day.", "blank": "to", "options": ["a", "to", "for"]},
+        {"sentence": "She needs a ___.", "blank": "filling", "options": ["filling", "fill", "filled"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Prevent/Avoid + gerund' for Prevention",
+      "explanation": "Use 'prevent' or 'avoid' with gerund (-ing form) to talk about preventing dental problems.",
+      "examples": [
+        "Flossing prevents getting cavities. (prevent + gerund)",
+        "Avoid eating too much sugar. (avoid + gerund)",
+        "Brushing prevents developing gum disease. (prevent + gerund)",
+        "Avoid drinking sugary sodas. (avoid + gerund)"
+      ],
+      "practice": [
+        {"sentence": "Flossing prevents ___ cavities.", "blank": "getting", "options": ["get", "getting", "to get"]},
+        {"sentence": "Avoid ___ too much candy.", "blank": "eating", "options": ["eat", "eating", "to eat"]},
+        {"sentence": "Brushing prevents ___ bad breath.", "blank": "having", "options": ["have", "having", "to have"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Passive Voice for Procedures",
+      "explanation": "Dental procedures are often described using passive voice (be + past participle).",
+      "examples": [
+        "Your teeth will be cleaned. (passive - focus on teeth, not person cleaning)",
+        "The cavity was filled. (passive - describing what happened)",
+        "X-rays are taken annually. (passive - regular procedure)",
+        "The tooth needs to be extracted. (passive - necessary action)"
+      ],
+      "practice": [
+        {"sentence": "Your teeth will ___ cleaned.", "blank": "be", "options": ["be", "is", "are"]},
+        {"sentence": "The cavity was ___.", "blank": "filled", "options": ["fill", "filled", "filling"]},
+        {"sentence": "X-rays ___ taken every year.", "blank": "are", "options": ["is", "are", "be"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "How long has it been since Ahmed's last dental visit?", "options": ["6 months", "1 year", "18 months", "2 years"], "correct": 2, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What problem does Dr. Martinez find?", "options": ["Gum disease", "A small cavity", "A cracked tooth", "Nothing wrong"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How often should you get dental cleanings?", "options": ["Every 3 months", "Every 6 months", "Once a year", "Every 2 years"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "How often should you floss?", "options": ["Once a week", "Twice a week", "Every other day", "Every day"], "correct": 3, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Most dental insurance covers cleanings at 100%.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should replace your toothbrush every year.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I need ___ cleaning. (need + noun)", "correct": "a", "accept": ["a"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Flossing prevents ___ cavities. (prevent + gerund)", "correct": "getting", "accept": ["getting"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Cavity", "right": "Hole in tooth"}, {"left": "Filling", "right": "Fixes cavity"}, {"left": "Floss", "right": "Cleans between teeth"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What percentage do dental plans usually cover for fillings?", "options": ["100%", "70-80%", "50%", "0%"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "dentist", "definition": "doctor who treats teeth and gums", "example": "I see my dentist twice a year."},
+    {"word": "cavity", "definition": "hole in tooth from decay", "example": "Sugar causes cavities."},
+    {"word": "cleaning", "definition": "professional removal of plaque and tartar", "example": "I need a cleaning every six months."},
+    {"word": "filling", "definition": "material used to fill a cavity", "example": "The dentist put in a filling."},
+    {"word": "x-ray", "definition": "image showing inside of teeth", "example": "They took x-rays of my teeth."},
+    {"word": "floss", "definition": "thread used to clean between teeth", "example": "I floss every night before bed."},
+    {"word": "toothache", "definition": "pain in a tooth", "example": "I have a terrible toothache."},
+    {"word": "gums", "definition": "soft tissue around teeth", "example": "My gums bleed when I floss."},
+    {"word": "checkup", "definition": "routine dental examination", "example": "I'm here for my checkup."},
+    {"word": "hygienist", "definition": "professional who cleans teeth", "example": "The hygienist was very gentle."}
+  ],
+  "cultural_notes": [
+    "Dental care is expensive in the U.S. Many people have dental insurance through their jobs.",
+    "Children often get fluoride treatments and sealants to prevent cavities.",
+    "Many Americans whiten their teeth - white teeth are considered attractive in U.S. culture.",
+    "Dentists recommend electric toothbrushes over manual ones.",
+    "Dental emergencies can be treated at emergency dental clinics, though they're expensive.",
+    "Some people go to Mexico or other countries for cheaper dental work (called 'dental tourism')."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "lesson-71",
+  "unit_id": 12,
+  "lesson_number": 6,
+  "title": "Legacy and Sustained Impact",
+  "level": "mastery",
+  "estimated_time": 45,
+  "objectives": [
+    "Articulate personal and organizational legacy",
+    "Think generationally about impact",
+    "Create systems that endure beyond tenure",
+    "Balance present responsibilities with future vision"
+  ],
+  "target_phrases": [
+    "The legacy I aspire to create...",
+    "Thinking generationally about...",
+    "Sustainable impact requires...",
+    "Beyond my tenure, I hope...",
+    "The systemic changes that will endure...",
+    "Contributing to something larger than...",
+    "What I want to be remembered for..."
+  ],
+  "dialogue": {
+    "title": "Reflecting on Journey and Legacy",
+    "context": "Ahmed, now a senior executive, reflects on his remarkable journey from Somali refugee to business leader, discussing how to create lasting impact that extends beyond his career.",
+    "lines": [
+      {"speaker": "Board Chair", "text": "Ahmed, in five years you've transformed our operations. As we discuss your promotion to Chief Operating Officer, I'm curious: what legacy do you aspire to create here?"},
+      {"speaker": "Ahmed", "text": "That's profound to consider. The legacy I aspire to create isn't about me - it's about building systems and culture that endure. When I arrived in America as a refugee, I had nothing but determination. Organizations gave me chances. I want to create opportunities for others like that."},
+      {"speaker": "Board Chair", "text": "How does that translate practically?"},
+      {"speaker": "Ahmed", "text": "Thinking generationally about talent development. I've established mentorship programs, career pathways for frontline workers, and partnerships with refugee resettlement organizations. Beyond my tenure, I hope these systems continue opening doors for people regardless of their starting point."},
+      {"speaker": "Executive Coach", "text": "You've mentioned sustainability initiatives as well. How does that connect to legacy?"},
+      {"speaker": "Ahmed", "text": "Sustainable impact requires balancing present performance with future viability. The systemic changes that will endure are those embedded in business model, not dependent on individual champions. We've integrated sustainability into operations, procurement, and strategy - it's now how we do business, not a separate initiative."},
+      {"speaker": "Board Chair", "text": "What about the cultural transformation you've led?"},
+      {"speaker": "Ahmed", "text": "Contributing to something larger than quarterly results or individual success - that's what drives me. I've worked to create culture where people feel valued, empowered to innovate, and connected to purpose beyond profit. Culture persists through people who embody it, not through memos."},
+      {"speaker": "Executive Coach", "text": "How do you think about the tension between short-term pressures and long-term legacy?"},
+      {"speaker": "Ahmed", "text": "It's not either/or - it's both/and. Short-term performance funds long-term investments. What I want to be remembered for is demonstrating that you can deliver results while building for the future, that business success and social responsibility aren't contradictory."},
+      {"speaker": "Board Chair", "text": "Your journey from refugee to C-suite is inspiring. What does that mean for how you lead?"},
+      {"speaker": "Ahmed", "text": "It means I know firsthand that potential exists everywhere but opportunity doesn't. My legacy is ensuring that in this organization, we recognize and develop potential regardless of background. I've lived the transformative power of opportunity - now I work to extend that to others."},
+      {"speaker": "Executive Coach", "text": "That's servant leadership - leaving things better than you found them for people who come after you."},
+      {"speaker": "Ahmed", "text": "Exactly. Success isn't what I achieve - it's what continues after I'm gone. That's legacy."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Articulating legacy vision",
+      "pattern": "The legacy I aspire to create... / What I want to be remembered for...",
+      "examples": [
+        "The legacy I aspire to create is an organization where diverse talent thrives and innovation flourishes.",
+        "What I want to be remembered for is building systems that create opportunity for those who face barriers.",
+        "The legacy I aspire to create extends beyond business success to meaningful community impact.",
+        "What I want to be remembered for is demonstrating that purpose and profit can coexist productively.",
+        "The legacy I aspire to create is culture of integrity, excellence, and social responsibility."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Generational thinking",
+      "pattern": "Thinking generationally about... / Beyond my tenure, I hope...",
+      "examples": [
+        "Thinking generationally about sustainability means decisions today consider impacts decades hence.",
+        "Beyond my tenure, I hope the leadership pipeline I built continues developing diverse talent.",
+        "Thinking generationally about innovation means investing in capabilities that compound over time.",
+        "Beyond my tenure, I hope the culture we've created perpetuates through those we've developed.",
+        "Thinking generationally about strategy means building foundations that support future adaptation."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Systemic and enduring impact",
+      "pattern": "Sustainable impact requires... / The systemic changes that will endure...",
+      "examples": [
+        "Sustainable impact requires embedding values in structures, not relying on individual champions.",
+        "The systemic changes that will endure are those integrated into operations and incentives.",
+        "Sustainable impact requires developing others to carry forward the vision after you leave.",
+        "The systemic changes that will endure are those that create self-reinforcing positive cycles.",
+        "Sustainable impact requires patience - planting trees whose shade you may never enjoy."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit12-lesson6-listen1.mp3",
+      "transcript": "Legacy thinking asks: 'What will remain after I'm gone?' Not monuments or buildings bearing your name, but systems, culture, and people you've developed. Sustainable legacy requires institutionalizing improvements - embedding them in processes, structures, and norms so they persist independent of individuals. Leaders focused solely on their tenure optimize for different things than those building for succession. Paradoxically, those who think beyond themselves often create more lasting change than those focused on personal achievement.",
+      "question": "What does sustainable legacy require?",
+      "options": [
+        "Buildings with your name",
+        "Personal achievement only",
+        "Institutionalizing improvements in systems and culture",
+        "Monuments"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit12-lesson6-listen2.mp3",
+      "transcript": "Generational thinking extends time horizons beyond quarterly results or electoral cycles. It asks: 'How will this decision affect people decades from now?' This matters for sustainability, where today's consumption affects future generations. It matters for education, where investments today yield returns years later. It matters for infrastructure, institutions, and culture. American capitalism's short-termism often conflicts with generational thinking, but visionary leaders find ways to balance present performance with future investment. Legacy emerges from that balance.",
+      "question": "What does generational thinking involve?",
+      "options": [
+        "Only quarterly results",
+        "Electoral cycles only",
+        "Extending time horizons to consider decades-long impacts",
+        "Ignoring the present"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit12-lesson6-listen3.mp3",
+      "transcript": "Servant leadership, coined by Robert Greenleaf, focuses on serving others' growth and wellbeing rather than accumulating power. Servant leaders ask: 'Do those served grow as persons? Do they become healthier, wiser, freer, more autonomous, more likely themselves to become servants?' This philosophy sees leadership as stewardship - temporarily holding responsibility for something larger than yourself. Your job is leaving it better for those who follow. This contrasts with hierarchical leadership focused on personal authority. Legacy naturally emerges from servant leadership orientation.",
+      "question": "What does servant leadership focus on?",
+      "options": [
+        "Accumulating personal power",
+        "Serving others' growth and wellbeing",
+        "Hierarchical authority",
+        "Personal advancement only"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Articulate your vision for legacy - what you hope to create that endures beyond your direct involvement. Think generationally. Use legacy language. Record for 45 seconds.",
+      "example": "When I reflect on legacy, I think about creating opportunities for others facing barriers I've experienced. The legacy I aspire to create is threefold. First, organizational culture where diverse perspectives aren't just tolerated but genuinely valued - where someone's potential matters more than their pedigree. Thinking generationally about talent, I'm establishing mentorship programs and career pathways that will develop leaders long after I'm gone. Second, sustainability practices embedded so deeply in operations that they're just 'how we do business.' Sustainable impact requires making environmentally and socially responsible choices the path of least resistance, not special initiatives requiring champions. The systemic changes that will endure are those integrated into incentive structures. Third, contributing to something larger than this organization - demonstrating that refugee and immigrant talent represents tremendous untapped potential. What I want to be remembered for is using my platform to open doors for others, showing that background doesn't limit future. Beyond my tenure, I hope the systems I've built continue creating opportunity. Success isn't what I accomplish personally - it's what continues flourishing after I move on. That's legacy.",
+      "min_seconds": 45,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Reflect on your journey (real or hypothetical) and what you've learned about creating lasting impact. Record for 40 seconds.",
+      "example": "Reflecting on my journey from warehouse worker to executive, I've learned that sustainable impact comes from empowering others, not personal heroics. Early in my career, I tried to be indispensable - the person who solved every problem. That's ego, not leadership. Real impact comes from developing others to solve problems independently. Thinking generationally, I've learned to ask: 'What systems am I building? What capabilities am I developing in others? What culture am I modeling?' The legacy I aspire to create isn't dependency on me but capacity in others. I've learned that you build this through patient investment in people - mentoring, creating learning opportunities, trusting them with challenges beyond their current capability. Sustainable impact requires resisting short-term temptation to do it yourself in favor of long-term investment in developing others. What I want to be remembered for is how many people I helped grow, not how many problems I personally solved. Beyond my tenure, I hope those I've developed are creating opportunities for the next generation. That's how impact compounds.",
+      "min_seconds": 40,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a legacy statement articulating what you hope to create that endures beyond your tenure. Include systemic changes, cultural impact, and people development. (150-180 words)",
+      "min_words": 150,
+      "example": "Personal Legacy Statement\n\nThe legacy I aspire to create centers on three interconnected commitments:\n\nSystemic Equity: Beyond my tenure, I hope the structures I've established continue creating pathways for talent from underrepresented backgrounds. Sustainable impact requires embedding opportunity in hiring, development, and advancement practices - making diversity how we operate, not what we aspire to.\n\nEnvironmental Stewardship: Thinking generationally about sustainability, I'm working to integrate environmental responsibility so thoroughly into operations that it becomes invisible - the default rather than the alternative. The systemic changes that will endure are those making sustainable choices the economically rational ones.\n\nLeadership Development: What I want to be remembered for is not what I accomplished personally but how many leaders I developed who carry these values forward. Contributing to something larger than my tenure means investing patiently in people who will shape the organization decades hence.\n\nSuccess isn't measured by my achievements but by what flourishes after I'm gone. I've been privileged to receive opportunities that transformed my life. My legacy is extending that transformative opportunity to others, creating systems ensuring that potential finds opportunity regardless of background. That's stewardship - leaving things better for those who follow.",
+      "min_words": 150
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write advice to your younger self or someone early in their career about building lasting impact. Draw on your experience/journey. (120-140 words)",
+      "min_words": 120,
+      "example": "Advice on Building Lasting Impact\n\nIf I could advise my younger self: Your worth isn't determined by where you started but by what you contribute and how you develop others.\n\nThinking generationally means playing long games. Invest in relationships, capabilities, and systems even when payoffs aren't immediate. Sustainable impact requires patience - you're planting trees whose shade you may never enjoy.\n\nThe legacy you aspire to create emerges from daily choices about how you treat people, what standards you uphold, and whether you take shortcuts or build properly. Culture forms through consistent behavior, not inspiring speeches.\n\nWhat you want to be remembered for should guide decisions today. When facing choices between short-term personal gain and long-term collective benefit, choose collective. When torn between looking good and doing good, choose doing.\n\nContributing to something larger than yourself provides meaning no individual achievement can match. Your journey from refugee to professional isn't just your story - it's proof that opportunity and talent exist everywhere. Use your platform expanding opportunity for others.\n\nSuccess is what continues after you've moved on.",
+      "min_words": 120
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Future Perfect for Long-term Vision",
+      "explanation": "Use future perfect to discuss what will have been accomplished by future point.",
+      "examples": [
+        "By 2035, we will have created pathways for thousands. (future perfect)",
+        "When I retire, I will have developed leaders who carry this forward. (completed future action)",
+        "In a decade, these systems will have become institutional norms. (future perfect)",
+        "By then, the culture we're building will have taken root. (future completion)"
+      ],
+      "practice": [
+        {"sentence": "By 2030, we will ___ created lasting change.", "blank": "have", "options": ["have", "has", "had"]},
+        {"sentence": "When I leave, these systems will have ___ established.", "blank": "become", "options": ["become", "became", "becoming"]},
+        {"sentence": "In years hence, this will have ___ normal.", "blank": "become", "options": ["become", "became", "becomes"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Abstract Nominalization for Legacy Concepts",
+      "explanation": "Use abstract nouns to discuss legacy and impact concepts.",
+      "examples": [
+        "The cultivation of talent... (nominalization)",
+        "The perpetuation of values... (abstract concept)",
+        "The institutionalization of practices... (process as noun)",
+        "The embodiment of principles... (abstract nominalization)"
+      ],
+      "practice": [
+        {"sentence": "The ___ of sustainability is crucial.", "blank": "institutionalization", "options": ["institutionalize", "institutionalization", "institutionalizing"]},
+        {"sentence": "The ___ of culture takes time.", "blank": "transformation", "options": ["transform", "transformation", "transforming"]},
+        {"sentence": "The ___ of leaders is my priority.", "blank": "development", "options": ["develop", "development", "developing"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Relative Clauses for Defining Legacy Elements",
+      "explanation": "Use relative clauses to precisely define legacy components.",
+      "examples": [
+        "The systems that will endure are those integrated deeply. (defining relative clause)",
+        "Leaders who think generationally create lasting change. (specific identification)",
+        "The culture that persists is one people embody. (defining characteristic)",
+        "Impact that compounds comes from developing others. (essential definition)"
+      ],
+      "practice": [
+        {"sentence": "Systems ___ endure must be embedded.", "blank": "that", "options": ["that", "what", "which"]},
+        {"sentence": "Leaders ___ think long-term create legacy.", "blank": "who", "options": ["who", "whom", "that"]},
+        {"sentence": "The culture ___ persists is lived daily.", "blank": "that", "options": ["that", "what", "who"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What does sustainable legacy require?", "options": ["Buildings with your name", "Personal achievement only", "Institutionalizing improvements", "Monuments"], "correct": 2, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does generational thinking involve?", "options": ["Only quarterly results", "Electoral cycles", "Considering decades-long impacts", "Ignoring present"], "correct": 2, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does servant leadership focus on?", "options": ["Accumulating power", "Serving others' growth", "Hierarchical authority", "Personal advancement"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'By 2030, we will ___ created change.'", "options": ["has", "have", "had", "having"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Legacy emerges from what continues after you're gone, not personal achievements.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Short-term and long-term thinking are mutually exclusive.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "The ___ of leaders is my priority. (nominalization)", "correct": "development", "accept": ["development", "cultivation"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Systems ___ endure must be embedded. (relative clause)", "correct": "that", "accept": ["that", "which"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match legacy concept:", "pairs": [{"left": "Generational thinking", "right": "Long time horizons"}, {"left": "Servant leadership", "right": "Serving others"}, {"left": "Sustainable impact", "right": "Embedded systems"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed defines success as:", "options": ["Personal achievements", "What continues after he's gone", "Awards received", "Title held"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "legacy", "definition": "lasting impact of person's life and work", "example": "Build a meaningful legacy."},
+    {"word": "generational", "definition": "spanning or affecting multiple generations", "example": "Think generationally about impact."},
+    {"word": "stewardship", "definition": "responsible management for others' benefit", "example": "Leadership is stewardship."},
+    {"word": "perpetuate", "definition": "cause to continue indefinitely", "example": "Perpetuate positive culture."},
+    {"word": "enduring", "definition": "lasting over long period", "example": "Create enduring systems."},
+    {"word": "institutionalize", "definition": "establish as convention or norm", "example": "Institutionalize best practices."},
+    {"word": "transcendent", "definition": "beyond ordinary limits", "example": "Pursue transcendent purpose."},
+    {"word": "succession", "definition": "planned transfer of leadership", "example": "Plan for succession."},
+    {"word": "compound", "definition": "increase exponentially over time", "example": "Impact compounds through others."},
+    {"word": "embodiment", "definition": "tangible representation of idea", "example": "Be the embodiment of values."}
+  ],
+  "cultural_notes": [
+    "American business culture has increasingly emphasized stakeholder capitalism over pure shareholder primacy - caring about legacy beyond profits.",
+    "Concept of 'paying it forward' is deeply embedded in American culture - those who receive help are expected to help others.",
+    "American immigrant success stories emphasize not just personal achievement but contributing to broader society.",
+    "Corporate social responsibility and environmental, social, governance (ESG) considerations reflect American business evolution toward legacy thinking.",
+    "American philanthropy culture (Carnegie, Rockefeller, Gates) reflects belief that wealth creates responsibility to future generations.",
+    "Servant leadership philosophy has gained significant traction in American leadership development despite competitive culture."
+  ]
+}

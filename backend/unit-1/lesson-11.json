@@ -1,0 +1,372 @@
+{
+  "id": 11,
+  "unit_id": 1,
+  "lesson_number": 11,
+  "title": "At the Bank",
+  "description": "Learn to do basic banking tasks and talk about money",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+
+  "objectives": [
+    "Open a bank account (I want to open an account)",
+    "Deposit and withdraw money",
+    "Ask about your account balance",
+    "Understand basic banking vocabulary"
+  ],
+
+  "target_language": {
+    "phrases": [
+      "I want to open an account",
+      "I want to deposit / withdraw money",
+      "How much is in my account?",
+      "What is my balance?",
+      "Can I see my statement?",
+      "I need to send money",
+      "Sign here, please"
+    ],
+    "grammar_pattern": "I want to + verb\nHow much is + in my account?\nCan I + verb?\n\nExamples:\n- I want to open an account\n- I want to deposit $100\n- How much is in my account?\n- Can I see my statement?",
+    "grammar_patterns": [
+      {
+        "label": "Saying what you want to do",
+        "pattern": "I want to + [verb]",
+        "examples": ["I want to open an account", "I want to deposit money", "I want to withdraw $50"]
+      },
+      {
+        "label": "Asking about your money",
+        "pattern": "How much is + in my account?",
+        "examples": ["How much is in my account?", "How much money do I have?", "What is my balance?"]
+      },
+      {
+        "label": "Making requests",
+        "pattern": "Can I + [verb]?",
+        "examples": ["Can I see my statement?", "Can I deposit a check?", "Can I open a savings account?"]
+      },
+      {
+        "label": "Talking about amounts",
+        "pattern": "I want to deposit/withdraw + [amount]",
+        "examples": ["I want to deposit $100", "I want to withdraw $50", "I need to send $200"]
+      }
+    ]
+  },
+
+  "story": {
+    "context": "You go to the bank for the first time. You want to open an account and deposit some money.",
+    "dialogue": [
+      {
+        "speaker": "Teller",
+        "text": "Hello. Welcome to First National Bank. How can I help you?"
+      },
+      {
+        "speaker": "You",
+        "text": "Hello. I want to open a bank account."
+      },
+      {
+        "speaker": "Teller",
+        "text": "Sure. Do you want a checking account or a savings account?"
+      },
+      {
+        "speaker": "You",
+        "text": "What is the difference?"
+      },
+      {
+        "speaker": "Teller",
+        "text": "A checking account is for everyday spending. A savings account is for saving money."
+      },
+      {
+        "speaker": "You",
+        "text": "I want a checking account, please."
+      },
+      {
+        "speaker": "Teller",
+        "text": "Okay. I need your ID and your address. Please fill out this form."
+      },
+      {
+        "speaker": "You",
+        "text": "Here is my ID. My address is 250 Oak Street, apartment 4B."
+      },
+      {
+        "speaker": "Teller",
+        "text": "Thank you. Do you want to deposit money today?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes. I want to deposit $200."
+      },
+      {
+        "speaker": "Teller",
+        "text": "Okay. Please sign here. Your account is now open. Here is your debit card."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. How do I check my balance?"
+      },
+      {
+        "speaker": "Teller",
+        "text": "You can use the ATM or our mobile app."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you very much!"
+      }
+    ]
+  },
+
+  "drills": [
+    {
+      "title": "Drill 1: What you want to do at the bank",
+      "instruction": "Fill in the blank with the correct verb",
+      "prompts": [
+        {"sentence": "I want to ___ an account.", "answer": "open"},
+        {"sentence": "I want to ___ money.", "answer": "deposit"},
+        {"sentence": "I want to ___ $50.", "answer": "withdraw"},
+        {"sentence": "I want to ___ money to my family.", "answer": "send"}
+      ],
+      "examples": [
+        "I want to open an account.",
+        "I want to deposit money.",
+        "I want to withdraw $50.",
+        "I want to send money to my family."
+      ],
+      "your_turn": "Now say what you want to do at the bank, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking about your account",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "What is my ___?", "answer": "balance"},
+        {"sentence": "How much is in my ___?", "answer": "account"},
+        {"sentence": "Can I see my ___?", "answer": "statement"},
+        {"sentence": "Where is the ___?", "answer": "ATM"}
+      ],
+      "examples": [
+        "What is my balance?",
+        "How much is in my account?",
+        "Can I see my statement?",
+        "Where is the ATM?"
+      ],
+      "your_turn": "Now ask a question about your bank account, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Banking amounts",
+      "instruction": "Fill in the blank with the correct amount",
+      "prompts": [
+        {"sentence": "I want to deposit ___.", "answer": "$100"},
+        {"sentence": "I want to withdraw ___.", "answer": "$50"},
+        {"sentence": "I need to send ___.", "answer": "$200"},
+        {"sentence": "My balance is ___.", "answer": "$500"}
+      ],
+      "examples": [
+        "I want to deposit $100.",
+        "I want to withdraw $50.",
+        "I need to send $200.",
+        "My balance is $500."
+      ],
+      "your_turn": "Now say how much money you want to deposit or withdraw, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+
+  "listening": [
+    {
+      "question": "Listen: What does the customer want to do?",
+      "audio": "/audio/lesson11-listen1.mp3",
+      "options": ["Open an account", "Close an account", "Withdraw money", "Deposit a check"],
+      "correct": 0,
+      "explanation": "The customer says 'I want to open an account.'"
+    },
+    {
+      "question": "Listen: How much does the customer want to deposit?",
+      "audio": "/audio/lesson11-listen2.mp3",
+      "options": ["$50", "$100", "$200", "$500"],
+      "correct": 2,
+      "explanation": "The customer says 'I want to deposit $200.'"
+    },
+    {
+      "question": "Listen: What kind of account does the customer want?",
+      "audio": "/audio/lesson11-listen3.mp3",
+      "options": ["Savings account", "Checking account", "Business account", "Joint account"],
+      "correct": 1,
+      "explanation": "The customer says 'I want a checking account.'"
+    }
+  ],
+
+  "speaking": [
+    {
+      "title": "Task 1: Banking requests",
+      "instruction": "Record yourself saying three things you want to do at the bank.",
+      "example": "I want to open an account. I want to deposit $100. I want to check my balance."
+    },
+    {
+      "title": "Task 2: Bank conversation",
+      "instruction": "Record a short conversation where you go to the bank to deposit money.",
+      "example": "Teller: How can I help you?\nYou: I want to deposit money.\nTeller: How much?\nYou: $100, please.\nTeller: Sign here, please.\nYou: Thank you."
+    }
+  ],
+
+  "writing": [
+    {
+      "title": "Task 1: Banking vocabulary",
+      "instruction": "Write 5 sentences about things you can do at a bank. Use 'I want to...' or 'Can I...'",
+      "example": "1. I want to open an account.\n2. I want to deposit $100.\n3. Can I see my statement?\n4. I want to withdraw $50.\n5. Can I check my balance?"
+    },
+    {
+      "title": "Task 2: Write a bank conversation",
+      "instruction": "Write a conversation (8-10 lines) where you visit a bank to open an account and deposit money.",
+      "example": "Teller: Hello. How can I help you?\nYou: I want to open an account.\nTeller: Checking or savings?\nYou: Checking, please.\nTeller: I need your ID.\nYou: Here is my ID.\nTeller: Do you want to deposit money?\nYou: Yes. $200.\nTeller: Sign here. Your account is open.\nYou: Thank you!"
+    }
+  ],
+
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Expressing wants with 'I want to'",
+        "examples": [
+          "I want to open an account.",
+          "I want to deposit money.",
+          "I want to withdraw $50."
+        ],
+        "question": "What pattern do you see for saying what you want to do?",
+        "explanation": "We use 'I want to + verb' to say what we want to do. The verb after 'to' is always the base form (open, deposit, withdraw — not opening, depositing)."
+      },
+      {
+        "title": "Checking and Savings",
+        "examples": [
+          "A checking account is for everyday spending.",
+          "A savings account is for saving money.",
+          "I want a checking account."
+        ],
+        "question": "What is the difference between checking and savings?",
+        "explanation": "A checking account is for daily use — paying bills, buying things. A savings account is for keeping money safe and growing it over time."
+      },
+      {
+        "title": "Banking actions",
+        "examples": [
+          "Deposit = put money in",
+          "Withdraw = take money out",
+          "Balance = how much money you have",
+          "Statement = a record of your money"
+        ],
+        "question": "What do these banking words mean?",
+        "explanation": "Deposit means putting money into your account. Withdraw means taking money out. Your balance is how much money is in your account. A statement shows all your transactions."
+      }
+    ]
+  },
+
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to put money in your bank account. What do you say?",
+      "options": [
+        "I want to withdraw money",
+        "I want to deposit money",
+        "I want to send money",
+        "I want to borrow money"
+      ],
+      "correct": 1,
+      "explanation": "'Deposit' means to put money into your account."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to take money out of your account. What do you say?",
+      "options": [
+        "I want to deposit money",
+        "I want to open money",
+        "I want to withdraw money",
+        "I want to save money"
+      ],
+      "correct": 2,
+      "explanation": "'Withdraw' means to take money out of your account."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know how much money you have. You ask:",
+      "options": [
+        "How much is my money?",
+        "What is my balance?",
+        "Where is my money?",
+        "How is my account?"
+      ],
+      "correct": 1,
+      "explanation": "'What is my balance?' is the correct way to ask how much money is in your account."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I want to ___ an account.",
+      "options": [
+        "make",
+        "do",
+        "open",
+        "start"
+      ],
+      "correct": 2,
+      "explanation": "We say 'open an account' at the bank. This is the standard phrase."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which account is for everyday spending?",
+      "options": [
+        "Savings account",
+        "Checking account",
+        "Business account",
+        "Credit account"
+      ],
+      "correct": 1,
+      "explanation": "A checking account is for everyday spending — paying bills and buying things."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The teller says 'Sign here.' What do you do?",
+      "options": [
+        "Write your name",
+        "Say your name",
+        "Show your ID",
+        "Give money"
+      ],
+      "correct": 0,
+      "explanation": "'Sign' means to write your name (your signature) on a document."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is an ATM?",
+      "options": [
+        "A bank worker",
+        "A bank form",
+        "A machine where you can get money",
+        "A type of account"
+      ],
+      "correct": 2,
+      "explanation": "An ATM is a machine where you can deposit or withdraw money without going inside the bank."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "I want open account",
+        "I want to open an account",
+        "I want to opening account",
+        "I want an open account"
+      ],
+      "correct": 1,
+      "explanation": "'I want to open an account' is correct. We use 'want to + base verb'."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you go to the bank to withdraw $100.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: greeting, saying what you want, how much, and thanking the teller."
+    },
+    {
+      "type": "open-ended",
+      "question": "Do you use a bank? What do you usually do at the bank? Write 3-4 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice talking about your real banking experiences. Example: I go to the bank to deposit money. I use the ATM to check my balance."
+    }
+  ]
+}

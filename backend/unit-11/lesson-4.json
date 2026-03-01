@@ -1,0 +1,238 @@
+{
+  "id": "lesson-72",
+  "unit_id": 11,
+  "lesson_number": 4,
+  "title": "Peer Review and Publication",
+  "level": "proficient",
+  "estimated_time": 45,
+  "objectives": [
+    "Navigate the peer review process effectively",
+    "Respond to reviewer comments constructively",
+    "Revise manuscripts based on feedback",
+    "Understand publication ethics and standards"
+  ],
+  "target_phrases": [
+    "The reviewer raises a valid concern regarding...",
+    "I appreciate this suggestion and have revised accordingly...",
+    "While I respect this perspective, the methodology was chosen because...",
+    "To address Reviewer 2's comment about...",
+    "This critique helped strengthen the manuscript by...",
+    "I have clarified this point in the revised manuscript...",
+    "The reviewer's interpretation reflects..."
+  ],
+  "dialogue": {
+    "title": "Responding to Peer Review",
+    "context": "Ahmed receives peer review feedback on his first journal submission and learns to address criticisms professionally while defending valid research choices.",
+    "lines": [
+      {"speaker": "Advisor", "text": "Ahmed, you received reviews back on your manuscript submission. How are you feeling?"},
+      {"speaker": "Ahmed", "text": "Overwhelmed. Reviewer 1 was positive, but Reviewer 2 tore apart my methodology and questioned my conclusions. I'm not sure how to respond."},
+      {"speaker": "Advisor", "text": "First, take a breath. Critical reviews aren't personal attacks - they're part of scholarly discourse. Let's go through the comments systematically. What specifically concerns you?"},
+      {"speaker": "Ahmed", "text": "Reviewer 2 says my sample size is too small and questions whether my findings are generalizable."},
+      {"speaker": "Advisor", "text": "The reviewer raises a valid concern regarding generalizability - that's a legitimate methodological consideration. How will you address it?"},
+      {"speaker": "Ahmed", "text": "I could acknowledge the limitation while explaining that my study was designed as exploratory, not confirmatory. The sample size was appropriate for qualitative depth, not statistical generalization."},
+      {"speaker": "Advisor", "text": "Exactly. In your response, say: 'I appreciate this important concern. While I respect this perspective, the methodology was chosen because my research questions required in-depth qualitative analysis rather than statistical generalization. I have clarified this point in the revised manuscript.'"},
+      {"speaker": "Ahmed", "text": "What about when Reviewer 2 suggests I should have used different theoretical framework?"},
+      {"speaker": "Advisor", "text": "To address Reviewer 2's comment about theoretical framework, explain your reasoning. If their suggestion has merit, acknowledge it: 'This critique helped strengthen the manuscript by prompting me to engage more explicitly with alternative frameworks.'"},
+      {"speaker": "Ahmed", "text": "And Reviewer 1's suggestion to add more discussion of practical implications?"},
+      {"speaker": "Advisor", "text": "That's constructive. Say: 'I appreciate this suggestion and have revised accordingly, adding a section on practical implications for practitioners.' Show how feedback improved the work."},
+      {"speaker": "Ahmed", "text": "So I should be both gracious and firm - thanking reviewers while defending sound choices?"},
+      {"speaker": "Advisor", "text": "Precisely. The reviewer's interpretation reflects their expertise, but you're also the expert on your research. Professional disagreement is fine when justified. Your response letter should be respectful but confident."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Acknowledging reviewer concerns",
+      "pattern": "The reviewer raises a valid concern regarding... / I appreciate this important point about...",
+      "examples": [
+        "The reviewer raises a valid concern regarding the need for clearer operational definitions.",
+        "I appreciate this important point about potential confounding variables that warrant discussion.",
+        "The reviewer raises a valid concern regarding the generalizability of findings to other contexts.",
+        "I appreciate this thoughtful observation about limitations in the data collection procedures.",
+        "The reviewer raises a valid concern regarding the need for stronger theoretical grounding."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Accepting and implementing suggestions",
+      "pattern": "I appreciate this suggestion and have revised accordingly... / This critique helped strengthen the manuscript by...",
+      "examples": [
+        "I appreciate this suggestion and have revised accordingly, adding clarification throughout Section 3.",
+        "This critique helped strengthen the manuscript by prompting more explicit engagement with methodological limitations.",
+        "I appreciate this suggestion and have revised accordingly, restructuring the discussion for improved clarity.",
+        "This critique helped strengthen the manuscript by identifying gaps in the literature review that I've now addressed.",
+        "I appreciate this suggestion and have revised accordingly, adding additional statistical analyses requested."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Respectfully disagreeing",
+      "pattern": "While I respect this perspective, [explanation] / To address this comment, I should clarify that...",
+      "examples": [
+        "While I respect this perspective, the methodology was chosen specifically because it allows in-depth contextual analysis.",
+        "To address this comment, I should clarify that the theoretical framework was selected based on its explanatory power for this phenomenon.",
+        "While I respect this perspective, alternative interpretations are possible and I've acknowledged this in the revised discussion.",
+        "To address this comment, I should clarify that the study design reflects established practices in this research tradition.",
+        "While I respect this perspective, the approach taken aligns with recommendations from recent methodological literature."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit11-lesson4-listen1.mp3",
+      "transcript": "Peer review is quality control for scholarship. Reviewers evaluate methodology rigor, theoretical soundness, contribution significance, and writing clarity. Reviews range from acceptance to rejection, with most falling in between: revise and resubmit. Don't take criticism personally - even negative reviews reflect investment in improving work. Reviewers volunteer time because they care about field quality. Response letters should be professional, detailed, and gracious. Address every comment systematically. Where you disagree, explain respectfully with evidence.",
+      "question": "What should response letters be?",
+      "options": [
+        "Defensive and brief",
+        "Professional, detailed, and gracious",
+        "Ignore critical comments",
+        "Emotional and personal"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit11-lesson4-listen2.mp3",
+      "transcript": "Publication ethics require honesty, transparency, and integrity. Plagiarism - using others' work without attribution - is unforgivable. This includes self-plagiarism: republishing your own work without disclosure. Data fabrication or falsification destroys careers. Authorship requires substantial contribution - not just seniority or funding. Conflicts of interest must be disclosed. Duplicate submission to multiple journals simultaneously is prohibited. Retractions occur when serious errors or misconduct are discovered. Ethical lapses have severe consequences: retraction, career damage, institutional sanctions.",
+      "question": "What does publication ethics require?",
+      "options": [
+        "Only submitting to top journals",
+        "Honesty, transparency, and integrity",
+        "Publishing as much as possible",
+        "Avoiding all criticism"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit11-lesson4-listen3.mp3",
+      "transcript": "Revision strategies involve systematic engagement with feedback. Create spreadsheet tracking each comment, your response, and manuscript changes made. Revise manuscript first, then write response letter explaining changes. Use track changes to show editors what you modified. For major revisions, substantial rewriting may be needed. Don't cherry-pick easy comments while ignoring difficult ones. If you disagree with reviewer, explain why with citations and evidence. Revision is improvement opportunity - embrace it. Manuscripts almost always improve through revision process.",
+      "question": "What's effective revision strategy?",
+      "options": [
+        "Ignore difficult comments",
+        "Create systematic tracking of all comments and responses",
+        "Only address easy changes",
+        "Argue with every suggestion"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "A reviewer criticizes your methodology and suggests you should have used a different approach. Respond professionally - acknowledge their concern but explain your reasoning. Use peer review language. Record for 40 seconds.",
+      "example": "I want to address the reviewer's methodological concerns directly and thoughtfully. The reviewer raises a valid concern regarding the choice of qualitative case study methodology rather than quantitative survey approach. I appreciate this perspective and understand why it might seem limiting. However, while I respect this viewpoint, the methodology was chosen deliberately for specific reasons. My research questions focused on understanding how processes unfold in real organizational contexts - the 'how' and 'why' rather than the 'how many.' Qualitative case study methodology allows rich contextual analysis that quantitative approaches cannot capture. To address this comment more clearly, I've strengthened the methodological justification section, explaining why case study design was most appropriate given my research objectives. I've also added explicit discussion of limitations and how future research might employ complementary quantitative methods. This critique helped strengthen the manuscript by prompting more explicit methodological transparency. I've cited recent methodological literature supporting this approach for my type of research questions.",
+      "min_seconds": 40,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "A reviewer made a helpful suggestion that improved your manuscript. Explain what changed and why it strengthened the work. Record for 30 seconds.",
+      "example": "I want to acknowledge Reviewer 1's extremely helpful contribution. They suggested I engage more explicitly with stakeholder theory in framing my findings. I appreciate this suggestion and have revised accordingly. This critique helped strengthen the manuscript significantly by connecting my empirical findings to broader theoretical conversations. I've added a new subsection in the discussion explicitly addressing how my results extend stakeholder theory in unexpected ways. The reviewer's interpretation reflects deep understanding of the theoretical literature, and their suggestion helped me see connections I'd missed. The revised manuscript is substantially stronger because of this input. I've clarified these theoretical contributions throughout, particularly in the implications section. This is exactly what peer review should accomplish - experts helping refine and improve scholarship through constructive engagement.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a response to a peer reviewer who suggested major revisions. Address their concerns systematically and professionally. (140-170 words)",
+      "min_words": 140,
+      "example": "Response to Reviewer 2\n\nI thank the reviewer for their thorough and constructive feedback, which has substantially strengthened this manuscript.\n\nComment 1: Sample Size\nThe reviewer raises a valid concern regarding generalizability given the sample of 12 organizations. While I respect this perspective, the study was designed as exploratory qualitative research requiring in-depth analysis rather than statistical generalization. I have clarified this point in the revised manuscript (page 8, lines 15-20) and explicitly discussed limitations regarding generalizability.\n\nComment 2: Theoretical Framework\nI appreciate this suggestion and have revised accordingly. I've expanded the theoretical framework section to engage more explicitly with institutional theory as the reviewer recommended. This critique helped strengthen the manuscript by connecting findings to broader theoretical conversations (pages 5-7).\n\nComment 3: Alternative Explanations\nTo address this important comment, I've added discussion of alternative explanations the reviewer identified. While my interpretation is supported by the data, I now acknowledge other plausible interpretations (page 24, lines 8-15).\n\nComment 4: Practical Implications\nI appreciate this suggestion and have added a dedicated section on practical implications for managers (pages 26-27), as the reviewer wisely suggested.\n\nThese revisions have substantially improved the manuscript's contribution.",
+      "min_words": 140
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a cover letter for resubmitting a revised manuscript. Summarize major changes and thank reviewers/editor. (100-120 words)",
+      "min_words": 100,
+      "example": "Dear Editor,\n\nI am pleased to resubmit our manuscript \"Sustainability and Profitability: Longitudinal Evidence from Supply Chain Practices\" for consideration in the Journal of Business Strategy.\n\nI thank you and the reviewers for thoughtful feedback that has substantially strengthened this work. The major revisions include:\n\n1. Expanded theoretical framework engaging institutional theory (Reviewer 2)\n2. Strengthened methodological justification and explicit limitation discussion (Reviewer 2)\n3. New section on practical implications for managers (Reviewer 1)\n4. Enhanced discussion of alternative explanations (Reviewer 2)\n5. Improved clarity throughout based on both reviewers' suggestions\n\nDetailed responses to each comment appear in the attached response letter, with track changes showing all modifications.\n\nThe reviewers' insights significantly improved the manuscript's contribution. I believe it now makes a stronger case for publication.\n\nSincerely,\nAhmed Hassan",
+      "min_words": 100
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Diplomatic Acknowledgment Language",
+      "explanation": "Use diplomatic phrases to acknowledge reviewer input graciously.",
+      "examples": [
+        "I appreciate this important observation. (gracious acknowledgment)",
+        "The reviewer raises a valid concern. (respectful recognition)",
+        "This is a thoughtful suggestion. (diplomatic appreciation)",
+        "I thank the reviewer for this insight. (professional gratitude)"
+      ],
+      "practice": [
+        {"sentence": "I ___ this important point.", "blank": "appreciate", "options": ["appreciate", "reject", "ignore"]},
+        {"sentence": "The reviewer ___ a valid concern.", "blank": "raises", "options": ["raise", "raises", "raised"]},
+        {"sentence": "I ___ the reviewer for this feedback.", "blank": "thank", "options": ["thank", "thanks", "thanked"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Perfect for Revisions Made",
+      "explanation": "Use present perfect to describe changes you've implemented.",
+      "examples": [
+        "I have revised the manuscript accordingly. (completed revision)",
+        "I have added discussion of alternative explanations. (completed action)",
+        "I have strengthened the theoretical framework. (revision made)",
+        "I have clarified this point in the revision. (completed clarification)"
+      ],
+      "practice": [
+        {"sentence": "I ___ revised the methodology section.", "blank": "have", "options": ["have", "has", "had"]},
+        {"sentence": "I ___ added the suggested analysis.", "blank": "have", "options": ["have", "has", "had"]},
+        {"sentence": "I ___ clarified this throughout.", "blank": "have", "options": ["have", "has", "had"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional for Respectful Disagreement",
+      "explanation": "Use conditionals to soften disagreement with reviewers.",
+      "examples": [
+        "While I respect this perspective, the approach was chosen because... (concessive)",
+        "If I understand correctly, the concern is... (seeking clarification)",
+        "Were I to adopt this suggestion, it would require... (hypothetical)",
+        "Should further clarification be needed, I would be happy to... (polite offer)"
+      ],
+      "practice": [
+        {"sentence": "While I respect this, the method ___ chosen because...", "blank": "was", "options": ["is", "was", "were"]},
+        {"sentence": "If I ___ correctly, the concern is...", "blank": "understand", "options": ["understand", "understands", "understood"]},
+        {"sentence": "Should clarification ___ needed, I'll provide it.", "blank": "be", "options": ["be", "is", "was"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What should response letters be?", "options": ["Defensive", "Professional, detailed, and gracious", "Ignore criticisms", "Emotional"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does publication ethics require?", "options": ["Only top journals", "Honesty, transparency, and integrity", "Maximum publications", "Avoiding criticism"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What's effective revision strategy?", "options": ["Ignore difficult comments", "Systematic tracking of all comments", "Only easy changes", "Argue with everything"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ this important point.'", "options": ["reject", "appreciate", "ignore", "dismiss"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Peer review criticism should be taken personally.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Manuscripts almost always improve through revision.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I ___ revised the manuscript. (present perfect)", "correct": "have", "accept": ["have"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "While I respect this, the method ___ chosen because... (past passive)", "correct": "was", "accept": ["was"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match response type:", "pairs": [{"left": "Acknowledge concern", "right": "Valid point"}, {"left": "Accept suggestion", "right": "Revised accordingly"}, {"left": "Respectful disagreement", "right": "While I respect..."}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed learned to respond to reviews by being:", "options": ["Defensive", "Both gracious and firm", "Passive", "Argumentative"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "peer review", "definition": "evaluation by experts in field", "example": "Peer review ensures quality."},
+    {"word": "revision", "definition": "process of improving manuscript", "example": "Revise based on feedback."},
+    {"word": "rebuttal", "definition": "response to criticism", "example": "Write detailed rebuttal."},
+    {"word": "manuscript", "definition": "draft article for publication", "example": "Submit revised manuscript."},
+    {"word": "plagiarism", "definition": "using others' work without attribution", "example": "Plagiarism destroys careers."},
+    {"word": "retraction", "definition": "withdrawal of published article", "example": "Serious errors require retraction."},
+    {"word": "authorship", "definition": "credit for writing publication", "example": "Authorship requires contribution."},
+    {"word": "generalizability", "definition": "applicability to other contexts", "example": "Discuss generalizability limitations."},
+    {"word": "methodology", "definition": "system of research methods", "example": "Justify methodology choices."},
+    {"word": "fabrication", "definition": "making up research data", "example": "Fabrication is unethical."}
+  ],
+  "cultural_notes": [
+    "American academic culture takes peer review extremely seriously - it's the foundation of scholarly credibility.",
+    "Double-blind review (reviewers and authors anonymous) is common in American social sciences.",
+    "Publication ethics standards are enforced strictly in American academia - violations have severe consequences.",
+    "American journals increasingly require data sharing and transparency to prevent research misconduct.",
+    "Response letters to reviewers are expected to be detailed and professional - defensive responses harm your reputation.",
+    "In American academic culture, disagreeing respectfully with reviewers is acceptable when you can justify your position."
+  ]
+}

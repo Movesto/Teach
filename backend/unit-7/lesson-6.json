@@ -1,0 +1,243 @@
+{
+  "id": "lesson-44",
+  "unit_id": 7,
+  "lesson_number": 6,
+  "title": "Sharing Family Stories",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Talk about family history and heritage",
+    "Preserve and share oral traditions",
+    "Connect past experiences to present identity",
+    "Value and respect cultural heritage"
+  ],
+  "target_phrases": [
+    "My family comes from...",
+    "My grandmother/grandfather used to tell us...",
+    "According to family tradition...",
+    "This has been passed down for generations",
+    "I learned from my elders that...",
+    "It's important to remember...",
+    "These stories shape who I am"
+  ],
+  "dialogue": {
+    "title": "Grandparents Share Family History",
+    "context": "Ahmed's children ask their grandfather (via video call) to tell them about the family's history and traditions.",
+    "lines": [
+      {"speaker": "Amina", "text": "Grandpa, can you tell us a story about when you were young?"},
+      {"speaker": "Grandfather", "text": "Of course, my dear! Let me tell you about your great-grandfather. He was a trader who traveled across East Africa."},
+      {"speaker": "Ahmed", "text": "I remember you telling me this story when I was a child. It's one of my favorites."},
+      {"speaker": "Grandfather", "text": "Your great-grandfather used to travel by camel, carrying spices and cloth. He was known for his honesty - people trusted him completely. This value of honesty has been passed down through our family for generations."},
+      {"speaker": "Hassan", "text": "Did he ever get lost in the desert?"},
+      {"speaker": "Grandfather", "text": "Yes! According to family tradition, once he was caught in a terrible sandstorm. He couldn't see anything for three days. But he never panicked. He used the stars to find his way once the storm cleared."},
+      {"speaker": "Amina", "text": "Was he scared?"},
+      {"speaker": "Grandfather", "text": "I'm sure he was, but he was also brave and smart. I learned from my elders that courage doesn't mean you're not afraid - it means you keep going even when you are afraid."},
+      {"speaker": "Ahmed", "text": "That's a lesson I try to teach my own children now. These stories connect us to our roots even though we're far from home."},
+      {"speaker": "Grandfather", "text": "Exactly, Ahmed. It's important to remember where you came from. Your great-grandfather's spirit of adventure brought your family opportunities. Now you're creating new stories in America."},
+      {"speaker": "Hassan", "text": "So our family has always been brave and traveled to new places?"},
+      {"speaker": "Grandfather", "text": "Yes! These stories shape who we are. You children are continuing the family tradition of courage by learning a new language and culture."},
+      {"speaker": "Ahmed", "text": "Thank you for sharing these stories, Father. I want my children to know their heritage."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Talking about family origins",
+      "pattern": "My family comes/came from [place/background]",
+      "examples": [
+        "My family comes from a long line of teachers.",
+        "My family came from a small village in the mountains.",
+        "My family comes from East Africa.",
+        "My family came from farming communities.",
+        "My family comes from a tradition of storytelling."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Sharing family traditions",
+      "pattern": "According to family tradition, [practice/story]",
+      "examples": [
+        "According to family tradition, we celebrate with a big feast.",
+        "According to family tradition, the eldest child inherits the house.",
+        "According to family tradition, we gather every Friday.",
+        "According to family tradition, elders are honored and respected.",
+        "According to family tradition, we pass down names to grandchildren."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Lessons from elders",
+      "pattern": "I learned from my [elder] that [lesson]",
+      "examples": [
+        "I learned from my grandmother that patience is a virtue.",
+        "I learned from my grandfather that honesty builds trust.",
+        "I learned from my elders that family comes first.",
+        "I learned from my mother that kindness costs nothing.",
+        "I learned from my father that hard work pays off."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit7-lesson6-listen1.mp3",
+      "transcript": "Family stories preserve history, values, and identity. When grandparents share stories from their youth, they're passing down more than facts - they're transmitting cultural values, family identity, and life lessons. These oral histories help younger generations understand where they came from and guide them in making decisions about who they want to become.",
+      "question": "Why are family stories important?",
+      "options": [
+        "Only for entertainment",
+        "They preserve history, values, and identity",
+        "To make elders feel important",
+        "They're not really important"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit7-lesson6-listen2.mp3",
+      "transcript": "When sharing family stories, use phrases like 'My grandmother used to tell us...' or 'According to family tradition...' These phrases signal that you're passing down knowledge from previous generations. Also include sensory details to make stories vivid: 'My grandfather's house always smelled like coffee and cardamom' brings the past to life.",
+      "question": "What makes family stories more vivid?",
+      "options": [
+        "Making them very long",
+        "Using formal language only",
+        "Including sensory details",
+        "Leaving out details"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit7-lesson6-listen3.mp3",
+      "transcript": "Recording or writing down family stories preserves them for future generations. Many families create memory books, record video interviews with elders, or use apps to document family history. These become treasured records, especially for immigrant families whose children may not speak their ancestral language. Even simple voice recordings on your phone can capture a grandparent's voice telling stories.",
+      "question": "How can you preserve family stories?",
+      "options": [
+        "Just remember them",
+        "Don't tell anyone",
+        "Record, write, or document them",
+        "Only tell them once"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Tell a story about a family member (grandparent, parent, aunt, uncle). What were they like? What can you learn from them? Record for 35 seconds.",
+      "example": "I want to tell you about my grandmother. She was born in a small village and never went to school, but she was one of the wisest people I've ever known. My grandmother used to wake up before sunrise every day to pray and prepare breakfast for the family. She taught me that discipline and routine create peace in life. I learned from her that you don't need formal education to be intelligent - she could solve any problem and gave the best advice. According to family tradition, the eldest daughter learns cooking and home management from the grandmother. I spent many hours with her in the kitchen, and that's where she told me stories about our ancestors. What I remember most is her patience and kindness. Even when life was hard, she never complained. These qualities have been passed down - my mother is the same way. I hope to embody these values and pass them to my children.",
+      "min_seconds": 35,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Share a family tradition or custom from your culture. Explain what it is and why it's meaningful. Record for 30 seconds.",
+      "example": "In Somali culture, we have a tradition called 'Baris' which is sharing food with neighbors and community. According to family tradition, whenever you cook a special meal, you should share it with at least three neighboring families. My mother used to send us to deliver plates of food to our neighbors, especially elderly people living alone. I learned from my elders that this practice builds strong community bonds and ensures no one goes hungry. It's important to remember this tradition because it teaches us that we're responsible for each other's wellbeing. Now in America, I continue this tradition by sharing meals with my neighbors, even though they're from different cultures. They're surprised at first, but then they really appreciate it. This tradition shapes who I am - someone who believes in community and generosity.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write about a family tradition or story that's important to you. Why is it meaningful? How does it connect you to your heritage? (100-120 words)",
+      "min_words": 100,
+      "example": "One family tradition that's deeply important to me is our Friday family gathering. According to family tradition that goes back many generations, every Friday after midday prayers, the entire extended family gathers at the eldest family member's house for a meal together. My grandfather used to tell us that this tradition started with his grandfather, who believed that weekly family time prevents conflicts and keeps everyone connected. When we lived in Somalia, sometimes 30-40 people would gather - grandparents, aunts, uncles, cousins. We would eat traditional foods, share news, resolve any family disputes, and the elders would tell stories about our ancestors. I learned from my elders that family is the foundation of everything - more important than work or money. Now that I'm in America, I try to continue this tradition even though our family is smaller and scattered. Every Friday, I video call my relatives back home and gather with other Somali families here in Portland. This tradition shapes who I am because it reminds me that I'm part of something larger than myself. It connects me to my heritage and gives me a sense of belonging, even thousands of miles from home.",
+      "min_words": 100
+    },
+    {
+      "id": "write-2",
+      "prompt": "Interview an older family member (or imagine doing so). Write about one story they told you about their life. (80-100 words)",
+      "min_words": 80,
+      "example": "I recently asked my father to tell me about his childhood. He shared a story I'd never heard before. When he was twelve years old, his father died suddenly, and he became responsible for supporting his mother and three younger siblings. He had to quit school and work at the market, selling vegetables. He said those were the hardest years of his life, but also when he learned the most about responsibility and resilience. According to him, that experience taught him never to waste opportunities. That's why he pushed me so hard to get education - he wanted me to have the chances he never had. Hearing this story made me understand my father better and appreciate the sacrifices he made. It's important to remember these stories because they help us understand why our parents make the choices they do.",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'Used to' for Past Family Habits",
+      "explanation": "Use 'used to' to describe family habits or situations that were true in the past but not now.",
+      "examples": [
+        "My grandmother used to tell us stories every night. (past habit)",
+        "We used to gather every Friday. (past routine)",
+        "My father used to work in the fields. (past situation)",
+        "They used to live in a big house. (past state)"
+      ],
+      "practice": [
+        {"sentence": "She used to ___ us stories.", "blank": "tell", "options": ["tell", "telling", "tells"]},
+        {"sentence": "We ___ to gather on Fridays.", "blank": "used", "options": ["use", "used", "using"]},
+        {"sentence": "They used to ___ in Somalia.", "blank": "live", "options": ["live", "living", "lived"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Perfect for Family Traditions",
+      "explanation": "Use present perfect to describe traditions that started in the past and continue today.",
+      "examples": [
+        "This tradition has been in our family for generations. (continuing tradition)",
+        "We have always celebrated this way. (continuing from past to now)",
+        "The story has been passed down through families. (started in past, true now)",
+        "These values have shaped our family. (past action with present result)"
+      ],
+      "practice": [
+        {"sentence": "This tradition has ___ for 100 years.", "blank": "existed", "options": ["exist", "existed", "exists"]},
+        {"sentence": "We ___ always done this.", "blank": "have", "options": ["has", "have", "had"]},
+        {"sentence": "The story has been ___ down.", "blank": "passed", "options": ["pass", "passed", "passing"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Past Perfect for Earlier Family History",
+      "explanation": "Use past perfect to talk about events that happened before other past events in family stories.",
+      "examples": [
+        "My grandfather had traveled to many countries before he settled down. (earlier past)",
+        "She had never seen the ocean before she moved to the coast. (earlier past)",
+        "They had lived in three different countries before coming to America. (earlier past)",
+        "He had worked for 40 years before he retired. (earlier past)"
+      ],
+      "practice": [
+        {"sentence": "She ___ never left her village before.", "blank": "had", "options": ["has", "had", "have"]},
+        {"sentence": "They had ___ there for years.", "blank": "lived", "options": ["live", "lived", "living"]},
+        {"sentence": "He had ___ to five countries.", "blank": "traveled", "options": ["travel", "traveled", "travels"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's great-grandfather's profession?", "options": ["Farmer", "Trader", "Teacher", "Fisherman"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What value has been passed down in Ahmed's family?", "options": ["Wealth", "Honesty", "Fame", "Power"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "According to the grandfather, what is courage?", "options": ["Never being afraid", "Being strong", "Keeping going even when afraid", "Avoiding danger"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'My grandmother ___ to tell us stories.'", "options": ["use", "used", "uses", "using"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Family stories help preserve cultural values and identity.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "It's not important to share family stories with younger generations.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "This tradition has ___ for generations. (present perfect: exist)", "correct": "existed", "accept": ["existed", "been"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "He ___ traveled widely before settling down. (past perfect)", "correct": "had", "accept": ["had", "'d"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the phrase:", "pairs": [{"left": "Used to", "right": "Past habit"}, {"left": "Has been", "right": "Continuing tradition"}, {"left": "Had done", "right": "Earlier past"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What does the grandfather say about Ahmed's children?", "options": [
+        "They should forget the past",
+        "They're continuing family courage tradition",
+        "They should return to Somalia",
+        "They're not brave"
+      ], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "heritage", "definition": "traditions, culture passed down from ancestors", "example": "I'm proud of my Somali heritage."},
+    {"word": "ancestor", "definition": "family member from past generations", "example": "My ancestors were traders."},
+    {"word": "generation", "definition": "all people born around the same time", "example": "Three generations live in this house."},
+    {"word": "tradition", "definition": "custom passed down over time", "example": "This is a family tradition."},
+    {"word": "legacy", "definition": "something handed down from the past", "example": "Her legacy is her kindness."},
+    {"word": "roots", "definition": "family origins or background", "example": "I want to stay connected to my roots."},
+    {"word": "history", "definition": "past events of a family or place", "example": "Our family history is fascinating."},
+    {"word": "passed down", "definition": "given from one generation to next", "example": "These stories were passed down."},
+    {"word": "preserve", "definition": "keep safe and unchanged", "example": "We must preserve these traditions."},
+    {"word": "customs", "definition": "traditional practices of a culture", "example": "We follow our cultural customs."}
+  ],
+  "cultural_notes": [
+    "In American culture, family trees and genealogy (researching ancestry) are popular hobbies. Websites like Ancestry.com are widely used.",
+    "Many American families create photo albums, scrapbooks, or digital collections to preserve family memories.",
+    "Immigrant families often have rich oral history traditions that are especially important to preserve.",
+    "In the U.S., Thanksgiving is often when families gather and share family stories across generations.",
+    "Recording elders' stories on video or audio is increasingly recognized as valuable - their voices and mannerisms are preserved.",
+    "Many schools assign 'family heritage projects' where children interview relatives and create presentations about their cultural background."
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": 14,
+  "unit_id": 2,
+  "lesson_number": 2,
+  "title": "Describing People",
+  "description": "Learn to describe appearance and personality",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Describe physical appearance (tall, short, young, old)",
+    "Describe personality (nice, friendly, quiet)",
+    "Use 'He/She is...' correctly",
+    "Ask 'What does he/she look like?'"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "He/She is [tall/short/young/old]",
+      "He/She has [brown/black/long/short] hair",
+      "What does he/she look like?",
+      "He/She is very [nice/friendly/kind]",
+      "He/She wears glasses",
+      "He/She is about [age] years old",
+      "He/She looks like..."
+    ],
+    "grammar_pattern": "He is + adjective\nShe is + adjective\nHe has + noun\nShe has + noun\n\nExamples:\n- He is tall\n- She is friendly\n- He has black hair\n- She has brown eyes\n\nQuestion:\n- What does he look like?\n- What does she look like?",
+    "grammar_patterns": [
+      {
+        "label": "Describing with 'is'",
+        "pattern": "He/She is + [adjective]",
+        "examples": ["He is tall", "She is friendly", "He is young"]
+      },
+      {
+        "label": "Describing features with 'has'",
+        "pattern": "He/She has + [feature]",
+        "examples": ["He has black hair", "She has brown eyes", "He has short hair"]
+      },
+      {
+        "label": "Asking about appearance",
+        "pattern": "What does he/she look like?",
+        "examples": ["What does he look like?", "What does she look like?", "What does your brother look like?"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are waiting for your friend Ali at a cafe. You call Marcus to tell him what Ali looks like so Marcus can recognize him.",
+    "dialogue": [
+      {
+        "speaker": "Marcus",
+        "text": "Hi! I'm at the cafe. What does your friend look like?"
+      },
+      {
+        "speaker": "You",
+        "text": "His name is Ali. He is tall with short black hair."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Okay. Tall with short black hair. How old is he?"
+      },
+      {
+        "speaker": "You",
+        "text": "He is about 30 years old."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Does he wear glasses?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes! He wears glasses."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "What is he wearing today?"
+      },
+      {
+        "speaker": "You",
+        "text": "He is wearing a blue shirt and jeans."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Great! I see him. He looks very friendly."
+      },
+      {
+        "speaker": "You",
+        "text": "Yes, he is very nice and friendly."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: He is / She is + adjective",
+      "instruction": "Fill in the blank with the correct adjective",
+      "prompts": [
+        {"sentence": "He is ___.", "answer": "tall"},
+        {"sentence": "She is ___.", "answer": "short"},
+        {"sentence": "He is ___.", "answer": "young"},
+        {"sentence": "She is ___.", "answer": "friendly"}
+      ],
+      "examples": [
+        "He is tall.",
+        "She is short.",
+        "He is young.",
+        "She is friendly."
+      ],
+      "your_turn": "Now describe someone you know using 'He is...' or 'She is...', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: He has / She has + noun",
+      "instruction": "Fill in the blank with the correct feature",
+      "prompts": [
+        {"sentence": "He has ___ hair.", "answer": "black"},
+        {"sentence": "She has ___ eyes.", "answer": "brown"},
+        {"sentence": "He has ___ hair.", "answer": "short"},
+        {"sentence": "She has ___ hair.", "answer": "long"}
+      ],
+      "examples": [
+        "He has black hair.",
+        "She has brown eyes.",
+        "He has short hair.",
+        "She has long hair."
+      ],
+      "your_turn": "Now describe someone's physical features using 'has', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: What does he/she look like?",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "What does ___ look like?", "answer": "he"},
+        {"sentence": "What does ___ look like?", "answer": "she"},
+        {"sentence": "What does your ___ look like?", "answer": "brother"},
+        {"sentence": "What ___ your friend look like?", "answer": "does"}
+      ],
+      "examples": [
+        "What does he look like?",
+        "What does she look like?",
+        "What does your brother look like?",
+        "What does your friend look like?"
+      ],
+      "your_turn": "Now ask what someone looks like, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What does Ali look like?",
+      "audio": "/audio/lesson10-listen1.mp3",
+      "options": ["Tall with black hair", "Short with brown hair", "Tall with brown hair", "Short with black hair"],
+      "correct": 0,
+      "explanation": "The person says 'He is tall with short black hair'"
+    },
+    {
+      "question": "Listen: Does Ali wear glasses?",
+      "audio": "/audio/lesson10-listen2.mp3",
+      "options": ["Yes", "No", "Sometimes", "Not mentioned"],
+      "correct": 0,
+      "explanation": "The person says 'Yes, he wears glasses'"
+    },
+    {
+      "question": "Listen: What is Ali wearing?",
+      "audio": "/audio/lesson10-listen3.mp3",
+      "options": ["Red shirt", "Blue shirt", "Black shirt", "Green shirt"],
+      "correct": 1,
+      "explanation": "He is wearing a blue shirt and jeans"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Describe someone",
+      "instruction": "Record yourself describing a friend or family member. Include: height, hair, age, and personality.",
+      "example": "My brother Ali is tall. He has short black hair. He is 30 years old. He wears glasses. He is very friendly and nice."
+    },
+    {
+      "title": "Task 2: Answer the question",
+      "instruction": "Someone asks 'What does your mother look like?' Record your answer.",
+      "example": "My mother is short. She has long black hair. She is about 50 years old. She is very kind and friendly."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Describe three people",
+      "instruction": "Write descriptions of 3 people you know. Include appearance and personality for each.",
+      "example": "1. My father is tall. He has short gray hair. He is 55 years old. He is quiet but very kind.\n2. My sister is short. She has long black hair. She is 22 years old. She is funny and friendly.\n3. My friend Omar is average height. He has black hair and brown eyes. He is 28. He is very smart."
+    },
+    {
+      "title": "Task 2: Describe yourself",
+      "instruction": "Write a paragraph (6-8 sentences) describing yourself. Include your appearance and personality.",
+      "example": "I am average height. I have short black hair and brown eyes. I am 27 years old. I don't wear glasses. I am friendly and I like to help people. I am quiet sometimes, but I am also funny with my friends. My friends say I am kind and a good listener."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "He/She is vs He/She has",
+        "examples": [
+          "He IS tall (describes the person)",
+          "He HAS black hair (describes a feature the person possesses)",
+          "She IS friendly (personality)",
+          "She HAS brown eyes (physical feature)"
+        ],
+        "question": "When do we use 'is' and when do we use 'has'?",
+        "explanation": "We use 'is' for adjectives (tall, friendly, nice). We use 'has' for nouns that the person possesses (hair, eyes, glasses)."
+      },
+      {
+        "title": "Adjective order",
+        "examples": [
+          "He is tall (height)",
+          "He has short black hair (length + color)",
+          "She is young and friendly (age + personality)"
+        ],
+        "question": "Can we use more than one adjective?",
+        "explanation": "Yes! We usually describe size/height first, then color. For personality, we can use 'and' to connect adjectives."
+      },
+      {
+        "title": "What does he/she look like?",
+        "examples": [
+          "What does he look like? (asking for description)",
+          "He looks friendly (he seems/appears friendly)",
+          "She looks like her mother (resembles her mother)"
+        ],
+        "question": "What does this question mean?",
+        "explanation": "'What does he/she look like?' asks for a physical description. We answer with appearance details."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: He ___ tall.",
+      "options": [
+        "has",
+        "is",
+        "have",
+        "are"
+      ],
+      "correct": 1,
+      "explanation": "We use 'is' with adjectives. 'He is tall' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: She ___ black hair.",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "have"
+      ],
+      "correct": 2,
+      "explanation": "We use 'has' for things people possess. 'She has black hair' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know what someone looks like. What do you ask?",
+      "options": [
+        "How does he look?",
+        "What does he look like?",
+        "How is he looking?",
+        "What is he looking?"
+      ],
+      "correct": 1,
+      "explanation": "'What does he look like?' is the correct question for asking about appearance."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which describes personality?",
+      "options": [
+        "He has brown eyes",
+        "He is tall",
+        "He is friendly",
+        "He has short hair"
+      ],
+      "correct": 2,
+      "explanation": "'Friendly' is a personality trait. The others describe physical appearance."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which describes physical appearance?",
+      "options": [
+        "She is nice",
+        "She is kind",
+        "She is friendly",
+        "She is short"
+      ],
+      "correct": 3,
+      "explanation": "'Short' describes height (physical). The others describe personality."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: He ___ glasses.",
+      "options": [
+        "is",
+        "wears",
+        "are",
+        "wear"
+      ],
+      "correct": 1,
+      "explanation": "'He wears glasses' is correct. We 'wear' clothing and accessories."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "She has tall",
+        "She is tall",
+        "She has height",
+        "She is having tall"
+      ],
+      "correct": 1,
+      "explanation": "'She is tall' is correct. 'Tall' is an adjective, so we use 'is'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to describe someone's hair and eyes. Which is correct?",
+      "options": [
+        "He is black hair and brown eyes",
+        "He has black hair and brown eyes",
+        "He is having black hair and brown eyes",
+        "He have black hair and brown eyes"
+      ],
+      "correct": 1,
+      "explanation": "'He has black hair and brown eyes' is correct. We use 'has' for physical features."
+    },
+    {
+      "type": "writing",
+      "question": "Describe your best friend. Include: height, hair, age, and personality. Write at least 5 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use 'He/She is...' for adjectives and 'He/She has...' for physical features."
+    },
+    {
+      "type": "open-ended",
+      "question": "What physical feature or personality trait do people notice first about you? Why do you think that is?",
+      "options": [],
+      "correct": null,
+      "explanation": "This is personal reflection. Practice thinking and writing about yourself in English."
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": 4,
+  "unit_id": 1,
+  "lesson_number": 4,
+  "title": "Telling Time & Making Appointments",
+  "description": "Learn to talk about time and schedule meetings",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Ask and tell the time (What time is it?)",
+    "Make appointments (When is...? / At what time...?)",
+    "Use basic time expressions (morning, afternoon, evening)",
+    "Talk about days of the week"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "What time is it?",
+      "It is [time]",
+      "When is the appointment?",
+      "At [time]",
+      "In the morning / afternoon / evening",
+      "On [day]",
+      "See you at [time]"
+    ],
+    "grammar_pattern": "What time is it?\nIt is + time\n\nWhen is + event?\nAt + time\nOn + day\n\nExamples:\n- What time is it?\n- It is 3 o'clock\n- When is the appointment?\n- At 2 PM\n- On Monday",
+    "grammar_patterns": [
+      {
+        "label": "Asking the time",
+        "pattern": "What time is it?",
+        "examples": ["What time is it?", "Excuse me, what time is it?", "Do you have the time?"]
+      },
+      {
+        "label": "Telling the time",
+        "pattern": "It is + [time]",
+        "examples": ["It is 9 AM", "It is 2 PM", "It is 6 o'clock"]
+      },
+      {
+        "label": "Time prepositions",
+        "pattern": "At + [time] / On + [day] / In + [part of day]",
+        "examples": ["At 9 AM", "On Monday", "In the morning"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You need to see a doctor. You call the clinic to make an appointment.",
+    "dialogue": [
+      {
+        "speaker": "Receptionist",
+        "text": "Good morning. City Clinic. How can I help you?"
+      },
+      {
+        "speaker": "You",
+        "text": "Hello. I need to make an appointment."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Okay. When do you want to come?"
+      },
+      {
+        "speaker": "You",
+        "text": "Can I come on Monday?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes. What time is good for you?"
+      },
+      {
+        "speaker": "You",
+        "text": "In the morning, please."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "I have 9 AM or 11 AM. Which one?"
+      },
+      {
+        "speaker": "You",
+        "text": "9 AM is good."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Perfect. Monday at 9 AM. What is your name?"
+      },
+      {
+        "speaker": "You",
+        "text": "My name is Ahmed Hassan."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Great. See you on Monday at 9 AM."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you!"
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Asking the time",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "What ___ is it?", "answer": "time"},
+        {"sentence": "Excuse me, what time ___ it?", "answer": "is"},
+        {"sentence": "Can you ___ me the time?", "answer": "tell"},
+        {"sentence": "Do you ___ the time?", "answer": "have"}
+      ],
+      "examples": [
+        "What time is it?",
+        "Excuse me, what time is it?",
+        "Can you tell me the time?",
+        "Do you have the time?"
+      ],
+      "your_turn": "Now ask someone what time it is, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Telling the time",
+      "instruction": "Fill in the blank with the correct time",
+      "prompts": [
+        {"sentence": "It is 9 ___.", "answer": "AM"},
+        {"sentence": "It is 2 ___.", "answer": "PM"},
+        {"sentence": "It is 6 ___.", "answer": "o'clock"},
+        {"sentence": "It is ___.", "answer": "10:30"}
+      ],
+      "examples": [
+        "It is 9 AM.",
+        "It is 2 PM.",
+        "It is 6 o'clock.",
+        "It is 10:30."
+      ],
+      "your_turn": "Now say what time it is right now, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Days and times together",
+      "instruction": "Fill in the blank with the correct day or time",
+      "prompts": [
+        {"sentence": "___ at 9 AM", "answer": "Monday"},
+        {"sentence": "Tuesday at 2 ___", "answer": "PM"},
+        {"sentence": "Wednesday at ___ AM", "answer": "11"},
+        {"sentence": "___ at 3 PM", "answer": "Friday"}
+      ],
+      "examples": [
+        "Monday at 9 AM",
+        "Tuesday at 2 PM",
+        "Wednesday at 11 AM",
+        "Friday at 3 PM"
+      ],
+      "your_turn": "Now say an appointment day and time, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What time is the appointment?",
+      "audio": "/audio/lesson4-listen1.mp3",
+      "options": ["9 AM", "10 AM", "11 AM", "2 PM"],
+      "correct": 0,
+      "explanation": "The receptionist says 'Monday at 9 AM'"
+    },
+    {
+      "question": "Listen: What day is the appointment?",
+      "audio": "/audio/lesson4-listen2.mp3",
+      "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
+      "correct": 0,
+      "explanation": "The appointment is 'on Monday'"
+    },
+    {
+      "question": "Listen: What time is it now?",
+      "audio": "/audio/lesson4-listen3.mp3",
+      "options": ["3 o'clock", "4 o'clock", "5 o'clock", "6 o'clock"],
+      "correct": 1,
+      "explanation": "The person says 'It is 4 o'clock'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Tell the time",
+      "instruction": "Record yourself telling these times: 9 AM, 2 PM, 6 o'clock",
+      "example": "It is 9 AM. It is 2 PM. It is 6 o'clock."
+    },
+    {
+      "title": "Task 2: Make an appointment",
+      "instruction": "Record yourself making a doctor's appointment for Monday at 10 AM.",
+      "example": "You: I need to make an appointment.\nReceptionist: When?\nYou: Monday at 10 AM, please.\nReceptionist: Okay. See you Monday at 10 AM."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write times and days",
+      "instruction": "Write 5 appointments with day and time.",
+      "example": "1. Monday at 9 AM\n2. Tuesday at 2 PM\n3. Wednesday at 11 AM\n4. Thursday at 3 PM\n5. Friday at 10 AM"
+    },
+    {
+      "title": "Task 2: Write an appointment conversation",
+      "instruction": "Write a conversation (8-10 lines) where you call to make an appointment at a clinic.",
+      "example": "Receptionist: City Clinic. How can I help you?\nYou: I need to make an appointment.\nReceptionist: When do you want to come?\nYou: Can I come on Tuesday?\nReceptionist: Yes. What time?\nYou: In the afternoon, please.\nReceptionist: 2 PM or 4 PM?\nYou: 2 PM is good.\nReceptionist: Great. Tuesday at 2 PM.\nYou: Thank you!"
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Asking about time",
+        "examples": [
+          "What time is it?",
+          "When is the appointment?",
+          "At what time?"
+        ],
+        "question": "What words do we use to ask about time?",
+        "explanation": "We use 'What time' or 'When' to ask about time. These are question words for time."
+      },
+      {
+        "title": "Prepositions with time",
+        "examples": [
+          "At 9 AM",
+          "On Monday",
+          "In the morning"
+        ],
+        "question": "What small words come before times and days?",
+        "explanation": "We use 'at' for specific times (at 9 AM), 'on' for days (on Monday), and 'in' for parts of the day (in the morning)."
+      },
+      {
+        "title": "Time expressions",
+        "examples": [
+          "9 AM (morning)",
+          "2 PM (afternoon)",
+          "6 PM (evening)",
+          "10 PM (night)"
+        ],
+        "question": "How do we talk about different parts of the day?",
+        "explanation": "We use AM for morning times (before noon) and PM for afternoon/evening times (after noon). We can also say 'in the morning', 'in the afternoon', 'in the evening', or 'at night'."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to know the time. What do you ask?",
+      "options": [
+        "Time is what?",
+        "What time is it?",
+        "It is what time?",
+        "Time what?"
+      ],
+      "correct": 1,
+      "explanation": "'What time is it?' is the correct question for asking the time."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It is 9 in the morning. You say:",
+      "options": [
+        "It is 9 PM",
+        "It is 9 AM",
+        "It is 9 night",
+        "It is morning 9"
+      ],
+      "correct": 1,
+      "explanation": "9 in the morning is '9 AM'. AM means morning times."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your appointment is Monday at 2 PM. Which is CORRECT?",
+      "options": [
+        "On Monday at 2 PM",
+        "In Monday at 2 PM",
+        "At Monday in 2 PM",
+        "Monday in 2 PM"
+      ],
+      "correct": 0,
+      "explanation": "We say 'on Monday at 2 PM'. Use 'on' for days and 'at' for specific times."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I have an appointment ___ 3 PM.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": 2,
+      "explanation": "We use 'at' for specific times. 'At 3 PM' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: The appointment is ___ Monday.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": 1,
+      "explanation": "We use 'on' for days of the week. 'On Monday' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It is 6 in the evening. You say:",
+      "options": [
+        "It is 6 AM",
+        "It is 6 PM",
+        "It is 6 morning",
+        "It is evening 6"
+      ],
+      "correct": 1,
+      "explanation": "6 in the evening is '6 PM'. PM means afternoon/evening times."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to make an appointment in the afternoon. You say:",
+      "options": [
+        "At the afternoon",
+        "On the afternoon",
+        "In the afternoon",
+        "By the afternoon"
+      ],
+      "correct": 2,
+      "explanation": "We say 'in the afternoon'. Use 'in' for parts of the day."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "See you Monday at 9 AM",
+        "See you on Monday at 9 AM",
+        "See you in Monday at 9 AM",
+        "See you at Monday on 9 AM"
+      ],
+      "correct": 1,
+      "explanation": "'See you on Monday at 9 AM' is correct. Use 'on' with days."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you make a dentist appointment for Tuesday at 3 PM.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: requesting an appointment, suggesting a day and time, and confirming the appointment."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about your schedule. Write 3 real appointments you have (or need to make) with the day and time.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice using real information from your life. Example: Doctor appointment on Wednesday at 10 AM."
+    }
+  ]
+}

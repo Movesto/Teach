@@ -1,0 +1,215 @@
+version: '3.8'
+
+# Production Docker Compose for English Learning Platform
+# Optimized for NVIDIA RTX 5070 Ti with CUDA 12.6
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: teach-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: teach_user
+      POSTGRES_PASSWORD: teach_password
+      POSTGRES_DB: teach_db
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./services/database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U teach_user -d teach_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - teach-network
+
+  # NLLB Translation Service
+  nllb:
+    build:
+      context: ./services/nllb
+      dockerfile: Dockerfile
+    container_name: teach-nllb
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    environment:
+      - MODEL_NAME=facebook/nllb-200-distilled-600M
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - nllb_cache:/root/.cache/huggingface
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+        reservations:
+          memory: 3G
+    networks:
+      - teach-network
+
+  # Pronunciation Service with GPU Support (CUDA 12.6)
+  pronunciation:
+    build:
+      context: ./services/pronunciation
+      dockerfile: Dockerfile
+    container_name: teach-pronunciation
+    restart: unless-stopped
+    ports:
+      - "5002:5002"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - PYTHONUNBUFFERED=1
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface
+      - HF_HOME=/root/.cache/huggingface
+      - TORCH_HOME=/root/.cache/torch
+    volumes:
+      - pronunciation_cache:/root/.cache
+    # GPU configuration for RTX 5070 Ti
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s  # Models take time to load on first run
+    networks:
+      - teach-network
+
+  # Main Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: teach-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      nllb:
+        condition: service_healthy
+      pronunciation:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://teach_user:teach_password@postgres:5432/teach_db
+      - NLLB_URL=http://nllb:5001
+      - PRONUNCIATION_URL=http://pronunciation:5002
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./backend/lessons:/app/lessons:ro
+      - ./backend/audio:/app/audio:ro
+      - backend_uploads:/app/uploads
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - teach-network
+
+  # Frontend (React)
+  frontend:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: teach-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    environment:
+      - VITE_API_URL=http://localhost:8000
+      - NODE_ENV=production
+    volumes:
+      - ./app/src:/app/src:ro
+    networks:
+      - teach-network
+
+volumes:
+  postgres_data:
+    driver: local
+  nllb_cache:
+    driver: local
+  pronunciation_cache:
+    driver: local
+  backend_uploads:
+    driver: local
+
+networks:
+  teach-network:
+    driver: bridge
+
+# ============================================================
+# USAGE INSTRUCTIONS
+# ============================================================
+#
+# Prerequisites:
+# --------------
+# 1. Docker Desktop with WSL 2 backend enabled
+# 2. NVIDIA Container Toolkit (nvidia-docker2)
+# 3. CUDA 12.6 drivers installed on Windows host
+#
+# Verify GPU is accessible:
+# -------------------------
+# docker run --rm --gpus all nvidia/cuda:12.6.0-base-ubuntu22.04 nvidia-smi
+#
+# If this fails, enable GPU support in Docker Desktop:
+# - Settings → Resources → WSL Integration
+# - Enable GPU support
+#
+# Build and Start Services:
+# -------------------------
+# docker-compose up -d --build
+#
+# View Logs:
+# ----------
+# docker-compose logs -f                    # All services
+# docker-compose logs -f pronunciation      # Pronunciation service only
+# docker-compose logs -f backend            # Backend only
+#
+# Check GPU Usage in Container:
+# -----------------------------
+# docker exec teach-pronunciation nvidia-smi
+#
+# Monitor GPU Usage (Real-time):
+# ------------------------------
+# docker exec teach-pronunciation nvidia-smi -l 1
+#
+# Restart a Specific Service:
+# ---------------------------
+# docker-compose restart pronunciation
+# docker-compose restart backend
+#
+# Stop All Services:
+# ------------------
+# docker-compose down
+#
+# Stop and Remove All Data (Fresh Start):
+# ---------------------------------------
+# docker-compose down -v
+#
+# Rebuild After Code Changes:
+# ---------------------------
+# docker-compose up -d --build pronunciation
+#
+# ============================================================

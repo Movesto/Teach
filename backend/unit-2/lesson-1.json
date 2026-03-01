@@ -1,0 +1,359 @@
+{
+  "id": 13,
+  "unit_id": 2,
+  "lesson_number": 1,
+  "title": "My Family",
+  "description": "Learn to talk about your family members",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Name family members (mother, father, brother, sister, etc.)",
+    "Use possessive words (my, his, her)",
+    "Talk about family relationships (This is my...)",
+    "Use 'have' to talk about family (I have a brother)"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "This is my [family member]",
+      "I have a [brother/sister/son]",
+      "His/Her name is...",
+      "He/She is [age] years old",
+      "Do you have brothers or sisters?",
+      "How many [children/siblings] do you have?",
+      "I don't have any brothers"
+    ],
+    "grammar_pattern": "Possessives:\n- My (for me)\n- His (for a man)\n- Her (for a woman)\n\nHave:\n- I have + noun\n- He/She has + noun\n- Do you have...?\n\nExamples:\n- This is my mother\n- Her name is Fatima\n- I have two sisters\n- He has one brother",
+    "grammar_patterns": [
+      {
+        "label": "Introducing family",
+        "pattern": "This is my + [family member]",
+        "examples": ["This is my mother", "This is my father", "This is my sister"]
+      },
+      {
+        "label": "Possessive pronouns",
+        "pattern": "My / His / Her + [noun]",
+        "examples": ["My mother", "His name is Mohamed", "Her name is Halima"]
+      },
+      {
+        "label": "Talking about family size",
+        "pattern": "I have + [number] + [family members]",
+        "examples": ["I have two brothers", "I have one sister", "I don't have children"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You show Marcus a photo of your family. You tell him about each person.",
+    "dialogue": [
+      {
+        "speaker": "Marcus",
+        "text": "Is this your family?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes! This is my family photo."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Who is this?"
+      },
+      {
+        "speaker": "You",
+        "text": "This is my mother. Her name is Halima."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "And this is your father?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes. His name is Mohamed."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Do you have brothers or sisters?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes. I have two brothers and one sister."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Wow! Big family! What are their names?"
+      },
+      {
+        "speaker": "You",
+        "text": "My brothers are Ali and Omar. My sister is Amina. She is the youngest."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Nice! Do you have any children?"
+      },
+      {
+        "speaker": "You",
+        "text": "No, I don't have children yet."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: This is my...",
+      "instruction": "Fill in the blank with the correct family member",
+      "prompts": [
+        {"sentence": "This is my ___.", "answer": "mother"},
+        {"sentence": "This is my ___.", "answer": "father"},
+        {"sentence": "This is my ___.", "answer": "brother"},
+        {"sentence": "This is my ___.", "answer": "sister"}
+      ],
+      "examples": [
+        "This is my mother.",
+        "This is my father.",
+        "This is my brother.",
+        "This is my sister."
+      ],
+      "your_turn": "Now introduce one of your family members, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: His/Her name is...",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "___ name is Halima.", "answer": "Her"},
+        {"sentence": "___ name is Mohamed.", "answer": "His"},
+        {"sentence": "Her name is ___.", "answer": "Amina"},
+        {"sentence": "His name is ___.", "answer": "Ali"}
+      ],
+      "examples": [
+        "Her name is Halima.",
+        "His name is Mohamed.",
+        "Her name is Amina.",
+        "His name is Ali."
+      ],
+      "your_turn": "Now say a family member's name using 'His' or 'Her', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: I have...",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "I have two ___.", "answer": "brothers"},
+        {"sentence": "I have one ___.", "answer": "sister"},
+        {"sentence": "I ___ three children.", "answer": "have"},
+        {"sentence": "I don't have any ___.", "answer": "brothers"}
+      ],
+      "examples": [
+        "I have two brothers.",
+        "I have one sister.",
+        "I have three children.",
+        "I don't have any brothers."
+      ],
+      "your_turn": "Now say how many siblings you have, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: How many brothers does the person have?",
+      "audio": "/audio/lesson9-listen1.mp3",
+      "options": ["One", "Two", "Three", "None"],
+      "correct": 1,
+      "explanation": "The person says 'I have two brothers'"
+    },
+    {
+      "question": "Listen: What is the mother's name?",
+      "audio": "/audio/lesson9-listen2.mp3",
+      "options": ["Halima", "Fatima", "Amina", "Sara"],
+      "correct": 0,
+      "explanation": "The person says 'Her name is Halima'"
+    },
+    {
+      "question": "Listen: Does the person have children?",
+      "audio": "/audio/lesson9-listen3.mp3",
+      "options": ["Yes, one child", "Yes, two children", "No", "Not mentioned"],
+      "correct": 2,
+      "explanation": "The person says 'I don't have children yet'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Introduce your family",
+      "instruction": "Record yourself introducing 3 family members. Say their relationship to you and their names.",
+      "example": "This is my mother. Her name is Halima. This is my father. His name is Mohamed. This is my sister. Her name is Amina."
+    },
+    {
+      "title": "Task 2: Family conversation",
+      "instruction": "Record yourself answering these questions: Do you have brothers or sisters? How many? What are their names?",
+      "example": "Yes, I have two brothers and one sister. My brothers are Ali and Omar. My sister is Amina."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write about your family",
+      "instruction": "Write 5 sentences about your family. Include: parents, siblings, and children (if any).",
+      "example": "1. My mother's name is Halima.\n2. My father's name is Mohamed.\n3. I have two brothers.\n4. Their names are Ali and Omar.\n5. I don't have children."
+    },
+    {
+      "title": "Task 2: Describe your family",
+      "instruction": "Write a paragraph (6-8 sentences) describing your family. Who are they? What are their names?",
+      "example": "My family is from Somalia. My mother is Halima and my father is Mohamed. I have two brothers and one sister. My brothers are Ali and Omar. Ali is 25 years old and Omar is 22. My sister Amina is 18. She is the youngest. I don't have children yet."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Possessive pronouns: My, His, Her",
+        "examples": [
+          "My mother (I am talking about my own mother)",
+          "His name (a man's name)",
+          "Her name (a woman's name)"
+        ],
+        "question": "How do we show that something belongs to someone?",
+        "explanation": "We use 'my' for ourselves, 'his' for males, and 'her' for females. These show possession or relationship."
+      },
+      {
+        "title": "Have vs Has",
+        "examples": [
+          "I have two brothers",
+          "You have one sister",
+          "He has three children",
+          "She has two brothers"
+        ],
+        "question": "When do we use 'have' and when do we use 'has'?",
+        "explanation": "We use 'have' with I, you, we, they. We use 'has' with he, she, it. This is an important pattern."
+      },
+      {
+        "title": "Questions with 'Do you have'",
+        "examples": [
+          "Do you have brothers?",
+          "Do you have children?",
+          "Does he have sisters?"
+        ],
+        "question": "How do we ask if someone has something?",
+        "explanation": "We use 'Do you have...?' for you, and 'Does he/she have...?' for other people."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to introduce your mother. What do you say?",
+      "options": [
+        "My mother this is",
+        "This my mother",
+        "This is my mother",
+        "Mother is this"
+      ],
+      "correct": 2,
+      "explanation": "'This is my mother' is the correct way to introduce someone."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your father's name is Mohamed. What do you say?",
+      "options": [
+        "My name is Mohamed",
+        "Her name is Mohamed",
+        "His name is Mohamed",
+        "Their name is Mohamed"
+      ],
+      "correct": 2,
+      "explanation": "'His' is used for males. So 'His name is Mohamed' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your sister's name is Amina. What do you say?",
+      "options": [
+        "His name is Amina",
+        "Her name is Amina",
+        "Their name is Amina",
+        "Its name is Amina"
+      ],
+      "correct": 1,
+      "explanation": "'Her' is used for females. So 'Her name is Amina' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I ___ two brothers.",
+      "options": [
+        "am",
+        "is",
+        "have",
+        "has"
+      ],
+      "correct": 2,
+      "explanation": "We use 'have' with 'I'. So 'I have two brothers' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: She ___ three children.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "are"
+      ],
+      "correct": 1,
+      "explanation": "We use 'has' with 'she', 'he', or 'it'. So 'She has three children' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask if someone has brothers. What do you say?",
+      "options": [
+        "You have brothers?",
+        "Have you brothers?",
+        "Do you have brothers?",
+        "Are you have brothers?"
+      ],
+      "correct": 2,
+      "explanation": "'Do you have brothers?' is the correct question form."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'Do you have children?' You have no children. What do you say?",
+      "options": [
+        "No, I have not children",
+        "No, I don't have children",
+        "No, I doesn't have children",
+        "No, I am not have children"
+      ],
+      "correct": 1,
+      "explanation": "'No, I don't have children' is the correct negative form."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "This is my mother. His name is Halima.",
+        "This is my mother. Her name is Halima.",
+        "This is my mother. Their name is Halima.",
+        "This is my mother. Its name is Halima."
+      ],
+      "correct": 1,
+      "explanation": "Mother is female, so we use 'her'. 'Her name is Halima' is correct."
+    },
+    {
+      "type": "writing",
+      "question": "Write 5 sentences about your family. Include at least 3 different family members.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use 'This is my...', 'His/Her name is...', and 'I have...' to describe your family."
+    },
+    {
+      "type": "open-ended",
+      "question": "Who is the most important person in your family? Why?",
+      "options": [],
+      "correct": null,
+      "explanation": "This is personal - there's no wrong answer. Practice expressing your thoughts in English."
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "lesson-27",
+  "unit_id": 5,
+  "lesson_number": 1,
+  "title": "Giving Your Opinion",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Express opinions clearly and confidently",
+    "Agree and disagree politely",
+    "Support opinions with reasons",
+    "Respect different viewpoints"
+  ],
+  "target_phrases": [
+    "I think that...",
+    "In my opinion...",
+    "I agree because...",
+    "I disagree, but I understand...",
+    "That's a good point, but...",
+    "I see it differently",
+    "From my perspective..."
+  ],
+  "dialogue": {
+    "title": "Should Children Have Cell Phones?",
+    "context": "Ahmed joins an ESL discussion group. Today they're debating whether young children should have cell phones.",
+    "lines": [
+      {"speaker": "Teacher", "text": "Today's question: Should children under 12 have cell phones? Ahmed, what do you think?"},
+      {"speaker": "Ahmed", "text": "In my opinion, children shouldn't have cell phones until they're older. It's not necessary when they're young."},
+      {"speaker": "Lisa", "text": "I disagree. I think kids should have phones for safety. What if there's an emergency?"},
+      {"speaker": "Ahmed", "text": "That's a good point, but they can use their parents' phones in emergencies. Kids don't need their own phones."},
+      {"speaker": "Carlos", "text": "I see it differently. In my country, many children have phones by age 10. It helps parents stay in touch."},
+      {"speaker": "Ahmed", "text": "I understand that perspective, but I'm worried about screen time. Kids spend too much time on phones already."},
+      {"speaker": "Lisa", "text": "I agree with you about screen time. Maybe parents should set strict limits if kids have phones."},
+      {"speaker": "Teacher", "text": "Good discussion! You're all supporting your opinions with reasons. That's excellent!"},
+      {"speaker": "Ahmed", "text": "I learned something from Lisa's point about emergencies. Maybe a simple phone without internet would be okay."},
+      {"speaker": "Carlos", "text": "That's a fair compromise! A basic phone for safety, not a smartphone."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Expressing opinions",
+      "pattern": "I think (that) [opinion]",
+      "examples": [
+        "I think children need more outdoor time.",
+        "I think homework is important for learning.",
+        "I think everyone should learn a second language.",
+        "I think schools should have longer lunch breaks.",
+        "I think parents should limit screen time."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Agreeing and adding reasons",
+      "pattern": "I agree because [reason]",
+      "examples": [
+        "I agree because safety is very important.",
+        "I agree because kids need to play outside.",
+        "I agree because learning languages helps your brain.",
+        "I agree because children need time to eat properly.",
+        "I agree because too much screen time is bad for health."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Polite disagreement",
+      "pattern": "I disagree, but [acknowledge their point]",
+      "examples": [
+        "I disagree, but I understand your concern.",
+        "I disagree, but that's an interesting perspective.",
+        "I disagree, but you make a good point.",
+        "I disagree, but I see where you're coming from.",
+        "I disagree, but I respect your opinion."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit5-lesson1-listen1.mp3",
+      "transcript": "When expressing opinions, it's important to be respectful. Start with phrases like 'I think' or 'In my opinion' rather than saying 'You're wrong.' When you disagree, acknowledge the other person's point first. Say things like 'That's interesting, but I see it differently' or 'I understand your perspective, however...'",
+      "question": "What should you do when you disagree with someone?",
+      "options": [
+        "Say they're wrong",
+        "Acknowledge their point first",
+        "Change the subject",
+        "Stay silent"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit5-lesson1-listen2.mp3",
+      "transcript": "Strong opinions need strong support. Use words like 'because' and 'for example' to back up what you say. Instead of just saying 'I think schools need more art classes,' say 'I think schools need more art classes because creativity is important for child development.' Facts, personal experiences, and examples make your opinion more convincing.",
+      "question": "How can you make your opinion stronger?",
+      "options": [
+        "Speak louder",
+        "Repeat it many times",
+        "Support it with reasons and examples",
+        "Insist you're right"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit5-lesson1-listen3.mp3",
+      "transcript": "In American culture, it's normal to have different opinions and discuss them openly. Disagreement doesn't mean disrespect. People can have strong discussions and still be friends. However, always use respectful language and listen to others. Phrases like 'I see your point' or 'That's valid, but...' show you're listening even when you disagree.",
+      "question": "In American culture, what does disagreement mean?",
+      "options": [
+        "You're not friends anymore",
+        "Someone is disrespectful",
+        "It's normal and okay",
+        "You should avoid the person"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Give your opinion about this: 'Students should wear uniforms to school.' Say whether you agree or disagree and give 2 reasons. Record for at least 30 seconds.",
+      "example": "I think students should wear uniforms to school. I have two reasons for this opinion. First, uniforms make mornings easier because kids don't have to decide what to wear. Second, uniforms help everyone feel equal - rich kids and poor kids wear the same clothes, so no one feels bad about their clothing. Some people disagree and think kids should express themselves through clothing, and I understand that perspective, but I still think the benefits of uniforms are worth it.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Practice disagreeing politely. Someone says: 'Everyone should work from home.' Disagree and give your reason. Record yourself.",
+      "example": "That's an interesting perspective, but I disagree. I think working in an office is better for many people. I understand that working from home is convenient, but I think people need social interaction with coworkers. Also, not everyone has a quiet space to work at home. So while working from home is good for some people, I don't think everyone should do it. It depends on the job and the person.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write your opinion about this topic: 'Should children learn to speak their parents' native language?' Give your opinion and 3 reasons. (60-80 words)",
+      "min_words": 60,
+      "example": "I strongly believe that children should learn their parents' native language. First, it helps them communicate with their grandparents and extended family. Second, being bilingual is good for brain development and helps children in school. Third, it keeps them connected to their culture and heritage, which is important for their identity. Some people worry that learning two languages might confuse children, but research shows that bilingual children actually have advantages in learning. For all these reasons, I think families should speak their native language at home."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Someone says: 'Social media is bad for society.' Do you agree or disagree? Write your opinion with 2 supporting reasons. (50-70 words)",
+      "min_words": 50,
+      "example": "I partially agree with this statement. Social media has both good and bad effects. On one hand, it connects people across the world and helps us share information quickly. On the other hand, it can spread false information and make people feel bad about their lives when they compare themselves to others. I think social media isn't inherently bad, but people need to use it wisely and limit their time on it."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Opinion Phrases (I think, In my opinion)",
+      "explanation": "Use these phrases to introduce your opinion. They make your statement sound less direct and more polite.",
+      "examples": [
+        "I think homework is important. (personal opinion)",
+        "In my opinion, schools need more funding. (formal opinion)",
+        "I believe children need outdoor time. (strong opinion)",
+        "From my perspective, both sides have merit. (considering viewpoint)"
+      ],
+      "practice": [
+        {"sentence": "___ think kids need more sleep.", "blank": "I", "options": ["I", "My", "Me"]},
+        {"sentence": "In ___ opinion, this is important.", "blank": "my", "options": ["my", "I", "me"]},
+        {"sentence": "I ___ that parents should set limits.", "blank": "believe", "options": ["believe", "believes", "believing"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Because/So for Reasons",
+      "explanation": "'Because' introduces a reason. 'So' introduces a result.",
+      "examples": [
+        "I agree because safety is important. (reason for agreement)",
+        "Kids need sleep, so bedtime is important. (result)",
+        "I think uniforms are good because they save time. (reason)",
+        "Screen time is harmful, so parents should limit it. (result)"
+      ],
+      "practice": [
+        {"sentence": "I agree ___ you make a good point.", "blank": "because", "options": ["because", "so", "but"]},
+        {"sentence": "It's raining, ___ take an umbrella.", "blank": "so", "options": ["because", "so", "although"]},
+        {"sentence": "She's late ___ traffic was bad.", "blank": "because", "options": ["because", "so", "but"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Although for Contrast",
+      "explanation": "Use 'although' to show contrast or introduce an opposing idea.",
+      "examples": [
+        "Although I disagree, I respect your view. (contrast)",
+        "I like phones, although they have problems. (acknowledging downside)",
+        "Although it's expensive, it's worth it. (contrasting ideas)",
+        "She's busy, although she always helps. (despite being busy)"
+      ],
+      "practice": [
+        {"sentence": "___ I disagree, I understand.", "blank": "Although", "options": ["Although", "Because", "So"]},
+        {"sentence": "I'll try, ___ it's difficult.", "blank": "although", "options": ["although", "because", "so"]},
+        {"sentence": "___ he's young, he's very smart.", "blank": "Although", "options": ["Although", "Because", "So"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "What is Ahmed's opinion about children and cell phones?",
+        "options": [
+          "All children should have phones",
+          "Children under 12 shouldn't have phones",
+          "Only teenagers should have phones",
+          "He has no opinion"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "How does Ahmed respond when Lisa disagrees with him?",
+        "options": [
+          "He gets angry",
+          "He changes his mind immediately",
+          "He acknowledges her point but explains his view",
+          "He ignores her"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What compromise does Ahmed suggest at the end?",
+        "options": [
+          "No phones at all",
+          "Only smartphones",
+          "A basic phone without internet",
+          "Phones only for emergencies at school"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: '___ my opinion, this is important.'",
+        "options": ["On", "In", "At", "For"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "In American culture, disagreement always means disrespect.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You should support your opinions with reasons and examples.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "I agree ___ safety is important. (giving reason)",
+        "correct": "because",
+        "accept": ["because"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ I disagree, I respect your view. (showing contrast)",
+        "correct": "Although",
+        "accept": ["Although", "although"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the phrase to its purpose:",
+        "pairs": [
+          {"left": "I think that...", "right": "State your opinion"},
+          {"left": "I agree because...", "right": "Agree with reason"},
+          {"left": "That's a good point, but...", "right": "Polite disagreement"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What should you do before disagreeing?",
+        "options": [
+          "Raise your voice",
+          "Acknowledge the other person's point",
+          "Leave the conversation",
+          "Insist you're right"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "opinion", "definition": "what you think about something", "example": "In my opinion, summer is the best season."},
+    {"word": "viewpoint", "definition": "way of thinking about a topic", "example": "I understand your viewpoint even though I disagree."},
+    {"word": "perspective", "definition": "particular way of seeing a situation", "example": "From a parent's perspective, safety is most important."},
+    {"word": "argument", "definition": "reason supporting an opinion", "example": "She made a strong argument for exercise."},
+    {"word": "reason", "definition": "explanation for why you think something", "example": "My reason for disagreeing is personal experience."},
+    {"word": "evidence", "definition": "facts supporting a claim", "example": "Research provides evidence that reading helps learning."},
+    {"word": "disagree", "definition": "have a different opinion", "example": "I disagree with that statement."},
+    {"word": "respectfully", "definition": "in a polite, considerate way", "example": "You can disagree respectfully without being rude."},
+    {"word": "consider", "definition": "think carefully about", "example": "Consider both sides before deciding."},
+    {"word": "valid", "definition": "reasonable and acceptable", "example": "That's a valid point I hadn't thought of."}
+  ],
+  "cultural_notes": [
+    "In American culture, healthy debate is encouraged. Disagreeing doesn't mean you don't like someone.",
+    "It's normal to have different political or religious opinions even among family and friends.",
+    "In professional settings, supporting your opinions with data and examples is highly valued.",
+    "Phrases like 'I disagree' are considered polite and direct. You don't need to be overly indirect.",
+    "Active listening is important - show you've heard the other person before stating your view.",
+    "In group discussions, it's okay to change your opinion if someone makes a convincing argument."
+  ]
+}

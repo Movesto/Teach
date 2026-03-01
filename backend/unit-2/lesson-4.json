@@ -1,0 +1,357 @@
+{
+  "id": 16,
+  "unit_id": 2,
+  "lesson_number": 4,
+  "title": "Making Friends",
+  "description": "Learn to socialize and find common interests",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Talk about hobbies and interests (I like... / I enjoy...)",
+    "Find common interests (Do you like...? / Me too!)",
+    "Make conversation with new people",
+    "Express likes and dislikes"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "I like [activity/thing]",
+      "I love [activity/thing]",
+      "I don't like [activity/thing]",
+      "Do you like [activity]?",
+      "Me too! / Me neither!",
+      "What do you like to do?",
+      "We should [hang out/get coffee] sometime"
+    ],
+    "grammar_pattern": "Like/Love/Enjoy:\n- I like + noun/verb-ing\n- Do you like + noun/verb-ing?\n- He likes / She likes\n\nExamples:\n- I like soccer\n- I like playing soccer\n- Do you like coffee?\n- He likes reading\n\nAgreement:\n- Me too! (agreeing with positive)\n- Me neither! (agreeing with negative)",
+    "grammar_patterns": [
+      {
+        "label": "Expressing likes",
+        "pattern": "I like + [noun / verb-ing]",
+        "examples": ["I like soccer", "I like playing soccer", "I like movies"]
+      },
+      {
+        "label": "Asking about interests",
+        "pattern": "Do you like + [noun / verb-ing]?",
+        "examples": ["Do you like soccer?", "Do you like reading?", "Do you like cooking?"]
+      },
+      {
+        "label": "Agreeing with others",
+        "pattern": "Me too! / Me neither!",
+        "examples": ["I like soccer. — Me too!", "I don't like basketball. — Me neither!", "I love reading. — Me too!"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You meet Tom at a community center. You try to find common interests.",
+    "dialogue": [
+      {
+        "speaker": "Tom",
+        "text": "Hi! Are you new here?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes, I just started coming here. I'm Ahmed."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Nice to meet you! I'm Tom. What do you like to do?"
+      },
+      {
+        "speaker": "You",
+        "text": "I like playing soccer. Do you play any sports?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Yes! I love soccer! I play every Saturday."
+      },
+      {
+        "speaker": "You",
+        "text": "Really? Me too! Where do you play?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "At Lincoln Park. You should come play with us!"
+      },
+      {
+        "speaker": "You",
+        "text": "That sounds great! Do you like basketball too?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Not really. I don't like basketball. But I like running."
+      },
+      {
+        "speaker": "You",
+        "text": "Me neither! I mean, I don't like basketball either. But I enjoy running."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Cool! We should go running together sometime."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: I like / I don't like",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "I like ___.", "answer": "soccer"},
+        {"sentence": "I like ___.", "answer": "reading"},
+        {"sentence": "I don't like ___.", "answer": "basketball"},
+        {"sentence": "I don't like ___.", "answer": "cooking"}
+      ],
+      "examples": [
+        "I like soccer.",
+        "I like reading.",
+        "I don't like basketball.",
+        "I don't like cooking."
+      ],
+      "your_turn": "Now say something you like or don't like, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Do you like...?",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "Do you like ___?", "answer": "soccer"},
+        {"sentence": "Do you like ___?", "answer": "reading"},
+        {"sentence": "Do you like ___?", "answer": "cooking"},
+        {"sentence": "Do you like ___?", "answer": "movies"}
+      ],
+      "examples": [
+        "Do you like soccer?",
+        "Do you like reading?",
+        "Do you like cooking?",
+        "Do you like movies?"
+      ],
+      "your_turn": "Now ask someone if they like something, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Me too! / Me neither!",
+      "instruction": "Fill in the blank with the correct response",
+      "prompts": [
+        {"sentence": "I like soccer. — Me ___!", "answer": "too"},
+        {"sentence": "I love reading. — Me ___!", "answer": "too"},
+        {"sentence": "I don't like basketball. — Me ___!", "answer": "neither"},
+        {"sentence": "I don't enjoy cooking. — Me ___!", "answer": "neither"}
+      ],
+      "examples": [
+        "I like soccer. — Me too!",
+        "I love reading. — Me too!",
+        "I don't like basketball. — Me neither!",
+        "I don't enjoy cooking. — Me neither!"
+      ],
+      "your_turn": "Now agree with a statement, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What sport does Ahmed like?",
+      "audio": "/audio/lesson12-listen1.mp3",
+      "options": ["Basketball", "Soccer", "Running", "Tennis"],
+      "correct": 1,
+      "explanation": "Ahmed says 'I like playing soccer'"
+    },
+    {
+      "question": "Listen: Does Tom like basketball?",
+      "audio": "/audio/lesson12-listen2.mp3",
+      "options": ["Yes, he loves it", "Yes, he likes it", "No, he doesn't", "Not mentioned"],
+      "correct": 2,
+      "explanation": "Tom says 'I don't like basketball'"
+    },
+    {
+      "question": "Listen: When does Tom play soccer?",
+      "audio": "/audio/lesson12-listen3.mp3",
+      "options": ["Every day", "Every Saturday", "Every Sunday", "Twice a week"],
+      "correct": 1,
+      "explanation": "Tom says 'I play every Saturday'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Talk about your interests",
+      "instruction": "Record yourself talking about 3 things you like and 2 things you don't like.",
+      "example": "I like playing soccer. I like reading books. I like watching movies. I don't like cooking. I don't like running."
+    },
+    {
+      "title": "Task 2: Make conversation",
+      "instruction": "Record yourself asking someone about their interests and finding something in common.",
+      "example": "You: What do you like to do?\nPerson: I like playing soccer.\nYou: Really? I love soccer too! Do you play on a team?\nPerson: No, just with friends. Do you like basketball?\nYou: No, I don't like basketball. But I like tennis."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write about your interests",
+      "instruction": "Write 6 sentences: 3 things you like and 3 things you don't like.",
+      "example": "1. I like playing soccer.\n2. I like watching movies.\n3. I like reading books.\n4. I don't like cooking.\n5. I don't like waking up early.\n6. I don't like cold weather."
+    },
+    {
+      "title": "Task 2: Write a conversation",
+      "instruction": "Write a conversation (10-12 lines) where you meet someone new and find a common interest.",
+      "example": "You: Hi! I'm Ahmed.\nPerson: Hi! I'm Lisa. Nice to meet you.\nYou: What do you like to do?\nLisa: I like reading and watching movies. What about you?\nYou: I like movies too! What kind of movies do you like?\nLisa: I like action movies.\nYou: Me too! Do you like sports?\nLisa: Not really. I don't like sports. Do you?\nYou: Yes, I love playing soccer.\nLisa: That's cool. We should watch a movie sometime!\nYou: Yes! That sounds great."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Like + noun vs Like + verb-ing",
+        "examples": [
+          "I like soccer (noun - the sport in general)",
+          "I like playing soccer (verb-ing - the activity)",
+          "I like movies (noun)",
+          "I like watching movies (verb-ing)"
+        ],
+        "question": "Can we use both?",
+        "explanation": "Yes! 'I like soccer' and 'I like playing soccer' are both correct. Using verb-ing is more specific about the activity."
+      },
+      {
+        "title": "Me too vs Me neither",
+        "examples": [
+          "I like soccer. - Me too! (agreeing with positive)",
+          "I love reading. - Me too!",
+          "I don't like basketball. - Me neither! (agreeing with negative)",
+          "I don't enjoy cooking. - Me neither!"
+        ],
+        "question": "Which do we use when?",
+        "explanation": "Use 'Me too' to agree with positive statements. Use 'Me neither' to agree with negative statements (don't/doesn't)."
+      },
+      {
+        "title": "Making suggestions: We should...",
+        "examples": [
+          "We should play soccer together",
+          "We should get coffee sometime",
+          "We should watch a movie",
+          "You should come to the park"
+        ],
+        "question": "How do we suggest activities?",
+        "explanation": "'We should...' or 'You should...' are friendly ways to suggest doing something together. It's common when making plans with new friends."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I ___ soccer.",
+      "options": [
+        "likes",
+        "like",
+        "liking",
+        "am like"
+      ],
+      "correct": 1,
+      "explanation": "'I like soccer' is correct. Use 'like' without -s for 'I'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: He ___ playing basketball.",
+      "options": [
+        "like",
+        "likes",
+        "liking",
+        "is like"
+      ],
+      "correct": 1,
+      "explanation": "'He likes playing basketball' is correct. Add -s for he/she."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'I like soccer'. You like soccer too. What do you say?",
+      "options": [
+        "I too",
+        "Me too",
+        "Also me",
+        "Same I"
+      ],
+      "correct": 1,
+      "explanation": "'Me too!' is the correct way to agree with a positive statement."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'I don't like basketball'. You don't like it either. What do you say?",
+      "options": [
+        "Me too",
+        "Me neither",
+        "Also me",
+        "Same I"
+      ],
+      "correct": 1,
+      "explanation": "'Me neither!' is correct for agreeing with negative statements."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask if someone likes reading. What do you say?",
+      "options": [
+        "You like reading?",
+        "Like you reading?",
+        "Do you like reading?",
+        "Are you like reading?"
+      ],
+      "correct": 2,
+      "explanation": "'Do you like reading?' is the correct question form."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "I like play soccer",
+        "I like playing soccer",
+        "I like to playing soccer",
+        "I like plays soccer"
+      ],
+      "correct": 1,
+      "explanation": "'I like playing soccer' is correct. After 'like', we use verb-ing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to suggest playing soccer together. What do you say?",
+      "options": [
+        "You play soccer with me",
+        "Play soccer with me",
+        "We should play soccer together",
+        "We play soccer together"
+      ],
+      "correct": 2,
+      "explanation": "'We should play soccer together' is a friendly suggestion."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which asks about someone's interests?",
+      "options": [
+        "What you like?",
+        "What do you like?",
+        "What are you like?",
+        "What you are like?"
+      ],
+      "correct": 1,
+      "explanation": "'What do you like?' or 'What do you like to do?' asks about interests."
+    },
+    {
+      "type": "writing",
+      "question": "Write a short conversation (6 lines) where you and a new friend discover you both like the same thing.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use: 'Do you like...?', 'I like...', 'Me too!', 'We should...'"
+    },
+    {
+      "type": "open-ended",
+      "question": "What hobby or interest helps you make friends? Why?",
+      "options": [],
+      "correct": null,
+      "explanation": "Think about how shared interests bring people together."
+    }
+  ]
+}

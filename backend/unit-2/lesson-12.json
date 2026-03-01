@@ -1,0 +1,354 @@
+{
+  "id": 30,
+  "unit_id": 2,
+  "lesson_number": 12,
+  "title": "Getting the Job — Applying and Starting Work",
+  "description": "Learn the language for job applications, interviews, and your first day at a new job",
+  "difficulty": "intermediate",
+  "is_last_in_unit": true,
+  "objectives": [
+    "Say you are looking for a job and explain what kind",
+    "Use formal language to apply and introduce yourself",
+    "Talk about when you can start",
+    "Use 'would like to' for polite, professional statements"
+  ],
+  "target_language": {
+    "phrases": [
+      "I'm looking for a job as a [driver / cashier / warehouse worker]",
+      "I'd like to apply for this position",
+      "I have experience in [driving / food service / cleaning]",
+      "I'm a reliable and hard-working person",
+      "When can you start? — I can start on [Monday / immediately]",
+      "Thank you for your time",
+      "I look forward to hearing from you"
+    ],
+    "grammar_pattern": "WOULD LIKE TO — polite, formal 'want to'\\n  I'd like to apply for this job. (more professional than 'I want this job')\\n  I'd like to schedule an interview.\\n  Would you like me to bring my resume?\\n\\nPRESENT PERFECT for experience (introduction)\\n  I've worked in warehouses for five years. (up to now)\\n  I've driven a truck for a delivery company.\\n  I've never worked in a restaurant, but I learn quickly.\\n\\nFORMAL PHRASES for applications\\n  I'm interested in this position.\\n  I believe I am a good fit for this role.\\n  I'm available to start immediately.",
+    "grammar_patterns": [
+      {
+        "label": "WOULD LIKE TO — polite professional language",
+        "pattern": "I'd like to + [base verb]",
+        "examples": [
+          "I'd like to apply for this position.",
+          "I'd like to schedule an interview.",
+          "I'd like to know more about the hours.",
+          "Would you like me to fill out an application?"
+        ]
+      },
+      {
+        "label": "PRESENT PERFECT for experience",
+        "pattern": "I've + [past participle] + [duration / object]",
+        "examples": [
+          "I've worked in warehouses for five years.",
+          "I've driven a delivery truck across the city.",
+          "I've helped customers in a retail store.",
+          "I've never worked in an office, but I'm a fast learner."
+        ]
+      },
+      {
+        "label": "Formal application phrases",
+        "pattern": "I'm looking for... / I'm interested in... / I believe I...",
+        "examples": [
+          "I'm looking for a full-time position in warehousing.",
+          "I'm interested in the cashier position you advertised.",
+          "I believe I am a good fit for this role.",
+          "I am available to start immediately."
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "Ahmed applies for a warehouse job and has a short interview. This is his first real job interview in the United States.",
+    "dialogue": [
+      { "speaker": "Tom", "text": "Hi, come in. You're Ahmed, right? I'm Tom. Please sit down." },
+      { "speaker": "Ahmed", "text": "Thank you, Tom. I'm happy to meet you. I'd like to apply for the warehouse associate position." },
+      { "speaker": "Tom", "text": "Great. Tell me a little about yourself." },
+      { "speaker": "Ahmed", "text": "I'm Ahmed. I've worked in transportation and warehousing for seven years in Somalia. I've driven a delivery truck and organized inventory at a warehouse. I'm reliable and I work hard." },
+      { "speaker": "Tom", "text": "That's great experience. Why are you looking for work here?" },
+      { "speaker": "Ahmed", "text": "My family moved to the United States two years ago. I'm looking for full-time work in logistics or warehousing. This job is a very good fit for my experience." },
+      { "speaker": "Tom", "text": "I like how clearly you explain your background. Do you have any questions for me?" },
+      { "speaker": "Ahmed", "text": "Yes — I'd like to know about the schedule. Is this full-time, Monday through Friday?" },
+      { "speaker": "Tom", "text": "It is. 6 AM to 2:30 PM. When can you start?" },
+      { "speaker": "Ahmed", "text": "I'm available to start immediately. Or on Monday, if that works better for you." },
+      { "speaker": "Tom", "text": "Let's say Monday. I think you're a strong candidate, Ahmed. We'll call you by Thursday." },
+      { "speaker": "Ahmed", "text": "Thank you very much for your time, Tom. I look forward to hearing from you." }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Would Like To",
+      "instruction": "Make a polite professional statement. Use: I'd like to + [verb]",
+      "prompts": [
+        { "sentence": "I ___ like to apply for this job.", "answer": "would / 'd" },
+        { "sentence": "I'd like ___ schedule an interview.", "answer": "to" },
+        { "sentence": "___ you like me to bring my resume?", "answer": "Would" },
+        { "sentence": "I'd like ___ know more about the hours.", "answer": "to" }
+      ],
+      "examples": [
+        "I'd like to apply for this position.",
+        "I'd like to know about the schedule.",
+        "I'd like to start as soon as possible.",
+        "Would you like me to fill out an application now?",
+        "I'd like to thank you for this opportunity."
+      ],
+      "your_turn": "I'd like to thank you for this opportunity.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Present Perfect for Experience",
+      "instruction": "Talk about your experience using the present perfect. Use: I've + [past participle]",
+      "prompts": [
+        { "sentence": "I've ___ in warehouses for five years. (work)", "answer": "worked" },
+        { "sentence": "I've ___ a delivery truck. (drive)", "answer": "driven" },
+        { "sentence": "I've ___ customers at a store. (help)", "answer": "helped" },
+        { "sentence": "I've ___ for the same company for six years. (work)", "answer": "worked" }
+      ],
+      "examples": [
+        "I've worked in warehouses for five years.",
+        "I've driven trucks for a logistics company.",
+        "I've helped customers in a retail environment.",
+        "I've organized inventory and done quality checks.",
+        "I've worked with teams of up to twenty people."
+      ],
+      "your_turn": "I've worked with teams of up to twenty people.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Formal Application Language",
+      "instruction": "Complete the professional sentence. Use the formal phrases you learned.",
+      "prompts": [
+        { "sentence": "I'm ___ for a full-time position in logistics.", "answer": "looking" },
+        { "sentence": "I'm ___ in the warehouse associate position.", "answer": "interested" },
+        { "sentence": "I believe I am a good ___ for this role.", "answer": "fit" },
+        { "sentence": "I am ___ to start immediately.", "answer": "available" }
+      ],
+      "examples": [
+        "I'm looking for full-time work in transportation.",
+        "I'm interested in any position that fits my skills.",
+        "I believe I am a good fit because of my experience.",
+        "I am available to start on Monday.",
+        "I look forward to hearing from you."
+      ],
+      "your_turn": "I look forward to hearing from you.",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "What position is the man applying for?",
+      "audio": "/audio/unit2-lesson12-listen1.mp3",
+      "options": [
+        "Security guard",
+        "Delivery driver",
+        "Warehouse associate",
+        "Store cashier"
+      ],
+      "correct": 2,
+      "explanation": "The man says 'I'd like to apply for the warehouse associate position.' He then describes his past experience in warehousing and logistics."
+    },
+    {
+      "question": "When does the woman say she can start?",
+      "audio": "/audio/unit2-lesson12-listen2.mp3",
+      "options": [
+        "Next month",
+        "In two weeks",
+        "Immediately or on Monday",
+        "After she gets her license"
+      ],
+      "correct": 2,
+      "explanation": "The woman says 'I'm available to start immediately, or Monday if that is better.' Offering flexibility shows professionalism and enthusiasm."
+    },
+    {
+      "question": "How does the interviewer end the meeting?",
+      "audio": "/audio/unit2-lesson12-listen3.mp3",
+      "options": [
+        "He says Ahmed is hired right away",
+        "He says they will call by Thursday",
+        "He says Ahmed needs more experience",
+        "He gives Ahmed an application form"
+      ],
+      "correct": 1,
+      "explanation": "The interviewer says 'We'll call you by Thursday.' Knowing this kind of phrase helps you understand what happens after an interview and when to expect a response."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Introduce Yourself for a Job",
+      "instruction": "Record yourself as if you are at a job interview. Say: your name, what job you are looking for, your experience (use I've worked...), and when you can start. Speak clearly and confidently.",
+      "example": "My name is Ahmed. I'm looking for a full-time position in warehousing or transportation. I've worked as a delivery driver for five years and I've organized inventory at a large warehouse. I'm reliable and I work well in a team. I'm available to start immediately."
+    },
+    {
+      "title": "End an Interview Politely",
+      "instruction": "Record yourself closing a job interview. Thank the interviewer, mention one reason you are a good fit, and say you look forward to hearing from them.",
+      "example": "Thank you for taking the time to meet with me today. I believe I'm a good fit for this role because of my five years of warehousing experience. I'd like this opportunity very much and I look forward to hearing from you."
+    }
+  ],
+  "writing": [
+    {
+      "title": "My Job Application Introduction",
+      "instruction": "Write a short paragraph (5-6 sentences) as if you are introducing yourself for a job application. Include: what job you want, your experience (use I've...), why you are a good fit, and when you can start.",
+      "example": "I am applying for the warehouse associate position at your company. I've worked in logistics and transportation for seven years. I've driven delivery trucks and organized large inventories. I'm a reliable and hard-working person who always comes on time. I believe I am a good fit for this role because of my hands-on experience. I am available to start immediately."
+    },
+    {
+      "title": "Unit 2 Reflection — Your Journey",
+      "instruction": "Write 4-5 sentences reflecting on what you have learned in this unit. What can you do now that you couldn't do before? Use: I can now..., I've learned how to..., I feel more confident about...",
+      "example": "In this unit, I've learned how to talk about my skills and work history. I can now explain my experience in English using past tense. I've also learned how to read job postings and understand what 'required' and 'preferred' mean. I feel more confident about going to a job interview. I'm ready to start looking for work and I know how to explain who I am."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "WOULD LIKE TO vs WANT TO — same meaning, different register",
+        "examples": [
+          "I want this job. (informal — fine with friends)",
+          "I'd like to apply for this job. (formal — correct for interviews)",
+          "I want to know the hours. → I'd like to know the hours. (professional)",
+          "Give me the form. ✗ (too direct)",
+          "I'd like the application form, please. ✓",
+          "Would you like me to bring a resume? ✓ (offering help politely)"
+        ],
+        "question": "When is WOULD LIKE better than WANT?",
+        "explanation": "WANT is direct and informal. I'D LIKE is a softer, more polite and professional form of the same idea. In job interviews, emails, and professional conversations, always use I'D LIKE instead of I WANT. It shows respect and language maturity. The contraction I'D = I WOULD — both are correct."
+      },
+      {
+        "title": "PRESENT PERFECT for accumulated experience",
+        "examples": [
+          "I worked in warehouses for five years. (simple past — finished)",
+          "I've worked in warehouses for five years. (present perfect — still relevant NOW)",
+          "I drove a truck. (simple past — one event, done)",
+          "I've driven trucks for five years. (experience you bring with you today)",
+          "I've never worked in an office. (zero experience up to now)"
+        ],
+        "question": "When do we use present perfect instead of simple past for work experience?",
+        "explanation": "Simple past (I worked) describes a specific finished event. Present perfect (I've worked) describes experience that is still relevant — it connects your past to your present self. In a job interview, say 'I've worked in logistics for seven years' to show that experience is part of who you are today. Use it to introduce your background. Use simple past when telling the details (then I drove, then I organized...)."
+      },
+      {
+        "title": "Closing an interview — formal phrases",
+        "examples": [
+          "Thank you for your time. ✓",
+          "I look forward to hearing from you. ✓ (forward to + verb-ing!)",
+          "I look forward to hear from you. ✗",
+          "I appreciate this opportunity. ✓",
+          "I believe I am a good fit for this role. ✓",
+          "I'm very excited for this job. ✓ (enthusiastic but less formal)"
+        ],
+        "question": "What do you say at the end of an interview?",
+        "explanation": "Closing an interview well makes a strong final impression. The two most important phrases are: 'Thank you for your time' and 'I look forward to hearing from you.' Note: LOOK FORWARD TO is always followed by verb-ing. Never say 'I look forward to hear' — it must be 'I look forward to hearing.'"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is the most professional way to say you want a job?",
+      "options": [
+        "I want this job.",
+        "Give me this job.",
+        "I'd like to apply for this position.",
+        "I need a job here."
+      ],
+      "correct": 2,
+      "explanation": "'I'd like to apply for this position' is formal, polite, and professional. It is the correct way to express interest in a job at an interview."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the present perfect correctly for job experience?",
+      "options": [
+        "I worked in warehouses since five years.",
+        "I've worked in warehouses for five years.",
+        "I working in warehouses for five years.",
+        "I work in warehouses five years ago."
+      ],
+      "correct": 1,
+      "explanation": "'I've worked in warehouses for five years' is the correct present perfect. Use 'for' with a duration. This tells the interviewer your experience is current and relevant."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed says 'I look forward to hearing from you.' What does this mean?",
+      "options": [
+        "He is listening to the interviewer",
+        "He hopes to receive a response in the future",
+        "He wants to look at something",
+        "He is saying goodbye rudely"
+      ],
+      "correct": 1,
+      "explanation": "'I look forward to hearing from you' is a polite, formal closing phrase. It means you hope they will contact you with their decision. It is one of the most important phrases to know."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I look forward to hear from you.",
+        "I look forward to hearing from you.",
+        "I look forward hear from you.",
+        "I look forwarding to hear from you."
+      ],
+      "correct": 1,
+      "explanation": "'Look forward to' is always followed by verb-ing. 'I look forward to hearing from you' is the correct and standard phrase used to close professional conversations."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you tell an interviewer you are available immediately?",
+      "options": [
+        "I can begin tomorrow if you want.",
+        "I am available to start immediately.",
+        "Start me now.",
+        "I want to work right now."
+      ],
+      "correct": 1,
+      "explanation": "'I am available to start immediately' is professional and clear. You can also say 'I'm available to start on Monday' if you need a specific day."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed introduces himself by saying 'I'm reliable and I work hard.' Why is this important in an interview?",
+      "options": [
+        "It tells the employer about his personality and work ethic",
+        "It proves he has a degree",
+        "It shows he knows English grammar",
+        "It is required by law"
+      ],
+      "correct": 0,
+      "explanation": "Saying 'I'm reliable and hard-working' tells an employer about your character — your attitude and habits. Employers value character traits like reliability, punctuality, and a strong work ethic as much as skills."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase correctly introduces your work experience?",
+      "options": [
+        "I'm looking for my experience.",
+        "I've worked in transportation for seven years.",
+        "I worked in transportation since seven years.",
+        "I'm experienced of transportation."
+      ],
+      "correct": 1,
+      "explanation": "'I've worked in transportation for seven years' correctly uses the present perfect to introduce accumulated experience. Use 'for' with durations."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'I believe I am a good fit for this role' communicate?",
+      "options": [
+        "You are unsure if you want the job",
+        "You think your skills and experience match what the employer needs",
+        "You know someone who works there",
+        "You will work for a lower salary"
+      ],
+      "correct": 1,
+      "explanation": "'I'm a good fit' means your skills, experience, and attitude match what the employer is looking for. It is a confident but professional way to express your qualifications."
+    },
+    {
+      "type": "writing",
+      "question": "Write 3 sentences you would say at the START of a job interview. Include: your name, what job you want (I'd like to...), and one thing about your experience (I've...).",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice your opening lines for a job interview. Strong openings: say your name clearly, use formal language (I'd like to), and mention your key experience immediately."
+    },
+    {
+      "type": "open-ended",
+      "question": "An interviewer asks: 'Why should we hire you?' Write 2-3 sentences. Use your skills, experience, and one character strength (reliable, organized, hard-working, etc.).",
+      "options": [],
+      "correct": null,
+      "explanation": "This is one of the most common interview questions. Answer confidently and specifically. Example: 'I've worked in warehousing for five years and I know how to organize inventory and work quickly. I am very reliable — I always come on time and I never leave work unfinished. I believe I would be a strong addition to your team.'"
+    }
+  ]
+}

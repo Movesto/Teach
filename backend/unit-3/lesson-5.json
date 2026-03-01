@@ -1,0 +1,319 @@
+{
+  "id": 23,
+  "unit_id": 3,
+  "lesson_number": 5,
+  "title": "Paying Bills",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Understand common monthly bills (rent, utilities, phone)",
+    "Pay bills on time and avoid late fees",
+    "Set up automatic payments",
+    "Track due dates and manage payment schedules"
+  ],
+  "target_phrases": [
+    "When is this bill due?",
+    "How can I pay this bill?",
+    "I'd like to set up autopay",
+    "What happens if I pay late?",
+    "Can I pay online?",
+    "I need to change my due date",
+    "Is there a late fee?"
+  ],
+  "dialogue": {
+    "title": "Understanding Bills",
+    "context": "Ahmed just received his first bills in his new apartment. His friend Marcus helps him understand them.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Marcus, I got all these bills in the mail. I'm not sure what to do with them."},
+      {"speaker": "Marcus", "text": "Don't worry, I'll help you. Let's look at them one by one. This one is your electric bill from Portland General Electric."},
+      {"speaker": "Ahmed", "text": "When is it due?"},
+      {"speaker": "Marcus", "text": "Right here - it says 'Due Date: March 15.' That's in 10 days. You need to pay $75."},
+      {"speaker": "Ahmed", "text": "How can I pay it? Do I mail them a check?"},
+      {"speaker": "Marcus", "text": "You can, but it's faster to pay online. See this website? Go there and set up an account. You can also set up autopay so it's automatic every month."},
+      {"speaker": "Ahmed", "text": "What's autopay?"},
+      {"speaker": "Marcus", "text": "Autopay means the money comes out of your bank account automatically on the due date. You don't have to remember to pay."},
+      {"speaker": "Ahmed", "text": "That sounds convenient! What happens if I pay late?"},
+      {"speaker": "Marcus", "text": "There's usually a late fee - maybe $10 or $15. Plus, if you're really late, they can shut off your electricity. So always pay on time!"},
+      {"speaker": "Ahmed", "text": "I understand. What about this one - my phone bill?"},
+      {"speaker": "Marcus", "text": "Same thing. It's due on the 20th. I recommend setting up autopay for all your regular bills. It makes life easier."},
+      {"speaker": "Ahmed", "text": "Good idea. I'll do that this weekend. Thank you for explaining!"}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about bill due dates",
+      "pattern": "When is my [bill] due?",
+      "examples": [
+        "When is my rent due?",
+        "When is my electric bill due?",
+        "When is my phone bill due?",
+        "When is my internet bill due?",
+        "When is my water bill due?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Talking about payment methods",
+      "pattern": "I can pay [method]",
+      "examples": [
+        "I can pay online",
+        "I can pay with a check",
+        "I can pay by phone",
+        "I can pay at the store",
+        "I can pay with my debit card"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Setting up automatic payments",
+      "pattern": "I'd like to set up autopay for my [bill]",
+      "examples": [
+        "I'd like to set up autopay for my rent",
+        "I'd like to set up autopay for my utilities",
+        "I'd like to set up autopay for my phone",
+        "I'd like to set up autopay for my internet",
+        "I'd like to set up autopay for my credit card"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit3-lesson5-listen1.mp3",
+      "transcript": "Thank you for calling Portland Water Bureau. Your monthly water and sewer bill is due on the 1st of each month. You can pay online at portlandoregon.gov/water, by phone at 503-823-7770, or by mail. If you pay after the 15th, there's a $25 late fee. We also offer budget billing to spread out seasonal costs.",
+      "question": "When is the water bill due each month?",
+      "options": [
+        "The 1st",
+        "The 15th",
+        "The 20th",
+        "The last day"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit3-lesson5-listen2.mp3",
+      "transcript": "Your rent is $1,200 per month, due on the 1st. There's a 3-day grace period, so you can pay until the 4th without penalty. After the 4th, there's a $50 late fee. We accept checks, money orders, or online payments through the tenant portal. No cash payments, please.",
+      "question": "What is the late fee for rent?",
+      "options": ["$25", "$50", "$75", "$100"],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit3-lesson5-listen3.mp3",
+      "transcript": "Setting up autopay is easy. Log into your account, go to 'Payment Options,' and select 'Set up AutoPay.' Choose the payment method - checking account or debit card. Select your payment date - either the due date or an earlier date. You'll get an email confirmation before each automatic payment. You can cancel autopay anytime.",
+      "question": "What happens before each automatic payment?",
+      "options": [
+        "They call you",
+        "You get an email confirmation",
+        "They send a letter",
+        "Nothing happens"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Call your electric company. Record yourself saying: 'Hello, I'd like to set up autopay for my electric bill. How do I do that? Also, when is my bill due each month?' Speak clearly.",
+      "example": "Hello, my name is Ahmed. I have a question about my account. I'd like to set up autopay for my electric bill so I don't have to remember to pay each month. How do I do that? Also, can you tell me when my bill is due each month? Thank you for your help.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain to a friend why it's important to pay bills on time. Give 3 reasons. Record yourself for at least 30 seconds.",
+      "example": "It's very important to pay bills on time. First, you avoid late fees. Late fees can be $25 or more, and that's wasted money. Second, late payments can hurt your credit score. A good credit score helps you rent apartments and get loans. Third, if you don't pay, they can shut off your services like electricity or phone. Paying on time keeps everything running smoothly.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "List your monthly bills (or typical bills someone might have). For each bill, write when it's due and how much it costs. Write at least 5 sentences.",
+      "min_words": 40,
+      "example": "My rent is $1,200 and it's due on the 1st of each month. My electric bill is about $75 and it's due on the 15th. My phone bill is $60 and it's due on the 20th. My internet costs $50 and it's due on the 10th. My water bill is $40 and it's due on the 5th. In total, I pay about $1,425 per month in bills."
+    },
+    {
+      "id": "write-2",
+      "prompt": "You're one day late paying your electricity bill. Write an email to the company explaining why and asking if they can waive the late fee. (Write at least 4 sentences)",
+      "min_words": 35,
+      "example": "Dear Portland General Electric, I apologize for paying my bill one day late. I usually pay on time, but I was out of town for work. This is my first late payment. Could you please waive the late fee this one time? I have set up autopay so this won't happen again. Thank you for understanding. Ahmed Hassan"
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Future with 'Will' for Bills",
+      "explanation": "Use 'will' to talk about future bills and payments.",
+      "examples": [
+        "I will pay my rent tomorrow. (future action)",
+        "The bill will arrive next week. (future event)",
+        "They will charge a late fee. (future consequence)",
+        "I won't forget to pay. (future negative - won't = will not)"
+      ],
+      "practice": [
+        {"sentence": "I ___ pay my bill on Friday.", "blank": "will", "options": ["will", "am", "do"]},
+        {"sentence": "She ___ set up autopay tomorrow.", "blank": "will", "options": ["will", "is", "does"]},
+        {"sentence": "They ___ shut off the electricity if you don't pay.", "blank": "will", "options": ["will", "are", "do"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Time Expressions with Bills",
+      "explanation": "Use 'on', 'by', 'before', 'after' with dates. Use 'in' with months.",
+      "examples": [
+        "The rent is due on the 1st. (specific date)",
+        "Pay by March 15. (deadline)",
+        "Pay before the 10th. (any time up to the 10th)",
+        "After the 15th, there's a late fee. (time period)",
+        "I'll pay in March. (during March)"
+      ],
+      "practice": [
+        {"sentence": "My rent is due ___ the 1st.", "blank": "on", "options": ["on", "in", "at"]},
+        {"sentence": "Please pay ___ Friday.", "blank": "by", "options": ["by", "in", "at"]},
+        {"sentence": "___ the 20th, there's a late fee.", "blank": "After", "options": ["After", "In", "On"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Modal Verbs: Must, Should, Need to",
+      "explanation": "Use these to talk about obligations and recommendations with bills.",
+      "examples": [
+        "I must pay my rent on time. (strong obligation)",
+        "You should set up autopay. (recommendation)",
+        "I need to check my bill. (necessity)",
+        "You must have a bank account. (requirement)"
+      ],
+      "practice": [
+        {"sentence": "You ___ pay your bills on time.", "blank": "must", "options": ["must", "can", "might"]},
+        {"sentence": "I ___ set up autopay. It's convenient.", "blank": "should", "options": ["should", "can", "will"]},
+        {"sentence": "I ___ to pay my electric bill today.", "blank": "need", "options": ["need", "want", "like"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, when is Ahmed's electric bill due?",
+        "options": ["March 5", "March 10", "March 15", "March 20"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What is 'autopay'?",
+        "options": [
+          "Paying with cash",
+          "Automatic payment from your bank account",
+          "Paying at the post office",
+          "Paying with a credit card"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What happens if you pay a bill late?",
+        "options": [
+          "Nothing",
+          "You get a discount",
+          "You pay a late fee",
+          "You get a warning"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: 'My rent is due ___ the 1st.'",
+        "options": ["in", "on", "at", "by"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "Autopay means you have to remember to pay your bill every month.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "If you don't pay your electric bill, they can shut off your electricity.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "I ___ pay my bills on time. (modal: strong obligation)",
+        "correct": "must",
+        "accept": ["must", "should", "need to"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "I ___ pay my rent tomorrow. (future with 'will')",
+        "correct": "will",
+        "accept": ["will", "'ll"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the bill to what it pays for:",
+        "pairs": [
+          {"left": "Rent", "right": "Your apartment/house"},
+          {"left": "Electric bill", "right": "Electricity and power"},
+          {"left": "Phone bill", "right": "Cell phone service"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Which is the best way to avoid late fees?",
+        "options": [
+          "Pay late and ask for forgiveness",
+          "Set up autopay and pay on time",
+          "Don't pay at all",
+          "Pay whenever you want"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "bill", "definition": "a request for payment for services", "example": "I got my electric bill in the mail today."},
+    {"word": "due date", "definition": "the day when payment must be made", "example": "My rent is due on the 1st of each month."},
+    {"word": "late fee", "definition": "extra charge for paying after the due date", "example": "There's a $25 late fee if I pay after the 15th."},
+    {"word": "autopay", "definition": "automatic payment from your bank account", "example": "I set up autopay so I don't forget to pay."},
+    {"word": "utilities", "definition": "services like water, electricity, gas", "example": "My utilities cost about $150 per month."},
+    {"word": "rent", "definition": "monthly payment for your home", "example": "My rent is $1,200 per month."},
+    {"word": "grace period", "definition": "extra time to pay without penalty", "example": "There's a 3-day grace period for rent."},
+    {"word": "shut off", "definition": "stop providing service", "example": "They will shut off the power if you don't pay."},
+    {"word": "balance", "definition": "amount of money you owe", "example": "My balance is $75 for this month."},
+    {"word": "payment method", "definition": "how you pay (check, online, etc.)", "example": "What payment method do you prefer?"}
+  ],
+  "cultural_notes": [
+    "Most bills in the U.S. come monthly. Rent is almost always due on the 1st of the month.",
+    "Autopay is very common and convenient. Most people use it for regular bills.",
+    "Late payments can hurt your credit score, which affects your ability to rent apartments, get loans, or buy cars.",
+    "Some companies offer 'budget billing' which averages your bills so they're the same each month.",
+    "You can often change your due date if it doesn't work with your payday.",
+    "Keep records of all bill payments for at least a year in case of disputes.",
+    "Some utilities have programs to help low-income people pay their bills."
+  ]
+}

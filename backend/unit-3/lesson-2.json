@@ -1,0 +1,323 @@
+{
+  "id": 20,
+  "unit_id": 3,
+  "lesson_number": 2,
+  "title": "At Work - First Day",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Understand workplace expectations and rules",
+    "Ask for clarification politely at work",
+    "Describe your job duties and responsibilities",
+    "Talk about your work schedule and breaks"
+  ],
+  "target_phrases": [
+    "What time should I arrive?",
+    "Where do I clock in?",
+    "Could you show me how to...?",
+    "I'm not sure what to do next",
+    "Who is my supervisor?",
+    "What are my responsibilities?",
+    "When is my lunch break?"
+  ],
+  "dialogue": {
+    "title": "First Day at the Warehouse",
+    "context": "It's Ahmed's first day at his new warehouse job. His supervisor Tony shows him around and explains the job.",
+    "lines": [
+      {"speaker": "Tony", "text": "Good morning, Ahmed! Welcome to your first day. I'm Tony, your supervisor."},
+      {"speaker": "Ahmed", "text": "Good morning, Tony. Thank you! I'm excited to start."},
+      {"speaker": "Tony", "text": "Great! First, let me show you where to clock in. You need to scan your badge here every day."},
+      {"speaker": "Ahmed", "text": "Okay. What time should I arrive?"},
+      {"speaker": "Tony", "text": "Your shift starts at 8 AM, but please arrive by 7:55 so you're ready to start on time."},
+      {"speaker": "Ahmed", "text": "Got it. And when is my lunch break?"},
+      {"speaker": "Tony", "text": "You get a 30-minute lunch break at 12:00 PM. You also get two 15-minute breaks - one at 10 AM and one at 3 PM."},
+      {"speaker": "Ahmed", "text": "Thank you. What are my main responsibilities?"},
+      {"speaker": "Tony", "text": "You'll be loading and unloading trucks, organizing inventory, and keeping the warehouse clean. Let me show you the loading area."},
+      {"speaker": "Ahmed", "text": "Could you show me how to use the forklift?"},
+      {"speaker": "Tony", "text": "Not yet. First, you need to complete safety training tomorrow. Never use equipment without training."},
+      {"speaker": "Ahmed", "text": "I understand. Safety first. If I'm not sure what to do, should I ask you?"},
+      {"speaker": "Tony", "text": "Yes, always ask if you're not sure. It's better to ask questions than make mistakes. I'm here to help!"}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Polite requests at work",
+      "pattern": "Could you show me how to [action]?",
+      "examples": [
+        "Could you show me how to use the computer system?",
+        "Could you show me how to fill out this form?",
+        "Could you show me how to operate this machine?",
+        "Could you show me how to clock in?",
+        "Could you show me how to submit my timesheet?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Talking about work schedule",
+      "pattern": "My shift is from [time] to [time]",
+      "examples": [
+        "My shift is from 8 AM to 5 PM",
+        "My shift is from 6 AM to 2 PM",
+        "My shift is from 3 PM to 11 PM",
+        "My shift is from 10 PM to 6 AM",
+        "My shift is from 7 AM to 3:30 PM"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Describing job duties",
+      "pattern": "I'm responsible for [task/duty]",
+      "examples": [
+        "I'm responsible for answering phones",
+        "I'm responsible for cleaning the kitchen",
+        "I'm responsible for stocking shelves",
+        "I'm responsible for serving customers",
+        "I'm responsible for packaging orders"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit3-lesson2-listen1.mp3",
+      "transcript": "Welcome to orientation! Today we'll cover company policies. First, attendance: You must arrive on time for your shift. If you're going to be late or absent, call your supervisor at least 2 hours before your shift starts. Three unexcused absences may result in termination.",
+      "question": "What should you do if you will be late for work?",
+      "options": [
+        "Don't come to work",
+        "Call your supervisor 2 hours before",
+        "Send a text message",
+        "Tell a coworker"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit3-lesson2-listen2.mp3",
+      "transcript": "Safety is our top priority. Always wear your safety gear - hard hat, safety vest, and steel-toed boots. Never operate machinery you haven't been trained on. If you see a safety hazard, report it immediately to your supervisor. We have safety meetings every Monday morning at 7:30 AM.",
+      "question": "What should you do if you see a safety hazard?",
+      "options": [
+        "Fix it yourself",
+        "Ignore it",
+        "Report it to your supervisor immediately",
+        "Wait until the Monday safety meeting"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit3-lesson2-listen3.mp3",
+      "transcript": "Your paycheck comes every two weeks on Friday. We use direct deposit - your money goes straight to your bank account. Make sure to give HR your bank information. You can check your hours and pay stubs online through the employee portal. If you have questions about your pay, contact the HR department.",
+      "question": "How often do employees get paid?",
+      "options": [
+        "Every week",
+        "Every two weeks",
+        "Every month",
+        "Every day"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Imagine your supervisor asks: 'What are your main responsibilities?' Record yourself describing 3-4 job duties. Talk for at least 30 seconds.",
+      "example": "I'm responsible for several things. First, I load and unload delivery trucks. Second, I organize inventory in the warehouse. Third, I keep my work area clean and safe. Finally, I help my coworkers when they need assistance.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Practice asking polite questions at work. Record yourself asking: 'Could you show me how to use the time clock?' and 'I'm not sure where the break room is. Could you help me?'",
+      "example": "Excuse me, could you show me how to use the time clock? I want to make sure I'm clocking in correctly. Also, I'm not sure where the break room is. Could you help me find it? Thank you so much.",
+      "min_seconds": 20,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about what you would do on your first day at a new job. Use phrases like: 'I would arrive early', 'I would ask questions', 'I would be polite'.",
+      "min_words": 40,
+      "example": "On my first day, I would arrive 10 minutes early. I would introduce myself to my supervisor and coworkers. I would ask questions if I don't understand something. I would pay attention during training. I would be polite and respectful to everyone."
+    },
+    {
+      "id": "write-2",
+      "prompt": "You received this message from your supervisor: 'Your shift tomorrow is 7 AM to 3 PM. Please wear your uniform and bring your badge.' Write a polite response confirming you understand. (Write at least 3 sentences)",
+      "min_words": 25,
+      "example": "Thank you for the information. I understand my shift is from 7 AM to 3 PM tomorrow. I will wear my uniform and bring my badge. I will arrive a few minutes early. See you tomorrow."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Polite Requests with 'Could you'",
+      "explanation": "'Could you...?' is very polite. Use it to ask for help at work. More polite than 'Can you...?'",
+      "examples": [
+        "Could you help me? (very polite)",
+        "Can you help me? (okay, less polite)",
+        "Help me. (too direct, rude at work)",
+        "Could you show me the break room? (correct)",
+        "Could you explain this again? (correct)"
+      ],
+      "practice": [
+        {"sentence": "___ you show me how to use this?", "blank": "Could", "options": ["Could", "Should", "Would"]},
+        {"sentence": "___ you help me with this task?", "blank": "Could", "options": ["Could", "Must", "Will"]},
+        {"sentence": "___ you tell me where the restroom is?", "blank": "Could", "options": ["Could", "Might", "Shall"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Simple for Job Duties",
+      "explanation": "Use present simple (I work, I am, I do) to describe what you do regularly at work.",
+      "examples": [
+        "I work from 8 AM to 5 PM. (my regular schedule)",
+        "I load trucks every day. (regular duty)",
+        "My shift starts at 7 AM. (regular time)",
+        "I take a break at noon. (regular habit)"
+      ],
+      "practice": [
+        {"sentence": "I ___ at 8 AM every day.", "blank": "start", "options": ["start", "started", "starting"]},
+        {"sentence": "She ___ the morning shift.", "blank": "works", "options": ["work", "works", "working"]},
+        {"sentence": "We ___ lunch at 12:00 PM.", "blank": "take", "options": ["take", "takes", "taking"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Imperatives for Instructions",
+      "explanation": "Supervisors use commands (imperatives) to give instructions. Start with the base verb.",
+      "examples": [
+        "Clock in when you arrive. (command)",
+        "Wear your safety gear. (command)",
+        "Ask questions if you need help. (command)",
+        "Don't use equipment without training. (negative command)"
+      ],
+      "practice": [
+        {"sentence": "___ your badge when you arrive.", "blank": "Scan", "options": ["Scan", "Scans", "Scanning"]},
+        {"sentence": "___ late for your shift.", "blank": "Don't be", "options": ["Don't be", "Not be", "Aren't"]},
+        {"sentence": "___ your supervisor if you have questions.", "blank": "Ask", "options": ["Ask", "Asks", "Asking"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "What is the most polite way to ask for help at work?",
+        "options": [
+          "Help me!",
+          "Can you help me?",
+          "Could you help me?",
+          "You help me?"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "In the dialogue, what time does Ahmed's shift start?",
+        "options": ["7:55 AM", "8:00 AM", "9:00 AM", "10:00 AM"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What does 'clock in' mean?",
+        "options": [
+          "Buy a clock",
+          "Record when you start work",
+          "Leave work",
+          "Take a break"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Complete: 'I'm responsible ___ loading trucks.'",
+        "options": ["in", "at", "for", "to"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "According to Tony, Ahmed should use the forklift on his first day.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "It's better to ask questions than make mistakes at work.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "My shift ___ from 8 AM to 5 PM. (present simple verb 'to be')",
+        "correct": "is",
+        "accept": ["is"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ you show me where the break room is? (polite request)",
+        "correct": "Could",
+        "accept": ["Could", "could"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the term to its meaning:",
+        "pairs": [
+          {"left": "Supervisor", "right": "Your boss at work"},
+          {"left": "Shift", "right": "Your work hours"},
+          {"left": "Break", "right": "Rest time during work"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What should you do if you're not sure how to do something at work?",
+        "options": [
+          "Try it anyway and hope for the best",
+          "Ask your supervisor or coworker",
+          "Ignore it",
+          "Go home"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "supervisor", "definition": "your boss or manager at work", "example": "My supervisor is very helpful and patient."},
+    {"word": "shift", "definition": "the hours you work", "example": "I work the morning shift from 7 AM to 3 PM."},
+    {"word": "clock in/out", "definition": "record when you arrive/leave work", "example": "Don't forget to clock in when you arrive."},
+    {"word": "break", "definition": "short rest time during work", "example": "I take a 15-minute break at 10 AM."},
+    {"word": "responsibilities", "definition": "tasks you must do", "example": "My responsibilities include loading trucks and organizing inventory."},
+    {"word": "training", "definition": "learning how to do a job", "example": "I need safety training before I can use the forklift."},
+    {"word": "overtime", "definition": "extra hours beyond regular shift", "example": "I worked overtime last week and earned extra pay."},
+    {"word": "uniform", "definition": "special clothes for work", "example": "I have to wear my uniform every day."},
+    {"word": "safety gear", "definition": "equipment to protect you at work", "example": "Always wear your safety gear - hard hat and safety vest."},
+    {"word": "attendance", "definition": "coming to work on time", "example": "Good attendance is important for keeping your job."}
+  ],
+  "cultural_notes": [
+    "In U.S. workplaces, asking questions is encouraged. Supervisors prefer that you ask rather than make mistakes.",
+    "Being on time (or a few minutes early) is very important in American work culture.",
+    "Most jobs have a probation period (30-90 days) where they evaluate if you're a good fit.",
+    "Overtime pay is usually 1.5x your normal rate for hours over 40 per week.",
+    "Always follow safety rules. Employers are legally required to provide a safe workplace.",
+    "It's common to address supervisors by their first name (like 'Tony') unless they ask you to use a title."
+  ]
+}

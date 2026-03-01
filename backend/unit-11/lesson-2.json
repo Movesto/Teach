@@ -1,0 +1,238 @@
+{
+  "id": "lesson-64",
+  "unit_id": 11,
+  "lesson_number": 2,
+  "title": "Conference Presentations and Academic Speaking",
+  "level": "proficient",
+  "estimated_time": 45,
+  "objectives": [
+    "Deliver compelling conference presentations",
+    "Respond to academic questions professionally",
+    "Engage in scholarly discussions",
+    "Navigate Q&A sessions effectively"
+  ],
+  "target_phrases": [
+    "My presentation addresses...",
+    "The theoretical framework underpinning this research...",
+    "That's an insightful question that speaks to...",
+    "I'd like to push back gently on that assumption...",
+    "The data are preliminary, but suggest...",
+    "This finding aligns with/contradicts previous work by...",
+    "Future iterations of this study will examine..."
+  ],
+  "dialogue": {
+    "title": "Preparing for Academic Conference",
+    "context": "Ahmed prepares to present his research at a national logistics conference, practicing with his advisor.",
+    "lines": [
+      {"speaker": "Advisor", "text": "You have 15 minutes to present, plus 10 for Q&A. How will you structure it?"},
+      {"speaker": "Ahmed", "text": "My presentation addresses the relationship between supply chain sustainability and long-term profitability. I'll spend 3 minutes on literature review, 5 on methodology, 5 on findings, and 2 on implications."},
+      {"speaker": "Advisor", "text": "Good pacing. Remember your audience - logistics professionals and scholars. How will you frame the theoretical framework?"},
+      {"speaker": "Ahmed", "text": "The theoretical framework underpinning this research draws from stakeholder theory and resource-based view of the firm. I'll explain how sustainability creates competitive advantage through operational efficiency and reputation."},
+      {"speaker": "Advisor", "text": "Perfect. Now, let's practice Q&A. I'll ask a challenging question: 'Isn't your sample biased toward companies already committed to sustainability?'"},
+      {"speaker": "Ahmed", "text": "That's an insightful question that speaks to selection bias concerns. You're right that companies volunteering data may differ systematically. However, I controlled for this by comparing early adopters to late adopters and found similar patterns, suggesting the relationship holds across adoption motivations."},
+      {"speaker": "Advisor", "text": "Excellent acknowledgment and response. What if someone says: 'Correlation doesn't prove causation. How do you know sustainability caused profitability rather than vice versa?'"},
+      {"speaker": "Ahmed", "text": "I'd like to push back gently on that assumption - I actually agree causation isn't established definitively. The data are preliminary, but suggest the temporal sequence supports sustainability preceding profitability improvements. This finding aligns with longitudinal work by Martinez (2023), though contradicts cross-sectional studies showing reverse causation."},
+      {"speaker": "Advisor", "text": "Perfect nuanced response. What about limitations?"},
+      {"speaker": "Ahmed", "text": "I'll proactively address limitations: the study focuses on large corporations, results may not generalize to SMEs. Future iterations of this study will examine how firm size moderates these relationships and employ quasi-experimental designs to strengthen causal claims."},
+      {"speaker": "Advisor", "text": "That's scholarly maturity - acknowledging limitations while defending your contribution. You're ready."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Opening presentations",
+      "pattern": "My presentation addresses [topic/question]",
+      "examples": [
+        "My presentation addresses the gap between theoretical models and empirical findings in organizational behavior.",
+        "My presentation addresses how cultural context mediates the effectiveness of educational interventions.",
+        "My presentation addresses methodological challenges in measuring complex social phenomena.",
+        "My presentation addresses the implications of recent policy changes for vulnerable populations.",
+        "My presentation addresses contradictory findings in the literature regarding this relationship."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Responding to questions",
+      "pattern": "That's an insightful question that speaks to [acknowledge issue]",
+      "examples": [
+        "That's an insightful question that speaks to generalizability concerns I should address more explicitly.",
+        "That's an excellent point that speaks to alternative explanations I need to consider.",
+        "That's a fair critique that speaks to limitations of observational research design.",
+        "That's an important question that speaks to practical implementation challenges.",
+        "That's a thoughtful observation that speaks to theoretical tensions I'm still resolving."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Respectful disagreement",
+      "pattern": "I'd like to push back gently on [position], because [reasoning]",
+      "examples": [
+        "I'd like to push back gently on that interpretation, because alternative explanations seem more parsimonious.",
+        "I'd like to respectfully disagree with that characterization, because my data suggest a different pattern.",
+        "I'd like to push back gently on that assumption, because it conflates correlation with causation.",
+        "I'd like to challenge that conclusion respectfully, because it overlooks important contextual factors.",
+        "I'd like to offer a different perspective, because that framework may not apply in this context."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit11-lesson2-listen1.mp3",
+      "transcript": "Academic presentations require balancing accessibility with rigor. Know your audience - specialist conference versus interdisciplinary forum requires different approaches. Standard structure: introduce problem and significance (why should we care?), review relevant literature briefly (what's known?), explain methodology (how did you study it?), present key findings (what did you learn?), discuss implications (so what?). Avoid reading slides - they support, don't replace, your talk. Allocate time: roughly 60% on findings and implications, 40% on setup. Practice timing obsessively.",
+      "question": "What should you allocate most time to?",
+      "options": [
+        "Literature review",
+        "Methodology details",
+        "Findings and implications",
+        "Reading acknowledgments"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit11-lesson2-listen2.mp3",
+      "transcript": "Effective Q&A demonstrates scholarly maturity. Listen carefully to the complete question before responding. If unclear, ask for clarification rather than guessing. Acknowledge valid criticism gracefully - 'That's an important limitation I should have emphasized' builds credibility. Disagree respectfully when appropriate - 'I appreciate that perspective, though my data suggest differently.' If you don't know, say so: 'That's beyond my current dataset, but it's an excellent direction for future research.' Brief answers allow more questions. Thank questioners for engaging with your work.",
+      "question": "What should you do if a question is unclear?",
+      "options": [
+        "Guess what they mean",
+        "Ignore it",
+        "Ask for clarification",
+        "Change the subject"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit11-lesson2-listen3.mp3",
+      "transcript": "Slide design matters. Avoid text-heavy slides - audiences can't read and listen simultaneously. Use visuals: graphs, models, images. One main point per slide. Minimum 24-point font. Ensure color schemes work for colorblind viewers. Cite sources on slides where you present others' work or ideas. Provide handouts for complex data tables. Save detailed methodology for backup slides you can show if asked. The best slides complement rather than duplicate your verbal presentation. You're the presentation; slides are just support.",
+      "question": "What's the main principle for slide text?",
+      "options": [
+        "Include complete paragraphs",
+        "Avoid text-heavy slides - use visuals",
+        "Use small font to fit more",
+        "Read everything on slides"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Give a 45-second conference presentation introduction for research on any topic. Include: problem statement, literature gap, your approach, and why it matters. Use academic presentation language.",
+      "example": "Good afternoon. My presentation addresses a persistent puzzle in educational psychology: why identical interventions produce vastly different outcomes across contexts. While extensive literature demonstrates that evidence-based practices improve learning, the literature reveals insufficient attention to implementation fidelity and contextual adaptation. The theoretical framework underpinning this research integrates implementation science with cultural psychology, proposing that effective interventions require both fidelity to core principles and flexibility in surface features. My study examined 50 schools implementing the same literacy program across diverse communities, using mixed methods combining quantitative outcome data with qualitative analysis of implementation processes. This finding aligns with emerging work suggesting 'principled adaptation' outperforms rigid standardization. The implications of this research are significant for both practitioners who must adapt evidence-based programs to their contexts and policymakers who design scaled interventions. This work contributes to ongoing debates about balancing research evidence with local knowledge. In the next 10 minutes, I'll present methodology, findings, and practical implications.",
+      "min_seconds": 45,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Someone questions your methodology. Respond professionally: acknowledge their point, explain your reasoning, and note limitations. Record for 30 seconds.",
+      "example": "That's an insightful question that speaks to important validity concerns. You're absolutely right that self-reported data introduces potential bias. I'd like to address why I chose this approach despite that limitation. First, for measuring subjective experiences like job satisfaction, self-report remains the most direct method - no objective measure captures personal perception. However, I acknowledge the limitation and attempted to mitigate it through several strategies. I included social desirability scales to detect response bias, triangulated self-reports with behavioral data where possible, and used validated instruments with established reliability. The data are preliminary, but patterns remain consistent across multiple measurement approaches. I'd like to push back gently on the assumption that objective measures are inherently superior - they measure different constructs. That said, future iterations of this study will incorporate supervisor ratings and performance metrics to complement self-reports. Your question highlights an important tension in organizational research that deserves more methodological innovation.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write an abstract for a conference presentation (150-200 words max). Include: problem, approach, key finding, and significance.",
+      "min_words": 150,
+      "example": "Title: Cultural Intelligence as Mediator: Diversity's Impact on Team Innovation\n\nAbstract:\nWhile research demonstrates positive correlations between team diversity and innovation, mechanisms underlying this relationship remain unclear, and findings are inconsistent. This study addresses this gap by examining cultural intelligence (CQ) as mediator between diversity and innovation outcomes. Drawing from social identity theory and innovation research, I hypothesized that diversity's benefits materialize only when team members possess sufficient CQ to navigate differences productively.\n\nUsing mixed methods, I analyzed 85 project teams in multinational corporations over 12 months. Quantitative analysis revealed that diversity predicted innovation only in high-CQ teams; in low-CQ teams, diversity correlated with conflict without innovation gains. Qualitative data from 30 interviews illuminated mechanisms: high-CQ teams leveraged diverse perspectives through constructive discussion, while low-CQ teams experienced miscommunication and frustration.\n\nThese findings suggest practitioners should invest in CQ development alongside diversity initiatives. Theoretically, this work reconciles contradictory diversity-innovation findings by identifying a critical moderator. Future research should examine whether CQ is trainable and which training approaches prove most effective. This study contributes empirical evidence for mechanisms, not mere correlations, in diversity research.",
+      "min_words": 150
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write responses to these Q&A scenarios: 1) Someone challenges your sample size. 2) Someone asks about practical applications. (100-120 words total)",
+      "min_words": 100,
+      "example": "Q1 - Sample Size Challenge: 'That's a fair methodological concern that speaks to statistical power. My sample of 85 teams provides adequate power (0.80) to detect medium-to-large effects at p<0.05, based on prior effect size estimates. However, I acknowledge this may be underpowered for detecting small effects or complex interaction effects. Future iterations will include larger samples to enhance precision. The data are preliminary, but the pattern consistency across multiple analyses suggests robustness despite sample limitations.'\n\nQ2 - Practical Applications: 'That's an excellent question about translation to practice. The implications suggest organizations should assess cultural intelligence during team formation and provide targeted CQ training. Practically, this means incorporating CQ assessments into hiring and team composition decisions, offering intercultural communication workshops, and creating opportunities for cross-cultural collaboration. Several participating organizations have begun implementing these approaches with promising early results.'",
+      "min_words": 100
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Present Simple for Research Description",
+      "explanation": "Use present simple to describe current research and established findings.",
+      "examples": [
+        "My research examines the relationship between variables. (present)",
+        "This study addresses a gap in the literature. (present)",
+        "The findings suggest important implications. (present)",
+        "Previous research demonstrates this pattern. (present)"
+      ],
+      "practice": [
+        {"sentence": "My research ___ cultural factors.", "blank": "examines", "options": ["examine", "examines", "examined"]},
+        {"sentence": "The data ___ preliminary conclusions.", "blank": "suggest", "options": ["suggest", "suggests", "suggested"]},
+        {"sentence": "This study ___ novel methodology.", "blank": "employs", "options": ["employ", "employs", "employed"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Signposting Language for Presentations",
+      "explanation": "Use clear signposts to guide audience through presentation structure.",
+      "examples": [
+        "Let me now turn to the methodology. (transition)",
+        "This brings me to my main finding. (connection)",
+        "To summarize, three key points emerge. (conclusion)",
+        "I'll begin by outlining the theoretical framework. (preview)"
+      ],
+      "practice": [
+        {"sentence": "Let me now ___ to the findings.", "blank": "turn", "options": ["turn", "turning", "turned"]},
+        {"sentence": "This ___ me to my conclusion.", "blank": "brings", "options": ["bring", "brings", "brought"]},
+        {"sentence": "I'll ___ by explaining the context.", "blank": "begin", "options": ["begin", "begins", "began"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Tentative Language for Preliminary Findings",
+      "explanation": "Use hedging when presenting preliminary or limited data.",
+      "examples": [
+        "The data appear to suggest a pattern. (hedged)",
+        "These findings tentatively indicate a relationship. (cautious)",
+        "This may point toward an alternative explanation. (qualified)",
+        "The results seem to support the hypothesis. (hedged)"
+      ],
+      "practice": [
+        {"sentence": "The data ___ to suggest correlation.", "blank": "appear", "options": ["appear", "prove", "show definitively"]},
+        {"sentence": "This ___ indicate a pattern.", "blank": "may", "options": ["definitely", "may", "proves"]},
+        {"sentence": "Results ___ to support this view.", "blank": "seem", "options": ["prove", "seem", "demonstrate absolutely"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What should you allocate most time to in presentations?", "options": ["Literature review", "Methodology", "Findings and implications", "Acknowledgments"], "correct": 2, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What should you do if a question is unclear?", "options": ["Guess the meaning", "Ignore it", "Ask for clarification", "Change subject"], "correct": 2, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What's the main principle for slides?", "options": ["Complete paragraphs", "Avoid text-heavy slides", "Small font", "Read everything"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'My research ___ cultural factors.'", "options": ["examine", "examines", "examined", "examining"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should acknowledge valid criticism gracefully in Q&A.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Slides should duplicate everything you say verbally.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "The data ___ to suggest correlation. (hedging)", "correct": "appear", "accept": ["appear", "seem", "tend"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "Let me now ___ to the findings. (signposting)", "correct": "turn", "accept": ["turn", "move"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match presentation section to time allocation:", "pairs": [{"left": "Setup (lit review, methods)", "right": "40%"}, {"left": "Findings and implications", "right": "60%"}, {"left": "Q&A", "right": "Separate time"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "How did Ahmed handle the causation question?", "options": ["Got defensive", "Agreed and explained evidence", "Changed topic", "Ignored it"], "correct": 1, "points": 10},
+      {"id": "q11", "type": "open-ended", "question": "Find and fix the grammar error: 'My research examine the relationship between culture and innovation.'", "correct": "My research examines the relationship between culture and innovation.", "accept": ["My research examines the relationship between culture and innovation."], "points": 10},
+      {"id": "q12", "type": "open-ended", "question": "Find and fix the grammar error: 'The data are preliminary, but it suggest a pattern.'", "correct": "The data are preliminary, but they suggest a pattern.", "accept": ["The data are preliminary, but they suggest a pattern."], "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "framework", "definition": "conceptual structure for analysis", "example": "The theoretical framework guides analysis."},
+    {"word": "preliminary", "definition": "initial, subject to revision", "example": "These findings are preliminary."},
+    {"word": "temporal", "definition": "relating to time or sequence", "example": "Examine temporal relationships."},
+    {"word": "parsimonious", "definition": "economical in explanation", "example": "Seek parsimonious explanations."},
+    {"word": "triangulate", "definition": "use multiple methods to verify", "example": "Triangulate findings across methods."},
+    {"word": "generalizability", "definition": "applicability to other contexts", "example": "Consider generalizability limitations."},
+    {"word": "fidelity", "definition": "faithfulness to original design", "example": "Implementation fidelity varies."},
+    {"word": "iteration", "definition": "repetition with modifications", "example": "Future iterations will address this."},
+    {"word": "moderator", "definition": "variable affecting relationship strength", "example": "Culture acts as moderator."},
+    {"word": "mediator", "definition": "variable explaining relationship mechanism", "example": "Identify mediating processes."}
+  ],
+  "cultural_notes": [
+    "American academic conferences value direct, concise presentations - audiences appreciate getting to the point quickly.",
+    "Q&A is seen as collaborative knowledge-building in American academia, not hostile interrogation.",
+    "Acknowledging limitations strengthens credibility in American scholarly culture rather than undermining it.",
+    "American academics value accessible presentations even at specialized conferences - avoid unnecessary jargon.",
+    "Networking at conferences is crucial in American academic culture - attend social events and coffee breaks.",
+    "Conference presentations often lead to publication opportunities and collaborations in American academia."
+  ]
+}

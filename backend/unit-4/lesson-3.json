@@ -1,0 +1,490 @@
+{
+  "id": "lesson-23",
+  "unit_id": 4,
+  "lesson_number": 3,
+  "title": "At the Library",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Get a library card",
+    "Check out and return books",
+    "Use library computers and resources",
+    "Understand library rules and due dates"
+  ],
+  "target_phrases": [
+    "I'd like to get a library card",
+    "When is this book due?",
+    "Can I renew this?",
+    "Where are the computers?",
+    "How many books can I check out?",
+    "Is there a late fee?",
+    "Do you have ESL materials?"
+  ],
+  "dialogue": {
+    "title": "Getting a Library Card",
+    "context": "Ahmed visits Multnomah County Library to get his first library card and find ESL books.",
+    "lines": [
+      {
+        "speaker": "Librarian",
+        "text": "Good afternoon! How can I help you today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hi, I'd like to get a library card. I just moved to Portland."
+      },
+      {
+        "speaker": "Librarian",
+        "text": "Welcome! I can help with that. Do you have proof of address? A bill or lease with your Portland address?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I have my electric bill. Will that work?"
+      },
+      {
+        "speaker": "Librarian",
+        "text": "Perfect! Let me create your card. It's free and you can check out up to 100 items at a time."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Wow, 100! How long can I keep books?"
+      },
+      {
+        "speaker": "Librarian",
+        "text": "Most books are due in three weeks. You can renew them online or by phone if no one else has placed a hold."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "What happens if I return a book late?"
+      },
+      {
+        "speaker": "Librarian",
+        "text": "We don't charge late fees anymore! Just return items as soon as you can. Here's your card!"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "That's great! Do you have ESL materials? I'm learning English."
+      },
+      {
+        "speaker": "Librarian",
+        "text": "Yes! We have an entire ESL section upstairs. We also offer free ESL classes and conversation groups. Let me give you a schedule."
+      }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about library services",
+      "pattern": "Do you have [type of materials]?",
+      "examples": [
+        "Do you have ESL books?",
+        "Do you have Spanish language materials?",
+        "Do you have audiobooks?",
+        "Do you have children's books?",
+        "Do you have magazines?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about renewals and due dates",
+      "pattern": "When is this [item] due?",
+      "examples": [
+        "When is this book due?",
+        "When is this DVD due?",
+        "When are these books due?",
+        "When is my audiobook due?",
+        "When do I need to return this?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Requesting help finding items",
+      "pattern": "Where can I find [materials]?",
+      "examples": [
+        "Where can I find ESL books?",
+        "Where can I find the computers?",
+        "Where can I find books about history?",
+        "Where can I find children's books?",
+        "Where can I find the printers?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson3-listen1.mp3",
+      "transcript": "Welcome to Multnomah County Library. With your library card, you can check out books, DVDs, audiobooks, and more. You can also use our computers for up to 2 hours per day, print documents for 15 cents per page, and attend free classes and events. Download our app to manage your account, place holds, and renew items.",
+      "question": "How long can you use library computers per day?",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "3 hours",
+        "All day"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson3-listen2.mp3",
+      "transcript": "Good news! Multnomah County Library eliminated late fees in 2020. You won't be charged if you return items late. However, if items are more than 21 days overdue, they're considered lost and you'll be billed for their replacement cost. Return items to any library branch or use our outdoor book drops.",
+      "question": "What happens if items are more than 21 days overdue?",
+      "options": [
+        "You pay a late fee",
+        "Nothing happens",
+        "You're billed for replacement cost",
+        "You can't use the library anymore"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson3-listen3.mp3",
+      "transcript": "To check out items, bring them to the self-checkout machines or the front desk. Scan your library card, then scan each item's barcode. Your receipt will show when items are due. You can renew most items online up to three times, as long as no one else has requested them. Maximum checkout period is 9 weeks total with renewals.",
+      "question": "How many times can you renew most items?",
+      "options": [
+        "One time",
+        "Two times",
+        "Three times",
+        "Unlimited"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at the library. Ask: 'I'd like to get a library card. What do I need? How many books can I check out?' Record yourself politely.",
+      "example": "Hello, I'd like to get a library card please. This is my first time here. What documents do I need to bring? Also, how many books can I check out at one time? And how long can I keep them? Thank you for your help!",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain three things you can do at a library. Talk for 30 seconds.",
+      "example": "The library has many free resources. First, you can check out books, movies, and audiobooks for free. Second, you can use computers and print documents. Third, many libraries offer free classes like ESL, computer skills, and job search help. The library is a great community resource that everyone should use!",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about what you like to read or watch. Use: 'I like to read...', 'My favorite books are...', 'I enjoy...'",
+      "min_words": 40,
+      "example": "I like to read books about history and culture. My favorite books are stories about immigration and family. I enjoy reading in both English and my native language. I also like to watch documentaries about science. The library has all of these things for free."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Imagine you checked out 3 books two weeks ago. One is due today. Write what you would say to the librarian (3-4 sentences).",
+      "min_words": 30,
+      "example": "Hello, I have three books checked out. One of them is due today, but I haven't finished reading it yet. Can I renew it for another three weeks? I can return the other two books today if that helps."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Modal Verbs for Rules (can, may, must)",
+      "explanation": "Use 'can' for permission, 'may' for polite permission, 'must' for requirements.",
+      "examples": [
+        "You can check out 100 books. (permission)",
+        "May I use the computer? (polite permission)",
+        "You must have ID to get a card. (requirement)",
+        "You can't eat in the library. (not allowed)"
+      ],
+      "practice": [
+        {
+          "sentence": "You ___ check out books with your card.",
+          "blank": "can",
+          "options": [
+            "can",
+            "must",
+            "should"
+          ]
+        },
+        {
+          "sentence": "___ I renew this book?",
+          "blank": "May",
+          "options": [
+            "May",
+            "Must",
+            "Can"
+          ]
+        },
+        {
+          "sentence": "You ___ return books on time.",
+          "blank": "must",
+          "options": [
+            "can",
+            "must",
+            "may"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Perfect with 'Have you...?'",
+      "explanation": "Use present perfect to ask about experience or actions completed.",
+      "examples": [
+        "Have you returned the book? (asking if it's done)",
+        "Have you visited this library before? (asking about experience)",
+        "I haven't renewed it yet. (not completed)",
+        "She has checked out 5 books. (completed action)"
+      ],
+      "practice": [
+        {
+          "sentence": "___ you returned the book?",
+          "blank": "Have",
+          "options": [
+            "Have",
+            "Do",
+            "Are"
+          ]
+        },
+        {
+          "sentence": "I ___ renewed it yet.",
+          "blank": "haven't",
+          "options": [
+            "haven't",
+            "don't",
+            "am not"
+          ]
+        },
+        {
+          "sentence": "She ___ checked out the DVD.",
+          "blank": "has",
+          "options": [
+            "has",
+            "is",
+            "does"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Time expressions: Until, By, For",
+      "explanation": "'Until' = up to a time, 'By' = before/at deadline, 'For' = duration",
+      "examples": [
+        "The book is due by Friday. (deadline)",
+        "You can keep it until next week. (up to that time)",
+        "I've had this book for two weeks. (duration)",
+        "Return it by 9 PM. (before closing)"
+      ],
+      "practice": [
+        {
+          "sentence": "Return the book ___ Friday.",
+          "blank": "by",
+          "options": [
+            "by",
+            "until",
+            "for"
+          ]
+        },
+        {
+          "sentence": "The library is open ___ 9 PM.",
+          "blank": "until",
+          "options": [
+            "by",
+            "until",
+            "for"
+          ]
+        },
+        {
+          "sentence": "I've had this card ___ three years.",
+          "blank": "for",
+          "options": [
+            "by",
+            "until",
+            "for"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "How many items can you check out with a Multnomah County Library card?",
+        "options": [
+          "10 items",
+          "50 items",
+          "100 items",
+          "Unlimited"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "How long can you usually keep library books?",
+        "options": [
+          "One week",
+          "Two weeks",
+          "Three weeks",
+          "One month"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Does Multnomah County Library charge late fees?",
+        "options": [
+          "Yes, always",
+          "No, they eliminated them",
+          "Only for DVDs",
+          "Only after 30 days"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "What do you need to get a library card?",
+        "options": [
+          "Money",
+          "Proof of address",
+          "A driver's license",
+          "Nothing"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "You can renew books online.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You can eat meals in the library.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "You ___ check out books with your library card. (permission)",
+        "correct": "can",
+        "accept": [
+          "can",
+          "may"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ you returned the book? (present perfect)",
+        "correct": "Have",
+        "accept": [
+          "Have",
+          "have"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the library term:",
+        "pairs": [
+          {
+            "left": "Check out",
+            "right": "Borrow items"
+          },
+          {
+            "left": "Renew",
+            "right": "Extend due date"
+          },
+          {
+            "left": "Hold",
+            "right": "Reserve an item"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What does the library offer besides books?",
+        "options": [
+          "Only magazines",
+          "Books and DVDs only",
+          "Books, DVDs, computers, classes, and more",
+          "Nothing else"
+        ],
+        "correct": 2,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "check out",
+      "definition": "to borrow items from the library",
+      "example": "I want to check out three books."
+    },
+    {
+      "word": "renew",
+      "definition": "to extend the due date for library items",
+      "example": "I need to renew this book for another three weeks."
+    },
+    {
+      "word": "due date",
+      "definition": "when library items must be returned",
+      "example": "The due date for this book is March 15th."
+    },
+    {
+      "word": "overdue",
+      "definition": "returned after the due date",
+      "example": "This book is two days overdue."
+    },
+    {
+      "word": "fine",
+      "definition": "money charged for late returns",
+      "example": "Some libraries charge a fine of 25 cents per day."
+    },
+    {
+      "word": "hold",
+      "definition": "to reserve an item for later pickup",
+      "example": "I placed a hold on the new book."
+    },
+    {
+      "word": "reference",
+      "definition": "materials that must be used in the library",
+      "example": "Reference books cannot be checked out."
+    },
+    {
+      "word": "catalog",
+      "definition": "searchable list of library materials",
+      "example": "Use the online catalog to find books."
+    },
+    {
+      "word": "branch",
+      "definition": "a library location",
+      "example": "There are 19 library branches in the county."
+    },
+    {
+      "word": "barcode",
+      "definition": "scannable code on library items",
+      "example": "The librarian scanned the book's barcode."
+    }
+  ],
+  "cultural_notes": [
+    "Public libraries in the U.S. are completely free to use with a library card.",
+    "Many libraries now offer 'Libraries of Things' - tools, toys, musical instruments you can borrow!",
+    "Most libraries have eliminated late fees to remove barriers for low-income families.",
+    "Libraries offer much more than books: WiFi, printing, computers, meeting rooms, and classes.",
+    "Many immigrants use libraries for ESL classes, citizenship resources, and job search help.",
+    "You can often download ebooks and audiobooks to your device through library apps."
+  ]
+}

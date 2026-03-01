@@ -1,0 +1,321 @@
+{
+  "id": "lesson-32",
+  "unit_id": 5,
+  "lesson_number": 6,
+  "title": "Discussing Problems and Solutions",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Describe a problem clearly and concisely",
+    "Propose solutions using 'could', 'should', 'one option would be'",
+    "Evaluate solutions: advantages, disadvantages",
+    "Participate in a problem-solving discussion"
+  ],
+  "target_phrases": [
+    "The main problem is...",
+    "One solution would be to...",
+    "We could...",
+    "Another option is...",
+    "The advantage of this is...",
+    "The disadvantage is...",
+    "What do you think we should do?"
+  ],
+  "dialogue": {
+    "context": "Ahmed and his neighbor Rosa are at a community meeting. They are discussing a problem in their apartment building and trying to find solutions.",
+    "lines": [
+      { "speaker": "Rosa", "text": "Ahmed, I'm glad you came to the meeting. The main problem is the broken heating system. Some apartments have no heat." },
+      { "speaker": "Ahmed", "text": "Yes, I know. It's very cold in my apartment at night. What can we do?" },
+      { "speaker": "Rosa", "text": "One solution would be to call the city housing authority and report the landlord." },
+      { "speaker": "Ahmed", "text": "The advantage of that is it puts official pressure on him. But the disadvantage is it might take a long time." },
+      { "speaker": "Rosa", "text": "Another option is to organize the tenants and write a formal letter together. More signatures mean more pressure." },
+      { "speaker": "Ahmed", "text": "That could work. We could also document everything — take photos and write the dates when the heat stopped working." },
+      { "speaker": "Rosa", "text": "Good thinking. What do you think we should do first?" },
+      { "speaker": "Ahmed", "text": "I think we should start with the letter — it's faster. If the landlord doesn't respond, then we call the housing authority." },
+      { "speaker": "Rosa", "text": "That's a good plan. We'll organize the tenants this week and write the letter together." },
+      { "speaker": "Ahmed", "text": "Good. Working together is always stronger than acting alone." }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "title": "Describing Problems",
+      "grammar_point": "Use specific language to describe a problem: what it is, who it affects, and why it matters.",
+      "examples": [
+        "The main problem is the heating is broken.",
+        "The issue is that many workers don't have health insurance.",
+        "The challenge is communicating with people who speak different languages.",
+        "One problem is the bus schedule doesn't match the work shifts."
+      ],
+      "practice": [
+        { "prompt": "The ___ problem is the parking lot is always full.", "answer": "main" },
+        { "prompt": "The ___ is that the store closes too early.", "answer": "issue / problem" },
+        { "prompt": "One ___ is the application form is only in English.", "answer": "problem / challenge" },
+        { "prompt": "The ___ is finding affordable childcare.", "answer": "challenge / difficulty" }
+      ]
+    },
+    {
+      "title": "Proposing Solutions",
+      "grammar_point": "Use COULD, SHOULD, and 'one option/solution would be' to suggest solutions respectfully.",
+      "examples": [
+        "We could contact the landlord directly.",
+        "One solution would be to organize a meeting.",
+        "We should document all the problems with dates.",
+        "Another option would be to ask a community organization for help."
+      ],
+      "practice": [
+        { "prompt": "We ___ write a formal letter to the manager.", "answer": "could / should" },
+        { "prompt": "One solution ___ be to hire a translator.", "answer": "would" },
+        { "prompt": "Another ___ is to post the notice in two languages.", "answer": "option" },
+        { "prompt": "We ___ start by collecting everyone's contact information.", "answer": "should" }
+      ]
+    },
+    {
+      "title": "Evaluating Solutions",
+      "grammar_point": "Use 'the advantage is' and 'the disadvantage is' to evaluate each option.",
+      "examples": [
+        "The advantage of calling is it's fast. The disadvantage is they might not respond.",
+        "The advantage of writing a letter is we have a record. The disadvantage is it takes time.",
+        "The advantage of this solution is that it costs nothing. The disadvantage is it requires cooperation."
+      ],
+      "practice": [
+        { "prompt": "The ___ of working together is more people means more power.", "answer": "advantage" },
+        { "prompt": "The ___ of this plan is it takes a long time.", "answer": "disadvantage" },
+        { "prompt": "The advantage ___ this approach is it's official.", "answer": "of" },
+        { "prompt": "The disadvantage ___ that option is the cost.", "answer": "of" }
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit5-lesson6-listen1.mp3",
+      "transcript": "At our workplace meeting, we discussed a serious problem: the break room only has one microwave for 50 employees. People wait 15 minutes just to heat their food. One solution would be to buy two more microwaves. The advantage is that it solves the problem immediately. The disadvantage is the cost — each microwave is about $80. Another option is to stagger the lunch breaks so fewer people use the room at the same time. We should vote on this at the next meeting.",
+      "question": "What is the main problem described?",
+      "options": [
+        "There is no break room",
+        "The lunch breaks are too short",
+        "There is only one microwave for too many people",
+        "The food in the cafeteria is bad"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit5-lesson6-listen2.mp3",
+      "transcript": "The issue is that many new immigrants in our neighborhood don't know about free English classes at the community center. One solution would be to put up signs in different languages at the grocery stores, mosques, and community centers. We could also ask religious leaders to announce it at Friday prayers. Another option is to create a phone tree — people call their friends and share the information. What do you think we should do first?",
+      "question": "What does the speaker suggest asking religious leaders to do?",
+      "options": [
+        "Teach English classes",
+        "Announce the free classes at Friday prayers",
+        "Put up signs in the neighborhood",
+        "Create a phone tree"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit5-lesson6-listen3.mp3",
+      "transcript": "In my opinion, the best solution to traffic problems in the city is improving public transportation. The advantage of this approach is that fewer cars on the road means less pollution and faster travel times for everyone. We could invest in more buses and extend the train lines to areas that don't have service. The disadvantage is the initial cost, which is high. However, in the long run, it saves money and improves quality of life. We should start planning now rather than waiting for the problem to get worse.",
+      "question": "What does the speaker say is the DISADVANTAGE of improving public transportation?",
+      "options": [
+        "It increases pollution",
+        "It doesn't help traffic",
+        "The initial cost is high",
+        "Trains are too slow"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe a problem in your neighborhood or workplace. Then suggest TWO solutions. Use: The main problem is..., One solution would be..., Another option is... Record for 35 seconds.",
+      "example": "The main problem in my neighborhood is that there is no safe place for children to play after school. One solution would be to convert the empty parking lot behind the community center into a playground. Another option is to organize after-school programs inside the community center itself. I think both ideas are good, but the indoor program would be faster to start and less expensive.",
+      "min_seconds": 35,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Choose one of your solutions from the previous task. Explain the advantage AND disadvantage of it. Use: The advantage is..., The disadvantage is..., However... Record for 25 seconds.",
+      "example": "The advantage of converting the parking lot into a playground is that children would have a permanent outdoor space, and it would help the whole community. The disadvantage is the cost — building a playground is expensive and takes time to get permits. However, we could apply for a city grant to cover the costs. I still think it's the better long-term solution.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "title": "Problem and Solution Paragraph",
+      "prompt": "Write a paragraph (6-8 sentences) about a real problem you have seen or experienced. Describe the problem, suggest two solutions, and evaluate one of them using advantage/disadvantage. Use target phrases from this lesson.",
+      "example": "A real problem in my community is that new immigrants often don't know how to access healthcare services. The main issue is that many people don't know what insurance they qualify for or how to find a doctor who speaks their language. One solution would be to create a multilingual hotline that people can call for guidance. Another option is to train community health navigators — volunteers who help newcomers understand the system. The advantage of community navigators is they understand the culture and build trust quickly. The disadvantage is finding and training enough volunteers takes time. Overall, I believe both solutions are necessary and could work together.",
+      "min_words": 90
+    },
+    {
+      "id": "write-2",
+      "title": "What Should We Do?",
+      "prompt": "Imagine you are at a community meeting. Write 3 sentences proposing solutions to one of these problems: (1) too much litter in the park, (2) not enough English classes in your area, (3) long lines at the food bank. Use: We could..., One solution would be..., We should...",
+      "example": "We could organize a community clean-up day every month and ask local businesses to sponsor supplies. One solution would be to add trash cans at every park entrance so people have a convenient place to put their litter. We should also put up multilingual signs reminding people to keep the park clean — this is important so everyone understands the message.",
+      "min_words": 50
+    }
+  ],
+  "grammar_focus": [
+    {
+      "pattern": "COULD for suggestions",
+      "explanation": "COULD is softer than SHOULD and is good for making suggestions in a group. It sounds less like an order.",
+      "examples": [
+        "We could organize a meeting.",
+        "You could try calling first.",
+        "One option could be to wait and see."
+      ]
+    },
+    {
+      "pattern": "SHOULD for recommendations",
+      "explanation": "SHOULD is stronger than COULD — you think this is the right thing to do. Use it when you have more confidence in your suggestion.",
+      "examples": [
+        "We should document everything with photos.",
+        "You should call the housing authority.",
+        "They should respond within 5 business days."
+      ]
+    },
+    {
+      "pattern": "One solution / option would be to + [base verb]",
+      "explanation": "This is a formal and polite way to propose a solution. 'Would be' softens the suggestion and shows you are open to discussion.",
+      "examples": [
+        "One solution would be to hire more staff.",
+        "Another option would be to change the schedule.",
+        "One approach would be to ask for community feedback first."
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Which phrase most naturally introduces a problem?",
+        "options": [
+          "The solution is there's a problem.",
+          "The main problem is the heating is broken.",
+          "We have a solution — the problem.",
+          "Problem is main — the heating."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "Which sentence proposes a solution politely?",
+        "options": [
+          "You must do this.",
+          "The only answer is my idea.",
+          "One solution would be to organize a community meeting.",
+          "Do it this way."
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What is the difference between COULD and SHOULD in suggestions?",
+        "options": [
+          "They mean exactly the same thing",
+          "COULD is a softer suggestion; SHOULD is a stronger recommendation",
+          "SHOULD is polite; COULD is rude",
+          "COULD is for problems; SHOULD is for solutions"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "In the dialogue, what does Ahmed suggest they do FIRST?",
+        "options": [
+          "Call the city housing authority",
+          "Move to a different apartment",
+          "Write a formal letter together",
+          "Fix the heating themselves"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "question": "Which sentence correctly evaluates a solution?",
+        "options": [
+          "The advantage of this plan, it is good.",
+          "The advantage of this plan is it's fast and free.",
+          "This plan advantage is fast.",
+          "Advantage: the plan is good."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "multiple-choice",
+        "question": "What does 'The disadvantage is...' signal?",
+        "options": [
+          "A positive aspect of the solution",
+          "A negative or limiting aspect of the solution",
+          "The final decision",
+          "The beginning of a problem"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "multiple-choice",
+        "question": "Which question invites others to share their opinions in a discussion?",
+        "options": [
+          "I know what we should do.",
+          "What do you think we should do?",
+          "My solution is the best.",
+          "There is only one answer."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "multiple-choice",
+        "question": "Complete: 'Another ___ would be to ask a community organization for help.'",
+        "options": ["problem", "issue", "option", "advantage"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "open-ended",
+        "question": "Describe one problem you see in your community or workplace. Write 2 sentences using: The main problem is... and One solution would be...",
+        "options": [],
+        "correct": null,
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "open-ended",
+        "question": "Write 2 sentences evaluating one solution: use 'The advantage of this is...' and 'The disadvantage is...'",
+        "options": [],
+        "correct": null,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    { "word": "solution", "definition": "an answer to a problem", "example": "One solution would be to add more staff." },
+    { "word": "advantage", "definition": "a benefit or positive aspect of something", "example": "The advantage of this plan is the low cost." },
+    { "word": "disadvantage", "definition": "a negative or limiting aspect of something", "example": "The disadvantage is it takes too long." },
+    { "word": "propose", "definition": "to suggest an idea for others to consider", "example": "I want to propose a new schedule." },
+    { "word": "evaluate", "definition": "to examine carefully and judge the quality of something", "example": "We need to evaluate all the options before deciding." },
+    { "word": "tenant", "definition": "a person who rents a house or apartment", "example": "The tenants signed a letter about the heating problem." }
+  ],
+  "cultural_notes": [
+    "In American workplaces and community meetings, it is common to brainstorm solutions before deciding. It is polite to listen to all suggestions before saying which one is best.",
+    "Saying 'What do you think we should do?' shows respect for other people's opinions — it is an important phrase for collaboration and team meetings."
+  ]
+}

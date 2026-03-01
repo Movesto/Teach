@@ -1,0 +1,240 @@
+{
+  "id": "lesson-38",
+  "unit_id": 6,
+  "lesson_number": 6,
+  "title": "Emergency Medical Situations",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Recognize medical emergency warning signs",
+    "Call for emergency medical help appropriately",
+    "Understand basic first aid principles",
+    "Know when to go to ER vs. urgent care"
+  ],
+  "target_phrases": [
+    "Call 911!",
+    "He's/She's not breathing",
+    "Where is the nearest hospital?",
+    "What are the symptoms?",
+    "I need emergency care",
+    "Is this life-threatening?",
+    "Should I go to the ER or urgent care?"
+  ],
+  "dialogue": {
+    "title": "Learning Emergency Response",
+    "context": "Ahmed attends a community health class about recognizing and responding to medical emergencies.",
+    "lines": [
+      {"speaker": "Instructor", "text": "Today we're learning about medical emergencies. Does anyone know the warning signs of a heart attack?"},
+      {"speaker": "Ahmed", "text": "Is it chest pain? I've heard that on TV."},
+      {"speaker": "Instructor", "text": "Yes! Chest pain is the main sign, but also shortness of breath, pain in the arm or jaw, nausea, and cold sweats. If you see these signs, call 911 immediately. Don't wait."},
+      {"speaker": "Lisa", "text": "What about strokes? How do you recognize those?"},
+      {"speaker": "Instructor", "text": "Great question. Remember F-A-S-T: Face drooping, Arm weakness, Speech difficulty, Time to call 911. Strokes need immediate treatment - every minute counts."},
+      {"speaker": "Ahmed", "text": "What if someone is choking? What should you do?"},
+      {"speaker": "Instructor", "text": "If they can cough or speak, encourage them to keep coughing. If they can't breathe at all, perform the Heimlich maneuver. Let me demonstrate on this dummy."},
+      {"speaker": "Carlos", "text": "My nephew has severe allergies. He carries an EpiPen. When should it be used?"},
+      {"speaker": "Instructor", "text": "Use an EpiPen immediately if someone has a severe allergic reaction - difficulty breathing, swelling of throat or tongue, or rapid pulse. After using it, call 911 right away. The person still needs to go to the hospital."},
+      {"speaker": "Ahmed", "text": "When should you go to the emergency room versus urgent care?"},
+      {"speaker": "Instructor", "text": "Emergency room for life-threatening issues: chest pain, severe bleeding, difficulty breathing, loss of consciousness, severe injuries. Urgent care for non-life-threatening issues: minor cuts, sprains, mild infections, low-grade fevers."},
+      {"speaker": "Lisa", "text": "What about basic first aid for cuts and burns?"},
+      {"speaker": "Instructor", "text": "For cuts: apply pressure with a clean cloth to stop bleeding. For burns: run cool water over the area for 10 minutes - never use ice. For severe burns or deep cuts, seek medical help immediately."},
+      {"speaker": "Ahmed", "text": "This is really helpful. I feel more prepared to handle emergencies now."},
+      {"speaker": "Instructor", "text": "The most important thing is to stay calm and call for help. You don't need to be an expert - just knowing when to call 911 can save a life."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Urgent commands for emergencies",
+      "pattern": "[Command verb]!",
+      "examples": [
+        "Call 911!",
+        "Get help!",
+        "Apply pressure!",
+        "Don't move them!",
+        "Stay calm!"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Describing emergency states",
+      "pattern": "He's/She's [emergency condition]",
+      "examples": [
+        "He's not breathing!",
+        "She's unconscious!",
+        "He's bleeding heavily!",
+        "She's having chest pain!",
+        "He's choking!"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Asking about emergency care",
+      "pattern": "Should I [emergency action]?",
+      "examples": [
+        "Should I call 911?",
+        "Should I move the person?",
+        "Should I perform CPR?",
+        "Should I give them water?",
+        "Should I go to the ER?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit6-lesson6-listen1.mp3",
+      "transcript": "Heart attack warning signs: chest pain or pressure lasting more than a few minutes, pain in arm, jaw, neck, or back, shortness of breath, cold sweats, nausea, lightheadedness. Women may have different symptoms like unusual fatigue or stomach pain. Don't wait - call 911 if you suspect a heart attack. Aspirin can help if taken immediately, but call 911 first.",
+      "question": "What should you do first if you suspect a heart attack?",
+      "options": [
+        "Drive to the hospital",
+        "Take aspirin",
+        "Call 911",
+        "Wait to see if it gets worse"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit6-lesson6-listen2.mp3",
+      "transcript": "F-A-S-T for stroke recognition: F - Face drooping on one side. A - Arm weakness, can't raise both arms. S - Speech difficulty, slurred or strange speech. T - Time to call 911 immediately. Stroke treatment is time-sensitive. The sooner treatment begins, the better the outcome. Never drive someone having a stroke - call an ambulance so treatment can begin en route.",
+      "question": "What does F-A-S-T stand for?",
+      "options": [
+        "Fast Action Saves Time",
+        "Face, Arm, Speech, Time",
+        "First Aid Support Team",
+        "Find A Stroke Treatment"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit6-lesson6-listen3.mp3",
+      "transcript": "Emergency Room vs. Urgent Care: Go to the ER for chest pain, difficulty breathing, severe bleeding, head injuries with loss of consciousness, suspected stroke or heart attack, severe burns, broken bones with visible deformity, or poisoning. Go to urgent care for minor cuts needing stitches, sprains and strains, mild to moderate asthma, ear infections, minor burns, low-grade fevers.",
+      "question": "When should you go to urgent care instead of the ER?",
+      "options": [
+        "Chest pain",
+        "Difficulty breathing",
+        "Minor cut needing stitches",
+        "Suspected stroke"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Practice calling 911. Say: 'My friend is having chest pain and can't breathe well. We're at [address]. Please send an ambulance!' Record yourself clearly.",
+      "example": "911, I need help! My friend is having severe chest pain and he's having trouble breathing. He's sweating and looks very pale. We're at 8234 Southeast 82nd Avenue, Apartment 12, in Portland. Yes, he's conscious but in a lot of pain. Please send an ambulance right away! I'll stay on the line. Thank you.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain the F-A-S-T stroke recognition method to someone. Describe each letter. Record for 25 seconds.",
+      "example": "F-A-S-T is how to recognize a stroke. F stands for Face - check if one side of the face is drooping. A stands for Arm - see if the person can raise both arms or if one is weak. S stands for Speech - listen for slurred or strange speech. T stands for Time - time to call 911 immediately. Strokes are very serious and need emergency treatment as fast as possible. Every minute counts for recovery.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write step-by-step instructions for what to do if someone is choking and can't breathe. (50-70 words)",
+      "min_words": 50,
+      "example": "If someone is choking and cannot breathe or speak, you need to help immediately. First, ask 'Are you choking?' If they can't answer, stand behind them. Make a fist with one hand and place it above their belly button. Grab your fist with your other hand. Then give quick, upward thrusts into the abdomen. Repeat until the object comes out. If they become unconscious, call 911 and start CPR. Act quickly because they need air.",
+      "min_words": 50
+    },
+    {
+      "id": "write-2",
+      "prompt": "Your friend asks: 'Should I go to the ER or urgent care for a sprained ankle?' Write your advice. (40-50 words)",
+      "min_words": 40,
+      "example": "For a sprained ankle, you should probably go to urgent care rather than the emergency room. ER is for life-threatening emergencies. Urgent care can handle sprains - they'll examine it, possibly do an x-ray, and give you treatment. It's also much cheaper than the ER and usually has shorter wait times. Just make sure you can put some weight on it. If the bone is sticking out or you heard a loud crack, then go to the ER.",
+      "min_words": 40
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Imperatives for Urgent Commands",
+      "explanation": "Use imperative (base verb, no subject) for urgent emergency instructions.",
+      "examples": [
+        "Call 911! (urgent command)",
+        "Apply pressure! (urgent instruction)",
+        "Don't move! (negative command)",
+        "Stay calm! (command for composure)"
+      ],
+      "practice": [
+        {"sentence": "___ 911 now!", "blank": "Call", "options": ["Call", "Calling", "Calls"]},
+        {"sentence": "___ pressure to the wound.", "blank": "Apply", "options": ["Apply", "Applying", "Applies"]},
+        {"sentence": "Don't ___ the person!", "blank": "move", "options": ["move", "moves", "moving"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Continuous for Current Emergency State",
+      "explanation": "Use present continuous (is/are + -ing) to describe what's happening right now in an emergency.",
+      "examples": [
+        "He's bleeding! (happening now)",
+        "She's not breathing! (current state)",
+        "They're choking! (emergency in progress)",
+        "He's having chest pain! (current symptom)"
+      ],
+      "practice": [
+        {"sentence": "He ___ bleeding badly!", "blank": "is", "options": ["is", "are", "was"]},
+        {"sentence": "She's not ___!", "blank": "breathing", "options": ["breathe", "breathing", "breath"]},
+        {"sentence": "They ___ choking!", "blank": "are", "options": ["is", "are", "were"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "'Need + noun' for Urgent Needs",
+      "explanation": "Use 'need + noun' to express urgent requirements in emergencies.",
+      "examples": [
+        "I need help! (urgent need)",
+        "She needs an ambulance! (urgent need)",
+        "We need a doctor! (urgent need)",
+        "He needs emergency care! (urgent need)"
+      ],
+      "practice": [
+        {"sentence": "I need ___!", "blank": "help", "options": ["help", "helps", "helping"]},
+        {"sentence": "She ___ an ambulance!", "blank": "needs", "options": ["need", "needs", "needing"]},
+        {"sentence": "We need ___ immediately!", "blank": "assistance", "options": ["assist", "assistance", "assisting"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What are the main heart attack warning signs?", "options": ["Only chest pain", "Chest pain, shortness of breath, arm/jaw pain", "Just feeling tired", "Headache"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does F-A-S-T help you recognize?", "options": ["Heart attack", "Stroke", "Allergic reaction", "Choking"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "When should you use an EpiPen?", "options": ["For any allergy", "For severe allergic reaction with breathing difficulty", "For minor rash", "For headache"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "What should you do for a burn?", "options": ["Use ice", "Run cool water for 10 minutes", "Apply butter", "Ignore it"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should go to the ER for a minor sprained ankle.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Stroke treatment is time-sensitive - every minute counts.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ 911 immediately! (imperative command)", "correct": "Call", "accept": ["Call", "call"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "He ___ bleeding! (present continuous)", "correct": "is", "accept": ["is", "'s"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the emergency to the action:", "pairs": [{"left": "Heart attack", "right": "Call 911, give aspirin"}, {"left": "Choking", "right": "Heimlich maneuver"}, {"left": "Burn", "right": "Cool water 10 min"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What's the difference between ER and urgent care?", "options": ["No difference", "ER for life-threatening, urgent care for non-life-threatening", "Urgent care is faster", "ER is cheaper"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "emergency room (ER)", "definition": "hospital department for urgent medical care", "example": "He went to the ER with chest pain."},
+    {"word": "ambulance", "definition": "vehicle that transports sick/injured people", "example": "Call an ambulance immediately!"},
+    {"word": "unconscious", "definition": "not awake or aware", "example": "She's unconscious and not responding."},
+    {"word": "bleeding", "definition": "losing blood from injury", "example": "Apply pressure to stop the bleeding."},
+    {"word": "broken bone", "definition": "bone fractured or cracked", "example": "I think he has a broken arm."},
+    {"word": "CPR", "definition": "cardiopulmonary resuscitation - emergency lifesaving", "example": "Do you know how to perform CPR?"},
+    {"word": "first aid", "definition": "immediate care for injury or illness", "example": "She gave first aid until help arrived."},
+    {"word": "paramedic", "definition": "emergency medical technician", "example": "The paramedics arrived in 5 minutes."},
+    {"word": "critical", "definition": "extremely serious or dangerous condition", "example": "The patient is in critical condition."},
+    {"word": "urgent", "definition": "requiring immediate action", "example": "This is an urgent medical situation."}
+  ],
+  "cultural_notes": [
+    "In the U.S., 911 is the emergency number. It's free to call from any phone, even without service.",
+    "Ambulance rides are VERY expensive ($500-$3,000+). Some people drive themselves for non-life-threatening issues to save money.",
+    "Emergency rooms cannot refuse treatment regardless of insurance or ability to pay.",
+    "ER wait times can be 2-6 hours for non-life-threatening issues. True emergencies are seen first.",
+    "Many communities offer free CPR and first aid training through fire departments or Red Cross.",
+    "Good Samaritan laws protect people who give reasonable emergency assistance from legal liability."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "lesson-56",
+  "unit_id": 9,
+  "lesson_number": 6,
+  "title": "Negotiation Skills",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Negotiate salary and benefits effectively",
+    "Handle conflict resolution professionally",
+    "Find win-win solutions in disagreements",
+    "Use diplomatic language in negotiations"
+  ],
+  "target_phrases": [
+    "I was hoping for...",
+    "Would you be open to...?",
+    "From my perspective...",
+    "Let's find a solution that works for both of us",
+    "I understand your position, and...",
+    "What if we...?",
+    "Could we meet in the middle on...?"
+  ],
+  "dialogue": {
+    "title": "Negotiating a Job Offer",
+    "context": "Ahmed receives a job offer and negotiates salary with the hiring manager.",
+    "lines": [
+      {"speaker": "Manager", "text": "Ahmed, we're pleased to offer you the logistics supervisor position at $58,000 per year plus standard benefits."},
+      {"speaker": "Ahmed", "text": "Thank you! I'm very excited about this opportunity. May I have a day or two to review the offer?"},
+      {"speaker": "Manager", "text": "Of course. Take your time."},
+      {"speaker": "Ahmed", "text": "[Next day] I've reviewed the offer carefully. Based on my research and experience, I was hoping for a salary in the range of $62,000 to $65,000."},
+      {"speaker": "Manager", "text": "I understand. That's above our initial offer. Can you help me understand what's driving that expectation?"},
+      {"speaker": "Ahmed", "text": "Certainly. I have five years of warehouse experience, I'm bilingual, and I have logistics certification. The industry average for this role in Portland is $63,000 according to recent salary surveys."},
+      {"speaker": "Manager", "text": "Those are good points. Let me see what I can do. I can offer $60,000, which is our maximum for this level."},
+      {"speaker": "Ahmed", "text": "I appreciate you working with me on this. Would you be open to discussing other aspects of the compensation package? For example, additional vacation days or professional development budget?"},
+      {"speaker": "Manager", "text": "That's a reasonable approach. I could offer three weeks vacation instead of the standard two, starting immediately rather than after one year."},
+      {"speaker": "Ahmed", "text": "That's valuable to me. What if we also included an earlier performance review - say at six months - with potential for raise based on performance?"},
+      {"speaker": "Manager", "text": "I can agree to that. So: $60,000 base, three weeks vacation from day one, and six-month review with raise potential. Does that work for you?"},
+      {"speaker": "Ahmed", "text": "Yes, that feels fair. Thank you for being flexible and finding solutions that work for both of us. I accept the offer."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Making polite requests in negotiation",
+      "pattern": "I was hoping for... / Would you be open to...?",
+      "examples": [
+        "I was hoping for a salary closer to $65,000.",
+        "I was hoping we could discuss flexible work arrangements.",
+        "Would you be open to considering additional vacation time?",
+        "Would you be willing to include professional development in the package?",
+        "I was hoping we could revisit this after my first review."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Proposing alternatives",
+      "pattern": "What if we...? / Could we meet in the middle on...?",
+      "examples": [
+        "What if we started at this rate with a review in six months?",
+        "Could we meet in the middle at $61,000?",
+        "What if I worked remotely two days per week?",
+        "Could we compromise on three weeks vacation instead of four?",
+        "What if we included performance bonuses in the package?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Acknowledging and bridging",
+      "pattern": "I understand your position, and [present your view]",
+      "examples": [
+        "I understand budget constraints, and I believe my experience justifies this investment.",
+        "I understand this is above the standard offer, and I bring unique qualifications.",
+        "I understand your timeline concerns, and I can be flexible on start date.",
+        "I understand the company policy, and I'd like to discuss exceptions.",
+        "I understand that's your maximum, and perhaps we can look at non-salary benefits."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson6-listen1.mp3",
+      "transcript": "Successful negotiation isn't about winning while the other person loses - it's about finding win-win solutions. Research your market value thoroughly before negotiations. Know your minimum acceptable offer (your 'walk away' point). Start higher than your target to leave room for compromise. Always be professional and courteous - relationships matter. Don't accept immediately even if the first offer is good - there may be room for improvement.",
+      "question": "What should you know before negotiating?",
+      "options": [
+        "Nothing - just wing it",
+        "Your market value and minimum acceptable offer",
+        "Only what you want",
+        "Company's maximum budget"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson6-listen2.mp3",
+      "transcript": "When negotiating salary, expand beyond base pay. Consider: signing bonus, annual bonus, vacation time, flexible schedule, remote work options, professional development budget, earlier performance review, relocation assistance, stock options, retirement matching. If salary is fixed, negotiate these benefits. Present data to support requests: 'According to industry surveys, the median is...' Facts are more persuasive than feelings.",
+      "question": "If salary is fixed, what can you negotiate?",
+      "options": [
+        "Nothing",
+        "Other benefits like vacation, development, flexibility",
+        "Only signing bonus",
+        "Company car only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson6-listen3.mp3",
+      "transcript": "Negotiation language should be collaborative, not adversarial. Say 'I was hoping for' not 'I demand.' Ask 'Would you be open to?' not 'You have to.' Frame it as problem-solving: 'Let's find a solution that works for both of us.' If you reach an impasse, don't burn bridges - say 'I understand we're at different points. Let me think about it and get back to you.' Thank them for their time regardless of outcome.",
+      "question": "How should negotiation language be?",
+      "options": [
+        "Demanding and aggressive",
+        "Collaborative and polite",
+        "Passive and apologetic",
+        "Confusing and vague"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're offered a job at $50,000 but researched that the average is $55,000. Negotiate professionally using diplomatic language. Record for 30 seconds.",
+      "example": "Thank you so much for the offer - I'm really excited about this opportunity. I've done some research on market rates for this position, and I was hoping we could discuss the salary. Based on industry data from sources like Glassdoor and the Bureau of Labor Statistics, the median salary for this role in our region is around $55,000. Given my three years of relevant experience and my project management certification, I was hoping for a salary closer to that range. Would you be open to considering $54,000? I understand budgets can be constrained, so if that's not possible, could we discuss other aspects of the compensation package, such as performance bonuses or professional development opportunities? I'm flexible and want to find a solution that works for both of us.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "You and a coworker disagree about how to handle a project. Propose a compromise that addresses both concerns. Record for 25 seconds.",
+      "example": "I understand your position that we should prioritize speed to meet the deadline. From my perspective, we also need to ensure quality so we don't have to redo work later. Let's find a solution that works for both of us. What if we broke the project into phases? We could deliver the core features on time as you suggested, which addresses the deadline concern. Then we'd schedule a second phase for additional features and refinements, which addresses my quality concerns. This way, we meet the immediate deadline while maintaining standards. Could we meet in the middle with this approach? It uses both of our priorities.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write an email negotiating a job offer. Include: thank them, state your research, make your case, propose alternatives, maintain positive tone. (100-120 words)",
+      "min_words": 100,
+      "example": "Subject: Re: Job Offer - Marketing Coordinator Position\n\nDear Ms. Thompson,\n\nThank you for offering me the Marketing Coordinator position. I'm very excited about the opportunity to join your team and contribute to the company's digital marketing initiatives.\n\nI've carefully reviewed the offer of $52,000. Based on my research of comparable positions in the Seattle area and my five years of experience in digital marketing, I was hoping we could discuss a salary of $57,000. This aligns with industry standards for someone with my background in SEO, content strategy, and analytics.\n\nI understand budget constraints exist. If $57,000 isn't feasible, would you be open to discussing alternatives such as performance bonuses, additional vacation time, or a salary review after six months?\n\nI'm confident I'll bring significant value to your team, and I hope we can find a compensation package that reflects that.\n\nThank you for your consideration.\n\nBest regards,\nAhmed Hassan",
+      "min_words": 100
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a response to this scenario: You asked for flexible work schedule (2 days remote). Your boss said no. Write a compromise proposal. (80-100 words)",
+      "min_words": 80,
+      "example": "I understand the company's preference for in-office work and I appreciate you considering my request for remote work. I'd like to propose a compromise that addresses both our concerns.\n\nWhat if we started with a trial period of one remote day per week for three months? This would allow you to evaluate whether productivity remains strong while giving me some flexibility. We could set clear expectations: I'd be available during all core hours, attend all required meetings via video, and provide regular progress updates.\n\nIf the trial is successful, we could discuss extending it. If it doesn't work well, we'd return to full-time office work with no hard feelings. This way, we can test the arrangement with minimal risk. Would you be open to trying this approach?",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Conditional Forms for Proposals",
+      "explanation": "Use conditional sentences to propose alternatives and compromises.",
+      "examples": [
+        "If we started at $60,000, I would accept today.",
+        "What if we included performance bonuses?",
+        "If I worked remotely twice weekly, would that work?",
+        "I would be willing to start at this rate if we scheduled an early review."
+      ],
+      "practice": [
+        {"sentence": "If we ___ at $60K, I'd accept.", "blank": "started", "options": ["start", "started", "starts"]},
+        {"sentence": "What if we ___ bonuses?", "blank": "included", "options": ["include", "included", "includes"]},
+        {"sentence": "I ___ be willing to compromise.", "blank": "would", "options": ["would", "will", "can"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Modal Verbs for Polite Requests",
+      "explanation": "Use 'could,' 'would,' 'might' to make requests sound less demanding.",
+      "examples": [
+        "Could we discuss other options?",
+        "Would you be open to considering this?",
+        "Might there be room for flexibility?",
+        "Could you help me understand the reasoning?"
+      ],
+      "practice": [
+        {"sentence": "___ we discuss this further?", "blank": "Could", "options": ["Can", "Could", "Will"]},
+        {"sentence": "___ you consider this proposal?", "blank": "Would", "options": ["Will", "Would", "Can"]},
+        {"sentence": "___ there be alternatives?", "blank": "Might", "options": ["Can", "Might", "Will"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Subjunctive Mood for Hypothetical Situations",
+      "explanation": "Use subjunctive (were instead of was) for hypothetical negotiations.",
+      "examples": [
+        "If I were in your position, I'd consider this.",
+        "If that were possible, I'd accept immediately.",
+        "I wish it were feasible to offer more.",
+        "If I were to start next month, could we discuss benefits?"
+      ],
+      "practice": [
+        {"sentence": "If I ___ you, I'd negotiate.", "blank": "were", "options": ["was", "were", "am"]},
+        {"sentence": "If that ___ possible, I'd agree.", "blank": "were", "options": ["was", "were", "is"]},
+        {"sentence": "I wish it ___ higher.", "blank": "were", "options": ["was", "were", "is"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What should you do before negotiating salary?", "options": ["Accept immediately", "Research market value", "Demand double", "Ignore the offer"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "If salary is fixed, what can you negotiate?", "options": ["Nothing", "Benefits like vacation and development", "Only title", "Company ownership"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What tone should negotiation have?", "options": ["Aggressive", "Collaborative", "Passive", "Angry"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'If we ___ at $60K, I'd accept.'", "options": ["start", "started", "starts", "starting"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should always accept the first offer immediately.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Win-win solutions benefit both parties.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ we discuss alternatives? (polite modal)", "correct": "Could", "accept": ["Could", "Would", "Might"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "If I ___ you, I'd negotiate. (subjunctive)", "correct": "were", "accept": ["were"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match negotiation concept:", "pairs": [{"left": "Win-win", "right": "Both benefit"}, {"left": "Walk-away point", "right": "Minimum acceptable"}, {"left": "Compromise", "right": "Meet in middle"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed negotiated for what besides salary?", "options": ["Company car", "Vacation time and review schedule", "Corner office", "Different title"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "negotiate", "definition": "discuss to reach agreement", "example": "I'll negotiate the salary offer."},
+    {"word": "compromise", "definition": "agreement where each side gives up something", "example": "Let's find a compromise."},
+    {"word": "leverage", "definition": "power to influence outcome", "example": "Your experience gives you leverage."},
+    {"word": "concession", "definition": "thing given up to reach agreement", "example": "We both made concessions."},
+    {"word": "counteroffer", "definition": "offer made in response to another", "example": "I presented a counteroffer."},
+    {"word": "win-win", "definition": "outcome beneficial to all parties", "example": "We found a win-win solution."},
+    {"word": "impasse", "definition": "deadlock with no progress", "example": "We reached an impasse."},
+    {"word": "flexibility", "definition": "willingness to change or adapt", "example": "Show flexibility in negotiations."},
+    {"word": "benchmark", "definition": "standard for comparison", "example": "Industry benchmarks support my request."},
+    {"word": "mutual", "definition": "shared by two or more parties", "example": "We found mutual agreement."}
+  ],
+  "cultural_notes": [
+    "Salary negotiation is expected and respected in U.S. job culture - not negotiating can be seen as lack of confidence.",
+    "American business culture values direct but polite communication in negotiations - being too indirect can be confusing.",
+    "Women and minorities are statistically less likely to negotiate salary in the U.S., contributing to pay gaps - everyone should negotiate.",
+    "Most initial job offers have some flexibility - first offers are rarely the best possible offer.",
+    "Always negotiate in writing (email) after verbal offers to have documentation.",
+    "In American culture, negotiation is viewed as professional and smart, not greedy or ungrateful."
+  ]
+}

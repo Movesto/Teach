@@ -1,0 +1,487 @@
+{
+  "id": "lesson-24",
+  "unit_id": 4,
+  "lesson_number": 4,
+  "title": "Calling 911 - Emergencies",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Know when to call 911",
+    "Give your location clearly",
+    "Describe an emergency situation",
+    "Stay calm and follow dispatcher instructions"
+  ],
+  "target_phrases": [
+    "I need help! There's a...",
+    "My address is...",
+    "Someone is hurt",
+    "Please send an ambulance",
+    "It's an emergency!",
+    "I need the police/fire department",
+    "Can you send help right away?"
+  ],
+  "dialogue": {
+    "title": "Emergency Call Practice",
+    "context": "Ahmed practices making a 911 call during a community safety class.",
+    "lines": [
+      {
+        "speaker": "Instructor",
+        "text": "Today we're practicing 911 calls. Remember: stay calm, speak clearly, and answer all questions."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "What if I'm too nervous to speak clearly?"
+      },
+      {
+        "speaker": "Instructor",
+        "text": "Take a deep breath. The dispatcher is trained to help you. They'll ask simple questions."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Okay, let's practice. I'll pretend there's a fire."
+      },
+      {
+        "speaker": "Instructor",
+        "text": "Good. I'll be the dispatcher. Start your call."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hello! I need help! There's a fire in my apartment building!"
+      },
+      {
+        "speaker": "Instructor",
+        "text": "Good! What's your address?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "8234 SE 82nd Avenue, Apartment 12."
+      },
+      {
+        "speaker": "Instructor",
+        "text": "Perfect! Is anyone hurt? Are you in a safe location?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Everyone is outside. We're all safe. Please send the fire department!"
+      },
+      {
+        "speaker": "Instructor",
+        "text": "Excellent! Fire trucks are on the way. Stay on the line. That was very good, Ahmed!"
+      }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Emergency requests",
+      "pattern": "I need [emergency service]!",
+      "examples": [
+        "I need an ambulance!",
+        "I need the police!",
+        "I need the fire department!",
+        "I need help immediately!",
+        "I need emergency medical assistance!"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Describing the emergency",
+      "pattern": "There's a [emergency situation]",
+      "examples": [
+        "There's a fire in my building",
+        "There's someone breaking into my car",
+        "There's been a car accident",
+        "There's a person who fell and can't get up",
+        "There's smoke coming from the apartment upstairs"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Giving location information",
+      "pattern": "I'm at [address/location]",
+      "examples": [
+        "I'm at 123 Main Street",
+        "I'm at the corner of 5th and Oak",
+        "I'm in the parking lot of Safeway",
+        "I'm on Highway 26 near the tunnel",
+        "I'm at Powell Park on SE Division"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson4-listen1.mp3",
+      "transcript": "Call 911 for life-threatening emergencies: fires, serious injuries, crimes in progress, or medical emergencies. For non-emergencies like noise complaints or minor car accidents with no injuries, call the non-emergency police number. Stay calm, speak clearly, and don't hang up until the dispatcher tells you it's okay.",
+      "question": "When should you call 911?",
+      "options": [
+        "For any problem",
+        "Only for fires",
+        "For life-threatening emergencies",
+        "For noise complaints"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson4-listen2.mp3",
+      "transcript": "When calling 911, the dispatcher will ask: What's your emergency? What's your location? Are you safe? Is anyone injured? Answer these questions clearly. The dispatcher might keep you on the phone to give first aid instructions or get more information. Don't hang up until they tell you it's okay.",
+      "question": "What should you do after answering the dispatcher's questions?",
+      "options": [
+        "Hang up immediately",
+        "Wait for them to tell you it's okay to hang up",
+        "Call back later",
+        "Run outside"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson4-listen3.mp3",
+      "transcript": "If someone is unconscious and not breathing, tell the 911 dispatcher immediately. They'll guide you through CPR steps. For heavy bleeding, apply direct pressure with a clean cloth. For burns, run cool water over the area. The dispatcher will stay on the line and help until paramedics arrive.",
+      "question": "What will the dispatcher do if someone isn't breathing?",
+      "options": [
+        "Hang up",
+        "Guide you through CPR",
+        "Tell you to wait",
+        "Send a letter"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Practice a 911 call. Say: 'I need an ambulance! Someone fell and is bleeding. The address is [your address]. Please hurry!' Record yourself clearly.",
+      "example": "911, I need an ambulance! There's an emergency! Someone fell down the stairs and is bleeding from their head. The address is 8234 Southeast 82nd Avenue, Apartment 12. Please send help right away! Yes, they're breathing but not responding to me. Okay, I'll stay on the line.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain three types of emergencies when you should call 911. Talk for 30 seconds.",
+      "example": "You should call 911 for serious emergencies. First, call if someone is badly hurt or unconscious. Second, call if there's a fire or you smell smoke. Third, call if you see a crime happening, like someone breaking into a house. Always stay calm and give your location clearly. Don't hang up until the dispatcher tells you it's okay.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write your address clearly, exactly as you would say it to a 911 dispatcher. Then write 3 sentences about why it's important to know your address in an emergency.",
+      "min_words": 40,
+      "example": "My address is 8234 Southeast 82nd Avenue, Apartment 12, Portland, Oregon 97266. It's important to know your address in emergencies because the dispatcher needs to send help to the right place. If you don't know your address, help might not arrive in time. Everyone in your family should memorize your address."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write what you would say in this emergency: Your neighbor's house is on fire and people are trapped inside. (4-5 sentences)",
+      "min_words": 35,
+      "example": "911, there's a fire! My neighbor's house is on fire at 8236 SE 82nd Avenue. There are people trapped inside - I can hear them yelling for help! The fire is very big and coming from the back of the house. Please send fire trucks immediately! I'm outside and safe."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Imperatives for Urgent Commands",
+      "explanation": "Use imperative (base verb) for urgent commands. No subject needed.",
+      "examples": [
+        "Call 911! (urgent command)",
+        "Send help! (urgent request)",
+        "Stay calm! (instruction)",
+        "Don't move! (negative command)"
+      ],
+      "practice": [
+        {
+          "sentence": "___ an ambulance!",
+          "blank": "Send",
+          "options": [
+            "Send",
+            "Sending",
+            "Sends"
+          ]
+        },
+        {
+          "sentence": "___ hang up!",
+          "blank": "Don't",
+          "options": [
+            "Don't",
+            "Not",
+            "No"
+          ]
+        },
+        {
+          "sentence": "___ on the line.",
+          "blank": "Stay",
+          "options": [
+            "Stay",
+            "Staying",
+            "Stays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Continuous for Current Emergencies",
+      "explanation": "Use present continuous (am/is/are + -ing) to describe what's happening NOW.",
+      "examples": [
+        "The house is burning! (happening now)",
+        "Someone is breaking in! (happening now)",
+        "She's not breathing! (current state)",
+        "They're trapped inside! (current situation)"
+      ],
+      "practice": [
+        {
+          "sentence": "The building ___ on fire!",
+          "blank": "is",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ]
+        },
+        {
+          "sentence": "Someone ___ bleeding!",
+          "blank": "is",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ]
+        },
+        {
+          "sentence": "They ___ stuck in the elevator!",
+          "blank": "are",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "There is/are for Describing Emergency Scenes",
+      "explanation": "Use 'There is/are' to describe what you see at the scene.",
+      "examples": [
+        "There's a fire! (singular)",
+        "There are people trapped! (plural)",
+        "There's smoke everywhere! (uncountable)",
+        "There are two cars crashed! (plural)"
+      ],
+      "practice": [
+        {
+          "sentence": "___ a car accident!",
+          "blank": "There's",
+          "options": [
+            "There's",
+            "There are",
+            "It's"
+          ]
+        },
+        {
+          "sentence": "___ people injured!",
+          "blank": "There are",
+          "options": [
+            "There's",
+            "There are",
+            "It is"
+          ]
+        },
+        {
+          "sentence": "___ someone unconscious!",
+          "blank": "There's",
+          "options": [
+            "There's",
+            "There are",
+            "They're"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "When should you call 911?",
+        "options": [
+          "For any problem",
+          "Only for fires",
+          "For life-threatening emergencies",
+          "For parking tickets"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What should you tell the 911 dispatcher first?",
+        "options": [
+          "Your name",
+          "The emergency and location",
+          "Your phone number",
+          "How you're feeling"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "When can you hang up after calling 911?",
+        "options": [
+          "Right away",
+          "After giving your address",
+          "When the dispatcher says it's okay",
+          "Never"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "true-false",
+        "question": "You should stay calm when calling 911.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "Call 911 for noise complaints from neighbors.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "fill-blank",
+        "question": "___ help immediately! (imperative: send)",
+        "correct": "Send",
+        "accept": [
+          "Send",
+          "send"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "The house ___ burning! (present continuous: be)",
+        "correct": "is",
+        "accept": [
+          "is"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ a fire! (there is)",
+        "correct": "There's",
+        "accept": [
+          "There's",
+          "There is"
+        ],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match emergency to service:",
+        "pairs": [
+          {
+            "left": "Fire",
+            "right": "Fire Department"
+          },
+          {
+            "left": "Crime",
+            "right": "Police"
+          },
+          {
+            "left": "Heart attack",
+            "right": "Ambulance"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What information do you need ready for 911?",
+        "options": [
+          "Your address",
+          "Your social security number",
+          "Your birthday",
+          "Your job"
+        ],
+        "correct": 0,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "emergency",
+      "definition": "a serious, dangerous situation needing immediate help",
+      "example": "A fire is an emergency."
+    },
+    {
+      "word": "dispatcher",
+      "definition": "person who answers 911 and sends help",
+      "example": "The dispatcher asked for my address."
+    },
+    {
+      "word": "ambulance",
+      "definition": "vehicle that takes sick/injured people to hospital",
+      "example": "The ambulance arrived in 5 minutes."
+    },
+    {
+      "word": "fire department",
+      "definition": "people who put out fires",
+      "example": "Call the fire department if there's a fire."
+    },
+    {
+      "word": "unconscious",
+      "definition": "not awake, can't respond",
+      "example": "She's unconscious and not moving."
+    },
+    {
+      "word": "breathing",
+      "definition": "taking air in and out",
+      "example": "Check if they're still breathing."
+    },
+    {
+      "word": "injury",
+      "definition": "hurt or damage to the body",
+      "example": "He has a serious head injury."
+    },
+    {
+      "word": "trapped",
+      "definition": "stuck and can't get out",
+      "example": "People are trapped in the elevator."
+    },
+    {
+      "word": "crime",
+      "definition": "illegal act",
+      "example": "Call 911 if you see a crime."
+    },
+    {
+      "word": "first aid",
+      "definition": "emergency medical help before professionals arrive",
+      "example": "I know basic first aid."
+    }
+  ],
+  "cultural_notes": [
+    "911 is the emergency number in the U.S. It's free to call from any phone.",
+    "You can call 911 from a cell phone even without service or a SIM card.",
+    "If you call 911 by mistake, don't hang up! Tell them it was an accident.",
+    "Most 911 centers have translation services for non-English speakers.",
+    "Teaching children to call 911 and know their address can save lives.",
+    "For non-emergencies, use the non-emergency police number (often 311 or local number)."
+  ]
+}

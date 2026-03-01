@@ -1,0 +1,320 @@
+{
+  "id": 19,
+  "unit_id": 3,
+  "lesson_number": 1,
+  "title": "Finding a Job",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Describe your work experience and skills",
+    "Read and understand job postings",
+    "Ask questions about job requirements",
+    "Complete a simple job application form"
+  ],
+  "target_phrases": [
+    "I have experience in...",
+    "I worked as a... for... years",
+    "What are the requirements?",
+    "Do I need a driver's license?",
+    "How do I apply?",
+    "When can I start?",
+    "Is this position full-time or part-time?"
+  ],
+  "dialogue": {
+    "title": "At the Job Center",
+    "context": "Ahmed visits a community job center to look for work. He talks to Maria, a job counselor.",
+    "lines": [
+      {"speaker": "Maria", "text": "Hi! Welcome to the Portland Job Center. How can I help you today?"},
+      {"speaker": "Ahmed", "text": "Hello. I'm looking for a job. I need to find work soon."},
+      {"speaker": "Maria", "text": "Okay, great. What kind of work experience do you have?"},
+      {"speaker": "Ahmed", "text": "I worked as a delivery driver in Somalia for five years. I also have experience in a warehouse."},
+      {"speaker": "Maria", "text": "That's good! Do you have a U.S. driver's license?"},
+      {"speaker": "Ahmed", "text": "Not yet, but I'm studying for the test. I should get it next month."},
+      {"speaker": "Maria", "text": "No problem. We have some warehouse jobs that don't require driving. Let me show you."},
+      {"speaker": "Ahmed", "text": "That sounds perfect. What are the requirements?"},
+      {"speaker": "Maria", "text": "Most warehouse jobs require you to lift 50 pounds and work on your feet all day. Can you do that?"},
+      {"speaker": "Ahmed", "text": "Yes, I can. I'm used to physical work. How do I apply?"},
+      {"speaker": "Maria", "text": "I'll help you fill out the application. When can you start working?"},
+      {"speaker": "Ahmed", "text": "I can start immediately. I'm available any time."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Talking about work experience",
+      "pattern": "I worked as a [job] for [time period]",
+      "examples": [
+        "I worked as a teacher for three years",
+        "I worked as a cook for six months",
+        "I worked as a cashier for two years",
+        "I worked as a construction worker for five years",
+        "I worked as a taxi driver for one year"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Describing skills",
+      "pattern": "I have experience in [skill/area]",
+      "examples": [
+        "I have experience in customer service",
+        "I have experience in food preparation",
+        "I have experience in driving trucks",
+        "I have experience in cleaning and maintenance",
+        "I have experience in working with children"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Asking about job requirements",
+      "pattern": "Do I need [requirement]?",
+      "examples": [
+        "Do I need a high school diploma?",
+        "Do I need a driver's license?",
+        "Do I need previous experience?",
+        "Do I need to speak perfect English?",
+        "Do I need special training?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit3-lesson1-listen1.mp3",
+      "transcript": "Job opening: Warehouse worker needed. Full-time position, Monday to Friday, 8 AM to 5 PM. Must be able to lift 50 pounds. Starting pay is $18 per hour. No experience required, we will train. Apply in person at 2500 SE Powell Boulevard.",
+      "question": "What is the starting pay for this job?",
+      "options": ["$15 per hour", "$16 per hour", "$18 per hour", "$20 per hour"],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit3-lesson1-listen2.mp3",
+      "transcript": "I worked in Somalia as a mechanic for eight years. I fixed cars and trucks. Here in Portland, I want to work in an auto shop, but I need to get my mechanic certification first. Right now, I'm working at a car wash to save money for the certification classes.",
+      "question": "Why is the person working at a car wash?",
+      "options": [
+        "He loves washing cars",
+        "He's saving money for certification",
+        "He can't find other work",
+        "His friend owns the car wash"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit3-lesson1-listen3.mp3",
+      "transcript": "When you apply for a job, bring your resume if you have one. If you don't have a resume, that's okay. You can fill out an application form. Make sure you write clearly and include all your work experience. Don't forget to list your references - people who can say good things about your work.",
+      "question": "What should you bring when applying for a job?",
+      "options": [
+        "Only your resume",
+        "Your resume or fill out an application",
+        "A letter from your teacher",
+        "Your diploma"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Record yourself answering this question: 'What kind of work experience do you have?' Talk for at least 30 seconds.",
+      "example": "I worked as a cashier at a grocery store for two years. I also have experience as a cook in a restaurant. I can work with customers and handle money. I'm looking for a job in retail or food service.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Imagine you're calling about a job posting. Record yourself asking three questions about the job. Use: 'What are the hours?', 'How much does it pay?', and 'Do I need experience?'",
+      "example": "Hello, I'm calling about the job posting. I have three questions. First, what are the hours? Second, how much does the job pay? And third, do I need previous experience? Thank you.",
+      "min_seconds": 20,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about your work experience. If you don't have work experience, write about skills you have (cooking, cleaning, driving, using computers, etc.).",
+      "min_words": 40,
+      "example": "I worked as a delivery driver for three years. I drove a truck and delivered packages to businesses. I am very reliable and always on time. I also have experience working in a warehouse. I can lift heavy boxes and operate a forklift."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Look at this job posting and answer the questions:\n\nWANTED: Kitchen Assistant\n- Help prepare food\n- Clean kitchen and dishes\n- Must work weekends\n- $16/hour, Part-time\n\nQuestions: 1) What are the job duties? 2) What is the pay? 3) Is it full-time or part-time?",
+      "min_words": 30,
+      "example": "The job duties are helping prepare food and cleaning the kitchen and dishes. The pay is $16 per hour. It is a part-time position and you must work on weekends."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Simple Past for Work Experience",
+      "explanation": "Use simple past (worked, was, had) to talk about jobs you had before.",
+      "examples": [
+        "I worked as a teacher. (correct)",
+        "I work as a teacher. (wrong - this means now)",
+        "I was a nurse for five years. (correct)",
+        "I am a nurse for five years. (wrong - use 'was' for past)"
+      ],
+      "practice": [
+        {"sentence": "I ___ as a cook last year.", "blank": "worked", "options": ["work", "worked", "working"]},
+        {"sentence": "She ___ a taxi driver in 2020.", "blank": "was", "options": ["is", "was", "were"]},
+        {"sentence": "They ___ at the restaurant for two years.", "blank": "worked", "options": ["work", "worked", "working"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Question Formation with 'Do'",
+      "explanation": "Use 'Do I need...?' to ask about requirements. Use 'Does it...?' to ask about the job.",
+      "examples": [
+        "Do I need a license? (asking about yourself)",
+        "Does it pay well? (asking about the job)",
+        "Do they need experience? (asking about requirements)",
+        "Does the job start soon? (asking about timing)"
+      ],
+      "practice": [
+        {"sentence": "___ I need a car?", "blank": "Do", "options": ["Do", "Does", "Did"]},
+        {"sentence": "___ it pay $20 per hour?", "blank": "Does", "options": ["Do", "Does", "Is"]},
+        {"sentence": "___ they require a diploma?", "blank": "Do", "options": ["Do", "Does", "Are"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Present Perfect for Experience",
+      "explanation": "Use 'have/has + past participle' to talk about experience you have (connecting past to now).",
+      "examples": [
+        "I have experience in cooking. (correct - you still have this skill)",
+        "I have worked in restaurants. (correct - past experience that matters now)",
+        "She has been a teacher. (correct - past job, still relevant)",
+        "They have lived here for five years. (correct - started in past, continues now)"
+      ],
+      "practice": [
+        {"sentence": "I ___ experience in driving.", "blank": "have", "options": ["have", "has", "had"]},
+        {"sentence": "She ___ worked as a nurse.", "blank": "has", "options": ["have", "has", "is"]},
+        {"sentence": "We ___ been here before.", "blank": "have", "options": ["have", "has", "are"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "How do you talk about a job you had in the past?",
+        "options": [
+          "I work as a teacher",
+          "I worked as a teacher",
+          "I working as teacher",
+          "I am work as teacher"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What does 'full-time' mean?",
+        "options": [
+          "You work only weekends",
+          "You work 40 hours per week",
+          "You work 10 hours per week",
+          "You work at night"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Complete: 'I have experience ___ customer service.'",
+        "options": ["on", "in", "at", "to"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Which question asks about job requirements?",
+        "options": [
+          "How are you?",
+          "Do I need experience?",
+          "Where is the job?",
+          "Who is the manager?"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "'Part-time' means you work less than 40 hours per week.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You should say 'I work as a teacher' when talking about a past job.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "I ___ as a cook for three years. (work in past)",
+        "correct": "worked",
+        "accept": ["worked"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ I need a driver's license for this job? (question word)",
+        "correct": "Do",
+        "accept": ["Do", "do"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the job to the workplace:",
+        "pairs": [
+          {"left": "Cook", "right": "Restaurant"},
+          {"left": "Cashier", "right": "Store"},
+          {"left": "Nurse", "right": "Hospital"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "In the dialogue, why can't Ahmed apply for driving jobs right now?",
+        "options": [
+          "He doesn't like driving",
+          "He doesn't have a U.S. driver's license yet",
+          "He's too young",
+          "He doesn't have a car"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "experience", "definition": "knowledge or skill from doing something", "example": "I have two years of experience as a cook."},
+    {"word": "requirements", "definition": "things you need to have or do", "example": "What are the requirements for this job?"},
+    {"word": "apply", "definition": "to ask formally for a job", "example": "I want to apply for the cashier position."},
+    {"word": "full-time", "definition": "working about 40 hours per week", "example": "I need a full-time job to pay my bills."},
+    {"word": "part-time", "definition": "working less than 40 hours per week", "example": "I work part-time on weekends."},
+    {"word": "position", "definition": "a job or role", "example": "They have an open position for a driver."},
+    {"word": "resume", "definition": "a document listing your work experience and education", "example": "Bring your resume to the interview."},
+    {"word": "warehouse", "definition": "a large building where goods are stored", "example": "I worked in a warehouse for three years."},
+    {"word": "certification", "definition": "official document showing you completed training", "example": "I need a nursing certification to work at the hospital."},
+    {"word": "references", "definition": "people who can tell employers about your work", "example": "Please list two references on your application."}
+  ],
+  "cultural_notes": [
+    "In the U.S., most jobs are 'at-will,' meaning you or your employer can end employment at any time.",
+    "A resume should be one page for most entry-level jobs. Include your contact information, work experience, and education.",
+    "Many employers check references, so make sure you ask people before listing them.",
+    "It's normal to apply for many jobs before getting hired. Don't be discouraged!",
+    "'Minimum wage' is the lowest amount an employer can legally pay. In Oregon (2026), it's about $14-15 per hour depending on location."
+  ]
+}

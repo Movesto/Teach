@@ -1,0 +1,238 @@
+{
+  "id": "lesson-58",
+  "unit_id": 10,
+  "lesson_number": 2,
+  "title": "Leadership and Strategic Thinking",
+  "level": "advanced",
+  "estimated_time": 45,
+  "objectives": [
+    "Articulate leadership philosophies and styles",
+    "Think strategically about long-term goals",
+    "Inspire and motivate diverse teams",
+    "Navigate complex organizational challenges"
+  ],
+  "target_phrases": [
+    "My leadership philosophy centers on...",
+    "From a strategic perspective...",
+    "The long-term implications of this are...",
+    "To align our actions with our mission...",
+    "I believe effective leaders should...",
+    "Looking at the bigger picture...",
+    "This decision impacts multiple stakeholders..."
+  ],
+  "dialogue": {
+    "title": "Leadership Development Program",
+    "context": "Ahmed participates in his company's leadership development program, discussing management philosophy with senior leaders.",
+    "lines": [
+      {"speaker": "Executive", "text": "Ahmed, you've been promoted from supervisor to department manager. That's significant growth. What's your leadership philosophy?"},
+      {"speaker": "Ahmed", "text": "My leadership philosophy centers on servant leadership - the idea that leaders serve their teams, not the other way around. I believe effective leaders should remove obstacles so their people can excel."},
+      {"speaker": "Executive", "text": "Interesting. How does that translate to strategic decision-making?"},
+      {"speaker": "Ahmed", "text": "From a strategic perspective, I think about how decisions affect both immediate performance and long-term team development. For example, I could micromanage to hit quarterly targets, but that would undermine employee growth and sustainability."},
+      {"speaker": "Mentor", "text": "You're thinking beyond short-term metrics. That's crucial for senior leadership. Give me an example of strategic thinking you've applied."},
+      {"speaker": "Ahmed", "text": "Recently, we had budget pressure to eliminate training programs. Looking at the bigger picture, I realized this would hurt retention and innovation. The long-term implications would be higher turnover costs and reduced competitiveness."},
+      {"speaker": "Executive", "text": "What did you propose instead?"},
+      {"speaker": "Ahmed", "text": "To align our actions with our mission of continuous improvement, I recommended reducing other expenses and protecting professional development. This decision impacts multiple stakeholders - employees stay engaged, the company maintains competitive advantage, and customers benefit from skilled staff."},
+      {"speaker": "Mentor", "text": "Excellent framing. How do you balance competing priorities as a leader?"},
+      {"speaker": "Ahmed", "text": "I try to be transparent about trade-offs. When we can't satisfy everyone, I explain the reasoning behind decisions and involve people in problem-solving. My goal is to build trust even when delivering difficult news."},
+      {"speaker": "Executive", "text": "That emotional intelligence is why you're succeeding. What's your vision for your department's future?"},
+      {"speaker": "Ahmed", "text": "I envision us becoming a model for efficiency and innovation while maintaining excellent employee satisfaction. To achieve this, we'll invest in technology, empower team decision-making, and create clear advancement pathways. My leadership approach is to set the vision, then trust my people to execute."},
+      {"speaker": "Mentor", "text": "That's strategic leadership - connecting daily operations to long-term organizational success. You're ready for this next level."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Articulating leadership philosophy",
+      "pattern": "My leadership philosophy centers on [core principle]",
+      "examples": [
+        "My leadership philosophy centers on empowering people to make decisions and learn from mistakes.",
+        "My leadership philosophy centers on leading by example rather than through authority.",
+        "My leadership philosophy centers on creating psychological safety where people can innovate.",
+        "My leadership philosophy centers on servant leadership - serving my team's needs.",
+        "My leadership philosophy centers on transparent communication and building trust."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Strategic perspective",
+      "pattern": "From a strategic perspective, [analysis] / Looking at the bigger picture, [insight]",
+      "examples": [
+        "From a strategic perspective, investing in employee development reduces long-term costs.",
+        "Looking at the bigger picture, this partnership positions us for future market changes.",
+        "From a strategic perspective, quality matters more than speed in building brand reputation.",
+        "Looking at the bigger picture, diverse teams drive innovation and better decision-making.",
+        "From a strategic perspective, short-term savings could create long-term operational risks."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Long-term thinking",
+      "pattern": "The long-term implications of this are [consequence]",
+      "examples": [
+        "The long-term implications of this are improved retention and stronger organizational culture.",
+        "The long-term implications of this are increased market share and customer loyalty.",
+        "The long-term implications of this are reduced innovation and competitive disadvantage.",
+        "The long-term implications of this are enhanced reputation and stakeholder trust.",
+        "The long-term implications of this are sustainable growth rather than boom-bust cycles."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit10-lesson2-listen1.mp3",
+      "transcript": "Leadership theories have evolved from 'great man' approaches to situational and transformational models. Servant leadership, popularized by Robert Greenleaf, inverts traditional hierarchy - leaders serve their teams by removing obstacles and fostering growth. Transformational leadership inspires change through vision and values. Situational leadership adapts style to circumstances and follower readiness. Modern leadership emphasizes emotional intelligence, authenticity, and purpose-driven management. Effective leaders combine multiple approaches depending on context.",
+      "question": "What does servant leadership emphasize?",
+      "options": [
+        "Leaders commanding from above",
+        "Leaders serving teams by removing obstacles",
+        "Avoiding all decisions",
+        "Focusing only on profits"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit10-lesson2-listen2.mp3",
+      "transcript": "Strategic thinking requires systems thinking - understanding how parts interconnect. Leaders must balance competing demands: short-term results versus long-term sustainability, efficiency versus innovation, individual needs versus organizational goals. SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) provides strategic frameworks. Scenario planning prepares for multiple futures. Strategic leaders ask: What are we trying to achieve? What are the trade-offs? Who are the stakeholders? What are second and third-order effects of decisions?",
+      "question": "What does strategic thinking require?",
+      "options": [
+        "Ignoring long-term consequences",
+        "Understanding how parts interconnect (systems thinking)",
+        "Following one simple rule",
+        "Avoiding all trade-offs"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit10-lesson3-listen3.mp3",
+      "transcript": "Emotional intelligence (EI) predicts leadership success better than IQ. EI encompasses self-awareness (knowing your emotions), self-regulation (managing reactions), motivation (internal drive), empathy (understanding others), and social skills (building relationships). Leaders with high EI create psychologically safe environments where people take risks, admit mistakes, and innovate. They recognize that people's emotional states affect performance and that trust is built through consistent, authentic behavior, not just technical competence.",
+      "question": "What are the five components of emotional intelligence?",
+      "options": [
+        "Reading, writing, speaking, listening, presenting",
+        "Self-awareness, self-regulation, motivation, empathy, social skills",
+        "Strategy, planning, execution, evaluation, improvement",
+        "Hiring, training, managing, promoting, terminating"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe your leadership philosophy or ideal leadership approach. Explain what principles guide your decisions and why. Use advanced leadership language. Record for 40 seconds.",
+      "example": "My leadership philosophy centers on creating environments where people can do their best work. I believe effective leaders should focus on three areas: clarity, growth, and trust. First, clarity - people perform best when they understand the mission, their role, and how success is measured. I articulate vision clearly and connect daily tasks to larger organizational goals. Second, growth - from a strategic perspective, investing in people's development creates sustainable competitive advantage. I prioritize coaching, learning opportunities, and constructive feedback. Third, trust - looking at the bigger picture, trust is the foundation of high-performing teams. I build trust through transparency, admitting my own mistakes, and following through on commitments. The long-term implications of this approach are higher retention, better innovation, and teams that solve problems independently. To align my actions with these principles, I regularly ask: Am I removing obstacles or creating them? Am I developing people or just using them? This decision impacts multiple stakeholders, so I consider employee wellbeing, organizational performance, and customer value together.",
+      "min_seconds": 40,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "You must choose between meeting a quarterly target (short-term) or investing in a new system (long-term). Explain your strategic thinking. Record for 35 seconds.",
+      "example": "This is a classic strategic dilemma requiring systems thinking. From a strategic perspective, I need to consider both immediate and long-term implications. Meeting the quarterly target satisfies shareholders and maintains momentum. However, the long-term implications of delaying the system investment are significant - we'll continue with inefficient processes, frustrating employees and potentially losing competitive ground. Looking at the bigger picture, I'd propose a compromise: invest in the system now but implement it in phases. This decision impacts multiple stakeholders: employees get improvement, shareholders see progress toward both goals, and customers benefit from enhanced service. To align our actions with our mission of operational excellence, we can't keep deferring critical infrastructure. My leadership philosophy centers on sustainable success, not just hitting numbers. I would communicate this strategic rationale transparently to all stakeholders, explaining trade-offs clearly rather than pretending there are easy answers.",
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a vision statement for a department or organization. Explain the strategic direction, core values, and long-term goals. (120-150 words)",
+      "min_words": 120,
+      "example": "Vision Statement: Operations Department 2025-2030\n\nOur vision is to become the industry's benchmark for operational excellence while cultivating an environment where every team member thrives professionally and personally.\n\nStrategic Direction: From a strategic perspective, we're transitioning from reactive problem-solving to proactive innovation. The long-term implications of this shift are sustainable competitive advantage and enhanced employee satisfaction.\n\nCore Values:\n- Excellence: We pursue continuous improvement in every process\n- People-First: My leadership philosophy centers on developing talent, not just managing tasks\n- Innovation: We encourage calculated risks and learn from failures\n- Transparency: We communicate openly about challenges and decisions\n\nLong-Term Goals:\n- Reduce operational costs by 20% through automation and process optimization\n- Achieve 90% employee satisfaction scores\n- Eliminate all preventable safety incidents\n- Become the company's talent development model\n\nTo align our actions with our mission, every decision will be evaluated through these lenses: Does it improve efficiency? Does it develop people? Does it enhance safety? This decision impacts multiple stakeholders, and we commit to balancing their needs thoughtfully.",
+      "min_words": 120
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write an email to your team explaining a difficult strategic decision (budget cut, reorganization, etc.). Use leadership language to build understanding and trust. (100-120 words)",
+      "min_words": 100,
+      "example": "Subject: Strategic Changes to Our Department Structure\n\nDear Team,\n\nI need to communicate a difficult decision. Looking at the bigger picture, our company is restructuring to remain competitive in changing market conditions. This impacts our department - we're consolidating two teams and eliminating one supervisor role.\n\nFrom a strategic perspective, this is about long-term sustainability, not performance issues. You've all done excellent work. The long-term implications of not adapting now would be more severe cuts later.\n\nMy leadership philosophy centers on transparency, so here's what happens next: we'll have individual conversations about new roles, provide support for the affected supervisor's transition, and reimagine workflows to maintain quality with fewer people.\n\nThis decision impacts multiple stakeholders - I understand the uncertainty you're feeling. I'm committed to supporting everyone through this transition and answering all questions honestly.\n\nTo align our actions with our values, we'll handle this with dignity and respect.\n\nLet's talk.\n\nAhmed",
+      "min_words": 100
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Abstract Noun Phrases for Leadership Concepts",
+      "explanation": "Use abstract nouns to discuss leadership ideas and principles.",
+      "examples": [
+        "Transparency builds trust. (abstract nouns)",
+        "Accountability drives performance. (leadership concept)",
+        "Innovation requires psychological safety. (abstract relationship)",
+        "Sustainability outweighs short-term gains. (strategic principle)"
+      ],
+      "practice": [
+        {"sentence": "___ is essential for team performance.", "blank": "Trust", "options": ["Trust", "Trusting", "Trusted"]},
+        {"sentence": "___ drives organizational change.", "blank": "Leadership", "options": ["Lead", "Leadership", "Leading"]},
+        {"sentence": "Strategic thinking requires ___.", "blank": "patience", "options": ["patient", "patience", "patiently"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Modals for Strategic Recommendations",
+      "explanation": "Use modals to make strategic suggestions with appropriate certainty.",
+      "examples": [
+        "We should invest in training for long-term benefits. (recommendation)",
+        "This could position us advantageously. (possibility)",
+        "Leaders must balance competing priorities. (necessity)",
+        "We might consider alternative approaches. (tentative suggestion)"
+      ],
+      "practice": [
+        {"sentence": "We ___ prioritize sustainability.", "blank": "should", "options": ["should", "will", "can"]},
+        {"sentence": "This ___ create competitive advantage.", "blank": "could", "options": ["must", "could", "will"]},
+        {"sentence": "Leaders ___ develop emotional intelligence.", "blank": "must", "options": ["might", "must", "could"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Complex Sentences with Multiple Clauses",
+      "explanation": "Use complex structures to express sophisticated strategic thinking.",
+      "examples": [
+        "While short-term profits matter, sustainable growth requires long-term investment. (contrasting clauses)",
+        "Because markets evolve rapidly, strategic flexibility is essential. (causal relationship)",
+        "Although the decision is difficult, transparency builds trust. (concessive clause)",
+        "When leaders prioritize development, teams become self-sufficient. (temporal/conditional)"
+      ],
+      "practice": [
+        {"sentence": "___ innovation is risky, it drives growth.", "blank": "Although", "options": ["Although", "Because", "If"]},
+        {"sentence": "___ we invest in people, productivity improves.", "blank": "When", "options": ["Although", "When", "Because"]},
+        {"sentence": "Strategic thinking is important ___ it considers long-term implications.", "blank": "because", "options": ["because", "although", "when"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What does servant leadership emphasize?", "options": ["Leaders commanding", "Leaders serving teams", "Avoiding decisions", "Profit only"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What are the five components of emotional intelligence?", "options": ["Language skills", "Self-awareness, self-regulation, motivation, empathy, social skills", "Business knowledge", "Technical abilities"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What is systems thinking?", "options": ["Following one rule", "Understanding how parts interconnect", "Ignoring complexity", "Focusing only on parts"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'We ___ prioritize sustainability.'", "options": ["might", "could", "should", "can"], "correct": 2, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Effective leaders only focus on short-term results.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Strategic thinking requires balancing competing demands.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ builds trust. (abstract noun)", "correct": "Transparency", "accept": ["Transparency", "Honesty", "Communication"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "___ innovation is risky, it's necessary. (concessive)", "correct": "Although", "accept": ["Although", "Though", "While"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match leadership concept:", "pairs": [{"left": "Servant leadership", "right": "Serving teams"}, {"left": "Strategic thinking", "right": "Long-term perspective"}, {"left": "Emotional intelligence", "right": "Understanding emotions"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What did Ahmed prioritize protecting in the budget?", "options": ["Office decorations", "Training programs", "Executive bonuses", "New furniture"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "philosophy", "definition": "system of principles guiding behavior", "example": "My leadership philosophy centers on trust."},
+    {"word": "strategic", "definition": "relating to long-term goals and plans", "example": "We need strategic thinking here."},
+    {"word": "stakeholder", "definition": "person affected by decisions", "example": "Consider all stakeholders."},
+    {"word": "sustainability", "definition": "ability to maintain over long term", "example": "Sustainability matters more than quick wins."},
+    {"word": "empowerment", "definition": "giving authority and confidence", "example": "Empowerment drives engagement."},
+    {"word": "accountability", "definition": "responsibility for actions", "example": "Accountability builds trust."},
+    {"word": "transparency", "definition": "openness and honesty", "example": "Transparency is essential in leadership."},
+    {"word": "resilience", "definition": "ability to recover from difficulties", "example": "Build organizational resilience."},
+    {"word": "initiative", "definition": "ability to act independently", "example": "Encourage team initiative."},
+    {"word": "alignment", "definition": "arrangement in a straight line; agreement", "example": "Align actions with values."}
+  ],
+  "cultural_notes": [
+    "American business culture increasingly values 'servant leadership' over authoritarian management styles.",
+    "MBA programs emphasize strategic thinking, case studies, and systems analysis - business language reflects this analytical approach.",
+    "The concept of 'psychological safety' (Google's Project Aristotle findings) has transformed American team management.",
+    "American leadership increasingly emphasizes emotional intelligence (EQ) alongside technical skills (IQ).",
+    "Transparency and authenticity are valued in modern American leadership - admitting mistakes builds credibility rather than undermining it.",
+    "Purpose-driven leadership and corporate social responsibility are growing expectations, especially for younger American workers."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "lesson-54",
+  "unit_id": 9,
+  "lesson_number": 4,
+  "title": "Job Interview Skills",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Answer behavioral interview questions effectively",
+    "Use the STAR method for responses",
+    "Ask intelligent questions to interviewers",
+    "Handle difficult interview situations"
+  ],
+  "target_phrases": [
+    "In my previous role...",
+    "The situation was...",
+    "I took the following approach...",
+    "As a result...",
+    "What I learned from that experience is...",
+    "Can you tell me more about...?",
+    "What would success look like in this role?"
+  ],
+  "dialogue": {
+    "title": "Preparing for a Job Interview",
+    "context": "Ahmed practices interview techniques with a career counselor before an important job interview.",
+    "lines": [
+      {"speaker": "Counselor", "text": "Ahmed, you have an interview for the supervisor position next week. Let's practice behavioral questions. Tell me about a time you solved a difficult problem."},
+      {"speaker": "Ahmed", "text": "Um... I solve problems every day. Which one should I talk about?"},
+      {"speaker": "Counselor", "text": "Use the STAR method: Situation, Task, Action, Result. Start with a specific situation, describe your task, explain your actions, and share the result."},
+      {"speaker": "Ahmed", "text": "Okay. Let me try: The situation was when our warehouse system crashed during our busiest season. My task was to keep operations running while IT fixed it."},
+      {"speaker": "Counselor", "text": "Good start! Now describe your specific actions."},
+      {"speaker": "Ahmed", "text": "I took the following approach: First, I created a manual tracking system using spreadsheets. Then I organized the team to hand-process orders. I communicated hourly updates to management."},
+      {"speaker": "Counselor", "text": "Excellent! Now the result - what happened?"},
+      {"speaker": "Ahmed", "text": "As a result, we processed 95% of orders on time despite the system being down for 8 hours. What I learned from that experience is the importance of having backup plans."},
+      {"speaker": "Counselor", "text": "Perfect! That's exactly what employers want to hear - specific examples with measurable results. Now, what questions should you ask them?"},
+      {"speaker": "Ahmed", "text": "Should I ask about salary?"},
+      {"speaker": "Counselor", "text": "Save money questions for later. Ask about the role: 'What would success look like in this position?' or 'Can you tell me about the team I'd be working with?' This shows genuine interest."},
+      {"speaker": "Ahmed", "text": "What if they ask about my weaknesses?"},
+      {"speaker": "Counselor", "text": "Choose a real weakness, but one you're actively improving. Say: 'I used to struggle with public speaking, but I've been taking courses and volunteering to lead meetings. I'm much more confident now.' Show growth, not perfection."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "STAR method responses",
+      "pattern": "Situation: [context], Task: [responsibility], Action: [steps], Result: [outcome]",
+      "examples": [
+        "Situation: Our team faced a tight deadline. Task: I needed to coordinate everyone. Action: I created a detailed schedule and held daily check-ins. Result: We delivered on time.",
+        "Situation: A client was unhappy with our service. Task: I was assigned to resolve it. Action: I listened to their concerns and proposed solutions. Result: They renewed their contract.",
+        "Situation: We had high employee turnover. Task: I was asked to improve retention. Action: I implemented mentorship programs. Result: Turnover decreased 30%."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking intelligent questions",
+      "pattern": "Can you tell me more about...? / What would... look like?",
+      "examples": [
+        "Can you tell me more about the team culture here?",
+        "What would success look like in this role during the first 90 days?",
+        "Can you describe typical projects I'd work on?",
+        "What are the biggest challenges facing this department?",
+        "How does this company support professional development?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Discussing weaknesses constructively",
+      "pattern": "I used to [weakness], but now [improvement]",
+      "examples": [
+        "I used to avoid delegating, but now I actively develop my team members' skills.",
+        "I used to focus too much on details, but now I balance detail work with big-picture thinking.",
+        "I used to struggle with time management, but now I use productivity tools and prioritize effectively.",
+        "I used to be uncomfortable with feedback, but now I actively seek it to improve.",
+        "I used to work in isolation, but now I collaborate more with colleagues."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson4-listen1.mp3",
+      "transcript": "The STAR method structures behavioral interview answers: Situation - set the context. Task - describe your responsibility. Action - explain specific steps you took. Result - share the outcome, preferably with metrics. Example: Situation: sales dropped 20%. Task: increase revenue. Action: analyzed data, launched new campaign. Result: sales increased 35% in 3 months. Always include a measurable result when possible.",
+      "question": "What does STAR stand for?",
+      "options": [
+        "Start, Talk, Answer, Review",
+        "Situation, Task, Action, Result",
+        "Story, Time, Audience, Response",
+        "Simple, True, Accurate, Real"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson4-listen2.mp3",
+      "transcript": "Research the company before interviews. Know their products, recent news, competitors, and culture. This helps you ask intelligent questions and show genuine interest. When they ask 'Why do you want to work here?', don't just say 'good company.' Say: 'I've followed your expansion into sustainable products. Given my background in environmental science, I'm excited to contribute to this mission.' Specific knowledge impresses interviewers.",
+      "question": "Why should you research the company?",
+      "options": [
+        "It's not necessary",
+        "To ask intelligent questions and show interest",
+        "To memorize facts",
+        "To criticize them"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson4-listen3.mp3",
+      "transcript": "Body language matters in interviews. Maintain good eye contact, sit up straight, offer a firm handshake, and smile naturally. Avoid crossing arms (appears defensive), fidgeting (shows nervousness), or slouching (lacks confidence). Dress professionally - when in doubt, overdress slightly. Arrive 10-15 minutes early. Bring extra copies of your resume. Turn off your phone. Small details create positive first impressions.",
+      "question": "When should you arrive for an interview?",
+      "options": [
+        "Exactly on time",
+        "10-15 minutes early",
+        "30 minutes early",
+        "5 minutes late"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Answer this interview question using the STAR method: 'Tell me about a time you had to work with a difficult person.' Record for 35 seconds.",
+      "example": "I'd like to share an experience from my previous role. The situation was that I had to collaborate with a colleague who often dismissed others' ideas and missed deadlines. My task was to complete a project together despite these challenges. I took the following approach: First, I scheduled a private conversation to understand his perspective. I learned he felt overwhelmed and undervalued. Then I proposed we divide tasks based on our strengths and set clear deadlines with milestones. I made sure to acknowledge his contributions publicly. As a result, we completed the project successfully and on time. More importantly, our working relationship improved significantly. What I learned is that most 'difficult' people have underlying concerns, and addressing those directly with empathy can transform the situation.",
+      "min_seconds": 35,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "You're at the end of an interview. What three questions would you ask the interviewer? Explain why these are good questions. Record for 25 seconds.",
+      "example": "At the end of an interview, I'd ask three strategic questions. First: 'What would success look like in this role during the first six months?' This shows I'm already thinking about delivering results. Second: 'Can you tell me about the team I'd be working with and how this role collaborates with other departments?' This demonstrates I value teamwork and want to understand the bigger picture. Third: 'What are the biggest challenges or priorities for this department right now?' This shows I'm ready to tackle real issues, not just looking for an easy job. These questions reveal my serious interest while helping me evaluate if the role is right for me.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a STAR response to this question: 'Describe a time you showed leadership.' Include all four parts clearly. (100-120 words)",
+      "min_words": 100,
+      "example": "Situation: In my previous warehouse job, our team leader left suddenly during our peak season, leaving us without direction during the busiest time of year.\n\nTask: As the most experienced member, I needed to step up and keep operations running smoothly while management searched for a replacement.\n\nAction: I took several steps. First, I organized daily team meetings to coordinate work and address concerns. Second, I created a training system where experienced workers mentored newer employees. Third, I maintained open communication with management, providing daily reports on progress and challenges. Finally, I fostered team morale by recognizing individual contributions.\n\nResult: We exceeded our productivity targets by 12% during that two-month period. When the new leader arrived, they found a well-organized, motivated team. Management later promoted me to assistant supervisor, citing this experience as proof of my leadership capabilities.",
+      "min_words": 100
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a professional thank-you email to send after a job interview. Include: thank you, reference something specific discussed, restate interest. (80-100 words)",
+      "min_words": 80,
+      "example": "Subject: Thank You - Interview for Logistics Supervisor Position\n\nDear Ms. Johnson,\n\nThank you for taking the time to meet with me today regarding the Logistics Supervisor position. I truly enjoyed our conversation about the department's growth plans and the emphasis on team development.\n\nOur discussion about implementing new inventory management systems particularly excited me, as this aligns perfectly with my experience at my current company. I'm confident my background in warehouse operations and team leadership would allow me to contribute meaningfully to your goals.\n\nI remain very interested in this opportunity and look forward to hearing about next steps.\n\nThank you again for your consideration.\n\nBest regards,\nAhmed Hassan",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Past Simple for Interview Stories",
+      "explanation": "Use past simple to describe specific actions and results in interview examples.",
+      "examples": [
+        "I organized a team meeting. (specific past action)",
+        "We exceeded our sales target. (past result)",
+        "I implemented a new system. (past accomplishment)",
+        "The project succeeded. (past outcome)"
+      ],
+      "practice": [
+        {"sentence": "I ___ the team to success.", "blank": "led", "options": ["lead", "led", "leading"]},
+        {"sentence": "We ___ the deadline.", "blank": "met", "options": ["meet", "met", "meeting"]},
+        {"sentence": "The solution ___ the problem.", "blank": "solved", "options": ["solve", "solved", "solving"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Present Perfect for Experience",
+      "explanation": "Use present perfect to discuss your overall experience and skills.",
+      "examples": [
+        "I have managed teams for five years. (experience up to now)",
+        "I have developed strong leadership skills. (current ability)",
+        "I have worked in logistics since 2020. (ongoing experience)",
+        "I have learned to prioritize effectively. (current skill)"
+      ],
+      "practice": [
+        {"sentence": "I ___ in this field for 5 years.", "blank": "have worked", "options": ["worked", "have worked", "work"]},
+        {"sentence": "I ___ strong skills.", "blank": "have developed", "options": ["developed", "have developed", "develop"]},
+        {"sentence": "I ___ many teams.", "blank": "have led", "options": ["led", "have led", "lead"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Modal 'Would' for Hypothetical Situations",
+      "explanation": "Use 'would' to discuss how you would handle future situations.",
+      "examples": [
+        "I would approach this by analyzing the data first.",
+        "I would collaborate with the team to find solutions.",
+        "In that situation, I would prioritize safety.",
+        "I would communicate transparently with stakeholders."
+      ],
+      "practice": [
+        {"sentence": "I ___ start with research.", "blank": "would", "options": ["would", "will", "can"]},
+        {"sentence": "I ___ consult with experts.", "blank": "would", "options": ["would", "will", "should"]},
+        {"sentence": "I ___ consider all options.", "blank": "would", "options": ["would", "will", "might"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What does STAR stand for?", "options": ["Start Talk Answer Review", "Situation Task Action Result", "Story Time Audience Response", "Simple True Accurate Real"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "When should you ask about salary?", "options": ["First question", "Later in process", "Never", "Before interview"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "When should you arrive for an interview?", "options": ["Exactly on time", "10-15 minutes early", "30 minutes early", "5 minutes late"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ the team successfully.'", "options": ["lead", "led", "leading", "leads"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should research the company before interviews.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "When discussing weaknesses, show you're not improving.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I ___ worked here for 3 years. (present perfect)", "correct": "have", "accept": ["have", "'ve"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "I ___ approach it differently. (hypothetical)", "correct": "would", "accept": ["would", "'d"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match STAR component:", "pairs": [{"left": "Situation", "right": "Context"}, {"left": "Task", "right": "Your role"}, {"left": "Result", "right": "Outcome"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What's a good question to ask interviewers?", "options": ["When do I get paid?", "What would success look like in this role?", "Can I work from home always?", "Do you monitor employees?"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "behavioral", "definition": "based on past actions/behavior", "example": "Behavioral interview questions are common."},
+    {"word": "accomplishment", "definition": "achievement or success", "example": "Describe a major accomplishment."},
+    {"word": "qualification", "definition": "skill or quality fitting you for position", "example": "I have the qualifications for this role."},
+    {"word": "initiative", "definition": "ability to act independently", "example": "I showed initiative in solving the problem."},
+    {"word": "collaborate", "definition": "work jointly with others", "example": "I collaborate well with teams."},
+    {"word": "adaptability", "definition": "ability to adjust to new conditions", "example": "Adaptability is key in this role."},
+    {"word": "proficiency", "definition": "high degree of skill", "example": "I have proficiency in Excel."},
+    {"word": "asset", "definition": "useful or valuable quality", "example": "My bilingual skills are an asset."},
+    {"word": "demonstrate", "definition": "clearly show or prove", "example": "I can demonstrate my abilities."},
+    {"word": "articulate", "definition": "express ideas clearly", "example": "Articulate your thoughts well."}
+  ],
+  "cultural_notes": [
+    "American interviews value specific examples over general statements - STAR method is widely used.",
+    "Confidence is important in U.S. interviews - don't be overly modest about accomplishments.",
+    "Americans expect candidates to ask thoughtful questions - not asking suggests lack of interest.",
+    "Thank-you emails after interviews are standard practice in U.S. job culture - send within 24 hours.",
+    "Behavioral interviewing is standard in U.S. companies - 'Tell me about a time when...' questions are very common.",
+    "Negotiating salary is expected in American culture - accepting the first offer without discussion can be seen as lack of confidence.",
+    "Ahmed's journey: By Unit 9, Ahmed has spent 3 years in the U.S. He started as a warehouse associate, earned a forklift certification, and was promoted to team lead. He is now interviewing for his first supervisor role."
+  ]
+}

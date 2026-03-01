@@ -1,0 +1,355 @@
+{
+  "id": 8,
+  "unit_id": 1,
+  "lesson_number": 8,
+  "title": "Giving and Following Directions",
+  "description": "Learn to give and understand directions",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Understand direction words (left, right, straight)",
+    "Give simple directions (Turn left at... / Go straight...)",
+    "Ask for clarification (Where? / Which way?)",
+    "Use landmarks (next to, across from, between)"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Turn left / Turn right",
+      "Go straight",
+      "It's on the left / on the right",
+      "Next to [place]",
+      "Across from [place]",
+      "Between [place] and [place]",
+      "At the corner"
+    ],
+    "grammar_pattern": "Commands for directions:\n- Turn + direction\n- Go + direction/distance\n- Walk + distance\n\nLocation prepositions:\n- On the left/right\n- Next to\n- Across from\n- Between\n\nExamples:\n- Turn left at Main Street\n- Go straight for two blocks\n- It's next to the bank\n- It's between the store and the library",
+    "grammar_patterns": [
+      {
+        "label": "Direction commands",
+        "pattern": "Turn + [direction] / Go + [direction]",
+        "examples": ["Turn left", "Turn right", "Go straight", "Walk two blocks"]
+      },
+      {
+        "label": "Describing location",
+        "pattern": "It's + [preposition] + [place]",
+        "examples": ["It's on the left", "It's on the right", "It's next to the bank", "It's across from the store"]
+      },
+      {
+        "label": "Between two places",
+        "pattern": "It's between + [place] + and + [place]",
+        "examples": ["It's between the bank and the library", "It's between Main Street and Oak Street"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are lost. You need to find the library. You ask someone on the street for directions.",
+    "dialogue": [
+      {
+        "speaker": "You",
+        "text": "Excuse me. Can you help me?"
+      },
+      {
+        "speaker": "Person",
+        "text": "Sure. What do you need?"
+      },
+      {
+        "speaker": "You",
+        "text": "I'm looking for the library. Where is it?"
+      },
+      {
+        "speaker": "Person",
+        "text": "The library? It's not far. Go straight on this street."
+      },
+      {
+        "speaker": "You",
+        "text": "Go straight. Okay."
+      },
+      {
+        "speaker": "Person",
+        "text": "Then turn left at the second street. That's Oak Street."
+      },
+      {
+        "speaker": "You",
+        "text": "Turn left at Oak Street?"
+      },
+      {
+        "speaker": "Person",
+        "text": "Yes. The library is on the right. It's next to the post office."
+      },
+      {
+        "speaker": "You",
+        "text": "Next to the post office. Got it. Thank you so much!"
+      },
+      {
+        "speaker": "Person",
+        "text": "You're welcome. It's about a 5-minute walk."
+      },
+      {
+        "speaker": "You",
+        "text": "Perfect. Thanks again!"
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Direction commands",
+      "instruction": "Fill in the blank with the correct direction word",
+      "prompts": [
+        {"sentence": "Turn ___.", "answer": "left"},
+        {"sentence": "Turn ___.", "answer": "right"},
+        {"sentence": "Go ___.", "answer": "straight"},
+        {"sentence": "Walk two ___.", "answer": "blocks"}
+      ],
+      "examples": [
+        "Turn left.",
+        "Turn right.",
+        "Go straight.",
+        "Walk two blocks."
+      ],
+      "your_turn": "Now give a direction command out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Location descriptions",
+      "instruction": "Fill in the blank with the correct location word",
+      "prompts": [
+        {"sentence": "It's on the ___.", "answer": "left"},
+        {"sentence": "It's on the ___.", "answer": "right"},
+        {"sentence": "It's ___ to the bank.", "answer": "next"},
+        {"sentence": "It's ___ from the store.", "answer": "across"}
+      ],
+      "examples": [
+        "It's on the left.",
+        "It's on the right.",
+        "It's next to the bank.",
+        "It's across from the store."
+      ],
+      "your_turn": "Now describe where a place near you is, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Complete directions",
+      "instruction": "Fill in the blank to complete the directions",
+      "prompts": [
+        {"sentence": "Go straight, then turn ___.", "answer": "left"},
+        {"sentence": "Turn right at the ___.", "answer": "corner"},
+        {"sentence": "Walk two blocks and turn ___.", "answer": "left"},
+        {"sentence": "It's on the right, ___ to the bank.", "answer": "next"}
+      ],
+      "examples": [
+        "Go straight, then turn left.",
+        "Turn right at the corner.",
+        "Walk two blocks and turn left.",
+        "It's on the right, next to the bank."
+      ],
+      "your_turn": "Now give complete directions to a place near you, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: Which direction should you turn?",
+      "audio": "/audio/lesson8-listen1.mp3",
+      "options": ["Left", "Right", "Straight", "Back"],
+      "correct": 0,
+      "explanation": "The person says 'Turn left'"
+    },
+    {
+      "question": "Listen: Where is the library?",
+      "audio": "/audio/lesson8-listen2.mp3",
+      "options": ["On the left", "On the right", "Straight ahead", "Behind you"],
+      "correct": 1,
+      "explanation": "The person says 'It's on the right'"
+    },
+    {
+      "question": "Listen: What is the library next to?",
+      "audio": "/audio/lesson8-listen3.mp3",
+      "options": ["The bank", "The post office", "The store", "The school"],
+      "correct": 1,
+      "explanation": "The library is 'next to the post office'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Give directions",
+      "instruction": "Record yourself giving directions to the library: Go straight, turn left at Oak Street, it's on the right.",
+      "example": "Go straight on this street. Turn left at Oak Street. The library is on the right."
+    },
+    {
+      "title": "Task 2: Ask for and receive directions",
+      "instruction": "Record a conversation where you ask someone for directions to the post office.",
+      "example": "You: Excuse me. Where is the post office?\nPerson: Go straight and turn right. It's next to the library.\nYou: Turn right? On the right side?\nPerson: Yes, on the right.\nYou: Thank you!"
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write directions",
+      "instruction": "Write directions from your house to the nearest store. Use: go straight, turn left/right, it's on the left/right.",
+      "example": "From my house, go straight on Main Street. Turn right at the corner. The store is on the left, next to the bank."
+    },
+    {
+      "title": "Task 2: Write a directions conversation",
+      "instruction": "Write a conversation (10-12 lines) where someone asks you for directions to a place near you.",
+      "example": "Person: Excuse me. Where is the hospital?\nYou: The hospital? It's not far.\nPerson: How do I get there?\nYou: Go straight on this street.\nPerson: Okay, go straight.\nYou: Then turn left at Main Street.\nPerson: Turn left at Main Street?\nYou: Yes. Walk two blocks. The hospital is on the right.\nPerson: On the right. Is it next to anything?\nYou: Yes, it's next to the pharmacy.\nPerson: Great! Thank you so much.\nYou: You're welcome!"
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Commands without 'you'",
+        "examples": [
+          "Turn left (not: You turn left)",
+          "Go straight (not: You go straight)",
+          "Walk two blocks (not: You walk two blocks)"
+        ],
+        "question": "How do we give directions?",
+        "explanation": "When giving directions or instructions, we use the base verb without 'you'. Just say: 'Turn left' or 'Go straight'. This is called the imperative form."
+      },
+      {
+        "title": "Prepositions of location",
+        "examples": [
+          "Next to = beside, at the side of",
+          "Across from = on the opposite side",
+          "Between = in the middle of two things",
+          "On the corner = at the corner"
+        ],
+        "question": "How do we describe where something is?",
+        "explanation": "We use prepositions (next to, across from, between) to show location. These help people find places."
+      },
+      {
+        "title": "Left vs Right, On the left vs To the left",
+        "examples": [
+          "Turn left (change direction to the left)",
+          "It's on the left (location: the left side)",
+          "To the left of the bank (position relative to something)"
+        ],
+        "question": "What's the difference?",
+        "explanation": "'Turn left' means change your direction. 'On the left' means something is located on the left side. Both use the same word 'left' but in different ways."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to tell someone to change direction to the left. What do you say?",
+      "options": [
+        "Go left",
+        "Turn left",
+        "Walk left",
+        "Left here"
+      ],
+      "correct": 1,
+      "explanation": "'Turn left' is the correct command for changing direction."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The library is beside the bank. What can you say?",
+      "options": [
+        "The library is next to the bank",
+        "The library is in the bank",
+        "The library is far from the bank",
+        "The library is after the bank"
+      ],
+      "correct": 0,
+      "explanation": "'Next to' means beside or at the side of. It's the same as 'beside'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The store is on the opposite side of the street from the bank. What can you say?",
+      "options": [
+        "The store is next to the bank",
+        "The store is between the bank",
+        "The store is across from the bank",
+        "The store is behind the bank"
+      ],
+      "correct": 2,
+      "explanation": "'Across from' means on the opposite side. The store and bank are on opposite sides of the street."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone should not turn. They should continue in the same direction. You say:",
+      "options": [
+        "Turn forward",
+        "Go straight",
+        "Walk ahead",
+        "Continue on"
+      ],
+      "correct": 1,
+      "explanation": "'Go straight' means continue in the same direction without turning."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The post office is in the middle of the bank and the library. What can you say?",
+      "options": [
+        "The post office is next to the bank and library",
+        "The post office is between the bank and the library",
+        "The post office is across from the bank and library",
+        "The post office is behind the bank and library"
+      ],
+      "correct": 1,
+      "explanation": "'Between' means in the middle of two things."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is a complete set of directions?",
+      "options": [
+        "Left and straight",
+        "Go straight, then turn left. It's on the right.",
+        "Street and corner",
+        "Next to bank"
+      ],
+      "correct": 1,
+      "explanation": "Complete directions tell you: what to do (go straight, turn left) and where it is (on the right)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'at the corner' mean?",
+      "options": [
+        "In the building",
+        "Where two streets meet",
+        "In the middle of the street",
+        "Far away"
+      ],
+      "correct": 1,
+      "explanation": "A corner is where two streets meet or intersect."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'Which way?' They want to know:",
+      "options": [
+        "The time",
+        "The price",
+        "The direction",
+        "The distance"
+      ],
+      "correct": 2,
+      "explanation": "'Which way?' is asking for direction (left? right? straight?)."
+    },
+    {
+      "type": "writing",
+      "question": "Write directions from the bus stop to your home. Use at least 4 direction words or phrases.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use words like: go straight, turn left, turn right, it's on the left, it's next to, walk two blocks, at the corner."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about a place you go often (work, school, store). How would you give someone directions to get there from your home?",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice giving real directions. This is very practical and will help you when people ask you for help."
+    }
+  ]
+}

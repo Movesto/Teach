@@ -1,0 +1,233 @@
+{
+  "id": "lesson-52",
+  "unit_id": 9,
+  "lesson_number": 2,
+  "title": "Professional Email Writing",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Write clear, professional business emails",
+    "Use appropriate tone and formality",
+    "Structure emails effectively",
+    "Handle difficult email situations diplomatically"
+  ],
+  "target_phrases": [
+    "I hope this email finds you well",
+    "I'm writing to...",
+    "Please let me know if...",
+    "I would appreciate it if...",
+    "Thank you for your time and consideration",
+    "Looking forward to hearing from you",
+    "Please don't hesitate to contact me if..."
+  ],
+  "dialogue": {
+    "title": "Learning Professional Email Etiquette",
+    "context": "Ahmed's supervisor helps him revise a professional email that was too casual.",
+    "lines": [
+      {"speaker": "Supervisor", "text": "Ahmed, I saw the email you sent to the client. The content is good, but the tone is too informal for a business communication."},
+      {"speaker": "Ahmed", "text": "Really? I thought it was friendly. What's wrong with it?"},
+      {"speaker": "Supervisor", "text": "You started with 'Hey!' That's too casual for a first-time client. Use 'Dear Mr. Johnson' or 'Dear John' if you have an established relationship."},
+      {"speaker": "Ahmed", "text": "I see. What about ending with 'Thanks!' - is that wrong too?"},
+      {"speaker": "Supervisor", "text": "For a casual colleague, it's fine. But for clients or senior management, use 'Thank you for your time and consideration' or 'I look forward to hearing from you.'"},
+      {"speaker": "Ahmed", "text": "What about the subject line? I wrote 'Question.'"},
+      {"speaker": "Supervisor", "text": "Too vague. Be specific: 'Question Regarding Project Timeline' or 'Follow-up on Budget Discussion.' People get hundreds of emails - specific subjects help."},
+      {"speaker": "Ahmed", "text": "And I wrote 'Can you send me that thing we talked about?' Should that be more formal?"},
+      {"speaker": "Supervisor", "text": "Definitely. Try 'I would appreciate it if you could send the revised proposal we discussed in yesterday's meeting.' Be specific and polite."},
+      {"speaker": "Ahmed", "text": "This is more complex than I thought. Is there a basic structure I should follow?"},
+      {"speaker": "Supervisor", "text": "Yes: greeting, brief opening (state purpose), body (details), closing (action items), and professional sign-off. Let me show you an example."},
+      {"speaker": "Ahmed", "text": "That helps! So tone matches the relationship and situation?"},
+      {"speaker": "Supervisor", "text": "Exactly. Formal for new contacts and sensitive topics, more casual for close colleagues on routine matters. When in doubt, err on the side of formality."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Professional openings",
+      "pattern": "I hope this email finds you well. I'm writing to...",
+      "examples": [
+        "I hope this email finds you well. I'm writing to follow up on our meeting yesterday.",
+        "I hope you're doing well. I'm writing to request information about the project timeline.",
+        "I trust this email finds you well. I'm writing to confirm our appointment for next Tuesday.",
+        "I hope this message finds you well. I'm writing to discuss the budget proposal.",
+        "I hope you're having a good week. I'm writing to introduce our new team member."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Polite requests",
+      "pattern": "I would appreciate it if you could...",
+      "examples": [
+        "I would appreciate it if you could send the report by Friday.",
+        "I would be grateful if you could review the attached document.",
+        "It would be helpful if you could provide your feedback by end of day.",
+        "I would appreciate your input on this matter at your earliest convenience.",
+        "Could you please confirm receipt of this email when you have a moment?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Professional closings",
+      "pattern": "Thank you for... / I look forward to...",
+      "examples": [
+        "Thank you for your time and consideration. I look forward to hearing from you.",
+        "Thank you for your prompt attention to this matter.",
+        "I appreciate your assistance with this. Please let me know if you need any clarification.",
+        "Thank you in advance for your help. I look forward to your response.",
+        "I appreciate your understanding. Please don't hesitate to contact me if you have questions."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson2-listen1.mp3",
+      "transcript": "Professional email structure has five parts: 1) Clear subject line that summarizes content. 2) Formal greeting (Dear...). 3) Opening stating purpose. 4) Body with details in short paragraphs. 5) Professional closing and signature. Keep emails concise - busy professionals appreciate brevity. If an email is longer than three paragraphs, consider a phone call instead.",
+      "question": "How many parts does professional email structure have?",
+      "options": ["Three", "Five", "Seven", "Ten"],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson2-listen2.mp3",
+      "transcript": "Email tone should match your relationship with the recipient and the situation's formality. For new contacts, supervisors, or sensitive topics, use formal language. For colleagues you know well on routine matters, you can be slightly more casual. Avoid slang, emoji, or excessive exclamation points in professional emails. When uncertain, choose formal over casual - you can always relax tone later.",
+      "question": "When should you use formal email tone?",
+      "options": [
+        "Only with strangers",
+        "Never",
+        "For new contacts, supervisors, or sensitive topics",
+        "Always with everyone"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson2-listen3.mp3",
+      "transcript": "Common email mistakes: vague subject lines, no greeting, unclear purpose, walls of text, demanding tone, and forgetting attachments. Always proofread before sending. For important emails, write a draft, wait an hour, then review with fresh eyes. Never send angry emails immediately - save as a draft and revisit when calm. Remember: emails are permanent records.",
+      "question": "What should you do before sending important emails?",
+      "options": [
+        "Send immediately",
+        "Write a draft, wait, then review",
+        "Don't proofread",
+        "Use all caps for emphasis"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You need to ask your supervisor for time off. Explain what you would say in a professional email (don't write it - speak it). Record for 25 seconds.",
+      "example": "If I were writing a professional email to request time off, I would start with a formal greeting like 'Dear Ms. Johnson.' Then I'd state my purpose clearly: 'I'm writing to request vacation time from June 15th to June 22nd.' I'd explain the reason briefly if appropriate: 'I'm planning to visit family who I haven't seen in two years.' Then I'd show consideration: 'I've reviewed the team calendar and confirmed this wouldn't conflict with major deadlines. I'll ensure all my current projects are completed before I leave.' Finally, I'd close professionally: 'Thank you for considering my request. Please let me know if you need any additional information.' This structure is clear, respectful, and professional.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain the difference between an email to a close colleague and one to a new client. Give examples. Record for 25 seconds.",
+      "example": "The tone and formality differ significantly between colleagues and new clients. To a close colleague about a routine matter, I might write: 'Hi Sarah, can you send me that report when you get a chance? Thanks!' That's casual and brief. But to a new client, I'd write: 'Dear Mr. Anderson, I hope this email finds you well. I'm writing to request the quarterly report we discussed in our meeting on Monday. I would appreciate it if you could send it at your earliest convenience. Thank you for your time and consideration.' The second version is more formal, specific, and polite. As relationships develop, you can gradually become less formal, but always maintain professionalism.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a professional email to a potential employer thanking them for an interview and expressing continued interest. Include: subject line, greeting, body, and closing. (100-120 words)",
+      "min_words": 100,
+      "example": "Subject: Thank You - Interview for Marketing Coordinator Position\n\nDear Ms. Thompson,\n\nI hope this email finds you well. I'm writing to thank you for taking the time to interview me yesterday for the Marketing Coordinator position. I truly enjoyed our conversation about the company's digital strategy initiatives.\n\nOur discussion reinforced my strong interest in joining your team. I was particularly excited to learn about the upcoming product launch campaign. My experience managing social media campaigns for previous employers aligns well with the responsibilities we discussed.\n\nI appreciate the opportunity to learn more about the role and your vision for the marketing department. Please don't hesitate to contact me if you need any additional information.\n\nThank you again for your time and consideration. I look forward to hearing from you.\n\nBest regards,\nAhmed Hassan",
+      "min_words": 100
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a professional email to a client apologizing for a delayed response and providing the requested information. (80-100 words)",
+      "min_words": 80,
+      "example": "Subject: Response to Your Inquiry - Project Timeline\n\nDear Mr. Rodriguez,\n\nI apologize for the delayed response to your inquiry from last week. We experienced unexpected system issues that affected our email access.\n\nRegarding your question about the project timeline, I'm pleased to confirm that we're on schedule for the March 15th delivery date. The design phase is complete, and we've begun development. I've attached a detailed timeline showing each milestone.\n\nI would appreciate it if you could review the attachment and let me know if you have any questions or concerns.\n\nThank you for your patience and understanding.\n\nBest regards,\nAhmed Hassan",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Modal Verbs for Politeness (would, could, may)",
+      "explanation": "Use modal verbs to make requests and suggestions more polite in professional emails.",
+      "examples": [
+        "I would appreciate your feedback. (more polite than 'I want')",
+        "Could you please send the report? (politer than 'Send the report')",
+        "You may wish to consider this alternative. (softer than 'You should')",
+        "Would it be possible to reschedule? (politer than 'Can we reschedule?')"
+      ],
+      "practice": [
+        {"sentence": "I ___ appreciate your help.", "blank": "would", "options": ["would", "will", "want"]},
+        {"sentence": "___ you please review this?", "blank": "Could", "options": ["Can", "Could", "Will"]},
+        {"sentence": "You ___ want to check this.", "blank": "may", "options": ["may", "must", "will"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Passive Voice for Diplomacy",
+      "explanation": "Use passive voice to soften criticism or avoid assigning blame.",
+      "examples": [
+        "An error was made in the report. (vs. 'You made an error')",
+        "The deadline was missed. (vs. 'You missed the deadline')",
+        "It has been brought to my attention... (formal and diplomatic)",
+        "The document needs to be revised. (softer than 'You need to revise')"
+      ],
+      "practice": [
+        {"sentence": "The meeting ___ rescheduled.", "blank": "was", "options": ["was", "is", "were"]},
+        {"sentence": "An error ___ found.", "blank": "was", "options": ["was", "is", "are"]},
+        {"sentence": "The report needs to ___ reviewed.", "blank": "be", "options": ["be", "is", "was"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional Statements for Suggestions",
+      "explanation": "Use conditionals to make suggestions less direct and more diplomatic.",
+      "examples": [
+        "It would be helpful if you could attend. (suggestion)",
+        "If you have time, please review the attachment. (polite request)",
+        "It might be beneficial to consider alternatives. (gentle suggestion)",
+        "If possible, I would appreciate an early response. (polite request)"
+      ],
+      "practice": [
+        {"sentence": "It ___ be helpful if you could attend.", "blank": "would", "options": ["would", "will", "can"]},
+        {"sentence": "If you ___ time, please call.", "blank": "have", "options": ["have", "had", "has"]},
+        {"sentence": "It might ___ wise to reconsider.", "blank": "be", "options": ["be", "is", "was"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with Ahmed's original email?", "options": ["Too long", "Too informal", "No subject", "Wrong person"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What should a subject line be?", "options": ["Vague", "Specific and clear", "Funny", "Optional"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How many parts does professional email structure have?", "options": ["Two", "Three", "Five", "Ten"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ appreciate your help.'", "options": ["will", "would", "want", "must"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should always use formal tone in every email.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Emails are permanent records.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ you please send the report? (polite request)", "correct": "Could", "accept": ["Could", "Would"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "An error ___ made. (passive voice)", "correct": "was", "accept": ["was"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match email part:", "pairs": [{"left": "Subject line", "right": "Specific summary"}, {"left": "Opening", "right": "State purpose"}, {"left": "Closing", "right": "Thank you"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "When in doubt about formality, you should:", "options": ["Be very casual", "Use slang", "Err on side of formality", "Not send email"], "correct": 2, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "recipient", "definition": "person who receives email", "example": "Choose tone based on the recipient."},
+    {"word": "formality", "definition": "level of official/professional manner", "example": "Increase formality for new contacts."},
+    {"word": "etiquette", "definition": "customary code of polite behavior", "example": "Learn professional email etiquette."},
+    {"word": "brevity", "definition": "concise and exact use of words", "example": "Business emails value brevity."},
+    {"word": "diplomatic", "definition": "tactful and sensitive communication", "example": "Use diplomatic language for criticism."},
+    {"word": "proofread", "definition": "read to find and correct errors", "example": "Always proofread before sending."},
+    {"word": "attachment", "definition": "file sent with email", "example": "Please see the attached document."},
+    {"word": "courtesy", "definition": "polite behavior", "example": "Professional courtesy is important."},
+    {"word": "correspondence", "definition": "communication by letters/emails", "example": "Maintain professional correspondence."},
+    {"word": "salutation", "definition": "greeting in letter/email", "example": "Use appropriate salutation."}
+  ],
+  "cultural_notes": [
+    "American business emails tend to be direct and concise - get to the point quickly after a brief greeting.",
+    "Email is the primary business communication in U.S. workplaces - response within 24 hours is expected.",
+    "Americans value work-life balance - avoid sending work emails late at night or on weekends unless urgent.",
+    "'Reply all' should be used carefully - only when everyone needs the information.",
+    "Out-of-office automatic replies are standard when on vacation or unavailable.",
+    "Professional email addresses should be firstname.lastname@company - not nicknames or unprofessional handles."
+  ]
+}

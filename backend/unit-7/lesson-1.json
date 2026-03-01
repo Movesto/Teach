@@ -1,0 +1,237 @@
+{
+  "id": "lesson-39",
+  "unit_id": 7,
+  "lesson_number": 1,
+  "title": "Telling Personal Stories",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Share personal experiences effectively",
+    "Organize stories chronologically",
+    "Use descriptive language to engage listeners",
+    "Connect past events to present situations"
+  ],
+  "target_phrases": [
+    "This reminds me of...",
+    "I'll never forget when...",
+    "First... then... finally...",
+    "You won't believe what happened!",
+    "The most memorable thing was...",
+    "Looking back, I realize...",
+    "That experience taught me..."
+  ],
+  "dialogue": {
+    "title": "Sharing Immigration Stories",
+    "context": "At an ESL class, students share their immigration experiences and the challenges they faced.",
+    "lines": [
+      {"speaker": "Teacher", "text": "Today, let's share our immigration stories. Ahmed, would you like to start?"},
+      {"speaker": "Ahmed", "text": "Sure. I'll never forget the day I arrived in America. It was January 2023, and I was so nervous."},
+      {"speaker": "Teacher", "text": "What made it so memorable?"},
+      {"speaker": "Ahmed", "text": "Well, first, the plane ride was 20 hours! I had never been on a plane before. Then, when I arrived at the airport, I couldn't find my luggage. I was panicking!"},
+      {"speaker": "Lisa", "text": "Oh no! What happened?"},
+      {"speaker": "Ahmed", "text": "Fortunately, an airport worker helped me. He spoke Arabic, which was such a relief! Finally, I found my bags and my cousin picked me up."},
+      {"speaker": "Carlos", "text": "That reminds me of my first day in the U.S.! I got lost trying to find my aunt's apartment. I didn't have a phone with data, and I couldn't read the street signs well."},
+      {"speaker": "Ahmed", "text": "How did you find it?"},
+      {"speaker": "Carlos", "text": "A kind stranger helped me. She actually walked me three blocks to make sure I got there safely. I'll never forget her kindness."},
+      {"speaker": "Teacher", "text": "These stories show something important - people helped you when you needed it most. Looking back, what did these experiences teach you?"},
+      {"speaker": "Ahmed", "text": "That experience taught me to be brave and ask for help. Also, now I try to help new immigrants whenever I can, just like people helped me."},
+      {"speaker": "Carlos", "text": "Me too! I volunteer at the immigrant resource center now. It feels good to give back."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Introducing memorable experiences",
+      "pattern": "I'll never forget when [past event]",
+      "examples": [
+        "I'll never forget when I first arrived in America.",
+        "I'll never forget when I got my first job.",
+        "I'll never forget when I met my best friend.",
+        "I'll never forget when I learned to drive.",
+        "I'll never forget when I graduated from school."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Sequencing events",
+      "pattern": "First... then... finally...",
+      "examples": [
+        "First, I arrived at the airport. Then, I couldn't find my luggage. Finally, a worker helped me.",
+        "First, I was nervous. Then, I started to relax. Finally, I enjoyed the experience.",
+        "First, I studied English. Then, I found a job. Finally, I bought a car.",
+        "First, we packed everything. Then, we said goodbye to family. Finally, we moved to a new city.",
+        "First, I felt lost. Then, someone helped me. Finally, I found my way."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Reflecting on experiences",
+      "pattern": "That experience taught me [lesson]",
+      "examples": [
+        "That experience taught me to be patient.",
+        "That experience taught me to ask for help when I need it.",
+        "That experience taught me that people are kind.",
+        "That experience taught me to be brave.",
+        "That experience taught me the importance of family."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit7-lesson1-listen1.mp3",
+      "transcript": "Good storytelling includes specific details, emotions, and a clear sequence. Don't just say 'I came to America.' Say 'I arrived in New York on a cold January morning. I felt excited and scared at the same time. The city was so big and loud!' Details help listeners picture the story and connect with your experience.",
+      "question": "What makes storytelling effective?",
+      "options": [
+        "Being very brief",
+        "Including specific details and emotions",
+        "Only stating facts",
+        "Avoiding emotions"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit7-lesson1-listen2.mp3",
+      "transcript": "When telling stories chronologically, use transition words: 'first,' 'then,' 'next,' 'after that,' 'finally.' These help listeners follow the sequence. For example: 'First, I packed my bags. Then, I said goodbye to my family. After that, I boarded the plane. Finally, I arrived in Portland.' Clear transitions make your story easy to understand.",
+      "question": "Why are transition words important?",
+      "options": [
+        "They make stories longer",
+        "They help listeners follow the sequence",
+        "They're required in English",
+        "They make you sound smarter"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit7-lesson1-listen3.mp3",
+      "transcript": "Every good story has a beginning, middle, and end. The beginning sets the scene. The middle describes what happened - often including a challenge or problem. The end shows the resolution or what you learned. For example: Beginning - 'I was nervous about my first day of work.' Middle - 'I got lost and arrived 30 minutes late.' End - 'My boss was understanding, and it taught me to always leave early for important appointments.'",
+      "question": "What does the middle of a story usually include?",
+      "options": [
+        "Only facts and dates",
+        "A challenge or problem",
+        "The lesson learned",
+        "Nothing important"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Tell a story about a memorable first experience (first day at work, first time cooking, etc.). Use 'first, then, finally' to organize. Record for 30 seconds.",
+      "example": "I'll never forget my first day driving in America. First, I was terrified because people drive on the right side here, which is different from my country. Then, I accidentally turned on the windshield wipers instead of the turn signal at a busy intersection. I was so embarrassed! Finally, I pulled over and took a deep breath. A kind driver waved to show it was okay. That experience taught me to practice more in quiet areas before driving in traffic. Now I'm a confident driver!",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Share a time when someone helped you when you really needed it. Include how you felt and what you learned. Record for 30 seconds.",
+      "example": "When I first moved here, I had no furniture and very little money. I was sleeping on the floor. One day, my neighbor noticed and asked if I needed anything. I was too proud to ask for help, but she could see I was struggling. The next day, she brought me a mattress, blankets, and some kitchen items. I was so touched I almost cried. That experience taught me two things: people can be incredibly generous, and it's okay to accept help. Now I always try to help new neighbors, just like she helped me.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write about your first day in a new place (new city, new school, new job, etc.). Use chronological order and include your feelings. (80-100 words)",
+      "min_words": 80,
+      "example": "I'll never forget my first day in Portland. First, I woke up early, feeling both excited and nervous. The weather was rainy and gray, which was very different from Somalia. Then, my cousin took me to see my new apartment. It was small but clean, and I felt grateful to have my own place. After that, we went to the grocery store, and I was overwhelmed by all the choices. Everything was in English, and I didn't recognize most of the food. Finally, I returned to my apartment and called my family back home. I cried because I missed them, but I also felt hopeful about my new life. That day taught me that change is difficult but also full of possibilities.",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "prompt": "Complete this sentence and write a short story (3-4 sentences): 'This reminds me of the time when...' (50-70 words)",
+      "min_words": 50,
+      "example": "This reminds me of the time when I tried to order food in English for the first time. I was at a restaurant, and I practiced what I wanted to say. But when the waiter came, I got so nervous that I forgot everything! I just pointed at the menu and said 'this one, please.' The waiter smiled kindly and helped me. Now, two years later, I can order confidently in English. Sometimes I laugh thinking about that nervous moment.",
+      "min_words": 50
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Past Simple and Past Continuous Together",
+      "explanation": "Use past continuous for background/ongoing action, past simple for main events.",
+      "examples": [
+        "I was waiting at the airport when my cousin arrived. (waiting = background, arrived = main event)",
+        "While I was learning English, I met my best friend. (learning = ongoing, met = specific event)",
+        "She was crying when I found her. (crying = ongoing, found = specific moment)",
+        "We were driving home when it started to rain. (driving = background, started = event)"
+      ],
+      "practice": [
+        {"sentence": "I ___ when the phone rang.", "blank": "was studying", "options": ["was studying", "studied", "study"]},
+        {"sentence": "While she ___ TV, someone knocked.", "blank": "was watching", "options": ["watched", "was watching", "watches"]},
+        {"sentence": "They ___ the news when I called.", "blank": "heard", "options": ["heard", "were hearing", "hear"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Time Sequence Words",
+      "explanation": "Use sequence words to show order of events: first, then, next, after that, finally.",
+      "examples": [
+        "First, I packed my bags. Then, I went to the airport. (showing sequence)",
+        "Next, we boarded the plane. After that, we flew for 20 hours. (continuing sequence)",
+        "Finally, we arrived safely. (ending sequence)",
+        "Before leaving, I said goodbye. After arriving, I called my family. (before/after)"
+      ],
+      "practice": [
+        {"sentence": "___, I woke up early.", "blank": "First", "options": ["First", "Finally", "Then"]},
+        {"sentence": "First I studied. ___, I took the test.", "blank": "Then", "options": ["First", "Then", "Finally"]},
+        {"sentence": "___, we arrived at our destination.", "blank": "Finally", "options": ["First", "Then", "Finally"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "'Used to' for Past Habits",
+      "explanation": "Use 'used to + base verb' to describe past habits or states that are no longer true.",
+      "examples": [
+        "I used to live in Somalia. (past state, now I don't)",
+        "She used to be shy. (past characteristic, now she's not)",
+        "We used to eat dinner at 6 PM. (past habit, now different)",
+        "He didn't use to speak English. (negative past habit)"
+      ],
+      "practice": [
+        {"sentence": "I used to ___ in my country.", "blank": "live", "options": ["live", "living", "lived"]},
+        {"sentence": "She ___ to be nervous.", "blank": "used", "options": ["use", "used", "using"]},
+        {"sentence": "We didn't ___ to understand English.", "blank": "use", "options": ["use", "used", "using"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's first big challenge in America?", "options": ["Learning to drive", "Finding his luggage", "Getting a job", "Finding an apartment"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Who helped Ahmed at the airport?", "options": ["His cousin", "A worker who spoke Arabic", "A police officer", "Another passenger"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does Carlos do now to help immigrants?", "options": ["Teaches ESL", "Volunteers at resource center", "Drives people to airport", "Nothing"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ at the airport when my cousin arrived.'", "options": ["wait", "was waiting", "waited", "am waiting"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Good stories include specific details and emotions.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should avoid using transition words when telling stories.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I used to ___ in Somalia. (past state - live)", "correct": "live", "accept": ["live"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "___, I packed my bags. Then, I left. (sequence word)", "correct": "First", "accept": ["First", "first"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the story element:", "pairs": [{"left": "Beginning", "right": "Set the scene"}, {"left": "Middle", "right": "The challenge"}, {"left": "End", "right": "Resolution/lesson"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What did Ahmed's experience teach him?", "options": ["To avoid airports", "To be brave and ask for help", "To stay in Somalia", "To learn Arabic"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "experience", "definition": "event or activity that affects you", "example": "Moving to America was a life-changing experience."},
+    {"word": "memorable", "definition": "worth remembering; special", "example": "My first day here was very memorable."},
+    {"word": "incident", "definition": "event or occurrence", "example": "I'll never forget that incident at the airport."},
+    {"word": "occur", "definition": "happen; take place", "example": "The problem occurred on my first day."},
+    {"word": "realize", "definition": "become aware of; understand", "example": "I realized I needed help."},
+    {"word": "suddenly", "definition": "quickly and unexpectedly", "example": "Suddenly, I couldn't find my luggage."},
+    {"word": "fortunately", "definition": "luckily", "example": "Fortunately, someone helped me."},
+    {"word": "unfortunately", "definition": "unluckily", "example": "Unfortunately, I got lost."},
+    {"word": "eventually", "definition": "in the end; finally", "example": "Eventually, I found my way."},
+    {"word": "outcome", "definition": "result or consequence", "example": "The outcome was positive."}
+  ],
+  "cultural_notes": [
+    "Americans enjoy sharing personal stories in casual conversation - it builds connections.",
+    "It's common to share immigration stories, especially in diverse cities and ESL classes.",
+    "When someone shares a difficult experience, Americans often respond with empathy: 'I'm sorry you went through that' or 'That must have been hard.'",
+    "Storytelling is valued in American culture - from campfire stories to TED Talks.",
+    "Adding humor to stories about your own mistakes is very American - it shows you don't take yourself too seriously.",
+    "In professional settings, brief personal stories can illustrate points in presentations or interviews."
+  ]
+}

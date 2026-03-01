@@ -1,0 +1,368 @@
+{
+  "id": 9,
+  "unit_id": 1,
+  "lesson_number": 9,
+  "title": "At the Doctor's Office",
+  "description": "Learn to describe symptoms and understand doctor instructions",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+
+  "objectives": [
+    "Describe how you feel (I have a headache / My stomach hurts)",
+    "Answer the doctor's questions about symptoms",
+    "Understand basic medical instructions",
+    "Make and confirm a doctor's appointment"
+  ],
+
+  "target_language": {
+    "phrases": [
+      "I have a headache / stomachache / fever",
+      "My [body part] hurts",
+      "I feel sick / dizzy / tired",
+      "How long have you felt this way?",
+      "Take this medicine",
+      "You need to rest",
+      "Come back in [time]"
+    ],
+    "grammar_pattern": "I have + symptom\nMy + body part + hurts\nI feel + adjective\n\nExamples:\n- I have a headache\n- My stomach hurts\n- I feel sick\n- Take this medicine two times a day",
+    "grammar_patterns": [
+      {
+        "label": "Describing symptoms",
+        "pattern": "I have + [symptom]",
+        "examples": ["I have a headache", "I have a fever", "I have a stomachache"]
+      },
+      {
+        "label": "Saying what hurts",
+        "pattern": "My + [body part] + hurts",
+        "examples": ["My head hurts", "My stomach hurts", "My back hurts"]
+      },
+      {
+        "label": "How you feel",
+        "pattern": "I feel + [adjective]",
+        "examples": ["I feel sick", "I feel dizzy", "I feel tired"]
+      },
+      {
+        "label": "Doctor instructions",
+        "pattern": "Take + [medicine] + [frequency]",
+        "examples": ["Take this medicine two times a day", "Take one pill in the morning", "Take this with food"]
+      }
+    ]
+  },
+
+  "story": {
+    "context": "You are not feeling well. You go to the doctor at the clinic near your apartment.",
+    "dialogue": [
+      {
+        "speaker": "Doctor",
+        "text": "Hello. How are you feeling today?"
+      },
+      {
+        "speaker": "You",
+        "text": "I feel sick. My head hurts."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "I see. Do you have a fever?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes. I feel hot and dizzy."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "How long have you felt this way?"
+      },
+      {
+        "speaker": "You",
+        "text": "Two days."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Okay. Let me check. Open your mouth, please."
+      },
+      {
+        "speaker": "You",
+        "text": "Okay."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "You have the flu. I will give you medicine."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. How do I take it?"
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Take one pill in the morning and one at night. You need to rest and drink a lot of water."
+      },
+      {
+        "speaker": "You",
+        "text": "Okay. Thank you, doctor."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Come back in one week if you don't feel better."
+      }
+    ]
+  },
+
+  "drills": [
+    {
+      "title": "Drill 1: Describing symptoms",
+      "instruction": "Fill in the blank with the correct symptom",
+      "prompts": [
+        {"sentence": "I have a ___.", "answer": "headache"},
+        {"sentence": "I have a ___.", "answer": "fever"},
+        {"sentence": "I have a ___.", "answer": "stomachache"},
+        {"sentence": "I have a ___.", "answer": "cold"}
+      ],
+      "examples": [
+        "I have a headache.",
+        "I have a fever.",
+        "I have a stomachache.",
+        "I have a cold."
+      ],
+      "your_turn": "Now say what symptom you have (real or imagined) out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Saying what hurts",
+      "instruction": "Fill in the blank with the correct body part",
+      "prompts": [
+        {"sentence": "My ___ hurts.", "answer": "head"},
+        {"sentence": "My ___ hurts.", "answer": "stomach"},
+        {"sentence": "My ___ hurts.", "answer": "back"},
+        {"sentence": "My ___ hurts.", "answer": "throat"}
+      ],
+      "examples": [
+        "My head hurts.",
+        "My stomach hurts.",
+        "My back hurts.",
+        "My throat hurts."
+      ],
+      "your_turn": "Now say which body part hurts out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: At the doctor",
+      "instruction": "Fill in the blank to complete the sentence",
+      "prompts": [
+        {"sentence": "I feel ___.", "answer": "sick"},
+        {"sentence": "I feel ___.", "answer": "dizzy"},
+        {"sentence": "I feel ___.", "answer": "tired"},
+        {"sentence": "I need to see a ___.", "answer": "doctor"}
+      ],
+      "examples": [
+        "I feel sick.",
+        "I feel dizzy.",
+        "I feel tired.",
+        "I need to see a doctor."
+      ],
+      "your_turn": "Now describe how you feel to a doctor, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+
+  "listening": [
+    {
+      "question": "Listen: What is wrong with the patient?",
+      "audio": "/audio/lesson9-listen1.mp3",
+      "options": ["Headache", "Stomachache", "Fever", "Broken arm"],
+      "correct": 0,
+      "explanation": "The patient says 'My head hurts. I have a headache.'"
+    },
+    {
+      "question": "Listen: What does the doctor tell the patient to do?",
+      "audio": "/audio/lesson9-listen2.mp3",
+      "options": ["Go to the hospital", "Take medicine and rest", "Come back tomorrow", "Drink coffee"],
+      "correct": 1,
+      "explanation": "The doctor says 'Take this medicine and rest.'"
+    },
+    {
+      "question": "Listen: How long has the person been sick?",
+      "audio": "/audio/lesson9-listen3.mp3",
+      "options": ["One day", "Two days", "Three days", "One week"],
+      "correct": 2,
+      "explanation": "The patient says 'Three days.'"
+    }
+  ],
+
+  "speaking": [
+    {
+      "title": "Task 1: Describe your symptoms",
+      "instruction": "Record yourself telling the doctor three symptoms: a headache, a fever, and a sore throat.",
+      "example": "I have a headache. I have a fever. My throat hurts."
+    },
+    {
+      "title": "Task 2: Doctor visit conversation",
+      "instruction": "Record a short conversation where you visit the doctor because your stomach hurts.",
+      "example": "Doctor: How are you feeling?\nYou: I feel sick. My stomach hurts.\nDoctor: How long?\nYou: Two days.\nDoctor: Take this medicine.\nYou: Thank you, doctor."
+    }
+  ],
+
+  "writing": [
+    {
+      "title": "Task 1: Write your symptoms",
+      "instruction": "Write 5 sentences describing different symptoms. Use 'I have...', 'My ... hurts', or 'I feel...'",
+      "example": "1. I have a headache.\n2. My back hurts.\n3. I feel dizzy.\n4. I have a fever.\n5. My throat hurts."
+    },
+    {
+      "title": "Task 2: Write a doctor visit",
+      "instruction": "Write a conversation (8-10 lines) where you visit the doctor because you feel sick.",
+      "example": "Doctor: Hello. How are you feeling?\nYou: I feel sick.\nDoctor: What is wrong?\nYou: My head hurts and I have a fever.\nDoctor: How long?\nYou: Three days.\nDoctor: Take this medicine two times a day.\nYou: Okay. Thank you.\nDoctor: Come back in one week.\nYou: Thank you, doctor."
+    }
+  ],
+
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Talking about symptoms with 'I have'",
+        "examples": [
+          "I have a headache.",
+          "I have a fever.",
+          "I have a cold."
+        ],
+        "question": "What pattern do you see for telling the doctor what is wrong?",
+        "explanation": "We use 'I have + a + symptom' to describe what is wrong. Common symptoms: a headache, a fever, a stomachache, a cold, a cough."
+      },
+      {
+        "title": "Saying what hurts",
+        "examples": [
+          "My head hurts.",
+          "My stomach hurts.",
+          "My back hurts."
+        ],
+        "question": "How do we say which body part has pain?",
+        "explanation": "We use 'My + [body part] + hurts' to say where the pain is. This is very useful at the doctor."
+      },
+      {
+        "title": "Describing how you feel",
+        "examples": [
+          "I feel sick.",
+          "I feel dizzy.",
+          "I feel tired.",
+          "I feel better."
+        ],
+        "question": "How do we describe our general feeling?",
+        "explanation": "We use 'I feel + [adjective]' to describe our general condition. The doctor will often ask 'How do you feel?' or 'How are you feeling?'"
+      }
+    ]
+  },
+
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Your head hurts. What do you tell the doctor?",
+      "options": [
+        "My head is hurt",
+        "I have a headache",
+        "Head is pain",
+        "I pain head"
+      ],
+      "correct": 1,
+      "explanation": "'I have a headache' is the correct way to describe this symptom."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The doctor asks 'How are you feeling?' You are sick. You say:",
+      "options": [
+        "I am feeling sick",
+        "I feel good",
+        "Sick I am",
+        "Feeling not good"
+      ],
+      "correct": 0,
+      "explanation": "'I am feeling sick' or 'I feel sick' are both correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: My stomach ___.",
+      "options": [
+        "hurt",
+        "hurts",
+        "hurting",
+        "is hurt"
+      ],
+      "correct": 1,
+      "explanation": "We say 'My stomach hurts.' The body part is singular, so we use 'hurts'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The doctor says 'Take one pill in the morning.' What does this mean?",
+      "options": [
+        "Eat one pill when you wake up",
+        "Take the pill to the morning",
+        "Buy one pill in the morning",
+        "Give one pill in the morning"
+      ],
+      "correct": 0,
+      "explanation": "'Take medicine' means to eat or swallow the medicine. 'In the morning' means when you wake up."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I have a ___. (your body temperature is high)",
+      "options": [
+        "headache",
+        "cold",
+        "fever",
+        "cough"
+      ],
+      "correct": 2,
+      "explanation": "A fever means your body temperature is high. You feel hot."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The doctor says 'You need to rest.' What should you do?",
+      "options": [
+        "Go to work",
+        "Stay home and sleep",
+        "Take a test",
+        "Go to the store"
+      ],
+      "correct": 1,
+      "explanation": "'Rest' means to relax and sleep. The doctor wants you to stay home and get better."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "I have headache",
+        "I have a headache",
+        "I has a headache",
+        "I am headache"
+      ],
+      "correct": 1,
+      "explanation": "'I have a headache' is correct. We need 'a' before 'headache'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You feel like the room is spinning. You say:",
+      "options": [
+        "I feel dizzy",
+        "I feel hungry",
+        "I feel happy",
+        "I feel sleepy"
+      ],
+      "correct": 0,
+      "explanation": "'Dizzy' means feeling like the room is spinning. This is important to tell the doctor."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you visit the doctor because you have a stomachache and a fever.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: greeting, describing symptoms, doctor asking questions, and doctor giving advice."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about a time you were sick. Write 3 sentences describing how you felt using the phrases from this lesson.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice using real experiences. Example: I had a fever. My head hurt. I felt tired."
+    }
+  ]
+}

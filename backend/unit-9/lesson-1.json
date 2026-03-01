@@ -1,0 +1,237 @@
+{
+  "id": "lesson-51",
+  "unit_id": 9,
+  "lesson_number": 1,
+  "title": "Participating in Discussions and Debates",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Express and defend opinions in formal discussions",
+    "Respectfully disagree with others",
+    "Build on others' ideas effectively",
+    "Use advanced discussion language"
+  ],
+  "target_phrases": [
+    "I see your point, but...",
+    "Building on what [name] said...",
+    "I'd like to challenge that assumption...",
+    "From my perspective...",
+    "To play devil's advocate...",
+    "Let me offer a counterargument...",
+    "That raises an interesting question..."
+  ],
+  "dialogue": {
+    "title": "Community Meeting About Development Project",
+    "context": "Ahmed attends a community meeting to discuss a proposed development project. Residents debate the pros and cons.",
+    "lines": [
+      {"speaker": "Moderator", "text": "Thank you all for coming. We're here to discuss the proposed apartment complex on Division Street. Let's hear different perspectives."},
+      {"speaker": "Resident 1", "text": "I support this project. Our neighborhood needs more housing. The rental market is extremely tight, and this will help."},
+      {"speaker": "Ahmed", "text": "I see your point about housing needs, but I'm concerned about parking. The plan only includes one space per unit, yet many families have two cars."},
+      {"speaker": "Resident 2", "text": "Building on what Ahmed said, I'm also worried about traffic congestion. Division Street is already crowded during rush hour."},
+      {"speaker": "Developer", "text": "Those are valid concerns. However, the building is near the MAX line. We're encouraging public transit use, which should reduce car dependency."},
+      {"speaker": "Ahmed", "text": "I appreciate that perspective, but to play devil's advocate - many residents work in suburbs without good transit access. They'll still need cars."},
+      {"speaker": "Resident 1", "text": "Let me offer a counterargument. If we don't build denser housing near transit, we'll just push development further out, creating more sprawl and traffic."},
+      {"speaker": "Resident 3", "text": "That raises an interesting question about balancing growth with livability. Perhaps we could support the project with conditions?"},
+      {"speaker": "Ahmed", "text": "I'd agree with that approach. What if we required more parking or funded traffic improvements?"},
+      {"speaker": "Moderator", "text": "These are thoughtful points from all sides. I appreciate the respectful exchange of ideas."},
+      {"speaker": "Developer", "text": "We're open to discussing modifications. Let's form a working group to explore solutions."},
+      {"speaker": "Ahmed", "text": "That seems like a reasonable path forward. I'd be willing to participate."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Acknowledging then disagreeing",
+      "pattern": "I see your point, but/however [counterpoint]",
+      "examples": [
+        "I see your point about cost, but we also need to consider quality.",
+        "I understand that perspective, however I think there's another side to this.",
+        "I appreciate your concern, but I believe the benefits outweigh the risks.",
+        "That's a valid argument, but have you considered the long-term implications?",
+        "I hear what you're saying, however the data suggests otherwise."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Building on others' ideas",
+      "pattern": "Building on what [person] said, [additional idea]",
+      "examples": [
+        "Building on what Sara said, I think we should also consider environmental impact.",
+        "To add to Michael's point, this could create new job opportunities.",
+        "Expanding on that idea, we might apply the same approach to other areas.",
+        "Following up on your comment, have we looked at similar projects?",
+        "That connects to what I was thinking about community input."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Presenting counterarguments",
+      "pattern": "Let me offer a counterargument/To play devil's advocate",
+      "examples": [
+        "Let me offer a counterargument - rushing this decision might cause bigger problems later.",
+        "To play devil's advocate, what if the opposite approach actually works better?",
+        "I'd like to challenge that assumption - is it really true in all cases?",
+        "From a different angle, couldn't we argue that...?",
+        "Let me present an alternative view - perhaps we're focusing on the wrong issue."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson1-listen1.mp3",
+      "transcript": "Effective debaters acknowledge opposing views before presenting counterarguments. This shows respect and makes your position stronger. Don't just say 'You're wrong.' Instead, say 'I see your point about X, but I think we also need to consider Y.' This technique, called 'steel-manning,' demonstrates you understand the other side before disagreeing.",
+      "question": "What is 'steel-manning' in debate?",
+      "options": [
+        "Ignoring opposing views",
+        "Understanding opposing views before disagreeing",
+        "Attacking the other person",
+        "Agreeing with everything"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson1-listen2.mp3",
+      "transcript": "Building on others' ideas shows collaborative thinking. Use phrases like 'Building on what Sarah said,' or 'To add to that point.' This creates constructive dialogue rather than competitive arguing. In professional settings, this approach demonstrates teamwork and critical thinking skills. It's more effective than completely dismissing previous speakers.",
+      "question": "Why build on others' ideas in discussions?",
+      "options": [
+        "To show off",
+        "To create constructive, collaborative dialogue",
+        "To confuse people",
+        "To avoid giving your own opinion"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson1-listen3.mp3",
+      "transcript": "Playing devil's advocate means arguing the opposite position to test ideas. Say 'To play devil's advocate,' before presenting the counterpoint. This helps groups consider all angles and avoid groupthink. It's not the same as being contrarian - you're genuinely helping the group think more critically, even if you partially agree with the original position.",
+      "question": "What does playing devil's advocate mean?",
+      "options": [
+        "Being mean to people",
+        "Always disagreeing",
+        "Arguing the opposite to test ideas",
+        "Avoiding discussion"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Choose a local issue (traffic, housing, schools). Present one viewpoint, then acknowledge and counter it. Use discussion phrases. Record for 30 seconds.",
+      "example": "Let me discuss the proposal to add bike lanes on our main street. Supporters argue this will reduce traffic and promote healthy transportation. I see their point about environmental benefits - cycling produces zero emissions. However, I'm concerned about the impact on businesses. Removing parking spaces could hurt shops that depend on drive-up customers. To play devil's advocate against my own concern, perhaps better bike access could actually bring more customers who currently avoid the area due to parking difficulties. This raises an interesting question: should we prioritize long-term sustainability over short-term business concerns? I think we need data from similar projects before deciding.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Someone says 'Social media does more harm than good.' Respond by acknowledging their view, then building a counterargument. Record for 25 seconds.",
+      "example": "I understand why some people feel social media does more harm than good. There are legitimate concerns about privacy, misinformation, and mental health impacts, especially for young people. However, let me offer a counterargument. Social media has also enabled global movements for social justice, helped people maintain long-distance relationships, and created economic opportunities for small businesses. Building on that point, during the pandemic, social media was crucial for keeping communities connected. Perhaps the issue isn't social media itself, but how we regulate and use it. That raises the question of whether we need better digital literacy education rather than condemning the technology entirely.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a paragraph presenting both sides of an issue (remote work, online education, etc.). Use discussion language to acknowledge and counter arguments. (100-120 words)",
+      "min_words": 100,
+      "example": "The debate over mandatory return-to-office policies presents valid arguments on both sides. Employers argue that in-person work fosters collaboration, builds company culture, and improves productivity through direct supervision. I see their point about spontaneous interactions leading to innovation. However, I'd like to challenge the assumption that physical presence equals better results. Remote work has demonstrated numerous benefits: eliminated commute time, better work-life balance, and access to global talent pools. Building on the productivity argument, many studies show remote workers are actually more efficient due to fewer office distractions. To play devil's advocate against my own position, some roles genuinely require in-person collaboration. Perhaps the solution isn't one-size-fits-all but rather flexible hybrid models that leverage benefits of both approaches while minimizing drawbacks.",
+      "min_words": 100
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a response to this statement: 'Everyone should learn to code.' Acknowledge the view, present a counterargument, and suggest a middle ground. (80-100 words)",
+      "min_words": 80,
+      "example": "I understand the enthusiasm behind 'everyone should learn to code.' In our digital age, coding skills offer career advantages and help people understand technology shaping our world. Those are compelling points. However, let me offer a counterargument. Not everyone has aptitude for or interest in programming, and that's okay. We need diverse skills - teachers, healthcare workers, artists, tradespeople. Requiring universal coding knowledge could devalue other essential abilities. That said, I think there's a middle ground: everyone should understand basic computational thinking and how technology works, but not necessarily become programmers. Digital literacy matters more than coding proficiency for most people.",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Concessive Clauses (although, even though, while)",
+      "explanation": "Use concessive clauses to acknowledge opposing points while maintaining your position.",
+      "examples": [
+        "Although I understand the concern, I disagree with the conclusion.",
+        "Even though costs are high, the benefits justify the investment.",
+        "While that's a valid point, we should also consider long-term impacts.",
+        "Despite these challenges, I believe the project should proceed."
+      ],
+      "practice": [
+        {"sentence": "___ housing is expensive, we need to build more.", "blank": "Although", "options": ["Although", "Because", "So"]},
+        {"sentence": "___ that's true, there's another perspective.", "blank": "While", "options": ["While", "Because", "Therefore"]},
+        {"sentence": "I agree, ___ I have some concerns.", "blank": "though", "options": ["though", "because", "so"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Modal Verbs for Speculation and Possibility",
+      "explanation": "Use modals (could, might, may) to suggest possibilities in discussions.",
+      "examples": [
+        "This could create unintended consequences.",
+        "That might work in some cases but not others.",
+        "We may need to consider alternative approaches.",
+        "This approach could potentially solve both problems."
+      ],
+      "practice": [
+        {"sentence": "This ___ lead to problems.", "blank": "could", "options": ["could", "must", "will"]},
+        {"sentence": "We ___ need more information.", "blank": "might", "options": ["might", "must", "will"]},
+        {"sentence": "That ___ be true in theory.", "blank": "may", "options": ["may", "must", "will"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional Sentences for Hypothetical Scenarios",
+      "explanation": "Use conditionals to explore 'what if' scenarios in debates.",
+      "examples": [
+        "If we implement this policy, what would happen to small businesses?",
+        "If we don't act now, the problem will worsen.",
+        "What if we tried a different approach?",
+        "If that were true, we would see different results."
+      ],
+      "practice": [
+        {"sentence": "If we ___ this, traffic would improve.", "blank": "did", "options": ["do", "did", "done"]},
+        {"sentence": "What if we ___ differently?", "blank": "approached", "options": ["approach", "approached", "approaches"]},
+        {"sentence": "If that ___ true, I'd agree.", "blank": "were", "options": ["was", "were", "is"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's main concern about the development?", "options": ["Cost", "Parking", "Design", "Location"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What phrase means arguing the opposite to test ideas?", "options": ["Building on", "Devil's advocate", "I see your point", "Counterargument"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What did the group decide to do?", "options": ["Reject the project", "Approve immediately", "Form a working group", "Delay indefinitely"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: '___ I understand, I disagree.'", "options": ["Because", "Although", "So", "Therefore"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Building on others' ideas shows collaborative thinking.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should immediately dismiss opposing views in debates.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "This ___ create problems. (modal for possibility)", "correct": "could", "accept": ["could", "might", "may"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "___ that's valid, I have concerns. (concessive)", "correct": "While", "accept": ["While", "Although", "Though"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match discussion technique:", "pairs": [{"left": "I see your point, but", "right": "Acknowledge then disagree"}, {"left": "Building on that", "right": "Add to others' ideas"}, {"left": "Devil's advocate", "right": "Test ideas"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What shows respect in debate?", "options": ["Ignoring others", "Acknowledging opposing views", "Interrupting", "Attacking personally"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "debate", "definition": "formal discussion of opposing views", "example": "We had a debate about the policy."},
+    {"word": "counterargument", "definition": "argument opposing another argument", "example": "She presented a strong counterargument."},
+    {"word": "perspective", "definition": "particular way of viewing things", "example": "From my perspective, this is important."},
+    {"word": "advocate", "definition": "publicly support or recommend", "example": "I advocate for this approach."},
+    {"word": "assumption", "definition": "thing accepted as true without proof", "example": "That's a questionable assumption."},
+    {"word": "implication", "definition": "conclusion that follows from something", "example": "What are the implications of this?"},
+    {"word": "consensus", "definition": "general agreement", "example": "We reached consensus on the plan."},
+    {"word": "concede", "definition": "admit something is true", "example": "I concede that point."},
+    {"word": "rhetoric", "definition": "art of effective speaking/writing", "example": "His rhetoric was persuasive."},
+    {"word": "refute", "definition": "prove statement wrong", "example": "The data refutes that claim."}
+  ],
+  "cultural_notes": [
+    "American workplace culture values constructive debate - disagreement is seen as productive, not rude, when done respectfully.",
+    "Town hall meetings and community forums are common in U.S. civic life for public discussion of local issues.",
+    "In U.S. academic settings, students are expected to question ideas and engage in debate - it's part of critical thinking.",
+    "Political debates are central to American democracy - presidential debates are major media events.",
+    "Americans generally value direct communication in professional discussions, though always with respect.",
+    "The phrase 'agree to disagree' is commonly used when consensus isn't possible but relationships remain respectful."
+  ]
+}

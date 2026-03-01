@@ -1,0 +1,303 @@
+{
+  "id": 22,
+  "unit_id": 3,
+  "lesson_number": 4,
+  "title": "Shopping Smart",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Compare prices and find good deals",
+    "Understand sales, discounts, and coupons",
+    "Ask about return and exchange policies",
+    "Read price tags, receipts, and understand sales tax"
+  ],
+  "target_phrases": [
+    "How much is this?",
+    "Is this on sale?",
+    "Do you have this in a different size?",
+    "Can I return this if it doesn't fit?",
+    "Do you accept coupons?",
+    "What's your return policy?",
+    "Is tax included in this price?"
+  ],
+  "dialogue": {
+    "title": "Shopping for Work Clothes",
+    "context": "Ahmed needs to buy clothes for his new job. He's shopping at Target and talking to a sales associate named Jennifer.",
+    "lines": [
+      {"speaker": "Jennifer", "text": "Hi! Can I help you find something today?"},
+      {"speaker": "Ahmed", "text": "Yes, please. I need work pants and shirts for my job. Where can I find men's clothes?"},
+      {"speaker": "Jennifer", "text": "Men's clothing is in aisle 12. We're having a sale today - all work pants are 25% off!"},
+      {"speaker": "Ahmed", "text": "That's great! How much are the pants normally?"},
+      {"speaker": "Jennifer", "text": "They're usually $32, but with the discount, they're $24."},
+      {"speaker": "Ahmed", "text": "Perfect. Do you have this in size 34?"},
+      {"speaker": "Jennifer", "text": "Let me check... Yes, here you go. We also have shirts on sale - buy one, get one 50% off."},
+      {"speaker": "Ahmed", "text": "Excellent! Can I return these if they don't fit?"},
+      {"speaker": "Jennifer", "text": "Yes, you have 90 days to return with your receipt. Keep the tags on if you're not sure about the size."},
+      {"speaker": "Ahmed", "text": "Good to know. One more question - is tax included in these prices?"},
+      {"speaker": "Jennifer", "text": "No, Oregon doesn't have sales tax, so the price you see is what you pay. That's nice, right?"},
+      {"speaker": "Ahmed", "text": "Yes, that makes it easy! I'll take two pairs of pants and three shirts."},
+      {"speaker": "Jennifer", "text": "Great choice! Let me ring these up for you at the register."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about prices and sales",
+      "pattern": "How much is/are [item]?",
+      "examples": [
+        "How much is this shirt?",
+        "How much are these pants?",
+        "How much is that jacket?",
+        "How much are those shoes?",
+        "How much is this TV?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about sizes and colors",
+      "pattern": "Do you have this in [size/color]?",
+      "examples": [
+        "Do you have this in size medium?",
+        "Do you have this in blue?",
+        "Do you have this in a larger size?",
+        "Do you have this in black?",
+        "Do you have this in extra large?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Understanding discounts",
+      "pattern": "This is [percentage] off / on sale",
+      "examples": [
+        "This shirt is 25% off",
+        "These shoes are on sale for $40",
+        "Everything is 50% off today",
+        "This jacket is 30% off the original price",
+        "Buy one, get one 50% off"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit3-lesson4-listen1.mp3",
+      "transcript": "Welcome to our summer sale! All summer clothing is 40% off. T-shirts start at just $10. Shorts are buy one, get one 50% off. And sandals are marked down to $15 a pair. Don't forget - we have a clearance rack in the back with items up to 70% off. Sale ends Sunday!",
+      "question": "What is the discount on summer clothing?",
+      "options": ["25% off", "30% off", "40% off", "50% off"],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit3-lesson4-listen2.mp3",
+      "transcript": "Our return policy is simple. You have 30 days to return most items with your receipt. The item must be unused with tags still attached. We'll give you a full refund to your original payment method. For items without a receipt, we can give you store credit at the current sale price.",
+      "question": "How long do you have to return items?",
+      "options": ["7 days", "15 days", "30 days", "90 days"],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit3-lesson4-listen3.mp3",
+      "transcript": "Let me explain your receipt. The subtotal is $85.50 - that's the cost of your items before tax. Sales tax is 6%, so that's $5.13. Your total is $90.63. You paid with a debit card, and you saved $22.40 with today's sale. Your confirmation number is 7-8-4-2.",
+      "question": "What was the total amount paid including tax?",
+      "options": ["$85.50", "$87.63", "$90.63", "$92.40"],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're in a store. Record yourself asking: 'Excuse me, how much is this jacket? Do you have it in medium? Is it on sale?' Practice speaking clearly and politely.",
+      "example": "Excuse me, I have some questions. How much is this jacket? It's very nice. Do you have it in medium? I wear size medium. Also, is it on sale? I saw a sale sign. Thank you for your help.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain to a friend how to save money when shopping. Record yourself giving 3 tips. Talk for at least 30 seconds.",
+      "example": "Here are my tips for saving money when shopping. First, always look for sales and discounts. Many stores have sales every week. Second, use coupons if the store accepts them. You can find coupons online or in the mail. Third, check the clearance section. You can find great deals on clearance items. These tips help me save a lot of money.",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about how you like to shop. Do you like sales? Do you compare prices? Do you shop online or in stores? Use phrases like: 'I always...', 'I usually...', 'I never...'",
+      "min_words": 40,
+      "example": "I always look for sales before I buy anything. I usually compare prices at different stores. I like shopping online because it's convenient. I never buy something without checking if there's a coupon. I sometimes shop at thrift stores to save money."
+    },
+    {
+      "id": "write-2",
+      "prompt": "Look at this receipt and answer the questions:\n\nShirt: $20\nPants: $35\nSubtotal: $55\nTax (6%): $3.30\nTotal: $58.30\nYou saved: $15\n\nQuestions: 1) How much was the subtotal? 2) How much was the tax? 3) How much did you save?",
+      "min_words": 30,
+      "example": "The subtotal was $55 before tax. The tax was $3.30, which is 6% of the subtotal. The total amount paid was $58.30. I saved $15 with the sale prices. Without the sale, I would have paid $73.30."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "This/That/These/Those",
+      "explanation": "Use 'this/these' for things near you. Use 'that/those' for things far away. 'This/that' = singular. 'These/those' = plural.",
+      "examples": [
+        "How much is this shirt? (one shirt, near me)",
+        "How much are these shirts? (multiple shirts, near me)",
+        "I like that jacket. (one jacket, over there)",
+        "Those pants are nice. (multiple pants, over there)"
+      ],
+      "practice": [
+        {"sentence": "How much is ___ shirt? (near you, one)", "blank": "this", "options": ["this", "that", "these"]},
+        {"sentence": "I like ___ shoes. (near you, two)", "blank": "these", "options": ["this", "that", "these"]},
+        {"sentence": "___ hat over there is nice. (far away, one)", "blank": "That", "options": ["This", "That", "Those"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Comparative Adjectives for Shopping",
+      "explanation": "Use comparatives to compare prices and quality. Add '-er' to short adjectives. Use 'more' with long adjectives.",
+      "examples": [
+        "This shirt is cheaper than that one. (cheap → cheaper)",
+        "This jacket is more expensive. (expensive → more expensive)",
+        "These shoes are better quality. (good → better)",
+        "That store is closer to my house. (close → closer)"
+      ],
+      "practice": [
+        {"sentence": "This shirt is ___ than that one.", "blank": "cheaper", "options": ["cheap", "cheaper", "more cheap"]},
+        {"sentence": "This jacket is ___ expensive.", "blank": "more", "options": ["more", "most", "very"]},
+        {"sentence": "These pants are ___ quality.", "blank": "better", "options": ["good", "better", "best"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional Questions with 'If'",
+      "explanation": "Use 'if' to ask about conditions or possibilities when shopping.",
+      "examples": [
+        "Can I return this if it doesn't fit? (condition)",
+        "What happens if I lose my receipt? (condition)",
+        "Can I exchange this if I change my mind? (condition)",
+        "Do you charge extra if I pay with a card? (condition)"
+      ],
+      "practice": [
+        {"sentence": "Can I return this ___ it doesn't fit?", "blank": "if", "options": ["if", "when", "because"]},
+        {"sentence": "What happens ___ I want to exchange it?", "blank": "if", "options": ["if", "that", "why"]},
+        {"sentence": "___ I need a receipt to return items?", "blank": "Do", "options": ["Do", "If", "Can"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, what discount is on work pants?",
+        "options": ["15% off", "20% off", "25% off", "50% off"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What does 'buy one, get one 50% off' mean?",
+        "options": [
+          "Everything is 50% off",
+          "Buy one item, get a second item for half price",
+          "Buy one item, get one free",
+          "All items are half price"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Complete: 'Do you have this ___ blue?'",
+        "options": ["at", "in", "on", "with"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "How long does Ahmed have to return items at Target?",
+        "options": ["30 days", "60 days", "90 days", "One year"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "Oregon has sales tax on clothing.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You should keep the receipt if you might return something.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "How much ___ these shoes? (question about plural items)",
+        "correct": "are",
+        "accept": ["are"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "This shirt is ___ than that one. (comparative: cheap)",
+        "correct": "cheaper",
+        "accept": ["cheaper"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the shopping term to its meaning:",
+        "pairs": [
+          {"left": "Discount", "right": "Reduced price"},
+          {"left": "Receipt", "right": "Proof of purchase"},
+          {"left": "Return", "right": "Bring item back"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "Which is correct?",
+        "options": [
+          "How much is this shirts?",
+          "How much are this shirt?",
+          "How much is these shirts?",
+          "How much are these shirts?"
+        ],
+        "correct": 3,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "sale", "definition": "items sold at reduced prices", "example": "There's a big sale at the mall this weekend."},
+    {"word": "discount", "definition": "reduction in price", "example": "I got a 20% discount with my coupon."},
+    {"word": "coupon", "definition": "paper or code that gives you a discount", "example": "I have a coupon for $5 off."},
+    {"word": "receipt", "definition": "paper showing what you bought and paid", "example": "Keep your receipt in case you need to return something."},
+    {"word": "return", "definition": "to bring an item back to the store", "example": "Can I return this if it doesn't fit?"},
+    {"word": "exchange", "definition": "to trade an item for a different one", "example": "I want to exchange this for a larger size."},
+    {"word": "refund", "definition": "money given back when you return something", "example": "I got a full refund for the broken item."},
+    {"word": "clearance", "definition": "items sold at very low prices to clear inventory", "example": "Check the clearance rack for great deals."},
+    {"word": "tax", "definition": "extra money added to price by government", "example": "The tax on this item is 6%."},
+    {"word": "subtotal", "definition": "cost before tax is added", "example": "The subtotal is $50, plus $3 tax."}
+  ],
+  "cultural_notes": [
+    "Most U.S. states have sales tax (6-10%), but Oregon, Delaware, Montana, New Hampshire, and Alaska don't.",
+    "Black Friday (after Thanksgiving) and Cyber Monday are huge shopping days with big sales.",
+    "Many stores have generous return policies - 30 to 90 days is common.",
+    "You can often find coupons online or in apps like Honey or RetailMeNot.",
+    "Outlet stores sell brand-name items at discounted prices.",
+    "'Clearance' items are usually final sale with no returns, so check carefully.",
+    "Thrift stores (Goodwill, Salvation Army) have very cheap used items and support good causes."
+  ]
+}

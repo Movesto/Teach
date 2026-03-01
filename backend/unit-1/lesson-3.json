@@ -1,0 +1,364 @@
+{
+  "id": 3,
+  "unit_id": 1,
+  "lesson_number": 3,
+  "title": "Asking for Help",
+  "description": "Learn to ask for help and ask basic questions",
+  "difficulty": "beginner",
+  "is_last_in_unit": true,
+  
+  "objectives": [
+    "Ask for help politely (Can you help me?)",
+    "Explain simple problems (I need... / I have a problem)",
+    "Ask where things are (Where is...?)",
+    "Use 'please' and 'thank you' appropriately"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Can you help me?",
+      "I need help",
+      "I have a problem",
+      "Where is [place/thing]?",
+      "Excuse me",
+      "Please",
+      "I don't understand"
+    ],
+    "grammar_pattern": "Can you help me?\nCan you + verb?\n\nWhere is + place/thing?\n\nI need + noun\nI have + noun\n\nExamples:\n- Can you help me?\n- Can you show me?\n- Where is the bathroom?\n- I need a doctor\n- I have a problem",
+    "grammar_patterns": [
+      {
+        "label": "Polite requests",
+        "pattern": "Can you + [verb]?",
+        "examples": ["Can you help me?", "Can you show me?", "Can you tell me?"]
+      },
+      {
+        "label": "Asking about location",
+        "pattern": "Where is + [place/thing]?",
+        "examples": ["Where is the bathroom?", "Where is the laundry room?", "Where is the bus stop?"]
+      },
+      {
+        "label": "Saying what you need",
+        "pattern": "I need + [thing]",
+        "examples": ["I need help", "I need a doctor", "I need directions"]
+      },
+      {
+        "label": "Describing a situation",
+        "pattern": "I have + [thing]",
+        "examples": ["I have a problem", "I have a question", "I have an appointment"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are in your apartment building. You can't find the laundry room. You ask your neighbor Marcus for help.",
+    "dialogue": [
+      {
+        "speaker": "You",
+        "text": "Excuse me, Marcus."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Hi! How are you?"
+      },
+      {
+        "speaker": "You",
+        "text": "I am good. Can you help me?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Sure! What do you need?"
+      },
+      {
+        "speaker": "You",
+        "text": "Where is the laundry room?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "The laundry room is in the basement."
+      },
+      {
+        "speaker": "You",
+        "text": "Where is the basement?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "I can show you. Come with me."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you!"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "You're welcome. Here it is. This is the laundry room."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you very much!"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "No problem. If you need help, just ask me."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Asking for help",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "Can you ___ me?", "answer": "help"},
+        {"sentence": "Can you help me, ___?", "answer": "please"},
+        {"sentence": "I ___ help.", "answer": "need"},
+        {"sentence": "Excuse me, ___ you help me?", "answer": "can"}
+      ],
+      "examples": [
+        "Can you help me?",
+        "Can you help me, please?",
+        "I need help.",
+        "Excuse me, can you help me?"
+      ],
+      "your_turn": "Now say 'Can you help me?' out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking where things are",
+      "instruction": "Fill in the blank with the correct place",
+      "prompts": [
+        {"sentence": "Where is the ___?", "answer": "bathroom"},
+        {"sentence": "Where is the ___?", "answer": "laundry room"},
+        {"sentence": "Where is the ___?", "answer": "store"},
+        {"sentence": "Where is the ___?", "answer": "bus stop"}
+      ],
+      "examples": [
+        "Where is the bathroom?",
+        "Where is the laundry room?",
+        "Where is the store?",
+        "Where is the bus stop?"
+      ],
+      "your_turn": "Now ask where a place near you is, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Can you... requests",
+      "instruction": "Fill in the blank with the correct verb",
+      "prompts": [
+        {"sentence": "Can you ___ me?", "answer": "show"},
+        {"sentence": "Can you ___ me?", "answer": "tell"},
+        {"sentence": "Can you ___ me?", "answer": "call"},
+        {"sentence": "Can you ___?", "answer": "wait"}
+      ],
+      "examples": [
+        "Can you show me?",
+        "Can you tell me?",
+        "Can you call me?",
+        "Can you wait?"
+      ],
+      "your_turn": "Now make a polite request starting with 'Can you...', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What does the person need?",
+      "audio": "/audio/lesson3-listen1.mp3",
+      "options": ["Money", "Food", "Help", "A phone"],
+      "correct": 2,
+      "explanation": "The person says 'I need help'"
+    },
+    {
+      "question": "Listen: Where is the bathroom?",
+      "audio": "/audio/lesson3-listen2.mp3",
+      "options": ["First floor", "Second floor", "Basement", "Outside"],
+      "correct": 0,
+      "explanation": "The answer is 'The bathroom is on the first floor'"
+    },
+    {
+      "question": "Listen: Can he help?",
+      "audio": "/audio/lesson3-listen3.mp3",
+      "options": ["Yes", "No", "Maybe", "Later"],
+      "correct": 0,
+      "explanation": "He says 'Yes, I can help you'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Ask for directions",
+      "instruction": "Record yourself asking where three places are: the bathroom, the store, and the bus stop.",
+      "example": "Where is the bathroom? Where is the store? Where is the bus stop?"
+    },
+    {
+      "title": "Task 2: Ask for help conversation",
+      "instruction": "Record a conversation where you ask Marcus for help finding the laundry room.",
+      "example": "You: Excuse me, Marcus. Can you help me?\nMarcus: Sure!\nYou: Where is the laundry room?\nMarcus: It's in the basement.\nYou: Thank you!"
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write questions",
+      "instruction": "Write 5 questions asking where different places are. Use 'Where is...'",
+      "example": "1. Where is the bathroom?\n2. Where is the store?\n3. Where is the hospital?\n4. Where is the school?\n5. Where is the park?"
+    },
+    {
+      "title": "Task 2: Write a help conversation",
+      "instruction": "Write a conversation (8-10 lines) where you ask someone for help. You can't find something or you have a problem.",
+      "example": "You: Excuse me.\nPerson: Yes?\nYou: Can you help me?\nPerson: Sure. What do you need?\nYou: Where is the bus stop?\nPerson: The bus stop is on Main Street.\nYou: Can you show me?\nPerson: Yes, come with me.\nYou: Thank you very much!\nPerson: You're welcome."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Making requests with 'Can you'",
+        "examples": [
+          "Can you help me?",
+          "Can you show me?",
+          "Can you tell me?",
+          "Can you wait?"
+        ],
+        "question": "What pattern do you see for making polite requests?",
+        "explanation": "We use 'Can you + verb?' to ask someone to do something politely. This is very common and polite."
+      },
+      {
+        "title": "Asking about locations",
+        "examples": [
+          "Where is the bathroom?",
+          "Where is the store?",
+          "Where is Marcus?"
+        ],
+        "question": "How do we ask where something or someone is?",
+        "explanation": "We use 'Where is + [thing/person]?' to ask about location. This is one of the most useful questions."
+      },
+      {
+        "title": "Getting attention politely",
+        "examples": [
+          "Excuse me",
+          "Excuse me, can you help me?",
+          "Excuse me, where is the bathroom?"
+        ],
+        "question": "What do we say before asking a question to a stranger?",
+        "explanation": "We say 'Excuse me' to get someone's attention politely before asking a question. This is very important for politeness."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You need help. What do you say?",
+      "options": [
+        "Help!",
+        "Can you help me?",
+        "I want help",
+        "You help me"
+      ],
+      "correct": 1,
+      "explanation": "'Can you help me?' is the polite way to ask for help."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know where the bathroom is. What do you ask?",
+      "options": [
+        "Bathroom where?",
+        "Where bathroom?",
+        "Where is the bathroom?",
+        "The bathroom where is?"
+      ],
+      "correct": 2,
+      "explanation": "'Where is the bathroom?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Before asking a stranger a question, you say:",
+      "options": [
+        "Hey",
+        "Hello",
+        "Excuse me",
+        "Listen"
+      ],
+      "correct": 2,
+      "explanation": "'Excuse me' is the polite way to get a stranger's attention."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: Can you ___ me?",
+      "options": [
+        "helps",
+        "helped",
+        "help",
+        "helping"
+      ],
+      "correct": 2,
+      "explanation": "We say 'Can you help me?' The verb is 'help' (base form)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone helps you. You say:",
+      "options": [
+        "Okay",
+        "Yes",
+        "Thank you",
+        "Good"
+      ],
+      "correct": 2,
+      "explanation": "'Thank you' is always appropriate when someone helps you."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want someone to show you something. You say:",
+      "options": [
+        "Show me",
+        "Can you show me?",
+        "You show me",
+        "Showing me"
+      ],
+      "correct": 1,
+      "explanation": "'Can you show me?' is polite. 'Show me' is too direct and can sound rude."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the MOST polite?",
+      "options": [
+        "Help me",
+        "I need help",
+        "Can you help me, please?",
+        "You help me"
+      ],
+      "correct": 2,
+      "explanation": "'Can you help me, please?' is the most polite because it uses 'Can you' and 'please'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: Where ___ the store?",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "We say 'Where is the store?' We use 'is' for one thing."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation where you ask someone where the hospital is.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: getting attention politely (Excuse me), asking for help, asking where it is, and thanking them."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about your life. When do you need to ask for help? What will you say?",
+      "options": [],
+      "correct": null,
+      "explanation": "Reflect on real situations where you might need help and practice what you would say."
+    }
+  ]
+}

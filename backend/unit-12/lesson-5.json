@@ -1,0 +1,239 @@
+{
+  "id": "lesson-70",
+  "unit_id": 12,
+  "lesson_number": 5,
+  "title": "Mentoring and Developing Others",
+  "level": "mastery",
+  "estimated_time": 45,
+  "objectives": [
+    "Mentor emerging leaders effectively",
+    "Use coaching questions over directive advice",
+    "Foster growth mindsets in others",
+    "Build organizational learning culture"
+  ],
+  "target_phrases": [
+    "What options have you considered?",
+    "Help me understand your thinking on...",
+    "The pattern I'm observing is...",
+    "How might you approach this differently if...",
+    "What did you learn from that experience?",
+    "I see tremendous potential in...",
+    "What would success look like for you?"
+  ],
+  "dialogue": {
+    "title": "Mentoring a Rising Leader",
+    "context": "Ahmed mentors Maya, a talented junior manager facing a challenging situation, using coaching questions to develop her problem-solving capabilities.",
+    "lines": [
+      {"speaker": "Maya", "text": "Ahmed, thanks for meeting. I'm struggling with my team. Two members constantly clash, productivity is suffering, and I don't know what to do."},
+      {"speaker": "Ahmed", "text": "I appreciate you coming to me. Before I share thoughts, help me understand your thinking on what's driving the conflict."},
+      {"speaker": "Maya", "text": "They have different work styles - one is very structured, the other more creative and flexible. They criticize each other's approaches."},
+      {"speaker": "Ahmed", "text": "Interesting. What options have you considered for addressing this?"},
+      {"speaker": "Maya", "text": "I thought about separating them on different projects, but that seems like avoiding the problem. Or mediating a conversation, but I'm not sure how."},
+      {"speaker": "Ahmed", "text": "Those are both possibilities. The pattern I'm observing is that you're recognizing avoidance versus confronting the issue. How might you approach this differently if you viewed their different styles as complementary rather than conflicting?"},
+      {"speaker": "Maya", "text": "I never thought of it that way. You mean help them see value in each other's approaches?"},
+      {"speaker": "Ahmed", "text": "What would that look like? How could you facilitate that shift?"},
+      {"speaker": "Maya", "text": "Maybe I could have them collaborate on something where they each contribute their strengths? The structured person could handle planning while the creative one drives innovation?"},
+      {"speaker": "Ahmed", "text": "That's worth exploring. What did you learn from situations where you've had to bridge different perspectives?"},
+      {"speaker": "Maya", "text": "That usually the conflict comes from not understanding why the other person works differently. When I understand the 'why,' I'm less judgmental."},
+      {"speaker": "Ahmed", "text": "Exactly. I see tremendous potential in your ability to reframe challenges as opportunities. What would success look like for you in this situation?"},
+      {"speaker": "Maya", "text": "Not just ending the conflict, but creating a team that values diverse approaches and collaborates better because of differences, not despite them."},
+      {"speaker": "Ahmed", "text": "That's mature thinking. You've essentially solved this yourself - you just needed to talk it through. That's leadership development."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Coaching questions over advice",
+      "pattern": "What options have you considered? / How might you approach this differently if...",
+      "examples": [
+        "What options have you considered for addressing this challenge?",
+        "How might you approach this differently if you had no resource constraints?",
+        "What have you tried so far, and what were the results?",
+        "How might you frame this if you viewed it as opportunity rather than obstacle?",
+        "What would you do if you knew you couldn't fail?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Understanding mentee thinking",
+      "pattern": "Help me understand your thinking on... / What did you learn from...",
+      "examples": [
+        "Help me understand your thinking on what's really driving this situation.",
+        "What did you learn from the last time you faced something similar?",
+        "Help me understand what success would look like from your perspective.",
+        "What did you learn about yourself from that experience?",
+        "Help me understand what's holding you back from taking action."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Affirming potential and growth",
+      "pattern": "I see tremendous potential in... / The pattern I'm observing is...",
+      "examples": [
+        "I see tremendous potential in your ability to reframe challenges creatively.",
+        "The pattern I'm observing is that you're growing in strategic thinking.",
+        "I see tremendous potential in how you're developing your emotional intelligence.",
+        "The pattern I'm observing is increasing confidence in your decision-making.",
+        "I see tremendous potential in your capacity to develop others."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit12-lesson5-listen1.mp3",
+      "transcript": "Effective mentoring uses coaching approach - asking questions rather than giving answers. This develops mentee's problem-solving capabilities instead of creating dependency. Coaching questions include: 'What have you tried?' 'What options do you see?' 'What's really at stake here?' 'How might you approach this differently?' Questions stimulate thinking, surface assumptions, and empower ownership. Resist the temptation to solve problems for people - help them develop capacity to solve problems themselves. This builds leadership capability.",
+      "question": "Why use questions over answers in mentoring?",
+      "options": [
+        "To avoid helping",
+        "Develops problem-solving capability and prevents dependency",
+        "To waste time",
+        "Because you don't know answers"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit12-lesson5-listen2.mp3",
+      "transcript": "Growth mindset, researched by Carol Dweck, believes abilities can be developed through effort and learning. Fixed mindset sees abilities as static. As mentor, foster growth mindset by: praising effort and strategy, not just outcomes; normalizing failure as learning; encouraging calculated risk-taking; emphasizing process over results; modeling learning from mistakes. Language matters: 'You're naturally talented' reinforces fixed mindset. 'Your hard work paid off' reinforces growth mindset. Leaders who cultivate growth mindsets create learning organizations.",
+      "question": "How do you foster growth mindset?",
+      "options": [
+        "Praise natural talent",
+        "Praise effort, strategy, and learning; normalize failure",
+        "Avoid all failure",
+        "Focus only on results"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit12-lesson5-listen3.mp3",
+      "transcript": "Developmental feedback differs from evaluative feedback. Evaluative judges performance: 'This is good/bad.' Developmental builds capability: 'Here's what worked, here's what might work differently, what did you learn?' Focus on behavior, not person. Be specific, not general. Balance affirmation with growth opportunities. Use 'I noticed...' not 'You always...' Create psychological safety where people can admit struggles without judgment. The goal isn't making people feel good - it's helping them grow. Honesty delivered with care builds trust.",
+      "question": "What's the goal of developmental feedback?",
+      "options": [
+        "Making people feel good",
+        "Judging performance",
+        "Helping them grow through specific, behavioral feedback",
+        "Avoiding tough conversations"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Someone comes to you with a problem. Use coaching questions to help them think through it (don't just give advice). Show mentoring approach. Record for 40 seconds.",
+      "example": "I appreciate you bringing this to me. Before we dive into solutions, help me understand your thinking on what's really at the root of this challenge. What have you tried so far? What were the results? I'm hearing that you've attempted direct conversation but it didn't shift behavior. What options have you considered beyond that conversation? How might you approach this differently if you reframed it from 'correcting behavior' to 'understanding motivation'? What do you think drives their resistance? I see tremendous potential in your ability to analyze situations - you're identifying patterns others might miss. What did you learn from the last time you faced pushback when implementing change? The pattern I'm observing is that you're developing sophistication in change management. What would success look like for you here - is it compliance or genuine buy-in? That distinction matters for your approach. How might you build coalition with those who support the change to create momentum? You're working through this thoughtfully - what's your next step?",
+      "min_seconds": 40,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Give developmental feedback to someone who failed at a task but showed good effort and learning. Foster growth mindset. Record for 35 seconds.",
+      "example": "I want to talk about the presentation project. First, I appreciate the effort and creativity you brought - you clearly invested significant time. The outcome wasn't what we hoped, but what did you learn from the experience? I noticed several strengths: your research was thorough, your visual design was compelling, and you adapted well to audience questions. The areas for growth center on structure and message clarity. Help me understand your thinking on how you organized the content - what drove that approach? For future presentations, how might you approach structure differently knowing your audience needed clearer takeaways? I see tremendous potential in how you're developing presentation skills. The pattern I'm observing is that you're willing to take risks and learn from results - that's exactly what growth requires. This project didn't achieve our goals, but the capabilities you're building will serve you well. What would you do differently next time? That's not failure - that's learning. Keep iterating.",
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write developmental feedback for someone who has potential but is underperforming. Balance affirmation with growth needs. Use growth mindset language. (130-160 words)",
+      "min_words": 130,
+      "example": "Developmental Feedback: Performance Discussion\n\nI want to share observations about your performance and development trajectory. I see tremendous potential in your analytical capabilities and strategic thinking - the insights you bring to discussions are consistently valuable.\n\nThe pattern I'm observing is a gap between your potential and your current output. Help me understand what's driving this disconnect. What obstacles are you encountering? What support would enable you to perform at the level I believe you're capable of?\n\nSpecific areas for development:\n\n1. Follow-through: You generate excellent ideas but inconsistently execute them fully. What's preventing completion?\n\n2. Initiative: You contribute well when directed but could demonstrate more proactive problem-solving. How might you approach this differently?\n\n3. Communication: Your written analysis is strong, but verbal presentation needs development. What did you learn from recent presentations?\n\nI'm invested in your growth because I genuinely believe you have capacity for leadership. What would success look like for you in the next six months? How can I support that development?\n\nThis feedback comes from wanting to see you succeed, not from disappointment. Growth requires honest assessment. I'm here to help you reach your potential.",
+      "min_words": 130
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write mentoring guidance for a new manager struggling with delegation. Use coaching questions and developmental approach. (100-120 words)",
+      "min_words": 100,
+      "example": "Mentoring Conversation: Delegation Development\n\nI understand you're finding delegation challenging. Rather than tell you what to do, let's explore your thinking.\n\nWhat makes delegation difficult for you? Many new managers struggle with this - what specifically holds you back?\n\nWhen you do delegate, what happens? What did you learn from those experiences?\n\nHow might you approach delegation differently if you viewed it as team development rather than task transfer? What would that shift mean for how you delegate?\n\nI've observed that you excel at complex work yourself. The pattern I'm observing is perfectionism making you reluctant to let others learn through doing. How might your career have developed if your early managers hadn't trusted you with challenging assignments?\n\nWhat would effective delegation look like for you? How might you build that capability?\n\nI see tremendous potential in your development as leader. Delegation isn't about getting things off your plate - it's about growing your team's capacity.",
+      "min_words": 100
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Open-Ended Questions for Coaching",
+      "explanation": "Use open-ended questions (how, what, why) to stimulate thinking, not closed yes/no questions.",
+      "examples": [
+        "What options have you considered? (open, promotes thinking)",
+        "How might you approach this? (open, encourages creativity)",
+        "What did you learn? (open, promotes reflection)",
+        "Why do you think that happened? (open, develops analysis)"
+      ],
+      "practice": [
+        {"sentence": "___ options have you considered?", "blank": "What", "options": ["What", "Do", "Are"]},
+        {"sentence": "___ might you approach this?", "blank": "How", "options": ["How", "Can", "Will"]},
+        {"sentence": "___ did you learn from that?", "blank": "What", "options": ["What", "Did", "Have"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Conditional Sentences for Reframing",
+      "explanation": "Use conditionals to help mentees consider alternative perspectives.",
+      "examples": [
+        "How might you approach this if you had no constraints? (hypothetical)",
+        "What would you do if you knew you couldn't fail? (reframing)",
+        "If you viewed this as opportunity, what would you see? (perspective shift)",
+        "How might this look if you had more confidence? (growth possibility)"
+      ],
+      "practice": [
+        {"sentence": "What ___ you do if you couldn't fail?", "blank": "would", "options": ["will", "would", "can"]},
+        {"sentence": "How might this look if you ___ more confident?", "blank": "were", "options": ["are", "were", "was"]},
+        {"sentence": "What would happen if you ___ that approach?", "blank": "tried", "options": ["try", "tried", "tries"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Present Progressive for Observed Patterns",
+      "explanation": "Use present progressive to describe ongoing patterns you observe.",
+      "examples": [
+        "The pattern I'm observing is... (ongoing observation)",
+        "You're developing strong capabilities in... (continuing growth)",
+        "I'm noticing that you're becoming more... (progressive change)",
+        "You're showing increasing comfort with... (developing skill)"
+      ],
+      "practice": [
+        {"sentence": "The pattern I'm ___ is improvement.", "blank": "observing", "options": ["observe", "observing", "observed"]},
+        {"sentence": "You're ___ strong leadership skills.", "blank": "developing", "options": ["develop", "developing", "developed"]},
+        {"sentence": "I'm ___ increasing confidence.", "blank": "noticing", "options": ["notice", "noticing", "noticed"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Why use questions over answers in mentoring?", "options": ["To avoid helping", "Develops problem-solving capability", "To waste time", "You don't know"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "How do you foster growth mindset?", "options": ["Praise talent", "Praise effort, strategy, and learning", "Avoid failure", "Focus on results only"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What's the goal of developmental feedback?", "options": ["Feel good", "Judge performance", "Help them grow through specific feedback", "Avoid tough talks"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: '___ options have you considered?'", "options": ["Do", "What", "Are", "Can"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Effective mentoring builds problem-solving capability, not dependency.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should always give direct answers to mentees' questions.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "What ___ you do if you couldn't fail? (reframing)", "correct": "would", "accept": ["would"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "You're ___ strong skills. (present progressive)", "correct": "developing", "accept": ["developing", "building"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match mentoring concept:", "pairs": [{"left": "Coaching questions", "right": "Develop thinking"}, {"left": "Growth mindset", "right": "Abilities develop"}, {"left": "Developmental feedback", "right": "Build capability"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed helped Maya by:", "options": ["Solving her problem", "Using questions to develop her thinking", "Telling her what to do", "Avoiding the issue"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "mentoring", "definition": "guiding someone's development", "example": "Mentoring builds future leaders."},
+    {"word": "coaching", "definition": "asking questions to develop thinking", "example": "Use coaching approach in mentoring."},
+    {"word": "growth mindset", "definition": "belief abilities can develop", "example": "Foster growth mindset in others."},
+    {"word": "developmental", "definition": "focused on building capability", "example": "Give developmental feedback."},
+    {"word": "scaffolding", "definition": "temporary support enabling growth", "example": "Provide scaffolding as they learn."},
+    {"word": "reflection", "definition": "thoughtful consideration of experience", "example": "Promote reflection on learning."},
+    {"word": "capability", "definition": "ability to do something", "example": "Build leadership capabilities."},
+    {"word": "potential", "definition": "latent qualities awaiting development", "example": "I see tremendous potential."},
+    {"word": "empowerment", "definition": "giving authority and confidence", "example": "Mentoring empowers others."},
+    {"word": "succession", "definition": "planned transfer of leadership", "example": "Mentoring ensures succession."}
+  ],
+  "cultural_notes": [
+    "American workplace culture increasingly values coaching over directive management.",
+    "Growth mindset (Carol Dweck) has significantly influenced American education and business culture.",
+    "U.S. companies invest heavily in leadership development programs and mentoring.",
+    "American mentoring culture emphasizes empowerment over dependency - teaching to fish rather than giving fish.",
+    "Psychological safety (Google's Project Aristotle) has made creating learning-friendly environments a priority in American workplaces.",
+    "American culture values individual accountability, so mentoring focuses on building self-sufficiency."
+  ]
+}

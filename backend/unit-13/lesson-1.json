@@ -1,0 +1,269 @@
+{
+  "id": "lesson-81",
+  "unit_id": 13,
+  "lesson_number": 1,
+  "title": "Campus Life & Making Friends",
+  "level": "advanced",
+  "estimated_time": 40,
+  "story_context": "Ahmed has just arrived at Westfield University for orientation week. He is older than most students — 32 years old, having worked in warehouses and offices for a decade — but he earned his place here. He is nervous in a new way. Not about English, not about work ethic. About fitting in socially. He meets three people in the first two hours: Priya, an Indian-American sophomore who has been assigned as his orientation buddy; Jake, a 19-year-old from rural Georgia who seems to know everyone; and Zoe, a pre-med student from New Jersey who talks fast and moves faster.",
+  "objectives": [
+    "Use tag questions naturally to open conversations and confirm shared understanding",
+    "Deploy casual discourse markers (actually, honestly, I mean, right?) to sound less stiff",
+    "Learn and use 10 core campus vocabulary words in realistic context",
+    "Start conversations with American college students using informal openers"
+  ],
+  "target_phrases": [
+    "It's your first day too, isn't it?",
+    "Honestly, I have no idea where I'm going.",
+    "What's your major, if you don't mind me asking?",
+    "I mean, it's a lot to take in, right?",
+    "Do you want to grab lunch after this?",
+    "We should hang out — I actually know some good spots.",
+    "I'm still figuring out the vibe here."
+  ],
+  "dialogue": {
+    "title": "Orientation Week",
+    "context": "Ahmed is standing outside the orientation hall with a campus map, clearly confused. Priya approaches him.",
+    "lines": [
+      {"speaker": "Priya", "text": "Hey — you look as lost as I did last year. First day?"},
+      {"speaker": "Ahmed", "text": "Yes. It is my first day. I am looking for Building C, where the orientation session begins."},
+      {"speaker": "Priya", "text": "Ha! Yeah, Building C is kind of a disaster — it's actually behind the library, not in front. I'm Priya, by the way. I'm your orientation buddy."},
+      {"speaker": "Ahmed", "text": "I am Ahmed. Thank you, Priya. I apologize — I was not aware that Building C was located behind the library. I should have reviewed the campus map more carefully."},
+      {"speaker": "Priya", "text": "Relax, everyone gets lost! Honestly, I got lost like three times my first week. What's your major?"},
+      {"speaker": "Ahmed", "text": "Business Administration. And you?"},
+      {"speaker": "Priya", "text": "Finance. We're practically in the same building all semester. We should hang out — I mean, study together and stuff."},
+      {"speaker": "Ahmed", "text": "I would appreciate that. I mean — yes, that sounds good. I am still figuring out the vibe here, actually."},
+      {"speaker": "Priya", "text": "The vibe is pretty chill once you get past the chaos. Oh — here comes Jake. Jake! Over here!"},
+      {"speaker": "Jake", "text": "Hey y'all! This must be the new guy. Ahmed, right? I'm Jake. You picked a heck of a semester to start, man — football season just kicked off."},
+      {"speaker": "Ahmed", "text": "It is nice to meet you, Jake. Honestly, I do not know much about American football yet."},
+      {"speaker": "Jake", "text": "Don't even worry about it — you'll learn fast. Hey, do you want to grab lunch after orientation? There's a place off campus, best tacos you'll ever have."},
+      {"speaker": "Ahmed", "text": "Yes — I would like that. Do you want to come as well, Priya?"},
+      {"speaker": "Priya", "text": "Obviously. I'm not missing tacos. Also, Ahmed — it's cool that you're being so formal, but you can just say 'yeah' sometimes. We won't judge."},
+      {"speaker": "Ahmed", "text": "Right. Yeah. Okay. I am working on it."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Tag questions to open conversation",
+      "pattern": "Statement + tag (isn't it / aren't you / right?)",
+      "examples": [
+        "It's your first day too, isn't it?",
+        "You're in the Business program, aren't you?",
+        "This campus is huge, isn't it?",
+        "Orientation is a lot to handle, right?",
+        "You haven't found the dining hall yet, have you?"
+      ],
+      "your_turn": "Make a tag question to start a conversation with someone at orientation.",
+      "prompts": [
+        "Ask if someone is also a freshman.",
+        "Confirm that they are looking for the same building.",
+        "Check that they feel overwhelmed too."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Discourse markers for natural speech flow",
+      "pattern": "Honestly / Actually / I mean / Right — used at natural positions",
+      "examples": [
+        "Honestly, I have no idea where the library is.",
+        "Actually, the best coffee on campus is near the gym.",
+        "I mean, it's a lot to process, right?",
+        "Actually, I think we're in the same lecture hall.",
+        "Honestly, I was nervous about this too — I mean, everyone is."
+      ],
+      "your_turn": "Add a discourse marker to make these sentences sound more natural.",
+      "prompts": [
+        "Say you are not sure which dorm is yours.",
+        "Admit that you are nervous about your first class.",
+        "Express that you think the campus is bigger than expected."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Casual invitations and social plans",
+      "pattern": "Do you want to + verb / We should + verb / Let's + verb",
+      "examples": [
+        "Do you want to grab lunch after orientation?",
+        "We should hang out this weekend.",
+        "Do you want to catch up later and compare schedules?",
+        "Let's find the dining hall together.",
+        "We should study together — I heard the midterms are rough."
+      ],
+      "your_turn": "Invite a classmate to do something together on campus.",
+      "prompts": [
+        "Invite someone to study at the library tonight.",
+        "Suggest getting coffee before your 9am class.",
+        "Ask if they want to walk to the bookstore together."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit13-lesson1-listen1.mp3",
+      "transcript": "So okay, orientation is basically a week of organized chaos. They're gonna throw a ton of information at you — where to get your ID, how to register for classes, dorm rules, dining plans, all of it. My advice? Don't stress about remembering everything. Just focus on meeting people. Honestly, the friends you make orientation week are usually the ones you keep. Like, your roommate situation might be random, but the people you grab food with, study with, complain about professors with — that's your crew.",
+      "question": "What does the speaker say is the most important thing to focus on during orientation week?",
+      "options": [
+        "Memorizing where all the buildings are",
+        "Meeting people and making friends",
+        "Learning all the dorm rules immediately",
+        "Finding the best dining hall"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit13-lesson1-listen2.mp3",
+      "transcript": "Ahmed: Hey, is this seat taken? Zoe: Go for it. You're in the BA program, right? I saw your name tag. I'm Zoe — pre-med, which basically means I live in the library. Ahmed: I am Ahmed. Pre-med sounds very demanding. Zoe: Oh it totally is. But honestly, I wouldn't trade it. What made you pick business admin? Ahmed: I have been working in business for about ten years, actually. I wanted the formal degree. Zoe: Wait — seriously? That's so cool. You've got real experience. Most of us here have no idea what actual work is like.",
+      "question": "Why does Zoe think Ahmed's situation is 'so cool'?",
+      "options": [
+        "Because he is from another country",
+        "Because he has real work experience before college",
+        "Because he is studying business",
+        "Because he is older than her"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit13-lesson1-listen3.mp3",
+      "transcript": "Making friends in college is different from making friends at work. At work, you share tasks. In college, you share everything — dining hall meals, late-night study sessions, stress about exams, weird roommate situations. The key is just showing up to things. Go to the orientation events even if they seem cheesy. Join one club you're actually interested in. Sit next to someone new in class. Ask questions. Americans, generally speaking, are pretty friendly to people who show genuine interest. A simple 'what's your major?' can start a friendship.",
+      "question": "According to the speaker, what is the key to making friends in college?",
+      "options": [
+        "Being very funny and outgoing",
+        "Having the same major as other students",
+        "Showing up to things and showing genuine interest",
+        "Living in the dorms"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You are at orientation and you see someone standing alone looking at a campus map. Introduce yourself, ask about their major, and invite them to grab food later. Use at least two discourse markers and one tag question. Record for 30 seconds.",
+      "example": "Hey! You look a little lost — this campus is huge, isn't it? I'm Ahmed, by the way. Honestly, I've been walking in circles for twenty minutes. Are you in the BA program too? What's your major, if you don't mind me asking? I mean, I'm still figuring out the whole vibe here, but a few of us are going to grab tacos after this session — do you want to come?",
+      "sentence_starters": [
+        "Hey! You look like you're also trying to figure out...",
+        "Honestly, I have no idea where...",
+        "What's your major? I'm in..."
+      ],
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Tell a classmate three things about yourself that are different from a typical 19-year-old freshman, but frame them positively and casually — not stiffly. Use informal language. Record for 35 seconds.",
+      "example": "So, yeah — I'm a little different from most freshmen. I mean, I'm 32, so I've actually been working for about ten years before coming here. I was in logistics and operations, actually. So the business stuff, I kind of know from the inside, right? But honestly, the social side — campus life, all of this — that's the part I'm still figuring out. I'm kind of learning a second language within English, if that makes sense. Like, professional English I've got. Casual American college English? That's a work in progress.",
+      "sentence_starters": [
+        "So yeah, I'm kind of a non-traditional student...",
+        "Honestly, the thing that's different about me is...",
+        "I mean, I've got experience with..."
+      ],
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a short text message (4–6 lines) to someone you met at orientation, suggesting you hang out this weekend. Use informal language, contractions, and at least one casual opener or discourse marker. (40–60 words)",
+      "min_words": 40,
+      "example": "Hey Priya! It was really cool meeting you at orientation. I'm still getting used to everything honestly. Did you want to maybe grab coffee this weekend and go over our schedules? I heard there's a good place near the library. Let me know if you're free Saturday morning!"
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a short journal entry (80–100 words) about your first day on campus. Use a mix of formal observation and informal reflection — like a person who is naturally more formal learning to relax their voice.",
+      "min_words": 80,
+      "example": "Day 1 at Westfield University.\n\nHonestly, I did not expect to feel this overwhelmed. I have managed teams, navigated airports in four countries, and sat in boardrooms — but today, surrounded by 19-year-olds who seem to know exactly how to exist here, I felt like the new kid.\n\nI met Priya and Jake. Priya is organized and kind. Jake is impossible not to like. I also had my first American tacos.\n\nI said 'yeah' once. Priya smiled like that was a big deal. Maybe it was.\n\nI think I'm going to be okay."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Tag Questions",
+      "explanation": "Tag questions are short questions added to the end of a statement. They confirm information or invite agreement. In American casual speech they are common and friendly — not challenging. Positive statement + negative tag: 'It's hot, isn't it?' Negative statement + positive tag: 'You haven't been here before, have you?'",
+      "examples": [
+        "It's your first day, isn't it? (positive statement → negative tag)",
+        "You're in the BA program, aren't you? (confirming information)",
+        "This campus is huge, right? ('right' is the most casual all-purpose tag)",
+        "You haven't found the dining hall yet, have you? (negative → positive tag)",
+        "We're in the same orientation group, aren't we? (building connection)"
+      ],
+      "practice": [
+        {"sentence": "It's a beautiful campus, ___ it?", "blank": "isn't", "options": ["isn't", "is", "wasn't"]},
+        {"sentence": "You haven't registered for classes yet, ___ you?", "blank": "have", "options": ["have", "haven't", "did"]},
+        {"sentence": "We're in the same lecture hall, ___ we?", "blank": "aren't", "options": ["aren't", "are", "weren't"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Discourse Markers in Casual Speech",
+      "explanation": "Discourse markers are words that organize spoken language and signal your attitude. They do not carry heavy meaning — they make speech sound natural and connected. 'Honestly' signals openness. 'Actually' signals a correction or surprising fact. 'I mean' signals clarification. 'Right?' invites agreement. Used too rarely, speech sounds stiff; used well, it sounds fluent.",
+      "examples": [
+        "Honestly, I got lost three times my first week. (signals candid admission)",
+        "Actually, Building C is behind the library. (signals correction)",
+        "I mean, it's a lot to process, right? (signals clarification + invites agreement)",
+        "We should hang out — actually, I know some good spots. (signals addition)",
+        "Honestly, I was nervous too — I mean, everyone is. (combines two markers)"
+      ],
+      "practice": [
+        {"sentence": "___, I have no idea where the library is. (signals candid admission)", "blank": "Honestly", "options": ["Honestly", "Therefore", "Nevertheless"]},
+        {"sentence": "___, the exam is on Thursday, not Friday. (signals correction)", "blank": "Actually", "options": ["Actually", "Meanwhile", "Consequently"]},
+        {"sentence": "I mean, it's a lot to take in, ___? (invites agreement)", "blank": "right", "options": ["right", "correct", "true"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Casual Invitations: Do you want to / We should / Let's",
+      "explanation": "Americans invite each other using soft, low-pressure structures. 'Do you want to grab coffee?' is friendlier than 'Would you like to have coffee with me?' 'We should hang out' is an open invitation without a specific commitment. 'Let's grab lunch' is direct and inclusive. These structures reduce social risk — they are easy to accept or decline without awkwardness.",
+      "examples": [
+        "Do you want to grab lunch after this? (casual, low-pressure invitation)",
+        "We should hang out this weekend. (open-ended, no specific pressure)",
+        "Let's find the dining hall together. (inclusive, immediate)",
+        "Do you want to catch up later and compare schedules? (practical + social)",
+        "We should study together sometime. ('sometime' keeps it open)"
+      ],
+      "practice": [
+        {"sentence": "___ you want to grab coffee before class?", "blank": "Do", "options": ["Do", "Would", "Will"]},
+        {"sentence": "We ___ hang out sometime — I know a good spot.", "blank": "should", "options": ["should", "must", "have to"]},
+        {"sentence": "___ find the dining hall together.", "blank": "Let's", "options": ["Let's", "Let us formally", "Shall we formally"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Which is a correct tag question?", "options": ["It's your first day, is it?", "It's your first day, isn't it?", "It's your first day, wasn't it?", "It's your first day, right it?"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Which discourse marker signals a correction?", "options": ["Honestly", "I mean", "Actually", "Right"], "correct": 2, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "Which invitation sounds most natural and casual?", "options": ["Would you care to join me for lunch?", "Do you want to grab lunch?", "I formally invite you to dine.", "Let us proceed to the dining hall."], "correct": 1, "points": 10},
+      {"id": "q4", "type": "true-false", "question": "Tag questions in American casual speech are usually challenging or confrontational.", "correct": false, "points": 10},
+      {"id": "q5", "type": "fill-blank", "question": "You haven't been here before, ___ you? (tag question)", "correct": "have", "accept": ["have"], "points": 10},
+      {"id": "q6", "type": "multiple-choice", "question": "What does 'grab lunch' mean?", "options": ["Steal someone's lunch", "Go eat lunch casually together", "Order lunch online", "Bring lunch to class"], "correct": 1, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___, I have no idea where the library is. (signals candid admission)", "correct": "Honestly", "accept": ["Honestly", "honestly"], "points": 10},
+      {"id": "q8", "type": "multiple-choice", "question": "What is 'vibe' closest in meaning to?", "options": ["A vibration or sound", "The atmosphere or feeling of a place", "A type of music", "A greeting"], "correct": 1, "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the casual phrase to its function:", "pairs": [{"left": "Do you want to grab coffee?", "right": "Casual invitation"}, {"left": "It's huge, isn't it?", "right": "Tag question"}, {"left": "Honestly, I'm lost.", "right": "Candid discourse marker"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed says 'I am still figuring out the vibe here, actually.' What does 'actually' do here?", "options": ["It means 'at this moment in time'", "It signals a slight correction or honest admission", "It is used for formal emphasis", "It replaces 'therefore'"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "orientation", "definition": "introductory program for new students at a school or university", "example": "Orientation week helped me learn where all the buildings are."},
+    {"word": "major", "definition": "the main subject a student studies for their degree", "example": "Her major is Finance, so she takes a lot of math classes."},
+    {"word": "dorm", "definition": "short for dormitory; a building where students live on campus", "example": "My dorm room is small but it's close to all my classes."},
+    {"word": "roommate", "definition": "a person you share a room or apartment with", "example": "My roommate stays up late studying, so I bought earplugs."},
+    {"word": "hang out", "definition": "to spend time with someone in a relaxed, informal way", "example": "Do you want to hang out after class and get coffee?"},
+    {"word": "grab", "definition": "to casually get or eat something (food, coffee, etc.)", "example": "Let's grab lunch before the afternoon session."},
+    {"word": "catch up", "definition": "to meet and talk with someone after time apart; to update each other", "example": "We should catch up — I haven't seen you since last semester."},
+    {"word": "semester", "definition": "one half of an academic year, typically 15–16 weeks", "example": "This semester I have four classes plus a lab."},
+    {"word": "campus", "definition": "the grounds and buildings of a university or college", "example": "The campus is beautiful in autumn when the leaves change color."},
+    {"word": "vibe", "definition": "the atmosphere, mood, or feeling of a place or situation (informal)", "example": "I love the vibe at this coffee shop — it's very relaxed."}
+  ],
+  "cultural_notes": [
+    "Orientation week at American universities is highly social — the unspoken purpose is making friends, not just learning logistics. Attending events and being visible matters more than the content of the events.",
+    "Americans tend to ask 'What's your major?' as the first social question to a college student. It's the college equivalent of 'What do you do?' — a quick way to find common ground.",
+    "Saying 'we should hang out sometime' or 'let's grab coffee' is often a genuine but open invitation with no fixed plan. The follow-up message is what actually creates the plan — the initial phrase signals friendliness.",
+    "Being older or non-traditional in college is increasingly common and generally respected. Sharing work experience honestly (without being arrogant) creates interest and connection rather than awkwardness.",
+    "Discourse markers like 'honestly' and 'I mean' are not filler words to eliminate — they are social signals. Removing them all makes speech sound cold or overly formal to American ears."
+  ]
+}

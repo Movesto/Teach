@@ -1,0 +1,240 @@
+{
+  "id": "lesson-53",
+  "unit_id": 9,
+  "lesson_number": 3,
+  "title": "Giving Presentations",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Structure presentations effectively",
+    "Use visual aids appropriately",
+    "Handle questions confidently",
+    "Engage audiences professionally"
+  ],
+  "target_phrases": [
+    "Today I'll be presenting...",
+    "Let me start by...",
+    "As you can see in this slide...",
+    "To summarize...",
+    "That's an excellent question...",
+    "Moving on to the next point...",
+    "In conclusion..."
+  ],
+  "dialogue": {
+    "title": "Preparing for a Work Presentation",
+    "context": "Ahmed's supervisor coaches him on preparing and delivering his first formal presentation to management.",
+    "lines": [
+      {"speaker": "Supervisor", "text": "Ahmed, you're presenting the quarterly results to management next week. Have you started preparing?"},
+      {"speaker": "Ahmed", "text": "I've gathered all the data, but I'm nervous about presenting in English to senior leaders."},
+      {"speaker": "Supervisor", "text": "That's normal! Let's work on structure first. Every presentation needs three parts: introduction, body, and conclusion."},
+      {"speaker": "Ahmed", "text": "So I introduce the topic, present the details, then summarize?"},
+      {"speaker": "Supervisor", "text": "Exactly. Start with: 'Today I'll be presenting our Q4 sales results.' Tell them what you'll cover, present it, then recap key points. This helps audiences follow along."},
+      {"speaker": "Ahmed", "text": "What about slides? How many should I have?"},
+      {"speaker": "Supervisor", "text": "Rule of thumb: one slide per minute of presenting. Keep text minimal - slides support your talk, they don't replace it. Use visuals like charts and graphs for data."},
+      {"speaker": "Ahmed", "text": "I'm most worried about questions. What if someone asks something I don't know?"},
+      {"speaker": "Supervisor", "text": "Say: 'That's an excellent question. I don't have that specific data with me, but I'll follow up with you after the meeting.' It's fine not to know everything - just be honest."},
+      {"speaker": "Ahmed", "text": "How do I transition between topics smoothly?"},
+      {"speaker": "Supervisor", "text": "Use signposting language: 'Moving on to the next point' or 'Now let's look at regional performance.' This keeps your presentation organized and easy to follow."},
+      {"speaker": "Ahmed", "text": "Should I memorize everything or use notes?"},
+      {"speaker": "Supervisor", "text": "Don't memorize word-for-word - you'll sound robotic. Know your content well, use bullet points as reminders, and speak naturally. Practice several times before the actual presentation."},
+      {"speaker": "Ahmed", "text": "This is really helpful! I'll practice with you before the real presentation?"},
+      {"speaker": "Supervisor", "text": "Absolutely. We'll do a dry run on Friday. Remember: they want you to succeed. Take a deep breath, speak clearly, and you'll do great."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Opening presentations",
+      "pattern": "Today I'll be presenting... / Let me start by...",
+      "examples": [
+        "Today I'll be presenting our quarterly sales results and market analysis.",
+        "Good morning, everyone. Let me start by thanking you for being here.",
+        "Today I'll be discussing three key strategies for improving customer satisfaction.",
+        "Let me start by outlining the agenda for this presentation.",
+        "I'm pleased to present our findings from the recent customer survey."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Referring to visuals",
+      "pattern": "As you can see in this slide/chart/graph...",
+      "examples": [
+        "As you can see in this chart, sales increased by 15% this quarter.",
+        "This graph shows the trend over the past six months.",
+        "If you look at this slide, you'll notice three main categories.",
+        "The data in this table illustrates our market share growth.",
+        "This pie chart breaks down our customer demographics."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Transitioning and concluding",
+      "pattern": "Moving on to... / To summarize... / In conclusion...",
+      "examples": [
+        "Moving on to our next topic, let's discuss regional performance.",
+        "Now let's shift our focus to cost reduction strategies.",
+        "To summarize the key points we've covered today...",
+        "In conclusion, I recommend we proceed with option A.",
+        "That brings me to the end of my presentation. Are there any questions?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson3-listen1.mp3",
+      "transcript": "Presentation structure follows a simple formula: tell them what you'll tell them (introduction), tell them (body), tell them what you told them (conclusion). Introduction states your topic and previews main points. Body presents information in logical order with supporting evidence. Conclusion summarizes key takeaways and includes a call to action if appropriate. This structure helps audiences retain information.",
+      "question": "What are the three parts of presentation structure?",
+      "options": [
+        "Beginning, middle, end",
+        "Introduction, body, conclusion",
+        "Opening, talking, closing",
+        "Start, speak, stop"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson3-listen2.mp3",
+      "transcript": "Effective slides follow the 6x6 rule: maximum 6 bullet points per slide, maximum 6 words per bullet. Slides should enhance your presentation, not distract from it. Use large, readable fonts (minimum 24 point). Include visuals like charts, graphs, and images. Avoid reading slides word-for-word - audiences can read faster than you speak. Slides are visual aids, not scripts.",
+      "question": "What is the 6x6 rule for slides?",
+      "options": [
+        "6 slides, 6 minutes",
+        "6 bullet points, 6 words each",
+        "6 colors, 6 fonts",
+        "6 people, 6 topics"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson3-listen3.mp3",
+      "transcript": "Handling Q&A sessions professionally: Listen carefully to each question. Repeat or rephrase questions to ensure everyone heard them. If you don't know the answer, admit it: 'That's a great question. I don't have that information right now, but I'll find out and get back to you.' Stay calm even if questions are challenging. Thank people for their questions: 'Thank you for bringing that up.'",
+      "question": "What should you do if you don't know an answer?",
+      "options": [
+        "Make something up",
+        "Ignore the question",
+        "Admit it and offer to follow up",
+        "Get angry"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Give a 30-second mini-presentation introducing yourself and your background to a professional audience. Use presentation language.",
+      "example": "Good morning, everyone. Today I'd like to introduce myself and share my professional background. My name is Ahmed Hassan, and I've been with this company for three years as a logistics coordinator. Let me start by telling you about my journey. I moved to the United States from Somalia in 2023 and began working in warehouse operations. Through hard work and continued education, I advanced to my current role. My key strengths include supply chain management, data analysis, and team coordination. Moving forward, I'm excited to contribute to our department's growth. Thank you for your time, and I look forward to working with all of you.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "You're presenting data showing sales increased 20%. Describe the chart and explain what it means. Use presentation language. Record for 25 seconds.",
+      "example": "As you can see in this chart, our sales performance shows significant growth this quarter. The blue bars represent Q3 results, while the red bars show Q4. Notice the 20% increase across all regions. This graph clearly illustrates that our new marketing strategy is working effectively. The data in this table breaks down performance by region - the West Coast led with 25% growth, followed by the Midwest at 18%. To summarize this slide, we exceeded our targets in every category. Now let's move on to what this means for next quarter's projections.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write an outline for a 5-minute presentation on a topic you know well (your job, a hobby, your hometown, etc.). Include: introduction, 3 main points, conclusion. (80-100 words)",
+      "min_words": 80,
+      "example": "Presentation Title: Introduction to Somali Cuisine\n\nI. Introduction (30 seconds)\n   - Good morning. Today I'll be presenting an introduction to Somali cuisine and its unique flavors.\n   - Preview: I'll cover three main topics: traditional ingredients, popular dishes, and cultural significance.\n\nII. Body (4 minutes)\n   A. Traditional ingredients (1.5 min)\n      - Spices: cumin, cardamom, coriander\n      - Staples: rice, pasta, flatbread\n      - Proteins: goat, lamb, chicken, fish\n   \n   B. Popular dishes (1.5 min)\n      - Sambusas (savory pastries)\n      - Suqaar (spiced meat)\n      - Canjeero (sourdough pancakes)\n   \n   C. Cultural significance (1 min)\n      - Communal eating traditions\n      - Special occasion foods\n\nIII. Conclusion (30 seconds)\n    - To summarize: Somali cuisine blends African and Arab influences\n    - Questions?",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write what you would say when handling these Q&A situations: 1) Someone asks a question you don't know. 2) Someone challenges your data. (60-80 words)",
+      "min_words": 60,
+      "example": "Situation 1 - Unknown answer: 'That's an excellent question, and I appreciate you bringing it up. I don't have that specific information with me right now, but it's definitely worth investigating. Let me research that and follow up with you by email tomorrow. Can I have your contact information after the presentation?'\n\nSituation 2 - Challenged data: 'Thank you for raising that concern. This data comes from our internal sales database, compiled last week. If you've seen different numbers, I'd be interested in comparing sources. Could we discuss this after the meeting to understand the discrepancy? I want to ensure we're working with accurate information.'",
+      "min_words": 60
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Future with 'will' for Presentation Plans",
+      "explanation": "Use 'will' to tell audience what you're going to cover in your presentation.",
+      "examples": [
+        "Today I'll be presenting our quarterly results.",
+        "I'll start by reviewing last quarter, then discuss current performance.",
+        "We'll look at three key strategies.",
+        "I'll conclude with recommendations for next quarter."
+      ],
+      "practice": [
+        {"sentence": "Today I ___ be presenting sales data.", "blank": "will", "options": ["will", "would", "can"]},
+        {"sentence": "I ___ start with an overview.", "blank": "will", "options": ["will", "would", "must"]},
+        {"sentence": "We ___ examine three options.", "blank": "will", "options": ["will", "would", "should"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Signposting Language for Transitions",
+      "explanation": "Use transition phrases to guide audience through your presentation.",
+      "examples": [
+        "Moving on to the next point...",
+        "Now let's turn our attention to...",
+        "This brings me to my next topic...",
+        "Let me shift focus to..."
+      ],
+      "practice": [
+        {"sentence": "___ on to the next slide.", "blank": "Moving", "options": ["Moving", "Move", "Moved"]},
+        {"sentence": "Now let's ___ at the data.", "blank": "look", "options": ["look", "looking", "looked"]},
+        {"sentence": "This ___ me to my conclusion.", "blank": "brings", "options": ["bring", "brings", "brought"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Present Simple for Describing Visuals",
+      "explanation": "Use present simple when describing charts, graphs, and slides.",
+      "examples": [
+        "This chart shows sales trends.",
+        "The graph illustrates quarterly growth.",
+        "This slide presents three options.",
+        "The data indicates a positive trend."
+      ],
+      "practice": [
+        {"sentence": "This chart ___ the results.", "blank": "shows", "options": ["show", "shows", "showing"]},
+        {"sentence": "The graph ___ our progress.", "blank": "illustrates", "options": ["illustrate", "illustrates", "illustrating"]},
+        {"sentence": "The data ___ improvement.", "blank": "indicates", "options": ["indicate", "indicates", "indicating"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What are the three parts of presentation structure?", "options": ["Start, middle, finish", "Introduction, body, conclusion", "Opening, speaking, ending", "Beginning, talking, stopping"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What is the 6x6 rule for slides?", "options": ["6 slides total", "6 bullet points, 6 words each", "6 minutes speaking", "6 people watching"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What should you do if you don't know an answer?", "options": ["Make something up", "Admit it and offer to follow up", "Ignore the question", "Change the subject"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Today I ___ be presenting...'", "options": ["would", "will", "can", "must"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should memorize presentations word-for-word.", "correct": false, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Slides should support your talk, not replace it.", "correct": true, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ on to the next point. (transition)", "correct": "Moving", "accept": ["Moving"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "This chart ___ sales trends. (present simple)", "correct": "shows", "accept": ["shows"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match presentation part:", "pairs": [{"left": "Introduction", "right": "Preview topic"}, {"left": "Body", "right": "Present details"}, {"left": "Conclusion", "right": "Summarize"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "How many slides per minute of presenting?", "options": ["One", "Two", "Five", "Ten"], "correct": 0, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "presentation", "definition": "formal talk to audience", "example": "I'm giving a presentation tomorrow."},
+    {"word": "visual aid", "definition": "image/chart supporting talk", "example": "Use visual aids effectively."},
+    {"word": "signposting", "definition": "language guiding audience through talk", "example": "Signposting helps audiences follow."},
+    {"word": "transition", "definition": "movement from one point to another", "example": "Use smooth transitions."},
+    {"word": "deliver", "definition": "give or present", "example": "Deliver your presentation confidently."},
+    {"word": "engage", "definition": "attract and hold attention", "example": "Engage your audience."},
+    {"word": "rehearse", "definition": "practice before performance", "example": "Rehearse your presentation."},
+    {"word": "Q&A", "definition": "question and answer session", "example": "We'll have Q&A at the end."},
+    {"word": "body language", "definition": "nonverbal communication", "example": "Use positive body language."},
+    {"word": "recap", "definition": "summarize main points", "example": "Let me recap the key points."}
+  ],
+  "cultural_notes": [
+    "American business presentations value direct communication and clear structure - audiences appreciate knowing exactly what to expect.",
+    "PowerPoint or Google Slides are standard in U.S. workplaces. Knowing how to create effective slides is an important skill.",
+    "Americans value eye contact during presentations - it shows confidence and engagement.",
+    "Questions during presentations are encouraged in American culture - interruptions for clarification are generally acceptable.",
+    "TED Talk style (storytelling, minimal slides, emotional connection) has influenced American presentation culture.",
+    "Practice presentations ('dry runs') are common before important meetings - asking colleagues for feedback is normal and valued."
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": 28,
+  "unit_id": 2,
+  "lesson_number": 10,
+  "title": "Work Schedules — Hours, Shifts, and Availability",
+  "description": "Learn to talk about work hours, shifts, and when you are available to work",
+  "difficulty": "intermediate",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Ask and answer questions about work hours",
+    "Say when you are available and when you are not",
+    "Understand words like shift, overtime, full-time, and part-time",
+    "Use time prepositions: on, at, from...to, until"
+  ],
+  "target_language": {
+    "phrases": [
+      "What are the hours for this job?",
+      "I'm available on [Monday / weekdays / weekends]",
+      "I can work from [7 AM] to [4 PM]",
+      "I can't work on [Sundays]",
+      "Do you offer full-time or part-time work?",
+      "Is overtime available?",
+      "What shift would I be working?"
+    ],
+    "grammar_pattern": "AVAILABILITY with CAN and AVAILABLE\\n  I can work weekdays. → I'm available on weekdays.\\n  I can't work nights. → I'm not available for the night shift.\\n\\nTIME PREPOSITIONS for schedules\\n  on + days: I work on Mondays. / I'm off on Sundays.\\n  at + time: I start at 7 AM. / The shift ends at 3 PM.\\n  from...to: I work from 8 to 5. / The store is open from 9 to 9.\\n  until: I can work until 6 PM. / The shift runs until midnight.\\n\\nFULL-TIME vs PART-TIME\\n  Full-time = usually 40 hours per week.\\n  Part-time = fewer than 40 hours per week.",
+    "grammar_patterns": [
+      {
+        "label": "Availability with CAN",
+        "pattern": "I can / I can't work + [time / day]",
+        "examples": [
+          "I can work Monday through Friday.",
+          "I can work the morning shift.",
+          "I can't work on Sundays.",
+          "Can you work overtime?"
+        ]
+      },
+      {
+        "label": "Prepositions: ON, AT, FROM...TO",
+        "pattern": "on [day] / at [time] / from [start] to [end]",
+        "examples": [
+          "I work on weekdays from 8 AM to 4 PM.",
+          "The night shift starts at 10 PM.",
+          "I'm available from Monday to Friday.",
+          "I work until 6 PM on Thursdays."
+        ]
+      },
+      {
+        "label": "Asking about schedule",
+        "pattern": "What are the hours? / What shift...? / Is ... available?",
+        "examples": [
+          "What are the hours for this position?",
+          "What shift would I be working?",
+          "Is overtime available at this job?",
+          "Do you offer full-time or part-time work?"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "Ahmed has an interview at a warehouse. The hiring manager, Tom, asks about Ahmed's availability and explains the schedule.",
+    "dialogue": [
+      { "speaker": "Tom", "text": "Thanks for coming in, Ahmed. Before we talk about the job, let me ask — what hours can you work?" },
+      { "speaker": "Ahmed", "text": "I can work any days, Monday to Saturday. I prefer morning or daytime shifts." },
+      { "speaker": "Tom", "text": "Good. This position is full-time, Monday through Friday. The shift is from 6 AM to 2:30 PM. Does that work for you?" },
+      { "speaker": "Ahmed", "text": "Yes, that works well. I can start at 6 AM. What time does the shift end — is it at 2:30 every day?" },
+      { "speaker": "Tom", "text": "Yes, always at 2:30. Sometimes we offer overtime on Saturdays — would you be available for that?" },
+      { "speaker": "Ahmed", "text": "Yes, I'm available on Saturdays too. Is overtime common here?" },
+      { "speaker": "Tom", "text": "Maybe one or two Saturdays a month. It's always optional, never required. Are you also available for some Sundays if we're very busy?" },
+      { "speaker": "Ahmed", "text": "I'm not available on Sundays. That's the one day I can't work. But any other day is fine." },
+      { "speaker": "Tom", "text": "That's perfectly fine. Sunday is not a normal workday here. So full-time, Monday to Friday, 6 to 2:30. Does that sound good?" },
+      { "speaker": "Ahmed", "text": "Yes, that sounds great. I'm ready to start as soon as possible." }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Can / Can't for Availability",
+      "instruction": "Say whether you are available or not. Use: I can / I can't work + [time or day]",
+      "prompts": [
+        { "sentence": "I ___ work Monday through Friday. (yes)", "answer": "can" },
+        { "sentence": "I ___ work on Sundays. (no)", "answer": "can't" },
+        { "sentence": "She ___ work the night shift. (no)", "answer": "can't" },
+        { "sentence": "He ___ work overtime on Saturdays. (yes)", "answer": "can" }
+      ],
+      "examples": [
+        "I can work weekdays from 6 to 3.",
+        "I can't work nights — I have children at home.",
+        "She can work part-time on weekdays.",
+        "He can't start before 8 AM.",
+        "Can you work the early morning shift?"
+      ],
+      "your_turn": "Can you work the early morning shift?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Time Prepositions: On, At, From...To",
+      "instruction": "Fill in the correct preposition: on, at, from, to, or until.",
+      "prompts": [
+        { "sentence": "I work ___ Mondays and Wednesdays.", "answer": "on" },
+        { "sentence": "The shift starts ___ 6 AM.", "answer": "at" },
+        { "sentence": "I work ___ 8 AM ___ 4 PM.", "answer": "from / to" },
+        { "sentence": "I can stay ___ 6 PM if needed.", "answer": "until" }
+      ],
+      "examples": [
+        "I work on weekdays.",
+        "The store opens at 9 AM.",
+        "My shift is from 7 to 3.",
+        "I work until the job is done.",
+        "I'm available on weekends too."
+      ],
+      "your_turn": "I'm available on weekends too.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Schedule Questions",
+      "instruction": "Ask about schedule information. Use the question words and phrases you learned.",
+      "prompts": [
+        { "sentence": "___ are the hours for this job?", "answer": "What" },
+        { "sentence": "___ shift would I be working?", "answer": "What" },
+        { "sentence": "Is overtime ___?", "answer": "available" },
+        { "sentence": "Do you offer ___ or part-time work?", "answer": "full-time" }
+      ],
+      "examples": [
+        "What are the hours for this position?",
+        "What shift would I work — morning or afternoon?",
+        "Is overtime available at this company?",
+        "Do you offer full-time or part-time?",
+        "How many hours per week is this job?"
+      ],
+      "your_turn": "How many hours per week is this job?",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "What are the work hours for the job in the audio?",
+      "audio": "/audio/unit2-lesson10-listen1.mp3",
+      "options": [
+        "Monday to Friday, 8 AM to 5 PM",
+        "Monday to Saturday, 7 AM to 3 PM",
+        "Monday to Friday, 6 AM to 2:30 PM",
+        "Tuesday to Saturday, 9 AM to 6 PM"
+      ],
+      "correct": 2,
+      "explanation": "The hiring manager says 'The shift is Monday through Friday, from 6 AM to 2:30 PM.' Listening carefully for 'from...to' helps you catch exact times."
+    },
+    {
+      "question": "What does the woman say about weekends?",
+      "audio": "/audio/unit2-lesson10-listen2.mp3",
+      "options": [
+        "She can work both Saturday and Sunday",
+        "She can work Saturdays but not Sundays",
+        "She can't work any weekends",
+        "She works every Sunday"
+      ],
+      "correct": 1,
+      "explanation": "The woman says 'I'm available on Saturdays, but I can't work on Sundays.' This shows how to clearly separate your available and unavailable days."
+    },
+    {
+      "question": "What does 'full-time' mean in the job description?",
+      "audio": "/audio/unit2-lesson10-listen3.mp3",
+      "options": [
+        "Working 20 hours per week",
+        "Working whenever the employer needs you",
+        "Working 40 hours per week, Monday to Friday",
+        "Working only on weekends"
+      ],
+      "correct": 2,
+      "explanation": "The employer explains 'This is a full-time position — 40 hours a week, Monday through Friday.' Knowing this term helps you understand what you are applying for."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Your Availability",
+      "instruction": "Record yourself explaining when you can and cannot work. Include: which days, which hours, and whether you can do overtime. Use: I can work..., I'm available..., I can't work...",
+      "example": "I can work Monday through Friday. I'm available for morning or daytime shifts — from about 6 AM to 4 PM. I can also work on Saturdays if overtime is available. I can't work on Sundays. I prefer full-time work, but I can do part-time too."
+    },
+    {
+      "title": "Ask About the Schedule",
+      "instruction": "Imagine you are calling about a job. Record yourself asking 3 questions about the schedule and hours. Use: What are the hours?, What shift...?, Is ... available?",
+      "example": "Hello, I'm calling about the warehouse position. I have a few questions. What are the hours for this job? Is it full-time or part-time? And is overtime available? Thank you for your time."
+    }
+  ],
+  "writing": [
+    {
+      "title": "My Availability",
+      "instruction": "Write 4-5 sentences describing your work availability. Include: which days you can work, what hours you prefer, and at least one time you cannot work. Use: on, at, from...to, until.",
+      "example": "I am available to work Monday through Saturday. I can work from 6 AM to 4 PM on weekdays. On Saturdays, I am available until 2 PM. I cannot work on Sundays. I am looking for a full-time position, but I can start with part-time work."
+    },
+    {
+      "title": "A Schedule Conversation",
+      "instruction": "Write a short conversation (4-6 lines) between a worker and an employer about schedule and hours. Include at least one question and one answer about availability.",
+      "example": "Employer: The position is Monday to Friday, from 7 AM to 3:30 PM. Does that work for you?\nWorker: Yes, that works well. I'm available every weekday.\nEmployer: Great. Would you be available for overtime on Saturdays?\nWorker: Yes, I can work on Saturdays too. I'm not available on Sundays, but any other day is fine."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "ON, AT, FROM...TO — time prepositions for schedules",
+        "examples": [
+          "I work on Mondays. ✓ (on + day of week)",
+          "I work at Monday. ✗ (don't use 'at' with days)",
+          "The shift starts at 6 AM. ✓ (at + specific time)",
+          "The shift starts on 6 AM. ✗",
+          "I work from 8 to 4. ✓ (from start to end)",
+          "I work from 8 until 4. ✓ (until = same as 'to')",
+          "I'm available on weekdays. ✓ (weekdays = Monday–Friday)"
+        ],
+        "question": "When do we use ON vs AT vs FROM...TO?",
+        "explanation": "Use ON with days of the week (on Monday, on weekends). Use AT with specific clock times (at 6 AM, at noon). Use FROM...TO or FROM...UNTIL for ranges (from 8 to 4, from Monday to Friday). Never mix them: 'at Monday' or 'on 6 AM' are mistakes."
+      },
+      {
+        "title": "Full-time, Part-time, Shift, Overtime — important work schedule words",
+        "examples": [
+          "Full-time = 40 hours per week (usually Monday–Friday)",
+          "Part-time = fewer than 40 hours (can vary)",
+          "Shift = a set block of work time (morning shift: 6–2, afternoon shift: 2–10, night shift: 10–6)",
+          "Overtime = hours worked beyond your regular schedule (often paid more)",
+          "Off = not working (I'm off on Sundays. Today is my day off.)"
+        ],
+        "question": "What is the difference between a shift and overtime?",
+        "explanation": "A shift is your regular scheduled work period. Overtime is extra time worked beyond your regular hours — often on a day off or after your shift ends. Overtime is usually paid at a higher rate. Knowing these words will help you understand job postings and conversations with employers."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a time preposition?",
+      "options": [
+        "I work on 8 AM every day.",
+        "I work at Mondays.",
+        "I work from 7 AM to 3 PM.",
+        "I work to Monday and Friday."
+      ],
+      "correct": 2,
+      "explanation": "'From 7 AM to 3 PM' is correct — FROM...TO is used for time ranges. 'At' is for specific times (at 8 AM), 'on' is for days (on Mondays), not mixed with each other."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed says 'I can't work on Sundays.' What does this mean?",
+      "options": [
+        "He doesn't want to work ever",
+        "Sunday is his only available day",
+        "Sunday is a day he is not available to work",
+        "He works every Sunday"
+      ],
+      "correct": 2,
+      "explanation": "'I can't work on Sundays' means Sunday is not available for him. He can work other days. This is a natural and clear way to express your unavailability."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is a 'shift'?",
+      "options": [
+        "A type of overtime pay",
+        "A scheduled block of work time (e.g., 6 AM to 2:30 PM)",
+        "A day off from work",
+        "A full week of work"
+      ],
+      "correct": 1,
+      "explanation": "A shift is a specific scheduled period of work time — for example, a morning shift from 6 to 2:30 or a night shift from 10 PM to 6 AM. Most warehouses and factories work in shifts."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask about work hours in a job interview?",
+      "options": [
+        "When do I have to come?",
+        "What are the hours for this position?",
+        "Tell me the schedule now.",
+        "Is the job in the morning?"
+      ],
+      "correct": 1,
+      "explanation": "'What are the hours for this position?' is professional and natural. It shows you are thinking about the schedule and taking the job seriously."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tom offers Saturday overtime. How does Ahmed correctly say he can do it?",
+      "options": [
+        "I'm available on Saturdays.",
+        "I available Saturday.",
+        "Saturday I can available.",
+        "I work Saturday, yes."
+      ],
+      "correct": 0,
+      "explanation": "'I'm available on Saturdays' is the natural, correct form. Use 'available + on + day' to express your availability."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'full-time' typically mean?",
+      "options": [
+        "Working only in the morning",
+        "Working whenever the boss calls you",
+        "Working about 40 hours per week",
+        "Working 7 days a week"
+      ],
+      "correct": 2,
+      "explanation": "Full-time usually means 40 hours per week, typically Monday through Friday. Part-time means fewer hours — often 20-30 hours per week."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses UNTIL?",
+      "options": [
+        "I work until Monday.",
+        "I work until at 5 PM.",
+        "I can stay until 6 PM if needed.",
+        "The shift is until from 8 to 4."
+      ],
+      "correct": 2,
+      "explanation": "'I can stay until 6 PM' is correct. UNTIL is followed by a time or event. You can also say 'from 8 to 4' or 'from 8 until 4' — both work."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is overtime?",
+      "options": [
+        "A type of shift that starts very early",
+        "Work done beyond your regular scheduled hours",
+        "The time when your shift ends",
+        "A job that pays very well"
+      ],
+      "correct": 1,
+      "explanation": "Overtime is extra work time beyond your regular schedule — often on weekends or after your regular shift ends. It is usually optional and paid at a higher rate."
+    },
+    {
+      "type": "writing",
+      "question": "Write 3 sentences about your work availability. Use: I can work..., I'm available..., I can't...",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice stating your availability clearly. Include days, hours, and at least one limitation. This is essential information for any job interview."
+    },
+    {
+      "type": "open-ended",
+      "question": "An employer asks: 'What shift do you prefer — morning, afternoon, or night?' Write your answer in 2 sentences. Explain your preference and why.",
+      "options": [],
+      "correct": null,
+      "explanation": "Employers appreciate when you know your own availability. Be honest and specific. Example: 'I prefer the morning shift, from 6 to 2. I am more productive in the morning and it fits my family schedule.'"
+    }
+  ]
+}

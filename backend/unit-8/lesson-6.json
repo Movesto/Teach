@@ -1,0 +1,238 @@
+{
+  "id": "lesson-50",
+  "unit_id": 8,
+  "lesson_number": 6,
+  "title": "Process Writing (How-To)",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Write clear step-by-step instructions",
+    "Use imperative mood appropriately",
+    "Organize instructions chronologically",
+    "Anticipate and address potential problems"
+  ],
+  "target_phrases": [
+    "First, [do this]...",
+    "Next, [do this]...",
+    "Make sure to...",
+    "Be careful not to...",
+    "If... then...",
+    "Before you begin...",
+    "You will need..."
+  ],
+  "dialogue": {
+    "title": "Writing Instructions for New Employees",
+    "context": "Ahmed needs to write instructions for new employees on how to use the company computer system. His supervisor reviews his draft.",
+    "lines": [
+      {"speaker": "Supervisor", "text": "Ahmed, thanks for drafting these instructions. Let me give you some feedback to make them clearer."},
+      {"speaker": "Ahmed", "text": "Sure! I tried to explain everything step by step."},
+      {"speaker": "Supervisor", "text": "You did include all the information, but the steps are out of order. Look - step 3 tells them to log in, but step 1 already assumes they're logged in."},
+      {"speaker": "Ahmed", "text": "Oh! I should reorganize them in chronological order - the actual order someone would do them?"},
+      {"speaker": "Supervisor", "text": "Exactly. Also, use command form - imperative mood. Instead of 'You should click the icon,' write 'Click the icon.' It's more direct and clear."},
+      {"speaker": "Ahmed", "text": "So like 'Open the program' instead of 'You need to open the program'?"},
+      {"speaker": "Supervisor", "text": "Perfect! Now, another tip: anticipate problems. What if they don't see the icon? Add: 'If you don't see the icon, check the bottom toolbar.'"},
+      {"speaker": "Ahmed", "text": "That's helpful! Should I number the steps?"},
+      {"speaker": "Supervisor", "text": "Yes, definitely. Numbered steps are easier to follow than paragraphs. Also, add warnings for important things: 'Be careful not to close this window' or 'Make sure to save your work first.'"},
+      {"speaker": "Ahmed", "text": "And should I start with materials needed?"},
+      {"speaker": "Supervisor", "text": "Good idea! Begin with 'You will need: your employee ID, password, and network access.' Then number the steps. End with troubleshooting tips if something goes wrong."},
+      {"speaker": "Ahmed", "text": "So the structure is: materials, numbered steps in order, warnings, and troubleshooting?"},
+      {"speaker": "Supervisor", "text": "Exactly! That's professional technical writing. Try revising with this structure."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Imperative commands for instructions",
+      "pattern": "[Verb] + [object/details]",
+      "examples": [
+        "Open the application on your desktop.",
+        "Enter your username and password.",
+        "Click the blue 'Submit' button.",
+        "Save the document to your folder.",
+        "Close all windows before restarting."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Warnings and cautions",
+      "pattern": "Make sure to... / Be careful not to... / Don't forget to...",
+      "examples": [
+        "Make sure to save your work before closing.",
+        "Be careful not to delete important files.",
+        "Don't forget to log out when finished.",
+        "Make sure your device is charged first.",
+        "Be careful not to skip any steps."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Conditional instructions",
+      "pattern": "If [condition], then [action]",
+      "examples": [
+        "If the program freezes, restart your computer.",
+        "If you see an error message, contact IT support.",
+        "If the file won't open, try updating your software.",
+        "If you forget your password, click 'Reset Password.'",
+        "If the connection fails, check your internet."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit8-lesson6-listen1.mp3",
+      "transcript": "Good instructions follow chronological order - the actual sequence someone performs the task. Don't jump around or assume knowledge. Start with what you need, then step 1, step 2, etc. Each step should be one clear action. Wrong: 'Open the file and edit it and save it.' Right: 'Step 1: Open the file. Step 2: Edit the content. Step 3: Save your changes.' Breaking into small steps prevents confusion.",
+      "question": "How should instructions be organized?",
+      "options": [
+        "In random order",
+        "In chronological order",
+        "By importance",
+        "Alphabetically"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit8-lesson6-listen2.mp3",
+      "transcript": "Use imperative mood for instructions - commands without a subject. Say 'Click the button,' not 'You click the button' or 'You should click the button.' Imperatives are direct and clear. Also be specific: instead of 'Press the key,' say 'Press the Enter key.' Vague instructions cause mistakes. The more specific you are, the easier it is to follow.",
+      "question": "Why use imperative mood for instructions?",
+      "options": [
+        "It sounds more polite",
+        "It's more direct and clear",
+        "It's required in English",
+        "To make instructions longer"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit8-lesson6-listen3.mp3",
+      "transcript": "Anticipate problems and include troubleshooting. Think: what could go wrong? Add conditionals: 'If you don't see the icon, check...' or 'If you receive an error, try...' Also include warnings for critical steps: 'Important: Do not close this window before saving.' Testing your instructions on someone unfamiliar with the task reveals unclear steps.",
+      "question": "What should you include in instructions?",
+      "options": [
+        "Only the basic steps",
+        "Steps and troubleshooting for problems",
+        "Your personal opinions",
+        "Historical background"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Explain how to make a simple food item (sandwich, tea, scrambled eggs) using clear step-by-step instructions. Use imperatives and number your steps. Record for 30 seconds.",
+      "example": "Let me explain how to make perfect scrambled eggs. You will need: 2-3 eggs, butter, salt, pepper, and a pan. Step 1: Crack the eggs into a bowl. Step 2: Add a splash of milk and beat with a fork until mixed. Step 3: Heat the pan on medium and add a tablespoon of butter. Step 4: When the butter melts, pour in the eggs. Step 5: Stir gently with a spatula, scraping the bottom of the pan. Step 6: When the eggs are soft but not runny, remove from heat immediately. Be careful not to overcook - they'll become rubbery. Serve right away while they're creamy.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Give directions from your home to a nearby landmark. Use command form and include what to do if someone gets lost. Record for 25 seconds.",
+      "example": "To get from my apartment to the library, follow these directions. First, exit the building and turn left on 82nd Avenue. Walk two blocks north until you reach Division Street. Turn right on Division. Continue for three blocks. You'll see a large red brick building on your left - that's the library. If you reach the park, you've gone too far - turn back one block. The whole walk takes about 10 minutes.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write step-by-step instructions for a simple task (using an ATM, making a phone call, sending an email, etc.). Include: materials needed, numbered steps, one warning, one conditional. (80-100 words)",
+      "min_words": 80,
+      "example": "How to Withdraw Money from an ATM\n\nYou will need: your ATM card and PIN number.\n\n1. Insert your card into the ATM slot with the chip facing up.\n2. Enter your PIN when prompted.\n3. Select 'Withdrawal' from the menu.\n4. Choose 'Checking' or 'Savings' account.\n5. Enter the amount you want to withdraw.\n6. Take your cash when it appears.\n7. Take your receipt if you want one.\n8. Remove your card.\n\nImportant: Never share your PIN with anyone. If the ATM doesn't return your card, contact your bank immediately. Make sure to take your card before leaving - it's easy to forget!",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write instructions for something you do regularly at work, home, or school. Make it clear enough that someone unfamiliar could follow it. Include numbered steps and at least one 'If... then' statement. (90-110 words)",
+      "min_words": 90,
+      "example": "How to Clock In at Work Using the Time System\n\nYou will need: your employee badge.\n\n1. Locate the time clock terminal near the main entrance.\n2. Hold your badge flat against the scanner until you hear a beep.\n3. Check the screen to verify your name appears.\n4. Look for the green checkmark confirming you're clocked in.\n5. If you see a red X, scan your badge again.\n6. If the red X appears twice, write your time on the manual timesheet and notify your supervisor.\n\nImportant: Clock in within 5 minutes of your scheduled start time. If you're going to be late, call ahead. Never let someone else clock in for you - this is grounds for termination.",
+      "min_words": 90
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Imperative Mood (Commands)",
+      "explanation": "Use base form of verb without subject for commands and instructions.",
+      "examples": [
+        "Open the document. (command - no subject needed)",
+        "Click the button. (instruction)",
+        "Don't close the window. (negative command)",
+        "Please enter your password. (polite command)"
+      ],
+      "practice": [
+        {"sentence": "___ the file carefully.", "blank": "Read", "options": ["Read", "Reading", "Reads"]},
+        {"sentence": "Don't ___ to save your work.", "blank": "forget", "options": ["forget", "forgets", "forgetting"]},
+        {"sentence": "___ the red button.", "blank": "Press", "options": ["Press", "Pressing", "Pressed"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Sequence Words and Numbering",
+      "explanation": "Use numbers or sequence words to show order of steps.",
+      "examples": [
+        "First, gather your materials. (sequence word)",
+        "1. Turn on the computer. (numbered step)",
+        "Next, enter your password. (sequence word)",
+        "Finally, click Submit. (final step)"
+      ],
+      "practice": [
+        {"sentence": "___, wash your hands.", "blank": "First", "options": ["First", "Finally", "Never"]},
+        {"sentence": "___, remove from heat.", "blank": "Finally", "options": ["First", "Next", "Finally"]},
+        {"sentence": "___ step: Mix ingredients.", "blank": "1.", "options": ["1.", "Last", "Maybe"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional Clauses for Troubleshooting",
+      "explanation": "Use 'if... then' to describe what to do when problems occur.",
+      "examples": [
+        "If the program crashes, restart it. (condition + solution)",
+        "If you see an error, call IT. (problem + action)",
+        "If the page won't load, refresh the browser. (issue + fix)",
+        "If you're unsure, ask for help. (uncertainty + advice)"
+      ],
+      "practice": [
+        {"sentence": "If it doesn't work, ___ again.", "blank": "try", "options": ["try", "tries", "trying"]},
+        {"sentence": "If you ___ lost, ask for help.", "blank": "get", "options": ["get", "gets", "getting"]},
+        {"sentence": "___ the machine stops, call support.", "blank": "If", "options": ["If", "Because", "When"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with Ahmed's original instructions?", "options": ["Too long", "Steps out of order", "Too short", "No problems"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What verb form should you use for instructions?", "options": ["Past tense", "Present continuous", "Imperative mood", "Future tense"], "correct": 2, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How should steps be organized?", "options": ["Alphabetically", "By importance", "Chronologically", "Randomly"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: '___ the button.' (imperative)", "options": ["Clicking", "Click", "Clicked", "Clicks"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should number steps to make instructions clearer.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Vague instructions like 'Do the thing' are okay.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___, gather materials. (sequence word)", "correct": "First", "accept": ["First", "first"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "If it breaks, ___ support. (imperative: call)", "correct": "call", "accept": ["call"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Imperative", "right": "Command form"}, {"left": "Sequential", "right": "In order"}, {"left": "Conditional", "right": "If... then"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What should instructions include besides steps?", "options": ["Personal stories", "Warnings and troubleshooting", "Historical facts", "Opinions"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "process", "definition": "series of actions to achieve result", "example": "Explain the process step by step."},
+    {"word": "instruction", "definition": "direction telling how to do something", "example": "Follow the instructions carefully."},
+    {"word": "step", "definition": "one stage in a process", "example": "Complete each step in order."},
+    {"word": "procedure", "definition": "established way of doing something", "example": "This is the standard procedure."},
+    {"word": "sequence", "definition": "order in which things follow", "example": "Do the steps in sequence."},
+    {"word": "imperative", "definition": "command form of verb", "example": "Use imperative mood for instructions."},
+    {"word": "chronological", "definition": "arranged in time order", "example": "List steps in chronological order."},
+    {"word": "troubleshooting", "definition": "solving problems systematically", "example": "Include troubleshooting tips."},
+    {"word": "clarify", "definition": "make clear or easier to understand", "example": "Clarify any confusing steps."},
+    {"word": "anticipate", "definition": "expect or predict", "example": "Anticipate potential problems."}
+  ],
+  "cultural_notes": [
+    "American DIY (Do-It-Yourself) culture values clear instructions - from IKEA furniture to home repair.",
+    "Technical writing is a valued profession in the U.S. - many companies need clear instruction writers.",
+    "Recipe writing in America follows a standard format: ingredients list, numbered steps, time/servings info.",
+    "American software and apps emphasize user-friendly instructions and 'onboarding' tutorials.",
+    "Safety warnings are very important in American instructions due to liability concerns.",
+    "Many Americans learn to write process essays in school using the 'how-to' format."
+  ]
+}

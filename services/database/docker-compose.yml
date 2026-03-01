@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: teach-database
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: teach_user
+      POSTGRES_PASSWORD: teach_secure_pass_123
+      POSTGRES_DB: teach_db
+    volumes:
+      # Persist data
+      - postgres_data:/var/lib/postgresql/data
+      # Run init script on first start
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U teach_user -d teach_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

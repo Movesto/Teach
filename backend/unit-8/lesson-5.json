@@ -1,0 +1,236 @@
+{
+  "id": "lesson-49",
+  "unit_id": 8,
+  "lesson_number": 5,
+  "title": "Narrative Writing",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Write personal narratives with clear structure",
+    "Use dialogue to enhance stories",
+    "Create engaging beginnings and satisfying endings",
+    "Build tension and maintain reader interest"
+  ],
+  "target_phrases": [
+    "It all started when...",
+    "Suddenly...",
+    "I couldn't believe...",
+    "Looking back...",
+    "In the end...",
+    "That experience taught me...",
+    "The turning point was..."
+  ],
+  "dialogue": {
+    "title": "Writing a Personal Narrative",
+    "context": "Ahmed's writing class is learning to write compelling personal stories. The teacher reviews Ahmed's draft about arriving in America.",
+    "lines": [
+      {"speaker": "Teacher", "text": "Ahmed, your story about arriving in America is interesting, but let's make it more engaging. Right now it reads like a list of events."},
+      {"speaker": "Ahmed", "text": "What do you mean? I explained everything that happened."},
+      {"speaker": "Teacher", "text": "You did, but a good narrative needs more than facts. It needs a strong opening, dialogue, sensory details, and a clear turning point. Let's start with your opening: 'I came to America in January.' How can we hook readers immediately?"},
+      {"speaker": "Ahmed", "text": "Maybe... 'When the plane touched down in Portland, my hands were shaking. I had left everything I knew 8,000 miles behind'?"},
+      {"speaker": "Teacher", "text": "Much better! That creates immediate interest. Now, you wrote 'I couldn't find my luggage and I was worried.' Can you show that with dialogue and action?"},
+      {"speaker": "Ahmed", "text": "How about: 'My suitcase didn't appear on the carousel. My heart raced. \"Where is it?\" I asked the airport worker, my voice rising with panic'?"},
+      {"speaker": "Teacher", "text": "Perfect! You're showing the emotion through dialogue and physical details instead of just telling us you were worried. Now, what's the turning point of your story?"},
+      {"speaker": "Ahmed", "text": "When the worker who spoke Arabic helped me find my luggage. It was the first time I felt someone understood me in America."},
+      {"speaker": "Teacher", "text": "That's your pivotal moment! Build to it with tension - the panic, the confusion, the language barrier. Then show the relief when he helped you. End by reflecting on what it meant."},
+      {"speaker": "Ahmed", "text": "So the structure is: hook the reader, build tension through the problem, reach the turning point, then end with what I learned?"},
+      {"speaker": "Teacher", "text": "Exactly! A narrative arc: beginning (setup), middle (conflict and rising tension), climax (turning point), and end (resolution and reflection). That's what makes stories compelling."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Story openings that hook readers",
+      "pattern": "Strong opening statement that creates interest",
+      "examples": [
+        "It all started on an ordinary Tuesday that turned into the worst day of my life.",
+        "I'll never forget the moment I realized I had made a terrible mistake.",
+        "The phone call came at 3 AM, and I knew immediately something was wrong.",
+        "Looking back, I should have seen the warning signs, but I was too excited to notice.",
+        "The day I arrived in America, I couldn't stop my hands from shaking."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Using dialogue in narratives",
+      "pattern": "\"Dialogue,\" subject said/asked, description",
+      "examples": [
+        "\"Where is my suitcase?\" I asked, my voice rising with panic.",
+        "\"Don't worry, we'll find it,\" the worker said calmly.",
+        "\"I can't believe this is happening,\" she whispered, tears in her eyes.",
+        "\"You need to leave now!\" he shouted, pointing at the door.",
+        "\"Everything will be okay,\" my mother said, though I could hear doubt in her voice."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Reflective endings",
+      "pattern": "Looking back/In the end/That experience taught me [reflection]",
+      "examples": [
+        "Looking back, that terrifying first day taught me I was stronger than I thought.",
+        "In the end, losing my luggage led me to make my first friend in America.",
+        "That experience taught me to ask for help when I need it.",
+        "Now I realize that what seemed like a disaster was actually a blessing.",
+        "That moment changed everything - I knew I could survive anything after that."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit8-lesson5-listen1.mp3",
+      "transcript": "Personal narratives follow a story arc: exposition (introduce setting and characters), rising action (build tension through conflict), climax (turning point or peak moment), falling action (events after climax), and resolution (how it ends and what you learned). This structure keeps readers engaged because they want to know what happens next and how problems get resolved.",
+      "question": "What is the climax of a story?",
+      "options": [
+        "The beginning",
+        "The turning point or peak moment",
+        "The ending",
+        "The boring middle part"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit8-lesson5-listen2.mp3",
+      "transcript": "Good dialogue makes narratives come alive. Use dialogue to reveal character, show emotion, and move the plot forward. Format correctly: put spoken words in quotation marks, start a new paragraph for each speaker, and add dialogue tags (said, asked, whispered) to show who's speaking. Don't overuse fancy dialogue tags - 'said' and 'asked' are usually best.",
+      "question": "Why use dialogue in narratives?",
+      "options": [
+        "To make writing longer",
+        "To fill up space",
+        "To reveal character and show emotion",
+        "It's required"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit8-lesson5-listen3.mp3",
+      "transcript": "The most powerful narratives don't just tell what happened - they reflect on why it mattered. End with insight: What did you learn? How did you change? Why does this story matter? For example, don't just end with 'And then I found my luggage.' End with 'That day I learned that kindness transcends language barriers, and one helpful stranger can make you feel at home in a foreign land.'",
+      "question": "What should narrative endings include?",
+      "options": [
+        "Just state what happened",
+        "Reflect on why it mattered and what you learned",
+        "Introduce new characters",
+        "Ask questions"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Tell a brief personal story using this structure: hook opening, build tension, turning point, reflective ending. Include at least one line of dialogue. Record for 35 seconds.",
+      "example": "I'll never forget my first job interview in America. I had practiced my English for weeks, but when the interviewer asked the first question, my mind went completely blank. My heart pounded. 'Um... can you repeat that?' I asked, my face burning with embarrassment. She smiled kindly. 'Of course. Tell me about yourself.' She spoke slowly, and suddenly the words I'd practiced came back. I took a deep breath and began to speak. The interview lasted 20 minutes, and to my shock, she offered me the job. That experience taught me that most people want to help, not judge. My accent wasn't a barrier - my willingness to try was what mattered.",
+      "min_seconds": 35,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Describe a turning point or pivotal moment in your life. What changed? Why was it important? Record for 25 seconds.",
+      "example": "The turning point in my life came when I decided to move to America. For months, I debated - should I leave my family and everything familiar, or stay in Somalia where life was difficult but predictable? The moment I decided was when my daughter asked, 'Papa, will I ever go to school?' In that instant, I knew I had to give my children opportunities I never had. That decision was terrifying, but it changed everything. Now, five years later, my children are thriving in school, and I don't regret it for a second.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a personal narrative about a challenge you overcame. Include: engaging opening, dialogue, sensory details, turning point, and reflective ending. (120-150 words)",
+      "min_words": 120,
+      "example": "I stood at the front of the classroom, my hands trembling. It was my first presentation in English class, and twenty faces stared at me expectantly.\n\n\"Good morning,\" I began, my voice barely above a whisper. I had practiced for days, but now every word I'd memorized vanished from my mind.\n\n\"Take your time, Ahmed,\" my teacher said gently. \"We're all here to support you.\"\n\nI took a deep breath and started again, this time focusing on my notes. My voice grew stronger with each sentence. I talked about my hometown in Somalia, showing photos of the beach where I played as a child. Slowly, I forgot my fear. When I finished, my classmates clapped.\n\n\"That was wonderful,\" the teacher said, smiling.\n\nLooking back, that five-minute presentation was a turning point. I realized that courage isn't the absence of fear - it's continuing despite being terrified. That day, I proved to myself I could do hard things.",
+      "min_words": 120
+    },
+    {
+      "id": "write-2",
+      "prompt": "Take this basic story and expand it with dialogue, details, and emotion: 'I got lost in the city. Someone helped me. I found my way home.' (80-100 words)",
+      "min_words": 80,
+      "example": "My heart raced as I realized I was completely lost. The Portland streets all looked the same, and my phone battery had died. Panic rose in my chest.\n\n\"Excuse me,\" I said to a woman walking by. \"I'm trying to get to Southeast 82nd Avenue. Can you help?\"\n\nShe pulled out her phone and showed me a map. \"You're about two miles away. Take the bus - number 72 stops right there,\" she said, pointing to the corner.\n\n\"Thank you so much,\" I said, relief flooding through me.\n\nWhen I finally reached my apartment, I was exhausted but grateful. That stranger's kindness reminded me that asking for help isn't weakness - it's wisdom.",
+      "min_words": 80
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Past Tense for Narratives",
+      "explanation": "Personal narratives are usually written in past tense because they describe events that already happened.",
+      "examples": [
+        "I arrived at the airport. (simple past for completed action)",
+        "I was waiting for my luggage. (past continuous for ongoing action)",
+        "I had never been on a plane before. (past perfect for earlier past)",
+        "I would check my watch every few minutes. (past habit)"
+      ],
+      "practice": [
+        {"sentence": "I ___ at the door nervously.", "blank": "knocked", "options": ["knock", "knocked", "knocking"]},
+        {"sentence": "She ___ when I arrived.", "blank": "was crying", "options": ["cried", "was crying", "cries"]},
+        {"sentence": "I ___ never seen anything like it.", "blank": "had", "options": ["have", "had", "has"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Dialogue Punctuation",
+      "explanation": "Put spoken words in quotation marks. Commas and periods go inside quotes.",
+      "examples": [
+        "\"I can't find my bag,\" I said. (comma inside quotes)",
+        "\"Where is it?\" she asked. (question mark inside quotes)",
+        "\"Help me!\" he shouted. (exclamation inside quotes)",
+        "She whispered, \"Don't worry.\" (comma before quote, period inside)"
+      ],
+      "practice": [
+        {"sentence": "\"I'm lost___ I said.", "blank": ",\"", "options": ["\"", ",\"", ".\""]},
+        {"sentence": "She asked___ \"Are you okay___", "blank": ", / ?\"", "options": ["\"Are you okay?\"", ", \"Are you okay?\"", "\"Are you okay\""]},
+        {"sentence": "\"Help___\" he yelled.", "blank": "!\"", "options": ["\"", "!\"", ",\""]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Transition Words for Time Sequence",
+      "explanation": "Use time transitions to show when events happened in your narrative.",
+      "examples": [
+        "First, I checked in at the airport. (beginning)",
+        "Then, I went through security. (next event)",
+        "Suddenly, I realized my passport was missing. (unexpected event)",
+        "Finally, I found it in my jacket pocket. (conclusion)"
+      ],
+      "practice": [
+        {"sentence": "___, I woke up early.", "blank": "First", "options": ["First", "Finally", "Suddenly"]},
+        {"sentence": "___, everything went wrong.", "blank": "Suddenly", "options": ["First", "Suddenly", "Finally"]},
+        {"sentence": "___, we arrived safely.", "blank": "Finally", "options": ["First", "Then", "Finally"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with Ahmed's original story opening?", "options": ["Too long", "Not interesting enough", "Had grammar errors", "Too emotional"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What is the climax of a narrative?", "options": ["The beginning", "The turning point", "The ending", "The middle"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How should dialogue be formatted?", "options": ["In italics", "In quotation marks", "In parentheses", "Underlined"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "What tense are narratives usually written in?", "options": ["Present", "Past", "Future", "Present perfect"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Good narratives include reflection on what was learned.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should just list events without showing emotion.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "\"I'm lost,___ I said. (dialogue punctuation)", "correct": ",\"", "accept": [",\""], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "I ___ at the airport yesterday. (past tense: arrive)", "correct": "arrived", "accept": ["arrived"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match story element:", "pairs": [{"left": "Opening", "right": "Hook readers"}, {"left": "Climax", "right": "Turning point"}, {"left": "Ending", "right": "Reflection"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "The teacher suggested Ahmed add what to his story?", "options": ["More facts", "Dialogue and sensory details", "Historical information", "Statistics"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "narrative", "definition": "a story or account of events", "example": "Write a personal narrative."},
+    {"word": "arc", "definition": "the overall shape or structure of a story", "example": "Stories follow a narrative arc."},
+    {"word": "climax", "definition": "the most intense or important moment", "example": "The climax was exciting."},
+    {"word": "tension", "definition": "mental or emotional strain in story", "example": "Build tension gradually."},
+    {"word": "dialogue", "definition": "conversation between characters", "example": "Use dialogue to show emotion."},
+    {"word": "turning point", "definition": "moment when situation changes", "example": "That was the turning point."},
+    {"word": "reflection", "definition": "serious thought about meaning", "example": "End with reflection."},
+    {"word": "suspense", "definition": "anxious uncertainty about outcome", "example": "The story builds suspense."},
+    {"word": "resolution", "definition": "conclusion or ending of story", "example": "The resolution was satisfying."},
+    {"word": "pivotal", "definition": "of crucial importance", "example": "It was a pivotal moment."}
+  ],
+  "cultural_notes": [
+    "Personal narratives are commonly required in U.S. college applications - students write about formative experiences.",
+    "Americans value storytelling in business - TED Talks often use personal narrative structure.",
+    "The 'hero's journey' narrative structure is foundational in American storytelling and film.",
+    "Memoir and personal essay are popular genres in American literature.",
+    "Many American job interviews include 'Tell me about a time when...' behavioral questions that require narrative responses.",
+    "NPR's 'This American Life' and 'The Moth' are popular American storytelling podcasts that feature personal narratives."
+  ]
+}

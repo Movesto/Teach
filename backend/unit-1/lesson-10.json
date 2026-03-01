@@ -1,0 +1,364 @@
+{
+  "id": 10,
+  "unit_id": 1,
+  "lesson_number": 10,
+  "title": "Talking About Weather & Clothing",
+  "description": "Learn to talk about the weather and what to wear",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+
+  "objectives": [
+    "Describe the weather (It is hot / cold / raining)",
+    "Ask about the weather (What is the weather like?)",
+    "Talk about what to wear (You need a jacket)",
+    "Use weather words in daily conversation"
+  ],
+
+  "target_language": {
+    "phrases": [
+      "What is the weather like today?",
+      "It is hot / cold / warm / cool",
+      "It is raining / snowing / sunny / cloudy",
+      "You need a jacket / umbrella",
+      "I am wearing [clothing]",
+      "It is going to rain",
+      "Bring an umbrella"
+    ],
+    "grammar_pattern": "It is + weather adjective\nIt is + weather verb (-ing)\nYou need + clothing item\n\nExamples:\n- It is hot today\n- It is raining\n- You need a jacket\n- Bring an umbrella",
+    "grammar_patterns": [
+      {
+        "label": "Describing weather",
+        "pattern": "It is + [weather word]",
+        "examples": ["It is hot", "It is cold", "It is sunny", "It is cloudy"]
+      },
+      {
+        "label": "Weather actions",
+        "pattern": "It is + [verb]-ing",
+        "examples": ["It is raining", "It is snowing", "It is getting cold"]
+      },
+      {
+        "label": "Clothing advice",
+        "pattern": "You need + [clothing item]",
+        "examples": ["You need a jacket", "You need an umbrella", "You need a hat"]
+      },
+      {
+        "label": "What you are wearing",
+        "pattern": "I am wearing + [clothing]",
+        "examples": ["I am wearing a jacket", "I am wearing boots", "I am wearing a hat"]
+      }
+    ]
+  },
+
+  "story": {
+    "context": "You are leaving your apartment. Your neighbor Marcus sees you at the door.",
+    "dialogue": [
+      {
+        "speaker": "Marcus",
+        "text": "Good morning! Where are you going?"
+      },
+      {
+        "speaker": "You",
+        "text": "Good morning. I am going to the store."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "You need a jacket. It is very cold today."
+      },
+      {
+        "speaker": "You",
+        "text": "Really? What is the weather like?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "It is cold and cloudy. I think it is going to rain."
+      },
+      {
+        "speaker": "You",
+        "text": "Oh. I don't have an umbrella."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "You can borrow mine. Here."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you very much! Is it snowing?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "No, not today. But it is very cold. Maybe 30 degrees."
+      },
+      {
+        "speaker": "You",
+        "text": "30 degrees! That is very cold. I need my warm jacket."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Yes. And wear a hat too!"
+      },
+      {
+        "speaker": "You",
+        "text": "Good idea. Thank you, Marcus!"
+      }
+    ]
+  },
+
+  "drills": [
+    {
+      "title": "Drill 1: Describing the weather",
+      "instruction": "Fill in the blank with the correct weather word",
+      "prompts": [
+        {"sentence": "It is ___ today.", "answer": "hot"},
+        {"sentence": "It is ___ today.", "answer": "cold"},
+        {"sentence": "It is ___ today.", "answer": "sunny"},
+        {"sentence": "It is ___ outside.", "answer": "cloudy"}
+      ],
+      "examples": [
+        "It is hot today.",
+        "It is cold today.",
+        "It is sunny today.",
+        "It is cloudy outside."
+      ],
+      "your_turn": "Now look outside and say what the weather is like today, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Weather actions",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "It is ___.", "answer": "raining"},
+        {"sentence": "It is ___.", "answer": "snowing"},
+        {"sentence": "It is going to ___.", "answer": "rain"},
+        {"sentence": "It is getting ___.", "answer": "cold"}
+      ],
+      "examples": [
+        "It is raining.",
+        "It is snowing.",
+        "It is going to rain.",
+        "It is getting cold."
+      ],
+      "your_turn": "Now describe what the weather is doing today, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Clothing for weather",
+      "instruction": "Fill in the blank with the correct clothing item",
+      "prompts": [
+        {"sentence": "You need a ___.", "answer": "jacket"},
+        {"sentence": "You need an ___.", "answer": "umbrella"},
+        {"sentence": "You need a ___.", "answer": "hat"},
+        {"sentence": "You need ___.", "answer": "boots"}
+      ],
+      "examples": [
+        "You need a jacket.",
+        "You need an umbrella.",
+        "You need a hat.",
+        "You need boots."
+      ],
+      "your_turn": "Now say what clothing you need for today's weather, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+
+  "listening": [
+    {
+      "question": "Listen: What is the weather like?",
+      "audio": "/audio/lesson10-listen1.mp3",
+      "options": ["Hot and sunny", "Cold and rainy", "Warm and cloudy", "Snowing"],
+      "correct": 1,
+      "explanation": "The person says 'It is cold and raining today.'"
+    },
+    {
+      "question": "Listen: What does the person need?",
+      "audio": "/audio/lesson10-listen2.mp3",
+      "options": ["A jacket", "An umbrella", "Boots", "A hat"],
+      "correct": 1,
+      "explanation": "The person says 'I need an umbrella. It is raining.'"
+    },
+    {
+      "question": "Listen: Is it going to snow?",
+      "audio": "/audio/lesson10-listen3.mp3",
+      "options": ["Yes", "No", "Maybe", "Tomorrow"],
+      "correct": 2,
+      "explanation": "The person says 'Maybe. It is very cold.'"
+    }
+  ],
+
+  "speaking": [
+    {
+      "title": "Task 1: Describe today's weather",
+      "instruction": "Record yourself describing today's weather. Use at least 3 sentences.",
+      "example": "It is cold today. It is cloudy. I think it is going to rain."
+    },
+    {
+      "title": "Task 2: Weather and clothing conversation",
+      "instruction": "Record a conversation where a friend tells you about the weather and you decide what to wear.",
+      "example": "Friend: It is very cold today.\nYou: Do I need a jacket?\nFriend: Yes. And bring an umbrella. It is going to rain.\nYou: Okay. Thank you!"
+    }
+  ],
+
+  "writing": [
+    {
+      "title": "Task 1: Describe different weather",
+      "instruction": "Write 5 sentences about different types of weather.",
+      "example": "1. It is hot and sunny.\n2. It is cold and snowing.\n3. It is raining today.\n4. It is warm and cloudy.\n5. It is cool and windy."
+    },
+    {
+      "title": "Task 2: Write a weather conversation",
+      "instruction": "Write a conversation (8-10 lines) where you talk to a friend about the weather and what to wear.",
+      "example": "You: What is the weather like today?\nFriend: It is cold and cloudy.\nYou: Is it going to rain?\nFriend: Yes, I think so.\nYou: I need an umbrella.\nFriend: And wear a warm jacket.\nYou: Okay. I am wearing my boots too.\nFriend: Good idea!\nYou: Thank you for telling me.\nFriend: You're welcome!"
+    }
+  ],
+
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Weather descriptions with 'It is'",
+        "examples": [
+          "It is hot.",
+          "It is cold.",
+          "It is raining.",
+          "It is sunny."
+        ],
+        "question": "What word do we use as the subject when talking about weather?",
+        "explanation": "We use 'It' as the subject for weather. We say 'It is hot' not 'The weather hot'. This 'it' doesn't mean a specific thing — it just means 'the weather'."
+      },
+      {
+        "title": "Weather actions use -ing",
+        "examples": [
+          "It is raining.",
+          "It is snowing.",
+          "It is getting cold."
+        ],
+        "question": "What do you notice about the verb form?",
+        "explanation": "When weather is happening right now, we add -ing to the verb: rain → raining, snow → snowing. This is the present continuous tense."
+      },
+      {
+        "title": "Giving clothing advice",
+        "examples": [
+          "You need a jacket.",
+          "Wear a hat.",
+          "Bring an umbrella."
+        ],
+        "question": "How do we tell someone what to wear?",
+        "explanation": "We can say 'You need + [item]' to suggest clothing, or use the command form: 'Wear a hat' or 'Bring an umbrella'. These are helpful and friendly."
+      }
+    ]
+  },
+
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to know the weather. What do you ask?",
+      "options": [
+        "How is weather?",
+        "What is the weather like today?",
+        "Weather is what?",
+        "Today weather?"
+      ],
+      "correct": 1,
+      "explanation": "'What is the weather like today?' is the standard question about weather."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It is raining outside. What do you need?",
+      "options": [
+        "A hat",
+        "Sunglasses",
+        "An umbrella",
+        "Shorts"
+      ],
+      "correct": 2,
+      "explanation": "When it is raining, you need an umbrella to stay dry."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: It is ___ today. (water falling from the sky)",
+      "options": [
+        "snowing",
+        "raining",
+        "sunny",
+        "cloudy"
+      ],
+      "correct": 1,
+      "explanation": "'Raining' means water is falling from the sky."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The temperature is 95 degrees Fahrenheit. You say:",
+      "options": [
+        "It is cold",
+        "It is cool",
+        "It is warm",
+        "It is very hot"
+      ],
+      "correct": 3,
+      "explanation": "95 degrees Fahrenheit (35 Celsius) is very hot weather."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: You ___ a jacket. It is cold.",
+      "options": [
+        "have",
+        "need",
+        "want",
+        "take"
+      ],
+      "correct": 1,
+      "explanation": "'You need a jacket' is the natural way to advise someone about clothing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "Today is raining",
+        "It raining today",
+        "It is raining today",
+        "Raining is today"
+      ],
+      "correct": 2,
+      "explanation": "'It is raining today' is the correct form. We need 'It is' + verb-ing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "White things are falling from the sky. It is:",
+      "options": [
+        "Raining",
+        "Snowing",
+        "Sunny",
+        "Windy"
+      ],
+      "correct": 1,
+      "explanation": "Snow is white and falls from the sky. 'It is snowing' means snow is falling."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I am ___ a warm jacket. (you have it on your body)",
+      "options": [
+        "having",
+        "putting",
+        "wearing",
+        "taking"
+      ],
+      "correct": 2,
+      "explanation": "'Wearing' means you have clothing on your body. 'I am wearing a warm jacket.'"
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line conversation about the weather. One person asks about the weather, the other describes it and suggests clothing.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: asking about weather, describing it, and suggesting what to wear."
+    },
+    {
+      "type": "open-ended",
+      "question": "What is the weather usually like where you are from? Write 3-4 sentences comparing it to the weather here.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice describing weather from your home country and comparing it. Example: In Somalia, it is usually hot. Here, it is cold in winter."
+    }
+  ]
+}

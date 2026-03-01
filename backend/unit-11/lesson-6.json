@@ -1,0 +1,236 @@
+{
+  "id": "lesson-74",
+  "unit_id": 11,
+  "lesson_number": 6,
+  "title": "Advanced Academic Discourse and Scholarly Debate",
+  "level": "proficient",
+  "estimated_time": 45,
+  "objectives": [
+    "Engage in sophisticated theoretical debates",
+    "Critique paradigms respectfully but rigorously",
+    "Navigate interdisciplinary dialogue",
+    "Develop distinctive scholarly voice"
+  ],
+  "target_phrases": [
+    "From a [theoretical lens] perspective...",
+    "This paradigm assumes...",
+    "I'd like to interrogate the underlying assumptions...",
+    "Bringing insights from [discipline] to bear on...",
+    "The epistemological implications are...",
+    "This critique is not merely methodological but ontological...",
+    "The theoretical purchase of this framework..."
+  ],
+  "dialogue": {
+    "title": "Graduate Seminar Theoretical Debate",
+    "context": "Ahmed participates in an advanced seminar discussing competing theoretical frameworks, learning to engage in sophisticated scholarly debate while developing his own theoretical voice.",
+    "lines": [
+      {"speaker": "Professor", "text": "Today we're discussing whether rational choice theory adequately explains organizational behavior. Ahmed, you've been skeptical of this framework. Why?"},
+      {"speaker": "Ahmed", "text": "From a sociological perspective, rational choice theory makes problematic assumptions about human motivation. This paradigm assumes individuals are primarily self-interested utility maximizers, but empirical evidence shows behavior is shaped by social norms, institutional contexts, and cultural values."},
+      {"speaker": "Classmate 1", "text": "But rational choice theory doesn't claim people are always rational - just that they pursue their interests given constraints."},
+      {"speaker": "Ahmed", "text": "I'd like to interrogate the underlying assumptions there. What counts as 'interest'? The framework defines interests narrowly as material gains, ignoring how social identities and moral commitments shape what people value. This critique is not merely methodological but ontological - it's about what we consider real and meaningful in explaining behavior."},
+      {"speaker": "Professor", "text": "So you're challenging the framework's fundamental worldview?"},
+      {"speaker": "Ahmed", "text": "Exactly. The epistemological implications are significant. If we assume behavior is primarily rational calculation, we design interventions around incentives. But if behavior is socially constructed, we need to understand cultural meanings and institutional logics. The theoretical purchase of this framework is limited when applied to contexts where social identity matters more than material gain."},
+      {"speaker": "Classmate 2", "text": "Are you proposing we abandon rational choice entirely?"},
+      {"speaker": "Ahmed", "text": "Not abandon, but recognize its scope conditions. Bringing insights from institutional theory to bear on this question, I'd argue that rationality itself is socially constructed - what counts as 'rational' varies across cultural contexts and historical periods."},
+      {"speaker": "Professor", "text": "That's a sophisticated critique. You're not rejecting the framework wholesale but identifying its limitations and proposing complementary perspectives."},
+      {"speaker": "Ahmed", "text": "Right. From a pragmatist perspective, the question isn't whether rational choice theory is true or false, but when and where it's useful. In markets with clear prices and material incentives, it explains well. In contexts where identity, values, and social relationships predominate, we need richer frameworks."},
+      {"speaker": "Professor", "text": "This is exactly the kind of nuanced theoretical engagement scholarship requires. You're developing a distinctive voice - critical but constructive."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Theoretical framing",
+      "pattern": "From a [theoretical lens] perspective... / This paradigm assumes...",
+      "examples": [
+        "From a critical theory perspective, power relations shape what counts as legitimate knowledge.",
+        "This paradigm assumes objectivity is achievable, but feminist epistemology questions that assumption.",
+        "From a social constructionist perspective, categories we treat as natural are actually historically contingent.",
+        "This paradigm assumes linear causation, but complexity theory reveals non-linear dynamics.",
+        "From a phenomenological perspective, lived experience must be centered in understanding meaning."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Interrogating assumptions",
+      "pattern": "I'd like to interrogate the underlying assumptions... / The epistemological implications are...",
+      "examples": [
+        "I'd like to interrogate the underlying assumptions about human nature embedded in this framework.",
+        "The epistemological implications are profound - this shifts what counts as valid evidence.",
+        "I'd like to interrogate the underlying assumptions that privilege certain forms of knowledge over others.",
+        "The epistemological implications are that methodology and ontology cannot be separated.",
+        "I'd like to interrogate the underlying assumptions about the relationship between individual and society."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Interdisciplinary synthesis",
+      "pattern": "Bringing insights from [discipline] to bear on... / The theoretical purchase of this framework...",
+      "examples": [
+        "Bringing insights from behavioral economics to bear on organizational decision-making reveals cognitive biases.",
+        "The theoretical purchase of this framework is limited when explaining phenomena across cultural contexts.",
+        "Bringing insights from anthropology to bear on policy analysis illuminates cultural dimensions economists miss.",
+        "The theoretical purchase of this framework lies in its explanatory power for specific historical moments.",
+        "Bringing insights from neuroscience to bear on education research requires careful epistemological translation."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit11-lesson6-listen1.mp3",
+      "transcript": "Theoretical paradigms are worldviews shaping what questions we ask, methods we use, and interpretations we make. Positivism seeks objective truth through empirical observation. Interpretivism emphasizes understanding subjective meanings. Critical theory examines power and ideology. Post-positivism recognizes theory-laden observation while seeking approximate truth. Paradigms are incommensurable - operating from different assumptions about reality and knowledge. Productive debate requires recognizing these differences rather than talking past each other. Understanding paradigmatic commitments clarifies disagreements.",
+      "question": "What are theoretical paradigms?",
+      "options": [
+        "Just methods",
+        "Worldviews shaping questions, methods, and interpretations",
+        "Personal opinions",
+        "Statistical techniques"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit11-lesson6-listen2.mp3",
+      "transcript": "Scholarly voice emerges through positioning yourself within intellectual conversations. Who are you in dialogue with? What traditions inform your thinking? What contributions do you offer? Distinctive voice doesn't mean radical originality - it means thoughtful synthesis and unique perspective. Avoid three traps: derivative voice merely summarizing others; arrogant voice dismissing prior work; timid voice hiding behind citations. Strong voice engages generously with others while confidently advancing your perspective. This develops through reading widely, thinking deeply, and writing extensively.",
+      "question": "What does distinctive scholarly voice involve?",
+      "options": [
+        "Radical originality only",
+        "Thoughtful synthesis and unique perspective",
+        "Dismissing all prior work",
+        "Just summarizing others"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit11-lesson6-listen3.mp3",
+      "transcript": "Interdisciplinary dialogue requires epistemological humility - recognizing your discipline's blind spots and appreciating others' insights. Disciplines have different assumptions, methods, and standards. What counts as evidence in history differs from psychology. Economics and sociology ask different questions about same phenomena. Productive interdisciplinarity translates concepts carefully, recognizes incommensurabilities, and seeks complementary insights rather than false synthesis. It's hard work requiring fluency in multiple intellectual traditions. The payoff is richer understanding than any single discipline provides.",
+      "question": "What does interdisciplinary dialogue require?",
+      "options": [
+        "Ignoring other disciplines",
+        "Epistemological humility and careful translation",
+        "Forcing false synthesis",
+        "Staying in your discipline"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Engage in theoretical debate: choose a theory/framework and critique its assumptions while acknowledging its value. Show sophisticated scholarly discourse. Record for 45 seconds.",
+      "example": "Let me engage with human capital theory, which dominates education economics. From a critical sociology perspective, I appreciate this framework's emphasis on education's economic value and its influence on policy. However, I'd like to interrogate the underlying assumptions. This paradigm assumes education primarily develops marketable skills - human capital - increasing individual productivity and wages. The theoretical purchase of this framework is strong for explaining wage differentials and educational investment patterns. But this critique is not merely methodological but ontological. What's missing is how education reproduces social inequality, shapes identity formation, and transmits cultural values beyond economic utility. The epistemological implications are significant - if we view education only through human capital lens, we optimize for labor market outcomes while ignoring democratic citizenship, cultural development, and social justice. Bringing insights from cultural sociology to bear on education, we see how schools legitimize existing hierarchies and define legitimate knowledge in ways favoring dominant groups. I'm not proposing we abandon human capital theory - it explains important phenomena. But from a more comprehensive perspective, we need complementary frameworks recognizing education's multiple purposes beyond economic productivity.",
+      "min_seconds": 45,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain how insights from one discipline could enrich understanding in another (interdisciplinary synthesis). Record for 35 seconds.",
+      "example": "Let me discuss how bringing insights from behavioral economics to bear on public health could enrich intervention design. Traditional health promotion assumes rational actors making informed choices - provide information, people change behavior. But behavioral economics reveals systematic deviations from rationality: present bias makes future health costs psychologically distant, default effects mean people stick with status quo, and framing affects choices dramatically. The theoretical purchase of behavioral economics for public health is substantial. Instead of just information campaigns, we could redesign choice architecture - making healthy options default, using commitment devices for behavior change, framing health messages to leverage loss aversion. The epistemological implications involve recognizing that cognition is bounded, not unlimited. This isn't dismissing rational choice entirely but understanding its scope conditions. From a pragmatist perspective, the question is what insights each discipline contributes to effective intervention. Public health provides substantive expertise, behavioral economics provides insights about decision-making. Integration creates more effective policies than either alone.",
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a theoretical critique of a framework/theory. Interrogate assumptions, discuss epistemological implications, and propose complementary perspectives. (140-170 words)",
+      "min_words": 140,
+      "example": "Critique of Modernization Theory\n\nModernization theory, dominant in mid-20th century development studies, assumed all societies progress through similar stages toward Western-style industrialization and democracy. From a post-colonial perspective, I'd like to interrogate the underlying assumptions here.\n\nThis paradigm assumes: (1) Western development represents universal trajectory, (2) traditional cultures are obstacles to progress, (3) development is linear and inevitable. This critique is not merely methodological but ontological - it reflects ethnocentric worldview treating Western experience as normative.\n\nThe epistemological implications are profound. By defining development narrowly as industrialization and Westernization, this framework delegitimizes alternative development paths and indigenous knowledge systems. The theoretical purchase of this framework is limited - it cannot explain why similar policies produce vastly different outcomes across contexts.\n\nBringing insights from post-development theory to bear on this question reveals how modernization discourse justified colonialism and neo-imperialism. From a more nuanced perspective, development should be understood as contextual, multi-dimensional, and shaped by power relations rather than universal stages.\n\nThis doesn't mean rejecting all modernization insights, but recognizing their cultural specificity and limitations when applied universally.",
+      "min_words": 140
+    },
+    {
+      "id": "write-2",
+      "prompt": "Develop your scholarly voice: write a position statement on an issue in your field. Engage with others' perspectives while articulating your own. (120-140 words)",
+      "min_words": 120,
+      "example": "Position: On Measuring Organizational Performance\n\nCurrent debates about organizational performance measurement reveal deeper epistemological tensions. Quantitative approaches emphasize objective metrics - profit, productivity, growth. Qualitative approaches stress contextual understanding of success. I position myself between these poles.\n\nFrom a pragmatist perspective, the theoretical purchase of each approach depends on purpose. For investors, quantitative metrics matter. For understanding organizational culture, qualitative methods are essential. This critique is not merely methodological - it's about recognizing that 'performance' is socially constructed, not objectively given.\n\nBringing insights from institutional theory to bear on measurement, what counts as good performance varies across contexts and stakeholders. The epistemological implications are that no single measure captures organizational success comprehensively.\n\nMy position: We need methodological pluralism - multiple metrics, multiple methods, recognizing partial nature of all measures. This isn't relativism but pragmatic recognition that complex phenomena require multi-dimensional assessment. Strong scholarship integrates rather than dismisses competing approaches.",
+      "min_words": 120
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Subjunctive Mood for Theoretical Propositions",
+      "explanation": "Use subjunctive for hypothetical theoretical statements.",
+      "examples": [
+        "Were we to adopt this framework, implications would be... (formal subjunctive)",
+        "If this assumption were true, we would expect... (hypothetical)",
+        "I suggest that we reconsider this paradigm. (subjunctive suggestion)",
+        "It's essential that theory be grounded in evidence. (subjunctive necessity)"
+      ],
+      "practice": [
+        {"sentence": "Were this assumption true, we ___ see different results.", "blank": "would", "options": ["will", "would", "can"]},
+        {"sentence": "I propose that we ___ alternative frameworks.", "blank": "consider", "options": ["considers", "consider", "considering"]},
+        {"sentence": "It's critical that research ___ rigorous.", "blank": "be", "options": ["is", "be", "are"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Abstract Nominalization for Theoretical Concepts",
+      "explanation": "Use abstract nouns to discuss theoretical ideas formally.",
+      "examples": [
+        "The conceptualization of power... (nominalized)",
+        "The operationalization of constructs... (theoretical abstraction)",
+        "The interrogation of assumptions... (formal nominalization)",
+        "The theorization of phenomena... (scholarly abstraction)"
+      ],
+      "practice": [
+        {"sentence": "The ___ of theory is crucial.", "blank": "development", "options": ["develop", "development", "developing"]},
+        {"sentence": "The ___ of concepts matters.", "blank": "operationalization", "options": ["operationalize", "operationalization", "operationalizing"]},
+        {"sentence": "The ___ of assumptions is needed.", "blank": "interrogation", "options": ["interrogate", "interrogation", "interrogating"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Conditional Sentences for Theoretical Arguments",
+      "explanation": "Use conditionals to construct complex theoretical arguments.",
+      "examples": [
+        "If we accept this premise, then it follows that... (logical consequence)",
+        "Should this hypothesis hold, we would need to reconsider... (formal conditional)",
+        "If the data support this claim, it would challenge... (hypothetical)",
+        "Were these assumptions valid, the implications would be... (theoretical conditional)"
+      ],
+      "practice": [
+        {"sentence": "If we ___ this premise, implications follow.", "blank": "accept", "options": ["accept", "accepts", "accepting"]},
+        {"sentence": "Should this ___ true, we'd reconsider.", "blank": "prove", "options": ["prove", "proves", "proving"]},
+        {"sentence": "If data ___ this, it challenges theory.", "blank": "support", "options": ["support", "supports", "supporting"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What are theoretical paradigms?", "options": ["Just methods", "Worldviews shaping questions and interpretations", "Personal opinions", "Statistics"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What does distinctive scholarly voice involve?", "options": ["Radical originality only", "Thoughtful synthesis and unique perspective", "Dismissing prior work", "Just summarizing"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does interdisciplinary dialogue require?", "options": ["Ignoring others", "Epistemological humility and careful translation", "False synthesis", "Staying isolated"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Were this true, we ___ see results.'", "options": ["will", "would", "can", "must"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Paradigms are incommensurable - operating from different assumptions.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Scholarly voice means dismissing all previous work.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "The ___ of theory is crucial. (nominalization)", "correct": "development", "accept": ["development", "construction"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "If we ___ this premise, implications follow. (conditional)", "correct": "accept", "accept": ["accept"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match theoretical concept:", "pairs": [{"left": "Positivism", "right": "Objective truth"}, {"left": "Interpretivism", "right": "Subjective meaning"}, {"left": "Critical theory", "right": "Power and ideology"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed's critique of rational choice theory was:", "options": ["Wholesale rejection", "Identifying limitations and scope conditions", "Complete acceptance", "Avoiding engagement"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "paradigm", "definition": "conceptual framework or worldview", "example": "Different paradigms compete."},
+    {"word": "epistemology", "definition": "theory of knowledge", "example": "Epistemological assumptions matter."},
+    {"word": "ontology", "definition": "theory of reality/being", "example": "Ontological commitments differ."},
+    {"word": "positivism", "definition": "seeking objective truth empirically", "example": "Positivism dominated early science."},
+    {"word": "interpretivism", "definition": "understanding subjective meanings", "example": "Interpretivism values lived experience."},
+    {"word": "critique", "definition": "systematic analysis and evaluation", "example": "Offer constructive critique."},
+    {"word": "discourse", "definition": "system of ideas and communication", "example": "Engage in scholarly discourse."},
+    {"word": "hegemony", "definition": "dominance of one group's ideas", "example": "Challenge hegemonic assumptions."},
+    {"word": "incommensurable", "definition": "unable to be compared directly", "example": "Paradigms are incommensurable."},
+    {"word": "praxis", "definition": "practice informed by theory", "example": "Link theory to praxis."}
+  ],
+  "cultural_notes": [
+    "American graduate seminars encourage vigorous intellectual debate - disagreement is valued, not avoided.",
+    "U.S. academic culture values theoretical sophistication alongside empirical rigor.",
+    "Interdisciplinary work is increasingly valued in American academia but requires demonstrating competence in multiple traditions.",
+    "American scholarly culture expects you to position your work clearly within intellectual traditions.",
+    "Developing distinctive scholarly voice is essential for academic careers in American universities.",
+    "American academic culture values both critique and construction - identifying problems while offering solutions."
+  ]
+}

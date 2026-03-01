@@ -1,0 +1,455 @@
+{
+  "library": {
+    "metadata": {
+      "total_books": 13,
+      "version": "1.0",
+      "last_updated": "2026-01-08"
+    },
+    "books": [
+      {
+        "id": "book-1",
+        "unit_id": 1,
+        "title": "The Very Hungry Caterpillar",
+        "author": "Eric Carle",
+        "level": "A1",
+        "cefr": "beginner",
+        "pages": 26,
+        "word_count": 224,
+        "reading_time_minutes": 5,
+        "genre": "Children's Picture Book",
+        "themes": [
+          "Food",
+          "Days of the Week",
+          "Counting",
+          "Transformation"
+        ],
+        "description": "A simple story about a caterpillar who eats different foods each day. Perfect for learning food vocabulary and days of the week.",
+        "cover_image": "/books/covers/hungry-caterpillar.jpg",
+        "pdf_url": "/books/pdf/The Very Hungry Caterpillar.pdf",
+        "audio_url": "/books/audio/hungry-caterpillar.mp3",
+        "vocabulary_focus": [
+          "apple",
+          "pear",
+          "plum",
+          "strawberry",
+          "orange",
+          "Monday",
+          "Tuesday"
+        ],
+        "grammar_focus": [
+          "Simple present",
+          "Numbers",
+          "Days of week"
+        ]
+      },
+      {
+        "id": "book-25",
+        "unit_id": 2,
+        "title": "Seedfolks",
+        "author": "Paul Fleischman",
+        "level": "A2+",
+        "cefr": "elementary",
+        "pages": 69,
+        "word_count": 6500,
+        "reading_time_minutes": 25,
+        "genre": "Short Fiction / Vignettes",
+        "themes": [
+          "Immigration",
+          "Community",
+          "New Beginnings",
+          "Diverse Cultures"
+        ],
+        "description": "Thirteen short chapters, each told by a different person in a Cleveland neighborhood — many are immigrants building a community garden. Ideal for readers learning about life in America. Simple, clear language.",
+        "cover_image": "/books/covers/seedfolks.jpg",
+        "pdf_url": "/books/pdf/Seedfolks.pdf",
+        "audio_url": "/books/audio/seedfolks.mp3",
+        "vocabulary_focus": [
+          "neighborhood",
+          "garden",
+          "seeds",
+          "community",
+          "stranger",
+          "trust"
+        ],
+        "grammar_focus": [
+          "First person narrative",
+          "Simple past",
+          "Character descriptions"
+        ]
+      },
+      {
+        "id": "book-26",
+        "unit_id": 2,
+        "title": "A Day's Work",
+        "author": "Eve Bunting",
+        "level": "A2",
+        "cefr": "elementary",
+        "pages": 32,
+        "word_count": 1400,
+        "reading_time_minutes": 15,
+        "genre": "Picture Book / Short Story",
+        "themes": [
+          "Work",
+          "Honesty",
+          "Immigration",
+          "Family"
+        ],
+        "description": "A young boy helps his grandfather — a new immigrant from Mexico — find day labor work. A story about honesty and integrity in the workplace. Perfect for discussing work values, first jobs, and family.",
+        "cover_image": "/books/covers/days-work.jpg",
+        "pdf_url": "/books/pdf/A Day's Work.pdf",
+        "audio_url": "/books/audio/days-work.mp3",
+        "vocabulary_focus": [
+          "work",
+          "honest",
+          "garden",
+          "mistake",
+          "grandfather",
+          "boss"
+        ],
+        "grammar_focus": [
+          "Simple past",
+          "Dialogue",
+          "Moral reasoning vocabulary"
+        ]
+      },
+      {
+        "id": "book-5",
+        "unit_id": 3,
+        "title": "The House on Mango Street",
+        "author": "Sandra Cisneros",
+        "level": "B1",
+        "cefr": "intermediate",
+        "pages": 110,
+        "word_count": 15000,
+        "reading_time_minutes": 60,
+        "genre": "Coming-of-age Fiction",
+        "themes": [
+          "Identity",
+          "Home",
+          "Community",
+          "Growing Up"
+        ],
+        "description": "Short vignettes about a Latina girl growing up in Chicago. Accessible language with cultural themes.",
+        "cover_image": "/books/covers/mango-street.jpg",
+        "pdf_url": "/books/pdf/The House on Mango Street.pdf",
+        "audio_url": "/books/audio/mango-street.mp3",
+        "vocabulary_focus": [
+          "neighborhood",
+          "house",
+          "family",
+          "dreams",
+          "identity"
+        ],
+        "grammar_focus": [
+          "Past and present narrative",
+          "Metaphors",
+          "Descriptive language"
+        ]
+      },
+      {
+        "id": "book-6",
+        "unit_id": 3,
+        "title": "Holes",
+        "author": "Louis Sachar",
+        "level": "B1",
+        "cefr": "intermediate",
+        "pages": 233,
+        "word_count": 47079,
+        "reading_time_minutes": 180,
+        "genre": "Young Adult Fiction",
+        "themes": [
+          "Justice",
+          "Friendship",
+          "Perseverance",
+          "Family History"
+        ],
+        "description": "Engaging story about a boy at a desert detention camp. Multiple timelines and great plot.",
+        "cover_image": "/books/covers/holes.jpg",
+        "pdf_url": "/books/pdf/Holes.pdf",
+        "audio_url": "/books/audio/holes.mp3",
+        "vocabulary_focus": [
+          "desert",
+          "camp",
+          "dig",
+          "curse",
+          "treasure",
+          "warden"
+        ],
+        "grammar_focus": [
+          "Multiple past tenses",
+          "Flashbacks",
+          "Plot structure"
+        ]
+      },
+      {
+        "id": "book-7",
+        "unit_id": 4,
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "level": "B1",
+        "cefr": "intermediate",
+        "pages": 192,
+        "word_count": 48523,
+        "reading_time_minutes": 180,
+        "genre": "Young Adult Fiction",
+        "themes": [
+          "Class Conflict",
+          "Brotherhood",
+          "Violence",
+          "Identity"
+        ],
+        "description": "Classic YA novel about rival gangs. Rich dialogue and character development.",
+        "cover_image": "/books/covers/outsiders.jpg",
+        "pdf_url": "/books/pdf/The Outsiders.pdf",
+        "audio_url": "/books/audio/outsiders.mp3",
+        "vocabulary_focus": [
+          "greasers",
+          "Socs",
+          "rumble",
+          "hood",
+          "gang"
+        ],
+        "grammar_focus": [
+          "Slang",
+          "Dialogue",
+          "First person narrative"
+        ]
+      },
+      {
+        "id": "book-9",
+        "unit_id": 5,
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "level": "B2",
+        "cefr": "upper-intermediate",
+        "pages": 179,
+        "word_count": 43617,
+        "reading_time_minutes": 180,
+        "genre": "Dystopian Fiction",
+        "themes": [
+          "Conformity",
+          "Memory",
+          "Choice",
+          "Society"
+        ],
+        "description": "Thought-provoking dystopian novel. Great for discussions about society and freedom.",
+        "cover_image": "/books/covers/the-giver.jpg",
+        "pdf_url": "/books/pdf/The Giver.pdf",
+        "audio_url": "/books/audio/the-giver.mp3",
+        "vocabulary_focus": [
+          "community",
+          "release",
+          "receiver",
+          "memories",
+          "sameness"
+        ],
+        "grammar_focus": [
+          "Abstract concepts",
+          "Philosophical language",
+          "Symbolism"
+        ]
+      },
+      {
+        "id": "book-11",
+        "unit_id": 6,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "level": "B2",
+        "cefr": "upper-intermediate",
+        "pages": 288,
+        "word_count": 66109,
+        "reading_time_minutes": 300,
+        "genre": "Epistolary Novel",
+        "themes": [
+          "Resilience",
+          "Identity",
+          "Sisterhood",
+          "Empowerment"
+        ],
+        "description": "Letters written by a Black woman in the rural South. Unique voice and powerful story.",
+        "cover_image": "/books/covers/color-purple.jpg",
+        "pdf_url": "/books/pdf/The Color Purple.pdf",
+        "audio_url": "/books/audio/color-purple.mp3",
+        "vocabulary_focus": [
+          "letters",
+          "struggle",
+          "strength",
+          "family"
+        ],
+        "grammar_focus": [
+          "Epistolary style",
+          "Dialect",
+          "Personal voice"
+        ]
+      },
+      {
+        "id": "book-14",
+        "unit_id": 7,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "level": "C1",
+        "cefr": "advanced",
+        "pages": 180,
+        "word_count": 47094,
+        "reading_time_minutes": 240,
+        "genre": "Classic Fiction",
+        "themes": [
+          "American Dream",
+          "Wealth",
+          "Love",
+          "Illusion"
+        ],
+        "description": "Jazz Age classic with rich symbolism and beautiful prose. Essential American literature.",
+        "cover_image": "/books/covers/gatsby.jpg",
+        "pdf_url": "/books/pdf/The Great Gatsby.pdf",
+        "audio_url": "/books/audio/gatsby.mp3",
+        "vocabulary_focus": [
+          "opulence",
+          "illusion",
+          "gatsby",
+          "daisy",
+          "symbolism"
+        ],
+        "grammar_focus": [
+          "Literary language",
+          "Symbolism",
+          "Complex sentences"
+        ]
+      },
+      {
+        "id": "book-15",
+        "unit_id": 8,
+        "title": "1984",
+        "author": "George Orwell",
+        "level": "C1",
+        "cefr": "advanced",
+        "pages": 328,
+        "word_count": 88942,
+        "reading_time_minutes": 360,
+        "genre": "Dystopian Fiction",
+        "themes": [
+          "Totalitarianism",
+          "Surveillance",
+          "Language",
+          "Truth"
+        ],
+        "description": "Dystopian masterpiece about government control. Essential for understanding modern politics.",
+        "cover_image": "/books/covers/1984.jpg",
+        "pdf_url": "/books/pdf/1984.pdf",
+        "audio_url": "/books/audio/1984.mp3",
+        "vocabulary_focus": [
+          "totalitarian",
+          "surveillance",
+          "doublethink",
+          "newspeak"
+        ],
+        "grammar_focus": [
+          "Political language",
+          "Abstract concepts",
+          "Persuasive writing"
+        ]
+      },
+      {
+        "id": "book-18",
+        "unit_id": 9,
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "level": "C1",
+        "cefr": "advanced",
+        "pages": 499,
+        "word_count": 180000,
+        "reading_time_minutes": 600,
+        "genre": "Non-fiction/Psychology",
+        "themes": [
+          "Cognitive Bias",
+          "Decision Making",
+          "Psychology",
+          "Rationality"
+        ],
+        "description": "Nobel Prize winner's exploration of how we think. Academic but accessible.",
+        "cover_image": "/books/covers/thinking-fast-slow.jpg",
+        "pdf_url": "/books/pdf/Thinking, Fast and Slow.pdf",
+        "audio_url": "/books/audio/thinking-fast-slow.mp3",
+        "vocabulary_focus": [
+          "cognitive",
+          "bias",
+          "heuristic",
+          "intuition",
+          "rational"
+        ],
+        "grammar_focus": [
+          "Academic prose",
+          "Explanatory writing",
+          "Technical terms"
+        ]
+      },
+      {
+        "id": "book-20",
+        "unit_id": 10,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "level": "C1",
+        "cefr": "advanced",
+        "pages": 334,
+        "word_count": 95000,
+        "reading_time_minutes": 400,
+        "genre": "Memoir",
+        "themes": [
+          "Education",
+          "Family",
+          "Self-discovery",
+          "Resilience"
+        ],
+        "description": "Memoir about a woman who leaves her survivalist family for education. Very relevant for adult learners.",
+        "cover_image": "/books/covers/educated.jpg",
+        "pdf_url": "/books/pdf/Educated.pdf",
+        "audio_url": "/books/audio/educated.mp3",
+        "vocabulary_focus": [
+          "education",
+          "transformation",
+          "knowledge",
+          "family"
+        ],
+        "grammar_focus": [
+          "Personal narrative",
+          "Reflective writing",
+          "Academic vocabulary"
+        ]
+      },
+      {
+        "id": "book-21",
+        "unit_id": 11,
+        "title": "The Essay: Theory and Pedagogy for an Active Form",
+        "author": "Paul Heilker",
+        "level": "C1",
+        "cefr": "advanced",
+        "pages": 200,
+        "word_count": 60000,
+        "reading_time_minutes": 300,
+        "genre": "Academic/Writing Guide",
+        "themes": [
+          "Writing",
+          "Essays",
+          "Argumentation",
+          "Critical Thinking"
+        ],
+        "description": "Academic text about essay writing. Perfect for Unit 11 which focuses on essays.",
+        "cover_image": "/books/covers/essay-theory.jpg",
+        "pdf_url": "/books/pdf/The Essay Theory and Pedagogy for an Active Form.pdf",
+        "audio_url": "/books/audio/essay-theory.mp3",
+        "vocabulary_focus": [
+          "thesis",
+          "argument",
+          "evidence",
+          "rhetoric",
+          "persuasion"
+        ],
+        "grammar_focus": [
+          "Academic writing",
+          "Formal register",
+          "Argumentation"
+        ]
+      }
+    ]
+  }
+}

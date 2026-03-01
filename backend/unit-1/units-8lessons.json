@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Life & Survival",
+    "description": "Learn essential English for everyday situations",
+    "order_number": 1,
+    "total_lessons": 8,
+    "locked": false
+  },
+  {
+    "id": 2,
+    "title": "People & Relationships",
+    "description": "Talk about people and social connections",
+    "order_number": 2,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 3,
+    "title": "Work & Money",
+    "description": "English for jobs, shopping, and financial matters",
+    "order_number": 3,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 4,
+    "title": "Problems & Solutions",
+    "description": "Handle difficulties and solve problems in English",
+    "order_number": 4,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 5,
+    "title": "Opinions & Discussions",
+    "description": "Express your thoughts and have meaningful conversations",
+    "order_number": 5,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 6,
+    "title": "American Culture & Society",
+    "description": "Understand cultural context and social norms",
+    "order_number": 6,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 7,
+    "title": "Reading Comprehension",
+    "description": "Read and understand different types of texts",
+    "order_number": 7,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 8,
+    "title": "Writing Sentences & Paragraphs",
+    "description": "Write clear, correct English",
+    "order_number": 8,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 9,
+    "title": "Punctuation & Grammar in Writing",
+    "description": "Master the mechanics of written English",
+    "order_number": 9,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 10,
+    "title": "Academic Reading & Vocabulary",
+    "description": "Prepare for college-level reading",
+    "order_number": 10,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 11,
+    "title": "Essay Writing & Argument",
+    "description": "Write academic essays with clear arguments",
+    "order_number": 11,
+    "total_lessons": 0,
+    "locked": true
+  },
+  {
+    "id": 12,
+    "title": "ACT English Preparation",
+    "description": "Practice for the ACT English test",
+    "order_number": 12,
+    "total_lessons": 0,
+    "locked": true
+  }
+]

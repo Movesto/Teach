@@ -1,0 +1,34 @@
+# Node
+app/node_modules/
+app/dist/
+app/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# PDFs (large files — host separately)
+backend/books/pdf/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Claude session data
+.claude/
+
+# OS / editor
+nul
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log

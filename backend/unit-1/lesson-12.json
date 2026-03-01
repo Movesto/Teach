@@ -1,0 +1,426 @@
+{
+  "id": 12,
+  "unit_id": 1,
+  "lesson_number": 12,
+  "title": "Emergency Situations",
+  "description": "Learn to get help in emergencies and report problems",
+  "difficulty": "beginner",
+  "is_last_in_unit": true,
+  "objectives": [
+    "Call 911 and explain an emergency",
+    "Describe what happened (There is a fire / Someone is hurt)",
+    "Give your address and location clearly",
+    "Ask for urgent help"
+  ],
+  "target_language": {
+    "phrases": [
+      "Help! / I need help!",
+      "Call 911",
+      "There is a fire / an accident",
+      "Someone is hurt",
+      "I need an ambulance / the police / the fire department",
+      "My address is [address]",
+      "Please hurry"
+    ],
+    "grammar_pattern": "There is + emergency\nSomeone is + condition\nI need + service\nMy address is + location\n\nExamples:\n- There is a fire\n- Someone is hurt\n- I need an ambulance\n- My address is 250 Oak Street",
+    "grammar_patterns": [
+      {
+        "label": "Reporting an emergency",
+        "pattern": "There is + [emergency]",
+        "examples": [
+          "There is a fire",
+          "There is an accident",
+          "There is a problem"
+        ]
+      },
+      {
+        "label": "Describing someone's condition",
+        "pattern": "Someone is + [condition]",
+        "examples": [
+          "Someone is hurt",
+          "Someone is sick",
+          "Someone is not breathing"
+        ]
+      },
+      {
+        "label": "Asking for emergency services",
+        "pattern": "I need + [service]",
+        "examples": [
+          "I need an ambulance",
+          "I need the police",
+          "I need the fire department"
+        ]
+      },
+      {
+        "label": "Giving your location",
+        "pattern": "My address is + [address]",
+        "examples": [
+          "My address is 250 Oak Street",
+          "I am at the grocery store on Main Street",
+          "I am in apartment 4B"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "You smell smoke in your apartment building. You see fire coming from an apartment down the hall. You call 911.",
+    "dialogue": [
+      {
+        "speaker": "Operator",
+        "text": "911. What is your emergency?"
+      },
+      {
+        "speaker": "You",
+        "text": "There is a fire! In my apartment building!"
+      },
+      {
+        "speaker": "Operator",
+        "text": "Okay. What is your address?"
+      },
+      {
+        "speaker": "You",
+        "text": "250 Oak Street. It is an apartment building."
+      },
+      {
+        "speaker": "Operator",
+        "text": "What floor is the fire on?"
+      },
+      {
+        "speaker": "You",
+        "text": "The fourth floor. Apartment 4A."
+      },
+      {
+        "speaker": "Operator",
+        "text": "Is anyone hurt?"
+      },
+      {
+        "speaker": "You",
+        "text": "I don't know. I don't see anyone. There is a lot of smoke."
+      },
+      {
+        "speaker": "Operator",
+        "text": "Okay. The fire department is on the way. Get out of the building now. Do not use the elevator. Use the stairs."
+      },
+      {
+        "speaker": "You",
+        "text": "Okay. I am leaving now."
+      },
+      {
+        "speaker": "Operator",
+        "text": "Go outside and wait for the fire trucks. Stay on the phone with me."
+      },
+      {
+        "speaker": "You",
+        "text": "Okay. I am going down the stairs now. Please hurry!"
+      },
+      {
+        "speaker": "Operator",
+        "text": "They are almost there. Stay calm and keep moving."
+      }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Drill 1: Reporting emergencies",
+      "instruction": "Fill in the blank with the correct emergency",
+      "prompts": [
+        {
+          "sentence": "There is a ___!",
+          "answer": "fire"
+        },
+        {
+          "sentence": "There is an ___!",
+          "answer": "accident"
+        },
+        {
+          "sentence": "Someone is ___!",
+          "answer": "hurt"
+        },
+        {
+          "sentence": "Someone is ___!",
+          "answer": "sick"
+        }
+      ],
+      "examples": [
+        "There is a fire!",
+        "There is an accident!",
+        "Someone is hurt!",
+        "Someone is sick!"
+      ],
+      "your_turn": "Now practice saying 'There is a fire!' urgently, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking for emergency services",
+      "instruction": "Fill in the blank with the correct service",
+      "prompts": [
+        {
+          "sentence": "I need an ___.",
+          "answer": "ambulance"
+        },
+        {
+          "sentence": "I need the ___.",
+          "answer": "police"
+        },
+        {
+          "sentence": "I need the ___ department.",
+          "answer": "fire"
+        },
+        {
+          "sentence": "Please call ___.",
+          "answer": "911"
+        }
+      ],
+      "examples": [
+        "I need an ambulance.",
+        "I need the police.",
+        "I need the fire department.",
+        "Please call 911."
+      ],
+      "your_turn": "Now say which emergency service you need, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Giving your location",
+      "instruction": "Fill in the blank with the correct location word",
+      "prompts": [
+        {
+          "sentence": "My ___ is 250 Oak Street.",
+          "answer": "address"
+        },
+        {
+          "sentence": "I am on the fourth ___.",
+          "answer": "floor"
+        },
+        {
+          "sentence": "I am in ___ 4B.",
+          "answer": "apartment"
+        },
+        {
+          "sentence": "I am at the ___ on Main Street.",
+          "answer": "store"
+        }
+      ],
+      "examples": [
+        "My address is 250 Oak Street.",
+        "I am on the fourth floor.",
+        "I am in apartment 4B.",
+        "I am at the store on Main Street."
+      ],
+      "your_turn": "Now say your real address clearly, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "Listen: What is the emergency?",
+      "audio": "/audio/lesson12-listen1.mp3",
+      "options": [
+        "A fire",
+        "An accident",
+        "Someone is sick",
+        "A robbery"
+      ],
+      "correct": 0,
+      "explanation": "The caller says 'There is a fire in my building!'"
+    },
+    {
+      "question": "Listen: What does the caller need?",
+      "audio": "/audio/lesson12-listen2.mp3",
+      "options": [
+        "The police",
+        "An ambulance",
+        "The fire department",
+        "A doctor"
+      ],
+      "correct": 1,
+      "explanation": "The caller says 'I need an ambulance. Someone is hurt.'"
+    },
+    {
+      "question": "Listen: What does the operator tell the person to do?",
+      "audio": "/audio/lesson12-listen3.mp3",
+      "options": [
+        "Wait inside",
+        "Go outside",
+        "Go upstairs",
+        "Call back later"
+      ],
+      "correct": 1,
+      "explanation": "The operator says 'Get out of the building and wait outside.'"
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Task 1: Call 911",
+      "instruction": "Record yourself calling 911. Say: there is a fire, give your address, and say which floor.",
+      "example": "There is a fire! My address is 250 Oak Street. It is on the fourth floor. Please hurry!"
+    },
+    {
+      "title": "Task 2: Emergency conversation",
+      "instruction": "Record a full 911 call where someone is hurt and you need an ambulance.",
+      "example": "Operator: 911. What is your emergency?\nYou: Someone is hurt. I need an ambulance.\nOperator: What is your address?\nYou: 250 Oak Street, apartment 4B.\nOperator: Help is on the way.\nYou: Please hurry! Thank you."
+    }
+  ],
+  "writing": [
+    {
+      "title": "Task 1: Emergency sentences",
+      "instruction": "Write 5 sentences you might say in an emergency. Use 'There is...', 'Someone is...', and 'I need...'",
+      "example": "1. There is a fire!\n2. Someone is hurt.\n3. I need an ambulance.\n4. My address is 250 Oak Street.\n5. Please hurry!"
+    },
+    {
+      "title": "Task 2: Write a 911 call",
+      "instruction": "Write a conversation (8-10 lines) where you call 911 to report a car accident.",
+      "example": "Operator: 911. What is your emergency?\nYou: There is a car accident!\nOperator: Where?\nYou: On Main Street, near the grocery store.\nOperator: Is anyone hurt?\nYou: Yes. Someone is hurt.\nOperator: I am sending an ambulance.\nYou: Please hurry!\nOperator: Stay with the person. Help is coming.\nYou: Okay. Thank you."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Reporting with 'There is'",
+        "examples": [
+          "There is a fire.",
+          "There is an accident.",
+          "There is a problem."
+        ],
+        "question": "How do we report that something is happening?",
+        "explanation": "We use 'There is + a/an + [thing]' to report that something exists or is happening. In emergencies, we say this urgently. Notice: 'a fire' but 'an accident' — we use 'an' before vowel sounds (a, e, i, o, u)."
+      },
+      {
+        "title": "Describing conditions with 'Someone is'",
+        "examples": [
+          "Someone is hurt.",
+          "Someone is sick.",
+          "Someone is not breathing."
+        ],
+        "question": "How do we describe what is wrong with a person?",
+        "explanation": "We use 'Someone is + [condition]' when we see a person who needs help but don't know their name. If you know the person, use their name: 'Marcus is hurt.'"
+      },
+      {
+        "title": "Important safety words",
+        "examples": [
+          "911 = emergency phone number",
+          "Ambulance = medical emergency vehicle",
+          "Fire department = firefighters",
+          "Police = law enforcement"
+        ],
+        "question": "What are the most important emergency words?",
+        "explanation": "In America, call 911 for any emergency. The operator will send the right help: an ambulance for medical emergencies, the fire department for fires, or the police for crimes or danger. Always give your address clearly."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "There is a fire in your building. What number do you call?",
+      "options": [
+        "411",
+        "611",
+        "911",
+        "311"
+      ],
+      "correct": 2,
+      "explanation": "911 is the emergency number in America. Call 911 for fires, accidents, and medical emergencies."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone is very sick and needs to go to the hospital. You say:",
+      "options": [
+        "I need the police",
+        "I need the fire department",
+        "I need an ambulance",
+        "I need a taxi"
+      ],
+      "correct": 2,
+      "explanation": "An ambulance takes sick or hurt people to the hospital."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The 911 operator asks 'What is your address?' You say:",
+      "options": [
+        "My name is Ahmed",
+        "I am from Somalia",
+        "250 Oak Street, apartment 4B",
+        "I am on the phone"
+      ],
+      "correct": 2,
+      "explanation": "Give your full address — street number, street name, and apartment number — so help can find you."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: There is ___ accident on Main Street.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "(no article)"
+      ],
+      "correct": 1,
+      "explanation": "We use 'an' before words that start with a vowel sound. 'An accident' is correct. 'A' is used before consonant sounds, 'the' is for specific things, and no article would leave the sentence incomplete here."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The operator says 'Do not use the elevator. Use the stairs.' Why?",
+      "options": [
+        "The elevator is too slow",
+        "The elevator can stop during a fire — it is dangerous",
+        "The elevator is broken",
+        "The stairs are faster"
+      ],
+      "correct": 1,
+      "explanation": "During a fire, elevators can stop working and trap you. Always use the stairs during a fire."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: Someone ___ hurt.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "'Someone' is singular, so we use 'is'. 'Someone is hurt.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You see a car accident. What do you say to the operator?",
+      "options": [
+        "There is a fire",
+        "Someone is sick",
+        "There is an accident",
+        "I need a doctor"
+      ],
+      "correct": 2,
+      "explanation": "'There is an accident' correctly reports what you see. Then give the location."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is MOST important to tell the 911 operator?",
+      "options": [
+        "Your name",
+        "Your phone number",
+        "Your address and what happened",
+        "What time it is"
+      ],
+      "correct": 2,
+      "explanation": "The most important things are: what happened (fire, accident, someone hurt) and where you are (your address). This helps them send the right help to the right place."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line 911 call where you report that someone fell and is hurt at the grocery store.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: calling 911, saying what happened, the location, and asking for help."
+    },
+    {
+      "type": "open-ended",
+      "question": "Write your real address. Then write 2 sentences about what you would say if you needed to call 911.",
+      "options": [],
+      "correct": null,
+      "explanation": "Knowing how to say your address in English is very important for emergencies. Practice so you can say it quickly and clearly."
+    }
+  ]
+}

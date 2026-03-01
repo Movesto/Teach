@@ -1,0 +1,270 @@
+{
+  "id": "lesson-83",
+  "unit_id": 13,
+  "lesson_number": 3,
+  "title": "Informal Writing & Digital Communication",
+  "level": "advanced",
+  "estimated_time": 40,
+  "story_context": "Ahmed has a question about a reading assignment. He composes what he considers a polite, professional email to Professor Chen. It is 147 words long, uses the salutation 'To Whom It May Concern,' contains three subordinate clauses, and ends with 'I await your prompt reply.' Professor Chen responds four hours later with a single emoji: a thumb pointing right, which means 'check the syllabus.' Ahmed stares at the screen for a full minute. Priya, looking over his shoulder, starts laughing. This is Ahmed's lesson in digital communication register.",
+  "objectives": [
+    "Identify and produce English at four distinct formality levels for the same message",
+    "Write informal emails and text messages using appropriate casual register",
+    "Understand and use common digital abbreviations (lol, tbh, ngl, btw, asap, fyi)",
+    "Recognize that ellipsis and sentence fragments are correct in casual digital writing"
+  ],
+  "target_phrases": [
+    "Hey Professor Chen — quick question about the assignment.",
+    "Sounds good, thanks!",
+    "No worries at all — take your time.",
+    "Heading out in ten if you want to join.",
+    "Tbh I have no idea what's going on.",
+    "Lmk when you're free to meet.",
+    "Hit me up if anything changes."
+  ],
+  "dialogue": {
+    "title": "The Email and the Emoji",
+    "context": "Ahmed shows Priya the email he sent to Professor Chen and her reply.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Priya. I sent Professor Chen an email about the assignment. She replied with a single image of a hand with one finger pointing. I do not understand what this means."},
+      {"speaker": "Priya", "text": "Oh no. Can I see your email?"},
+      {"speaker": "Ahmed", "text": "Of course. Here. I believe it was quite professional."},
+      {"speaker": "Priya", "text": "Ahmed... 'To Whom It May Concern?' She knows who she is. 'I humbly request clarification'? This reads like a legal document."},
+      {"speaker": "Ahmed", "text": "I wanted to be respectful."},
+      {"speaker": "Priya", "text": "You were very respectful. You were also very intimidating. That pointing emoji means 'look right there' — as in, it's in the syllabus. She was being efficient, not rude."},
+      {"speaker": "Ahmed", "text": "A professor communicated with a finger emoji."},
+      {"speaker": "Priya", "text": "This professor definitely has a doc folder called 'student emails I could have answered with one emoji.' Look — I'll show you how most students actually email professors. Short opener, one question, sign off. That's it."},
+      {"speaker": "Ahmed", "text": "What would you have written?"},
+      {"speaker": "Priya", "text": "'Hey Professor Chen — quick question. Is the Week 4 reading the whole chapter or just pages 1–20? Thanks, Priya.' Done. Twenty-three words."},
+      {"speaker": "Ahmed", "text": "That seems dangerously casual for a university professor."},
+      {"speaker": "Priya", "text": "It's perfectly normal. Now, if you're writing to the Dean of Graduate Studies about a formal appeal — then yes, go formal. Context is everything."},
+      {"speaker": "Ahmed", "text": "So I need to match the register to the relationship and the stakes."},
+      {"speaker": "Priya", "text": "Exactly. And btw — for texts between us? Just 'sounds good' is plenty. You don't have to say 'your proposed meeting time is satisfactory.'"}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "The four formality levels for the same message",
+      "pattern": "Formal → Semi-formal → Casual → Very casual (text/chat)",
+      "examples": [
+        "FORMAL: I am writing to inquire whether the examination has been rescheduled.",
+        "SEMI-FORMAL: Hi Professor — I wanted to check if the exam date has changed.",
+        "CASUAL: Hey, is the exam still on Friday?",
+        "TEXT: exam still friday? lmk",
+        "NOTE: Same information — radically different register. Match level to context."
+      ],
+      "your_turn": "Rewrite this formal sentence at three different levels: 'I wish to ascertain the location of your office.'",
+      "prompts": [
+        "Write the semi-formal version (email to professor you've met once).",
+        "Write the casual version (to an older friend).",
+        "Write the text/chat version (to a classmate)."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Email openers by formality level",
+      "pattern": "Dear [Title Last] → Dear [First] → Hi [First] → Hey [First] / Hey",
+      "examples": [
+        "Dear Professor Chen, (formal, first contact or formal situation)",
+        "Dear Sarah, (formal but personal — formal email to someone you know)",
+        "Hi Professor Chen, (standard for most student-professor emails)",
+        "Hi Sarah, (professional but warm — workplace peers)",
+        "Hey, / Hey Priya — (casual, friends, peers, quick notes)"
+      ],
+      "your_turn": "Choose the correct opener for three scenarios.",
+      "prompts": [
+        "Email to your academic advisor you've met twice about switching majors.",
+        "Email to your study partner about changing your meeting location.",
+        "Email to the university financial aid office about your tuition bill."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Common casual closings and digital phrases",
+      "pattern": "Sounds good · No worries · Lmk · Hit me up · Heading out · Thanks!",
+      "examples": [
+        "Sounds good, see you then! (agreement + confirmation)",
+        "No worries — take your time with it. (relaxed, no pressure)",
+        "Lmk when you're free to go over the notes. (let me know)",
+        "Hit me up if the plan changes. (contact me)",
+        "Heading out in five — you coming? (I am leaving soon)"
+      ],
+      "your_turn": "Respond to each message using one of the casual closings above.",
+      "prompts": [
+        "Jake: 'Can we move study group to 8pm instead?' — respond with agreement.",
+        "Priya: 'Sorry I'm running ten minutes late!' — respond with 'no worries.'",
+        "Zoe: 'I'll text you when I know the plan.' — respond asking her to let you know."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit13-lesson3-listen1.mp3",
+      "transcript": "Okay so here's the thing about emailing professors. Most of them get like 50 to 100 emails a week. They appreciate short, clear messages that get to the point fast. You want to do three things: say who you are and what class you're in, ask your one question clearly, and say thank you. That's it. Don't apologize five times for bothering them. Don't explain your whole life situation. 'Hi Professor Kim — I'm in your Monday section of BUSA 201. Is the case study due on Thursday or Friday? Thanks, Ahmed.' Boom. Done. Reply rate goes way up.",
+      "question": "What three things should a student email to a professor include?",
+      "options": [
+        "Your GPA, your major, and a formal apology",
+        "Who you are and what class, your question, and thank you",
+        "Two paragraphs of context and a formal closing",
+        "Your full name, student ID, and a detailed explanation"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit13-lesson3-listen2.mp3",
+      "transcript": "Priya: Hey did you end up going to that study session last night? Zoe: Ngl, I fell asleep at like 9. Totally forgot. Priya: Lol same energy. I was gonna go but then just... didn't. Zoe: How's the Econ reading? Priya: It's a lot tbh. Like the concepts aren't hard but there's so much of it. Zoe: Asap is right — I need to finish it before Thursday. Priya: Hit me up if you want to study together Wednesday? Zoe: Yeah for sure. Lmk what time.",
+      "question": "What does 'ngl' mean in Zoe's message?",
+      "options": [
+        "No going late",
+        "Not gonna lie",
+        "Not good luck",
+        "New grammar lesson"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit13-lesson3-listen3.mp3",
+      "transcript": "Register is the level of formality in language — and Americans shift register constantly without thinking about it. You might say 'Good morning, Dr. Walters' to your professor, then immediately turn to your friend and say 'yo, this class is wild.' Neither is wrong — they match the relationship and context. The mistake international students often make is using one register for everything. If you're too formal in casual settings, people feel like you're distant. If you're too casual in formal settings, you seem disrespectful. The goal isn't to always be formal or always be casual — it's to read the room and match the level.",
+      "question": "What mistake do international students often make with register?",
+      "options": [
+        "Being too casual with professors",
+        "Using one formality level for all situations instead of shifting",
+        "Not learning enough vocabulary",
+        "Writing emails that are too short"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Leave a voicemail for your professor about a missed class and whether you can still submit the assignment. Keep it under 30 seconds, semi-formal, and direct. Use a natural opener and closing.",
+      "example": "Hi Professor Chen — this is Ahmed from your Monday BUSA 201 section. I wasn't able to make it to class today and I wanted to ask if I can still submit the group reflection by Friday. I'll check the syllabus in the meantime. Thanks so much — feel free to email me back. Have a great day.",
+      "sentence_starters": [
+        "Hi Professor [Name] — this is [your name] from your...",
+        "I wanted to ask about...",
+        "I'll also check the syllabus — thanks for..."
+      ],
+      "min_seconds": 20,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain to a new international student the difference between writing an email to a professor versus texting a classmate. Give an example of each. Keep it casual — you are talking to a friend. Record for 35 seconds.",
+      "example": "Okay so basically, texting a classmate and emailing a professor are completely different registers. For a classmate — it's like, 'hey you going to class today? lmk' — super short, abbreviations are totally fine. But for a professor, you want to be clear and respectful without being like, formal in a weird robotic way. Something like: 'Hi Professor Chen — quick question about the Week 4 reading. Is the whole chapter due or just sections one through three? Thanks, Ahmed.' That's it. Short, direct, polite. No 'to whom it may concern,' please.",
+      "sentence_starters": [
+        "So basically, the difference is...",
+        "For a classmate you'd say something like...",
+        "But for a professor, you want to..."
+      ],
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Rewrite Ahmed's original 147-word email to Professor Chen as a proper, natural student email of 30–40 words. Keep it respectful but informal.",
+      "min_words": 25,
+      "example": "Hi Professor Chen,\n\nQuick question about the Week 4 assignment — is the reading the full chapter, or just sections 1–3? I checked the syllabus but wasn't sure.\n\nThanks so much!\nAhmed"
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write a text message thread (6–8 messages, you and one friend) arranging a study session. Use casual language, at least three abbreviations (lol, tbh, lmk, ngl, btw, asap, fyi, etc.), and natural short messages. (50–80 words total)",
+      "min_words": 50,
+      "example": "Ahmed: hey are we still studying tonight?\nPriya: tbh I forgot — when were we thinking?\nAhmed: I was thinking like 7 at the library\nPriya: works for me. Zoe's coming too fyi\nAhmed: nice. Should I bring the Econ notes?\nPriya: yes please, I lost mine lol\nAhmed: lmk if the time changes\nPriya: sounds good, see you then!"
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Register Shifting — Same Message at Four Formality Levels",
+      "explanation": "English has a wide range of formality levels (register). The same information can be communicated at different levels. Register is determined by vocabulary choice, sentence length, contractions, salutations, and closing. Native speakers shift register automatically depending on audience, relationship, and stakes. Learners who write formal English only can sound cold or odd in casual contexts.",
+      "examples": [
+        "VERY FORMAL: I am writing to request clarification regarding the assessment deadline.",
+        "SEMI-FORMAL: Hi Professor — could you clarify the deadline for the assessment?",
+        "CASUAL: Hey, when's the assignment due?",
+        "TEXT: assignment due when?? lol pls respond",
+        "Key signals: contractions, length, opener type, closing, abbreviations"
+      ],
+      "practice": [
+        {"sentence": "Which opener is appropriate for an email to a professor you've met before?", "blank": "Hi Professor Chen,", "options": ["Hi Professor Chen,", "To Whom It May Concern,", "Yo Professor,"]},
+        {"sentence": "Which is the correct casual form of 'I would like to let you know'?", "blank": "Just wanted to let you know / fyi", "options": ["Just wanted to let you know / fyi", "I hereby notify you", "I formally inform you"]},
+        {"sentence": "Which is appropriate for a text to a classmate?", "blank": "lmk if you're going", "options": ["lmk if you're going", "Please advise if you will be attending", "I await your response"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Ellipsis and Fragments in Casual Digital Writing",
+      "explanation": "In informal writing (texts, casual emails, chat), complete sentences are often not required. Subjects and auxiliary verbs are frequently dropped. This is correct in context — it is not an error but a feature of the register. 'You coming?' is correct casual English. 'Still on for tonight?' is grammatically a fragment but perfectly natural. Recognizing this prevents over-correction and stilted writing.",
+      "examples": [
+        "'Still on for tonight?' (omitted: 'Is it')",
+        "'Sounds good!' (omitted: 'That')",
+        "'Heading out in five.' (omitted: 'I am')",
+        "'No worries.' (complete as-is — conventional phrase)",
+        "'Lmk!' (abbreviation for 'Let me know' — fully accepted in chat)"
+      ],
+      "practice": [
+        {"sentence": "Which is a natural fragment used in casual texting?", "blank": "Still on for tonight?", "options": ["Still on for tonight?", "Is it still on for tonight, formally speaking?", "I wish to inquire if tonight's plan remains active."]},
+        {"sentence": "What does 'Heading out now!' omit?", "blank": "I am", "options": ["I am", "She is", "They are"]},
+        {"sentence": "In a text, 'Sounds good!' is grammatically:", "blank": "A fragment — but correct in context", "options": ["A fragment — but correct in context", "A complete sentence", "A formal expression"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Common Digital Abbreviations and Their Uses",
+      "explanation": "Abbreviations in digital writing are not careless errors — they are a recognized register. Using them correctly signals digital fluency. Most are spoken as letter names or as words. Some (lol, tbh) have evolved beyond their literal meaning. 'Lol' no longer necessarily signals laughter — it often just softens a message or signals casualness.",
+      "examples": [
+        "lol — laugh out loud (now often signals casual tone, not actual laughter)",
+        "tbh — to be honest (signals candid opinion ahead)",
+        "ngl — not gonna lie (similar to tbh; signals honest admission)",
+        "btw — by the way (adds a secondary point)",
+        "asap — as soon as possible (used even in semi-formal emails)",
+        "fyi — for your information (used in workplace emails too)",
+        "lmk — let me know (casual only)"
+      ],
+      "practice": [
+        {"sentence": "What does 'tbh' stand for?", "blank": "to be honest", "options": ["to be honest", "try being helpful", "talking big here"]},
+        {"sentence": "Which abbreviation would be acceptable in a semi-formal work email?", "blank": "asap", "options": ["asap", "lol", "ngl"]},
+        {"sentence": "What does 'lmk' mean?", "blank": "let me know", "options": ["let me know", "leaving my keys", "last minute kindness"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Professor Chen replied with a pointing emoji. What did it mean in context?", "options": ["She was angry", "The answer was already in the syllabus", "She did not understand the question", "She wanted Ahmed to come to office hours"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Which email opener is most appropriate for a student emailing a professor about a homework question?", "options": ["To Whom It May Concern,", "Dear Professor Chen,", "Hi Professor Chen,", "Yo Chen,"], "correct": 2, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does 'lmk' stand for?", "options": ["Leave my keys", "Let me know", "Laugh more kindly", "Last minute, okay"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "true-false", "question": "Using sentence fragments (like 'Sounds good!' or 'Still on for tonight?') in casual text messages is grammatically incorrect and should be avoided.", "correct": false, "points": 10},
+      {"id": "q5", "type": "fill-blank", "question": "What does 'tbh' stand for? ___ ___ ___", "correct": "to be honest", "accept": ["to be honest", "To be honest"], "points": 10},
+      {"id": "q6", "type": "multiple-choice", "question": "Which sentence uses the correct register for texting a friend?", "options": ["I am writing to inform you of a change in plans.", "hey plans changed — lmk if you're still coming", "It would be advisable to contact me at your earliest convenience.", "I humbly request your updated availability."], "correct": 1, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "In a text, 'Sounds good!' is a sentence ___ but is correct in casual context.", "correct": "fragment", "accept": ["fragment", "Fragment"], "points": 10},
+      {"id": "q8", "type": "multiple-choice", "question": "Which abbreviation is acceptable in a semi-formal professional email?", "options": ["lol", "ngl", "asap", "tbh"], "correct": 2, "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match abbreviation to meaning:", "pairs": [{"left": "fyi", "right": "for your information"}, {"left": "btw", "right": "by the way"}, {"left": "ngl", "right": "not gonna lie"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What is the key principle of register in communication?", "options": ["Always use formal English to show respect", "Always use casual English to seem friendly", "Match the formality level to the audience, relationship, and context", "Use abbreviations in all digital communication"], "correct": 2, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "register", "definition": "the level of formality in language, from very formal to very casual", "example": "She shifted register completely — formal in the email, then casual at lunch."},
+    {"word": "lol", "definition": "laugh out loud — now often signals casual tone or softens a message", "example": "That class was wild lol — I had no idea what was happening."},
+    {"word": "tbh", "definition": "to be honest — signals a candid or personal opinion", "example": "Tbh, I think the reading was more interesting than I expected."},
+    {"word": "ngl", "definition": "not gonna lie — signals an honest, sometimes reluctant admission", "example": "Ngl, I was kind of nervous about speaking in seminar."},
+    {"word": "btw", "definition": "by the way — introduces an additional or secondary point", "example": "Btw, the exam is on Thursday, not Friday."},
+    {"word": "asap", "definition": "as soon as possible — indicates urgency", "example": "Can you send me those notes asap? I need them before class."},
+    {"word": "fyi", "definition": "for your information — provides information without requiring action", "example": "Fyi, Professor Chen moved office hours to Thursday this week."},
+    {"word": "heading out", "definition": "leaving a place right now or very soon (informal)", "example": "Heading out in five — see you at the library!"},
+    {"word": "no worries", "definition": "it's okay, don't stress about it — casual reassurance", "example": "No worries — take your time with the response."},
+    {"word": "hit me up", "definition": "contact me / reach out to me (very casual)", "example": "Hit me up when you're done with your shift."}
+  ],
+  "cultural_notes": [
+    "American professors vary widely in communication style. Some are formal and expect formal emails; others respond to casual messages warmly. When in doubt, start semi-formal and match the energy of their reply — this is called 'mirroring.'",
+    "The shift from formal to casual communication in American professional life accelerated significantly with smartphones and workplace messaging tools. Even business emails are now much shorter than they were 20 years ago.",
+    "Abbreviations like lol and tbh began as texting shortcuts but have evolved into nuanced social signals. 'lol' at the end of a sentence no longer means the writer is laughing — it functions as a social softener, similar to a mild smile.",
+    "Emojis in professional communication are generationally and contextually variable. Younger professors and industries like tech and media use them freely. Law, finance, and medicine still tend toward text-only formal communication.",
+    "The concept of 'code-switching' — shifting between different language styles depending on context — is a respected sociolinguistic skill, not a sign of inconsistency. Fluent speakers do it constantly and naturally."
+  ]
+}

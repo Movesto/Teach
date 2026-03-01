@@ -1,0 +1,353 @@
+{
+  "id": 15,
+  "unit_id": 2,
+  "lesson_number": 3,
+  "title": "What Do You Do?",
+  "description": "Learn to talk about jobs and daily activities",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Ask and answer about jobs (What do you do?)",
+    "Talk about daily activities (I work, I study)",
+    "Use present simple correctly (I work, he works)",
+    "Describe typical work or school day"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "What do you do?",
+      "I am a [job]",
+      "I work at/in [place]",
+      "I study at [school]",
+      "What does he/she do?",
+      "He/She works as a [job]",
+      "Where do you work?"
+    ],
+    "grammar_pattern": "Present Simple:\n- I work / You work\n- He works / She works\n- I study / He studies\n\nQuestions:\n- What do you do?\n- Where do you work?\n- What does he do?\n\nExamples:\n- I am a teacher\n- I work at a hospital\n- He works as a doctor\n- She studies at the university",
+    "grammar_patterns": [
+      {
+        "label": "Saying your job",
+        "pattern": "I am a + [job]",
+        "examples": ["I am a teacher", "I am a doctor", "I am a driver"]
+      },
+      {
+        "label": "Saying where you work",
+        "pattern": "I work at/in + [place]",
+        "examples": ["I work at a hospital", "I work in a school", "I work at a restaurant"]
+      },
+      {
+        "label": "He/She with -s",
+        "pattern": "He/She + [verb]-s",
+        "examples": ["He works at a hospital", "She studies English", "He drives a bus"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You meet Sarah, a new neighbor. You talk about your jobs.",
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Hi! I'm Sarah. I just moved in next door."
+      },
+      {
+        "speaker": "You",
+        "text": "Hi Sarah! I'm Ahmed. Nice to meet you."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Nice to meet you too. What do you do?"
+      },
+      {
+        "speaker": "You",
+        "text": "I am a driver. I work for a delivery company. What about you?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "I am a nurse. I work at City Hospital."
+      },
+      {
+        "speaker": "You",
+        "text": "Oh, that's great! Do you like your job?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Yes, I do. It's hard work, but I like helping people."
+      },
+      {
+        "speaker": "You",
+        "text": "That's nice. What time do you start work?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "I start at 7 AM. I work the morning shift. What about you?"
+      },
+      {
+        "speaker": "You",
+        "text": "I start at 9 AM and finish at 6 PM."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: I am a [job]",
+      "instruction": "Fill in the blank with the correct job",
+      "prompts": [
+        {"sentence": "I am a ___.", "answer": "teacher"},
+        {"sentence": "I am a ___.", "answer": "doctor"},
+        {"sentence": "I am a ___.", "answer": "driver"},
+        {"sentence": "I am a ___.", "answer": "student"}
+      ],
+      "examples": [
+        "I am a teacher.",
+        "I am a doctor.",
+        "I am a driver.",
+        "I am a student."
+      ],
+      "your_turn": "Now say your job or what you study, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: I work at/in [place]",
+      "instruction": "Fill in the blank with the correct place",
+      "prompts": [
+        {"sentence": "I work at a ___.", "answer": "hospital"},
+        {"sentence": "I work in a ___.", "answer": "school"},
+        {"sentence": "I work at a ___.", "answer": "restaurant"},
+        {"sentence": "I work in an ___.", "answer": "office"}
+      ],
+      "examples": [
+        "I work at a hospital.",
+        "I work in a school.",
+        "I work at a restaurant.",
+        "I work in an office."
+      ],
+      "your_turn": "Now say where you work or study, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: What does he/she do?",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "What does he do? He is a ___.", "answer": "doctor"},
+        {"sentence": "What does she do? She is a ___.", "answer": "teacher"},
+        {"sentence": "What does your brother do? He is a ___.", "answer": "student"},
+        {"sentence": "He ___ in a bank.", "answer": "works"}
+      ],
+      "examples": [
+        "What does he do? He is a doctor.",
+        "What does she do? She is a teacher.",
+        "What does your brother do? He is a student.",
+        "What does your father do? He works in a bank."
+      ],
+      "your_turn": "Now describe a family member's job, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What does Ahmed do?",
+      "audio": "/audio/lesson11-listen1.mp3",
+      "options": ["Teacher", "Driver", "Doctor", "Nurse"],
+      "correct": 1,
+      "explanation": "Ahmed says 'I am a driver'"
+    },
+    {
+      "question": "Listen: Where does Sarah work?",
+      "audio": "/audio/lesson11-listen2.mp3",
+      "options": ["School", "Restaurant", "Hospital", "Office"],
+      "correct": 2,
+      "explanation": "Sarah says 'I work at City Hospital'"
+    },
+    {
+      "question": "Listen: What time does Sarah start work?",
+      "audio": "/audio/lesson11-listen3.mp3",
+      "options": ["6 AM", "7 AM", "8 AM", "9 AM"],
+      "correct": 1,
+      "explanation": "Sarah says 'I start at 7 AM'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Talk about your job or studies",
+      "instruction": "Record yourself answering: What do you do? Where do you work/study?",
+      "example": "I am a student. I study at Portland Community College. I study English and computer science."
+    },
+    {
+      "title": "Task 2: Describe someone else's job",
+      "instruction": "Record yourself describing a family member's job. What do they do? Where do they work?",
+      "example": "My brother is a doctor. He works at a big hospital in the city. He works from Monday to Friday."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write about your job or studies",
+      "instruction": "Write 5 sentences about what you do. Include: your job/studies, where, and when.",
+      "example": "1. I am a student.\n2. I study at Portland Community College.\n3. I study English.\n4. I go to school Monday, Wednesday, and Friday.\n5. My classes start at 9 AM."
+    },
+    {
+      "title": "Task 2: Interview someone",
+      "instruction": "Write a conversation (8-10 lines) where you ask someone about their job.",
+      "example": "You: What do you do?\nPerson: I am a teacher.\nYou: Where do you work?\nPerson: I work at Lincoln High School.\nYou: What do you teach?\nPerson: I teach math.\nYou: Do you like your job?\nPerson: Yes, I love it!\nYou: What time do you start?\nPerson: I start at 8 AM."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "What do you do? (asking about jobs)",
+        "examples": [
+          "What do you do? = What is your job?",
+          "I am a teacher",
+          "I work as a nurse",
+          "I study at university"
+        ],
+        "question": "What does 'What do you do?' mean?",
+        "explanation": "'What do you do?' is asking about your job or studies. It's a very common question when meeting new people."
+      },
+      {
+        "title": "Present Simple: -s with he/she",
+        "examples": [
+          "I work (no -s)",
+          "He works (add -s)",
+          "She studies (change y to ies)",
+          "It starts (add -s)"
+        ],
+        "question": "When do we add -s to verbs?",
+        "explanation": "We add -s (or -es/-ies) to verbs when the subject is he, she, or it. This is a very important rule in English."
+      },
+      {
+        "title": "Work at vs Work in",
+        "examples": [
+          "I work at a hospital (specific place)",
+          "I work in healthcare (general field)",
+          "I work at Nike (specific company)",
+          "I work in sales (general department)"
+        ],
+        "question": "What's the difference?",
+        "explanation": "We usually use 'at' for specific places/companies and 'in' for fields, departments, or general areas."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'What do you do?' They want to know:",
+      "options": [
+        "Your name",
+        "Your job",
+        "Your address",
+        "Your age"
+      ],
+      "correct": 1,
+      "explanation": "'What do you do?' is asking about your job or occupation."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I ___ as a teacher.",
+      "options": [
+        "works",
+        "work",
+        "working",
+        "am work"
+      ],
+      "correct": 1,
+      "explanation": "We say 'I work as a teacher'. Use 'work' without -s for 'I'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: He ___ at a hospital.",
+      "options": [
+        "work",
+        "works",
+        "working",
+        "is work"
+      ],
+      "correct": 1,
+      "explanation": "We add -s for he/she/it. 'He works' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: She ___ English at the university.",
+      "options": [
+        "study",
+        "studys",
+        "studies",
+        "studying"
+      ],
+      "correct": 2,
+      "explanation": "For verbs ending in 'y', we change it to 'ies' for he/she. 'She studies' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You work at a specific hospital. What do you say?",
+      "options": [
+        "I work in City Hospital",
+        "I work at City Hospital",
+        "I work on City Hospital",
+        "I work by City Hospital"
+      ],
+      "correct": 1,
+      "explanation": "We use 'at' for specific places. 'I work at City Hospital' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask about someone's job. What do you say?",
+      "options": [
+        "What you do?",
+        "What do you do?",
+        "What are you do?",
+        "What is you do?"
+      ],
+      "correct": 1,
+      "explanation": "'What do you do?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend is a doctor. Someone asks about him. You say:",
+      "options": [
+        "He is work as a doctor",
+        "He work as a doctor",
+        "He works as a doctor",
+        "He working as a doctor"
+      ],
+      "correct": 2,
+      "explanation": "'He works as a doctor' is correct. Add -s for 'he'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is CORRECT?",
+      "options": [
+        "She work at school",
+        "She works at school",
+        "She is work at school",
+        "She working at school"
+      ],
+      "correct": 1,
+      "explanation": "'She works at school' is correct."
+    },
+    {
+      "type": "writing",
+      "question": "Write 5 sentences about someone you know and their job. What do they do? Where? When?",
+      "options": [],
+      "correct": null,
+      "explanation": "Use present simple: 'He/She works...', 'He/She starts...', etc."
+    },
+    {
+      "type": "open-ended",
+      "question": "What is your dream job? Why? Write 3-4 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice expressing your goals and reasons in English."
+    }
+  ]
+}

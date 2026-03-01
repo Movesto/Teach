@@ -1,0 +1,308 @@
+{
+  "id": "lesson-31",
+  "unit_id": 5,
+  "lesson_number": 5,
+  "title": "Comparing and Contrasting",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Compare two things, places, or ideas clearly",
+    "Use linking words: whereas, while, on the other hand, both, neither",
+    "Talk about similarities and differences in conversation",
+    "Write a comparison paragraph"
+  ],
+  "target_phrases": [
+    "Both A and B are...",
+    "A is similar to B because...",
+    "A is different from B in that...",
+    "On the one hand... on the other hand...",
+    "Whereas A is..., B is...",
+    "While A..., B...",
+    "Unlike A, B..."
+  ],
+  "dialogue": {
+    "context": "Fatima and her coworker, James, are on their lunch break. They are comparing life in their home countries to life in the United States.",
+    "lines": [
+      { "speaker": "James", "text": "Fatima, you mentioned you're from Ethiopia. How is life here different from back home?" },
+      { "speaker": "Fatima", "text": "There are many differences. In Ethiopia, family is always nearby — your parents, aunts, and cousins all live close together. Here, people often live far from their families." },
+      { "speaker": "James", "text": "That's interesting. But there are also similarities, right?" },
+      { "speaker": "Fatima", "text": "Yes — both places have a strong sense of community. People help their neighbors here too, just in different ways." },
+      { "speaker": "James", "text": "What else is different?" },
+      { "speaker": "Fatima", "text": "Well, whereas the pace of life in Ethiopia is slower and more relaxed, life here is very fast. Everything has a schedule." },
+      { "speaker": "James", "text": "I can imagine that's a big change. What do you prefer?" },
+      { "speaker": "Fatima", "text": "On one hand, I miss the slower pace and being close to family. On the other hand, I love the opportunities here — the jobs, the schools, the freedom." },
+      { "speaker": "James", "text": "That's a really balanced way to see it. Both have something valuable." },
+      { "speaker": "Fatima", "text": "Exactly. Unlike some people who say one is better, I think both places shaped who I am." }
+    ]
+  },
+  "pattern_drills": [
+    {
+      "title": "Both and Neither",
+      "grammar_point": "Use BOTH for two things that share something. Use NEITHER when two things both don't have something.",
+      "examples": [
+        "Both Somalia and Ethiopia are in East Africa.",
+        "Both cities have good public transportation.",
+        "Neither city has a subway system.",
+        "Both languages have complex grammar."
+      ],
+      "practice": [
+        { "prompt": "___ English and Spanish use the Latin alphabet.", "answer": "Both" },
+        { "prompt": "___ city has a Walmart nearby.", "answer": "Neither" },
+        { "prompt": "___ jobs require a driver's license.", "answer": "Both" },
+        { "prompt": "___ plan was perfect.", "answer": "Neither" }
+      ]
+    },
+    {
+      "title": "Whereas and While",
+      "grammar_point": "Use WHEREAS or WHILE to show a direct contrast in the same sentence.",
+      "examples": [
+        "Whereas summer is hot and sunny, winter is cold and dark.",
+        "While Ahmed prefers morning shifts, Carlos prefers evenings.",
+        "Whereas the city is loud and busy, the countryside is quiet and slow.",
+        "While driving is fast, public transit is cheaper."
+      ],
+      "practice": [
+        { "prompt": "___ living costs are lower in rural areas, jobs are fewer.", "answer": "Whereas / While" },
+        { "prompt": "Coffee is bitter, ___ tea is milder.", "answer": "whereas / while" },
+        { "prompt": "___ some students prefer writing, others prefer speaking.", "answer": "While / Whereas" },
+        { "prompt": "He is very organized, ___ I am more spontaneous.", "answer": "whereas / while" }
+      ]
+    },
+    {
+      "title": "On one hand... on the other hand",
+      "grammar_point": "Use this structure to present two sides of something — positive and negative, or two different perspectives.",
+      "examples": [
+        "On one hand, living in a big city gives you more job options. On the other hand, it's more expensive.",
+        "On one hand, working night shifts pays more. On the other hand, it's exhausting.",
+        "On one hand, driving is convenient. On the other hand, it's bad for the environment."
+      ],
+      "practice": [
+        { "prompt": "On one hand, remote work is flexible. On the ___ hand, it can be lonely.", "answer": "other" },
+        { "prompt": "___ one hand, the job pays well. On the other hand, the hours are long.", "answer": "On" },
+        { "prompt": "On one hand, learning English is hard. On the other hand, it ___ many opportunities.", "answer": "opens" }
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit5-lesson5-listen1.mp3",
+      "transcript": "I'm going to compare my old job to my new one. My old job was at a factory. It paid well, but whereas my old job was physically exhausting, my new warehouse job is much better on my body. Both jobs required working early mornings, but unlike my old job, my new job gives me weekends off. On one hand, I miss my old coworkers. On the other hand, my new team is very welcoming.",
+      "question": "What do the two jobs have in common?",
+      "options": [
+        "Both are office jobs",
+        "Both require working early mornings",
+        "Both give weekends off",
+        "Both pay the same salary"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit5-lesson5-listen2.mp3",
+      "transcript": "My sister and I are very different. Whereas she is very outgoing and loves being around people, I'm more quiet and prefer small groups. She chose a job in sales where she talks to customers all day, while I work in data entry where I can focus quietly. Neither of us regrets our choice — we both love what we do. We're different people, but we support each other.",
+      "question": "What is something the two sisters have in common?",
+      "options": [
+        "They both work in sales",
+        "They are both quiet people",
+        "They both love their jobs",
+        "They both work with customers"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit5-lesson5-listen3.mp3",
+      "transcript": "On one hand, living in an apartment is cheaper and more convenient — you don't have to worry about repairs or yard work. On the other hand, a house gives you more space and privacy. Both have advantages, and the right choice depends on your situation. Unlike buying a house, renting doesn't build long-term equity, but whereas homeownership is an investment, renting gives you flexibility to move.",
+      "question": "What is an advantage of renting an apartment mentioned in the audio?",
+      "options": [
+        "It builds long-term equity",
+        "It gives more privacy",
+        "It is cheaper and more convenient",
+        "It gives you a yard"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Compare two cities or places you have lived. Talk about similarities AND differences. Use: both, whereas, on one hand... Record for 30 seconds.",
+      "example": "I want to compare Mogadishu and Portland. Both cities are near water — Mogadishu is on the ocean, and Portland is near the Columbia River. Whereas Mogadishu is very hot year-round, Portland has four seasons. On one hand, I miss the warmth and the culture of home. On the other hand, Portland has amazing opportunities for my children. Both places are part of who I am.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Compare two jobs — one you've had (or seen) and one you want. Use: while, unlike, on the other hand. Record for 25 seconds.",
+      "example": "I used to work in a small shop back home, while here I work at a warehouse. Unlike the shop, the warehouse job has set hours and benefits. On one hand, the shop gave me more freedom. On the other hand, this job is more stable and pays better. Both experiences taught me a lot.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "title": "Comparison Paragraph",
+      "prompt": "Write a paragraph (5-7 sentences) comparing two things: two foods, two cities, two jobs, or two lifestyles. Use at least 3 comparison words from this lesson: both, whereas, while, on one hand, unlike.",
+      "example": "I want to compare two cities I know: Nairobi and Portland. Both cities are growing fast and attracting people from many countries. Whereas Nairobi has a warm tropical climate all year, Portland has a cooler, rainier climate. On one hand, Nairobi is more affordable for everyday necessities like food and rent. On the other hand, Portland has a stronger job market and more social services. Unlike Nairobi, Portland is very quiet after 10 PM. Both cities have taught me something important about community and resilience.",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "title": "Similarities and Differences Table",
+      "prompt": "Choose two things (two schools, two neighborhoods, two transportation options). Write 2 sentences about what they have in common (use BOTH) and 2 sentences about how they differ (use WHEREAS or WHILE).",
+      "example": "Both buses and trains are affordable public transportation options. Both can be crowded during rush hour. Whereas buses can reach almost any neighborhood, trains are faster but follow fixed routes. While taking the train is more comfortable, buses are more flexible for different routes.",
+      "min_words": 40
+    }
+  ],
+  "grammar_focus": [
+    {
+      "pattern": "Both A and B + [verb]",
+      "explanation": "Use BOTH to show two things share the same quality. The verb agrees with the plural subject.",
+      "examples": [
+        "Both cities have good hospitals.",
+        "Both languages are difficult to learn.",
+        "Both jobs require a background check."
+      ]
+    },
+    {
+      "pattern": "Whereas / While + [clause], [clause]",
+      "explanation": "WHEREAS and WHILE introduce a contrast between two clauses. They can go at the beginning or middle of the sentence.",
+      "examples": [
+        "Whereas summer is hot, winter is cold.",
+        "She prefers mornings, while he prefers evenings.",
+        "While renting is flexible, buying builds equity."
+      ]
+    },
+    {
+      "pattern": "On one hand... on the other hand...",
+      "explanation": "This structure presents two sides — usually a positive and a negative, or two different perspectives.",
+      "examples": [
+        "On one hand, the city is exciting. On the other hand, it is expensive.",
+        "On one hand, night shifts pay more. On the other hand, they are tiring."
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Which sentence correctly uses BOTH?",
+        "options": [
+          "Both Ahmed or Carlos works here.",
+          "Both Ahmed and Carlos works here.",
+          "Both Ahmed and Carlos work here.",
+          "Both of Ahmed and Carlos work here."
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "Choose the correct word: '___ my old job paid more, my new job has better hours.'",
+        "options": ["Although", "Whereas", "Both", "Neither"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "What does NEITHER mean in this sentence: 'Neither plan was perfect'?",
+        "options": [
+          "Both plans were perfect",
+          "One plan was perfect",
+          "Not one of the two plans was perfect",
+          "The plans were different"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Which word best completes: '___ driving is fast, it's also expensive.'",
+        "options": ["Both", "Neither", "While", "Unlike"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "question": "In the dialogue, what does Fatima say she loves about life in the U.S.?",
+        "options": [
+          "The slower pace of life",
+          "Being close to family",
+          "The opportunities — jobs, schools, freedom",
+          "The weather"
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "multiple-choice",
+        "question": "Which sentence uses ON ONE HAND correctly?",
+        "options": [
+          "On one hand, I like the job, on one hand it's far away.",
+          "On one hand the job is close. On the other hand, it pays well.",
+          "On one hand, the job is close. On the other hand, the pay is low.",
+          "On the one hand and the other hand the job is good."
+        ],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "multiple-choice",
+        "question": "Which linking word shows the MOST direct contrast between two things?",
+        "options": ["Both", "And", "Whereas", "Also"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "multiple-choice",
+        "question": "Rewrite: 'Ahmed is quiet. Maria is loud.' Use WHEREAS.",
+        "options": [
+          "Whereas Ahmed is quiet but Maria is loud.",
+          "Whereas Ahmed is quiet, Maria is loud.",
+          "Ahmed is quiet whereas and Maria is loud.",
+          "Ahmed whereas Maria is quiet and loud."
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "open-ended",
+        "question": "Compare your home country to the United States in 2 sentences. Use WHEREAS or WHILE.",
+        "options": [],
+        "correct": null,
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "open-ended",
+        "question": "Write 2 sentences about two jobs using: On one hand... On the other hand...",
+        "options": [],
+        "correct": null,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    { "word": "whereas", "definition": "used to show a direct contrast between two facts or ideas", "example": "Whereas coffee is bitter, tea is milder." },
+    { "word": "while", "definition": "used to show contrast (similar to whereas)", "example": "While some people prefer cities, others prefer the countryside." },
+    { "word": "unlike", "definition": "different from; used to show how one thing differs from another", "example": "Unlike driving, cycling is free." },
+    { "word": "similarity", "definition": "a way in which two things are the same", "example": "There are many similarities between the two languages." },
+    { "word": "contrast", "definition": "a difference between two things", "example": "The contrast between winter and summer is huge." }
+  ],
+  "cultural_notes": [
+    "Comparing cultures and countries is very common in conversation. Show respect when comparing by acknowledging both positive aspects — don't say one is 'better' overall.",
+    "The phrase 'on one hand... on the other hand' is used widely in formal English discussions, essays, and job interviews. It shows balanced thinking."
+  ]
+}

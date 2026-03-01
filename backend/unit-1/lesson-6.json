@@ -1,0 +1,411 @@
+{
+  "id": 6,
+  "unit_id": 1,
+  "lesson_number": 6,
+  "title": "Ordering Food at a Restaurant",
+  "description": "Learn to order food and interact with waiters",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Order food politely (I would like... / Can I have...?)",
+    "Ask questions about the menu (What is...? / Do you have...?)",
+    "Ask for the check (Can I have the check?)",
+    "Understand basic menu items and restaurant vocabulary"
+  ],
+  "target_language": {
+    "phrases": [
+      "I would like [food/drink]",
+      "Can I have [food/drink]?",
+      "What is [menu item]?",
+      "Do you have [food]?",
+      "Can I have the check, please?",
+      "For here or to go?",
+      "That's all / That's everything"
+    ],
+    "grammar_pattern": "I would like + noun\nCan I have + noun?\nWhat is + noun?\n\nExamples:\n- I would like a burger\n- Can I have water?\n- What is the soup of the day?\n- For here, please",
+    "grammar_patterns": [
+      {
+        "label": "Polite ordering",
+        "pattern": "I would like + [food/drink]",
+        "examples": [
+          "I would like a hamburger",
+          "I would like a salad",
+          "I would like coffee"
+        ]
+      },
+      {
+        "label": "Requesting items",
+        "pattern": "Can I have + [food/drink]?",
+        "examples": [
+          "Can I have a burger?",
+          "Can I have water?",
+          "Can I have the check, please?"
+        ]
+      },
+      {
+        "label": "Asking about the menu",
+        "pattern": "What is + [menu item]?",
+        "examples": [
+          "What is the soup of the day?",
+          "What is in the salad?",
+          "What is chicken alfredo?"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "You are at a restaurant. The waiter comes to take your order.",
+    "dialogue": [
+      {
+        "speaker": "Waiter",
+        "text": "Good afternoon! Welcome to Joe's Diner. Are you ready to order?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes. Can I have a hamburger, please?"
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Sure! For here or to go?"
+      },
+      {
+        "speaker": "You",
+        "text": "For here, please."
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Great. What would you like to drink?"
+      },
+      {
+        "speaker": "You",
+        "text": "I would like water, please."
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Anything else?"
+      },
+      {
+        "speaker": "You",
+        "text": "No, that's all. Thank you."
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Perfect. I'll bring that right out."
+      },
+      {
+        "speaker": "You",
+        "text": "Excuse me. Can I have the check, please?"
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Of course. Here you go."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you!"
+      }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Drill 1: I would like...",
+      "instruction": "Fill in the blank with the correct food or drink",
+      "prompts": [
+        {
+          "sentence": "I would like a ___.",
+          "answer": "hamburger"
+        },
+        {
+          "sentence": "I would like a ___.",
+          "answer": "salad"
+        },
+        {
+          "sentence": "I would like ___.",
+          "answer": "coffee"
+        },
+        {
+          "sentence": "I would like ___.",
+          "answer": "pizza"
+        }
+      ],
+      "examples": [
+        "I would like a hamburger.",
+        "I would like a salad.",
+        "I would like coffee.",
+        "I would like pizza."
+      ],
+      "your_turn": "Now order your favorite food using 'I would like...', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Can I have...",
+      "instruction": "Fill in the blank with the correct item",
+      "prompts": [
+        {
+          "sentence": "Can I have a ___?",
+          "answer": "burger"
+        },
+        {
+          "sentence": "Can I have ___?",
+          "answer": "water"
+        },
+        {
+          "sentence": "Can I have the ___?",
+          "answer": "menu"
+        },
+        {
+          "sentence": "Can I have ___?",
+          "answer": "french fries"
+        }
+      ],
+      "examples": [
+        "Can I have a burger?",
+        "Can I have water?",
+        "Can I have the menu?",
+        "Can I have french fries?"
+      ],
+      "your_turn": "Now ask for something at a restaurant using 'Can I have...', out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Questions about menu",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {
+          "sentence": "What is the ___ of the day?",
+          "answer": "soup"
+        },
+        {
+          "sentence": "Do you have ___ options?",
+          "answer": "vegetarian"
+        },
+        {
+          "sentence": "What is ___ the salad?",
+          "answer": "in"
+        },
+        {
+          "sentence": "Do you have iced ___?",
+          "answer": "tea"
+        }
+      ],
+      "examples": [
+        "What is the soup of the day?",
+        "Do you have vegetarian options?",
+        "What is in the salad?",
+        "Do you have iced tea?"
+      ],
+      "your_turn": "Now ask a question about a menu item, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "Listen: What does the customer order?",
+      "audio": "/audio/lesson6-listen1.mp3",
+      "options": [
+        "A hamburger",
+        "A pizza",
+        "A salad",
+        "A sandwich"
+      ],
+      "correct": 0,
+      "explanation": "The customer says 'I would like a hamburger'"
+    },
+    {
+      "question": "Listen: Is it for here or to go?",
+      "audio": "/audio/lesson6-listen2.mp3",
+      "options": [
+        "For here",
+        "To go",
+        "Delivery",
+        "Not mentioned"
+      ],
+      "correct": 0,
+      "explanation": "The customer says 'For here, please'"
+    },
+    {
+      "question": "Listen: What drink does the person want?",
+      "audio": "/audio/lesson6-listen3.mp3",
+      "options": [
+        "Coffee",
+        "Tea",
+        "Water",
+        "Soda"
+      ],
+      "correct": 2,
+      "explanation": "The person says 'I would like water'"
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Task 1: Order food",
+      "instruction": "Record yourself ordering: a hamburger, french fries, and water. Use 'I would like' or 'Can I have'.",
+      "example": "I would like a hamburger. Can I have french fries? And water, please."
+    },
+    {
+      "title": "Task 2: Restaurant conversation",
+      "instruction": "Record a full restaurant conversation. Order food, answer if it's for here or to go, and ask for the check.",
+      "example": "Waiter: Are you ready to order?\nYou: Yes. I would like a burger.\nWaiter: For here or to go?\nYou: For here.\n(later)\nYou: Can I have the check, please?"
+    }
+  ],
+  "writing": [
+    {
+      "title": "Task 1: Write your order",
+      "instruction": "You are at a restaurant. Write what you would order: a main dish, a side, and a drink. Use 'I would like...'",
+      "example": "I would like a chicken sandwich. I would like a salad. I would like iced tea."
+    },
+    {
+      "title": "Task 2: Write a restaurant conversation",
+      "instruction": "Write a conversation (10-12 lines) at a restaurant. Include: greeting, ordering food and drink, answering questions, and asking for the check.",
+      "example": "Waiter: Hello! Are you ready to order?\nYou: Yes. I would like a burger.\nWaiter: What would you like to drink?\nYou: Water, please.\nWaiter: For here or to go?\nYou: For here.\nWaiter: Anything else?\nYou: No, that's all.\nWaiter: I'll bring that right out.\n(later)\nYou: Can I have the check?\nWaiter: Here you go.\nYou: Thank you!"
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Polite requests: Would like vs Want",
+        "examples": [
+          "I would like a burger (polite)",
+          "I want a burger (less polite)",
+          "Can I have a burger? (polite)"
+        ],
+        "question": "Which sounds more polite in a restaurant?",
+        "explanation": "'I would like' is more polite than 'I want'. In restaurants and formal situations, we use 'I would like' or 'Can I have' to sound polite."
+      },
+      {
+        "title": "For here vs To go",
+        "examples": [
+          "For here, please (eat in the restaurant)",
+          "To go, please (take the food with you)"
+        ],
+        "question": "What do these mean?",
+        "explanation": "'For here' means you will eat in the restaurant. 'To go' (or 'takeout') means you will take the food with you to eat somewhere else."
+      },
+      {
+        "title": "That's all vs Anything else",
+        "examples": [
+          "Waiter: Anything else? (Do you want more?)",
+          "You: No, that's all. (I don't want anything more)",
+          "You: Yes, can I have water? (I want something more)"
+        ],
+        "question": "What does the waiter mean by 'Anything else?'",
+        "explanation": "'Anything else?' means 'Do you want anything more?' You can say 'No, that's all' if you're finished ordering, or tell them what else you want."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the MOST polite way to order food?",
+      "options": [
+        "I want a burger",
+        "Give me a burger",
+        "I would like a burger",
+        "Burger"
+      ],
+      "correct": 2,
+      "explanation": "'I would like a burger' is the most polite way to order."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The waiter asks 'For here or to go?' What are they asking?",
+      "options": [
+        "Do you want it now or later?",
+        "Will you eat here or take it with you?",
+        "Do you want big or small?",
+        "Do you want it hot or cold?"
+      ],
+      "correct": 1,
+      "explanation": "They're asking if you will eat in the restaurant (for here) or take the food with you (to go)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want the check. What do you say?",
+      "options": [
+        "Give me the check",
+        "Check please",
+        "Can I have the check, please?",
+        "I want to pay"
+      ],
+      "correct": 2,
+      "explanation": "'Can I have the check, please?' is the most polite and complete way to ask."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The waiter asks 'Anything else?' You're finished ordering. What do you say?",
+      "options": [
+        "No",
+        "That's all",
+        "No, that's all. Thank you.",
+        "I'm done"
+      ],
+      "correct": 2,
+      "explanation": "'No, that's all. Thank you.' is complete and polite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I ___ like a salad.",
+      "options": [
+        "do",
+        "am",
+        "would",
+        "can"
+      ],
+      "correct": 2,
+      "explanation": "We say 'I would like a salad'. 'Would like' is polite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know what 'chicken alfredo' is. What do you ask?",
+      "options": [
+        "What chicken alfredo?",
+        "Chicken alfredo what?",
+        "What is chicken alfredo?",
+        "Is what chicken alfredo?"
+      ],
+      "correct": 2,
+      "explanation": "'What is chicken alfredo?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to eat in the restaurant. The waiter asks 'For here or to go?' You say:",
+      "options": [
+        "Here",
+        "For here",
+        "For here, please",
+        "In here"
+      ],
+      "correct": 2,
+      "explanation": "'For here, please' is the complete and polite answer."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is the correct way to order food at a restaurant?",
+      "options": [
+        "I want chicken.",
+        "I'll have the grilled chicken, please.",
+        "Give me chicken.",
+        "Chicken for me now."
+      ],
+      "correct": 1,
+      "explanation": "'I'll have the grilled chicken, please' is polite and natural — it's the standard way to order food in a U.S. restaurant. 'I want' and 'Give me' are too direct and can sound rude. Always use 'please' when ordering."
+    },
+    {
+      "type": "writing",
+      "question": "Write an 8-line conversation where you order a pizza, soda, and ask for the check.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: the waiter asking if you're ready, you ordering food and drink, the waiter confirming, and you asking for the check."
+    },
+    {
+      "type": "open-ended",
+      "question": "What is your favorite food? How would you order it in a restaurant? Write 2-3 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice ordering food you actually like. This makes it more meaningful and easier to remember."
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": 27,
+  "unit_id": 2,
+  "lesson_number": 9,
+  "title": "Your Work Story — Talking About Past Experience",
+  "description": "Learn to tell your work history confidently using past tense verbs",
+  "difficulty": "intermediate",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Talk about jobs you had in the past",
+    "Say how long you did something using 'for' and 'from...to'",
+    "Use common irregular past tense verbs",
+    "Tell a short work history story"
+  ],
+  "target_language": {
+    "phrases": [
+      "I worked as a [job] for [time]",
+      "I was a [job] from [year] to [year]",
+      "I used to [work/drive/teach]",
+      "Before I came here, I ...",
+      "My last job was ...",
+      "I left because ...",
+      "I have [X] years of experience in [field]"
+    ],
+    "grammar_pattern": "PAST SIMPLE — Regular and Irregular\n  Regular: work → worked, clean → cleaned, organize → organized\n  Irregular: be → was/were, drive → drove, teach → taught, have → had\n\nTIME EXPRESSIONS for past jobs\n  I worked there for five years.\n  I was a teacher from 2015 to 2020.\n  I worked there until I came to the U.S.\n\nUSED TO\n  I used to drive a truck. (I did this before, but not now)\n  I used to live in Mogadishu.",
+    "grammar_patterns": [
+      {
+        "label": "Past Simple — regular verbs",
+        "pattern": "I + [verb]-ed + [object/place]",
+        "examples": [
+          "I worked at a warehouse for two years.",
+          "She cleaned offices every night.",
+          "He organized the stockroom.",
+          "I delivered packages across the city."
+        ]
+      },
+      {
+        "label": "Past Simple — irregular verbs",
+        "pattern": "I + [irregular past] + [object/place]",
+        "examples": [
+          "I drove a delivery truck for five years.",
+          "She taught English at a school.",
+          "He had a small restaurant.",
+          "I was a security guard from 2018 to 2022."
+        ]
+      },
+      {
+        "label": "Time expressions with FOR and FROM...TO",
+        "pattern": "...for [duration] / from [start] to [end]",
+        "examples": [
+          "I worked there for three years.",
+          "I was a nurse from 2010 to 2019.",
+          "She worked at the restaurant for six months.",
+          "He drove trucks from 2014 until he moved here."
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "Ahmed visits a workforce center for help finding a job. A counselor, David, helps him talk about his work history in English.",
+    "dialogue": [
+      { "speaker": "David", "text": "Good morning, Ahmed. I'm going to help you today. Let's start with your work history. What was your job in Somalia?" },
+      { "speaker": "Ahmed", "text": "I worked as a delivery driver for five years. I drove a big truck every day." },
+      { "speaker": "David", "text": "Excellent. And before that? Did you have other jobs?" },
+      { "speaker": "Ahmed", "text": "Yes. Before I was a driver, I worked at a warehouse for two years. I organized the boxes and counted the inventory." },
+      { "speaker": "David", "text": "That's great experience. How do you say when you started and when you finished?" },
+      { "speaker": "Ahmed", "text": "I was a driver from 2017 to 2022. Then I came to the United States." },
+      { "speaker": "David", "text": "Perfect. Now, why did you leave your last job?" },
+      { "speaker": "Ahmed", "text": "I left because my family moved here. It was not a problem with the job. My employer liked my work." },
+      { "speaker": "David", "text": "That's important to say clearly. 'I left because my family moved to the U.S.' — that is a very good answer. What did you use to do there that you want to do here?" },
+      { "speaker": "Ahmed", "text": "I used to drive every day, and I loved it. I want to be a driver again here. I have five years of experience." },
+      { "speaker": "David", "text": "You tell your story very well, Ahmed. That experience is valuable. Let's write it on your application." }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Regular Past Tense",
+      "instruction": "Change the verb to past tense. Use: I + [verb-ed]",
+      "prompts": [
+        { "sentence": "I ___ at the warehouse for two years. (work)", "answer": "worked" },
+        { "sentence": "She ___ the boxes every morning. (organize)", "answer": "organized" },
+        { "sentence": "He ___ packages across the city. (deliver)", "answer": "delivered" },
+        { "sentence": "I ___ the storeroom and kitchen. (clean)", "answer": "cleaned" }
+      ],
+      "examples": [
+        "I worked as a cashier for one year.",
+        "She organized the office files.",
+        "He cleaned the restaurant every night.",
+        "I delivered packages to 50 houses a day.",
+        "We worked Monday to Friday, 8 to 5."
+      ],
+      "your_turn": "We worked Monday to Friday, 8 to 5.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Irregular Past Tense",
+      "instruction": "Use the irregular past tense form of the verb.",
+      "prompts": [
+        { "sentence": "I ___ a delivery truck for five years. (drive)", "answer": "drove" },
+        { "sentence": "She ___ English at a primary school. (teach)", "answer": "taught" },
+        { "sentence": "He ___ a security guard at a bank. (be)", "answer": "was" },
+        { "sentence": "I ___ a small business in my city. (have)", "answer": "had" }
+      ],
+      "examples": [
+        "I drove trucks from 2016 to 2021.",
+        "She was a nurse for eight years.",
+        "He taught math at a school in Mogadishu.",
+        "I had a job at a construction company.",
+        "We were co-workers for three years."
+      ],
+      "your_turn": "We were co-workers for three years.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "For, From...To, Until",
+      "instruction": "Complete the time expression. Use: for, from, to, or until.",
+      "prompts": [
+        { "sentence": "I worked there ___ three years.", "answer": "for" },
+        { "sentence": "I was a teacher ___ 2015 ___ 2020.", "answer": "from / to" },
+        { "sentence": "I drove a truck ___ I moved here.", "answer": "until" },
+        { "sentence": "She worked at the hospital ___ six months.", "answer": "for" }
+      ],
+      "examples": [
+        "I worked there for four years.",
+        "I was a driver from 2017 to 2022.",
+        "She worked at the factory until she had a baby.",
+        "He cooked at the restaurant for two and a half years.",
+        "I worked from 7 AM to 4 PM every day."
+      ],
+      "your_turn": "I worked from 7 AM to 4 PM every day.",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "How long did the woman work as a cashier?",
+      "audio": "/audio/unit2-lesson9-listen1.mp3",
+      "options": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Five years"
+      ],
+      "correct": 1,
+      "explanation": "The woman says 'I worked as a cashier for two years, from 2019 to 2021.' The key time expression is 'for two years.'"
+    },
+    {
+      "question": "Why did the man leave his last job?",
+      "audio": "/audio/unit2-lesson9-listen2.mp3",
+      "options": [
+        "He didn't like the work",
+        "His boss fired him",
+        "He moved to a new city",
+        "The company closed"
+      ],
+      "correct": 2,
+      "explanation": "The man explains 'I left because my family moved to Portland. It was not a problem at work.' This is an important reason to explain clearly in an interview."
+    },
+    {
+      "question": "What did the speaker used to do that she wants to do again?",
+      "audio": "/audio/unit2-lesson9-listen3.mp3",
+      "options": [
+        "She used to teach children",
+        "She used to work at a hospital",
+        "She used to own a restaurant",
+        "She used to drive a school bus"
+      ],
+      "correct": 0,
+      "explanation": "The speaker says 'I used to teach young children in my country. I want to work with children here too.' 'Used to' connects her past experience to her future goal."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Your Work History",
+      "instruction": "Record yourself describing your work history. Include: what job you had, where you worked, how long you worked there, and why you left. If you have no work experience, describe a responsibility you had at home or in your community.",
+      "example": "In my country, I worked as a cook at a small restaurant for three years. I cooked food and helped clean the kitchen. I left because I came to the United States with my family. Before that, I helped at a market for one year. I have four years of experience in food preparation."
+    },
+    {
+      "title": "Used To",
+      "instruction": "Record 4 sentences about things you used to do in your home country that you want to do again here. Use: I used to...",
+      "example": "I used to drive a truck every day. I used to work with a team of 10 people. I used to start work very early in the morning. I used to earn money to support my family. I want to do all of these things again here."
+    }
+  ],
+  "writing": [
+    {
+      "title": "My Work History Paragraph",
+      "instruction": "Write a paragraph (5-7 sentences) about your work experience. Include at least 3 different past tense verbs. Mention: what you did, where, how long, and what you learned.",
+      "example": "I have experience in transportation and warehousing. I worked as a delivery driver in Somalia for five years. I drove a large truck and delivered goods to many businesses. I also organized cargo in a warehouse for two years before that. I left my last job when my family moved to the United States. My employer wrote me a good reference because I was reliable and hardworking. I am looking for similar work here in Portland."
+    },
+    {
+      "title": "From Past to Future",
+      "instruction": "Write 4 sentences connecting your past experience to what you want to do now. Use: I used to..., I have experience in..., I want to...",
+      "example": "I used to organize and manage a storage facility in Mogadishu. I have experience working with teams and following schedules. Now I want to find warehouse work in Portland. My past experience makes me a good worker for this kind of job."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Regular vs Irregular past — there is no rule!",
+        "examples": [
+          "work → worked ✓ (regular: add -ed)",
+          "clean → cleaned ✓ (regular: add -ed)",
+          "drive → drove ✗ NOT drived (irregular!)",
+          "teach → taught ✗ NOT teached (irregular!)",
+          "be → was/were ✗ NOT beed (irregular!)",
+          "have → had ✗ NOT haved (irregular!)"
+        ],
+        "question": "Why do some verbs change completely in the past?",
+        "explanation": "English has many irregular past tense verbs. These must be memorized — there is no pattern. Common work verbs: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Regular verbs simply add -ed: work→worked, organize→organized, deliver→delivered."
+      },
+      {
+        "title": "USED TO — past habit, not present",
+        "examples": [
+          "I used to drive a truck. (I drove before, but not now)",
+          "I drive a truck. (I drive now — present)",
+          "I drove a truck. (I drove at one specific past time)",
+          "I used to work nights. (My regular past habit)",
+          "She used to teach. (She was a teacher — no longer)"
+        ],
+        "question": "When do we use 'used to' instead of simple past?",
+        "explanation": "'Used to' is for habits or states that were true in the past but are NOT true now. It signals a contrast between then and now. 'I used to drive a truck' means: I drove trucks regularly in the past, but I do not drive trucks anymore (now I am here looking for work). It is very useful when talking to employers about your experience in your home country."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the past tense of DRIVE?",
+      "options": ["drived", "driven", "drove", "drived"],
+      "correct": 2,
+      "explanation": "Drive is an irregular verb. Past simple: drove. 'I drove a truck for five years.' (Not 'drived' — that is a common mistake.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses 'for'?",
+      "options": [
+        "I worked there for 2015 to 2020.",
+        "I worked there for five years.",
+        "I worked there for until I left.",
+        "I worked there from five years."
+      ],
+      "correct": 1,
+      "explanation": "'For' is used with a duration (a period of time): for five years, for six months, for three days. 'From...to' is used with start and end dates: from 2015 to 2020."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed says 'I used to drive every day.' What does this mean?",
+      "options": [
+        "He drives every day now.",
+        "He will drive every day in the future.",
+        "He drove every day in the past, but not anymore.",
+        "He wants to drive every day."
+      ],
+      "correct": 2,
+      "explanation": "'Used to' describes a past habit that no longer happens. Ahmed drove every day in Somalia. Now he is in the U.S. looking for work and does not currently drive professionally."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I was a driver from 2017 to 2022.",
+        "I was a driver from 2017 until 2022.",
+        "I was a driver for 2017 to 2022.",
+        "Both A and B are correct."
+      ],
+      "correct": 3,
+      "explanation": "Both 'from 2017 to 2022' and 'from 2017 until 2022' are correct. You can use either 'to' or 'until' with 'from'. Both mean the same thing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the past tense of TEACH?",
+      "options": ["teached", "taught", "tought", "teaches"],
+      "correct": 1,
+      "explanation": "Teach is an irregular verb. Past simple: taught. 'She taught English at a primary school for three years.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you explain that you left a job because you moved to the U.S.?",
+      "options": [
+        "I was fired because I moved.",
+        "I left because my family moved to the United States.",
+        "My company moved to the U.S.",
+        "I quit for no reason."
+      ],
+      "correct": 1,
+      "explanation": "'I left because my family moved to the United States' is honest, clear, and easy for an employer to understand. It shows it was not a problem with your work or character."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the past tense of ORGANIZE?",
+      "options": ["organized", "organizen", "organize", "organed"],
+      "correct": 0,
+      "explanation": "Organize is a regular verb. Add -ed: organized. 'I organized the warehouse inventory for two years.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'I have five years of experience' mean?",
+      "options": [
+        "I will work for five years",
+        "I worked for five years in the past",
+        "I have worked for five years and maybe more",
+        "Five years ago I started working"
+      ],
+      "correct": 2,
+      "explanation": "'I have X years of experience' is present perfect in meaning — it covers your accumulated past experience. It is one of the most important phrases in any job conversation or application."
+    },
+    {
+      "type": "writing",
+      "question": "Write 3 sentences about a past job or responsibility using past tense verbs. Include 'for' or 'from...to' to say how long.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice your work story. Good format: what you did + where + how long. Example: I worked as a driver at a logistics company for four years."
+    },
+    {
+      "type": "open-ended",
+      "question": "An interviewer asks: 'Why did you leave your last job?' Write your answer in 2 sentences. Be honest and positive.",
+      "options": [],
+      "correct": null,
+      "explanation": "This is one of the most common interview questions. Keep your answer honest, brief, and positive. Never say anything negative about your previous employer."
+    }
+  ]
+}

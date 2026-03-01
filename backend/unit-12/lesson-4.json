@@ -1,0 +1,238 @@
+{
+  "id": "lesson-69",
+  "unit_id": 12,
+  "lesson_number": 4,
+  "title": "Crisis Management and High-Stakes Communication",
+  "level": "mastery",
+  "estimated_time": 45,
+  "objectives": [
+    "Communicate effectively during organizational crises",
+    "Manage multiple stakeholders under pressure",
+    "Balance transparency with legal constraints",
+    "Maintain credibility during uncertainty"
+  ],
+  "target_phrases": [
+    "Our immediate priority is...",
+    "We're committed to full transparency as facts emerge...",
+    "I take full responsibility for...",
+    "The timeline for resolution is...",
+    "We're implementing immediate corrective actions including...",
+    "Stakeholders deserve clear, honest communication about...",
+    "While we don't yet have all answers..."
+  ],
+  "dialogue": {
+    "title": "Managing Product Safety Crisis",
+    "context": "Ahmed leads crisis response when a product safety issue emerges, coordinating internal teams, media, regulators, and customers while maintaining accountability.",
+    "lines": [
+      {"speaker": "Legal Counsel", "text": "Ahmed, we have a serious situation. Three customers reported injuries from our flagship product. Media is calling. What's our response?"},
+      {"speaker": "Ahmed", "text": "First, our immediate priority is customer safety. Second, we need facts before making statements. What do we know definitively?"},
+      {"speaker": "Engineering Lead", "text": "We've identified a potential defect in units manufactured between March and May. It affects approximately 15,000 units."},
+      {"speaker": "Ahmed", "text": "Okay. We're implementing immediate corrective actions including: voluntary recall of all affected units, customer notification within 24 hours, and independent safety testing. Legal, I know you're concerned about liability, but stakeholders deserve clear, honest communication."},
+      {"speaker": "Legal Counsel", "text": "We need to be careful about admitting fault before investigation completes."},
+      {"speaker": "Ahmed", "text": "I understand, but silence breeds speculation. We're committed to full transparency as facts emerge. Here's what I'm proposing for our statement: acknowledge the reports, express concern for affected customers, announce the recall, and commit to investigation and corrective action."},
+      {"speaker": "Communications Director", "text": "Media wants to interview you. They're asking if we knowingly sold defective products."},
+      {"speaker": "Ahmed", "text": "I'll do the interview. While we don't yet have all answers, I can honestly say we're taking this seriously and acting immediately. I take full responsibility for ensuring this gets resolved properly."},
+      {"speaker": "Legal Counsel", "text": "That's risky. What if the investigation reveals we should have caught this earlier?"},
+      {"speaker": "Ahmed", "text": "Then we'll own that too. The timeline for resolution is: recall announced today, replacement units available within two weeks, investigation completed within 30 days, and we'll report findings publicly. Credibility comes from accountability, not evasion."},
+      {"speaker": "Board Member", "text": "This could significantly impact our reputation and stock price."},
+      {"speaker": "Ahmed", "text": "It will impact both regardless. The question is whether we emerge from this having demonstrated integrity or having appeared evasive. Long-term trust matters more than short-term stock fluctuations."},
+      {"speaker": "Communications Director", "text": "That's the kind of leadership our stakeholders need to see right now."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Establishing priorities in crisis",
+      "pattern": "Our immediate priority is [urgent action] / We're implementing immediate corrective actions including [specifics]",
+      "examples": [
+        "Our immediate priority is ensuring customer safety through product recall and transparent communication.",
+        "We're implementing immediate corrective actions including investigation launch, stakeholder notification, and process review.",
+        "Our immediate priority is containing the situation while preserving stakeholder trust through honest updates.",
+        "We're implementing immediate corrective actions including third-party auditing, enhanced oversight, and full disclosure.",
+        "Our immediate priority is addressing root causes rather than merely treating symptoms of this crisis."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Balancing transparency with uncertainty",
+      "pattern": "We're committed to transparency as facts emerge / While we don't yet have all answers...",
+      "examples": [
+        "We're committed to full transparency as facts emerge from our ongoing investigation.",
+        "While we don't yet have all answers, we're sharing what we know and updating regularly as we learn more.",
+        "We're committed to transparency while ensuring accuracy - we won't speculate but will report confirmed findings.",
+        "While we don't yet have complete information, we believe stakeholders deserve honest acknowledgment of what we do and don't know.",
+        "We're committed to transparency balanced with responsibility - we'll share facts as they're verified."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Taking accountability",
+      "pattern": "I take full responsibility for [issue] / Stakeholders deserve clear, honest communication about [situation]",
+      "examples": [
+        "I take full responsibility for ensuring this situation is resolved with integrity and transparency.",
+        "Stakeholders deserve clear, honest communication about both what went wrong and how we're fixing it.",
+        "I take full responsibility for the oversight failures that allowed this to occur.",
+        "Stakeholders deserve clear, honest communication about our timeline, actions, and lessons learned.",
+        "I take full responsibility for rebuilding the trust that this situation has undermined."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit12-lesson4-listen1.mp3",
+      "transcript": "Crisis communication requires speed, accuracy, and transparency. The first 24 hours are critical - silence creates vacuum filled by speculation. Acknowledge the situation quickly even if you don't have all details. Express genuine concern. Explain what actions you're taking. Commit to updates as you learn more. Avoid 'no comment' which sounds evasive. Designate single spokesperson for consistency. Don't minimize or make excuses - acknowledge stakeholder concerns legitimately. Transparency builds trust even when news is bad.",
+      "question": "What's critical in crisis communication?",
+      "options": [
+        "Hiding information",
+        "Speed, accuracy, and transparency",
+        "Saying 'no comment'",
+        "Waiting for perfect information"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit12-lesson4-listen2.mp3",
+      "transcript": "Stakeholder management during crisis involves understanding different constituencies have different concerns. Customers want safety and compensation. Employees need reassurance. Investors want financial impact assessment. Regulators demand compliance. Media wants dramatic narrative. Address each audience's legitimate interests without contradicting yourself across channels. Internal communication matters - employees are ambassadors who interact with external stakeholders. Keep them informed so they can respond knowledgeably to questions. United front prevents conflicting messages that undermine credibility.",
+      "question": "Why does internal communication matter in crisis?",
+      "options": [
+        "It doesn't matter",
+        "Employees are ambassadors who interact with external stakeholders",
+        "Only executives need information",
+        "Internal communication can wait"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit12-lesson4-listen3.mp3",
+      "transcript": "Taking responsibility versus admitting legal liability requires nuance. You can acknowledge a situation is unacceptable and take responsibility for fixing it without necessarily admitting legal fault before investigation completes. 'I take responsibility for ensuring we resolve this' differs from 'We were negligent.' Work with legal counsel but don't let legal concerns prevent necessary communication. Long-term reputation often matters more than short-term liability exposure. Organizations that demonstrate accountability and integrity during crisis often emerge stronger. Those that appear evasive suffer lasting damage.",
+      "question": "What's the balance in crisis communication?",
+      "options": [
+        "Admit everything immediately",
+        "Say nothing due to legal concerns",
+        "Take responsibility for resolution while working with legal counsel",
+        "Blame others"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're giving a statement about an organizational crisis (data breach, product defect, ethical violation, etc.). Balance transparency, accountability, and action. Use crisis communication language. Record for 45 seconds.",
+      "example": "Thank you for being here. I want to address the data breach that affected approximately 50,000 customer accounts. Our immediate priority is customer protection and full transparency about what occurred. Here's what we know: on Monday, unauthorized access to our customer database was detected. We immediately shut down affected systems, engaged cybersecurity experts, and notified law enforcement. While we don't yet have all answers about how this occurred, we're committed to sharing findings as our investigation progresses. We're implementing immediate corrective actions including: mandatory password resets for all affected accounts, enhanced security protocols, complimentary credit monitoring for impacted customers, and third-party security audit. I take full responsibility for ensuring we not only resolve this situation but prevent recurrence. Stakeholders deserve clear, honest communication - you trusted us with your data and we failed to protect it adequately. That's unacceptable. The timeline for resolution is: customer notifications completed by tomorrow, investigation findings within two weeks, enhanced security measures operational within 30 days. We're committed to transparency as facts emerge. I'll take questions now.",
+      "min_seconds": 45,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "A reporter asks tough questions about your crisis response. Answer honestly while balancing transparency with what you don't yet know. Record for 35 seconds.",
+      "example": "Those are fair questions. Let me address each directly. First, when did we know? We detected the issue on Monday morning and began investigation immediately. Second, should we have caught this sooner? That's precisely what our investigation is examining - whether existing protocols should have identified this earlier. While we don't yet have definitive answers, I take responsibility for ensuring we find out. Third, how much will this cost? We're focused on doing what's right for affected customers regardless of cost. We'll report financial impacts when we have accurate estimates, but customer protection is our priority, not expense minimization. Fourth, could this happen again? We're implementing enhanced safeguards, but I won't claim perfection - what I can commit to is continuous improvement in our security practices. Stakeholders deserve honesty: we made mistakes, we're fixing them, and we're committed to earning back trust. I appreciate these challenging questions - they're exactly what we should be answering.",
+      "min_seconds": 35,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a crisis communication statement for customers/stakeholders. Balance transparency, accountability, and specific actions. Include what you know, don't know, and are doing. (150-180 words)",
+      "min_words": 150,
+      "example": "Important Customer Safety Notice: Voluntary Product Recall\n\nDear Valued Customers,\n\nOur immediate priority is your safety. We're writing to inform you of a voluntary recall affecting our Model X product manufactured between March-May 2025.\n\nWhat We Know: We've received reports of potential safety issues affecting approximately 15,000 units. While we don't yet have complete information, we're acting immediately out of abundance of caution.\n\nWhat We're Doing: We're implementing immediate corrective actions including:\n- Voluntary recall of all potentially affected units\n- Free replacement or full refund\n- Independent safety testing and investigation\n- Enhanced quality control protocols\n\nI take full responsibility for ensuring this situation is resolved with integrity. Stakeholders deserve clear, honest communication about what occurred and how we're addressing it.\n\nTimeline for Resolution:\n- Customer notification: Complete by Friday\n- Replacement units available: Within 2 weeks\n- Investigation findings: Within 30 days\n\nWe're committed to full transparency as facts emerge. For questions or to process your recall, contact us at [number] or visit [website].\n\nWe apologize for this inconvenience and appreciate your continued trust.\n\nSincerely,\nAhmed Hassan\nVice President, Operations",
+      "min_words": 150
+    },
+    {
+      "id": "write-2",
+      "prompt": "Write talking points for executives handling crisis media interviews. Address likely tough questions while maintaining transparency and accountability. (120-140 words)",
+      "min_words": 120,
+      "example": "Crisis Media Interview Talking Points\n\nCore Message: Our immediate priority is [stakeholder safety/customer protection]. We're taking full responsibility and implementing comprehensive corrective actions.\n\nKey Points:\n1. Acknowledge: We understand stakeholder concerns and take them seriously.\n2. Accountability: I take responsibility for ensuring proper resolution.\n3. Action: We're implementing [specific corrective measures].\n4. Timeline: [Specific deadlines for key actions].\n5. Transparency: We're committed to sharing findings as investigation progresses.\n\nAnticipated Tough Questions:\n\nQ: Should you have known sooner?\nA: That's what we're investigating. While we don't yet have answers, I take responsibility for finding out.\n\nQ: Will heads roll?\nA: We're focused on root causes and systemic improvements, not scapegoating.\n\nQ: How much will this cost?\nA: Stakeholders deserve proper resolution regardless of cost. We'll report financial impacts when available.\n\nQ: Can customers trust you?\nA: Trust is earned through actions, not words. We're demonstrating commitment through transparency and accountability.\n\nAvoid: 'No comment,' defensive tone, minimizing, blaming others",
+      "min_words": 120
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Present Continuous for Ongoing Crisis Actions",
+      "explanation": "Use present continuous to emphasize active, ongoing response efforts.",
+      "examples": [
+        "We're implementing corrective measures immediately. (active response)",
+        "We're conducting a comprehensive investigation. (ongoing effort)",
+        "We're working with experts to resolve this. (current action)",
+        "We're notifying all affected stakeholders. (in progress)"
+      ],
+      "practice": [
+        {"sentence": "We ___ immediate action.", "blank": "are taking", "options": ["take", "are taking", "took"]},
+        {"sentence": "We ___ with regulators.", "blank": "are coordinating", "options": ["coordinate", "are coordinating", "coordinated"]},
+        {"sentence": "We ___ customers now.", "blank": "are notifying", "options": ["notify", "are notifying", "notified"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Passive Voice for Diplomatic Crisis Language",
+      "explanation": "Use passive voice to soften statements while maintaining clarity.",
+      "examples": [
+        "The issue was identified on Monday. (passive, factual)",
+        "Affected customers are being contacted. (passive, less direct)",
+        "A full investigation is being conducted. (passive, professional)",
+        "Corrective measures have been implemented. (passive, completed action)"
+      ],
+      "practice": [
+        {"sentence": "The problem ___ identified.", "blank": "was", "options": ["is", "was", "were"]},
+        {"sentence": "Customers ___ being notified.", "blank": "are", "options": ["is", "are", "were"]},
+        {"sentence": "Measures ___ been implemented.", "blank": "have", "options": ["has", "have", "had"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Future with 'Will' for Commitments",
+      "explanation": "Use 'will' to make clear, firm commitments about future actions.",
+      "examples": [
+        "We will report findings publicly. (firm commitment)",
+        "We will ensure this doesn't recur. (strong promise)",
+        "We will provide regular updates. (commitment to transparency)",
+        "We will make this right. (accountability statement)"
+      ],
+      "practice": [
+        {"sentence": "We ___ report findings.", "blank": "will", "options": ["will", "would", "might"]},
+        {"sentence": "We ___ ensure accountability.", "blank": "will", "options": ["will", "would", "could"]},
+        {"sentence": "We ___ provide updates.", "blank": "will", "options": ["will", "would", "may"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What's critical in crisis communication?", "options": ["Hiding information", "Speed, accuracy, and transparency", "Saying 'no comment'", "Waiting for perfect info"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Why does internal communication matter in crisis?", "options": ["It doesn't", "Employees are stakeholder ambassadors", "Only executives need info", "It can wait"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What's the balance in crisis communication?", "options": ["Admit everything", "Say nothing", "Take responsibility while working with legal counsel", "Blame others"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'We ___ immediate action.'", "options": ["take", "are taking", "took", "taken"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Silence during crisis creates vacuum filled by speculation.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Legal concerns should prevent all crisis communication.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "We ___ report findings. (commitment)", "correct": "will", "accept": ["will"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "The problem ___ identified. (passive)", "correct": "was", "accept": ["was"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match crisis element:", "pairs": [{"left": "Immediate priority", "right": "Stakeholder safety"}, {"left": "Transparency", "right": "Share facts as emerge"}, {"left": "Accountability", "right": "Take responsibility"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed's approach emphasized:", "options": ["Legal protection only", "Transparency and accountability", "Minimizing issue", "Blaming others"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "crisis", "definition": "time of intense difficulty or danger", "example": "Manage the crisis transparently."},
+    {"word": "transparency", "definition": "openness and honesty", "example": "Transparency builds trust."},
+    {"word": "accountability", "definition": "responsibility for actions", "example": "Take accountability for resolution."},
+    {"word": "stakeholder", "definition": "person with interest or concern", "example": "Address all stakeholder concerns."},
+    {"word": "mitigation", "definition": "action to reduce severity", "example": "Implement mitigation measures."},
+    {"word": "remediation", "definition": "action to correct problem", "example": "Begin remediation immediately."},
+    {"word": "escalation", "definition": "increase in intensity", "example": "Prevent crisis escalation."},
+    {"word": "containment", "definition": "action to limit spread", "example": "Focus on containment first."},
+    {"word": "liability", "definition": "legal responsibility", "example": "Balance liability concerns with transparency."},
+    {"word": "credibility", "definition": "quality of being trusted", "example": "Maintain credibility through honesty."}
+  ],
+  "cultural_notes": [
+    "American business culture expects rapid, transparent crisis response - delays amplify damage and erode trust.",
+    "U.S. media will fill information vacuum with speculation - proactive communication is essential.",
+    "Taking personal accountability (even when organizational) builds credibility in American culture.",
+    "American consumers value transparency over perfection - admitting mistakes honestly often strengthens brands.",
+    "Social media accelerates crisis spread in America - responses must be immediate and multichannel.",
+    "American litigation culture creates tension between transparency and legal exposure - work with counsel but don't go silent."
+  ]
+}

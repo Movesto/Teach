@@ -1,0 +1,354 @@
+{
+  "id": 7,
+  "unit_id": 1,
+  "lesson_number": 7,
+  "title": "On the Phone",
+  "description": "Learn to make and answer phone calls",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Answer the phone (Hello? / This is...)",
+    "Ask to speak to someone (Can I speak to...? / Is... there?)",
+    "Take and leave messages (Can I take a message?)",
+    "End phone calls politely (Talk to you later / Goodbye)"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Hello? / Hi, this is [name]",
+      "Can I speak to [name]?",
+      "Is [name] there?",
+      "Who is calling? / Who is this?",
+      "Hold on, please / One moment",
+      "Can I take a message?",
+      "Can you call back later?"
+    ],
+    "grammar_pattern": "This is + name (introducing yourself)\nCan I speak to + name?\nIs + name + there?\n\nExamples:\n- Hello, this is Ahmed\n- Can I speak to Marcus?\n- Is Marcus there?\n- Hold on, please",
+    "grammar_patterns": [
+      {
+        "label": "Phone introduction",
+        "pattern": "This is + [name]",
+        "examples": ["Hello, this is Ahmed", "Hi, this is Sarah", "Good morning, this is Ahmed Hassan"]
+      },
+      {
+        "label": "Asking to speak to someone",
+        "pattern": "Can I speak to + [name]?",
+        "examples": ["Can I speak to Marcus?", "Can I speak to Dr. Smith?", "Can I speak to the manager?"]
+      },
+      {
+        "label": "Checking if someone is available",
+        "pattern": "Is + [name] + there?",
+        "examples": ["Is Marcus there?", "Is Dr. Smith available?", "Is your mom there?"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You call Marcus on the phone. His roommate answers.",
+    "dialogue": [
+      {
+        "speaker": "Roommate",
+        "text": "Hello?"
+      },
+      {
+        "speaker": "You",
+        "text": "Hi. This is Ahmed. Is Marcus there?"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "Hold on, please. I'll get him."
+      },
+      {
+        "speaker": "Roommate",
+        "text": "Sorry, he's not here right now. Can I take a message?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes, please. Can you tell him Ahmed called?"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "Sure. Ahmed. Does he have your number?"
+      },
+      {
+        "speaker": "You",
+        "text": "Yes, he has my number."
+      },
+      {
+        "speaker": "Roommate",
+        "text": "Okay. I'll tell him you called."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you!"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "No problem. Goodbye."
+      },
+      {
+        "speaker": "You",
+        "text": "Goodbye."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Introducing yourself on the phone",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "Hello, ___ is Ahmed.", "answer": "this"},
+        {"sentence": "Hi, this ___ Sarah.", "answer": "is"},
+        {"sentence": "Hello, this is ___ Hassan.", "answer": "Ahmed"},
+        {"sentence": "Good ___, this is Ahmed.", "answer": "morning"}
+      ],
+      "examples": [
+        "Hello, this is Ahmed.",
+        "Hi, this is Sarah.",
+        "Hello, this is Ahmed Hassan.",
+        "Good morning, this is Ahmed."
+      ],
+      "your_turn": "Now introduce yourself on the phone, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Asking to speak to someone",
+      "instruction": "Fill in the blank with the correct name or word",
+      "prompts": [
+        {"sentence": "Is ___ there?", "answer": "Marcus"},
+        {"sentence": "Can I ___ to Marcus?", "answer": "speak"},
+        {"sentence": "Is Dr. Smith ___?", "answer": "available"},
+        {"sentence": "Can I speak to the ___?", "answer": "manager"}
+      ],
+      "examples": [
+        "Is Marcus there?",
+        "Can I speak to Marcus?",
+        "Is Dr. Smith available?",
+        "Can I speak to the manager?"
+      ],
+      "your_turn": "Now ask to speak to someone you know, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Taking messages",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "Can I take a ___?", "answer": "message"},
+        {"sentence": "Would you like to ___ a message?", "answer": "leave"},
+        {"sentence": "Can I ___ him you called?", "answer": "tell"},
+        {"sentence": "Do you want him to call you ___?", "answer": "back"}
+      ],
+      "examples": [
+        "Can I take a message?",
+        "Would you like to leave a message?",
+        "Can I tell him you called?",
+        "Do you want him to call you back?"
+      ],
+      "your_turn": "Now offer to take a message for someone, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: Who is calling?",
+      "audio": "/audio/lesson7-listen1.mp3",
+      "options": ["Ahmed", "Marcus", "Sarah", "John"],
+      "correct": 0,
+      "explanation": "The caller says 'This is Ahmed'"
+    },
+    {
+      "question": "Listen: Is Marcus there?",
+      "audio": "/audio/lesson7-listen2.mp3",
+      "options": ["Yes", "No", "Maybe", "Not mentioned"],
+      "correct": 1,
+      "explanation": "The person says 'He's not here right now'"
+    },
+    {
+      "question": "Listen: What does the caller want?",
+      "audio": "/audio/lesson7-listen3.mp3",
+      "options": ["To leave a message", "To call back", "To wait", "To hang up"],
+      "correct": 0,
+      "explanation": "The caller wants to leave a message"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Answer the phone",
+      "instruction": "Record yourself answering the phone and introducing yourself.",
+      "example": "Hello? ... This is Ahmed speaking."
+    },
+    {
+      "title": "Task 2: Leave a message",
+      "instruction": "Record yourself calling someone who isn't there. Leave a message asking them to call you back.",
+      "example": "Hi, this is Ahmed. Is Marcus there? ... Okay. Can you tell him Ahmed called? Please ask him to call me back. Thank you."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Write a phone message",
+      "instruction": "Write a phone message. Include: who called, who they want to talk to, and what they want.",
+      "example": "Message for: Marcus\nFrom: Ahmed\nMessage: Please call him back.\nPhone: (555) 123-4567"
+    },
+    {
+      "title": "Task 2: Write a phone conversation",
+      "instruction": "Write a conversation (10-12 lines) where you call someone's house and they're not home. Leave a message.",
+      "example": "Person: Hello?\nYou: Hi. This is Ahmed. Is Marcus there?\nPerson: No, he's not here. Can I take a message?\nYou: Yes, please. Can you tell him Ahmed called?\nPerson: Sure. Does he have your number?\nYou: Yes, he has it.\nPerson: Okay. I'll tell him.\nYou: Thank you!\nPerson: No problem. Goodbye.\nYou: Goodbye."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "This is vs I am on the phone",
+        "examples": [
+          "On phone: This is Ahmed (correct)",
+          "In person: I am Ahmed (correct)",
+          "On phone: I am Ahmed (sounds strange)"
+        ],
+        "question": "What do we say on the phone?",
+        "explanation": "On the phone, we say 'This is [name]' not 'I am [name]'. This is a special phone rule in English."
+      },
+      {
+        "title": "Is [person] there? vs Can I speak to [person]?",
+        "examples": [
+          "Is Marcus there? (asking if he's home/available)",
+          "Can I speak to Marcus? (asking to talk to him)"
+        ],
+        "question": "What's the difference?",
+        "explanation": "Both questions are asking if you can talk to someone. 'Is [person] there?' is slightly more casual. Both are polite and common."
+      },
+      {
+        "title": "Hold on vs Wait",
+        "examples": [
+          "Hold on, please",
+          "One moment, please",
+          "Just a second",
+          "Please wait"
+        ],
+        "question": "What do these mean?",
+        "explanation": "These all mean 'wait a short time'. 'Hold on' and 'One moment' are very common on the phone. They're all polite ways to ask someone to wait."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You call someone. How do you introduce yourself on the phone?",
+      "options": [
+        "I am Ahmed",
+        "This is Ahmed",
+        "My name Ahmed",
+        "Ahmed here"
+      ],
+      "correct": 1,
+      "explanation": "On the phone, we say 'This is Ahmed' to introduce ourselves."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to talk to Marcus. What do you say?",
+      "options": [
+        "Give me Marcus",
+        "Marcus please",
+        "Is Marcus there?",
+        "Where is Marcus?"
+      ],
+      "correct": 2,
+      "explanation": "'Is Marcus there?' or 'Can I speak to Marcus?' are polite ways to ask."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone calls for Marcus, but he's not home. You say:",
+      "options": [
+        "He's not here",
+        "He's not here. Can I take a message?",
+        "No Marcus",
+        "Marcus is gone"
+      ],
+      "correct": 1,
+      "explanation": "'He's not here. Can I take a message?' is helpful and polite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone is looking for Marcus. You need to check. You say:",
+      "options": [
+        "Wait",
+        "Hold on, please",
+        "Stop",
+        "No"
+      ],
+      "correct": 1,
+      "explanation": "'Hold on, please' or 'One moment' are polite ways to ask someone to wait."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to leave a message. What do you say?",
+      "options": [
+        "Write this down",
+        "I have a message",
+        "Can I leave a message?",
+        "Take a message"
+      ],
+      "correct": 2,
+      "explanation": "'Can I leave a message?' is the polite way to ask."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone answers the phone 'Hello?' What do you say first?",
+      "options": [
+        "Give me Marcus",
+        "Hello, this is Ahmed. Is Marcus there?",
+        "Where's Marcus?",
+        "Marcus please"
+      ],
+      "correct": 1,
+      "explanation": "Say who you are first, then ask for the person. 'Hello, this is Ahmed. Is Marcus there?' is polite and clear."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You answer the phone at work. Someone asks for your boss. Your boss is in a meeting. You say:",
+      "options": [
+        "He's busy. Bye.",
+        "He's not here right now. Can I take a message?",
+        "No",
+        "He can't talk"
+      ],
+      "correct": 1,
+      "explanation": "'He's not here right now' or 'He's not available' + 'Can I take a message?' is professional and helpful."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the MOST polite?",
+      "options": [
+        "Is Marcus there?",
+        "Can I speak to Marcus, please?",
+        "Marcus?",
+        "Get Marcus"
+      ],
+      "correct": 1,
+      "explanation": "'Can I speak to Marcus, please?' is the most polite because it uses 'Can I' and 'please'."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 6-line phone conversation where you call Dr. Smith's office and she's not available. Leave a message.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include: introducing yourself, asking for Dr. Smith, being told she's not available, and leaving a message."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about a real phone call you need to make. Who will you call? What will you say? Write 2-3 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice with a real situation from your life. This helps you prepare for actual phone calls."
+    }
+  ]
+}

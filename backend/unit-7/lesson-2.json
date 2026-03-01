@@ -1,0 +1,238 @@
+{
+  "id": "lesson-40",
+  "unit_id": 7,
+  "lesson_number": 2,
+  "title": "Describing People and Characters",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Describe physical appearance accurately",
+    "Explain personality traits and characteristics",
+    "Compare and contrast different people",
+    "Avoid stereotypes when describing others"
+  ],
+  "target_phrases": [
+    "He/She looks...",
+    "He/She is... (height/build)",
+    "He/She has... (features)",
+    "His/Her personality is...",
+    "He/She tends to be...",
+    "What I notice most is...",
+    "He/She reminds me of..."
+  ],
+  "dialogue": {
+    "title": "Describing Family Members",
+    "context": "Ahmed shows his coworkers photos of his family and describes each person.",
+    "lines": [
+      {"speaker": "Lisa", "text": "Ahmed, are these your family photos? Tell us about them!"},
+      {"speaker": "Ahmed", "text": "Yes! This is my mother. She's in her fifties, average height, and she has kind eyes. She's always smiling."},
+      {"speaker": "Carlos", "text": "She looks very warm and friendly. What's her personality like?"},
+      {"speaker": "Ahmed", "text": "She's incredibly patient and generous. She used to help all the neighbors in Somalia. Everyone loved her."},
+      {"speaker": "Lisa", "text": "And who's this tall man next to her?"},
+      {"speaker": "Ahmed", "text": "That's my older brother, Abdi. He's about six feet tall with a athletic build. He played soccer professionally."},
+      {"speaker": "Carlos", "text": "He looks serious in this photo."},
+      {"speaker": "Ahmed", "text": "He can be serious about work, but he has a great sense of humor with family. He's also very protective of our younger siblings."},
+      {"speaker": "Lisa", "text": "And this little girl?"},
+      {"speaker": "Ahmed", "text": "That's my niece, Amina. She has big brown eyes and curly hair. She's only seven but very curious and talkative. She asks a million questions!"},
+      {"speaker": "Carlos", "text": "She sounds adorable! Who does she remind you of?"},
+      {"speaker": "Ahmed", "text": "Actually, she reminds me of my mother - same curious nature and warm personality. People say I was like that as a child too."},
+      {"speaker": "Lisa", "text": "It's wonderful how family traits get passed down. You must miss them so much."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Physical appearance",
+      "pattern": "He/She is [height/build/age]",
+      "examples": [
+        "She is tall and slim.",
+        "He is of average height with a muscular build.",
+        "She is in her thirties with long black hair.",
+        "He is short with broad shoulders.",
+        "She is elderly with gray hair and glasses."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Describing features",
+      "pattern": "He/She has [physical features]",
+      "examples": [
+        "She has curly brown hair and green eyes.",
+        "He has a beard and wears glasses.",
+        "She has a warm smile and dimples.",
+        "He has dark skin and short hair.",
+        "She has freckles and red hair."
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Personality traits",
+      "pattern": "He/She is [personality adjective]",
+      "examples": [
+        "She is kind and patient.",
+        "He is outgoing and friendly.",
+        "She is quiet but thoughtful.",
+        "He is confident and ambitious.",
+        "She is generous and caring."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit7-lesson2-listen1.mp3",
+      "transcript": "When describing people, separate appearance from personality. For appearance, describe: height (tall, short, average), build (slim, athletic, heavy-set), age (young, middle-aged, elderly), and distinct features (hair color, eye color, facial hair). For personality, use adjectives like: friendly, shy, outgoing, serious, funny, kind, patient. Be specific and respectful.",
+      "question": "What should you describe separately?",
+      "options": [
+        "Only appearance",
+        "Only personality",
+        "Appearance and personality separately",
+        "Neither"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit7-lesson2-listen2.mp3",
+      "transcript": "Avoid stereotypes when describing people. Don't assume someone's personality based on their appearance, nationality, or profession. Instead of 'All teachers are patient,' say 'My teacher is patient.' Instead of 'She looks mean,' say 'She looks serious.' Focus on what you actually observe or know about the specific person.",
+      "question": "How should you avoid stereotypes?",
+      "options": [
+        "Describe everyone the same",
+        "Focus on the specific person, not groups",
+        "Don't describe anyone",
+        "Only mention positive traits"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit7-lesson2-listen3.mp3",
+      "transcript": "Using 'tends to' or 'usually' shows nuance in descriptions. 'She tends to be quiet in large groups' is more accurate than 'She is quiet.' 'He's usually cheerful' acknowledges that moods change. This makes your descriptions more realistic and shows you understand that people are complex.",
+      "question": "Why use 'tends to' or 'usually'?",
+      "options": [
+        "To sound more formal",
+        "To show people are complex and moods change",
+        "To avoid saying anything definite",
+        "It's required in English"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Describe someone important in your life. Include both appearance and personality. Record for 30 seconds.",
+      "example": "I want to describe my best friend from home. Her name is Fatima. She's in her late twenties, about average height, and she has beautiful long black hair that she usually wears in a braid. She has dark brown eyes and a contagious smile. As for her personality, Fatima is one of the most loyal and supportive people I know. She's always there when I need to talk. She tends to be quiet in groups, but one-on-one she's very open and funny. What I admire most about her is her strength - she always stays positive even during difficult times.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Compare two people you know - how are they similar and different in appearance or personality? Record for 25 seconds.",
+      "example": "My two brothers are very different. My older brother Abdi is tall and athletic, while my younger brother Hassan is shorter and slimmer. In personality, they're also opposites. Abdi is very serious and responsible - he always thinks before acting. Hassan is more spontaneous and fun-loving. However, they're similar in one important way - both are extremely loyal to family. They would do anything to help each other or our parents.",
+      "min_seconds": 25,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Describe a family member or close friend. Include physical appearance, personality, and what makes them special. (80-100 words)",
+      "min_words": 80,
+      "example": "My mother is the most important person in my life. She's in her mid-fifties, with graying hair that she keeps in a traditional headscarf. She has a round, kind face with warm brown eyes that crinkle when she smiles. Physically, she's of average height but very strong from years of hard work. Her personality is what makes her truly special. She's incredibly patient - I never saw her lose her temper, even in difficult situations. She's also very generous and always puts others before herself. What I admire most is her wisdom. She always knows the right thing to say when I'm struggling. She has this quiet strength that inspires everyone around her. I miss her every day.",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "prompt": "Describe a character from a book, movie, or TV show. What do they look like? What's their personality? (60-80 words)",
+      "min_words": 60,
+      "example": "One of my favorite characters is Forrest Gump from the movie. He's a tall man with short brown hair and a simple, honest face. Throughout the movie, he wears casual clothes and often carries his suitcase. His personality is what makes him special - he's incredibly kind, loyal, and optimistic. He tends to see the good in everyone. Even though people said he wasn't smart, he achieved amazing things through his determination and good heart. His simple wisdom often revealed deep truths.",
+      "min_words": 60
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'Be + adjective' for Appearance and Personality",
+      "explanation": "Use 'be + adjective' to describe how someone is.",
+      "examples": [
+        "She is tall and slim. (appearance)",
+        "He is friendly and outgoing. (personality)",
+        "They are young and energetic. (appearance/personality)",
+        "I am patient and calm. (personality)"
+      ],
+      "practice": [
+        {"sentence": "She ___ very kind.", "blank": "is", "options": ["is", "are", "be"]},
+        {"sentence": "They ___ tall and athletic.", "blank": "are", "options": ["is", "are", "am"]},
+        {"sentence": "He is ___ and generous.", "blank": "friendly", "options": ["friend", "friendly", "friendliness"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Have/has + features' for Physical Characteristics",
+      "explanation": "Use 'have/has' to talk about physical features someone possesses.",
+      "examples": [
+        "She has long black hair. (feature)",
+        "He has blue eyes. (feature)",
+        "They have warm smiles. (feature)",
+        "I have curly hair. (feature)"
+      ],
+      "practice": [
+        {"sentence": "She ___ green eyes.", "blank": "has", "options": ["has", "have", "is"]},
+        {"sentence": "They ___ dark hair.", "blank": "have", "options": ["has", "have", "are"]},
+        {"sentence": "He has ___ hair.", "blank": "curly", "options": ["curl", "curly", "curls"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Relative Clauses with 'who' for People",
+      "explanation": "Use 'who' to add information about a person.",
+      "examples": [
+        "My mother, who lives in Somalia, is very kind. (extra info)",
+        "The man who helped me was very friendly. (identifying which man)",
+        "She's the teacher who taught me English. (identifying which teacher)",
+        "My friend, who I met in class, is from Mexico. (extra info)"
+      ],
+      "practice": [
+        {"sentence": "The person ___ helped me was kind.", "blank": "who", "options": ["who", "which", "what"]},
+        {"sentence": "My sister, ___ lives here, is tall.", "blank": "who", "options": ["who", "which", "that"]},
+        {"sentence": "He's the man ___ I told you about.", "blank": "who", "options": ["who", "which", "what"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "How does Ahmed describe his mother?", "options": ["Tall and serious", "Average height with kind eyes", "Short and quiet", "Young and energetic"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What sport did Ahmed's brother play?", "options": ["Basketball", "Soccer", "Baseball", "Tennis"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How old is Ahmed's niece Amina?", "options": ["Five", "Seven", "Nine", "Ten"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'She ___ long black hair.'", "options": ["is", "has", "are", "have"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You should avoid stereotypes when describing people.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "It's okay to assume someone's personality from their appearance.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "He ___ very friendly. (be + adjective)", "correct": "is", "accept": ["is", "'s"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "The person ___ helped me was kind. (relative clause)", "correct": "who", "accept": ["who"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the description type:", "pairs": [{"left": "Tall", "right": "Appearance"}, {"left": "Kind", "right": "Personality"}, {"left": "Curly hair", "right": "Physical feature"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Who does Amina remind Ahmed of?", "options": ["His father", "His brother", "His mother", "Himself as a child"], "correct": 2, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "appearance", "definition": "how someone looks physically", "example": "Her appearance is very professional."},
+    {"word": "personality", "definition": "characteristics that make someone unique", "example": "He has a warm, friendly personality."},
+    {"word": "trait", "definition": "characteristic or quality", "example": "Honesty is an important trait."},
+    {"word": "characteristic", "definition": "typical feature or quality", "example": "Patience is her best characteristic."},
+    {"word": "height", "definition": "how tall someone is", "example": "He is average height."},
+    {"word": "build", "definition": "body type or physique", "example": "She has an athletic build."},
+    {"word": "feature", "definition": "distinctive part of appearance", "example": "Her eyes are her most striking feature."},
+    {"word": "temperament", "definition": "natural personality tendencies", "example": "He has a calm temperament."},
+    {"word": "attitude", "definition": "way of thinking or feeling", "example": "She has a positive attitude."},
+    {"word": "demeanor", "definition": "outward behavior or manner", "example": "His demeanor is always professional."}
+  ],
+  "cultural_notes": [
+    "In American culture, commenting on someone's appearance can be sensitive. Focus on compliments like 'You look nice' rather than specific body features.",
+    "It's common to describe personality traits when introducing people: 'This is my friend Sarah - she's really funny and creative.'",
+    "Americans value individuality and don't like being stereotyped based on groups they belong to.",
+    "When describing people in professional contexts, focus on relevant qualities and accomplishments, not appearance.",
+    "Physical descriptions are used mainly for practical purposes (helping someone find a person) or in close relationships.",
+    "Describing someone as 'interesting' or 'unique' is usually a compliment in American culture."
+  ]
+}

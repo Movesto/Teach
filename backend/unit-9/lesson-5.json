@@ -1,0 +1,238 @@
+{
+  "id": "lesson-55",
+  "unit_id": 9,
+  "lesson_number": 5,
+  "title": "Academic Skills",
+  "level": "upper-intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Take effective notes in lectures",
+    "Participate in academic discussions",
+    "Cite sources properly",
+    "Avoid plagiarism in academic writing"
+  ],
+  "target_phrases": [
+    "According to [author]...",
+    "The research suggests that...",
+    "In contrast to [theory]...",
+    "This is supported by evidence from...",
+    "To build on what was said...",
+    "Could you clarify...?",
+    "As cited in..."
+  ],
+  "dialogue": {
+    "title": "Starting Community College Classes",
+    "context": "Ahmed enrolls in community college courses and learns academic expectations from his instructor.",
+    "lines": [
+      {"speaker": "Instructor", "text": "Welcome to Introduction to Business. This is a college-level course, so expectations are different from high school. Who has questions about the syllabus?"},
+      {"speaker": "Ahmed", "text": "I'm new to American colleges. How should I take notes during lectures?"},
+      {"speaker": "Instructor", "text": "Good question! Don't try to write everything word-for-word. Focus on main ideas, key terms, and examples. I'll pause at important points. Use abbreviations to write faster."},
+      {"speaker": "Student", "text": "Can we record lectures?"},
+      {"speaker": "Instructor", "text": "You may, but active note-taking helps you learn better than passive recording. Research shows writing by hand improves retention."},
+      {"speaker": "Ahmed", "text": "What about participating in discussions? I'm nervous about speaking up."},
+      {"speaker": "Instructor", "text": "Academic discussions are about exploring ideas, not being right. You can say 'To build on what Sarah said...' or 'Could you clarify that point?' Questions count as participation."},
+      {"speaker": "Ahmed", "text": "For essays, I found good information online. Can I just use it if I change some words?"},
+      {"speaker": "Instructor", "text": "Absolutely not! That's plagiarism, even if you rephrase. You must cite all sources. Use phrases like 'According to Smith (2023)...' and include proper references."},
+      {"speaker": "Ahmed", "text": "What if I accidentally forget to cite something?"},
+      {"speaker": "Instructor", "text": "When in doubt, cite it. Over-citing is better than under-citing. Plagiarism can result in failing the course or even expulsion. Academic integrity is taken very seriously here."},
+      {"speaker": "Ahmed", "text": "This is more formal than I expected. Are there resources to help?"},
+      {"speaker": "Instructor", "text": "Yes! The Writing Center helps with citations and essay structure. The library offers research workshops. Use these resources - they're free and extremely helpful."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Citing sources",
+      "pattern": "According to [author], [statement]",
+      "examples": [
+        "According to Smith (2023), climate change is accelerating.",
+        "Johnson (2022) argues that remote work improves productivity.",
+        "The research by Martinez et al. (2024) suggests a correlation between the two factors.",
+        "As cited in Lee (2023), consumer behavior has shifted significantly.",
+        "Brown's study (2021) demonstrates the effectiveness of this approach."
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Academic discussion phrases",
+      "pattern": "To build on [name's] point... / Could you clarify...?",
+      "examples": [
+        "To build on Maria's point, I think we should also consider economic factors.",
+        "That's interesting. Could you clarify what you mean by 'sustainable'?",
+        "I'd like to add to what Tom said about globalization.",
+        "Can you elaborate on that concept?",
+        "Following up on Sarah's comment, how does this apply in practice?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Presenting arguments",
+      "pattern": "The evidence suggests that... / Research indicates...",
+      "examples": [
+        "The evidence suggests that early intervention is most effective.",
+        "Research indicates a strong correlation between these variables.",
+        "Studies have shown that this method yields better results.",
+        "The data supports the hypothesis that...",
+        "Multiple sources confirm this conclusion."
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit9-lesson5-listen1.mp3",
+      "transcript": "Effective note-taking uses abbreviations and symbols to capture information quickly. Examples: w/ = with, b/c = because, → = leads to, ≠ = not equal to, ex = example. Focus on main ideas, not complete sentences. Use the Cornell method: divide your page into three sections - notes on right, key points on left, summary at bottom. Review and fill in gaps within 24 hours while the lecture is fresh.",
+      "question": "What should you focus on when taking notes?",
+      "options": [
+        "Writing everything word-for-word",
+        "Main ideas and key terms",
+        "Only what's written on slides",
+        "Teacher's personal stories"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit9-lesson5-listen2.mp3",
+      "transcript": "Plagiarism is presenting others' words or ideas as your own. This includes copying text without quotation marks, paraphrasing without citing sources, or submitting someone else's work. Even unintentional plagiarism has serious consequences in American academia: failing grades, course failure, or expulsion. Always cite sources using proper format (APA, MLA, Chicago). When paraphrasing, change both words AND sentence structure, and still cite the source.",
+      "question": "What is plagiarism?",
+      "options": [
+        "Using sources in your writing",
+        "Presenting others' work as your own",
+        "Reading many books",
+        "Writing long essays"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit9-lesson5-listen3.mp3",
+      "transcript": "Participating in academic discussions shows engagement and helps you learn. Don't worry about having perfect answers - ask questions, request clarification, and build on others' ideas. Use phrases like 'I'm curious about...' or 'How does this connect to...?' Respectful disagreement is valued: 'I see that perspective, but I wonder if...' Quality matters more than quantity - one thoughtful comment beats five superficial ones.",
+      "question": "What's valued in academic discussions?",
+      "options": [
+        "Talking the most",
+        "Always agreeing",
+        "Thoughtful questions and comments",
+        "Never asking questions"
+      ],
+      "correct": 2
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're in a college discussion about environmental issues. Use academic language to: 1) reference a source, 2) build on someone's comment, 3) ask for clarification. Record for 30 seconds.",
+      "example": "I'd like to contribute to this discussion about environmental policy. According to the EPA's 2024 report, carbon emissions have increased despite reduction efforts. This supports what Michael said earlier about current policies being insufficient. To build on that point, I think we need to examine why voluntary programs aren't working. Could someone clarify what Professor Johnson meant by 'market-based solutions'? I'm not sure I understand the distinction between carbon taxes and cap-and-trade systems. Understanding this would help me better evaluate which approach might be more effective.",
+      "min_seconds": 30,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain the difference between quoting, paraphrasing, and plagiarism. Give examples. Record for 30 seconds.",
+      "example": "Let me explain three important concepts in academic writing. Quoting means using someone's exact words in quotation marks with a citation. For example: Smith states, 'Education is the foundation of democracy' (Smith, 2023). Paraphrasing means rewording ideas in your own words but still citing the source. For example: Smith argues that democratic societies depend on educated citizens (Smith, 2023). Notice I changed the words and structure but still cited Smith. Plagiarism is using someone's words or ideas without giving credit, whether you copy directly or paraphrase without citation. It's academic dishonesty and has serious consequences. The key rule is: if it's not your original idea, cite it!",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a paragraph about any topic using at least 2 proper citations. Use academic language and formal tone. (80-100 words)",
+      "min_words": 80,
+      "example": "The relationship between sleep and academic performance has been extensively studied. According to Walker (2017), students who sleep fewer than six hours per night perform significantly worse on cognitive tasks than well-rested peers. This finding is supported by research from the National Sleep Foundation, which demonstrates that sleep deprivation impairs memory consolidation and learning (National Sleep Foundation, 2023). Furthermore, Chen and colleagues (2022) found that students who maintained regular sleep schedules had higher GPAs than those with irregular patterns. The evidence clearly suggests that adequate sleep is not merely beneficial but essential for academic success. Educational institutions should consider these findings when developing policies around class scheduling and homework loads.",
+      "min_words": 80
+    },
+    {
+      "id": "write-2",
+      "prompt": "Take the following source and write one paraphrase and one direct quote, both with proper citations. Source: 'Effective time management is the single most important skill for college success' - Dr. Jones, 2024. (50-70 words total)",
+      "min_words": 50,
+      "example": "Direct Quote: Dr. Jones emphasizes that \"effective time management is the single most important skill for college success\" (Jones, 2024). This statement highlights the critical role of organizational abilities in academic achievement.\n\nParaphrase: Jones (2024) argues that among all competencies students need, the ability to manage time effectively stands out as the most crucial factor determining whether they will thrive in higher education. Notice that the paraphrase uses different words and sentence structure while conveying the same meaning, and both include proper citations.",
+      "min_words": 50
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Passive Voice in Academic Writing",
+      "explanation": "Academic writing often uses passive voice to emphasize research over researchers.",
+      "examples": [
+        "The study was conducted over three years. (passive)",
+        "The results were analyzed using statistical methods. (passive)",
+        "It has been demonstrated that... (passive, formal)",
+        "The hypothesis was supported by the data. (passive)"
+      ],
+      "practice": [
+        {"sentence": "The experiment ___ conducted carefully.", "blank": "was", "options": ["was", "is", "has"]},
+        {"sentence": "The data ___ analyzed thoroughly.", "blank": "were", "options": ["was", "were", "been"]},
+        {"sentence": "It has ___ shown that...", "blank": "been", "options": ["be", "been", "was"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Reporting Verbs for Citations",
+      "explanation": "Use specific verbs to introduce sources: argues, suggests, demonstrates, claims, maintains.",
+      "examples": [
+        "Smith (2023) argues that climate action is urgent.",
+        "The research suggests a strong correlation.",
+        "Jones demonstrates the effectiveness of this method.",
+        "Critics claim the theory is flawed."
+      ],
+      "practice": [
+        {"sentence": "Smith (2023) ___ that reforms are needed.", "blank": "argues", "options": ["argues", "argue", "arguing"]},
+        {"sentence": "Research ___ positive outcomes.", "blank": "suggests", "options": ["suggest", "suggests", "suggesting"]},
+        {"sentence": "The study ___ clear benefits.", "blank": "demonstrates", "options": ["demonstrate", "demonstrates", "demonstrating"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Hedging Language for Academic Caution",
+      "explanation": "Use words like 'may,' 'might,' 'appears,' 'suggests' to avoid absolute claims.",
+      "examples": [
+        "This may indicate a trend. (hedging with 'may')",
+        "The results suggest correlation, not causation. (cautious language)",
+        "It appears that further research is needed. (hedged statement)",
+        "This could potentially explain the phenomenon. (tentative)"
+      ],
+      "practice": [
+        {"sentence": "This ___ indicate a pattern.", "blank": "may", "options": ["may", "must", "will"]},
+        {"sentence": "The data ___ correlation.", "blank": "suggests", "options": ["proves", "suggests", "shows"]},
+        {"sentence": "It ___ that more study is needed.", "blank": "appears", "options": ["is", "appears", "proves"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What should you focus on when taking notes?", "options": ["Everything word-for-word", "Main ideas and key terms", "Only slide content", "Teacher's jokes"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "What is plagiarism?", "options": ["Using sources", "Presenting others' work as yours", "Writing essays", "Citing sources"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What's the consequence of plagiarism?", "options": ["Nothing serious", "Warning only", "Failing/expulsion", "Extra credit"], "correct": 2, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'The study ___ conducted.'", "options": ["is", "was", "been", "has"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "You must cite sources even when paraphrasing.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "Recording lectures is better than taking notes.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "Smith (2023) ___ that... (reporting verb)", "correct": "argues", "accept": ["argues", "suggests", "claims", "states"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "This ___ indicate a trend. (hedging)", "correct": "may", "accept": ["may", "might", "could"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the concept:", "pairs": [{"left": "Quote", "right": "Exact words with citation"}, {"left": "Paraphrase", "right": "Reword with citation"}, {"left": "Plagiarism", "right": "No citation"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "How should you participate in discussions?", "options": ["Stay silent", "Talk the most", "Ask thoughtful questions", "Always agree"], "correct": 2, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "plagiarism", "definition": "using others' work without credit", "example": "Plagiarism is serious academic misconduct."},
+    {"word": "citation", "definition": "reference to source of information", "example": "Include proper citations in essays."},
+    {"word": "paraphrase", "definition": "reword someone's ideas", "example": "Paraphrase and cite the source."},
+    {"word": "syllabus", "definition": "outline of course content and requirements", "example": "Read the syllabus carefully."},
+    {"word": "retention", "definition": "ability to remember information", "example": "Active learning improves retention."},
+    {"word": "integrity", "definition": "honesty and moral principles", "example": "Academic integrity is essential."},
+    {"word": "hypothesis", "definition": "proposed explanation to be tested", "example": "The hypothesis was confirmed."},
+    {"word": "methodology", "definition": "system of methods used in study", "example": "Explain your research methodology."},
+    {"word": "correlation", "definition": "mutual relationship between variables", "example": "There's a correlation between the two."},
+    {"word": "peer-review", "definition": "evaluation by experts in field", "example": "Use peer-reviewed sources."}
+  ],
+  "cultural_notes": [
+    "American higher education places extreme emphasis on academic integrity - plagiarism can result in expulsion.",
+    "Community colleges in the U.S. are affordable pathways to four-year degrees and career training.",
+    "Active participation is expected in American college classes - staying silent can negatively affect grades.",
+    "American professors value critical thinking over memorization - you're expected to analyze, not just repeat information.",
+    "Office hours are opportunities to get help from professors - using them shows initiative and is encouraged.",
+    "Group projects are common in American education - learning to collaborate is considered an important skill."
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "lesson-21",
+  "unit_id": 4,
+  "lesson_number": 1,
+  "title": "At the Post Office",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Send letters and packages at the post office",
+    "Understand different mailing options and prices",
+    "Ask about delivery times and tracking",
+    "Fill out customs forms for international mail"
+  ],
+  "target_phrases": [
+    "I need to send this package",
+    "How much does it cost to mail this?",
+    "How long will it take to arrive?",
+    "Can I track this package?",
+    "I'd like to send this priority mail",
+    "Do I need a customs form?",
+    "What's the fastest way to send this?"
+  ],
+  "dialogue": {
+    "title": "Sending a Package Home",
+    "context": "Ahmed needs to send a package to his family in Somalia. He goes to the post office and talks to the clerk.",
+    "lines": [
+      {"speaker": "Clerk", "text": "Good morning! How can I help you today?"},
+      {"speaker": "Ahmed", "text": "Hi. I need to send this package to Somalia. What's the best way to do that?"},
+      {"speaker": "Clerk", "text": "Let me weigh it first. Okay, it's 3 pounds. You have three options: First Class International takes 2-3 weeks and costs $45. Priority Mail International takes 6-10 days and costs $75. Or Express Mail arrives in 3-5 days but costs $120."},
+      {"speaker": "Ahmed", "text": "How long will it take to arrive with Priority Mail?"},
+      {"speaker": "Clerk", "text": "Usually 6 to 10 business days. It also comes with tracking so you can see where it is."},
+      {"speaker": "Ahmed", "text": "That sounds good. Can I track the package online?"},
+      {"speaker": "Clerk", "text": "Yes, I'll give you a tracking number. You can check it on usps.com."},
+      {"speaker": "Ahmed", "text": "Perfect. Do I need to fill out any forms?"},
+      {"speaker": "Clerk", "text": "Yes, you need a customs form. Write down what's inside and the value. What's in the package?"},
+      {"speaker": "Ahmed", "text": "Just clothes and some gifts for my family. The value is about $50."},
+      {"speaker": "Clerk", "text": "Great. Fill out this form and sign here. Your total is $75. How would you like to pay?"},
+      {"speaker": "Ahmed", "text": "I'll pay with my debit card. Thank you for your help!"}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about mailing options",
+      "pattern": "How much does it cost to [mail action]?",
+      "examples": [
+        "How much does it cost to send this letter?",
+        "How much does it cost to mail this package?",
+        "How much does it cost to send this overnight?",
+        "How much does it cost to mail this internationally?",
+        "How much does it cost to insure this package?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about delivery time",
+      "pattern": "How long will it take to [arrive/get there]?",
+      "examples": [
+        "How long will it take to arrive?",
+        "How long will it take to get there?",
+        "How long will it take to reach Somalia?",
+        "How long will it take with express mail?",
+        "How long will it take if I send it today?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Requesting services",
+      "pattern": "I'd like to send this [mail type]",
+      "examples": [
+        "I'd like to send this priority mail",
+        "I'd like to send this express delivery",
+        "I'd like to send this certified mail",
+        "I'd like to send this with tracking",
+        "I'd like to send this insured"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit4-lesson1-listen1.mp3",
+      "transcript": "Welcome to the post office. We offer several mailing services. First Class Mail is our standard service for letters and small packages within the U.S. - it takes 2-5 days. Priority Mail is faster, arriving in 1-3 days, and includes tracking. Priority Mail Express is our fastest option - overnight or 2-day delivery with a money-back guarantee.",
+      "question": "How long does First Class Mail take?",
+      "options": ["1-2 days", "2-5 days", "1-3 days", "6-10 days"],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit4-lesson1-listen2.mp3",
+      "transcript": "For international mail, you must fill out a customs form. List all items in the package and their value. Be honest - customs will inspect packages. Don't send prohibited items like perfume, batteries, or food. Maximum value for gifts is $100 to avoid customs fees in many countries.",
+      "question": "What should you NOT send internationally?",
+      "options": [
+        "Clothes",
+        "Books",
+        "Perfume and batteries",
+        "Gifts under $100"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit4-lesson1-listen3.mp3",
+      "transcript": "You can track your package online at usps.com. Enter your tracking number to see exactly where your package is. You'll get updates when it's accepted, in transit, out for delivery, and delivered. You can also sign up for text or email notifications.",
+      "question": "How can you track your package?",
+      "options": [
+        "Call the post office",
+        "Check usps.com with your tracking number",
+        "Go to the post office in person",
+        "Wait for a letter"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at the post office. Record yourself saying: 'I need to send this package to [country]. How much does it cost? How long will it take?' Use a clear, polite voice.",
+      "example": "Hello, I need to send this package to Somalia. It's not very heavy - maybe 2 or 3 pounds. How much does it cost to send it? And how long will it take to arrive? I want to make sure it gets there safely. Thank you.",
+      "min_seconds": 25,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Explain to a friend how to send a package at the post office. Give 3 steps. Record for at least 30 seconds.",
+      "example": "Sending a package is easy. First, pack your items carefully in a box. Second, go to the post office and tell them where you're sending it. They'll weigh it and tell you the cost and delivery time. Third, fill out the address clearly and any customs forms if it's international. Don't forget to get a tracking number so you can see where your package is!",
+      "min_seconds": 30,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write 5 sentences about why you might need to use the post office. Use phrases like: 'I need to...', 'The post office helps me...', 'I can...'",
+      "min_words": 40,
+      "example": "I need to send packages to my family in Somalia. The post office helps me mail things safely and track them. I can send letters, packages, and important documents. Sometimes I need to buy stamps for birthday cards. The post office also has P.O. boxes where I can receive mail."
+    },
+    {
+      "id": "write-2",
+      "prompt": "You're filling out a customs form. Describe what's in your package in 3-4 sentences. Include: what items are inside, their value, and who they're for.",
+      "min_words": 30,
+      "example": "This package contains clothes, books, and toys for my children. The clothes are worth about $30, the books are $15, and the toys are $10. The total value is $55. These are personal gifts for my family, not for sale."
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Future Time with 'will'",
+      "explanation": "Use 'will' to talk about future delivery and arrival times.",
+      "examples": [
+        "It will arrive in 3 days. (future)",
+        "The package will cost $75. (future)",
+        "They will deliver it tomorrow. (future)",
+        "I will send it today. (future)"
+      ],
+      "practice": [
+        {"sentence": "The package ___ arrive next week.", "blank": "will", "options": ["will", "is", "does"]},
+        {"sentence": "How long ___ it take?", "blank": "will", "options": ["will", "is", "does"]},
+        {"sentence": "I ___ mail this tomorrow.", "blank": "will", "options": ["will", "am", "do"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Questions with 'How much' and 'How long'",
+      "explanation": "'How much' asks about price or amount. 'How long' asks about time duration.",
+      "examples": [
+        "How much does it cost? (price)",
+        "How long will it take? (time)",
+        "How much does this weigh? (amount)",
+        "How long is the delivery time? (duration)"
+      ],
+      "practice": [
+        {"sentence": "___ much does it cost?", "blank": "How", "options": ["How", "What", "When"]},
+        {"sentence": "___ long will it take?", "blank": "How", "options": ["How", "What", "Where"]},
+        {"sentence": "___ much is the postage?", "blank": "How", "options": ["How", "What", "Who"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Comparative Mailing Options",
+      "explanation": "Use comparatives to compare different mailing speeds and prices.",
+      "examples": [
+        "Priority Mail is faster than First Class. (speed)",
+        "Express Mail is more expensive than Priority. (price)",
+        "This option is cheaper but slower. (comparison)",
+        "International mail takes longer than domestic. (time)"
+      ],
+      "practice": [
+        {"sentence": "Express is ___ than Priority.", "blank": "faster", "options": ["fast", "faster", "fastest"]},
+        {"sentence": "First Class is ___ expensive.", "blank": "less", "options": ["less", "least", "little"]},
+        {"sentence": "This is the ___ option.", "blank": "cheapest", "options": ["cheap", "cheaper", "cheapest"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "In the dialogue, how much does Priority Mail International cost for Ahmed's package?",
+        "options": ["$45", "$75", "$120", "$50"],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "What form do you need for international packages?",
+        "options": [
+          "Tax form",
+          "Customs form",
+          "Registration form",
+          "Insurance form"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Complete: 'How long ___ it take to arrive?'",
+        "options": ["is", "does", "will", "can"],
+        "correct": 2,
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "What can you do with a tracking number?",
+        "options": [
+          "Get a discount",
+          "See where your package is",
+          "Pay for shipping",
+          "Send the package faster"
+        ],
+        "correct": 1,
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "true-false",
+        "question": "Priority Mail Express is the fastest USPS option.",
+        "correct": true,
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "true-false",
+        "question": "You can send perfume and batteries internationally.",
+        "correct": false,
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "fill-blank",
+        "question": "The package ___ arrive in 3 days. (future with 'will')",
+        "correct": "will",
+        "accept": ["will", "'ll"],
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "fill-blank",
+        "question": "___ much does it cost to mail this? (question word for price)",
+        "correct": "How",
+        "accept": ["How", "how"],
+        "points": 10
+      },
+      {
+        "id": "q9",
+        "type": "matching",
+        "question": "Match the mail type to its speed:",
+        "pairs": [
+          {"left": "First Class", "right": "2-5 days"},
+          {"left": "Priority Mail", "right": "1-3 days"},
+          {"left": "Express", "right": "Overnight"}
+        ],
+        "points": 10
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "question": "What should you write on a customs form?",
+        "options": [
+          "Only your name",
+          "Items and their value",
+          "Just the weight",
+          "The tracking number"
+        ],
+        "correct": 1,
+        "points": 10
+      }
+    ]
+  },
+  "vocabulary": [
+    {"word": "package", "definition": "a box or wrapped item sent by mail", "example": "I need to send this package to my family."},
+    {"word": "tracking number", "definition": "code to see where your package is", "example": "Use your tracking number to check delivery status."},
+    {"word": "customs", "definition": "government inspection of international mail", "example": "You need a customs form for international packages."},
+    {"word": "delivery", "definition": "when a package arrives at its destination", "example": "Delivery usually takes 3-5 days."},
+    {"word": "priority mail", "definition": "faster mail service with tracking", "example": "Priority Mail arrives in 1-3 days."},
+    {"word": "express", "definition": "fastest mail service", "example": "Express Mail delivers overnight."},
+    {"word": "weigh", "definition": "to measure how heavy something is", "example": "The clerk will weigh your package."},
+    {"word": "postage", "definition": "the cost of mailing something", "example": "The postage for this letter is $0.55."},
+    {"word": "certified mail", "definition": "mail with proof of delivery", "example": "Send important documents by certified mail."},
+    {"word": "P.O. Box", "definition": "Post Office Box - private mailbox at post office", "example": "My mailing address is P.O. Box 1234."}
+  ],
+  "cultural_notes": [
+    "USPS (United States Postal Service) is the government-run mail service. UPS and FedEx are private companies.",
+    "Most post offices are open Monday-Friday 9 AM to 5 PM, and Saturday 9 AM to noon. Closed Sundays.",
+    "You can buy stamps online, at grocery stores, or from vending machines at the post office.",
+    "Flat Rate boxes from USPS let you ship anything that fits for one price, regardless of weight.",
+    "Media Mail is a cheap option for shipping books and educational materials.",
+    "International packages can take 2-8 weeks depending on the destination country.",
+    "Always save your receipt and tracking number until the package is delivered."
+  ]
+}

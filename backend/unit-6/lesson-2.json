@@ -1,0 +1,232 @@
+{
+  "id": "lesson-34",
+  "unit_id": 6,
+  "lesson_number": 2,
+  "title": "At the Pharmacy",
+  "level": "intermediate",
+  "estimated_time": 45,
+  "objectives": [
+    "Fill prescriptions at the pharmacy",
+    "Ask about medications and side effects",
+    "Understand dosage instructions",
+    "Know about over-the-counter medicines"
+  ],
+  "target_phrases": [
+    "I need to fill this prescription",
+    "How do I take this?",
+    "Are there any side effects?",
+    "Do you have something for...?",
+    "When will it be ready?",
+    "How much does this cost?",
+    "Can I get a refill?"
+  ],
+  "dialogue": {
+    "title": "Filling a Prescription",
+    "context": "Ahmed goes to the pharmacy to fill his prescription for antibiotics. He asks the pharmacist questions about the medication.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Hello, I need to fill this prescription from Dr. Chen."},
+      {"speaker": "Pharmacist", "text": "Sure, let me take a look. Okay, this is for amoxicillin, an antibiotic. Do you have insurance?"},
+      {"speaker": "Ahmed", "text": "Yes, here's my insurance card."},
+      {"speaker": "Pharmacist", "text": "Great. With insurance, your copay is $10. It'll be ready in about 15 minutes. Is this your first time taking this medication?"},
+      {"speaker": "Ahmed", "text": "Yes, it is. How do I take it?"},
+      {"speaker": "Pharmacist", "text": "Take one capsule twice a day - once in the morning and once in the evening. Take it with food to avoid stomach upset. Make sure you finish all 20 capsules even if you feel better."},
+      {"speaker": "Ahmed", "text": "Okay. Are there any side effects I should know about?"},
+      {"speaker": "Pharmacist", "text": "Common side effects include mild stomach upset or diarrhea. If you develop a rash, severe stomach pain, or trouble breathing, stop taking it and call your doctor immediately."},
+      {"speaker": "Ahmed", "text": "I understand. Also, do you have something for my cough? Dr. Chen said I could take cough syrup."},
+      {"speaker": "Pharmacist", "text": "Yes, cough medicine is over-the-counter - you don't need a prescription. This brand works well. Take one tablespoon every 4-6 hours as needed."},
+      {"speaker": "Ahmed", "text": "Thank you. When can I come back to pick up the antibiotic?"},
+      {"speaker": "Pharmacist", "text": "Give us 15 minutes. I'll text you when it's ready. You can browse the store or wait here."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Asking about dosage",
+      "pattern": "How [often/much] do I take this?",
+      "examples": [
+        "How often do I take this medicine?",
+        "How much should I take each time?",
+        "How many pills do I take per day?",
+        "How long do I need to take this?",
+        "How should I take this - with food or without?"
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Asking about side effects",
+      "pattern": "Are there any [side effects/interactions]?",
+      "examples": [
+        "Are there any side effects?",
+        "Are there any drug interactions I should know about?",
+        "Are there any foods I should avoid?",
+        "Are there any activities I shouldn't do?",
+        "Are there any warning signs to watch for?"
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Requesting OTC medicines",
+      "pattern": "Do you have something for [symptom]?",
+      "examples": [
+        "Do you have something for headaches?",
+        "Do you have something for allergies?",
+        "Do you have something for a cold?",
+        "Do you have something for upset stomach?",
+        "Do you have something for a rash?"
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit6-lesson2-listen1.mp3",
+      "transcript": "Understanding medication labels is important. The label shows: drug name, dosage (amount to take), frequency (how often), and special instructions (with food, before bed, etc.). Always read the label carefully. If instructions say 'Take 2 tablets 3 times daily,' that means 2 tablets in the morning, 2 at midday, and 2 in the evening - total of 6 tablets per day.",
+      "question": "If medicine says 'Take 2 tablets 3 times daily,' how many tablets do you take per day?",
+      "options": ["2 tablets", "3 tablets", "5 tablets", "6 tablets"],
+      "correct": 3
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit6-lesson2-listen2.mp3",
+      "transcript": "Generic vs. brand name medications: Generic medicines have the same active ingredient as brand names but cost less. For example, ibuprofen is the generic name, while Advil and Motrin are brand names. Generics are FDA-approved and just as effective. Ask your pharmacist if a generic version is available to save money.",
+      "question": "What's the difference between generic and brand name medicine?",
+      "options": [
+        "Generic doesn't work as well",
+        "Generic is the same but costs less",
+        "Generic is stronger",
+        "There's no difference"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit6-lesson2-listen3.mp3",
+      "transcript": "Over-the-counter (OTC) medicines don't require a prescription. Common OTC medicines include pain relievers (acetaminophen, ibuprofen), cold and allergy medicine, antacids for stomach upset, and cough syrup. Even though they're OTC, follow dosage instructions carefully. Some OTC medicines shouldn't be mixed with prescription drugs - always ask your pharmacist.",
+      "question": "What does OTC mean?",
+      "options": [
+        "Only Take Carefully",
+        "Over-the-counter - no prescription needed",
+        "Overnight Treatment Care",
+        "Official Treatment Checklist"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "You're at the pharmacy. Say: 'I need to fill this prescription. How much will it cost with insurance? When will it be ready?' Record yourself.",
+      "example": "Hello, I need to fill this prescription that my doctor gave me. It's for an antibiotic. I have insurance - here's my card. Can you tell me how much my copay will be? Also, how long will it take to get the medication ready? I can wait if it's not too long. Thank you.",
+      "min_seconds": 20,
+      "target_language": "english"
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Ask the pharmacist 3 questions about a new medication you're taking. Record for 20 seconds.",
+      "example": "I have a few questions about this medication. First, should I take it with food or on an empty stomach? Second, are there any side effects I should watch out for? And third, can I drink alcohol while taking this medicine? I want to make sure I take it correctly.",
+      "min_seconds": 20,
+      "target_language": "english"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write instructions for taking medicine: 2 capsules, twice a day, with food, for 10 days. (30-40 words)",
+      "min_words": 30,
+      "example": "Take two capsules twice daily - once in the morning and once in the evening. Always take with food to prevent stomach upset. Continue for the full 10 days even if you start feeling better. Don't skip doses. Store at room temperature.",
+      "min_words": 30
+    },
+    {
+      "id": "write-2",
+      "prompt": "You're traveling and need a refill of your medication early. Write what you'd say to the pharmacist. (40-50 words)",
+      "min_words": 40,
+      "example": "Hello, I have a prescription for blood pressure medication that I refill here monthly. I'm going out of town for three weeks and I'll run out while I'm gone. Is it possible to get an early refill so I have enough medication for my trip? I can show you my travel tickets if needed.",
+      "min_words": 40
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "'How often' and 'How much' for Dosage",
+      "explanation": "Use 'How often' for frequency and 'How much' for quantity.",
+      "examples": [
+        "How often do I take this? - Twice a day. (frequency)",
+        "How much should I take? - Two tablets. (quantity)",
+        "How often should I apply this cream? - Every 4 hours. (frequency)",
+        "How much medicine per dose? - 5 milliliters. (quantity)"
+      ],
+      "practice": [
+        {"sentence": "___ often do I take this?", "blank": "How", "options": ["How", "What", "When"]},
+        {"sentence": "How ___ should I take?", "blank": "much", "options": ["much", "many", "often"]},
+        {"sentence": "___ many pills per day?", "blank": "How", "options": ["How", "What", "Which"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "'Should/Shouldn't' for Recommendations",
+      "explanation": "Use 'should' for recommendations and 'shouldn't' for things to avoid.",
+      "examples": [
+        "You should take this with food. (recommendation)",
+        "You shouldn't drive after taking this. (avoid)",
+        "Should I avoid alcohol? (asking)",
+        "You should finish all the pills. (advice)"
+      ],
+      "practice": [
+        {"sentence": "You ___ take this with water.", "blank": "should", "options": ["should", "are", "can"]},
+        {"sentence": "You ___ skip doses.", "blank": "shouldn't", "options": ["should", "shouldn't", "can't"]},
+        {"sentence": "___ I take this at night?", "blank": "Should", "options": ["Should", "Do", "Am"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "'Before' and 'After' for Timing",
+      "explanation": "Use 'before' and 'after' to describe when to take medicine.",
+      "examples": [
+        "Take this before meals. (timing)",
+        "Take this after eating. (timing)",
+        "Use this cream before bed. (timing)",
+        "Take your medicine after breakfast. (timing)"
+      ],
+      "practice": [
+        {"sentence": "Take this ___ meals.", "blank": "before", "options": ["before", "after", "during"]},
+        {"sentence": "Use this ___ eating.", "blank": "after", "options": ["before", "after", "while"]},
+        {"sentence": "Take one pill ___ bed.", "blank": "before", "options": ["before", "after", "between"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "What medication is Ahmed filling?", "options": ["Cough syrup", "Amoxicillin (antibiotic)", "Pain medicine", "Allergy pills"], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "How should Ahmed take the antibiotic?", "options": ["Once a day", "Twice a day with food", "Three times a day", "Only when sick"], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "How much is Ahmed's copay with insurance?", "options": ["$5", "$10", "$20", "$75"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "What does OTC mean?", "options": ["On Time Care", "Over-the-counter", "Official Treatment Cost", "Only Take Carefully"], "correct": 1, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "Generic medicines are just as effective as brand names.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "You should stop antibiotics as soon as you feel better.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "___ often do I take this? (frequency question)", "correct": "How", "accept": ["How", "how"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "You ___ take this with food. (recommendation)", "correct": "should", "accept": ["should"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Prescription", "right": "Needs doctor's order"}, {"left": "OTC", "right": "No prescription needed"}, {"left": "Generic", "right": "Same as brand, costs less"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "What should Ahmed do if he develops a rash?", "options": ["Keep taking it", "Stop and call doctor", "Take more medicine", "Ignore it"], "correct": 1, "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "prescription", "definition": "doctor's written order for medicine", "example": "I need to fill this prescription at the pharmacy."},
+    {"word": "dosage", "definition": "amount of medicine to take", "example": "The dosage is two pills twice a day."},
+    {"word": "side effects", "definition": "unwanted effects from medicine", "example": "Common side effects include drowsiness."},
+    {"word": "generic", "definition": "medicine not sold under brand name", "example": "Generic medicine costs less than brand names."},
+    {"word": "brand name", "definition": "trademarked name for medicine", "example": "Advil is a brand name for ibuprofen."},
+    {"word": "refill", "definition": "getting more of the same medicine", "example": "I need a refill of my blood pressure medication."},
+    {"word": "pharmacist", "definition": "person trained to prepare and dispense medicine", "example": "The pharmacist answered my questions."},
+    {"word": "OTC", "definition": "over-the-counter, no prescription needed", "example": "Aspirin is an OTC pain reliever."},
+    {"word": "tablet", "definition": "pill or solid medicine piece", "example": "Take one tablet with water."},
+    {"word": "capsule", "definition": "medicine in gelatin shell", "example": "Swallow the capsule whole."}
+  ],
+  "cultural_notes": [
+    "Chain pharmacies like CVS, Walgreens, and Rite Aid are common in the U.S.",
+    "Most pharmacies have a drive-through window where you can pick up prescriptions without going inside.",
+    "Many pharmacies are open 24 hours, especially in cities.",
+    "You can transfer prescriptions between pharmacies if you move or want to change pharmacies.",
+    "Pharmacists can give advice about OTC medicines and minor health issues for free.",
+    "Insurance copays for prescriptions vary - some are $5, others can be $50+ depending on your plan."
+  ]
+}

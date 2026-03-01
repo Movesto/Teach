@@ -1,0 +1,340 @@
+{
+  "id": 26,
+  "unit_id": 2,
+  "lesson_number": 8,
+  "title": "Reading Job Postings — What Do They Require?",
+  "description": "Learn to read and understand job postings and ask about requirements",
+  "difficulty": "intermediate",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Read and understand a simple job posting",
+    "Understand words like 'required', 'preferred', and 'must'",
+    "Ask about job requirements you do not understand",
+    "Say whether you meet a requirement or not"
+  ],
+  "target_language": {
+    "phrases": [
+      "You must have [a driver's license]",
+      "Experience is required / preferred",
+      "You need to [be able to lift 50 lbs]",
+      "Do I have to [have a diploma]?",
+      "Is [a background check] required?",
+      "I meet that requirement",
+      "I don't have that yet, but I'm working on it"
+    ],
+    "grammar_pattern": "MUST / NEED TO / HAVE TO (obligation)\n  You must have a driver's license. (required — no exceptions)\n  You need to pass a background check. (required step)\n  Do I have to work weekends? (asking about requirement)\n\nREQUIRED vs PREFERRED\n  'Required' = you MUST have this — no exceptions.\n  'Preferred' = it helps, but you can still apply without it.\n\nSHOULD (advice, not obligation)\n  You should bring a resume. (good idea, not required)",
+    "grammar_patterns": [
+      {
+        "label": "MUST for requirements",
+        "pattern": "You must + [base verb] / You must have + [noun]",
+        "examples": [
+          "You must be 18 years or older.",
+          "You must have a valid ID.",
+          "Applicants must speak English.",
+          "You must be able to lift 50 pounds."
+        ]
+      },
+      {
+        "label": "NEED TO for steps",
+        "pattern": "You need to + [base verb]",
+        "examples": [
+          "You need to fill out an application.",
+          "You need to pass a drug test.",
+          "Do I need to have a resume?",
+          "You don't need to have a degree for this job."
+        ]
+      },
+      {
+        "label": "DO I HAVE TO for questions",
+        "pattern": "Do I have to + [base verb]?",
+        "examples": [
+          "Do I have to work on weekends?",
+          "Do I have to have a high school diploma?",
+          "Do I have to bring anything to the interview?",
+          "Do I have to speak perfect English?"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "Ahmed finds a job posting at the community center. He asks his English teacher, Ms. Kim, to help him read and understand it.",
+    "dialogue": [
+      { "speaker": "Ahmed", "text": "Ms. Kim, can you help me? I found a job, but I don't understand all the words." },
+      { "speaker": "Ms. Kim", "text": "Of course! Let me see. It says: 'Warehouse Associate — Full Time. $18/hour.' What part is confusing?" },
+      { "speaker": "Ahmed", "text": "Here it says 'required' and here it says 'preferred.' What is the difference?" },
+      { "speaker": "Ms. Kim", "text": "Good question. 'Required' means you must have it — no exceptions. 'Preferred' means it helps, but you can still apply without it." },
+      { "speaker": "Ahmed", "text": "Okay. So it says a driver's license is required. I don't have a U.S. license yet." },
+      { "speaker": "Ms. Kim", "text": "Then you cannot apply for that position. But look here — this other posting says a license is only preferred." },
+      { "speaker": "Ahmed", "text": "Oh! And it says 'must be able to lift 50 pounds.' I can do that. And 'experience preferred, not required.' So I can apply?" },
+      { "speaker": "Ms. Kim", "text": "Yes! You meet most of the requirements. Do you have any questions you want to ask the employer?" },
+      { "speaker": "Ahmed", "text": "Yes — do I have to work on weekends? And do I need to bring anything to the interview?" },
+      { "speaker": "Ms. Kim", "text": "Those are excellent questions. You should also ask: is a background check required?" },
+      { "speaker": "Ahmed", "text": "I understand now. 'Required' means I must have it. 'Preferred' means it helps but is not required. I can do this!" }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Must and Need To",
+      "instruction": "Complete the requirement. Use: must / need to + [verb]",
+      "prompts": [
+        { "sentence": "You ___ be 18 years or older to apply.", "answer": "must" },
+        { "sentence": "You ___ to fill out the application form online.", "answer": "need" },
+        { "sentence": "Applicants ___ have a valid ID.", "answer": "must" },
+        { "sentence": "You ___ to bring two references to the interview.", "answer": "need" }
+      ],
+      "examples": [
+        "You must be able to lift heavy boxes.",
+        "You need to pass a background check.",
+        "You must have work authorization.",
+        "You need to complete a 3-day training.",
+        "Applicants must speak basic English."
+      ],
+      "your_turn": "Applicants must speak basic English.",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Do I Have To?",
+      "instruction": "Ask about requirements. Use: Do I have to + [verb]?",
+      "prompts": [
+        { "sentence": "___ I have to work on weekends?", "answer": "Do" },
+        { "sentence": "___ I have to have a high school diploma?", "answer": "Do" },
+        { "sentence": "___ she have to speak Spanish?", "answer": "Does" },
+        { "sentence": "___ we have to bring our own tools?", "answer": "Do" }
+      ],
+      "examples": [
+        "Do I have to work nights?",
+        "Do I have to have a driver's license?",
+        "Does the job require weekends?",
+        "Do I have to bring anything to the interview?",
+        "Do I have to speak perfect English?"
+      ],
+      "your_turn": "Do I have to speak perfect English?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Required vs Preferred",
+      "instruction": "Listen and decide: is it required or preferred? Use the words in your answer.",
+      "prompts": [
+        { "sentence": "A diploma is ___. You cannot apply without one.", "answer": "required" },
+        { "sentence": "Experience is ___. It helps, but you can still apply.", "answer": "preferred" },
+        { "sentence": "A background check is ___. Everyone must pass it.", "answer": "required" },
+        { "sentence": "Spanish is ___. It is useful but not necessary.", "answer": "preferred" }
+      ],
+      "examples": [
+        "A valid ID is required. You must have one.",
+        "A college degree is preferred but not required.",
+        "Lifting ability is required for this job.",
+        "Computer skills are preferred.",
+        "A driver's license is required for delivery jobs."
+      ],
+      "your_turn": "A driver's license is required for delivery jobs.",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "According to the job posting, what is REQUIRED?",
+      "audio": "/audio/unit2-lesson8-listen1.mp3",
+      "options": [
+        "A college degree and Spanish",
+        "A valid ID and the ability to lift 50 pounds",
+        "A driver's license and 2 years of experience",
+        "A resume and a high school diploma"
+      ],
+      "correct": 1,
+      "explanation": "The posting says 'Required: valid ID, ability to lift 50 lbs.' A degree, Spanish, and license are all listed as preferred or not mentioned."
+    },
+    {
+      "question": "What does 'preferred but not required' mean for this position?",
+      "audio": "/audio/unit2-lesson8-listen2.mp3",
+      "options": [
+        "You must have experience to apply",
+        "Experience will get you a higher salary",
+        "You can apply without experience, but having it helps",
+        "The employer does not care about experience"
+      ],
+      "correct": 2,
+      "explanation": "'Preferred but not required' means the employer would like you to have experience, but they will still interview you without it. It is not a hard rule."
+    },
+    {
+      "question": "What question does the man ask the employer?",
+      "audio": "/audio/unit2-lesson8-listen3.mp3",
+      "options": [
+        "Do I have to wear a uniform?",
+        "Do I have to work on weekends?",
+        "Do I need to bring a reference?",
+        "Does the job pay overtime?"
+      ],
+      "correct": 1,
+      "explanation": "The man asks 'Do I have to work on weekends?' because he needs to know his schedule. This is one of the most common and important questions to ask an employer."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Reading a Job Posting Aloud",
+      "instruction": "Look at this job posting and read it aloud clearly: 'Cashier needed. Must be 18+. Must be able to work weekends. Experience preferred but not required. Apply in person with a valid ID.' Then say in your own words what is required and what is preferred.",
+      "example": "This job needs a cashier. You must be 18 years old or older. You must work on weekends — that is required. Experience helps, but you can apply without it. You need to bring a valid ID when you apply."
+    },
+    {
+      "title": "Ask Three Questions",
+      "instruction": "Imagine you want to apply for a warehouse job. Record yourself asking the employer 3 questions about the requirements using: Do I have to...? Do I need to...? Is ... required?",
+      "example": "Hello, I'm interested in the warehouse job. I have three questions. First, do I have to have a driver's license? Second, do I need to bring anything to the interview? And third, is a background check required? Thank you."
+    }
+  ],
+  "writing": [
+    {
+      "title": "Write a Job Requirement List",
+      "instruction": "Write 4 sentences describing the requirements for a job you know about (a store, restaurant, warehouse, school). Use: must, need to, required, preferred.",
+      "example": "To work at a restaurant, you must be at least 16 years old. You need to be able to stand for a long time. A food handler certificate is required in some states. Experience is preferred, but many restaurants will train you."
+    },
+    {
+      "title": "Do You Meet the Requirements?",
+      "instruction": "Read this job posting: 'Driver needed. Must have a valid license. Must speak English. Lifting ability required. Computer skills preferred.' Write 4 sentences explaining which requirements you meet and which you don't have yet.",
+      "example": "I meet most of the requirements for this job. I have a driver's license and I can speak English. I can lift heavy things, so that requirement is not a problem. I do not have strong computer skills yet, but that is only preferred, not required. I am going to apply."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "MUST vs NEED TO — both mean required",
+        "examples": [
+          "You must have a valid ID. = You need to have a valid ID.",
+          "You must be 18. = You need to be 18.",
+          "Applicants must speak English. = Applicants need to speak English.",
+          "BUT: 'must' sounds more official and strict.",
+          "'Need to' sounds more like a practical step."
+        ],
+        "question": "Are MUST and NEED TO different in meaning?",
+        "explanation": "MUST and NEED TO both express obligation — something that is required. However, MUST sounds more formal and strict (like a law or a firm rule), while NEED TO sounds more practical (like a step in a process). Job postings often use MUST. When asking questions, we usually use NEED TO or HAVE TO, not MUST."
+      },
+      {
+        "title": "REQUIRED vs PREFERRED in job postings",
+        "examples": [
+          "Required: Driver's license ← You MUST have this",
+          "Preferred: College degree ← Nice to have, not a must",
+          "Required: Ability to lift 50 lbs ← Non-negotiable",
+          "Preferred: Bilingual (Spanish) ← Helpful but optional",
+          "If you don't meet a REQUIRED item, don't apply.",
+          "If you don't meet a PREFERRED item, you can still apply."
+        ],
+        "question": "What is the practical difference between 'required' and 'preferred'?",
+        "explanation": "REQUIRED means the employer will not hire you without this qualification. PREFERRED means the employer would like it, but they will still consider your application without it. Always check carefully: if you are missing a REQUIRED qualification, your application will likely be rejected. Missing a PREFERRED qualification is usually acceptable."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "A job posting says 'Driver's license required.' What does this mean?",
+      "options": [
+        "A driver's license would be helpful",
+        "You must have a driver's license to apply",
+        "You can get a license after you start",
+        "A license is optional for this job"
+      ],
+      "correct": 1,
+      "explanation": "'Required' means you must have it. You cannot apply for this job without a driver's license."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses MUST?",
+      "options": [
+        "You must to have a valid ID.",
+        "You musts have a valid ID.",
+        "You must have a valid ID.",
+        "You must having a valid ID."
+      ],
+      "correct": 2,
+      "explanation": "MUST is followed by the base verb — no 'to', no -s, no -ing. 'You must have' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask about a requirement politely?",
+      "options": [
+        "Must I to work weekends?",
+        "Do I have to work weekends?",
+        "I must work weekends?",
+        "Have I to work weekends?"
+      ],
+      "correct": 1,
+      "explanation": "'Do I have to + [verb]?' is the standard way to ask about requirements. It is natural, polite, and grammatically correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A job posting says 'Experience preferred.' Ahmed has no experience. What should he do?",
+      "options": [
+        "He cannot apply for this job",
+        "He should apply — preferred is not required",
+        "He must get experience first",
+        "He should not mention his lack of experience"
+      ],
+      "correct": 1,
+      "explanation": "'Preferred' means it helps but is not a requirement. Ahmed can still apply and may get the job, especially if his other skills are strong."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the MOST important question to ask before applying?",
+      "options": [
+        "What is the office phone number?",
+        "What color is the uniform?",
+        "What are the requirements for this position?",
+        "Who was the last person hired?"
+      ],
+      "correct": 2,
+      "explanation": "Before applying, always confirm you meet the requirements. This saves everyone time and shows professionalism."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'You need to fill out an application' mean?",
+      "options": [
+        "Filling out an application is optional",
+        "Filling out an application is required",
+        "The application is already complete",
+        "You need help with the application"
+      ],
+      "correct": 1,
+      "explanation": "'Need to' means it is required — you must do it. 'You need to fill out an application' means this is a required step."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In the dialogue, what word did Ms. Kim use to describe 'required'?",
+      "options": [
+        "Helpful",
+        "Optional",
+        "Preferred",
+        "Must have — no exceptions"
+      ],
+      "correct": 3,
+      "explanation": "Ms. Kim says 'Required means you must have it — no exceptions.' This is the clearest definition of a required qualification."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses SHOULD correctly?",
+      "options": [
+        "You should to bring a resume.",
+        "You shoulds bring a resume.",
+        "You should bring a resume.",
+        "You should bringing a resume."
+      ],
+      "correct": 2,
+      "explanation": "SHOULD, like CAN and MUST, is followed by the base verb. 'You should bring' is correct. SHOULD means it is a good idea (advice), not a hard requirement."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 3-item list of requirements for an imaginary job. Use: must, required, and need to.",
+      "options": [],
+      "correct": null,
+      "explanation": "Practice writing job requirements the way real employers write them. Use at least one 'must', one 'required', and one 'need to'."
+    },
+    {
+      "type": "open-ended",
+      "question": "Read this requirement: 'Must be able to work Monday to Friday, 7 AM to 4 PM.' Can you do this? Write 2 sentences explaining your answer.",
+      "options": [],
+      "correct": null,
+      "explanation": "Connect real job requirements to your own availability. Saying clearly what you can and cannot do is an important skill."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": 29,
+  "unit_id": 2,
+  "lesson_number": 11,
+  "title": "Asking for Help at Work — Polite Questions and Clarification",
+  "description": "Learn to ask for help, repeat instructions, and clarify what you don't understand at work",
+  "difficulty": "intermediate",
+  "is_last_in_unit": false,
+  "objectives": [
+    "Ask someone to repeat or slow down politely",
+    "Ask what a word or instruction means",
+    "Ask for help or guidance at work",
+    "Use polite question forms: Could you...?, Would you mind...?, May I...?"
+  ],
+  "target_language": {
+    "phrases": [
+      "Could you repeat that, please?",
+      "Could you speak more slowly?",
+      "What does [word] mean?",
+      "I'm sorry, I didn't understand. Could you say that again?",
+      "Could you show me how to do this?",
+      "May I ask you a question?",
+      "Is this correct, or did I make a mistake?"
+    ],
+    "grammar_pattern": "COULD YOU for polite requests\\n  Could you repeat that? (more polite than 'Repeat that')\\n  Could you show me how to do this?\\n  Could you speak more slowly, please?\\n\\nWOULD YOU MIND + verb-ing\\n  Would you mind showing me again? (very polite)\\n  Would you mind if I asked you something?\\n\\nMAY I for formal permission\\n  May I ask you a question?\\n  May I take a short break?\\n\\nI'M SORRY / I DIDN'T UNDERSTAND — softeners\\n  I'm sorry, I didn't catch that.\\n  I'm not sure I understood. Could you explain?\\n  Excuse me — I didn't hear you clearly.",
+    "grammar_patterns": [
+      {
+        "label": "COULD YOU for polite requests",
+        "pattern": "Could you + [base verb] + please?",
+        "examples": [
+          "Could you repeat that, please?",
+          "Could you speak a little more slowly?",
+          "Could you show me how to use this machine?",
+          "Could you write it down for me?"
+        ]
+      },
+      {
+        "label": "WOULD YOU MIND + verb-ing",
+        "pattern": "Would you mind + [verb-ing]?",
+        "examples": [
+          "Would you mind showing me again?",
+          "Would you mind explaining that step?",
+          "Would you mind speaking more slowly?",
+          "Would you mind if I asked you something?"
+        ]
+      },
+      {
+        "label": "I didn't understand — clarification phrases",
+        "pattern": "I'm sorry / I didn't + [catch / understand / hear] + Could you...?",
+        "examples": [
+          "I'm sorry, I didn't catch that. Could you repeat it?",
+          "I didn't understand that word. What does it mean?",
+          "Excuse me, I didn't hear you clearly.",
+          "I'm not sure I understood. Could you explain?"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "context": "It is Ahmed's first week at the warehouse. His supervisor, Lisa, is training him. Ahmed needs to ask for help and clarification several times.",
+    "dialogue": [
+      { "speaker": "Lisa", "text": "Good morning, Ahmed. Today I'll show you how to process incoming shipments. First, you scan the barcode on each box." },
+      { "speaker": "Ahmed", "text": "I'm sorry — could you repeat that? I didn't hear the first part." },
+      { "speaker": "Lisa", "text": "Of course! You scan the barcode on each box with this scanner. Then you put the box on the correct shelf." },
+      { "speaker": "Ahmed", "text": "Thank you. Could you show me how to use the scanner? I haven't used one before." },
+      { "speaker": "Lisa", "text": "Sure! Point it here, press this button, and wait for the beep. Easy, right?" },
+      { "speaker": "Ahmed", "text": "Yes! May I try it?" },
+      { "speaker": "Lisa", "text": "Go ahead. Now, after you scan everything, you fill out a receiving report." },
+      { "speaker": "Ahmed", "text": "Excuse me — what does 'receiving report' mean?" },
+      { "speaker": "Lisa", "text": "Good question. A receiving report is a form where you write what came in — how many boxes, what's inside, and any damage." },
+      { "speaker": "Ahmed", "text": "I understand now. Would you mind showing me the form? I want to make sure I fill it in correctly." },
+      { "speaker": "Lisa", "text": "Absolutely. And Ahmed — please always ask if you're not sure. It's better to ask than to make a mistake." },
+      { "speaker": "Ahmed", "text": "Thank you, Lisa. I will always ask. I want to do this job well." }
+    ]
+  },
+  "drills": [
+    {
+      "title": "Could You...? Requests",
+      "instruction": "Make a polite request. Use: Could you + [verb] + please?",
+      "prompts": [
+        { "sentence": "___ you repeat that, please?", "answer": "Could" },
+        { "sentence": "Could you ___ more slowly?", "answer": "speak" },
+        { "sentence": "Could you ___ me how to do this?", "answer": "show" },
+        { "sentence": "Could you ___ that down for me?", "answer": "write" }
+      ],
+      "examples": [
+        "Could you repeat that, please?",
+        "Could you explain that step again?",
+        "Could you show me where the form is?",
+        "Could you speak a little more slowly?",
+        "Could you check my work when you have a moment?"
+      ],
+      "your_turn": "Could you check my work when you have a moment?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Would You Mind...?",
+      "instruction": "Make a very polite request. Use: Would you mind + [verb-ing]?",
+      "prompts": [
+        { "sentence": "Would you mind ___ that again? (explain)", "answer": "explaining" },
+        { "sentence": "Would you mind ___ me? (show)", "answer": "showing" },
+        { "sentence": "Would you mind ___ more slowly? (speak)", "answer": "speaking" },
+        { "sentence": "Would you mind ___ my report? (check)", "answer": "checking" }
+      ],
+      "examples": [
+        "Would you mind showing me how to do that?",
+        "Would you mind repeating the instructions?",
+        "Would you mind speaking more slowly?",
+        "Would you mind explaining this word?",
+        "Would you mind checking this for me?"
+      ],
+      "your_turn": "Would you mind checking this for me?",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "I Didn't Understand — Clarification",
+      "instruction": "Say that you didn't understand and ask for help. Use the clarification phrases.",
+      "prompts": [
+        { "sentence": "I'm sorry, I ___ catch that. Could you repeat?", "answer": "didn't" },
+        { "sentence": "I ___ understand that word. What does it mean?", "answer": "didn't" },
+        { "sentence": "Excuse me, I didn't hear you ___.", "answer": "clearly" },
+        { "sentence": "I'm not ___ I understood. Could you explain?", "answer": "sure" }
+      ],
+      "examples": [
+        "I'm sorry, I didn't catch that.",
+        "Could you repeat the last part?",
+        "I didn't understand that instruction.",
+        "What does that word mean?",
+        "Excuse me — could you say that again?"
+      ],
+      "your_turn": "Excuse me — could you say that again?",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  "listening": [
+    {
+      "question": "What does the worker ask the supervisor to do?",
+      "audio": "/audio/unit2-lesson11-listen1.mp3",
+      "options": [
+        "Speak louder",
+        "Write the instructions down",
+        "Repeat the instructions more slowly",
+        "Show him the exit"
+      ],
+      "correct": 2,
+      "explanation": "The worker says 'Could you repeat that more slowly, please?' He didn't understand the instructions the first time and uses a polite request form to ask for help."
+    },
+    {
+      "question": "How does the employee ask about a word she doesn't know?",
+      "audio": "/audio/unit2-lesson11-listen2.mp3",
+      "options": [
+        "She looks it up on her phone",
+        "She ignores it and continues working",
+        "She asks 'What does that word mean?'",
+        "She asks her coworker to explain in her language"
+      ],
+      "correct": 2,
+      "explanation": "The employee says 'Excuse me, what does that word mean?' This is the natural and correct way to ask about unfamiliar vocabulary at work."
+    },
+    {
+      "question": "What does the supervisor say when the worker asks for help?",
+      "audio": "/audio/unit2-lesson11-listen3.mp3",
+      "options": [
+        "She tells him to figure it out alone",
+        "She says 'Please always ask if you're not sure'",
+        "She tells him to read the manual",
+        "She gives him a written guide"
+      ],
+      "correct": 1,
+      "explanation": "The supervisor says 'Always ask if you're not sure. It's better to ask than to make a mistake.' This is a common workplace attitude that encourages questions."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Ask for Clarification",
+      "instruction": "Record yourself using 3 different clarification phrases in 3 short sentences. Imagine your supervisor just gave you instructions you didn't fully understand.",
+      "example": "I'm sorry, I didn't catch the last part. Could you repeat that, please? Also, what does 'receiving report' mean? And would you mind showing me the correct form? Thank you for your patience."
+    },
+    {
+      "title": "Polite Requests at Work",
+      "instruction": "Record yourself making 3 polite requests using: Could you...?, Would you mind...?, and May I...?",
+      "example": "Could you show me where to put these boxes? Would you mind checking my work before I continue? And may I ask you one more question about the process? I want to make sure I do everything correctly."
+    }
+  ],
+  "writing": [
+    {
+      "title": "A Work Clarification Conversation",
+      "instruction": "Write a short conversation (5-6 lines) where a new worker asks for help or clarification on the job. Use at least 2 polite request forms (Could you...?, Would you mind...?, May I...?).",
+      "example": "Supervisor: Put all the red boxes on shelf B and the blue boxes on shelf C.\nWorker: I'm sorry, could you repeat that? I didn't hear which shelf.\nSupervisor: Red boxes go on shelf B. Blue boxes on shelf C.\nWorker: Thank you. Would you mind showing me where shelf B is? I'm still learning the layout.\nSupervisor: Of course — follow me. And please always ask if you need help."
+    },
+    {
+      "title": "Phrases I Need at Work",
+      "instruction": "Write 4 sentences using polite request language for situations you might face at work. Think about real things you might not understand: instructions, words, equipment, processes.",
+      "example": "Could you show me how to use the forklift safely? I don't know how to operate it yet. Would you mind explaining the safety rules before I start? I also want to know what 'inventory check' means — could you tell me? I want to do this job well and I will always ask when I am not sure."
+    }
+  ],
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "COULD YOU vs CAN YOU — both polite, different levels",
+        "examples": [
+          "Can you help me? (informal, natural with coworkers)",
+          "Could you help me? (more polite — better with supervisors)",
+          "Can you repeat that? ✓ (fine between colleagues)",
+          "Could you repeat that, please? ✓ (more polite — better in formal situations)",
+          "Please repeat. ✗ (too direct — sounds like a command)"
+        ],
+        "question": "When should I use COULD instead of CAN?",
+        "explanation": "CAN is fine for quick requests with coworkers you know well. COULD sounds more polite and respectful — use it with supervisors, customers, or in more formal situations. Adding 'please' to either makes it even more polite. The most important rule: avoid using the imperative ('Repeat.' / 'Show me.') — always soften with CAN, COULD, or WOULD YOU MIND."
+      },
+      {
+        "title": "WOULD YOU MIND + verb-ing — a very polite structure",
+        "examples": [
+          "Would you mind showing me? ✓",
+          "Would you mind to show me? ✗ (no 'to' after 'mind')",
+          "Would you mind repeat? ✗ (must add -ing)",
+          "Would you mind speaking more slowly? ✓",
+          "The answer 'No, not at all' = Yes, I will help you (confusing for learners!)"
+        ],
+        "question": "What form does the verb take after WOULD YOU MIND?",
+        "explanation": "After WOULD YOU MIND, always use verb-ing (the gerund). Never use 'to + verb'. This structure is very polite and appropriate for any work situation. One important note: when someone answers 'No, not at all' — they mean 'I don't mind, I'm happy to help.' It sounds like 'no' but means 'yes, I will help.'"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is the most polite way to ask your supervisor to repeat instructions?",
+      "options": [
+        "Repeat that.",
+        "Say it again.",
+        "Could you repeat that, please?",
+        "I didn't hear you."
+      ],
+      "correct": 2,
+      "explanation": "'Could you repeat that, please?' is polite, natural, and appropriate for the workplace. Bare imperatives like 'Repeat that' can sound rude."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses WOULD YOU MIND?",
+      "options": [
+        "Would you mind to explain that?",
+        "Would you mind explain that?",
+        "Would you mind explaining that?",
+        "Would you mind if explain that?"
+      ],
+      "correct": 2,
+      "explanation": "After WOULD YOU MIND, use verb + -ing. 'Would you mind explaining that?' is correct. Never use 'to + verb' after 'mind'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmed says 'I'm sorry, I didn't catch that.' What does 'catch' mean here?",
+      "options": [
+        "He physically caught something",
+        "He didn't understand or hear what was said",
+        "He missed his bus",
+        "He made a mistake"
+      ],
+      "correct": 1,
+      "explanation": "'I didn't catch that' is an informal idiom meaning 'I didn't hear or understand.' It is very common in workplaces. 'I didn't catch the last part' = 'I didn't understand the end of what you said.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask what a word means at work?",
+      "options": [
+        "What is meaning of that word?",
+        "Explain that word.",
+        "What does that word mean?",
+        "Tell me the word."
+      ],
+      "correct": 2,
+      "explanation": "'What does that word mean?' is the natural, correct form. The structure is: What does + [noun] + mean? You can also say 'What does [word] mean exactly?' or 'Could you explain what [word] means?'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lisa says 'It's better to ask than to make a mistake.' What is she encouraging?",
+      "options": [
+        "Ahmed to never do anything without permission",
+        "Ahmed to ask questions when he is not sure",
+        "Ahmed to read every instruction carefully",
+        "Ahmed to avoid making any decisions"
+      ],
+      "correct": 1,
+      "explanation": "Lisa is encouraging Ahmed to ask questions when he doesn't understand. This is important workplace advice — most supervisors prefer workers who ask rather than guess and get it wrong."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "When your supervisor says 'Would you mind checking this?', what should you do?",
+      "options": [
+        "Ask them why they need your help",
+        "Say 'No' if you are busy",
+        "Check the item they are referring to — it is a polite request for help",
+        "Ignore it — it was just a question"
+      ],
+      "correct": 2,
+      "explanation": "'Would you mind...?' is a polite way to ask for help. When your supervisor uses it, they are asking you to do something. 'No, not at all' means 'I'm happy to help' — it is the polite way to accept."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase correctly asks for permission to try something?",
+      "options": [
+        "I try this now.",
+        "May I try it?",
+        "Can I try maybe?",
+        "Would you let me try?"
+      ],
+      "correct": 1,
+      "explanation": "'May I try it?' is the natural, polite way to ask for permission. MAY I is slightly more formal than CAN I. Both are acceptable at work."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the difference between CAN YOU and COULD YOU?",
+      "options": [
+        "CAN YOU is wrong at work",
+        "COULD YOU is only for managers",
+        "COULD YOU is more polite and respectful than CAN YOU",
+        "They mean completely different things"
+      ],
+      "correct": 2,
+      "explanation": "Both CAN YOU and COULD YOU work. COULD YOU sounds more polite and is better when speaking with supervisors or in formal situations. CAN YOU is fine with close coworkers."
+    },
+    {
+      "type": "writing",
+      "question": "Write 2 polite requests you might need to make on your first day at work. Use Could you...? or Would you mind...?",
+      "options": [],
+      "correct": null,
+      "explanation": "Think about your first day at a new job. What would you need help with? Practice the language now so it feels natural when you need it."
+    },
+    {
+      "type": "open-ended",
+      "question": "Your supervisor gives you a long list of instructions very quickly. You didn't understand everything. What do you say? Write 2-3 sentences.",
+      "options": [],
+      "correct": null,
+      "explanation": "Use your clarification phrases: I'm sorry, I didn't catch all of that. Could you repeat the last part? Or: Would you mind going through that again more slowly? It is professional to ask — not a sign of weakness."
+    }
+  ]
+}

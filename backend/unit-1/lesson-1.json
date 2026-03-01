@@ -1,0 +1,344 @@
+{
+  "id": 1,
+  "unit_id": 1,
+  "lesson_number": 1,
+  "title": "Meeting Your Neighbor",
+  "description": "Learn basic introductions and greetings",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Introduce yourself (name, origin)",
+    "Greet someone politely",
+    "Use simple 'to be' sentences (I am, you are)",
+    "Have a basic first conversation in English"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Hello / Hi",
+      "My name is [name]",
+      "I am from [place]",
+      "Nice to meet you",
+      "How are you?",
+      "I am good / I am fine",
+      "Thank you"
+    ],
+    "grammar_pattern": "I am [name]\nI am from [place]\nI am good\n\nYou are [name]\nYou are from [place]\nYou are good\n\nExamples:\n- I am Ahmed\n- I am from Somalia\n- You are Marcus\n- You are from America",
+    "grammar_patterns": [
+      {
+        "label": "About yourself",
+        "pattern": "I am + [word]",
+        "examples": ["I am Ahmed", "I am from Somalia", "I am good"]
+      },
+      {
+        "label": "About someone else",
+        "pattern": "You are + [word]",
+        "examples": ["You are Marcus", "You are from America", "You are good"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You are in the hallway of your apartment building. A man comes out of the apartment across from yours.",
+    "dialogue": [
+      {
+        "speaker": "Marcus",
+        "text": "Hi!"
+      },
+      {
+        "speaker": "You",
+        "text": "Hi."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "I'm Marcus. I live in 4C."
+      },
+      {
+        "speaker": "You",
+        "text": "My name is Ahmed. I am from Somalia. I live in 4B."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "Nice to meet you!"
+      },
+      {
+        "speaker": "You",
+        "text": "Nice to meet you too."
+      },
+      {
+        "speaker": "Marcus",
+        "text": "How are you?"
+      },
+      {
+        "speaker": "You",
+        "text": "I am good. Thank you. How are you?"
+      },
+      {
+        "speaker": "Marcus",
+        "text": "I'm good. Welcome to the building!"
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you."
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Substitute the name",
+      "instruction": "Fill in the blank with the correct name",
+      "prompts": [
+        {"sentence": "My name is ___.", "answer": "Marcus"},
+        {"sentence": "My name is ___.", "answer": "Sarah"},
+        {"sentence": "My name is ___.", "answer": "Ahmed"},
+        {"sentence": "My name is ___.", "answer": "Fatima"}
+      ],
+      "examples": [
+        "My name is Marcus.",
+        "My name is Sarah.",
+        "My name is Ahmed.",
+        "My name is Fatima."
+      ],
+      "your_turn": "Now say 'My name is [YOUR NAME]' out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Substitute the place",
+      "instruction": "Fill in the blank with the correct country",
+      "prompts": [
+        {"sentence": "I am from ___.", "answer": "Somalia"},
+        {"sentence": "I am from ___.", "answer": "America"},
+        {"sentence": "I am from ___.", "answer": "England"},
+        {"sentence": "I am from ___.", "answer": "Kenya"}
+      ],
+      "examples": [
+        "I am from Somalia.",
+        "I am from America.",
+        "I am from England.",
+        "I am from Kenya."
+      ],
+      "your_turn": "Now say 'I am from [YOUR COUNTRY]' out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Complete introduction",
+      "instruction": "Fill in the blank to complete the introduction",
+      "prompts": [
+        {"sentence": "Hi. My name is Marcus. I am from ___.", "answer": "America"},
+        {"sentence": "Hi. My name is Sarah. I am from ___.", "answer": "England"},
+        {"sentence": "Hi. My name is ___. I am from Somalia.", "answer": "Ahmed"},
+        {"sentence": "Hi. ___ name is Fatima. I am from Kenya.", "answer": "My"}
+      ],
+      "examples": [
+        "Hi. My name is Marcus. I am from America.",
+        "Hi. My name is Sarah. I am from England.",
+        "Hi. My name is Ahmed. I am from Somalia."
+      ],
+      "your_turn": "Now introduce yourself completely out loud (Hi + name + where you're from) and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: What is her name?",
+      "audio": "/audio/lesson1-listen1.mp3",
+      "options": ["Sarah", "Maria", "Lisa", "Emma"],
+      "correct": 0,
+      "explanation": "She says 'My name is Sarah'"
+    },
+    {
+      "question": "Listen: Where is he from?",
+      "audio": "/audio/lesson1-listen2.mp3",
+      "options": ["Somalia", "England", "America", "Kenya"],
+      "correct": 2,
+      "explanation": "He says 'I am from America'"
+    },
+    {
+      "question": "Listen: How is she?",
+      "audio": "/audio/lesson1-listen3.mp3",
+      "options": ["She is tired", "She is good", "She is hungry", "She is sick"],
+      "correct": 1,
+      "explanation": "She says 'I am good'"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Introduce yourself",
+      "instruction": "Record yourself saying: 'Hi, my name is [YOUR NAME]. I am from [YOUR PLACE].'",
+      "example": "Hi, my name is Ahmed. I am from Somalia."
+    },
+    {
+      "title": "Task 2: Complete conversation",
+      "instruction": "Imagine you meet Marcus. Record the full conversation from the story. You are 'You' in the dialogue.",
+      "example": "Person A: Hi!\nPerson B: Hello. My name is Ahmed. I am from Somalia.\nPerson A: Nice to meet you!\nPerson B: Nice to meet you too."
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Fill in the blanks",
+      "instruction": "Complete these sentences about yourself:",
+      "example": "1. My name is _____.\n2. I am from _____.\n3. I am _____. (good/fine/great)"
+    },
+    {
+      "title": "Task 2: Write a conversation",
+      "instruction": "Write a short conversation (6-8 lines) where two people meet for the first time. Use the phrases from this lesson.",
+      "example": "Person A: Hi!\nPerson B: Hello.\nPerson A: My name is Sarah. I am from England.\nPerson B: Nice to meet you! My name is Ahmed.\nPerson A: Nice to meet you too. Where are you from?\nPerson B: I am from Somalia.\nPerson A: How are you?\nPerson B: I am good. Thank you."
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Look at these sentences:",
+        "examples": [
+          "I am Ahmed.",
+          "I am from Somalia.",
+          "I am good."
+        ],
+        "question": "What do you notice? What comes after 'I'?",
+        "explanation": "All three sentences use 'I am'. We use 'I am' to tell people about yourself."
+      },
+      {
+        "title": "Now look at these:",
+        "examples": [
+          "You are Marcus.",
+          "You are from America.",
+          "You are good."
+        ],
+        "question": "What is different from the first group?",
+        "explanation": "When talking to someone else, we use 'you are' instead of 'I am'."
+      },
+      {
+        "title": "What can come after 'I am' or 'you are'?",
+        "examples": [
+          "I am Ahmed (a name)",
+          "I am from Somalia (a place)",
+          "I am good (how you feel)"
+        ],
+        "question": "Can you think of other things that could come after 'I am'?",
+        "explanation": "You can use 'I am' with your name, where you're from, how you feel, and many other things about yourself."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you tell someone your name?",
+      "options": [
+        "I am name Ahmed",
+        "My name is Ahmed",
+        "Name is Ahmed",
+        "I name Ahmed"
+      ],
+      "correct": 1,
+      "explanation": "We say 'My name is [name]'. This is the natural way to introduce yourself."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone says 'Nice to meet you.' What do you say?",
+      "options": [
+        "Nice to meet you too",
+        "Thank you for meeting",
+        "I meet you nice",
+        "Meeting is nice"
+      ],
+      "correct": 0,
+      "explanation": "'Nice to meet you too' is the standard, polite response."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: I ___ from Somalia.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "We use 'am' after 'I'. So it's 'I am from Somalia.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: You ___ Marcus.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correct": 2,
+      "explanation": "We use 'are' after 'you'. So it's 'You are Marcus.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "When Marcus says 'How are you?', what does he want to know?",
+      "options": [
+        "Your name",
+        "Where you are from",
+        "How you feel / if you are okay",
+        "Where you live"
+      ],
+      "correct": 2,
+      "explanation": "'How are you?' is asking about how you feel or if you are doing well."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask about someone's feeling or condition. What do you say?",
+      "options": [
+        "What are you?",
+        "Where are you?",
+        "How are you?",
+        "Who are you?"
+      ],
+      "correct": 2,
+      "explanation": "'How are you?' is the standard question to ask about someone's well-being."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "I from Somalia",
+        "I am from Somalia",
+        "I is from Somalia",
+        "I are from Somalia"
+      ],
+      "correct": 1,
+      "explanation": "The correct form is 'I am from Somalia'. We need 'am' after 'I'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Hi' mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Hello / a greeting",
+        "Sorry"
+      ],
+      "correct": 2,
+      "explanation": "'Hi' is an informal way to say hello and greet someone."
+    },
+    {
+      "type": "writing",
+      "question": "Write a 4-line conversation where you meet someone named Sarah from England. Use the phrases you learned.",
+      "options": [],
+      "correct": null,
+      "explanation": "Your conversation should include greetings, names, and where you're from. Example:\nSarah: Hi! My name is Sarah.\nYou: Hello. My name is Ahmed.\nSarah: Nice to meet you. I am from England.\nYou: Nice to meet you too. I am from Somalia."
+    },
+    {
+      "type": "open-ended",
+      "question": "Think about the lesson. Write 2-3 sentences: What was the most useful phrase for you? Why?",
+      "options": [],
+      "correct": null,
+      "explanation": "There is no wrong answer. This helps you reflect on what you learned and what will be most useful in your life."
+    }
+  ]
+}

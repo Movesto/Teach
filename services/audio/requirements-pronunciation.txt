@@ -1,0 +1,36 @@
+# Pronunciation Service Requirements
+# For NVIDIA RTX 5070 Ti with CUDA 12.6
+# Production-ready versions
+
+# NOTE: PyTorch with CUDA 12.6 is installed separately in Dockerfile:
+# pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu126
+
+# Core FastAPI Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# HTTP Client
+httpx==0.26.0
+
+# Speech Recognition Models
+faster-whisper==1.1.1
+transformers==4.47.0
+sentencepiece==0.2.0
+
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+audioread==3.0.1
+
+# Scientific Computing
+numpy==2.0.2
+
+# Data Validation
+pydantic==2.5.3
+
+# Utilities
+python-dotenv==1.0.1
+
+# Accelerate (improves model loading speed)
+accelerate==1.2.1

@@ -1,0 +1,279 @@
+{
+  "id": "lesson-80",
+  "unit_id": 10,
+  "lesson_number": 6,
+  "title": "Diplomatic English: Difficult Conversations",
+  "level": "advanced",
+  "estimated_time": 45,
+  "story_context": "Three months into his role as supervisor, Ahmed faces his most difficult challenge yet. Marcus — one of his most capable team members — has been arriving late three times a week and making small errors that are affecting the whole shift. Ahmed needs to address this directly. He wants to correct the problem without damaging the relationship or making Marcus feel attacked.",
+  "objectives": [
+    "Open a difficult conversation professionally using neutral, non-accusatory language",
+    "Describe concerns using 'what I've noticed' framing rather than direct accusation",
+    "Use softening language to deliver critical feedback (tend to, seem to, I've noticed that)",
+    "Close a difficult conversation with a forward-looking agreement and offer of support"
+  ],
+  "target_phrases": [
+    "I wanted to check in with you about something.",
+    "What I've noticed recently is...",
+    "I'm raising this because I want to support your success.",
+    "Going forward, I'd like to see...",
+    "I understand this might be difficult to hear.",
+    "Is there anything on your end I should know about?",
+    "Let's agree on a plan that works for both of us."
+  ],
+  "dialogue": {
+    "title": "Ahmed and Marcus: A Direct but Supportive Conversation",
+    "context": "Ahmed has asked Marcus to stay for a few minutes after the shift ends. The break room is empty. Ahmed wants to address the lateness and errors before they become a bigger problem.",
+    "lines": [
+      {"speaker": "Ahmed", "text": "Marcus, thanks for staying. I wanted to check in with you about something — just the two of us."},
+      {"speaker": "Marcus", "text": "Sure. Is everything okay?"},
+      {"speaker": "Ahmed", "text": "It's something I want to address early, before it becomes a bigger issue. I've noticed over the past three weeks that you've been arriving late — typically between 10 and 20 minutes, three days a week."},
+      {"speaker": "Marcus", "text": "Yeah. I know. I'm sorry about that."},
+      {"speaker": "Ahmed", "text": "I appreciate you saying that. I also want to mention — and I say this because I value your work — there have been a few small errors in your inventory logs that I've been catching during review. More than usual."},
+      {"speaker": "Marcus", "text": "I didn't realize you'd noticed the log errors."},
+      {"speaker": "Ahmed", "text": "I notice everything, Marcus — that's my job. I'm not saying this to make you feel bad. I'm raising it because I want to support your success here. You're one of my best people, and I need you at your best."},
+      {"speaker": "Marcus", "text": "There's been some stuff going on at home. My mother is sick, and I've been driving her to appointments some mornings."},
+      {"speaker": "Ahmed", "text": "I understand. I'm sorry to hear that. Is there anything on your end I should know about — anything the company could help with?"},
+      {"speaker": "Marcus", "text": "Maybe a shift adjustment? If I could start 30 minutes later on Tuesdays and Thursdays, I could manage the appointments without rushing."},
+      {"speaker": "Ahmed", "text": "Let me look into that. I think we can make that work. Going forward, I'd like us to agree on two things: first, if something comes up, tell me early. Second, let's do a quick check-in at the start of your shift each day this week — just five minutes — so I can help catch anything before it becomes an error."},
+      {"speaker": "Marcus", "text": "That's fair. I appreciate you doing this privately."},
+      {"speaker": "Ahmed", "text": "That's how it should be. Let's agree on a plan that works for both of us. Check back with me tomorrow and I'll have an answer about the schedule change."}
+    ]
+  },
+  "pattern_drills": [
+    {
+      "id": "drill-1",
+      "focus": "Opening a difficult conversation: neutral, non-accusatory framing",
+      "pattern": "Start with: 'I wanted to check in about...' or 'I've noticed...' Avoid: 'You have been...' or 'You always...'",
+      "examples": [
+        "I wanted to check in about the recent delivery logs. (neutral opener — no accusation)",
+        "I've noticed some changes in the past few weeks that I'd like to discuss. (observation, not judgment)",
+        "I'm bringing this up early because I'd rather address it now than later. (explains your intention)",
+        "I want to have this conversation because I value your contribution here. (establish good faith)",
+        "This isn't about blame — I want to understand what's going on. (reframe as problem-solving)"
+      ],
+      "your_turn": "Open a difficult conversation: 'I wanted to check in about [something you've observed]...'",
+      "prompts": [
+        {"sentence": "I ___ to check in about something I've noticed this week. (neutral opener)", "answer": "wanted"},
+        {"sentence": "I've ___ that the reports have been arriving late recently. (observation phrase)", "answer": "noticed"},
+        {"sentence": "I'm raising this ___ I want to support your success. (state good intention)", "answer": "because"}
+      ]
+    },
+    {
+      "id": "drill-2",
+      "focus": "Softening critical feedback: tend to, seem to, I've noticed that",
+      "pattern": "Soften observations with hedging verbs. Compare: 'You make mistakes' (accusation) vs 'I've noticed there tend to be more errors when...' (observation).",
+      "examples": [
+        "There tend to be more errors on Friday evenings — have you noticed that too? (tend to = general pattern, shared observation)",
+        "Your reports seem to arrive later than the others on that shift. (seem to = apparent, not absolute)",
+        "I've noticed that the count doesn't always match the delivery note. (I've noticed = observed, not judged)",
+        "It appears there may be a step in the process that's causing the issue. (it appears = tentative — shared problem)",
+        "I've been wondering whether the new form is clear enough — what do you think? (inviting their perspective)"
+      ],
+      "your_turn": "Give one piece of critical feedback softened with 'I've noticed...' or 'There tend to be...'",
+      "prompts": [
+        {"sentence": "There ___ to be more errors during the evening shift. (pattern, not accusation)", "answer": "tend"},
+        {"sentence": "Your work ___ to be strongest when the team is smaller. (observation, not criticism)", "answer": "seems"},
+        {"sentence": "I've ___ that the inventory totals don't always match. (gentle observation phrase)", "answer": "noticed"}
+      ]
+    },
+    {
+      "id": "drill-3",
+      "focus": "Closing with a forward-looking agreement",
+      "pattern": "End difficult conversations with: a clear action (Going forward, I'd like...), an offer of support (Is there anything I can do?), and a shared plan (Let's agree on...).",
+      "examples": [
+        "Going forward, I'd like you to let me know if something affects your schedule. (future-focused, not past-focused)",
+        "Is there anything I can do to support you through this? (offer of support)",
+        "Let's agree on a check-in once a week so I can see how things are going. (shared plan)",
+        "I'd like to review this again in two weeks — does that work for you? (follow-up commitment)",
+        "I'm confident you can turn this around — that's why I'm having this conversation now. (reaffirm confidence)"
+      ],
+      "your_turn": "Close a difficult conversation: 'Going forward, I'd like us to [plan]. Is there anything I can do to support you?'",
+      "prompts": [
+        {"sentence": "___ forward, I'd like you to flag any issues early. (future-looking phrase)", "answer": "Going"},
+        {"sentence": "Let's ___ on a weekly check-in to track progress. (mutual agreement)", "answer": "agree"},
+        {"sentence": "Is there anything on your end I ___ know about? (offer to listen)", "answer": "should"}
+      ]
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "audio": "/audio/unit10-lesson6-listen1.mp3",
+      "transcript": "The key principle of a difficult conversation is separating the behavior from the person. Instead of saying 'you are careless', describe the specific behavior: 'I've noticed three errors in the logs this week.' Instead of 'you are always late', say 'I've noticed you've been arriving 15 to 20 minutes late on Tuesdays.' Specific, observable descriptions are less threatening, easier to respond to, and harder to dismiss than general character judgments. The goal is to solve a problem together — not to blame.",
+      "question": "What is the key principle of effective feedback delivery?",
+      "options": [
+        "Be as direct and forceful as possible",
+        "Separate the behavior from the person using specific observations",
+        "Avoid mentioning the problem at all",
+        "Always give feedback in writing"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "audio": "/audio/unit10-lesson6-listen2.mp3",
+      "transcript": "When someone shares a personal difficulty — like a sick family member — the instinct might be to soften the conversation completely. But good professional conversations can hold both: empathy and accountability. You can say: 'I'm sorry you're going through that — let me see what flexibility we have. At the same time, going forward I do need you to communicate with me early when something affects your schedule.' Both parts are important. Empathy without accountability leads to unresolved problems. Accountability without empathy damages trust.",
+      "question": "How should you handle personal difficulties shared during a performance conversation?",
+      "options": [
+        "Ignore the personal difficulty and focus only on performance",
+        "Drop the performance discussion entirely out of sympathy",
+        "Acknowledge the difficulty with empathy while still agreeing on a forward plan",
+        "Reschedule the conversation for when things are better"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-3",
+      "audio": "/audio/unit10-lesson6-listen6-listen3.mp3",
+      "transcript": "Doing a difficult conversation in private is a basic standard of professional respect. In American workplaces, the phrase 'praise in public, correct in private' captures this principle well. Correcting someone in front of their colleagues damages trust and can create resentment. Even if the behavior happened publicly, the conversation about it should be one-on-one. This is one of the most respected things a manager can do — and one of the most appreciated by employees.",
+      "question": "What does the phrase 'praise in public, correct in private' mean?",
+      "options": [
+        "Only give positive feedback in writing",
+        "Give recognition openly and address problems in private one-on-one conversations",
+        "Avoid giving feedback altogether",
+        "Discuss performance issues in team meetings"
+      ],
+      "correct": 1
+    }
+  ],
+  "speaking_tasks": [
+    {
+      "id": "speak-1",
+      "prompt": "Practice opening a difficult conversation. Choose a realistic scenario (lateness, missed deadline, communication issue). Open the conversation with: a neutral opener, what you've observed (specific, not judgmental), your reason for raising it (support, not punishment), and a question to hear their perspective. Record for 40 seconds.",
+      "example": "Hi Rosa, do you have a few minutes? I wanted to check in about something I've noticed over the past two weeks. What I've observed is that the end-of-shift inventory reports have been arriving about 30 minutes later than our agreed deadline. I'm raising this early because I want to make sure we're not creating pressure further down the chain — the warehouse team depends on those numbers for planning. Before I say anything else, I wanted to ask: is there anything on your end that's been making it harder to finish on time? I want to understand the situation before we talk about next steps.",
+      "min_seconds": 40,
+      "target_language": "english",
+      "sentence_starters": [
+        "I wanted to check in about something I've noticed recently ...",
+        "What I've observed over the past [week / two weeks] is ...",
+        "I'm raising this because I want to support your success, not put you under pressure. Is there anything on your end I should know about?"
+      ]
+    },
+    {
+      "id": "speak-2",
+      "prompt": "Close a difficult conversation with a forward-looking plan. You've already discussed the problem. Now close with: acknowledgement of their situation, a clear forward-looking expectation, a specific offer of support, and a shared commitment. Record for 30 seconds.",
+      "example": "I really appreciate you being honest with me about what's been happening at home. That takes courage, and I want to support you through it. Going forward, I'd like two things from you: first, communicate with me early if something comes up — you don't need to give me details, just let me know. Second, let's meet for five minutes at the start of your shift this week to make sure we're aligned. I'll look into the schedule adjustment for Tuesdays and Thursdays — I think we can make that work. Let's agree to check in again next Friday and see how things are going. You're a valued member of this team and I want to help you succeed.",
+      "min_seconds": 30,
+      "target_language": "english",
+      "sentence_starters": [
+        "I appreciate your honesty — that took courage to share.",
+        "Going forward, I'd like [one or two specific things] from you ...",
+        "Let's agree to check in on [day] to see how things are going."
+      ]
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "write-1",
+      "prompt": "Write a brief, professional follow-up email (80-100 words) to Marcus after your conversation. The email should: confirm the plan you agreed on, mention the schedule adjustment you will look into, state the check-in plan, and end on a supportive note. Do not repeat the criticism — this email is about the forward plan only.",
+      "min_words": 80,
+      "example": "Hi Marcus,\n\nThank you for our conversation today. I appreciate your openness.\n\nAs agreed: I will look into adjusting your start time on Tuesdays and Thursdays and will confirm by tomorrow. In the meantime, let's plan a brief check-in at the start of your shift each day this week — just 5 minutes to align before the day begins.\n\nIf anything comes up that affects your schedule, please let me know early and we'll work through it together.\n\nI'm glad we talked. Let's connect again on Friday to review how the week went.\n\nAhmed",
+      "rubric": [
+        "Focus entirely on the forward plan — do not repeat or reference the criticism from your conversation",
+        "Use forward-looking language: 'As agreed', 'Going forward', 'Let's plan to ...'",
+        "End with a supportive statement that reinforces the relationship, not the problem"
+      ]
+    },
+    {
+      "id": "write-2",
+      "prompt": "Rewrite these three accusatory statements as diplomatic, professional feedback using the techniques from this lesson. 1) 'You are always making errors.' 2) 'You never communicate with me.' 3) 'Your attitude in meetings is bad.'",
+      "min_words": 60,
+      "example": "1) Original: 'You are always making errors.'\nRewritten: 'I've noticed there have been more errors in the inventory logs over the past two weeks than usual. I want to make sure we figure out what's causing them.'\n\n2) Original: 'You never communicate with me.'\nRewritten: 'What I've noticed is that I sometimes find out about issues after they've already affected the shift. Going forward, I'd like you to flag anything unusual before it becomes a problem.'\n\n3) Original: 'Your attitude in meetings is bad.'\nRewritten: 'In our last few team meetings, I've noticed you seem disengaged — you've been quiet and haven't contributed ideas. I'd like to understand whether something is getting in the way, and I'd love to hear your perspective.'",
+      "rubric": [
+        "Use observation language in each rewrite (I've noticed, what I've observed, there tend to be) — no character judgments",
+        "Shift from past blame to forward expectation in at least one rewrite",
+        "Keep the meaning of the original concern — don't water it down to the point where it communicates nothing"
+      ]
+    }
+  ],
+  "grammar_focus": [
+    {
+      "id": "grammar-1",
+      "title": "Observation Language: I've noticed / There tend to be / It seems",
+      "explanation": "Use observation phrases to describe what you have seen without making a judgment about the person's character. This makes feedback easier to hear and respond to.",
+      "examples": [
+        "I've noticed that the reports have been arriving late this week. (specific, time-bound, observed)",
+        "There tend to be more errors on Friday evenings. (pattern observation — not accusation)",
+        "It seems like the new form may be causing some confusion. (tentative — leaves room for their input)",
+        "I've been seeing a pattern over the past month that I want to address. (opens without blaming)",
+        "What I've observed is that the count doesn't always match the delivery note. (formal — report tone)"
+      ],
+      "practice": [
+        {"sentence": "I've ___ that the logs have been arriving later than usual. (observation phrase)", "blank": "noticed", "options": ["noticed", "thought", "decided"]},
+        {"sentence": "There ___ to be more errors during peak hours. (pattern observation)", "blank": "tend", "options": ["tend", "have", "must"]},
+        {"sentence": "It ___ like the new process needs some adjustment. (tentative observation)", "blank": "seems", "options": ["seems", "says", "tells"]}
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "title": "Softening Critical Language",
+      "explanation": "Softeners make critical messages easier to hear. Compare direct to softened versions to see the difference in tone.",
+      "examples": [
+        "DIRECT: You make mistakes. → SOFTENED: I've noticed there tend to be some errors in the logs.",
+        "DIRECT: You're always late. → SOFTENED: I've noticed you've been arriving later than scheduled this week.",
+        "DIRECT: You don't communicate. → SOFTENED: I'd like us to communicate more — especially when something unexpected comes up.",
+        "DIRECT: Your work is bad. → SOFTENED: I've noticed this isn't quite at the standard you usually achieve.",
+        "DIRECT: You need to fix this. → SOFTENED: Going forward, I'd like to see this area improve."
+      ],
+      "practice": [
+        {"sentence": "I've ___ that this area needs some attention. (softer than 'you are doing this wrong')", "blank": "noticed", "options": ["noticed", "decided", "proven"]},
+        {"sentence": "___ forward, I'd like us to align on the expectations. (softer than 'you must do better')", "blank": "Going", "options": ["Going", "Looking", "Seeing"]},
+        {"sentence": "I ___ this isn't quite at the level you usually achieve. (softer than 'this is bad')", "blank": "think", "options": ["think", "know", "prove"]}
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "title": "Forward-Looking Closings: Going forward / Let's agree / I'd like to see",
+      "explanation": "End difficult conversations by looking forward, not backward. Use future-oriented phrases to shift from problem to solution.",
+      "examples": [
+        "Going forward, I'd like you to let me know early if something affects your schedule. (clear future expectation)",
+        "Let's agree on a weekly check-in so I can see how things are going. (shared commitment)",
+        "I'd like to review this again in two weeks — does that work? (follow-up plan with consent)",
+        "From now on, if there's an issue, come to me directly. (simple, clear forward expectation)",
+        "I'm confident you can turn this around — that's why I'm having this conversation now. (end on confidence)"
+      ],
+      "practice": [
+        {"sentence": "___ forward, I'd like you to flag any issues before they affect the team.", "blank": "Going", "options": ["Going", "Looking", "Seeing"]},
+        {"sentence": "Let's ___ on a check-in every Monday morning.", "blank": "agree", "options": ["agree", "talk", "think"]},
+        {"sentence": "I'm ___ you can improve this — I wouldn't be having this conversation if I didn't believe that.", "blank": "confident", "options": ["confident", "hoping", "guessing"]}
+      ]
+    }
+  ],
+  "quiz": {
+    "passing_score": 70,
+    "questions": [
+      {"id": "q1", "type": "multiple-choice", "question": "Which opener is most appropriate for a difficult conversation?", "options": ["You have been late every day this week.", "I wanted to check in about something I've noticed.", "We need to talk about your problems.", "You always make mistakes."], "correct": 1, "points": 10},
+      {"id": "q2", "type": "multiple-choice", "question": "Which is a softened version of 'You never communicate with me'?", "options": ["You must communicate more.", "I've noticed we haven't been aligned on some issues — I'd like us to communicate more.", "Communication is your biggest problem.", "Nobody on this team communicates."], "correct": 1, "points": 10},
+      {"id": "q3", "type": "multiple-choice", "question": "What does 'Going forward, I'd like to see...' do in a difficult conversation?", "options": ["Blames the past", "Shifts the conversation to future expectations and solutions", "Ends the conversation abruptly", "Asks for an explanation"], "correct": 1, "points": 10},
+      {"id": "q4", "type": "multiple-choice", "question": "Ahmed says 'I'm raising this because I want to support your success.' What is the purpose of this statement?", "options": ["To explain why the conversation is happening and establish good faith", "To compliment Marcus", "To excuse Marcus's behavior", "To end the conversation"], "correct": 0, "points": 10},
+      {"id": "q5", "type": "true-false", "question": "In American workplaces, it is standard practice to address performance issues privately, one-on-one.", "correct": true, "points": 10},
+      {"id": "q6", "type": "true-false", "question": "When an employee shares a personal difficulty, a manager should drop all performance expectations to show empathy.", "correct": false, "points": 10},
+      {"id": "q7", "type": "fill-blank", "question": "I've ___ that the inventory count has been off three times this week.", "correct": "noticed", "accept": ["noticed"], "points": 10},
+      {"id": "q8", "type": "fill-blank", "question": "___ forward, I'd like you to let me know early if something affects your schedule.", "correct": "Going", "accept": ["Going"], "points": 10},
+      {"id": "q9", "type": "matching", "question": "Match each phrase to its function in a difficult conversation:", "pairs": [{"left": "I've noticed...", "right": "describe a specific observation"}, {"left": "While I understand...", "right": "acknowledge their situation"}, {"left": "Going forward, I'd like to see...", "right": "set a clear future expectation"}], "points": 10},
+      {"id": "q10", "type": "multiple-choice", "question": "Ahmed ends the conversation with 'I'm confident you can turn this around.' Why?", "options": ["To avoid further discussion", "To reaffirm belief in Marcus and end on a positive, motivating note", "To give Marcus a warning", "To apologize for the conversation"], "correct": 1, "points": 10},
+      {"id": "q11", "type": "open-ended", "question": "Soften this feedback: 'You are always making errors in the logs.'", "correct": "I've noticed there tend to be some errors in the inventory logs recently.", "accept": ["I've noticed", "there tend to be", "I've been seeing"], "points": 10},
+      {"id": "q12", "type": "open-ended", "question": "Write a forward-looking close for a difficult conversation where someone has been missing deadlines.", "correct": "Going forward, I'd like you to let me know if something is making it difficult to meet the deadline. Let's agree on a check-in every Monday so we can address any issues early.", "accept": ["Going forward", "Let's agree", "I'd like to see"], "points": 10}
+    ]
+  },
+  "vocabulary": [
+    {"word": "diplomatic", "definition": "careful and tactful in dealing with sensitive matters", "example": "Ahmed handled the difficult conversation in a diplomatic and professional way."},
+    {"word": "accountability", "definition": "taking responsibility for one's actions and their outcomes", "example": "A good manager balances empathy with accountability."},
+    {"word": "empathy", "definition": "the ability to understand and share another person's feelings", "example": "Ahmed showed empathy when Marcus explained his mother's illness."},
+    {"word": "non-accusatory", "definition": "not placing blame; describing facts without attacking a person", "example": "'I've noticed the reports arriving late' is non-accusatory."},
+    {"word": "forward-looking", "definition": "focused on future improvement rather than past mistakes", "example": "'Going forward, I'd like to see...' is a forward-looking phrase."},
+    {"word": "check in", "definition": "have a brief informal conversation to see how something or someone is doing", "example": "Ahmed and Marcus agreed to check in at the start of each shift."},
+    {"word": "candid", "definition": "honest and direct, especially about something difficult", "example": "Ahmed was candid about the errors without being harsh."},
+    {"word": "resentment", "definition": "a feeling of anger or bitterness about unfair treatment", "example": "Criticizing someone in public can create lasting resentment."},
+    {"word": "escalate", "definition": "become more serious or intense; or raise an issue to a higher level", "example": "Ahmed addressed the issue early to prevent it from escalating."},
+    {"word": "mutual", "definition": "shared by or affecting both parties equally", "example": "They reached a mutual agreement about the schedule change."}
+  ],
+  "cultural_notes": [
+    "American workplace culture strongly values the principle of 'praise in public, correct in private.' Addressing performance issues privately is seen as respectful management and a professional standard.",
+    "In American professional settings, feedback is expected to be specific and behavior-based. Saying 'you are careless' is considered unprofessional; saying 'I've noticed three errors in the logs this week' is the expected standard.",
+    "The concept of 'holding someone accountable with empathy' is central to American management philosophy. Managers are expected to care about their employees' wellbeing AND hold standards — not choose one over the other.",
+    "In the U.S., it is common for managers to ask 'Is there anything on your end I should know about?' before issuing a formal warning. This shows fairness and gives employees a chance to share context.",
+    "Ahmed's decision to have the conversation early — before the problem became a formal performance issue — reflects a key American management value: addressing problems proactively is a sign of good leadership, not weakness."
+  ]
+}

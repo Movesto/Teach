@@ -1,0 +1,354 @@
+{
+  "id": 17,
+  "unit_id": 2,
+  "lesson_number": 5,
+  "title": "Making Plans",
+  "description": "Learn to make invitations and social plans",
+  "difficulty": "beginner",
+  "is_last_in_unit": false,
+  
+  "objectives": [
+    "Make invitations (Do you want to...? / Would you like to...?)",
+    "Accept invitations (Sure! / That sounds great!)",
+    "Decline politely (I can't, sorry / Maybe next time)",
+    "Talk about future plans (I'm going to...)"
+  ],
+  
+  "target_language": {
+    "phrases": [
+      "Do you want to [activity]?",
+      "Would you like to [activity]?",
+      "Are you free on [day]?",
+      "Sure! / That sounds great!",
+      "I can't, sorry. / I'm busy",
+      "Maybe next time",
+      "What are you doing [day]?"
+    ],
+    "grammar_pattern": "Invitations:\n- Do you want to + verb?\n- Would you like to + verb?\n\nAccepting:\n- Sure! / Yes! / That sounds great!\n\nDeclining:\n- Sorry, I can't\n- I'm busy\n- Maybe another time\n\nFuture:\n- I'm going to + verb\n- I'm + verb-ing (planned)\n\nExamples:\n- Do you want to get coffee?\n- Sure! When?\n- I'm busy on Saturday\n- I'm going to the movies",
+    "grammar_patterns": [
+      {
+        "label": "Making invitations",
+        "pattern": "Do you want to + [verb]?",
+        "examples": ["Do you want to get coffee?", "Do you want to see a movie?", "Do you want to go shopping?"]
+      },
+      {
+        "label": "Accepting invitations",
+        "pattern": "Sure! / That sounds great!",
+        "examples": ["Sure! When?", "That sounds great!", "Yes, I'd love to!"]
+      },
+      {
+        "label": "Declining politely",
+        "pattern": "I can't, sorry. / Maybe next time.",
+        "examples": ["I'm sorry, I can't.", "I'm busy that day.", "Maybe another time?"]
+      }
+    ]
+  },
+  
+  "story": {
+    "context": "You want to hang out with your friend Lisa. You try to make plans.",
+    "dialogue": [
+      {
+        "speaker": "You",
+        "text": "Hi Lisa! Do you want to get coffee this weekend?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "That sounds great! When?"
+      },
+      {
+        "speaker": "You",
+        "text": "Are you free on Saturday afternoon?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Saturday? Let me check... Sorry, I can't. I'm busy on Saturday."
+      },
+      {
+        "speaker": "You",
+        "text": "Oh, okay. What about Sunday?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Sunday works! What time?"
+      },
+      {
+        "speaker": "You",
+        "text": "How about 2 PM?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Perfect! Where do you want to meet?"
+      },
+      {
+        "speaker": "You",
+        "text": "At the cafe on Main Street?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Sounds good! See you Sunday at 2!"
+      },
+      {
+        "speaker": "You",
+        "text": "Great! See you then!"
+      }
+    ]
+  },
+  
+  "drills": [
+    {
+      "title": "Drill 1: Making invitations",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "Do you want to get ___?", "answer": "coffee"},
+        {"sentence": "Do you want to see a ___?", "answer": "movie"},
+        {"sentence": "Would you like to have ___?", "answer": "dinner"},
+        {"sentence": "Do you want to go ___?", "answer": "shopping"}
+      ],
+      "examples": [
+        "Do you want to get coffee?",
+        "Do you want to see a movie?",
+        "Would you like to have dinner?",
+        "Do you want to go shopping?"
+      ],
+      "your_turn": "Now invite someone to do an activity, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 2: Accepting invitations",
+      "instruction": "Fill in the blank with the correct response",
+      "prompts": [
+        {"sentence": "Do you want to get coffee? — ___!", "answer": "Sure"},
+        {"sentence": "Do you want to see a movie? — That sounds ___!", "answer": "great"},
+        {"sentence": "Would you like to have dinner? — Yes, I'd ___ to!", "answer": "love"},
+        {"sentence": "Do you want to go shopping? — ___!", "answer": "Perfect"}
+      ],
+      "examples": [
+        "Sure!",
+        "That sounds great!",
+        "Yes, I'd love to!",
+        "Perfect!"
+      ],
+      "your_turn": "Now accept an invitation, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: Declining politely",
+      "instruction": "Fill in the blank with the correct word",
+      "prompts": [
+        {"sentence": "I'm sorry, I ___.", "answer": "can't"},
+        {"sentence": "I'm ___ that day.", "answer": "busy"},
+        {"sentence": "Maybe another ___?", "answer": "time"},
+        {"sentence": "I can't, sorry. Maybe next ___?", "answer": "week"}
+      ],
+      "examples": [
+        "I'm sorry, I can't.",
+        "I'm busy that day.",
+        "Maybe another time?",
+        "I can't, sorry. Maybe next week?"
+      ],
+      "your_turn": "Now decline an invitation politely, out loud, and record it",
+      "repetitions": 1,
+      "audio": []
+    }
+  ],
+  
+  "listening": [
+    {
+      "question": "Listen: When does Ahmed want to meet?",
+      "audio": "/audio/lesson13-listen1.mp3",
+      "options": ["Friday", "Saturday", "Sunday", "Monday"],
+      "correct": 2,
+      "explanation": "Ahmed suggests Sunday after Saturday doesn't work"
+    },
+    {
+      "question": "Listen: Can Lisa meet on Saturday?",
+      "audio": "/audio/lesson13-listen2.mp3",
+      "options": ["Yes", "No, she's busy", "Maybe", "Not mentioned"],
+      "correct": 1,
+      "explanation": "Lisa says 'I'm busy on Saturday'"
+    },
+    {
+      "question": "Listen: What time will they meet?",
+      "audio": "/audio/lesson13-listen3.mp3",
+      "options": ["1 PM", "2 PM", "3 PM", "4 PM"],
+      "correct": 1,
+      "explanation": "They agree to meet at 2 PM"
+    }
+  ],
+  
+  "speaking": [
+    {
+      "title": "Task 1: Make an invitation",
+      "instruction": "Record yourself inviting someone to get coffee on Saturday.",
+      "example": "Hi! Do you want to get coffee this Saturday? Are you free in the afternoon? Maybe around 2 PM?"
+    },
+    {
+      "title": "Task 2: Accept and decline",
+      "instruction": "Record yourself accepting one invitation and declining another.",
+      "example": "Person: Do you want to see a movie?\nYou: Sure! That sounds great! When?\n---\nPerson: Do you want to have dinner on Monday?\nYou: I'm sorry, I can't. I'm busy on Monday. Maybe next week?"
+    }
+  ],
+  
+  "writing": [
+    {
+      "title": "Task 1: Plan a get-together",
+      "instruction": "Write a text message inviting a friend to do something. Include: activity, day, time, and place.",
+      "example": "Hi! Do you want to see a movie this Saturday? There's a new action movie at the theater. How about 7 PM? We can meet at the theater on Main Street. Let me know!"
+    },
+    {
+      "title": "Task 2: Make plans conversation",
+      "instruction": "Write a conversation (10-12 lines) where you invite someone, they're busy, you suggest another day, and they accept.",
+      "example": "You: Hi! Do you want to go shopping on Saturday?\nFriend: Saturday? I can't, sorry. I'm busy.\nYou: Oh okay. What about Sunday?\nFriend: Sunday works! What time?\nYou: How about 2 PM?\nFriend: Perfect! Where?\nYou: At the mall?\nFriend: Sounds good!\nYou: Great! See you Sunday at 2.\nFriend: See you then!"
+    }
+  ],
+  
+  "grammar_discovery": {
+    "sections": [
+      {
+        "title": "Do you want to vs Would you like to",
+        "examples": [
+          "Do you want to get coffee? (casual, with friends)",
+          "Would you like to have dinner? (more polite, formal)"
+        ],
+        "question": "What's the difference?",
+        "explanation": "'Do you want to' is casual and common with friends. 'Would you like to' is more polite and formal, good for new acquaintances or professional situations."
+      },
+      {
+        "title": "Declining politely",
+        "examples": [
+          "I can't, sorry (direct but polite)",
+          "I'm busy that day (gives reason)",
+          "Maybe another time? (suggests future possibility)",
+          "I'd love to, but I can't (shows interest)"
+        ],
+        "question": "How do we say no politely?",
+        "explanation": "In English, we soften rejection by: apologizing ('sorry'), giving a reason ('I'm busy'), or suggesting alternatives ('maybe next time'). This is more polite than just 'no'."
+      },
+      {
+        "title": "Future plans: I'm going to vs I'm -ing",
+        "examples": [
+          "I'm going to see a movie (intention, plan)",
+          "I'm seeing a movie on Saturday (definite arrangement)",
+          "What are you doing Saturday? (asking about plans)"
+        ],
+        "question": "How do we talk about future plans?",
+        "explanation": "Both work! 'I'm going to' expresses intention. 'I'm -ing' (present continuous) is used for definite plans/arrangements."
+      }
+    ]
+  },
+  
+  "quiz": [
+    {
+      "type": "multiple-choice",
+      "question": "You want to invite a friend to coffee. What do you say?",
+      "options": [
+        "You want coffee?",
+        "Coffee you want?",
+        "Do you want to get coffee?",
+        "Want you to get coffee?"
+      ],
+      "correct": 2,
+      "explanation": "'Do you want to get coffee?' is the correct invitation."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone invites you to dinner and you want to accept. What do you say?",
+      "options": [
+        "Okay",
+        "Sure! That sounds great!",
+        "Maybe",
+        "I think so"
+      ],
+      "correct": 1,
+      "explanation": "'Sure! That sounds great!' is enthusiastic and clear acceptance."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You can't accept an invitation. What is the MOST polite way to decline?",
+      "options": [
+        "No",
+        "I can't",
+        "I'm busy, sorry. Maybe next time?",
+        "I don't want to"
+      ],
+      "correct": 2,
+      "explanation": "Giving a reason and suggesting another time is most polite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to know if someone is available on Saturday. What do you ask?",
+      "options": [
+        "You free Saturday?",
+        "Are you free on Saturday?",
+        "Free you on Saturday?",
+        "On Saturday you free?"
+      ],
+      "correct": 1,
+      "explanation": "'Are you free on Saturday?' is the correct question."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fill in the blank: Do you want ___ a movie?",
+      "options": [
+        "see",
+        "to see",
+        "seeing",
+        "sees"
+      ],
+      "correct": 1,
+      "explanation": "After 'want', we use 'to + verb'. 'Do you want to see a movie?' is correct."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'What are you doing Saturday?' They want to know:",
+      "options": [
+        "What you did last Saturday",
+        "Your plans for Saturday",
+        "What you're doing right now",
+        "Your favorite activities"
+      ],
+      "correct": 1,
+      "explanation": "This question asks about your plans/schedule for the upcoming Saturday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is MORE polite?",
+      "options": [
+        "Do you want to have dinner?",
+        "Would you like to have dinner?",
+        "Want dinner?",
+        "Have dinner with me"
+      ],
+      "correct": 1,
+      "explanation": "'Would you like to' is more polite and formal than 'Do you want to'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone suggests meeting at 3 PM and you agree. What do you say?",
+      "options": [
+        "Yes",
+        "Okay",
+        "Perfect! See you at 3",
+        "Maybe"
+      ],
+      "correct": 2,
+      "explanation": "'Perfect! See you at 3' confirms the time and shows you're committed."
+    },
+    {
+      "type": "writing",
+      "question": "Write a conversation (6-8 lines) where you invite someone to see a movie, but they're busy. Suggest another day.",
+      "options": [],
+      "correct": null,
+      "explanation": "Include: invitation, decline with reason, alternative suggestion, acceptance, details (time/place)."
+    },
+    {
+      "type": "open-ended",
+      "question": "When someone invites you but you're busy, how do you decline politely in your culture? Is it similar to English?",
+      "options": [],
+      "correct": null,
+      "explanation": "Think about cultural differences in politeness and declining invitations."
+    }
+  ]
+}
