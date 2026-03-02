@@ -42,7 +42,7 @@ function flattenSections(sections) {
 
 export default function PlacementTest() {
   const navigate = useNavigate();
-  const { token } = useAuth();
+  const { token, refreshUser } = useAuth();
 
   const [testData, setTestData] = useState(null);
   const [allCards, setAllCards] = useState([]);
@@ -169,7 +169,8 @@ export default function PlacementTest() {
       console.error('Could not save placement result:', e);
     } finally {
       setIsSaving(false);
-      navigate('/home');
+      await refreshUser();
+      navigate('/dashboard');
     }
   };
 

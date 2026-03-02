@@ -2,6 +2,38 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, CheckCircle, Lock, ChevronRight, BookMarked } from 'lucide-react';
 
+// Interleave book cards at evenly-spaced positions within the lesson list
+function buildItems(lessons = [], books = []) {
+  if (books.length === 0) return lessons.map(l => ({ type: 'lesson', data: l }));
+  const result = lessons.map(l => ({ type: 'lesson', data: l }));
+  books.forEach((book, i) => {
+    const pos = Math.floor(((i + 1) / (books.length + 1)) * lessons.length);
+    result.splice(pos + i, 0, { type: 'book', data: book });
+  });
+  return result;
+}
+
+function BookCard({ book }) {
+  return (
+    <Link
+      to={`/book/${book.id}`}
+      className="flex items-center gap-4 p-4 rounded-xl border-2 border-amber-300 bg-amber-50 hover:border-amber-500 hover:shadow-md transition-all"
+    >
+      <div className="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center flex-shrink-0">
+        <BookMarked className="w-5 h-5 text-white" />
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="text-xs font-semibold text-amber-700 uppercase tracking-wide mb-0.5">
+          Reading Break · Nasashada Akhrinta
+        </p>
+        <p className="font-bold text-gray-900 truncate">{book.title}</p>
+        <p className="text-sm text-gray-500">{book.author} · {book.level} · {book.reading_time_minutes} min read</p>
+      </div>
+      <ChevronRight className="w-5 h-5 text-amber-500 flex-shrink-0" />
+    </Link>
+  );
+}
+
 export default function Home() {
   const [units, setUnits] = useState([]);
   const [booksByUnit, setBooksByUnit] = useState({});
@@ -41,7 +73,6 @@ export default function Home() {
         <p className="text-gray-500 mt-1">Dhammaan Casharka</p>
       </div>
 
-      {/* Units */}
       <div className="space-y-6">
         {units.map((unit, idx) => (
           <div key={unit.id} className="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -55,117 +86,86 @@ export default function Home() {
             }`}>
               <div className="flex items-center justify-between">
                 <div className="text-white">
-                  <div className="text-sm font-semibold mb-1 opacity-90">
-                    Unit {unit.id}
-                  </div>
+                  <div className="text-sm font-semibold mb-1 opacity-90">Unit {unit.id}</div>
                   <h2 className="text-2xl font-bold mb-1">{unit.title}</h2>
                   <p className="opacity-90">{unit.description}</p>
                 </div>
-                {unit.locked && (
-                  <Lock className="w-8 h-8 text-white opacity-50" />
-                )}
+                {unit.locked && <Lock className="w-8 h-8 text-white opacity-50" />}
               </div>
 
-              {/* Progress Bar */}
               {!unit.locked && (
                 <div className="mt-4">
                   <div className="flex justify-between text-sm mb-1">
-                    <span>Progress</span>
-                    <span>{unit.completed_lessons || 0} / {unit.total_lessons} lessons</span>
+                    <span className="text-white">Progress</span>
+                    <span className="text-white">{unit.completed_lessons || 0} / {unit.total_lessons} lessons</span>
                   </div>
                   <div className="h-2 bg-white/30 rounded-full overflow-hidden">
                     <div
                       className="h-full bg-white transition-all"
-                      style={{
-                        width: `${((unit.completed_lessons || 0) / unit.total_lessons) * 100}%`
-                      }}
+                      style={{ width: `${((unit.completed_lessons || 0) / unit.total_lessons) * 100}%` }}
                     ></div>
                   </div>
                 </div>
               )}
             </div>
 
-            {/* Reading Assignments */}
-            {!unit.locked && booksByUnit[unit.id]?.length > 0 && (
-              <div className="px-6 pt-4 pb-2">
-                <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-                  <BookMarked className="w-4 h-4" />
-                  Reading Assignments
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-3">
-                  {booksByUnit[unit.id].map(book => (
-                    <Link
-                      key={book.id}
-                      to={`/book/${book.id}`}
-                      className="flex items-center gap-3 p-3 rounded-lg border-2 border-amber-200 bg-amber-50 hover:border-amber-400 hover:shadow-md transition-all"
-                    >
-                      <div className="w-9 h-9 rounded-lg bg-amber-500 flex items-center justify-center flex-shrink-0">
-                        <BookMarked className="w-5 h-5 text-white" />
-                      </div>
-                      <div className="min-w-0">
-                        <p className="font-semibold text-gray-900 text-sm truncate">{book.title}</p>
-                        <p className="text-xs text-gray-500">{book.author} · {book.level}</p>
-                      </div>
-                      <ChevronRight className="w-4 h-4 text-gray-400 ml-auto flex-shrink-0" />
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Lessons */}
+            {/* Lessons + Books interleaved */}
             {!unit.locked && (
               <div className="p-6 grid gap-3">
-                {unit.lessons?.map((lesson) => (
-                  <Link
-                    key={lesson.id}
-                    to={`/lesson/${lesson.id}`}
-                    className={`block p-5 rounded-lg border-2 transition-all ${
-                      lesson.locked
-                        ? 'border-gray-200 bg-gray-50 opacity-60 cursor-not-allowed'
-                        : lesson.completed
-                        ? 'border-green-300 bg-green-50 hover:border-green-400 hover:shadow-md'
-                        : 'border-blue-200 bg-blue-50 hover:border-blue-400 hover:shadow-md'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-3">
-                        <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                          lesson.completed
-                            ? 'bg-green-500'
-                            : lesson.locked
-                            ? 'bg-gray-300'
-                            : 'bg-blue-500'
-                        }`}>
-                          {lesson.completed ? (
-                            <CheckCircle className="w-6 h-6 text-white" />
-                          ) : lesson.locked ? (
-                            <Lock className="w-5 h-5 text-white" />
-                          ) : (
-                            <BookOpen className="w-5 h-5 text-white" />
-                          )}
-                        </div>
-                        <div>
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className="text-sm font-semibold text-gray-600">
-                              Lesson {lesson.lesson_number}
-                            </span>
-                            {lesson.completed && lesson.score && (
-                              <span className="text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full font-semibold">
-                                {lesson.score}%
-                              </span>
+                {buildItems(unit.lessons || [], booksByUnit[unit.id] || []).map((item, idx) =>
+                  item.type === 'book' ? (
+                    <BookCard key={`book-${item.data.id}`} book={item.data} />
+                  ) : (
+                    <Link
+                      key={item.data.id}
+                      to={`/lesson/${item.data.id}`}
+                      className={`block p-5 rounded-lg border-2 transition-all ${
+                        item.data.locked
+                          ? 'border-gray-200 bg-gray-50 opacity-60 cursor-not-allowed'
+                          : item.data.completed
+                          ? 'border-green-300 bg-green-50 hover:border-green-400 hover:shadow-md'
+                          : 'border-blue-200 bg-blue-50 hover:border-blue-400 hover:shadow-md'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
+                            item.data.completed
+                              ? 'bg-green-500'
+                              : item.data.locked
+                              ? 'bg-gray-300'
+                              : 'bg-blue-500'
+                          }`}>
+                            {item.data.completed ? (
+                              <CheckCircle className="w-6 h-6 text-white" />
+                            ) : item.data.locked ? (
+                              <Lock className="w-5 h-5 text-white" />
+                            ) : (
+                              <BookOpen className="w-5 h-5 text-white" />
                             )}
                           </div>
-                          <h3 className="font-bold text-gray-900">{lesson.title}</h3>
-                          <p className="text-sm text-gray-600">{lesson.description}</p>
+                          <div>
+                            <div className="flex items-center gap-2 mb-1">
+                              <span className="text-sm font-semibold text-gray-600">
+                                Lesson {item.data.lesson_number}
+                              </span>
+                              {item.data.completed && item.data.score && (
+                                <span className="text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full font-semibold">
+                                  {item.data.score}%
+                                </span>
+                              )}
+                            </div>
+                            <h3 className="font-bold text-gray-900">{item.data.title}</h3>
+                            <p className="text-sm text-gray-600">{item.data.description}</p>
+                          </div>
                         </div>
+                        {!item.data.locked && (
+                          <ChevronRight className="w-6 h-6 text-gray-400" />
+                        )}
                       </div>
-                      {!lesson.locked && (
-                        <ChevronRight className="w-6 h-6 text-gray-400" />
-                      )}
-                    </div>
-                  </Link>
-                ))}
+                    </Link>
+                  )
+                )}
               </div>
             )}
           </div>

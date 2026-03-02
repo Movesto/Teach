@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useSearchParams } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import Home from './pages/Home';
+
 import LessonView from './pages/LessonView';
 import Dashboard from './pages/Dashboard';
 import PlacementTest from './pages/PlacementTest';
 import Landing from './pages/Landing';
 import AuthPage from './pages/AuthPage';
 import BookAssignment from './components/BookAssignment';
+import GrammarGuide from './pages/GrammarGuide';
 
 function LoadingScreen() {
   return (
@@ -30,11 +31,11 @@ function NavBar() {
           <div className="flex items-center space-x-3">
             {user ? (
               <>
-                <Link to="/home" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
-                  Home
-                </Link>
                 <Link to="/dashboard" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
                   Dashboard
+                </Link>
+                <Link to="/grammar" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
+                  Grammar Guide
                 </Link>
                 <span className="text-sm text-gray-500 border-l pl-3 ml-1">{user.name}</span>
                 <button
@@ -88,7 +89,7 @@ function PlacementRoute() {
   const [searchParams] = useSearchParams();
   if (loading) return <LoadingScreen />;
   if (!user) return <Navigate to="/auth" replace />;
-  if (user.placement_done && !searchParams.get('retake')) return <Navigate to="/home" replace />;
+  if (user.placement_done && !searchParams.get('retake')) return <Navigate to="/dashboard" replace />;
   return <PlacementTest />;
 }
 
@@ -109,10 +110,11 @@ function AppShell() {
         <Route path="/" element={<RootRoute />} />
         <Route path="/auth" element={<AuthRoute />} />
         <Route path="/placement" element={<PlacementRoute />} />
-        <Route path="/home" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+        <Route path="/home" element={<Navigate to="/dashboard" replace />} />
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
         <Route path="/lesson/:lessonId" element={<ProtectedRoute><LessonView /></ProtectedRoute>} />
         <Route path="/book/:bookId" element={<ProtectedRoute><BookAssignment /></ProtectedRoute>} />
+        <Route path="/grammar" element={<ProtectedRoute><GrammarGuide /></ProtectedRoute>} />
       </Routes>
     </div>
   );

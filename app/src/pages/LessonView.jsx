@@ -69,7 +69,7 @@ export default function LessonView() {
       <div className="max-w-4xl mx-auto p-8 text-center">
         <h1 className="text-2xl font-bold text-gray-900 mb-4">Lesson not found</h1>
         <button
-          onClick={() => navigate('/home')}
+          onClick={() => navigate('/dashboard')}
           className="text-blue-600 hover:underline"
         >
           Return to home
@@ -328,6 +328,7 @@ export default function LessonView() {
             {currentSection === 'grammar' && lesson.grammar_discovery && (
               <GrammarDiscovery
                 content={lesson.grammar_discovery}
+                unitId={lesson.unit_id}
                 onComplete={() => {
                   markSectionComplete('grammar');
                   setCurrentSection('quiz');
@@ -353,7 +354,7 @@ export default function LessonView() {
                       score: score
                     })
                   }).then(() => {
-                    navigate('/home');
+                    navigate('/dashboard');
                   });
                 }}
                 onRequestHelp={requestHelp}

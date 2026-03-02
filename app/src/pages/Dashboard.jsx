@@ -11,25 +11,59 @@ const CEFR_BADGE = {
   C1: 'bg-indigo-100 text-indigo-700',
 };
 
+// Interleave book cards at evenly-spaced positions within the lesson list
+function buildItems(lessons = [], books = []) {
+  if (books.length === 0) return lessons.map(l => ({ type: 'lesson', data: l }));
+  const result = lessons.map(l => ({ type: 'lesson', data: l }));
+  books.forEach((book, i) => {
+    const pos = Math.floor(((i + 1) / (books.length + 1)) * lessons.length);
+    result.splice(pos + i, 0, { type: 'book', data: book });
+  });
+  return result;
+}
+
+function BookCard({ book }) {
+  return (
+    <Link
+      to={`/book/${book.id}`}
+      className="flex items-center gap-3 p-4 rounded-lg border-2 border-amber-300 bg-amber-50 hover:border-amber-500 hover:shadow-sm transition-all"
+    >
+      <div className="w-9 h-9 rounded-full bg-amber-500 flex items-center justify-center flex-shrink-0">
+        <BookMarked className="w-4 h-4 text-white" />
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="text-xs font-semibold text-amber-700 uppercase tracking-wide mb-0.5">Reading Break</p>
+        <p className="font-semibold text-gray-900 truncate">{book.title}</p>
+        <p className="text-xs text-gray-500">{book.author} · {book.level}</p>
+      </div>
+      <ChevronRight className="w-4 h-4 text-amber-500 flex-shrink-0" />
+    </Link>
+  );
+}
+
 export default function Dashboard() {
   const { user, token } = useAuth();
   const navigate = useNavigate();
   const [units, setUnits] = useState([]);
-  const [books, setBooks] = useState([]);
-  const [activeTab, setActiveTab] = useState('lessons');
+  const [booksByUnit, setBooksByUnit] = useState({});
+  const [totalBooks, setTotalBooks] = useState(0);
   const [loading, setLoading] = useState(true);
   const [openUnit, setOpenUnit] = useState(null);
 
   useEffect(() => {
-    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
       fetch('/api/units').then(r => r.json()),
       fetch('/api/books').then(r => r.json()),
     ])
       .then(([unitData, bookData]) => {
         setUnits(unitData);
-        setBooks(bookData);
-        // Auto-open first unit
+        setTotalBooks(bookData.length);
+        const grouped = {};
+        bookData.forEach(b => {
+          if (!grouped[b.unit_id]) grouped[b.unit_id] = [];
+          grouped[b.unit_id].push(b);
+        });
+        setBooksByUnit(grouped);
         if (unitData.length > 0) setOpenUnit(unitData[0].id);
       })
       .catch(console.error)
@@ -47,7 +81,7 @@ export default function Dashboard() {
   const cefr = user?.cefr_level?.toUpperCase() || '—';
   const cefrClass = CEFR_BADGE[cefr] || 'bg-gray-100 text-gray-700';
 
-  // Find first incomplete lesson across all units for "continue" card
+  // Find first incomplete lesson for "continue" card
   let continueLesson = null;
   let continueUnit = null;
   for (const unit of units) {
@@ -55,7 +89,6 @@ export default function Dashboard() {
     if (inc) { continueLesson = inc; continueUnit = unit; break; }
   }
 
-  // Count completed lessons
   const totalCompleted = units.reduce((sum, u) => sum + (u.completed_lessons || 0), 0);
 
   return (
@@ -114,7 +147,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="bg-white rounded-xl shadow-sm p-4 text-center">
-          <div className="text-2xl font-bold text-gray-900">{books.length}</div>
+          <div className="text-2xl font-bold text-gray-900">{totalBooks}</div>
           <div className="text-sm text-gray-500 mt-0.5 flex items-center justify-center gap-1">
             <BookMarked className="w-3.5 h-3.5 text-amber-500" /> Books
           </div>
@@ -125,114 +158,70 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="flex gap-1 bg-gray-100 rounded-xl p-1 mb-6 w-fit">
-        {['lessons', 'books'].map(tab => (
-          <button
-            key={tab}
-            onClick={() => setActiveTab(tab)}
-            className={`px-5 py-2 rounded-lg text-sm font-medium transition-colors ${
-              activeTab === tab ? 'bg-white shadow text-gray-900' : 'text-gray-600 hover:text-gray-900'
-            }`}
-          >
-            {tab === 'lessons' ? 'My Lessons' : 'My Books'}
-          </button>
-        ))}
-      </div>
+      {/* My Lessons accordion */}
+      <h2 className="text-lg font-bold text-gray-900 mb-3">My Lessons</h2>
+      <div className="space-y-3">
+        {units.map((unit, uIdx) => (
+          <div key={unit.id} className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <button
+              onClick={() => setOpenUnit(openUnit === unit.id ? null : unit.id)}
+              className={`w-full flex items-center justify-between p-5 text-left ${
+                uIdx % 2 === 0
+                  ? 'bg-gradient-to-r from-blue-500 to-indigo-600'
+                  : 'bg-gradient-to-r from-purple-500 to-pink-600'
+              } text-white`}
+            >
+              <div>
+                <p className="text-xs font-semibold opacity-80 mb-0.5">Unit {unit.id}</p>
+                <h3 className="font-bold text-lg leading-tight">{unit.title}</h3>
+              </div>
+              <div className="flex items-center gap-3 flex-shrink-0">
+                <span className="text-sm opacity-90">{unit.completed_lessons || 0}/{unit.total_lessons}</span>
+                <ChevronRight className={`w-5 h-5 transition-transform ${openUnit === unit.id ? 'rotate-90' : ''}`} />
+              </div>
+            </button>
 
-      {/* Lessons tab */}
-      {activeTab === 'lessons' && (
-        <div className="space-y-3">
-          {units.map((unit, uIdx) => (
-            <div key={unit.id} className="bg-white rounded-xl shadow-sm overflow-hidden">
-              <button
-                onClick={() => setOpenUnit(openUnit === unit.id ? null : unit.id)}
-                className={`w-full flex items-center justify-between p-5 text-left ${
-                  uIdx % 2 === 0
-                    ? 'bg-gradient-to-r from-blue-500 to-indigo-600'
-                    : 'bg-gradient-to-r from-purple-500 to-pink-600'
-                } text-white`}
-              >
-                <div>
-                  <p className="text-xs font-semibold opacity-80 mb-0.5">Unit {unit.id}</p>
-                  <h3 className="font-bold text-lg leading-tight">{unit.title}</h3>
-                </div>
-                <div className="flex items-center gap-3 flex-shrink-0">
-                  <span className="text-sm opacity-90">{unit.completed_lessons || 0}/{unit.total_lessons}</span>
-                  <ChevronRight className={`w-5 h-5 transition-transform ${openUnit === unit.id ? 'rotate-90' : ''}`} />
-                </div>
-              </button>
-
-              {openUnit === unit.id && (
-                <div className="p-4 grid gap-2">
-                  {unit.lessons?.map(lesson => (
+            {openUnit === unit.id && (
+              <div className="p-4 grid gap-2">
+                {buildItems(unit.lessons || [], booksByUnit[unit.id] || []).map(item =>
+                  item.type === 'book' ? (
+                    <BookCard key={`book-${item.data.id}`} book={item.data} />
+                  ) : (
                     <Link
-                      key={lesson.id}
-                      to={`/lesson/${lesson.id}`}
+                      key={item.data.id}
+                      to={`/lesson/${item.data.id}`}
                       className={`flex items-center gap-3 p-4 rounded-lg border-2 transition-all ${
-                        lesson.completed
+                        item.data.completed
                           ? 'border-green-200 bg-green-50 hover:border-green-400'
                           : 'border-blue-100 bg-blue-50 hover:border-blue-300 hover:shadow-sm'
                       }`}
                     >
                       <div className={`w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 ${
-                        lesson.completed ? 'bg-green-500' : 'bg-blue-500'
+                        item.data.completed ? 'bg-green-500' : 'bg-blue-500'
                       }`}>
-                        {lesson.completed
+                        {item.data.completed
                           ? <CheckCircle className="w-5 h-5 text-white" />
                           : <BookOpen className="w-4 h-4 text-white" />
                         }
                       </div>
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs text-gray-500 font-medium">Lesson {lesson.lesson_number}</p>
-                        <p className="font-semibold text-gray-900 truncate">{lesson.title}</p>
+                        <p className="text-xs text-gray-500 font-medium">Lesson {item.data.lesson_number}</p>
+                        <p className="font-semibold text-gray-900 truncate">{item.data.title}</p>
                       </div>
-                      {lesson.completed && lesson.score && (
+                      {item.data.completed && item.data.score && (
                         <span className="text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full font-semibold flex-shrink-0">
-                          {lesson.score}%
+                          {item.data.score}%
                         </span>
                       )}
                       <ChevronRight className="w-4 h-4 text-gray-400 flex-shrink-0" />
                     </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* Books tab */}
-      {activeTab === 'books' && (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {books.map(book => (
-            <Link
-              key={book.id}
-              to={`/book/${book.id}`}
-              className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100"
-            >
-              {book.cover_image && (
-                <img
-                  src={book.cover_image}
-                  alt={book.title}
-                  className="w-full h-40 object-cover"
-                />
-              )}
-              <div className="p-4">
-                <h3 className="font-bold text-gray-900 text-sm truncate">{book.title}</h3>
-                <p className="text-xs text-gray-500 mt-0.5">{book.author}</p>
-                <div className="flex items-center gap-2 mt-2">
-                  <span className="px-2 py-0.5 bg-amber-100 text-amber-800 rounded-full text-xs">{book.level}</span>
-                  <span className="text-xs text-gray-400">Unit {book.unit_id}</span>
-                </div>
+                  )
+                )}
               </div>
-            </Link>
-          ))}
-          {books.length === 0 && (
-            <p className="text-gray-500 col-span-3 text-center py-8">No books available yet.</p>
-          )}
-        </div>
-      )}
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

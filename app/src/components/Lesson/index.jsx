@@ -1,5 +1,7 @@
 import { ChevronRight } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { GRAMMAR_KEYWORDS } from '../../pages/GrammarGuide';
 import { Volume2, Mic, Check, X } from 'lucide-react';
 
 // StorySection Component
@@ -494,9 +496,22 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
   );
 }
 
+// Detect relevant grammar concept IDs from the content text
+function detectConcepts(content) {
+  const allText = (content.sections || [])
+    .map(s => `${s.title || ''} ${s.explanation || ''} ${s.question || ''}`)
+    .join(' ')
+    .toLowerCase();
+
+  return GRAMMAR_KEYWORDS
+    .filter(({ keywords }) => keywords.some(kw => allText.includes(kw.toLowerCase())))
+    .map(({ id }) => id);
+}
+
 // GrammarDiscovery Component
-export function GrammarDiscovery({ content, onComplete, onRequestHelp }) {
-  const [practiceAnswers, setPracticeAnswers] = useState({})
+export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId }) {
+  const [practiceAnswers, setPracticeAnswers] = useState({});
+  const conceptIds = (unitId == null || unitId <= 8) ? detectConcepts(content) : [];
 
   const renderPracticeSentence = (sentence, item, answered, selectedIdx) => {
     const correctIdx = item.options.indexOf(item.blank)
@@ -520,11 +535,31 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp }) {
     <div>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Grammar Discovery</h2>
 
-      <div className="bg-yellow-50 border-l-4 border-yellow-600 p-4 mb-6">
+      <div className="bg-yellow-50 border-l-4 border-yellow-600 p-4 mb-4">
         <p className="text-yellow-900">
           <strong>Remember:</strong> We don't teach grammar rules. We help you NOTICE patterns.
         </p>
       </div>
+
+      {conceptIds.length > 0 && (
+        <div className="bg-indigo-50 border border-indigo-200 rounded-xl px-4 py-3 mb-6 flex flex-wrap items-center gap-2">
+          <span className="text-xs font-bold text-indigo-600 uppercase tracking-wide mr-1">
+            📖 Learn these concepts:
+          </span>
+          {conceptIds.map(id => {
+            const label = id.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+            return (
+              <Link
+                key={id}
+                to={`/grammar#${id}`}
+                className="px-2.5 py-1 bg-white border border-indigo-300 text-indigo-700 rounded-full text-xs font-semibold hover:bg-indigo-100 transition-colors"
+              >
+                {label} →
+              </Link>
+            );
+          })}
+        </div>
+      )}
 
       <div className="space-y-6 mb-6">
         {content.sections?.map((section, idx) => (
