@@ -261,41 +261,41 @@ function ConceptCard({ concept }) {
   const c = COLOR_MAP[concept.color] || COLOR_MAP.blue;
 
   return (
-    <div id={concept.id} className={`border-2 rounded-xl overflow-hidden ${c.border}`}>
+    <div id={concept.id} className={`border-2 rounded-xl overflow-hidden ${c.border} dark:border-opacity-50`}>
       {/* Header — always visible */}
       <button
         onClick={() => setOpen(o => !o)}
-        className={`w-full flex items-center justify-between p-4 text-left ${c.bg}`}
+        className={`w-full flex items-center justify-between p-4 text-left ${c.bg} dark:bg-opacity-20`}
       >
         <div className="flex items-center gap-3">
           <div className={`w-3 h-3 rounded-full flex-shrink-0 ${c.dot}`} />
           <div>
-            <span className="font-bold text-gray-900 text-lg">{concept.en}</span>
+            <span className="font-bold text-gray-900 dark:text-white text-lg">{concept.en}</span>
             <span className="text-gray-400 mx-2">·</span>
-            <span className={`text-sm font-semibold px-2 py-0.5 rounded-full ${c.badge}`}>{concept.so}</span>
+            <span className={`text-sm font-semibold px-2 py-0.5 rounded-full ${c.badge} dark:bg-opacity-30`}>{concept.so}</span>
           </div>
         </div>
-        {open ? <ChevronUp className="w-5 h-5 text-gray-500 flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-gray-500 flex-shrink-0" />}
+        {open ? <ChevronUp className="w-5 h-5 text-gray-500 dark:text-gray-400 flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-gray-500 dark:text-gray-400 flex-shrink-0" />}
       </button>
 
       {/* Definition (always visible) */}
-      <div className="px-4 py-3 bg-white border-t border-gray-100">
-        <p className="text-gray-800 text-sm">{concept.definition}</p>
-        <p className="text-gray-400 text-xs mt-0.5 italic">{concept.definitionSo}</p>
+      <div className="px-4 py-3 bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-700">
+        <p className="text-gray-800 dark:text-gray-200 text-sm">{concept.definition}</p>
+        <p className="text-gray-400 dark:text-gray-500 text-xs mt-0.5 italic">{concept.definitionSo}</p>
       </div>
 
       {/* Expanded content */}
       {open && (
-        <div className="px-4 pb-5 bg-white space-y-4 border-t border-gray-100">
+        <div className="px-4 pb-5 bg-white dark:bg-gray-900 space-y-4 border-t border-gray-100 dark:border-gray-700">
           {/* Examples */}
           <div>
-            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-2 mt-3">Examples / Tusaalooyin</p>
+            <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2 mt-3">Examples / Tusaalooyin</p>
             <div className="space-y-2">
               {concept.examples.map((ex, i) => (
-                <div key={i} className={`rounded-lg px-4 py-2 flex items-start gap-3 ${c.bg}`}>
-                  <span className="font-mono text-gray-900 flex-1 text-sm">{ex}</span>
+                <div key={i} className={`rounded-lg px-4 py-2 flex items-start gap-3 ${c.bg} dark:bg-opacity-20`}>
+                  <span className="font-mono text-gray-900 dark:text-gray-100 flex-1 text-sm">{ex}</span>
                   {concept.exampleNotes?.[i] && (
-                    <span className="text-xs text-gray-500 flex-shrink-0 pt-0.5">← {concept.exampleNotes[i]}</span>
+                    <span className="text-xs text-gray-500 dark:text-gray-400 flex-shrink-0 pt-0.5">← {concept.exampleNotes[i]}</span>
                   )}
                 </div>
               ))}
@@ -305,7 +305,7 @@ function ConceptCard({ concept }) {
           {/* Pattern */}
           {concept.pattern && (
             <div>
-              <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Pattern / Qaabka</p>
+              <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1">Pattern / Qaabka</p>
               <code className="block bg-gray-900 text-green-400 rounded-lg px-4 py-2 text-sm font-mono">
                 {concept.pattern}
               </code>
@@ -314,9 +314,9 @@ function ConceptCard({ concept }) {
 
           {/* Extra notes */}
           {concept.extra && (
-            <div className={`rounded-lg p-3 border ${c.border} ${c.bg}`}>
-              <p className="text-xs font-bold text-gray-600 mb-1">Also remember / Xusuusnow:</p>
-              <p className="text-sm text-gray-700 whitespace-pre-line">{concept.extra}</p>
+            <div className={`rounded-lg p-3 border ${c.border} ${c.bg} dark:border-opacity-30 dark:bg-opacity-20`}>
+              <p className="text-xs font-bold text-gray-600 dark:text-gray-300 mb-1">Also remember / Xusuusnow:</p>
+              <p className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line">{concept.extra}</p>
             </div>
           )}
         </div>
@@ -350,13 +350,13 @@ export default function GrammarGuide() {
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
           <BookOpen className="w-8 h-8 text-indigo-600" />
-          <h1 className="text-3xl font-bold text-gray-900">Grammar Guide</h1>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Grammar Guide</h1>
         </div>
-        <p className="text-indigo-600 font-semibold text-lg">Hagaha Naxwaha Ingiriisiga</p>
-        <p className="text-gray-500 text-sm mt-1">
+        <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg">Hagaha Naxwaha Ingiriisiga</p>
+        <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
           All the grammar concepts you need — in English and Somali. Click any concept to expand it.
         </p>
-        <p className="text-gray-400 text-xs mt-0.5 italic">
+        <p className="text-gray-400 dark:text-gray-500 text-xs mt-0.5 italic">
           Dhammaan fikradaha naxwaha ee aad u baahan tahay — Ingiriisi iyo Af-Soomaali. Riix fikrad kasta si aad u ballaariso.
         </p>
       </div>
@@ -368,7 +368,7 @@ export default function GrammarGuide() {
           value={search}
           onChange={e => setSearch(e.target.value)}
           placeholder="Search a concept... (e.g. verb, past, adjective)"
-          className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-indigo-400 text-sm"
+          className="w-full px-4 py-3 border-2 border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:border-indigo-400 dark:focus:border-indigo-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 text-sm"
         />
       </div>
 
@@ -376,18 +376,17 @@ export default function GrammarGuide() {
       {filtered ? (
         <div className="space-y-3">
           {filtered.length === 0 && (
-            <p className="text-center text-gray-400 py-8">No concepts found for "{search}"</p>
+            <p className="text-center text-gray-400 dark:text-gray-500 py-8">No concepts found for "{search}"</p>
           )}
           {filtered.map(c => <ConceptCard key={c.id} concept={c} />)}
         </div>
       ) : (
-        /* Categorised view */
         <div className="space-y-10">
           {CATEGORIES.map(cat => (
             <div key={cat.label}>
-              <div className="flex items-baseline gap-2 mb-4 border-b-2 border-gray-100 pb-2">
-                <h2 className="text-xl font-bold text-gray-900">{cat.label}</h2>
-                <span className="text-gray-400 text-sm">{cat.labelSo}</span>
+              <div className="flex items-baseline gap-2 mb-4 border-b-2 border-gray-100 dark:border-gray-700 pb-2">
+                <h2 className="text-xl font-bold text-gray-900 dark:text-white">{cat.label}</h2>
+                <span className="text-gray-400 dark:text-gray-500 text-sm">{cat.labelSo}</span>
               </div>
               <div className="space-y-3">
                 {cat.ids.map(id => conceptMap[id] && <ConceptCard key={id} concept={conceptMap[id]} />)}

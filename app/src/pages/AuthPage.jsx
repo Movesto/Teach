@@ -55,21 +55,26 @@ export default function AuthPage() {
     }
   };
 
+  const inputClass = (field) =>
+    `w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 ${
+      errors[field] ? 'border-red-400 dark:border-red-500' : 'border-gray-300 dark:border-gray-600'
+    }`;
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
-      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 py-12">
+      <div className="w-full max-w-md bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8">
         <div className="text-center mb-8">
           <div className="text-4xl mb-3">📚</div>
-          <h1 className="text-2xl font-bold text-gray-900">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
             {mode === 'register' ? 'Create Account' : 'Welcome Back'}
           </h1>
-          <p className="text-gray-500 text-sm mt-1">
+          <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
             {mode === 'register' ? 'Samee Akoon · Join for free' : 'Gali Akoonka · Sign in to continue'}
           </p>
         </div>
 
         {serverError && (
-          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+          <div className="mb-4 p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg text-red-700 dark:text-red-400 text-sm">
             {serverError}
           </div>
         )}
@@ -77,7 +82,7 @@ export default function AuthPage() {
         <form onSubmit={handleSubmit} className="space-y-4" noValidate>
           {mode === 'register' && (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                 Full Name <span className="text-gray-400 font-normal">/ Magacaaga</span>
               </label>
               <input
@@ -85,14 +90,14 @@ export default function AuthPage() {
                 value={form.name}
                 onChange={e => set('name', e.target.value)}
                 placeholder="Ahmed Hassan"
-                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.name ? 'border-red-400' : 'border-gray-300'}`}
+                className={inputClass('name')}
               />
-              {errors.name && <p className="mt-1 text-xs text-red-600">{errors.name}</p>}
+              {errors.name && <p className="mt-1 text-xs text-red-600 dark:text-red-400">{errors.name}</p>}
             </div>
           )}
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               Email <span className="text-gray-400 font-normal">/ Iimaylka</span>
             </label>
             <input
@@ -100,13 +105,13 @@ export default function AuthPage() {
               value={form.email}
               onChange={e => set('email', e.target.value)}
               placeholder="ahmed@example.com"
-              className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.email ? 'border-red-400' : 'border-gray-300'}`}
+              className={inputClass('email')}
             />
-            {errors.email && <p className="mt-1 text-xs text-red-600">{errors.email}</p>}
+            {errors.email && <p className="mt-1 text-xs text-red-600 dark:text-red-400">{errors.email}</p>}
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               Password <span className="text-gray-400 font-normal">/ Erayga Sirta</span>
               {mode === 'register' && <span className="text-gray-400 font-normal"> (min 8)</span>}
             </label>
@@ -115,14 +120,14 @@ export default function AuthPage() {
               value={form.password}
               onChange={e => set('password', e.target.value)}
               placeholder="••••••••"
-              className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.password ? 'border-red-400' : 'border-gray-300'}`}
+              className={inputClass('password')}
             />
-            {errors.password && <p className="mt-1 text-xs text-red-600">{errors.password}</p>}
+            {errors.password && <p className="mt-1 text-xs text-red-600 dark:text-red-400">{errors.password}</p>}
           </div>
 
           {mode === 'register' && (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                 Confirm Password <span className="text-gray-400 font-normal">/ Xaqiiji Erayga</span>
               </label>
               <input
@@ -130,9 +135,9 @@ export default function AuthPage() {
                 value={form.confirm}
                 onChange={e => set('confirm', e.target.value)}
                 placeholder="••••••••"
-                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.confirm ? 'border-red-400' : 'border-gray-300'}`}
+                className={inputClass('confirm')}
               />
-              {errors.confirm && <p className="mt-1 text-xs text-red-600">{errors.confirm}</p>}
+              {errors.confirm && <p className="mt-1 text-xs text-red-600 dark:text-red-400">{errors.confirm}</p>}
             </div>
           )}
 
@@ -154,16 +159,16 @@ export default function AuthPage() {
 
         <div className="mt-6 text-center">
           {mode === 'register' ? (
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               Already have an account?{' '}
-              <button onClick={() => setMode('login')} className="text-indigo-600 font-semibold hover:underline">
+              <button onClick={() => setMode('login')} className="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
                 Sign In / Gali
               </button>
             </p>
           ) : (
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               Don't have an account?{' '}
-              <button onClick={() => setMode('register')} className="text-indigo-600 font-semibold hover:underline">
+              <button onClick={() => setMode('register')} className="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
                 Create Account / Samee Akoon
               </button>
             </p>

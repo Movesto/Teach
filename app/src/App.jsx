@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useSearchParams } from 'react-router-dom';
+import { Moon, Sun } from 'lucide-react';
 import { AuthProvider, useAuth } from './context/AuthContext';
-
+import { ThemeProvider, useTheme } from './context/ThemeContext';
 import LessonView from './pages/LessonView';
 import Dashboard from './pages/Dashboard';
 import PlacementTest from './pages/PlacementTest';
@@ -11,16 +12,29 @@ import GrammarGuide from './pages/GrammarGuide';
 
 function LoadingScreen() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
       <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
     </div>
+  );
+}
+
+function ThemeToggle() {
+  const { dark, toggle } = useTheme();
+  return (
+    <button
+      onClick={toggle}
+      className="w-9 h-9 flex items-center justify-center rounded-lg text-gray-500 hover:text-indigo-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-indigo-400 dark:hover:bg-gray-800 transition-colors"
+      title={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+    >
+      {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+    </button>
   );
 }
 
 function NavBar() {
   const { user, logout } = useAuth();
   return (
-    <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
+    <nav className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -31,23 +45,23 @@ function NavBar() {
           <div className="flex items-center space-x-3">
             {user ? (
               <>
-                <Link to="/dashboard" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
+                <Link to="/dashboard" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Dashboard
                 </Link>
-                <Link to="/grammar" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
+                <Link to="/grammar" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Grammar Guide
                 </Link>
-                <span className="text-sm text-gray-500 border-l pl-3 ml-1">{user.name}</span>
+                <span className="text-sm text-gray-500 dark:text-gray-400 border-l border-gray-200 dark:border-gray-700 pl-3 ml-1">{user.name}</span>
                 <button
                   onClick={logout}
-                  className="text-sm text-red-600 hover:text-red-800 font-medium"
+                  className="text-sm text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300 font-medium"
                 >
                   Logout
                 </button>
               </>
             ) : (
               <>
-                <Link to="/auth" className="text-gray-700 hover:text-indigo-600 text-sm font-medium">
+                <Link to="/auth" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Sign In
                 </Link>
                 <Link
@@ -58,6 +72,7 @@ function NavBar() {
                 </Link>
               </>
             )}
+            <ThemeToggle />
           </div>
         </div>
       </div>
@@ -65,7 +80,6 @@ function NavBar() {
   );
 }
 
-// `/` — Landing if logged out, redirect if logged in
 function RootRoute() {
   const { user, loading } = useAuth();
   if (loading) return <LoadingScreen />;
@@ -74,7 +88,6 @@ function RootRoute() {
   return <Navigate to="/dashboard" replace />;
 }
 
-// `/auth` — AuthPage if logged out, redirect if logged in
 function AuthRoute() {
   const { user, loading } = useAuth();
   if (loading) return <LoadingScreen />;
@@ -83,7 +96,6 @@ function AuthRoute() {
   return <Navigate to="/dashboard" replace />;
 }
 
-// `/placement` — require login, redirect if already done (unless ?retake=true)
 function PlacementRoute() {
   const { user, loading } = useAuth();
   const [searchParams] = useSearchParams();
@@ -93,7 +105,6 @@ function PlacementRoute() {
   return <PlacementTest />;
 }
 
-// Protected routes — require login AND placement done
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
   if (loading) return <LoadingScreen />;
@@ -104,7 +115,7 @@ function ProtectedRoute({ children }) {
 
 function AppShell() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <NavBar />
       <Routes>
         <Route path="/" element={<RootRoute />} />
@@ -123,9 +134,11 @@ function AppShell() {
 function App() {
   return (
     <Router>
-      <AuthProvider>
-        <AppShell />
-      </AuthProvider>
+      <ThemeProvider>
+        <AuthProvider>
+          <AppShell />
+        </AuthProvider>
+      </ThemeProvider>
     </Router>
   );
 }

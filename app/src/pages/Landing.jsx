@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Landing() {
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:bg-gray-950">
       {/* Hero */}
       <div className="bg-gradient-to-br from-indigo-600 to-indigo-800 text-white">
         <div className="max-w-5xl mx-auto px-6 py-20 text-center">
@@ -37,8 +37,8 @@ export default function Landing() {
 
       {/* Features */}
       <div className="max-w-5xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">Why Barashada Ingiriisiga?</h2>
-        <p className="text-center text-gray-500 mb-12">Maxay kuu gaarka tahay?</p>
+        <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-2">Why Barashada Ingiriisiga?</h2>
+        <p className="text-center text-gray-500 dark:text-gray-400 mb-12">Maxay kuu gaarka tahay?</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
@@ -70,22 +70,22 @@ export default function Landing() {
               descSo: 'Eeg heerkaaga iyo casharkii aad dhamaysatay.',
             },
           ].map((f) => (
-            <div key={f.en} className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-md transition-shadow">
+            <div key={f.en} className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 text-center hover:shadow-md transition-shadow">
               <div className="text-4xl mb-3">{f.icon}</div>
-              <h3 className="font-bold text-gray-900 text-lg">{f.en}</h3>
-              <p className="text-indigo-600 text-sm font-medium mb-2">{f.so}</p>
-              <p className="text-gray-600 text-sm">{f.desc}</p>
-              <p className="text-gray-400 text-xs mt-1">{f.descSo}</p>
+              <h3 className="font-bold text-gray-900 dark:text-white text-lg">{f.en}</h3>
+              <p className="text-indigo-600 dark:text-indigo-400 text-sm font-medium mb-2">{f.so}</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">{f.desc}</p>
+              <p className="text-gray-400 dark:text-gray-500 text-xs mt-1">{f.descSo}</p>
             </div>
           ))}
         </div>
       </div>
 
       {/* How it works */}
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-50 dark:bg-gray-900 py-16">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">How It Works</h2>
-          <p className="text-center text-gray-500 mb-12">Sidee u shaqeysaa?</p>
+          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-2">How It Works</h2>
+          <p className="text-center text-gray-500 dark:text-gray-400 mb-12">Sidee u shaqeysaa?</p>
           <div className="space-y-6">
             {[
               {
@@ -110,15 +110,15 @@ export default function Landing() {
                 descSo: 'Xooji akhrinta buugaag iyo su\'aalaha fahanka.',
               },
             ].map((s) => (
-              <div key={s.n} className="flex gap-5 items-start bg-white rounded-xl p-6 shadow-sm">
+              <div key={s.n} className="flex gap-5 items-start bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm">
                 <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0">
                   {s.n}
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">{s.en}</h3>
-                  <p className="text-indigo-600 text-sm font-medium mb-1">{s.so}</p>
-                  <p className="text-gray-600 text-sm">{s.desc}</p>
-                  <p className="text-gray-400 text-xs mt-0.5">{s.descSo}</p>
+                  <h3 className="font-bold text-gray-900 dark:text-white text-lg">{s.en}</h3>
+                  <p className="text-indigo-600 dark:text-indigo-400 text-sm font-medium mb-1">{s.so}</p>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm">{s.desc}</p>
+                  <p className="text-gray-400 dark:text-gray-500 text-xs mt-0.5">{s.descSo}</p>
                 </div>
               </div>
             ))}
@@ -141,7 +141,7 @@ export default function Landing() {
       </div>
 
       {/* Footer */}
-      <div className="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+      <div className="bg-gray-900 dark:bg-black text-gray-400 py-8 text-center text-sm">
         <p>© 2025 Barashada Ingiriisiga · Learn English in Somali</p>
       </div>
     </div>

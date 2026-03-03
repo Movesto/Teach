@@ -178,20 +178,20 @@ export default function PlacementTest() {
   if (screen === 'intro') {
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
-        <div className="bg-white rounded-2xl shadow-lg p-10">
+        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-10">
           <div className="text-5xl mb-4">🎯</div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">English Placement Test</h1>
-          <p className="text-indigo-600 font-semibold text-lg mb-6">Imtixaanka Heerka Ingiriisiga</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">English Placement Test</h1>
+          <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg mb-6">Imtixaanka Heerka Ingiriisiga</p>
           <div className="text-left space-y-3 mb-8">
-            <p className="text-gray-700">
+            <p className="text-gray-700 dark:text-gray-300">
               This short test helps us find your exact English level so you can start at the right place.
             </p>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 dark:text-gray-400 text-sm">
               Imtixaankan gaaban wuxuu naga caawiyaa inaan ogaano heerkaaga Ingiriisiga si aad uga bilaabato meeshii saxda ahayd.
             </p>
-            <div className="bg-indigo-50 rounded-lg p-4 mt-4 text-sm text-indigo-800">
+            <div className="bg-indigo-50 dark:bg-indigo-900/20 rounded-lg p-4 mt-4 text-sm text-indigo-800 dark:text-indigo-300">
               <p className="font-semibold mb-1">What to expect / Maxaad u diyaargaroowdaa:</p>
-              <ul className="space-y-1 text-indigo-700">
+              <ul className="space-y-1 text-indigo-700 dark:text-indigo-400">
                 <li>• {totalCards} questions · Grammar, Listening, Reading, Speaking</li>
                 <li>• ~15 minutes · Answer as many as you can</li>
                 <li>• No right or wrong — just find your level</li>
@@ -218,9 +218,9 @@ export default function PlacementTest() {
 
     return (
       <div className="max-w-2xl mx-auto px-4 py-10">
-        <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 text-center">
           <CheckCircle className="w-14 h-14 text-green-500 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-gray-900 mb-6">Test Complete! / Imtixaanka waa la dhamaystiray!</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Test Complete! / Imtixaanka waa la dhamaystiray!</h1>
 
           {/* CEFR badge */}
           <div className={`inline-block border-2 rounded-2xl px-8 py-5 mb-6 ${colorClass}`}>
@@ -229,27 +229,27 @@ export default function PlacementTest() {
           </div>
 
           <div className="mb-2">
-            <p className="text-xl font-bold text-gray-900">Your level: {result.level?.charAt(0).toUpperCase() + result.level?.slice(1)}</p>
-            <p className="text-indigo-600 font-medium">Heerkaaga: {levelSomali}</p>
+            <p className="text-xl font-bold text-gray-900 dark:text-white">Your level: {result.level?.charAt(0).toUpperCase() + result.level?.slice(1)}</p>
+            <p className="text-indigo-600 dark:text-indigo-400 font-medium">Heerkaaga: {levelSomali}</p>
           </div>
 
           {result.message && (
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4 my-5 text-left">
-              <p className="text-green-800 text-sm">{result.message}</p>
+            <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg p-4 my-5 text-left">
+              <p className="text-green-800 dark:text-green-300 text-sm">{result.message}</p>
             </div>
           )}
 
           {/* Score breakdown */}
           <div className="mt-6 mb-8">
-            <h3 className="font-bold text-gray-900 mb-4 text-left">Score Breakdown / Faahfaahinta Dhibcaha</h3>
+            <h3 className="font-bold text-gray-900 dark:text-white mb-4 text-left">Score Breakdown / Faahfaahinta Dhibcaha</h3>
             <div className="space-y-3">
               {Object.entries(result.breakdown || {}).map(([section, data]) => (
                 <div key={section}>
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="font-medium text-gray-700 capitalize">{section}</span>
-                    <span className="text-gray-500">{data.score}/{data.max}</span>
+                    <span className="font-medium text-gray-700 dark:text-gray-300 capitalize">{section}</span>
+                    <span className="text-gray-500 dark:text-gray-400">{data.score}/{data.max}</span>
                   </div>
-                  <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
+                  <div className="h-2.5 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
                     <div
                       className={`h-full rounded-full transition-all ${barClass}`}
                       style={{ width: `${data.max > 0 ? (data.score / data.max) * 100 : 0}%` }}
@@ -260,9 +260,9 @@ export default function PlacementTest() {
             </div>
           </div>
 
-          <div className="bg-purple-50 rounded-xl p-4 mb-6 text-left">
-            <p className="text-sm font-semibold text-purple-800 mb-1">📚 Recommended Starting Point</p>
-            <p className="text-purple-700">
+          <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-4 mb-6 text-left">
+            <p className="text-sm font-semibold text-purple-800 dark:text-purple-300 mb-1">📚 Recommended Starting Point</p>
+            <p className="text-purple-700 dark:text-purple-400">
               <span className="font-semibold">Unit {result.recommended_unit}:</span> {result.unit_name}
             </p>
           </div>
@@ -297,11 +297,11 @@ export default function PlacementTest() {
     <div className="max-w-2xl mx-auto px-4 py-8">
       {/* Progress */}
       <div className="mb-6">
-        <div className="flex justify-between text-sm text-gray-600 mb-2">
+        <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
           <span className="font-medium">{card?._sectionName}</span>
           <span>{idx + 1} / {totalCards}</span>
         </div>
-        <div className="h-2.5 bg-gray-200 rounded-full overflow-hidden">
+        <div className="h-2.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
           <div
             className="h-full bg-indigo-500 rounded-full transition-all duration-300"
             style={{ width: `${progress}%` }}
@@ -314,18 +314,18 @@ export default function PlacementTest() {
         )}
       </div>
 
-      <div className="bg-white rounded-2xl shadow-md p-6">
+      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-md p-6">
         {/* Passage (collapsible) */}
         {card?._passageText && (
           <div className="mb-4">
             <button
               onClick={() => setPassageOpen(o => !o)}
-              className="flex items-center gap-2 text-sm text-indigo-600 font-medium hover:text-indigo-800 mb-2"
+              className="flex items-center gap-2 text-sm text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-800 dark:hover:text-indigo-300 mb-2"
             >
               📖 {passageOpen ? 'Hide Passage' : 'Show Reading Passage'}
             </button>
             {passageOpen && (
-              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">
+              <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-4 text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
                 {card._passageText}
               </div>
             )}
@@ -335,8 +335,8 @@ export default function PlacementTest() {
         {/* Speaking card */}
         {isSpeaking && (
           <div>
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-1">Speaking / Hadal</p>
-            <h2 className="text-xl font-bold text-gray-900 mb-2">{card.prompt}</h2>
+            <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-1">Speaking / Hadal</p>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{card.prompt}</h2>
             {card.example && (
               <p className="text-sm text-gray-500 mb-1"><strong>Example:</strong> {card.example}</p>
             )}
@@ -396,7 +396,7 @@ export default function PlacementTest() {
         {/* Multiple choice */}
         {!isSpeaking && (
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-5">{card?.question}</h2>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-5">{card?.question}</h2>
             <div className="space-y-3">
               {card?.options?.map((option, optIdx) => {
                 const selected = answers[card.id]?.selected_option === optIdx;
@@ -405,8 +405,8 @@ export default function PlacementTest() {
                     key={optIdx}
                     className={`flex items-center gap-3 p-4 border-2 rounded-xl cursor-pointer transition-all ${
                       selected
-                        ? 'border-indigo-500 bg-indigo-50'
-                        : 'border-gray-200 hover:border-indigo-300 hover:bg-gray-50'
+                        ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-900/30'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-600 hover:bg-gray-50 dark:hover:bg-gray-800'
                     }`}
                   >
                     <input
@@ -416,7 +416,7 @@ export default function PlacementTest() {
                       onChange={() => handleAnswer(card.id, optIdx)}
                       className="w-4 h-4 accent-indigo-600"
                     />
-                    <span className="text-gray-800">{option}</span>
+                    <span className="text-gray-800 dark:text-gray-200">{option}</span>
                   </label>
                 );
               })}
@@ -430,7 +430,7 @@ export default function PlacementTest() {
         <button
           onClick={handleBack}
           disabled={idx === 0}
-          className="flex items-center gap-2 px-5 py-2.5 border-2 border-gray-200 rounded-xl text-gray-600 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed font-medium"
+          className="flex items-center gap-2 px-5 py-2.5 border-2 border-gray-200 dark:border-gray-700 rounded-xl text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 disabled:opacity-40 disabled:cursor-not-allowed font-medium"
         >
           <ChevronLeft size={18} /> Back
         </button>
