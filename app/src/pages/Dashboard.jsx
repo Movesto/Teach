@@ -21,7 +21,11 @@ function buildItems(lessons = [], books = []) {
   return result;
 }
 
-function BookCard({ book }) {
+function BookCard({ book, progress }) {
+  const completed = progress?.completed || 0;
+  const total = progress?.total || 0;
+  const pct = progress?.percentage || 0;
+
   return (
     <Link
       to={`/book/${book.id}`}
@@ -34,6 +38,17 @@ function BookCard({ book }) {
         <p className="text-xs font-semibold text-amber-700 dark:text-amber-400 uppercase tracking-wide mb-0.5">Reading Break</p>
         <p className="font-semibold text-gray-900 dark:text-white truncate">{book.title}</p>
         <p className="text-xs text-gray-500 dark:text-gray-400">{book.author} · {book.level}</p>
+        {total > 0 && (
+          <div className="mt-1.5">
+            <div className="flex justify-between text-xs text-amber-600 dark:text-amber-400 mb-0.5">
+              <span>{completed}/{total} chapters</span>
+              {completed === total && total > 0 && <span className="text-green-600 dark:text-green-400 font-semibold">✓ Done</span>}
+            </div>
+            <div className="h-1.5 bg-amber-200 dark:bg-amber-900 rounded-full overflow-hidden">
+              <div className="h-full bg-amber-500 rounded-full transition-all" style={{ width: `${pct}%` }} />
+            </div>
+          </div>
+        )}
       </div>
       <ChevronRight className="w-4 h-4 text-amber-500 flex-shrink-0" />
     </Link>
@@ -45,18 +60,23 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const [units, setUnits] = useState([]);
   const [booksByUnit, setBooksByUnit] = useState({});
+  const [bookProgress, setBookProgress] = useState({});
   const [totalBooks, setTotalBooks] = useState(0);
   const [loading, setLoading] = useState(true);
   const [openUnit, setOpenUnit] = useState(null);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
+    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
       fetch('/api/units').then(r => r.json()),
       fetch('/api/books').then(r => r.json()),
+      fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
     ])
-      .then(([unitData, bookData]) => {
+      .then(([unitData, bookData, progressData]) => {
         setUnits(unitData);
         setTotalBooks(bookData.length);
+        setBookProgress(progressData);
         const grouped = {};
         bookData.forEach(b => {
           if (!grouped[b.unit_id]) grouped[b.unit_id] = [];
@@ -156,70 +176,144 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* My Lessons accordion */}
-      <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-3">My Lessons</h2>
-      <div className="space-y-3">
-        {units.map((unit, uIdx) => (
-          <div key={unit.id} className="bg-white dark:bg-gray-900 rounded-xl shadow-sm overflow-hidden">
-            <button
-              onClick={() => setOpenUnit(openUnit === unit.id ? null : unit.id)}
-              className={`w-full flex items-center justify-between p-5 text-left ${
-                uIdx % 2 === 0
-                  ? 'bg-gradient-to-r from-blue-500 to-indigo-600'
-                  : 'bg-gradient-to-r from-purple-500 to-pink-600'
-              } text-white`}
-            >
-              <div>
-                <p className="text-xs font-semibold opacity-80 mb-0.5">Unit {unit.id}</p>
-                <h3 className="font-bold text-lg leading-tight">{unit.title}</h3>
-              </div>
-              <div className="flex items-center gap-3 flex-shrink-0">
-                <span className="text-sm opacity-90">{unit.completed_lessons || 0}/{unit.total_lessons}</span>
-                <ChevronRight className={`w-5 h-5 transition-transform ${openUnit === unit.id ? 'rotate-90' : ''}`} />
-              </div>
-            </button>
-
-            {openUnit === unit.id && (
-              <div className="p-4 grid gap-2">
-                {buildItems(unit.lessons || [], booksByUnit[unit.id] || []).map(item =>
-                  item.type === 'book' ? (
-                    <BookCard key={`book-${item.data.id}`} book={item.data} />
-                  ) : (
-                    <Link
-                      key={item.data.id}
-                      to={`/lesson/${item.data.id}`}
-                      className={`flex items-center gap-3 p-4 rounded-lg border-2 transition-all ${
-                        item.data.completed
-                          ? 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20 hover:border-green-400 dark:hover:border-green-600'
-                          : 'border-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/20 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-sm'
-                      }`}
-                    >
-                      <div className={`w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 ${
-                        item.data.completed ? 'bg-green-500' : 'bg-blue-500'
-                      }`}>
-                        {item.data.completed
-                          ? <CheckCircle className="w-5 h-5 text-white" />
-                          : <BookOpen className="w-4 h-4 text-white" />
-                        }
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">Lesson {item.data.lesson_number}</p>
-                        <p className="font-semibold text-gray-900 dark:text-white truncate">{item.data.title}</p>
-                      </div>
-                      {item.data.completed && item.data.score && (
-                        <span className="text-xs bg-green-200 dark:bg-green-800 text-green-800 dark:text-green-200 px-2 py-0.5 rounded-full font-semibold flex-shrink-0">
-                          {item.data.score}%
-                        </span>
-                      )}
-                      <ChevronRight className="w-4 h-4 text-gray-400 dark:text-gray-600 flex-shrink-0" />
-                    </Link>
-                  )
-                )}
-              </div>
-            )}
-          </div>
-        ))}
+      {/* Search + Lessons */}
+      <div className="flex items-center justify-between mb-3 gap-3">
+        <h2 className="text-lg font-bold text-gray-900 dark:text-white whitespace-nowrap">My Lessons</h2>
+        <input
+          type="text"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          placeholder="Search lessons..."
+          className="flex-1 max-w-xs px-3 py-1.5 text-sm border-2 border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:border-indigo-400 dark:focus:border-indigo-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
+        />
       </div>
+
+      {/* Search results — flat list */}
+      {search.trim() ? (
+        <div className="space-y-2">
+          {(() => {
+            const q = search.toLowerCase();
+            const results = [];
+            units.forEach(unit => {
+              (unit.lessons || []).forEach(lesson => {
+                if (
+                  lesson.title?.toLowerCase().includes(q) ||
+                  lesson.description?.toLowerCase().includes(q)
+                ) {
+                  results.push({ type: 'lesson', data: lesson, unit });
+                }
+              });
+              (booksByUnit[unit.id] || []).forEach(book => {
+                if (book.title?.toLowerCase().includes(q) || book.author?.toLowerCase().includes(q)) {
+                  results.push({ type: 'book', data: book, unit });
+                }
+              });
+            });
+            if (results.length === 0) return (
+              <p className="text-center text-gray-400 dark:text-gray-500 py-8">
+                No results for "{search}"
+              </p>
+            );
+            return results.map(item =>
+              item.type === 'book' ? (
+                <BookCard key={`book-${item.data.id}`} book={item.data} progress={bookProgress[item.data.id]} />
+              ) : (
+                <Link
+                  key={item.data.id}
+                  to={`/lesson/${item.data.id}`}
+                  className={`flex items-center gap-3 p-4 rounded-lg border-2 transition-all ${
+                    item.data.completed
+                      ? 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20 hover:border-green-400 dark:hover:border-green-600'
+                      : 'border-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/20 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-sm'
+                  }`}
+                >
+                  <div className={`w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 ${
+                    item.data.completed ? 'bg-green-500' : 'bg-blue-500'
+                  }`}>
+                    {item.data.completed ? <CheckCircle className="w-5 h-5 text-white" /> : <BookOpen className="w-4 h-4 text-white" />}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">
+                      Unit {item.unit.id} · Lesson {item.data.lesson_number}
+                    </p>
+                    <p className="font-semibold text-gray-900 dark:text-white truncate">{item.data.title}</p>
+                  </div>
+                  {item.data.completed && item.data.score && (
+                    <span className="text-xs bg-green-200 dark:bg-green-800 text-green-800 dark:text-green-200 px-2 py-0.5 rounded-full font-semibold flex-shrink-0">
+                      {item.data.score}%
+                    </span>
+                  )}
+                  <ChevronRight className="w-4 h-4 text-gray-400 dark:text-gray-600 flex-shrink-0" />
+                </Link>
+              )
+            );
+          })()}
+        </div>
+      ) : (
+        /* Normal accordion */
+        <div className="space-y-3">
+          {units.map((unit, uIdx) => (
+            <div key={unit.id} className="bg-white dark:bg-gray-900 rounded-xl shadow-sm overflow-hidden">
+              <button
+                onClick={() => setOpenUnit(openUnit === unit.id ? null : unit.id)}
+                className={`w-full flex items-center justify-between p-5 text-left ${
+                  uIdx % 2 === 0
+                    ? 'bg-gradient-to-r from-blue-500 to-indigo-600'
+                    : 'bg-gradient-to-r from-purple-500 to-pink-600'
+                } text-white`}
+              >
+                <div>
+                  <p className="text-xs font-semibold opacity-80 mb-0.5">Unit {unit.id}</p>
+                  <h3 className="font-bold text-lg leading-tight">{unit.title}</h3>
+                </div>
+                <div className="flex items-center gap-3 flex-shrink-0">
+                  <span className="text-sm opacity-90">{unit.completed_lessons || 0}/{unit.total_lessons}</span>
+                  <ChevronRight className={`w-5 h-5 transition-transform ${openUnit === unit.id ? 'rotate-90' : ''}`} />
+                </div>
+              </button>
+
+              {openUnit === unit.id && (
+                <div className="p-4 grid gap-2">
+                  {buildItems(unit.lessons || [], booksByUnit[unit.id] || []).map(item =>
+                    item.type === 'book' ? (
+                      <BookCard key={`book-${item.data.id}`} book={item.data} progress={bookProgress[item.data.id]} />
+                    ) : (
+                      <Link
+                        key={item.data.id}
+                        to={`/lesson/${item.data.id}`}
+                        className={`flex items-center gap-3 p-4 rounded-lg border-2 transition-all ${
+                          item.data.completed
+                            ? 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20 hover:border-green-400 dark:hover:border-green-600'
+                            : 'border-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/20 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-sm'
+                        }`}
+                      >
+                        <div className={`w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 ${
+                          item.data.completed ? 'bg-green-500' : 'bg-blue-500'
+                        }`}>
+                          {item.data.completed
+                            ? <CheckCircle className="w-5 h-5 text-white" />
+                            : <BookOpen className="w-4 h-4 text-white" />
+                          }
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">Lesson {item.data.lesson_number}</p>
+                          <p className="font-semibold text-gray-900 dark:text-white truncate">{item.data.title}</p>
+                        </div>
+                        {item.data.completed && item.data.score && (
+                          <span className="text-xs bg-green-200 dark:bg-green-800 text-green-800 dark:text-green-200 px-2 py-0.5 rounded-full font-semibold flex-shrink-0">
+                            {item.data.score}%
+                          </span>
+                        )}
+                        <ChevronRight className="w-4 h-4 text-gray-400 dark:text-gray-600 flex-shrink-0" />
+                      </Link>
+                    )
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

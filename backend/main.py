@@ -986,6 +986,78 @@ async def submit_chapter_assignment(submission: dict):
     return {"comprehension_score": score_pct, "writing": writing_results}
 
 
+# ── Chapter completion tracking ──────────────────────────────────────────────
+
+@app.post("/api/books/{book_id}/chapters/{chapter_id}/complete")
+async def complete_chapter(
+    book_id: str,
+    chapter_id: str,
+    payload: dict = {},
+    current_user=Depends(get_optional_user),
+):
+    if not current_user:
+        return {"ok": True}
+    user_id = current_user["id"]
+    quiz_score = payload.get("quiz_score")
+    try:
+        conn = get_db_connection()
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO user_chapter_progress
+                    (user_id, book_id, chapter_id, quiz_score, writing_passed)
+                VALUES (%s, %s, %s, %s, TRUE)
+                ON CONFLICT (user_id, book_id, chapter_id) DO UPDATE SET
+                    completed_at = CURRENT_TIMESTAMP,
+                    quiz_score   = EXCLUDED.quiz_score,
+                    writing_passed = TRUE
+                """,
+                (user_id, book_id, chapter_id, quiz_score),
+            )
+            conn.commit()
+        conn.close()
+    except Exception as e:
+        print(f"[complete_chapter] DB error: {e}")
+    return {"ok": True}
+
+
+@app.get("/api/user/book-progress")
+async def get_book_progress(current_user=Depends(get_optional_user)):
+    if not current_user:
+        return {}
+    user_id = current_user["id"]
+    banks = load_question_banks()
+    completed_by_book: dict[str, list] = {}
+    try:
+        conn = get_db_connection()
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT book_id, chapter_id
+                FROM user_chapter_progress
+                WHERE user_id = %s
+                """,
+                (user_id,),
+            )
+            for row in cur.fetchall():
+                b, c = row[0], row[1]
+                completed_by_book.setdefault(b, []).append(c)
+        conn.close()
+    except Exception as e:
+        print(f"[get_book_progress] DB error: {e}")
+    result = {}
+    for bid, bank in banks.items():
+        total = len(bank.get("chapters", []))
+        done_ids = completed_by_book.get(bid, [])
+        result[bid] = {
+            "completed": len(done_ids),
+            "total": total,
+            "percentage": round(len(done_ids) / total * 100) if total else 0,
+            "completed_chapter_ids": done_ids,
+        }
+    return result
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

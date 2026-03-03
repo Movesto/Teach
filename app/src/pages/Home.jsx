@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, CheckCircle, Lock, ChevronRight, BookMarked } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 
 function buildItems(lessons = [], books = []) {
   if (books.length === 0) return lessons.map(l => ({ type: 'lesson', data: l }));
@@ -12,7 +13,11 @@ function buildItems(lessons = [], books = []) {
   return result;
 }
 
-function BookCard({ book }) {
+function BookCard({ book, progress }) {
+  const completed = progress?.completed || 0;
+  const total = progress?.total || 0;
+  const pct = progress?.percentage || 0;
+
   return (
     <Link
       to={`/book/${book.id}`}
@@ -27,6 +32,17 @@ function BookCard({ book }) {
         </p>
         <p className="font-bold text-gray-900 dark:text-white truncate">{book.title}</p>
         <p className="text-sm text-gray-500 dark:text-gray-400">{book.author} · {book.level} · {book.reading_time_minutes} min read</p>
+        {total > 0 && (
+          <div className="mt-1.5">
+            <div className="flex justify-between text-xs text-amber-600 dark:text-amber-400 mb-0.5">
+              <span>{completed}/{total} chapters</span>
+              {completed === total && total > 0 && <span className="text-green-600 dark:text-green-400 font-semibold">✓ Done</span>}
+            </div>
+            <div className="h-1.5 bg-amber-200 dark:bg-amber-900 rounded-full overflow-hidden">
+              <div className="h-full bg-amber-500 rounded-full transition-all" style={{ width: `${pct}%` }} />
+            </div>
+          </div>
+        )}
       </div>
       <ChevronRight className="w-5 h-5 text-amber-500 flex-shrink-0" />
     </Link>
@@ -34,16 +50,21 @@ function BookCard({ book }) {
 }
 
 export default function Home() {
+  const { token } = useAuth();
   const [units, setUnits] = useState([]);
   const [booksByUnit, setBooksByUnit] = useState({});
+  const [bookProgress, setBookProgress] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
       fetch('/api/units').then(r => r.json()),
       fetch('/api/books').then(r => r.json()),
-    ]).then(([unitData, bookData]) => {
+      fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
+    ]).then(([unitData, bookData, progressData]) => {
       setUnits(unitData);
+      setBookProgress(progressData);
       const grouped = {};
       bookData.forEach(b => {
         if (!grouped[b.unit_id]) grouped[b.unit_id] = [];
@@ -55,7 +76,7 @@ export default function Home() {
       console.error(err);
       setLoading(false);
     });
-  }, []);
+  }, [token]);
 
   if (loading) {
     return (
@@ -111,7 +132,7 @@ export default function Home() {
               <div className="p-6 grid gap-3">
                 {buildItems(unit.lessons || [], booksByUnit[unit.id] || []).map((item) =>
                   item.type === 'book' ? (
-                    <BookCard key={`book-${item.data.id}`} book={item.data} />
+                    <BookCard key={`book-${item.data.id}`} book={item.data} progress={bookProgress[item.data.id]} />
                   ) : (
                     <Link
                       key={item.data.id}

@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 
 function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const params = useParams();
-  const { user } = useAuth();
+  const { user, token } = useAuth();
   const bookId = bookIdProp || params.bookId;
   const studentId = studentIdProp || user?.id || '00000000-0000-0000-0000-000000000001';
 
@@ -38,21 +38,25 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   // PDF reading tracking
   const [pdfOpened, setPdfOpened] = useState(false);
 
-  // Load book and chapters on mount
+  // Load book, chapters, and previously completed chapters on mount
   useEffect(() => {
+    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
       fetch(`/api/books/${bookId}`).then(r => {
         if (!r.ok) throw new Error('Book not found');
         return r.json();
       }),
       fetch(`/api/books/${bookId}/chapters`).then(r => r.ok ? r.json() : []),
+      fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
     ])
-      .then(([bookData, chaptersData]) => {
+      .then(([bookData, chaptersData, progressData]) => {
         setBook(bookData);
         setChapters(chaptersData);
+        const doneIds = progressData[bookId]?.completed_chapter_ids || [];
+        setCompletedChapters(new Set(doneIds));
       })
       .catch(err => setLoadError(err.message));
-  }, [bookId]);
+  }, [bookId, token]);
 
   const writingDraftKey = (chapterId, promptIdx) =>
     `book_draft_${bookId}_${chapterId}_${promptIdx}`;
@@ -162,6 +166,14 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const completeChapter = () => {
     setCompletedChapters(prev => new Set([...prev, activeChapter.id]));
     setChapterPhase('done');
+    // Persist to backend
+    if (token) {
+      fetch(`/api/books/${bookId}/chapters/${activeChapter.id}/complete`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ quiz_score: quizScore }),
+      }).catch(e => console.error('Could not save chapter progress:', e));
+    }
   };
 
   const goToNextChapter = () => {
