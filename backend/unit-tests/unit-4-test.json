@@ -1,0 +1,118 @@
+{
+  "unit_id": 4,
+  "unit_title": "Health & Emergencies",
+  "description": "Test what you learned in Unit 4",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "You call 999 (the UK emergency number). The operator asks 'What service do you require?' You need an ambulance. What do you say?",
+      "options": ["I need the police, please.", "Ambulance, please — someone has collapsed.", "I'm not sure which one.", "Call a doctor for me."],
+      "correct": 1,
+      "explanation": "You should clearly state which service you need (ambulance, police, or fire) and briefly state the emergency."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "A doctor asks 'Where does it hurt?' What is this question trying to find out?",
+      "options": ["How long you have been ill", "The location of the patient's pain", "What medicine the patient is taking", "The patient's medical history"],
+      "correct": 1,
+      "explanation": "'Where does it hurt?' asks the patient to identify which part of the body is painful."
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "statement": "A 'prescription' is the name for a medicine that a patient buys without seeing a doctor.",
+      "correct": false,
+      "explanation": "A prescription is a written order from a doctor that authorises a patient to receive a specific medicine. Medicine bought without a doctor's authorisation is called 'over-the-counter' medicine."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "If someone is having a heart attack, calling the emergency services immediately is the correct first response.",
+      "correct": true,
+      "explanation": "A heart attack is a life-threatening emergency. Calling emergency services immediately is always the correct first step."
+    },
+    {
+      "id": 5,
+      "type": "fill-in-blank",
+      "sentence": "The doctor told me to take this medicine twice a day and to finish the entire ___.",
+      "blank_hint": "(the full course of tablets prescribed)",
+      "accepted_answers": ["course", "prescription", "treatment"],
+      "explanation": "Finishing the full 'course' of medicine means taking all tablets as directed, even if you feel better sooner."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "I need to make an ___ with the doctor — I'll call the surgery tomorrow morning.",
+      "blank_hint": "(a scheduled visit or meeting)",
+      "accepted_answers": ["appointment"],
+      "explanation": "An 'appointment' is a pre-arranged time to see a doctor, dentist, or other professional."
+    },
+    {
+      "id": 7,
+      "type": "ordering",
+      "question": "Put these words in the correct order:",
+      "words": ["since", "been", "feeling", "I've", "unwell", "Monday"],
+      "correct": ["I've", "been", "feeling", "unwell", "since", "Monday"],
+      "explanation": "'I've been feeling unwell since Monday' uses the present perfect continuous with 'since' to show an ongoing condition starting from a specific time."
+    },
+    {
+      "id": 8,
+      "type": "matching",
+      "instruction": "Match each medical term to its correct meaning.",
+      "pairs": [
+        {"left": "symptom", "right": "a sign of illness experienced by the patient"},
+        {"left": "diagnosis", "right": "a doctor's identification of the illness"},
+        {"left": "allergy", "right": "a harmful reaction to a food or substance"},
+        {"left": "dosage", "right": "the amount of medicine to be taken at one time"}
+      ],
+      "explanation": "These are key medical vocabulary words used in healthcare conversations."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each body part to where it is located on the body.",
+      "pairs": [
+        {"left": "shin", "right": "front of the lower leg"},
+        {"left": "elbow", "right": "joint in the middle of the arm"},
+        {"left": "temple", "right": "side of the forehead near the eye"},
+        {"left": "collarbone", "right": "bone connecting shoulder to chest"}
+      ],
+      "explanation": "Knowing body part locations is essential for describing pain or injury to a healthcare professional."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "question": "Writing Task",
+      "prompt": "You are calling your doctor's surgery to explain why you need an urgent appointment. Write 3-5 sentences describing your symptoms and asking to be seen as soon as possible.",
+      "guidance": "Include: when the symptoms started, what the symptoms are, and how serious you feel the situation is.",
+      "example_answer": "Hello, I'd like to make an urgent appointment please. I have had severe chest pain and difficulty breathing since this morning. I also feel dizzy when I stand up. I am quite worried and would like to see a doctor as soon as possible today if possible.",
+      "explanation": "Writing tasks are self-assessed."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "At an airport, which document must you show to prove you are allowed to travel to another country?",
+      "options": ["A library card", "A passport or visa", "A bus ticket", "A bank statement"],
+      "correct": 1,
+      "explanation": "A passport (and visa, if required) is the official document needed to travel internationally.",
+      "is_preview": true,
+      "preview_unit": 5,
+      "preview_unit_title": "Travel & Transportation"
+    },
+    {
+      "id": 102,
+      "type": "multiple-choice",
+      "question": "You are at a train station and your train is delayed. A sign says 'Platform 3 — Delayed 20 minutes.' What does this mean?",
+      "options": ["The train has been cancelled", "The train will arrive 20 minutes later than scheduled", "You are at the wrong platform", "The train is 20 minutes early"],
+      "correct": 1,
+      "explanation": "'Delayed 20 minutes' means the train will arrive 20 minutes after its scheduled time.",
+      "is_preview": true,
+      "preview_unit": 5,
+      "preview_unit_title": "Travel & Transportation"
+    }
+  ]
+}

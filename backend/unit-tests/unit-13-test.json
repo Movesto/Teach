@@ -1,0 +1,110 @@
+{
+  "unit_id": 13,
+  "unit_title": "Mastery & Fluency",
+  "description": "Test your mastery of C2-level language — idiomatic fluency, register shifting, syntactic parallelism, sophisticated cohesive devices, academic hedging, and complex grammatical structures including cleft sentences, subjunctive, mixed conditionals, and fronting",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "A writer produces the following two sentences: (A) 'The policy failed. The implementation was poor. The communication was inadequate.' (B) 'The policy failed through poor implementation, inadequate communication, and a fundamental misreading of stakeholder expectations.' What principle of advanced style does sentence B demonstrate over sentence A?",
+      "options": [
+        "Nominalization — converting adjectives to noun forms",
+        "Syntactic parallelism — arranging multiple equivalent elements in a consistent grammatical pattern within a single complex sentence",
+        "Fronting — moving the subject to a more prominent position",
+        "Hedging — reducing commitment to the claim about policy failure"
+      ],
+      "correct": 1,
+      "explanation": "Sentence B integrates three equivalent elements — 'poor implementation', 'inadequate communication', 'a fundamental misreading' — into a parallel series within a single prepositional phrase 'through…'. Syntactic parallelism creates rhythm, concision, and intellectual coherence. Sentence A fragments the same content into three short clauses, which is grammatically correct but stylistically impoverished at C2 level."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Consider: 'Had the consultation process been more inclusive, the backlash might never have materialised.' What is the grammatical structure of the opening clause, and what does it imply about the speaker's view of reality?",
+      "options": [
+        "It is a third conditional using 'if' — the speaker is discussing a future possibility",
+        "It is a mixed conditional using inverted 'had' — the speaker believes the consultation was not inclusive and this caused the backlash",
+        "It is a second conditional — the speaker believes the consultation could still be made more inclusive",
+        "It is a subjunctive clause — the speaker is making a formal recommendation"
+      ],
+      "correct": 1,
+      "explanation": "'Had the consultation process been more inclusive' is a third conditional with subject-auxiliary inversion replacing 'If it had been…'. The past perfect in the conditional clause and 'might never have materialised' in the main clause both refer to a past event that did not happen — implying the consultation was NOT inclusive and the backlash DID occur. The inversion ('Had…') is a formal stylistic variant that marks this as high-register written English."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Which sentence demonstrates the most effective register shift from informal to formal written English while preserving the original meaning? Original: 'A lot of people think the plan won't work, but the boss pushed it through anyway.'",
+      "options": [
+        "Many people thought the plan would not work, but the boss pushed it through regardless.",
+        "Despite widespread scepticism regarding the plan's viability, the proposal was nonetheless advanced by senior leadership.",
+        "The plan was widely thought to be unworkable, but it went ahead.",
+        "Although many people doubted it, the boss decided to proceed with the plan."
+      ],
+      "correct": 1,
+      "explanation": "Option B achieves the highest register through: nominalization ('scepticism' from 'think'), a formal complex adjective ('viability'), a concessive conjunction ('Despite'), the impersonal passive ('was…advanced'), and a formal noun for the boss ('senior leadership'). C and D are acceptable but mid-register — they retain accessible vocabulary and active constructions. A replaces only the informal elements minimally."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "Identify the sentence that contains a complex participle clause used appropriately at C2 level:",
+      "options": [
+        "Having reviewed the available evidence, the committee concluded that further investigation was warranted.",
+        "The committee reviewed the evidence and they concluded that further investigation was warranted.",
+        "After reviewing the evidence the committee they concluded that further investigation was warranted.",
+        "When the committee had reviewed the evidence, they thought that more investigation should happen."
+      ],
+      "correct": 0,
+      "explanation": "Option A uses a perfect participial clause ('Having reviewed the available evidence') in which the implicit subject ('the committee') is shared with the main clause — a syntactically well-formed and stylistically sophisticated construction. The participle clause condenses a temporal/causal relationship into a single phrase, increasing lexical density. Options B and D use full finite clauses where a participle would be more concise; option C contains a grammatical error (repeated subject)."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "The idiomatic expression 'to sit on the fence' means to avoid committing to a position on a controversial issue, and it is typically used in neutral or approving contexts.",
+      "correct": false,
+      "explanation": "'To sit on the fence' does mean to avoid committing to a position, but it is typically used in mildly critical or ironic contexts — implying a failure of courage or conviction rather than admirable balance. Register and pragmatic connotation are as important as denotation at C2 level. A neutral synonym would be 'to remain non-committal'; a positive framing might be 'to take a balanced view'."
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "statement": "In the sentence 'It is essential that every participant submit a signed declaration before the session begins,' the form 'submit' (not 'submits') is grammatically correct because it is a mandative subjunctive following an adjective of necessity.",
+      "correct": true,
+      "explanation": "After expressions of necessity, importance, or recommendation ('it is essential/vital/imperative that…'), the mandative subjunctive uses the base form of the verb regardless of person or number. 'Submit' is correct; 'submits' would be the indicative third-person singular form, which is grammatically wrong here. This subjunctive pattern is a marker of formal written English."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "The report's conclusions are thought-provoking; ___, they rest on a methodological assumption that deserves closer scrutiny.",
+      "answer": "nevertheless",
+      "hint": "a high-register cohesive device that introduces a qualification despite an acknowledged strength",
+      "explanation": "'Nevertheless' (or 'nonetheless') is the appropriate concessive discourse marker here. It acknowledges the value of the conclusions before pivoting to a limitation — a move characteristic of balanced academic critique. 'However' would also be acceptable, but 'nevertheless' is the stronger, more formal marker of genuine concession."
+    },
+    {
+      "id": 8,
+      "type": "fill-in-blank",
+      "sentence": "The candidate spoke eloquently, ___ she addressed the key policy questions only in the broadest terms, without substantive detail.",
+      "answer": "although",
+      "hint": "a concessive subordinating conjunction meaning 'even though / despite the fact that'",
+      "explanation": "'Although' introduces a subordinate concessive clause that qualifies the main clause. It signals that both facts are true simultaneously, but the second modifies the implied evaluation of the first. In formal analysis, the 'X, although Y' construction allows a writer to make a nuanced judgment — acknowledging a strength while identifying a limitation."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each sentence to the advanced language feature it demonstrates.",
+      "pairs": [
+        {"left": "'To succeed in this environment is one thing; to sustain that success over the long term is quite another.'", "right": "Syntactic parallelism creating a contrast between two infinitive phrases"},
+        {"left": "'Committed as she was to the project, she recognised its fundamental limitations.'", "right": "Inverted concessive construction (adjective + as + subject + verb)"},
+        {"left": "'What remains underexplored in the literature is the role of informal networks.'", "right": "Cleft sentence identifying a gap in prior research"},
+        {"left": "'The proposal, had it been adopted sooner, might have averted the crisis entirely.'", "right": "Embedded conditional inversion in a parenthetical non-defining clause"}
+      ],
+      "explanation": "Parallel infinitive phrases create rhetorical contrast through identical syntactic form. Inverted concessives ('Committed as she was…') acknowledge a truth before qualifying it. 'What…is…' clefts foreground gaps or corrections. Embedded conditional inversion ('had it been…') condenses a counterfactual into a parenthetical — a marker of syntactic sophistication at C2 level."
+    },
+    {
+      "id": 10,
+      "type": "ordering",
+      "instruction": "Reconstruct this sentence beginning with 'So', using the correct inversion structure (so + adjective + be + subject + that…):",
+      "words": ["So", "profound", "was", "the", "shift", "in", "public", "sentiment", "that", "the", "party", "was", "forced", "to", "abandon", "its", "flagship", "policy"],
+      "answer": ["So", "profound", "was", "the", "shift", "in", "public", "sentiment", "that", "the", "party", "was", "forced", "to", "abandon", "its", "flagship", "policy"],
+      "explanation": "The 'So + adjective + was/is + subject + that…' construction is an emphatic inversion expressing degree and consequence. Here: 'So profound was the shift in public sentiment that the party was forced to abandon its flagship policy.' The adjective 'profound' is fronted with 'so', triggering inversion of 'was' before the subject 'the shift'. This is an advanced rhetorical structure used in formal writing to emphasise the significance of a cause and its effect."
+    }
+  ],
+  "preview_questions": []
+}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play } from 'lucide-react';
+import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const CEFR_BADGE = {
@@ -69,7 +69,7 @@ export default function Dashboard() {
   useEffect(() => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
-      fetch('/api/units').then(r => r.json()),
+      fetch('/api/units', { headers }).then(r => r.json()),
       fetch('/api/books').then(r => r.json()),
       fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
     ])
@@ -268,6 +268,19 @@ export default function Dashboard() {
                 </div>
                 <div className="flex items-center gap-3 flex-shrink-0">
                   <span className="text-sm opacity-90">{unit.completed_lessons || 0}/{unit.total_lessons}</span>
+                  {unit.test_done ? (
+                    <span className="flex items-center gap-1 text-xs bg-white/20 text-white px-2 py-0.5 rounded-full font-semibold">
+                      <Trophy className="w-3 h-3" /> {Math.round(unit.test_percentage || unit.test_score || 0)}%
+                    </span>
+                  ) : (
+                    <Link
+                      to={`/unit-test/${unit.id}`}
+                      className="flex items-center gap-1 text-xs bg-amber-400 hover:bg-amber-300 text-white px-2.5 py-1 rounded-full font-semibold transition-colors"
+                      onClick={e => e.stopPropagation()}
+                    >
+                      <Trophy className="w-3 h-3" /> Test
+                    </Link>
+                  )}
                   <ChevronRight className={`w-5 h-5 transition-transform ${openUnit === unit.id ? 'rotate-90' : ''}`} />
                 </div>
               </button>

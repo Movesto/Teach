@@ -2,236 +2,231 @@
   "id": "lesson-56",
   "unit_id": 9,
   "lesson_number": 6,
-  "title": "Negotiation Skills",
-  "level": "upper-intermediate",
-  "estimated_time": 45,
+  "title": "Negotiation: Language, Strategy, and High-Stakes Communication",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Negotiate salary and benefits effectively",
-    "Handle conflict resolution professionally",
-    "Find win-win solutions in disagreements",
-    "Use diplomatic language in negotiations"
+    "Analyse the structure of negotiation discourse and distinguish between positional and interest-based approaches",
+    "Evaluate the role of language in creating and dissolving impasse, with particular attention to framing effects",
+    "Construct negotiating positions using principled concession language that preserves relationships and advances outcomes",
+    "Deploy tentative language, conditional offers, and strategic silence as deliberate communicative tools"
   ],
-  "target_phrases": [
-    "I was hoping for...",
-    "Would you be open to...?",
-    "From my perspective...",
-    "Let's find a solution that works for both of us",
-    "I understand your position, and...",
-    "What if we...?",
-    "Could we meet in the middle on...?"
+  "authentic_text": {
+    "title": "Getting Past No: The Language of Principled Negotiation",
+    "type": "article",
+    "text": "The most common mistake negotiators make is also the most understandable: they negotiate positions. This is natural because positions are concrete — they are the things you want, the numbers you have in mind, the outcomes you are prepared to accept. But positions, as the Harvard Negotiation Project famously demonstrated, are not interests. An interest is the underlying need, concern, or desire that generates a position. When two people are fighting over the last orange, their positions are incompatible; but if one wants the peel for baking and the other wants the juice for drinking, their interests are not. Negotiating positions produces winners and losers; negotiating interests can produce solutions that leave both parties better off than any compromise would.\n\nLanguage is the primary medium through which negotiating positions harden or soften. The verb tenses we use, the conditionals we deploy, the modal verbs we select — these signal our degree of flexibility with far more precision than explicit statements of willingness. An offer framed as 'I'll give you X' is a position; 'I might be in a position to consider X, depending on what you can do on Y' is an invitation to explore interests. The second formulation is not weaker — it is more sophisticated, and in most cases more effective.\n\nProfessional negotiators also exploit what is sometimes called 'strategic silence': the deliberate pause after a proposal that communicates seriousness, invites the other party to fill the space, and resists the social pressure to over-explain or concede prematurely. This is a skill that runs against social instinct, which tends toward reassurance and continued talk. Learning to be comfortable with silence is, paradoxically, one of the most communicatively sophisticated things a negotiator can do.\n\nThe goal of principled negotiation is not to 'win' in a zero-sum sense but to reach an agreement that both parties can sustain — one that addresses the underlying interests rather than merely resolving the surface positions.",
+    "source": "Adapted from the Financial Times, November 2024",
+    "notes": "Notice how the orange anecdote in paragraph 1 does a great deal of conceptual work efficiently — this is the rhetorical technique of the 'illuminating example', worth practising in your own writing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What distinction does the writer draw between 'positions' and 'interests' in negotiation?",
+      "answer": "A position is what you explicitly want — the concrete outcome, number, or condition you are prepared to accept. An interest is the underlying need, concern, or desire that generates that position. Positions can be incompatible even when interests are compatible or complementary."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by saying the orange analogy shows interests 'are not' incompatible, rather than 'may not be'?",
+      "answer": "By using 'are not' (definitive) rather than 'may not be' (hedged), the writer is presenting the orange example as a demonstration of a general principle, not merely a lucky coincidence. The implication is that in most cases, negotiating at the level of interests reveals compatibility that positional negotiation obscures."
+    },
+    {
+      "type": "tone",
+      "question": "How does the writer's tone in paragraph 2 differ from the tone in paragraph 1? Give evidence.",
+      "answer": "Paragraph 1 is narrative and conceptual — the writer tells a story (the orange) to illustrate a distinction, using accessible, slightly informal language ('fighting over', 'last orange'). Paragraph 2 becomes more precise and technical, engaging with linguistic analysis ('verb tenses', 'conditionals', 'modal verbs'). The shift signals that the writer is moving from accessible introduction to more expert-level analysis."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'strategic silence' (paragraph 3) mean in the context of negotiation?",
+      "answer": "Strategic silence refers to the deliberate choice to pause and say nothing after making a proposal, rather than filling the space with further talk. It is 'strategic' because the silence serves a communicative purpose: it signals seriousness, creates pressure on the other party to respond, and prevents premature concession."
+    },
+    {
+      "type": "purpose",
+      "question": "Why does the writer say that learning to be comfortable with silence is 'paradoxically' sophisticated?",
+      "answer": "The paradox is that silence — doing nothing, saying nothing — is in fact the result of complex skill and discipline. Social instinct drives us to fill silence with words; deliberately resisting this instinct requires awareness, self-control, and strategic judgement. 'Sophistication' is usually associated with verbal complexity, not with restraint — hence the paradox."
+    }
   ],
-  "dialogue": {
-    "title": "Negotiating a Job Offer",
-    "context": "Ahmed receives a job offer and negotiates salary with the hiring manager.",
-    "lines": [
-      {"speaker": "Manager", "text": "Ahmed, we're pleased to offer you the logistics supervisor position at $58,000 per year plus standard benefits."},
-      {"speaker": "Ahmed", "text": "Thank you! I'm very excited about this opportunity. May I have a day or two to review the offer?"},
-      {"speaker": "Manager", "text": "Of course. Take your time."},
-      {"speaker": "Ahmed", "text": "[Next day] I've reviewed the offer carefully. Based on my research and experience, I was hoping for a salary in the range of $62,000 to $65,000."},
-      {"speaker": "Manager", "text": "I understand. That's above our initial offer. Can you help me understand what's driving that expectation?"},
-      {"speaker": "Ahmed", "text": "Certainly. I have five years of warehouse experience, I'm bilingual, and I have logistics certification. The industry average for this role in Portland is $63,000 according to recent salary surveys."},
-      {"speaker": "Manager", "text": "Those are good points. Let me see what I can do. I can offer $60,000, which is our maximum for this level."},
-      {"speaker": "Ahmed", "text": "I appreciate you working with me on this. Would you be open to discussing other aspects of the compensation package? For example, additional vacation days or professional development budget?"},
-      {"speaker": "Manager", "text": "That's a reasonable approach. I could offer three weeks vacation instead of the standard two, starting immediately rather than after one year."},
-      {"speaker": "Ahmed", "text": "That's valuable to me. What if we also included an earlier performance review - say at six months - with potential for raise based on performance?"},
-      {"speaker": "Manager", "text": "I can agree to that. So: $60,000 base, three weeks vacation from day one, and six-month review with raise potential. Does that work for you?"},
-      {"speaker": "Ahmed", "text": "Yes, that feels fair. Thank you for being flexible and finding solutions that work for both of us. I accept the offer."}
+  "language_analysis": {
+    "focus": "Tentative Language and Conditional Offers in Professional Negotiation",
+    "explanation": "In negotiation contexts, the language used to make proposals, explore options, and signal flexibility is highly calibrated. Skilled negotiators do not make explicit statements of willingness or unwillingness — they use tentative constructions that preserve optionality and invite reciprocal movement.\n\nTentative language typically involves: modal verbs of possibility and conditionality ('might', 'could', 'would'), hypothetical framing ('If you were able to... I might consider...'), and distancing constructions ('It may be that we could look at...'). The effect is to signal openness without commitment, which is fundamentally different from being evasive or dishonest — it is a recognition that negotiation is an exploratory process, not an exchange of fixed demands.\n\nConditional offers (also called 'if-then' exchanges) are among the most important tools in negotiation discourse: 'If you can deliver by the 15th, then I can authorise the full amount.' The explicit conditioning links concessions reciprocally, preventing one-sided giving and communicating the logic of the deal simultaneously.",
+    "examples": [
+      {
+        "from_text": "'I might be in a position to consider X, depending on what you can do on Y'",
+        "analysis": "This formulation stacks multiple layers of tentativeness: 'might' (not 'will' or 'can'), 'in a position to' (distancing the speaker from direct agency), 'consider' (not 'accept' or 'offer'), and the conditional 'depending on what you can do on Y' (linking any movement to reciprocal movement). Each choice reduces commitment while preserving engagement."
+      },
+      {
+        "from_text": "the deliberate pause after a proposal that... resists the social pressure to over-explain or concede prematurely",
+        "analysis": "This is a description of strategic silence as a linguistic tool. The writer identifies 'premature concession' as a specific risk — the tendency to add qualifications or softeners after a proposal, which weakens the position. Silence, in this context, is a form of communicative restraint that communicates more confidence than filling the space would."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Were you in a position to extend the payment terms to ninety days, I might be able to offer a more favourable unit price.",
+        "informal": "If you let us pay later, we could probably lower the price a bit."
+      },
+      {
+        "formal": "I wonder whether there might be some flexibility on the delivery schedule that could enable us to explore a longer-term arrangement.",
+        "informal": "Can you deliver later? Because if so, we might want to keep working with you."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Making polite requests in negotiation",
-      "pattern": "I was hoping for... / Would you be open to...?",
-      "examples": [
-        "I was hoping for a salary closer to $65,000.",
-        "I was hoping we could discuss flexible work arrangements.",
-        "Would you be open to considering additional vacation time?",
-        "Would you be willing to include professional development in the package?",
-        "I was hoping we could revisit this after my first review."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Proposing alternatives",
-      "pattern": "What if we...? / Could we meet in the middle on...?",
-      "examples": [
-        "What if we started at this rate with a review in six months?",
-        "Could we meet in the middle at $61,000?",
-        "What if I worked remotely two days per week?",
-        "Could we compromise on three weeks vacation instead of four?",
-        "What if we included performance bonuses in the package?"
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Acknowledging and bridging",
-      "pattern": "I understand your position, and [present your view]",
-      "examples": [
-        "I understand budget constraints, and I believe my experience justifies this investment.",
-        "I understand this is above the standard offer, and I bring unique qualifications.",
-        "I understand your timeline concerns, and I can be flexible on start date.",
-        "I understand the company policy, and I'd like to discuss exceptions.",
-        "I understand that's your maximum, and perhaps we can look at non-salary benefits."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson6-listen1.mp3",
-      "transcript": "Successful negotiation isn't about winning while the other person loses - it's about finding win-win solutions. Research your market value thoroughly before negotiations. Know your minimum acceptable offer (your 'walk away' point). Start higher than your target to leave room for compromise. Always be professional and courteous - relationships matter. Don't accept immediately even if the first offer is good - there may be room for improvement.",
-      "question": "What should you know before negotiating?",
-      "options": [
-        "Nothing - just wing it",
-        "Your market value and minimum acceptable offer",
-        "Only what you want",
-        "Company's maximum budget"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson6-listen2.mp3",
-      "transcript": "When negotiating salary, expand beyond base pay. Consider: signing bonus, annual bonus, vacation time, flexible schedule, remote work options, professional development budget, earlier performance review, relocation assistance, stock options, retirement matching. If salary is fixed, negotiate these benefits. Present data to support requests: 'According to industry surveys, the median is...' Facts are more persuasive than feelings.",
-      "question": "If salary is fixed, what can you negotiate?",
-      "options": [
-        "Nothing",
-        "Other benefits like vacation, development, flexibility",
-        "Only signing bonus",
-        "Company car only"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson6-listen3.mp3",
-      "transcript": "Negotiation language should be collaborative, not adversarial. Say 'I was hoping for' not 'I demand.' Ask 'Would you be open to?' not 'You have to.' Frame it as problem-solving: 'Let's find a solution that works for both of us.' If you reach an impasse, don't burn bridges - say 'I understand we're at different points. Let me think about it and get back to you.' Thank them for their time regardless of outcome.",
-      "question": "How should negotiation language be?",
-      "options": [
-        "Demanding and aggressive",
-        "Collaborative and polite",
-        "Passive and apologetic",
-        "Confusing and vague"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You're offered a job at $50,000 but researched that the average is $55,000. Negotiate professionally using diplomatic language. Record for 30 seconds.",
-      "example": "Thank you so much for the offer - I'm really excited about this opportunity. I've done some research on market rates for this position, and I was hoping we could discuss the salary. Based on industry data from sources like Glassdoor and the Bureau of Labor Statistics, the median salary for this role in our region is around $55,000. Given my three years of relevant experience and my project management certification, I was hoping for a salary closer to that range. Would you be open to considering $54,000? I understand budgets can be constrained, so if that's not possible, could we discuss other aspects of the compensation package, such as performance bonuses or professional development opportunities? I'm flexible and want to find a solution that works for both of us.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You and a coworker disagree about how to handle a project. Propose a compromise that addresses both concerns. Record for 25 seconds.",
-      "example": "I understand your position that we should prioritize speed to meet the deadline. From my perspective, we also need to ensure quality so we don't have to redo work later. Let's find a solution that works for both of us. What if we broke the project into phases? We could deliver the core features on time as you suggested, which addresses the deadline concern. Then we'd schedule a second phase for additional features and refinements, which addresses my quality concerns. This way, we meet the immediate deadline while maintaining standards. Could we meet in the middle with this approach? It uses both of our priorities.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write an email negotiating a job offer. Include: thank them, state your research, make your case, propose alternatives, maintain positive tone. (100-120 words)",
-      "min_words": 100,
-      "example": "Subject: Re: Job Offer - Marketing Coordinator Position\n\nDear Ms. Thompson,\n\nThank you for offering me the Marketing Coordinator position. I'm very excited about the opportunity to join your team and contribute to the company's digital marketing initiatives.\n\nI've carefully reviewed the offer of $52,000. Based on my research of comparable positions in the Seattle area and my five years of experience in digital marketing, I was hoping we could discuss a salary of $57,000. This aligns with industry standards for someone with my background in SEO, content strategy, and analytics.\n\nI understand budget constraints exist. If $57,000 isn't feasible, would you be open to discussing alternatives such as performance bonuses, additional vacation time, or a salary review after six months?\n\nI'm confident I'll bring significant value to your team, and I hope we can find a compensation package that reflects that.\n\nThank you for your consideration.\n\nBest regards,\nAhmed Hassan",
-      "min_words": 100
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a response to this scenario: You asked for flexible work schedule (2 days remote). Your boss said no. Write a compromise proposal. (80-100 words)",
-      "min_words": 80,
-      "example": "I understand the company's preference for in-office work and I appreciate you considering my request for remote work. I'd like to propose a compromise that addresses both our concerns.\n\nWhat if we started with a trial period of one remote day per week for three months? This would allow you to evaluate whether productivity remains strong while giving me some flexibility. We could set clear expectations: I'd be available during all core hours, attend all required meetings via video, and provide regular progress updates.\n\nIf the trial is successful, we could discuss extending it. If it doesn't work well, we'd return to full-time office work with no hard feelings. This way, we can test the arrangement with minimal risk. Would you be open to trying this approach?",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Conditional Forms for Proposals",
-      "explanation": "Use conditional sentences to propose alternatives and compromises.",
-      "examples": [
-        "If we started at $60,000, I would accept today.",
-        "What if we included performance bonuses?",
-        "If I worked remotely twice weekly, would that work?",
-        "I would be willing to start at this rate if we scheduled an early review."
-      ],
-      "practice": [
-        {"sentence": "If we ___ at $60K, I'd accept.", "blank": "started", "options": ["start", "started", "starts"]},
-        {"sentence": "What if we ___ bonuses?", "blank": "included", "options": ["include", "included", "includes"]},
-        {"sentence": "I ___ be willing to compromise.", "blank": "would", "options": ["would", "will", "can"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Modal Verbs for Polite Requests",
-      "explanation": "Use 'could,' 'would,' 'might' to make requests sound less demanding.",
-      "examples": [
-        "Could we discuss other options?",
-        "Would you be open to considering this?",
-        "Might there be room for flexibility?",
-        "Could you help me understand the reasoning?"
-      ],
-      "practice": [
-        {"sentence": "___ we discuss this further?", "blank": "Could", "options": ["Can", "Could", "Will"]},
-        {"sentence": "___ you consider this proposal?", "blank": "Would", "options": ["Will", "Would", "Can"]},
-        {"sentence": "___ there be alternatives?", "blank": "Might", "options": ["Can", "Might", "Will"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Subjunctive Mood for Hypothetical Situations",
-      "explanation": "Use subjunctive (were instead of was) for hypothetical negotiations.",
-      "examples": [
-        "If I were in your position, I'd consider this.",
-        "If that were possible, I'd accept immediately.",
-        "I wish it were feasible to offer more.",
-        "If I were to start next month, could we discuss benefits?"
-      ],
-      "practice": [
-        {"sentence": "If I ___ you, I'd negotiate.", "blank": "were", "options": ["was", "were", "am"]},
-        {"sentence": "If that ___ possible, I'd agree.", "blank": "were", "options": ["was", "were", "is"]},
-        {"sentence": "I wish it ___ higher.", "blank": "were", "options": ["was", "were", "is"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What should you do before negotiating salary?", "options": ["Accept immediately", "Research market value", "Demand double", "Ignore the offer"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "If salary is fixed, what can you negotiate?", "options": ["Nothing", "Benefits like vacation and development", "Only title", "Company ownership"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What tone should negotiation have?", "options": ["Aggressive", "Collaborative", "Passive", "Angry"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'If we ___ at $60K, I'd accept.'", "options": ["start", "started", "starts", "starting"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should always accept the first offer immediately.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Win-win solutions benefit both parties.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ we discuss alternatives? (polite modal)", "correct": "Could", "accept": ["Could", "Would", "Might"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "If I ___ you, I'd negotiate. (subjunctive)", "correct": "were", "accept": ["were"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match negotiation concept:", "pairs": [{"left": "Win-win", "right": "Both benefit"}, {"left": "Walk-away point", "right": "Minimum acceptable"}, {"left": "Compromise", "right": "Meet in middle"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed negotiated for what besides salary?", "options": ["Company car", "Vacation time and review schedule", "Corner office", "Different title"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
+      {
+        "incorrect": "We are prepared to increase the order, providing that the price is maintained at the current level.",
+        "correct": "We are prepared to increase the order, provided that the price is maintained at the current level.",
+        "explanation": "In formal conditional contexts, 'provided that' (not 'providing that') is the standard conjunction. 'Providing that' is used informally and is increasingly accepted, but in formal professional writing, 'provided that' or 'on condition that' is preferred."
+      },
+      {
+        "incorrect": "She made a compromise by accepting less money than she had originally asked.",
+        "correct": "She accepted a compromise by taking less money than she had originally requested.",
+        "explanation": "You 'reach', 'accept', or 'agree to' a compromise — you do not 'make' one (which is more common with offers, suggestions, and mistakes). Additionally, 'asked' in the sense of 'requested a specific amount' is informal; 'requested' or 'sought' is preferred in formal professional contexts."
+      },
+      {
+        "incorrect": "Both parties agreed to the terms, despite they had significant reservations.",
+        "correct": "Both parties agreed to the terms, despite having significant reservations.",
+        "explanation": "'Despite' is a preposition and must be followed by a noun or gerund, not a clause. 'Despite they had' is incorrect — it should be 'despite having' (gerund) or 'even though they had' (conjunction + clause)."
+      },
+      {
+        "incorrect": "The negotiation took much longer than it was anticipated.",
+        "correct": "The negotiation took much longer than anticipated.",
+        "explanation": "'Than anticipated' is the standard elliptical construction — 'than it was anticipated' is redundant and slightly unidiomatic. In comparative constructions after 'than', the subject and auxiliary are commonly omitted when they are recoverable from context."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "negotiate", "definition": "discuss to reach agreement", "example": "I'll negotiate the salary offer."},
-    {"word": "compromise", "definition": "agreement where each side gives up something", "example": "Let's find a compromise."},
-    {"word": "leverage", "definition": "power to influence outcome", "example": "Your experience gives you leverage."},
-    {"word": "concession", "definition": "thing given up to reach agreement", "example": "We both made concessions."},
-    {"word": "counteroffer", "definition": "offer made in response to another", "example": "I presented a counteroffer."},
-    {"word": "win-win", "definition": "outcome beneficial to all parties", "example": "We found a win-win solution."},
-    {"word": "impasse", "definition": "deadlock with no progress", "example": "We reached an impasse."},
-    {"word": "flexibility", "definition": "willingness to change or adapt", "example": "Show flexibility in negotiations."},
-    {"word": "benchmark", "definition": "standard for comparison", "example": "Industry benchmarks support my request."},
-    {"word": "mutual", "definition": "shared by two or more parties", "example": "We found mutual agreement."}
-  ],
-  "cultural_notes": [
-    "Salary negotiation is expected and respected in U.S. job culture - not negotiating can be seen as lack of confidence.",
-    "American business culture values direct but polite communication in negotiations - being too indirect can be confusing.",
-    "Women and minorities are statistically less likely to negotiate salary in the U.S., contributing to pay gaps - everyone should negotiate.",
-    "Most initial job offers have some flexibility - first offers are rarely the best possible offer.",
-    "Always negotiate in writing (email) after verbal offers to have documentation.",
-    "In American culture, negotiation is viewed as professional and smart, not greedy or ungrateful."
+  "debate_task": {
+    "motion": "This house believes that in high-stakes negotiations, strategic deception — presenting a weaker hand as a stronger one — is justified.",
+    "stance": "balanced",
+    "key_arguments": [
+      "All negotiation involves information management — the expectation of complete transparency is naive, and the deliberate withholding or shaping of information is a normal and necessary feature of competitive exchange.",
+      "If deception were prohibited, the more powerful party in any negotiation would automatically 'win', since power asymmetries would not be corrected by strategic bluffing; some degree of deception levels the playing field.",
+      "Negotiating norms themselves anticipate strategic presentation — a skilled counterpart is expected to distinguish a bluff from a genuine position; the game is not played with full disclosure."
+    ],
+    "counter_arguments": [
+      "Strategic deception, when discovered, destroys the trust on which durable agreements depend; the short-term advantage of a successful bluff is often outweighed by the long-term cost of damaged relationships.",
+      "There is a meaningful ethical distinction between managing information strategically and actively misrepresenting facts; the latter can constitute fraud in commercial contexts and may have legal consequences.",
+      "Negotiation theory consistently finds that interest-based, transparent approaches produce more mutually beneficial outcomes than positional bluffing — the premise that deception improves outcomes is empirically questionable."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. You must clearly define what counts as 'strategic deception', develop two arguments, address the strongest counterargument using a concessive structure, and close with a statement of principle."
+  },
+  "extended_writing": {
+    "type": "report",
+    "task": "Write a 250-word section of a professional report for a company's senior management, summarising the outcome of a recent contract negotiation with a supplier. The negotiation resulted in a two-year contract at better terms than the original offer, but a longer lead time than hoped. Present the outcome objectively, explain the trade-offs, and recommend whether to accept.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Summary",
+        "guidance": "State the outcome of the negotiation clearly and concisely in 2-3 sentences. Use formal, impersonal language."
+      },
+      {
+        "section": "Terms achieved",
+        "guidance": "Detail the key terms: what was gained (price, contract length) and what was conceded (lead time). Use precise, factual language."
+      },
+      {
+        "section": "Analysis of trade-offs",
+        "guidance": "Evaluate the trade-off between price/term benefits and the extended lead time. What are the operational implications?"
+      },
+      {
+        "section": "Recommendation",
+        "guidance": "Make a clear recommendation. Use formal hedging where appropriate, but commit to a position."
+      }
+    ],
+    "model_answer": "Negotiation Outcome: Supply Contract — Harrington Materials Ltd\nPrepared by: Procurement Division | Date: March 2025\n\nSummary\nFollowing three rounds of negotiation, a two-year supply contract has been agreed with Harrington Materials Ltd at a unit price of £4.20, representing a 12% reduction on their initial offer of £4.78. The contract includes a fixed-price guarantee for the full duration, providing significant cost predictability. The principal concession made in securing these terms was an extension of the standard lead time from six to ten weeks.\n\nTerms Achieved\nThe agreed contract delivers a price saving of approximately £180,000 over the two-year term relative to the initial offer. The fixed-price guarantee insulates the business from anticipated material cost increases in Q3 2025. The extended lead time of ten weeks, however, represents a four-week increase on current arrangements, with implications for inventory management and order scheduling.\n\nAnalysis of Trade-offs\nThe financial case for acceptance is strong. The price reduction and fixed-price protection outweigh the lead-time extension in terms of overall value. The operational adjustment required — earlier ordering cycles and increased buffer stock — is manageable within existing warehouse capacity and would add an estimated £8,000 in annual holding costs, a fraction of the savings achieved.\n\nRecommendation\nIt is recommended that the contract be accepted. The financial benefits are substantive and the lead-time adjustment, while inconvenient, is operationally feasible. The Procurement team should update internal ordering protocols in advance of contract commencement."
+  },
+  "advanced_grammar": {
+    "structure": "Conditional Inversion and Formal Conditionals in Professional Writing",
+    "explanation": "In formal written and professional English, conditional sentences can be expressed through inversion — by placing the auxiliary verb before the subject — rather than using the word 'if'. This construction is characteristic of legal, commercial, and academic documents, and of formal speeches. It creates a tone of authority and precision.\n\nThe three main inversion types are: 'Should + subject + infinitive' (replacing first conditional), 'Were + subject + infinitive' (replacing second conditional), and 'Had + subject + past participle' (replacing third conditional). Each type corresponds to a different degree of likelihood: 'should' suggests something is possible; 'were' suggests a hypothetical present; 'had' suggests a hypothetical past.",
+    "authentic_examples": [
+      "Should either party wish to terminate the agreement, 30 days' written notice must be provided. (replacing: If either party wishes to terminate...)",
+      "Were the delivery schedule to be extended beyond twelve weeks, the contract terms would require renegotiation. (replacing: If the delivery schedule were extended...)",
+      "Had the initial offer been accepted, the company would have paid an estimated £180,000 more over the contract term. (replacing: If the initial offer had been accepted...)"
+    ],
+    "practice": [
+      {
+        "sentence": "If you want to renegotiate the terms, please submit a written request.",
+        "transform": "Rewrite using conditional inversion with 'should'.",
+        "answer": "Should you wish to renegotiate the terms, please submit a written request."
+      },
+      {
+        "sentence": "If the other party were to withdraw, the entire agreement would be void.",
+        "transform": "Rewrite using formal conditional inversion with 'were'.",
+        "answer": "Were the other party to withdraw, the entire agreement would be void."
+      },
+      {
+        "sentence": "If the contract had been reviewed more carefully, the problematic clause would have been identified.",
+        "transform": "Rewrite using formal conditional inversion with 'had'.",
+        "answer": "Had the contract been reviewed more carefully, the problematic clause would have been identified."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "In the orange analogy, what is the key insight the writer is illustrating?",
+      "options": [
+        "Negotiators should always share scarce resources equally",
+        "Positions appear incompatible but underlying interests may be compatible or even complementary",
+        "Fruit distribution is a useful metaphor for all negotiations",
+        "The best negotiators find creative ways to create more of a scarce resource"
+      ],
+      "correct": 1,
+      "explanation": "The orange example is used to demonstrate the distinction between positions (both want 'the orange') and interests (one wants the peel, one wants the juice). The insight is that interests, unlike positions, are often compatible — and negotiating at the level of interests opens possibilities that positional negotiation forecloses."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence uses conditional inversion correctly?",
+      "options": [
+        "Were the terms be accepted, we could proceed immediately.",
+        "Were the terms to be accepted, we could proceed immediately.",
+        "Were the terms accepted, we could have proceeded immediately.",
+        "Should the terms were accepted, we could proceed immediately."
+      ],
+      "correct": 1,
+      "explanation": "The correct form is 'Were + subject + to + infinitive': 'Were the terms to be accepted'. Option A incorrectly uses 'be' without 'to'; Option C uses the past participle without 'to be', which creates a third-conditional reading; Option D incorrectly adds 'were' to a 'should' inversion."
+    },
+    {
+      "id": 3,
+      "question": "What is the error in: 'Despite they had reservations, both parties agreed'?",
+      "options": [
+        "'Despite' should be 'although'",
+        "'Despite' must be followed by a noun or gerund, not a clause",
+        "The verb tense 'had' is incorrect after 'despite'",
+        "The sentence needs a comma after 'reservations'"
+      ],
+      "correct": 1,
+      "explanation": "'Despite' is a preposition and requires a noun or gerund: 'despite their reservations' or 'despite having reservations'. If you want to use a clause, you must use 'although' or 'even though': 'although they had reservations'. This is a very common error at advanced level."
+    },
+    {
+      "id": 4,
+      "question": "What does 'strategic silence' communicate to the other party in a negotiation?",
+      "options": [
+        "Disagreement and refusal to engage",
+        "Weakness and uncertainty about the position",
+        "Seriousness and confidence, while creating pressure to respond",
+        "Indifference to the outcome of the negotiation"
+      ],
+      "correct": 2,
+      "explanation": "Strategic silence after a proposal signals that the speaker is serious and confident enough not to over-explain or qualify — it allows the proposal to stand on its own weight. It also creates social pressure on the other party to respond, often prompting movement that would not have happened if the silence had been filled with further talk."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is the most appropriate formal version of 'Can you deliver later? Because if so, we might keep working with you'?",
+      "options": [
+        "Deliver later and we will consider continuing our arrangement.",
+        "I wonder whether there might be some flexibility on the delivery schedule that could enable us to explore a longer-term arrangement.",
+        "If you can do later delivery, a longer arrangement might be possible.",
+        "We want to keep working with you but only if your delivery times improve."
+      ],
+      "correct": 1,
+      "explanation": "Option B demonstrates the layers of tentative formal language appropriate to professional negotiation: 'I wonder whether' (distancing), 'might be' (modal possibility), 'some flexibility' (non-committal quantity), 'could enable' (conditional), and 'explore' (non-committal verb for an open-ended possibility). It asks and suggests simultaneously without committing to either."
+    }
   ]
 }

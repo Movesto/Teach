@@ -1,0 +1,114 @@
+{
+  "unit_id": 1,
+  "unit_title": "Daily Life & Survival",
+  "description": "Test what you learned in Unit 1",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "A stranger on the street looks confused and is holding a map. What is the most natural thing to say first?",
+      "options": ["Where are you going?", "Can I help you?", "You look lost.", "Follow me."],
+      "correct": 1,
+      "explanation": "'Can I help you?' is the standard polite offer of assistance to a stranger."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "It is 3:45 PM. How do you say this time in standard spoken English?",
+      "options": ["Three and forty-five", "Quarter to four", "Quarter past three", "Forty-five past three"],
+      "correct": 1,
+      "explanation": "3:45 is 'quarter to four' because it is 15 minutes before 4:00."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Someone says 'How are you?' in passing. Which reply is most appropriate?",
+      "options": ["I am very sick today.", "Fine, thanks. And you?", "My name is Ahmed.", "I do not understand."],
+      "correct": 1,
+      "explanation": "'Fine, thanks. And you?' is the standard brief reply to a casual greeting."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "'Excuse me' is used only when you make a mistake.",
+      "correct": false,
+      "explanation": "'Excuse me' is also used to get someone's attention or to politely pass by someone — not only when apologizing."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "In English, Monday is considered the first day of the working week.",
+      "correct": true,
+      "explanation": "The working week runs Monday through Friday. Monday is the first working day."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "Turn left at the traffic lights, then go ___ until you see the post office.",
+      "blank_hint": "(keep moving forward without turning)",
+      "accepted_answers": ["straight", "straight ahead"],
+      "explanation": "'Straight' or 'straight ahead' means to continue in the same direction without turning."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "The pharmacy is ___ the bank — they are directly across from each other on the street.",
+      "blank_hint": "(on the other side of the road, facing it)",
+      "accepted_answers": ["opposite", "across from", "facing"],
+      "explanation": "'Opposite' means on the other side of the road, directly facing something."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "question": "Put these words in the correct order:",
+      "words": ["nearest", "is", "where", "the", "station"],
+      "correct": ["where", "is", "the", "nearest", "station"],
+      "explanation": "'Where is the nearest station?' is the correct question word order."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each phrase to its correct meaning.",
+      "pairs": [
+        {"left": "Good evening", "right": "greeting used after 6 PM"},
+        {"left": "See you later", "right": "informal way to say goodbye"},
+        {"left": "Excuse me", "right": "used to get someone's attention"},
+        {"left": "You're welcome", "right": "polite response to 'thank you'"}
+      ],
+      "explanation": "These are standard social phrases used in everyday English greetings and farewells."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "question": "Writing Task",
+      "prompt": "You have just arrived in a new city and need help. Write 3-5 sentences asking a local for directions to the nearest bus stop.",
+      "guidance": "Include: a polite greeting or opener, a clear request for help, and a thank you.",
+      "example_answer": "Excuse me, good morning. I am new to this area and I am looking for the nearest bus stop. Could you point me in the right direction? Thank you very much, I really appreciate your help.",
+      "explanation": "Writing tasks are self-assessed."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "Which phrase is the most natural way to introduce yourself to a new colleague on your first day of work?",
+      "options": ["What do you want from me?", "Hi, I'm new here — my name is Ahmed.", "Do you work here?", "I need someone to help me."],
+      "correct": 1,
+      "explanation": "A polite self-introduction at work includes a greeting, a note that you are new, and your name.",
+      "is_preview": true,
+      "preview_unit": 2,
+      "preview_unit_title": "People, Work & First Steps"
+    },
+    {
+      "id": 102,
+      "type": "multiple-choice",
+      "question": "What does the word 'colleague' mean?",
+      "options": ["A family member", "A person you work with", "Your direct manager", "A regular customer"],
+      "correct": 1,
+      "explanation": "A colleague is someone you work alongside — a co-worker.",
+      "is_preview": true,
+      "preview_unit": 2,
+      "preview_unit_title": "People, Work & First Steps"
+    }
+  ]
+}

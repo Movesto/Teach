@@ -2,268 +2,232 @@
   "id": "lesson-86",
   "unit_id": 13,
   "lesson_number": 6,
-  "title": "Humor, Irony & Reading the Room",
+  "title": "Mastery: Nuanced Expression and Academic Writing Conventions",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "It is Week 10. Ahmed has been growing. His seminar contributions are sharp. His emails are appropriately casual. He can decode Jake at full speed. But there is one area where he still feels blind: humor. Jake teases him constantly — about his formal vocabulary, his perfect posture, his habit of arriving to class exactly four minutes early. Ahmed never knows if he should be offended, amused, or neutral. One afternoon Jake calls him 'the most prepared person who has ever accidentally enrolled in college,' and the whole table laughs. Ahmed smiles, not knowing why. Priya explains it to him later. This lesson is about what she says.",
   "objectives": [
-    "Identify and produce three forms of American humor: irony, deadpan, and self-deprecation",
-    "Understand rhetorical questions that are not seeking answers",
-    "Distinguish between teasing that signals friendship and teasing that signals hostility",
-    "Respond to humor appropriately — including learning to laugh at yourself"
+    "Analyse the conventions of academic writing as a rhetorical system — understanding why conventions exist and what they communicate to a specialist reader",
+    "Evaluate the relationship between syntactic parallelism and argumentative clarity, and deploy parallel structure as a tool of precision rather than decoration",
+    "Synthesise the skills developed across the unit into a piece of sustained analytical writing that demonstrates mastery of register, cohesion, hedging, concision, and argument structure",
+    "Distinguish between the surface features of academic prose and the deeper intellectual habits that make academic writing genuinely excellent"
   ],
-  "target_phrases": [
-    "Oh, brilliant idea — what could possibly go wrong?",
-    "Yeah, I'm basically a genius at forgetting deadlines.",
-    "Right, because clearly I had nothing better to do.",
-    "That's me — always four minutes early to everything.",
-    "I have no idea what I'm doing — and I have tenure, so.",
-    "The assignment is trivially simple — only took me six hours.",
-    "What could go wrong? I asked myself. Everything, it turned out."
+  "authentic_text": {
+    "title": "What Writing Teaches",
+    "type": "article",
+    "text": "The most common misconception about academic writing is that it is a form of translation: that writers first think their thoughts, then translate those thoughts into academic language. This model flatters the writer but misrepresents the process. Writing, at its most productive, is not the transcription of thought — it is its production. The act of trying to say something clearly is often the act of discovering what you think.\n\nThis is why the conventions of academic prose matter beyond their surface function. The requirement to state a thesis at the outset does not merely tell the reader where the argument is going — it forces the writer to know. The requirement to support each claim with evidence does not merely satisfy the conventions of scholarly citation — it disciplines the writer into asking, for each assertion, what grounds it. The requirement to engage with objections does not merely demonstrate scholarly fairness — it obliges the writer to identify the weakest part of their own argument and to address it.\n\nAt the level of the sentence, the same principle holds. The discipline of parallelism — expressing coordinate ideas in coordinate grammatical form — is not merely an aesthetic convention. Parallel structure enforces conceptual parallel: if two ideas are expressed in the same syntactic form, the reader assumes they are being compared or contrasted in the same dimension. Asymmetry in form signals asymmetry in content. The writer who produces parallel structure without parallel meaning has failed to think the sentence through.\n\nMastery of academic writing is, ultimately, a form of mastery over thought. The conventions are constraints that are also possibilities: they discipline the writer into a mode of thinking that is, at its best, more rigorous, more honest, and more generative than the thinking that precedes them.",
+    "source": "Adapted from They Say / I Say: The Moves That Matter in Academic Writing, W. W. Norton",
+    "notes": "The final paragraph uses parallelism extensively and self-consciously — 'constraints that are also possibilities,' 'more rigorous, more honest, and more generative' — demonstrating the technique it describes in the act of explaining it."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the article, what does the requirement to engage with objections do for the writer?",
+      "answer": "According to the article, the requirement to engage with objections 'obliges the writer to identify the weakest part of their own argument and to address it' — it is not merely a convention of scholarly fairness but a discipline that forces intellectual accountability."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by the phrase 'Writing, at its most productive, is not the transcription of thought — it is its production'?",
+      "answer": "The writer implies that writing is not a passive recording process that follows thinking, but an active cognitive process in which thinking happens through the act of writing. The attempt to express an idea clearly often reveals vagueness or inconsistency in the idea itself — writing produces the clarity of thought, rather than merely recording it."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and explain how the phrase 'constraints that are also possibilities' contributes to it.",
+      "answer": "The final paragraph has a reconciling, even celebratory tone — it reframes constraints (which sound limiting) as enabling. The phrase 'constraints that are also possibilities' is a chiastic formulation that resolves the apparent tension between the rigidity of conventions and their intellectual value. The tone is confident without being triumphalist — the qualifications 'at its best' and 'more... than' signal that the writer does not overclaim."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'generative' (final paragraph) is closest in meaning to:",
+      "answer": "Productive of new ideas — 'generative' thinking is thinking that produces something beyond what you started with. The article's claim that the conventions of academic writing are 'generative' is the claim that following them leads the writer to think thoughts they would not otherwise have had."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this article?",
+      "answer": "The writer's purpose is to reframe academic writing conventions — which are often perceived as external, arbitrary constraints — as intellectual disciplines that actively improve the quality of thinking. The conventions are not merely formal requirements but cognitive tools that enforce rigour, honesty, and generativity."
+    }
   ],
-  "dialogue": {
-    "title": "Ahmed Learns to Take a Joke",
-    "context": "After class, Priya explains Jake's comment. Ahmed listens carefully. Then Jake appears.",
-    "lines": [
-      {"speaker": "Priya", "text": "Okay so when Jake called you 'the most prepared person who has ever accidentally enrolled in college,' he wasn't insulting you. That was affectionate."},
-      {"speaker": "Ahmed", "text": "He was saying I do not belong in college."},
-      {"speaker": "Priya", "text": "He was saying you're so good you seem overqualified. It's a compliment wrapped in an exaggeration wrapped in a mild roast. Americans do this all the time with people they like."},
-      {"speaker": "Ahmed", "text": "This is confusing. If he respects me, why does he mock me?"},
-      {"speaker": "Priya", "text": "Because mocking people you like is how Americans show they're comfortable around you. If Jake teases you, it means you're in. If he's very polite and formal with you, that means he barely knows you."},
-      {"speaker": "Ahmed", "text": "So politeness signals distance. And teasing signals closeness."},
-      {"speaker": "Priya", "text": "Often, yes. The key is — does it feel warm? Is he laughing with you or at you?"},
-      {"speaker": "Jake", "text": "Hey guys! Ahmed, you ready for this exam? I saw you studying in the library at 7am."},
-      {"speaker": "Ahmed", "text": "Yes. I arrived at 6:45, actually."},
-      {"speaker": "Jake", "text": "I love this guy. Genuinely. What even are you?"},
-      {"speaker": "Ahmed", "text": "A person who will score higher than you on this examination."},
-      {"speaker": "Jake", "text": "Oh! He's got jokes! I'm shaking, man. Truly terrified."},
-      {"speaker": "Ahmed", "text": "I am practicing my deadpan."},
-      {"speaker": "Priya", "text": "And he's getting very good at it."},
-      {"speaker": "Jake", "text": "Yeah — I'd be scared, but I dropped the ball on studying so it is what it is."}
+  "language_analysis": {
+    "focus": "Syntactic Parallelism",
+    "explanation": "Syntactic parallelism is the use of equivalent grammatical forms to express coordinate or related ideas. It operates at every level of the sentence — across words ('rigorous, honest, and generative'), phrases ('to state a thesis... to support each claim... to engage with objections'), and clauses ('the writer who states a thesis forces clarity; the writer who supports each claim disciplines their thinking; the writer who engages with objections tests their argument'). When ideas are genuinely coordinate — belonging to the same logical category and dimension of comparison — they should be expressed in parallel form.\n\nThe communicative purpose of parallelism is not merely aesthetic. Parallel form signals to the reader that the writer is drawing a comparison or establishing a series at the same level of abstraction. When the form breaks — when one item in a list is grammatically different from the others — it signals to the reader that the items are not fully equivalent, or it creates confusion about how they relate. Faulty parallelism (non-parallel coordinate structures) is one of the most common C1/C2 level grammatical failures in extended writing.\n\nAt the level of rhetoric, the three-part parallel structure (tricolon) is particularly effective in formal and analytical writing: it creates a rhythm that feels complete, and it provides enough repetition for emphasis without becoming tedious. 'Government of the people, by the people, for the people' is the canonical example — three prepositional phrases in parallel, each adding a dimension of the same concept. The article's 'more rigorous, more honest, and more generative' is a modern tricolon in the same tradition.",
+    "examples": [
+      {
+        "from_text": "The requirement to state a thesis... The requirement to support each claim... The requirement to engage with objections...",
+        "analysis": "Three parallel nominal phrases each headed by 'The requirement to' followed by an infinitive clause. The parallelism enforces the logical claim that these are three equivalent demands of the same kind — conventions that do the same kind of disciplinary work. Breaking the parallelism ('The third requirement is that you engage with objections') would signal that this item is different in kind from the first two."
+      },
+      {
+        "from_text": "constraints that are also possibilities: they discipline the writer into a mode of thinking that is, at its best, more rigorous, more honest, and more generative than the thinking that precedes them",
+        "analysis": "The tricolon 'more rigorous, more honest, and more generative' uses parallel comparative adjectives to present three dimensions of the same evaluative claim. The anaphoric repetition of 'more' creates the rhythmic emphasis associated with high rhetoric while maintaining logical precision — each item is a different quality, but all three are at the same level of abstraction."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The conventions of academic writing enforce clarity of thesis, rigour of evidence, and honesty in the treatment of opposing arguments.",
+        "informal": "Academic writing rules make you think more clearly — you have to know your point, back it up, and admit where you might be wrong."
+      },
+      {
+        "formal": "Mastery involves not only the command of formal conventions but also, and more fundamentally, the cultivation of the habits of thought those conventions are designed to produce.",
+        "informal": "It's not just about following the rules — it's about actually thinking better because of them."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Irony — saying the opposite of what you mean",
-      "pattern": "Oh, great idea. / Yeah, that worked out perfectly. / What could possibly go wrong?",
-      "examples": [
-        "Oh, brilliant plan — what could possibly go wrong? (said when something has obviously gone wrong)",
-        "Yeah, that worked out perfectly. (said about something that failed completely)",
-        "Right, because clearly I have nothing better to do. (said when asked to do something burdensome)",
-        "Oh wonderful. Another 8am class. My absolute favorite. (opposite of true feeling)",
-        "Great — the printer's broken again. Because of course it is. (resigned irony)"
-      ],
-      "your_turn": "Respond to each situation with an ironic comment.",
-      "prompts": [
-        "You arrive at the library and all computers are taken. React ironically.",
-        "The professor announces a surprise quiz. React ironically.",
-        "Your group project partner forgot to do their section. React ironically."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Self-deprecating humor — making yourself the punchline",
-      "pattern": "I'm basically a genius at... · I have no idea what I'm doing · Only took me [large number] to...",
-      "examples": [
-        "I'm basically a genius at leaving everything to the last minute.",
-        "The essay took me only six hours. Practically effortless.",
-        "I arrived four minutes early as usual — I have no idea why I do this.",
-        "I'm very skilled at starting assignments the night before they're due.",
-        "I gave a very confident seminar contribution. I was at least 40% sure of what I was saying."
-      ],
-      "your_turn": "Make one self-deprecating comment about your own habits or weaknesses using exaggeration.",
-      "prompts": [
-        "Make a joke about how long it took you to do something simple.",
-        "Exaggerate a personal weakness in a way that sounds funny, not sad.",
-        "Describe one of your unusual habits with mock seriousness."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Deadpan delivery — saying something funny without smiling",
-      "pattern": "Flat, serious delivery of an absurd, exaggerated, or understated statement",
-      "examples": [
-        "'I am practicing my deadpan.' (said completely seriously, which is itself funny)",
-        "Jake: 'Are you ready for this?' Ahmed: 'I have been ready since last Thursday.' (dry, literal)",
-        "'I arrived at 6:45, actually.' (replying to gentle teasing with precise, earnest correction)",
-        "'I will score higher than you on this examination.' (confident, flat, unsmiling — funny because of contrast)",
-        "'I have no strong feelings about this either way.' (Simpsons-style deadpan understatement)"
-      ],
-      "your_turn": "Respond to these setups in deadpan style — flat, dry, without warmth or irony signals.",
-      "prompts": [
-        "Jake says: 'Did you actually do all the optional readings?' Respond in deadpan.",
-        "Zoe says: 'Do you ever take a break?' Respond in deadpan.",
-        "Priya says: 'You're a little intense, you know that?' Respond in deadpan."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit13-lesson6-listen1.mp3",
-      "transcript": "Jake: Okay so the professor says the final is 'comprehensive.' Priya: Oh great. So it covers literally everything we've done since August. Jake: What could possibly go wrong. Ahmed: That was ironic. Jake: Was it? Hard to tell at this point. Ahmed: You were expressing concern while using the form of a reassuring question. Jake: Man, when you explain jokes they become so beautiful. Ahmed: I find that analysis is often more satisfying than laughter. Jake: And that was a joke. From Ahmed. Ahmed: I am aware.",
-      "question": "What does Jake mean when he says 'What could possibly go wrong'?",
-      "options": [
-        "He genuinely thinks nothing will go wrong",
-        "He is asking for information about potential problems",
-        "He is ironically expressing concern about everything going wrong",
-        "He is confused about what the final will cover"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit13-lesson6-listen2.mp3",
-      "transcript": "The difference between teasing that feels like friendship and teasing that feels like cruelty usually comes down to three things: the target, the power dynamic, and the warmth. Friendly teasing mocks behavior or quirks, not identity. Jake teasing Ahmed for arriving to class early is about a habit — not his nationality, religion, or background. Second, friendly teasing usually comes from equals or people who like you — not from someone with power over you. And third, there's usually warmth in the delivery — a smile, a follow-up, a signal that it's playful. Reading these signals correctly is a social skill that takes time but is learnable.",
-      "question": "According to the speaker, what does friendly teasing typically target?",
-      "options": [
-        "A person's identity, background, or nationality",
-        "A person's behavior or habits, not their identity",
-        "A person's academic performance",
-        "A person's appearance"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit13-lesson6-listen3.mp3",
-      "transcript": "American humor is often about subverting expectations. A joke sets up an expectation and then delivers something unexpected — the punchline. Deadpan comedy works because the delivery is serious while the content is absurd. Self-deprecating humor works because the speaker appears to attack themselves, which defuses tension and signals confidence. Irony works because the literal meaning is the opposite of the intended meaning — and getting the irony means you understand the speaker's actual attitude. Not getting irony is one of the most socially disorienting experiences in a second language — you can miss the entire emotional tone of a conversation while understanding every word.",
-      "question": "Why is missing irony particularly disorienting in a second language?",
-      "options": [
-        "Because irony uses vocabulary that is hard to translate",
-        "Because you can miss the entire emotional tone while understanding every word perfectly",
-        "Because irony is only used in formal situations",
-        "Because American irony is different from irony in other languages"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Tell a short humorous story about yourself — something that went wrong, something embarrassing, or a habit you have that is unusual. Use self-deprecating humor. Do not be sad — be playful. Record for 40 seconds.",
-      "example": "So I have this habit of arriving everywhere four minutes early. Not five — four. I don't know why. It is extremely specific. When I started college I thought this would be completely normal. Apparently it is not. The first week, I walked into an empty classroom and sat there alone for four minutes before anyone arrived. Every class. All semester. My classmates started calling my seat 'the Ahmed spot.' I took this as a compliment. I still arrive four minutes early. I have accepted this about myself. I think it is, technically, my defining characteristic.",
-      "sentence_starters": [
-        "So I have this habit of...",
-        "I am, apparently, very skilled at...",
-        "I took this as a compliment. I still do [the thing]."
-      ],
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Practice responding to these three playful teases in order: (1) 'Did you actually do the optional readings?' (2) 'You're so intense, man.' (3) 'You're probably going to ace this exam.' Respond to each with either deadpan, self-deprecating humor, or irony. Record all three responses in a row — keep each under 15 seconds.",
-      "example": "(1) 'Yes. All four of them. I also annotated them.' [deadpan, straight-faced] (2) 'I prefer the term thorough. But yes, also intense.' [self-deprecating, mock seriousness] (3) 'Certainly. And then I will immediately forget everything I learned and return to a baseline of moderate competence.' [ironic understatement]",
-      "sentence_starters": [
-        "Yes. [state overly precise fact.] (deadpan)",
-        "I prefer the term... (self-deprecating)",
-        "Certainly. And then I will... (ironic understatement)"
-      ],
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a short paragraph (70–90 words) describing an awkward or funny situation from your own life — real or invented — using at least one ironic comment, one self-deprecating sentence, and one deadpan observation. The tone should be light and amusing.",
-      "min_words": 70,
-      "example": "Last Tuesday I walked confidently into what I was entirely certain was my BUSA 301 seminar. I sat down, opened my notebook, arranged my pens by color, and waited. The students who arrived were studying nursing. I had been in the wrong building for eleven minutes before anyone mentioned it. I thanked them for their time and left. The correct building was directly across the parking lot. Obviously. What could possibly go wrong with a campus map? Everything, apparently. I arrived to my actual class four minutes early, which is precisely on schedule."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write Priya's explanation to Ahmed (from the story) as a short dialogue or letter: what is the difference between teasing that is friendly and teasing that is not? Include examples using Jake and someone who is not Jake. (80–110 words)",
-      "min_words": 80,
-      "example": "Ahmed,\n\nHere's how you tell the difference. When Jake calls you 'the most prepared person who accidentally enrolled in college' — that's warm. He's mocking a habit, not you. He's laughing with the room, not pointing at you. And crucially — he likes you. You can hear it.\n\nContrast that with if someone said, 'You talk funny because English isn't your first language' — that targets identity, not behavior. It doesn't have warmth. There's no follow-up that says 'I like this person.'\n\nFriendly roasting is about comfort. It says: I know you well enough to kid around. That's Jake.\n\nPriya"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Irony — Stating the Opposite of What You Mean",
-      "explanation": "Irony communicates the opposite of the literal words. It relies on context, tone, and shared understanding. In American English, irony is often marked by: exaggerated enthusiasm ('Oh, brilliant'), rhetorical questions ('What could possibly go wrong?'), or understatement ('It was fine' said about something catastrophic). Written irony without tone cues can be misread — sarcasm tags, emojis, or context must signal it. The listener's job is to decode the speaker's actual attitude, not the literal meaning.",
-      "examples": [
-        "Oh, fantastic — another group project. My absolute favorite. (enthusiastic form, negative attitude)",
-        "What could possibly go wrong? (rhetorical question signaling expected failure)",
-        "Right, because I clearly have unlimited free time. (sarcastic contradiction)",
-        "That went great. Just as planned. (understated disaster report)",
-        "Yes, my timing is famously excellent. (ironic self-description)"
-      ],
-      "practice": [
-        {"sentence": "Which sentence is ironic? (context: the presentation was a disaster)", "blank": "Oh, that went brilliantly.", "options": ["Oh, that went brilliantly.", "I think it could have been better.", "The presentation had some problems."]},
-        {"sentence": "What does 'What could possibly go wrong?' usually signal?", "blank": "Anticipated failure or things that have already gone wrong", "options": ["Anticipated failure or things that have already gone wrong", "Genuine confidence in the plan", "A request for problem analysis"]},
-        {"sentence": "'I have all the time in the world.' (said while overwhelmed) This is:", "blank": "Irony / sarcasm", "options": ["Irony / sarcasm", "A factual statement", "A compliment"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Understatement and Overstatement as Humor Tools",
-      "explanation": "Americans use both understatement (saying less than the truth) and overstatement (hyperbole — saying more than the truth) for humorous effect. Understatement is characteristic of dry or deadpan humor: 'It was not ideal' about a catastrophe. Overstatement is more common in excited or enthusiastic speech: 'That test absolutely destroyed me.' Neither is literal. Both signal emotional register.",
-      "examples": [
-        "UNDERSTATEMENT: It was not the most successful outcome. (about a complete failure)",
-        "UNDERSTATEMENT: The meeting ran slightly over time. (about a 3-hour meeting)",
-        "OVERSTATEMENT: I literally died of embarrassment. (very embarrassed, not dead)",
-        "OVERSTATEMENT: That was the best sandwich in human history. (very good sandwich)",
-        "UNDERSTATEMENT (deadpan): I may have underestimated the preparation required."
-      ],
-      "practice": [
-        {"sentence": "Which is an understatement about a very difficult exam?", "blank": "That was not the simplest test I've encountered.", "options": ["That was not the simplest test I've encountered.", "That test was very hard.", "That test killed me."]},
-        {"sentence": "Which is an overstatement about a very good presentation?", "blank": "That was literally the best presentation I've seen in my entire life.", "options": ["That was literally the best presentation I've seen in my entire life.", "That was a good presentation.", "That went better than expected."]},
-        {"sentence": "Ahmed says: 'I arrived at 6:45, actually.' In context this is:", "blank": "Deadpan understatement — earnest precision for comic effect", "options": ["Deadpan understatement — earnest precision for comic effect", "A serious correction", "An apology"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Rhetorical Questions That Are Not Seeking Answers",
-      "explanation": "Rhetorical questions have the grammatical form of a question but function as statements, ironic comments, or expressions of emotion. They do not expect an answer. Common American rhetorical questions: 'What am I going to do with you?' (affectionate exasperation), 'Who does that?' (surprised judgment), 'Can you believe that?' (shared disbelief). Answering a rhetorical question literally is the most reliable way to get confused looks. Recognizing them requires reading emotional context.",
-      "examples": [
-        "What am I going to do with you? (affectionate exasperation — no answer expected)",
-        "Who does that? (rhetorical judgment — 'that behavior is surprising')",
-        "Can you believe that? (invitation to share disbelief, not literal question)",
-        "What even are you? (Jake to Ahmed — affectionate bafflement, not a real question)",
-        "Is the sky blue? (rhetorical affirmation — equivalent to 'obviously yes')"
-      ],
-      "practice": [
-        {"sentence": "Jake says 'What even are you?' to Ahmed. The correct response is:", "blank": "A playful reply — not a literal self-description", "options": ["A playful reply — not a literal self-description", "A detailed biography", "An apology"]},
-        {"sentence": "'Can you believe that?' usually expects:", "blank": "Agreement or shared reaction, not a factual yes/no", "options": ["Agreement or shared reaction, not a factual yes/no", "A detailed yes/no answer", "A correction of the situation"]},
-        {"sentence": "'Who does that?' is a rhetorical question expressing:", "blank": "Surprised judgment or mild disbelief", "options": ["Surprised judgment or mild disbelief", "A genuine request to identify the person", "A formal accusation"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "Jake calls Ahmed 'the most prepared person who has ever accidentally enrolled in college.' This is an example of:", "options": ["A genuine insult", "Affectionate teasing using exaggeration", "A factual observation", "Ironic understatement"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does 'What could possibly go wrong?' signal when said ironically?", "options": ["Genuine confidence", "Anticipated or actual failure", "A real question requesting analysis", "Sarcastic agreement"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What is self-deprecating humor?", "options": ["Insulting other people", "Making yourself the subject of the joke", "Using very dry, flat delivery", "Exaggerating a compliment"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "true-false", "question": "If Jake teases Ahmed frequently, it likely signals that Jake is hostile toward Ahmed.", "correct": false, "points": 10},
-      {"id": "q5", "type": "multiple-choice", "question": "What is deadpan delivery?", "options": ["Very enthusiastic, expressive speaking style", "Flat, serious delivery of something absurd or funny", "Speaking very quietly", "Refusing to answer questions"], "correct": 1, "points": 10},
-      {"id": "q6", "type": "fill-blank", "question": "'That went perfectly. Just as planned.' said about a disaster is an example of ___.", "correct": "irony", "accept": ["irony", "sarcasm"], "points": 10},
-      {"id": "q7", "type": "multiple-choice", "question": "Ahmed responds to Jake's teasing with 'I will score higher than you on this examination.' This is:", "options": ["Rude and aggressive", "A literal academic prediction only", "Deadpan humor — confident flat delivery for comic effect", "Self-deprecating humor"], "correct": 2, "points": 10},
-      {"id": "q8", "type": "multiple-choice", "question": "When should you answer a rhetorical question literally?", "options": ["Always, to show you understand English", "Never — rhetorical questions don't expect answers", "Only if the speaker seems confused", "Only in academic settings"], "correct": 1, "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the humor type to its example:", "pairs": [{"left": "Irony", "right": "'Oh, brilliant — what could possibly go wrong?'"}, {"left": "Self-deprecating", "right": "'I'm basically a genius at procrastinating.'"}, {"left": "Deadpan", "right": "'I arrived at 6:45, actually.'"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "According to Priya, what is the key difference between friendly teasing and cruel teasing?", "options": ["Friendly teasing is louder", "Friendly teasing targets behavior/habits with warmth; cruel teasing targets identity without warmth", "Friendly teasing only happens between very close friends", "Cruel teasing is always about appearance"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The most sophisticated academic writers are distinguished by their command of formal conventions, their ability to construct a genuinely original argument, and they know how to engage constructively with objections.",
+        "correct": "The most sophisticated academic writers are distinguished by their command of formal conventions, their ability to construct a genuinely original argument, and their capacity to engage constructively with objections.",
+        "explanation": "Faulty parallelism: the first two items in the list are nominal phrases ('their command of...,' 'their ability to...') but the third shifts to a clause ('they know how to engage...'). The corrected version uses a parallel nominal phrase: 'their capacity to engage...' — maintaining the series of 'their + noun + to-infinitive' throughout."
+      },
+      {
+        "incorrect": "The article's central argument — that writing produces thought rather than merely transcribing it — is both counterintuitive and it is persuasively supported.",
+        "correct": "The article's central argument — that writing produces thought rather than merely transcribing it — is both counterintuitive and persuasively supported.",
+        "explanation": "Faulty parallelism in a 'both X and Y' construction: 'both X and it is Y' breaks the parallel. Both elements after 'both... and' must be grammatically equivalent: 'both counterintuitive and persuasively supported' (both are predicate adjectives modifying the argument)."
+      },
+      {
+        "incorrect": "Parallel structure in academic writing serves three functions: to clarify the logical relationship between coordinate ideas, the signalling of argumentative completeness to the reader, and as a rhetorical means of achieving emphasis.",
+        "correct": "Parallel structure in academic writing serves three functions: clarifying the logical relationship between coordinate ideas, signalling argumentative completeness to the reader, and achieving rhetorical emphasis.",
+        "explanation": "Three-item list with three different grammatical forms: infinitive phrase ('to clarify'), nominal phrase ('the signalling of'), and prepositional phrase ('as a rhetorical means'). All three items should be in the same form. The corrected version uses gerunds throughout: 'clarifying... signalling... achieving.'"
+      },
+      {
+        "incorrect": "The conventions of academic writing are not arbitrary impositions — on the contrary, they represent the accumulated wisdom of a scholarly community about how complex ideas can be communicated most reliably and how to do it clearly.",
+        "correct": "The conventions of academic writing are not arbitrary impositions — on the contrary, they represent the accumulated wisdom of a scholarly community about how complex ideas can be communicated most reliably and most clearly.",
+        "explanation": "Faulty parallelism in the final pair: 'most reliably and how to do it clearly' breaks the parallel. Both should modify 'communicated': 'most reliably and most clearly' maintains the parallel comparative adverb structure."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "deadpan", "definition": "a flat, expressionless manner of delivering humor — saying something funny without smiling", "example": "His deadpan delivery made the joke even funnier because nobody could tell if he was serious."},
-    {"word": "self-deprecating", "definition": "making jokes at your own expense; making yourself the punchline", "example": "Her self-deprecating humor made everyone feel comfortable around her."},
-    {"word": "sarcasm", "definition": "a form of irony intended to mock or criticize; saying one thing while meaning another, often unkindly", "example": "When he said 'great job' after the disaster, everyone knew it was pure sarcasm."},
-    {"word": "irony", "definition": "saying or meaning the opposite of what you literally express; a gap between expectation and reality", "example": "The irony of the situation was not lost on anyone."},
-    {"word": "dry humor", "definition": "understated, deadpan humor delivered without obvious signals that it is meant to be funny", "example": "She has very dry humor — half the room never realizes she's joking."},
-    {"word": "witty", "definition": "quick, clever, and amusing in speech or writing", "example": "His witty responses always got the best reactions in seminar."},
-    {"word": "punchline", "definition": "the final part of a joke that creates the humor or surprise", "example": "The punchline came out of nowhere and everyone laughed."},
-    {"word": "timing", "definition": "choosing the right moment to deliver a joke or comment for maximum effect", "example": "Comedy is all about timing — the pause before the punchline matters."},
-    {"word": "banter", "definition": "light, playful back-and-forth conversation; friendly teasing", "example": "The banter between Jake and Ahmed became a kind of daily ritual."},
-    {"word": "roast", "definition": "a humorous event or comment where someone is jokingly criticized by people who like them", "example": "Jake's comment was basically a gentle roast — affectionate, not mean."}
-  ],
-  "cultural_notes": [
-    "American teasing culture can be genuinely confusing for international students from cultures where direct teasing of friends is less common or signals disrespect. The key is the warmth signal — Americans tend to tease people they are comfortable with, not people they barely know.",
-    "Self-deprecating humor is particularly valued in American culture because it signals confidence and humility at the same time. The ability to laugh at yourself shows you are secure. Ahmed's developing ability to do this is a major cultural fluency milestone.",
-    "Deadpan and dry humor are associated with several American comedy traditions — from Jack Benny to Steven Wright to early seasons of The Office. British influence on American humor is strong in this register. Appreciating deadpan takes calibration: you have to know the speaker intends humor, then appreciate the delivery.",
-    "Irony in everyday American speech is different from literary irony. In conversation, irony is usually signaled by slight vocal emphasis, context, and relationship. In writing, italics, or emojis (the 🙃 face is specifically used for sarcasm/irony) are common signals.",
-    "The social skill of 'reading the room' — understanding the collective emotional tone and what kind of response is appropriate — is widely valued in American culture. It is explicitly referenced in professional contexts ('read the room before making that joke in the all-hands meeting') and social ones. This skill develops through exposure, observation, and reflection — not through grammar study alone."
+  "debate_task": {
+    "motion": "This house believes that genuine mastery of a language is demonstrated in writing, not speech — and that a speaker who cannot write well at an advanced level has not achieved genuine C2 fluency.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Written language requires the sustained management of complex syntax, precise collocation, and explicit argumentation that spontaneous speech does not demand — these are the skills that distinguish C2 fluency from functional competence.",
+      "Academic and professional writing is the domain in which the most consequential communication occurs — policy documents, legal texts, academic research — and mastery in this domain is therefore the most important form of language mastery.",
+      "The conventions of written academic discourse — thesis, evidence, engagement with objections, parallel structure — enforce habits of thought that are themselves a form of cognitive mastery, not merely a linguistic one."
+    ],
+    "counter_arguments": [
+      "The historical and cognitive priority of spoken language means that a native or near-native speaker who communicates with precision, nuance, and register sensitivity in speech has achieved genuine fluency regardless of their writing ability.",
+      "Many forms of high-stakes communication — legal oral argument, political debate, professional negotiation — are conducted orally, and these require linguistic mastery that written competence does not automatically confer.",
+      "The association of 'genuine mastery' with written academic discourse reflects the institutional preferences of universities and professional elites rather than any linguistically principled criterion of fluency."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write an analytical essay responding to the article's central claim: 'Mastery of academic writing is, ultimately, a form of mastery over thought.' Your essay should develop a nuanced position — neither simply agreeing nor simply disagreeing — and demonstrate in its own prose the qualities it discusses: precise thesis, evidenced argument, engagement with objection, hedged claims, and parallel structure used deliberately.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "State the claim and signal your position: you will qualify rather than simply accept or reject. Establish your thesis precisely: writing at its best is generative of thought — but this is true only under specific conditions, and the relationship between writing and thinking is more complex than the article implies."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Develop the case for the claim: that the conventions of academic writing — stating a thesis, supporting claims with evidence, engaging with objections — enforce a mode of thinking that is more rigorous than the thinking that precedes it. Use parallel structure deliberately in at least one sentence to signal the equivalence of the three conventions."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Engage with the strongest objection: that many people write academically without it producing genuine thinking — that the conventions can be performed mechanically, producing texts that have the surface features of academic writing without the intellectual substance. Argue that this is a failure of application, not a refutation of the claim."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Return to the claim with a refined position: mastery of academic writing is a form of mastery over thought — but only when the conventions are understood as cognitive tools rather than formal requirements. The difference is between a writer who follows the rules and a writer who uses them."
+      }
+    ],
+    "model_answer": "The claim that mastery of academic writing constitutes mastery over thought is compelling in its strongest form, but it requires one significant qualification: it is true of writing done well, and not merely done correctly. The distinction is crucial, and it is the distinction the essay ultimately rests on.\n\nThe article's argument for the generative function of writing conventions is persuasive. The requirement to state a thesis forces the writer to know what they are arguing; the requirement to support each claim with evidence disciplines the habit of assertion; the requirement to engage with objections obliges the writer to test their argument at its weakest point. These are not arbitrary conventions — they are cognitive disciplines that, applied with genuine intellectual engagement, produce thinking more rigorous, more honest, and more careful than the thinking that precedes them.\n\nNotwithstanding this, the claim can be trivially falsified: many academic texts exhibit the formal features of good writing — parallel structure, hedged claims, cited evidence — without exhibiting anything that resembles good thinking. Conventions can be performed mechanically. Thesis statements can be empty; evidence can be deployed selectively; objections can be addressed perfunctorily. When the conventions are followed without being understood, they produce the appearance of mastery without its substance.\n\nThis is not a refutation of the article's claim, however. It is a clarification of its scope. Writing is generative of thought when the writer engages with its conventions as tools — asking why each convention exists and what it is trying to produce. The writer who follows the rules and the writer who uses them produce very different texts. Mastery is knowing the difference."
+  },
+  "advanced_grammar": {
+    "structure": "Syntactic Parallelism",
+    "explanation": "Syntactic parallelism is the requirement that coordinate grammatical elements be expressed in the same grammatical form. It operates at multiple levels: word-level ('clarity, precision, and concision'), phrase-level ('to state a thesis, to support each claim, and to engage with objections'), and clause-level ('Writing produces thought; reading receives it; the two are inseparable').\n\nThe communicative purpose of parallelism is to signal to the reader that the listed or compared items belong to the same logical category and can be evaluated along the same dimension. When parallelism breaks down — when one item in a list is grammatically different from the others — it introduces ambiguity about whether the items are truly coordinate. Faulty parallelism is among the most common errors in advanced student writing precisely because it often results from syntactic complexity: the writer begins a construction in one form, then shifts to another mid-sentence.\n\nAt C1/C2 level, the skill is not merely to avoid faulty parallelism but to deploy parallelism deliberately as a rhetorical and analytical tool — to use the three-part structure of the tricolon, the binary structure of the antithesis, and the anaphoric structure of repeated sentence openings to create emphasis, rhythm, and logical precision in analytical prose.",
+    "authentic_examples": [
+      "The writer who states a thesis knows where the argument is going; the writer who supports each claim disciplines their thinking; the writer who engages with objections tests their argument.",
+      "Academic writing at its best is rigorous in its evidence, honest in its qualifications, and generous in its engagement with opposing views.",
+      "Writing teaches not what to think, but how to think — not the destination, but the discipline of the journey."
+    ],
+    "practice": [
+      {
+        "sentence": "The essay is distinguished by its clear argument, the evidence it uses is strong, and the way it addresses objections is sophisticated.",
+        "transform": "Rewrite as a parallel three-item list using nominal phrases.",
+        "answer": "The essay is distinguished by the clarity of its argument, the strength of its evidence, and the sophistication of its engagement with objections."
+      },
+      {
+        "sentence": "Parallelism clarifies the relationship between coordinate ideas. It also signals argumentative completeness. In addition, it creates rhetorical emphasis.",
+        "transform": "Combine into a single sentence using a three-part parallel structure.",
+        "answer": "Parallelism clarifies the relationship between coordinate ideas, signals argumentative completeness, and creates rhetorical emphasis."
+      },
+      {
+        "sentence": "The writer who understands the conventions will follow them. They will also use them. And ultimately they will transcend them.",
+        "transform": "Rewrite as a parallel tricolon using relative clause structure.",
+        "answer": "The writer who understands the conventions will follow them, use them, and ultimately transcend them."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the article, what does the requirement to state a thesis do for the writer?",
+      "options": [
+        "It tells the reader where the argument is going, making the essay easier to follow.",
+        "It forces the writer to know what they are arguing — the convention enforces a cognitive clarity that is not achieved before the writing begins.",
+        "It is a conventional requirement that has no effect on the quality of the writer's thinking.",
+        "It allows the writer to organise their notes before drafting the essay."
+      ],
+      "correct": 1,
+      "explanation": "The article states that the thesis requirement 'does not merely tell the reader where the argument is going — it forces the writer to know.' The convention's primary value is cognitive, not communicative: it disciplines the writer into achieving a clarity of purpose that the thinking alone may not have produced."
+    },
+    {
+      "id": 2,
+      "question": "What does the article mean when it describes academic writing conventions as 'constraints that are also possibilities'?",
+      "options": [
+        "The conventions are optional guidelines that writers can choose to follow or ignore.",
+        "The constraints are negative (they restrict what the writer can do) but the possibilities they create are positive (they open up modes of thinking the writer would not otherwise achieve).",
+        "The conventions constrain some writers while offering possibilities to others, depending on their level.",
+        "Academic writing conventions are simultaneously familiar and unfamiliar to most writers."
+      ],
+      "correct": 1,
+      "explanation": "The phrase is a paradox resolved by the article's central argument: the conventions are genuine constraints (they require specific formal features) but in constraining the writer to these features, they create possibilities for rigour, honesty, and generativity of thought that the writer would not otherwise access."
+    },
+    {
+      "id": 3,
+      "question": "Identify the parallelism error: 'The best essays demonstrate clarity of argument, their evidence is well-chosen, and a sophisticated engagement with objections.'",
+      "options": [
+        "No error — the list contains three grammatically equivalent elements.",
+        "The second item ('their evidence is well-chosen') is a clause while the first and third are nominal phrases — faulty parallelism. Should be: 'clarity of argument, precision of evidence, and sophisticated engagement with objections.'",
+        "The third item should use 'demonstrating' rather than 'demonstrate' in a gerund form.",
+        "'Well-chosen' should be hyphenated as 'well chosen' — it is an adjective, not a compound."
+      ],
+      "correct": 1,
+      "explanation": "The list begins with two nominal phrases ('clarity of argument,' 'a sophisticated engagement with objections') but the second item is a clause ('their evidence is well-chosen'). This breaks the parallel. The correction aligns all three items as nominal phrases: 'clarity of argument, precision of evidence, and sophisticated engagement with objections.'"
+    },
+    {
+      "id": 4,
+      "question": "Which sentence most effectively uses syntactic parallelism to express a tricolon?",
+      "options": [
+        "The writer who thinks clearly also writes clearly, and the writing is generally convincing too.",
+        "Academic conventions discipline the writer to argue clearly, to qualify honestly, and to acknowledge what the evidence cannot support.",
+        "Good academic writing is clear in its argument, the evidence is reliable, and it acknowledges limitations.",
+        "Clarity, honesty, and the writer should also acknowledge limitations — these are the marks of mastery."
+      ],
+      "correct": 1,
+      "explanation": "Option B uses three parallel infinitive phrases ('to argue clearly,' 'to qualify honestly,' 'to acknowledge what the evidence cannot support') in genuine tricolon form. Each item has the same grammatical structure and the same logical relationship to the main clause. Options A, C, and D all break the parallel in different ways."
+    },
+    {
+      "id": 5,
+      "question": "The article says 'Asymmetry in form signals asymmetry in content.' What does this imply about the relationship between grammar and meaning in parallel structures?",
+      "options": [
+        "Grammatical asymmetry is an error that has no effect on the reader's interpretation.",
+        "When a writer breaks parallelism in a list or comparison, the reader will interpret the non-parallel item as different in kind or dimension from the others — the form communicates a logical distinction the writer may not have intended.",
+        "Writers should use symmetrical grammatical forms in all sentences, regardless of whether the ideas are coordinate.",
+        "Parallelism is an aesthetic convention that improves the sound of prose without affecting meaning."
+      ],
+      "correct": 1,
+      "explanation": "The article makes a strong claim about the semantic function of parallelism: parallel form signals to the reader that items are comparable along the same dimension. When the form breaks, the reader assumes — correctly, if the writer is skilled — that the items are not equivalent. Faulty parallelism misleads the reader because it creates an unintended asymmetry signal."
+    }
   ]
 }

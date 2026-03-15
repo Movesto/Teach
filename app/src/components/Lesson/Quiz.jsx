@@ -26,7 +26,6 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
     setShowFeedback(false);
 
     if (isLastQuestion) {
-      // Only score multiple-choice and listening questions
       let correctCount = 0;
       let scoredCount = 0;
       questions.forEach((q, idx) => {
@@ -53,32 +52,32 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
         <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center">
           <Trophy className="w-10 h-10 text-white" />
         </div>
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">Quiz Complete!</h2>
-        <p className="text-xl text-gray-600 mb-2">Your Score: {score}%</p>
-        <p className="text-sm text-gray-500 mb-6">
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Quiz Complete!</h2>
+        <p className="text-xl text-gray-600 dark:text-gray-400 mb-2">Your Score: {score}%</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
           Based on {scoredCount} scored question{scoredCount !== 1 ? 's' : ''}
           {practiceCount > 0 && ` (${practiceCount} writing/reflection question${practiceCount !== 1 ? 's' : ''} not scored)`}
         </p>
 
         <div className="max-w-md mx-auto mb-8">
           {score >= 80 && (
-            <div className="bg-green-50 border-2 border-green-200 rounded-lg p-4 mb-4">
-              <p className="text-green-900 font-semibold">Excellent work!</p>
-              <p className="text-green-800 text-sm">You're ready to move forward.</p>
+            <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-200 dark:border-green-700 rounded-lg p-4 mb-4">
+              <p className="text-green-900 dark:text-green-200 font-semibold">Excellent work!</p>
+              <p className="text-green-800 dark:text-green-300 text-sm">You're ready to move forward.</p>
             </div>
           )}
 
           {score >= 60 && score < 80 && (
-            <div className="bg-yellow-50 border-2 border-yellow-200 rounded-lg p-4 mb-4">
-              <p className="text-yellow-900 font-semibold">Good effort!</p>
-              <p className="text-yellow-800 text-sm">Review the sections you struggled with.</p>
+            <div className="bg-yellow-50 dark:bg-yellow-900/20 border-2 border-yellow-200 dark:border-yellow-700 rounded-lg p-4 mb-4">
+              <p className="text-yellow-900 dark:text-yellow-200 font-semibold">Good effort!</p>
+              <p className="text-yellow-800 dark:text-yellow-300 text-sm">Review the sections you struggled with.</p>
             </div>
           )}
 
           {score < 60 && (
-            <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4 mb-4">
-              <p className="text-red-900 font-semibold">Keep practicing!</p>
-              <p className="text-red-800 text-sm">Go through the lesson again before continuing.</p>
+            <div className="bg-red-50 dark:bg-red-900/20 border-2 border-red-200 dark:border-red-700 rounded-lg p-4 mb-4">
+              <p className="text-red-900 dark:text-red-200 font-semibold">Keep practicing!</p>
+              <p className="text-red-800 dark:text-red-300 text-sm">Go through the lesson again before continuing.</p>
             </div>
           )}
         </div>
@@ -95,11 +94,11 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Lesson Quiz</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Lesson Quiz</h2>
 
       <div className="mb-6">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-semibold text-gray-700">
+          <span className="text-sm font-semibold text-gray-700 dark:text-gray-300">
             Question {currentQ + 1} of {questions.length}
           </span>
           <div className="flex gap-1">
@@ -111,7 +110,7 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
                     ? 'bg-blue-600'
                     : answers[idx] !== undefined
                     ? 'bg-green-600'
-                    : 'bg-gray-300'
+                    : 'bg-gray-300 dark:bg-gray-600'
                 }`}
               ></div>
             ))}
@@ -119,12 +118,12 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
         </div>
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 mb-6">
+      <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
         <div className="flex items-start justify-between mb-4">
-          <h3 className="text-lg font-semibold text-gray-900">{question.question}</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{question.question}</h3>
           <button
             onClick={() => onRequestHelp({ type: 'question', content: question })}
-            className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
+            className="p-2 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors"
             title="Get help in Somali"
           >
             <HelpCircle className="w-5 h-5" />
@@ -133,8 +132,8 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
 
         {/* Not-scored badge for writing/open-ended */}
         {!isScoredType && (
-          <div className="mb-4 px-3 py-2 bg-gray-100 border border-gray-300 rounded-lg">
-            <p className="text-sm text-gray-600">
+          <div className="mb-4 px-3 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               Writing answers are for practice — not scored.
             </p>
           </div>
@@ -143,7 +142,7 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
         {question.type === 'listening' && question.audio && (
           <button
             onClick={() => new Audio(question.audio).play()}
-            className="w-full py-3 bg-blue-100 text-blue-700 rounded-lg font-semibold hover:bg-blue-200 transition-colors flex items-center justify-center gap-2 mb-4"
+            className="w-full py-3 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-semibold hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors flex items-center justify-center gap-2 mb-4"
           >
             <Volume2 className="w-5 h-5" />
             Play Audio
@@ -165,13 +164,13 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
                   className={`w-full p-4 rounded-lg text-left transition-all ${
                     showCorrectness
                       ? isCorrect
-                        ? 'bg-green-100 border-2 border-green-500 text-green-900'
+                        ? 'bg-green-100 dark:bg-green-900/30 border-2 border-green-500 text-green-900 dark:text-green-200'
                         : isSelected
-                        ? 'bg-red-100 border-2 border-red-500 text-red-900'
-                        : 'bg-gray-100 text-gray-500'
+                        ? 'bg-red-100 dark:bg-red-900/30 border-2 border-red-500 text-red-900 dark:text-red-200'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400'
                       : isSelected
-                      ? 'bg-blue-100 border-2 border-blue-500 text-blue-900'
-                      : 'bg-gray-50 border-2 border-gray-200 hover:border-blue-300 text-gray-900'
+                      ? 'bg-blue-100 dark:bg-blue-900/30 border-2 border-blue-500 text-blue-900 dark:text-blue-200'
+                      : 'bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-500 text-gray-900 dark:text-white'
                   }`}
                 >
                   <div className="flex items-center justify-between">
@@ -191,29 +190,28 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
               value={answers[currentQ] || ''}
               onChange={(e) => handleTextAnswer(e.target.value)}
               placeholder="Write your answer here..."
-              className="w-full p-4 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none min-h-[150px] text-gray-900"
+              className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none min-h-[150px] text-gray-900 dark:text-white bg-white dark:bg-gray-700 placeholder-gray-400 dark:placeholder-gray-500"
             />
           </div>
         )}
 
         {showFeedback && question.explanation && (
-          <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-600 rounded">
-            <p className="text-sm text-blue-900">
+          <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-600 rounded">
+            <p className="text-sm text-blue-900 dark:text-blue-300">
               <strong>Explanation:</strong> {question.explanation}
             </p>
           </div>
         )}
 
-        {/* Show model answer for writing/open-ended after submission */}
         {!isScoredType && showFeedback && (
           <div className="mt-4 space-y-2">
             {question.correct && (
-              <div className="p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
-                <p className="text-sm font-semibold text-blue-900 mb-1">Model answer:</p>
-                <p className="text-sm text-blue-800">{question.correct}</p>
+              <div className="p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
+                <p className="text-sm font-semibold text-blue-900 dark:text-blue-300 mb-1">Model answer:</p>
+                <p className="text-sm text-blue-800 dark:text-blue-200">{question.correct}</p>
               </div>
             )}
-            <p className="text-xs text-gray-500">This question is for practice — not scored.</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400">This question is for practice — not scored.</p>
           </div>
         )}
       </div>
@@ -222,7 +220,7 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
         {currentQ > 0 && !showFeedback && (
           <button
             onClick={() => setCurrentQ(currentQ - 1)}
-            className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+            className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             Previous
           </button>

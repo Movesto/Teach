@@ -2,235 +2,179 @@
   "id": "lesson-46",
   "unit_id": 8,
   "lesson_number": 2,
-  "title": "Topic Sentences and Main Ideas",
+  "title": "School Subjects and Learning Styles",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Write clear, effective topic sentences",
-    "Identify main ideas in paragraphs",
-    "Support topic sentences with details",
-    "Keep paragraphs focused on one idea"
+    "Discuss school subjects and academic disciplines using precise vocabulary at B1/B2 level",
+    "Construct and use relative clauses (defining and non-defining) accurately in speech and writing",
+    "Evaluate different learning styles and explain personal academic preferences with supporting reasons",
+    "Write a structured paragraph comparing two school subjects using relative clauses"
   ],
-  "target_phrases": [
-    "The main idea is...",
-    "This paragraph is about...",
-    "The topic sentence states...",
-    "Supporting details include...",
-    "This sentence is off-topic because...",
-    "To stay focused, remove...",
-    "A better topic sentence would be..."
-  ],
-  "dialogue": {
-    "title": "ESL Writing Class",
-    "context": "Ahmed's writing teacher explains how to write strong topic sentences and identify main ideas in paragraphs.",
-    "lines": [
-      {"speaker": "Teacher", "text": "Today we're learning about topic sentences. Who can tell me what a topic sentence is?"},
-      {"speaker": "Ahmed", "text": "Is it the first sentence in a paragraph?"},
-      {"speaker": "Teacher", "text": "Often, yes! But more importantly, it's the sentence that states the main idea of the paragraph. Everything else in the paragraph should support it."},
-      {"speaker": "Lisa", "text": "So if my paragraph is about why I like Portland, the topic sentence should say that?"},
-      {"speaker": "Teacher", "text": "Exactly! For example: 'Portland is a great city for many reasons.' Then your supporting details explain those reasons."},
-      {"speaker": "Ahmed", "text": "What if I write about Portland's weather, and then food, and then people? Is that okay?"},
-      {"speaker": "Teacher", "text": "That's three different topics! Pick one for each paragraph. If your topic sentence is 'Portland has wonderful food,' then every sentence should be about food."},
-      {"speaker": "Carlos", "text": "What happens if I go off-topic?"},
-      {"speaker": "Teacher", "text": "Your paragraph loses focus. Look at this example: 'Portland has great food. There are many food carts. I also like the weather. The restaurants are diverse.' See the problem?"},
-      {"speaker": "Ahmed", "text": "Oh! The sentence about weather doesn't belong. It's off-topic."},
-      {"speaker": "Teacher", "text": "Perfect! That sentence breaks the unity of the paragraph. Remove it or save it for a different paragraph about weather."},
-      {"speaker": "Lisa", "text": "So one paragraph, one main idea?"},
-      {"speaker": "Teacher", "text": "Exactly. Your topic sentence announces the main idea, and every other sentence supports it with details, examples, or explanations."}
+  "reading_passage": {
+    "title": "Beyond the Basics: What Students Learn at Secondary School",
+    "text": "When students move from primary to secondary school, the range of subjects they study expands significantly. While core subjects such as mathematics, English, and science remain compulsory, students are introduced to a much wider curriculum that includes history, geography, foreign languages, music, art, and physical education.\n\nMany educators argue that a broad curriculum, which exposes students to diverse fields of knowledge, is essential for their overall development. Students who engage with humanities subjects, such as history and literature, develop critical thinking and empathy. Those who focus on STEM subjects — science, technology, engineering, and mathematics — build problem-solving and analytical skills that are increasingly valuable in the modern workforce.\n\nLearning styles also play an important role in academic success. Some students learn best through visual materials, including diagrams and charts. Others prefer hands-on activities, which allow them to experiment and discover through doing. A third group thrives in collaborative environments where discussion and debate drive understanding.\n\nResearch conducted by educational psychologists suggests that teachers who vary their instructional methods, rather than relying on a single approach, tend to achieve better outcomes across diverse classrooms. The most effective lessons are those that combine explanation, demonstration, and practical application, giving every student a meaningful opportunity to engage.",
+    "source": "Adapted from the OECD Education at a Glance Report",
+    "glossary": [
+      {"word": "compulsory", "meaning": "required by law or rules; not optional"},
+      {"word": "curriculum", "meaning": "the subjects and content taught in a school or programme"},
+      {"word": "humanities", "meaning": "subjects concerned with human culture, such as history, literature, and philosophy"},
+      {"word": "STEM", "meaning": "an abbreviation for Science, Technology, Engineering, and Mathematics"},
+      {"word": "instructional", "meaning": "relating to the methods used in teaching"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Writing topic sentences",
-      "pattern": "[General topic] is/are [statement about topic]",
-      "examples": [
-        "Learning English is challenging but rewarding.",
-        "Public transportation in Portland is convenient and affordable.",
-        "Healthy eating requires planning and discipline.",
-        "My first job taught me valuable lessons.",
-        "Regular exercise provides many health benefits."
-      ]
+      "type": "literal",
+      "question": "According to the passage, which subjects are described as compulsory in secondary school?",
+      "answer": "Mathematics, English, and science are described as compulsory core subjects."
     },
     {
-      "id": "drill-2",
-      "focus": "Identifying main ideas",
-      "pattern": "The main idea of this paragraph is [summary]",
-      "examples": [
-        "The main idea is that exercise improves health.",
-        "The main idea is why Ahmed moved to America.",
-        "The main idea is the benefits of learning languages.",
-        "The main idea is how to save money effectively.",
-        "The main idea is Portland's diverse food scene."
-      ]
+      "type": "inference",
+      "question": "Why does the passage suggest that teachers should vary their instructional methods?",
+      "answer": "Because students have different learning styles, and varying methods ensures that all students — whether they learn visually, through hands-on activities, or through discussion — have a meaningful opportunity to engage and succeed."
     },
     {
-      "id": "drill-3",
-      "focus": "Supporting topic sentences",
-      "pattern": "Topic sentence + [supporting detail 1], [detail 2], [detail 3]",
-      "examples": [
-        "Portland has excellent public transit. The MAX light rail connects the city. Buses run frequently. Fares are affordable.",
-        "Learning English takes dedication. I study every day. I practice with native speakers. I watch English TV shows.",
-        "Exercise improves health in many ways. It strengthens muscles. It reduces stress. It boosts energy."
-      ]
+      "type": "vocabulary",
+      "question": "The passage mentions students who 'thrive in collaborative environments'. What does 'thrive' mean in this context, and what kind of learning does it refer to?",
+      "answer": "'Thrive' means to grow and succeed. In this context, it refers to students who do especially well when they learn through group discussion and debate rather than individual study."
+    },
+    {
+      "type": "inference",
+      "question": "What does the contrast between STEM and humanities subjects in the passage suggest about what schools are trying to achieve?",
+      "answer": "The contrast suggests that schools aim to develop both analytical skills (through STEM) and critical thinking and empathy (through humanities), recognising that students need a broad range of abilities for life and work."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit8-lesson2-listen1.mp3",
-      "transcript": "A strong topic sentence has two parts: the topic (what you're writing about) and the controlling idea (your specific point about the topic). Example: 'Learning English is challenging.' Topic = learning English. Controlling idea = challenging. All supporting sentences should explain why or how it's challenging. If you start talking about something else, you've lost focus.",
-      "question": "What two parts does a topic sentence need?",
-      "options": [
-        "Subject and verb only",
-        "Topic and controlling idea",
-        "Beginning and end",
-        "Question and answer"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit8-lesson2-listen2.mp3",
-      "transcript": "Topic sentences are usually at the beginning of paragraphs, but not always. Some writers put them at the end for emphasis, or occasionally in the middle. However, for ESL writers learning paragraph structure, it's best to start with the topic sentence first. This clearly announces your main idea and helps you stay focused while writing.",
-      "question": "Where do most paragraphs place the topic sentence?",
-      "options": [
-        "Always at the end",
-        "In the middle only",
-        "Usually at the beginning",
-        "It doesn't matter"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit8-lesson2-listen3.mp3",
-      "transcript": "Unity means every sentence in a paragraph relates to the topic sentence. If a sentence doesn't support the main idea, it's off-topic and should be removed. Test each sentence by asking: 'Does this directly support my topic sentence?' If the answer is no, delete it or save it for another paragraph. This keeps your writing focused and clear.",
-      "question": "What is unity in a paragraph?",
-      "options": [
-        "Using the same words repeatedly",
-        "Every sentence supports the topic sentence",
-        "Making paragraphs the same length",
-        "Starting every sentence the same way"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Create a topic sentence about something you're good at. Then give 3 supporting details. Record for 25 seconds.",
-      "example": "Here's my topic sentence: 'I am good at learning new languages.' Now my three supporting details: First, I learn vocabulary quickly by reading and using flashcards. Second, I'm not afraid to make mistakes when speaking, which helps me improve faster. Third, I practice every day by watching shows and talking with native speakers. All three details support my topic sentence about being good at languages.",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Listen to this paragraph and identify which sentence is off-topic: 'Portland has great food. There are many food carts downtown. I also enjoy hiking. The restaurants serve cuisine from around the world.' Record your answer.",
-      "example": "The sentence that's off-topic is 'I also enjoy hiking.' The paragraph's main idea is about Portland's food, but hiking is not related to food. The other sentences all support the idea that Portland has great food - they mention food carts, restaurants, and diverse cuisine. The hiking sentence should be removed or saved for a different paragraph about outdoor activities in Portland.",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a topic sentence about why you moved to a new place or started learning English. Then write 3-4 supporting sentences. (60-80 words)",
-      "min_words": 60,
-      "example": "Topic sentence: I moved to America for better opportunities for my family. Supporting details: First, the education system here is excellent, and I want my children to have access to good schools. Second, there are more job opportunities in my field than in my home country. Third, America offers political stability and safety, which is important for raising children. Finally, I can earn enough money to support my extended family back home. Each of these sentences directly supports my topic sentence about why I moved.",
-      "min_words": 60
-    },
-    {
-      "id": "write-2",
-      "prompt": "Read this paragraph and identify the topic sentence and one off-topic sentence: 'Exercise is essential for good health. It strengthens your heart and lungs. I also like watching movies. Regular physical activity helps you maintain a healthy weight. Exercise reduces stress and improves mood.' (40-50 words explaining your answer)",
-      "min_words": 40,
-      "example": "The topic sentence is 'Exercise is essential for good health' because it states the main idea of the paragraph. The off-topic sentence is 'I also like watching movies' because it doesn't relate to exercise or health. This sentence breaks the paragraph's unity and should be removed. All the other sentences support the main idea by explaining specific health benefits of exercise.",
-      "min_words": 40
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Present Simple for General Statements",
-      "explanation": "Use present simple in topic sentences to make general statements.",
-      "examples": [
-        "Learning English requires practice. (general statement)",
-        "Portland has many parks. (general fact)",
-        "Healthy food costs more than junk food. (general truth)",
-        "Children need sleep to grow. (general statement)"
-      ],
-      "practice": [
-        {"sentence": "Exercise ___ good for health.", "blank": "is", "options": ["is", "are", "was"]},
-        {"sentence": "Books ___ knowledge.", "blank": "provide", "options": ["provide", "provides", "provided"]},
-        {"sentence": "Water ___ essential for life.", "blank": "is", "options": ["is", "are", "was"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Transition Words for Supporting Details",
-      "explanation": "Use transition words to connect supporting sentences to topic sentence.",
-      "examples": [
-        "First, exercise strengthens muscles. (ordering)",
-        "Additionally, it improves mood. (adding information)",
-        "For example, walking burns calories. (giving example)",
-        "Furthermore, it reduces stress. (adding more support)"
-      ],
-      "practice": [
-        {"sentence": "___, exercise helps you sleep better.", "blank": "First", "options": ["First", "Because", "However"]},
-        {"sentence": "___, it boosts energy levels.", "blank": "Additionally", "options": ["Additionally", "Because", "If"]},
-        {"sentence": "___, running is great cardio.", "blank": "For example", "options": ["For example", "Because", "Therefore"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Modal Verbs for Recommendations in Topic Sentences",
-      "explanation": "Use should/must/can in topic sentences to give recommendations or state possibilities.",
-      "examples": [
-        "Students should study every day. (recommendation)",
-        "Everyone must pay taxes. (obligation)",
-        "Learning English can improve career options. (possibility)",
-        "People should exercise regularly. (advice)"
-      ],
-      "practice": [
-        {"sentence": "Students ___ practice writing daily.", "blank": "should", "options": ["should", "are", "can"]},
-        {"sentence": "Everyone ___ get enough sleep.", "blank": "must", "options": ["must", "is", "are"]},
-        {"sentence": "Exercise ___ reduce stress.", "blank": "can", "options": ["can", "is", "are"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What is a topic sentence?", "options": ["Any sentence in paragraph", "Sentence stating the main idea", "The longest sentence", "The last sentence"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What two parts does a topic sentence need?", "options": ["Subject and verb", "Topic and controlling idea", "Question and answer", "Beginning and end"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What is unity in a paragraph?", "options": ["Same sentence length", "All sentences support topic sentence", "Using same words", "Having 5 sentences"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Where do most paragraphs put the topic sentence?", "options": ["At the end", "In the middle", "At the beginning", "Anywhere"], "correct": 2, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Every sentence in a paragraph should support the topic sentence.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You can have multiple main ideas in one paragraph.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "Exercise ___ essential for health. (present simple)", "correct": "is", "accept": ["is"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "___, it improves your mood. (transition for adding info)", "correct": "Additionally", "accept": ["Additionally", "Furthermore", "Also", "Moreover"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Topic sentence", "right": "Main idea"}, {"left": "Supporting details", "right": "Evidence/examples"}, {"left": "Unity", "right": "Staying on topic"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "In the paragraph about Portland food, which sentence was off-topic?", "options": ["Food carts", "Weather", "Restaurants", "All on topic"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Relative Clauses",
+    "explanation": "Relative clauses add information about a noun using relative pronouns: who (for people), which (for things), that (for people or things), where (for places), and whose (for possession). Defining relative clauses identify which person or thing we mean and are not separated by commas. Non-defining relative clauses add extra information about something already identified and are separated by commas.",
+    "examples": [
+      {
+        "sentence": "Students who engage with humanities subjects develop critical thinking and empathy.",
+        "note": "Defining relative clause — 'who engage with humanities subjects' identifies which students we mean. No commas."
+      },
+      {
+        "sentence": "A broad curriculum, which exposes students to diverse fields of knowledge, is essential for their development.",
+        "note": "Non-defining relative clause — the curriculum is already identified; the clause adds extra detail. Commas are required."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "My maths teacher is the person ___ helped me understand algebra. (Use 'who' or 'that')",
+        "answer": "My maths teacher is the person who / that helped me understand algebra."
+      },
+      {
+        "sentence": "The school ___ I attended as a child has now been renovated. (Use 'where' or 'that')",
+        "answer": "The school where / that I attended as a child has now been renovated."
+      },
+      {
+        "sentence": "Biology, ___ is one of the most popular science subjects, involves the study of living organisms. (Add a non-defining relative clause using 'which')",
+        "answer": "Biology, which is one of the most popular science subjects, involves the study of living organisms."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "topic sentence", "definition": "sentence stating main idea of paragraph", "example": "The topic sentence is clear."},
-    {"word": "main idea", "definition": "central point or message", "example": "The main idea is about health."},
-    {"word": "supporting detail", "definition": "information backing up main idea", "example": "Use supporting details and examples."},
-    {"word": "paragraph", "definition": "group of sentences about one idea", "example": "Write a paragraph about your hobby."},
-    {"word": "unity", "definition": "all parts relating to one main idea", "example": "This paragraph has good unity."},
-    {"word": "focus", "definition": "concentrated attention on topic", "example": "Stay focused on your main idea."},
-    {"word": "relevant", "definition": "related to the topic", "example": "Keep only relevant information."},
-    {"word": "irrelevant", "definition": "not related to topic", "example": "Remove irrelevant sentences."},
-    {"word": "coherent", "definition": "logically connected and clear", "example": "Write coherent paragraphs."},
-    {"word": "conclude", "definition": "end or finish", "example": "Conclude your paragraph effectively."}
+  "vocabulary_in_context": [
+    {
+      "word": "compulsory",
+      "definition": "required by rules or law; something that must be done or studied",
+      "example_sentence": "While core subjects such as mathematics, English, and science remain compulsory, students are introduced to a much wider curriculum.",
+      "collocations": ["compulsory subject", "compulsory attendance", "compulsory education"],
+      "register": "formal"
+    },
+    {
+      "word": "exposes",
+      "definition": "introduces someone to something so that they experience or learn about it",
+      "example_sentence": "A broad curriculum, which exposes students to diverse fields of knowledge, is essential for their overall development.",
+      "collocations": ["expose students to", "expose someone to new ideas", "exposed to different cultures"],
+      "register": "neutral"
+    },
+    {
+      "word": "thrives",
+      "definition": "grows or develops well and successfully in a particular environment",
+      "example_sentence": "A third group thrives in collaborative environments where discussion and debate drive understanding.",
+      "collocations": ["thrive in an environment", "thrive under pressure", "thrive academically"],
+      "register": "neutral"
+    },
+    {
+      "word": "diverse",
+      "definition": "showing a great deal of variety; very different from one another",
+      "example_sentence": "The most effective lessons are those that combine explanation, demonstration, and practical application, giving every student a meaningful opportunity to engage.",
+      "collocations": ["diverse classrooms", "diverse range of", "culturally diverse"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "American academic writing strongly emphasizes clear topic sentences - teachers look for them in student essays.",
-    "In business writing, putting main ideas first (topic sentence at beginning) is called 'front-loading' and is highly valued.",
-    "The 'hamburger paragraph' model is commonly taught in U.S. schools: topic sentence (top bun), supporting details (meat), concluding sentence (bottom bun).",
-    "American readers expect paragraphs to have clear focus - wandering off-topic is seen as poor organization.",
-    "Many American style guides recommend paragraphs of 3-8 sentences for readability.",
-    "The five-paragraph essay format (intro paragraph, 3 body paragraphs with topic sentences, conclusion) is standard in U.S. schools."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are discussing school subjects with a friend who has children of secondary school age. They are deciding which subjects their child should focus on.",
+    "prompt": "Discuss two school subjects that you think are important for young people to study today. For each one, explain what students learn and why it is valuable. Use at least two relative clauses in your response.",
+    "useful_language": [
+      "I think [subject], which..., is particularly important because...",
+      "Students who study [subject] tend to...",
+      "This is a subject that...",
+      "The skills that students develop include...",
+      "In my experience, young people who..."
+    ],
+    "model_answer": "I think mathematics, which is one of the most widely applicable subjects, is essential for young people. Students who develop strong numeracy skills are better equipped to manage money, understand data, and solve practical problems. I also believe that a foreign language, which teaches students about other cultures as well as communication, is increasingly valuable in a globalised world. Young people who are bilingual tend to have more career opportunities and a broader perspective on life."
+  },
+  "writing_workshop": {
+    "model_text": "Science is a subject that develops students' curiosity about the natural world. Students who study science learn to ask questions, conduct experiments, and interpret evidence — skills that are useful in many careers. Biology, which focuses on living organisms, and chemistry, which examines substances and their reactions, are two of the most popular science subjects at secondary level. Both disciplines, which require logical thinking and careful observation, prepare students well for further study.",
+    "model_analysis": "This paragraph is effective because it uses a variety of relative clauses — both defining and non-defining — to add detail naturally without creating repetitive sentences.",
+    "task": "Write a paragraph of 100-150 words comparing two school subjects you are familiar with. Explain what each subject involves, what skills students develop, and why each subject is valuable. Include at least three relative clauses (at least one defining and one non-defining).",
+    "success_criteria": [
+      "Includes at least three relative clauses, correctly distinguishing between defining and non-defining types",
+      "Discusses two different subjects with specific detail about content and skills developed",
+      "Non-defining relative clauses are correctly separated by commas"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what benefit do humanities subjects provide for students?",
+      "options": [
+        "They develop problem-solving and analytical skills",
+        "They develop critical thinking and empathy",
+        "They prepare students for STEM careers",
+        "They focus on practical, hands-on activities"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Students who engage with humanities subjects, such as history and literature, develop critical thinking and empathy.'"
+    },
+    {
+      "id": 2,
+      "question": "Which sentence contains a non-defining relative clause?",
+      "options": [
+        "Students who study science develop analytical skills.",
+        "The school that I attended has a good reputation.",
+        "My history teacher, who has worked there for twenty years, is retiring.",
+        "This is the subject that I enjoy most."
+      ],
+      "correct": 2,
+      "explanation": "Non-defining relative clauses are separated by commas and add extra, non-essential information. 'Who has worked there for twenty years' is separated by commas and adds extra detail about a teacher already identified."
+    },
+    {
+      "id": 3,
+      "question": "Which relative pronoun is correct in this sentence? 'The classroom ___ we have our lessons is very bright.'",
+      "options": [
+        "who",
+        "whose",
+        "where",
+        "which"
+      ],
+      "correct": 2,
+      "explanation": "'Where' is used for places. The classroom is a place, so 'where' is the correct relative pronoun here."
+    },
+    {
+      "id": 4,
+      "question": "What does research suggest about teachers who vary their instructional methods?",
+      "options": [
+        "They tend to have more disciplinary problems",
+        "They achieve better outcomes across diverse classrooms",
+        "They focus mainly on STEM subjects",
+        "They prefer collaborative learning environments"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Research suggests that teachers who vary their instructional methods tend to achieve better outcomes across diverse classrooms.'"
+    }
   ]
 }

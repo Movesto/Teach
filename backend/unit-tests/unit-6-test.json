@@ -1,0 +1,127 @@
+{
+  "unit_id": 6,
+  "unit_title": "Home & Community",
+  "description": "Test what you learned in Unit 6 — prepositions of place, asking for clarification, describing community services, formal complaints with passive voice, gerunds and infinitives, and reported speech",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Your new neighbour says something you did not understand. Which phrase correctly asks for clarification?",
+      "options": [
+        "What are you saying?",
+        "Could you explain what you mean by that?",
+        "Why did you say that?",
+        "Tell me again."
+      ],
+      "correct": 1,
+      "explanation": "'Could you explain what you mean by that?' is a polite, formal way to ask for clarification. The other options are either too direct, rude, or not standard clarification phrases."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a gerund after the verb 'enjoy'?",
+      "options": [
+        "I enjoy to live in a quiet neighbourhood.",
+        "I enjoy live in a quiet neighbourhood.",
+        "I enjoy living in a quiet neighbourhood.",
+        "I enjoy that I live in a quiet neighbourhood."
+      ],
+      "correct": 2,
+      "explanation": "The verb 'enjoy' must be followed by a gerund (verb + -ing), not an infinitive. 'I enjoy living...' is the correct form."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "You are writing a formal complaint to your landlord. Which sentence uses the passive voice correctly?",
+      "options": [
+        "The plumber did not fix the boiler for three weeks.",
+        "Nobody has repaired the broken window.",
+        "The broken window has not been repaired for three weeks.",
+        "Three weeks passed and the window is still broken."
+      ],
+      "correct": 2,
+      "explanation": "The passive voice ('has not been repaired') focuses on the situation rather than the person responsible, which is the appropriate register for a formal written complaint. This structure was a key focus in Unit 6."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "In reported speech, 'She said: I live next to the library' becomes 'She said she lived next to the library.'",
+      "correct": true,
+      "explanation": "In reported speech, the present simple tense ('live') shifts back to the past simple ('lived'). This is called backshifting and is a core rule of reported speech."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "The preposition 'opposite' means the same as 'next to' when describing the location of buildings.",
+      "correct": false,
+      "explanation": "'Opposite' means directly across from something (facing it), while 'next to' means immediately beside it. For example, 'The pharmacy is opposite the park' means it faces the park from the other side of the road."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "I decided ___ a flat closer to the city centre after my commute became too long.",
+      "answer": "to rent",
+      "hint": "infinitive form (to + verb) after 'decided'",
+      "explanation": "The verb 'decide' is followed by an infinitive (to + verb), not a gerund. 'I decided to rent...' is the correct form."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "Does ___ mean that the council will not collect rubbish on bank holidays?",
+      "answer": "that",
+      "hint": "confirmation phrase: 'Does ___ mean...'",
+      "explanation": "'Does that mean...?' is the standard phrase used to confirm your understanding of information someone has just given you — a key clarification structure from Unit 6."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "instruction": "Put these words in order to form a correct reported speech sentence:",
+      "words": ["the", "said", "council", "bins", "would", "she", "collected", "be", "on", "Monday"],
+      "answer": ["she", "said", "the", "council", "bins", "would", "be", "collected", "on", "Monday"],
+      "explanation": "Reported speech structure: subject + said + reported clause with backshifted verb. 'Will be collected' becomes 'would be collected' in reported speech."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each preposition of place to the correct description of its meaning.",
+      "pairs": [
+        {"left": "between", "right": "in the middle of two things"},
+        {"left": "opposite", "right": "directly across from something"},
+        {"left": "next to", "right": "immediately beside something"},
+        {"left": "under", "right": "lower than and covered by something"}
+      ],
+      "explanation": "These four prepositions of place are core vocabulary from Unit 6, used to describe the layout of homes, rooms, and community buildings."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "Write a short formal complaint (40-60 words) to your landlord about a problem in your flat. Use the passive voice at least once and include a polite request asking them to fix the problem.",
+      "word_count": "40-60",
+      "guidance": "Open with a formal greeting. State the problem using passive voice (e.g. 'The heating has not been repaired...'). Add how long the problem has continued. Close with a polite request using 'I would be grateful if...' or 'Could you please...'.",
+      "sample_answer": "Dear Mr Hassan, I am writing to inform you that the heating in my flat has not been repaired since the beginning of January. This has now been a problem for over three weeks. I would be grateful if you could arrange for a plumber to visit as soon as possible. Yours sincerely, A. Tenant."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "At a restaurant, the waiter asks: 'Have you ___ tried jollof rice?' Which word correctly completes the present perfect question about a life experience?",
+      "options": ["already", "ever", "just", "yet"],
+      "correct": 1,
+      "explanation": "'Have you ever...?' is the standard present perfect question used to ask about life experiences. This previews Unit 7's focus on present perfect for food and restaurant experiences.",
+      "is_preview": true,
+      "preview_unit": 7,
+      "preview_unit_title": "Food & Restaurants"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "In English, 'rice', 'water', and 'bread' are uncountable nouns — you cannot say 'a rice' or 'two rices'.",
+      "correct": true,
+      "explanation": "These are classic uncountable (mass) nouns. You must use a measure word or quantifier: 'a bowl of rice', 'a glass of water', 'a loaf of bread'. This is a core grammar topic in Unit 7.",
+      "is_preview": true,
+      "preview_unit": 7,
+      "preview_unit_title": "Food & Restaurants"
+    }
+  ]
+}

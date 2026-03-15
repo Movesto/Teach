@@ -1,0 +1,115 @@
+{
+  "unit_id": 3,
+  "unit_title": "Shopping & Services",
+  "description": "Test what you learned in Unit 3",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "You pick up a jacket in a shop and want to try it on. What do you say to the shop assistant?",
+      "options": ["Give me the fitting room.", "Can I try this on, please?", "This is too expensive.", "I'll take it."],
+      "correct": 1,
+      "explanation": "'Can I try this on?' is the polite and natural request to use the fitting room."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "A sign in a shop window says '30% OFF'. A shirt originally costs £40. How much is it now?",
+      "options": ["£30", "£28", "£12", "£34"],
+      "correct": 1,
+      "explanation": "30% of £40 is £12. £40 minus £12 equals £28."
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "statement": "The phrase 'Do you take card?' means you are asking if a shop accepts payment by credit or debit card.",
+      "correct": true,
+      "explanation": "'Do you take card?' is a common way to ask whether a shop accepts card payments."
+    },
+    {
+      "id": 4,
+      "type": "fill-in-blank",
+      "sentence": "This phone is ___ than the older model — it has a bigger screen and longer battery life.",
+      "blank_hint": "(better in quality or features)",
+      "accepted_answers": ["better", "superior", "more advanced"],
+      "explanation": "When comparing two items where one is of higher quality, 'better' is the standard comparative adjective."
+    },
+    {
+      "id": 5,
+      "type": "fill-in-blank",
+      "sentence": "I bought these trainers but they do not fit. Can I ___ them for a larger size?",
+      "blank_hint": "(swap for a different size or item)",
+      "accepted_answers": ["exchange", "swap", "return"],
+      "explanation": "To 'exchange' or 'swap' means to give back one item and receive a different one."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "Could you give me a ___, please? I need proof of purchase for my records.",
+      "blank_hint": "(a printed record of your payment)",
+      "accepted_answers": ["receipt", "receipt please"],
+      "explanation": "A receipt is a printed or digital record confirming that a payment was made."
+    },
+    {
+      "id": 7,
+      "type": "ordering",
+      "question": "Put these words in the correct order:",
+      "words": ["have", "do", "smaller", "you", "this"],
+      "correct": ["do", "you", "have", "this", "smaller"],
+      "explanation": "'Do you have this smaller?' is the natural way to ask for a smaller size of an item."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "question": "Put these words in the correct order:",
+      "words": ["much", "shirt", "how", "this", "is"],
+      "correct": ["how", "much", "is", "this", "shirt"],
+      "explanation": "'How much is this shirt?' is the correct word order when asking about the price."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each shopping term to its correct meaning.",
+      "pairs": [
+        {"left": "refund", "right": "money returned to the customer after a return"},
+        {"left": "discount", "right": "a reduction from the original price"},
+        {"left": "queue", "right": "a line of people waiting to be served"},
+        {"left": "checkout", "right": "the place where you pay for goods"}
+      ],
+      "explanation": "These are common terms used in shops and service environments."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "question": "Writing Task",
+      "prompt": "You bought a pair of shoes online but they arrived damaged. Write 3-5 sentences to the shop's customer service team explaining the problem and asking for a solution.",
+      "guidance": "Include: what you bought, what the problem is, and what you would like the company to do.",
+      "example_answer": "I recently ordered a pair of shoes from your website (order number 4821) and they arrived yesterday. Unfortunately, the left shoe has a large crack across the sole. I would like to request a full refund or a replacement pair. Please let me know how to proceed. Thank you.",
+      "explanation": "Writing tasks are self-assessed."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "A patient at a clinic says 'I have a sore throat and a high temperature.' What are these called?",
+      "options": ["Treatments", "Diagnoses", "Symptoms", "Prescriptions"],
+      "correct": 2,
+      "explanation": "Symptoms are the signs of illness that a patient feels and reports to a doctor.",
+      "is_preview": true,
+      "preview_unit": 4,
+      "preview_unit_title": "Health & Emergencies"
+    },
+    {
+      "id": 102,
+      "type": "multiple-choice",
+      "question": "You call emergency services and they answer. What is the first thing you should do?",
+      "options": ["Ask which hospital is nearest", "Clearly state your name and location", "Describe the symptoms in detail", "Wait for them to speak first"],
+      "correct": 1,
+      "explanation": "When calling emergency services, giving your name and exact location first allows help to be sent immediately.",
+      "is_preview": true,
+      "preview_unit": 4,
+      "preview_unit_title": "Health & Emergencies"
+    }
+  ]
+}

@@ -2,233 +2,170 @@
   "id": "lesson-30",
   "unit_id": 5,
   "lesson_number": 4,
-  "title": "Making Plans with Friends",
+  "title": "Buying Tickets and Paying Fares",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Suggest activities and outings",
-    "Accept and decline invitations politely",
-    "Negotiate times and places",
-    "Confirm plans clearly"
+    "Purchase tickets for buses, trains, and other transport at a ticket counter or machine",
+    "Understand pricing structures including single rides, day passes, and monthly passes",
+    "Ask about discounts for seniors, students, and people with disabilities",
+    "Handle payment problems such as incorrect change or a malfunctioning machine"
   ],
-  "target_phrases": [
-    "Would you like to...?",
-    "How about we...?",
-    "I'd love to, but...",
-    "Let's meet at...",
-    "Sounds good to me!",
-    "What time works for you?",
-    "I'll see you there"
-  ],
-  "dialogue": {
-    "title": "Planning a Saturday Outing",
-    "context": "Ahmed, Lisa, and Carlos plan to visit Portland Saturday Market together.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Are you guys free this Saturday? How about we go to the Saturday Market downtown?"},
-      {"speaker": "Lisa", "text": "I'd love to! What time are you thinking?"},
-      {"speaker": "Carlos", "text": "Saturday Market sounds fun, but I have soccer until noon. Could we meet in the afternoon?"},
-      {"speaker": "Ahmed", "text": "Sure! How about 12:30? That gives you time after soccer."},
-      {"speaker": "Lisa", "text": "Perfect! Should we meet there, or do you want to carpool?"},
-      {"speaker": "Carlos", "text": "I can drive if someone helps with gas money."},
-      {"speaker": "Ahmed", "text": "Of course! I'll give you $10. Where should we meet?"},
-      {"speaker": "Carlos", "text": "Let's meet at the Target parking lot on 82nd. It's easy for everyone."},
-      {"speaker": "Lisa", "text": "Sounds good to me! After the market, would you like to get lunch?"},
-      {"speaker": "Ahmed", "text": "Great idea! There are food carts near the market. We can decide when we're there."},
-      {"speaker": "Carlos", "text": "Perfect plan! See you Saturday at 12:30 at Target. I'll text you when I'm leaving."}
+  "reading_passage": {
+    "title": "Buying Your First Transit Pass",
+    "text": "Learning to navigate ticket machines and transit counters is one of the small but significant challenges newcomers face when settling into a new city. In many American cities, public transit systems have moved away from paper tickets toward electronic fare cards, which can be confusing for those unfamiliar with the technology.\n\nIn Portland, the Hop Fastpass card works across buses, MAX light rail, and the Portland Streetcar. Riders can buy a physical card at select grocery stores, pharmacies, and transit service centers for a small fee, or download the app to use a virtual card on their smartphone. Once purchased, the card can be loaded with money at ticket machines in MAX stations or online. The system automatically deducts the correct fare when riders tap the card on a yellow reader at the start of their trip.\n\nOne of the most practical features is the fare cap. Regardless of how many times a rider taps their card in a single day, the total cost never exceeds the price of a one-day pass — currently $5. This means frequent riders never overpay. Monthly passes are also available and represent significant savings for people who commute regularly.\n\nFor those who prefer to pay cash, exact change is usually required, as bus drivers generally cannot make change. It is always wise to carry a few dollar bills and quarters when travelling without a transit card, particularly on routes where ticket machines are not available.",
+    "source": "Adapted from the TriMet Rider Guide and the Portland Community Transit Welcome Packet, 2024",
+    "glossary": [
+      {"word": "fare card", "meaning": "a card that stores money to be used for paying transit fares electronically"},
+      {"word": "fare cap", "meaning": "a maximum amount charged per day or period, regardless of how many trips you take"},
+      {"word": "deducts", "meaning": "automatically subtracts or takes away money from a balance"},
+      {"word": "virtual card", "meaning": "a digital version of a card stored on a smartphone rather than as a physical object"},
+      {"word": "commute", "meaning": "to travel regularly between home and work or school"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Suggesting activities",
-      "pattern": "How about we [activity]?",
-      "examples": [
-        "How about we go to the movies?",
-        "How about we meet for coffee?",
-        "How about we go hiking this weekend?",
-        "How about we try that new restaurant?",
-        "How about we visit the museum?"
-      ]
+      "type": "literal",
+      "question": "What is the daily fare cap for the Hop Fastpass card in Portland?",
+      "answer": "The daily fare cap is $5 — riders are never charged more than this amount in a single day, no matter how many trips they take."
     },
     {
-      "id": "drill-2",
-      "focus": "Accepting invitations",
-      "pattern": "That sounds [adjective]!",
-      "examples": [
-        "That sounds great!",
-        "That sounds fun!",
-        "That sounds perfect!",
-        "That sounds interesting!",
-        "That sounds like a good idea!"
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say 'bus drivers generally cannot make change'?",
+      "answer": "The author implies that riders who pay cash must have the exact amount ready — if they overpay, they will not receive change, which could mean losing money."
     },
     {
-      "id": "drill-3",
-      "focus": "Declining politely",
-      "pattern": "I'd love to, but [reason]",
-      "examples": [
-        "I'd love to, but I have to work.",
-        "I'd love to, but I'm visiting family.",
-        "I'd love to, but I'm not feeling well.",
-        "I'd love to, but I have other plans.",
-        "I'd love to, but maybe next time?"
-      ]
+      "type": "vocabulary",
+      "question": "What does the word 'deducts' mean in paragraph two?",
+      "answer": "It means automatically takes money away from your card balance — the machine removes the fare amount without you needing to count it out."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention that riders can use a smartphone app instead of a physical card?",
+      "answer": "To show that the system is flexible and modern — people who do not have a physical card or who prefer digital options still have a way to use the transit system."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit5-lesson4-listen1.mp3",
-      "transcript": "When making plans with friends, be specific about time and place. Instead of saying 'Let's hang out sometime,' say 'Would you like to meet Saturday at 3 PM at Starbucks on Main Street?' Specific plans are more likely to happen. Also, confirm plans the day before to make sure everyone remembers.",
-      "question": "Why should you be specific when making plans?",
-      "options": [
-        "To sound professional",
-        "Plans are more likely to happen",
-        "It's required",
-        "To impress friends"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit5-lesson4-listen2.mp3",
-      "transcript": "If you need to decline an invitation, be honest but kind. Say 'I'd love to, but I already have plans' rather than making up elaborate excuses. If you want to maintain the friendship, suggest an alternative: 'I can't make it Saturday, but how about next weekend?' This shows you genuinely want to spend time together.",
-      "question": "What should you do when declining an invitation?",
-      "options": [
-        "Make up excuses",
-        "Just say no",
-        "Be honest and suggest an alternative",
-        "Ignore the invitation"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit5-lesson4-listen3.mp3",
-      "transcript": "Common phrases for making plans: 'Are you free this weekend?' asks about availability. 'Would you like to join us?' is a polite invitation. 'Let's' suggests doing something together. 'How about...?' offers a suggestion. 'Sounds good!' accepts the plan. 'I'll see you there' confirms attendance.",
-      "question": "What does 'Are you free?' mean?",
-      "options": [
-        "Do you cost money?",
-        "Are you available?",
-        "Are you outside?",
-        "Do you need help?"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Invite a friend to do something this weekend. Suggest an activity, time, and place. Record yourself for 25 seconds.",
-      "example": "Hey Maria, are you free this Saturday? I was thinking we could go to that new coffee shop on Division Street. How about meeting at 2 PM? They have great pastries and we can catch up. It would be nice to spend some time together. Let me know if that works for you, or if another time is better!",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Your friend invites you to dinner, but you can't go. Decline politely and suggest meeting another time. Record for 20 seconds.",
-      "example": "Thanks so much for the invitation! I'd really love to join you, but unfortunately I have a family obligation that evening. I'm so sorry to miss it. How about we plan something for next week instead? Maybe we could get lunch on Saturday? I really do want to get together soon.",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a text message inviting a friend to an event. Include: what the activity is, when and where, and why they should come. (50-70 words)",
-      "min_words": 50,
-      "example": "Hey Carlos! There's a food festival at Pioneer Square this Saturday from 11-4. They'll have food trucks from all over the world - I know you love trying new food! Lisa and I are planning to go around noon. Would you like to join us? The weather is supposed to be beautiful. Let me know if you're interested! It should be a lot of fun and we can walk around downtown after."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Your friend invited you to a party, but you have to work. Write a message declining the invitation and suggesting meeting another time. (40-60 words)",
-      "min_words": 40,
-      "example": "Hi Jennifer, thank you so much for inviting me to your birthday party! I'm really sorry but I have to work that night - my manager already scheduled me and I can't switch shifts. I feel terrible about missing it. Can we celebrate together next weekend? Maybe lunch or dinner? I'd love to take you out to make up for missing the party. Happy early birthday!"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "'Would you like to...?' for Invitations",
-      "explanation": "Use 'Would you like to...?' for polite invitations. It's more formal than 'Do you want to...?'",
-      "examples": [
-        "Would you like to go to the movies? (polite invitation)",
-        "Would you like to join us for dinner? (inviting to join)",
-        "Would you like to come over? (inviting to home)",
-        "Do you want to hang out? (more casual)"
-      ],
-      "practice": [
-        {"sentence": "Would you ___ to come?", "blank": "like", "options": ["like", "likes", "liked"]},
-        {"sentence": "___ you like to go shopping?", "blank": "Would", "options": ["Would", "Do", "Are"]},
-        {"sentence": "Would she ___ to join us?", "blank": "like", "options": ["like", "likes", "liked"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "'Let's...' for Suggestions",
-      "explanation": "'Let's' (Let us) suggests doing something together. It's friendly and casual.",
-      "examples": [
-        "Let's go to the park. (suggesting together)",
-        "Let's meet at 3 PM. (suggesting meeting time)",
-        "Let's try that restaurant. (suggesting activity)",
-        "Let's not stay too late. (negative suggestion)"
-      ],
-      "practice": [
-        {"sentence": "___ meet at noon.", "blank": "Let's", "options": ["Let's", "Lets", "Let us"]},
-        {"sentence": "Let's ___ to the market.", "blank": "go", "options": ["go", "going", "goes"]},
-        {"sentence": "___ go to the movies.", "blank": "Let's", "options": ["Let's", "Lets", "Let"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "'How about + gerund' for Suggestions",
-      "explanation": "Use 'How about' + verb-ing to suggest activities. It asks for agreement.",
-      "examples": [
-        "How about meeting at 2 PM? (suggesting time)",
-        "How about trying that new café? (suggesting place)",
-        "How about going to the beach? (suggesting activity)",
-        "How about we take the bus? (suggesting method)"
-      ],
-      "practice": [
-        {"sentence": "How about ___ to the park?", "blank": "going", "options": ["go", "going", "goes"]},
-        {"sentence": "How about ___ at Starbucks?", "blank": "meeting", "options": ["meet", "meeting", "meets"]},
-        {"sentence": "___ about trying that restaurant?", "blank": "How", "options": ["How", "What", "Why"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "Where does the group plan to meet?", "options": ["At the market", "At Target parking lot", "At Ahmed's house", "At a restaurant"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "Why can't Carlos meet in the morning?", "options": ["He's working", "He has soccer", "He's sleeping", "He has class"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What time do they agree to meet?", "options": ["10 AM", "Noon", "12:30 PM", "3 PM"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Would you ___ to go?'", "options": ["want", "like", "likes", "liked"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "'Let's' is used to suggest doing something together.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "It's rude to decline an invitation.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ meet at the café. (suggesting together)", "correct": "Let's", "accept": ["Let's", "Lets"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "How about ___ to the movies? (gerund)", "correct": "going", "accept": ["going"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the phrase to its purpose:", "pairs": [{"left": "Would you like to...?", "right": "Invite politely"}, {"left": "I'd love to, but...", "right": "Decline politely"}, {"left": "Let's...", "right": "Suggest activity"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What should you do if you decline an invitation?", "options": ["Never talk to them again", "Suggest an alternative time", "Make up an excuse", "Just ignore it"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Polite Requests Using 'Could I,' 'Would it be possible to,' and 'I'd like to'",
+    "explanation": "When buying tickets or asking for help at a transit counter, it is important to use polite request forms. 'Could I' and 'Can I' are both common, but 'Could I' is slightly more formal. 'Would it be possible to' is the most formal and shows extra politeness. 'I'd like to' (I would like to) is a polite way to state what you want, and it is more appropriate than a direct demand like 'Give me a ticket.'",
+    "examples": [
+      {
+        "sentence": "Could I get a monthly pass, please?",
+        "note": "'Could I' is polite and commonly used at service counters — the 'please' at the end makes it even more courteous."
+      },
+      {
+        "sentence": "I'd like to load $20 onto my Hop card.",
+        "note": "'I'd like to' sounds natural and polite — it is less demanding than 'I want to' and very common in service situations."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite politely using 'Could I': 'Give me a one-day pass.'",
+        "answer": "Could I have a one-day pass, please?"
+      },
+      {
+        "sentence": "Complete this polite request: '___ it be possible to get a receipt for this purchase?'",
+        "answer": "Would it be possible to get a receipt for this purchase?"
+      },
+      {
+        "sentence": "Which is more polite? A) I want two tickets. B) I'd like two tickets, please.",
+        "answer": "B) 'I'd like two tickets, please' is more polite and appropriate for a service counter — 'I want' can sound abrupt."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "invitation", "definition": "request to join an activity or event", "example": "I received an invitation to the party."},
-    {"word": "suggest", "definition": "propose an idea or plan", "example": "I suggest we meet at noon."},
-    {"word": "accept", "definition": "agree to do something", "example": "She accepted the invitation."},
-    {"word": "decline", "definition": "politely refuse", "example": "I had to decline because I was busy."},
-    {"word": "available", "definition": "free and able to do something", "example": "Are you available this weekend?"},
-    {"word": "busy", "definition": "having no free time", "example": "I'm busy Saturday morning."},
-    {"word": "confirm", "definition": "make sure plans are still happening", "example": "Let me confirm the time with everyone."},
-    {"word": "plan", "definition": "arrangement or intention", "example": "What's the plan for Saturday?"},
-    {"word": "activity", "definition": "thing to do", "example": "We're looking for fun activities."},
-    {"word": "outing", "definition": "trip or excursion", "example": "We're planning a group outing."}
+  "vocabulary_in_context": [
+    {
+      "word": "fare cap",
+      "definition": "A limit on how much you can be charged per day, regardless of how many journeys you make",
+      "example_sentence": "Regardless of how many times a rider taps their card in a single day, the total cost never exceeds the price of a one-day pass.",
+      "collocations": ["daily fare cap", "fare cap applies", "reach the fare cap"],
+      "register": "neutral"
+    },
+    {
+      "word": "commute",
+      "definition": "To travel regularly between home and another place, usually for work or school",
+      "example_sentence": "Monthly passes are also available and represent significant savings for people who commute regularly.",
+      "collocations": ["daily commute", "commute by bus", "long commute"],
+      "register": "neutral"
+    },
+    {
+      "word": "virtual",
+      "definition": "Existing in digital form rather than as a physical object",
+      "example_sentence": "Riders can download the app to use a virtual card on their smartphone.",
+      "collocations": ["virtual card", "virtual payment", "virtual ticket"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "In American culture, it's common to make plans in advance, sometimes weeks ahead.",
-    "It's okay to decline invitations. Just be polite and honest about why.",
-    "Confirming plans the day before is considerate - it reminds everyone.",
-    "Being on time is important. If you're running late, text or call.",
-    "Splitting costs (like gas money) is normal among friends.",
-    "Saying 'Let's hang out sometime' without specific plans usually means just being friendly, not a real invitation."
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are at a transit service centre. You want to buy a monthly bus pass. You are not sure if there is a discount for people who recently moved here, and you want to understand exactly how the card works before you buy it.",
+    "prompt": "Speak to the transit centre employee. Ask politely to buy a monthly pass, find out if there are any discounts available (for seniors, students, or newcomers), and ask how to reload money onto the card when it runs out. Use polite request forms.",
+    "useful_language": [
+      "I'd like to buy a monthly pass, please.",
+      "Could you tell me if there are any discounts available for...?",
+      "Would it be possible to get some information about how the card works?"
+    ],
+    "model_answer": "Good morning. I'd like to buy a monthly transit pass, please. Could you tell me how much it costs? I'm also wondering — are there any discounts for new residents or seniors? And would it be possible for you to explain how I reload money onto the card when the balance gets low? I want to make sure I understand everything before I buy it."
+  },
+  "writing_workshop": {
+    "model_text": "Buying my first transit pass was easier than I expected. I went to a MAX station and found the ticket machine near the entrance. I pressed the button for 'Hop Card' and selected a monthly pass. The machine accepted my debit card and printed a receipt. The employee at the information desk showed me how to tap the card on the yellow reader when I board a bus. I loaded an extra $10 onto the card just in case. Now I use it every day without any problems.",
+    "model_analysis": "Notice how the writer uses clear chronological order (first, then, finally) without using those words explicitly — the sequence of verbs (went, found, pressed, selected, accepted) guides the reader through each step naturally.",
+    "task": "Write about a time you bought a ticket or paid a fare for public transport. Describe the process step by step, include any problems you encountered, and explain how you solved them.",
+    "success_criteria": [
+      "Describe at least four steps in the process of buying or using a ticket",
+      "Use at least one polite request form (Could I, I'd like to, Would it be possible to)",
+      "Include a problem or question you had, and explain how it was resolved"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, where can you buy a physical Hop card?",
+      "options": [
+        "Only at TriMet transit service centres",
+        "At select grocery stores, pharmacies, and transit service centres",
+        "At any bus stop in the city",
+        "Only online through the TriMet website"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Riders can buy a physical card at select grocery stores, pharmacies, and transit service centers for a small fee.'"
+    },
+    {
+      "id": 2,
+      "question": "What does the daily fare cap mean for frequent riders?",
+      "options": [
+        "They must buy a monthly pass to save money",
+        "They are limited to five bus rides per day",
+        "They never pay more than the cost of a one-day pass in a single day",
+        "Their card is automatically deactivated after five taps"
+      ],
+      "correct": 2,
+      "explanation": "The passage says 'the total cost never exceeds the price of a one-day pass — currently $5' regardless of how many times you tap."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence uses a polite request form correctly?",
+      "options": [
+        "Give me a monthly pass.",
+        "I want that you give me a monthly pass.",
+        "I'd like a monthly pass, please.",
+        "Monthly pass — I need one."
+      ],
+      "correct": 2,
+      "explanation": "'I'd like a monthly pass, please' is a polite, natural way to request something at a service counter — it is grammatically correct and culturally appropriate."
+    },
+    {
+      "id": 4,
+      "question": "What advice does the passage give to riders who prefer to pay cash?",
+      "options": [
+        "Always ask the driver for change before boarding",
+        "Carry exact change since drivers generally cannot make change",
+        "Pay with a credit card instead of cash",
+        "Use the app to pay digitally from your phone"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises: 'exact change is usually required, as bus drivers generally cannot make change. It is always wise to carry a few dollar bills and quarters.'"
+    }
   ]
 }

@@ -3,6 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { PatternDrill } from '../components/Lesson/PatternDrill';
 import { Quiz } from '../components/Lesson/Quiz';
 import { StorySection, ListeningExercise, SpeakingRecorder, WritingExercise, GrammarDiscovery } from '../components/Lesson';
+import IntermediateLesson from '../components/Lesson/IntermediateLesson';
+import AdvancedLesson from '../components/Lesson/AdvancedLesson';
 import AITutorModal from '../components/AITutorModal';
 import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -31,6 +33,18 @@ export default function LessonView() {
         setLoading(false);
       });
   }, [lessonId]);
+
+  const submitQuiz = (score) => {
+    const headers = { 'Content-Type': 'application/json' };
+    if (token) headers['Authorization'] = `Bearer ${token}`;
+    fetch('/api/quiz/submit', {
+      method: 'POST', headers,
+      body: JSON.stringify({ lesson_id: lessonId, unit_id: lesson?.unit_id, score })
+    }).then(r => r.json()).then(data => {
+      if (data.unit_complete) navigate(`/unit-test/${data.unit_id}`);
+      else navigate('/dashboard');
+    });
+  };
 
   const requestHelp = (content) => {
     setTutorContext(content);
@@ -101,7 +115,8 @@ export default function LessonView() {
         )}
       </div>
 
-      {/* Progress Bar */}
+      {/* Progress Bar — beginner only (other templates have built-in progress) */}
+      {(!lesson.template || lesson.template === 'beginner') && (
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-4 mb-6">
         <div className="flex justify-between items-center mb-2">
           <span className="text-sm font-semibold text-gray-700 dark:text-gray-300">Progress</span>
@@ -116,7 +131,28 @@ export default function LessonView() {
           ></div>
         </div>
       </div>
+      )} {/* end progress bar */}
 
+      {/* ── Intermediate template ── */}
+      {lesson.template === 'intermediate' && (
+        <IntermediateLesson
+          lesson={lesson}
+          onRequestHelp={requestHelp}
+          onQuizComplete={submitQuiz}
+        />
+      )}
+
+      {/* ── Advanced template ── */}
+      {lesson.template === 'advanced' && (
+        <AdvancedLesson
+          lesson={lesson}
+          onRequestHelp={requestHelp}
+          onQuizComplete={submitQuiz}
+        />
+      )}
+
+      {/* ── Beginner template (default) ── */}
+      {(!lesson.template || lesson.template === 'beginner') && (
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Sidebar */}
         <div className="lg:col-span-1">
@@ -311,19 +347,7 @@ export default function LessonView() {
                 lessonId={lessonId}
                 onComplete={(score) => {
                   markSectionComplete('quiz');
-                  const headers = { 'Content-Type': 'application/json' };
-                  if (token) headers['Authorization'] = `Bearer ${token}`;
-                  fetch('/api/quiz/submit', {
-                    method: 'POST',
-                    headers,
-                    body: JSON.stringify({
-                      lesson_id: lessonId,
-                      unit_id: lesson?.unit_id,
-                      score: score
-                    })
-                  }).then(() => {
-                    navigate('/dashboard');
-                  });
+                  submitQuiz(score);
                 }}
                 onRequestHelp={requestHelp}
               />
@@ -331,6 +355,7 @@ export default function LessonView() {
           </div>
         </div>
       </div>
+      )} {/* end beginner template */}
 
       <AITutorModal
         isOpen={showTutor}

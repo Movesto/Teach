@@ -2,494 +2,231 @@
   "id": "lesson-63",
   "unit_id": 11,
   "lesson_number": 1,
-  "title": "Academic English — Register, Style, and Context",
+  "title": "Mastering the Job Interview: Language, Strategy, and Impression Management",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
   "objectives": [
-    "Navigate cultural differences in professional contexts",
-    "Recognize and adapt to communication styles",
-    "Avoid cultural misunderstandings",
-    "Build culturally inclusive environments"
+    "Analyse the linguistic features that distinguish high-impact interview answers from mediocre ones",
+    "Construct structured, evidence-based responses using the STAR framework at C1/C2 level",
+    "Evaluate the rhetorical strategies interviewers deploy and respond with appropriate register",
+    "Deploy hedging and confident assertion strategically to manage impression in high-stakes professional encounters"
   ],
-  "target_phrases": [
-    "In my culture, we tend to...",
-    "From a cross-cultural perspective...",
-    "I've noticed that cultural norms differ regarding...",
-    "To avoid misunderstanding...",
-    "Cultural context is important here because...",
-    "This might be interpreted differently depending on...",
-    "Let me clarify the cultural nuance..."
+  "authentic_text": {
+    "title": "What Interviewers Are Really Listening For",
+    "type": "article",
+    "text": "Experienced hiring managers will tell you that the most revealing moments in a job interview rarely occur when candidates answer the questions they expect. The pre-prepared answer to 'What is your greatest weakness?' tells an interviewer relatively little; it is the unrehearsed follow-up — the candidate's ability to elaborate, to acknowledge nuance, to demonstrate genuine self-awareness rather than performing it — that distinguishes exceptional candidates from competent ones.\n\nWhat separates a strong candidate from an outstanding one is largely a matter of linguistic precision and structural thinking. When asked to describe a challenging situation, weak candidates tend to narrate events chronologically without drawing analytical conclusions. Strong candidates, by contrast, foreground the complexity of the situation, articulate the competing pressures they navigated, and frame their actions within a broader understanding of organisational dynamics.\n\nConsider the difference between these two responses to 'Tell me about a time you managed conflict within a team.' The first: 'We had a disagreement about the project timeline and I arranged a meeting and we sorted it out.' The second: 'The conflict stemmed from a fundamental misalignment in how two team members conceptualised our deliverables. Rather than treating it as a personality dispute, I reframed it as a structural problem and facilitated a session in which both parties could articulate their assumptions explicitly. The outcome was a revised project charter that reduced ambiguity and, ultimately, a stronger working relationship.'\n\nThe second response demonstrates not merely competence but intellectual sophistication — the capacity to diagnose, reframe, and act at a level of abstraction that suggests genuine leadership potential. Interviewers at senior levels are not evaluating task completion; they are evaluating thinking.",
+    "source": "Adapted from The Hiring Manager's Perspective, a professional development series for recruitment specialists",
+    "notes": "The text uses contrast and embedded exemplification to make an abstract argument concrete, a hallmark of effective professional writing at C1/C2 level."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the article, what do experienced hiring managers consider the most revealing moments in an interview?",
+      "answer": "Unrehearsed follow-up questions and elaborations, rather than pre-prepared answers to standard questions."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by 'demonstrating genuine self-awareness rather than performing it'?",
+      "answer": "The writer implies that many candidates mimic the appearance of self-awareness without truly possessing it; interviewers can distinguish authentic reflection from rehearsed performance."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and provide evidence from the text to support your answer.",
+      "answer": "The tone is authoritative and instructional. The phrase 'they are evaluating thinking' delivers a blunt, definitive conclusion that cuts through any ambiguity, positioning the writer as an expert delivering a key insight."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'foreground' as used in paragraph two is closest in meaning to:",
+      "answer": "To emphasise or place in a prominent position. The second candidate 'foregrounds the complexity,' meaning they make complexity the main focus of their answer rather than burying it."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in including the two contrasting responses to the conflict question?",
+      "answer": "To illustrate concretely and vividly the abstract distinction between competent and outstanding interview performance, making the article's central argument immediately applicable to readers."
+    }
   ],
-  "dialogue": {
-    "title": "Managing a Multicultural Team",
-    "context": "Ahmed, now a supervisor, learns to manage cultural differences in his diverse team during a cultural competence training.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Hedging in Professional Speech",
+    "explanation": "Hedging refers to the use of linguistic devices that soften the force of a statement, introduce uncertainty, or limit the scope of a claim. In professional contexts, hedging serves multiple communicative purposes simultaneously. It signals intellectual honesty — an awareness that situations are complex and that the speaker does not claim omniscience. It also functions as a face-saving mechanism, both for the speaker (who avoids overcommitting) and for the listener (who is not confronted with an unwelcome absolute).\n\nIn job interviews, hedging is a particularly sophisticated tool. Used correctly, it differentiates candidates who think carefully from those who speak in unfounded absolutes. Phrases such as 'In my experience, this approach tended to work well in environments where...' or 'One factor that seemed to be significant was...' convey both confidence and epistemic humility. The danger lies in over-hedging, which can signal a lack of conviction. The professional register requires calibrated hedging: confident on matters within one's direct experience, cautious about broader generalisations.\n\nNotice also how the article itself uses hedging: 'Experienced hiring managers will tell you...' is a softer attribution than 'research proves.' This signals the author's awareness that the claims rest on professional consensus rather than controlled studies, which is itself an act of intellectual integrity.",
+    "examples": [
       {
-        "speaker": "Trainer",
-        "text": "Today we're discussing cross-cultural communication. Ahmed, you manage a team with members from Mexico, China, Somalia, and the U.S. What challenges have you noticed?"
+        "from_text": "tells an interviewer relatively little",
+        "analysis": "The adverb 'relatively' is a hedging device that softens the claim. Rather than saying the pre-prepared answer 'tells an interviewer nothing,' the writer acknowledges degrees of informativeness, which is more credible and precise."
       },
       {
-        "speaker": "Ahmed",
-        "text": "Communication styles vary significantly. My Chinese team member, Lin, rarely speaks up in meetings, even when she has good ideas. My Mexican colleague, Carlos, is very direct and sometimes seems to interrupt."
+        "from_text": "weak candidates tend to narrate events chronologically",
+        "analysis": "'Tend to' is a classic hedging phrase that signals a pattern without asserting an absolute rule. It shows the writer is aware of exceptions, which enhances rather than diminishes their authority."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "In my experience, this approach has tended to yield better outcomes in cross-functional teams.",
+        "informal": "This always works great in any team situation."
       },
       {
-        "speaker": "Trainer",
-        "text": "Those observations reflect important cultural differences. In many East Asian cultures, including China, speaking up in group settings, especially to challenge ideas, is considered disrespectful. This is called 'high-context' communication."
-      },
-      {
-        "speaker": "Lin",
-        "text": "Yes, in my culture, we tend to communicate indirectly and value group harmony over individual expression. I prefer to share ideas privately rather than in large meetings."
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Exactly. Meanwhile, Latin American and American cultures often value directness and active participation. Carlos, how do you view meeting participation?"
-      },
-      {
-        "speaker": "Carlos",
-        "text": "From my perspective, if I have something important to contribute, I should say it immediately. Waiting seems inefficient. But I've learned this might be interpreted differently depending on cultural background."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "I've noticed that cultural norms differ regarding hierarchy too. Some team members address me as 'Mr. Hassan,' while others use my first name. What's appropriate?"
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Cultural context is important here. In Somalia and many Asian cultures, formal titles show respect. In American workplace culture, first names signal equality and approachability. The key is explicit communication - tell your team what you prefer."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "How do I create an environment where everyone feels comfortable contributing, regardless of their cultural background?"
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Excellent question. Use multiple communication channels - meetings for some, one-on-one conversations for others, written proposals for those who need processing time. To avoid misunderstanding, explicitly state that all input methods are valued equally."
-      },
-      {
-        "speaker": "Lin",
-        "text": "That would help me significantly. I express myself better in writing than in spontaneous verbal exchanges."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Let me clarify the cultural nuance for my team: we'll implement both group discussions and individual input options. Everyone's contribution matters, regardless of how it's delivered."
+        "formal": "It would appear that the main driver of this issue was a lack of shared expectations at the project outset.",
+        "informal": "The problem was obviously that nobody knew what they were doing."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Explaining cultural perspectives",
-      "pattern": "In my culture, we tend to [cultural practice]",
-      "examples": [
-        "In my culture, we tend to avoid direct confrontation and use indirect communication.",
-        "In my culture, we tend to prioritize collective decisions over individual ones.",
-        "In my culture, we tend to show respect through formal titles and hierarchical language.",
-        "In my culture, we tend to value relationship-building before business discussions.",
-        "In my culture, we tend to view silence as thoughtful reflection, not discomfort."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Acknowledging cultural variability",
-      "pattern": "This might be interpreted differently depending on [cultural factor]",
-      "examples": [
-        "This gesture might be interpreted differently depending on cultural context - it's positive here but offensive elsewhere.",
-        "Eye contact might be interpreted differently depending on the culture - some view it as confidence, others as disrespect.",
-        "This communication style might be interpreted differently depending on whether the culture values directness or harmony.",
-        "Punctuality might be interpreted differently depending on cultural norms around time.",
-        "Feedback delivery might be interpreted differently depending on face-saving cultural values."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Preventing misunderstanding",
-      "pattern": "To avoid misunderstanding, [clarification strategy]",
-      "examples": [
-        "To avoid misunderstanding, let me clarify what I mean by 'urgent' in this context.",
-        "To avoid misunderstanding, I'll explicitly state my expectations rather than assuming shared understanding.",
-        "To avoid misunderstanding, let's establish how we'll handle disagreements on this multicultural team.",
-        "To avoid misunderstanding, I want to confirm we have the same definition of 'deadline.'",
-        "To avoid misunderstanding, let me explain the cultural context behind this decision."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit10-lesson1-listen1.mp3",
-      "transcript": "High-context versus low-context cultures shape communication fundamentally. High-context cultures (East Asian, Middle Eastern, Latin American) rely on implicit understanding, shared history, and nonverbal cues. Much is left unsaid because people share cultural knowledge. Low-context cultures (American, German, Scandinavian) prioritize explicit, direct communication where meaning is stated clearly in words. Neither is superior - they're different systems requiring adaptation when crossing cultural boundaries.",
-      "question": "What characterizes high-context cultures?",
-      "options": [
-        "Very direct communication",
-        "Reliance on implicit understanding and shared knowledge",
-        "Written contracts for everything",
-        "No nonverbal communication"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit10-lesson1-listen2.mp3",
-      "transcript": "Hofstede's cultural dimensions provide frameworks for understanding differences. Power distance measures acceptance of hierarchical inequality - high in Asian and Latin cultures, low in Scandinavian and American contexts. Individualism versus collectivism contrasts personal goals with group harmony. Uncertainty avoidance varies in comfort with ambiguity. Understanding these dimensions helps predict and navigate cultural differences in professional settings, though remember: these are generalizations, not absolute rules for individuals.",
-      "question": "What does 'power distance' measure?",
-      "options": [
-        "Physical distance between people",
-        "Acceptance of hierarchical inequality",
-        "Communication speed",
-        "Language proficiency"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit10-lesson1-listen3.mp3",
-      "transcript": "Cultural intelligence (CQ) encompasses four capabilities: cognitive (understanding cultural systems), metacognitive (awareness of your own cultural assumptions), motivational (interest in cross-cultural experiences), and behavioral (ability to adapt communication). Developing CQ requires humility about your own culture not being universal, curiosity about differences, and flexibility in adjusting behaviors. High CQ correlates with success in global business, diverse teams, and multicultural environments. It's a learnable skill, not innate.",
-      "question": "What are the four components of cultural intelligence?",
-      "options": [
-        "Reading, writing, speaking, listening",
-        "Cognitive, metacognitive, motivational, behavioral",
-        "Theory, practice, assessment, improvement",
-        "Language, customs, food, clothing"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe a cultural misunderstanding you've experienced or witnessed. Explain what happened, why it occurred, and how it could have been prevented. Use cross-cultural communication language. Record for 40 seconds.",
-      "example": "I'd like to share a cultural misunderstanding from my early months in America. In Somalia, we tend to avoid saying 'no' directly to maintain harmony and respect. When my supervisor asked if I could work overtime, I said 'I'll try,' which in my cultural context meant 'probably no, but I want to be polite.' She interpreted it as 'yes' because American communication tends to be more direct. When I didn't show up for overtime, she was frustrated. This might be interpreted differently depending on cultural communication styles - indirect versus direct. To avoid misunderstanding, I've learned to be more explicit: 'I appreciate you asking, but I have family commitments tonight so I cannot work overtime.' Cultural context is important here because what seems clear in one culture can be ambiguous in another. Now I clarify my meaning explicitly rather than relying on indirect communication that worked in my home culture.",
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You're leading a diverse team meeting. Explain how you'll ensure everyone can contribute comfortably despite different cultural communication styles. Record for 35 seconds.",
-      "example": "From a cross-cultural perspective, I recognize our team has varied communication preferences based on cultural backgrounds. To avoid misunderstanding and ensure inclusive participation, I'm implementing multiple input channels. During meetings, I'll use both open discussion and written chat for ideas - this accommodates both verbal and reflective communication styles. I've noticed that cultural norms differ regarding speaking up publicly, so I'll also follow up with one-on-one conversations for those who prefer private input. Additionally, I'll send agendas 24 hours in advance so everyone has processing time, which helps team members from cultures that value thoughtful preparation. Let me clarify the cultural nuance: all these input methods are equally valued - there's no 'better' way to contribute. This approach respects that in some cultures, people tend to communicate indirectly or prefer reflection before speaking.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a guide for your multicultural team explaining how to handle disagreements respectfully across cultures. Address different conflict styles. (120-150 words)",
-      "min_words": 120,
-      "example": "Guide to Cross-Cultural Conflict Resolution\n\nOur team represents diverse cultural backgrounds, which means we approach disagreements differently. Understanding these differences helps us resolve conflicts constructively.\n\nCultural Context: In some cultures, people tend to address conflicts directly and immediately. In others, indirect communication and third-party mediation are preferred to preserve relationships and avoid embarrassment. Neither approach is wrong - they reflect different cultural values.\n\nTeam Guidelines:\n1. Acknowledge that this might be interpreted differently depending on your cultural background.\n2. When disagreeing, focus on ideas, not people: 'I see it differently' rather than 'You're wrong.'\n3. To avoid misunderstanding, use 'I' statements: 'I'm concerned about...' instead of 'You always...'\n4. Respect different conflict resolution preferences - some prefer immediate discussion, others need reflection time.\n5. If direct conversation feels uncomfortable, written communication or supervisor mediation are acceptable alternatives.\n\nLet me clarify the cultural nuance: we value both harmony and honest feedback. All conflict resolution styles are welcomed if they're respectful and constructive."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write an email to international colleagues explaining an American workplace custom that might seem unusual from other cultural perspectives. Provide context. (100-120 words)",
-      "min_words": 100,
-      "example": "Subject: Understanding 'Business Casual' Dress Code\n\nDear International Team Members,\n\nI want to explain our 'business casual' dress code, which might be interpreted differently depending on your cultural background.\n\nIn American workplace culture, we tend to balance professionalism with comfort. 'Business casual' typically means:\n- No suits required (unless meeting clients)\n- Collared shirts, blouses, or sweaters acceptable\n- Jeans allowed on Fridays (called 'Casual Friday')\n- Sneakers generally acceptable\n\nCultural context is important here: This informality doesn't indicate lack of professionalism. In my culture, we tend to view casual dress as promoting equality and approachability rather than hierarchy. However, I recognize that in many cultures, formal business attire shows respect.\n\nTo avoid misunderstanding: dress at your comfort level within these guidelines. More formal clothing is always acceptable if you prefer.\n\nPlease let me know if you have questions.\n\nBest regards,\nAhmed"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Hedging Language for Cultural Sensitivity",
-      "explanation": "Use hedging to acknowledge cultural generalizations aren't absolute.",
-      "examples": [
-        "In my culture, we tend to value... (tends suggests general pattern, not rule)",
-        "This might be interpreted differently... (might acknowledges variability)",
-        "Generally speaking, many cultures... (qualifies generalization)",
-        "From my experience, some people... (limits claim to personal observation)"
-      ],
-      "practice": [
-        {
-          "sentence": "People from X culture ___ to prefer indirect communication.",
-          "blank": "tend",
-          "options": [
-            "always",
-            "tend",
-            "must"
-          ]
-        },
-        {
-          "sentence": "This ___ be interpreted differently.",
-          "blank": "might",
-          "options": [
-            "will",
-            "must",
-            "might"
-          ]
-        },
-        {
-          "sentence": "___ speaking, hierarchies matter more in some cultures.",
-          "blank": "Generally",
-          "options": [
-            "Always",
-            "Generally",
-            "Never"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conditional Clauses for Cross-Cultural Scenarios",
-      "explanation": "Use conditionals to discuss cultural variations and adaptations.",
-      "examples": [
-        "If you're from a high-context culture, you might prefer indirect feedback.",
-        "If cultural norms differ, we should discuss expectations explicitly.",
-        "If this seems unusual, it may reflect different cultural values.",
-        "If we were in Japan, this behavior would be considered rude."
-      ],
-      "practice": [
-        {
-          "sentence": "If you ___ from a collectivist culture, group harmony may be prioritized.",
-          "blank": "are",
-          "options": [
-            "are",
-            "were",
-            "was"
-          ]
-        },
-        {
-          "sentence": "If norms ___, clarification helps.",
-          "blank": "differ",
-          "options": [
-            "differ",
-            "differs",
-            "differed"
-          ]
-        },
-        {
-          "sentence": "If we ___ more time, I'd explain the cultural context.",
-          "blank": "had",
-          "options": [
-            "have",
-            "had",
-            "has"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Passive Voice for Diplomatic Cultural Descriptions",
-      "explanation": "Use passive voice to describe cultural patterns without implying judgment.",
-      "examples": [
-        "Direct eye contact is considered respectful in some cultures. (passive, neutral)",
-        "This gesture is interpreted as offensive in certain contexts. (passive describes interpretation)",
-        "Hierarchy is emphasized in many Asian business cultures. (passive, observational)",
-        "Personal space is valued differently across cultures. (passive, comparative)"
-      ],
-      "practice": [
-        {
-          "sentence": "This behavior ___ considered rude in some cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "be"
-          ]
-        },
-        {
-          "sentence": "Formality ___ emphasized more in hierarchical cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "be"
-          ]
-        },
-        {
-          "sentence": "Time ___ perceived differently across cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "was"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error typical of advanced learners in professional contexts. Identify and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "What is a high-context culture?",
-        "options": [
-          "Very direct communication",
-          "Relies on implicit understanding",
-          "Only written communication",
-          "No cultural rules"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "During the interview, I explained the interviewer about my experience managing cross-functional teams.",
+        "correct": "During the interview, I explained to the interviewer my experience managing cross-functional teams.",
+        "explanation": "'Explain' requires the preposition 'to' before the indirect object. 'Explain someone' is a common preposition error even at advanced levels."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "What does power distance measure?",
-        "options": [
-          "Physical space",
-          "Acceptance of hierarchy",
-          "Language difficulty",
-          "Time zones"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "My biggest strength is that I can adapt myself to any professional environment very quickly.",
+        "correct": "My biggest strength is that I can adapt to any professional environment very quickly.",
+        "explanation": "'Adapt' in this sense is intransitive — 'adapt to' is correct. 'Adapt myself' is a reflexive construction that sounds unnatural in standard professional English."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What are the four components of cultural intelligence?",
-        "options": [
-          "Reading, writing, speaking, listening",
-          "Cognitive, metacognitive, motivational, behavioral",
-          "Food, music, dance, clothing",
-          "Language, customs, religion, geography"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "I am very interested to learn more about the company's expansion into emerging markets.",
+        "correct": "I am very interested in learning more about the company's expansion into emerging markets.",
+        "explanation": "The fixed collocation is 'interested in + gerund.' 'Interested to + infinitive' is possible in some constructions (e.g., 'interested to hear') but is register-inappropriate in this context."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Complete: 'People ___ to prefer indirect communication.'",
-        "options": [
-          "always",
-          "must",
-          "tend",
-          "never"
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "Cultural generalizations apply to every individual from that culture.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "Cultural intelligence can be learned and developed.",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "This ___ be interpreted differently. (hedging)",
-        "correct": "might",
-        "accept": [
-          "might",
-          "may",
-          "could"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "Eye contact ___ valued differently across cultures. (passive)",
-        "correct": "is",
-        "accept": [
-          "is"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match cultural dimension:",
-        "pairs": [
-          {
-            "left": "High-context",
-            "right": "Implicit communication"
-          },
-          {
-            "left": "Low-context",
-            "right": "Explicit communication"
-          },
-          {
-            "left": "Collectivist",
-            "right": "Group harmony"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "How did Ahmed plan to accommodate different communication styles?",
-        "options": [
-          "Force everyone to speak up",
-          "Multiple input channels",
-          "Ignore differences",
-          "Separate teams by culture"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Despite of the tight deadline, our team delivered the project on time and within budget.",
+        "correct": "Despite the tight deadline, our team delivered the project on time and within budget.",
+        "explanation": "'Despite' is a preposition used directly before a noun phrase — 'despite of' is a register error by analogy with 'in spite of.' Only 'in spite of' uses the preposition 'of.'"
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that structured interview formats (competency-based frameworks) are more effective than unstructured conversational interviews in identifying the best candidates",
+    "stance": "balanced",
+    "key_arguments": [
+      "Structured formats reduce unconscious bias by ensuring all candidates are assessed against identical criteria, making the process fairer and more legally defensible.",
+      "Competency-based questions elicit concrete behavioural evidence rather than hypothetical answers, providing more reliable data about future performance.",
+      "Standardisation allows meaningful comparison across a large candidate pool, which is essential for volume recruitment at scale."
+    ],
+    "counter_arguments": [
+      "Rigid structures can suppress the authentic personality and interpersonal chemistry that are crucial indicators of cultural fit and collaborative potential.",
+      "Candidates who are skilled at learning interview frameworks can game structured processes, rewarding preparation over genuine ability.",
+      "Some roles — particularly creative or strategic positions — require adaptive, exploratory thinking that a checklist format actively inhibits."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least four of the discourse markers provided and ensure your argument engages directly with the opposing position."
+  },
+  "extended_writing": {
+    "type": "formal_email",
+    "task": "You have just been interviewed for a senior project coordinator role at a logistics company. Write a follow-up email to the hiring manager, thanking them for the interview, briefly reinforcing your strongest qualification, addressing one concern that was raised during the interview, and expressing clear interest in next steps.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Opening",
+        "guidance": "Open with a professional expression of gratitude. Be specific about the role and the date — avoid generic openers. Establish warm but formal tone."
+      },
+      {
+        "section": "Reinforce key qualification",
+        "guidance": "Highlight one specific point from the interview that you believe aligns most strongly with the role's requirements. Be concrete and brief — this is a reminder, not a new pitch."
+      },
+      {
+        "section": "Address the raised concern",
+        "guidance": "If a concern or gap was raised in the interview (e.g., limited experience in a specific area), address it briefly and constructively — show you have reflected on it and have a credible response."
+      },
+      {
+        "section": "Closing",
+        "guidance": "Reaffirm your interest in the position, indicate availability for further conversation, and close professionally. Use an appropriate sign-off."
+      }
+    ],
+    "model_answer": "Dear Ms. Okonkwo,\n\nThank you for taking the time to meet with me yesterday to discuss the Senior Project Coordinator role. I genuinely enjoyed our conversation, particularly the discussion of your team's work on streamlining the West Africa freight corridor — it is precisely the kind of complex, multi-stakeholder challenge I find most professionally engaging.\n\nReflecting on our discussion, I believe my experience managing the phased rollout of the new inventory management system at Meridian Logistics is particularly relevant. The project involved coordinating across five departments under a compressed timeline, and the approach I described — establishing a shared accountability framework in the first week — is directly applicable to the cross-functional coordination challenges you outlined.\n\nI noted your observation regarding my limited exposure to customs compliance in EU markets. I want to reassure you that I have already begun addressing this gap: I am currently completing an online certification in EU trade compliance and have arranged a series of informational conversations with a colleague who specialises in this area. I expect to be at a functional level within six weeks.\n\nI remain strongly interested in this opportunity and am confident that I could make a meaningful contribution to your team from the outset. Please do not hesitate to contact me if you require any additional information.\n\nI look forward to hearing from you.\n\nYours sincerely,\nAhmed Hassan"
+  },
+  "advanced_grammar": {
+    "structure": "Cleft Sentences for Emphasis",
+    "explanation": "Cleft sentences split a simple sentence into two clauses in order to place strong emphasis on one particular element. The most common form is the 'it-cleft': 'It is/was [emphasised element] that/who [rest of clause].' A second form is the 'wh-cleft' (or pseudo-cleft): 'What [subject] [verb] is [emphasised element].'\n\nIn professional and interview contexts, cleft sentences serve a powerful rhetorical function. They allow the speaker or writer to control exactly what the listener focuses on, disambiguating complex situations and highlighting the most important contribution, decision, or outcome. Rather than saying 'My communication skills helped resolve the conflict,' a candidate can say 'It was my ability to reframe the issue as a structural rather than a personal problem that ultimately resolved the conflict.' The emphasis shifts decisively to the specific skill being claimed.",
+    "authentic_examples": [
+      "It was the candidate's capacity for analytical abstraction that ultimately distinguished them from equally qualified applicants.",
+      "What the panel were looking for was not technical expertise but evidence of strategic thinking under pressure.",
+      "It is the follow-up email, more than the interview itself, that often determines the final hiring decision."
+    ],
+    "practice": [
+      {
+        "sentence": "My stakeholder management skills made the project succeed.",
+        "transform": "Rewrite using an it-cleft to emphasise 'stakeholder management skills.'",
+        "answer": "It was my stakeholder management skills that made the project succeed."
+      },
+      {
+        "sentence": "The interviewer was most impressed by my structured approach to problem-solving.",
+        "transform": "Rewrite using a wh-cleft beginning with 'What.'",
+        "answer": "What impressed the interviewer most was my structured approach to problem-solving."
+      },
+      {
+        "sentence": "A lack of clear communication caused the project to fail.",
+        "transform": "Rewrite using an it-cleft to emphasise the cause.",
+        "answer": "It was a lack of clear communication that caused the project to fail."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "cross-cultural",
-      "definition": "involving or bridging different cultures",
-      "example": "Cross-cultural communication requires awareness."
+      "id": 1,
+      "question": "According to the article, what distinguishes exceptional candidates from competent ones during interviews?",
+      "options": [
+        "Memorising answers to common questions thoroughly",
+        "The ability to elaborate with genuine self-awareness in unrehearsed moments",
+        "Demonstrating technical expertise in their specialist field",
+        "Speaking confidently without any hesitation"
+      ],
+      "correct": 1,
+      "explanation": "The article states that it is 'the unrehearsed follow-up — the candidate's ability to elaborate, to acknowledge nuance, to demonstrate genuine self-awareness rather than performing it' that distinguishes exceptional from competent candidates."
     },
     {
-      "word": "high-context",
-      "definition": "communication relying on implicit understanding",
-      "example": "Japan has a high-context culture."
+      "id": 2,
+      "question": "Which sentence correctly uses a cleft structure to emphasise the key factor?",
+      "options": [
+        "The negotiation skills I have helped close the deal.",
+        "I closed the deal because of my negotiation skills.",
+        "It was my negotiation skills that ultimately closed the deal.",
+        "My negotiation skills, which I have, closed the deal."
+      ],
+      "correct": 2,
+      "explanation": "'It was my negotiation skills that...' is the standard it-cleft construction, placing emphatic focus on 'negotiation skills' as the decisive factor."
     },
     {
-      "word": "low-context",
-      "definition": "communication that is explicit and direct",
-      "example": "American culture is relatively low-context."
+      "id": 3,
+      "question": "Which version demonstrates appropriate professional hedging?",
+      "options": [
+        "This strategy always guarantees improved team performance.",
+        "This strategy is completely useless in any situation.",
+        "In my experience, this approach tends to yield stronger outcomes in collaborative environments.",
+        "I am not sure if this strategy works at all."
+      ],
+      "correct": 2,
+      "explanation": "'In my experience' and 'tends to' are calibrated hedging devices that convey confidence based on direct experience while acknowledging that the approach is not universally guaranteed."
     },
     {
-      "word": "hierarchy",
-      "definition": "system of ranking and authority levels",
-      "example": "Some cultures emphasize strict hierarchy."
+      "id": 4,
+      "question": "Identify the sentence with a preposition error typical of advanced learners:",
+      "options": [
+        "I am interested in exploring opportunities in risk management.",
+        "She explained to the panel her approach to conflict resolution.",
+        "Despite the complexity, the team adapted to the new system rapidly.",
+        "He explained the committee about the budget constraints in detail."
+      ],
+      "correct": 3,
+      "explanation": "'Explain' requires 'to' before the indirect object. The correct form is 'explained to the committee,' not 'explained the committee.'"
     },
     {
-      "word": "collectivism",
-      "definition": "prioritizing group over individual",
-      "example": "Collectivism values group harmony."
-    },
-    {
-      "word": "individualism",
-      "definition": "prioritizing personal goals and rights",
-      "example": "American culture tends toward individualism."
-    },
-    {
-      "word": "nuance",
-      "definition": "subtle distinction or variation",
-      "example": "Cultural nuances affect interpretation."
-    },
-    {
-      "word": "competence",
-      "definition": "ability to do something successfully",
-      "example": "Cultural competence is essential."
-    },
-    {
-      "word": "inclusive",
-      "definition": "not excluding any groups",
-      "example": "Create an inclusive environment."
-    },
-    {
-      "word": "implicit",
-      "definition": "implied but not directly stated",
-      "example": "High-context cultures use implicit cues."
+      "id": 5,
+      "question": "In the context of the article, what does the writer mean by saying interviewers at senior levels are 'evaluating thinking'?",
+      "options": [
+        "They are testing candidates' IQ scores and cognitive ability tests",
+        "They are assessing whether candidates can analyse, reframe, and act at a level of abstraction suggesting leadership potential",
+        "They are checking whether candidates have memorised industry knowledge",
+        "They are judging how quickly candidates can speak and process information"
+      ],
+      "correct": 1,
+      "explanation": "The article uses the second candidate's response to illustrate 'intellectual sophistication — the capacity to diagnose, reframe, and act at a level of abstraction that suggests genuine leadership potential.' Evaluating thinking means assessing this quality, not task completion."
     }
-  ],
-  "cultural_notes": [
-    "The U.S. has become increasingly diverse - cultural competence is now an essential workplace skill.",
-    "Hofstede's cultural dimensions (power distance, individualism, uncertainty avoidance, masculinity, long-term orientation, indulgence) are widely used in international business.",
-    "Americans generally value directness, but this can conflict with cultures emphasizing harmony and face-saving.",
-    "Understanding 'cultural intelligence' (CQ) is increasingly important as workplaces globalize.",
-    "Many U.S. companies now provide cross-cultural training for managers working with diverse teams.",
-    "The concept of 'microaggressions' - subtle cultural insensitivities - is increasingly discussed in American workplace diversity training.",
-    "Ahmed's journey: Ahmed has been a warehouse supervisor for 2 years. He enrolled part-time at a community college. His writing and communication skills (Units 8–9) prepared him for academic coursework. Unit 11 follows him as he presents research at a regional conference."
   ]
 }

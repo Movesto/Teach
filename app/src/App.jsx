@@ -9,6 +9,7 @@ import Landing from './pages/Landing';
 import AuthPage from './pages/AuthPage';
 import BookAssignment from './components/BookAssignment';
 import GrammarGuide from './pages/GrammarGuide';
+import UnitTest from './pages/UnitTest';
 
 function LoadingScreen() {
   return (
@@ -126,6 +127,7 @@ function AppShell() {
         <Route path="/lesson/:lessonId" element={<ProtectedRoute><LessonView /></ProtectedRoute>} />
         <Route path="/book/:bookId" element={<ProtectedRoute><BookAssignment /></ProtectedRoute>} />
         <Route path="/grammar" element={<ProtectedRoute><GrammarGuide /></ProtectedRoute>} />
+        <Route path="/unit-test/:unitId" element={<ProtectedRoute><UnitTest /></ProtectedRoute>} />
       </Routes>
     </div>
   );

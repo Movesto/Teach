@@ -2,231 +2,170 @@
   "id": "lesson-34",
   "unit_id": 6,
   "lesson_number": 2,
-  "title": "At the Pharmacy",
+  "title": "Rooms, Furniture, and Home Vocabulary",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Fill prescriptions at the pharmacy",
-    "Ask about medications and side effects",
-    "Understand dosage instructions",
-    "Know about over-the-counter medicines"
+    "Name and describe rooms in a home and the furniture typically found in each",
+    "Describe the condition and layout of a property using appropriate adjectives",
+    "Use prepositions of place accurately to describe where objects are located",
+    "Communicate a list of furniture needs to a case worker, sponsor, or furniture bank"
   ],
-  "target_phrases": [
-    "I need to fill this prescription",
-    "How do I take this?",
-    "Are there any side effects?",
-    "Do you have something for...?",
-    "When will it be ready?",
-    "How much does this cost?",
-    "Can I get a refill?"
-  ],
-  "dialogue": {
-    "title": "Filling a Prescription",
-    "context": "Ahmed goes to the pharmacy to fill his prescription for antibiotics. He asks the pharmacist questions about the medication.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Hello, I need to fill this prescription from Dr. Chen."},
-      {"speaker": "Pharmacist", "text": "Sure, let me take a look. Okay, this is for amoxicillin, an antibiotic. Do you have insurance?"},
-      {"speaker": "Ahmed", "text": "Yes, here's my insurance card."},
-      {"speaker": "Pharmacist", "text": "Great. With insurance, your copay is $10. It'll be ready in about 15 minutes. Is this your first time taking this medication?"},
-      {"speaker": "Ahmed", "text": "Yes, it is. How do I take it?"},
-      {"speaker": "Pharmacist", "text": "Take one capsule twice a day - once in the morning and once in the evening. Take it with food to avoid stomach upset. Make sure you finish all 20 capsules even if you feel better."},
-      {"speaker": "Ahmed", "text": "Okay. Are there any side effects I should know about?"},
-      {"speaker": "Pharmacist", "text": "Common side effects include mild stomach upset or diarrhea. If you develop a rash, severe stomach pain, or trouble breathing, stop taking it and call your doctor immediately."},
-      {"speaker": "Ahmed", "text": "I understand. Also, do you have something for my cough? Dr. Chen said I could take cough syrup."},
-      {"speaker": "Pharmacist", "text": "Yes, cough medicine is over-the-counter - you don't need a prescription. This brand works well. Take one tablespoon every 4-6 hours as needed."},
-      {"speaker": "Ahmed", "text": "Thank you. When can I come back to pick up the antibiotic?"},
-      {"speaker": "Pharmacist", "text": "Give us 15 minutes. I'll text you when it's ready. You can browse the store or wait here."}
+  "reading_passage": {
+    "title": "Setting Up a New Home: What Refugees Really Need",
+    "text": "When a refugee family arrives in a new country, one of the first practical challenges is furnishing a bare apartment. Resettlement agencies typically help newcomers find housing, but the apartments are often empty — four walls, a bathroom, and a kitchen with nothing in them. For a family that has left almost everything behind, building a functional home from scratch requires creativity, community support, and knowledge of local resources.\n\nMany cities have furniture banks — nonprofit organisations that collect donated furniture and household goods and distribute them free of charge to families in need. In Portland, organisations like Human Solutions and the Immigrant and Refugee Community Organisation (IRCO) maintain networks of donors and can often furnish an entire apartment within days of a family's arrival. Volunteers deliver items like beds, dressers, dining tables, and kitchen appliances directly to the new home.\n\nBeyond the basics — a bed in every bedroom, a sofa and chairs for the living room, a table and chairs for the kitchen or dining room — families often express surprise at items they had not considered: a shower curtain and rings, drawer liners, lamps, light bulbs, hangers, and basic cleaning supplies. These small items add up and can cost more than expected if purchased new.\n\nFor newcomers who cannot access a furniture bank, thrift stores like Goodwill and Habitat for Humanity's ReStore offer gently used furniture at a fraction of the retail price. Online platforms such as Craigslist's 'free' section and Facebook Marketplace also regularly list free or very cheap household items from neighbours who are moving or decluttering.",
+    "source": "Adapted from the Human Solutions New Arrival Welcome Guide, Portland, Oregon, 2023",
+    "glossary": [
+      {"word": "resettlement agency", "meaning": "an organisation that helps refugees find housing, work, and services in a new country"},
+      {"word": "furniture bank", "meaning": "a nonprofit that collects donated furniture and gives it free to people who cannot afford to buy it"},
+      {"word": "bare apartment", "meaning": "an empty apartment with no furniture or household items"},
+      {"word": "decluttering", "meaning": "the process of removing unwanted items from a home to create more space"},
+      {"word": "gently used", "meaning": "second-hand items that are in good condition despite having been used before"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Asking about dosage",
-      "pattern": "How [often/much] do I take this?",
-      "examples": [
-        "How often do I take this medicine?",
-        "How much should I take each time?",
-        "How many pills do I take per day?",
-        "How long do I need to take this?",
-        "How should I take this - with food or without?"
-      ]
+      "type": "literal",
+      "question": "What services do organisations like Human Solutions and IRCO provide to refugee families in Portland?",
+      "answer": "They maintain networks of donors and can furnish an entire apartment within days of a family's arrival, delivering beds, dressers, dining tables, and kitchen appliances."
     },
     {
-      "id": "drill-2",
-      "focus": "Asking about side effects",
-      "pattern": "Are there any [side effects/interactions]?",
-      "examples": [
-        "Are there any side effects?",
-        "Are there any drug interactions I should know about?",
-        "Are there any foods I should avoid?",
-        "Are there any activities I shouldn't do?",
-        "Are there any warning signs to watch for?"
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say small household items 'add up and can cost more than expected'?",
+      "answer": "The author implies that while each individual item seems inexpensive, when you need to buy shower curtains, light bulbs, hangers, and cleaning supplies all at once, the total cost quickly becomes significant."
     },
     {
-      "id": "drill-3",
-      "focus": "Requesting OTC medicines",
-      "pattern": "Do you have something for [symptom]?",
-      "examples": [
-        "Do you have something for headaches?",
-        "Do you have something for allergies?",
-        "Do you have something for a cold?",
-        "Do you have something for upset stomach?",
-        "Do you have something for a rash?"
-      ]
+      "type": "vocabulary",
+      "question": "What does 'gently used' mean in the final paragraph?",
+      "answer": "Second-hand — items that have been used before but are still in good condition."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention Craigslist's 'free' section and Facebook Marketplace?",
+      "answer": "To provide additional affordable options for newcomers who cannot access a furniture bank — showing that free or very cheap furniture is available from neighbours online."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit6-lesson2-listen1.mp3",
-      "transcript": "Understanding medication labels is important. The label shows: drug name, dosage (amount to take), frequency (how often), and special instructions (with food, before bed, etc.). Always read the label carefully. If instructions say 'Take 2 tablets 3 times daily,' that means 2 tablets in the morning, 2 at midday, and 2 in the evening - total of 6 tablets per day.",
-      "question": "If medicine says 'Take 2 tablets 3 times daily,' how many tablets do you take per day?",
-      "options": ["2 tablets", "3 tablets", "5 tablets", "6 tablets"],
-      "correct": 3
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit6-lesson2-listen2.mp3",
-      "transcript": "Generic vs. brand name medications: Generic medicines have the same active ingredient as brand names but cost less. For example, ibuprofen is the generic name, while Advil and Motrin are brand names. Generics are FDA-approved and just as effective. Ask your pharmacist if a generic version is available to save money.",
-      "question": "What's the difference between generic and brand name medicine?",
-      "options": [
-        "Generic doesn't work as well",
-        "Generic is the same but costs less",
-        "Generic is stronger",
-        "There's no difference"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit6-lesson2-listen3.mp3",
-      "transcript": "Over-the-counter (OTC) medicines don't require a prescription. Common OTC medicines include pain relievers (acetaminophen, ibuprofen), cold and allergy medicine, antacids for stomach upset, and cough syrup. Even though they're OTC, follow dosage instructions carefully. Some OTC medicines shouldn't be mixed with prescription drugs - always ask your pharmacist.",
-      "question": "What does OTC mean?",
-      "options": [
-        "Only Take Carefully",
-        "Over-the-counter - no prescription needed",
-        "Overnight Treatment Care",
-        "Official Treatment Checklist"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You're at the pharmacy. Say: 'I need to fill this prescription. How much will it cost with insurance? When will it be ready?' Record yourself.",
-      "example": "Hello, I need to fill this prescription that my doctor gave me. It's for an antibiotic. I have insurance - here's my card. Can you tell me how much my copay will be? Also, how long will it take to get the medication ready? I can wait if it's not too long. Thank you.",
-      "min_seconds": 20,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Ask the pharmacist 3 questions about a new medication you're taking. Record for 20 seconds.",
-      "example": "I have a few questions about this medication. First, should I take it with food or on an empty stomach? Second, are there any side effects I should watch out for? And third, can I drink alcohol while taking this medicine? I want to make sure I take it correctly.",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write instructions for taking medicine: 2 capsules, twice a day, with food, for 10 days. (30-40 words)",
-      "min_words": 30,
-      "example": "Take two capsules twice daily - once in the morning and once in the evening. Always take with food to prevent stomach upset. Continue for the full 10 days even if you start feeling better. Don't skip doses. Store at room temperature.",
-      "min_words": 30
-    },
-    {
-      "id": "write-2",
-      "prompt": "You're traveling and need a refill of your medication early. Write what you'd say to the pharmacist. (40-50 words)",
-      "min_words": 40,
-      "example": "Hello, I have a prescription for blood pressure medication that I refill here monthly. I'm going out of town for three weeks and I'll run out while I'm gone. Is it possible to get an early refill so I have enough medication for my trip? I can show you my travel tickets if needed.",
-      "min_words": 40
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "'How often' and 'How much' for Dosage",
-      "explanation": "Use 'How often' for frequency and 'How much' for quantity.",
-      "examples": [
-        "How often do I take this? - Twice a day. (frequency)",
-        "How much should I take? - Two tablets. (quantity)",
-        "How often should I apply this cream? - Every 4 hours. (frequency)",
-        "How much medicine per dose? - 5 milliliters. (quantity)"
-      ],
-      "practice": [
-        {"sentence": "___ often do I take this?", "blank": "How", "options": ["How", "What", "When"]},
-        {"sentence": "How ___ should I take?", "blank": "much", "options": ["much", "many", "often"]},
-        {"sentence": "___ many pills per day?", "blank": "How", "options": ["How", "What", "Which"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "'Should/Shouldn't' for Recommendations",
-      "explanation": "Use 'should' for recommendations and 'shouldn't' for things to avoid.",
-      "examples": [
-        "You should take this with food. (recommendation)",
-        "You shouldn't drive after taking this. (avoid)",
-        "Should I avoid alcohol? (asking)",
-        "You should finish all the pills. (advice)"
-      ],
-      "practice": [
-        {"sentence": "You ___ take this with water.", "blank": "should", "options": ["should", "are", "can"]},
-        {"sentence": "You ___ skip doses.", "blank": "shouldn't", "options": ["should", "shouldn't", "can't"]},
-        {"sentence": "___ I take this at night?", "blank": "Should", "options": ["Should", "Do", "Am"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "'Before' and 'After' for Timing",
-      "explanation": "Use 'before' and 'after' to describe when to take medicine.",
-      "examples": [
-        "Take this before meals. (timing)",
-        "Take this after eating. (timing)",
-        "Use this cream before bed. (timing)",
-        "Take your medicine after breakfast. (timing)"
-      ],
-      "practice": [
-        {"sentence": "Take this ___ meals.", "blank": "before", "options": ["before", "after", "during"]},
-        {"sentence": "Use this ___ eating.", "blank": "after", "options": ["before", "after", "while"]},
-        {"sentence": "Take one pill ___ bed.", "blank": "before", "options": ["before", "after", "between"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What medication is Ahmed filling?", "options": ["Cough syrup", "Amoxicillin (antibiotic)", "Pain medicine", "Allergy pills"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "How should Ahmed take the antibiotic?", "options": ["Once a day", "Twice a day with food", "Three times a day", "Only when sick"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How much is Ahmed's copay with insurance?", "options": ["$5", "$10", "$20", "$75"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What does OTC mean?", "options": ["On Time Care", "Over-the-counter", "Official Treatment Cost", "Only Take Carefully"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Generic medicines are just as effective as brand names.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You should stop antibiotics as soon as you feel better.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ often do I take this? (frequency question)", "correct": "How", "accept": ["How", "how"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "You ___ take this with food. (recommendation)", "correct": "should", "accept": ["should"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Prescription", "right": "Needs doctor's order"}, {"left": "OTC", "right": "No prescription needed"}, {"left": "Generic", "right": "Same as brand, costs less"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What should Ahmed do if he develops a rash?", "options": ["Keep taking it", "Stop and call doctor", "Take more medicine", "Ignore it"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Prepositions of Place (in, on, under, next to, between, opposite)",
+    "explanation": "Prepositions of place describe where things are located in relation to other objects or spaces. In English, the choice of preposition is precise: use 'in' for enclosed spaces (in the cupboard, in the drawer), 'on' for surfaces (on the shelf, on the floor), and 'next to,' 'between,' or 'opposite' for relative positions.",
+    "examples": [
+      {
+        "sentence": "The lamp is on the bedside table, next to the window.",
+        "note": "'On' is correct because the lamp sits on a surface; 'next to' shows its position relative to the window."
+      },
+      {
+        "sentence": "The washing machine is in the closet between the bathroom and the kitchen.",
+        "note": "'In the closet' because it is enclosed; 'between' shows its position relative to two other rooms."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete with the correct preposition: 'The refrigerator is ___ the kitchen, ___ the window.'",
+        "answer": "The refrigerator is in the kitchen, next to / opposite / under the window."
+      },
+      {
+        "sentence": "Rewrite to fix the error: 'The dishes are on the cupboard.'",
+        "answer": "The dishes are in the cupboard. (Use 'in' for enclosed storage spaces, not 'on.')"
+      },
+      {
+        "sentence": "Which is correct? A) The sofa is in front the TV. B) The sofa is in front of the TV.",
+        "answer": "B) 'In front of' requires the preposition 'of' after it — 'in front of the TV' is the correct form."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "prescription", "definition": "doctor's written order for medicine", "example": "I need to fill this prescription at the pharmacy."},
-    {"word": "dosage", "definition": "amount of medicine to take", "example": "The dosage is two pills twice a day."},
-    {"word": "side effects", "definition": "unwanted effects from medicine", "example": "Common side effects include drowsiness."},
-    {"word": "generic", "definition": "medicine not sold under brand name", "example": "Generic medicine costs less than brand names."},
-    {"word": "brand name", "definition": "trademarked name for medicine", "example": "Advil is a brand name for ibuprofen."},
-    {"word": "refill", "definition": "getting more of the same medicine", "example": "I need a refill of my blood pressure medication."},
-    {"word": "pharmacist", "definition": "person trained to prepare and dispense medicine", "example": "The pharmacist answered my questions."},
-    {"word": "OTC", "definition": "over-the-counter, no prescription needed", "example": "Aspirin is an OTC pain reliever."},
-    {"word": "tablet", "definition": "pill or solid medicine piece", "example": "Take one tablet with water."},
-    {"word": "capsule", "definition": "medicine in gelatin shell", "example": "Swallow the capsule whole."}
+  "vocabulary_in_context": [
+    {
+      "word": "furnished",
+      "definition": "Equipped with furniture and necessary household items; the opposite is 'unfurnished' or 'bare'",
+      "example_sentence": "The apartments are often empty — four walls, a bathroom, and a kitchen with nothing in them.",
+      "collocations": ["fully furnished", "partially furnished", "unfurnished apartment"],
+      "register": "neutral"
+    },
+    {
+      "word": "resettlement",
+      "definition": "The process of helping refugees or displaced people establish a new home in a different country",
+      "example_sentence": "Resettlement agencies typically help newcomers find housing, but the apartments are often empty.",
+      "collocations": ["resettlement agency", "refugee resettlement", "resettlement process"],
+      "register": "formal"
+    },
+    {
+      "word": "distribute",
+      "definition": "To give out items to many different people or places",
+      "example_sentence": "Nonprofit organisations collect donated furniture and household goods and distribute them free of charge to families in need.",
+      "collocations": ["distribute free of charge", "distribute supplies", "distribute to families"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "Chain pharmacies like CVS, Walgreens, and Rite Aid are common in the U.S.",
-    "Most pharmacies have a drive-through window where you can pick up prescriptions without going inside.",
-    "Many pharmacies are open 24 hours, especially in cities.",
-    "You can transfer prescriptions between pharmacies if you move or want to change pharmacies.",
-    "Pharmacists can give advice about OTC medicines and minor health issues for free.",
-    "Insurance copays for prescriptions vary - some are $5, others can be $50+ depending on your plan."
+  "speaking_task": {
+    "type": "presentation",
+    "context": "You are speaking to a case worker at a resettlement agency. You have just moved into a bare two-bedroom apartment and need to describe what furniture and household items you need most urgently.",
+    "prompt": "Describe your apartment room by room, using prepositions of place. Explain what is already there (if anything) and what you urgently need in each room. Prioritise the most important items for a family with two children.",
+    "useful_language": [
+      "In the main bedroom, there is currently nothing — we need a bed, a dresser, and some hangers for the closet.",
+      "The kitchen has a refrigerator, but there is no table or chairs.",
+      "The children's room is completely empty — it is opposite the bathroom."
+    ],
+    "model_answer": "The apartment has two bedrooms, a living room, a bathroom, and a small kitchen. In the main bedroom, there is nothing at all — we urgently need a bed and some storage. In the children's room, which is next to the bathroom, we need two beds or a bunk bed. The living room is completely bare, so a sofa would be wonderful. The kitchen has a stove and refrigerator, but there is no table or chairs. Most urgently, we need beds for the children — they are sleeping on the floor right now."
+  },
+  "writing_workshop": {
+    "model_text": "My apartment has three rooms: a bedroom, a living room, and a kitchen. In the bedroom, there is a small bed on the left side of the room and a dresser opposite the window. In the living room, there is a sofa next to the wall and a small table in the middle of the room. The kitchen has a refrigerator in the corner and a table with two chairs next to the window. It is a simple home, but it is comfortable and feels safe.",
+    "model_analysis": "Notice how the writer organises the description room by room and uses prepositions throughout to give the reader a clear mental picture of each space.",
+    "task": "Write a description of your current home or apartment. Describe each room, the furniture in it, and where things are located. Use at least six different prepositions of place.",
+    "success_criteria": [
+      "Describe at least three different rooms",
+      "Use at least six prepositions of place correctly (in, on, next to, opposite, between, under, above, etc.)",
+      "Include at least one sentence about how the space feels or what you like about it"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what items do refugee families often forget to request from furniture banks?",
+      "options": [
+        "Refrigerators and washing machines",
+        "Beds, sofas, and dining tables",
+        "Shower curtains, light bulbs, hangers, and cleaning supplies",
+        "Televisions and internet routers"
+      ],
+      "correct": 2,
+      "explanation": "The passage specifically mentions 'a shower curtain and rings, drawer liners, lamps, light bulbs, hangers, and basic cleaning supplies' as items families are surprised by."
+    },
+    {
+      "id": 2,
+      "question": "What is a furniture bank, according to the passage?",
+      "options": [
+        "A bank that lends money to buy new furniture",
+        "A nonprofit that collects donated furniture and gives it free to families in need",
+        "A warehouse where families can store their old furniture",
+        "An online shop that sells second-hand furniture at low prices"
+      ],
+      "correct": 1,
+      "explanation": "The passage defines furniture banks as 'nonprofit organisations that collect donated furniture and household goods and distribute them free of charge to families in need.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence uses a preposition of place correctly?",
+      "options": [
+        "The towels are on the bathroom cabinet.",
+        "The towels are in the bathroom cabinet.",
+        "The towels are at the bathroom cabinet.",
+        "The towels are next the bathroom cabinet."
+      ],
+      "correct": 1,
+      "explanation": "'In the bathroom cabinet' is correct because a cabinet is an enclosed space — use 'in' for enclosed storage."
+    },
+    {
+      "id": 4,
+      "question": "What does the passage suggest as an alternative to furniture banks for newcomers?",
+      "options": [
+        "Borrowing furniture from a neighbour indefinitely",
+        "Buying everything new from a furniture store",
+        "Using thrift stores like Goodwill, ReStore, or free online platforms",
+        "Asking the landlord to provide furniture as part of the lease"
+      ],
+      "correct": 2,
+      "explanation": "The final paragraph suggests 'thrift stores like Goodwill and Habitat for Humanity's ReStore' and 'online platforms such as Craigslist's free section and Facebook Marketplace.'"
+    }
   ]
 }

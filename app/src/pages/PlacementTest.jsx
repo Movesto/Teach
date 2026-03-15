@@ -42,7 +42,7 @@ function flattenSections(sections) {
 
 export default function PlacementTest() {
   const navigate = useNavigate();
-  const { token, refreshUser } = useAuth();
+  const { token, updateUser } = useAuth();
 
   const [testData, setTestData] = useState(null);
   const [allCards, setAllCards] = useState([]);
@@ -147,31 +147,33 @@ export default function PlacementTest() {
     }
   };
 
-  const handleStartLearning = async () => {
-    if (!result) return;
+  const savePlacement = async (payload, userUpdate) => {
     setIsSaving(true);
     try {
       const headers = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
-      await fetch('/api/placement/save', {
-        method: 'POST',
-        headers,
-        body: JSON.stringify({
-          score: result.total_score,
-          percentage: result.percentage,
-          level: result.level,
-          cefr: result.cefr,
-          recommended_unit: result.recommended_unit,
-          breakdown: result.breakdown,
-        }),
-      });
+      await fetch('/api/placement/save', { method: 'POST', headers, body: JSON.stringify(payload) });
+      updateUser({ placement_done: true, ...userUpdate });
+      navigate('/dashboard');
     } catch (e) {
-      console.error('Could not save placement result:', e);
+      console.error('Could not save placement:', e);
     } finally {
       setIsSaving(false);
-      await refreshUser();
-      navigate('/dashboard');
     }
+  };
+
+  const handleSkip = () => savePlacement(
+    { score: 0, percentage: 0, level: 'beginner', cefr: 'A1', recommended_unit: 1, breakdown: {} },
+    { cefr_level: 'A1', recommended_unit: 1 }
+  );
+
+  const handleStartLearning = () => {
+    if (!result) return;
+    savePlacement(
+      { score: result.total_score, percentage: result.percentage, level: result.level,
+        cefr: result.cefr, recommended_unit: result.recommended_unit, breakdown: result.breakdown },
+      { cefr_level: result.cefr, recommended_unit: result.recommended_unit }
+    );
   };
 
   // ── INTRO SCREEN ──
@@ -203,6 +205,13 @@ export default function PlacementTest() {
             className="w-full py-4 bg-indigo-600 text-white rounded-xl font-bold text-lg hover:bg-indigo-700 transition-colors"
           >
             Start Test / Bilow Imtixaanka →
+          </button>
+          <button
+            onClick={handleSkip}
+            disabled={isSaving}
+            className="w-full mt-3 py-3 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 text-sm font-medium transition-colors disabled:opacity-50"
+          >
+            {isSaving ? 'Saving...' : 'Skip for now — start from Unit 1 / Bilow Cutubka 1'}
           </button>
         </div>
       </div>

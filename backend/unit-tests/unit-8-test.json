@@ -1,0 +1,132 @@
+{
+  "unit_id": 8,
+  "unit_title": "Education & Technology",
+  "description": "Test what you learned in Unit 8 — modal verbs for obligation and necessity, relative clauses, reported speech, passive voice, gerunds vs infinitives, and present perfect vs past simple",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a modal verb to express obligation in an academic context?",
+      "options": [
+        "Students should to cite their sources in every essay.",
+        "Students must cite their sources in every essay.",
+        "Students must to cite their sources in every essay.",
+        "Students are must to cite their sources in every essay."
+      ],
+      "correct": 1,
+      "explanation": "'Must' expresses strong obligation and is followed directly by the base verb (no 'to'). 'Should' expresses advice, not a firm rule. 'Must to' and 'are must to' are grammatically incorrect forms."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Which sentence contains a correct defining relative clause?",
+      "options": [
+        "The student who he passed all his exams received a scholarship.",
+        "The student which passed all his exams received a scholarship.",
+        "The student who passed all his exams received a scholarship.",
+        "The student, who passed all his exams, received a scholarship."
+      ],
+      "correct": 2,
+      "explanation": "For people, use 'who' (not 'which') in a relative clause. The subject pronoun ('he') is not repeated inside the clause. Option C is the correct defining relative clause with no unnecessary comma."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Your teacher said: 'You need to submit your project by Friday.' Which reported speech sentence is correct?",
+      "options": [
+        "My teacher said that I need to submit my project by Friday.",
+        "My teacher said that I needed to submit my project by Friday.",
+        "My teacher said that I will submit my project by Friday.",
+        "My teacher told I needed to submit my project by Friday."
+      ],
+      "correct": 1,
+      "explanation": "In reported speech, 'need to' (present) backshifts to 'needed to' (past). 'Said that' is followed by a clause; 'told' requires an object (told me). Option B is the only grammatically correct reported speech sentence."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "The passive voice sentence 'The essay was written by the student' focuses attention on the essay, not on who wrote it.",
+      "correct": true,
+      "explanation": "Passive voice moves the object of the action to the subject position. This de-emphasises the agent (the doer) and emphasises what was done. Passive is frequently used in academic and formal writing."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "Both 'I stopped to check my phone' and 'I stopped checking my phone' mean exactly the same thing.",
+      "correct": false,
+      "explanation": "These have different meanings. 'I stopped to check my phone' means I paused another activity in order to check it. 'I stopped checking my phone' means I no longer check it — I gave up the habit. Gerund vs infinitive after 'stop' changes the meaning completely."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "The new school library ___ built last year, and it now has over ten thousand books.",
+      "answer": "was",
+      "hint": "passive voice auxiliary verb, past simple",
+      "explanation": "The passive voice in past simple uses 'was/were + past participle'. 'The library was built' is correct because the library is the subject (it received the action)."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "I ___ already finished my assignment before the teacher extended the deadline.",
+      "answer": "had",
+      "hint": "past perfect auxiliary — the action was complete before another past event",
+      "explanation": "'Had already finished' is the past perfect, used here to show that the assignment was completed before another past event (the deadline extension). This connects to Unit 8's focus on completed actions in the past."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "instruction": "Put these words in order to form a correct passive voice sentence in the present perfect:",
+      "words": ["the", "has", "software", "been", "updated", "by", "school", "the", "IT", "team"],
+      "answer": ["the", "software", "has", "been", "updated", "by", "the", "school", "IT", "team"],
+      "explanation": "Present perfect passive: subject + has/have + been + past participle. The agent ('by the school IT team') comes at the end. Correct sentence: 'The software has been updated by the school IT team.'"
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each sentence to the grammar structure it demonstrates.",
+      "pairs": [
+        {"left": "The results were announced yesterday.", "right": "passive voice (past simple)"},
+        {"left": "She is the student who won the science prize.", "right": "defining relative clause"},
+        {"left": "He said he had forgotten his password.", "right": "reported speech with backshifting"},
+        {"left": "I remember meeting my first teacher.", "right": "gerund after 'remember' (past memory)"}
+      ],
+      "explanation": "These four sentences each illustrate a distinct grammar structure from Unit 8: passive voice, relative clauses, reported speech backshifting, and gerund vs infinitive after 'remember'."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "Write a short email (40-60 words) to your teacher explaining that you have completed a group project. Use the passive voice at least once (e.g. to say what was done), include a relative clause to describe something or someone, and use a modal verb for a polite request.",
+      "word_count": "40-60",
+      "guidance": "Open with a greeting and state the purpose. Use passive voice to describe what was done (e.g. 'The report has been written...'). Add a relative clause (e.g. 'the classmate who...'). End with a polite modal request (e.g. 'Could you please...').",
+      "sample_answer": "Dear Ms Ahmed, I am writing to let you know that our group project has been completed. The final report, which was written by all three members of our group, has been uploaded to the online platform. The classmate who designed the presentation did an excellent job. Could you please confirm that you have received our submission? Thank you."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "In a formal debate, a speaker says: 'I take your point, however I would argue that...' What is this phrase used for?",
+      "options": [
+        "Ending the discussion politely",
+        "Acknowledging the other side while introducing a counter-argument",
+        "Asking for clarification",
+        "Agreeing completely with the other speaker"
+      ],
+      "correct": 1,
+      "explanation": "'I take your point, however I would argue that...' is a classic counter-argument opener. It shows that you have listened and understood, but then introduces a contrasting view. This previews Unit 9's focus on advanced communication and argumentation.",
+      "is_preview": true,
+      "preview_unit": 9,
+      "preview_unit_title": "Advanced Communication"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "In formal spoken English, it is acceptable to use hedging language such as 'It could be argued that...' or 'This might suggest...' to present an idea carefully rather than stating it as absolute fact.",
+      "correct": true,
+      "explanation": "Hedging language is widely used in academic speaking and writing to show that a claim is an interpretation or possibility rather than a certain truth. This is a key feature of advanced communication covered in Unit 9.",
+      "is_preview": true,
+      "preview_unit": 9,
+      "preview_unit_title": "Advanced Communication"
+    }
+  ]
+}

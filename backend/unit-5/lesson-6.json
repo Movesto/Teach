@@ -2,320 +2,170 @@
   "id": "lesson-32",
   "unit_id": 5,
   "lesson_number": 6,
-  "title": "Discussing Problems and Solutions",
+  "title": "Renting a Car and Road Safety",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Describe a problem clearly and concisely",
-    "Propose solutions using 'could', 'should', 'one option would be'",
-    "Evaluate solutions: advantages, disadvantages",
-    "Participate in a problem-solving discussion"
+    "Understand the process and requirements for renting a car in the United States",
+    "Read and interpret common road signs and traffic rules",
+    "Describe a road incident or accident clearly to police or an insurance agent",
+    "Use comparative structures to evaluate transportation options including driving, bus, and rideshare"
   ],
-  "target_phrases": [
-    "The main problem is...",
-    "One solution would be to...",
-    "We could...",
-    "Another option is...",
-    "The advantage of this is...",
-    "The disadvantage is...",
-    "What do you think we should do?"
-  ],
-  "dialogue": {
-    "context": "Ahmed and his neighbor Rosa are at a community meeting. They are discussing a problem in their apartment building and trying to find solutions.",
-    "lines": [
-      { "speaker": "Rosa", "text": "Ahmed, I'm glad you came to the meeting. The main problem is the broken heating system. Some apartments have no heat." },
-      { "speaker": "Ahmed", "text": "Yes, I know. It's very cold in my apartment at night. What can we do?" },
-      { "speaker": "Rosa", "text": "One solution would be to call the city housing authority and report the landlord." },
-      { "speaker": "Ahmed", "text": "The advantage of that is it puts official pressure on him. But the disadvantage is it might take a long time." },
-      { "speaker": "Rosa", "text": "Another option is to organize the tenants and write a formal letter together. More signatures mean more pressure." },
-      { "speaker": "Ahmed", "text": "That could work. We could also document everything — take photos and write the dates when the heat stopped working." },
-      { "speaker": "Rosa", "text": "Good thinking. What do you think we should do first?" },
-      { "speaker": "Ahmed", "text": "I think we should start with the letter — it's faster. If the landlord doesn't respond, then we call the housing authority." },
-      { "speaker": "Rosa", "text": "That's a good plan. We'll organize the tenants this week and write the letter together." },
-      { "speaker": "Ahmed", "text": "Good. Working together is always stronger than acting alone." }
+  "reading_passage": {
+    "title": "Driving in America: What New Residents Should Know",
+    "text": "For newcomers who are used to driving in other countries, getting behind the wheel in the United States can be both familiar and surprising. The basic rules of the road — stop at red lights, yield to pedestrians, follow speed limits — are the same as in most countries. However, there are specific American customs and rules that often catch new drivers off guard.\n\nOne common difference is the 'right turn on red' rule. In most states, including Oregon, drivers are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear. This rule surprises many drivers from countries where any movement at a red light is forbidden. Another difference is the four-way stop, where vehicles at four different directions all stop completely, then proceed one at a time in the order they arrived.\n\nRenting a car in the United States requires a valid driver's licence — ideally an International Driving Permit alongside your home country licence — as well as a major credit card and proof of insurance. Most rental companies require drivers to be at least 25 years old, though some will rent to drivers aged 21 and older for an additional fee.\n\nBefore driving in a new area, it is worth downloading an offline map in case GPS service is unavailable. It is also important to know what to do in an accident: stay calm, do not move the vehicles unless they are blocking traffic, and call 911 if anyone is injured. Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.",
+    "source": "Adapted from the Oregon Driver Manual and a newcomer driving guide published by Catholic Charities of Oregon, 2023",
+    "glossary": [
+      {"word": "yield", "meaning": "to slow down or stop to allow another vehicle or pedestrian to go first"},
+      {"word": "four-way stop", "meaning": "an intersection where all four roads have stop signs and vehicles must take turns"},
+      {"word": "International Driving Permit", "meaning": "an official document that allows someone to drive in another country using their home country licence"},
+      {"word": "rental company", "meaning": "a business that lends cars or other vehicles to customers for a fee"},
+      {"word": "exchange", "meaning": "to give and receive the same type of information or item with another person"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "title": "Describing Problems",
-      "grammar_point": "Use specific language to describe a problem: what it is, who it affects, and why it matters.",
-      "examples": [
-        "The main problem is the heating is broken.",
-        "The issue is that many workers don't have health insurance.",
-        "The challenge is communicating with people who speak different languages.",
-        "One problem is the bus schedule doesn't match the work shifts."
-      ],
-      "practice": [
-        { "prompt": "The ___ problem is the parking lot is always full.", "answer": "main" },
-        { "prompt": "The ___ is that the store closes too early.", "answer": "issue / problem" },
-        { "prompt": "One ___ is the application form is only in English.", "answer": "problem / challenge" },
-        { "prompt": "The ___ is finding affordable childcare.", "answer": "challenge / difficulty" }
-      ]
+      "type": "literal",
+      "question": "What are two things you need to rent a car in the United States, according to the passage?",
+      "answer": "A valid driver's licence (ideally with an International Driving Permit) and a major credit card. Proof of insurance is also required."
     },
     {
-      "title": "Proposing Solutions",
-      "grammar_point": "Use COULD, SHOULD, and 'one option/solution would be' to suggest solutions respectfully.",
-      "examples": [
-        "We could contact the landlord directly.",
-        "One solution would be to organize a meeting.",
-        "We should document all the problems with dates.",
-        "Another option would be to ask a community organization for help."
-      ],
-      "practice": [
-        { "prompt": "We ___ write a formal letter to the manager.", "answer": "could / should" },
-        { "prompt": "One solution ___ be to hire a translator.", "answer": "would" },
-        { "prompt": "Another ___ is to post the notice in two languages.", "answer": "option" },
-        { "prompt": "We ___ start by collecting everyone's contact information.", "answer": "should" }
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say new drivers are 'caught off guard' by American driving rules?",
+      "answer": "The author implies that even experienced drivers from other countries can be surprised or confused by rules specific to the US, because they are different from what those drivers are used to."
     },
     {
-      "title": "Evaluating Solutions",
-      "grammar_point": "Use 'the advantage is' and 'the disadvantage is' to evaluate each option.",
-      "examples": [
-        "The advantage of calling is it's fast. The disadvantage is they might not respond.",
-        "The advantage of writing a letter is we have a record. The disadvantage is it takes time.",
-        "The advantage of this solution is that it costs nothing. The disadvantage is it requires cooperation."
-      ],
-      "practice": [
-        { "prompt": "The ___ of working together is more people means more power.", "answer": "advantage" },
-        { "prompt": "The ___ of this plan is it takes a long time.", "answer": "disadvantage" },
-        { "prompt": "The advantage ___ this approach is it's official.", "answer": "of" },
-        { "prompt": "The disadvantage ___ that option is the cost.", "answer": "of" }
-      ]
+      "type": "vocabulary",
+      "question": "What does the word 'yield' mean in the first paragraph?",
+      "answer": "To slow down or stop to allow another vehicle, cyclist, or pedestrian to go before you."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author advise drivers to download an offline map?",
+      "answer": "Because GPS service may not be available in all areas — particularly in rural or less-connected regions — and having an offline map ensures you can still navigate even without internet access."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit5-lesson6-listen1.mp3",
-      "transcript": "At our workplace meeting, we discussed a serious problem: the break room only has one microwave for 50 employees. People wait 15 minutes just to heat their food. One solution would be to buy two more microwaves. The advantage is that it solves the problem immediately. The disadvantage is the cost — each microwave is about $80. Another option is to stagger the lunch breaks so fewer people use the room at the same time. We should vote on this at the next meeting.",
-      "question": "What is the main problem described?",
-      "options": [
-        "There is no break room",
-        "The lunch breaks are too short",
-        "There is only one microwave for too many people",
-        "The food in the cafeteria is bad"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit5-lesson6-listen2.mp3",
-      "transcript": "The issue is that many new immigrants in our neighborhood don't know about free English classes at the community center. One solution would be to put up signs in different languages at the grocery stores, mosques, and community centers. We could also ask religious leaders to announce it at Friday prayers. Another option is to create a phone tree — people call their friends and share the information. What do you think we should do first?",
-      "question": "What does the speaker suggest asking religious leaders to do?",
-      "options": [
-        "Teach English classes",
-        "Announce the free classes at Friday prayers",
-        "Put up signs in the neighborhood",
-        "Create a phone tree"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit5-lesson6-listen3.mp3",
-      "transcript": "In my opinion, the best solution to traffic problems in the city is improving public transportation. The advantage of this approach is that fewer cars on the road means less pollution and faster travel times for everyone. We could invest in more buses and extend the train lines to areas that don't have service. The disadvantage is the initial cost, which is high. However, in the long run, it saves money and improves quality of life. We should start planning now rather than waiting for the problem to get worse.",
-      "question": "What does the speaker say is the DISADVANTAGE of improving public transportation?",
-      "options": [
-        "It increases pollution",
-        "It doesn't help traffic",
-        "The initial cost is high",
-        "Trains are too slow"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe a problem in your neighborhood or workplace. Then suggest TWO solutions. Use: The main problem is..., One solution would be..., Another option is... Record for 35 seconds.",
-      "example": "The main problem in my neighborhood is that there is no safe place for children to play after school. One solution would be to convert the empty parking lot behind the community center into a playground. Another option is to organize after-school programs inside the community center itself. I think both ideas are good, but the indoor program would be faster to start and less expensive.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Choose one of your solutions from the previous task. Explain the advantage AND disadvantage of it. Use: The advantage is..., The disadvantage is..., However... Record for 25 seconds.",
-      "example": "The advantage of converting the parking lot into a playground is that children would have a permanent outdoor space, and it would help the whole community. The disadvantage is the cost — building a playground is expensive and takes time to get permits. However, we could apply for a city grant to cover the costs. I still think it's the better long-term solution.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "title": "Problem and Solution Paragraph",
-      "prompt": "Write a paragraph (6-8 sentences) about a real problem you have seen or experienced. Describe the problem, suggest two solutions, and evaluate one of them using advantage/disadvantage. Use target phrases from this lesson.",
-      "example": "A real problem in my community is that new immigrants often don't know how to access healthcare services. The main issue is that many people don't know what insurance they qualify for or how to find a doctor who speaks their language. One solution would be to create a multilingual hotline that people can call for guidance. Another option is to train community health navigators — volunteers who help newcomers understand the system. The advantage of community navigators is they understand the culture and build trust quickly. The disadvantage is finding and training enough volunteers takes time. Overall, I believe both solutions are necessary and could work together.",
-      "min_words": 90
-    },
-    {
-      "id": "write-2",
-      "title": "What Should We Do?",
-      "prompt": "Imagine you are at a community meeting. Write 3 sentences proposing solutions to one of these problems: (1) too much litter in the park, (2) not enough English classes in your area, (3) long lines at the food bank. Use: We could..., One solution would be..., We should...",
-      "example": "We could organize a community clean-up day every month and ask local businesses to sponsor supplies. One solution would be to add trash cans at every park entrance so people have a convenient place to put their litter. We should also put up multilingual signs reminding people to keep the park clean — this is important so everyone understands the message.",
-      "min_words": 50
-    }
-  ],
-  "grammar_focus": [
-    {
-      "pattern": "COULD for suggestions",
-      "explanation": "COULD is softer than SHOULD and is good for making suggestions in a group. It sounds less like an order.",
-      "examples": [
-        "We could organize a meeting.",
-        "You could try calling first.",
-        "One option could be to wait and see."
-      ]
-    },
-    {
-      "pattern": "SHOULD for recommendations",
-      "explanation": "SHOULD is stronger than COULD — you think this is the right thing to do. Use it when you have more confidence in your suggestion.",
-      "examples": [
-        "We should document everything with photos.",
-        "You should call the housing authority.",
-        "They should respond within 5 business days."
-      ]
-    },
-    {
-      "pattern": "One solution / option would be to + [base verb]",
-      "explanation": "This is a formal and polite way to propose a solution. 'Would be' softens the suggestion and shows you are open to discussion.",
-      "examples": [
-        "One solution would be to hire more staff.",
-        "Another option would be to change the schedule.",
-        "One approach would be to ask for community feedback first."
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "language_focus": {
+    "title": "Comparative Adjectives and Adverbs for Evaluating Options",
+    "explanation": "When comparing transportation options — driving versus taking the bus, renting a car versus using a rideshare — we use comparative forms. For short adjectives, add '-er' (cheaper, faster, safer). For adjectives with two or more syllables, use 'more/less' (more convenient, less expensive). Use 'than' to complete the comparison.",
+    "examples": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Which phrase most naturally introduces a problem?",
-        "options": [
-          "The solution is there's a problem.",
-          "The main problem is the heating is broken.",
-          "We have a solution — the problem.",
-          "Problem is main — the heating."
-        ],
-        "correct": 1,
-        "points": 10
+        "sentence": "Taking the MAX is cheaper than renting a car for a daily commute.",
+        "note": "'Cheaper' is the comparative form of 'cheap' — add '-er' for short adjectives."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "Which sentence proposes a solution politely?",
-        "options": [
-          "You must do this.",
-          "The only answer is my idea.",
-          "One solution would be to organize a community meeting.",
-          "Do it this way."
-        ],
-        "correct": 2,
-        "points": 10
+        "sentence": "Driving is more convenient than taking the bus when you have heavy shopping bags.",
+        "note": "'More convenient' uses 'more' because 'convenient' has three syllables."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite using a comparative: 'The bus is safe. The train is also safe, but more so.'",
+        "answer": "The train is safer than the bus."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What is the difference between COULD and SHOULD in suggestions?",
-        "options": [
-          "They mean exactly the same thing",
-          "COULD is a softer suggestion; SHOULD is a stronger recommendation",
-          "SHOULD is polite; COULD is rude",
-          "COULD is for problems; SHOULD is for solutions"
-        ],
-        "correct": 1,
-        "points": 10
+        "sentence": "Complete the comparison: 'Rideshare apps are ___ expensive ___ renting a car for one day.'",
+        "answer": "Rideshare apps are less expensive than renting a car for one day."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "In the dialogue, what does Ahmed suggest they do FIRST?",
-        "options": [
-          "Call the city housing authority",
-          "Move to a different apartment",
-          "Write a formal letter together",
-          "Fix the heating themselves"
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "multiple-choice",
-        "question": "Which sentence correctly evaluates a solution?",
-        "options": [
-          "The advantage of this plan, it is good.",
-          "The advantage of this plan is it's fast and free.",
-          "This plan advantage is fast.",
-          "Advantage: the plan is good."
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "multiple-choice",
-        "question": "What does 'The disadvantage is...' signal?",
-        "options": [
-          "A positive aspect of the solution",
-          "A negative or limiting aspect of the solution",
-          "The final decision",
-          "The beginning of a problem"
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "multiple-choice",
-        "question": "Which question invites others to share their opinions in a discussion?",
-        "options": [
-          "I know what we should do.",
-          "What do you think we should do?",
-          "My solution is the best.",
-          "There is only one answer."
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "multiple-choice",
-        "question": "Complete: 'Another ___ would be to ask a community organization for help.'",
-        "options": ["problem", "issue", "option", "advantage"],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "open-ended",
-        "question": "Describe one problem you see in your community or workplace. Write 2 sentences using: The main problem is... and One solution would be...",
-        "options": [],
-        "correct": null,
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "open-ended",
-        "question": "Write 2 sentences evaluating one solution: use 'The advantage of this is...' and 'The disadvantage is...'",
-        "options": [],
-        "correct": null,
-        "points": 10
+        "sentence": "Which is correct? A) Driving is more faster than walking. B) Driving is faster than walking.",
+        "answer": "B) 'Faster' already has the '-er' comparative ending — you cannot add 'more' as well."
       }
     ]
   },
-  "vocabulary": [
-    { "word": "solution", "definition": "an answer to a problem", "example": "One solution would be to add more staff." },
-    { "word": "advantage", "definition": "a benefit or positive aspect of something", "example": "The advantage of this plan is the low cost." },
-    { "word": "disadvantage", "definition": "a negative or limiting aspect of something", "example": "The disadvantage is it takes too long." },
-    { "word": "propose", "definition": "to suggest an idea for others to consider", "example": "I want to propose a new schedule." },
-    { "word": "evaluate", "definition": "to examine carefully and judge the quality of something", "example": "We need to evaluate all the options before deciding." },
-    { "word": "tenant", "definition": "a person who rents a house or apartment", "example": "The tenants signed a letter about the heating problem." }
+  "vocabulary_in_context": [
+    {
+      "word": "yield",
+      "definition": "To give way to another vehicle or person, allowing them to proceed first",
+      "example_sentence": "The basic rules — stop at red lights, yield to pedestrians, follow speed limits — are the same as in most countries.",
+      "collocations": ["yield to traffic", "yield sign", "fail to yield"],
+      "register": "neutral"
+    },
+    {
+      "word": "exchange",
+      "definition": "To give and receive information with another person, each providing the same type of details",
+      "example_sentence": "Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.",
+      "collocations": ["exchange information", "exchange contact details", "exchange insurance details"],
+      "register": "neutral"
+    },
+    {
+      "word": "permit",
+      "definition": "To officially allow something to happen under specific conditions",
+      "example_sentence": "In most states, drivers are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear.",
+      "collocations": ["permitted to turn", "legally permitted", "not permitted"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "In American workplaces and community meetings, it is common to brainstorm solutions before deciding. It is polite to listen to all suggestions before saying which one is best.",
-    "Saying 'What do you think we should do?' shows respect for other people's opinions — it is an important phrase for collaboration and team meetings."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are discussing with a friend how to get to a job interview that is 25 kilometres away. You are comparing three options: taking the bus, using a rideshare app, and renting a car for the day.",
+    "prompt": "Compare all three transportation options for this specific situation. Consider cost, convenience, reliability, and any risks. Use comparative structures in your response and give a clear recommendation at the end.",
+    "useful_language": [
+      "Taking the bus is cheaper than..., but it might be less reliable if there are delays.",
+      "A rideshare is more convenient than the bus because...",
+      "Renting a car is the most flexible option, but it is also the most expensive."
+    ],
+    "model_answer": "For a job interview, I think reliability is the most important factor. The bus is definitely cheaper than a rideshare, but it is less predictable — a delay could make me late. A rideshare is more convenient and faster than the bus, though it is more expensive. Renting a car would give me the most control, but it is the most costly option and parking near the interview location could be difficult. I would choose the rideshare — it is more reliable than the bus and less stressful than driving somewhere unfamiliar."
+  },
+  "writing_workshop": {
+    "model_text": "I prefer taking the bus to work rather than driving, for several reasons. First, the bus is significantly cheaper than paying for gas and parking every day. It is also less stressful — I can read or rest while someone else handles the traffic. On the other hand, driving is faster when I have errands to run after work, because the bus route does not go directly to the grocery store. Overall, for my daily commute, the bus is the better option, but having a car is more practical at weekends.",
+    "model_analysis": "Notice how the writer gives both sides of the comparison fairly, uses comparative adjectives throughout (cheaper, less stressful, faster, more practical), and ends with a clear personal recommendation.",
+    "task": "Compare two ways of travelling that you use or have used. Explain the advantages and disadvantages of each using comparative structures, and conclude with your personal recommendation.",
+    "success_criteria": [
+      "Use at least four comparative adjectives or adverbs (cheaper, more convenient, safer, etc.)",
+      "Present at least one advantage AND one disadvantage for each option",
+      "End with a clear recommendation supported by a reason"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what must a driver do before turning right on red?",
+      "options": [
+        "Signal for three seconds and then turn",
+        "Flash the headlights to warn other drivers",
+        "Come to a complete stop and ensure the way is clear",
+        "Wait for a green arrow signal"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'drivers are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear.'"
+    },
+    {
+      "id": 2,
+      "question": "What is a four-way stop?",
+      "options": [
+        "An intersection controlled by traffic lights only",
+        "An intersection where all four roads have stop signs and vehicles take turns",
+        "A roundabout with four exits",
+        "A pedestrian crossing with four lanes"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains: 'the four-way stop, where vehicles at four different directions all stop completely, then proceed one at a time in the order they arrived.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses a comparative adjective?",
+      "options": [
+        "Driving is more faster than taking the bus.",
+        "Driving is fastest than taking the bus.",
+        "Driving is faster than taking the bus.",
+        "Driving is the faster than taking the bus."
+      ],
+      "correct": 2,
+      "explanation": "'Faster than' is the correct comparative structure — no 'more' is needed because 'fast' is a short adjective that simply takes '-er.'"
+    },
+    {
+      "id": 4,
+      "question": "What should you do immediately after a road accident, according to the passage?",
+      "options": [
+        "Drive to the nearest police station",
+        "Stay calm, avoid moving vehicles unless blocking traffic, and call 911 if anyone is injured",
+        "Exchange insurance details and drive away as quickly as possible",
+        "Call your rental car company before doing anything else"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises: 'stay calm, do not move the vehicles unless they are blocking traffic, and call 911 if anyone is injured. Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.'"
+    }
   ]
 }

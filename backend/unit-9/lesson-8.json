@@ -2,581 +2,231 @@
   "id": "lesson-75",
   "unit_id": 9,
   "lesson_number": 8,
-  "title": "The Passive Voice",
+  "title": "The Passive Voice: Agency, Objectivity, and Strategic Omission",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "Ahmed has been a supervisor for two weeks. While completing an incident report at Bay 3, he notices that official workplace forms and procedure documents are written completely differently from how he normally speaks. Every instruction is impersonal — no one is named, only actions. Rosa, who processes these reports, shows him that this pattern has a name and a purpose: passive voice. Understanding it will help Ahmed read, write, and sound professional in every official context at work.",
   "objectives": [
-    "Form passive voice correctly with be + past participle",
-    "Understand when to use passive voice (unknown agent, formal tone, focus on result)",
-    "Transform active sentences into passive constructions",
-    "Use passive voice appropriately in professional writing"
+    "Analyse the range of communicative functions served by passive voice constructions across formal registers",
+    "Evaluate when passive voice adds precision or objectivity versus when it obscures agency inappropriately",
+    "Distinguish between agentless passives, passives with agent phrases, and impersonal passive constructions",
+    "Construct formal texts using passive structures purposefully to manage information flow and register"
   ],
-  "target_phrases": [
-    "The report was submitted on time.",
-    "Mistakes were made during the process.",
-    "The policy has been updated.",
-    "The shipment is being tracked.",
-    "Errors should be reported immediately.",
-    "The decision was made by the committee.",
-    "This form must be completed in full."
+  "authentic_text": {
+    "title": "After the Explosion: A Crisis Investigation",
+    "type": "report",
+    "text": "On the morning of 14 February, a significant failure occurred at the Hartley Chemical plant in Lincolnshire. At approximately 06:15, a pressure valve in Building C was found to be malfunctioning. Emergency protocols were initiated, and the surrounding area was evacuated within thirty-five minutes. No fatalities were recorded, and fourteen workers were treated for mild respiratory irritation before being discharged from Grimsby General Hospital.\n\nThe investigation that was subsequently commissioned identified multiple contributing factors. Maintenance records for the affected valve system had not been updated since the previous quarter, and a routine inspection scheduled for January had been postponed twice — on both occasions, due to staffing constraints. It has been established that the original installation of the valve assembly did not meet current regulatory standards; however, this was not detected during the 2022 compliance review, the findings of which have now been referred to the Health and Safety Executive.\n\nRecommendations arising from the investigation include the immediate review of all pressure management systems across the facility, the implementation of a mandatory electronic maintenance logging system, and the engagement of an independent third-party auditor to assess compliance with current HSE guidelines. It is further recommended that the postponement of any scheduled safety inspection be subject to formal board-level approval.\n\nThe company has acknowledged that the incident was preventable and has committed to full implementation of these recommendations within a sixty-day period.",
+    "source": "Extract from a civic report on industrial safety, adapted for educational purposes",
+    "notes": "This text is a near-perfect specimen of formal report English — the passive voice is used throughout to create objectivity, but notice where active constructions appear and what effect they have."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What three recommendations does the investigation make?",
+      "answer": "1. Immediate review of all pressure management systems; 2. Implementation of a mandatory electronic maintenance logging system; 3. Engagement of an independent third-party auditor to assess HSE compliance."
+    },
+    {
+      "type": "inference",
+      "question": "What does the repeated use of passive constructions in the report imply about who is responsible for the failures?",
+      "answer": "The passive constructions ('had not been updated', 'had been postponed', 'was not detected') withhold agency — they describe failures without naming who was responsible. This is characteristic of formal investigation reports, which identify systemic failures rather than individual blame. The implication is institutional rather than personal responsibility."
+    },
+    {
+      "type": "tone",
+      "question": "Where in the text does active voice appear, and what is the effect?",
+      "answer": "The final sentence uses active voice: 'The company has acknowledged... and has committed...' This shift is significant — it moves from impersonal, institutional description to direct attribution of agency. The company is named as the actor, making its commitment clear and holding it accountable in a way the passive constructions do not."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'commissioned' mean in the context of paragraph 2?",
+      "answer": "'Commissioned' means formally authorised and directed — to commission an investigation is to officially instruct someone to conduct it. The passive 'was subsequently commissioned' means the investigation was formally requested and set in motion after the incident."
+    },
+    {
+      "type": "purpose",
+      "question": "Why does the report describe the valve installation as not meeting 'current regulatory standards' rather than 'regulatory standards at the time'?",
+      "answer": "The phrasing 'current regulatory standards' is deliberately chosen — it raises the question of whether the installation was acceptable under the standards that applied when it was made, or whether standards have since been raised. This is potentially significant for legal liability. The report identifies a discrepancy but leaves the full implications to be resolved elsewhere (hence referral to the HSE)."
+    }
   ],
-  "dialogue": {
-    "title": "Filing an Incident Report",
-    "context": "Ahmed finds a damaged pallet in the warehouse and needs to file an incident report. Rosa, who processes these reports, helps him complete the description section.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Passive Voice: Functions, Variations, and Stylistic Choices",
+    "explanation": "The passive voice is not a single grammatical structure but a family of constructions serving distinct communicative purposes. Understanding these purposes — and choosing among them deliberately — is a hallmark of sophisticated English writing.\n\nKey functions of the passive: (1) Agent unknown or unimportant: 'The valve was installed in 2019' — we don't know or need to know who installed it. (2) Agent deliberately withheld: 'Mistakes were made' — classic political language that conceals responsibility. (3) Focus on the action or result rather than the doer: 'The recommendations were implemented within sixty days' — the implementation matters more than who did it. (4) Creating impersonal, formal register: passives dominate scientific, legal, and bureaucratic writing because they foreground process and results rather than individuals.\n\nA related construction is the impersonal 'It is...' passive: 'It has been established that...', 'It is recommended that...', 'It has been noted that...'. These are characteristic of formal reports and academic writing. They present findings as established facts rather than personal opinions, lending authority.",
+    "examples": [
       {
-        "speaker": "Ahmed",
-        "text": "[reads form aloud] \"All incidents must be reported within two hours. The area must be secured. Damaged items should be photographed before they are moved.\""
+        "from_text": "Emergency protocols were initiated, and the surrounding area was evacuated within thirty-five minutes.",
+        "analysis": "Both passives omit the agents (who initiated protocols, who conducted the evacuation). In a crisis report, this is appropriate — the focus is on what happened and how fast, not on who specifically acted. Naming individuals would distract from the procedural account."
       },
       {
-        "speaker": "Rosa",
-        "text": "That's the standard form. You need to fill out the Description section — what happened exactly?"
+        "from_text": "It has been established that the original installation of the valve assembly did not meet current regulatory standards",
+        "analysis": "The impersonal 'it has been established' presents this as an agreed, evidenced finding — not the opinion of a single investigator. The present perfect 'has been established' emphasises that the finding stands now, not merely that it was reached at some point in the past."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "It is recommended that all safety inspections be subject to board-level approval before postponement.",
+        "informal": "We think the board should have to approve it before anyone can delay a safety inspection."
       },
       {
-        "speaker": "Ahmed",
-        "text": "Carlos was moving a pallet with the forklift and it got dropped. One corner is damaged."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Okay, but for the report, don't write it like that. The report is official — keep it neutral."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "What do you mean?"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Instead of \"Carlos dropped the pallet,\" write \"The pallet was damaged during unloading.\" We don't need to name who did it — the report focuses on what happened, not who to blame."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "So I use \"was damaged\" instead of \"Carlos damaged it\"?"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Exactly. Look at the form — \"the area must be secured.\" Not \"you must secure the area.\" The instructions don't say who — just what needs to happen. Same idea in your description."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "\"The pallet was found damaged in Bay 3. The area has been secured. Photographs have been taken.\" Like that?"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Perfect. That's exactly right. Professional, factual, no blame. That's why passive is used in official documents."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "And \"has been secured\" — that's different from \"was secured\"?"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "\"Was secured\" just says it happened. \"Has been secured\" means it happened and it's still secure now — the result matters. Use present perfect when the result is the important thing."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "This is making more sense. The form is teaching me as I fill it in."
+        "formal": "The original installation had not been carried out in accordance with applicable standards.",
+        "informal": "Whoever installed it didn't do it properly."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Active to passive transformation",
-      "pattern": "Subject + verb + object → Object + be + past participle (+ by + agent)",
-      "examples": [
-        "Active: The manager approved the request. → Passive: The request was approved by the manager.",
-        "Active: Someone submitted the report late. → Passive: The report was submitted late.",
-        "Active: The team completed the project. → Passive: The project was completed by the team.",
-        "Active: HR updated the policy. → Passive: The policy was updated by HR.",
-        "Active: Workers must log all shipments. → Passive: All shipments must be logged."
-      ],
-      "your_turn": "Say: 'The supervisor approved the request' as a passive sentence.",
-      "prompts": [
-        {
-          "sentence": "The team ___ the project last week. (past passive of 'complete')",
-          "answer": "completed"
-        },
-        {
-          "sentence": "All deliveries ___ logged every morning. (present passive — be)",
-          "answer": "are"
-        },
-        {
-          "sentence": "The policy ___ updated by HR. (past passive — be)",
-          "answer": "was"
-        }
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Passive tenses in professional context",
-      "pattern": "is/are + past participle (present) | was/were + past participle (past) | has/have been + past participle (present perfect)",
-      "examples": [
-        "The warehouse is inspected every Monday. (present passive — regular action)",
-        "The delivery was delayed due to weather. (past passive — completed event)",
-        "The safety procedures have been revised. (present perfect passive — recent change, relevant now)",
-        "The new equipment is being installed this week. (present continuous passive — in progress)",
-        "All incidents should be reported within 24 hours. (modal passive — rule or requirement)"
-      ],
-      "your_turn": "Say: 'The shipment is being tracked and the invoice has been approved.'",
-      "prompts": [
-        {
-          "sentence": "The window ___ broken during the storm. (past passive)",
-          "answer": "was"
-        },
-        {
-          "sentence": "The safety procedures ___ been revised recently. (present perfect passive)",
-          "answer": "have"
-        },
-        {
-          "sentence": "All staff ___ notified of the change. (past passive)",
-          "answer": "were"
-        }
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "When to use passive in professional writing",
-      "pattern": "Use passive when: agent is unknown, unimportant, or obvious; formal/impersonal tone is needed; focus is on result",
-      "examples": [
-        "The window was broken. (agent unknown — don't know who broke it)",
-        "The budget has been approved. (result matters more than who approved it)",
-        "Mistakes were made in the shipping department. (diplomatic — avoids blaming one person)",
-        "Applicants will be contacted within two weeks. (formal announcement — who contacts is obvious)",
-        "The fire alarm must be tested monthly. (rule — who tests it is unimportant)"
-      ],
-      "your_turn": "Say a rule or requirement at your workplace using passive voice (e.g. 'must be...' or 'should be...').",
-      "prompts": [
-        {
-          "sentence": "All errors ___ be reported within 24 hours. (modal passive — obligation)",
-          "answer": "must"
-        },
-        {
-          "sentence": "The budget ___ been approved by finance. (present perfect passive)",
-          "answer": "has"
-        },
-        {
-          "sentence": "The package is ___ tracked by our courier. (present continuous passive)",
-          "answer": "being"
-        }
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson8-listen1.mp3",
-      "transcript": "[Safety briefing recording] 'Attention all warehouse staff. The following procedures are required for shift start. All equipment must be inspected before use. Damaged items should be removed from the floor immediately. Any safety hazard must be reported to a supervisor. PPE is required to be worn at all times in the storage area. Shift logs must be completed by 8am. These procedures have been approved by the operations board and are effective as of this Monday.'",
-      "question": "How is passive voice formed in this safety briefing?",
-      "options": [
-        "Subject + will + verb",
-        "Be + past participle",
-        "Have + past participle",
-        "Subject + verb + -ing"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson8-listen2.mp3",
-      "transcript": "Ahmed: 'Rosa, I need to file this incident report. What should I write for the timeline?' Rosa: 'Just describe what happened in order. First write what was found — the present situation. Then what happened — past. Then what has been done about it — use present perfect for completed actions. And if something is still happening, use present continuous.' Ahmed: 'So: «A damaged pallet was found at 7am. The area has been secured. Photographs are being taken.»' Rosa: 'Perfect. Notice — only the form of «be» changes. The word «found», «secured», «taken» stays the same every time.'",
-      "question": "Which part of the passive construction changes to show tense?",
-      "options": [
-        "The past participle",
-        "The verb 'be'",
-        "The subject",
-        "The word 'by'"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson8-listen3.mp3",
-      "transcript": "Ahmed: 'Director Kim, I drafted two versions of the update email. Version one: «Carlos dropped the pallet. Carlos didn't follow the unloading checklist.» Version two: «A pallet was damaged during unloading. The checklist procedure was not followed.»' Director Kim: 'Version two is much better for an official report.' Ahmed: 'But version one is clearer about who did it.' Director Kim: 'That's exactly the point. In a report, we document what happened — not who to blame. If you need to assign responsibility, do that in person. In writing, keep it factual and impersonal. If Carlos does it again, then we name names.'",
-      "question": "When should you prefer active voice over passive?",
-      "options": [
-        "In official policies and formal documents",
-        "When assigning clear responsibility or giving direct instructions",
-        "In scientific reports",
-        "When the agent is unknown"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe your workplace or school using passive voice. Talk about rules, procedures, or recent changes. Use at least 4 different passive forms. Record for 35 seconds.",
-      "example": "In our logistics facility, several procedures are followed every day. First, all incoming shipments are scanned and logged into the system when they arrive. Last month, our safety protocols were updated by the operations manager after an inspection. The new equipment has been installed in warehouse two, and staff are being trained this week. Additionally, all incidents must be reported to a supervisor within one hour. I appreciate how these passive structures are used in our official documents — they focus on the procedures rather than on individual people.",
-      "min_seconds": 35,
-      "target_language": "english",
-      "sentence_starters": [
-        "In our [workplace / school / department], several things are [done / required] ...",
-        "Every [day / week], [items / documents / reports] are ...",
-        "Recently, [the policy / our procedures / the equipment] was/were ..."
-      ]
-    },
-    {
-      "id": "speak-2",
-      "prompt": "A mistake happened at work (shipment sent to wrong address). Describe what happened and what will be done, using passive voice to sound professional and diplomatic. Record for 30 seconds.",
-      "example": "I need to report a shipping error that occurred this morning. A package was sent to the wrong address due to an incorrect label being applied during the sorting process. The customer has been contacted and was notified of the delay. A replacement shipment is being prepared and will be dispatched by 3pm today. The error has been logged in our system and the incorrect package will be retrieved by our courier partner. Our procedures are being reviewed to prevent this from happening again. I apologize for any inconvenience that has been caused.",
-      "min_seconds": 30,
-      "target_language": "english",
-      "sentence_starters": [
-        "I need to report an error that occurred ...",
-        "A [package / shipment / item] was sent / delivered / logged ...",
-        "The customer has been contacted and ... The error has been ..."
-      ]
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a short official workplace notice (80-100 words) about a new policy change. Use passive voice throughout to create a formal, impersonal tone.",
-      "min_words": 80,
-      "example": "NOTICE TO ALL STAFF\n\nEffective immediately, the following changes have been implemented to our warehouse procedures.\n\nAll incoming deliveries must be photographed before they are unloaded. Damaged items should be separated and a report must be filed within two hours of discovery. New safety labels have been installed on all equipment. Staff are reminded that personal protective equipment must be worn at all times in the storage area.\n\nA training session will be held next Friday. Attendance is required for all warehouse personnel. Questions can be directed to the operations office.",
-      "rubric": [
-        "Use passive voice for all instructions and announcements — avoid 'you must' or 'we will'",
-        "Include at least 3 different passive tense forms (e.g. must be done, has been installed, will be held)",
-        "Use formal vocabulary appropriate for an official notice"
-      ]
-    },
-    {
-      "id": "write-2",
-      "prompt": "Rewrite these 5 active sentences in passive voice. Then write 2 sentences of your own using passive voice in a professional context.\n1. The manager rejected the proposal.\n2. Someone broke the scanner.\n3. HR is reviewing all applications.\n4. The team will finish the audit next week.\n5. Somebody has already reported the problem.",
-      "min_words": 60,
-      "example": "1. The proposal was rejected by the manager.\n2. The scanner was broken.\n3. All applications are being reviewed by HR.\n4. The audit will be finished by the team next week.\n5. The problem has already been reported.\n\nMy own sentences:\n6. All orders must be processed before the end of the business day.\n7. The new scheduling system has been introduced to improve efficiency across all departments.",
-      "rubric": [
-        "Each sentence uses be + past participle correctly (not just a past tense alone)",
-        "Omit 'by + agent' when the doer is obvious or unknown",
-        "Your 2 original sentences use real workplace vocabulary from this lesson"
-      ]
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Passive Voice Formation",
-      "explanation": "Passive voice = a form of 'be' + past participle. The subject receives the action. The agent (doer) may follow 'by' or be omitted.",
-      "examples": [
-        "The report is written every Friday. (present simple passive)",
-        "The form was completed yesterday. (past simple passive)",
-        "The policy has been updated. (present perfect passive)",
-        "The package is being tracked. (present continuous passive)",
-        "The form must be signed. (modal passive)"
-      ],
-      "practice": [
-        {
-          "sentence": "The report ___ (write) every Friday.",
-          "blank": "is written",
-          "options": [
-            "is written",
-            "writes",
-            "is writing"
-          ]
-        },
-        {
-          "sentence": "The package ___ (deliver) yesterday.",
-          "blank": "was delivered",
-          "options": [
-            "was delivered",
-            "delivered",
-            "has delivered"
-          ]
-        },
-        {
-          "sentence": "The policy ___ (update) recently.",
-          "blank": "has been updated",
-          "options": [
-            "has been updated",
-            "was updating",
-            "updated"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "When to Include 'By + Agent'",
-      "explanation": "Include 'by + agent' when the doer is important, surprising, or adds useful information. Omit it when the doer is unknown, obvious, or unimportant.",
-      "examples": [
-        "The Mona Lisa was painted by Leonardo da Vinci. (agent important — famous person)",
-        "The window was broken. (agent unknown or unimportant)",
-        "The report must be submitted. (agent obvious — the employee reading this)",
-        "The award was won by Ahmed's team. (agent adds information)"
-      ],
-      "practice": [
-        {
-          "sentence": "The decision ___ made by the CEO. (include agent — important)",
-          "blank": "was",
-          "options": [
-            "was",
-            "is being",
-            "has"
-          ]
-        },
-        {
-          "sentence": "All forms ___ completed before Friday. (omit agent — obvious)",
-          "blank": "must be",
-          "options": [
-            "must be",
-            "must do",
-            "are doing"
-          ]
-        },
-        {
-          "sentence": "The new procedure ___ introduced by the safety board. (agent adds info)",
-          "blank": "was",
-          "options": [
-            "was",
-            "did",
-            "is"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Common Passive Errors to Avoid",
-      "explanation": "Passive requires 'be' + past participle. A past participle alone is not passive. Don't confuse past tense with passive voice.",
-      "examples": [
-        "WRONG: The report written yesterday. → RIGHT: The report was written yesterday.",
-        "WRONG: The package is deliver. → RIGHT: The package is delivered.",
-        "WRONG: The form been signed. → RIGHT: The form has been signed.",
-        "WRONG: They are inform about the change. → RIGHT: They are informed about the change."
-      ],
-      "practice": [
-        {
-          "sentence": "The packages ___ delivered this morning.",
-          "blank": "were",
-          "options": [
-            "were",
-            "did",
-            "being"
-          ]
-        },
-        {
-          "sentence": "The report ___ already submitted.",
-          "blank": "has been",
-          "options": [
-            "has been",
-            "have",
-            "is submit"
-          ]
-        },
-        {
-          "sentence": "All staff ___ notified of the change.",
-          "blank": "were",
-          "options": [
-            "were",
-            "was been",
-            "are notify"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Which sentence is in the passive voice?",
-        "options": [
-          "Ahmed submitted the report.",
-          "The report was submitted by Ahmed.",
-          "Ahmed has submitted the report.",
-          "Ahmed is submitting the report."
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "The results were found to be significantly different than the control group.",
+        "correct": "The results were found to be significantly different from the control group.",
+        "explanation": "In formal British and academic English, the correct preposition after 'different' is 'from', not 'than'. 'Different than' is used informally in American English and in certain syntactic contexts ('different than expected'), but the standard formal construction with a noun phrase is 'different from'."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "How is passive voice formed?",
-        "options": [
-          "Subject + will + verb",
-          "Be + past participle",
-          "Have + past participle",
-          "Subject + verb + -ing"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "This conclusion must be interpreted with caution due to the limitations of the methodology used.",
+        "correct": "These conclusions must be interpreted with caution due to the limitations of the methodology used.",
+        "explanation": "When a study produces multiple findings that inform a conclusion, 'conclusions' (plural) is more appropriate than the singular 'conclusion'. More substantively, the awkward 'this conclusion must be interpreted with caution' would typically be restructured in formal writing — 'These conclusions should be interpreted cautiously, given the methodological limitations' is more idiomatic."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "Choose the correct passive: 'The window ___ broken during the storm.'",
-        "options": [
-          "is",
-          "was",
-          "has",
-          "did"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "The investigation was commenced at the request of the board, and the report was finished in April.",
+        "correct": "The investigation was commissioned at the request of the board, and the report was completed in April.",
+        "explanation": "Two collocation errors: investigations are 'commissioned' (formally authorised), not 'commenced' (which means 'begun' and could apply, but is not the standard collocation for investigations). Reports are 'completed', 'submitted', or 'published', not 'finished' (which is too informal for this register)."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Which part of the passive changes to show tense?",
-        "options": [
-          "The past participle",
-          "The verb 'be'",
-          "The subject",
-          "The word 'by'"
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "In passive voice, the subject performs the action.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "You can omit 'by + agent' when the doer is unknown or unimportant.",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "The policy ___ ___ updated last week. (past passive of 'update')",
-        "correct": "was updated",
-        "accept": [
-          "was updated"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "All shipments must ___ ___ by 5pm. (modal passive of 'log')",
-        "correct": "be logged",
-        "accept": [
-          "be logged"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match each passive form to its tense:",
-        "pairs": [
-          {
-            "left": "is written",
-            "right": "Present simple"
-          },
-          {
-            "left": "was written",
-            "right": "Past simple"
-          },
-          {
-            "left": "has been written",
-            "right": "Present perfect"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "When is passive voice most appropriate?",
-        "options": [
-          "Casual conversation with friends",
-          "When you want to assign clear personal responsibility",
-          "Formal documents where the doer is unimportant",
-          "Giving someone direct step-by-step instructions"
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q11",
-        "type": "open-ended",
-        "question": "Find and fix the grammar error: 'The report was write by the manager yesterday.'",
-        "correct": "The report was written by the manager yesterday.",
-        "accept": [
-          "The report was written by the manager yesterday."
-        ],
-        "points": 10
-      },
-      {
-        "id": "q12",
-        "type": "open-ended",
-        "question": "Find and fix the grammar error: 'All forms must completed before Friday.'",
-        "correct": "All forms must be completed before Friday.",
-        "accept": [
-          "All forms must be completed before Friday."
-        ],
-        "points": 10
+        "incorrect": "The policy was approved despite of strong opposition from the union.",
+        "correct": "The policy was approved despite strong opposition from the union.",
+        "explanation": "'Despite' is a preposition and is used alone — 'despite + noun phrase'. 'Despite of' does not exist in standard English. It is likely a confusion with 'in spite of', which uses 'of'. Both 'despite X' and 'in spite of X' are correct; 'despite of X' is not."
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that governments should be legally prohibited from using passive constructions that conceal agency in official communications.",
+    "stance": "balanced",
+    "key_arguments": [
+      "The deliberate use of agentless passives in official communication ('mistakes were made', 'services were cut') is a form of evasion that undermines democratic accountability — citizens have a right to know who did what.",
+      "Language that systematically obscures agency also shapes public perception in ways that are not politically neutral — it is a form of soft manipulation that a democratic state should not employ against its own citizens.",
+      "Legal requirements for agent-transparency in official communications would force political accountability and change the culture of evasion that characterises so much governmental language."
+    ],
+    "counter_arguments": [
+      "Many agentless passives in official communication reflect genuine institutional rather than individual agency — reforming 'services were cut' to 'the Treasury cut services' would misrepresent complex decision-making processes involving many actors.",
+      "Mandating grammatical structures in official communications would create bureaucratic complexity, raise constitutional questions about legislative overreach into language, and produce technically compliant but substantively evasive rewrites.",
+      "Democratic accountability is better served by freedom of information legislation, independent journalism, and parliamentary scrutiny than by prescribing passive constructions — these structural mechanisms are far more effective than stylistic mandates."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. In your speech, demonstrate your understanding of passive voice by contrasting an agentless passive example with its active equivalent to illustrate your argument. Use at least 3 discourse markers."
+  },
+  "extended_writing": {
+    "type": "report",
+    "task": "Write a 250-word formal report summarising the outcome of a review into an organisation's communication practices. The review found that internal emails were often unclear, that meeting minutes were not being distributed promptly, and that staff felt insufficiently informed about management decisions. The report should use formal, impersonal passive constructions where appropriate and make specific recommendations.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Executive Summary",
+        "guidance": "State the purpose of the review and the overall finding in 2-3 sentences. Use formal passive: 'This review was conducted to...' / 'It was found that...'"
+      },
+      {
+        "section": "Key Findings",
+        "guidance": "Present each finding using impersonal passive constructions ('It has been noted that...', 'Evidence was found that...'). Be specific and factual."
+      },
+      {
+        "section": "Recommendations",
+        "guidance": "Use 'It is recommended that...' with the subjunctive for each recommendation. Ensure each recommendation is concrete and actionable."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Close with a brief statement of expected outcomes if recommendations are implemented. Use a conditional structure."
+      }
+    ],
+    "model_answer": "Internal Communications Review: Summary Report\nPrepared by: Organisational Development Team | April 2025\n\nExecutive Summary\nThis review was conducted in response to staff survey results indicating widespread dissatisfaction with internal communication practices. A total of forty-two staff members were interviewed across three departments, and a representative sample of internal correspondence and meeting records was examined. It was found that current practices fall short of the standards required to support effective organisational functioning.\n\nKey Findings\nIt has been established that internal emails frequently lack clear subject lines, specified action points, and named responsible parties, resulting in avoidable duplication of effort. Meeting minutes were found to be circulated an average of eight days after the meetings to which they related, significantly reducing their practical utility. It was further noted that decisions taken at senior management level were communicated to front-line staff through informal channels rather than structured briefings, contributing to a climate of uncertainty.\n\nRecommendations\nIt is recommended that a standardised internal email template be adopted across all departments to ensure clarity of purpose and action. It is further recommended that all meeting minutes be circulated within forty-eight hours of the meeting and that a senior communications coordinator be appointed to oversee compliance.\n\nConclusion\nWere these recommendations to be implemented in full, it is anticipated that staff confidence in management communication would increase substantially, with corresponding benefits for morale and operational efficiency. A follow-up review is recommended after six months."
+  },
+  "advanced_grammar": {
+    "structure": "Passive Constructions with Reporting Verbs in Formal Writing",
+    "explanation": "A sophisticated use of the passive in formal writing is the 'it + passive reporting verb + that' construction: 'It has been argued that...', 'It is widely believed that...', 'It has been suggested that...', 'It is generally accepted that...' This construction allows the writer to present claims as widely held or established without attributing them to specific sources — useful when the claim is general knowledge or when the writer wants to signal the status of a claim without a formal citation.\n\nThese constructions can also be used in the form 'Subject + passive reporting verb + to + infinitive': 'The policy is considered to have failed', 'The result is thought to be significant', 'The approach has been found to be effective'. This form integrates the reporting construction into a noun-phrase-centred sentence structure typical of formal English.",
+    "authentic_examples": [
+      "It is widely understood that institutional trust, once eroded, is extremely difficult to restore.",
+      "The intervention was found to produce statistically significant improvements in outcomes across all demographic groups.",
+      "Passive voice is generally considered to be the appropriate register for formal investigation reports."
+    ],
+    "practice": [
+      {
+        "sentence": "Researchers believe this approach is more effective than the previous method.",
+        "transform": "Rewrite using 'It is believed that...' construction.",
+        "answer": "It is believed that this approach is more effective than the previous method."
+      },
+      {
+        "sentence": "Many people consider the original policy to have been a mistake.",
+        "transform": "Rewrite using 'Subject + passive reporting verb + to + infinitive'.",
+        "answer": "The original policy is widely considered to have been a mistake."
+      },
+      {
+        "sentence": "The committee has suggested that the deadline should be extended.",
+        "transform": "Rewrite as an impersonal passive removing reference to the committee.",
+        "answer": "It has been suggested that the deadline be extended."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "passive voice",
-      "definition": "sentence structure where subject receives the action",
-      "example": "The report was submitted — this is passive voice."
+      "id": 1,
+      "question": "What is the communicative purpose of the passive construction 'mistakes were made' in political language?",
+      "options": [
+        "To describe institutional failures without identifying who was responsible",
+        "To emphasise the severity of the mistakes",
+        "To show that more than one mistake occurred",
+        "To use formal register appropriate for official communication"
+      ],
+      "correct": 0,
+      "explanation": "'Mistakes were made' is a classic agentless passive — it acknowledges that something went wrong while deliberately omitting who was responsible. This is a well-known political evasion strategy, observed by linguists as a way of accepting partial accountability while avoiding full personal responsibility."
     },
     {
-      "word": "past participle",
-      "definition": "verb form used in passive and perfect tenses (written, delivered, broken)",
-      "example": "Written is the past participle of write."
+      "id": 2,
+      "question": "Which sentence uses a passive reporting construction correctly?",
+      "options": [
+        "It is believed by us that the policy has failed.",
+        "It is believed that the policy has failed.",
+        "That the policy has failed is believed.",
+        "Believed is that the policy has failed."
+      ],
+      "correct": 1,
+      "explanation": "The standard 'It + passive reporting verb + that' construction is 'It is believed that...' The agent ('by us') is typically omitted in impersonal passive reporting constructions. Options C and D are grammatically malformed; Option A is grammatically possible but the 'by us' is unidiomatic and undermines the impersonal effect."
     },
     {
-      "word": "agent",
-      "definition": "the doer of an action in a passive sentence, introduced by 'by'",
-      "example": "The report was written by Ahmed. Ahmed is the agent."
+      "id": 3,
+      "question": "What is the error in 'The results were found to be significantly different than the control group'?",
+      "options": [
+        "'Were found' should be 'have been found' (present perfect)",
+        "'Significantly' is too informal for this register",
+        "'Different than' should be 'different from' in formal English",
+        "The passive voice is inappropriate here"
+      ],
+      "correct": 2,
+      "explanation": "In formal British and academic English, 'different from' is required when followed by a noun phrase. 'Different than' is informally used in American English and in some comparative constructions, but 'different than the control group' is not standard in formal scientific or academic writing."
     },
     {
-      "word": "formal",
-      "definition": "following official conventions; suitable for professional contexts",
-      "example": "Passive voice creates a formal tone in documents."
+      "id": 4,
+      "question": "In the authentic text, why does the final sentence shift to active voice?",
+      "options": [
+        "The writer made an error in maintaining the passive register",
+        "Active voice is more appropriate for descriptions of physical actions",
+        "Naming the company as active agent creates direct accountability for its commitments",
+        "The passive voice cannot be used with the verb 'commit'"
+      ],
+      "correct": 2,
+      "explanation": "The shift to active voice ('The company has acknowledged... and has committed...') is deliberate. The passive had been used throughout to describe systemic failures without attributing blame; the active voice at the end names the company as the responsible actor, creating clear, attributable accountability for its stated commitments."
     },
     {
-      "word": "impersonal",
-      "definition": "not referring to a specific person; neutral",
-      "example": "Passive voice makes instructions feel impersonal."
-    },
-    {
-      "word": "diplomatic",
-      "definition": "careful and tactful, avoiding offense",
-      "example": "Mistakes were made — this is a diplomatic passive construction."
-    },
-    {
-      "word": "procedure",
-      "definition": "an established series of steps for doing something",
-      "example": "All procedures are documented in the manual."
-    },
-    {
-      "word": "modal",
-      "definition": "auxiliary verb expressing necessity, possibility, or permission (must, should, can)",
-      "example": "All incidents must be reported."
-    },
-    {
-      "word": "transform",
-      "definition": "change from one form to another",
-      "example": "Transform active sentences into passive."
-    },
-    {
-      "word": "omit",
-      "definition": "leave something out",
-      "example": "You can omit the agent when it is unknown."
+      "id": 5,
+      "question": "Which construction correctly rewrites 'Many experts consider this method to be unreliable' as an impersonal passive?",
+      "options": [
+        "This method is considered unreliably by many experts.",
+        "It is considered that this method is unreliable by many experts.",
+        "This method is widely considered to be unreliable.",
+        "The unreliability of this method has been considered widely."
+      ],
+      "correct": 2,
+      "explanation": "The 'Subject + passive reporting verb + to + infinitive' construction is 'this method is widely considered to be unreliable'. The adverb 'widely' replaces the agent phrase 'by many experts' in a more natural way. Options A (adverb form), B (awkward agent placement), and D (misconstrued) are all incorrect."
     }
-  ],
-  "cultural_notes": [
-    "Passive voice is extremely common in American professional, legal, and government writing — you will encounter it constantly in workplace documents.",
-    "In American corporate culture, 'mistakes were made' is a well-known passive phrase used by politicians and executives to acknowledge errors without assigning personal blame.",
-    "Academic writing in U.S. universities traditionally used passive voice heavily ('it was found that...'), though modern style guides now encourage more active voice.",
-    "Official warnings and safety notices in the U.S. almost always use passive modals: 'Employees must be notified', 'PPE must be worn'.",
-    "In everyday American conversation, passive voice is much less common — using it too often in casual speech can sound unnatural or evasive."
   ]
 }

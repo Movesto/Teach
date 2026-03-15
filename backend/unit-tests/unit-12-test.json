@@ -1,0 +1,132 @@
+{
+  "unit_id": 12,
+  "unit_title": "Society & Current Events",
+  "description": "Test your analytical command of language in public and civic discourse — political euphemism, bias in news language, passive voice in journalism, discourse markers in editorials, rhetorical questions, and inversion after negative adverbs",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "A government press release describes job losses as 'a necessary workforce rationalisation to ensure long-term operational sustainability.' What language strategy is being used, and what is its effect?",
+      "options": [
+        "Hedging through epistemic modals — the government is uncertain about the number of job losses",
+        "Political euphemism through nominalization — abstract technical language obscures the human impact of job cuts",
+        "Passive voice attribution — the responsibility for job losses is placed on the economy",
+        "Rhetorical question — the reader is invited to consider the necessity of the cuts"
+      ],
+      "correct": 1,
+      "explanation": "The phrase converts concrete negative realities ('firing people') into abstract nominalizations ('rationalisation', 'sustainability'). This is a classic political euphemism strategy: technical, bureaucratic language distances the audience from the human consequences of a policy. There are no modals, no passive attributions, and no questions — the obfuscation works purely through lexical choice and nominalization."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Compare these two news sentences about the same event: (A) 'Police used force against protesters.' (B) 'Protesters clashed with police.' Which statement about these sentences is most analytically accurate?",
+      "options": [
+        "Sentence A is biased because it uses the passive voice; sentence B is neutral",
+        "Both sentences are equally neutral; they just describe events from different viewpoints",
+        "Sentence B shifts grammatical agency to the protesters, implying they initiated the conflict; sentence A places agency with the police",
+        "Sentence A is more formal because it uses the passive; sentence B is more readable"
+      ],
+      "correct": 2,
+      "explanation": "In sentence B, 'protesters' is the grammatical subject of the active verb 'clashed', implying they were the initiators of conflict. In sentence A, 'police' is the subject using force. The choice of grammatical subject in an active construction encodes a perspective on causation and agency — a central concern in the analysis of bias in news language."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "An editorial asks: 'How many more communities must be hollowed out before the government acts?' What is the primary rhetorical function of this question?",
+      "options": [
+        "It requests specific statistical information from government sources",
+        "It uses a rhetorical question to express moral urgency and implicitly criticise government inaction",
+        "It hedges the writer's claim by framing it as uncertain",
+        "It introduces a counter-argument to be addressed in the following paragraph"
+      ],
+      "correct": 1,
+      "explanation": "Rhetorical questions are not genuine requests for information — they assert a position while engaging the reader emotionally. 'How many more…must…before…' encodes an assumption (that communities have already been hollowed out and the government has not acted) and frames the situation as morally intolerable. It is a persuasive device characteristic of editorial and opinion writing."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "In journalistic writing, the sentence 'Not since the 1970s has inequality in the UK been so pronounced' uses subject-auxiliary inversion triggered by a fronted negative adverbial.",
+      "correct": true,
+      "explanation": "'Not since the 1970s' is a negative adverbial phrase. Fronting it to sentence-initial position triggers subject-auxiliary inversion: 'has inequality in the UK been so pronounced'. This is a formal rhetorical construction used in journalism to lend historical weight to a claim — implying that the current situation is historically exceptional."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "The phrase 'collateral damage' when used in military or political contexts is an example of neutral, technical language with no euphemistic function.",
+      "correct": false,
+      "explanation": "'Collateral damage' is a widely cited example of political euphemism: it substitutes an abstract technical phrase for the reality of civilian casualties or unintended destruction. The term does not merely describe — it frames the events as incidental and peripheral (collateral), reducing their apparent gravity. Recognising such euphemistic framing is central to critical news literacy."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "The ___ of emergency powers was justified, according to ministers, by the severity of the security threat.",
+      "answer": "invocation",
+      "hint": "nominalize the verb 'invoke' — the formal noun form ending in -ation, meaning the act of formally calling upon or enacting something",
+      "explanation": "'Invocation' is the nominalization of 'invoke'. Using the noun form as grammatical subject in this passive construction ('was justified') allows the action to be treated as a fait accompli — a completed process subject to justification — without naming the agent. This is a typical pattern in formal journalism and political reporting."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "The legislation passed with broad cross-party support; ___, a small number of backbench MPs registered formal objections.",
+      "answer": "nevertheless",
+      "hint": "a formal concessive discourse marker signalling 'despite this, the following is also true'",
+      "explanation": "'Nevertheless' (or 'nonetheless') signals that the second fact is true in spite of the expectation created by the first. In editorial writing, this structure allows a writer to acknowledge an apparent consensus while introducing a qualification — a cohesive device that adds precision and intellectual balance."
+    },
+    {
+      "id": 8,
+      "type": "matching",
+      "instruction": "Match each journalistic sentence to the advanced language feature it exemplifies.",
+      "pairs": [
+        {"left": "'The prime minister, who has faced three no-confidence votes in as many years, announced her resignation.'", "right": "Non-defining relative clause embedding contextual detail"},
+        {"left": "'Rarely has a piece of social legislation generated such sustained cross-sector resistance.'", "right": "Inversion after a negative adverb for rhetorical emphasis"},
+        {"left": "'The so-called independence referendum was, in the view of many legal scholars, constitutionally incoherent.'", "right": "Distancing device ('so-called') signalling scepticism toward official terminology"},
+        {"left": "'What the data reveals is not a crisis of funding, but a crisis of distribution.'", "right": "Cleft sentence performing a corrective contrast between two claims"}
+      ],
+      "explanation": "Non-defining relative clauses embed background information without restricting reference. Negative adverbial inversion creates formal emphasis. 'So-called' distances the writer from official framing. 'What…is…' clefts correct misattributions by foregrounding the writer's preferred claim."
+    },
+    {
+      "id": 9,
+      "type": "ordering",
+      "instruction": "Reconstruct this editorial sentence beginning with 'At no point', using subject-auxiliary inversion correctly:",
+      "words": ["At", "no", "point", "did", "the", "regulatory", "body", "disclose", "the", "extent", "of", "its", "prior", "knowledge"],
+      "answer": ["At", "no", "point", "did", "the", "regulatory", "body", "disclose", "the", "extent", "of", "its", "prior", "knowledge"],
+      "explanation": "'At no point' is a negative adverbial phrase. When fronted, it triggers subject-auxiliary inversion with 'did': 'At no point did the regulatory body disclose…'. The base form 'disclose' follows because 'did' carries tense. The full sentence is: 'At no point did the regulatory body disclose the extent of its prior knowledge.' The inversion creates formal rhetorical emphasis on the failure to act."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "Read the following headline and opening sentence: 'CITY FACES HOUSING CRISIS / Local authorities are struggling to manage the unprecedented demand for emergency accommodation as rough sleeping figures reach a decade-high.' Analyse the language choices in both the headline and the opening sentence. What stance do the choices reflect? What evidence from the language itself supports your analysis?",
+      "word_count": "60-80",
+      "guidance": "Consider: the emotive noun ('crisis'), the verb 'struggling' and what it implies, the adjective 'unprecedented', and the framing of rough sleeping figures as 'reaching a decade-high'. Comment on what stance these choices encode and how they differ from neutral reporting language.",
+      "sample_answer": "The headline's use of 'CRISIS' rather than 'shortage' or 'pressure' frames the situation in terms of emergency and failure. The verb 'struggling' in the opening sentence encodes the authorities' inadequacy rather than using a neutral alternative such as 'responding to'. 'Unprecedented' intensifies the scale without providing a statistical qualifier, and 'decade-high' establishes a comparative frame that implies things are measurably worse — all choices that encode a critical stance toward local authority performance rather than presenting information neutrally."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "An academic writes: 'The argument, persuasive as it is on its own terms, ultimately fails to account for the structural determinants of the phenomenon.' Which advanced syntactic feature appears in this sentence?",
+      "options": [
+        "A fronted participial phrase modifying the subject",
+        "An inverted concessive construction using an adjective phrase fronted within a non-defining relative clause position",
+        "A cleft sentence foregrounding the argument's persuasiveness",
+        "A mandative subjunctive in the main clause"
+      ],
+      "correct": 1,
+      "explanation": "'Persuasive as it is on its own terms' is an inverted concessive construction (also called a 'concessive as-clause'). It acknowledges the strength of the argument before pivoting to the limitation. This structure — adjective + 'as' + subject + verb — is a hallmark of sophisticated academic prose and is examined in Unit 13's treatment of syntactic parallelism and complex participle constructions.",
+      "is_preview": true,
+      "preview_unit": 13,
+      "preview_unit_title": "Mastery & Fluency"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "The phrase 'to add insult to injury' is a fixed idiomatic expression meaning to make a bad situation worse by adding a further injustice or indignity.",
+      "correct": true,
+      "explanation": "This is a well-established English idiom with figurative meaning that cannot be derived from the literal meaning of its parts. Recognising and deploying idiomatic expressions in contextually appropriate ways is a key marker of C2 fluency, and is central to Unit 13's focus on idioms and figurative language.",
+      "is_preview": true,
+      "preview_unit": 13,
+      "preview_unit_title": "Mastery & Fluency"
+    }
+  ]
+}

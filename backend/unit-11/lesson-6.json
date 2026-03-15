@@ -2,235 +2,231 @@
   "id": "lesson-74",
   "unit_id": 11,
   "lesson_number": 6,
-  "title": "Advanced Academic Discourse and Scholarly Debate",
-  "level": "proficient",
-  "estimated_time": 45,
+  "title": "Professional Conflict Resolution: Language, Strategy, and Principled Negotiation",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Engage in sophisticated theoretical debates",
-    "Critique paradigms respectfully but rigorously",
-    "Navigate interdisciplinary dialogue",
-    "Develop distinctive scholarly voice"
+    "Analyse the linguistic strategies used to de-escalate professional conflict without conceding substantive ground",
+    "Construct a principled, interest-based response to workplace disagreement that separates positions from underlying needs",
+    "Evaluate the ethical dimensions of professional conflict — distinguishing constructive challenge from interpersonal aggression",
+    "Synthesise communication research to deploy tentative language, active listening signals, and reframing techniques in high-stakes workplace disputes"
   ],
-  "target_phrases": [
-    "From a [theoretical lens] perspective...",
-    "This paradigm assumes...",
-    "I'd like to interrogate the underlying assumptions...",
-    "Bringing insights from [discipline] to bear on...",
-    "The epistemological implications are...",
-    "This critique is not merely methodological but ontological...",
-    "The theoretical purchase of this framework..."
+  "authentic_text": {
+    "title": "Memorandum: Proposed Resolution Framework — Project Gamma Dispute",
+    "type": "formal email",
+    "text": "To: All Project Gamma Stakeholders\nFrom: Dispute Resolution Office\nRe: Proposed Resolution Framework — Project Gamma Resourcing Dispute\n\nThis memorandum sets out a proposed framework for resolving the ongoing dispute between the Technology Division and the Operations Division regarding resourcing allocation on Project Gamma. It is issued in the spirit of constructive dialogue and does not represent a determination of any party's position.\n\nBackground:\nFollowing the initial escalation on 14 February, both divisions submitted formal position statements outlining their respective resourcing requirements. An independent review of both submissions has identified that while the stated positions of the two parties appear irreconcilable, the underlying interests they seek to protect are substantially overlapping: both divisions are primarily concerned with ensuring project continuity, managing stakeholder risk, and demonstrating departmental capability within a constrained budget cycle.\n\nProposed Framework:\nRather than adjudicating between the submitted positions, this office proposes a structured facilitated dialogue in which each division articulates not their resource demands, but the operational outcomes they are seeking to protect. Experience from comparable disputes suggests that when parties shift from positional bargaining to interest-based discussion, the range of viable solutions expands considerably.\n\nBoth parties are invited to nominate a representative to attend a facilitated session on 8 March. Participation is voluntary; however, failure to engage with this process will be noted in the event that the dispute requires further escalation.\n\nThe goal of this office is not to impose a resolution but to create the conditions in which one can be found.",
+    "source": "Illustrative internal dispute resolution memorandum, modelled on formal HR and project governance practices in large organisations",
+    "notes": "The memorandum uses carefully hedged, formally inclusive language to frame a potentially adversarial situation as a collaborative problem-solving opportunity — a defining feature of institutional conflict resolution communication."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What does the independent review identify as the key difference between the parties' stated positions and their underlying interests?",
+      "answer": "While their stated positions appear irreconcilable, their underlying interests substantially overlap: both divisions are primarily concerned with project continuity, managing stakeholder risk, and demonstrating departmental capability within budget constraints."
+    },
+    {
+      "type": "inference",
+      "question": "What does the phrase 'failure to engage with this process will be noted' imply in the context of a voluntary process?",
+      "answer": "It implies that while participation is framed as voluntary, non-participation carries implicit consequences — the phrase functions as a veiled warning that non-engagement will be viewed unfavourably if the dispute escalates further. The 'voluntary' framing is therefore partially rhetorical."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the overall tone of the memorandum and identify two phrases that are particularly characteristic of this tone.",
+      "answer": "The tone is formally neutral and constructively diplomatic — it carefully avoids assigning blame or taking sides. 'Issued in the spirit of constructive dialogue' and 'does not represent a determination of any party's position' are characteristic: they signal institutional impartiality and reframe the intervention as facilitation rather than adjudication."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The term 'positional bargaining' in the proposed framework section refers to:",
+      "answer": "A negotiation approach in which each party takes a fixed position (a stated demand or offer) and bargains from that position, rather than exploring the underlying needs or interests that the position is meant to satisfy. It is contrasted here with 'interest-based discussion.'"
+    },
+    {
+      "type": "purpose",
+      "question": "Why does the memorandum state that its goal is 'not to impose a resolution but to create the conditions in which one can be found'?",
+      "answer": "This framing serves two purposes: it reduces defensiveness by reassuring both parties that they will retain agency in the resolution process, and it positions the dispute resolution office as a facilitator rather than an arbiter — reducing the likelihood that either party will resist engagement."
+    }
   ],
-  "dialogue": {
-    "title": "Graduate Seminar Theoretical Debate",
-    "context": "Ahmed participates in an advanced seminar discussing competing theoretical frameworks, learning to engage in sophisticated scholarly debate while developing his own theoretical voice.",
-    "lines": [
-      {"speaker": "Professor", "text": "Today we're discussing whether rational choice theory adequately explains organizational behavior. Ahmed, you've been skeptical of this framework. Why?"},
-      {"speaker": "Ahmed", "text": "From a sociological perspective, rational choice theory makes problematic assumptions about human motivation. This paradigm assumes individuals are primarily self-interested utility maximizers, but empirical evidence shows behavior is shaped by social norms, institutional contexts, and cultural values."},
-      {"speaker": "Classmate 1", "text": "But rational choice theory doesn't claim people are always rational - just that they pursue their interests given constraints."},
-      {"speaker": "Ahmed", "text": "I'd like to interrogate the underlying assumptions there. What counts as 'interest'? The framework defines interests narrowly as material gains, ignoring how social identities and moral commitments shape what people value. This critique is not merely methodological but ontological - it's about what we consider real and meaningful in explaining behavior."},
-      {"speaker": "Professor", "text": "So you're challenging the framework's fundamental worldview?"},
-      {"speaker": "Ahmed", "text": "Exactly. The epistemological implications are significant. If we assume behavior is primarily rational calculation, we design interventions around incentives. But if behavior is socially constructed, we need to understand cultural meanings and institutional logics. The theoretical purchase of this framework is limited when applied to contexts where social identity matters more than material gain."},
-      {"speaker": "Classmate 2", "text": "Are you proposing we abandon rational choice entirely?"},
-      {"speaker": "Ahmed", "text": "Not abandon, but recognize its scope conditions. Bringing insights from institutional theory to bear on this question, I'd argue that rationality itself is socially constructed - what counts as 'rational' varies across cultural contexts and historical periods."},
-      {"speaker": "Professor", "text": "That's a sophisticated critique. You're not rejecting the framework wholesale but identifying its limitations and proposing complementary perspectives."},
-      {"speaker": "Ahmed", "text": "Right. From a pragmatist perspective, the question isn't whether rational choice theory is true or false, but when and where it's useful. In markets with clear prices and material incentives, it explains well. In contexts where identity, values, and social relationships predominate, we need richer frameworks."},
-      {"speaker": "Professor", "text": "This is exactly the kind of nuanced theoretical engagement scholarship requires. You're developing a distinctive voice - critical but constructive."}
+  "language_analysis": {
+    "focus": "Tentative Language in Professional Conflict and Difficult Conversations",
+    "explanation": "Tentative language encompasses a range of grammatical and lexical devices that soften the force of assertions, proposals, and criticisms in sensitive professional contexts. It includes modal verbs of low probability or possibility ('might,' 'may,' 'could'), hedging adverbs ('perhaps,' 'arguably,' 'to some extent'), distancing expressions ('it would seem,' 'there appears to be'), and embedded conditionals ('if I understand correctly,' 'should this prove to be the case'). These devices are particularly essential in professional conflict, where the stakes of communicative directness are high.\n\nTentative language is not a sign of weakness or indecision; at C1/C2 level, it is deployed strategically by sophisticated communicators who understand that direct accusation or demand triggers defensive reactions that obstruct resolution. By introducing a potentially unwelcome point tentatively ('I wonder whether there might be a misunderstanding around the scope of responsibilities'), the speaker opens a conversational door without pushing the other party through it by force.\n\nThe key professional skill is calibrating tentativeness appropriately: too much produces vagueness and signals that the speaker can be ignored; too little produces confrontation. The memorandum above models this calibration carefully — the language is formal and hedged throughout, but the warning embedded in 'failure to engage... will be noted' is unmistakably firm.",
+    "examples": [
+      {
+        "from_text": "it would seem that the stated positions of the two parties appear irreconcilable",
+        "analysis": "Three layers of tentativeness operate simultaneously: 'it would seem' is an impersonal distancing construction; 'appear' is a perception verb rather than a certainty verb; 'irreconcilable' is strong, but its force is absorbed by the surrounding tentativeness. The effect is that a stark finding is communicated without attribution or confrontation."
+      },
+      {
+        "from_text": "Experience from comparable disputes suggests that when parties shift from positional bargaining to interest-based discussion, the range of viable solutions expands considerably.",
+        "analysis": "'Suggests' (rather than 'proves' or 'demonstrates') is a hedging reporting verb. The claim is framed as an empirical observation rather than a prescription, which makes it more difficult for a defensive reader to reject it as interference."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "I wonder whether it might be worth revisiting how responsibilities were allocated at the project outset, as there may be some ambiguity that has contributed to the current situation.",
+        "informal": "You took on work that wasn't yours and now there's a big problem because of it."
+      },
+      {
+        "formal": "It would appear that our respective understandings of the deliverable scope have diverged somewhat from the original agreement.",
+        "informal": "You clearly don't understand what we agreed at the beginning."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Theoretical framing",
-      "pattern": "From a [theoretical lens] perspective... / This paradigm assumes...",
-      "examples": [
-        "From a critical theory perspective, power relations shape what counts as legitimate knowledge.",
-        "This paradigm assumes objectivity is achievable, but feminist epistemology questions that assumption.",
-        "From a social constructionist perspective, categories we treat as natural are actually historically contingent.",
-        "This paradigm assumes linear causation, but complexity theory reveals non-linear dynamics.",
-        "From a phenomenological perspective, lived experience must be centered in understanding meaning."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Interrogating assumptions",
-      "pattern": "I'd like to interrogate the underlying assumptions... / The epistemological implications are...",
-      "examples": [
-        "I'd like to interrogate the underlying assumptions about human nature embedded in this framework.",
-        "The epistemological implications are profound - this shifts what counts as valid evidence.",
-        "I'd like to interrogate the underlying assumptions that privilege certain forms of knowledge over others.",
-        "The epistemological implications are that methodology and ontology cannot be separated.",
-        "I'd like to interrogate the underlying assumptions about the relationship between individual and society."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Interdisciplinary synthesis",
-      "pattern": "Bringing insights from [discipline] to bear on... / The theoretical purchase of this framework...",
-      "examples": [
-        "Bringing insights from behavioral economics to bear on organizational decision-making reveals cognitive biases.",
-        "The theoretical purchase of this framework is limited when explaining phenomena across cultural contexts.",
-        "Bringing insights from anthropology to bear on policy analysis illuminates cultural dimensions economists miss.",
-        "The theoretical purchase of this framework lies in its explanatory power for specific historical moments.",
-        "Bringing insights from neuroscience to bear on education research requires careful epistemological translation."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit11-lesson6-listen1.mp3",
-      "transcript": "Theoretical paradigms are worldviews shaping what questions we ask, methods we use, and interpretations we make. Positivism seeks objective truth through empirical observation. Interpretivism emphasizes understanding subjective meanings. Critical theory examines power and ideology. Post-positivism recognizes theory-laden observation while seeking approximate truth. Paradigms are incommensurable - operating from different assumptions about reality and knowledge. Productive debate requires recognizing these differences rather than talking past each other. Understanding paradigmatic commitments clarifies disagreements.",
-      "question": "What are theoretical paradigms?",
-      "options": [
-        "Just methods",
-        "Worldviews shaping questions, methods, and interpretations",
-        "Personal opinions",
-        "Statistical techniques"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit11-lesson6-listen2.mp3",
-      "transcript": "Scholarly voice emerges through positioning yourself within intellectual conversations. Who are you in dialogue with? What traditions inform your thinking? What contributions do you offer? Distinctive voice doesn't mean radical originality - it means thoughtful synthesis and unique perspective. Avoid three traps: derivative voice merely summarizing others; arrogant voice dismissing prior work; timid voice hiding behind citations. Strong voice engages generously with others while confidently advancing your perspective. This develops through reading widely, thinking deeply, and writing extensively.",
-      "question": "What does distinctive scholarly voice involve?",
-      "options": [
-        "Radical originality only",
-        "Thoughtful synthesis and unique perspective",
-        "Dismissing all prior work",
-        "Just summarizing others"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit11-lesson6-listen3.mp3",
-      "transcript": "Interdisciplinary dialogue requires epistemological humility - recognizing your discipline's blind spots and appreciating others' insights. Disciplines have different assumptions, methods, and standards. What counts as evidence in history differs from psychology. Economics and sociology ask different questions about same phenomena. Productive interdisciplinarity translates concepts carefully, recognizes incommensurabilities, and seeks complementary insights rather than false synthesis. It's hard work requiring fluency in multiple intellectual traditions. The payoff is richer understanding than any single discipline provides.",
-      "question": "What does interdisciplinary dialogue require?",
-      "options": [
-        "Ignoring other disciplines",
-        "Epistemological humility and careful translation",
-        "Forcing false synthesis",
-        "Staying in your discipline"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Engage in theoretical debate: choose a theory/framework and critique its assumptions while acknowledging its value. Show sophisticated scholarly discourse. Record for 45 seconds.",
-      "example": "Let me engage with human capital theory, which dominates education economics. From a critical sociology perspective, I appreciate this framework's emphasis on education's economic value and its influence on policy. However, I'd like to interrogate the underlying assumptions. This paradigm assumes education primarily develops marketable skills - human capital - increasing individual productivity and wages. The theoretical purchase of this framework is strong for explaining wage differentials and educational investment patterns. But this critique is not merely methodological but ontological. What's missing is how education reproduces social inequality, shapes identity formation, and transmits cultural values beyond economic utility. The epistemological implications are significant - if we view education only through human capital lens, we optimize for labor market outcomes while ignoring democratic citizenship, cultural development, and social justice. Bringing insights from cultural sociology to bear on education, we see how schools legitimize existing hierarchies and define legitimate knowledge in ways favoring dominant groups. I'm not proposing we abandon human capital theory - it explains important phenomena. But from a more comprehensive perspective, we need complementary frameworks recognizing education's multiple purposes beyond economic productivity.",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain how insights from one discipline could enrich understanding in another (interdisciplinary synthesis). Record for 35 seconds.",
-      "example": "Let me discuss how bringing insights from behavioral economics to bear on public health could enrich intervention design. Traditional health promotion assumes rational actors making informed choices - provide information, people change behavior. But behavioral economics reveals systematic deviations from rationality: present bias makes future health costs psychologically distant, default effects mean people stick with status quo, and framing affects choices dramatically. The theoretical purchase of behavioral economics for public health is substantial. Instead of just information campaigns, we could redesign choice architecture - making healthy options default, using commitment devices for behavior change, framing health messages to leverage loss aversion. The epistemological implications involve recognizing that cognition is bounded, not unlimited. This isn't dismissing rational choice entirely but understanding its scope conditions. From a pragmatist perspective, the question is what insights each discipline contributes to effective intervention. Public health provides substantive expertise, behavioral economics provides insights about decision-making. Integration creates more effective policies than either alone.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a theoretical critique of a framework/theory. Interrogate assumptions, discuss epistemological implications, and propose complementary perspectives. (140-170 words)",
-      "min_words": 140,
-      "example": "Critique of Modernization Theory\n\nModernization theory, dominant in mid-20th century development studies, assumed all societies progress through similar stages toward Western-style industrialization and democracy. From a post-colonial perspective, I'd like to interrogate the underlying assumptions here.\n\nThis paradigm assumes: (1) Western development represents universal trajectory, (2) traditional cultures are obstacles to progress, (3) development is linear and inevitable. This critique is not merely methodological but ontological - it reflects ethnocentric worldview treating Western experience as normative.\n\nThe epistemological implications are profound. By defining development narrowly as industrialization and Westernization, this framework delegitimizes alternative development paths and indigenous knowledge systems. The theoretical purchase of this framework is limited - it cannot explain why similar policies produce vastly different outcomes across contexts.\n\nBringing insights from post-development theory to bear on this question reveals how modernization discourse justified colonialism and neo-imperialism. From a more nuanced perspective, development should be understood as contextual, multi-dimensional, and shaped by power relations rather than universal stages.\n\nThis doesn't mean rejecting all modernization insights, but recognizing their cultural specificity and limitations when applied universally.",
-      "min_words": 140
-    },
-    {
-      "id": "write-2",
-      "prompt": "Develop your scholarly voice: write a position statement on an issue in your field. Engage with others' perspectives while articulating your own. (120-140 words)",
-      "min_words": 120,
-      "example": "Position: On Measuring Organizational Performance\n\nCurrent debates about organizational performance measurement reveal deeper epistemological tensions. Quantitative approaches emphasize objective metrics - profit, productivity, growth. Qualitative approaches stress contextual understanding of success. I position myself between these poles.\n\nFrom a pragmatist perspective, the theoretical purchase of each approach depends on purpose. For investors, quantitative metrics matter. For understanding organizational culture, qualitative methods are essential. This critique is not merely methodological - it's about recognizing that 'performance' is socially constructed, not objectively given.\n\nBringing insights from institutional theory to bear on measurement, what counts as good performance varies across contexts and stakeholders. The epistemological implications are that no single measure captures organizational success comprehensively.\n\nMy position: We need methodological pluralism - multiple metrics, multiple methods, recognizing partial nature of all measures. This isn't relativism but pragmatic recognition that complex phenomena require multi-dimensional assessment. Strong scholarship integrates rather than dismisses competing approaches.",
-      "min_words": 120
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Subjunctive Mood for Theoretical Propositions",
-      "explanation": "Use subjunctive for hypothetical theoretical statements.",
-      "examples": [
-        "Were we to adopt this framework, implications would be... (formal subjunctive)",
-        "If this assumption were true, we would expect... (hypothetical)",
-        "I suggest that we reconsider this paradigm. (subjunctive suggestion)",
-        "It's essential that theory be grounded in evidence. (subjunctive necessity)"
-      ],
-      "practice": [
-        {"sentence": "Were this assumption true, we ___ see different results.", "blank": "would", "options": ["will", "would", "can"]},
-        {"sentence": "I propose that we ___ alternative frameworks.", "blank": "consider", "options": ["considers", "consider", "considering"]},
-        {"sentence": "It's critical that research ___ rigorous.", "blank": "be", "options": ["is", "be", "are"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Abstract Nominalization for Theoretical Concepts",
-      "explanation": "Use abstract nouns to discuss theoretical ideas formally.",
-      "examples": [
-        "The conceptualization of power... (nominalized)",
-        "The operationalization of constructs... (theoretical abstraction)",
-        "The interrogation of assumptions... (formal nominalization)",
-        "The theorization of phenomena... (scholarly abstraction)"
-      ],
-      "practice": [
-        {"sentence": "The ___ of theory is crucial.", "blank": "development", "options": ["develop", "development", "developing"]},
-        {"sentence": "The ___ of concepts matters.", "blank": "operationalization", "options": ["operationalize", "operationalization", "operationalizing"]},
-        {"sentence": "The ___ of assumptions is needed.", "blank": "interrogation", "options": ["interrogate", "interrogation", "interrogating"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Conditional Sentences for Theoretical Arguments",
-      "explanation": "Use conditionals to construct complex theoretical arguments.",
-      "examples": [
-        "If we accept this premise, then it follows that... (logical consequence)",
-        "Should this hypothesis hold, we would need to reconsider... (formal conditional)",
-        "If the data support this claim, it would challenge... (hypothetical)",
-        "Were these assumptions valid, the implications would be... (theoretical conditional)"
-      ],
-      "practice": [
-        {"sentence": "If we ___ this premise, implications follow.", "blank": "accept", "options": ["accept", "accepts", "accepting"]},
-        {"sentence": "Should this ___ true, we'd reconsider.", "blank": "prove", "options": ["prove", "proves", "proving"]},
-        {"sentence": "If data ___ this, it challenges theory.", "blank": "support", "options": ["support", "supports", "supporting"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What are theoretical paradigms?", "options": ["Just methods", "Worldviews shaping questions and interpretations", "Personal opinions", "Statistics"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does distinctive scholarly voice involve?", "options": ["Radical originality only", "Thoughtful synthesis and unique perspective", "Dismissing prior work", "Just summarizing"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does interdisciplinary dialogue require?", "options": ["Ignoring others", "Epistemological humility and careful translation", "False synthesis", "Staying isolated"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Were this true, we ___ see results.'", "options": ["will", "would", "can", "must"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Paradigms are incommensurable - operating from different assumptions.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Scholarly voice means dismissing all previous work.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The ___ of theory is crucial. (nominalization)", "correct": "development", "accept": ["development", "construction"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "If we ___ this premise, implications follow. (conditional)", "correct": "accept", "accept": ["accept"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match theoretical concept:", "pairs": [{"left": "Positivism", "right": "Objective truth"}, {"left": "Interpretivism", "right": "Subjective meaning"}, {"left": "Critical theory", "right": "Power and ideology"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed's critique of rational choice theory was:", "options": ["Wholesale rejection", "Identifying limitations and scope conditions", "Complete acceptance", "Avoiding engagement"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error typical of advanced learners in professional contexts. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "I would like to raise a concern with regards of the way this situation has been handled.",
+        "correct": "I would like to raise a concern with regard to the way this situation has been handled.",
+        "explanation": "The correct fixed expression is 'with regard to' (singular, followed by 'to'). 'With regards of' conflates two different expressions: 'with regard to' and 'as regards.' 'With regards to' (plural) is widely used but considered non-standard in formal writing — 'with regard to' is preferred."
+      },
+      {
+        "incorrect": "The conflict has arisen due to a misunderstanding from both parties about their respective roles.",
+        "correct": "The conflict has arisen due to a misunderstanding on the part of both parties about their respective roles.",
+        "explanation": "'A misunderstanding from both parties' uses 'from' incorrectly in this context. The standard formal expressions are 'on the part of both parties' or 'between both parties.' 'From' implies origin of a communication, not attribution of responsibility."
+      },
+      {
+        "incorrect": "She raised the issue to her line manager immediately after the meeting had taken place.",
+        "correct": "She raised the issue with her line manager immediately after the meeting had taken place.",
+        "explanation": "The verb 'raise' in the sense of bringing something to someone's attention takes the preposition 'with,' not 'to.' 'Raised the issue with her line manager' is the correct professional collocation. 'Raised it to' is a common preposition error."
+      },
+      {
+        "incorrect": "If the two departments would communicate more openly, many of these disputes could be avoided.",
+        "correct": "If the two departments communicated more openly, many of these disputes could be avoided.",
+        "explanation": "In second conditional sentences expressing hypothetical present situations, the if-clause uses the past simple — not 'would.' Using 'would' in the if-clause is a very common and persistent error among advanced learners."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "paradigm", "definition": "conceptual framework or worldview", "example": "Different paradigms compete."},
-    {"word": "epistemology", "definition": "theory of knowledge", "example": "Epistemological assumptions matter."},
-    {"word": "ontology", "definition": "theory of reality/being", "example": "Ontological commitments differ."},
-    {"word": "positivism", "definition": "seeking objective truth empirically", "example": "Positivism dominated early science."},
-    {"word": "interpretivism", "definition": "understanding subjective meanings", "example": "Interpretivism values lived experience."},
-    {"word": "critique", "definition": "systematic analysis and evaluation", "example": "Offer constructive critique."},
-    {"word": "discourse", "definition": "system of ideas and communication", "example": "Engage in scholarly discourse."},
-    {"word": "hegemony", "definition": "dominance of one group's ideas", "example": "Challenge hegemonic assumptions."},
-    {"word": "incommensurable", "definition": "unable to be compared directly", "example": "Paradigms are incommensurable."},
-    {"word": "praxis", "definition": "practice informed by theory", "example": "Link theory to praxis."}
-  ],
-  "cultural_notes": [
-    "American graduate seminars encourage vigorous intellectual debate - disagreement is valued, not avoided.",
-    "U.S. academic culture values theoretical sophistication alongside empirical rigor.",
-    "Interdisciplinary work is increasingly valued in American academia but requires demonstrating competence in multiple traditions.",
-    "American scholarly culture expects you to position your work clearly within intellectual traditions.",
-    "Developing distinctive scholarly voice is essential for academic careers in American universities.",
-    "American academic culture values both critique and construction - identifying problems while offering solutions."
+  "debate_task": {
+    "motion": "This house believes that professional disagreement should always be resolved through formal mediation processes rather than direct negotiation between the parties involved",
+    "stance": "balanced",
+    "key_arguments": [
+      "Formal mediation provides a structured, impartial framework that prevents the power imbalances inherent in direct negotiation from determining the outcome — particularly important where one party has significantly more organisational authority.",
+      "Mediated processes create a documented record of the dispute and its resolution, which provides legal and procedural protection for both parties and the organisation in the event of future escalation.",
+      "Where interpersonal trust has been significantly damaged, direct negotiation is unlikely to produce durable agreement; a neutral facilitator can create conditions for resolution that the parties cannot generate between themselves."
+    ],
+    "counter_arguments": [
+      "Formal mediation is resource-intensive, slow, and often disproportionate to the scale of most workplace disagreements; encouraging direct resolution builds professional resilience and interpersonal competence that has wider organisational value.",
+      "Introducing a formal process can entrench conflict by formalising adversarial positions — many disputes that could have been resolved informally become more intractable once they enter institutional channels.",
+      "In high-trust, high-performance team cultures, the expectation of direct, candid communication is itself a cultural value; routing conflicts through formal mediation can be perceived as a failure of leadership and an admission of relational breakdown."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Engage with the complexity of different workplace contexts and avoid making absolute claims unsupported by reasoning."
+  },
+  "extended_writing": {
+    "type": "formal_email",
+    "task": "You are a senior team leader. Two members of your team — both capable professionals — have come into direct conflict over credit for a client project, with each claiming primary authorship of a proposal that won a major contract. The conflict has become visible to the rest of the team and is affecting morale. Write a formal email to both parties (addressed together) proposing a structured conversation, acknowledging both perspectives, and setting out your expectations for how the situation will be resolved.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Opening — Acknowledge the situation",
+        "guidance": "Open by naming the situation directly but without assigning blame. Acknowledge that both parties have a legitimate perspective and that you understand why the situation has arisen."
+      },
+      {
+        "section": "Impact statement",
+        "guidance": "Briefly note the impact of the visible conflict on the wider team and on the professional environment. Keep this factual and non-punitive — describe the observable effect, not a character judgement."
+      },
+      {
+        "section": "Proposed process",
+        "guidance": "Set out your proposal for how the situation will be addressed. Be specific about the format (individual conversations first, then a facilitated three-way meeting). Frame this as a structured opportunity, not a disciplinary measure."
+      },
+      {
+        "section": "Expectations and closing",
+        "guidance": "State clearly but diplomatically what you expect from both parties going forward. Close warmly but firmly, reaffirming your confidence in both individuals and your commitment to a fair resolution."
+      }
+    ],
+    "model_answer": "Subject: Project Gamma Proposal — Let's Resolve This Together\n\nDear Priya and Daniel,\n\nI am writing to you jointly because I believe it is important that both of you receive the same message from me at the same time. I am aware that there is a significant disagreement between you regarding the respective contributions to the Hartley proposal, and I want to address it directly and constructively.\n\nI want to be clear that I do not doubt either of your commitment to this project, nor am I in a position to adjudicate this dispute based solely on the accounts I have heard so far. What I can say is that the disagreement — as it has played out over the past week — has been visible to the wider team and is creating an environment that is difficult for everyone. That is not a sustainable situation, and I do not think either of you intends it.\n\nI would like to arrange individual conversations with each of you separately, beginning tomorrow, to ensure I fully understand your respective perspectives before we meet together. Following those conversations, I am proposing a facilitated three-way meeting — with HR present if either of you would find that helpful — in which we work towards a shared account of the project and a clear plan for how collaborative credit is attributed going forward.\n\nI expect both of you to engage with this process in good faith and to maintain professional conduct with each other and the team while it proceeds. I have every confidence that this can be resolved.\n\nWith best regards,\nAhmed Hassan\nSenior Team Lead"
+  },
+  "advanced_grammar": {
+    "structure": "Ellipsis in Professional Speech and Formal Writing",
+    "explanation": "Ellipsis is the deliberate omission of words or phrases that can be recovered from context, creating economy of expression without loss of meaning. In professional communication, ellipsis operates at multiple levels: grammatical ellipsis (omission of repeated grammatical elements), lexical ellipsis (omission of recoverable nouns or verbs), and discourse ellipsis (omission of elements recoverable from the wider communicative context).\n\nIn formal professional writing, ellipsis is most commonly encountered in parallel structures and contrastive pairs, where repeated elements are omitted to create rhetorical crispness and emphasis. For example: 'Some employees prefer direct feedback; others [prefer] written summaries.' The omitted 'prefer' is recoverable from the first clause. More advanced uses of ellipsis create powerful rhetorical effects in speeches and formal documents: 'Our goal is not to impose a resolution but [our goal is] to create the conditions in which one can be found.'\n\nIn professional conflict and negotiation contexts, ellipsis also appears in spoken dialogue as a signal of sophistication and collaborative engagement — responding to a point with 'Agreed on the timeline; less so on [the] resources' is a more precise and confident communicative act than a fully explicit restatement. Mastery of ellipsis marks a speaker or writer as genuinely operating at C2 level in professional discourse.",
+    "authentic_examples": [
+      "The Technology Division has submitted its position; Operations, theirs. Neither is fully satisfactory.",
+      "Some disputes require formal mediation; most do not — and knowing which is which is among the most valuable professional skills a leader can develop.",
+      "Our role is not to judge who was right, but to ensure that whatever the outcome, the relationship — and the team — remain intact."
+    ],
+    "practice": [
+      {
+        "sentence": "Some managers prefer to address conflict immediately. Other managers prefer to allow a cooling-off period before they address conflict.",
+        "transform": "Reduce using ellipsis to eliminate unnecessary repetition.",
+        "answer": "Some managers prefer to address conflict immediately; others [prefer to allow] a cooling-off period first."
+      },
+      {
+        "sentence": "The goal of this process is not to determine who was at fault. The goal of this process is to establish how we prevent the same situation from arising again.",
+        "transform": "Reduce using ellipsis, preserving the contrastive structure.",
+        "answer": "The goal of this process is not to determine who was at fault, but to establish how we prevent the same situation from arising again."
+      },
+      {
+        "sentence": "Both parties have presented their accounts. Both accounts have merit, but both accounts are also incomplete.",
+        "transform": "Use ellipsis to create a more rhetorically powerful version.",
+        "answer": "Both parties have presented their accounts — each with merit, each incomplete."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the dispute resolution memorandum identify as the key insight from the independent review?",
+      "options": [
+        "That one division is clearly in the wrong and should concede its position",
+        "That while the stated positions appear irreconcilable, the underlying interests substantially overlap",
+        "That the dispute cannot be resolved without senior management arbitration",
+        "That the project should be cancelled due to unresolvable resourcing conflict"
+      ],
+      "correct": 1,
+      "explanation": "The memorandum explicitly states that 'the underlying interests they seek to protect are substantially overlapping' despite apparently irreconcilable positions — this is the foundational insight of interest-based dispute resolution."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence correctly uses ellipsis to create a rhetorically crisp professional statement?",
+      "options": [
+        "The Operations team wants more resources and the Technology team also wants more resources.",
+        "Both teams want more resources; neither has them.",
+        "Operations wants resources and Technology wants resources and they are both lacking resources.",
+        "The Operations team and the Technology team both want resources and both of them are lacking those resources."
+      ],
+      "correct": 1,
+      "explanation": "'Both teams want more resources; neither has them' uses ellipsis to eliminate repeated elements ('wants more resources / has them'), creating a crisp, emphatic contrast that is far more rhetorically powerful than the fully explicit alternatives."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error in the conditional sentence: 'If the two departments would communicate more openly, many disputes could be avoided.'",
+      "options": [
+        "The main clause should use 'will' instead of 'could'",
+        "The if-clause should use the past simple ('communicated'), not 'would communicate'",
+        "The subject should be singular: 'the two departments communicates'",
+        "There is no error — the sentence is grammatically correct"
+      ],
+      "correct": 1,
+      "explanation": "In second conditional sentences expressing present hypothetical situations, the if-clause uses the past simple ('communicated'). Using 'would' in the if-clause is one of the most persistent errors among advanced learners."
+    },
+    {
+      "id": 4,
+      "question": "What is the rhetorical purpose of framing participation in the mediation as 'voluntary' while simultaneously warning that non-participation 'will be noted'?",
+      "options": [
+        "To confuse the parties about their legal obligations",
+        "To preserve the appearance of voluntary engagement while creating implicit pressure to participate",
+        "To avoid the legal requirement to make mediation compulsory",
+        "To signal that the dispute resolution office is indifferent to whether the parties engage"
+      ],
+      "correct": 1,
+      "explanation": "The 'voluntary but noted' formulation is a classic institutional hedging device: it maintains the collaborative framing ('voluntary') that is necessary for productive engagement, while ensuring parties understand there are consequences for non-participation."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence demonstrates the correct use of tentative language appropriate to professional conflict communication?",
+      "options": [
+        "You clearly misunderstood the scope of the project from the very beginning.",
+        "I think maybe you might perhaps not have fully understood the scope.",
+        "I wonder whether there may have been some ambiguity in how the project scope was communicated at the outset.",
+        "The scope was not misunderstood by you, was it?"
+      ],
+      "correct": 2,
+      "explanation": "'I wonder whether there may have been some ambiguity' uses calibrated tentativeness: 'I wonder whether' signals a question rather than an accusation; 'may have been' uses a possibility modal; 'some ambiguity' is less charged than 'misunderstanding.' The passive 'was communicated' distributes rather than assigns responsibility."
+    }
   ]
 }

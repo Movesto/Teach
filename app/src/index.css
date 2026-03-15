@@ -15,3 +15,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Dark mode base — applied when .dark class is on <html>.
+   These rules work independently of Tailwind's dark: variant compilation
+   and guarantee the toggle is visible even before JIT recompiles. */
+html.dark {
+  color-scheme: dark;
+  background-color: #030712;
+  color: #f9fafb;
+}
+
+html:not(.dark) {
+  color-scheme: light;
+  background-color: #f9fafb;
+  color: #111827;
+}

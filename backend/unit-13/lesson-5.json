@@ -2,268 +2,232 @@
   "id": "lesson-85",
   "unit_id": 13,
   "lesson_number": 5,
-  "title": "Academic Discussions — Seminars & Office Hours",
+  "title": "Sophisticated Argumentation and Academic Hedging",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "It is Week 5 of the semester. Ahmed's BUSA 301 seminar meets with only twelve students and Professor Reyes, who runs it Socratic-style: no lectures, just discussion. Ahmed has done every reading. He knows the answer to every question. But he cannot figure out how to join the conversation. Jake talks easily, using half-formed thoughts. Zoe interrupts people (politely, apparently). Priya asks questions that make the professor smile. Ahmed speaks twice in ninety minutes — and both times it comes out too long, too formal, and the room goes quiet in a way that suggests everyone was waiting for him to finish. After class, Ahmed goes to Professor Reyes's office hours for the first time.",
   "objectives": [
-    "Use academic hedging language to contribute to seminar discussions with appropriate tentativeness",
-    "Master turn-taking strategies for entering, holding, and exiting academic discussion",
-    "Navigate office hours effectively — purpose, etiquette, and how to get the most from them",
-    "Distinguish between asserting a claim and exploring an idea in academic discourse"
+    "Analyse the structure of a sophisticated academic argument and distinguish between the thesis, supporting claims, evidence, and warrants",
+    "Evaluate the rhetorical and epistemic function of academic hedging and distinguish calibrated hedging from evasion or unnecessary vagueness",
+    "Deploy a range of hedging strategies — modal verbs, distancing constructions, epistemic adverbs — to make precisely qualified claims",
+    "Construct a nuanced argument that anticipates and addresses the strongest objection to its central claim"
   ],
-  "target_phrases": [
-    "Building on what you said, I think...",
-    "One interpretation might be that...",
-    "It could be argued that the data suggests...",
-    "I want to push back a little on that — not because it's wrong, but...",
-    "That's a really interesting point — can I add something to it?",
-    "I'm still working through this, but my instinct is...",
-    "Could we unpack that a bit more?"
+  "authentic_text": {
+    "title": "The Limits of What We Can Know",
+    "type": "article",
+    "text": "Academic writing, at its most ambitious, attempts something genuinely difficult: to make claims that are as strong as the evidence permits, and no stronger. This sounds simple. In practice, it requires a continuous exercise of epistemic discipline — the ability to hold uncertainty and confidence simultaneously, to distinguish what the data shows from what it suggests, and to resist the temptation to claim more than you can defend.\n\nThe language of academic hedging — 'it appears that,' 'the evidence suggests,' 'it could be argued that,' 'one interpretation might be' — is not, as it is sometimes caricatured, the language of weakness or evasion. It is, rather, a precise signalling system that tells the reader exactly how much weight to place on each claim. A writer who says 'X causes Y' is making a different and stronger assertion than one who says 'X appears to be associated with Y' — and if the evidence supports only the latter, using the former is a form of intellectual dishonesty, not clarity.\n\nThis distinction matters beyond academic contexts. In journalism, in policy analysis, in medicine, the difference between 'the drug cures the condition' and 'the drug appears to reduce symptoms in most patients in the studied cohort' is not pedantry — it is the difference between responsible and irresponsible communication. The consequences of overclaiming are real.\n\nThe skilled academic writer, then, hedges not out of timidity but out of precision — and distinguishes, always, between hedging that reflects genuine uncertainty and hedging that is merely defensive, performed to avoid accountability for a claim the writer could in fact defend.",
+    "source": "Adapted from Writing in the Disciplines: A Reader for Academic Writers, Pearson Higher Education",
+    "notes": "The article's final paragraph contains the essay's most important structural distinction — between hedging as epistemic precision and hedging as defensive evasion — and it is placed last precisely because it requires everything that precedes it to be understood."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the article, what does the language of academic hedging signal to the reader?",
+      "answer": "The hedging language signals to the reader exactly how much weight to place on each claim — it functions as a precision signalling system that distinguishes the strength of assertions. A claim made with hedging ('appears to be associated with') is a different and weaker assertion than one made without ('causes'), and the hedging tells the reader which kind of claim they are reading."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing the difference between 'the drug cures the condition' and the fully qualified version as 'not pedantry'?",
+      "answer": "The writer implies that there is a real-world consequence to the difference between the two formulations — that it is not merely a stylistic preference but a matter of accuracy with practical stakes. By pre-empting the criticism that such distinctions are merely pedantic, the writer addresses the most likely objection to the argument."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and explain how the phrase 'not out of timidity but out of precision' functions rhetorically.",
+      "answer": "The final paragraph is assertive and definitive — a marked change from the careful hedging of the earlier paragraphs. The phrase 'not out of timidity but out of precision' uses an 'not X but Y' structure to directly address and rebut the common mischaracterisation of hedging as weakness, repositioning it as the mark of intellectual rigour. The rhetoric is deliberately firm at the moment the argument calls for clarity."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'epistemic' (paragraph 1 and 4) is closest in meaning to:",
+      "answer": "Relating to knowledge and the conditions under which claims can be justified — 'epistemic discipline' means the discipline of making claims that are calibrated to what can actually be known or evidenced. 'Epistemic' derives from the Greek 'episteme' (knowledge) and is used in philosophy and academic discourse to refer to questions of knowledge, justification, and certainty."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this article?",
+      "answer": "The writer's purpose is to defend academic hedging against the characterisation that it represents weakness or evasion, and to argue that it is instead a precise signalling system that conveys the writer's level of evidential confidence — and that this precision has real consequences in contexts beyond academia."
+    }
   ],
-  "dialogue": {
-    "title": "Office Hours",
-    "context": "Ahmed knocks on Professor Reyes's office door, fifteen minutes into office hours.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Professor Reyes? I apologize for the interruption. I wanted to discuss my participation in the seminar, if you have a moment."},
-      {"speaker": "Prof. Reyes", "text": "Ahmed! Come in, sit down. You don't have to apologize for knocking — that's literally what office hours are for. What's up?"},
-      {"speaker": "Ahmed", "text": "I have completed all of the readings. I understand the material. But in seminar I cannot seem to enter the conversation at the right moment. By the time I have formulated a complete thought, the discussion has moved past where I intended to contribute."},
-      {"speaker": "Prof. Reyes", "text": "That's a really common challenge, especially for students who are careful thinkers. Can I ask — when you do join in, what do you usually do?"},
-      {"speaker": "Ahmed", "text": "I state my analysis fully and support it with evidence from the text."},
-      {"speaker": "Prof. Reyes", "text": "And how does the room respond?"},
-      {"speaker": "Ahmed", "text": "It becomes very quiet. Then someone says 'yeah' and changes the subject."},
-      {"speaker": "Prof. Reyes", "text": "Okay. Here's something counterintuitive: in seminar, you don't have to say everything you know. A partial thought that opens a question is often more valuable than a complete argument. Have you heard of 'building on'?"},
-      {"speaker": "Ahmed", "text": "You mean, beginning with what someone else said?"},
-      {"speaker": "Prof. Reyes", "text": "Exactly. 'Building on what Jake said...' — it signals you were listening, it connects the thread, and it gives you a running start. Also: hedging. Instead of stating conclusions, explore them. 'One interpretation might be' is a seminar invitation, not a declaration."},
-      {"speaker": "Ahmed", "text": "I see. So the goal is not to be right. It is to keep the conversation productive."},
-      {"speaker": "Prof. Reyes", "text": "That's it exactly. Also — your written work is excellent. Your analytical instincts are sharp. Don't stop sharing them; just share them as part of the conversation, not as the answer to it."},
-      {"speaker": "Ahmed", "text": "I will try. Building on what you said... I think I have been treating seminar like a presentation rather than a discussion."},
-      {"speaker": "Prof. Reyes", "text": "There you go. That's a perfect seminar contribution. Come back whenever — door's open."}
+  "language_analysis": {
+    "focus": "Academic Hedging",
+    "explanation": "Academic hedging is the use of linguistic devices to signal the degree of certainty or confidence with which a claim is made. It is not a single technique but a repertoire of strategies operating at different levels of the grammar: modal verbs ('may,' 'might,' 'could,' 'would'), epistemic adverbs ('arguably,' 'apparently,' 'seemingly,' 'presumably'), distancing constructions ('it has been suggested that,' 'it appears that,' 'evidence indicates that'), and reporting verbs that encode the writer's evaluation of the source ('claims,' 'suggests,' 'demonstrates,' 'shows,' 'argues').\n\nThe choice among these strategies signals different things. 'This demonstrates that X' presents the relationship as established fact; 'this suggests that X' presents it as probable but not conclusive; 'this might indicate that X' presents it as possible but uncertain. These are not stylistic alternatives — they make genuinely different claims about the state of the evidence.\n\nAt C1/C2 level, learners should be able to select hedging devices appropriate to the specific epistemic status of each claim — to hedge strongly where evidence is genuinely uncertain and to avoid hedging where evidence is clear, since unnecessary hedging of well-supported claims undermines the writer's credibility as much as overclaiming unsupported ones. The discipline is knowing when to hedge and how much.",
+    "examples": [
+      {
+        "from_text": "A writer who says 'X causes Y' is making a different and stronger assertion than one who says 'X appears to be associated with Y'",
+        "analysis": "The article uses this pair of formulations to demonstrate the semantic difference that hedging creates. 'Causes' asserts a causal relationship as established; 'appears to be associated with' hedges both the epistemics ('appears' — the relationship is not certain) and the claim type ('associated with' rather than 'causes' — correlation rather than causation). The hedged version is more precise when the evidence supports only correlation."
+      },
+      {
+        "from_text": "it appears that / the evidence suggests / it could be argued that / one interpretation might be",
+        "analysis": "These four hedging constructions form a rough scale from lighter to heavier hedging. 'The evidence suggests' is relatively confident (the evidence is doing the asserting). 'It appears that' is somewhat more tentative (the writer's perception, not the evidence's implication). 'It could be argued that' introduces a claim as one possible position. 'One interpretation might be' is the most tentative — this is a possible reading, not even the most likely one."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The data appears to suggest a moderate positive correlation between levels of civic participation and reported wellbeing outcomes, though causality cannot be established from this study design.",
+        "informal": "It looks like people who get involved in their communities feel better — though we can't say for sure which one causes the other."
+      },
+      {
+        "formal": "While it could be argued that the policy produced short-term economic benefits, the medium-term distributional consequences remain, as yet, inadequately studied.",
+        "informal": "The policy might have helped the economy short-term, but we don't really know who actually benefited in the long run."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Turn-taking strategies for entering discussion",
-      "pattern": "Building on... · Can I add to that? · Actually, I want to pick up on... · I was just thinking...",
-      "examples": [
-        "Building on what Priya said, I think the case study shows a different pattern.",
-        "Can I add to that? I think the other reading supports a similar point.",
-        "Actually, I want to pick up on the framework question — it seems like a lens issue.",
-        "I was just thinking about the same thing — and I wonder if the data supports that.",
-        "Following on from that, it might be worth considering the counterargument."
-      ],
-      "your_turn": "Enter this discussion: Jake has just said 'I think the company's strategy was purely profit-driven.' Respond using a turn-taking opener.",
-      "prompts": [
-        "Agree and add supporting evidence using 'building on.'",
-        "Gently question his interpretation using 'I want to pick up on that.'",
-        "Add a nuance using 'Can I add to that?'"
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Academic hedging for careful claims",
-      "pattern": "It could be argued that... · One interpretation might be... · I'm still working through this, but... · It seems possible that...",
-      "examples": [
-        "It could be argued that the policy prioritized short-term gains over long-term stability.",
-        "One interpretation might be that the author is critiquing the framework itself, not just the data.",
-        "I'm still working through this, but my instinct is that the two positions aren't mutually exclusive.",
-        "It seems possible that the case would play out differently in a different cultural context.",
-        "Could it be that the problem isn't the strategy but the implementation?"
-      ],
-      "your_turn": "State your opinion on a course topic using hedged language. Do not state it as certain fact.",
-      "prompts": [
-        "Suggest that a business decision might have been motivated by factors beyond profit.",
-        "Propose an alternative interpretation of a case study without claiming it is correct.",
-        "Explore a tension in the readings without resolving it — invite further discussion."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Office hours etiquette — opening, purpose, and closing",
-      "pattern": "Opening · Stating purpose · Specific question · Closing",
-      "examples": [
-        "Hi Professor — do you have a few minutes? I had a question about the feedback on my essay.",
-        "I wanted to ask about the case study format — specifically whether you want us to use the textbook framework.",
-        "I've been thinking about what you said in class and I was wondering if you could unpack it a bit more.",
-        "Thank you so much — this was really helpful. I'll incorporate this into my revision.",
-        "I'll let you go — I know you have other students. But thank you for your time."
-      ],
-      "your_turn": "Roleplay going to office hours with one specific goal (grade question, essay feedback, or discussion help).",
-      "prompts": [
-        "Open the conversation politely and state your specific purpose.",
-        "Ask a follow-up question using 'could you unpack' or 'could you say more about.'",
-        "Close the conversation gracefully, thanking the professor."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit13-lesson5-listen1.mp3",
-      "transcript": "Professor: Okay, so the Porter reading. What's actually being argued here? Jake: I mean, I think he's saying competitive advantage is basically about positioning, right? Like, where you put yourself in the market. Priya: Building on that — I think the interesting tension is whether position is stable or constantly shifting. Like, his framework kind of assumes a static competitive landscape. Prof: Interesting. Ahmed, you've been quiet — what do you think? Ahmed: One interpretation might be that Porter's model is descriptive rather than prescriptive — he is mapping how competition works, not necessarily recommending a single optimal strategy. Prof: That's a really sharp observation. Can anyone push back on that?",
-      "question": "What technique does Ahmed use to enter the discussion?",
-      "options": [
-        "He states a conclusion directly as fact",
-        "He asks a question instead of making a point",
-        "He uses hedging language — 'one interpretation might be' — to offer a careful analytical point",
-        "He summarizes what Jake said"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit13-lesson5-listen2.mp3",
-      "transcript": "Going to office hours can feel intimidating, but professors genuinely want students to come. Here are three things to know. First, come with a specific question — not just 'I'm confused' but 'I'm confused about how to apply this framework to the case study.' Second, be direct about your purpose at the start: 'I wanted to ask about my essay feedback' — don't warm up for five minutes before getting to the point. Third, office hours are not just for struggling students. Using office hours to deepen your thinking on a paper you're already doing well on is exactly what they're designed for. Professors remember students who show genuine intellectual engagement.",
-      "question": "According to the speaker, what is the best way to start an office hours visit?",
-      "options": [
-        "Warm up slowly and let the conversation develop naturally",
-        "Only go if you are failing the class",
-        "Be direct about your specific purpose at the start",
-        "Ask about your grade first before anything else"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit13-lesson5-listen3.mp3",
-      "transcript": "Seminar discussion in American universities has an implicit social contract. Everyone is expected to contribute — silence for a full session is noticed. But contribution doesn't mean having the right answer — it means advancing the conversation. The most valued contributions are often questions, not answers. 'Could we unpack that a bit more?' or 'I want to push back on that idea' are more productive than complete well-sourced arguments, because they invite further dialogue. The goal isn't to win the discussion — it's to make the room think harder. Students who do that get remembered.",
-      "question": "What kind of contributions are described as most valued in American seminar discussions?",
-      "options": [
-        "Long, well-sourced arguments that prove a point",
-        "Complete silence — listening is the primary role",
-        "Questions and challenges that advance dialogue and make the room think harder",
-        "Agreeing with the professor's points clearly"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You are in seminar. The professor has asked: 'Is stakeholder capitalism fundamentally different from shareholder capitalism, or is it just rebranding?' Contribute one seminar turn of 45–60 seconds using at least two hedging phrases and one turn-taking opener. Do not give the 'right answer' — explore the question.",
-      "example": "Building on what I heard earlier about the tension between profit and purpose — I want to pick up on that, because I'm still working through it myself. It could be argued that stakeholder capitalism is genuinely different in intent — the theoretical commitment to multiple stakeholders is a real shift from Friedman-era doctrine. But one interpretation might be that without binding legal mechanisms, the behavioral outcomes are similar. So maybe the difference is currently more rhetorical than structural? I'm not sure — I think it depends on which companies we're looking at. Could we unpack what 'accountability' actually means in that framework? Because that seems like where the real divergence would show up.",
-      "sentence_starters": [
-        "Building on what was said about...",
-        "It could be argued that...",
-        "One interpretation might be...",
-        "I'm still working through this, but..."
-      ],
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Roleplay opening an office hours visit. You want feedback on why your essay argument wasn't convincing to the professor. Open the conversation, state your purpose, ask one specific follow-up question, and close. Record for 35 seconds.",
-      "example": "Hi Professor Reyes — do you have a few minutes? I wanted to talk about the feedback on my essay. You wrote that the argument wasn't fully developed, and I want to understand exactly what was missing. I had a thesis, I had evidence, but something didn't connect — could you unpack what you mean by 'underdeveloped'? Like, was it the evidence itself, or how I was using it to support the claim? ... [pause for imagined response] ... That makes a lot of sense actually — I'll work on that for the revision. Thank you so much, I really appreciate it. I'll let you go.",
-      "sentence_starters": [
-        "Hi Professor — do you have a few minutes?",
-        "I wanted to ask about...",
-        "Could you unpack what you mean by...?"
-      ],
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a seminar contribution (80–100 words) on this prompt: 'Does globalization benefit developing economies or increase inequality?' Use hedging language, at least one turn-taking phrase, and leave the question open for further discussion — do not conclude with a definitive answer.",
-      "min_words": 80,
-      "example": "Building on the Rodrik reading — I want to pick up on the tension between macroeconomic data and lived experience. It could be argued that aggregate GDP growth figures in developing economies mask significant distributional variation: who captures the gains matters as much as whether gains exist. One interpretation might be that globalization functions as an amplifier — it amplifies whatever institutional frameworks are already present. In countries with strong labor protections and governance, it may reduce inequality. Where those frameworks are weak, it could be argued it intensifies existing disparities. I'm still working through whether that's a feature or a design flaw. Could we unpack what we mean by 'benefit'?"
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write an email to Professor Reyes after your office hours visit, thanking her and confirming what you will do differently in seminar. Keep it semi-formal, 50–70 words.",
-      "min_words": 50,
-      "example": "Hi Professor Reyes,\n\nThank you so much for the office hours conversation today — it was really helpful. I'm going to work on entering discussions earlier with partial thoughts rather than waiting until I have a complete argument. I'll also try using 'building on' to connect to what others have said.\n\nI appreciate your time and feedback.\n\nBest,\nAhmed"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Academic Hedging — Expressing Tentativeness and Exploration",
-      "explanation": "In academic discussion, hedging (expressing ideas with appropriate uncertainty) is valued — it shows intellectual honesty and invites dialogue. Over-confident claims ('This proves X') can shut down conversation. Hedged claims ('One interpretation might be X') invite response. Common hedging structures include modal verbs (could, might, may), distancing phrases ('it could be argued'), and process markers ('I'm still working through this').",
-      "examples": [
-        "It could be argued that the data supports a different conclusion. (distancing hedge)",
-        "One interpretation might be that the author is critiquing the framework itself. (possibility hedge)",
-        "I'm still working through this, but my instinct is... (process hedge)",
-        "It seems possible that the outcome would differ in a different context. (tentative hedge)",
-        "Could it be that the real issue is implementation rather than strategy? (question hedge)"
-      ],
-      "practice": [
-        {"sentence": "___ be argued that competition theory has limitations. (hedged claim)", "blank": "It could", "options": ["It could", "It will", "It is"]},
-        {"sentence": "One ___ might be that the data is incomplete.", "blank": "interpretation", "options": ["interpretation", "fact", "conclusion"]},
-        {"sentence": "I'm still ___ through this, but I think the positions aren't incompatible.", "blank": "working", "options": ["working", "going", "thinking"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Turn-Taking Phrases for Entering and Holding the Floor",
-      "explanation": "Academic discussion requires specific linguistic tools for managing conversation turns. To enter: 'Building on that...', 'Can I add to that?', 'I want to pick up on...' To hold the floor while thinking: 'Let me think through this...', 'What I mean is...' To invite response: 'Does that make sense?', 'What do others think?' These phrases are not just polite — they are structural moves in the discussion.",
-      "examples": [
-        "Building on what Priya said, I think there's a tension here. (enter + credit)",
-        "Can I add something to that? I think the Porter reading complicates it. (polite entry)",
-        "I want to push back on that — not because it's wrong, but... (respectful challenge)",
-        "Could we unpack that a bit more? I'm not sure I've fully understood it. (invite depth)",
-        "What I mean is — the strategy exists, but the implementation failed. (clarify and hold floor)"
-      ],
-      "practice": [
-        {"sentence": "___ on what Jake said, I think the incentives are misaligned.", "blank": "Building", "options": ["Building", "Based", "Basing"]},
-        {"sentence": "Could we ___ that concept a bit? It seems worth exploring.", "blank": "unpack", "options": ["unpack", "remove", "dismiss"]},
-        {"sentence": "I want to ___ back on that — respectfully.", "blank": "push", "options": ["push", "pull", "step"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Office Hours Etiquette — Language for Professional Academic Interaction",
-      "explanation": "Office hours occupy a semi-formal register between classroom formality and peer casualness. They require polite but direct language, specific purpose-stating, and respectful closings. Overly formal language ('I humbly request your guidance') is unusual. Overly casual language ('So I bombed the essay, can you fix it?') is disrespectful. The target is collegial: professional but warm.",
-      "examples": [
-        "Hi Professor — do you have a few minutes? (appropriate, not 'to whom it may concern')",
-        "I wanted to ask about my essay feedback — specifically the part about argument development. (specific)",
-        "Could you say a bit more about what you mean by 'underdeveloped'? (professional follow-up)",
-        "That's really helpful — I'll incorporate this into my revision. (accepting feedback gracefully)",
-        "Thank you so much — I'll let you go. (respectful, time-aware closing)"
-      ],
-      "practice": [
-        {"sentence": "Which is the most appropriate way to open an office hours visit?", "blank": "Hi Professor — do you have a few minutes?", "options": ["Hi Professor — do you have a few minutes?", "To Whom It May Concern,", "Hey yo, got a sec?"]},
-        {"sentence": "Which question politely invites elaboration on feedback?", "blank": "Could you say more about what you mean by that?", "options": ["Could you say more about what you mean by that?", "Why did you give me that grade?", "I don't understand your comment."]},
-        {"sentence": "Which is an appropriate closing for an office hours visit?", "blank": "Thank you so much — I'll let you go.", "options": ["Thank you so much — I'll let you go.", "Okay bye.", "I require no further information at this time."]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What is 'hedging' in academic language?", "options": ["Cutting shrubs on a university campus", "Expressing ideas with appropriate tentativeness and uncertainty", "Arguing very confidently and clearly", "Avoiding the question entirely"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "Which phrase best demonstrates academic hedging?", "options": ["This proves that X is true.", "I think X is wrong.", "One interpretation might be that X reflects a structural issue.", "X is obvious from the data."], "correct": 2, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does Professor Reyes say about Ahmed's contributions?", "options": ["He is wrong about the material", "He is too quiet and should try harder", "He is treating seminar like a presentation instead of a discussion", "He needs to do more reading"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "true-false", "question": "Office hours are only for students who are failing or struggling with the material.", "correct": false, "points": 10},
-      {"id": "q5", "type": "fill-blank", "question": "___ on what you said, I think there's an important tension here. (turn-taking opener)", "correct": "Building", "accept": ["Building", "building"], "points": 10},
-      {"id": "q6", "type": "multiple-choice", "question": "Which sentence uses 'unpack' in the academic sense?", "options": ["Could we unpack these suitcases first?", "Could we unpack that concept a bit more?", "Let's unpack the box before class.", "Please unpack your bag at security."], "correct": 1, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "It ___ be argued that the strategy prioritized short-term gains.", "correct": "could", "accept": ["could", "might"], "points": 10},
-      {"id": "q8", "type": "multiple-choice", "question": "What is the key insight Ahmed gets from office hours?", "options": ["He should stop coming to seminar", "He should state his full argument more clearly", "He should offer partial thoughts that open conversation rather than complete arguments", "He should read more texts before speaking"], "correct": 2, "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the phrase to its turn-taking function:", "pairs": [{"left": "Building on that...", "right": "Enter and credit previous speaker"}, {"left": "I want to push back...", "right": "Respectful challenge"}, {"left": "Could we unpack that?", "right": "Invite deeper exploration"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Which describes the ideal register for office hours?", "options": ["Very formal — use 'Dear Professor' and full sentences", "Very casual — treat the professor like a friend", "Semi-formal — professional but warm and direct", "Whatever register the student is most comfortable with"], "correct": 2, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The researcher's conclusion — that the treatment was associated to improved outcomes in the majority of cases — was based on a rigorously controlled study.",
+        "correct": "The researcher's conclusion — that the treatment was associated with improved outcomes in the majority of cases — was based on a rigorously controlled study.",
+        "explanation": "'Associated with' is the correct collocation — this preposition is fixed in the statistical and medical sense of 'associated with an outcome.' 'Associated to' is a collocation error, often produced by speakers of languages in which the equivalent verb takes a different preposition."
+      },
+      {
+        "incorrect": "The article argues, quite convincingly, that academic hedging is an epistemic virtue rather than a rhetorical weakness, and I am agreed with this position.",
+        "correct": "The article argues, quite convincingly, that academic hedging is an epistemic virtue rather than a rhetorical weakness, and I agree with this position.",
+        "explanation": "'I am agreed' is a non-standard construction — the correct form is the simple 'I agree.' 'Agreed' can be used as a predicate adjective in contexts like 'we are agreed on this point' (we have reached agreement together), but 'I am agreed' in the sense of 'I hold the same view' is incorrect."
+      },
+      {
+        "incorrect": "A writer who hedges every claim, regardless of the strength of the evidence, risks appearing as evasive and undermining their own credibility.",
+        "correct": "A writer who hedges every claim, regardless of the strength of the evidence, risks appearing evasive and undermining their own credibility.",
+        "explanation": "The verb 'appear' in this construction is a copular (linking) verb that takes a predicate adjective, not a prepositional phrase: 'appearing evasive,' not 'appearing as evasive.' The construction 'appear as X' is used when X is a role or characterisation ('she appeared as Hamlet'), not when X is an adjective describing a state."
+      },
+      {
+        "incorrect": "The distinction the article draws between calibrated hedging and defensive evasion is, on closer inspection, more subtler than it initially appears.",
+        "correct": "The distinction the article draws between calibrated hedging and defensive evasion is, on closer inspection, more subtle than it initially appears.",
+        "explanation": "'More subtler' is a double comparative — using both the inflectional '-er' and the word 'more' with the same adjective. Only one form should be used: 'more subtle' or 'subtler' (both are acceptable; 'more subtle' is more common in formal written prose)."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "seminar", "definition": "a small class that involves discussion rather than lecture", "example": "The seminar only has twelve students, so everyone is expected to contribute."},
-    {"word": "office hours", "definition": "scheduled times when a professor is available to meet with students", "example": "I went to office hours to ask about my essay feedback."},
-    {"word": "syllabus", "definition": "a document outlining a course's topics, schedule, assignments, and expectations", "example": "The answer to your question is on the syllabus — check page two."},
-    {"word": "thesis", "definition": "the central argument or claim of an academic paper or essay", "example": "Your thesis needs to be more specific — what exactly are you arguing?"},
-    {"word": "counterargument", "definition": "an argument made against a position, often used to strengthen your own argument by addressing it", "example": "A strong essay acknowledges the counterargument and explains why it does not undermine the thesis."},
-    {"word": "nuance", "definition": "a subtle distinction or complexity that makes something more accurate or complete", "example": "The analysis lacked nuance — it treated all cases as identical."},
-    {"word": "unpack", "definition": "to examine something carefully and in detail (academic usage)", "example": "Could we unpack that claim before moving on?"},
-    {"word": "problematic", "definition": "presenting a difficulty or challenge; not straightforwardly acceptable (academic usage)", "example": "That assumption is problematic because it ignores the role of context."},
-    {"word": "lens", "definition": "a theoretical framework or perspective used to analyze something", "example": "Through a Marxist lens, the case study reveals class dynamics."},
-    {"word": "framework", "definition": "a structure of concepts used to organize thinking or analysis", "example": "Porter's Five Forces is a useful framework for analyzing industry competition."}
-  ],
-  "cultural_notes": [
-    "American seminars are based on the Socratic method: the professor's job is to ask questions and guide discussion, not deliver answers. Students are expected to co-create knowledge, not just receive it. This is culturally different from lecture-dominant education systems.",
-    "Silence in American seminar culture is uncomfortable in a way that differs from some other cultural contexts. In East Asian academic cultures, silence can signal respect and careful thought. In American seminar culture, extended silence is read as disengagement.",
-    "The phrase 'I want to push back on that' is a culturally specific academic move — politely disagreeing with a professor or peer is expected and valued, not disrespectful. The phrase cushions the disagreement while showing engagement.",
-    "Office hours usage rates are much lower than professors would like. Many students, especially first-generation and international students, see office hours as confrontational or as a sign of weakness. In reality, frequent office hours users tend to perform better and build better professional networks.",
-    "Academic vocabulary has specific uses that differ from everyday meaning. 'Problematic' in academic discourse means 'presenting a theoretical or ethical difficulty' — not 'a problem' in the colloquial sense. 'Nuanced' means subtle and complex, not vague. Knowing these distinctions marks academic fluency."
+  "debate_task": {
+    "motion": "This house believes that academic hedging has become so pervasive in scholarly writing that it has made academic knowledge effectively inaccessible to the educated non-specialist.",
+    "stance": "balanced",
+    "key_arguments": [
+      "The cumulative effect of heavy hedging throughout an article is to make the writer's actual position indeterminate — a reader should be able to identify what a writer believes, and extreme hedging makes this impossible.",
+      "The norms of academic hedging were developed for a professional audience of experts who can decode the precision signalling system — applied in writing aimed at non-specialist readers, the same conventions produce opacity rather than precision.",
+      "Academic writing's hedging conventions have become self-reinforcing: reviewers expect heavy hedging; authors comply; the result is a disciplinary prose style that prioritises defensive protection over genuine communication."
+    ],
+    "counter_arguments": [
+      "The alternative to hedging is overclaiming — popular science writing that simplifies beyond what evidence supports, generating false certainties that create public confusion when findings are revised.",
+      "The solution to academic inaccessibility is better science communication training, not the abandonment of epistemic precision — a well-written hedged claim is not inherently inaccessible.",
+      "The conventions of academic hedging reflect genuine uncertainty in complex empirical fields; representing that uncertainty honestly is not a failure of communication but an accurate representation of the epistemic situation."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write an analytical essay responding to the following claim: 'In academic writing, hedging is a form of intellectual cowardice.' Develop a nuanced argument that takes the strongest version of this claim seriously before rejecting or qualifying it.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "State the claim and signal that you will engage with its strongest version before arriving at your position. Establish that there is a genuine distinction — between hedging as epistemic precision and hedging as defensive evasion — that the claim may be conflating."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Engage seriously with the claim: acknowledge that some hedging in academic writing is indeed defensive and evasive — a habit of qualification that protects the writer rather than serving the reader. Concede that this form of hedging is worth criticising, and that it can become a disciplinary norm that makes writing unreadable."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Argue that calibrated hedging — hedging that signals a precise level of epistemic confidence — is the opposite of intellectual cowardice. It is the mark of a writer who has the intellectual honesty to say 'this is what the evidence supports, and no more.' Use the contrast with overclaiming: overclaiming is the real intellectual cowardice — a refusal to be accountable to the evidence."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Resolve: the claim identifies a real pathology (defensive hedging) but mislabels it. The opposite of cowardice in academic writing is not bold assertion — it is precise, calibrated, evidence-responsive claim-making, which requires hedging when the evidence is genuinely uncertain. The courage is in the honesty, not the boldness."
+      }
+    ],
+    "model_answer": "The claim that academic hedging represents intellectual cowardice contains a partial truth. There exists a form of hedging — defensive, habitual, uncalibrated — that does function as described: a writer retreating into qualifications not because the evidence demands it but because qualification protects against attack. In such cases, the hedging is not epistemic but rhetorical, and it serves the writer's comfort rather than the reader's understanding. This form is worth criticising.\n\nNotwithstanding this, the claim conflates two very different practices under a single label. Calibrated hedging — the precise signalling of how much weight a claim can bear — is the opposite of intellectual cowardice. A writer who says 'the evidence suggests a moderate positive correlation, though causality cannot be established from this design' is being scrupulously accountable to what the data actually shows. The courage is in the honesty — in resisting the temptation to say 'proves' when the evidence supports only 'suggests.'\n\nFurthermore, the implicit alternative — bold, unhedged assertion — is not the mark of intellectual courage but of epistemic irresponsibility. Academic overclaiming is real, and its consequences are real: in medicine, in policy, in public understanding of complex phenomena. The writer who claims more than the evidence supports is not brave; they are inaccurate.\n\nThe claim mistakes confidence for courage. The genuine intellectual virtue in academic writing is precision — making claims as strong as the evidence permits, and no stronger. Hedging, properly calibrated, is not a retreat from this standard. It is the standard."
+  },
+  "advanced_grammar": {
+    "structure": "Complex Participle Clauses",
+    "explanation": "Participial clauses are subordinate clauses built around a participle (present: '-ing'; past: '-ed'/'-en') rather than a tensed verb. They allow writers to express a logical relationship — temporal, causal, concessive, conditional — without the syntactic weight of a full subordinate clause. Participial clauses are characteristic of formal academic and literary prose because they create the density of expression appropriate to these registers.\n\nPresent participial clauses typically signal a concurrent or causal action performed by the same agent as the main clause subject: 'Holding uncertainty and confidence simultaneously, the skilled academic writer avoids both timidity and overclaiming.' Past participial clauses signal a completed prior action or a passive condition: 'Having established the distinction between precision and vagueness, the writer moves to its application.' Absolute participial clauses have their own stated subject, different from the main clause subject: 'The evidence being insufficient, the writer hedged the claim appropriately.'\n\nThe communicative purpose of participial clauses is economy and syntactic variety: they allow a writer to combine related ideas in a single sentence without requiring a full subordinating conjunction. At C1/C2 level, learners must ensure that the participial clause's implicit subject matches the main clause subject — the 'dangling participle' error, in which the participle's implied subject is different from the main clause subject, is one of the most common advanced-level errors.",
+    "authentic_examples": [
+      "Holding uncertainty and confidence simultaneously, the skilled writer resists the temptation to claim more than the evidence can support.",
+      "Having distinguished calibrated hedging from defensive evasion, the article moves to its practical implications for academic writers.",
+      "The evidence being genuinely ambiguous, a more confident assertion would have constituted intellectual dishonesty rather than clarity."
+    ],
+    "practice": [
+      {
+        "sentence": "The writer had established the distinction between two types of hedging. She then applied it to the specific examples.",
+        "transform": "Combine using a present participial clause to signal sequence.",
+        "answer": "Having established the distinction between the two types of hedging, the writer applies it to the specific examples."
+      },
+      {
+        "sentence": "The evidence was ambiguous. The researcher hedged the central claim appropriately.",
+        "transform": "Combine using an absolute participial clause.",
+        "answer": "The evidence being ambiguous, the researcher hedged the central claim with appropriate qualification."
+      },
+      {
+        "sentence": "The article engages seriously with the strongest version of the objection. The article then provides a nuanced rebuttal.",
+        "transform": "Combine using a present participle to signal the concurrent intellectual move.",
+        "answer": "Engaging seriously with the strongest version of the objection, the article provides a correspondingly nuanced rebuttal."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the article, what is the difference between 'X causes Y' and 'X appears to be associated with Y'?",
+      "options": [
+        "The second version is more polite and appropriate for professional contexts.",
+        "They are stylistic variants that mean the same thing — the hedging is cosmetic.",
+        "The first asserts a causal relationship as established fact; the second hedges both the epistemics and the claim type, signalling that only correlation, not causation, is evidenced.",
+        "The second version is incorrect because 'appears' implies visual perception rather than evidential confidence."
+      ],
+      "correct": 2,
+      "explanation": "The article explicitly states that 'a writer who says X causes Y is making a different and stronger assertion than one who says X appears to be associated with Y.' The differences are: (1) 'appears' hedges the certainty; (2) 'associated with' signals correlation rather than causation. Using the stronger version when the evidence supports only the weaker is described as 'intellectual dishonesty.'"
+    },
+    {
+      "id": 2,
+      "question": "The article identifies two distinct reasons for hedging. What are they?",
+      "options": [
+        "Timidity and precision",
+        "Epistemic precision (reflecting genuine uncertainty) and defensive evasion (avoiding accountability for a claim the writer could actually defend)",
+        "Academic convention (following disciplinary norms) and personal preference",
+        "Politeness to the reader and protection from peer reviewers"
+      ],
+      "correct": 1,
+      "explanation": "The final paragraph introduces the crucial distinction: hedging can reflect 'genuine uncertainty' (epistemic precision — the virtue) or be 'merely defensive, performed to avoid accountability for a claim the writer could in fact defend' (evasion — the failing). The article argues that the former is an intellectual virtue; the latter is not."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'Considering the strength of the evidence, the conclusion was drawn that the hypothesis should be rejected.'",
+      "options": [
+        "No error — 'considering the strength of the evidence' correctly introduces the main clause.",
+        "The dangling participle error: 'considering the strength of the evidence' implies a human agent who considers, but the main clause subject is 'the conclusion' — an inanimate noun that cannot consider.",
+        "'Should be rejected' should be 'was rejected' in a report of past findings.",
+        "'The hypothesis' should be specified with a definite article as 'this hypothesis.'"
+      ],
+      "correct": 1,
+      "explanation": "A participial clause's implied subject must match the main clause subject. 'Considering the strength of the evidence' implies that someone is doing the considering — but the main clause subject is 'the conclusion,' which cannot consider. The correct version specifies the agent: 'Considering the strength of the evidence, the researchers concluded that the hypothesis should be rejected.'"
+    },
+    {
+      "id": 4,
+      "question": "Which sentence uses academic hedging most precisely and appropriately?",
+      "options": [
+        "Perhaps it might possibly be the case that X could be said to seem to have some association with Y.",
+        "X causes Y, and this is definitively established by the current study.",
+        "The findings suggest a statistically significant positive association between X and Y, though the study design does not permit causal inference.",
+        "X and Y are related in some way, which is quite interesting and potentially important."
+      ],
+      "correct": 2,
+      "explanation": "Option C hedges precisely and appropriately: 'suggest' signals evidential confidence without overclaiming; 'statistically significant' specifies the basis for the claim; 'does not permit causal inference' accurately qualifies the type of conclusion the design supports. Option A over-hedges to the point of meaninglessness; option B overclaims; option D is imprecise and vague."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence correctly uses a participial clause without a dangling participle error?",
+      "options": [
+        "Having read the article, the distinction between hedging and evasion became clear.",
+        "Having read the article, I found the distinction between hedging and evasion clearly drawn.",
+        "Reading carefully, the argument's nuances became apparent to the reader.",
+        "Examined in detail, the article's argument was found to be compelling by us."
+      ],
+      "correct": 1,
+      "explanation": "In option B, 'Having read the article' has the implicit subject 'I,' which matches the main clause subject 'I.' In option A, the implicit subject of 'Having read' is a person, but the main clause subject is 'the distinction' — a dangling participle. Options C and D have similar mismatches between the participle's implied subject and the main clause subject."
+    }
   ]
 }

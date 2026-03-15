@@ -2,589 +2,231 @@
   "id": "lesson-77",
   "unit_id": 10,
   "lesson_number": 4,
-  "title": "Phrasal Verbs in Context",
+  "title": "Customs, Values, and the Language of Cultural Sensitivity",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 50,
-  "story_context": "Ahmed is one month into his supervisor role. During his first week, he had to navigate several team conversations using natural English — bringing up issues, following up with colleagues, and sorting out problems. He didn't realize how many phrasal verbs he was already using. This lesson identifies the eight most essential ones, groups them so they're easy to remember, and gives Ahmed the tools to use them confidently in any professional conversation.",
   "objectives": [
-    "Understand and use 8 essential professional phrasal verbs",
-    "Distinguish separable from inseparable phrasal verbs",
-    "Group phrasal verbs by theme: problem-solving and professional workflow",
-    "Use phrasal verbs naturally in workplace conversations"
+    "Evaluate how nominalisation shifts agency and register in formal writing about cultural values",
+    "Analyse the rhetorical effect of abstract noun phrases in policy and academic discourse",
+    "Distinguish between culturally sensitive and culturally essentialist modes of expression",
+    "Deploy nominalised structures to construct measured, impersonal arguments about cultural difference"
   ],
-  "target_phrases": [
-    "Can you go over this report with me?",
-    "Let's sort out the scheduling issue.",
-    "I need to follow up with the client.",
-    "Please fill out this form before Friday.",
-    "Let's set up a time to meet.",
-    "I'd like to bring up a concern.",
-    "I'm trying to figure out the problem."
+  "authentic_text": {
+    "title": "Beyond Tolerance: The Case for Cultural Humility in Public Institutions",
+    "type": "editorial",
+    "text": "The language of 'tolerance' has long dominated public discourse on cultural diversity. To tolerate, however, is to endure — and the endorsement of mere endurance as an aspirational value reflects a fundamental limitation in how Western liberal democracies have conceptualised their relationship with cultural difference. The persistent framing of diversity as something to be managed, rather than engaged with, has profound implications for the design of public institutions.\n\nCultural humility — a concept developed in healthcare settings but now gaining traction across education, social work, and civic administration — offers a more generative alternative. Unlike cultural competence, which implies the acquisition of fixed knowledge about particular groups, cultural humility presupposes the incompleteness of one's own cultural perspective. Its adoption signals a recognition that culture is not a set of customs to be catalogued but a dynamic, contested, and internally diverse field of meaning-making.\n\nThe institutional consequences of this reframing are significant. The substitution of curiosity for assumption, and of dialogue for prescription, demands a restructuring of professional training, service delivery protocols, and community engagement frameworks. These are not merely cosmetic adjustments. The evidence from health equity research, for instance, suggests a strong correlation between the demonstration of cultural humility by practitioners and measurable improvements in patient trust, disclosure, and treatment adherence among minority ethnic populations.\n\nCritical voices have raised the concern that an overemphasis on cultural humility risks a paralysis of professional judgement — that practitioners may become so preoccupied with the avoidance of cultural imposition as to fail in their duty of care. This is a tension that institutions must navigate with care. What remains beyond reasonable dispute, however, is that the status quo — tolerance without engagement — is no longer adequate.",
+    "source": "Adapted from The Lancet Public Health commentary and civic policy analysis reports",
+    "notes": "The editorial is heavily nominalised throughout — abstract noun phrases ('the endorsement of mere endurance', 'the substitution of curiosity for assumption') carry most of the argumentative weight, a hallmark of formal policy writing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "In what professional field was the concept of 'cultural humility' originally developed?",
+      "answer": "Cultural humility was originally developed in healthcare settings, as stated in the second paragraph: 'a concept developed in healthcare settings but now gaining traction across education, social work, and civic administration'."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by noting that 'to tolerate' means 'to endure'?",
+      "answer": "The writer implies that tolerance, far from being an admirably inclusive value, is a fundamentally passive and negative stance — it frames diversity as something difficult to be borne rather than something to be welcomed or engaged with. The etymological unpacking is a rhetorical move to destabilise a commonly celebrated value."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the tone of the final paragraph? Give evidence from the text.",
+      "answer": "The tone is measured but decisive. The writer acknowledges a genuine counter-argument ('Critical voices have raised the concern...') with apparent fairness, then firmly reasserts their position with 'What remains beyond reasonable dispute'. The phrase 'no longer adequate' is restrained but definitive — the writer avoids polemic while still reaching a clear verdict."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'presupposes' in the second paragraph is closest in meaning to:",
+      "answer": "Assumes or takes for granted as a prior condition — 'cultural humility presupposes the incompleteness of one's own cultural perspective' means it is built on the foundational assumption that no cultural perspective is complete."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this editorial?",
+      "answer": "To argue that 'tolerance' is an insufficient and conceptually limited framework for cultural diversity, and that 'cultural humility' — with its emphasis on ongoing curiosity and recognition of one's own cultural partiality — should replace it as the organising principle for public institutions."
+    }
   ],
-  "dialogue": {
-    "title": "Ahmed's First Week as Supervisor",
-    "context": "Ahmed has just been promoted to supervisor. During his first week, natural conversations with his team are full of phrasal verbs — words and particles that work together to create new meanings.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Nominalisation",
+    "explanation": "Nominalisation is the process of converting verbs, adjectives, or clauses into noun phrases. Instead of writing 'we tolerate diversity' (verb-centred), a nominalised version writes 'the toleration of diversity' or 'the endorsement of tolerance' (noun-centred). This is one of the most characteristic features of formal academic, legal, and policy writing in English at C1/C2 level.\n\nNominalisation performs several important rhetorical functions. First, it increases the density of information — a single nominalised phrase like 'the substitution of curiosity for assumption' encodes what would otherwise require a full clause. Second, it creates a sense of detachment and objectivity: removing human agents ('practitioners assume things') in favour of abstract processes ('the substitution of curiosity for assumption') makes the writing feel more impersonal and authoritative. Third, it allows ideas themselves to become the grammatical subjects of sentences, signalling that the writing is operating at the level of concepts rather than individual actions.\n\nFor learners operating at C1/C2, understanding nominalisation is essential both for reading formal texts (where dense noun phrases can obstruct comprehension) and for producing them (where nominalisation is expected in academic essays, reports, and formal letters). The key verbs and adjectives from which nouns are commonly derived include: 'adopt → adoption', 'recognise → recognition', 'demonstrate → demonstration', 'substitute → substitution', 'acquire → acquisition', 'limit → limitation'.",
+    "examples": [
       {
-        "speaker": "Team Member (Marcus)",
-        "text": "Ahmed, I wanted to bring up something before our meeting starts. There's a scheduling conflict on Thursday."
+        "from_text": "The endorsement of mere endurance as an aspirational value reflects a fundamental limitation in how Western liberal democracies have conceptualised their relationship with cultural difference.",
+        "analysis": "Three nominalisations in a single sentence: 'endorsement' (from 'endorse'), 'endurance' (from 'endure'), and 'limitation' (from 'limit'). The human agents who endorse and limit are removed entirely — the sentence is about abstract processes, giving it the impersonal, analytical quality characteristic of editorial writing."
       },
       {
-        "speaker": "Ahmed",
-        "text": "Thanks, Marcus. Let's sort that out now. Can you find out what the conflict is exactly?"
+        "from_text": "The substitution of curiosity for assumption, and of dialogue for prescription, demands a restructuring of professional training.",
+        "analysis": "'Substitution', 'prescription', and 'restructuring' are all nominalisations. Note that 'curiosity' and 'dialogue' are not nominalisations here but function as the objects of 'substitution' — the effect is a sentence about abstract conceptual processes with no named human actors at all."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The adoption of cultural humility frameworks requires a recognition of one's own positional limitations.",
+        "informal": "If you want to be culturally humble, you need to admit that you don't know everything."
       },
       {
-        "speaker": "Marcus",
-        "text": "Rosa is taking over the Thursday shift from Carlos, but the new inventory system isn't set up yet."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Okay. I'll go over the setup checklist today and figure out what's missing. Can you follow up with IT?"
-      },
-      {
-        "speaker": "Marcus",
-        "text": "Sure. Should I put off the Thursday handover until the system is ready?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "No, let's not put it off. Rosa, can you show up 30 minutes early on Thursday so we can go over the process together?"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Of course. I also need to hand in my timesheet — is there a form I need to fill out?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Yes, fill out the blue form at the front desk. I'll look it up in the employee handbook if you're not sure which one."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Got it. Also, do I get along with everyone on the Thursday team? I don't know all of them."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "You'll be fine — they're great to work with. Just carry out your normal duties and introduce yourself. If any problems come up, bring them up with me right away."
-      },
-      {
-        "speaker": "Marcus",
-        "text": "Should I set up a quick team meeting so everyone can get to know Rosa?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Good idea. Set it up for Wednesday afternoon. And Marcus — I appreciate you bringing this up early. It's much easier to sort out problems before they become crises."
+        "formal": "The demonstration of cultural humility by practitioners correlates with improved patient disclosure.",
+        "informal": "When doctors act with cultural humility, patients tell them more."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Separable phrasal verbs: fill out, set up, figure out, bring up, sort out",
-      "pattern": "SEPARABLE: verb + object + particle OR verb + particle + object. When object is a pronoun, it MUST go in the middle.",
-      "examples": [
-        "fill out the form → fill the form out → fill it out ✓ (NOT: fill out it ✗)",
-        "set up the meeting → set the meeting up → set it up ✓",
-        "bring up the issue → bring the issue up → bring it up ✓",
-        "sort out the problem → sort the problem out → sort it out ✓",
-        "figure out the cause → figure the cause out → figure it out ✓"
-      ],
-      "your_turn": "Say: 'Can you set up a meeting? I need to bring up something important.'",
-      "prompts": [
-        {
-          "sentence": "Please fill ___ the form before leaving.",
-          "answer": "out"
-        },
-        {
-          "sentence": "Can you set ___ a meeting for Thursday afternoon?",
-          "answer": "up"
-        },
-        {
-          "sentence": "Let's sort ___ the scheduling problem before Monday.",
-          "answer": "out"
-        }
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Inseparable phrasal verbs: go over, find out, follow up",
-      "pattern": "INSEPARABLE: verb + particle + object (cannot split). Even pronouns come after the whole phrasal verb.",
-      "examples": [
-        "go over the report → go over it ✓ (NOT: go it over ✗)",
-        "find out the reason → find out about it ✓ (NOT: find it out ✗ — find out is inseparable)",
-        "follow up with the client → follow up with them ✓ (intransitive — object follows the preposition)",
-        "Let's go over the checklist before we begin. (always together)",
-        "I need to find out why the delivery was late. (inseparable before a clause)"
-      ],
-      "your_turn": "Say: 'I'll go over the report and follow up with you tomorrow.'",
-      "prompts": [
-        {
-          "sentence": "Let's go ___ the checklist before we start work.",
-          "answer": "over"
-        },
-        {
-          "sentence": "I need to find ___ why the shipment was delayed.",
-          "answer": "out"
-        },
-        {
-          "sentence": "She said she would follow ___ with the supplier.",
-          "answer": "up"
-        }
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "8 core professional phrasal verbs in context",
-      "pattern": "Theme 1 — Problem-solving: sort out, find out, figure out, go over | Theme 2 — Workflow: bring up, follow up, set up, fill out",
-      "examples": [
-        "sort out — We need to sort out the scheduling conflict before Thursday. (resolve/organize)",
-        "find out — I'll find out when the new shipment is expected. (discover information)",
-        "figure out — I'm trying to figure out why the numbers don't match. (understand/solve by thinking)",
-        "go over — Let's go over the safety checklist together before we start. (review carefully)",
-        "bring up — Please bring up any concerns at the start of the meeting. (raise/mention a topic)",
-        "follow up — I'll follow up with the client tomorrow if we don't hear back. (contact again to check)",
-        "set up — Can you set up a meeting for Thursday? (arrange/organize)",
-        "fill out — You need to fill out this form to request time off. (complete a document)"
-      ],
-      "your_turn": "Use three of these eight phrasal verbs in sentences about a real situation at work or school.",
-      "prompts": [
-        {
-          "sentence": "I need to ___ out why the numbers don't match. (understand/solve)",
-          "answer": "figure"
-        },
-        {
-          "sentence": "She said she would ___ up with the supplier by Friday.",
-          "answer": "follow"
-        },
-        {
-          "sentence": "Let's ___ up a call to go over the report together.",
-          "answer": "set"
-        }
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit10-lesson6-listen1.mp3",
-      "transcript": "Phrasal verbs combine a base verb with one or two particles — prepositions or adverbs — to create a new meaning. For example, 'give up' has nothing to do with 'giving' or 'up' literally — it means to stop trying. Many phrasal verbs are separable: the object can come between the verb and particle. 'Fill out the form' and 'fill the form out' are both correct. But pronouns must go in the middle: 'fill it out', not 'fill out it'. Inseparable phrasal verbs cannot be split: 'look after the children', never 'look the children after'.",
-      "question": "Where must pronouns go with separable phrasal verbs?",
-      "options": [
-        "After the particle",
-        "Before the verb",
-        "Between the verb and particle",
-        "It doesn't matter"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit10-lesson6-listen2.mp3",
-      "transcript": "Why are phrasal verbs so common in English? They developed from Old English and Germanic roots, making them feel natural and informal compared to their Latin-based equivalents. 'Put off' sounds more casual than 'postpone'. 'Find out' is more conversational than 'discover'. In professional American settings, phrasal verbs appear constantly in spoken language and emails. Learning phrasal verbs helps you sound natural rather than overly formal, and they appear frequently in meetings, presentations, and workplace conversations.",
-      "question": "Why do phrasal verbs feel more casual than their equivalents?",
-      "options": [
-        "They are newer words",
-        "They come from Old English/Germanic roots, while alternatives are Latin-based",
-        "They are shorter",
-        "They are used only in conversation"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit10-lesson6-listen3.mp3",
-      "transcript": "Some common particles and their general meanings: 'up' often suggests completion or improvement — finish up, clean up, set up. 'Out' suggests discovery, distribution, or completion — find out, hand out, carry out. 'Over' suggests review or repetition — go over, think over, look over. 'Off' suggests delay or departure — put off, take off, set off. These patterns aren't rules — they're tendencies. The best way to learn phrasal verbs is in context, through reading and listening to real English, noting how each one is used.",
-      "question": "What does the particle 'up' often suggest?",
-      "options": [
-        "Discovery",
-        "Delay",
-        "Completion or improvement",
-        "Review"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe your typical workday or school day using as many phrasal verbs from this lesson as you can (aim for 6+). Record for 40 seconds.",
-      "example": "Let me tell you about a typical day as a supervisor. I show up at 7am and first go over the overnight reports to find out if anything needs attention. Then I set up the morning briefing for the team. During the meeting, I bring up any issues from the previous day and we figure out solutions together. I follow up with suppliers who haven't responded, and I fill out any required daily forms before lunch. In the afternoon, I sort out any problems that come up. I hand in my own supervisor report before leaving, and I never put off things that need to be done today.",
-      "min_seconds": 40,
-      "target_language": "english",
-      "sentence_starters": [
-        "First, I show up at ... and go over ...",
-        "During [the meeting / my shift], I bring up ... and sort out ...",
-        "I always follow up with ... and never put off ..."
-      ]
-    },
-    {
-      "id": "speak-2",
-      "prompt": "A new employee is starting tomorrow. Give them 5 pieces of advice using phrasal verbs. For each one, explain what the phrasal verb means. Record for 35 seconds.",
-      "example": "Welcome advice for your first day. First, show up five minutes early — that means arrive before your scheduled start time, not exactly on time. Second, go over any training materials the night before — that means review them carefully. Third, don't put off questions — ask right away if you're unsure about something; putting it off means delaying. Fourth, try to get along with everyone — having good relationships is essential here. Fifth, if a problem comes up, bring it up with your supervisor immediately — don't wait. Those are my top tips for your first week.",
-      "min_seconds": 35,
-      "target_language": "english",
-      "sentence_starters": [
-        "First, show up [on time / early] — that means ...",
-        "Second, go over ... before your first day — this means ...",
-        "If a problem comes up, bring it up with ... right away."
-      ]
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a short email from Ahmed to his team (80-100 words) about next week's schedule. Use at least 6 phrasal verbs from this lesson naturally in the email.",
-      "min_words": 80,
-      "example": "Subject: Next Week's Schedule and Updates\n\nHi team,\n\nI wanted to bring up a few important points for next week. Please show up 15 minutes early on Monday for a brief orientation. I've set up a shared calendar — can you all fill out your availability by Thursday? Rosa will take over the inventory process and Marcus will help her go over the procedures. If any issues come up, please follow up with me directly — don't put off reporting problems.\n\nFinally, hand in your timesheets by Friday noon.\n\nThanks,\nAhmed",
-      "rubric": [
-        "Use at least 6 phrasal verbs from this lesson naturally in the text — not forced",
-        "Write a real workplace email format (subject line, greeting, body, sign-off)",
-        "Separate separable phrasal verbs correctly when using pronouns (fill it out, not fill out it)"
-      ]
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write definitions and example sentences for all 8 phrasal verbs from this lesson. For each, write: 1) the phrasal verb, 2) its meaning in one sentence, 3) an example in a workplace context.",
-      "min_words": 100,
-      "example": "1. sort out — to resolve or organize a problem or situation.\nExample: We need to sort out the delivery schedule before the client calls.\n\n2. find out — to discover or learn information you didn't know.\nExample: I found out that the shipment had been delayed by two days.\n\n3. figure out — to understand or solve something through thinking.\nExample: I'm trying to figure out why the inventory count doesn't match our records.\n\n4. go over — to review or check something carefully.\nExample: Let's go over the checklist before the inspection.\n\n5. bring up — to mention a topic or issue in conversation.\nExample: Ahmed brought up the staffing problem in the meeting.\n\n6. follow up — to contact someone again to check on a previous matter.\nExample: She followed up with the supplier three times before getting a response.\n\n7. set up — to arrange or organize something.\nExample: Can you set up a meeting for Thursday afternoon?\n\n8. fill out — to complete a form by writing the required information.\nExample: Please fill out the incident report before you leave today.",
-      "rubric": [
-        "Define all 8 phrasal verbs — definition must capture the actual meaning, not just translate word for word",
-        "Each workplace example should use the verb naturally in a real sentence",
-        "Note whether each verb is separable or inseparable (e.g. 'fill it out' ✓ vs 'go over it' ✓ 'go it over' ✗)"
-      ]
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Separable vs Inseparable Phrasal Verbs",
-      "explanation": "Separable phrasal verbs allow the object between verb and particle; with pronouns it must go in the middle. Inseparable phrasal verbs keep the object after the full verb+particle.",
-      "examples": [
-        "SEPARABLE: fill out the form / fill the form out / fill it out (pronoun must be in middle)",
-        "SEPARABLE: set up the meeting / set the meeting up / set it up",
-        "SEPARABLE: bring up the issue / bring the issue up / bring it up",
-        "INSEPARABLE: go over the report / go over it (NOT: go it over)",
-        "INSEPARABLE: find out the reason / find out about it (NOT: find it out)"
-      ],
-      "practice": [
-        {
-          "sentence": "Please fill ___ the form before leaving.",
-          "blank": "out",
-          "options": [
-            "out",
-            "in",
-            "up"
-          ]
-        },
-        {
-          "sentence": "I need to go ___ these figures with you.",
-          "blank": "over",
-          "options": [
-            "over",
-            "up",
-            "out"
-          ]
-        },
-        {
-          "sentence": "Let's sort ___ the problem before the meeting.",
-          "blank": "out",
-          "options": [
-            "out",
-            "up",
-            "in"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Pronoun Placement with Separable Phrasal Verbs",
-      "explanation": "When using a pronoun (it, them, him, her) with a separable phrasal verb, the pronoun MUST go between the verb and particle.",
-      "examples": [
-        "Fill out the form → Fill it out ✓ (NOT: fill out it ✗)",
-        "Set up the meeting → Set it up ✓ (NOT: set up it ✗)",
-        "Bring up the issue → Bring it up ✓ (NOT: bring up it ✗)",
-        "Sort out the problem → Sort it out ✓ (NOT: sort out it ✗)",
-        "Figure out the answer → Figure it out ✓ (NOT: figure out it ✗)"
-      ],
-      "practice": [
-        {
-          "sentence": "Can you set up the call? → Can you set ___ up?",
-          "blank": "it",
-          "options": [
-            "it",
-            "up it",
-            "out it"
-          ]
-        },
-        {
-          "sentence": "I need to sort out the issue → I need to sort ___ out.",
-          "blank": "it",
-          "options": [
-            "it",
-            "out it",
-            "them out"
-          ]
-        },
-        {
-          "sentence": "Ahmed brought up two concerns → Ahmed brought ___ up.",
-          "blank": "them",
-          "options": [
-            "them",
-            "up them",
-            "it up"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Two Themes: Problem-solving and Workflow",
-      "explanation": "Grouping phrasal verbs by meaning helps you remember and use them. These 8 verbs fall into two clear workplace themes.",
-      "examples": [
-        "PROBLEM-SOLVING: sort out (resolve), find out (discover), figure out (understand), go over (review)",
-        "WORKFLOW: bring up (raise), follow up (contact again), set up (arrange), fill out (complete a form)",
-        "Problem-solving example: I need to find out what caused the error and figure out a solution.",
-        "Workflow example: Can you set up a meeting so I can bring up the scheduling issue?",
-        "Combined: After you go over the report, follow up with me and we'll sort out any problems."
-      ],
-      "practice": [
-        {
-          "sentence": "I need to ___ out why the system crashed. (discover/understand — problem-solving)",
-          "blank": "figure",
-          "options": [
-            "figure",
-            "set",
-            "bring"
-          ]
-        },
-        {
-          "sentence": "Let's ___ up a time to go over the contract. (arrange — workflow)",
-          "blank": "set",
-          "options": [
-            "set",
-            "sort",
-            "find"
-          ]
-        },
-        {
-          "sentence": "I'll ___ up with the client tomorrow — I haven't heard back. (contact again — workflow)",
-          "blank": "follow",
-          "options": [
-            "follow",
-            "bring",
-            "sort"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error. Identify and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Which sentence is correct? (Separable phrasal verb with pronoun)",
-        "options": [
-          "Please fill out it.",
-          "Please fill it out.",
-          "Please it fill out.",
-          "Please out fill it."
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "The adoption of cultural humility as an institutional value requires a profound reconsidering of how services are designed and delivered.",
+        "correct": "The adoption of cultural humility as an institutional value requires a profound reconsideration of how services are designed and delivered.",
+        "explanation": "The nominalised form of 'reconsider' is 'reconsideration', not 'reconsidering'. In formal academic writing, the gerund form ('reconsidering') is replaced by the noun form ('reconsideration') in nominalised constructions — using the gerund here disrupts register."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "What does 'bring up' mean in 'She brought up a good point'?",
-        "options": [
-          "Carry something upward",
-          "Raise or mention a topic",
-          "Improve something",
-          "Arrive early"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Cultural competence models have been criticised for their tendency to present culture as a fixed, homogenous entity that can be fully acquired through training.",
+        "correct": "Cultural competence models have been criticised for their tendency to present culture as a fixed, homogeneous entity that can be fully acquired through training.",
+        "explanation": "'Homogenous' (meaning of the same kind) and 'homogeneous' are sometimes confused; in formal English the standard spelling in this context is 'homogeneous', derived from the Greek meaning 'of the same kind'. 'Homogenous' is a biological term with a specific meaning distinct from diversity discourse."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What does 'sort out' mean?",
-        "options": [
-          "Postpone",
-          "Submit a document",
-          "Resolve or organize a problem",
-          "Discover information"
-        ],
-        "correct": 2,
-        "points": 10
+        "incorrect": "The evidence suggests a strong correlation between cultural humility and patient outcomes, although further research is needed to establish the causality of this relationship.",
+        "correct": "The evidence suggests a strong correlation between cultural humility and patient outcomes, although further research is needed to establish the causality of this relationship.",
+        "explanation": "This sentence is actually correct as written — it models strong academic register. If using this in class, note that 'establish the causality of' is preferable to 'prove that there is causation between', as it maintains nominalised register throughout."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Which particle often suggests review or repetition?",
-        "options": [
-          "Off",
-          "Over",
-          "Up",
-          "Out"
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "matching",
-        "question": "Match the phrasal verb to its meaning:",
-        "pairs": [
-          {
-            "left": "sort out",
-            "right": "resolve a problem"
-          },
-          {
-            "left": "follow up",
-            "right": "contact again to check"
-          },
-          {
-            "left": "figure out",
-            "right": "understand/solve by thinking"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "With inseparable phrasal verbs, the object can go between the verb and particle.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "I need to ___ ___ the client tomorrow — I haven't heard back yet. (contact again)",
-        "correct": "follow up with",
-        "accept": [
-          "follow up with",
-          "follow up on"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "Can you ___ ___ a meeting for Thursday? (arrange)",
-        "correct": "set up",
-        "accept": [
-          "set up"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "multiple-choice",
-        "question": "What does 'go over' mean?",
-        "options": [
-          "Move across something",
-          "Review carefully",
-          "Leave the room",
-          "Complete a task"
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "Which sentence uses 'figure out' correctly?",
-        "options": [
-          "I need to figure out the answer.",
-          "I need to figure the out answer.",
-          "I need to out figure the answer.",
-          "I need the answer to figure out."
-        ],
-        "correct": 0,
-        "points": 10
-      },
-      {
-        "id": "q11",
-        "type": "open-ended",
-        "question": "Find and fix the error: 'Please sort out it before the meeting.'",
-        "correct": "Please sort it out before the meeting.",
-        "accept": [
-          "Please sort it out before the meeting."
-        ],
-        "points": 10
-      },
-      {
-        "id": "q12",
-        "type": "open-ended",
-        "question": "Find and fix the error: 'Let me go the report over with you.'",
-        "correct": "Let me go over the report with you.",
-        "accept": [
-          "Let me go over the report with you."
-        ],
-        "points": 10
+        "incorrect": "Practitioners who demonstrate cultural humility are less likely to make presumptions of a patient's values based in their ethnic background.",
+        "correct": "Practitioners who demonstrate cultural humility are less likely to make presumptions about a patient's values based on their ethnic background.",
+        "explanation": "Two preposition errors: 'presumptions about' (not 'of') is the correct collocation, and 'based on' (not 'based in') is the standard phrase. Both are register-level collocation errors common in C1 writing."
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that the concept of 'cultural sensitivity' in professional settings has become so broad as to be meaningless.",
+    "stance": "balanced",
+    "key_arguments": [
+      "The term 'cultural sensitivity' is now applied to such a wide range of situations — from adapting a menu to navigating end-of-life care — that it has lost the specificity required to drive meaningful institutional change.",
+      "Vague commitments to cultural sensitivity in policy documents frequently substitute for concrete structural reforms, providing institutions with rhetorical cover while leaving systemic inequalities intact.",
+      "Without clear, measurable standards, training programmes in cultural sensitivity are inconsistently delivered and impossible to evaluate, making them more about institutional reputation than genuine practice change."
+    ],
+    "counter_arguments": [
+      "The breadth of 'cultural sensitivity' as a concept reflects the genuine complexity of human cultural experience — narrowing its definition risks excluding communities whose needs do not fit neat categories.",
+      "The argument that a concept is too broad conflates definitional breadth with practical inefficacy; a framework can be wide-ranging and still generate meaningful behavioural change at the practitioner level.",
+      "Historical evidence shows that the alternative to broad cultural sensitivity frameworks — rigid cultural competence checklists — produces more harmful stereotyping, not less, by treating culture as a fixed set of traits to be catalogued."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion using at least 3 discourse markers."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Write a magazine article for an educated general readership exploring the distinction between 'cultural tolerance' and 'cultural humility'. Your article should explain both concepts, evaluate their relative merits, and consider what the shift from one to the other would require of public institutions. (220-260 words)",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a thought-provoking observation about the language of diversity discourse. Introduce 'tolerance' and 'humility' as competing frameworks without immediately declaring one superior."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Explain the conceptual limitation of tolerance as a framework. Use at least one nominalised structure (e.g., 'the endorsement of tolerance as...') and demonstrate awareness of the word's etymology."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge that cultural humility brings its own challenges — the risk of professional paralysis, or of treating all cultural practices as equally valid regardless of ethical implications. Use a concession structure."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Arrive at a qualified position: cultural humility represents a genuine conceptual advance, but its institutional implementation requires careful definition to avoid the same vagueness that has undermined tolerance as a framework."
+      }
+    ],
+    "model_answer": "Few words in contemporary public life are more frequently invoked and less carefully examined than 'tolerance'. In diversity training sessions, policy documents, and political speeches, the endorsement of tolerance as a civic virtue is so routine as to appear uncontroversial. Yet to tolerate, at its root, is to endure — a posture more akin to forbearance than genuine engagement with cultural difference.\n\nThe emergence of 'cultural humility' as an alternative framework offers a more intellectually honest vocabulary. Where cultural competence models implied the acquisition of fixed knowledge about ethnic or religious groups — an approach that has been widely criticised for generating stereotyping — cultural humility insists on the partiality of one's own perspective. It demands ongoing curiosity rather than the accumulation of catalogued facts.\n\nNevertheless, cultural humility is not without its critics. The concern that an excessive preoccupation with cultural deference may paralyse professional judgement is not easily dismissed. Social workers, nurses, and teachers must sometimes act — and the cultivation of perpetual uncertainty about one's cultural positioning can, in practice, become a form of professional abdication.\n\nWhat the evidence suggests, however, is that the substitution of curiosity for assumption produces measurably better outcomes in healthcare and education — particularly for communities that have historically been ill-served by deficit-focused professional models. Cultural humility, then, is not an end in itself, but a disposition — one that must be anchored in clear professional standards if it is to be anything more than a new vocabulary for old inaction."
+  },
+  "advanced_grammar": {
+    "structure": "Inversion for Emphasis",
+    "explanation": "Inversion — placing an auxiliary verb before its subject, or moving an adverbial expression to the start of a clause — is a powerful formal device for emphasis in written English. Unlike normal Subject-Verb-Object order, inversion foregrounds an element by placing it in an unexpected position, signalling to the reader that this information is of particular importance.\n\nThe most common types of formal inversion are: (1) After negative or restrictive adverbials at the start of a sentence: 'Never has the need for cultural humility been greater.' 'Rarely do institutions acknowledge this asymmetry.' 'Not only does tolerance fail to engage with difference, but it frames it as a burden.' (2) After 'so + adjective' or 'such': 'So entrenched is the language of tolerance that alternatives struggle to gain traction.' (3) After 'only + adverbial': 'Only by adopting cultural humility can institutions move beyond the limitations of tolerance.'\n\nInversion is a feature of formal written English, parliamentary speeches, and editorial writing. It should be used sparingly — its rhetorical force depends on contrast with ordinary word order. When overused, it sounds archaic. Used judiciously, it marks a writer as operating at C2 level.",
+    "authentic_examples": [
+      "Never has the inadequacy of tolerance as a framework been more apparent than in the lived experience of diaspora communities navigating public institutions.",
+      "Not only does cultural humility demand a shift in professional practice, but it requires a fundamental reconceptualisation of institutional purpose.",
+      "So significant are the implications of this reframing that several national health bodies have begun revising their practitioner training curricula."
+    ],
+    "practice": [
+      {
+        "sentence": "The language of tolerance has rarely been questioned in mainstream policy discourse.",
+        "transform": "Rewrite using inversion with 'Rarely' at the start.",
+        "answer": "Rarely has the language of tolerance been questioned in mainstream policy discourse."
+      },
+      {
+        "sentence": "Cultural humility not only challenges practitioners to reflect on their own cultural positioning, but also demands institutional restructuring.",
+        "transform": "Rewrite using 'Not only...but' inversion structure.",
+        "answer": "Not only does cultural humility challenge practitioners to reflect on their own cultural positioning, but it also demands institutional restructuring."
+      },
+      {
+        "sentence": "The implications of this shift are so profound that they require changes at every level of institutional design.",
+        "transform": "Rewrite using 'So + adjective' inversion.",
+        "answer": "So profound are the implications of this shift that they require changes at every level of institutional design."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "sort out",
-      "definition": "resolve or organize a problem or situation",
-      "example": "We need to sort out the scheduling conflict before Thursday."
+      "id": 1,
+      "question": "According to the editorial, what is the fundamental problem with 'tolerance' as a value for cultural diversity?",
+      "options": [
+        "It is too demanding for most institutions to implement consistently",
+        "It frames diversity as something to be endured rather than genuinely engaged with",
+        "It has been misapplied exclusively to religious rather than ethnic diversity",
+        "It was developed in healthcare contexts and cannot be applied more broadly"
+      ],
+      "correct": 1,
+      "explanation": "The writer's central argument is etymological and conceptual: 'to tolerate' means 'to endure', which frames diversity as a burden rather than a value. The text states: 'The endorsement of mere endurance as an aspirational value reflects a fundamental limitation'."
     },
     {
-      "word": "find out",
-      "definition": "discover information about something",
-      "example": "I need to find out when the delivery is arriving."
+      "id": 2,
+      "question": "Which of the following is the best example of nominalisation?",
+      "options": [
+        "Practitioners who demonstrate cultural humility achieve better outcomes.",
+        "The demonstration of cultural humility by practitioners correlates with improved outcomes.",
+        "Being culturally humble helps practitioners connect with patients.",
+        "Cultural humility is important and we should all practise it."
+      ],
+      "correct": 1,
+      "explanation": "'The demonstration of cultural humility' is a nominalisation of 'practitioners demonstrate cultural humility'. The human agent has been removed and the action converted into an abstract noun phrase, creating the impersonal register of formal policy writing."
     },
     {
-      "word": "figure out",
-      "definition": "understand or solve something through thinking",
-      "example": "I'm trying to figure out why the numbers don't match."
+      "id": 3,
+      "question": "Identify the correctly inverted sentence for formal emphasis:",
+      "options": [
+        "Rarely the language of tolerance has been questioned.",
+        "Rarely has the language of tolerance been questioned.",
+        "The language of tolerance rarely has been questioned.",
+        "Has rarely the language of tolerance been questioned."
+      ],
+      "correct": 1,
+      "explanation": "After a negative adverbial ('Rarely') placed at the start of a sentence, subject-auxiliary inversion is required: 'Rarely has [subject] [past participle]'. Option A fails to invert correctly; C and D do not follow English syntactic rules."
     },
     {
-      "word": "go over",
-      "definition": "review something carefully",
-      "example": "Let's go over the checklist before we start."
+      "id": 4,
+      "question": "The editorial acknowledges that cultural humility may create 'a paralysis of professional judgement'. What is the rhetorical function of including this objection?",
+      "options": [
+        "To undermine the editorial's main argument by introducing a fatal counter-example",
+        "To demonstrate intellectual honesty and strengthen credibility by engaging with the strongest objection",
+        "To suggest that the writer is uncertain about the value of cultural humility",
+        "To introduce a new thesis that will be developed in a following section"
+      ],
+      "correct": 1,
+      "explanation": "Acknowledging the strongest counter-argument before dismissing it — known as the concession-refutation move — is a hallmark of credible formal argumentation. The writer concedes the risk while affirming that evidence still favours cultural humility."
     },
     {
-      "word": "bring up",
-      "definition": "raise or mention a topic in conversation",
-      "example": "Please bring up any concerns at the meeting."
-    },
-    {
-      "word": "follow up",
-      "definition": "contact someone again to check on a previous matter",
-      "example": "I'll follow up with the supplier if we don't hear back."
-    },
-    {
-      "word": "set up",
-      "definition": "arrange or organize something (a meeting, system, process)",
-      "example": "Can you set up a call for Thursday afternoon?"
-    },
-    {
-      "word": "fill out",
-      "definition": "complete a form or document by writing in the required information",
-      "example": "You need to fill out this form to request time off."
-    },
-    {
-      "word": "separable",
-      "definition": "can be split apart; the object can go between verb and particle",
-      "example": "Fill out is separable: fill it out."
-    },
-    {
-      "word": "inseparable",
-      "definition": "cannot be split; the object must follow the complete phrasal verb",
-      "example": "Go over is inseparable: go over it (not go it over)."
+      "id": 5,
+      "question": "The phrase 'internally diverse field of meaning-making' is used to describe culture. What does this phrase imply about how culture should be understood?",
+      "options": [
+        "Culture is essentially unified and can be described by reference to its dominant traditions",
+        "Culture is a fixed set of practices that can be catalogued through competence training",
+        "Culture is not monolithic — it contains contradictions, variations, and ongoing contestation from within",
+        "Culture is determined primarily by geographic rather than social factors"
+      ],
+      "correct": 2,
+      "explanation": "'Internally diverse' and 'contested' signal that the writer views culture as heterogeneous and dynamic — rejecting both the essentialism of cultural competence models and the homogenising tendencies of simplistic tolerance discourse."
     }
-  ],
-  "cultural_notes": [
-    "Phrasal verbs are one of the most challenging aspects of English for non-native speakers because their meanings are often not predictable from the individual words.",
-    "Americans use phrasal verbs constantly in informal and semi-formal speech — knowing them is essential for sounding natural in workplace conversations.",
-    "In American workplace culture, knowing phrases like 'follow up', 'sort out', and 'bring up' is especially important for professional communication and meetings.",
-    "Some phrasal verbs have formal equivalents: 'resolve' sounds more formal than 'sort out', 'discover' is more formal than 'find out' — but the phrasal verbs feel more natural in everyday American workplace speech.",
-    "Phrasal verbs often appear in American business idioms and email subject lines: 'Following up on...', 'Checking in on...', 'Circling back on...' are extremely common in American professional email culture."
   ]
 }

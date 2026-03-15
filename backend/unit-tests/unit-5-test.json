@@ -1,0 +1,117 @@
+{
+  "unit_id": 5,
+  "unit_title": "Travel & Transportation",
+  "description": "Test what you learned in Unit 5 — modal verbs for obligation and advice, giving directions, polite requests, first conditional, and comparative adjectives",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "At passport control the officer says: 'You ___ show your boarding pass before entering the departure gate.' Which modal verb is correct?",
+      "options": ["should", "must", "could", "might"],
+      "correct": 1,
+      "explanation": "'Must' expresses a strong obligation or rule — you have no choice. 'Should' is advice, and 'could/might' are weaker and do not express a firm requirement."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "A tourist asks you: '___ you tell me which bus goes to the city centre?' Which word best completes the polite request?",
+      "options": ["Will", "Do", "Could", "Shall"],
+      "correct": 2,
+      "explanation": "'Could you...?' is a standard polite request form. 'Will you' is more direct and less formal. 'Do you' asks about habit, not a request."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Which sentence uses the first conditional correctly?",
+      "options": [
+        "If you will miss the train, you take a taxi.",
+        "If you miss the train, you will need to take a taxi.",
+        "If you missed the train, you will take a taxi.",
+        "If you miss the train, you would take a taxi."
+      ],
+      "correct": 1,
+      "explanation": "The first conditional uses 'If + present simple, will + verb' for likely real outcomes. Option B is the only sentence that follows this pattern correctly."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "The imperative form 'Turn left at the traffic lights' is a correct way to give directions in English.",
+      "correct": true,
+      "explanation": "Imperatives (verb + rest of sentence, no subject) are the standard form for giving directions in English. 'Turn left', 'Go straight on', and 'Take the second right' are all correct imperative directions."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "In English, you use 'more fast' to form the comparative of the adverb 'fast'.",
+      "correct": false,
+      "explanation": "'Fast' is a one-syllable adverb, so its comparative is 'faster', not 'more fast'. Multi-syllable adverbs (e.g. quickly → more quickly) use 'more', but short ones add -er."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "You ___ need to arrive at the airport at least two hours before your international flight.",
+      "answer": "need to",
+      "hint": "obligation modal phrase (two words)",
+      "explanation": "'Need to' expresses necessity or obligation and is interchangeable with 'must' in many contexts. Both are correct here; 'need to' is the target phrase for this unit."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "___ long does it take to get to the station from here?",
+      "answer": "How",
+      "hint": "question word asking about duration",
+      "explanation": "'How long' is the question phrase used to ask about the duration or time taken for a journey."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "instruction": "Put these words in order to make a correct first conditional sentence:",
+      "words": ["will", "if", "you", "early", "leave", "miss", "not", "you", "the", "bus"],
+      "answer": ["if", "you", "leave", "early", "you", "will", "not", "miss", "the", "bus"],
+      "explanation": "The first conditional structure is: 'If + present simple clause, will + verb clause.' Here: 'If you leave early, you will not miss the bus.'"
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each travel-related phrase on the left to the correct situation on the right.",
+      "pairs": [
+        {"left": "I'd like a window seat, please.", "right": "making a polite request on a plane"},
+        {"left": "Take the second turning on the left.", "right": "giving directions using an imperative"},
+        {"left": "The metro is faster than the bus.", "right": "comparing two forms of transport"},
+        {"left": "If the train is full, I'll take a taxi.", "right": "expressing a likely outcome with first conditional"}
+      ],
+      "explanation": "Each phrase demonstrates a key grammar structure from Unit 5: polite requests, imperatives for directions, comparative adjectives, and first conditional."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "A friend is visiting your city for the first time. Write directions from the main train station to a place of interest (e.g. a park, museum, or market). Use at least one imperative sentence, one polite suggestion with 'should', and one comparative adjective or adverb.",
+      "word_count": "40-60",
+      "guidance": "Use imperatives for step-by-step directions (e.g. 'Turn left...'). Add advice with 'should' (e.g. 'You should walk — it is quicker.'). Include one comparison (e.g. 'The walk is shorter than the bus ride.').",
+      "sample_answer": "When you leave the train station, turn right and walk along Main Street for about five minutes. Then take the first left onto Park Road. You should walk rather than take the bus — it is much quicker and more enjoyable. If you get lost, ask someone at the information kiosk. The park is bigger and easier to find than the museum, so start there."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "You are renting a new flat. The landlord says: 'The post office is ___ the pharmacy and the bakery.' Which preposition fits?",
+      "options": ["under", "between", "opposite", "behind"],
+      "correct": 1,
+      "explanation": "'Between' is used when something is in the middle of two things. This previews Unit 6's focus on prepositions of place used in community and neighbourhood descriptions.",
+      "is_preview": true,
+      "preview_unit": 6,
+      "preview_unit_title": "Home & Community"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "When writing a formal complaint letter in English, you can use the passive voice to sound more objective, e.g. 'The repair has not been completed.'",
+      "correct": true,
+      "explanation": "Passive constructions are common in formal complaints because they focus on the situation rather than placing blame directly. This is a key skill in Unit 6.",
+      "is_preview": true,
+      "preview_unit": 6,
+      "preview_unit_title": "Home & Community"
+    }
+  ]
+}

@@ -2,239 +2,231 @@
   "id": "lesson-73",
   "unit_id": 11,
   "lesson_number": 5,
-  "title": "Grant Writing and Funding Proposals",
-  "level": "proficient",
-  "estimated_time": 45,
+  "title": "Giving Presentations: Structure, Persuasion, and Audience Engagement",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Write competitive funding proposals",
-    "Articulate intellectual merit and broader impacts",
-    "Justify budgets effectively",
-    "Address evaluation criteria strategically"
+    "Construct a professionally structured presentation that moves an audience from problem awareness to commitment to action",
+    "Analyse the discourse markers and signposting devices that maintain coherence and audience engagement across extended spoken discourse",
+    "Evaluate the rhetorical strategies — ethos, logos, pathos — deployed in professional keynote speeches",
+    "Deploy audience-specific language calibration to present complex information to non-specialist stakeholders"
   ],
-  "target_phrases": [
-    "The intellectual merit of this project lies in...",
-    "Broader impacts include...",
-    "This research addresses a critical gap by...",
-    "The proposed methodology is uniquely suited because...",
-    "Anticipated outcomes include...",
-    "The PI brings demonstrated expertise in...",
-    "This work will advance the field by..."
+  "authentic_text": {
+    "title": "Quarterly Business Review — Opening Remarks",
+    "type": "speech",
+    "text": "Good morning. Before I take you through the numbers, I want to set some context — not because the numbers require softening, but because I believe that data without narrative is noise.\n\nEighteen months ago, we committed to a transformation programme that a significant minority of our stakeholders considered, at best, optimistic and, at worst, operationally reckless. We are now, by any measure that matters — revenue growth, margin improvement, customer retention — ahead of where we projected we would be at this stage. I will be presenting the details shortly, and I am pleased to report that they are, in aggregate, encouraging.\n\nHowever, I want to be direct about something that the headline figures do not fully capture. We have achieved these results at a cost to our people that is not sustainable. Voluntary turnover in the twelve months ending December was 23% — nearly double the industry benchmark. Exit interview data suggests that the primary driver is not compensation but workload intensity and a perceived absence of psychological safety in how we handle underperformance. These are not comfortable findings, but they are important ones, and addressing them is not a distraction from our strategic priorities — it is, I would argue, among the most commercially significant things we can do in the next twelve months.\n\nWhat I am proposing today is not a deceleration of our ambitions, but a recalibration of how we pursue them. The business case for investing in our people has never been stronger, and I intend to make it this morning.",
+    "source": "Illustrative quarterly business review opening address, modelled on C-suite communication practices in a mid-sized professional services organisation",
+    "notes": "The speech uses structural contrast, strategic disclosure of uncomfortable data, and ethos-building through candour to establish the speaker's credibility before presenting the formal business case."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What does the speaker identify as the primary driver of the high voluntary turnover rate?",
+      "answer": "Exit interview data identified workload intensity and a perceived absence of psychological safety in how underperformance is handled — not compensation — as the primary drivers."
+    },
+    {
+      "type": "inference",
+      "question": "What does the speaker imply by saying 'data without narrative is noise'?",
+      "answer": "The speaker implies that raw data, presented without contextual framing and interpretive guidance, cannot convey meaning effectively — it requires a narrative structure to become persuasive and actionable for an audience."
+    },
+    {
+      "type": "tone",
+      "question": "Identify the rhetorical strategy used in the phrase 'these are not comfortable findings, but they are important ones' and describe its effect.",
+      "answer": "This is an antithetical concession — the speaker acknowledges discomfort before asserting importance. The effect is to build credibility through candour: a speaker willing to present uncomfortable data is more trustworthy than one who presents only good news."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'recalibration' in the final paragraph is closest in meaning to:",
+      "answer": "A careful adjustment or realignment of approach or method, retaining the overall direction but modifying the execution. It implies incremental correction rather than wholesale change."
+    },
+    {
+      "type": "purpose",
+      "question": "Why does the speaker disclose the uncomfortable turnover data before presenting the encouraging headline financial figures?",
+      "answer": "By presenting the difficult data first, the speaker pre-empts the audience discovering it themselves and frames the entire presentation as candid and complete rather than selective. This builds ethos (credibility) and positions the speaker's subsequent proposal as honest, not self-serving."
+    }
   ],
-  "dialogue": {
-    "title": "Developing a Research Proposal",
-    "context": "Ahmed works with a grant writing consultant to develop his first NSF (National Science Foundation) proposal, learning to frame research significance for non-specialist reviewers.",
-    "lines": [
-      {"speaker": "Consultant", "text": "Ahmed, your research idea is strong, but grant proposals require more than good science. You need to convince reviewers why this matters and why you can deliver. Let's start with intellectual merit."},
-      {"speaker": "Ahmed", "text": "I'm proposing to study how supply chain sustainability practices affect long-term profitability across different industry sectors."},
-      {"speaker": "Consultant", "text": "That's a topic. Now frame it as intellectual merit. What fundamental question does this address? What don't we understand that your work will illuminate?"},
-      {"speaker": "Ahmed", "text": "The intellectual merit of this project lies in resolving contradictory findings about whether sustainability helps or hurts profitability. Current literature shows conflicting results because studies don't account for industry variation and time horizons."},
-      {"speaker": "Consultant", "text": "Better! You're identifying a gap and explaining how your work fills it. Now, what are the broader impacts? NSF requires demonstrating benefits beyond your field."},
-      {"speaker": "Ahmed", "text": "Broader impacts include informing business sustainability decisions, providing evidence for policy makers, and training graduate students in mixed-methods research."},
-      {"speaker": "Consultant", "text": "Good start. Be more specific about societal benefit. How does resolving this question matter for climate change, economic policy, or workforce development?"},
-      {"speaker": "Ahmed", "text": "This research addresses a critical gap by providing evidence to overcome the false choice between environmental sustainability and economic viability. Results will inform corporate strategy and environmental policy."},
-      {"speaker": "Consultant", "text": "Excellent. Now explain why your approach works. The proposed methodology is uniquely suited because...?"},
-      {"speaker": "Ahmed", "text": "The proposed methodology is uniquely suited because it combines longitudinal financial analysis with qualitative case studies, allowing both statistical testing and deep contextual understanding that neither approach alone provides."},
-      {"speaker": "Consultant", "text": "Perfect. What about anticipated outcomes? Reviewers want to know what success looks like."},
-      {"speaker": "Ahmed", "text": "Anticipated outcomes include: peer-reviewed publications, an open-access database of sustainability practices, and practitioner workshops disseminating findings to industry."},
-      {"speaker": "Consultant", "text": "Excellent. Finally, why are you the right person for this? The PI brings demonstrated expertise in...?"},
-      {"speaker": "Ahmed", "text": "The PI brings demonstrated expertise in supply chain operations, with publications in top-tier journals and industry partnerships providing data access essential for this research."},
-      {"speaker": "Consultant", "text": "Now you're thinking like a grant writer. You're telling a compelling story about significant questions, rigorous methods, broader benefits, and qualified leadership."}
+  "language_analysis": {
+    "focus": "Discourse Markers in Presentations",
+    "explanation": "Discourse markers are words and phrases that signal the structural and logical relationships between different parts of a spoken or written text. In professional presentations, they serve as an essential navigation system for the audience, indicating when the speaker is transitioning, elaborating, contrasting, concluding, or returning to a previous point. Without effective discourse markers, a presentation can feel like a collection of unconnected statements rather than a coherent, persuasive argument.\n\nProfessional presentations use three overlapping types of discourse markers. Structural markers signal transitions and previews: 'Let me now turn to...,' 'Before I do that, I want to...,' 'This brings me to the central argument...' Logical markers indicate the reasoning relationship between propositions: 'As a consequence,' 'Notwithstanding this,' 'By the same token,' 'It follows that...' Interpersonal markers manage the relationship with the audience: 'I want to be direct about something,' 'What I am proposing is not...,' 'I believe that...' This last category is particularly important in senior-level presentations, where the speaker's relationship with the audience is as important as the content itself.\n\nThe quarterly review speech above is rich in discourse markers. Notice how 'however' signals the pivot to uncomfortable data, and 'what I am proposing today is not X, but Y' uses a contrastive structure to reframe the proposal positively before it has been fully stated.",
+    "examples": [
+      {
+        "from_text": "Before I take you through the numbers, I want to set some context",
+        "analysis": "'Before I take you through' is a temporal structural marker that previews the sequence of the presentation for the audience. It creates anticipation and tells the audience exactly where they are in the presentation's architecture before the content has started."
+      },
+      {
+        "from_text": "However, I want to be direct about something that the headline figures do not fully capture.",
+        "analysis": "'However' signals a pivot from positive to difficult information — it is a contrastive discourse marker that prepares the audience for a shift in emotional register. 'I want to be direct' is an interpersonal marker that frames what follows as honest disclosure, which primes the audience to receive it as trustworthy rather than alarming."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "This brings me to the central challenge of the quarter, which I want to address directly before turning to our forward strategy.",
+        "informal": "Okay so now I'm going to talk about a problem we had and then what we're planning to do."
+      },
+      {
+        "formal": "Notwithstanding the encouraging headline results, it would be premature to conclude that the transformation is complete.",
+        "informal": "The results look good but we're not done yet."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Articulating intellectual merit",
-      "pattern": "The intellectual merit of this project lies in... / This research addresses a critical gap by...",
-      "examples": [
-        "The intellectual merit of this project lies in developing theoretical frameworks explaining previously contradictory empirical findings.",
-        "This research addresses a critical gap by examining mechanisms underlying observed relationships rather than merely documenting correlations.",
-        "The intellectual merit of this project lies in integrating insights from disparate disciplines to generate novel theoretical synthesis.",
-        "This research addresses a critical gap by employing methodological innovations that overcome limitations of previous studies.",
-        "The intellectual merit of this project lies in challenging fundamental assumptions that have constrained theoretical development."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Describing broader impacts",
-      "pattern": "Broader impacts include... / This work will advance the field by...",
-      "examples": [
-        "Broader impacts include informing policy decisions affecting millions of stakeholders and training next-generation researchers.",
-        "This work will advance the field by providing open-access datasets and methodological tools for other researchers.",
-        "Broader impacts include partnerships with community organizations translating findings into practical interventions.",
-        "This work will advance the field by developing interdisciplinary frameworks applicable across multiple domains.",
-        "Broader impacts include educational outreach engaging K-12 students in science through hands-on research experiences."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Justifying methodology and expertise",
-      "pattern": "The proposed methodology is uniquely suited because... / The PI brings demonstrated expertise in...",
-      "examples": [
-        "The proposed methodology is uniquely suited because it addresses limitations that compromised previous research in this area.",
-        "The PI brings demonstrated expertise in this methodology with publications in top-tier journals and successful grant track record.",
-        "The proposed methodology is uniquely suited because it leverages novel data sources previously unavailable to researchers.",
-        "The PI brings demonstrated expertise through established partnerships providing essential research access and infrastructure.",
-        "The proposed methodology is uniquely suited because it integrates complementary approaches yielding richer insights than either alone."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit11-lesson5-listen1.mp3",
-      "transcript": "Competitive grant proposals require clear articulation of significance, rigorous methodology, feasibility, and PI qualifications. Reviewers ask: Why does this matter? How will you do it? Can you deliver? What's the payoff? Frame significance for generalist reviewers, not just specialists. Avoid jargon. Explain why your specific approach is necessary - why existing methods don't suffice. Demonstrate preliminary work showing feasibility. Budget must align with activities - every dollar justified. Timeline must be realistic with clear milestones.",
-      "question": "What must grant proposals articulate clearly?",
-      "options": [
-        "Only methodology",
-        "Significance, methodology, feasibility, and qualifications",
-        "Just the budget",
-        "Personal story only"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit11-lesson5-listen2.mp3",
-      "transcript": "NSF evaluates proposals on intellectual merit and broader impacts. Intellectual merit: Does this advance knowledge and understanding? Is methodology sound? Are investigators qualified? Broader impacts: Benefits to society? Participation of underrepresented groups? Research infrastructure? Educational impact? Dissemination plan? Both criteria matter equally - strong intellectual merit with weak broader impacts gets rejected. Address both explicitly. Use headings matching review criteria. Make reviewer's job easy by organizing proposal to align with evaluation framework.",
-      "question": "What two criteria does NSF use?",
-      "options": [
-        "Cost and timeline",
-        "Intellectual merit and broader impacts",
-        "Only scientific quality",
-        "Prestige and connections"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit11-lesson5-listen3.mp3",
-      "transcript": "Budget justification explains why each expense is necessary. Don't just list costs - explain how they enable research. Personnel: Who, what percentage time, what tasks? Equipment: Why needed, why this specific model? Travel: Conference presentations for dissemination? Fieldwork for data collection? Participant costs: How many, compensation, why? Indirect costs (overhead): Set by institution. Reviewers scrutinize budgets for reasonableness. Over-budget raises concerns about judgment. Under-budget suggests you don't understand project scope. Budget and narrative must align perfectly.",
-      "question": "What should budget justification explain?",
-      "options": [
-        "Just total cost",
-        "Why each expense is necessary for research",
-        "Only salary information",
-        "Nothing - costs speak for themselves"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Present a 45-second elevator pitch for a research project as if proposing it for funding. Include: significance, approach, intellectual merit, and broader impacts. Use grant language.",
-      "example": "I'm proposing research examining how organizational diversity affects innovation outcomes. The intellectual merit of this project lies in moving beyond simple correlation to understand mechanisms - specifically, how diverse teams generate innovation through constructive conflict that challenges assumptions. This research addresses a critical gap - while correlation between diversity and innovation is documented, we don't understand why and when it occurs. The proposed methodology is uniquely suited because it combines quantitative analysis of 300 organizations with ethnographic observation of 15 diverse teams during innovation processes, providing both statistical power and contextual depth. Broader impacts include informing diversity initiatives with evidence about what works, training graduate students in mixed-methods research, and partnering with companies to implement findings. Anticipated outcomes include peer-reviewed publications, practitioner workshops, and open-access resources for organizations. The PI brings demonstrated expertise in organizational behavior with publications in top journals and established industry partnerships. This work will advance the field by providing empirical evidence for mechanisms, not just correlations, transforming how we understand diversity's role in innovation.",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain why your proposed research methodology is the right approach (for any topic). Justify your choices. Record for 35 seconds.",
-      "example": "Let me explain why the proposed methodology is uniquely suited for this research question. I'm examining how remote work affects team collaboration over time - a question requiring both breadth and depth. The proposed methodology combines three complementary approaches. First, longitudinal survey of 500 teams quarterly for two years provides statistical power to detect changes over time and test hypotheses about moderating factors. Second, detailed case studies of 12 teams with weekly observations and interviews capture how collaboration evolves through challenges and adaptations - nuances surveys miss. Third, analysis of digital collaboration data - messages, documents, meeting patterns - provides objective behavioral measures avoiding self-report bias. This multi-method approach addresses limitations of previous research relying on single method. Cross-sectional surveys can't capture temporal dynamics. Case studies alone lack generalizability. Digital data misses subjective experience. Combining all three provides comprehensive understanding impossible from any single approach. The methodology is demanding but necessary given research question complexity.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a project summary (abstract) for a funding proposal. Include: significance, methodology, intellectual merit, and broader impacts. (140-170 words)",
-      "min_words": 140,
-      "example": "Project Summary: Bilingual Education and Cognitive Development\n\nIntellectual Merit: This research addresses a critical gap in understanding how bilingual education program quality affects cognitive development. While research demonstrates bilingualism enhances executive function, contradictory findings reflect failure to distinguish program quality, language combinations, and socioeconomic contexts. The intellectual merit of this project lies in disaggregating 'bilingual education' into meaningful categories with differential outcomes.\n\nMethodology: The proposed methodology is uniquely suited through longitudinal design tracking 500 students across three program types (dual-immersion, transitional, English-only) over five years. Mixed methods combine standardized cognitive assessments, classroom observations, and family interviews, providing both statistical power and contextual understanding.\n\nBroader Impacts: This work will advance the field by informing program design and policy decisions affecting millions of students. Anticipated outcomes include peer-reviewed publications, practitioner resources for educators, and partnerships with school districts implementing evidence-based practices. The research will train graduate students in rigorous educational research while addressing pressing educational equity questions.\n\nThe PI brings demonstrated expertise in cognitive development and bilingual education with established school partnerships enabling research access.",
-      "min_words": 140
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write budget justification for 2-3 major expense categories in a research project. Explain why each is necessary. (100-120 words)",
-      "min_words": 100,
-      "example": "Budget Justification\n\nPersonnel ($120,000): PI salary support at 10% effort ($50,000) is essential for project oversight, data analysis, and manuscript preparation. Graduate research assistant at 50% effort for two years ($45,000) will conduct interviews, observations, and preliminary analysis under PI supervision. Undergraduate research assistants ($25,000) will assist with data entry and literature review, gaining research experience while supporting project efficiency.\n\nEquipment ($15,000): Eye-tracking equipment is necessary for measuring attention patterns during bilingual tasks - a key outcome variable. This specific model was selected for portability enabling school-based data collection and compatibility with analysis software.\n\nTravel ($8,000): Conference presentations at AERA and NABE are essential for disseminating findings to educational research and practitioner communities. School site visits require local travel for data collection.\n\nParticipant Costs ($12,000): Compensation for 500 families ($20 per assessment session) ensures diverse participation and respects participants' time commitment.",
-      "min_words": 100
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Future Tense for Proposed Work",
-      "explanation": "Use future tense (will) to describe planned research activities.",
-      "examples": [
-        "This project will examine mechanisms underlying innovation. (future plan)",
-        "The research will employ mixed-methods design. (proposed methodology)",
-        "Results will inform policy and practice. (anticipated outcomes)",
-        "The study will track participants over five years. (future research)"
-      ],
-      "practice": [
-        {"sentence": "This research ___ address the gap.", "blank": "will", "options": ["will", "would", "can"]},
-        {"sentence": "The methodology ___ combine approaches.", "blank": "will", "options": ["will", "would", "could"]},
-        {"sentence": "Findings ___ inform practice.", "blank": "will", "options": ["will", "would", "might"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Nominalization for Formal Proposals",
-      "explanation": "Use nominalized forms for formal, professional proposal language.",
-      "examples": [
-        "The implementation of this methodology... (nominalized)",
-        "The examination of these questions... (formal)",
-        "The dissemination of findings... (professional)",
-        "The advancement of knowledge... (nominalized goal)"
-      ],
-      "practice": [
-        {"sentence": "The ___ of this approach is crucial.", "blank": "implementation", "options": ["implement", "implementation", "implementing"]},
-        {"sentence": "The ___ of participants matters.", "blank": "recruitment", "options": ["recruit", "recruitment", "recruiting"]},
-        {"sentence": "The ___ of findings is essential.", "blank": "dissemination", "options": ["disseminate", "dissemination", "disseminating"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Passive Voice for Methodology",
-      "explanation": "Use passive voice to describe methodological procedures formally.",
-      "examples": [
-        "Data will be collected through surveys. (passive, formal)",
-        "Participants will be recruited from schools. (passive procedure)",
-        "Results will be analyzed using statistical software. (passive methodology)",
-        "Findings will be disseminated through publications. (passive plan)"
-      ],
-      "practice": [
-        {"sentence": "Data will ___ collected quarterly.", "blank": "be", "options": ["be", "been", "being"]},
-        {"sentence": "Participants will ___ recruited carefully.", "blank": "be", "options": ["be", "been", "being"]},
-        {"sentence": "Results will ___ analyzed rigorously.", "blank": "be", "options": ["be", "been", "being"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What must grant proposals articulate?", "options": ["Only methodology", "Significance, methodology, feasibility, qualifications", "Just budget", "Personal story"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What two criteria does NSF use?", "options": ["Cost and timeline", "Intellectual merit and broader impacts", "Only science", "Prestige"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What should budget justification explain?", "options": ["Just total", "Why each expense is necessary", "Only salary", "Nothing"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'This research ___ address the gap.'", "options": ["would", "will", "might", "could"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Both intellectual merit and broader impacts matter equally for NSF.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Budget and narrative don't need to align.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The ___ of this approach is crucial. (nominalization)", "correct": "implementation", "accept": ["implementation", "execution"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "Data will ___ collected quarterly. (passive)", "correct": "be", "accept": ["be"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match proposal element:", "pairs": [{"left": "Intellectual merit", "right": "Advances knowledge"}, {"left": "Broader impacts", "right": "Benefits society"}, {"left": "Budget justification", "right": "Why expenses needed"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed learned to frame proposals emphasizing:", "options": ["Personal story", "Significance and impact", "Just methodology", "Budget only"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error typical of advanced learners in professional contexts. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "In the first slide, I will present you the key findings from last quarter's analysis.",
+        "correct": "In the first slide, I will present the key findings from last quarter's analysis.",
+        "explanation": "The verb 'present' does not take a direct indirect object in standard professional English. 'Present you the findings' is incorrect; the correct form is 'present the findings (to you)' or simply 'present the key findings.'"
+      },
+      {
+        "incorrect": "As I mentioned it earlier, the revenue growth has exceeded our initial projections by a significant margin.",
+        "correct": "As I mentioned earlier, the revenue growth has exceeded our initial projections by a significant margin.",
+        "explanation": "After 'as I mentioned,' the pronoun 'it' is redundant and non-standard in English — unlike some other languages, English does not require a resumptive pronoun in this construction. 'As I mentioned earlier' is the correct professional form."
+      },
+      {
+        "incorrect": "The data suggests that we should to reconsider our approach to customer acquisition in emerging markets.",
+        "correct": "The data suggests that we should reconsider our approach to customer acquisition in emerging markets.",
+        "explanation": "After modal verbs ('should,' 'would,' 'could,' 'must'), the base infinitive is used without 'to.' 'Should to reconsider' is a hyperCorrection error common among learners whose L1 uses an infinitive marker with modal equivalents."
+      },
+      {
+        "incorrect": "I would like to conclude my presentation by to thank you for your attention and engagement.",
+        "correct": "I would like to conclude my presentation by thanking you for your attention and engagement.",
+        "explanation": "The preposition 'by' must be followed by a gerund (-ing form), not an infinitive ('to thank'). 'By thanking' is the grammatically required construction."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "grant", "definition": "funding awarded for research", "example": "Apply for research grants."},
-    {"word": "proposal", "definition": "plan submitted for funding", "example": "Write competitive proposals."},
-    {"word": "intellectual merit", "definition": "advancement of knowledge", "example": "Demonstrate intellectual merit."},
-    {"word": "broader impacts", "definition": "societal benefits of research", "example": "Address broader impacts."},
-    {"word": "feasibility", "definition": "practicality and achievability", "example": "Show project feasibility."},
-    {"word": "deliverable", "definition": "concrete output or product", "example": "Specify project deliverables."},
-    {"word": "dissemination", "definition": "spreading research findings", "example": "Plan for dissemination."},
-    {"word": "PI", "definition": "Principal Investigator, lead researcher", "example": "PI leads the project."},
-    {"word": "co-PI", "definition": "Co-Principal Investigator", "example": "Co-PI shares leadership."},
-    {"word": "overhead", "definition": "indirect institutional costs", "example": "Budget includes overhead."}
-  ],
-  "cultural_notes": [
-    "American research funding is highly competitive - NSF funds only 20-30% of proposals.",
-    "Grant writing is essential skill in American academia - 'publish or perish' extends to 'fund or perish.'",
-    "American funding agencies increasingly emphasize broader impacts and societal relevance alongside scientific merit.",
-    "Interdisciplinary proposals are valued in American research funding but require clear coherence.",
-    "American academic culture expects faculty to bring in external funding to support their research programs.",
-    "Preliminary data demonstrating feasibility significantly strengthens American grant proposals."
+  "debate_task": {
+    "motion": "This house believes that data-driven presentations are more persuasive and effective than narrative-driven ones in professional contexts",
+    "stance": "balanced",
+    "key_arguments": [
+      "Quantitative evidence lends objective credibility to claims that would otherwise be dismissed as opinion, and in high-stakes decision-making contexts, stakeholders expect and require data to justify resource allocation.",
+      "Data visualisations allow complex information to be processed rapidly by audiences with limited time, whereas narrative presentations risk losing precision and enabling selective interpretation.",
+      "In regulated industries, presenting conclusions without supporting data is professionally and sometimes legally problematic — data is not optional in these contexts."
+    ],
+    "counter_arguments": [
+      "Research in cognitive science consistently demonstrates that humans make decisions based on emotional and narrative processing, not rational evaluation of data; a presentation that ignores this fact will fail regardless of its evidentiary quality.",
+      "Data without a compelling frame is routinely ignored or misinterpreted — audiences retain stories far more reliably than statistics, and the most effective presentations embed data within a narrative structure.",
+      "Excessive reliance on data in presentations can actively suppress creative and strategic thinking by constraining the frame of discussion to what is already measurable."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Your argument should demonstrate awareness of both cognitive science and professional communication research."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Write an article for a professional development magazine advising mid-career professionals on how to improve the quality and impact of their presentations to senior leadership. Focus on structure, language, and strategic framing rather than slide design. Your article should be practical, evidence-informed, and written in an authoritative but accessible professional register.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a clear, engaging observation or problem statement that immediately signals the article's relevance to busy professionals. Avoid starting with a definition or a question."
+      },
+      {
+        "section": "Core advice point 1 — Structure and signposting",
+        "guidance": "Explain the importance of explicit structural markers and previewing. Give a concrete example of effective language. Show how audience navigation improves persuasion."
+      },
+      {
+        "section": "Core advice point 2 — Strategic framing of difficult information",
+        "guidance": "Address how to present data that includes negative findings. Discuss the role of candour in building credibility. Reference the concept of ethos where relevant."
+      },
+      {
+        "section": "Closing",
+        "guidance": "Conclude with a memorable, forward-looking statement that positions the advice as actionable and professionally significant. Avoid summarising everything — leave the reader with one strong takeaway."
+      }
+    ],
+    "model_answer": "The presentations that advance careers are rarely the most technically polished. They are the ones that are most clearly structured, most candidly delivered, and most precisely calibrated to what the audience actually needs to decide or act on.\n\nThe most common failure in professional presentations to senior audiences is insufficient signposting. Leaders in a boardroom do not have the patience to reconstruct your argument from fragmented data points — they need to know, within the first two minutes, what you are arguing, why it matters, and what you are asking of them. Phrases such as 'What I want to establish before we look at the data is...' and 'This brings me to the central recommendation, which is...' are not bureaucratic padding; they are the navigational architecture that keeps a time-pressured audience oriented and engaged.\n\nEqually important is the willingness to present uncomfortable information directly. Senior professionals are acutely sensitive to selective presentation, and a speaker who appears to be managing their audience's reaction to bad news loses credibility rapidly. The most effective approach is to present difficult findings early, frame them explicitly — 'These are not comfortable numbers, but they are the ones that matter most for our decision today' — and then move immediately to your proposed response. Candour builds authority; evasion destroys it.\n\nThe professional who masters these two disciplines — clear structure and strategic candour — will consistently be perceived as more credible, more senior, and more worthy of the investment decisions they are requesting. The data, in most cases, is secondary."
+  },
+  "advanced_grammar": {
+    "structure": "Fronting for Rhetorical Emphasis",
+    "explanation": "Fronting is the grammatical process of moving an element that would normally appear later in a sentence to the front (initial position) in order to give it special prominence or create rhetorical effect. Unlike inversion, fronting does not require subject-auxiliary order change; the fronted element is simply placed at the start of the sentence, with normal order following.\n\nFronting is particularly common in formal speeches and presentations, where rhetorical emphasis is central to the communicative purpose. Elements that can be fronted include objects, complements, adverbials, and entire clauses. For example: 'The quality of the data, we do not dispute. What we dispute is the interpretation placed upon it.' In this example, the object ('the quality of the data') has been fronted for emphasis, and the wh-clause ('what we dispute') has been fronted to create a contrastive structure.\n\nIn professional presentations, fronting signals what the speaker considers most important, manages the emotional arc of the argument, and creates variety in sentence structure that keeps the audience engaged. It is one of the more advanced grammatical tools available to speakers aiming for a high-register, rhetorically sophisticated style.",
+    "authentic_examples": [
+      "These results, we are proud of. The process that produced them, we need to revisit.",
+      "What the data makes clear is that our current model is not sustainable at scale.",
+      "The commercial case for this investment, every analyst in this room will recognise."
+    ],
+    "practice": [
+      {
+        "sentence": "We find the financial projections credible, but we dispute the operational assumptions.",
+        "transform": "Front 'the financial projections' for emphasis.",
+        "answer": "The financial projections, we find credible; the operational assumptions, we dispute."
+      },
+      {
+        "sentence": "The speaker cares about how the data is framed, not just what the data shows.",
+        "transform": "Rewrite using a fronted wh-clause to emphasise the object of care.",
+        "answer": "What the speaker cares about is not just what the data shows, but how it is framed."
+      },
+      {
+        "sentence": "We could not have achieved this transformation without the commitment of the operations team.",
+        "transform": "Front 'this transformation' for rhetorical effect.",
+        "answer": "This transformation, we could not have achieved without the commitment of the operations team."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the speaker mean by saying 'data without narrative is noise'?",
+      "options": [
+        "Statistical data should never be included in presentations",
+        "Raw data presented without interpretive framing fails to convey meaning and cannot persuade",
+        "Presentations should use loud audio to accompany data slides",
+        "Only qualitative data is meaningful in professional contexts"
+      ],
+      "correct": 1,
+      "explanation": "The speaker argues that data requires a narrative structure to become persuasive — without context and interpretation, data points are merely information, not argument. This is the central claim that frames the entire presentation approach."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence correctly uses fronting for rhetorical emphasis?",
+      "options": [
+        "The team worked very hard and produced excellent results this quarter.",
+        "What the team produced this quarter was excellent results achieved under significant pressure.",
+        "The results this quarter, the team worked very hard to produce them.",
+        "Excellent results, the team they produced this quarter."
+      ],
+      "correct": 1,
+      "explanation": "A wh-cleft ('What the team produced...') is a fronting construction that emphasises the object of the action. Option C has a resumptive pronoun ('them') which is non-standard in English; option D produces an ungrammatical sentence."
+    },
+    {
+      "id": 3,
+      "question": "Identify the grammatical error in 'I would like to conclude by to thank you for your attention':",
+      "options": [
+        "The verb 'conclude' is in the wrong tense",
+        "After 'by,' a gerund is required: 'thanking,' not 'to thank'",
+        "'Would like' should be 'want' in formal presentations",
+        "There is no error — the sentence is correct"
+      ],
+      "correct": 1,
+      "explanation": "The preposition 'by' must be followed by a gerund (-ing form). 'By to thank' is ungrammatical; the correct form is 'by thanking you for your attention.'"
+    },
+    {
+      "id": 4,
+      "question": "What is the rhetorical function of the phrase 'these are not comfortable findings, but they are important ones' in the speech?",
+      "options": [
+        "It distracts the audience from the financial data by introducing an emotional topic",
+        "It builds the speaker's credibility by demonstrating willingness to present uncomfortable truths directly",
+        "It signals that the speaker is uncertain about the reliability of the data",
+        "It is a standard formula with no specific rhetorical purpose"
+      ],
+      "correct": 1,
+      "explanation": "Presenting uncomfortable findings candidly is a classic ethos-building move — it establishes the speaker as honest and thorough rather than selective, which makes all subsequent claims more credible."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is the most effective discourse marker for signalling a transition to a contrasting or difficult point in a senior-level presentation?",
+      "options": [
+        "Anyway, moving on...",
+        "And also, another thing I want to say is...",
+        "Notwithstanding these encouraging results, I want to draw attention to a pattern that requires our attention.",
+        "So basically the other thing is that it's not all good news."
+      ],
+      "correct": 2,
+      "explanation": "'Notwithstanding' is a formal adversative conjunction that signals contrast while acknowledging what has just been said — it manages the transition from positive to difficult material at an appropriate register level for senior-level communication."
+    }
   ]
 }

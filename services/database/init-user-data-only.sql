@@ -85,3 +85,14 @@ CREATE TABLE IF NOT EXISTS user_chapter_progress (
   writing_passed BOOLEAN DEFAULT FALSE,
   UNIQUE(user_id, book_id, chapter_id)
 );
+
+CREATE TABLE IF NOT EXISTS unit_test_results (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  unit_id INTEGER NOT NULL,
+  score INTEGER,
+  percentage FLOAT,
+  answers JSONB,
+  taken_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(user_id, unit_id)
+);

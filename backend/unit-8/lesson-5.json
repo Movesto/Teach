@@ -2,235 +2,179 @@
   "id": "lesson-49",
   "unit_id": 8,
   "lesson_number": 5,
-  "title": "Narrative Writing",
+  "title": "Email and Digital Communication",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Write personal narratives with clear structure",
-    "Use dialogue to enhance stories",
-    "Create engaging beginnings and satisfying endings",
-    "Build tension and maintain reader interest"
+    "Write clear, appropriately formatted formal and semi-formal emails for academic and professional contexts",
+    "Distinguish between gerunds and infinitives and use them correctly after common verbs",
+    "Analyse the differences in register between formal email writing and informal digital messaging",
+    "Compose a formal email to a school or educational institution using appropriate conventions"
   ],
-  "target_phrases": [
-    "It all started when...",
-    "Suddenly...",
-    "I couldn't believe...",
-    "Looking back...",
-    "In the end...",
-    "That experience taught me...",
-    "The turning point was..."
-  ],
-  "dialogue": {
-    "title": "Writing a Personal Narrative",
-    "context": "Ahmed's writing class is learning to write compelling personal stories. The teacher reviews Ahmed's draft about arriving in America.",
-    "lines": [
-      {"speaker": "Teacher", "text": "Ahmed, your story about arriving in America is interesting, but let's make it more engaging. Right now it reads like a list of events."},
-      {"speaker": "Ahmed", "text": "What do you mean? I explained everything that happened."},
-      {"speaker": "Teacher", "text": "You did, but a good narrative needs more than facts. It needs a strong opening, dialogue, sensory details, and a clear turning point. Let's start with your opening: 'I came to America in January.' How can we hook readers immediately?"},
-      {"speaker": "Ahmed", "text": "Maybe... 'When the plane touched down in Portland, my hands were shaking. I had left everything I knew 8,000 miles behind'?"},
-      {"speaker": "Teacher", "text": "Much better! That creates immediate interest. Now, you wrote 'I couldn't find my luggage and I was worried.' Can you show that with dialogue and action?"},
-      {"speaker": "Ahmed", "text": "How about: 'My suitcase didn't appear on the carousel. My heart raced. \"Where is it?\" I asked the airport worker, my voice rising with panic'?"},
-      {"speaker": "Teacher", "text": "Perfect! You're showing the emotion through dialogue and physical details instead of just telling us you were worried. Now, what's the turning point of your story?"},
-      {"speaker": "Ahmed", "text": "When the worker who spoke Arabic helped me find my luggage. It was the first time I felt someone understood me in America."},
-      {"speaker": "Teacher", "text": "That's your pivotal moment! Build to it with tension - the panic, the confusion, the language barrier. Then show the relief when he helped you. End by reflecting on what it meant."},
-      {"speaker": "Ahmed", "text": "So the structure is: hook the reader, build tension through the problem, reach the turning point, then end with what I learned?"},
-      {"speaker": "Teacher", "text": "Exactly! A narrative arc: beginning (setup), middle (conflict and rising tension), climax (turning point), and end (resolution and reflection). That's what makes stories compelling."}
+  "reading_passage": {
+    "title": "Writing Professionally in the Digital Age",
+    "text": "Email has become the primary mode of written communication in workplaces, schools, and government agencies. Despite the widespread use of instant messaging and social media, the ability to write a clear, professional email remains one of the most valued skills in both academic and professional environments.\n\nFor students and parents dealing with schools and universities, knowing how to compose a well-structured email can make a significant difference. A poorly written email — one that is too casual, lacks a clear subject line, or fails to state its purpose directly — risks being ignored or misunderstood. Educators and administrators expect to receive concise, respectful, and clearly organised communication.\n\nResearchers have noted that young people who have grown up with smartphones tend to prefer sending short informal messages and may resist writing longer, more formal texts. However, refusing to develop formal writing skills can limit future opportunities. Employers frequently mention the ability to communicate professionally in writing as one of their top requirements when considering candidates for jobs.\n\nExperts recommend starting an email with a polite greeting and a brief introduction if the recipient does not know you. They suggest stating your purpose in the first or second sentence and avoiding to use vague or overly long explanations. Ending the email by thanking the recipient and offering to provide further information is also considered good practice.\n\nLearning to switch between informal and formal registers — knowing when to use each appropriately — is an essential skill for anyone who communicates in English in the modern world.",
+    "source": "Adapted from Grammarly's 2024 State of Business Communication Report",
+    "glossary": [
+      {"word": "register", "meaning": "the level of formality in language, adjusted according to context and audience"},
+      {"word": "recipient", "meaning": "the person who receives a message, letter, or email"},
+      {"word": "concise", "meaning": "expressing ideas clearly and in as few words as necessary"},
+      {"word": "vague", "meaning": "not clearly expressed or defined; lacking precision"},
+      {"word": "mode", "meaning": "a particular way or method of doing something"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Story openings that hook readers",
-      "pattern": "Strong opening statement that creates interest",
-      "examples": [
-        "It all started on an ordinary Tuesday that turned into the worst day of my life.",
-        "I'll never forget the moment I realized I had made a terrible mistake.",
-        "The phone call came at 3 AM, and I knew immediately something was wrong.",
-        "Looking back, I should have seen the warning signs, but I was too excited to notice.",
-        "The day I arrived in America, I couldn't stop my hands from shaking."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what are three common problems with a poorly written email?",
+      "answer": "A poorly written email may be too casual, lack a clear subject line, or fail to state its purpose directly."
     },
     {
-      "id": "drill-2",
-      "focus": "Using dialogue in narratives",
-      "pattern": "\"Dialogue,\" subject said/asked, description",
-      "examples": [
-        "\"Where is my suitcase?\" I asked, my voice rising with panic.",
-        "\"Don't worry, we'll find it,\" the worker said calmly.",
-        "\"I can't believe this is happening,\" she whispered, tears in her eyes.",
-        "\"You need to leave now!\" he shouted, pointing at the door.",
-        "\"Everything will be okay,\" my mother said, though I could hear doubt in her voice."
-      ]
+      "type": "inference",
+      "question": "Why do you think the author says that 'refusing to develop formal writing skills can limit future opportunities'?",
+      "answer": "Because employers consider professional written communication to be an important requirement when hiring. If a person cannot write formal emails, they may be overlooked for jobs or struggle to communicate effectively with institutions, which could limit their career options."
     },
     {
-      "id": "drill-3",
-      "focus": "Reflective endings",
-      "pattern": "Looking back/In the end/That experience taught me [reflection]",
-      "examples": [
-        "Looking back, that terrifying first day taught me I was stronger than I thought.",
-        "In the end, losing my luggage led me to make my first friend in America.",
-        "That experience taught me to ask for help when I need it.",
-        "Now I realize that what seemed like a disaster was actually a blessing.",
-        "That moment changed everything - I knew I could survive anything after that."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'register' mean in the context of the final paragraph, and why is knowing how to switch between registers described as 'essential'?",
+      "answer": "'Register' refers to the level of formality in language. Switching between registers is essential because different situations require different levels of formality — a message to a close friend is very different from an email to a school administrator — and using the wrong register can seem disrespectful or unprofessional."
+    },
+    {
+      "type": "inference",
+      "question": "The passage describes a tension between how young people prefer to communicate and what is expected of them professionally. What does this suggest about the role of schools in teaching digital communication?",
+      "answer": "It suggests that schools have a responsibility to teach students formal written communication skills alongside digital literacy, to ensure they are prepared for professional environments where informal messaging habits are not appropriate."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit8-lesson5-listen1.mp3",
-      "transcript": "Personal narratives follow a story arc: exposition (introduce setting and characters), rising action (build tension through conflict), climax (turning point or peak moment), falling action (events after climax), and resolution (how it ends and what you learned). This structure keeps readers engaged because they want to know what happens next and how problems get resolved.",
-      "question": "What is the climax of a story?",
-      "options": [
-        "The beginning",
-        "The turning point or peak moment",
-        "The ending",
-        "The boring middle part"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit8-lesson5-listen2.mp3",
-      "transcript": "Good dialogue makes narratives come alive. Use dialogue to reveal character, show emotion, and move the plot forward. Format correctly: put spoken words in quotation marks, start a new paragraph for each speaker, and add dialogue tags (said, asked, whispered) to show who's speaking. Don't overuse fancy dialogue tags - 'said' and 'asked' are usually best.",
-      "question": "Why use dialogue in narratives?",
-      "options": [
-        "To make writing longer",
-        "To fill up space",
-        "To reveal character and show emotion",
-        "It's required"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit8-lesson5-listen3.mp3",
-      "transcript": "The most powerful narratives don't just tell what happened - they reflect on why it mattered. End with insight: What did you learn? How did you change? Why does this story matter? For example, don't just end with 'And then I found my luggage.' End with 'That day I learned that kindness transcends language barriers, and one helpful stranger can make you feel at home in a foreign land.'",
-      "question": "What should narrative endings include?",
-      "options": [
-        "Just state what happened",
-        "Reflect on why it mattered and what you learned",
-        "Introduce new characters",
-        "Ask questions"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Tell a brief personal story using this structure: hook opening, build tension, turning point, reflective ending. Include at least one line of dialogue. Record for 35 seconds.",
-      "example": "I'll never forget my first job interview in America. I had practiced my English for weeks, but when the interviewer asked the first question, my mind went completely blank. My heart pounded. 'Um... can you repeat that?' I asked, my face burning with embarrassment. She smiled kindly. 'Of course. Tell me about yourself.' She spoke slowly, and suddenly the words I'd practiced came back. I took a deep breath and began to speak. The interview lasted 20 minutes, and to my shock, she offered me the job. That experience taught me that most people want to help, not judge. My accent wasn't a barrier - my willingness to try was what mattered.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Describe a turning point or pivotal moment in your life. What changed? Why was it important? Record for 25 seconds.",
-      "example": "The turning point in my life came when I decided to move to America. For months, I debated - should I leave my family and everything familiar, or stay in Somalia where life was difficult but predictable? The moment I decided was when my daughter asked, 'Papa, will I ever go to school?' In that instant, I knew I had to give my children opportunities I never had. That decision was terrifying, but it changed everything. Now, five years later, my children are thriving in school, and I don't regret it for a second.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a personal narrative about a challenge you overcame. Include: engaging opening, dialogue, sensory details, turning point, and reflective ending. (120-150 words)",
-      "min_words": 120,
-      "example": "I stood at the front of the classroom, my hands trembling. It was my first presentation in English class, and twenty faces stared at me expectantly.\n\n\"Good morning,\" I began, my voice barely above a whisper. I had practiced for days, but now every word I'd memorized vanished from my mind.\n\n\"Take your time, Ahmed,\" my teacher said gently. \"We're all here to support you.\"\n\nI took a deep breath and started again, this time focusing on my notes. My voice grew stronger with each sentence. I talked about my hometown in Somalia, showing photos of the beach where I played as a child. Slowly, I forgot my fear. When I finished, my classmates clapped.\n\n\"That was wonderful,\" the teacher said, smiling.\n\nLooking back, that five-minute presentation was a turning point. I realized that courage isn't the absence of fear - it's continuing despite being terrified. That day, I proved to myself I could do hard things.",
-      "min_words": 120
-    },
-    {
-      "id": "write-2",
-      "prompt": "Take this basic story and expand it with dialogue, details, and emotion: 'I got lost in the city. Someone helped me. I found my way home.' (80-100 words)",
-      "min_words": 80,
-      "example": "My heart raced as I realized I was completely lost. The Portland streets all looked the same, and my phone battery had died. Panic rose in my chest.\n\n\"Excuse me,\" I said to a woman walking by. \"I'm trying to get to Southeast 82nd Avenue. Can you help?\"\n\nShe pulled out her phone and showed me a map. \"You're about two miles away. Take the bus - number 72 stops right there,\" she said, pointing to the corner.\n\n\"Thank you so much,\" I said, relief flooding through me.\n\nWhen I finally reached my apartment, I was exhausted but grateful. That stranger's kindness reminded me that asking for help isn't weakness - it's wisdom.",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Past Tense for Narratives",
-      "explanation": "Personal narratives are usually written in past tense because they describe events that already happened.",
-      "examples": [
-        "I arrived at the airport. (simple past for completed action)",
-        "I was waiting for my luggage. (past continuous for ongoing action)",
-        "I had never been on a plane before. (past perfect for earlier past)",
-        "I would check my watch every few minutes. (past habit)"
-      ],
-      "practice": [
-        {"sentence": "I ___ at the door nervously.", "blank": "knocked", "options": ["knock", "knocked", "knocking"]},
-        {"sentence": "She ___ when I arrived.", "blank": "was crying", "options": ["cried", "was crying", "cries"]},
-        {"sentence": "I ___ never seen anything like it.", "blank": "had", "options": ["have", "had", "has"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Dialogue Punctuation",
-      "explanation": "Put spoken words in quotation marks. Commas and periods go inside quotes.",
-      "examples": [
-        "\"I can't find my bag,\" I said. (comma inside quotes)",
-        "\"Where is it?\" she asked. (question mark inside quotes)",
-        "\"Help me!\" he shouted. (exclamation inside quotes)",
-        "She whispered, \"Don't worry.\" (comma before quote, period inside)"
-      ],
-      "practice": [
-        {"sentence": "\"I'm lost___ I said.", "blank": ",\"", "options": ["\"", ",\"", ".\""]},
-        {"sentence": "She asked___ \"Are you okay___", "blank": ", / ?\"", "options": ["\"Are you okay?\"", ", \"Are you okay?\"", "\"Are you okay\""]},
-        {"sentence": "\"Help___\" he yelled.", "blank": "!\"", "options": ["\"", "!\"", ",\""]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Transition Words for Time Sequence",
-      "explanation": "Use time transitions to show when events happened in your narrative.",
-      "examples": [
-        "First, I checked in at the airport. (beginning)",
-        "Then, I went through security. (next event)",
-        "Suddenly, I realized my passport was missing. (unexpected event)",
-        "Finally, I found it in my jacket pocket. (conclusion)"
-      ],
-      "practice": [
-        {"sentence": "___, I woke up early.", "blank": "First", "options": ["First", "Finally", "Suddenly"]},
-        {"sentence": "___, everything went wrong.", "blank": "Suddenly", "options": ["First", "Suddenly", "Finally"]},
-        {"sentence": "___, we arrived safely.", "blank": "Finally", "options": ["First", "Then", "Finally"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with Ahmed's original story opening?", "options": ["Too long", "Not interesting enough", "Had grammar errors", "Too emotional"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What is the climax of a narrative?", "options": ["The beginning", "The turning point", "The ending", "The middle"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How should dialogue be formatted?", "options": ["In italics", "In quotation marks", "In parentheses", "Underlined"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What tense are narratives usually written in?", "options": ["Present", "Past", "Future", "Present perfect"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Good narratives include reflection on what was learned.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You should just list events without showing emotion.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "\"I'm lost,___ I said. (dialogue punctuation)", "correct": ",\"", "accept": [",\""], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "I ___ at the airport yesterday. (past tense: arrive)", "correct": "arrived", "accept": ["arrived"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match story element:", "pairs": [{"left": "Opening", "right": "Hook readers"}, {"left": "Climax", "right": "Turning point"}, {"left": "Ending", "right": "Reflection"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "The teacher suggested Ahmed add what to his story?", "options": ["More facts", "Dialogue and sensory details", "Historical information", "Statistics"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Gerunds vs Infinitives",
+    "explanation": "A gerund is the -ing form of a verb used as a noun (e.g. 'writing', 'sending'). An infinitive is 'to + base verb' (e.g. 'to write', 'to send'). Many verbs are followed by either a gerund or an infinitive, but not both. Common verbs followed by gerunds include: enjoy, avoid, suggest, recommend, resist, consider, finish, and mind. Common verbs followed by infinitives include: want, need, hope, decide, expect, offer, refuse, and manage. Some verbs (like 'start', 'begin', 'prefer', 'continue') can be followed by either with little change in meaning.",
+    "examples": [
+      {
+        "sentence": "Young people may resist writing longer, more formal texts.",
+        "note": "'Resist' is always followed by a gerund (-ing). You cannot say 'resist to write'."
+      },
+      {
+        "sentence": "Employers expect to receive concise, respectful communication.",
+        "note": "'Expect' is followed by an infinitive ('to receive'). Compare 'enjoy receiving' — enjoy takes a gerund."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "She decided ___ (send) a formal email rather than calling the school.",
+        "answer": "She decided to send a formal email rather than calling the school. ('Decide' is followed by an infinitive.)"
+      },
+      {
+        "sentence": "The teacher recommended ___ (proofread) every email before sending it.",
+        "answer": "The teacher recommended proofreading every email before sending it. ('Recommend' is followed by a gerund.)"
+      },
+      {
+        "sentence": "I enjoy ___ (communicate) with teachers by email because it gives me time to think.",
+        "answer": "I enjoy communicating with teachers by email because it gives me time to think. ('Enjoy' is followed by a gerund.)"
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "narrative", "definition": "a story or account of events", "example": "Write a personal narrative."},
-    {"word": "arc", "definition": "the overall shape or structure of a story", "example": "Stories follow a narrative arc."},
-    {"word": "climax", "definition": "the most intense or important moment", "example": "The climax was exciting."},
-    {"word": "tension", "definition": "mental or emotional strain in story", "example": "Build tension gradually."},
-    {"word": "dialogue", "definition": "conversation between characters", "example": "Use dialogue to show emotion."},
-    {"word": "turning point", "definition": "moment when situation changes", "example": "That was the turning point."},
-    {"word": "reflection", "definition": "serious thought about meaning", "example": "End with reflection."},
-    {"word": "suspense", "definition": "anxious uncertainty about outcome", "example": "The story builds suspense."},
-    {"word": "resolution", "definition": "conclusion or ending of story", "example": "The resolution was satisfying."},
-    {"word": "pivotal", "definition": "of crucial importance", "example": "It was a pivotal moment."}
+  "vocabulary_in_context": [
+    {
+      "word": "compose",
+      "definition": "to write something carefully and thoughtfully, such as a letter, email, or piece of music",
+      "example_sentence": "Knowing how to compose a well-structured email can make a significant difference.",
+      "collocations": ["compose an email", "compose a letter", "compose a message"],
+      "register": "formal"
+    },
+    {
+      "word": "widespread",
+      "definition": "found or happening over a large area or among many people",
+      "example_sentence": "Despite the widespread use of instant messaging and social media, the ability to write a professional email remains valued.",
+      "collocations": ["widespread use", "widespread concern", "widespread adoption"],
+      "register": "neutral"
+    },
+    {
+      "word": "concise",
+      "definition": "expressing ideas in few words, without unnecessary detail",
+      "example_sentence": "Educators and administrators expect to receive concise, respectful, and clearly organised communication.",
+      "collocations": ["concise response", "concise summary", "keep it concise"],
+      "register": "formal"
+    },
+    {
+      "word": "candidate",
+      "definition": "a person being considered for a position, job, or award",
+      "example_sentence": "Employers frequently mention professional written communication as a top requirement when considering candidates for jobs.",
+      "collocations": ["job candidate", "suitable candidate", "shortlisted candidate"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "Personal narratives are commonly required in U.S. college applications - students write about formative experiences.",
-    "Americans value storytelling in business - TED Talks often use personal narrative structure.",
-    "The 'hero's journey' narrative structure is foundational in American storytelling and film.",
-    "Memoir and personal essay are popular genres in American literature.",
-    "Many American job interviews include 'Tell me about a time when...' behavioral questions that require narrative responses.",
-    "NPR's 'This American Life' and 'The Moth' are popular American storytelling podcasts that feature personal narratives."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "A friend is asking for advice. They need to email their child's teacher to explain that their child has been absent for two weeks due to a family emergency, and to ask for the missed work. Your friend is unsure how to begin and what to include.",
+    "prompt": "Advise your friend on how to write this email. Explain what they should include, how they should begin and end it, and what language is appropriate. Use gerunds and infinitives correctly in your advice.",
+    "useful_language": [
+      "I would recommend starting with...",
+      "You should avoid using...",
+      "It's important to explain...",
+      "Make sure to thank the teacher for...",
+      "Consider including..."
+    ],
+    "model_answer": "I would recommend starting with a polite greeting, like 'Dear Ms Smith' — avoid using informal phrases like 'Hey'. Then I suggest explaining the reason for the absence briefly in the first sentence. You don't want to go into too much private detail, but you need to mention that it was a family emergency. After that, remember to ask for the missed work and offer to arrange a meeting if the teacher thinks it would help. Finally, consider ending with something like 'Thank you for your understanding' — teachers appreciate receiving polite, grateful messages. Avoid writing in all lowercase or using text message abbreviations."
+  },
+  "writing_workshop": {
+    "model_text": "Dear Mr Johnson,\n\nI am writing to request a meeting to discuss my son's recent absence from school. Unfortunately, our family experienced a medical emergency, which prevented him from attending for two weeks. I would be grateful if you could let me know what work he has missed and advise me on the best way to help him catch up. I am happy to arrange a meeting at a time convenient for you.\n\nThank you for your understanding.\n\nYours sincerely,\nFadumo Ahmed",
+    "model_analysis": "This email is effective because it clearly states its purpose in the first sentence, uses formal vocabulary and polite expressions, and ends with a professional closing — all essential features of a well-structured formal email.",
+    "task": "Write a formal email of 100-150 words to the principal of a school. The purpose of the email is to ask whether your child can be enrolled mid-year, explain your situation briefly, and request an appointment to discuss this further. Use appropriate email conventions (greeting, clear purpose, polite close) and include at least two gerunds and two infinitives.",
+    "success_criteria": [
+      "Uses correct formal email structure: greeting, body with clear purpose, polite closing, and name",
+      "Includes at least two gerunds and two infinitives used correctly",
+      "Maintains a consistently formal and respectful register throughout"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Which verb is followed by a gerund (-ing form)?",
+      "options": [
+        "decide",
+        "want",
+        "recommend",
+        "hope"
+      ],
+      "correct": 2,
+      "explanation": "'Recommend' is followed by a gerund: 'I recommend checking your email'. 'Decide', 'want', and 'hope' are all followed by an infinitive (to + verb)."
+    },
+    {
+      "id": 2,
+      "question": "Choose the correct form: 'She avoided ___ informal language in her email.'",
+      "options": [
+        "to use",
+        "using",
+        "use",
+        "used"
+      ],
+      "correct": 1,
+      "explanation": "'Avoid' is always followed by a gerund (-ing form): 'avoided using'. Using an infinitive after 'avoid' is incorrect in standard English."
+    },
+    {
+      "id": 3,
+      "question": "According to the passage, what do employers frequently mention as a top requirement for job candidates?",
+      "options": [
+        "Experience with social media",
+        "The ability to type quickly",
+        "The ability to communicate professionally in writing",
+        "Knowledge of multiple programming languages"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'Employers frequently mention the ability to communicate professionally in writing as one of their top requirements when considering candidates for jobs.'"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of an appropriate opening for a formal email?",
+      "options": [
+        "Hey, I wanted to ask you about...",
+        "Hi! Just wondering if...",
+        "Dear Ms Williams, I am writing to enquire about...",
+        "Hello, can you help me with something?"
+      ],
+      "correct": 2,
+      "explanation": "A formal email should begin with 'Dear [Title + Surname],' followed by a clear, professional opening sentence. The other options use informal greetings that are not appropriate for formal correspondence."
+    }
   ]
 }

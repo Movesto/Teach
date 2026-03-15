@@ -2,237 +2,179 @@
   "id": "lesson-48",
   "unit_id": 8,
   "lesson_number": 4,
-  "title": "Descriptive Writing",
+  "title": "Using the Internet and Smartphones",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Use sensory details to create vivid descriptions",
-    "Show rather than tell in writing",
-    "Use specific rather than vague language",
-    "Create mental images for readers"
+    "Discuss the uses and misuses of smartphones and the internet in educational and daily life contexts",
+    "Use the passive voice accurately to describe how technology is used, developed, and regulated",
+    "Analyse and evaluate arguments for and against smartphone use in schools",
+    "Write a balanced paragraph about the role of the internet in education using the passive voice"
   ],
-  "target_phrases": [
-    "You can see/hear/smell/feel...",
-    "It looks/sounds/smells like...",
-    "Imagine...",
-    "The [noun] was [specific adjective]...",
-    "Instead of 'nice,' say...",
-    "Show, don't tell...",
-    "Paint a picture with words"
-  ],
-  "dialogue": {
-    "title": "Writing Workshop - Making Descriptions Vivid",
-    "context": "Ahmed's writing teacher helps him transform vague descriptions into vivid, sensory-rich writing.",
-    "lines": [
-      {"speaker": "Teacher", "text": "Ahmed, you wrote 'The park was nice.' Can you tell me more? What made it nice?"},
-      {"speaker": "Ahmed", "text": "Well, it had trees and grass. People were there. It was pleasant."},
-      {"speaker": "Teacher", "text": "Those are good starts, but they're vague. Let's make it vivid! What did you see specifically?"},
-      {"speaker": "Ahmed", "text": "I saw tall oak trees with green leaves. Children were playing on swings. Families sat on blankets."},
-      {"speaker": "Teacher", "text": "Much better! Now you're showing me the scene, not just telling me it was nice. What did you hear?"},
-      {"speaker": "Ahmed", "text": "I could hear children laughing, birds singing in the trees, and music from someone's radio."},
-      {"speaker": "Teacher", "text": "Excellent! You're using sensory details - sight and sound. What about smell?"},
-      {"speaker": "Ahmed", "text": "Oh! I smelled fresh-cut grass and someone grilling food nearby."},
-      {"speaker": "Teacher", "text": "Perfect! Now compare: 'The park was nice' versus 'Tall oak trees shaded families on picnic blankets. Children's laughter mixed with bird songs, and the air smelled like fresh-cut grass and grilled food.' Which creates a better mental picture?"},
-      {"speaker": "Ahmed", "text": "The second one! I can actually imagine being there."},
-      {"speaker": "Teacher", "text": "Exactly! That's the power of descriptive writing. Show readers the scene - don't just tell them about it. Use specific details that appeal to the five senses."},
-      {"speaker": "Ahmed", "text": "I understand now. Instead of saying 'The food was good,' I should describe the taste, smell, and how it looked."},
-      {"speaker": "Teacher", "text": "Perfect! You've got it. Specific sensory details make writing come alive."}
+  "reading_passage": {
+    "title": "Smartphones in the Classroom: A Global Debate",
+    "text": "In recent years, smartphones have transformed the way people access information, communicate, and learn. However, their presence in schools has sparked significant debate among educators, parents, and policymakers around the world.\n\nProponents argue that smartphones can be used as powerful learning tools. When integrated thoughtfully into lessons, devices can be accessed to look up information, watch educational videos, or collaborate on shared documents. Apps designed specifically for language learning, mathematics, and science are downloaded by millions of students each year and are widely regarded as effective supplements to traditional instruction.\n\nCritics, however, point out that smartphones are frequently misused in the classroom. Research indicates that students who use their phones for non-academic purposes during lessons retain significantly less information. In several countries, strict policies have been introduced: in France, mobile phones were banned from primary and secondary schools in 2018, and similar restrictions have since been adopted in other nations.\n\nThe internet itself is seen by many as the most transformative educational resource of the modern era. It is estimated that over five billion web searches are conducted every day, and a substantial proportion of these are made by students researching topics for school. Online encyclopedias, academic journals, and open-access courses are now consulted by learners at all levels, making knowledge more accessible than ever before.\n\nThe challenge for schools is not to eliminate technology, but to ensure that it is used purposefully and responsibly.",
+    "source": "Adapted from UNESCO's 2023 Global Education Monitoring Report",
+    "glossary": [
+      {"word": "proponents", "meaning": "people who strongly support and advocate for something"},
+      {"word": "integrated", "meaning": "combined and incorporated into a larger system or context"},
+      {"word": "retain", "meaning": "to keep something in your memory; to not forget"},
+      {"word": "transformative", "meaning": "causing a major and significant change"},
+      {"word": "open-access", "meaning": "freely available to everyone without needing to pay or register"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Visual descriptions (sight)",
-      "pattern": "The [noun] was [specific color/size/shape]",
-      "examples": [
-        "The sky was deep blue with wispy white clouds.",
-        "The building was a towering glass structure reflecting sunlight.",
-        "Her dress was emerald green with delicate gold embroidery.",
-        "The street was lined with cherry trees in full pink bloom.",
-        "The ocean was turquoise, sparkling in the afternoon sun."
-      ]
+      "type": "literal",
+      "question": "What policy did France introduce regarding mobile phones in schools in 2018?",
+      "answer": "France banned mobile phones from primary and secondary schools in 2018."
     },
     {
-      "id": "drill-2",
-      "focus": "Sound and smell descriptions",
-      "pattern": "You could hear/smell [specific sensory detail]",
-      "examples": [
-        "You could hear waves crashing against the rocky shore.",
-        "You could smell fresh bread baking in the nearby bakery.",
-        "You could hear street musicians playing jazz on the corner.",
-        "You could smell spices - cinnamon, cardamom, and cloves.",
-        "You could hear rain pattering on the tin roof."
-      ]
+      "type": "inference",
+      "question": "Why do you think the author uses the phrase 'when integrated thoughtfully' when describing the use of smartphones in lessons?",
+      "answer": "The phrase suggests that smartphones are only beneficial if teachers plan their use carefully and with a clear educational purpose. The word 'thoughtfully' implies that unplanned or unrestricted use would not have the same positive results."
     },
     {
-      "id": "drill-3",
-      "focus": "Show vs. tell",
-      "pattern": "Instead of '[vague],' write '[specific]'",
-      "examples": [
-        "Instead of 'She was angry,' write 'Her face flushed red and she clenched her fists.'",
-        "Instead of 'The room was messy,' write 'Clothes covered the floor and dirty dishes filled the sink.'",
-        "Instead of 'He was tired,' write 'His eyelids drooped and he yawned every few minutes.'",
-        "Instead of 'The weather was bad,' write 'Rain poured down and wind rattled the windows.'",
-        "Instead of 'The food was delicious,' write 'The tender meat melted in my mouth, seasoned perfectly with garlic and herbs.'"
-      ]
+      "type": "vocabulary",
+      "question": "The passage describes the internet as 'the most transformative educational resource of the modern era'. What does 'transformative' mean and what evidence in the passage supports this claim?",
+      "answer": "'Transformative' means causing a major change. The passage supports this by pointing out that over five billion web searches are conducted daily and that academic journals and online courses are now accessible to learners at all levels — something that was impossible before the internet."
+    },
+    {
+      "type": "inference",
+      "question": "What is the main argument of the final sentence, and do you agree with it? Explain your answer.",
+      "answer": "The final sentence argues that schools should not try to remove technology completely, but rather teach students to use it purposefully and responsibly. This is a reasonable position because banning technology entirely ignores its genuine educational value, while uncontrolled access leads to distraction."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit8-lesson4-listen1.mp3",
-      "transcript": "Good descriptive writing uses all five senses: sight, sound, smell, taste, and touch. Don't rely only on visual descriptions. For example: 'The market was crowded' is vague. Better: 'The market overflowed with people. Vendors shouted prices, spices perfumed the air, and colorful fabrics hung from every stall.' This appeals to sight, sound, and smell, creating a complete picture.",
-      "question": "How many senses should descriptive writing use?",
-      "options": [
-        "Only sight",
-        "Sight and sound only",
-        "All five senses when possible",
-        "Just one is enough"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit8-lesson4-listen2.mp3",
-      "transcript": "'Show, don't tell' means using concrete details instead of abstract statements. Don't write 'She was sad.' Show it: 'Tears streamed down her cheeks.' Don't write 'The house was old.' Show it: 'Paint peeled from the walls and floorboards creaked with every step.' Specific actions and details are more powerful than labels.",
-      "question": "What does 'show, don't tell' mean?",
-      "options": [
-        "Use pictures instead of words",
-        "Use concrete details instead of abstract statements",
-        "Write very long descriptions",
-        "Never use adjectives"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit8-lesson4-listen3.mp3",
-      "transcript": "Replace vague words with specific ones. Vague: 'nice, good, bad, thing, stuff.' Specific: instead of 'nice weather,' say 'warm sunshine and gentle breeze.' Instead of 'good food,' say 'tender grilled salmon with lemon butter sauce.' Specific words create vivid mental images; vague words leave readers confused about what you mean.",
-      "question": "Why should you replace vague words?",
-      "options": [
-        "To make writing longer",
-        "To sound smarter",
-        "To create vivid mental images",
-        "Because vague words aren't real English"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe your favorite food using all five senses (sight, smell, taste, texture, sound if applicable). Don't just say it's 'delicious' - show what makes it special. Record for 30 seconds.",
-      "example": "My favorite food is my mother's homemade sambusas. They're golden-brown triangular pastries, perfectly crispy on the outside. When you break one open, you can see the steaming filling - spiced ground beef mixed with onions and peppers. The aroma is incredible - cumin, coriander, and a hint of chili. When you bite into it, you hear the satisfying crunch of the flaky pastry, followed by the soft, savory filling. The taste is complex - the rich meat flavored with traditional spices, a little heat from the peppers, balanced by the buttery pastry. The texture contrasts perfectly - crispy outside, tender inside. Every bite takes me back to my mother's kitchen in Somalia.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Take this vague sentence and make it vivid using sensory details: 'The restaurant was nice.' Record for 20 seconds.",
-      "example": "Instead of saying 'The restaurant was nice,' I would write: 'The restaurant welcomed us with warm amber lighting and the rich aroma of garlic and herbs. Soft jazz played in the background while waiters in crisp white shirts moved smoothly between tables. The walls displayed local artwork in vibrant colors, and fresh flowers sat on each table. You could hear the quiet clinking of glasses and the murmur of happy conversation. The atmosphere felt cozy and elegant at the same time.'",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Rewrite these vague sentences with specific, sensory details: 1) 'The weather was bad.' 2) 'She looked sad.' 3) 'The house was old.' (60-80 words total)",
-      "min_words": 60,
-      "example": "Here are the revised sentences with specific details:\n\n1) Vague: 'The weather was bad.' Vivid: 'Dark clouds covered the sky, and icy rain fell in sheets. Wind howled through the streets, bending tree branches and sending trash cans rolling.'\n\n2) Vague: 'She looked sad.' Vivid: 'Tears streamed down her face, and her shoulders shook with quiet sobs. She stared at the floor, unable to meet anyone's eyes.'\n\n3) Vague: 'The house was old.' Vivid: 'Paint peeled from the weathered walls in long strips. The porch sagged in the middle, and several window panes were cracked or missing entirely.'",
-      "min_words": 60
-    },
-    {
-      "id": "write-2",
-      "prompt": "Describe a place that's special to you using sensory details (sight, sound, smell, and at least one other sense). Make the reader feel like they're there. (90-110 words)",
-      "min_words": 90,
-      "example": "Lido Beach in Mogadishu holds my most treasured childhood memories. The beach stretched endlessly, with powder-white sand that felt warm and soft between my toes. Turquoise waves rolled onto the shore with a rhythmic whooshing sound, leaving foam that sparkled in the intense African sun. The air always carried the sharp, clean scent of salt water mixed with the smell of fresh fish from the nearby market. You could hear children's laughter echoing across the beach and vendors calling out, selling grilled corn and sweet coconuts. In the late afternoon, the heat would soften, and families gathered to watch the sunset paint the sky in brilliant oranges and pinks. The cool evening breeze would pick up, bringing relief from the day's heat. Even now, thousands of miles away, I can close my eyes and feel that sand, smell that ocean, and hear those waves.",
-      "min_words": 90
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Specific Adjectives",
-      "explanation": "Use specific adjectives instead of vague ones to create vivid descriptions.",
-      "examples": [
-        "Vague: 'The house was big.' Specific: 'The house was enormous/massive/towering.'",
-        "Vague: 'The car was old.' Specific: 'The car was ancient/rusty/dilapidated.'",
-        "Vague: 'The food was good.' Specific: 'The food was savory/tender/aromatic.'",
-        "Vague: 'She felt bad.' Specific: 'She felt devastated/anxious/guilty.'"
-      ],
-      "practice": [
-        {"sentence": "The sky was ___. (specific, not 'nice')", "blank": "azure", "options": ["nice", "azure", "good"]},
-        {"sentence": "The building was ___. (specific, not 'big')", "blank": "towering", "options": ["big", "towering", "nice"]},
-        {"sentence": "The coffee was ___. (specific, not 'good')", "blank": "rich", "options": ["good", "rich", "nice"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Present Participles as Adjectives",
-      "explanation": "Use -ing forms as adjectives to add action and life to descriptions.",
-      "examples": [
-        "The sparkling water reflected sunlight. (sparkling describes water)",
-        "Laughing children played in the park. (laughing describes children)",
-        "The howling wind shook the trees. (howling describes wind)",
-        "Blooming flowers filled the garden. (blooming describes flowers)"
-      ],
-      "practice": [
-        {"sentence": "The ___ stars lit the night.", "blank": "twinkling", "options": ["twinkle", "twinkling", "twinkled"]},
-        {"sentence": "___ leaves covered the ground.", "blank": "Falling", "options": ["Fall", "Falling", "Fell"]},
-        {"sentence": "The ___ fire kept us warm.", "blank": "crackling", "options": ["crackle", "crackling", "crackled"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Sensory Verbs",
-      "explanation": "Use verbs that appeal to senses: look, sound, smell, taste, feel.",
-      "examples": [
-        "The bread smelled fresh and yeasty. (smell)",
-        "The music sounded cheerful and lively. (sound)",
-        "The fabric felt soft and silky. (touch)",
-        "The soup tasted rich and savory. (taste)"
-      ],
-      "practice": [
-        {"sentence": "The flowers ___ sweet.", "blank": "smelled", "options": ["smelled", "looked", "sounded"]},
-        {"sentence": "The bells ___ clear and bright.", "blank": "sounded", "options": ["smelled", "tasted", "sounded"]},
-        {"sentence": "The silk ___ smooth.", "blank": "felt", "options": ["felt", "sounded", "tasted"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's original description of the park?", "options": ["It was beautiful", "It was nice", "It was amazing", "It was perfect"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "How many senses should good descriptive writing use?", "options": ["Only one", "Only sight", "All five when possible", "Just two"], "correct": 2, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does 'show, don't tell' mean?", "options": ["Use pictures", "Use concrete details instead of labels", "Write longer descriptions", "Use complicated words"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Which is more specific?", "options": ["The weather was bad", "Rain poured down and wind howled", "It wasn't nice out", "Conditions were poor"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Vague words like 'nice' and 'good' create vivid mental images.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Descriptive writing should appeal to multiple senses.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The ___ stars filled the sky. (present participle)", "correct": "twinkling", "accept": ["twinkling", "shining", "sparkling"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "The bread ___ fresh. (sensory verb)", "correct": "smelled", "accept": ["smelled"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match sense to example:", "pairs": [{"left": "Sight", "right": "Azure sky"}, {"left": "Sound", "right": "Birds singing"}, {"left": "Smell", "right": "Fresh bread"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Replace 'The house was old' with:", "options": ["The house was very old", "Paint peeled from weathered walls", "The house was ancient", "It was an old building"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "The Passive Voice",
+    "explanation": "The passive voice is used when the action, rather than the person doing the action, is the focus. It is formed with a form of 'be' + past participle (e.g. is used, was banned, has been introduced). The passive is common in formal and academic writing, and in discussions of technology, science, and policy. We use 'by' to introduce the agent (the person or thing performing the action) when it is important or unknown.",
+    "examples": [
+      {
+        "sentence": "Apps designed specifically for language learning are downloaded by millions of students each year.",
+        "note": "Passive voice: 'are downloaded' (be + past participle). The focus is on the apps and how widely they are used, not on who downloads them specifically."
+      },
+      {
+        "sentence": "In France, mobile phones were banned from primary and secondary schools in 2018.",
+        "note": "Past passive: 'were banned'. The agent (the French government) is not mentioned because the focus is on the policy itself."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite in the passive: 'Millions of students use educational apps every day.'",
+        "answer": "Educational apps are used by millions of students every day."
+      },
+      {
+        "sentence": "Rewrite in the passive: 'Researchers have conducted studies on smartphone use in schools.'",
+        "answer": "Studies on smartphone use in schools have been conducted by researchers."
+      },
+      {
+        "sentence": "Rewrite in the passive: 'The school introduced a new policy on mobile phone use last year.'",
+        "answer": "A new policy on mobile phone use was introduced by the school last year."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "sensory", "definition": "relating to the physical senses", "example": "Use sensory details in descriptions."},
-    {"word": "vivid", "definition": "producing powerful, clear mental images", "example": "Her writing is very vivid."},
-    {"word": "imagery", "definition": "descriptive language creating mental pictures", "example": "The poem uses beautiful imagery."},
-    {"word": "descriptive", "definition": "giving detailed account of something", "example": "Write a descriptive paragraph."},
-    {"word": "specific", "definition": "clearly defined or identified", "example": "Use specific, not vague, words."},
-    {"word": "vague", "definition": "unclear or imprecise", "example": "Avoid vague descriptions."},
-    {"word": "concrete", "definition": "specific and tangible rather than abstract", "example": "Give concrete examples."},
-    {"word": "evoke", "definition": "bring to mind or memory", "example": "The description evokes the scene."},
-    {"word": "portray", "definition": "describe or represent", "example": "Portray the character vividly."},
-    {"word": "depict", "definition": "show or represent in writing", "example": "Depict the scene with details."}
+  "vocabulary_in_context": [
+    {
+      "word": "sparked",
+      "definition": "caused something to start or be triggered, especially a reaction or discussion",
+      "example_sentence": "Their presence in schools has sparked significant debate among educators, parents, and policymakers.",
+      "collocations": ["sparked debate", "sparked controversy", "sparked a reaction"],
+      "register": "neutral"
+    },
+    {
+      "word": "substantial",
+      "definition": "large in amount, size, or importance",
+      "example_sentence": "It is estimated that over five billion web searches are conducted every day, and a substantial proportion of these are made by students.",
+      "collocations": ["substantial proportion", "substantial amount", "substantial evidence"],
+      "register": "formal"
+    },
+    {
+      "word": "restrict",
+      "definition": "to put a limit on the use or availability of something",
+      "example_sentence": "Similar restrictions have since been adopted in other nations.",
+      "collocations": ["restrictions on", "restrict access", "impose restrictions"],
+      "register": "formal"
+    },
+    {
+      "word": "purposefully",
+      "definition": "with a clear intention and goal; deliberately and meaningfully",
+      "example_sentence": "The challenge for schools is to ensure that technology is used purposefully and responsibly.",
+      "collocations": ["used purposefully", "act purposefully", "purposeful learning"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "American creative writing classes heavily emphasize 'show, don't tell' - it's a foundational principle.",
-    "Food writing and restaurant reviews in American culture are very detailed and sensory-focused.",
-    "Travel writing in the U.S. uses vivid descriptions to transport readers to places.",
-    "American publishers value 'strong voice' in writing - specific, vivid language creates unique voice.",
-    "The phrase 'paint a picture with words' is commonly used in American writing instruction.",
-    "Nature writing (describing landscapes, seasons, wildlife) has a long tradition in American literature."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "Your child's school is considering banning smartphones during the school day. Parents have been invited to share their views at a meeting.",
+    "prompt": "Give your opinion on whether smartphones should be banned from schools. Give at least two reasons to support your view and acknowledge one argument from the opposing side. Use the passive voice at least twice in your response.",
+    "useful_language": [
+      "In my opinion, smartphones should be...",
+      "It has been shown that...",
+      "I believe that when used responsibly, devices can be...",
+      "On the other hand, it is argued that...",
+      "Stricter policies need to be introduced..."
+    ],
+    "model_answer": "In my opinion, smartphones should not be banned entirely, but their use needs to be much more carefully managed. It has been shown that when phones are used for non-academic purposes, students retain significantly less information. However, I also believe that when devices are used purposefully, they can be a powerful tool for learning. A clear policy should be introduced that allows phones during specific activities but restricts them during direct instruction. Simply banning them does not teach young people the responsible digital habits they will need throughout their lives."
+  },
+  "writing_workshop": {
+    "model_text": "The internet has been described as the most significant educational development of the past thirty years. Vast amounts of information are now made available to students at no cost, and online courses are offered by some of the world's leading universities to learners of all ages. However, concerns have been raised about the quality of online content and the risk of distraction. For this reason, students need to be taught how to evaluate sources critically and use digital tools effectively.",
+    "model_analysis": "This paragraph is effective because it uses the passive voice consistently to maintain a formal, impersonal academic tone, and it presents a balanced view by acknowledging both benefits and concerns.",
+    "task": "Write a paragraph of 100-150 words about how the internet is used in education today. Discuss both the benefits and at least one drawback. Use the passive voice at least four times throughout your paragraph.",
+    "success_criteria": [
+      "Uses the passive voice correctly at least four times (with appropriate form of 'be' + past participle)",
+      "Presents at least two benefits and one drawback of internet use in education",
+      "Maintains a formal, balanced academic tone throughout"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Which sentence is written in the passive voice?",
+      "options": [
+        "Students use educational apps every day.",
+        "The teacher explained the new policy.",
+        "Mobile phones were banned from schools in France.",
+        "Parents debated the issue at the meeting."
+      ],
+      "correct": 2,
+      "explanation": "'Were banned' is passive voice (be + past participle). The other sentences are all active voice — they have a clear subject performing the action."
+    },
+    {
+      "id": 2,
+      "question": "How is the passive voice formed?",
+      "options": [
+        "Subject + have + verb + -ing",
+        "Subject + be + past participle",
+        "Subject + will + have + verb",
+        "Subject + verb + object"
+      ],
+      "correct": 1,
+      "explanation": "The passive voice is formed with a form of 'be' (am, is, are, was, were, has been, etc.) followed by the past participle of the main verb."
+    },
+    {
+      "id": 3,
+      "question": "Rewrite this sentence in the passive: 'Researchers have conducted many studies on this topic.'",
+      "options": [
+        "Many studies have been conducted on this topic.",
+        "Many studies were conducted on this topic by researchers.",
+        "This topic has conducted many studies.",
+        "Studies are conducting on this topic."
+      ],
+      "correct": 0,
+      "explanation": "'Have been conducted' is the correct present perfect passive. The agent ('by researchers') can be omitted when it is obvious or unimportant."
+    },
+    {
+      "id": 4,
+      "question": "According to the passage, what is the main challenge for schools regarding technology?",
+      "options": [
+        "To ban all smartphones immediately",
+        "To provide every student with a device",
+        "To ensure technology is used purposefully and responsibly",
+        "To replace teachers with technology"
+      ],
+      "correct": 2,
+      "explanation": "The passage concludes: 'The challenge for schools is not to eliminate technology, but to ensure that it is used purposefully and responsibly.'"
+    }
   ]
 }

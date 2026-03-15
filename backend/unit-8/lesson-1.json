@@ -2,237 +2,179 @@
   "id": "lesson-45",
   "unit_id": 8,
   "lesson_number": 1,
-  "title": "Sentence Structure Basics",
+  "title": "School Enrolment and the Education System",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Identify complete sentences vs. fragments",
-    "Avoid run-on sentences",
-    "Combine sentences effectively",
-    "Vary sentence length for better writing"
+    "Understand and use vocabulary related to school enrolment procedures and education systems",
+    "Apply modal verbs of obligation and necessity (must, have to, should, need to) accurately in educational contexts",
+    "Discuss the importance of education and compare school systems across cultures",
+    "Write a formal paragraph explaining enrolment requirements for a new student"
   ],
-  "target_phrases": [
-    "A complete sentence has...",
-    "This is a fragment because...",
-    "These two sentences can be combined with...",
-    "This sentence is too long, so...",
-    "The subject is... and the verb is...",
-    "To fix this run-on...",
-    "A better way to write this is..."
-  ],
-  "dialogue": {
-    "title": "Writing Workshop at Work",
-    "context": "Ahmed's supervisor helps him improve his written communication at work by reviewing an email he wrote.",
-    "lines": [
-      {"speaker": "Supervisor", "text": "Ahmed, thanks for sending me that email draft. Let's go through it together to make it clearer."},
-      {"speaker": "Ahmed", "text": "Sure! I want to improve my writing. What did I do wrong?"},
-      {"speaker": "Supervisor", "text": "Look at this first line: 'Need to order more supplies.' That's a sentence fragment because it doesn't have a subject."},
-      {"speaker": "Ahmed", "text": "Oh! Should it be 'We need to order more supplies'?"},
-      {"speaker": "Supervisor", "text": "Exactly! A complete sentence needs a subject and a verb. Now look at this one: 'The printer is broken we need a new one the old one is too expensive to fix.'"},
-      {"speaker": "Ahmed", "text": "That sounds wrong when I read it out loud. It's too long?"},
-      {"speaker": "Supervisor", "text": "Yes, it's a run-on sentence - actually three sentences combined without proper punctuation. You could write: 'The printer is broken. We need a new one because the old one is too expensive to fix.'"},
-      {"speaker": "Ahmed", "text": "So I broke it into two sentences and used 'because' to connect ideas?"},
-      {"speaker": "Supervisor", "text": "Perfect! You're getting it. Here's another tip: vary your sentence length. If all sentences are the same length, writing becomes boring."},
-      {"speaker": "Ahmed", "text": "How do I vary them?"},
-      {"speaker": "Supervisor", "text": "Mix short, clear sentences with longer, more detailed ones. For example: 'The meeting went well. We discussed the new project, reviewed the timeline, and assigned tasks to team members.'"},
-      {"speaker": "Ahmed", "text": "Oh, I see! Short sentence, then a longer one with more information."},
-      {"speaker": "Supervisor", "text": "Exactly! Keep practicing and your writing will improve quickly."}
+  "reading_passage": {
+    "title": "Starting School in a New Country",
+    "text": "For many immigrant families, enrolling children in school is one of the first and most important tasks after arriving in a new country. The process can feel overwhelming, particularly when parents are unfamiliar with the local education system and are still developing their language skills.\n\nIn most public school systems, children must attend school from around age five or six until they are at least sixteen. Parents have to provide certain documents when enrolling, including proof of address, vaccination records, and the child's birth certificate. Schools are required by law to accept all children, regardless of immigration status.\n\nMany districts offer enrolment support services, including translators and parent liaisons who speak multiple languages. These professionals help families understand what is expected of students and parents. For example, parents should attend scheduled parent-teacher conferences and need to inform the school if their child will be absent.\n\nSchools also have to assess new students to determine the appropriate grade level and whether additional language support is needed. Students who are learning English as a second language are entitled to receive extra help through English Language Learner programmes.\n\nExperts emphasise that early school enrolment significantly improves long-term outcomes for children. According to education researchers, children who start school on time and attend regularly develop stronger academic and social skills than those who begin late or miss school frequently.",
+    "source": "Adapted from the National Parent Teacher Association Guide to School Enrolment",
+    "glossary": [
+      {"word": "enrolment", "meaning": "the process of officially registering someone in a school or programme"},
+      {"word": "liaison", "meaning": "a person who acts as a link between groups to ensure communication"},
+      {"word": "vaccination records", "meaning": "official documents showing which vaccines a child has received"},
+      {"word": "entitled", "meaning": "having a right to receive or do something"},
+      {"word": "assess", "meaning": "to evaluate or measure someone's level of knowledge or skill"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Complete sentences",
-      "pattern": "[Subject] + [Verb] + [rest of sentence]",
-      "examples": [
-        "Ahmed writes emails every day.",
-        "The team finished the project on time.",
-        "She needs more time to complete the report.",
-        "We discussed the problem during the meeting.",
-        "The manager approved the budget."
-      ]
+      "type": "literal",
+      "question": "What three documents do parents typically have to provide when enrolling a child in school?",
+      "answer": "Parents have to provide proof of address, vaccination records, and the child's birth certificate."
     },
     {
-      "id": "drill-2",
-      "focus": "Combining sentences with conjunctions",
-      "pattern": "[Sentence 1], and/but/or/so [Sentence 2]",
-      "examples": [
-        "I finished the report, and I sent it to my boss.",
-        "The deadline is tomorrow, but we're almost done.",
-        "We can meet on Monday, or we can reschedule for Tuesday.",
-        "The printer broke, so we ordered a new one.",
-        "She studied hard, and she passed the test."
-      ]
+      "type": "inference",
+      "question": "Why do you think the passage mentions that schools must accept children regardless of immigration status?",
+      "answer": "Because many immigrant families may fear that their legal status could prevent their children from accessing education. The passage reassures them that this is a legal right, not a privilege."
     },
     {
-      "id": "drill-3",
-      "focus": "Complex sentences with subordinating conjunctions",
-      "pattern": "[Main clause] because/although/when/if [subordinate clause]",
-      "examples": [
-        "We need a new printer because the old one is broken.",
-        "I'll finish the report when I have more information.",
-        "Although it's difficult, I'm learning to write better.",
-        "If you need help, please ask your supervisor.",
-        "She arrived late because there was traffic."
-      ]
+      "type": "vocabulary",
+      "question": "In the passage, what does the word 'liaison' mean, and why are parent liaisons important for immigrant families?",
+      "answer": "A liaison is someone who acts as a link between two groups. Parent liaisons help immigrant families communicate with the school by providing translation and explaining expectations."
+    },
+    {
+      "type": "inference",
+      "question": "Based on the final paragraph, what can you infer about the relationship between school attendance and a child's future success?",
+      "answer": "Children who start school on time and attend regularly are likely to have better academic and social outcomes in the long term, suggesting that consistent attendance is crucial for a child's development."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit8-lesson1-listen1.mp3",
-      "transcript": "A complete sentence must have a subject and a verb, and it must express a complete thought. Fragment: 'Running to the store.' This has a verb but no clear subject or complete thought. Complete: 'I am running to the store.' This has a subject (I), verb (am running), and complete thought. Always check: Can this stand alone as a complete idea?",
-      "question": "What must a complete sentence have?",
-      "options": [
-        "Only a verb",
-        "Only a subject",
-        "Subject, verb, and complete thought",
-        "At least 10 words"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit8-lesson1-listen2.mp3",
-      "transcript": "Run-on sentences happen when you connect multiple sentences without proper punctuation or conjunctions. Wrong: 'I went to the store I bought milk I came home.' Right: 'I went to the store, bought milk, and came home.' Or: 'I went to the store. I bought milk. Then I came home.' Use periods, semicolons, or conjunctions to fix run-ons.",
-      "question": "How can you fix a run-on sentence?",
-      "options": [
-        "Make it even longer",
-        "Remove all punctuation",
-        "Use periods, semicolons, or conjunctions",
-        "Just add commas everywhere"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit8-lesson1-listen3.mp3",
-      "transcript": "Three sentence types: Simple sentences have one subject and verb. Compound sentences join two independent clauses with conjunctions. Complex sentences have one independent clause and one dependent clause. Example: Simple - 'She runs.' Compound - 'She runs, and he walks.' Complex - 'She runs because she enjoys exercise.' Varying sentence types makes writing more interesting.",
-      "question": "What is a compound sentence?",
-      "options": [
-        "One subject and verb",
-        "Two independent clauses joined",
-        "No subject",
-        "Only dependent clauses"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Explain the difference between a complete sentence and a fragment. Give one example of each. Record for 25 seconds.",
-      "example": "A complete sentence has a subject, a verb, and expresses a complete thought. For example: 'Ahmed writes emails at work.' This has a subject (Ahmed), a verb (writes), and a complete idea. A fragment is incomplete. For example: 'Writing emails at work.' This has a verb form but no clear subject and doesn't express a complete thought. To fix this fragment, I could write 'I am writing emails at work' or 'Ahmed is writing emails at work.' Understanding this difference helps you write more clearly.",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Take this run-on sentence and explain how to fix it: 'I woke up I ate breakfast I went to work I had a meeting.' Record for 20 seconds.",
-      "example": "This is a run-on sentence because it connects four separate ideas without proper punctuation or conjunctions. To fix it, I could break it into separate sentences: 'I woke up. I ate breakfast. Then I went to work and had a meeting.' Or I could use conjunctions: 'I woke up, ate breakfast, and went to work, where I had a meeting.' Both ways are correct and clearer than the run-on.",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Fix these fragments and run-ons. Then rewrite them as correct sentences: 1) 'Need more time.' 2) 'The project is done we finished early it was easier than expected.' (50-70 words)",
-      "min_words": 50,
-      "example": "Here are the corrected sentences:\n\n1) Fragment: 'Need more time.' Fixed: 'I need more time to complete the assignment.' This now has a subject (I), a verb (need), and expresses a complete thought.\n\n2) Run-on: 'The project is done we finished early it was easier than expected.' Fixed: 'The project is done. We finished early because it was easier than expected.' I broke the run-on into two sentences and used 'because' to show the relationship between the ideas.",
-      "min_words": 50
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write 5 sentences about your daily routine. Use a mix of simple, compound, and complex sentences. (60-80 words)",
-      "min_words": 60,
-      "example": "I wake up at 6 AM every day. I exercise for 30 minutes before breakfast because it gives me energy for the day. After breakfast, I go to work, and I usually arrive by 8 AM. Although my job is challenging, I enjoy working with my team. We have meetings in the morning, and then I work on my projects. When I finish work at 5 PM, I go home and spend time with my family. This routine helps me stay organized and productive.",
-      "min_words": 60
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Simple, Compound, and Complex Sentences",
-      "explanation": "Simple = one independent clause. Compound = two independent clauses joined. Complex = independent + dependent clause.",
-      "examples": [
-        "She works. (simple: one independent clause)",
-        "She works, and he studies. (compound: two independent clauses)",
-        "She works because she needs money. (complex: independent + dependent)",
-        "When it rains, we stay inside. (complex: dependent + independent)"
-      ],
-      "practice": [
-        {"sentence": "I eat lunch. (This is a ___ sentence)", "blank": "simple", "options": ["simple", "compound", "complex"]},
-        {"sentence": "I eat lunch, and she drinks coffee. (This is ___)", "blank": "compound", "options": ["simple", "compound", "complex"]},
-        {"sentence": "I eat lunch when I'm hungry. (This is ___)", "blank": "complex", "options": ["simple", "compound", "complex"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conjunctions for Combining Sentences",
-      "explanation": "Use FANBOYS (for, and, nor, but, or, yet, so) to join independent clauses with a comma.",
-      "examples": [
-        "I was tired, so I went to bed. (result)",
-        "She studied, but she didn't pass. (contrast)",
-        "We can walk, or we can drive. (choice)",
-        "He's smart, and he's kind. (addition)"
-      ],
-      "practice": [
-        {"sentence": "It rained, ___ we stayed inside.", "blank": "so", "options": ["so", "and", "or"]},
-        {"sentence": "I'm tired, ___ I'll keep working.", "blank": "but", "options": ["but", "and", "so"]},
-        {"sentence": "She can call, ___ she can text.", "blank": "or", "options": ["or", "and", "but"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Subordinating Conjunctions for Complex Sentences",
-      "explanation": "Use words like because, although, when, if, since to create dependent clauses.",
-      "examples": [
-        "I stayed home because I was sick. (reason)",
-        "Although it's cold, I'll go outside. (contrast)",
-        "When she arrives, we'll start. (time)",
-        "If you need help, ask me. (condition)"
-      ],
-      "practice": [
-        {"sentence": "I left early ___ I had an appointment.", "blank": "because", "options": ["because", "and", "but"]},
-        {"sentence": "___ it's expensive, I'll buy it.", "blank": "Although", "options": ["And", "Although", "But"]},
-        {"sentence": "Call me ___ you arrive.", "blank": "when", "options": ["when", "and", "but"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with 'Need to order more supplies'?", "options": ["Too long", "No subject", "No verb", "Perfect"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What is a run-on sentence?", "options": ["A very long sentence", "Multiple sentences without proper punctuation", "A sentence with errors", "A short sentence"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does a complete sentence need?", "options": ["Only a subject", "Only a verb", "Subject, verb, and complete thought", "10+ words"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "I work, ___ she studies. (compound sentence)", "options": ["and", "because", "when", "if"], "correct": 0, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "A fragment can stand alone as a complete thought.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Varying sentence length makes writing more interesting.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "I left ___ I was tired. (subordinating conjunction)", "correct": "because", "accept": ["because", "since"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "She works, ___ he studies. (FANBOYS)", "correct": "and", "accept": ["and", "but", "so"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match sentence type:", "pairs": [{"left": "Simple", "right": "One clause"}, {"left": "Compound", "right": "Two independent clauses"}, {"left": "Complex", "right": "Independent + dependent"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Which is a complete sentence?", "options": ["Running to work.", "Because I was late.", "I ran to work.", "When I arrived."], "correct": 2, "points": 10}
+  "language_focus": {
+    "title": "Modal Verbs for Obligation and Necessity",
+    "explanation": "Modal verbs express different degrees of obligation or necessity. 'Must' and 'have to' express strong obligation — often a rule or law. 'Should' expresses a recommendation or what is considered correct behaviour. 'Need to' focuses on what is necessary in a particular situation. Understanding the difference helps you communicate expectations clearly and appropriately.",
+    "examples": [
+      {
+        "sentence": "Parents have to provide proof of address when enrolling their child.",
+        "note": "'Have to' describes an external rule or requirement — the school demands this document."
+      },
+      {
+        "sentence": "Parents should attend scheduled parent-teacher conferences.",
+        "note": "'Should' is a strong recommendation rather than a strict legal rule — it is expected good behaviour."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Students ___ (attend) school until the age of sixteen by law. Use 'must' or 'have to'.",
+        "answer": "Students must / have to attend school until the age of sixteen by law."
+      },
+      {
+        "sentence": "You ___ (bring) your child's vaccination records to the enrolment meeting. It is required.",
+        "answer": "You must / have to bring your child's vaccination records to the enrolment meeting."
+      },
+      {
+        "sentence": "If your child is going to be absent, you ___ (inform) the school as soon as possible. It is the right thing to do.",
+        "answer": "If your child is going to be absent, you should inform the school as soon as possible."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "sentence", "definition": "group of words expressing complete thought", "example": "Write a complete sentence."},
-    {"word": "fragment", "definition": "incomplete sentence", "example": "This is a fragment."},
-    {"word": "clause", "definition": "group of words with subject and verb", "example": "Each clause has a verb."},
-    {"word": "subject", "definition": "who or what the sentence is about", "example": "The subject is 'Ahmed.'"},
-    {"word": "predicate", "definition": "part of sentence with verb", "example": "The predicate tells what the subject does."},
-    {"word": "conjunction", "definition": "word that connects clauses", "example": "And, but, because are conjunctions."},
-    {"word": "coordination", "definition": "joining equal parts", "example": "Use coordination for compound sentences."},
-    {"word": "subordination", "definition": "making one clause dependent on another", "example": "Subordination creates complex sentences."},
-    {"word": "punctuation", "definition": "marks that organize writing", "example": "Correct punctuation is essential."},
-    {"word": "structure", "definition": "way something is organized", "example": "Sentence structure affects clarity."}
+  "vocabulary_in_context": [
+    {
+      "word": "overwhelming",
+      "definition": "so large, difficult, or intense that it is hard to deal with",
+      "example_sentence": "The process can feel overwhelming, particularly when parents are unfamiliar with the local education system.",
+      "collocations": ["feel overwhelming", "find something overwhelming", "an overwhelming amount of"],
+      "register": "neutral"
+    },
+    {
+      "word": "regardless of",
+      "definition": "without being affected or influenced by something",
+      "example_sentence": "Schools are required by law to accept all children, regardless of immigration status.",
+      "collocations": ["regardless of status", "regardless of background", "regardless of ability"],
+      "register": "formal"
+    },
+    {
+      "word": "emphasise",
+      "definition": "to give special importance or attention to something",
+      "example_sentence": "Experts emphasise that early school enrolment significantly improves long-term outcomes for children.",
+      "collocations": ["strongly emphasise", "experts emphasise", "emphasise the importance of"],
+      "register": "formal"
+    },
+    {
+      "word": "entitled",
+      "definition": "having a legal or moral right to receive or do something",
+      "example_sentence": "Students who are learning English as a second language are entitled to receive extra help.",
+      "collocations": ["entitled to support", "legally entitled", "entitled to benefits"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "In American business writing, clear, concise sentences are highly valued. Avoid overly long, complex sentences.",
-    "Email writing in the U.S. tends to be direct and brief. Short, clear sentences work best.",
-    "Academic writing in American universities values varied sentence structure - mix simple and complex sentences.",
-    "Professional editors often recommend the 'one idea per sentence' rule for clarity.",
-    "Grammar-checking tools like Grammarly are widely used in American workplaces.",
-    "Many Americans learn the 'FANBOYS' acronym (For, And, Nor, But, Or, Yet, So) for coordinating conjunctions."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are speaking with a newly arrived neighbour who has a ten-year-old child. They are nervous about enrolling their child in the local school and are unsure what to do.",
+    "prompt": "Explain to your neighbour what they need to do to enrol their child in school. Tell them what documents they must bring, what rights their child has, and what they should expect from the school. Use modal verbs of obligation and necessity in your response.",
+    "useful_language": [
+      "You have to / must bring...",
+      "Your child is entitled to...",
+      "You should also...",
+      "The school is required to...",
+      "Don't worry, you don't need to..."
+    ],
+    "model_answer": "The first thing you have to do is contact your local school district and find out which school your child is assigned to based on your address. You must bring a few documents with you: proof of your address, your child's birth certificate, and their vaccination records. Don't worry — the school is required by law to accept your child regardless of your immigration status. You should also ask about English Language Learner support, because your child is entitled to extra help with language if they need it."
+  },
+  "writing_workshop": {
+    "model_text": "Enrolling a child in school for the first time can feel like a difficult process, but it does not have to be. Parents must gather a small number of key documents before their appointment, including proof of address and vaccination records. Schools are legally required to assist all families, and many provide translation services for those who need them. Once enrolled, children are entitled to a full education, including language support if necessary.",
+    "model_analysis": "This paragraph is effective because it uses modal verbs precisely to distinguish between legal requirements ('must', 'required to') and entitlements ('entitled to'), keeping the tone reassuring and informative.",
+    "task": "Write a paragraph of 100-150 words addressed to a parent who is about to enrol their child in school for the first time. Explain what they must do, what they should bring, and what support they can expect from the school. Use at least four different modal verbs (must, have to, should, need to, can) correctly.",
+    "success_criteria": [
+      "Uses at least four modal verbs correctly to express obligation, recommendation, or entitlement",
+      "Includes specific details about the enrolment process (documents, appointments, support services)",
+      "Maintains a clear, reassuring, and informative tone throughout"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what must schools do regarding children's immigration status?",
+      "options": [
+        "Check documents before accepting a child",
+        "Accept all children regardless of immigration status",
+        "Contact immigration authorities",
+        "Require a visa before enrolment"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Schools are required by law to accept all children, regardless of immigration status.'"
+    },
+    {
+      "id": 2,
+      "question": "Which sentence uses a modal verb to express a legal obligation?",
+      "options": [
+        "You might want to bring those documents.",
+        "You could try attending the meeting.",
+        "Children must attend school until age sixteen.",
+        "Parents would like to help at school."
+      ],
+      "correct": 2,
+      "explanation": "'Must' expresses a strong legal obligation. The other options express possibility, suggestion, or desire — not obligation."
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between 'must' and 'should' in the context of school rules?",
+      "options": [
+        "There is no difference — they mean the same thing",
+        "'Must' expresses a legal requirement; 'should' expresses a recommendation",
+        "'Should' is stronger than 'must'",
+        "'Must' is only used for past events"
+      ],
+      "correct": 1,
+      "explanation": "'Must' and 'have to' indicate rules or laws, while 'should' indicates what is considered appropriate or advisable behaviour."
+    },
+    {
+      "id": 4,
+      "question": "Which group of students is described as 'entitled to receive extra help' in the passage?",
+      "options": [
+        "Students with high grades",
+        "Students who arrive late",
+        "Students who are learning English as a second language",
+        "Students who are absent frequently"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'Students who are learning English as a second language are entitled to receive extra help through English Language Learner programmes.'"
+    }
   ]
 }

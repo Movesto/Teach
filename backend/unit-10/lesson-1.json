@@ -2,493 +2,231 @@
   "id": "lesson-57",
   "unit_id": 10,
   "lesson_number": 1,
-  "title": "Cross-Cultural Communication",
+  "title": "Navigating Cultural Difference: Communication, Norms, and Misreading",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
   "objectives": [
-    "Navigate cultural differences in professional contexts",
-    "Recognize and adapt to communication styles",
-    "Avoid cultural misunderstandings",
-    "Build culturally inclusive environments"
+    "Analyse the concept of culture as a dynamic, contested system rather than a fixed set of national characteristics",
+    "Evaluate the communicative risks of cultural essentialism and distinguish it from legitimate cultural generalisation",
+    "Construct nuanced accounts of cultural difference that acknowledge variation within groups and change over time",
+    "Deploy appropriate hedging and qualification when discussing cultural norms to avoid overgeneralisation"
   ],
-  "target_phrases": [
-    "In my culture, we tend to...",
-    "From a cross-cultural perspective...",
-    "I've noticed that cultural norms differ regarding...",
-    "To avoid misunderstanding...",
-    "Cultural context is important here because...",
-    "This might be interpreted differently depending on...",
-    "Let me clarify the cultural nuance..."
+  "authentic_text": {
+    "title": "The Danger of the Single Story: Culture, Communication, and the Limits of Cultural Intelligence",
+    "type": "article",
+    "text": "The corporate world's enthusiasm for 'cultural intelligence' — the capacity to work effectively across cultural contexts — has produced an industry of training programmes, toolkits, and frameworks, most of which share a common flaw: they treat culture as if it were a fixed property of national groups, reducible to a set of attributes that can be memorised and applied. Japanese business culture values hierarchy. Brazilians are relationship-oriented. Germans prefer directness. The problem is not that these observations are entirely wrong; it is that they are partially right in ways that are more dangerous than being entirely wrong.\n\nPartial cultural truths, deployed without qualification, produce a sophisticated form of stereotyping. The trainee who emerges from a cross-cultural programme knowing that their German counterpart 'values directness' may approach the relationship with a confident misreading that is harder to correct than ignorance would have been. What cultural frameworks typically fail to capture is within-group variation, generational change, individual personality, contextual modulation, and the degree to which any individual has internalised, adapted, or rejected the norms of their putative cultural group.\n\nWhat the novelist Chimamanda Ngozi Adichie called 'the danger of the single story' applies as acutely to cultural frameworks as to national narratives. To know only one story about a culture is to be prepared for a transaction, not a relationship. Genuine cross-cultural competence requires something harder than cultural knowledge: intellectual humility, the willingness to update one's working model of a person based on actual experience rather than prior categorisation.\n\nThis does not mean cultural context is irrelevant. It means that cultural knowledge is a starting point, not a conclusion — a hypothesis, not a fact.",
+    "source": "Adapted from Harvard Business Review, March 2025",
+    "notes": "Notice the structure: the text criticises a practice while acknowledging its partial validity. This concede-then-complicate structure is the hallmark of sophisticated analytical writing — practise it yourself."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What does the writer say cultural intelligence frameworks typically fail to capture?",
+      "answer": "Within-group variation, generational change, individual personality, contextual modulation, and the degree to which any individual has internalised, adapted, or rejected the norms of their cultural group."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer mean by saying that partial truths are 'more dangerous than being entirely wrong'?",
+      "answer": "An entirely false belief is easier to correct — it fails at the first encounter with reality. A partially true belief, however, feels validated by the cases where it is correct, making it resistant to revision even when it produces misreadings. The trainee who has been taught a cultural generalisation has more confidence than the person with no cultural knowledge, but that confidence is selectively, not consistently, warranted."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the writer's attitude toward the cross-cultural training industry? Give evidence.",
+      "answer": "The writer is critical but measured — they acknowledge the industry's intentions ('enthusiasm for cultural intelligence') and the partial validity of its observations, before systematically identifying what it gets wrong. The phrase 'sophisticated form of stereotyping' is the sharpest critique, and it is placed after the concession, which gives it greater force. The tone is analytical rather than dismissive."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'putative' mean in the phrase 'their putative cultural group'?",
+      "answer": "'Putative' means 'generally supposed to be' or 'reputed' — it carries an implicit note of doubt about whether the assumption is accurate. 'Their putative cultural group' means the cultural group they are assumed to belong to and identify with, with the implication that this assumption may not be accurate for this particular individual."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the function of the final line: 'cultural knowledge is a starting point, not a conclusion — a hypothesis, not a fact'?",
+      "answer": "The final line performs a resolution: having argued against treating cultural knowledge as definitive, the writer does not dismiss it entirely but reframes its appropriate use. The parallel structure ('starting point / conclusion', 'hypothesis / fact') is rhetorically elegant and provides a memorable, quotable summary of the argument's conclusion."
+    }
   ],
-  "dialogue": {
-    "title": "Managing a Multicultural Team",
-    "context": "Ahmed, now a supervisor, learns to manage cultural differences in his diverse team during a cultural competence training.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Hedging Cultural and Sociological Generalisations",
+    "explanation": "One of the most important advanced writing skills is the ability to make generalisations that are honest about their limitations. When writing about cultural patterns, social trends, or group behaviour, the writer faces a persistent tension: generalisations are necessary (without them, all we can say is that every individual is different, which is useless), but they risk producing overgeneralisation, stereotyping, or the erasure of within-group diversity.\n\nSophisticated writers hedge their generalisations using several strategies: frequency qualifiers ('tends to', 'is more likely to', 'in many cases'), epistemic markers ('it appears that', 'evidence suggests'), scope qualifiers ('in professional contexts', 'among older generations', 'in urban settings'), and acknowledgements of variation ('though with significant individual variation', 'this is not universal', 'exceptions exist').\n\nThe goal is not to make every claim so qualified as to be useless, but to signal the appropriate level of confidence and to acknowledge the complexity the reader already senses.",
+    "examples": [
       {
-        "speaker": "Trainer",
-        "text": "Today we're discussing cross-cultural communication. Ahmed, you manage a team with members from Mexico, China, Somalia, and the U.S. What challenges have you noticed?"
+        "from_text": "The problem is not that these observations are entirely wrong; it is that they are partially right in ways that are more dangerous than being entirely wrong.",
+        "analysis": "The writer uses a two-part structure that first concedes partial validity ('not entirely wrong') before identifying the problem ('partially right in dangerous ways'). This is not a hedge — it is a precise epistemic claim about the nature of the problem. It models how to make a nuanced critique without either dismissing or endorsing the target."
       },
       {
-        "speaker": "Ahmed",
-        "text": "Communication styles vary significantly. My Chinese team member, Lin, rarely speaks up in meetings, even when she has good ideas. My Mexican colleague, Carlos, is very direct and sometimes seems to interrupt."
+        "from_text": "a sophisticated form of stereotyping",
+        "analysis": "The modifier 'sophisticated' does important work: it distinguishes this from crude stereotyping (which the trainees would recognise and avoid), positioning the critique where it is harder to dismiss. 'Sophisticated stereotyping' is an oxymoron that forces the reader to reconsider what they thought was culturally sensitive training."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Research suggests that, on average, collectivist cultural norms tend to be more prevalent in East Asian professional contexts, though individual variation remains considerable.",
+        "informal": "Japanese people are more group-minded than Americans."
       },
       {
-        "speaker": "Trainer",
-        "text": "Those observations are worth exploring. Communication styles vary significantly between individuals and workplaces, not just countries. That said, some research suggests teams from cultures with higher \"power distance\" — where hierarchy is emphasized — may be less likely to challenge a manager publicly. This is not universal. Lin, for example, may simply prefer written feedback over speaking up in meetings — that's an individual preference, not a cultural rule. The key is to ask your team members directly: 'What communication style works best for you?'"
-      },
-      {
-        "speaker": "Lin",
-        "text": "Yes, in my culture, we tend to communicate indirectly and value group harmony over individual expression. I prefer to share ideas privately rather than in large meetings."
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Exactly. Meanwhile, Latin American and American cultures often value directness and active participation. Carlos, how do you view meeting participation?"
-      },
-      {
-        "speaker": "Carlos",
-        "text": "From my perspective, if I have something important to contribute, I should say it immediately. Waiting seems inefficient. But I've learned this might be interpreted differently depending on cultural background."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "I've noticed that cultural norms differ regarding hierarchy too. Some team members address me as 'Mr. Hassan,' while others use my first name. What's appropriate?"
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Cultural context is important here. In Somalia and many Asian cultures, formal titles show respect. In American workplace culture, first names signal equality and approachability. The key is explicit communication - tell your team what you prefer."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "How do I create an environment where everyone feels comfortable contributing, regardless of their cultural background?"
-      },
-      {
-        "speaker": "Trainer",
-        "text": "Excellent question. Use multiple communication channels - meetings for some, one-on-one conversations for others, written proposals for those who need processing time. To avoid misunderstanding, explicitly state that all input methods are valued equally."
-      },
-      {
-        "speaker": "Lin",
-        "text": "That would help me significantly. I express myself better in writing than in spontaneous verbal exchanges."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Let me clarify the cultural nuance for my team: we'll implement both group discussions and individual input options. Everyone's contribution matters, regardless of how it's delivered."
+        "formal": "It would appear that expectations around formal communication styles may differ across cultural contexts, though this pattern is subject to significant generational and contextual variation.",
+        "informal": "Different cultures have different ideas about how formal you need to be."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Explaining cultural perspectives",
-      "pattern": "In my culture, we tend to [cultural practice]",
-      "examples": [
-        "In my culture, we tend to avoid direct confrontation and use indirect communication.",
-        "In my culture, we tend to prioritize collective decisions over individual ones.",
-        "In my culture, we tend to show respect through formal titles and hierarchical language.",
-        "In my culture, we tend to value relationship-building before business discussions.",
-        "In my culture, we tend to view silence as thoughtful reflection, not discomfort."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Acknowledging cultural variability",
-      "pattern": "This might be interpreted differently depending on [cultural factor]",
-      "examples": [
-        "This gesture might be interpreted differently depending on cultural context - it's positive here but offensive elsewhere.",
-        "Eye contact might be interpreted differently depending on the culture - some view it as confidence, others as disrespect.",
-        "This communication style might be interpreted differently depending on whether the culture values directness or harmony.",
-        "Punctuality might be interpreted differently depending on cultural norms around time.",
-        "Feedback delivery might be interpreted differently depending on face-saving cultural values."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Preventing misunderstanding",
-      "pattern": "To avoid misunderstanding, [clarification strategy]",
-      "examples": [
-        "To avoid misunderstanding, let me clarify what I mean by 'urgent' in this context.",
-        "To avoid misunderstanding, I'll explicitly state my expectations rather than assuming shared understanding.",
-        "To avoid misunderstanding, let's establish how we'll handle disagreements on this multicultural team.",
-        "To avoid misunderstanding, I want to confirm we have the same definition of 'deadline.'",
-        "To avoid misunderstanding, let me explain the cultural context behind this decision."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit10-lesson1-listen1.mp3",
-      "transcript": "High-context versus low-context cultures shape communication fundamentally. High-context cultures (East Asian, Middle Eastern, Latin American) rely on implicit understanding, shared history, and nonverbal cues. Much is left unsaid because people share cultural knowledge. Low-context cultures (American, German, Scandinavian) prioritize explicit, direct communication where meaning is stated clearly in words. Neither is superior - they're different systems requiring adaptation when crossing cultural boundaries.",
-      "question": "What characterizes high-context cultures?",
-      "options": [
-        "Very direct communication",
-        "Reliance on implicit understanding and shared knowledge",
-        "Written contracts for everything",
-        "No nonverbal communication"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit10-lesson1-listen2.mp3",
-      "transcript": "Hofstede's cultural dimensions provide frameworks for understanding differences. Power distance measures acceptance of hierarchical inequality - high in Asian and Latin cultures, low in Scandinavian and American contexts. Individualism versus collectivism contrasts personal goals with group harmony. Uncertainty avoidance varies in comfort with ambiguity. Understanding these dimensions helps predict and navigate cultural differences in professional settings, though remember: these are generalizations, not absolute rules for individuals.",
-      "question": "What does 'power distance' measure?",
-      "options": [
-        "Physical distance between people",
-        "Acceptance of hierarchical inequality",
-        "Communication speed",
-        "Language proficiency"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit10-lesson1-listen3.mp3",
-      "transcript": "Cultural intelligence (CQ) encompasses four capabilities: cognitive (understanding cultural systems), metacognitive (awareness of your own cultural assumptions), motivational (interest in cross-cultural experiences), and behavioral (ability to adapt communication). Developing CQ requires humility about your own culture not being universal, curiosity about differences, and flexibility in adjusting behaviors. High CQ correlates with success in global business, diverse teams, and multicultural environments. It's a learnable skill, not innate.",
-      "question": "What are the four components of cultural intelligence?",
-      "options": [
-        "Reading, writing, speaking, listening",
-        "Cognitive, metacognitive, motivational, behavioral",
-        "Theory, practice, assessment, improvement",
-        "Language, customs, food, clothing"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe a cultural misunderstanding you've experienced or witnessed. Explain what happened, why it occurred, and how it could have been prevented. Use cross-cultural communication language. Record for 40 seconds.",
-      "example": "I'd like to share a cultural misunderstanding from my early months in America. In Somalia, we tend to avoid saying 'no' directly to maintain harmony and respect. When my supervisor asked if I could work overtime, I said 'I'll try,' which in my cultural context meant 'probably no, but I want to be polite.' She interpreted it as 'yes' because American communication tends to be more direct. When I didn't show up for overtime, she was frustrated. This might be interpreted differently depending on cultural communication styles - indirect versus direct. To avoid misunderstanding, I've learned to be more explicit: 'I appreciate you asking, but I have family commitments tonight so I cannot work overtime.' Cultural context is important here because what seems clear in one culture can be ambiguous in another. Now I clarify my meaning explicitly rather than relying on indirect communication that worked in my home culture.",
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You're leading a diverse team meeting. Explain how you'll ensure everyone can contribute comfortably despite different cultural communication styles. Record for 35 seconds.",
-      "example": "From a cross-cultural perspective, I recognize our team has varied communication preferences based on cultural backgrounds. To avoid misunderstanding and ensure inclusive participation, I'm implementing multiple input channels. During meetings, I'll use both open discussion and written chat for ideas - this accommodates both verbal and reflective communication styles. I've noticed that cultural norms differ regarding speaking up publicly, so I'll also follow up with one-on-one conversations for those who prefer private input. Additionally, I'll send agendas 24 hours in advance so everyone has processing time, which helps team members from cultures that value thoughtful preparation. Let me clarify the cultural nuance: all these input methods are equally valued - there's no 'better' way to contribute. This approach respects that in some cultures, people tend to communicate indirectly or prefer reflection before speaking.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a guide for your multicultural team explaining how to handle disagreements respectfully across cultures. Address different conflict styles. (120-150 words)",
-      "min_words": 120,
-      "example": "Guide to Cross-Cultural Conflict Resolution\n\nOur team represents diverse cultural backgrounds, which means we approach disagreements differently. Understanding these differences helps us resolve conflicts constructively.\n\nCultural Context: In some cultures, people tend to address conflicts directly and immediately. In others, indirect communication and third-party mediation are preferred to preserve relationships and avoid embarrassment. Neither approach is wrong - they reflect different cultural values.\n\nTeam Guidelines:\n1. Acknowledge that this might be interpreted differently depending on your cultural background.\n2. When disagreeing, focus on ideas, not people: 'I see it differently' rather than 'You're wrong.'\n3. To avoid misunderstanding, use 'I' statements: 'I'm concerned about...' instead of 'You always...'\n4. Respect different conflict resolution preferences - some prefer immediate discussion, others need reflection time.\n5. If direct conversation feels uncomfortable, written communication or supervisor mediation are acceptable alternatives.\n\nLet me clarify the cultural nuance: we value both harmony and honest feedback. All conflict resolution styles are welcomed if they're respectful and constructive."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write an email to international colleagues explaining an American workplace custom that might seem unusual from other cultural perspectives. Provide context. (100-120 words)",
-      "min_words": 100,
-      "example": "Subject: Understanding 'Business Casual' Dress Code\n\nDear International Team Members,\n\nI want to explain our 'business casual' dress code, which might be interpreted differently depending on your cultural background.\n\nIn American workplace culture, we tend to balance professionalism with comfort. 'Business casual' typically means:\n- No suits required (unless meeting clients)\n- Collared shirts, blouses, or sweaters acceptable\n- Jeans allowed on Fridays (called 'Casual Friday')\n- Sneakers generally acceptable\n\nCultural context is important here: This informality doesn't indicate lack of professionalism. In my culture, we tend to view casual dress as promoting equality and approachability rather than hierarchy. However, I recognize that in many cultures, formal business attire shows respect.\n\nTo avoid misunderstanding: dress at your comfort level within these guidelines. More formal clothing is always acceptable if you prefer.\n\nPlease let me know if you have questions.\n\nBest regards,\nAhmed"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Hedging Language for Cultural Sensitivity",
-      "explanation": "Use hedging to acknowledge cultural generalizations aren't absolute.",
-      "examples": [
-        "In my culture, we tend to value... (tends suggests general pattern, not rule)",
-        "This might be interpreted differently... (might acknowledges variability)",
-        "Generally speaking, many cultures... (qualifies generalization)",
-        "From my experience, some people... (limits claim to personal observation)"
-      ],
-      "practice": [
-        {
-          "sentence": "People from X culture ___ to prefer indirect communication.",
-          "blank": "tend",
-          "options": [
-            "always",
-            "tend",
-            "must"
-          ]
-        },
-        {
-          "sentence": "This ___ be interpreted differently.",
-          "blank": "might",
-          "options": [
-            "will",
-            "must",
-            "might"
-          ]
-        },
-        {
-          "sentence": "___ speaking, hierarchies matter more in some cultures.",
-          "blank": "Generally",
-          "options": [
-            "Always",
-            "Generally",
-            "Never"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conditional Clauses for Cross-Cultural Scenarios",
-      "explanation": "Use conditionals to discuss cultural variations and adaptations.",
-      "examples": [
-        "If you're from a high-context culture, you might prefer indirect feedback.",
-        "If cultural norms differ, we should discuss expectations explicitly.",
-        "If this seems unusual, it may reflect different cultural values.",
-        "If we were in Japan, this behavior would be considered rude."
-      ],
-      "practice": [
-        {
-          "sentence": "If you ___ from a collectivist culture, group harmony may be prioritized.",
-          "blank": "are",
-          "options": [
-            "are",
-            "were",
-            "was"
-          ]
-        },
-        {
-          "sentence": "If norms ___, clarification helps.",
-          "blank": "differ",
-          "options": [
-            "differ",
-            "differs",
-            "differed"
-          ]
-        },
-        {
-          "sentence": "If we ___ more time, I'd explain the cultural context.",
-          "blank": "had",
-          "options": [
-            "have",
-            "had",
-            "has"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Passive Voice for Diplomatic Cultural Descriptions",
-      "explanation": "Use passive voice to describe cultural patterns without implying judgment.",
-      "examples": [
-        "Direct eye contact is considered respectful in some cultures. (passive, neutral)",
-        "This gesture is interpreted as offensive in certain contexts. (passive describes interpretation)",
-        "Hierarchy is emphasized in many Asian business cultures. (passive, observational)",
-        "Personal space is valued differently across cultures. (passive, comparative)"
-      ],
-      "practice": [
-        {
-          "sentence": "This behavior ___ considered rude in some cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "be"
-          ]
-        },
-        {
-          "sentence": "Formality ___ emphasized more in hierarchical cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "be"
-          ]
-        },
-        {
-          "sentence": "Time ___ perceived differently across cultures.",
-          "blank": "is",
-          "options": [
-            "is",
-            "are",
-            "was"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "What is a high-context culture?",
-        "options": [
-          "Very direct communication",
-          "Relies on implicit understanding",
-          "Only written communication",
-          "No cultural rules"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "People from collectivist cultures tend to prioritise the group over the individual, which is the opposite to individualism.",
+        "correct": "People from collectivist cultures tend to prioritise the group over the individual, which is the opposite of individualism.",
+        "explanation": "The correct collocation is 'the opposite of', not 'the opposite to'. You can say 'opposite to another thing' when comparing two things directly ('this is opposite to that'), but when using 'the opposite' as a noun meaning 'the contrary concept', the correct preposition is 'of': 'the opposite of individualism'."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "What does power distance measure?",
-        "options": [
-          "Physical space",
-          "Acceptance of hierarchy",
-          "Language difficulty",
-          "Time zones"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "She was raised between two cultures and finds it hard to identify herself with either one.",
+        "correct": "She was raised between two cultures and finds it hard to identify with either one.",
+        "explanation": "'Identify with' is the correct phrasal verb — it is used without the reflexive pronoun 'herself'. You 'identify with' a group or person (meaning you feel a connection to them); 'identify yourself with' can be used but typically means to associate yourself publicly with something, not the inner sense of belonging being described here."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What are the four components of cultural intelligence?",
-        "options": [
-          "Reading, writing, speaking, listening",
-          "Cognitive, metacognitive, motivational, behavioral",
-          "Food, music, dance, clothing",
-          "Language, customs, religion, geography"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Cultural differences can lead to miscommunications, especially in high-stake negotiations.",
+        "correct": "Cultural differences can lead to miscommunications, especially in high-stakes negotiations.",
+        "explanation": "'High-stakes' functions as a compound modifier before a noun, and the correct form is 'high-stakes' (with the plural 'stakes' because the idiom derives from gambling — 'the stakes are high'). 'High-stake' (singular) is a common error."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Complete: 'People ___ to prefer indirect communication.'",
-        "options": [
-          "always",
-          "must",
-          "tend",
-          "never"
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "Cultural generalizations apply to every individual from that culture.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "Cultural intelligence can be learned and developed.",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "This ___ be interpreted differently. (hedging)",
-        "correct": "might",
-        "accept": [
-          "might",
-          "may",
-          "could"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "Eye contact ___ valued differently across cultures. (passive)",
-        "correct": "is",
-        "accept": [
-          "is"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match cultural dimension:",
-        "pairs": [
-          {
-            "left": "High-context",
-            "right": "Implicit communication"
-          },
-          {
-            "left": "Low-context",
-            "right": "Explicit communication"
-          },
-          {
-            "left": "Collectivist",
-            "right": "Group harmony"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "How did Ahmed plan to accommodate different communication styles?",
-        "options": [
-          "Force everyone to speak up",
-          "Multiple input channels",
-          "Ignore differences",
-          "Separate teams by culture"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Despite coming from a different cultural background, I found that we had more in common as I expected.",
+        "correct": "Despite coming from a different cultural background, I found that we had more in common than I expected.",
+        "explanation": "In comparative constructions of this type, 'than' (not 'as') introduces the standard of comparison. 'More... than expected' is the correct form. 'As' is used in equality comparisons ('as much as expected'), not in greater-than comparisons."
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that 'cultural sensitivity training' in the workplace does more harm than good.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Much workplace cultural sensitivity training is based on national generalisations that, when applied, produce a more sophisticated but equally distorting form of stereotyping that can damage rather than improve intercultural relationships.",
+      "Training programmes that focus on cultural difference as the primary explanation for workplace friction can mask other, more tractable sources of conflict — poor management, unclear communication, power imbalances — by attributing them to fixed cultural attributes.",
+      "Empirical research on the effectiveness of diversity and inclusion training has consistently found limited or mixed evidence of lasting behavioural change; the investment may be more performative than effective."
+    ],
+    "counter_arguments": [
+      "The alternative to imperfect cultural training is no preparation at all; even partial cultural knowledge — if held tentatively and updated with experience — is better than naive ignorance in international professional contexts.",
+      "Cultural training, when well-designed, does not teach generalisations but rather frameworks for inquiry — how to notice, ask, and interpret, rather than how to assume; the problem is with bad training, not with the concept.",
+      "In an increasingly globalised workforce, the complete absence of intercultural preparation would produce more costly misunderstandings; the question is how to improve training, not whether to abolish it."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. Make a distinction between 'bad' and 'good' cultural training at some point in your speech, and use at least 3 discourse markers from the list."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write a 250-word opinion essay in response to this question: 'To what extent is it possible to maintain a strong sense of cultural identity while fully integrating into a new society?' Draw on your own experience or knowledge of diaspora communities.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Challenge the assumption embedded in the question — is 'integration' opposed to 'cultural identity', or is this a false binary? State your position."
+      },
+      {
+        "section": "Argument 1",
+        "guidance": "Argue that cultural identity is not fixed — it evolves through contact with other cultures. Diaspora communities do not maintain a frozen version of their heritage culture; they create something new."
+      },
+      {
+        "section": "Argument 2 / Complication",
+        "guidance": "Acknowledge the tensions that are real: pressure to assimilate, generational conflict, the risk of cultural loss. Do not dismiss these in favour of an optimistic narrative."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Offer a resolution: what does it mean to hold identity 'strongly'? Is strength of identity about preservation, adaptation, or a conscious relationship with one's roots?"
+      }
+    ],
+    "model_answer": "The question assumes that 'cultural identity' and 'full integration' stand in tension — that to integrate fully into a new society is to dilute or abandon the culture one brings. This assumption deserves scrutiny. It implies that cultural identity is a fixed possession, like an heirloom, rather than a dynamic process of making and remaking meaning.\n\nDiaspora communities across the world suggest a more complex picture. Somali communities in Minneapolis, Pakistani communities in Birmingham, Korean communities in Los Angeles have not simply preserved a static version of their heritage culture. They have created something new: hybrid identities that are simultaneously rooted and adaptive, drawing on the traditions of origin while engaging fully with the norms and institutions of their adopted society. These identities are not weakened by their complexity — they are defined by it.\n\nAnd yet the tensions are real and should not be romanticised. The second generation often navigates genuine conflict: between the values of home and school, between the expectations of family and the possibilities of a wider society. Cultural loss — of language, of practice, of the tacit knowledge embedded in community life — is a genuine phenomenon, not a failure of will but a structural consequence of minority status in a dominant culture.\n\nThe most defensible position may be that cultural identity is not something that can be 'maintained' as a fixed object, but something that must be actively cultivated — through language, practice, community, and conscious reflection on one's heritage. Strength of identity, in this sense, is not incompatible with integration. It may, in fact, require it."
+  },
+  "advanced_grammar": {
+    "structure": "Concessive Clauses and Concessive Adverbials for Nuanced Argument",
+    "explanation": "Concessive clauses acknowledge a point that appears to undermine your argument, before reasserting your position. They are the grammatical mechanism of intellectual honesty in argument — they show the reader that you have considered the counterargument seriously.\n\nKey concessive structures: 'Although / Even though / While' + full clause ('Although cultural generalisations are sometimes useful, they must be held tentatively'); 'Despite / In spite of' + noun or gerund ('Despite its partial validity, the framework has serious limitations'); 'Notwithstanding' + noun phrase (formal; 'Notwithstanding the evidence for cultural patterns, individual variation remains substantial'); 'However' and 'Nevertheless' as adverbs connecting clauses. Each has a slightly different emphasis and register, and choosing among them is a matter of precision.",
+    "authentic_examples": [
+      "Despite the partial validity of cultural frameworks, treating them as definitive leads to a sophisticated form of stereotyping.",
+      "Although individual variation within any cultural group is considerable, broad patterns of communicative preference can still be identified.",
+      "Notwithstanding its limitations, cultural intelligence training remains among the most widely deployed HR interventions in multinational organisations."
+    ],
+    "practice": [
+      {
+        "sentence": "The framework has weaknesses. It is still widely used in professional contexts.",
+        "transform": "Combine using a concessive clause beginning with 'Despite'.",
+        "answer": "Despite its weaknesses, the framework is still widely used in professional contexts."
+      },
+      {
+        "sentence": "She was raised in a different country. She understands British workplace culture very well.",
+        "transform": "Combine using 'Although' to create a concessive structure.",
+        "answer": "Although she was raised in a different country, she understands British workplace culture very well."
+      },
+      {
+        "sentence": "The generalisations are imperfect. They provide a useful starting point for cross-cultural preparation.",
+        "transform": "Combine using 'Notwithstanding' for formal register.",
+        "answer": "Notwithstanding their imperfections, the generalisations provide a useful starting point for cross-cultural preparation."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "cross-cultural",
-      "definition": "involving or bridging different cultures",
-      "example": "Cross-cultural communication requires awareness."
+      "id": 1,
+      "question": "What does the writer mean by 'a sophisticated form of stereotyping'?",
+      "options": [
+        "Stereotyping that uses complex psychological language",
+        "Stereotyping by people who have had cross-cultural training and therefore do not recognise what they are doing",
+        "Stereotyping based on careful research and data analysis",
+        "Stereotyping that is deliberate and fully aware of its own biases"
+      ],
+      "correct": 1,
+      "explanation": "The writer is arguing that cultural intelligence training, by teaching people national cultural generalisations, produces a form of stereotyping that is harder to challenge because it feels evidence-based and culturally sensitive. The trainee applies the generalisation with more confidence than ignorance would permit, but may still be misreading the individual in front of them."
     },
     {
-      "word": "high-context",
-      "definition": "communication relying on implicit understanding",
-      "example": "Japan has a high-context culture."
+      "id": 2,
+      "question": "Which sentence uses a concessive adverbial correctly and precisely?",
+      "options": [
+        "Despite she works hard, her results are disappointing.",
+        "Notwithstanding of the difficulties, the project was completed on time.",
+        "Although the evidence is mixed, the majority of studies support the hypothesis.",
+        "Even though of the risks, the committee approved the proposal."
+      ],
+      "correct": 2,
+      "explanation": "'Although' is a conjunction and correctly introduces a full clause. Option A incorrectly uses 'despite' as a conjunction; Option B incorrectly adds 'of' after 'notwithstanding' (which takes a direct noun phrase); Option D incorrectly adds 'of' after 'even though'."
     },
     {
-      "word": "low-context",
-      "definition": "communication that is explicit and direct",
-      "example": "American culture is relatively low-context."
+      "id": 3,
+      "question": "What does 'putative' mean in the context of 'their putative cultural group'?",
+      "options": [
+        "Their preferred or chosen cultural group",
+        "Their originally assigned or reputed cultural group, with implied doubt",
+        "Their most recent cultural affiliation",
+        "Their most important cultural group"
+      ],
+      "correct": 1,
+      "explanation": "'Putative' means 'generally supposed to be' and carries an implicit note of scepticism — the cultural group they are assumed to belong to and represent, with the implication that this assumption may not be accurate for the specific individual."
     },
     {
-      "word": "hierarchy",
-      "definition": "system of ranking and authority levels",
-      "example": "Some cultures emphasize strict hierarchy."
+      "id": 4,
+      "question": "Which is the correct collocation?",
+      "options": [
+        "The opposite to individualism is collectivism.",
+        "The opposite of individualism is collectivism.",
+        "The opposite for individualism is collectivism.",
+        "The opposite with individualism is collectivism."
+      ],
+      "correct": 1,
+      "explanation": "When 'the opposite' is used as a noun, the correct preposition is 'of': 'the opposite of X'. 'Opposite to' is used in adjectival or adverbial constructions ('the building opposite to ours', 'sitting opposite to each other'), but not in the 'the opposite of' nominal construction."
     },
     {
-      "word": "collectivism",
-      "definition": "prioritizing group over individual",
-      "example": "Collectivism values group harmony."
-    },
-    {
-      "word": "individualism",
-      "definition": "prioritizing personal goals and rights",
-      "example": "American culture tends toward individualism."
-    },
-    {
-      "word": "nuance",
-      "definition": "subtle distinction or variation",
-      "example": "Cultural nuances affect interpretation."
-    },
-    {
-      "word": "competence",
-      "definition": "ability to do something successfully",
-      "example": "Cultural competence is essential."
-    },
-    {
-      "word": "inclusive",
-      "definition": "not excluding any groups",
-      "example": "Create an inclusive environment."
-    },
-    {
-      "word": "implicit",
-      "definition": "implied but not directly stated",
-      "example": "High-context cultures use implicit cues."
+      "id": 5,
+      "question": "According to the writer, what should cultural knowledge be treated as?",
+      "options": [
+        "An established set of facts about national groups that guides professional interactions",
+        "A starting point and hypothesis to be tested and updated through actual experience",
+        "A set of rules to be followed to avoid causing offence",
+        "An unnecessary form of generalisation that should be abandoned entirely"
+      ],
+      "correct": 1,
+      "explanation": "The final line of the text states explicitly: 'cultural knowledge is a starting point, not a conclusion — a hypothesis, not a fact.' The writer does not dismiss cultural knowledge but reframes its epistemic status — it should be held tentatively and updated based on experience with the specific individual."
     }
-  ],
-  "cultural_notes": [
-    "The U.S. has become increasingly diverse - cultural competence is now an essential workplace skill.",
-    "Hofstede's cultural dimensions (power distance, individualism, uncertainty avoidance, masculinity, long-term orientation, indulgence) are widely used in international business.",
-    "Americans generally value directness, but this can conflict with cultures emphasizing harmony and face-saving.",
-    "Understanding 'cultural intelligence' (CQ) is increasingly important as workplaces globalize.",
-    "Many U.S. companies now provide cross-cultural training for managers working with diverse teams.",
-    "The concept of 'microaggressions' - subtle cultural insensitivities - is increasingly discussed in American workplace diversity training."
   ]
 }

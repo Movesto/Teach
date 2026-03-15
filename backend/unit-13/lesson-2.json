@@ -2,267 +2,232 @@
   "id": "lesson-82",
   "unit_id": 13,
   "lesson_number": 2,
-  "title": "American Idioms & Everyday Expressions",
+  "title": "Advanced Grammar Structures for Sophisticated Expression",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 40,
-  "story_context": "It is Ahmed's second week of classes. He is having lunch with Jake, who is telling a story about his summer internship. In roughly three minutes Jake uses twelve idioms that Ahmed has never heard before. Ahmed says almost nothing. That evening he opens a new notebook and writes 'IDIOMS' on the cover in large letters. This is his idiomatic English crash course.",
   "objectives": [
-    "Understand and use 12 high-frequency American idioms in correct context",
-    "Recognize that idioms cannot be decoded word-by-word — meaning must be memorized",
-    "Identify sports metaphors used in non-sports contexts (business, academics, daily life)",
-    "Use hyperbole naturally, as Americans do, without exaggerating formality"
+    "Analyse the function of sophisticated cohesive devices in creating textual unity and argumentative flow",
+    "Evaluate the difference between surface cohesion (connectives) and deep coherence (logical and thematic unity) in extended writing",
+    "Deploy a range of reference, substitution, ellipsis, and conjunction as cohesive tools in analytical prose",
+    "Construct extended analytical writing in which cohesion serves the argument rather than decorating it"
   ],
-  "target_phrases": [
-    "Let's cut to the chase — what do you actually need?",
-    "I totally dropped the ball on that assignment.",
-    "We need to get on the same page before the meeting.",
-    "Look, it is what it is — we move forward.",
-    "That ship has already sailed, but here's what we can do.",
-    "Can you give me a ballpark figure for the cost?",
-    "I'll just bite the bullet and do it tonight."
+  "authentic_text": {
+    "title": "The Art of the Joined-Up Argument",
+    "type": "article",
+    "text": "A well-constructed essay is not simply a collection of accurate observations. What transforms a list of correct points into an argument is coherence — the sense that each idea not only follows from the previous one but is necessary to it. This quality is partly a matter of logic and partly a matter of language, and the two are more intertwined than they might appear.\n\nLinguists distinguish between cohesion — the linguistic means by which a text hangs together on the surface — and coherence — the conceptual unity that makes a text make sense as a whole. A text can be cohesive without being coherent: 'The sky is blue. Furthermore, iron melts at 1,538 degrees Celsius.' The connective 'furthermore' creates an expectation of logical connection that the content does not fulfil. The text is superficially joined but logically disconnected.\n\nEffective academic writing requires both. The connective devices — reference ('this,' 'such an approach,' 'the former'), substitution ('so,' 'do so,' 'the same'), ellipsis (omitting recoverable elements), and conjunction (additive, adversative, causal, and temporal connectives) — are the tools. But tools serve the structure; they do not constitute it. The primary work of making a coherent text is intellectual: ensuring that each claim is genuinely consequential for the next, that each paragraph advances rather than merely continues the argument.\n\nThe most common failing in advanced student writing is surface cohesion without conceptual development: a text in which 'however,' 'furthermore,' and 'in addition' appear at regular intervals, but the argument does not actually move. The connectives signal movement; only the ideas can enact it.",
+    "source": "Adapted from Academic Writing: A University Course Reader, Edinburgh University Press",
+    "notes": "The article models its own argument: each paragraph follows logically from the previous one and is connected to it both lexically (the repetition of 'cohesion,' 'coherence,' 'argument') and logically (distinguishing the concept, showing its limitation, and specifying its proper application)."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the article, what is the distinction between cohesion and coherence?",
+      "answer": "Cohesion refers to the linguistic surface features that hold a text together — connectives, reference, substitution, and ellipsis. Coherence refers to the conceptual unity that makes the text make sense as a whole — the logical progression from one idea to the next. A text can be cohesive (linguistically joined) without being coherent (logically unified)."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by the example: 'The sky is blue. Furthermore, iron melts at 1,538 degrees Celsius'?",
+      "answer": "The writer implies that cohesive devices like 'furthermore' create an expectation of logical connection that must be fulfilled by the content — if the content does not follow logically from what precedes it, the connective exposes rather than conceals the gap. The example is deliberately absurd to make the failure of surface cohesion without conceptual coherence vivid."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and identify the rhetorical device used in its last sentence.",
+      "answer": "The tone is critical and direct — 'the most common failing in advanced student writing is...' names the problem without hedging. The final sentence ('The connectives signal movement; only the ideas can enact it') uses an antithesis — a parallel structure that places two contrasting ideas in formal balance — to make its point memorably. The rhetorical device is antithetical parallelism."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'adversative' (paragraph 3) is closest in meaning to:",
+      "answer": "Expressing contrast or opposition — an adversative connective (such as 'however,' 'nevertheless,' 'on the contrary') signals that what follows stands in contrast or opposition to what precedes it. The term comes from 'adversary' (opponent), reflecting the opposition between the connected ideas."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this article?",
+      "answer": "The writer's purpose is to distinguish between surface cohesion and conceptual coherence in academic writing, and to argue that cohesive devices are tools in service of the argument — that the primary work of making a text cohere is intellectual, not linguistic."
+    }
   ],
-  "dialogue": {
-    "title": "Jake's Twelve Idioms",
-    "context": "Ahmed and Jake are eating lunch in the campus dining hall. Jake is recounting his summer internship disaster.",
-    "lines": [
-      {"speaker": "Jake", "text": "Okay so basically, day one of my internship I was supposed to hit the ground running — they wanted me up to speed immediately, no training, just go."},
-      {"speaker": "Ahmed", "text": "I see. And were you prepared?"},
-      {"speaker": "Jake", "text": "Ha! I completely dropped the ball on the first project. My manager asked for a ballpark figure on Q3 revenue and I just made up a number. Total disaster."},
-      {"speaker": "Ahmed", "text": "A ballpark figure — meaning an approximate number?"},
-      {"speaker": "Jake", "text": "Exactly! Like a rough estimate. Anyway, the manager calls me in and we need to get on the same page about expectations. That's when I realized everyone just expected me to know stuff they never told me."},
-      {"speaker": "Ahmed", "text": "That sounds like the elephant in the room that nobody addressed before your start date."},
-      {"speaker": "Jake", "text": "Oh man, you know that one! Yeah — exactly. So, by week three I finally had to just bite the bullet and ask for a proper onboarding session."},
-      {"speaker": "Ahmed", "text": "Good. And they provided one?"},
-      {"speaker": "Jake", "text": "Sort of. By then, that ship had already sailed on the first project — the client was unhappy. But I cut to the chase with my manager: told her exactly what had gone wrong and what I'd fix. She respected that."},
-      {"speaker": "Ahmed", "text": "So you were under the weather professionally for a few weeks but then recovered."},
-      {"speaker": "Jake", "text": "Ha! Yeah, basically. Under the weather is usually physical sick, but I like it. Actually, it is what it is — I learned more in that one bad week than in a whole semester. Kill two birds with one stone, kinda."},
-      {"speaker": "Ahmed", "text": "You have used six idioms in this conversation. I have been counting."},
-      {"speaker": "Jake", "text": "I haven't even gotten to the break a leg story from my presentation yet."},
-      {"speaker": "Ahmed", "text": "Please continue. I am taking notes."}
+  "language_analysis": {
+    "focus": "Sophisticated Cohesive Devices",
+    "explanation": "Cohesive devices are the linguistic tools that create the sense of a text as a connected whole rather than a series of disconnected sentences. The four main categories are: reference (using pronouns, demonstratives, and nominal references to tie one part of the text to another), substitution (using a pro-form to stand in for a previously mentioned item), ellipsis (omitting elements recoverable from context), and conjunction (using logical connectives to signal the relationship between clauses or sentences).\n\nAt C1/C2 level, the challenge is to use cohesive devices with precision and restraint — not simply to insert connectives at the beginning of every sentence, but to select the device that most accurately signals the logical relationship intended. 'Furthermore' signals addition; 'moreover' signals addition of something more significant; 'in addition' is more neutral; 'indeed' intensifies or confirms the previous claim. Using them interchangeably is a mark of imprecision.\n\nSophisticated cohesion also involves reference management: knowing when to use 'this,' 'it,' 'the former,' 'the latter,' 'such an approach,' or a full nominal phrase ('this reliance on surface connectives') to refer back to a previously established concept. The choice between a pronoun and a full nominal reference is not arbitrary — full nominals allow the writer to re-characterise the referent (adding an evaluative element), while pronouns maintain reference without adding new information.",
+    "examples": [
+      {
+        "from_text": "What transforms a list of correct points into an argument is coherence — the sense that each idea not only follows from the previous one but is necessary to it.",
+        "analysis": "This sentence uses a wh-cleft for emphasis ('What transforms...is coherence'), then immediately provides a nominal appositive ('the sense that...') to define 'coherence' without requiring a separate defining sentence. The pronoun 'it' in 'necessary to it' refers back to 'previous one' — a pronoun-based cohesive chain that runs across the sentence."
+      },
+      {
+        "from_text": "The connectives signal movement; only the ideas can enact it.",
+        "analysis": "The pronoun 'it' substitutes for 'movement,' creating a compact elliptical clause. The semicolon rather than a connective performs the contrast — the antithetical structure (connectives vs. ideas, signal vs. enact) creates the opposition without requiring 'however' or 'but,' which would be less elegant."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The argument proceeds from a distinction that is, in itself, widely accepted. What remains contested, however, is its application to the specific case under examination.",
+        "informal": "The basic idea is fine. But using it here is a different matter — that's where the disagreement is."
+      },
+      {
+        "formal": "This tendency — what might be called the cohesion fallacy — afflicts a significant proportion of advanced student writing across disciplines.",
+        "informal": "A lot of students make this mistake: they think adding connectives makes their writing better, but it doesn't if the ideas don't connect."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Idioms about communication and getting to the point",
-      "pattern": "cut to the chase / get on the same page / the elephant in the room",
-      "examples": [
-        "Let's cut to the chase — the deadline is Friday.",
-        "Before we start, we need to get on the same page about expectations.",
-        "Nobody mentioned the elephant in the room: the budget was already gone.",
-        "Can we cut to the chase? I only have ten minutes.",
-        "The team isn't on the same page yet about the project goals."
-      ],
-      "your_turn": "Use an idiom about communication in a sentence about school or work.",
-      "prompts": [
-        "Tell a classmate the real issue you need to address (cut to the chase).",
-        "Ask your study group to align before starting (get on the same page).",
-        "Name an obvious problem nobody has mentioned (elephant in the room)."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Idioms about starting, managing, and recovering from setbacks",
-      "pattern": "hit the ground running / drop the ball / bite the bullet / that ship has sailed",
-      "examples": [
-        "We need someone who can hit the ground running from day one.",
-        "I totally dropped the ball on that assignment — I forgot it was due.",
-        "I'll just bite the bullet and pull an all-nighter.",
-        "I wanted to change my major, but that ship has sailed — it's too late.",
-        "After dropping the ball last week, I bit the bullet and apologized in person."
-      ],
-      "your_turn": "Use one of these four idioms to describe a situation where something went wrong.",
-      "prompts": [
-        "Explain that you missed an important deadline (dropped the ball).",
-        "Say you decided to do something unpleasant but necessary (bite the bullet).",
-        "Tell someone an opportunity is no longer available (that ship has sailed)."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Idioms for general situations and efficiency",
-      "pattern": "it is what it is / ballpark figure / kill two birds with one stone / break a leg / under the weather",
-      "examples": [
-        "The grade wasn't great, but it is what it is — I'll do better next time.",
-        "Just give me a ballpark figure — it doesn't have to be exact.",
-        "I'll study at the gym — kill two birds with one stone.",
-        "Break a leg on your presentation today!",
-        "I'm feeling a little under the weather — I think I'm getting a cold."
-      ],
-      "your_turn": "Use one of these five idioms in a realistic sentence from your own life.",
-      "prompts": [
-        "Accept a situation you cannot change (it is what it is).",
-        "Wish someone good luck before a performance (break a leg).",
-        "Describe doing two things at once efficiently (kill two birds)."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit13-lesson2-listen1.mp3",
-      "transcript": "So the professor walks in and says, 'Let's cut to the chase — half of you are going to fail this midterm if you don't change something.' Total silence. Then she says, 'I'm not trying to scare you, I just think the elephant in the room needs to be named. You all got the syllabus, but I don't think everyone is on the same page about what I actually expect.' And then she goes through the rubric again, point by point. Honestly? Best professor I've had. She just tells you straight.",
-      "question": "What does 'cut to the chase' mean in this context?",
-      "options": [
-        "The professor ran into the classroom",
-        "The professor got directly to the important point",
-        "The professor told a story about a chase",
-        "The professor was angry and leaving"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit13-lesson2-listen2.mp3",
-      "transcript": "Jake: So, I've been meaning to ask — how's the job search going? Zoe: Honestly? I dropped the ball on applications. I kept telling myself I'd start after midterms, and now it's like — that ship has sailed for the summer internship cycle. Jake: Ouch. Zoe: It is what it is. I'll just focus on building my GPA and apply earlier next year. Jake: That's the spirit. At least you're hitting the ground running on the next cycle instead of moping about it. Zoe: Right. Bite the bullet, move forward.",
-      "question": "What happened to Zoe regarding internship applications?",
-      "options": [
-        "She got rejected from all her applications",
-        "She forgot to apply and missed the deadline cycle",
-        "She decided she did not want an internship",
-        "She applied too early"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit13-lesson2-listen3.mp3",
-      "transcript": "American idioms often come from three source domains: sports, war, and farming. Sports idioms are everywhere in business and daily life. 'Hit the ground running' comes from military parachute drops — soldiers had to move immediately on landing. 'Drop the ball' is from American football. 'Ballpark figure' comes from baseball stadiums — estimates rough enough to be called in from the stands. 'Break a leg' is theater superstition — saying 'good luck' directly was considered bad luck. 'Bite the bullet' comes from pre-anesthesia surgery, when patients literally bit a bullet to manage pain. Knowing the origin helps you remember the meaning.",
-      "question": "Where does the idiom 'ballpark figure' come from?",
-      "options": [
-        "Baseball — estimates rough enough to be called from the stadium stands",
-        "American football stadiums",
-        "A famous business consultant named Ballpark",
-        "Farming — measuring a ball-shaped field"
-      ],
-      "correct": 0
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You are talking to a classmate about a group project that is not going well. Use at least three idioms from this lesson naturally in your explanation. Record for 40 seconds.",
-      "example": "Okay, so our group project is kind of a mess. We need to get on the same page about who is doing what — right now nobody knows. Marcus said he'd do the research section but honestly, I think he dropped the ball because we're three days out and nothing's been shared. I was going to wait until the weekend to bring it up, but that ship is about to sail. I'm just going to cut to the chase at our meeting tomorrow — here's what needs to happen, here's the deadline, let's divide it up. It is what it is at this point — we don't have time to complain, just to fix it.",
-      "sentence_starters": [
-        "So our group hasn't really gotten on the same page yet about...",
-        "I think someone dropped the ball on...",
-        "At this point, we just need to cut to the chase and..."
-      ],
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Give brief advice to a new international student about using idioms in America. Explain what they are, warn about the danger of guessing meaning, and share your strategy. Use casual language. Record for 35 seconds.",
-      "example": "So, my advice about idioms? First — don't try to guess from the words. 'Break a leg' sounds violent but it just means good luck. 'That ship has sailed' has nothing to do with ships — it means an opportunity is gone. The meaning has to be memorized, not decoded. I keep a little notebook. Every time I hear something I don't understand, I write it down and look it up later. It's a bit slow at first, but after a few weeks you start recognizing patterns. Also — honestly? Americans think it's cool when you use idioms correctly. It shows you really know the language, not just the textbook version.",
-      "sentence_starters": [
-        "The thing about idioms is that you can't guess from the words...",
-        "My strategy is to...",
-        "The most useful idioms I've learned are..."
-      ],
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a short paragraph (70–90 words) describing a situation — at school, work, or home — using at least four idioms from this lesson. The idioms should fit naturally, not feel forced.",
-      "min_words": 70,
-      "example": "This morning I had to bite the bullet and talk to my professor about my midterm grade. I had been avoiding it, but that ship was about to sail — office hours end this week. I walked in and cut to the chase: told him I hadn't understood the expectations and asked exactly what I'd done wrong. We got on the same page pretty quickly. It is what it is — the grade stands — but now I know what he actually wants. Better late than never."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write Ahmed's idiom notebook entry for today. List 6 idioms, write what each means in plain English, and write one example sentence for each. Format it like real notes. (80–110 words)",
-      "min_words": 80,
-      "example": "IDIOMS — Week 2\n\n1. hit the ground running — start immediately and effectively. 'The new employee hit the ground running and finished in two days.'\n\n2. drop the ball — fail to do something you were responsible for. 'I dropped the ball on the reading and came to class unprepared.'\n\n3. cut to the chase — get to the main point quickly. 'Let's cut to the chase — what do you actually need from me?'\n\n4. it is what it is — accept a situation you cannot change. 'The grade isn't great, but it is what it is.'\n\n5. ballpark figure — rough estimate. 'Can you give me a ballpark figure for the cost?'\n\n6. bite the bullet — do something unpleasant because it is necessary. 'I bit the bullet and started the assignment at midnight.'"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Idioms Are Fixed Expressions — Do Not Modify Them",
-      "explanation": "Unlike regular phrases, idioms cannot be altered structurally without breaking meaning. You cannot say 'cut to the chases' (plural) or 'let's cut to this chase' or 'we chased the cut.' The form is frozen. This is what makes idioms difficult: they must be memorized whole, not assembled from parts. Learning the origin (sports, war, theater) often helps the memory stick.",
-      "examples": [
-        "CORRECT: Let's cut to the chase. WRONG: Let's cut to the topic.",
-        "CORRECT: He dropped the ball. WRONG: He dropped many balls.",
-        "CORRECT: That ship has sailed. WRONG: That boat has sailed. (idioms resist synonyms)",
-        "CORRECT: Break a leg! WRONG: Break some legs! (fixed form)",
-        "CORRECT: It is what it is. WRONG: It is what it was. (fixed present tense)"
-      ],
-      "practice": [
-        {"sentence": "Which is the correct idiomatic form?", "blank": "cut to the chase", "options": ["cut to the chase", "cut to the topic", "cut to things"]},
-        {"sentence": "Which sentence uses the idiom correctly?", "blank": "She dropped the ball on the project.", "options": ["She dropped the ball on the project.", "She dropped the balls on the project.", "She dropped a ball on the project."]},
-        {"sentence": "Which is correct?", "blank": "Break a leg!", "options": ["Break a leg!", "Break a foot!", "Break the leg!"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Hyperbole as Normal American Speech",
-      "explanation": "Americans use hyperbole (extreme exaggeration) as a natural expression of emphasis — not as literary device. 'I've told you a million times' does not mean literally one million. 'I'm starving' does not mean clinical starvation. 'This bag weighs a ton' is not a measurement. Interpreting American hyperbole literally is a common learner mistake. Producing hyperbole naturally is a sign of fluency.",
-      "examples": [
-        "I've been waiting forever. (not literally forever — just a long time)",
-        "This coffee is amazing — I could drink it every single day. (enthusiasm)",
-        "I have a million things to do before tomorrow. (a lot, not 1,000,000)",
-        "I'm absolutely dying of embarrassment. (very embarrassed)",
-        "That test killed me. (it was very difficult)"
-      ],
-      "practice": [
-        {"sentence": "I have ___ things to do before class. (hyperbole)", "blank": "a million", "options": ["a million", "seventeen", "a moderate number of"]},
-        {"sentence": "I'm ___ — I haven't eaten since breakfast. (hyperbole)", "blank": "starving", "options": ["starving", "experiencing mild hunger", "not very hungry"]},
-        {"sentence": "That presentation took ___. (hyperbole for a very long time)", "blank": "forever", "options": ["forever", "a long time", "exactly 90 minutes"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Sports Metaphors in Non-Sports Contexts",
-      "explanation": "American English uses sports metaphors constantly in business, academics, and daily life. These are so common that many speakers do not even recognize them as sports references. Knowing the sport of origin helps decode meaning and recognize related expressions.",
-      "examples": [
-        "Hit the ground running — military/sports origin; means: start immediately at full effort",
-        "Drop the ball — American football; means: fail to fulfill a responsibility",
-        "Ballpark figure — baseball; means: rough estimate",
-        "Step up to the plate — baseball; means: accept a challenge or responsibility",
-        "Move the goalposts — soccer/football; means: unfairly change the rules or expectations"
-      ],
-      "practice": [
-        {"sentence": "She really ___ to the plate when the project manager quit. (took responsibility)", "blank": "stepped up", "options": ["stepped up", "ran to", "walked over"]},
-        {"sentence": "They keep ___ the goalposts — every time we meet the target, they raise it.", "blank": "moving", "options": ["moving", "dropping", "breaking"]},
-        {"sentence": "Can you ___ a ballpark figure? I just need a rough number.", "blank": "give me", "options": ["give me", "calculate me", "show me"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What does 'cut to the chase' mean?", "options": ["Run after someone", "Get to the main point quickly", "Stop working", "Chase a problem away"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does 'drop the ball' mean?", "options": ["Play a sport poorly", "Lose an object", "Fail to fulfill a responsibility", "Break something valuable"], "correct": 2, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "Jake says 'that ship has already sailed.' What does he mean?", "options": ["A ship departed from port", "An opportunity is no longer available", "The project has launched successfully", "He is going on a cruise"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "true-false", "question": "You can modify an idiom's words freely, like substituting synonyms, without changing the meaning.", "correct": false, "points": 10},
-      {"id": "q5", "type": "fill-blank", "question": "Can you give me a ___ figure? I don't need the exact number.", "correct": "ballpark", "accept": ["ballpark"], "points": 10},
-      {"id": "q6", "type": "multiple-choice", "question": "Which sentence uses hyperbole naturally?", "options": ["I am experiencing moderate fatigue.", "I've told you a million times.", "This task requires significant effort.", "The assignment is somewhat long."], "correct": 1, "points": 10},
-      {"id": "q7", "type": "multiple-choice", "question": "What does 'bite the bullet' mean?", "options": ["To eat quickly", "To do something unpleasant but necessary", "To argue aggressively", "To load a gun"], "correct": 1, "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "Break a ___ means good luck (theater idiom).", "correct": "leg", "accept": ["leg"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match idiom to meaning:", "pairs": [{"left": "on the same page", "right": "in agreement / aligned"}, {"left": "under the weather", "right": "feeling sick"}, {"left": "it is what it is", "right": "accept a situation you cannot change"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "'Ballpark figure' comes from which sport?", "options": ["Football", "Basketball", "Baseball", "Soccer"], "correct": 2, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The essay's first three paragraphs are well-structured; on the contrary, the fourth lacks the coherent development required to advance the argument.",
+        "correct": "The essay's first three paragraphs are well-structured; however, the fourth lacks the coherent development required to advance the argument.",
+        "explanation": "'On the contrary' signals a direct contradiction or denial of the previous claim — it means 'what was just said is wrong.' 'However' signals a contrast or qualification while accepting the previous point. Since the sentence acknowledges the first three paragraphs are good while qualifying the fourth, 'however' is the correct adversative connective."
+      },
+      {
+        "incorrect": "The article makes a compelling distinction between cohesion and coherence; such a distinction, nevertheless, is rarely applied in practice.",
+        "correct": "The article makes a compelling distinction between cohesion and coherence; such a distinction, however, is rarely applied in practice.",
+        "explanation": "'Nevertheless' is a strong concessive adverb used to maintain a main claim in the face of a strong counter-force ('This is difficult; nevertheless, it is necessary'). Here, the writer is simply noting a contrast (the distinction is compelling; it is rarely applied) — 'however' is the more precise choice."
+      },
+      {
+        "incorrect": "The writers argue that coherence is more fundamental than cohesion, and I agree with their point of view. So does the evidence of their own textual analysis.",
+        "correct": "The writers argue that coherence is more fundamental than cohesion, and I agree with their position. So does the evidence of their own textual analysis.",
+        "explanation": "'Point of view' is appropriate for opinions, perspectives, and interpretations. 'Position' is more appropriate in academic writing when referring to an argued intellectual stance — a claim that is presented with evidence and reasoning rather than merely expressed as an opinion."
+      },
+      {
+        "incorrect": "The most sophisticated academic writers use cohesive devices sparingly, relying instead on the logical structure of their argument to carry the reader through the text.",
+        "correct": "The most sophisticated academic writers deploy cohesive devices sparingly, relying instead on the logical structure of their argument to carry the reader through the text.",
+        "explanation": "While 'use' is not wrong, 'deploy' is the more precise and idiomatic verb in academic and analytical contexts when describing the deliberate, strategic application of linguistic or rhetorical tools. This is a register refinement appropriate at C2 level."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "idiom", "definition": "a phrase whose meaning cannot be understood from the literal meaning of its words", "example": "Break a leg is an idiom that means good luck."},
-    {"word": "ballpark figure", "definition": "a rough, approximate estimate", "example": "Just give me a ballpark figure — I don't need the exact cost yet."},
-    {"word": "cut to the chase", "definition": "to get to the main point quickly, skipping unnecessary details", "example": "We only have five minutes, so let's cut to the chase."},
-    {"word": "drop the ball", "definition": "to fail to do something you were responsible for", "example": "I totally dropped the ball on scheduling the meeting."},
-    {"word": "bite the bullet", "definition": "to accept something difficult and do it anyway", "example": "I bit the bullet and went to the dentist after avoiding it for a year."},
-    {"word": "on the same page", "definition": "in agreement; sharing the same understanding", "example": "Before we start, let's make sure we're on the same page about the deadline."},
-    {"word": "that ship has sailed", "definition": "an opportunity that is no longer available", "example": "I wanted to register for that class, but that ship has sailed."},
-    {"word": "hit the ground running", "definition": "to start something with immediate full effort", "example": "The new hire hit the ground running and completed two projects in week one."},
-    {"word": "it is what it is", "definition": "an expression of acceptance for a situation you cannot change", "example": "The exam grade is final. It is what it is — I'll focus on the final."},
-    {"word": "kill two birds with one stone", "definition": "to accomplish two goals with a single action", "example": "I studied at the gym to kill two birds with one stone."}
-  ],
-  "cultural_notes": [
-    "American English has thousands of idioms, but roughly 50 high-frequency ones appear constantly in everyday speech. Knowing these 50 gives about 80% of real comprehension benefit — prioritize the most common.",
-    "Sports metaphors dominate American business and academic language because American culture is deeply sports-oriented. Baseball idioms are especially common in business (ballpark, step up to the plate, hit a home run).",
-    "Using idioms correctly signals fluency in a way that grammatically perfect but formal speech does not. Native speakers notice and appreciate it — it feels like you truly 'speak their language.'",
-    "International students often find American idioms challenging because they cannot be decoded logically. The recommended strategy is to keep a running log — write them down when you hear them, look up the meaning, then practice using them.",
-    "Some idioms are becoming dated or regional (e.g., older southern American expressions). Jake's Georgia background means he may use some expressions that are less common in Northern or Western states — regional variation is real."
+  "debate_task": {
+    "motion": "This house believes that explicit instruction in cohesive devices improves academic writing more effectively than instruction in argumentation and critical thinking.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Cohesive devices are specific, teachable, and transferable — students can learn to use them in a single lesson and apply them immediately, generating measurable improvement in text organisation.",
+      "For learners writing in a second language, the additional cognitive load of producing content means that explicit linguistic scaffolding (cohesive devices) allows them to concentrate on ideas.",
+      "Many academic writing failures are at the surface level — awkward transitions, unclear reference chains — and can be remediated through explicit cohesion instruction without requiring changes to the argument itself."
+    ],
+    "counter_arguments": [
+      "The article itself argues that surface cohesion without conceptual development is the most common failing in advanced writing — teaching devices without teaching argument is treating symptoms rather than causes.",
+      "Over-reliance on explicit cohesive instruction produces the 'connectives at the start of every sentence' problem identified in the article — a mechanical and superficial form of coherence.",
+      "The intellectual work of constructing a genuine argument — identifying implications, anticipating objections, organising evidence — is what makes writing worth reading, and it cannot be substituted by linguistic tools."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write an analytical essay responding to the following claim: 'Cohesive devices are the most important feature of effective academic writing.' Your essay should evaluate the claim, drawing on the article's distinction between cohesion and coherence, and arrive at a nuanced position.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "State the claim and signal that you will evaluate rather than simply accept or reject it. Introduce the cohesion/coherence distinction as the framework through which the evaluation will proceed."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Develop the case that cohesive devices genuinely matter — they make the logical structure of an argument visible to the reader, reduce ambiguity, and are associated with the professional register of academic writing. Cite specific examples of cohesive device types (reference, conjunction, ellipsis)."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Develop the counter-argument that cohesive devices are necessary but not sufficient — that a text with perfect surface cohesion but weak argumentation will still fail as academic writing. Use the article's example of disconnected but connective-linked sentences."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Resolve the tension by proposing a hierarchy: conceptual coherence (the quality and logic of the argument) is primary; cohesive devices are essential tools in service of that primary goal but cannot substitute for it. Restate the claim's limited truth."
+      }
+    ],
+    "model_answer": "The claim that cohesive devices are the most important feature of academic writing contains a partial truth that, taken in isolation, becomes misleading. Cohesive devices — reference, substitution, ellipsis, and conjunction — are undeniably important. They make an argument's logical structure visible, signal relationships between ideas, and contribute to the professional register that academic writing requires. A text with no connectives, no reference management, and no logical transitions is genuinely difficult to read, regardless of the quality of its ideas.\n\nHowever, the article makes a distinction that qualifies this importance significantly. Cohesion — the linguistic surface of a text — is not the same as coherence — the conceptual unity that makes the text make sense as a whole. A text in which 'furthermore,' 'however,' and 'in addition' appear at regular intervals is not thereby made coherent. As the article observes, the connectives signal movement; only the ideas can enact it.\n\nNotwithstanding the genuine value of cohesive devices, their over-deployment in the absence of conceptual development is among the most common and identifiable failings in advanced student writing. A paragraph that begins with 'Moreover' must actually add something of significance — the connective creates an obligation the content must fulfil.\n\nThe resolution is a hierarchy: coherence is primary; cohesion serves it. The most important feature of effective academic writing is a genuine argument — claims that are consequential for each other, evidence that is genuinely probative, and reasoning that moves rather than repeats. Cohesive devices are the language in which that argument is expressed. They matter because the argument matters; they cannot substitute for it."
+  },
+  "advanced_grammar": {
+    "structure": "Subjunctive in Formal Contexts",
+    "explanation": "The subjunctive mood in English expresses states or actions that are hypothetical, wished for, demanded, or contrary to fact, rather than actually occurring. It appears in two main forms: the present subjunctive (the base form of the verb: 'It is essential that the argument be clearly structured'), used in formal mandative or concessive constructions; and the past subjunctive ('were,' as in 'If this were a coherent argument'), used in hypothetical conditionals.\n\nThe present subjunctive is characteristic of formal written English and appears after verbs of demanding, requiring, recommending, suggesting, and proposing ('The committee recommends that the text be revised'). It is also used in concessive clauses ('Be that as it may,' 'Come what may') and in certain fixed formal expressions ('suffice it to say,' 'as it were'). The past subjunctive ('were') appears in second conditional constructions and signals hypotheticality ('If this claim were well-supported, the argument would succeed').\n\nThe communicative purpose of the subjunctive in formal writing is precision: it signals that the writer is discussing something conditional, hypothetical, or mandated rather than actual, and it places the text in the formal register of academic, legal, and policy discourse.",
+    "authentic_examples": [
+      "It is essential that every analytical claim be accompanied by evidence that is both relevant and sufficient.",
+      "The article recommends that writers treat cohesive devices as tools in service of the argument rather than as substitutes for it.",
+      "Were the text's argument to be as coherent as its surface cohesion, it would represent an exemplary piece of academic writing."
+    ],
+    "practice": [
+      {
+        "sentence": "The examiners require that students support their claims with textual evidence.",
+        "transform": "Rewrite using the present subjunctive correctly after 'require that.'",
+        "answer": "The examiners require that students support their claims with textual evidence. (Already correct — 'support' is the subjunctive base form; confirm by checking there is no '-s' on 'support.')"
+      },
+      {
+        "sentence": "If the argument was more coherent, the essay would be significantly more persuasive.",
+        "transform": "Rewrite using the correct subjunctive form 'were' in the conditional.",
+        "answer": "If the argument were more coherent, the essay would be significantly more persuasive."
+      },
+      {
+        "sentence": "The tutor recommended that the student revises the opening paragraph before submission.",
+        "transform": "Correct the subjunctive error in this sentence.",
+        "answer": "The tutor recommended that the student revise the opening paragraph before submission. (The subjunctive base form 'revise' is required after 'recommended that,' not the indicative 'revises.')"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the article, what is the most common failing in advanced student writing?",
+      "options": [
+        "Insufficient use of cohesive devices and connectives.",
+        "Surface cohesion without conceptual development — a text in which connectives are present but the argument does not actually progress.",
+        "Overly complex sentence structures that obscure the argument.",
+        "Failure to use the academic register consistently throughout the text."
+      ],
+      "correct": 1,
+      "explanation": "The article explicitly identifies 'surface cohesion without conceptual development' as the most common failing — 'a text in which however, furthermore, and in addition appear at regular intervals, but the argument does not actually move.'"
+    },
+    {
+      "id": 2,
+      "question": "What is the function of the phrase 'such an approach' in analytical writing?",
+      "options": [
+        "It is a vague phrase that should be replaced with a specific noun.",
+        "It is a nominal reference form that refers back to a previously described approach, allowing the writer to avoid repetition while potentially adding an evaluative characterisation.",
+        "It is a discourse marker that signals a transition between two contrasting approaches.",
+        "It is a substitute for the first-person 'I,' which is prohibited in academic writing."
+      ],
+      "correct": 1,
+      "explanation": "'Such an approach' is a demonstrative nominal reference — it refers back to a previously mentioned approach and can add an implicit evaluation ('such a flawed approach,' 'such a promising approach'). This is a more sophisticated reference form than a simple 'it' or 'this approach.'"
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The professor suggested that the student should revise the introduction to improve its coherence.'",
+      "options": [
+        "No error — 'should revise' is grammatically correct after 'suggested that.'",
+        "'Should revise' should be 'revise' — the mandative subjunctive after 'suggest that' requires the base form without 'should.'",
+        "'Coherence' should be 'cohesion' — the two terms are interchangeable.",
+        "'The student' should be preceded by 'her' to clarify reference."
+      ],
+      "correct": 1,
+      "explanation": "After mandative verbs ('suggest,' 'recommend,' 'require,' 'insist') followed by 'that,' formal English uses the subjunctive base form: 'that the student revise,' not 'that the student should revise.' Adding 'should' is common in informal speech but is considered non-standard in formal written English."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following most accurately uses the distinction between cohesion and coherence?",
+      "options": [
+        "The essay has good coherence — it uses 'however,' 'furthermore,' and 'in addition' throughout.",
+        "The essay has good cohesion — its connectives are well-chosen — but lacks coherence, because the claims do not follow from each other logically.",
+        "Coherence and cohesion are synonyms that describe the same property of a text.",
+        "Coherence refers to sentence-level grammar; cohesion refers to paragraph organisation."
+      ],
+      "correct": 1,
+      "explanation": "Option B correctly uses the distinction: cohesion is the surface linguistic feature (well-chosen connectives), and coherence is the conceptual property (logical progression of claims). Option A confuses the two."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence correctly uses the past subjunctive 'were' in a formal hypothetical construction?",
+      "options": [
+        "If the argument was clearer, the reader would find it more convincing.",
+        "If the argument were clearer, the reader would find it more convincing.",
+        "Were the argument to be clear, the reader would have found it more convincing.",
+        "If the argument would be clearer, it would be more convincing."
+      ],
+      "correct": 1,
+      "explanation": "Option B correctly uses 'were' (past subjunctive) in the second conditional to signal hypotheticality — the argument is not currently clear. Option A uses 'was' (past indicative), which is acceptable in informal speech but non-standard in formal writing. Option C is a third-person conditional (past hypothetical) which changes the tense and meaning."
+    }
   ]
 }

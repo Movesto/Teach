@@ -1,0 +1,114 @@
+{
+  "unit_id": 2,
+  "unit_title": "People, Work & First Steps",
+  "description": "Test what you learned in Unit 2",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "It is your first day at a new job. Your manager asks you to introduce yourself to the team. What is the best opening sentence?",
+      "options": ["I don't know anyone here.", "Hello everyone, my name is Faadumo and I'm the new receptionist.", "Can someone tell me what to do?", "Nice to meet you, I think."],
+      "correct": 1,
+      "explanation": "A professional introduction includes a greeting, your name, and your role."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses 'work' as a noun?",
+      "options": ["She works at the hospital.", "He goes to work by bus every morning.", "They are working late tonight.", "I worked yesterday."],
+      "correct": 1,
+      "explanation": "In 'goes to work', 'work' is a noun referring to the workplace or job. In the other options, 'work' is used as a verb."
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "statement": "The word 'occupation' is another word for a person's job or profession.",
+      "correct": true,
+      "explanation": "'Occupation' is a formal synonym for 'job' or 'profession', often used on official forms."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "You should always use someone's first name when meeting them professionally for the first time.",
+      "correct": false,
+      "explanation": "In many professional contexts, it is more respectful to use 'Mr.' or 'Ms.' and their surname until invited to use first names."
+    },
+    {
+      "id": 5,
+      "type": "fill-in-blank",
+      "sentence": "She is a nurse. She ___ at City Hospital from Monday to Friday.",
+      "blank_hint": "(verb: has a job / is employed)",
+      "accepted_answers": ["works", "is employed"],
+      "explanation": "'Works' is the correct third-person singular present tense verb here."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "He is ___ charge of training new staff — he is the training manager.",
+      "blank_hint": "(responsible for / leading something)",
+      "accepted_answers": ["in"],
+      "explanation": "'In charge of' means responsible for managing something."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "My uncle is a ___ — he drives patients to the hospital in an emergency vehicle.",
+      "blank_hint": "(job: drives an emergency vehicle)",
+      "accepted_answers": ["paramedic", "ambulance driver"],
+      "explanation": "A paramedic or ambulance driver responds to emergencies and transports patients."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "question": "Put these words in the correct order:",
+      "words": ["you", "what", "do", "do"],
+      "correct": ["what", "do", "you", "do"],
+      "explanation": "'What do you do?' is the standard English question asking about someone's job."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each job title to the correct description.",
+      "pairs": [
+        {"left": "accountant", "right": "manages financial records and budgets"},
+        {"left": "electrician", "right": "installs and repairs electrical systems"},
+        {"left": "pharmacist", "right": "prepares and dispenses medicines"},
+        {"left": "architect", "right": "designs buildings and structures"}
+      ],
+      "explanation": "Each job title has a specific professional role associated with it."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "question": "Writing Task",
+      "prompt": "Write 3-5 sentences introducing yourself to your new team on your first day at work.",
+      "guidance": "Include: your name, your new job title or role, and one thing you are looking forward to or a relevant skill you bring.",
+      "example_answer": "Hello everyone, my name is Asad and I am the new IT support technician. I have three years of experience fixing computers and setting up networks. I am really looking forward to working with all of you and learning how things are done here.",
+      "explanation": "Writing tasks are self-assessed."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "You are in a shop and want to know the cost of an item. What is the most natural question to ask?",
+      "options": ["Is this mine?", "How much does this cost?", "Can I keep this?", "Where is this from?"],
+      "correct": 1,
+      "explanation": "'How much does this cost?' is the standard question to ask about price in a shop.",
+      "is_preview": true,
+      "preview_unit": 3,
+      "preview_unit_title": "Shopping & Services"
+    },
+    {
+      "id": 102,
+      "type": "multiple-choice",
+      "question": "A customer says 'I'd like to return this jacket.' What does 'return' mean here?",
+      "options": ["Buy again", "Bring back to the shop for a refund or exchange", "Wear for the first time", "Sell to someone else"],
+      "correct": 1,
+      "explanation": "To 'return' an item means to bring it back to the shop, usually for a refund or exchange.",
+      "is_preview": true,
+      "preview_unit": 3,
+      "preview_unit_title": "Shopping & Services"
+    }
+  ]
+}

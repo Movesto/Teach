@@ -2,616 +2,231 @@
   "id": "lesson-78",
   "unit_id": 9,
   "lesson_number": 7,
-  "title": "Conditionals: Real, Hypothetical, and Past",
+  "title": "Conditional Structures in Advanced Argumentation",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 50,
-  "story_context": "Marcus, a newer member of Ahmed's team, asks him for career advice after their shift. As they talk through real plans, hypothetical choices, and past regrets, Ahmed uses all three conditional types naturally — showing Marcus how English speakers reason about the future, imagine alternatives, and reflect on the past. By the end of the conversation, Marcus realizes he has just heard a grammar lesson without knowing it.",
   "objectives": [
-    "Form and use Type 1 conditionals for real or likely future situations",
-    "Form and use Type 2 conditionals for hypothetical or imaginary situations",
-    "Form and use Type 3 conditionals for counterfactual past situations",
-    "Distinguish which conditional type fits a given situation"
+    "Distinguish between all four conditional types and their communicative functions in argument, hypothesis, and speculation",
+    "Analyse how conditional structures are exploited in persuasive and academic writing to manage certainty and risk",
+    "Construct complex arguments using a range of conditional forms including mixed and inverted types",
+    "Evaluate the rhetorical and logical implications of choosing one conditional form over another in a given context"
   ],
-  "target_phrases": [
-    "If you apply early, you will have a better chance.",
-    "If I were in your position, I would start with a certificate program.",
-    "If he had asked for feedback, he would have improved faster.",
-    "Even if it's difficult, it will be worth it.",
-    "If I had known that earlier, I would have done things differently.",
-    "What would you do if you were offered a promotion?",
-    "If you study consistently, results will follow."
+  "authentic_text": {
+    "title": "What Would It Take to Change Your Mind?",
+    "type": "article",
+    "text": "Philosophers of science have long argued that the mark of a genuine belief is that it is falsifiable — that you can specify, in advance, what evidence would cause you to abandon it. If you hold a belief for which no possible counter-evidence could dislodge you, you have not adopted a scientific position but a faith commitment, and the two deserve to be treated very differently.\n\nThis is a demanding standard, and applying it to everyday intellectual life reveals something uncomfortable. Most people, if asked 'What would it take to change your mind about X?', either cannot answer or produce conditions so extreme that they function as a refusal rather than a genuine openness. If I said I would change my view on climate policy only if every single climate scientist recanted simultaneously, I would be claiming, in effect, that nothing could change my mind. The hypothetical is technically present but practically vacuous.\n\nThe conditional structure — 'if X, then Y' — is one of the most powerful tools in both logic and language. It can be used to reason forward from premises ('If this policy were implemented, what would follow?') or backward to conditions ('What would have had to be true for this outcome to occur?'). Used well, it is an instrument of genuine inquiry. Used poorly, it becomes a way of appearing to engage with evidence while actually foreclosing it.\n\nPerhaps the most important intellectual habit we can cultivate is the capacity to construct well-formed conditionals in our own thinking: 'If evidence X were to emerge, I would revise my position in direction Y.' Not as a formula to be deployed rhetorically, but as an actual commitment to follow if the antecedent is met.",
+    "source": "Adapted from Aeon Magazine, January 2025",
+    "notes": "This text uses conditionals not just grammatically but thematically — the subject of the essay is the conditional structure itself. As you read, notice how the writer uses different conditional types to illustrate different degrees of openness."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What condition does the writer say distinguishes a 'genuine belief' from a 'faith commitment'?",
+      "answer": "A genuine belief is falsifiable — you can specify in advance what evidence would cause you to abandon it. A faith commitment has no such specifiable counter-evidence."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer mean by describing a hypothetical that is 'technically present but practically vacuous'?",
+      "answer": "The writer means that the hypothetical has the grammatical form of an open conditional but functions as a closed one — the conditions specified are so extreme as to be effectively impossible, so the speaker is not genuinely open to revision, only appearing to be. The form is there; the substance is absent."
+    },
+    {
+      "type": "tone",
+      "question": "How does the writer's use of the first person in paragraph 2 ('If I said I would change my view...') affect the tone?",
+      "answer": "By using the first person hypothetically, the writer includes themselves in the critique — they are not pointing at others but demonstrating the problem through self-implication. This creates a tone that is self-aware and honest rather than self-righteous, which increases the credibility of the argument."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'antecedent' mean in the final paragraph?",
+      "answer": "In conditional logic, the antecedent is the 'if' part of a conditional statement — the condition that must be met for the consequent ('then Y') to follow. 'If the antecedent is met' means 'if the stated condition actually comes to pass'."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this text, and how does the final paragraph serve it?",
+      "answer": "The purpose is to argue for intellectual honesty and genuine openness to evidence, using the conditional structure as both illustration and tool. The final paragraph transitions from diagnosis to prescription: having described the problem (poorly-formed or vacuous conditionals), the writer offers a practice — formulating genuine conditionals in one's own thinking. The final line ('Not as a formula to be deployed rhetorically') guards against misreading the advice as merely tactical."
+    }
   ],
-  "dialogue": {
-    "title": "Career Coaching with Conditionals",
-    "context": "Ahmed, now a supervisor, is mentoring Marcus — a newer warehouse associate who is unsure about his career path. All three conditional types arise naturally as they discuss real plans, hypothetical choices, and past regrets.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Conditional Structures Across a Register Spectrum",
+    "explanation": "Conditional structures in English range from open, real conditions (first conditional: 'If you work hard, you will succeed') to hypothetical present/future conditions (second conditional), to counterfactual past conditions (third conditional), to complex combinations (mixed conditionals). Each type signals a different relationship to reality and probability.\n\nIn formal and academic contexts, conditionals are used for hypothesis testing, policy evaluation, and philosophical argument. The choice of conditional type is not merely grammatical — it carries epistemic content. 'If global temperatures continue to rise' (first conditional) implies the writer regards this as a real, ongoing possibility. 'If global temperatures were to rise by 4 degrees' (second conditional) introduces a specific hypothetical scenario. 'If global temperatures had been stabilised in 2000' (third conditional) reflects on an opportunity foregone.\n\nAt C1/C2 level, the skill is to deploy conditionals with precision — to choose the form that accurately represents your degree of certainty about the condition, and to use mixed conditionals when the time reference of condition and consequence differ.",
+    "examples": [
       {
-        "speaker": "Marcus",
-        "text": "Ahmed, I've been thinking about my future here. If I stay in this position, will I ever move up?"
+        "from_text": "if X, then Y — can be used to reason forward from premises... or backward to conditions",
+        "analysis": "The writer here identifies the two primary logical uses of the conditional: forward (predictive) and backward (abductive/counterfactual). This maps onto the grammatical distinction between first/second conditionals (forward reasoning) and third/mixed conditionals (backward reasoning about past conditions and present consequences)."
       },
       {
-        "speaker": "Ahmed",
-        "text": "Definitely. If you demonstrate strong performance consistently, management will notice. If you apply for the team lead position when it opens, you will have a real shot at it."
+        "from_text": "If evidence X were to emerge, I would revise my position in direction Y.",
+        "analysis": "This is a second conditional — the condition ('evidence X were to emerge') is presented as hypothetical but possible. The formal 'were to emerge' (rather than 'emerged') signals careful register management: it is the appropriate form for philosophical and academic writing. The consequent ('I would revise') expresses genuine commitment, not hedging."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Were this hypothesis to be supported by further empirical data, its theoretical implications would be considerable.",
+        "informal": "If more data backs this up, it could be a big deal."
       },
       {
-        "speaker": "Marcus",
-        "text": "But I don't have any supervisory experience yet."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "That's okay. If you volunteer to lead small projects now, you will build that experience before the role opens. Every step counts."
-      },
-      {
-        "speaker": "Marcus",
-        "text": "What if I considered going back to school? Would that help?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Absolutely. If I were in your position, I would start with a certificate program — something in logistics or supply chain management. You could do it part-time."
-      },
-      {
-        "speaker": "Marcus",
-        "text": "That sounds expensive. If I had more savings, I would enroll right now."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Check whether your employer offers tuition assistance. If the company provided support, would you enroll?"
-      },
-      {
-        "speaker": "Marcus",
-        "text": "Yes, definitely! I didn't even know that was possible."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Many people don't. Honestly, if I had known about that program when I first arrived, I would have enrolled in my first year. I waited two years — that was time I could have used."
-      },
-      {
-        "speaker": "Marcus",
-        "text": "Do you regret that?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "A little. If I had asked my supervisor for advice earlier, he would have pointed me in the right direction sooner. But I've learned that regrets are just lessons. The important thing is what you do next."
-      },
-      {
-        "speaker": "Marcus",
-        "text": "So to summarize — if I work hard now, I will get opportunities. If I had better resources, I would act faster. And if I had started earlier, I would have been further along by now."
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Exactly. You've just summarized the three conditional types without even realizing it. That's progress."
+        "formal": "Had the intervention been introduced earlier, the outcomes would in all likelihood have differed significantly.",
+        "informal": "If they'd done it sooner, things would probably have turned out differently."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Type 1 Conditionals — Real / Likely Future",
-      "pattern": "If + present simple, will + base verb. Use for real, likely, or possible future situations.",
-      "examples": [
-        "If you apply early, you will have a better chance. (real plan — likely result)",
-        "If she studies every day, her English will improve quickly. (likely habit → likely outcome)",
-        "If the shipment arrives on time, we will meet the deadline. (real future condition)",
-        "If you volunteer for projects, management will notice your initiative. (action → natural consequence)",
-        "If you study consistently, results will follow. (general truth about real effort)"
-      ],
-      "your_turn": "Say a real plan: 'If I [do something], I will [result].'",
-      "prompts": [
-        {
-          "sentence": "If you apply early, you ___ have a better chance. (Type 1 result)",
-          "answer": "will"
-        },
-        {
-          "sentence": "If she ___ hard, her English will improve quickly. (Type 1 condition)",
-          "answer": "studies"
-        },
-        {
-          "sentence": "I ___ help you if you ask me. (Type 1 main clause)",
-          "answer": "will"
-        }
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Type 2 Conditionals — Hypothetical / Imaginary Present or Future",
-      "pattern": "If + past simple, would + base verb. Use for imaginary, unlikely, or hypothetical situations. Use 'were' for all subjects (not 'was') in formal English.",
-      "examples": [
-        "If I were in your position, I would start with a certificate program. (imagining yourself in another situation)",
-        "If he had more experience, he would apply for the promotion. (he doesn't have it — hypothetical)",
-        "If the company offered tuition support, I would enroll immediately. (imagining a condition that isn't currently true)",
-        "What would you do if you were offered a promotion? (hypothetical question)",
-        "If I were the manager, I would change the scheduling system. (clearly not the manager — imaginary)"
-      ],
-      "your_turn": "Say: 'If I were in your position, I would start with a certificate program.'",
-      "prompts": [
-        {
-          "sentence": "If I ___ you, I would accept the offer. (use 'were' not 'was')",
-          "answer": "were"
-        },
-        {
-          "sentence": "If he had more experience, he ___ apply for the role. (Type 2 result)",
-          "answer": "would"
-        },
-        {
-          "sentence": "What ___ you do if you lost your job? (hypothetical question)",
-          "answer": "would"
-        }
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Type 3 Conditionals — Counterfactual Past (regrets and alternative histories)",
-      "pattern": "If + past perfect (had + past participle), would have + past participle. Use to imagine how the past could have been different.",
-      "examples": [
-        "If I had known about the program, I would have enrolled sooner. (I didn't know — imagining different past)",
-        "If he had asked for feedback, he would have improved faster. (he didn't ask — what could have happened)",
-        "If she had applied last year, she would have gotten the job. (she didn't apply — past regret)",
-        "If I had started saving earlier, I would have had enough money by now. (past action → different present)",
-        "If the team had communicated better, we would have avoided the problem. (past situation — counterfactual)"
-      ],
-      "your_turn": "Say: 'If I had known about the program, I would have enrolled sooner.'",
-      "prompts": [
-        {
-          "sentence": "If I ___ known about it, I would have enrolled. (past perfect condition)",
-          "answer": "had"
-        },
-        {
-          "sentence": "If she had applied, she would ___ gotten the job. (Type 3 result)",
-          "answer": "have"
-        },
-        {
-          "sentence": "He would have finished on time if he ___ asked for help. (Type 3 condition)",
-          "answer": "had"
-        }
-      ]
-    },
-    {
-      "id": "drill-4",
-      "focus": "Mixed Conditionals — Recognizing which type fits",
-      "pattern": "Read the situation and choose the correct conditional type. Real → Type 1. Hypothetical → Type 2. Counterfactual past → Type 3.",
-      "examples": [
-        "The meeting is tomorrow. (real) → If you prepare tonight, you will feel more confident.",
-        "You are not the manager. (hypothetical) → If you were the manager, what would you change?",
-        "You didn't study last night. (past fact — regret) → If you had studied, you would have done better.",
-        "The company might offer a raise. (possible future) → If they offer a raise, I will accept immediately.",
-        "I didn't get the job last year. (past fact) → If I had applied earlier, I would have had more interviews."
-      ],
-      "your_turn": "Use all three types: a real plan, an imaginary situation, and a past regret.",
-      "prompts": [
-        {
-          "sentence": "Real plan (Type 1): If I practice every day, my English ___ improve.",
-          "answer": "will"
-        },
-        {
-          "sentence": "Hypothetical (Type 2): If I ___ the manager, I would change the policy.",
-          "answer": "were"
-        },
-        {
-          "sentence": "Past regret (Type 3): If she had studied, she ___ have passed.",
-          "answer": "would"
-        }
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson7-listen1.mp3",
-      "transcript": "Marcus: 'Ahmed, if I study logistics part-time, will the company support me?' Ahmed: 'Absolutely. If you enroll and maintain good attendance, HR will approve tuition assistance. If you complete the certificate, you will qualify for the team lead position when it opens.' Marcus: 'And if I apply early, will I have a better chance?' Ahmed: 'Yes. If you submit your application in the first week, your chances improve significantly. I went through the same process — if you plan ahead, the opportunities are real.'",
-      "question": "Which type of conditional appears in Ahmed and Marcus's conversation?",
-      "options": [
-        "Type 3 — imagining a different past",
-        "Type 2 — hypothetical situations",
-        "Type 1 — real or likely future plans",
-        "Mixed types only"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson7-listen2.mp3",
-      "transcript": "Director Kim: 'I noticed something in your self-evaluation, Ahmed. You wrote: «If I would have more experience, I would apply for the regional role.»' Ahmed: 'Is that wrong?' Director Kim: 'The idea is right, but the form is off. Don't put «would» in the if-part. Say «If I had more experience, I would apply.» The if-part uses past simple, not would.' Ahmed: 'So «If I would have...» is the mistake.' Director Kim: 'Exactly. That's the most common error. «If I had» — not «If I would have.»'",
-      "question": "What error did Ahmed make in his self-evaluation?",
-      "options": [
-        "He used past perfect in the if-clause",
-        "He put 'would' in the if-clause",
-        "He used 'were' instead of 'was'",
-        "He forgot to use 'if'"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson7-listen3.mp3",
-      "transcript": "Ahmed: 'Marcus, I want to be honest with you. If I had asked my supervisor for career advice in my first year, I would have advanced faster. I waited two years — that's two years I can't get back.' Marcus: 'Do you regret it?' Ahmed: 'A little. But I've learned from it. If I were in your position right now, I would go to the HR office tomorrow and ask about the tuition program. And if you do that this week, you will have the paperwork ready before the deadline.' Marcus: 'So one is about the past, one is imaginary, and one is a real plan?' Ahmed: 'Exactly. You're already thinking about this the right way.'",
-      "question": "In Ahmed's advice, which conditional type does he use for his real recommendation to Marcus?",
-      "options": [
-        "Type 3 — to discuss a past regret",
-        "Type 2 — imagining a hypothetical position",
-        "Type 1 — a real plan with a likely result",
-        "He doesn't give a real recommendation"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Talk about a real career goal using Type 1 conditionals (if + present, will). What will you do, and what results do you expect? Use at least 3 Type 1 conditionals. Record for 35 seconds.",
-      "example": "I have a clear plan for my career development. If I enroll in the logistics certificate program this fall, I will complete it within 18 months. If I earn that qualification, my chances of promotion will increase significantly. I also know that if I continue to build my supervisory skills in this role, management will trust me with more responsibility. And if I stay with this company for three more years and demonstrate consistent results, I will be in a strong position for a regional manager role. If you work with purpose, opportunities will follow — I genuinely believe that.",
-      "min_seconds": 35,
-      "target_language": "english",
-      "sentence_starters": [
-        "If I [study / apply / practice] ..., I will ...",
-        "If I stay consistent with ..., the results will ...",
-        "One thing I know for certain: if I ..., I will ..."
-      ]
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Use all three conditional types in one response. 1) What would you do differently if you could change your past? (Type 3). 2) What would you change about your current situation if you could? (Type 2). 3) What will you do starting now? (Type 1). Record for 40 seconds.",
-      "example": "Let me reflect on all three. Looking back, if I had invested more time in studying English in my first year here, I would have advanced more quickly in my career — that's my biggest regret, and I won't let it define me. In terms of my current situation, if I had more free time each week, I would take a public speaking course, because I know that skill would open many doors. But I can't change the hours in a day. What I can control is what I do next: if I commit to 30 minutes of focused English practice every evening, my fluency will improve noticeably within six months. The past shaped me, the present situation constrains me, but the future is mine to build.",
-      "min_seconds": 40,
-      "target_language": "english",
-      "sentence_starters": [
-        "Looking back, if I had ..., I would have ...",
-        "Right now, if I had more ..., I would ...",
-        "Going forward, if I ..., I will ..."
-      ]
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a career reflection (100-120 words) using all three conditional types. Include: one real plan (Type 1), one hypothetical situation (Type 2), and one past reflection (Type 3).",
-      "min_words": 100,
-      "example": "Reflecting on my career, I can see both past mistakes and future opportunities clearly.\n\nLooking back, if I had taken a business communication course in my first year, I would have been promoted sooner. That early investment would have paid off enormously. It is a regret, but also a lesson.\n\nIn my current situation, if I had more financial flexibility, I would enroll in a degree program immediately and complete it as quickly as possible. The opportunity would transform my career trajectory.\n\nHowever, I am focused on what I can control. If I develop my leadership skills consistently over the next two years, I will qualify for a senior management position. The path is clear — I just need to walk it with discipline and patience.",
-      "rubric": [
-        "Include one conditional of each type: real future (Type 1), hypothetical present (Type 2), and past reflection (Type 3)",
-        "Use correct verb forms for each type — no 'would' in the if-clause",
-        "Connect ideas logically so the reflection tells a coherent story"
-      ]
-    },
-    {
-      "id": "write-2",
-      "prompt": "A friend is struggling at work and considering quitting. Write them a message (80-100 words) giving advice. Use all three conditional types: encourage them with Type 1, help them think hypothetically with Type 2, and acknowledge their past situation with Type 3.",
-      "min_words": 80,
-      "example": "Hi Lena,\n\nI understand how frustrated you feel. If you had received better support from your manager in the beginning, your experience would have been very different — that wasn't your fault.\n\nBefore you decide, consider this: if you were to speak directly with HR about your concerns, what would you want them to know? That conversation might open doors.\n\nAnd if you stay and address the issues systematically, your situation will improve — I've seen it happen. You are capable and hardworking.\n\nWhatever you decide, I support you.\n\nAhmed",
-      "rubric": [
-        "Open with empathy (acknowledge the friend's situation) before giving advice",
-        "Use at least one conditional of each type correctly",
-        "End with an encouraging, forward-looking statement"
-      ]
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Type 1: Real Conditional (Present → Future)",
-      "explanation": "Use Type 1 for real, possible, or likely situations. Structure: If + present simple, will + base verb. The if-clause can come first or second. You already use this structure whenever you discuss real plans — for example, 'If I finish early, I'll call you' is a natural Type 1 conditional you may have said many times.",
-      "examples": [
-        "If you apply now, you will meet the deadline. (likely situation → likely result)",
-        "You will improve if you practice every day. (main clause first is also correct)",
-        "If it rains tomorrow, we will postpone the event.",
-        "If she studies hard, she will pass the exam.",
-        "Even if it's difficult, it will be worth the effort."
-      ],
-      "practice": [
-        {
-          "sentence": "If you ___ (work) hard, you ___ (get) promoted.",
-          "blank": "work / will get",
-          "options": [
-            "work / will get",
-            "worked / would get",
-            "had worked / would have gotten"
-          ]
-        },
-        {
-          "sentence": "If she ___ (apply) early, she ___ (have) more options.",
-          "blank": "applies / will have",
-          "options": [
-            "applies / will have",
-            "applied / would have",
-            "had applied / would have had"
-          ]
-        },
-        {
-          "sentence": "I ___ (help) you if you ___ (ask).",
-          "blank": "will help / ask",
-          "options": [
-            "will help / ask",
-            "would help / asked",
-            "would have helped / had asked"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Type 2: Hypothetical Conditional (Imaginary Present/Future)",
-      "explanation": "Use Type 2 for imaginary, unlikely, or hypothetical situations. Structure: If + past simple, would + base verb. Use 'were' for all subjects in formal English. You already know 'I would approach this by...' and 'I would consider...' from job interview language in Unit 9 — the 'would' in those phrases comes from Type 2 conditional thinking.",
-      "examples": [
-        "If I were you, I would accept the offer. ('were' not 'was' in formal English)",
-        "If he had more experience, he would apply for the role. (he doesn't — hypothetical)",
-        "If the company paid more, she would stay. (they don't — imagining otherwise)",
-        "What would you do if you lost your job? (hypothetical question)",
-        "If I could change one thing, I would improve our communication system."
-      ],
-      "practice": [
-        {
-          "sentence": "If I ___ (be) the manager, I ___ (change) this policy.",
-          "blank": "were / would change",
-          "options": [
-            "were / would change",
-            "am / will change",
-            "had been / would have changed"
-          ]
-        },
-        {
-          "sentence": "If she ___ (have) a car, she ___ (commute) faster.",
-          "blank": "had / would commute",
-          "options": [
-            "had / would commute",
-            "has / will commute",
-            "had had / would have commuted"
-          ]
-        },
-        {
-          "sentence": "He ___ (apply) if the salary ___ (be) higher.",
-          "blank": "would apply / were",
-          "options": [
-            "would apply / were",
-            "will apply / is",
-            "would have applied / had been"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Type 3: Counterfactual Past (Imagining a Different Past)",
-      "explanation": "Use Type 3 for imagining how the past could have been different. Structure: If + past perfect (had + past participle), would have + past participle. Used to express regret, alternative histories, or past criticism.",
-      "examples": [
-        "If I had studied harder, I would have passed the exam. (I didn't study → I didn't pass)",
-        "If she had applied earlier, she would have gotten the job. (she didn't → she didn't get it)",
-        "If he had asked for help, he would have finished on time. (he didn't ask → he didn't finish)",
-        "I would have stayed if the conditions had been better. (main clause first is also possible)",
-        "If we had planned better, we would have avoided this problem."
-      ],
-      "practice": [
-        {
-          "sentence": "If I ___ (know) about the program, I ___ (enroll).",
-          "blank": "had known / would have enrolled",
-          "options": [
-            "had known / would have enrolled",
-            "knew / would enroll",
-            "know / will enroll"
-          ]
-        },
-        {
-          "sentence": "She ___ (get) the promotion if she ___ (apply).",
-          "blank": "would have gotten / had applied",
-          "options": [
-            "would have gotten / had applied",
-            "would get / applied",
-            "will get / applies"
-          ]
-        },
-        {
-          "sentence": "If they ___ (communicate) earlier, we ___ (avoid) the problem.",
-          "blank": "had communicated / would have avoided",
-          "options": [
-            "had communicated / would have avoided",
-            "communicated / would avoid",
-            "communicate / will avoid"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Which conditional describes a real or likely future situation?",
-        "options": [
-          "Type 2 — If I were...",
-          "Type 3 — If I had known...",
-          "Type 1 — If I study...",
-          "All three are equal"
-        ],
-        "correct": 2,
-        "points": 10
+        "incorrect": "If the report would have been submitted on time, we could have avoided the delay.",
+        "correct": "If the report had been submitted on time, we could have avoided the delay.",
+        "explanation": "In third conditional (past hypothetical) 'if' clauses, 'would have' is not used — the 'if' clause takes the past perfect ('had been submitted'). 'Would have' belongs in the result clause. This is a very common error: 'If X would have happened...' should always be 'If X had happened...'"
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "Choose the correct Type 1 conditional:",
-        "options": [
-          "If I would study, I will pass.",
-          "If I study, I will pass.",
-          "If I had studied, I will pass.",
-          "If I study, I would pass."
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Unless they don't improve their communication, the project will fail.",
+        "correct": "Unless they improve their communication, the project will fail.",
+        "explanation": "'Unless' already carries a negative meaning ('if not'); adding 'don't' creates a double negative that reverses the meaning. 'Unless they improve' = 'if they do not improve'. 'Unless they don't improve' = 'if they do not not improve' = 'if they improve' — the opposite of the intended meaning."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "Choose the correct Type 2 conditional:",
-        "options": [
-          "If I am rich, I buy a house.",
-          "If I were rich, I would buy a house.",
-          "If I had been rich, I would have bought a house.",
-          "If I will be rich, I buy a house."
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "Supposing that the committee would agree, what would be the next step?",
+        "correct": "Supposing that the committee agreed, what would be the next step?",
+        "explanation": "'Supposing that' introduces a hypothetical conditional and is followed by the past simple (for present/future hypotheticals), not 'would'. The form mirrors the second conditional: 'Supposing that + past simple, would + infinitive'."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Choose the correct Type 3 conditional:",
-        "options": [
-          "If I study, I will have passed.",
-          "If I studied, I would pass.",
-          "If I had studied, I would have passed.",
-          "If I would study, I had passed."
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "In Type 2 conditionals, it is correct to say 'If I were you...' (using 'were' instead of 'was').",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "It is correct to say 'If I would have money, I would travel.' (using 'would' in the if-clause).",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "Type 1: If you ___ (practice) every day, your English ___ (improve).",
-        "correct": "practice / will improve",
-        "accept": [
-          "practice / will improve",
-          "practice, your English will improve"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "Type 3: If she ___ (ask) for help, she ___ (finish) on time.",
-        "correct": "had asked / would have finished",
-        "accept": [
-          "had asked / would have finished",
-          "had asked, she would have finished"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match the conditional type to its use:",
-        "pairs": [
-          {
-            "left": "Type 1",
-            "right": "Real or likely future"
-          },
-          {
-            "left": "Type 2",
-            "right": "Hypothetical present"
-          },
-          {
-            "left": "Type 3",
-            "right": "Counterfactual past"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "Marcus said 'If I had more savings, I would enroll.' This is a ___.",
-        "options": [
-          "Type 1 — real future",
-          "Type 2 — hypothetical present",
-          "Type 3 — counterfactual past",
-          "Zero conditional — general truth"
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q11",
-        "type": "open-ended",
-        "question": "Find and fix the error: 'If I would know the answer, I would tell you.'",
-        "correct": "If I knew the answer, I would tell you.",
-        "accept": [
-          "If I knew the answer, I would tell you."
-        ],
-        "points": 10
-      },
-      {
-        "id": "q12",
-        "type": "open-ended",
-        "question": "Find and fix the error: 'If she had studied, she would passed the exam.'",
-        "correct": "If she had studied, she would have passed the exam.",
-        "accept": [
-          "If she had studied, she would have passed the exam."
-        ],
-        "points": 10
+        "incorrect": "Even if the evidence is strong, I still would not be convinced without seeing the original data.",
+        "correct": "Even if the evidence were strong, I would still not be convinced without seeing the original data.",
+        "explanation": "'Even if' here introduces a hypothetical concessive condition — the speaker is imagining a situation that has not occurred. This requires the second conditional form (past simple: 'were strong') rather than the present simple ('is strong'). The present simple 'is' would suggest the evidence actually exists and is strong."
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that political leaders should be required to specify in advance what evidence would change their stated policy positions.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Requiring pre-specified conditions for policy revision would impose a form of intellectual accountability on politicians that is currently absent, reducing the incidence of positions held out of ideology rather than evidence.",
+      "It would make policy debate more productive: if we knew in advance what evidence leaders required to change position, public discourse could focus on generating that evidence rather than on circular assertions.",
+      "Democratic accountability requires that voters be able to evaluate whether their representatives are genuinely evidence-responsive — pre-commitment to falsifiability criteria would make this evaluation possible."
+    ],
+    "counter_arguments": [
+      "Governance requires adaptability to unpredictable circumstances; forcing leaders to pre-commit to revision criteria could trap them in positions that become untenable as context changes in ways they could not anticipate.",
+      "The political system already contains mechanisms for revising policy (elections, select committees, judicial review) — adding a formal philosophical criterion would be impractical and potentially legalistic.",
+      "The line between principled position-holding and inflexibility is not always clear: leaders who change positions frequently are accused of lacking principle; the demand for pre-specified revision criteria could be weaponised to paint any consistent policy commitment as dogmatism."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. Your speech must use at least two different conditional structures (e.g., first and second, or second and third), at least 3 discourse markers from the list, and must engage with the concept of falsifiability."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write a 250-word philosophical essay responding to this question: 'Is intellectual humility — the genuine willingness to revise one's beliefs — compatible with holding strong convictions?' Use conditional structures to explore the hypothetical dimensions of your argument.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Engage with the apparent tension in the question. Define 'intellectual humility' and 'strong conviction' in a way that sets up your argument."
+      },
+      {
+        "section": "Argument: compatibility",
+        "guidance": "Argue that genuine conviction and revisability are not only compatible but mutually dependent — a conviction that cannot be revised is not a belief but a dogma. Use a conditional to articulate this."
+      },
+      {
+        "section": "Complication",
+        "guidance": "Acknowledge the difficulty: are there beliefs that should be held with certainty, immune to revision? How do you distinguish between appropriate conviction and closed-mindedness?"
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Offer a resolution that distinguishes between the strength of a belief and its revisability. These are different dimensions, and both can be high."
+      }
+    ],
+    "model_answer": "There is a tempting assumption that intellectual humility and strong conviction stand in inverse proportion — that the more confident we are in a belief, the less open we are to revising it, and vice versa. This assumption is, I will argue, mistaken. The two qualities are not only compatible but mutually constitutive.\n\nA genuinely strong conviction is one held for reasons — reasons that could, in principle, be undermined by evidence. If I believe that a particular policy is effective because of its measurable outcomes, then I am committed to revising that belief if the outcomes change. Were the outcomes to reverse, I would be obliged by my own reasoning to revise my position. Far from being a form of weakness, this revisability is what makes the belief rational rather than merely felt. A belief held regardless of evidence is not 'strong' in any intellectually respectable sense — it is merely rigid.\n\nThe complication arises with beliefs we regard as foundational — moral convictions about human dignity, for instance, or commitments to the value of evidence itself. These are cases where the conditions for revision are genuinely hard to specify. Could evidence ever change my view that gratuitous cruelty is wrong? It is difficult to imagine what that evidence would look like. Yet even here, intellectual humility does not require abandoning the conviction; it requires holding it with an awareness of its foundations and a willingness to examine them.\n\nIntellectual humility, then, is not about how firmly you hold beliefs, but about how honestly you hold them — with full awareness of why, and a genuine commitment to follow the reasoning wherever it leads."
+  },
+  "advanced_grammar": {
+    "structure": "Hypothetical and Counterfactual Conditionals: Form and Use at C2 Level",
+    "explanation": "At C2 level, conditional precision requires mastery not just of the four standard types but of their stylistic variants: 'were to + infinitive' for formal second conditionals, 'had + subject + past participle' for inverted third conditionals, and elliptical conditionals ('Were it not for...', 'But for...') for formal and literary effects.\n\n'But for' is a particularly sophisticated construction that means 'if it were not for' or 'if it had not been for'. It is used in formal contexts to indicate the single condition that prevented or enabled an outcome: 'But for the committee's intervention, the project would have been cancelled.' This is a compressed third conditional with a specific causal emphasis.",
+    "authentic_examples": [
+      "Were it not for the initial investment in research, the breakthrough would not have been possible. (formal inversion of third conditional)",
+      "But for the intervention of the international community, the conflict might have escalated further. (literary/formal conditional with 'but for')",
+      "Had we known then what we know now, the entire strategy would have been reconsidered from the outset. (inverted third conditional)"
+    ],
+    "practice": [
+      {
+        "sentence": "If it had not been for her support, the project would have failed.",
+        "transform": "Rewrite using 'but for' for a more formal register.",
+        "answer": "But for her support, the project would have failed."
+      },
+      {
+        "sentence": "If the data had been collected more carefully, the conclusions might have been different.",
+        "transform": "Rewrite using conditional inversion (without 'if').",
+        "answer": "Had the data been collected more carefully, the conclusions might have been different."
+      },
+      {
+        "sentence": "If things were to change significantly, the entire agreement would need to be renegotiated.",
+        "transform": "Rewrite using formal 'were to' construction for hypothetical register.",
+        "answer": "Were things to change significantly, the entire agreement would need to be renegotiated."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "hypothetical",
-      "definition": "imagined or supposed, not real — useful when discussing options or possibilities",
-      "example": "Let's think about a hypothetical situation: what if the company offered you a promotion tomorrow?"
+      "id": 1,
+      "question": "What does the writer mean by a 'vacuous' hypothetical in paragraph 2?",
+      "options": [
+        "A hypothetical that is expressed in very complex language",
+        "A hypothetical that sounds open but whose conditions are so extreme as to function as a refusal to revise",
+        "A hypothetical that deals with empty or unimportant topics",
+        "A hypothetical that is grammatically incorrect"
+      ],
+      "correct": 1,
+      "explanation": "The writer describes the example of changing one's mind only if every climate scientist recanted — technically a conditional, but practically a refusal, because the condition is impossibly extreme. 'Vacuous' here means empty of genuine content or substance, despite having the correct grammatical form."
     },
     {
-      "word": "alternative",
-      "definition": "a different option or possibility that you could choose instead",
-      "example": "If that plan doesn't work, we'll need a strong alternative."
+      "id": 2,
+      "question": "Which sentence correctly uses 'but for' to express a counterfactual condition?",
+      "options": [
+        "But for I had her help, the project would have failed.",
+        "But for her help, the project would have failed.",
+        "But for her help, the project had failed.",
+        "But for her helping, the project would fail."
+      ],
+      "correct": 1,
+      "explanation": "'But for' is followed directly by a noun phrase ('her help') and the result clause uses the same form as a third conditional result: 'would have + past participle'. No auxiliary is needed in the 'but for' phrase — it is a compressed preposition, not a conjunction."
     },
     {
-      "word": "outcome",
-      "definition": "the final result or consequence of a situation or action",
-      "example": "If you apply early, the outcome will likely be positive."
+      "id": 3,
+      "question": "What is the error in 'If the report would have been submitted on time, we could have avoided the delay'?",
+      "options": [
+        "The result clause should use 'would avoid', not 'could have avoided'",
+        "The 'if' clause should use 'had been submitted', not 'would have been submitted'",
+        "The 'if' clause should use the present perfect, not the past perfect",
+        "The sentence is correct as written"
+      ],
+      "correct": 1,
+      "explanation": "In third conditional 'if' clauses, 'would have' is never used — the 'if' clause always uses the past perfect ('had been submitted'). 'Would have' belongs only in the result clause. 'If X would have happened' is a very common error, particularly among learners whose first languages permit modal verbs in both clauses."
     },
     {
-      "word": "reflect",
-      "definition": "to think carefully and honestly about something, especially the past",
-      "example": "If I had reflected on my choices sooner, I would have changed direction earlier."
+      "id": 4,
+      "question": "Which sentence uses 'unless' correctly?",
+      "options": [
+        "Unless they don't improve, the project will fail.",
+        "Unless they will improve, the project will fail.",
+        "Unless they improve, the project will fail.",
+        "Unless they have improved, the project will fail soon."
+      ],
+      "correct": 2,
+      "explanation": "'Unless' means 'if not', so it already contains a negative. The verb in the 'unless' clause should be in the present simple for a real conditional. Options A (double negative), B ('will' in the condition clause), and D (present perfect with 'soon' — tense mismatch) are all incorrect."
     },
     {
-      "word": "regret",
-      "definition": "a feeling of sadness about something that went wrong or was not done",
-      "example": "If I had asked for help earlier, I would have fewer regrets about that year."
-    },
-    {
-      "word": "consequence",
-      "definition": "a result that follows from an action or decision",
-      "example": "If you miss the deadline, the consequence could be serious."
-    },
-    {
-      "word": "unlikely",
-      "definition": "not expected to happen; improbable",
-      "example": "It's unlikely that he will get the job if he doesn't prepare."
-    },
-    {
-      "word": "consistent",
-      "definition": "doing the same thing repeatedly and reliably over time",
-      "example": "If you are consistent, your English will improve faster than you expect."
-    },
-    {
-      "word": "trajectory",
-      "definition": "the path or direction something takes as it develops over time",
-      "example": "Your career trajectory depends on the choices you make in the next few years."
-    },
-    {
-      "word": "enroll",
-      "definition": "to officially sign up for a course, program, or activity",
-      "example": "If the company offers tuition support, I will enroll immediately."
+      "id": 5,
+      "question": "Which conditional form does the phrase 'Were evidence X to emerge, I would revise my position' represent?",
+      "options": [
+        "First conditional (real, open condition)",
+        "Third conditional (past counterfactual)",
+        "Formal second conditional with 'were to + infinitive'",
+        "Mixed conditional (past condition, present result)"
+      ],
+      "correct": 2,
+      "explanation": "The construction 'Were + subject + to + infinitive' is the formal version of the second conditional — it presents a hypothetical present/future condition. The standard form would be 'If evidence X emerged'; 'were to emerge' is more formal and is common in academic and philosophical writing. It is not third conditional because it doesn't refer to a past event that didn't happen."
     }
-  ],
-  "cultural_notes": [
-    "Americans frequently use all three conditional types in career counseling, job interviews, and performance reviews — fluency with conditionals signals professional language ability.",
-    "Type 2 conditionals with 'were' ('If I were you...', 'If she were here...') are standard in American formal and professional speech; 'was' is common in casual conversation.",
-    "In American workplace culture, managers often use conditionals when giving feedback: 'If you had communicated earlier, we would have avoided this problem' (Type 3 — showing accountability).",
-    "Conditional sentences are central to American negotiation language: 'If you could offer X, I would be willing to Y' is a standard negotiation structure.",
-    "Ahmed's use of Type 3 conditionals ('If I had known...') to reflect on his own career journey reflects the American value of self-reflection and continuous growth — acknowledging mistakes without being paralyzed by them."
   ]
 }

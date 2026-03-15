@@ -2,235 +2,231 @@
   "id": "lesson-65",
   "unit_id": 11,
   "lesson_number": 3,
-  "title": "Literature Review and Scholarly Synthesis",
-  "level": "proficient",
-  "estimated_time": 45,
+  "title": "Performance Reviews: Language of Evaluation, Feedback, and Professional Growth",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Conduct systematic literature reviews",
-    "Synthesize conflicting research findings",
-    "Identify theoretical frameworks",
-    "Map research landscapes"
+    "Analyse the evaluative language used in performance review documentation and distinguish constructive from demoralising feedback",
+    "Construct balanced, evidence-based feedback using professional frameworks at C1/C2 level",
+    "Negotiate self-assessment language that advocates effectively for one's own contributions without appearing boastful",
+    "Evaluate the ethical and relational dimensions of performance evaluation discourse in hierarchical professional contexts"
   ],
-  "target_phrases": [
-    "The seminal work by... established...",
-    "Subsequent research has both confirmed and complicated...",
-    "A theoretical divide emerges between... and...",
-    "While early studies suggested... more recent work demonstrates...",
-    "This body of literature suffers from...",
-    "Synthesizing across these findings...",
-    "The field would benefit from..."
+  "authentic_text": {
+    "title": "Annual Performance Review — Senior Business Analyst",
+    "type": "report",
+    "text": "Overall Assessment: Exceeds Expectations\n\nSummary of Performance:\nOver the past review period, this analyst has demonstrated a consistent and commendable capacity to operate effectively at the boundary of technical analysis and strategic communication — a combination that is comparatively rare at this level and that has added measurable value to the business unit.\n\nKey Strengths:\nThe most significant contribution during this period has been the redesign of the quarterly client reporting framework. Rather than simply producing reports to specification, the analyst identified structural inefficiencies in the existing process, proposed a revised methodology, secured buy-in from three stakeholders with competing interests, and implemented changes that reduced preparation time by 34% while improving client satisfaction scores. This is precisely the kind of initiative that distinguishes a high-performing analyst from one who merely fulfils their job description.\n\nA further strength is the analyst's communication across hierarchical levels. Feedback from both senior leadership and junior team members indicates that the analyst has a notable ability to translate complex data into narratives that are appropriately calibrated for different audiences — a skill that is difficult to teach and considerably easier to recognise than to develop.\n\nAreas for Development:\nNotwithstanding these considerable strengths, there is a pattern that warrants attention in the coming year. The analyst tends to take on responsibilities beyond their formal remit, which, while reflective of strong initiative, has at times resulted in scope creep and team confusion about accountability. The recommendation for the next review period is to channel this initiative within clearer project governance frameworks.",
+    "source": "Illustrative performance review documentation, modelled on mid-to-large professional services firm evaluation practices",
+    "notes": "The review uses nominalisation, evaluative adverbs, and carefully hedged praise to construct an authoritative but fair assessment — language typical of formal HR documentation at managerial level."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What specific, measurable outcome did the analyst's redesign of the reporting framework produce?",
+      "answer": "The redesign reduced preparation time by 34% while also improving client satisfaction scores."
+    },
+    {
+      "type": "inference",
+      "question": "What does the reviewer imply by describing the analyst's skill as 'considerably easier to recognise than to develop'?",
+      "answer": "The reviewer implies that this communication skill is innate or at least deeply embedded, and therefore represents a genuine talent rather than a trained competency — making it especially valuable and difficult to replicate through standard training."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the 'Areas for Development' section and identify one phrase that is characteristic of this tone.",
+      "answer": "The tone is diplomatically cautionary — it introduces a criticism while carefully softening its impact. 'Notwithstanding these considerable strengths' is characteristic: the reviewer acknowledges the positive first, framing the criticism as a minor qualification to an otherwise strong record."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The phrase 'scope creep' in the final paragraph refers to:",
+      "answer": "The gradual expansion of a project or role beyond its originally agreed boundaries, often without formal authorisation. In the context here, it refers to the analyst taking on responsibilities outside their defined remit."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the reviewer's purpose in noting that the skill of calibrating communication for different audiences is 'difficult to teach'?",
+      "answer": "By emphasising that this skill is difficult to teach, the reviewer amplifies the significance of the strength — it becomes not just a positive quality but a genuinely rare and high-value attribute, which elevates the overall assessment."
+    }
   ],
-  "dialogue": {
-    "title": "Mastering Literature Review",
-    "context": "Ahmed meets with a research librarian and advisor to improve his literature review methodology.",
-    "lines": [
-      {"speaker": "Librarian", "text": "You've collected 200 sources. That's comprehensive, but literature review isn't just summarizing. How will you synthesize?"},
-      {"speaker": "Ahmed", "text": "I'm organizing chronologically - showing how the field evolved over time."},
-      {"speaker": "Advisor", "text": "Chronology can work, but thematic organization is often stronger. What are the major debates or theoretical divides in your area?"},
-      {"speaker": "Ahmed", "text": "A theoretical divide emerges between economic efficiency perspectives and stakeholder value approaches to sustainability. The seminal work by Friedman (1970) established profit maximization as sole corporate responsibility, while Freeman (1984) introduced stakeholder theory."},
-      {"speaker": "Librarian", "text": "Good. You're identifying foundational texts. How has subsequent research developed these frameworks?"},
-      {"speaker": "Ahmed", "text": "Subsequent research has both confirmed and complicated these positions. While early studies suggested sustainability hurt profitability, more recent work demonstrates complementarity. Porter and van der Linde's (1995) 'win-win' hypothesis bridged the divide."},
-      {"speaker": "Advisor", "text": "Excellent synthesis. You're showing evolution and relationship between ideas. What gaps do you identify?"},
-      {"speaker": "Ahmed", "text": "This body of literature suffers from three limitations: most studies are cross-sectional, sample bias toward large public companies, and geographic concentration in Western contexts. The field would benefit from longitudinal designs, SME inclusion, and cross-cultural comparison."},
-      {"speaker": "Librarian", "text": "That's sophisticated analysis. How will you organize the review?"},
-      {"speaker": "Ahmed", "text": "I'll structure it thematically: theoretical frameworks, then methodological approaches, then findings by topic area. Synthesizing across these findings, I'll argue that context-dependent relationships explain conflicting results."},
-      {"speaker": "Advisor", "text": "Perfect. You're not just cataloging sources - you're creating a coherent narrative that justifies your research. That's scholarly synthesis."}
+  "language_analysis": {
+    "focus": "Nominalisation in Business Writing",
+    "explanation": "Nominalisation is the process of converting a verb, adjective, or other word class into a noun or noun phrase. For example, the verb 'to decide' becomes 'the decision'; the adjective 'efficient' becomes 'efficiency'; the verb 'to implement' becomes 'the implementation.' Nominalisation is one of the most distinctive features of formal written English, particularly in business, legal, and academic registers.\n\nIn professional contexts, nominalisation serves multiple functions. It allows a writer to refer to a process or action as a thing — something that can be quantified, evaluated, and discussed in abstract terms. This creates the impression of objectivity and analytical distance. Rather than writing 'the analyst decided to redesign the process' (subjective, action-focused), a writer using nominalisation produces 'the redesign of the process' or 'the analyst's decision to redesign the reporting framework' (object-focused, more formal).\n\nNominalisation also enables complex information compression: 'following the implementation of the revised framework' packs an entire process into a prepositional phrase, allowing the sentence to continue with its main analytical point without being derailed by procedural narration. The performance review above makes extensive use of nominalisation precisely because it is evaluating processes and attributes, not narrating events.",
+    "examples": [
+      {
+        "from_text": "the redesign of the quarterly client reporting framework",
+        "analysis": "'Redesign' is a nominalised form of the verb 'to redesign.' Using the noun form allows the reviewer to treat the redesign as a concrete, discussable object — something that can be evaluated, praised, and referenced. 'The analyst redesigned the framework' would be more conversational but less precise in formal evaluation contexts."
+      },
+      {
+        "from_text": "a notable ability to translate complex data into narratives that are appropriately calibrated for different audiences",
+        "analysis": "Multiple nominalisations operate here: 'ability,' 'narratives,' 'calibration' (implied). This noun-heavy construction creates the formal, evaluative distance appropriate to HR documentation and allows the sentence to make an abstract claim about a skill rather than a concrete claim about a specific event."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The implementation of the new procurement policy resulted in a significant reduction in processing time.",
+        "informal": "After they put the new procurement policy in place, processing got a lot faster."
+      },
+      {
+        "formal": "The analyst's failure to adhere to project governance frameworks resulted in considerable ambiguity regarding accountability.",
+        "informal": "The analyst kept doing things outside their job and nobody knew who was in charge."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Citing foundational work",
-      "pattern": "The seminal work by [author] established [contribution]",
-      "examples": [
-        "The seminal work by Chomsky (1957) established transformational grammar as dominant linguistic paradigm.",
-        "The seminal work by Bandura (1977) established social learning theory's importance in psychology.",
-        "The seminal work by Kuhn (1962) established the concept of paradigm shifts in scientific progress.",
-        "The seminal work by Butler (1990) established gender performativity theory.",
-        "The seminal work by Said (1978) established postcolonial studies as critical framework."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Describing research evolution",
-      "pattern": "While early studies suggested... more recent work demonstrates...",
-      "examples": [
-        "While early studies suggested bilingualism confused children, more recent work demonstrates cognitive advantages.",
-        "While initial research indicated negative effects, subsequent findings reveal more nuanced relationships.",
-        "While pioneering studies focused on X, contemporary research examines Y's mediating role.",
-        "While traditional perspectives emphasized conflict, emerging work highlights complementarity.",
-        "While foundational theories proposed linear relationships, current research demonstrates complexity."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Identifying gaps and needs",
-      "pattern": "This body of literature suffers from [limitation] / The field would benefit from [direction]",
-      "examples": [
-        "This body of literature suffers from methodological homogeneity limiting generalizability.",
-        "The field would benefit from mixed-methods approaches integrating quantitative and qualitative insights.",
-        "This research stream suffers from atheoretical empiricism without explanatory frameworks.",
-        "The field would benefit from longitudinal designs tracking change over time.",
-        "This literature suffers from Western-centric assumptions limiting cross-cultural applicability."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit11-lesson3-listen1.mp3",
-      "transcript": "Systematic literature review requires rigorous methodology. Define inclusion criteria: What types of sources? What time period? What methodologies? Use multiple databases (Google Scholar, JSTOR, discipline-specific). Track search terms and results. Read abstracts for relevance before full texts. Use citation management software. Look for review articles synthesizing prior work - they're goldmines. Follow citation trails: who does seminal work cite (backward) and who cites it (forward)? This reveals research conversations and intellectual lineages.",
-      "question": "What should you define for systematic review?",
-      "options": [
-        "Nothing - just search randomly",
-        "Inclusion criteria, time period, methodologies",
-        "Only the conclusion",
-        "Your opinion only"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit11-lesson3-listen2.mp3",
-      "transcript": "Organizing literature reviews: Don't summarize source-by-source ('Smith found X, Jones found Y'). Instead, organize thematically or by theoretical framework. Compare and contrast: 'While quantitative studies demonstrate X, qualitative research reveals Y.' Show evolution: 'Early work established X; subsequent research complicated this by showing Y.' Identify debates: 'A fundamental disagreement exists between behavioral and cognitive approaches.' Your synthesis creates coherence from disparate studies, revealing patterns, gaps, and contradictions that justify your research.",
-      "question": "How should you organize literature review?",
-      "options": [
-        "Source-by-source summaries",
-        "Thematically, showing relationships",
-        "Alphabetically by author",
-        "Random order"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit11-lesson3-listen3.mp3",
-      "transcript": "Critical reading for synthesis requires asking: What's the research question? What methodology? What's the key finding? What are limitations? How does this relate to other studies? What theoretical framework guides it? Don't accept conclusions uncritically - evaluate evidence quality. Note sample size, methodology rigor, potential biases. Distinguish empirical findings from authors' interpretations. Strong literature reviews demonstrate critical engagement with sources, not just acceptance. Your analytical voice should guide readers through the literature landscape.",
-      "question": "What does critical reading for synthesis require?",
-      "options": [
-        "Accepting everything authors say",
-        "Evaluating evidence, relating to other studies, noting limitations",
-        "Only reading abstracts",
-        "Counting citations"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Synthesize findings from 2-3 sources on a topic you know. Show how they relate, agree, or disagree. Don't just summarize individually. Record for 40 seconds.",
-      "example": "Let me synthesize research on remote work productivity. A theoretical divide emerges between researchers emphasizing efficiency gains and those highlighting coordination costs. The seminal work by Bloom et al. (2015) established that remote workers demonstrated 13% productivity increases, primarily from reduced distractions. However, subsequent research has both confirmed and complicated this finding. While early studies suggested unambiguous benefits, more recent work by Yang et al. (2022) demonstrates that productivity effects vary by task type - routine work shows gains while collaborative work suffers. Synthesizing across these findings, I observe that contradictory results reflect different outcome measures and work contexts. This body of literature suffers from definitional inconsistency regarding 'productivity' and limited attention to remote work's evolution from temporary arrangement to permanent model. The field would benefit from longitudinal studies tracking how workers and organizations adapt over time, and from distinguishing between forced pandemic remote work and voluntary arrangements. These gaps suggest productivity effects are context-dependent rather than universal.",
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Describe how a field has evolved from early work to current research on any topic. Show progression and development of ideas. Record for 35 seconds.",
-      "example": "I'll trace the evolution of bilingual education research. The seminal work by proponents in the 1960s established native language instruction as supporting cognitive development. However, opponents argued bilingual education delayed English acquisition and hindered academic progress. A theoretical divide emerged between those emphasizing cultural preservation and those prioritizing English immersion. While early studies suggested bilingual programs underperformed, methodological limitations plagued these comparisons. More recent work by Valentino and Reardon (2015) demonstrates that well-implemented bilingual programs produce superior outcomes in both English and academic achievement. Subsequent research has revealed that early findings reflected program quality variation rather than bilingualism itself. Synthesizing across methodologically rigorous studies, contemporary consensus supports structured bilingual instruction while acknowledging implementation challenges. The field has evolved from ideological debates to evidence-based program design discussions. This progression illustrates how better methodology can transform understanding of contested educational practices.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a literature review paragraph synthesizing research on a topic. Show relationships between sources, evolution of thinking, and gaps. (140-170 words)",
-      "min_words": 140,
-      "example": "Organizational Culture and Innovation: A Synthesis\n\nThe relationship between organizational culture and innovation has generated substantial scholarly attention, though theoretical consensus remains elusive. The seminal work by Schein (1985) established culture as fundamental determinant of organizational behavior, including innovative capacity. Subsequent research has both confirmed culture's importance and complicated the relationship. While early studies suggested innovative cultures share common characteristics - risk tolerance, experimentation norms, failure acceptance (Kanter, 1988) - more recent work demonstrates greater complexity. Cameron and Quinn's (2011) competing values framework revealed that different innovation types require different cultural configurations: incremental innovation thrives in hierarchical cultures emphasizing efficiency, while radical innovation requires adhocratic cultures valuing flexibility.\n\nA theoretical divide emerges between universal-prescription approaches and contingency perspectives recognizing context-dependency. This body of literature suffers from methodological limitations: cross-sectional designs preventing causal inference, measurement challenges in operationalizing culture, and Western-centric samples limiting generalizability. Synthesizing across these findings, innovation-culture relationships appear more nuanced than simple prescriptions suggest. The field would benefit from longitudinal studies examining cultural evolution, cross-cultural comparisons, and attention to how culture and structure interact in shaping innovative capacity.",
-      "min_words": 140
-    },
-    {
-      "id": "write-2",
-      "prompt": "Identify and describe 3 gaps in a body of literature on any topic you know. Explain why these gaps matter. (100-120 words)",
-      "min_words": 100,
-      "example": "Three Critical Gaps in Immigrant Integration Research\n\nThis body of literature suffers from three significant limitations. First, methodological gaps: most studies rely on cross-sectional surveys precluding examination of integration as dynamic process unfolding over time. Longitudinal designs tracking integration trajectories would reveal how factors interact developmentally. Second, theoretical gaps: research tends toward atheoretical empiricism, correlating variables without explanatory frameworks for why and how integration occurs. The field would benefit from integrating sociological, psychological, and economic theories. Third, contextual gaps: Western European and North American contexts dominate, while integration patterns in Global South receiving immigrants remain understudied. Given migration's global nature, this geographic bias limits generalizability. These gaps matter because evidence-based immigration policy requires understanding integration mechanisms across contexts and over time, not just snapshot correlations in limited settings.",
-      "min_words": 100
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Present Perfect for Research to Date",
-      "explanation": "Use present perfect to describe research developments up to present.",
-      "examples": [
-        "Researchers have identified several key factors. (up to now)",
-        "Subsequent studies have complicated this picture. (continuing relevance)",
-        "The field has evolved significantly. (present relevance)",
-        "Scholars have debated this issue extensively. (ongoing discussion)"
-      ],
-      "practice": [
-        {"sentence": "Research ___ revealed important patterns.", "blank": "has", "options": ["has", "have", "had"]},
-        {"sentence": "Studies ___ demonstrated complexity.", "blank": "have", "options": ["has", "have", "had"]},
-        {"sentence": "The field ___ evolved over decades.", "blank": "has", "options": ["has", "have", "had"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Reporting Verbs for Source Integration",
-      "explanation": "Use varied reporting verbs to indicate source relationship to claims.",
-      "examples": [
-        "Smith argues that X explains Y. (strong claim)",
-        "Jones suggests a possible relationship. (tentative)",
-        "Martinez demonstrates empirically that... (evidence-based)",
-        "Critics contend that this approach overlooks... (disagreement)"
-      ],
-      "practice": [
-        {"sentence": "Smith ___ that culture matters.", "blank": "argues", "options": ["argues", "argue", "arguing"]},
-        {"sentence": "The data ___ this pattern.", "blank": "demonstrate", "options": ["demonstrate", "demonstrates", "demonstrated"]},
-        {"sentence": "Critics ___ this interpretation.", "blank": "challenge", "options": ["challenge", "challenges", "challenged"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Contrastive Connectors for Synthesis",
-      "explanation": "Use connectors to show relationships between different research findings.",
-      "examples": [
-        "While Smith found X, Jones discovered Y. (contrast)",
-        "Although early research suggested X, recent work shows Y. (development)",
-        "Whereas quantitative studies indicate X, qualitative research reveals Y. (different approaches)",
-        "In contrast to traditional views, contemporary research demonstrates... (opposition)"
-      ],
-      "practice": [
-        {"sentence": "___ early studies suggested X, recent work shows Y.", "blank": "While", "options": ["While", "Because", "Therefore"]},
-        {"sentence": "___ quantitative methods, qualitative approaches reveal...", "blank": "In contrast to", "options": ["Because of", "In contrast to", "Similar to"]},
-        {"sentence": "___ initial findings, subsequent research complicated...", "blank": "Although", "options": ["Because", "Although", "Therefore"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What should you define for systematic review?", "options": ["Nothing", "Inclusion criteria, time period, methodologies", "Only conclusions", "Personal opinions"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "How should you organize literature review?", "options": ["Source-by-source", "Thematically, showing relationships", "Alphabetically", "Randomly"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does critical reading require?", "options": ["Accepting everything", "Evaluating evidence and relating to other studies", "Just reading abstracts", "Counting citations"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Research ___ revealed patterns.'", "options": ["has", "have", "had", "having"], "correct": 0, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Literature review should just summarize each source individually.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Strong literature reviews demonstrate critical engagement with sources.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ early studies suggested X, recent work shows Y. (contrast)", "correct": "While", "accept": ["While", "Although", "Though"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "Smith ___ that culture matters. (reporting verb)", "correct": "argues", "accept": ["argues", "contends", "claims"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match organizational approach:", "pairs": [{"left": "Chronological", "right": "By time period"}, {"left": "Thematic", "right": "By topics/debates"}, {"left": "Methodological", "right": "By research approach"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed identified what type of divide in sustainability literature?", "options": ["Geographic", "Economic vs. stakeholder perspectives", "Methodological only", "No divide exists"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error typical of advanced learners in professional contexts. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The employee has shown a consistent improvement in her leadership and she demonstrates initiative across the team.",
+        "correct": "The employee has shown consistent improvement in her leadership and demonstrates initiative across the team.",
+        "explanation": "Two issues: 'a consistent improvement' should be 'consistent improvement' (no article before an abstract quality in this construction); the tense shift from present perfect to simple present within the same evaluative statement is also stylistically inconsistent in formal review writing."
+      },
+      {
+        "incorrect": "Despite of his strong technical skills, there are areas where further development would be beneficial.",
+        "correct": "Despite his strong technical skills, there are areas where further development would be beneficial.",
+        "explanation": "'Despite' is a preposition followed directly by a noun phrase. 'Despite of' is incorrect — only 'in spite of' uses 'of.' This is a very common error at advanced levels."
+      },
+      {
+        "incorrect": "He tends to work independently, which is a quality that we highly value in senior-level staff members.",
+        "correct": "He tends to work independently, which is a quality we highly value in senior staff.",
+        "explanation": "Two register issues: 'that' is redundant after 'quality' in formal written English (relative clause without relative pronoun is preferred); 'senior-level staff members' is verbose — 'senior staff' is the concise professional form."
+      },
+      {
+        "incorrect": "The manager has recommended that she will receive additional mentoring to support her progression.",
+        "correct": "The manager has recommended that she receive additional mentoring to support her progression.",
+        "explanation": "After verbs of recommendation, suggestion, and insistence, formal English requires the subjunctive: 'recommend that she receive' (bare infinitive), not 'will receive.' This is the subjunctive in formal institutional writing."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "seminal", "definition": "highly influential, foundational", "example": "Cite seminal works in the field."},
-    {"word": "synthesis", "definition": "combining elements into coherent whole", "example": "Synthesis creates new understanding."},
-    {"word": "lineage", "definition": "line of development from ancestor", "example": "Trace intellectual lineages."},
-    {"word": "paradigm", "definition": "conceptual framework or worldview", "example": "Different paradigms compete."},
-    {"word": "atheoret ical", "definition": "without theoretical framework", "example": "Avoid atheoretical approaches."},
-    {"word": "empiricism", "definition": "reliance on observation/experience", "example": "Balance theory and empiricism."},
-    {"word": "homogeneity", "definition": "uniformity, sameness", "example": "Methodological homogeneity limits insights."},
-    {"word": "genealogy", "definition": "development and history of ideas", "example": "Trace the genealogy of concepts."},
-    {"word": "contested", "definition": "subject to disagreement", "example": "This remains contested terrain."},
-    {"word": "trajectory", "definition": "path of development", "example": "Examine research trajectories."}
-  ],
-  "cultural_notes": [
-    "American graduate programs emphasize comprehensive literature reviews as demonstration of scholarly preparation.",
-    "Citation management software (Zotero, Mendeley, EndNote) is standard in American academia.",
-    "American scholars value 'standing on shoulders of giants' - building explicitly on previous work.",
-    "Literature reviews in American dissertations often constitute entire chapters (30-50 pages).",
-    "Review articles synthesizing fields are highly valued and frequently cited in American scholarship.",
-    "American academic culture expects engagement with contradictory findings, not just supportive sources."
+  "debate_task": {
+    "motion": "This house believes that numerical rating systems in performance reviews do more harm than good and should be abolished",
+    "stance": "balanced",
+    "key_arguments": [
+      "Numerical ratings create an illusion of objectivity that masks the inherently subjective judgements of individual managers, leading to inconsistent and potentially discriminatory outcomes.",
+      "Reducing complex human performance to a single number discourages nuanced development conversations and shifts the focus from growth to score management.",
+      "Research in organisational psychology consistently shows that numerical ratings damage intrinsic motivation, particularly among high performers who resent being reduced to a metric."
+    ],
+    "counter_arguments": [
+      "Without comparable numerical data, organisations cannot make defensible, consistent decisions about compensation, promotion, and succession planning across large workforces.",
+      "Qualitative-only reviews are more susceptible to the influence of personal relationships and political dynamics, as they lack the accountability structure that quantification provides.",
+      "Many employees, particularly those from lower-income backgrounds who depend on salary increases, value clear, transparent metrics over subjective narrative assessments."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Your argument should engage substantively with at least two counter-arguments using the discourse markers provided."
+  },
+  "extended_writing": {
+    "type": "report",
+    "task": "You are a team leader preparing written input for an annual performance review of a team member who is a strong performer but has struggled with time management and meeting deadlines under pressure. Write a balanced, professional performance summary for inclusion in their formal review documentation.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Opening / Overall Assessment",
+        "guidance": "Begin with a clear overall rating or evaluative statement. Establish the tone immediately — balanced but fair. Avoid vague filler phrases like 'a valued member of the team.'"
+      },
+      {
+        "section": "Key Strengths",
+        "guidance": "Identify two or three specific strengths with concrete evidence. Use nominalisations and evaluative language. Focus on impact, not just activity."
+      },
+      {
+        "section": "Areas for Development",
+        "guidance": "Introduce the area of concern diplomatically but clearly. Use hedging language and the subjunctive where appropriate. Frame as development opportunity, not failure."
+      },
+      {
+        "section": "Recommendations and Closing",
+        "guidance": "Propose specific, actionable development steps. Close with a forward-looking statement that maintains confidence in the individual's potential."
+      }
+    ],
+    "model_answer": "Overall Assessment: Meets Expectations — Strong Trajectory\n\nOver the review period, this team member has made a genuinely valuable contribution to the department, particularly in areas requiring analytical precision and creative problem-solving. The quality of their outputs — when delivered — is consistently high and reflects both technical competence and an impressive capacity for independent thinking.\n\nKey Strengths:\nThe most notable contribution has been in client data analysis, where their ability to identify non-obvious patterns and translate findings into actionable recommendations has been highlighted by two clients in formal feedback. Additionally, their collaborative approach during cross-team projects has been positively noted by peers, reflecting strong interpersonal skills and professional reliability in those contexts.\n\nAreas for Development:\nNotwithstanding these strengths, there is a recurrent pattern that requires attention: the management of competing priorities under time pressure. On three occasions during this review period, deliverables were submitted after the agreed deadline, in two cases without prior notification to the project lead. While the quality of these submissions remained high, the management of timelines is a core professional expectation at this level.\n\nRecommendations:\nIt is recommended that the individual engage with the team's project management software more consistently and establish a practice of proactive communication when delays are anticipated. A monthly check-in with their line manager has also been proposed to support ongoing development in this area.\n\nWith targeted attention to these habits, this individual has the clear potential to progress to a senior role within the next review cycle."
+  },
+  "advanced_grammar": {
+    "structure": "The Subjunctive in Formal Writing",
+    "explanation": "The English subjunctive is a verb form used primarily in formal and written contexts to express hypothetical situations, wishes, demands, recommendations, and proposals. In contemporary standard American and British formal English, the subjunctive appears in two main contexts: the mandative subjunctive (after verbs like 'recommend,' 'suggest,' 'propose,' 'insist,' 'require') and the formulaic subjunctive (in fixed phrases like 'if need be,' 'as it were,' 'be that as it may,' 'lest').\n\nIn the mandative subjunctive, the base form of the verb is used regardless of subject number or person: 'The committee recommends that the proposal be reviewed' (not 'is reviewed'); 'Management insists that all staff complete the training' (not 'completes'). This construction is a significant marker of formal register and appears frequently in performance reviews, policy documents, and formal correspondence. For advanced learners, the subjunctive is one of the clearest signals of C2-level grammatical sophistication.",
+    "authentic_examples": [
+      "The review panel recommends that she be considered for promotion to the senior analyst grade at the earliest opportunity.",
+      "It is essential that all performance documentation be submitted to HR before the close of the quarter.",
+      "The board has proposed that a formal governance framework be established before any further expansion is authorised."
+    ],
+    "practice": [
+      {
+        "sentence": "The manager suggested that the analyst (attend) a workshop on project governance.",
+        "transform": "Supply the correct subjunctive form in the bracket.",
+        "answer": "The manager suggested that the analyst attend a workshop on project governance."
+      },
+      {
+        "sentence": "It is imperative that all feedback (be submitted / is submitted) in writing before the review meeting.",
+        "transform": "Choose the grammatically correct option and explain why.",
+        "answer": "It is imperative that all feedback be submitted in writing before the review meeting. The mandative subjunctive requires the base form 'be submitted,' not the indicative 'is submitted.'"
+      },
+      {
+        "sentence": "The HR director recommended that the policy (was revised / be revised) to reflect current employment law.",
+        "transform": "Choose the correct form and rewrite the full sentence.",
+        "answer": "The HR director recommended that the policy be revised to reflect current employment law."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the reviewer signal by describing the analyst's communication skill as 'considerably easier to recognise than to develop'?",
+      "options": [
+        "That the skill was acquired through extensive training programmes",
+        "That the skill is a genuine and rare talent, making it particularly valuable",
+        "That the skill is unimportant because it cannot be taught",
+        "That the reviewer is uncertain whether the skill is real"
+      ],
+      "correct": 1,
+      "explanation": "By noting that the skill is difficult to develop through training, the reviewer elevates its significance — it becomes a natural talent rather than a trained competency, which enhances the overall positive assessment."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence correctly uses the mandative subjunctive in a performance review context?",
+      "options": [
+        "The panel recommends that she attends further leadership training.",
+        "The panel recommends that she attend further leadership training.",
+        "The panel recommends that she will attend further leadership training.",
+        "The panel recommends that she attended further leadership training."
+      ],
+      "correct": 1,
+      "explanation": "After 'recommend,' the mandative subjunctive requires the base form of the verb ('attend'), regardless of the subject. 'Attends,' 'will attend,' and 'attended' are all incorrect in this formal construction."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following best illustrates nominalisation being used to create formal, evaluative distance?",
+      "options": [
+        "She redesigned the reporting framework and it worked much better.",
+        "The analyst is very good at talking to different types of people.",
+        "The redesign of the reporting framework resulted in a 34% reduction in preparation time.",
+        "She did a great job on the reporting system."
+      ],
+      "correct": 2,
+      "explanation": "'The redesign' and 'reduction' are nominalisations that convert processes into objects, creating formal distance and allowing precise quantification — characteristic of professional evaluation documentation."
+    },
+    {
+      "id": 4,
+      "question": "Identify the sentence that contains the error typical of advanced learners:",
+      "options": [
+        "Despite his strong analytical skills, there is room for further development.",
+        "Despite of his strong analytical skills, there is room for further development.",
+        "In spite of his strong analytical skills, there is room for further development.",
+        "Notwithstanding his strong analytical skills, there is room for further development."
+      ],
+      "correct": 1,
+      "explanation": "'Despite of' is incorrect. 'Despite' is followed directly by a noun phrase without 'of.' Only 'in spite of' uses the preposition 'of.' Options A, C, and D are all grammatically correct."
+    },
+    {
+      "id": 5,
+      "question": "What does 'scope creep' mean in the context of the performance review?",
+      "options": [
+        "The analyst made errors in data scope calculations",
+        "The analyst gradually took on responsibilities beyond their formally agreed remit",
+        "The analyst refused to take on additional responsibilities when asked",
+        "The analyst's project scope was poorly defined by senior management"
+      ],
+      "correct": 1,
+      "explanation": "In project management and HR contexts, 'scope creep' refers to the gradual expansion of an individual's or project's responsibilities beyond what was originally agreed, often without formal authorisation or clear accountability structures."
+    }
   ]
 }

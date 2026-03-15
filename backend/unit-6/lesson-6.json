@@ -2,239 +2,170 @@
   "id": "lesson-38",
   "unit_id": 6,
   "lesson_number": 6,
-  "title": "Emergency Medical Situations",
+  "title": "Getting Involved in Your Community",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Recognize medical emergency warning signs",
-    "Call for emergency medical help appropriately",
-    "Understand basic first aid principles",
-    "Know when to go to ER vs. urgent care"
+    "Describe ways to participate in neighbourhood and community life as a newcomer",
+    "Understand how community meetings, neighbourhood associations, and volunteer opportunities work",
+    "Use reported speech to share what others have said about community events and resources",
+    "Write a message to a neighbour or community group about a local issue"
   ],
-  "target_phrases": [
-    "Call 911!",
-    "He's/She's not breathing",
-    "Where is the nearest hospital?",
-    "What are the symptoms?",
-    "I need emergency care",
-    "Is this life-threatening?",
-    "Should I go to the ER or urgent care?"
-  ],
-  "dialogue": {
-    "title": "Learning Emergency Response",
-    "context": "Ahmed attends a community health class about recognizing and responding to medical emergencies.",
-    "lines": [
-      {"speaker": "Instructor", "text": "Today we're learning about medical emergencies. Does anyone know the warning signs of a heart attack?"},
-      {"speaker": "Ahmed", "text": "Is it chest pain? I've heard that on TV."},
-      {"speaker": "Instructor", "text": "Yes! Chest pain is the main sign, but also shortness of breath, pain in the arm or jaw, nausea, and cold sweats. If you see these signs, call 911 immediately. Don't wait."},
-      {"speaker": "Lisa", "text": "What about strokes? How do you recognize those?"},
-      {"speaker": "Instructor", "text": "Great question. Remember F-A-S-T: Face drooping, Arm weakness, Speech difficulty, Time to call 911. Strokes need immediate treatment - every minute counts."},
-      {"speaker": "Ahmed", "text": "What if someone is choking? What should you do?"},
-      {"speaker": "Instructor", "text": "If they can cough or speak, encourage them to keep coughing. If they can't breathe at all, perform the Heimlich maneuver. Let me demonstrate on this dummy."},
-      {"speaker": "Carlos", "text": "My nephew has severe allergies. He carries an EpiPen. When should it be used?"},
-      {"speaker": "Instructor", "text": "Use an EpiPen immediately if someone has a severe allergic reaction - difficulty breathing, swelling of throat or tongue, or rapid pulse. After using it, call 911 right away. The person still needs to go to the hospital."},
-      {"speaker": "Ahmed", "text": "When should you go to the emergency room versus urgent care?"},
-      {"speaker": "Instructor", "text": "Emergency room for life-threatening issues: chest pain, severe bleeding, difficulty breathing, loss of consciousness, severe injuries. Urgent care for non-life-threatening issues: minor cuts, sprains, mild infections, low-grade fevers."},
-      {"speaker": "Lisa", "text": "What about basic first aid for cuts and burns?"},
-      {"speaker": "Instructor", "text": "For cuts: apply pressure with a clean cloth to stop bleeding. For burns: run cool water over the area for 10 minutes - never use ice. For severe burns or deep cuts, seek medical help immediately."},
-      {"speaker": "Ahmed", "text": "This is really helpful. I feel more prepared to handle emergencies now."},
-      {"speaker": "Instructor", "text": "The most important thing is to stay calm and call for help. You don't need to be an expert - just knowing when to call 911 can save a life."}
+  "reading_passage": {
+    "title": "More Than a Neighbour: Becoming Part of the Community",
+    "text": "For many newcomers, the first months in a new country are spent focusing on survival — finding work, learning the transit system, managing bills, and getting children into school. Building a social life and becoming part of the neighbourhood often comes later. But community advocates say that engaging early, even in small ways, can significantly reduce the isolation many immigrants experience.\n\nPortland is organised into more than ninety neighbourhood coalitions, each of which holds regular public meetings where residents can raise concerns, hear about local projects, and vote on how neighbourhood improvement funds are spent. These meetings are open to all residents regardless of immigration status, and translation services are sometimes available. Attending even once gives newcomers a sense of how decisions are made at the local level.\n\nVolunteer work is another effective way to build connections. Organisations such as Catholic Charities, Oregon Food Bank, and the Muslim Community Center of Portland regularly recruit volunteers for food distribution, tutoring, and event support. Volunteer coordinators often say that many of their most committed volunteers are newcomers who want to give back to the community that supported them on arrival.\n\nSmall acts also matter. Introducing yourself to a neighbour, attending a free event at the library, or joining a community garden are all ways of becoming a familiar face. Somali community members in Portland have formed several informal networks — WhatsApp groups, Friday gatherings, and community dinners — that help both recently arrived and longer-settled families stay connected and share practical information.",
+    "source": "Adapted from Portland Bureau of Planning and Sustainability community engagement resources and IRCO community integration materials, 2023",
+    "glossary": [
+      {"word": "coalition", "meaning": "a group of people or organisations that come together to work toward a shared goal"},
+      {"word": "isolation", "meaning": "the feeling of being disconnected from people around you, with few social connections"},
+      {"word": "recruit", "meaning": "to find and invite new people to join an organisation or take part in an activity"},
+      {"word": "committed", "meaning": "dedicated and reliable; willing to give time and effort to something over a long period"},
+      {"word": "informal network", "meaning": "an unofficial group of people who share information and support each other without a formal structure"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Urgent commands for emergencies",
-      "pattern": "[Command verb]!",
-      "examples": [
-        "Call 911!",
-        "Get help!",
-        "Apply pressure!",
-        "Don't move them!",
-        "Stay calm!"
-      ]
+      "type": "literal",
+      "question": "According to the passage, what can residents do at Portland neighbourhood coalition meetings?",
+      "answer": "They can raise concerns, hear about local projects, and vote on how neighbourhood improvement funds are spent."
     },
     {
-      "id": "drill-2",
-      "focus": "Describing emergency states",
-      "pattern": "He's/She's [emergency condition]",
-      "examples": [
-        "He's not breathing!",
-        "She's unconscious!",
-        "He's bleeding heavily!",
-        "She's having chest pain!",
-        "He's choking!"
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say volunteer coordinators describe newcomers as 'among their most committed volunteers'?",
+      "answer": "The author implies that newcomers who have received help on arrival often feel a strong motivation to give back — suggesting that volunteering benefits both the organisation and the newcomer's sense of purpose and belonging."
     },
     {
-      "id": "drill-3",
-      "focus": "Asking about emergency care",
-      "pattern": "Should I [emergency action]?",
-      "examples": [
-        "Should I call 911?",
-        "Should I move the person?",
-        "Should I perform CPR?",
-        "Should I give them water?",
-        "Should I go to the ER?"
-      ]
+      "type": "vocabulary",
+      "question": "What does 'isolation' mean in the first paragraph?",
+      "answer": "The feeling of being disconnected from other people and the community — having few social connections, which many newcomers experience in their first months."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention Somali WhatsApp groups and community dinners at the end of the passage?",
+      "answer": "To show that community connection does not have to be formal — informal networks within one's own cultural community are also a meaningful and practical way to stay connected and reduce isolation."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit6-lesson6-listen1.mp3",
-      "transcript": "Heart attack warning signs: chest pain or pressure lasting more than a few minutes, pain in arm, jaw, neck, or back, shortness of breath, cold sweats, nausea, lightheadedness. Women may have different symptoms like unusual fatigue or stomach pain. Don't wait - call 911 if you suspect a heart attack. Aspirin can help if taken immediately, but call 911 first.",
-      "question": "What should you do first if you suspect a heart attack?",
-      "options": [
-        "Drive to the hospital",
-        "Take aspirin",
-        "Call 911",
-        "Wait to see if it gets worse"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit6-lesson6-listen2.mp3",
-      "transcript": "F-A-S-T for stroke recognition: F - Face drooping on one side. A - Arm weakness, can't raise both arms. S - Speech difficulty, slurred or strange speech. T - Time to call 911 immediately. Stroke treatment is time-sensitive. The sooner treatment begins, the better the outcome. Never drive someone having a stroke - call an ambulance so treatment can begin en route.",
-      "question": "What does F-A-S-T stand for?",
-      "options": [
-        "Fast Action Saves Time",
-        "Face, Arm, Speech, Time",
-        "First Aid Support Team",
-        "Find A Stroke Treatment"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit6-lesson6-listen3.mp3",
-      "transcript": "Emergency Room vs. Urgent Care: Go to the ER for chest pain, difficulty breathing, severe bleeding, head injuries with loss of consciousness, suspected stroke or heart attack, severe burns, broken bones with visible deformity, or poisoning. Go to urgent care for minor cuts needing stitches, sprains and strains, mild to moderate asthma, ear infections, minor burns, low-grade fevers.",
-      "question": "When should you go to urgent care instead of the ER?",
-      "options": [
-        "Chest pain",
-        "Difficulty breathing",
-        "Minor cut needing stitches",
-        "Suspected stroke"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Practice calling 911. Say: 'My friend is having chest pain and can't breathe well. We're at [address]. Please send an ambulance!' Record yourself clearly.",
-      "example": "911, I need help! My friend is having severe chest pain and he's having trouble breathing. He's sweating and looks very pale. We're at 8234 Southeast 82nd Avenue, Apartment 12, in Portland. Yes, he's conscious but in a lot of pain. Please send an ambulance right away! I'll stay on the line. Thank you.",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain the F-A-S-T stroke recognition method to someone. Describe each letter. Record for 25 seconds.",
-      "example": "F-A-S-T is how to recognize a stroke. F stands for Face - check if one side of the face is drooping. A stands for Arm - see if the person can raise both arms or if one is weak. S stands for Speech - listen for slurred or strange speech. T stands for Time - time to call 911 immediately. Strokes are very serious and need emergency treatment as fast as possible. Every minute counts for recovery.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write step-by-step instructions for what to do if someone is choking and can't breathe. (50-70 words)",
-      "min_words": 50,
-      "example": "If someone is choking and cannot breathe or speak, you need to help immediately. First, ask 'Are you choking?' If they can't answer, stand behind them. Make a fist with one hand and place it above their belly button. Grab your fist with your other hand. Then give quick, upward thrusts into the abdomen. Repeat until the object comes out. If they become unconscious, call 911 and start CPR. Act quickly because they need air.",
-      "min_words": 50
-    },
-    {
-      "id": "write-2",
-      "prompt": "Your friend asks: 'Should I go to the ER or urgent care for a sprained ankle?' Write your advice. (40-50 words)",
-      "min_words": 40,
-      "example": "For a sprained ankle, you should probably go to urgent care rather than the emergency room. ER is for life-threatening emergencies. Urgent care can handle sprains - they'll examine it, possibly do an x-ray, and give you treatment. It's also much cheaper than the ER and usually has shorter wait times. Just make sure you can put some weight on it. If the bone is sticking out or you heard a loud crack, then go to the ER.",
-      "min_words": 40
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Imperatives for Urgent Commands",
-      "explanation": "Use imperative (base verb, no subject) for urgent emergency instructions.",
-      "examples": [
-        "Call 911! (urgent command)",
-        "Apply pressure! (urgent instruction)",
-        "Don't move! (negative command)",
-        "Stay calm! (command for composure)"
-      ],
-      "practice": [
-        {"sentence": "___ 911 now!", "blank": "Call", "options": ["Call", "Calling", "Calls"]},
-        {"sentence": "___ pressure to the wound.", "blank": "Apply", "options": ["Apply", "Applying", "Applies"]},
-        {"sentence": "Don't ___ the person!", "blank": "move", "options": ["move", "moves", "moving"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Present Continuous for Current Emergency State",
-      "explanation": "Use present continuous (is/are + -ing) to describe what's happening right now in an emergency.",
-      "examples": [
-        "He's bleeding! (happening now)",
-        "She's not breathing! (current state)",
-        "They're choking! (emergency in progress)",
-        "He's having chest pain! (current symptom)"
-      ],
-      "practice": [
-        {"sentence": "He ___ bleeding badly!", "blank": "is", "options": ["is", "are", "was"]},
-        {"sentence": "She's not ___!", "blank": "breathing", "options": ["breathe", "breathing", "breath"]},
-        {"sentence": "They ___ choking!", "blank": "are", "options": ["is", "are", "were"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "'Need + noun' for Urgent Needs",
-      "explanation": "Use 'need + noun' to express urgent requirements in emergencies.",
-      "examples": [
-        "I need help! (urgent need)",
-        "She needs an ambulance! (urgent need)",
-        "We need a doctor! (urgent need)",
-        "He needs emergency care! (urgent need)"
-      ],
-      "practice": [
-        {"sentence": "I need ___!", "blank": "help", "options": ["help", "helps", "helping"]},
-        {"sentence": "She ___ an ambulance!", "blank": "needs", "options": ["need", "needs", "needing"]},
-        {"sentence": "We need ___ immediately!", "blank": "assistance", "options": ["assist", "assistance", "assisting"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What are the main heart attack warning signs?", "options": ["Only chest pain", "Chest pain, shortness of breath, arm/jaw pain", "Just feeling tired", "Headache"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does F-A-S-T help you recognize?", "options": ["Heart attack", "Stroke", "Allergic reaction", "Choking"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "When should you use an EpiPen?", "options": ["For any allergy", "For severe allergic reaction with breathing difficulty", "For minor rash", "For headache"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What should you do for a burn?", "options": ["Use ice", "Run cool water for 10 minutes", "Apply butter", "Ignore it"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should go to the ER for a minor sprained ankle.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Stroke treatment is time-sensitive - every minute counts.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ 911 immediately! (imperative command)", "correct": "Call", "accept": ["Call", "call"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "He ___ bleeding! (present continuous)", "correct": "is", "accept": ["is", "'s"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the emergency to the action:", "pairs": [{"left": "Heart attack", "right": "Call 911, give aspirin"}, {"left": "Choking", "right": "Heimlich maneuver"}, {"left": "Burn", "right": "Cool water 10 min"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What's the difference between ER and urgent care?", "options": ["No difference", "ER for life-threatening, urgent care for non-life-threatening", "Urgent care is faster", "ER is cheaper"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Reported Speech (Saying What Someone Else Said)",
+    "explanation": "When we report what someone else said, we use reported speech. The reporting verb (said, told, mentioned, explained, asked) introduces the report, and the tense in the reported clause usually shifts back one step: present → past, will → would, can → could. The pronoun and time references also change to match the new context.",
+    "examples": [
+      {
+        "sentence": "The volunteer coordinator said that many newcomers were among their most committed volunteers.",
+        "note": "'Are' in the original becomes 'were' in reported speech. 'Said that' introduces the reported clause."
+      },
+      {
+        "sentence": "She told me that the neighbourhood meeting would be held on Thursday evening.",
+        "note": "'Will be held' in direct speech becomes 'would be held' in reported speech. 'Told me that' requires an object."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Change to reported speech: 'The coordinator said: \"Translation is available at the meetings.\"'",
+        "answer": "The coordinator said that translation was available at the meetings. (Present 'is' shifts to past 'was.')"
+      },
+      {
+        "sentence": "Change to reported speech: 'My neighbour told me: \"There is a free community dinner on Friday.\"'",
+        "answer": "My neighbour told me that there was a free community dinner on Friday. ('Is' becomes 'was'; 'on Friday' stays as a reference point.)"
+      },
+      {
+        "sentence": "Which is correctly reported? Direct speech: 'She said: \"I can volunteer on weekends.\"' A) She said she can volunteer on weekends. B) She said she could volunteer on weekends.",
+        "answer": "B) 'Can' shifts to 'could' in reported speech — 'she said she could volunteer on weekends' is the correct form."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "emergency room (ER)", "definition": "hospital department for urgent medical care", "example": "He went to the ER with chest pain."},
-    {"word": "ambulance", "definition": "vehicle that transports sick/injured people", "example": "Call an ambulance immediately!"},
-    {"word": "unconscious", "definition": "not awake or aware", "example": "She's unconscious and not responding."},
-    {"word": "bleeding", "definition": "losing blood from injury", "example": "Apply pressure to stop the bleeding."},
-    {"word": "broken bone", "definition": "bone fractured or cracked", "example": "I think he has a broken arm."},
-    {"word": "CPR", "definition": "cardiopulmonary resuscitation - emergency lifesaving", "example": "Do you know how to perform CPR?"},
-    {"word": "first aid", "definition": "immediate care for injury or illness", "example": "She gave first aid until help arrived."},
-    {"word": "paramedic", "definition": "emergency medical technician", "example": "The paramedics arrived in 5 minutes."},
-    {"word": "critical", "definition": "extremely serious or dangerous condition", "example": "The patient is in critical condition."},
-    {"word": "urgent", "definition": "requiring immediate action", "example": "This is an urgent medical situation."}
+  "vocabulary_in_context": [
+    {
+      "word": "coalition",
+      "definition": "A group of people or organisations united to work toward a shared goal, often at a community or political level",
+      "example_sentence": "Portland is organised into more than ninety neighbourhood coalitions, each of which holds regular public meetings where residents can raise concerns.",
+      "collocations": ["neighbourhood coalition", "form a coalition", "coalition meeting"],
+      "register": "formal"
+    },
+    {
+      "word": "isolation",
+      "definition": "The feeling of being alone and cut off from meaningful contact with the community around you",
+      "example_sentence": "Community advocates say that engaging early, even in small ways, can significantly reduce the isolation many immigrants experience.",
+      "collocations": ["social isolation", "reduce isolation", "feeling of isolation"],
+      "register": "neutral"
+    },
+    {
+      "word": "recruit",
+      "definition": "To actively invite and bring new people into an organisation or activity",
+      "example_sentence": "Organisations such as Oregon Food Bank regularly recruit volunteers for food distribution, tutoring, and event support.",
+      "collocations": ["recruit volunteers", "actively recruit", "recruit members"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "In the U.S., 911 is the emergency number. It's free to call from any phone, even without service.",
-    "Ambulance rides are VERY expensive ($500-$3,000+). Some people drive themselves for non-life-threatening issues to save money.",
-    "Emergency rooms cannot refuse treatment regardless of insurance or ability to pay.",
-    "ER wait times can be 2-6 hours for non-life-threatening issues. True emergencies are seen first.",
-    "Many communities offer free CPR and first aid training through fire departments or Red Cross.",
-    "Good Samaritan laws protect people who give reasonable emergency assistance from legal liability."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "A newly arrived Somali family has asked you how to get more involved in the community. They have been in Portland for three months and feel isolated. They have two teenage children.",
+    "prompt": "Share at least three ways the family can get involved in the community. Report advice you have heard from others (using reported speech) and include personal recommendations. Explain why each option would be good for their specific situation.",
+    "useful_language": [
+      "My case worker told me that neighbourhood coalition meetings are open to everyone, even if you don't have a green card yet.",
+      "A friend said that Oregon Food Bank is always looking for volunteers, and it's a good way to meet people.",
+      "I've heard that the library has a free conversation group — someone told me it helped them improve their English and make friends."
+    ],
+    "model_answer": "I know how isolating those first months can feel. Let me share three things that have helped people in similar situations. First, my case worker told me that every Portland neighbourhood has a coalition that holds public meetings — she said anyone can attend regardless of status. For the teenagers, a volunteer coordinator at the Oregon Food Bank told me they welcome young volunteers on weekends. And a friend of mine said the library on Division Street runs a free conversation group on Tuesday mornings — she told me it really helped her English and that she made several friends there. I'd start with the library — it's the most relaxed option."
+  },
+  "writing_workshop": {
+    "model_text": "Dear Neighbours,\n\nMy name is Faadumo and I have been living in apartment 7 for the past three months. I recently heard about the neighbourhood association meeting next week and I would like to attend. A friend told me that residents can raise concerns about local issues at these meetings.\n\nI have noticed that the streetlight outside our building has not been working for several weeks. I would like to report this at the meeting and find out who is responsible for repairs.\n\nCould someone let me know the exact time and room number for the meeting? I look forward to meeting more of my neighbours.\n\nSincerely,\nFaadumo Osman, Apartment 7",
+    "model_analysis": "Notice how the writer introduces herself, uses reported speech naturally ('A friend told me that...'), raises a specific community issue, and ends with a polite request. The tone is warm but professional — appropriate for a first message to a community group.",
+    "task": "Write a message to your neighbourhood association or a community group. Introduce yourself, mention something you heard about the group (using reported speech), describe a local issue or a way you would like to get involved, and ask a question or make a request.",
+    "success_criteria": [
+      "Introduce yourself and provide a brief context in the opening",
+      "Use reported speech at least once (e.g., 'I heard that...,' 'Someone told me that...')",
+      "End with a clear question or polite request for further information"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, who can attend Portland neighbourhood coalition meetings?",
+      "options": [
+        "Only homeowners and long-term residents",
+        "Only US citizens and permanent residents",
+        "All residents regardless of immigration status",
+        "Only people who have registered in advance"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'These meetings are open to all residents regardless of immigration status, and translation services are sometimes available.'"
+    },
+    {
+      "id": 2,
+      "question": "Why does the passage describe some newcomers as 'committed' volunteers?",
+      "options": [
+        "Because they are paid more than other volunteers",
+        "Because they have received support on arrival and want to give back",
+        "Because they have more free time than long-term residents",
+        "Because organisations require more hours from newcomers"
+      ],
+      "correct": 1,
+      "explanation": "The passage says volunteer coordinators note that 'many of their most committed volunteers are newcomers who want to give back to the community that supported them on arrival.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses reported speech?",
+      "options": [
+        "She said the meeting is on Thursday.",
+        "She said the meeting was on Thursday.",
+        "She said that the meeting will be on Thursday.",
+        "She said that the meeting is been on Thursday."
+      ],
+      "correct": 1,
+      "explanation": "In reported speech, the present tense shifts to past — 'is' becomes 'was.' 'She said the meeting was on Thursday' is the correct reported speech form."
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say Somali community members in Portland have created to stay connected?",
+      "options": [
+        "A formal non-profit organisation registered with the city",
+        "WhatsApp groups, Friday gatherings, and community dinners",
+        "A community centre funded by the Portland Bureau of Housing",
+        "A neighbourhood coalition in Southeast Portland"
+      ],
+      "correct": 1,
+      "explanation": "The passage mentions: 'Somali community members in Portland have formed several informal networks — WhatsApp groups, Friday gatherings, and community dinners.'"
+    }
   ]
 }

@@ -9,36 +9,29 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const bookId = bookIdProp || params.bookId;
   const studentId = studentIdProp || user?.id || '00000000-0000-0000-0000-000000000001';
 
-  // Top-level book data
   const [book, setBook] = useState(null);
   const [chapters, setChapters] = useState([]);
   const [loadError, setLoadError] = useState(null);
 
-  // Chapter-level state
   const [completedChapters, setCompletedChapters] = useState(new Set());
   const [activeChapter, setActiveChapter] = useState(null);
   const [loadingChapter, setLoadingChapter] = useState(false);
 
-  // Phase within a chapter: 'reading' | 'quiz' | 'writing' | 'done'
   const [chapterPhase, setChapterPhase] = useState('reading');
   const [chapterAssignment, setChapterAssignment] = useState(null);
 
-  // Quiz state
   const [answers, setAnswers] = useState({});
   const [quizSubmitted, setQuizSubmitted] = useState(false);
   const [quizScore, setQuizScore] = useState(null);
 
-  // Writing state
   const [currentWritingIdx, setCurrentWritingIdx] = useState(0);
   const [writingText, setWritingText] = useState('');
-  const [writingState, setWritingState] = useState('idle'); // 'idle' | 'loading' | 'passed' | 'failed'
+  const [writingState, setWritingState] = useState('idle');
   const [writingAssessment, setWritingAssessment] = useState(null);
   const writingAbortRef = useRef(null);
 
-  // PDF reading tracking
   const [pdfOpened, setPdfOpened] = useState(false);
 
-  // Load book, chapters, and previously completed chapters on mount
   useEffect(() => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
@@ -62,7 +55,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     `book_draft_${bookId}_${chapterId}_${promptIdx}`;
 
   const openChapter = async (chapter) => {
-    // Abort any in-flight writing assessment from a previous chapter
     if (writingAbortRef.current) {
       writingAbortRef.current.abort();
       writingAbortRef.current = null;
@@ -74,7 +66,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     setQuizScore(null);
     setCurrentWritingIdx(0);
     setPdfOpened(false);
-    // Restore any saved draft for prompt 0 of this chapter
     const savedDraft = localStorage.getItem(writingDraftKey(chapter.id, 0)) || '';
     setWritingText(savedDraft);
     setWritingState('idle');
@@ -166,7 +157,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const completeChapter = () => {
     setCompletedChapters(prev => new Set([...prev, activeChapter.id]));
     setChapterPhase('done');
-    // Persist to backend
     if (token) {
       fetch(`/api/books/${bookId}/chapters/${activeChapter.id}/complete`, {
         method: 'POST',
@@ -189,11 +179,11 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   if (loadError) {
     return (
       <div className="max-w-2xl mx-auto p-8 text-center">
-        <div className="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-8">
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 border-2 border-yellow-200 dark:border-yellow-700 rounded-xl p-8">
           <p className="text-2xl mb-3">📚</p>
-          <h2 className="text-xl font-bold text-gray-900 mb-2">Book Assignment</h2>
-          <p className="text-gray-600 mb-4">{loadError}</p>
-          <p className="text-sm text-gray-500 mb-6">Questions for this book are coming soon.</p>
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Book Assignment</h2>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">{loadError}</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">Questions for this book are coming soon.</p>
           <button
             onClick={() => window.history.back()}
             className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
@@ -208,10 +198,10 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   // ── Loading state ──
   if (!book) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading book...</p>
+          <p className="mt-4 text-gray-600 dark:text-gray-400">Loading book...</p>
         </div>
       </div>
     );
@@ -237,7 +227,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
         {/* Back button */}
         <button
           onClick={() => setActiveChapter(null)}
-          className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 text-sm"
+          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white mb-6 text-sm"
         >
           <ChevronLeft className="w-4 h-4" />
           Back to {book.title}
@@ -245,27 +235,27 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
 
         {/* READING PHASE */}
         {chapterPhase === 'reading' && (
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <p className="text-sm text-blue-600 font-semibold uppercase tracking-wide mb-2">
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8">
+            <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wide mb-2">
               Chapter {chapterIdx + 1} of {chapters.length}
             </p>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">{activeChapter.title}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{activeChapter.title}</h2>
             {activeChapter.description && (
-              <p className="text-gray-600 mb-4">{activeChapter.description}</p>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">{activeChapter.description}</p>
             )}
-            <div className="flex items-center gap-2 text-sm text-gray-500 mb-8">
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-8">
               <Clock className="w-4 h-4" />
               <span>~{activeChapter.reading_time_minutes} min read</span>
               <span className="mx-1">·</span>
               <span>Pages {activeChapter.page_start}–{activeChapter.page_end}</span>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+            <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-xl p-6 mb-8">
               <div className="flex items-center gap-3 mb-3">
-                <BookOpen className="w-5 h-5 text-blue-600" />
-                <h3 className="font-semibold text-blue-900">Read the Book</h3>
+                <BookOpen className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                <h3 className="font-semibold text-blue-900 dark:text-blue-200">Read the Book</h3>
               </div>
-              <p className="text-blue-800 text-sm mb-4">
+              <p className="text-blue-800 dark:text-blue-300 text-sm mb-4">
                 Open the book to pages {activeChapter.page_start}–{activeChapter.page_end} and read this section before starting the quiz.
               </p>
               <a
@@ -279,12 +269,12 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                 Open Book — Pages {activeChapter.page_start}–{activeChapter.page_end}
               </a>
               {pdfOpened && (
-                <p className="mt-3 text-sm text-green-700 font-medium">✓ Book opened — you can start the quiz when ready.</p>
+                <p className="mt-3 text-sm text-green-700 dark:text-green-400 font-medium">✓ Book opened — you can start the quiz when ready.</p>
               )}
             </div>
 
             {!pdfOpened && (
-              <p className="text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2 mb-4">
+              <p className="text-sm text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-lg px-4 py-2 mb-4">
                 Please open the book above and read pages {activeChapter.page_start}–{activeChapter.page_end} before starting the quiz.
               </p>
             )}
@@ -301,23 +291,23 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
 
         {/* QUIZ PHASE */}
         {chapterPhase === 'quiz' && (
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Quiz: {activeChapter.title}</h2>
-            <p className="text-gray-600 mb-6 text-sm">Answer these questions about what you just read. You need <strong>60%</strong> to continue.</p>
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Quiz: {activeChapter.title}</h2>
+            <p className="text-gray-600 dark:text-gray-400 mb-6 text-sm">Answer these questions about what you just read. You need <strong>60%</strong> to continue.</p>
 
             {questions.length === 0 ? (
-              <p className="text-gray-500 text-center py-8">No questions available for this chapter.</p>
+              <p className="text-gray-500 dark:text-gray-400 text-center py-8">No questions available for this chapter.</p>
             ) : (
               <div className="space-y-6 mb-8">
                 {questions.map((question, idx) => (
-                  <div key={question.id} className="border rounded-xl p-5">
+                  <div key={question.id} className="border dark:border-gray-700 rounded-xl p-5">
                     <div className="flex items-start gap-3 mb-4">
-                      <span className="text-sm font-bold text-gray-400 mt-0.5 w-5 flex-shrink-0">#{idx + 1}</span>
-                      <h4 className="text-gray-900 font-medium flex-1">{question.question}</h4>
+                      <span className="text-sm font-bold text-gray-400 dark:text-gray-500 mt-0.5 w-5 flex-shrink-0">#{idx + 1}</span>
+                      <h4 className="text-gray-900 dark:text-white font-medium flex-1">{question.question}</h4>
                       <span className={`px-2 py-0.5 rounded text-xs flex-shrink-0 ${
-                        question.difficulty === 'easy' ? 'bg-green-100 text-green-800' :
-                        question.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-800' :
-                        'bg-red-100 text-red-800'
+                        question.difficulty === 'easy' ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' :
+                        question.difficulty === 'medium' ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300' :
+                        'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'
                       }`}>{question.difficulty}</span>
                     </div>
                     <div className="space-y-2 pl-8">
@@ -330,13 +320,13 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                             className={`flex items-center p-3 border rounded-lg cursor-pointer transition-all text-sm ${
                               quizSubmitted
                                 ? isCorrect
-                                  ? 'bg-green-50 border-green-400'
+                                  ? 'bg-green-50 dark:bg-green-900/20 border-green-400 dark:border-green-600'
                                   : isSelected
-                                  ? 'bg-red-50 border-red-300'
-                                  : 'bg-gray-50 border-gray-200'
+                                  ? 'bg-red-50 dark:bg-red-900/20 border-red-300 dark:border-red-600'
+                                  : 'bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700'
                                 : isSelected
-                                ? 'bg-blue-50 border-blue-400'
-                                : 'bg-gray-50 border-gray-200 hover:border-blue-300 hover:bg-blue-50'
+                                ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-400 dark:border-blue-600'
+                                : 'bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/10'
                             }`}
                           >
                             <input
@@ -347,9 +337,9 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                               onChange={() => handleAnswerChange(question.id, optIdx)}
                               className="mr-3 flex-shrink-0"
                             />
-                            <span className="flex-1">{option}</span>
-                            {quizSubmitted && isCorrect && <span className="text-green-600 font-bold ml-2">✓</span>}
-                            {quizSubmitted && isSelected && !isCorrect && <span className="text-red-600 font-bold ml-2">✗</span>}
+                            <span className="flex-1 text-gray-900 dark:text-white">{option}</span>
+                            {quizSubmitted && isCorrect && <span className="text-green-600 dark:text-green-400 font-bold ml-2">✓</span>}
+                            {quizSubmitted && isSelected && !isCorrect && <span className="text-red-600 dark:text-red-400 font-bold ml-2">✗</span>}
                           </label>
                         );
                       })}
@@ -370,10 +360,10 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
             ) : (
               <div>
                 <div className={`rounded-xl p-5 mb-4 text-center ${
-                  quizScore >= 60 ? 'bg-green-50 border-2 border-green-300' : 'bg-orange-50 border-2 border-orange-300'
+                  quizScore >= 60 ? 'bg-green-50 dark:bg-green-900/20 border-2 border-green-300 dark:border-green-600' : 'bg-orange-50 dark:bg-orange-900/20 border-2 border-orange-300 dark:border-orange-600'
                 }`}>
-                  <p className="text-3xl font-bold mb-1">{quizScore}%</p>
-                  <p className={`font-medium ${quizScore >= 60 ? 'text-green-700' : 'text-orange-700'}`}>
+                  <p className="text-3xl font-bold mb-1 text-gray-900 dark:text-white">{quizScore}%</p>
+                  <p className={`font-medium ${quizScore >= 60 ? 'text-green-700 dark:text-green-400' : 'text-orange-700 dark:text-orange-400'}`}>
                     {quizScore >= 60 ? 'Well done!' : `You need 60% to continue. Try again!`}
                   </p>
                 </div>
@@ -400,17 +390,17 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
 
         {/* WRITING PHASE */}
         {chapterPhase === 'writing' && currentPrompt && (
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Writing</h2>
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Writing</h2>
             {writingPrompts.length > 1 && (
-              <p className="text-sm text-gray-500 mb-4">
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
                 Prompt {currentWritingIdx + 1} of {writingPrompts.length}
               </p>
             )}
 
-            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-6">
-              <p className="text-gray-800 leading-relaxed">{currentPrompt.prompt}</p>
-              <p className="text-sm text-gray-500 mt-3">
+            <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 mb-6">
+              <p className="text-gray-800 dark:text-gray-200 leading-relaxed">{currentPrompt.prompt}</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-3">
                 {currentPrompt.word_count_min}–{currentPrompt.word_count_max} words
               </p>
             </div>
@@ -423,9 +413,9 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
               }}
               placeholder="Write your response here..."
               disabled={writingState === 'loading' || writingState === 'passed'}
-              className="w-full p-4 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none min-h-[200px] disabled:bg-gray-50 disabled:cursor-not-allowed mb-2"
+              className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none min-h-[200px] disabled:bg-gray-50 disabled:dark:bg-gray-800 disabled:cursor-not-allowed mb-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
             />
-            <p className="text-sm text-gray-500 mb-5">
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
               {writingText.trim().split(/\s+/).filter(Boolean).length} words
             </p>
 
@@ -440,22 +430,22 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
             )}
 
             {writingState === 'loading' && (
-              <div className="w-full py-3 bg-blue-100 text-blue-700 rounded-lg text-center flex items-center justify-center gap-3 font-semibold">
-                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
+              <div className="w-full py-3 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg text-center flex items-center justify-center gap-3 font-semibold">
+                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600 dark:border-blue-400"></div>
                 Evaluating your writing...
               </div>
             )}
 
             {writingState === 'passed' && writingAssessment && (
-              <div className="bg-green-50 border-2 border-green-400 rounded-xl p-5">
+              <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-400 dark:border-green-600 rounded-xl p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-2xl font-bold text-green-700">
+                  <span className="text-2xl font-bold text-green-700 dark:text-green-400">
                     {writingAssessment.score !== null ? `${writingAssessment.score}/100` : '✓'}
                   </span>
-                  <span className="text-green-800 font-semibold text-lg">Passed!</span>
+                  <span className="text-green-800 dark:text-green-300 font-semibold text-lg">Passed!</span>
                 </div>
                 {writingAssessment.feedback && (
-                  <p className="text-green-900 mb-4">{writingAssessment.feedback}</p>
+                  <p className="text-green-900 dark:text-green-200 mb-4">{writingAssessment.feedback}</p>
                 )}
                 <button
                   onClick={nextWritingPrompt}
@@ -468,15 +458,15 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
             )}
 
             {writingState === 'failed' && writingAssessment && (
-              <div className="bg-orange-50 border-2 border-orange-400 rounded-xl p-5">
+              <div className="bg-orange-50 dark:bg-orange-900/20 border-2 border-orange-400 dark:border-orange-600 rounded-xl p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-2xl font-bold text-orange-700">{writingAssessment.score}/100</span>
-                  <span className="text-orange-800 font-semibold">Not yet passing</span>
+                  <span className="text-2xl font-bold text-orange-700 dark:text-orange-400">{writingAssessment.score}/100</span>
+                  <span className="text-orange-800 dark:text-orange-300 font-semibold">Not yet passing</span>
                 </div>
                 {writingAssessment.feedback && (
-                  <p className="text-orange-900 mb-3">{writingAssessment.feedback}</p>
+                  <p className="text-orange-900 dark:text-orange-200 mb-3">{writingAssessment.feedback}</p>
                 )}
-                <p className="text-sm text-orange-700 mb-4">Score needed: 60/100</p>
+                <p className="text-sm text-orange-700 dark:text-orange-400 mb-4">Score needed: 60/100</p>
                 <button
                   onClick={retryWriting}
                   className="w-full py-3 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-700"
@@ -490,10 +480,10 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
 
         {/* DONE PHASE */}
         {chapterPhase === 'done' && (
-          <div className="bg-white rounded-xl shadow-lg p-8 text-center">
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 text-center">
             <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Chapter Complete!</h2>
-            <p className="text-gray-600 mb-8">You finished "{activeChapter.title}".</p>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Chapter Complete!</h2>
+            <p className="text-gray-600 dark:text-gray-400 mb-8">You finished "{activeChapter.title}".</p>
 
             {chapterIdx < chapters.length - 1 ? (
               <button
@@ -505,7 +495,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
               </button>
             ) : (
               <div className="mb-3">
-                <p className="text-green-700 font-semibold mb-4">You have completed all chapters!</p>
+                <p className="text-green-700 dark:text-green-400 font-semibold mb-4">You have completed all chapters!</p>
                 <button
                   onClick={() => window.location.href = '/dashboard'}
                   className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700"
@@ -517,7 +507,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
 
             <button
               onClick={() => setActiveChapter(null)}
-              className="w-full py-2 text-gray-500 hover:text-gray-800 text-sm"
+              className="w-full py-2 text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white text-sm"
             >
               Back to chapter list
             </button>
@@ -531,7 +521,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   return (
     <div className="max-w-3xl mx-auto p-6">
       {/* Book header */}
-      <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 mb-6">
         <div className="flex gap-4">
           <img
             src={book.cover_image}
@@ -539,28 +529,28 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
             className="w-24 h-36 object-cover rounded-lg shadow flex-shrink-0"
           />
           <div className="flex-1 min-w-0">
-            <h1 className="text-2xl font-bold text-gray-900 mb-1">{book.title}</h1>
-            <p className="text-gray-600 mb-3">by {book.author}</p>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{book.title}</h1>
+            <p className="text-gray-600 dark:text-gray-400 mb-3">by {book.author}</p>
             <div className="flex flex-wrap gap-2 mb-3">
-              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">{book.level}</span>
-              <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
+              <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm">{book.level}</span>
+              <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm">
                 {chapters.length} chapter{chapters.length !== 1 ? 's' : ''}
               </span>
               {completedChapters.size > 0 && (
-                <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                <span className="px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm">
                   {completedChapters.size}/{chapters.length} complete
                 </span>
               )}
             </div>
-            <p className="text-gray-700 text-sm leading-relaxed">{book.description}</p>
+            <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">{book.description}</p>
           </div>
         </div>
       </div>
 
       {/* Chapter list */}
       {chapters.length === 0 ? (
-        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8 text-center">
-          <p className="text-yellow-800 font-medium">Chapters for this book are coming soon.</p>
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-xl p-8 text-center">
+          <p className="text-yellow-800 dark:text-yellow-300 font-medium">Chapters for this book are coming soon.</p>
           <button
             onClick={() => window.history.back()}
             className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm"
@@ -570,7 +560,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
         </div>
       ) : (
         <div>
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Chapters</h2>
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Chapters</h2>
           <div className="space-y-3">
             {chapters.map((chapter, idx) => {
               const isDone = completedChapters.has(chapter.id);
@@ -580,12 +570,12 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                 <div
                   key={chapter.id}
                   onClick={() => !isLocked && openChapter(chapter)}
-                  className={`bg-white rounded-xl border-2 p-5 transition-all ${
+                  className={`rounded-xl border-2 p-5 transition-all ${
                     isDone
-                      ? 'border-green-400 bg-green-50'
+                      ? 'bg-green-50 dark:bg-green-900/10 border-green-400 dark:border-green-600'
                       : isLocked
-                      ? 'border-gray-200 opacity-60 cursor-not-allowed'
-                      : 'border-blue-200 hover:border-blue-400 cursor-pointer hover:shadow-md'
+                      ? 'bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700 opacity-60 cursor-not-allowed'
+                      : 'bg-white dark:bg-gray-900 border-blue-200 dark:border-blue-700 hover:border-blue-400 dark:hover:border-blue-500 cursor-pointer hover:shadow-md'
                   }`}
                 >
                   <div className="flex items-center justify-between">
@@ -594,14 +584,14 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                         isDone
                           ? 'bg-green-500 text-white'
                           : isLocked
-                          ? 'bg-gray-200 text-gray-500'
-                          : 'bg-blue-100 text-blue-700'
+                          ? 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400'
+                          : 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400'
                       }`}>
                         {isDone ? '✓' : isLocked ? <Lock className="w-4 h-4" /> : idx + 1}
                       </div>
                       <div>
-                        <h3 className="font-semibold text-gray-900">{chapter.title}</h3>
-                        <div className="flex items-center gap-2 text-xs text-gray-500 mt-0.5">
+                        <h3 className="font-semibold text-gray-900 dark:text-white">{chapter.title}</h3>
+                        <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mt-0.5">
                           <Clock className="w-3.5 h-3.5" />
                           <span>~{chapter.reading_time_minutes} min</span>
                           <span>·</span>
@@ -610,14 +600,14 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
                       </div>
                     </div>
                     {isDone && (
-                      <span className="text-green-600 text-sm font-medium flex-shrink-0">Complete</span>
+                      <span className="text-green-600 dark:text-green-400 text-sm font-medium flex-shrink-0">Complete</span>
                     )}
                     {!isDone && !isLocked && (
-                      <ChevronRight className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                      <ChevronRight className="w-5 h-5 text-gray-400 dark:text-gray-500 flex-shrink-0" />
                     )}
                   </div>
                   {chapter.description && (
-                    <p className="text-sm text-gray-500 mt-2 pl-12 leading-relaxed">{chapter.description}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 pl-12 leading-relaxed">{chapter.description}</p>
                   )}
                 </div>
               );

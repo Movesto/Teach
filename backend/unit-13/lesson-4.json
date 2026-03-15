@@ -2,271 +2,232 @@
   "id": "lesson-84",
   "unit_id": 13,
   "lesson_number": 4,
-  "title": "Authentic Speech — Reductions, Fillers & Fast English",
+  "title": "Proofreading, Precision, and the Art of Concision",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "Zoe speaks at approximately 200 words per minute. Ahmed has had several conversations with her that he could follow only partially — not because he lacks vocabulary, but because her speech sounds like one long blended word. 'Didja get the reading done?' sounds nothing like 'Did you get the reading done?' Ahmed decides to record a conversation with Zoe's permission and listen back several times, pausing and unpacking each sentence. He keeps a list of the sounds he hears versus what he expects to see written.",
   "objectives": [
-    "Recognize and understand eight common phonological reductions in natural American speech",
-    "Understand the discourse functions of filler words (um, like, you know, I mean, right)",
-    "Identify the five grammatical roles of 'like' in American English",
-    "Listen to fast, reduced speech and extract meaning without needing every word"
+    "Analyse the sources of wordiness and redundancy in advanced writing and distinguish them from legitimate amplification",
+    "Evaluate the difference between concision as economy of expression and concision as oversimplification",
+    "Deploy a systematic proofreading strategy that targets C1/C2 level errors: collocation, register, word form, and structural redundancy",
+    "Construct a revised version of an overwritten passage that preserves argumentative complexity while eliminating verbal waste"
   ],
-  "target_phrases": [
-    "Didja get a chance to look at that?",
-    "I'm kinda gonna hafta pass on tonight.",
-    "Whatcha working on right now?",
-    "I dunno — lemme think about it.",
-    "You wanna grab food or like, just stay here?",
-    "Shoulda started earlier, honestly.",
-    "It was like the best day ever — I'm not even joking."
+  "authentic_text": {
+    "title": "On the Virtue of Cutting",
+    "type": "article",
+    "text": "George Orwell proposed, in his celebrated 1946 essay 'Politics and the English Language,' that if it is possible to cut a word, always cut it. This maxim, endlessly cited and almost as endlessly misapplied, contains a truth that is simultaneously obvious and profoundly counterintuitive. Obvious, because wordiness is visibly unpleasant — the reader can feel the effort of wading through prose that could have said in eight words what it says in twenty. Counterintuitive, because the impulse to add words is nearly irresistible at every level of education and competence.\n\nConsider the phenomenon of throat-clearing: the habit of prefacing a point with several sentences of context before arriving at the claim. 'It is worth noting that scholars have long debated the extent to which...' — this kind of opening delays the argument and suggests, falsely, that the argument cannot stand without elaborate qualification. A more confident writer cuts directly to the claim and trusts the evidence to speak.\n\nBut precision and brevity are not the same thing. A writer who cuts 'the precise mechanism by which X leads to Y' to 'why X causes Y' has gained economy but lost specificity. Some qualifications are load-bearing — remove them and the claim collapses or becomes false. The discipline of concision is not the elimination of all qualification but the elimination of all qualification that is not earning its place.\n\nThe practical implication is that proofreading at the C1/C2 level is not primarily a matter of correcting errors. It is a matter of asking, of every word, phrase, and sentence: is this working? What is it doing? Can the reader do without it? These are editorial questions, not grammatical ones, and they demand a more exacting standard than correctness alone.",
+    "source": "Adapted from The Paris Review, craft essay series",
+    "notes": "The article itself is carefully edited — count the sentences: none contains unnecessary qualification. The second paragraph demonstrates the 'throat-clearing' it criticises by using a brief example, then immediately naming and dismissing the technique."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What does the article mean by 'throat-clearing' in academic writing?",
+      "answer": "Throat-clearing refers to the habit of prefacing a claim with several sentences of context, qualification, or scene-setting before arriving at the actual point. The article argues this delays the argument and implies, falsely, that the claim cannot stand without elaborate scaffolding."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing Orwell's maxim as 'endlessly cited and almost as endlessly misapplied'?",
+      "answer": "The writer implies that the maxim is often taken too literally — applied mechanically to produce a thin, unqualified prose that loses the 'load-bearing' qualifications that make complex arguments accurate. The misapplication is treating 'cut all possible words' as equivalent to 'cut all words,' which produces oversimplification rather than concision."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and identify the word that most clearly marks a shift in its register.",
+      "answer": "The final paragraph is direct and mildly prescriptive — it moves from describing a problem to addressing the reader about what to do. The word 'exacting' marks a slight shift towards the demanding: it means not merely high but rigorous to the point of severity. The overall tone is of a writer who has thought carefully about the craft and is now sharing a considered conviction rather than a neutral analysis."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The phrase 'load-bearing' (paragraph 3) is closest in meaning to:",
+      "answer": "Structurally essential — a 'load-bearing wall' in architecture is one that supports the structure above it and cannot be removed without causing the building to collapse. A 'load-bearing qualification' in an argument is one that supports the accuracy of the claim and cannot be removed without falsifying it."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this article?",
+      "answer": "The writer's purpose is to argue that concision in writing is not the indiscriminate removal of words but the removal of words that are not earning their place — and that the discipline of proofreading at an advanced level is therefore an editorial and conceptual activity, not merely a grammatical one."
+    }
   ],
-  "dialogue": {
-    "title": "Ahmed Listens Back",
-    "context": "Ahmed has replayed the recording of Zoe talking for the third time. He now plays it back phrase by phrase while Zoe sits next to him, translating herself.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Zoe, in this recording you said — and I am quoting — 'didja get the reading done or didja just, like, kinda look at it.' I heard this five times before I understood it. Can you help me?"},
-      {"speaker": "Zoe", "text": "Oh wow. Yeah okay. So 'didja' — that's just 'did you.' We blend them completely in speech."},
-      {"speaker": "Ahmed", "text": "And 'kinda'?"},
-      {"speaker": "Zoe", "text": "Kind of. Like a softener. So 'kinda look at it' just means you opened the document but didn't really read it."},
-      {"speaker": "Ahmed", "text": "Later you say: 'I'm gonna hafta tell Jake shoulda started earlier but whatcha gonna do.'"},
-      {"speaker": "Zoe", "text": "Okay so: gonna is 'going to', hafta is 'have to', shoulda is 'should have', and whatcha is 'what are you' or 'what do you.' You're basically transcribing how fast talkers actually speak."},
-      {"speaker": "Ahmed", "text": "I also counted eleven uses of 'like' in ninety seconds. I need to understand what 'like' is doing."},
-      {"speaker": "Zoe", "text": "Ha! Okay so 'like' is doing a lot of work. It can introduce a quote — 'she was like, wow.' It can introduce an example. It can mean approximately. It can fill a pause. And sometimes it just... hangs there."},
-      {"speaker": "Ahmed", "text": "In my transcription you also say 'um', 'you know', 'I mean', and 'right?' approximately every three sentences."},
-      {"speaker": "Zoe", "text": "Those are fillers — they're how we think out loud. 'Um' and 'uh' mean I'm still talking, don't interrupt. 'You know' and 'right?' check if you're following along. 'I mean' usually means I'm about to clarify or correct myself."},
-      {"speaker": "Ahmed", "text": "So they are not mistakes. They have functions."},
-      {"speaker": "Zoe", "text": "Exactly! Actually, if someone speaks with zero fillers it sounds almost robotic. Like a prepared speech. Fillers make you sound human."},
-      {"speaker": "Ahmed", "text": "I have been trying to eliminate them from my speech."},
-      {"speaker": "Zoe", "text": "That explains why you sometimes sound like a TED Talk."}
+  "language_analysis": {
+    "focus": "Concision and Precision",
+    "explanation": "Concision is the quality of using no more words than necessary to express an idea accurately. It is not the same as brevity (shortness) or simplicity — a complex idea may require many words to state accurately, and concision is compatible with length. What concision excludes is verbal waste: redundant phrases, tautological qualifiers, throat-clearing openers, and circumlocutions that delay the expression of a claim without adding anything to its substance.\n\nCommon sources of wordiness in advanced writing include: nominalisation chains ('the implementation of the decision to pursue the strategy of...' instead of 'pursuing the strategy...'); redundant qualifiers ('absolutely essential,' 'completely unique,' 'very crucial' — in each case the qualifier adds no information since the qualified word already implies totality); throat-clearing openers ('It is important to note that,' 'It should be pointed out that,' 'It is worth bearing in mind that' — all of which could be replaced with the claim itself); and resumptive nominals ('This phenomenon,' 'This issue,' 'This matter' — often deployable but sometimes adding a sentence to say nothing beyond 'it is this').\n\nPrecision, by contrast, is the quality of choosing exactly the right word for the intended meaning, avoiding both vagueness (words too general to distinguish the specific case) and overclaiming (words too strong for the evidence). At C1/C2 level, the tension between concision and precision is the central editorial challenge: cutting does not mean simplifying, and qualifying does not mean hedging without purpose.",
+    "examples": [
+      {
+        "from_text": "'It is worth noting that scholars have long debated the extent to which...'",
+        "analysis": "This throat-clearing opener commits three acts of wordiness: 'It is worth noting that' adds no information (if it is in the essay, the writer evidently thinks it is worth noting); 'scholars have long debated' is a placeholder that delays the actual claim; 'the extent to which' is a vague qualifier that could be replaced with the specific claim about what is and is not agreed. A revision might begin: 'Scholars disagree about whether X causes Y — some argue...' — the same information in half the words."
+      },
+      {
+        "from_text": "the elimination of all qualification that is not earning its place",
+        "analysis": "The metaphor 'earning its place' is precise and efficiently figurative — it treats a qualification as a member of a team that must justify its presence by contributing to the outcome. This is more economical than 'the elimination of all qualification that does not contribute to the accuracy of the claim in a way that could not be achieved without it,' which says the same thing in three times as many words."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "It is perhaps worth noting, in this particular context, that there exists a range of scholarly opinion on this matter, with some academics taking the view that X is the primary cause while others have argued in favour of Y.",
+        "informal": "Scholars disagree: some see X as primary; others favour Y."
+      },
+      {
+        "formal": "The implementation of the policy decision to pursue a strategy of fiscal consolidation was completed within the specified timeframe.",
+        "informal": "The austerity policy was implemented on schedule."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Recognizing phonological reductions",
-      "pattern": "gonna (going to) · wanna (want to) · hafta (have to) · shoulda (should have) · coulda (could have) · lemme (let me) · didja (did you) · whatcha (what are you/do you)",
-      "examples": [
-        "I'm gonna need those notes by Thursday. (going to)",
-        "Do you wanna grab coffee before class? (want to)",
-        "I hafta finish this by midnight or I'm in trouble. (have to)",
-        "I shoulda started the project two weeks ago. (should have)",
-        "Lemme check if there's still room in the study group. (let me)",
-        "Didja read the whole chapter or just the intro? (did you)",
-        "Whatcha doing this weekend? (what are you)"
-      ],
-      "your_turn": "Say these sentences aloud using natural reductions instead of the written-out forms.",
-      "prompts": [
-        "Say 'I am going to have to study this weekend' using reductions.",
-        "Say 'Did you finish the assignment yet?' using reductions.",
-        "Say 'What are you working on right now?' using reductions."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "The five roles of 'like' in American English",
-      "pattern": "1. Approximation · 2. Filler/pause · 3. Quote introducer · 4. Example · 5. Softener",
-      "examples": [
-        "APPROXIMATION: It was like three hours long. (approximately three hours)",
-        "FILLER: I was just, like, standing there. (pause / thinking space)",
-        "QUOTE: She was like, 'Are you serious right now?' (introduces what someone said or thought)",
-        "EXAMPLE: You need like, office supplies — like, staples and pens. (introducing examples)",
-        "SOFTENER: Could you like, help me with this? (reduces directness of request)"
-      ],
-      "your_turn": "Use 'like' in three different roles in three different sentences.",
-      "prompts": [
-        "Describe how long something took using 'like' as approximation.",
-        "Report what someone said using 'like' as a quote introducer.",
-        "Use 'like' as a filler while describing a confusing situation."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Filler words and their discourse functions",
-      "pattern": "um/uh (I'm still talking) · you know (check comprehension) · I mean (clarifying) · right? (seeking agreement) · so (connecting thoughts)",
-      "examples": [
-        "Um, I think the reading is due Thursday. (um = thinking, hold the floor)",
-        "The exam is like, really conceptual, you know? (you know = are you following me?)",
-        "I mean, it's not the worst class, but it's a lot. (I mean = let me qualify that)",
-        "It's pretty clear from the syllabus, right? (right? = seeking agreement/confirmation)",
-        "So I was walking to class and I ran into Professor Chen... (so = connecting to next point)"
-      ],
-      "your_turn": "Tell a short story about your day using at least three different filler words naturally.",
-      "prompts": [
-        "Describe something that surprised you today, using 'I mean' to qualify.",
-        "Tell someone about a confusing class, using 'you know?' to check they follow.",
-        "Start a story with 'So' and include at least one 'um' while thinking."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit13-lesson4-listen1.mp3",
-      "transcript": "So I was gonna go to the library but then Priya texts me like, 'didja wanna grab dinner first?' and I'm kinda like, yeah actually I hafta eat. So we ended up just, um, going to that place near the quad — you know the one I mean, with the really good soup? Anyway we're sitting there and she's like, 'I shoulda started this paper way earlier' and I'm like yeah, same. I literally coulda done it last weekend but I just, like, didn't.",
-      "question": "What does the speaker mean by 'I coulda done it last weekend'?",
-      "options": [
-        "She could do it next weekend",
-        "She had the opportunity to do it last weekend but chose not to",
-        "She tried to do it last weekend but couldn't",
-        "She was told to do it last weekend"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit13-lesson4-listen2.mp3",
-      "transcript": "Jake: Yo Ahmed, didja end up going to that career fair? Ahmed: I did. It was, um, informative. But I'm still figuring out, like, what I actually want to do after graduation. Jake: Yeah man, I mean, you've got real experience though — that's kinda the whole thing. Most of us are like, I've never had a real job, you know? Ahmed: I suppose. I mean, in some ways that experience feels, like, disconnected from what we're studying here. Jake: Right, but that's kinda the point — you're connecting it now, you know? Ahmed: Yes. I am beginning to see that.",
-      "question": "What is Jake's main point about Ahmed's work experience?",
-      "options": [
-        "Ahmed's experience is not relevant to business school",
-        "Ahmed should be more confident because real experience is valuable",
-        "Ahmed should get a new job before graduating",
-        "Ahmed talks too formally for someone with experience"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit13-lesson4-listen3.mp3",
-      "transcript": "One of the hardest things for English learners is that the language they studied — clear, slow, each word distinct — is almost nothing like the language native speakers actually use at normal speed. When we say 'did you eat?' it sounds like 'didja eat?' When we say 'what do you want to do?' it comes out more like 'whatcha wanna do?' This isn't sloppy English — it's normal spoken English. Every language does this. French has liaisons, Spanish blends syllables, Arabic has assimilation. The key is not to try to slow everyone down, but to train your ears to expect these blends and extract the underlying words.",
-      "question": "Why does the speaker say fast, reduced English is NOT sloppy?",
-      "options": [
-        "Because it is taught in classrooms",
-        "Because it is a normal feature of natural spoken language in all languages",
-        "Because only educated people speak this way",
-        "Because it is easier to understand than slow speech"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Read this sentence aloud three times: first slowly and clearly, then at normal casual speed using reductions, then at full fast speed. 'I was going to let you know that I have to cancel tonight because I should have looked at my schedule earlier.' Record your three versions.",
-      "example": "SLOW: 'I was going to let you know that I have to cancel tonight because I should have looked at my schedule earlier.' CASUAL: 'I was gonna let you know that I hafta cancel tonight because I shoulda looked at my schedule earlier.' FAST: 'I was gonna letcha know I hafta cancel tonight 'cause I shoulda looked at my schedule earlier.'",
-      "sentence_starters": [
-        "Slow version: I was going to...",
-        "Casual version: I was gonna...",
-        "Fast version: I was gonna letcha know..."
-      ],
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Tell a classmate about something you did last weekend. Speak naturally — include at least three fillers (um, like, you know, I mean, right?) and at least two reductions (gonna, kinda, didja, etc.). Record for 40 seconds. The goal is natural, not perfect.",
-      "example": "So this weekend I, um, I was kinda just planning to stay home and study, you know? But then Priya texts me like, 'didja wanna go to the farmer's market?' and I'm like, sure, why not. So we go and it's like — I mean it was actually really nice. Really different from what I expected. Um, I ended up buying like, fresh bread and this jam that was kinda amazing honestly. I mean, I shoulda gone sooner — I didn't know it was there. So yeah, it was just like, a low-key good day, you know?",
-      "sentence_starters": [
-        "So this weekend I was kinda...",
-        "Then like, um...",
-        "And I'm just like..."
-      ],
-      "min_seconds": 40,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write Ahmed's transcription notes from the recording session. List 8 reduced forms he heard, write what they mean in standard English, and rate his confidence understanding each from 1 (confused) to 3 (got it). Format as a table or list. (50–70 words)",
-      "min_words": 50,
-      "example": "RECORDING TRANSCRIPTION NOTES — Week 3\n\nDidja → Did you [confidence: 3 — I can hear it now]\nGonna → Going to [confidence: 3]\nHafta → Have to [confidence: 2]\nShoulda → Should have [confidence: 2]\nWhatcha → What are you / What do you [confidence: 1 — still tricky]\nLemme → Let me [confidence: 3]\nKinda → Kind of [confidence: 3]\nCoulda → Could have [confidence: 2 — confusing with 'kinda' at speed]\n\nOverall: speed is the main challenge, not vocabulary."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a short scene (80–100 words) from Ahmed's perspective where he is having a conversation with Zoe at normal speed. Write Zoe's actual words as she says them (with reductions and fillers), and show Ahmed's inner monologue as he tries to decode what she said. Use a clear format to separate dialogue from thoughts.",
-      "min_words": 80,
-      "example": "Zoe: 'Didja see the email from Chen? We're gonna hafta do like a whole extra page for the reflection.'\n\n[Ahmed's internal decoding: Did you see... yes. Going to have to... okay. Like a whole extra page — 'like' is approximation here, not literal. So: Professor Chen sent an email requiring an additional page for the reflection assignment.]\n\nAhmed: 'I did. That is, um — I mean, yeah. That's kind of a lot.'\n\nZoe: 'Right? I shoulda finished it yesterday but I just, you know, didn't.'\n\n[Ahmed: Should have finished. She chose not to. Understandable. Reassuring, somehow.]"
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Phonological Reductions in Natural American Speech",
-      "explanation": "In natural connected speech, Americans blend and reduce words in predictable patterns. This is not sloppy — it is how the language functions at natural speed. Reductions follow phonological rules: 'want to' becomes 'wanna,' 'going to' becomes 'gonna,' 'have to' becomes 'hafta,' 'should have' becomes 'shoulda.' These are written out only to show pronunciation — in formal writing, use standard forms.",
-      "examples": [
-        "going to → gonna: 'I'm gonna need this by Friday.'",
-        "want to → wanna: 'Do you wanna study together?'",
-        "have to → hafta: 'I hafta finish this tonight.'",
-        "should have → shoulda: 'I shoulda read the syllabus first.'",
-        "did you → didja: 'Didja finish the reading?'",
-        "let me → lemme: 'Lemme check my schedule.'",
-        "what are you → whatcha: 'Whatcha doing this weekend?'"
-      ],
-      "practice": [
-        {"sentence": "What is the reduction of 'going to'?", "blank": "gonna", "options": ["gonna", "gointo", "goingto"]},
-        {"sentence": "What is the reduction of 'should have'?", "blank": "shoulda", "options": ["shoulda", "should've", "shouldof"]},
-        {"sentence": "What is the reduction of 'did you'?", "blank": "didja", "options": ["didja", "didyou", "dija"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Filler Words and Their Discourse Functions",
-      "explanation": "Filler words are not errors to eliminate — they serve real communicative functions. 'Um' and 'uh' signal that you are still speaking and thinking — they hold the floor. 'You know' and 'right?' check that the listener is following. 'I mean' signals clarification or correction. 'So' connects to the next point. Using zero fillers is characteristic of scripted or rehearsed speech, not conversation.",
-      "examples": [
-        "Um / uh — I'm thinking, please don't interrupt me yet",
-        "You know? — Are you following what I'm saying?",
-        "Right? — Do you agree with me?",
-        "I mean — Let me clarify or correct what I just said",
-        "So — I'm connecting this to the next thing I'll say"
-      ],
-      "practice": [
-        {"sentence": "Which filler signals the speaker is still thinking and holding the floor?", "blank": "um / uh", "options": ["um / uh", "right?", "so"]},
-        {"sentence": "Which filler invites the listener to agree or confirm understanding?", "blank": "right? / you know?", "options": ["right? / you know?", "um", "I mean"]},
-        {"sentence": "'I mean, it wasn't the worst class, but...' — what does 'I mean' signal here?", "blank": "Clarification or correction of previous statement", "options": ["Clarification or correction of previous statement", "Strong agreement", "A pause without function"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "The Five Grammatical Roles of 'Like'",
-      "explanation": "In American English, 'like' has expanded far beyond its original comparative role. It now performs five distinct grammatical functions. Understanding which role is being used helps comprehension enormously. This is not slang — it is a recognized feature of contemporary American English grammar.",
-      "examples": [
-        "COMPARISON: She runs like the wind. (original, formal use — as/similar to)",
-        "APPROXIMATION: It cost like forty dollars. (approximately forty)",
-        "FILLER: I was just, like, sitting there. (pause/thinking space, no semantic content)",
-        "QUOTE INTRODUCER: She was like, 'No way.' (reports speech or thought)",
-        "SOFTENER: Could you like, help me with this? (reduces directness)"
-      ],
-      "practice": [
-        {"sentence": "What role does 'like' play in: 'It was like three hours'?", "blank": "Approximation", "options": ["Approximation", "Quote introducer", "Comparison"]},
-        {"sentence": "What role does 'like' play in: 'He was like, I can't believe it'?", "blank": "Quote introducer", "options": ["Quote introducer", "Filler", "Approximation"]},
-        {"sentence": "What role does 'like' play in: 'I was just, like, confused'?", "blank": "Filler (pause/thinking space)", "options": ["Filler (pause/thinking space)", "Comparison", "Softener"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What does 'gonna' mean?", "options": ["going now", "going to", "gone already", "going around"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does 'shoulda' mean?", "options": ["should always", "should have", "should have to", "should ask"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does 'didja' mean?", "options": ["did Jake", "do you", "did you", "did Jess"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "true-false", "question": "Filler words like 'um' and 'you know' are grammatical errors that fluent speakers never use.", "correct": false, "points": 10},
-      {"id": "q5", "type": "multiple-choice", "question": "In the sentence 'She was like, I can't believe it,' what role does 'like' play?", "options": ["Comparison", "Approximation", "Quote introducer", "Filler"], "correct": 2, "points": 10},
-      {"id": "q6", "type": "fill-blank", "question": "What is the reduction of 'want to'? ___", "correct": "wanna", "accept": ["wanna"], "points": 10},
-      {"id": "q7", "type": "multiple-choice", "question": "Which filler word signals that the speaker is about to clarify or correct something?", "options": ["um", "right?", "I mean", "so"], "correct": 2, "points": 10},
-      {"id": "q8", "type": "multiple-choice", "question": "In the sentence 'It cost like forty dollars,' what role does 'like' play?", "options": ["Comparison", "Approximation", "Filler", "Softener"], "correct": 1, "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match reduced form to full form:", "pairs": [{"left": "hafta", "right": "have to"}, {"left": "lemme", "right": "let me"}, {"left": "whatcha", "right": "what are you"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Why does Zoe say Ahmed 'sometimes sounds like a TED Talk'?", "options": ["Because he speaks too loudly", "Because he speaks with zero fillers — like rehearsed, not conversational speech", "Because his content is very educational", "Because he speaks too slowly"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The author's prose style, which is renowned for its economy and precision, has had a profound affect on subsequent generations of essayists.",
+        "correct": "The author's prose style, which is renowned for its economy and precision, has had a profound effect on subsequent generations of essayists.",
+        "explanation": "'Affect' as a noun is a psychological term (in affect regulation, affect is used as a noun for emotional state). As a verb, 'affect' means to influence. 'Effect' as a noun means a result or outcome. 'A profound effect on' requires the noun 'effect.' This affect/effect confusion is one of the most common C1-level homophone errors."
+      },
+      {
+        "incorrect": "Proofreading at the advanced level requires the writer to ask not only whether each sentence is grammatically correct, but also whether it is doing necessary work.",
+        "correct": "Proofreading at the advanced level requires the writer to ask not only whether each sentence is grammatically correct but also whether it is doing necessary work.",
+        "explanation": "In 'not only... but also' constructions where both elements are noun clauses beginning with 'whether,' the comma before 'but also' is unnecessary and non-standard. The parallel structure should flow without a comma separating the two elements of the correlative conjunction."
+      },
+      {
+        "incorrect": "The revision resulted in a text that was, in all intents and purposes, a completely different document from the original draft.",
+        "correct": "The revision resulted in a text that was, to all intents and purposes, a completely different document from the original draft.",
+        "explanation": "The fixed phrase is 'to all intents and purposes,' not 'in all intents and purposes.' This is a commonly frozen expression in which the preposition is fixed. 'In' is a frequent substitution error."
+      },
+      {
+        "incorrect": "A writer who is in the habit to add unnecessary qualifications will find that their prose becomes progressively harder to read as the text grows longer.",
+        "correct": "A writer who is in the habit of adding unnecessary qualifications will find that their prose becomes progressively harder to read as the text grows longer.",
+        "explanation": "'In the habit of' is the correct collocation — 'habit' takes 'of' followed by a gerund: 'in the habit of adding.' 'In the habit to add' (infinitive) is a collocation error — one of the most persistent structural errors at the C1 level."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "gonna", "definition": "spoken reduction of 'going to' — used in casual speech and informal writing", "example": "I'm gonna head out after class."},
-    {"word": "wanna", "definition": "spoken reduction of 'want to'", "example": "Do you wanna grab food?"},
-    {"word": "kinda", "definition": "spoken reduction of 'kind of' — a softener or qualifier", "example": "That test was kinda brutal, honestly."},
-    {"word": "sorta", "definition": "spoken reduction of 'sort of' — similar to kinda", "example": "I sorta understood it, but not fully."},
-    {"word": "hafta", "definition": "spoken reduction of 'have to' — expressing obligation", "example": "I hafta finish this before midnight."},
-    {"word": "lemme", "definition": "spoken reduction of 'let me'", "example": "Lemme check if I have that file."},
-    {"word": "didja", "definition": "spoken reduction of 'did you'", "example": "Didja get a chance to read chapter five?"},
-    {"word": "whatcha", "definition": "spoken reduction of 'what are you' or 'what do you'", "example": "Whatcha doing after class?"},
-    {"word": "ya", "definition": "casual form of 'you' used in fast speech", "example": "See ya tomorrow — don't be late!"},
-    {"word": "'cause", "definition": "spoken reduction of 'because' — very common in fast casual speech", "example": "I was late 'cause the bus didn't show up."}
-  ],
-  "cultural_notes": [
-    "The gap between written English and spoken American English is enormous — perhaps larger than in most other languages. Students who learned 'textbook English' are often genuinely surprised that native speakers do not speak the way books are written.",
-    "Phonological reduction is not laziness — it is an efficiency feature of natural language. The rules are predictable and learnable. Developing 'listening ear' for reductions takes time and regular exposure, not just memorization.",
-    "American regional accents affect reductions significantly. Jake's Georgia accent produces different reductions than Zoe's New Jersey speech. 'Y'all' (you all), 'fixin' to' (going to), and 'might could' (might be able to) are Southern features. Learning one accent deeply is more valuable than trying to understand all accents at once.",
-    "Filler words signal different things across cultures. Japanese has 'eto' and 'ano.' Arabic has 'ya'ni.' Spanish has 'o sea.' The English equivalents (um, like, you know) serve similar functions. Recognizing fillers across languages helps learners not decode them as meaningful content.",
-    "Recording real conversations — with permission — is one of the most effective techniques for improving listening comprehension. Playing back at reduced speed (0.75x) and then at normal speed builds the auditory pattern recognition that enables fast-speech comprehension."
+  "debate_task": {
+    "motion": "This house believes that Orwell's maxim — 'if it is possible to cut a word, always cut it' — is damaging advice for writers who need to handle genuinely complex ideas.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Applied literally, Orwell's maxim produces prose that eliminates the qualifications necessary to make complex claims accurate — brevity becomes falsification when the idea requires qualification to be true.",
+      "The maxim was written in response to the bureaucratic prose of mid-twentieth century political writing, and the problem it targets (deliberate obfuscation) is different from the problem of necessary complexity in analytical writing.",
+      "A generation of writers trained on 'cut everything' produces imprecise, overclaiming prose in which nuance is treated as verbosity — the opposite of the problem the maxim was intended to solve."
+    ],
+    "counter_arguments": [
+      "Most first drafts, including those of competent advanced writers, contain substantial verbal waste — the maxim corrects a real and persistent tendency towards over-writing at all levels of education.",
+      "The maxim is best read as a direction of attention rather than a literal instruction: it asks writers to justify every word, not to eliminate all possible words — and this is genuinely valuable editorial advice.",
+      "Orwell's own prose demonstrates that the maxim is compatible with genuine complexity — 'Nineteen Eighty-Four' is both economical and conceptually dense, suggesting the tension the motion identifies is less severe than claimed."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Revise the following overwritten passage into a concise, precise version of approximately 100 words, without losing any of its substantive claims. Then write a short paragraph (80-120 words) explaining the editorial decisions you made. (Total: approximately 200-230 words.)\n\nOverwritten original: 'It is perhaps worth pausing at this juncture to consider and reflect upon the somewhat complex and multifaceted nature of the relationship that exists between the process of proofreading and the broader and more expansive concept of writing quality, since it would appear that a significant number of students, particularly those operating at an advanced level of language proficiency, tend to operate under the mistaken assumption that proofreading is primarily and essentially a matter of correcting grammatical errors, when in actual fact the process of proofreading at this level involves a considerably more demanding and rigorous set of editorial judgements about whether each individual component of the text is contributing in an effective and meaningful way to the overall argument of the piece.'",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "This task has no conventional introduction — begin directly with the revised version. Label it clearly."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "The revised version should be approximately 100 words. It must preserve all substantive claims: that proofreading is misunderstood as error-correction; that it actually involves editorial judgements; that these judgements concern whether each element contributes to the argument; and that this applies particularly at advanced level."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "The explanatory paragraph should identify which specific types of wordiness you cut (nominalisation chains, throat-clearing openers, redundant qualifiers, tautological phrases) and justify any decisions that were close calls."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "End the explanatory paragraph with a reflection on whether anything was lost — if some of the original's qualifications were load-bearing, note this and explain what you retained and why."
+      }
+    ],
+    "model_answer": "REVISED VERSION:\n\nMany advanced writers assume that proofreading is primarily a matter of correcting grammatical errors. In fact, proofreading at the C1/C2 level is a considerably more demanding activity: an editorial process in which each element of the text — every sentence, phrase, and qualifier — is evaluated for whether it is contributing to the argument. This standard goes well beyond correctness. It requires the writer to ask, of every word, whether it is earning its place.\n\nEDITORIAL COMMENTARY:\n\nThe original 127-word passage contains a single claim — proofreading at advanced level is editorial, not merely corrective — buried beneath multiple layers of throat-clearing ('It is perhaps worth pausing to consider'), redundant modification ('somewhat complex and multifaceted,' 'broader and more expansive'), and nominalisation chains ('the process of proofreading... a significant number of students... tend to operate under the mistaken assumption').\n\nCut: all throat-clearing openers; 'somewhat,' 'considerably,' 'primarily and essentially,' 'in an effective and meaningful way' (all redundant); the hedged 'would appear that.' The qualifying phrase 'particularly those operating at an advanced level' was retained in compressed form ('at the C1/C2 level') because it is load-bearing — the claim is specifically about advanced writers, not all writers.\n\nNothing substantive was lost. The revised version is 92 words."
+  },
+  "advanced_grammar": {
+    "structure": "Fronting for Rhetorical Effect",
+    "explanation": "Fronting is the process of moving a sentence element from its default position to the front of the clause for emphasis or thematic effect. In unmarked English word order, the subject comes first; fronted elements — direct objects, adverbials, predicate complements, and participial phrases — are moved to the initial position to create focus or to signal the theme of the sentence.\n\nCommon types of fronting include: direct object fronting ('This the writer could not accept'), predicate complement fronting ('Remarkable as it is, the prose remains economical'), adverbial fronting ('In this discipline, precision is everything'), and participial fronting ('Having established the principle, the writer moves to its application'). Each type achieves a different rhetorical effect: direct object fronting creates contrast or emphasis; adverbial fronting signals the thematic context; participial fronting signals a logical sequence.\n\nThe communicative purpose of fronting in formal and literary writing is to control what the reader processes first — to place the most significant, contrastive, or thematically important element at the beginning of the sentence, where it receives maximum attention. At C1/C2 level, learners should use fronting deliberately and sparingly — used too frequently, it produces a mannered, affected prose style.",
+    "authentic_examples": [
+      "Counterintuitive as it seems, the impulse to add words is nearly irresistible at every level of education and competence.",
+      "This, precisely, is what proofreading at the advanced level requires — not the correction of errors but the elimination of verbal waste.",
+      "Having identified the redundancies, the skilled proofreader then faces the harder question: what remains?"
+    ],
+    "practice": [
+      {
+        "sentence": "The question of whether to cut or to qualify is the hardest editorial decision a writer faces.",
+        "transform": "Rewrite by fronting 'the hardest editorial decision a writer faces' for emphasis.",
+        "answer": "The hardest editorial decision a writer faces is the question of whether to cut or to qualify."
+      },
+      {
+        "sentence": "The writer established the distinction between concision and precision in the first paragraph, then moved to its application.",
+        "transform": "Rewrite using participial fronting to signal the logical sequence.",
+        "answer": "Having established the distinction between concision and precision, the writer moves to its application."
+      },
+      {
+        "sentence": "Brevity is rarely the problem in first drafts — wordiness and qualification are.",
+        "transform": "Rewrite beginning with a fronted predicate complement to create emphasis.",
+        "answer": "Rare as a virtue in first drafts, brevity is typically outnumbered by wordiness and unnecessary qualification."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the article, what is the difference between a load-bearing qualification and a non-load-bearing one?",
+      "options": [
+        "Load-bearing qualifications appear in published texts; non-load-bearing ones appear only in student drafts.",
+        "A load-bearing qualification supports the accuracy of the claim and cannot be removed without falsifying it; a non-load-bearing qualification adds words without adding necessary precision.",
+        "Load-bearing qualifications are longer and more complex than non-load-bearing ones.",
+        "Load-bearing qualifications use hedging language; non-load-bearing ones make overclaiming assertions."
+      ],
+      "correct": 1,
+      "explanation": "The article uses the metaphor of a load-bearing wall: 'Some qualifications are load-bearing — remove them and the claim collapses or becomes false.' A qualification is load-bearing if the claim would be inaccurate or overclaimed without it — and non-load-bearing if it merely adds words without adding necessary precision."
+    },
+    {
+      "id": 2,
+      "question": "What is 'throat-clearing' in the context of academic writing?",
+      "options": [
+        "Beginning a sentence with a hedging phrase to signal uncertainty.",
+        "Using technical vocabulary to signal expertise before arriving at the argument.",
+        "Prefacing a claim with several sentences of context or qualification that delay the actual point without contributing to it.",
+        "Repeating the essay's thesis at the beginning of each paragraph for clarity."
+      ],
+      "correct": 2,
+      "explanation": "Throat-clearing is defined in the article as 'the habit of prefacing a point with several sentences of context before arriving at the claim.' The example given — 'It is worth noting that scholars have long debated the extent to which...' — demonstrates the phenomenon: several words are used before anything of substance is said."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The affect of eliminating unnecessary qualifications on the clarity of the argument can be considerable.'",
+      "options": [
+        "No error — 'affect' is correctly used as a noun here.",
+        "'Affect' should be 'effect' — 'effect' is the noun meaning result or outcome; 'affect' as a noun is a psychological term for emotional state.",
+        "'On the clarity of the argument' should be 'on argumentative clarity' in formal register.",
+        "'Can be considerable' should be 'is considerable' — 'can be' is unnecessarily hedged."
+      ],
+      "correct": 1,
+      "explanation": "In general usage, 'effect' is the noun ('the effect of X on Y') and 'affect' is the verb ('X affects Y'). 'The affect of...' is incorrect — it should be 'the effect of...' This is one of the most frequently tested C1/C2 homophone distinctions."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence most effectively demonstrates concision without sacrificing precision?",
+      "options": [
+        "It is perhaps worth noting that there is a significant degree of scholarly disagreement on this particular matter.",
+        "Scholars disagree about this.",
+        "Scholars disagree significantly about whether X causes Y — some emphasise structural factors; others attribute the outcome to individual agency.",
+        "This matter has been subject to a considerable amount of scholarly debate over a period of many years."
+      ],
+      "correct": 2,
+      "explanation": "Option C specifies the nature and dimension of the disagreement ('whether X causes Y') and names the two positions, in fewer words than option A or D. Option B is too brief — 'disagree about this' gives no information about what is being disagreed about or in what respects."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence uses fronting correctly to create rhetorical emphasis?",
+      "options": [
+        "Having been established, the writer's principle is then applied.",
+        "Having established the principle, the writer then moves to its application.",
+        "The principle having been established, then the writer applies it.",
+        "After the principle is established by the writer, then she applies it."
+      ],
+      "correct": 1,
+      "explanation": "Option B correctly fronts a participial phrase ('Having established the principle') with the agent of the main clause ('the writer') as subject — the participial subject and the main clause subject must agree. Option A uses the passive participle ('Having been established') with a missing subject; options C and D are awkward or incorrect."
+    }
   ]
 }

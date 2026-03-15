@@ -2,236 +2,231 @@
   "id": "lesson-54",
   "unit_id": 9,
   "lesson_number": 4,
-  "title": "Job Interview Skills",
-  "level": "upper-intermediate",
-  "estimated_time": 45,
+  "title": "Persuasion Techniques: Rhetoric, Logic, and the Art of Making a Case",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Answer behavioral interview questions effectively",
-    "Use the STAR method for responses",
-    "Ask intelligent questions to interviewers",
-    "Handle difficult interview situations"
+    "Analyse classical rhetorical appeals (ethos, pathos, logos) and evaluate their deployment in contemporary persuasive texts",
+    "Distinguish between legitimate persuasion and manipulative argumentation, identifying logical fallacies in context",
+    "Construct a persuasive argument that integrates all three rhetorical modes with structural coherence",
+    "Evaluate the ethical dimensions of persuasive communication and nuance your use of language accordingly"
   ],
-  "target_phrases": [
-    "In my previous role...",
-    "The situation was...",
-    "I took the following approach...",
-    "As a result...",
-    "What I learned from that experience is...",
-    "Can you tell me more about...?",
-    "What would success look like in this role?"
+  "authentic_text": {
+    "title": "Why Climate Messaging Has Failed — And What Should Replace It",
+    "type": "editorial",
+    "text": "For two decades, climate advocates have operated on a straightforward assumption: inform people about the science, and behaviour will follow. The assumption has proven spectacularly wrong. Global emissions continue to rise; public concern, while substantial, has not translated into the systemic political pressure necessary for transformative policy. Something, clearly, is not working.\n\nThe failure is rhetorical, not scientific. The evidence base for anthropogenic climate change is overwhelming — the IPCC reports are unambiguous, and the scientific consensus is as settled as any in the physical sciences. The problem is not a deficit of information but a surfeit of it, presented in ways that activate anxiety without enabling agency. Graphs of rising temperatures are accurate; they are also, for most audiences, emotionally paralyzing.\n\nEffective persuasion — and this is a lesson that climate advocates have been slow to learn — operates on three channels simultaneously. Aristotle called them ethos (the credibility of the speaker), pathos (the emotional resonance of the message), and logos (the rational structure of the argument). Most climate communication has focused almost exclusively on logos: here are the facts, here are the projections, here is the evidence. What has been largely absent is a compelling emotional narrative and, equally importantly, credible messengers who speak from shared values.\n\nThe movements that have succeeded in driving large-scale policy change — civil rights, anti-smoking, seatbelt legislation — did not succeed because they had better data. They succeeded because they told stories that made the stakes personal, that made the desired behaviour feel like an expression of identity rather than a sacrifice. That is the lesson climate communication has yet to fully absorb.",
+    "source": "Adapted from The Guardian, February 2025",
+    "notes": "Notice how the writer structures the argument: a paradox, an analysis of why, a conceptual framework, and then a comparative example. This four-part structure (problem, diagnosis, framework, precedent) is a highly effective template for persuasive writing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What three channels does Aristotle's rhetorical framework identify, and what does each refer to?",
+      "answer": "Ethos: the credibility of the speaker. Pathos: the emotional resonance of the message. Logos: the rational structure of the argument."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing information that 'activates anxiety without enabling agency'?",
+      "answer": "The writer implies that communicating the scale of a problem without indicating what individuals can do creates a paralysing emotional response — people feel frightened but powerless, which leads to disengagement rather than action. This is a sophisticated critique: the information is accurate, but its communicative effect is counterproductive."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the writer's tone in paragraph 1? What rhetorical effect does this tone create?",
+      "answer": "The tone is direct and slightly combative — the writer uses strong language ('spectacularly wrong', 'clearly, is not working') to signal that they are diagnosing a serious failure, not offering gentle critique. This tone creates urgency and positions the writer as a frank, credible voice willing to say uncomfortable things — itself an example of ethos-building."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The phrase 'a surfeit of it' (paragraph 2) means:",
+      "answer": "A surfeit means an excessive amount — more than is needed or beneficial. 'A surfeit of information' means there is too much information, overwhelming rather than informing the audience. The paradox the writer identifies is that the problem is not too little information but too much, poorly framed."
+    },
+    {
+      "type": "purpose",
+      "question": "What function does the final paragraph serve in the overall argument?",
+      "answer": "The final paragraph provides historical evidence to support the thesis. By citing successful social movements — civil rights, anti-smoking, seatbelt legislation — the writer demonstrates that the principle they are advocating ('telling stories that make stakes personal') has a proven track record. This is a logos appeal that also invokes ethos (the credibility of historical precedent) and pathos (the civil rights example carries emotional weight)."
+    }
   ],
-  "dialogue": {
-    "title": "Preparing for a Job Interview",
-    "context": "Ahmed practices interview techniques with a career counselor before an important job interview.",
-    "lines": [
-      {"speaker": "Counselor", "text": "Ahmed, you have an interview for the supervisor position next week. Let's practice behavioral questions. Tell me about a time you solved a difficult problem."},
-      {"speaker": "Ahmed", "text": "Um... I solve problems every day. Which one should I talk about?"},
-      {"speaker": "Counselor", "text": "Use the STAR method: Situation, Task, Action, Result. Start with a specific situation, describe your task, explain your actions, and share the result."},
-      {"speaker": "Ahmed", "text": "Okay. Let me try: The situation was when our warehouse system crashed during our busiest season. My task was to keep operations running while IT fixed it."},
-      {"speaker": "Counselor", "text": "Good start! Now describe your specific actions."},
-      {"speaker": "Ahmed", "text": "I took the following approach: First, I created a manual tracking system using spreadsheets. Then I organized the team to hand-process orders. I communicated hourly updates to management."},
-      {"speaker": "Counselor", "text": "Excellent! Now the result - what happened?"},
-      {"speaker": "Ahmed", "text": "As a result, we processed 95% of orders on time despite the system being down for 8 hours. What I learned from that experience is the importance of having backup plans."},
-      {"speaker": "Counselor", "text": "Perfect! That's exactly what employers want to hear - specific examples with measurable results. Now, what questions should you ask them?"},
-      {"speaker": "Ahmed", "text": "Should I ask about salary?"},
-      {"speaker": "Counselor", "text": "Save money questions for later. Ask about the role: 'What would success look like in this position?' or 'Can you tell me about the team I'd be working with?' This shows genuine interest."},
-      {"speaker": "Ahmed", "text": "What if they ask about my weaknesses?"},
-      {"speaker": "Counselor", "text": "Choose a real weakness, but one you're actively improving. Say: 'I used to struggle with public speaking, but I've been taking courses and volunteering to lead meetings. I'm much more confident now.' Show growth, not perfection."}
+  "language_analysis": {
+    "focus": "Passive Voice for Objectivity and Emphasis",
+    "explanation": "The passive voice is formed with 'be' + past participle and is used when the performer of an action is unknown, unimportant, or deliberately withheld, or when the receiver of the action is more important than the doer. In formal and academic English, the passive serves several rhetorical functions: it creates an objective, impersonal tone; it allows writers to foreground results rather than agents; and it can be used strategically to avoid attributing responsibility.\n\nAt C1/C2 level, the skill is not merely to form the passive correctly, but to understand when to use it and when not to. Overuse of the passive creates distance and can obscure agency — which is sometimes the intention, but is also a common weakness in poor academic writing. The passive is most effective when the agent is genuinely unimportant or when the focus should be on what happened rather than who did it.",
+    "examples": [
+      {
+        "from_text": "The evidence base for anthropogenic climate change is overwhelming",
+        "analysis": "This is a passive-inflected statement in the sense that 'is overwhelming' presents the quality of the evidence without an agent — no one is said to find it overwhelming, it simply 'is'. This rhetorical move presents the assessment as objective fact rather than someone's opinion. Compare: 'Most climate scientists find the evidence overwhelming' — which is attributable and therefore more easily challenged."
+      },
+      {
+        "from_text": "presented in ways that activate anxiety without enabling agency",
+        "analysis": "The passive construction 'presented in ways' withholds the agent — we are not told who presents the information this way. This is rhetorically effective: the writer is criticising a practice without attacking specific individuals, making the critique harder to dismiss as personal."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The proposal was reviewed by the committee and subsequently approved with minor modifications.",
+        "informal": "The committee looked at the proposal and said yes, basically."
+      },
+      {
+        "formal": "It has been argued that the policy produces unintended distributional effects.",
+        "informal": "Some people say the policy makes inequality worse without meaning to."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "STAR method responses",
-      "pattern": "Situation: [context], Task: [responsibility], Action: [steps], Result: [outcome]",
-      "examples": [
-        "Situation: Our team faced a tight deadline. Task: I needed to coordinate everyone. Action: I created a detailed schedule and held daily check-ins. Result: We delivered on time.",
-        "Situation: A client was unhappy with our service. Task: I was assigned to resolve it. Action: I listened to their concerns and proposed solutions. Result: They renewed their contract.",
-        "Situation: We had high employee turnover. Task: I was asked to improve retention. Action: I implemented mentorship programs. Result: Turnover decreased 30%."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Asking intelligent questions",
-      "pattern": "Can you tell me more about...? / What would... look like?",
-      "examples": [
-        "Can you tell me more about the team culture here?",
-        "What would success look like in this role during the first 90 days?",
-        "Can you describe typical projects I'd work on?",
-        "What are the biggest challenges facing this department?",
-        "How does this company support professional development?"
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Discussing weaknesses constructively",
-      "pattern": "I used to [weakness], but now [improvement]",
-      "examples": [
-        "I used to avoid delegating, but now I actively develop my team members' skills.",
-        "I used to focus too much on details, but now I balance detail work with big-picture thinking.",
-        "I used to struggle with time management, but now I use productivity tools and prioritize effectively.",
-        "I used to be uncomfortable with feedback, but now I actively seek it to improve.",
-        "I used to work in isolation, but now I collaborate more with colleagues."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson4-listen1.mp3",
-      "transcript": "The STAR method structures behavioral interview answers: Situation - set the context. Task - describe your responsibility. Action - explain specific steps you took. Result - share the outcome, preferably with metrics. Example: Situation: sales dropped 20%. Task: increase revenue. Action: analyzed data, launched new campaign. Result: sales increased 35% in 3 months. Always include a measurable result when possible.",
-      "question": "What does STAR stand for?",
-      "options": [
-        "Start, Talk, Answer, Review",
-        "Situation, Task, Action, Result",
-        "Story, Time, Audience, Response",
-        "Simple, True, Accurate, Real"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson4-listen2.mp3",
-      "transcript": "Research the company before interviews. Know their products, recent news, competitors, and culture. This helps you ask intelligent questions and show genuine interest. When they ask 'Why do you want to work here?', don't just say 'good company.' Say: 'I've followed your expansion into sustainable products. Given my background in environmental science, I'm excited to contribute to this mission.' Specific knowledge impresses interviewers.",
-      "question": "Why should you research the company?",
-      "options": [
-        "It's not necessary",
-        "To ask intelligent questions and show interest",
-        "To memorize facts",
-        "To criticize them"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson4-listen3.mp3",
-      "transcript": "Body language matters in interviews. Maintain good eye contact, sit up straight, offer a firm handshake, and smile naturally. Avoid crossing arms (appears defensive), fidgeting (shows nervousness), or slouching (lacks confidence). Dress professionally - when in doubt, overdress slightly. Arrive 10-15 minutes early. Bring extra copies of your resume. Turn off your phone. Small details create positive first impressions.",
-      "question": "When should you arrive for an interview?",
-      "options": [
-        "Exactly on time",
-        "10-15 minutes early",
-        "30 minutes early",
-        "5 minutes late"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Answer this interview question using the STAR method: 'Tell me about a time you had to work with a difficult person.' Record for 35 seconds.",
-      "example": "I'd like to share an experience from my previous role. The situation was that I had to collaborate with a colleague who often dismissed others' ideas and missed deadlines. My task was to complete a project together despite these challenges. I took the following approach: First, I scheduled a private conversation to understand his perspective. I learned he felt overwhelmed and undervalued. Then I proposed we divide tasks based on our strengths and set clear deadlines with milestones. I made sure to acknowledge his contributions publicly. As a result, we completed the project successfully and on time. More importantly, our working relationship improved significantly. What I learned is that most 'difficult' people have underlying concerns, and addressing those directly with empathy can transform the situation.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You're at the end of an interview. What three questions would you ask the interviewer? Explain why these are good questions. Record for 25 seconds.",
-      "example": "At the end of an interview, I'd ask three strategic questions. First: 'What would success look like in this role during the first six months?' This shows I'm already thinking about delivering results. Second: 'Can you tell me about the team I'd be working with and how this role collaborates with other departments?' This demonstrates I value teamwork and want to understand the bigger picture. Third: 'What are the biggest challenges or priorities for this department right now?' This shows I'm ready to tackle real issues, not just looking for an easy job. These questions reveal my serious interest while helping me evaluate if the role is right for me.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a STAR response to this question: 'Describe a time you showed leadership.' Include all four parts clearly. (100-120 words)",
-      "min_words": 100,
-      "example": "Situation: In my previous warehouse job, our team leader left suddenly during our peak season, leaving us without direction during the busiest time of year.\n\nTask: As the most experienced member, I needed to step up and keep operations running smoothly while management searched for a replacement.\n\nAction: I took several steps. First, I organized daily team meetings to coordinate work and address concerns. Second, I created a training system where experienced workers mentored newer employees. Third, I maintained open communication with management, providing daily reports on progress and challenges. Finally, I fostered team morale by recognizing individual contributions.\n\nResult: We exceeded our productivity targets by 12% during that two-month period. When the new leader arrived, they found a well-organized, motivated team. Management later promoted me to assistant supervisor, citing this experience as proof of my leadership capabilities.",
-      "min_words": 100
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a professional thank-you email to send after a job interview. Include: thank you, reference something specific discussed, restate interest. (80-100 words)",
-      "min_words": 80,
-      "example": "Subject: Thank You - Interview for Logistics Supervisor Position\n\nDear Ms. Johnson,\n\nThank you for taking the time to meet with me today regarding the Logistics Supervisor position. I truly enjoyed our conversation about the department's growth plans and the emphasis on team development.\n\nOur discussion about implementing new inventory management systems particularly excited me, as this aligns perfectly with my experience at my current company. I'm confident my background in warehouse operations and team leadership would allow me to contribute meaningfully to your goals.\n\nI remain very interested in this opportunity and look forward to hearing about next steps.\n\nThank you again for your consideration.\n\nBest regards,\nAhmed Hassan",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Past Simple for Interview Stories",
-      "explanation": "Use past simple to describe specific actions and results in interview examples.",
-      "examples": [
-        "I organized a team meeting. (specific past action)",
-        "We exceeded our sales target. (past result)",
-        "I implemented a new system. (past accomplishment)",
-        "The project succeeded. (past outcome)"
-      ],
-      "practice": [
-        {"sentence": "I ___ the team to success.", "blank": "led", "options": ["lead", "led", "leading"]},
-        {"sentence": "We ___ the deadline.", "blank": "met", "options": ["meet", "met", "meeting"]},
-        {"sentence": "The solution ___ the problem.", "blank": "solved", "options": ["solve", "solved", "solving"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Present Perfect for Experience",
-      "explanation": "Use present perfect to discuss your overall experience and skills.",
-      "examples": [
-        "I have managed teams for five years. (experience up to now)",
-        "I have developed strong leadership skills. (current ability)",
-        "I have worked in logistics since 2020. (ongoing experience)",
-        "I have learned to prioritize effectively. (current skill)"
-      ],
-      "practice": [
-        {"sentence": "I ___ in this field for 5 years.", "blank": "have worked", "options": ["worked", "have worked", "work"]},
-        {"sentence": "I ___ strong skills.", "blank": "have developed", "options": ["developed", "have developed", "develop"]},
-        {"sentence": "I ___ many teams.", "blank": "have led", "options": ["led", "have led", "lead"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Modal 'Would' for Hypothetical Situations",
-      "explanation": "Use 'would' to discuss how you would handle future situations.",
-      "examples": [
-        "I would approach this by analyzing the data first.",
-        "I would collaborate with the team to find solutions.",
-        "In that situation, I would prioritize safety.",
-        "I would communicate transparently with stakeholders."
-      ],
-      "practice": [
-        {"sentence": "I ___ start with research.", "blank": "would", "options": ["would", "will", "can"]},
-        {"sentence": "I ___ consult with experts.", "blank": "would", "options": ["would", "will", "should"]},
-        {"sentence": "I ___ consider all options.", "blank": "would", "options": ["would", "will", "might"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What does STAR stand for?", "options": ["Start Talk Answer Review", "Situation Task Action Result", "Story Time Audience Response", "Simple True Accurate Real"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "When should you ask about salary?", "options": ["First question", "Later in process", "Never", "Before interview"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "When should you arrive for an interview?", "options": ["Exactly on time", "10-15 minutes early", "30 minutes early", "5 minutes late"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ the team successfully.'", "options": ["lead", "led", "leading", "leads"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should research the company before interviews.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "When discussing weaknesses, show you're not improving.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "I ___ worked here for 3 years. (present perfect)", "correct": "have", "accept": ["have", "'ve"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "I ___ approach it differently. (hypothetical)", "correct": "would", "accept": ["would", "'d"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match STAR component:", "pairs": [{"left": "Situation", "right": "Context"}, {"left": "Task", "right": "Your role"}, {"left": "Result", "right": "Outcome"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What's a good question to ask interviewers?", "options": ["When do I get paid?", "What would success look like in this role?", "Can I work from home always?", "Do you monitor employees?"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The report was written by an anonymous author, and it was published last year without any editing.",
+        "correct": "The report was written by an anonymous author and published last year without any editing.",
+        "explanation": "When two passive constructions share the same subject ('the report'), the second 'it was' is redundant and creates an awkward repetition. In formal writing, coordinate the two passive verbs directly: 'was written... and published'."
+      },
+      {
+        "incorrect": "He is known to be a convincing speaker and he was awarded many prizes for his debating skills.",
+        "correct": "He is known to be a convincing speaker and has been awarded many prizes for his debating skills.",
+        "explanation": "The sentence describes ongoing reputation ('is known') alongside accumulated achievement (prizes won over a period of time up to the present). The present perfect 'has been awarded' is required for past actions with present relevance — 'was awarded' would imply the prizes have ceased to be relevant or that a specific past time is intended."
+      },
+      {
+        "incorrect": "The audience was persuaded by the speaker's emotional appeal, and their fears were exploited by him.",
+        "correct": "The audience was persuaded by the speaker's emotional appeal, and their fears were exploited in the process.",
+        "explanation": "Ending a passive construction with 'by him' when the agent ('him') has just been named as 'the speaker' is unnecessarily repetitive and awkward. If the agent is known and unimportant to add, it should be omitted, or the sentence restructured. 'In the process' removes the agent neatly while preserving the meaning."
+      },
+      {
+        "incorrect": "The findings of the study were widely discussed and it challenged existing assumptions in the field.",
+        "correct": "The findings of the study were widely discussed and challenged existing assumptions in the field.",
+        "explanation": "Inconsistent subject reference: 'the findings' is the subject, then 'it' appears with no clear referent (the findings are plural, not singular 'it'). The correct form drops 'it' and coordinates the two verbs: 'were widely discussed and challenged...'"
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "behavioral", "definition": "based on past actions/behavior", "example": "Behavioral interview questions are common."},
-    {"word": "accomplishment", "definition": "achievement or success", "example": "Describe a major accomplishment."},
-    {"word": "qualification", "definition": "skill or quality fitting you for position", "example": "I have the qualifications for this role."},
-    {"word": "initiative", "definition": "ability to act independently", "example": "I showed initiative in solving the problem."},
-    {"word": "collaborate", "definition": "work jointly with others", "example": "I collaborate well with teams."},
-    {"word": "adaptability", "definition": "ability to adjust to new conditions", "example": "Adaptability is key in this role."},
-    {"word": "proficiency", "definition": "high degree of skill", "example": "I have proficiency in Excel."},
-    {"word": "asset", "definition": "useful or valuable quality", "example": "My bilingual skills are an asset."},
-    {"word": "demonstrate", "definition": "clearly show or prove", "example": "I can demonstrate my abilities."},
-    {"word": "articulate", "definition": "express ideas clearly", "example": "Articulate your thoughts well."}
-  ],
-  "cultural_notes": [
-    "American interviews value specific examples over general statements - STAR method is widely used.",
-    "Confidence is important in U.S. interviews - don't be overly modest about accomplishments.",
-    "Americans expect candidates to ask thoughtful questions - not asking suggests lack of interest.",
-    "Thank-you emails after interviews are standard practice in U.S. job culture - send within 24 hours.",
-    "Behavioral interviewing is standard in U.S. companies - 'Tell me about a time when...' questions are very common.",
-    "Negotiating salary is expected in American culture - accepting the first offer without discussion can be seen as lack of confidence.",
-    "Ahmed's journey: By Unit 9, Ahmed has spent 3 years in the U.S. He started as a warehouse associate, earned a forklift certification, and was promoted to team lead. He is now interviewing for his first supervisor role."
+  "debate_task": {
+    "motion": "This house believes that emotional appeals in political discourse are inherently manipulative and should be discouraged.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Emotional appeals often bypass rational evaluation — they are designed to trigger instinctive responses rather than inform deliberate judgement, which is incompatible with democratic accountability.",
+      "The most effective emotional appeals in politics exploit fear and grievance, which tends to benefit demagogues and undermine the moderate, evidence-based debate that complex policy requires.",
+      "A democratic public deserves to be treated as capable of rational analysis; communication that relies primarily on emotional manipulation is a form of disrespect for citizens' cognitive capacities."
+    ],
+    "counter_arguments": [
+      "Emotion is not the opposite of reason — it is how humans assess what matters. A purely logos-based politics is not more democratic; it is more accessible to educated elites and less to everyone else.",
+      "Many of the most important moral and political advances — the abolition of slavery, the suffragette movement — were driven by emotional appeals that reached people who could not be moved by statistics.",
+      "The distinction between legitimate emotional engagement and manipulation is not a clear line; all communication involves some emotional dimension, and banning emotional appeals would impoverish rather than improve political discourse."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. You must use at least one example from history or current affairs, deploy at least 3 discourse markers from the list, and demonstrate awareness of the strongest counterargument."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Write a 250-word opinion article for a broadsheet newspaper arguing that advertising should be more strictly regulated on grounds of its persuasive power. You may focus on one particular form of advertising (e.g., social media advertising, political advertising, advertising targeted at children).",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a specific, vivid example that illustrates the power of advertising to influence behaviour or belief. Use this to establish the stakes of your argument."
+      },
+      {
+        "section": "Main argument",
+        "guidance": "Argue that persuasion at this scale — by this medium, targeting this audience — requires democratic oversight. Connect to wider principles: informed consent, consumer protection, political equality."
+      },
+      {
+        "section": "Addressing objections",
+        "guidance": "Acknowledge the commercial and creative argument for advertising freedom. Counter it: where does persuasion become manipulation? What is the threshold for regulation?"
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "End with a concrete, actionable proposal — not just an abstract call for 'more regulation'. What specifically should change?"
+      }
+    ],
+    "model_answer": "In the run-up to the 2024 US election, political campaigns spent over three billion dollars on digital advertising — micro-targeted, algorithmically optimised, and almost entirely unaccountable to the standards of accuracy we apply to, say, pharmaceutical marketing. The fact that we accept this should trouble us more than it does.\n\nThe case for stricter advertising regulation does not rest on paternalism — the idea that consumers cannot look after themselves. It rests on information asymmetry. When a pharmaceutical company makes a claim about a drug, it must provide evidence; when a political campaign makes a claim about a candidate's record, it need not. When a food manufacturer markets to children, there are rules; when a social media platform deploys behavioural data to target vulnerable teenagers with content designed to trigger insecurity, the legal framework remains vague and under-enforced.\n\nAdvertising defenders will argue that restriction chills free speech and innovation. This is a serious point. But free speech arguments apply most forcefully to individual expression; they apply less convincingly to the industrialised deployment of psychological persuasion techniques by corporations with billion-dollar budgets. The question is not whether individuals can say what they like; it is whether commercial entities should be permitted to exploit psychological vulnerabilities at scale without accountability.\n\nA reasonable regulatory threshold would require verifiable accuracy for factual claims, restrict algorithmic targeting based on vulnerability indicators, and mandate disclosure of funding for political advertising. These are modest proposals. The alternatives — a public sphere saturated with optimised manipulation — are not."
+  },
+  "advanced_grammar": {
+    "structure": "Inversion for Emphasis in Formal English",
+    "explanation": "Standard English word order places the subject before the verb. Inversion — reversing this order — is used in formal and literary English to create emphasis, rhetorical force, or a formal tone. There are several types of inversion: negative adverb inversion (when a negative adverb or adverbial phrase starts the sentence), conditional inversion (replacing 'if' in formal conditionals), and comparative inversion.\n\nNegative adverb inversion: 'Never have I seen such a compelling argument.' 'Not only did he misrepresent the facts, but he refused to correct them.' 'Rarely does a single speech change the course of a debate.' These constructions are characteristic of formal speeches, editorials, and literary prose. They should be used selectively — overuse sounds mannered.",
+    "authentic_examples": [
+      "Not only has climate communication failed to change behaviour, but it has arguably deepened public fatalism. (double negative inversion with auxiliary 'has')",
+      "Rarely in the history of public health messaging has a campaign been so well-funded yet so ineffective. (negative adverb 'rarely' + inversion)",
+      "Were the evidence less overwhelming, one might have more sympathy for the sceptics. (conditional inversion replacing 'if the evidence were')"
+    ],
+    "practice": [
+      {
+        "sentence": "The government has rarely committed to a policy so publicly and then abandoned it so quickly.",
+        "transform": "Rewrite using negative adverb inversion beginning with 'Rarely'.",
+        "answer": "Rarely has the government committed to a policy so publicly and then abandoned it so quickly."
+      },
+      {
+        "sentence": "He not only misquoted the report but also attributed it to the wrong author.",
+        "transform": "Rewrite using 'not only... but also' inversion for formal emphasis.",
+        "answer": "Not only did he misquote the report, but he also attributed it to the wrong author."
+      },
+      {
+        "sentence": "If the proposal were accepted, the consequences would be far-reaching.",
+        "transform": "Rewrite using formal conditional inversion (without 'if').",
+        "answer": "Were the proposal to be accepted, the consequences would be far-reaching."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the text, why has climate communication failed despite strong scientific evidence?",
+      "options": [
+        "The science has been exaggerated by advocates",
+        "People do not care about environmental issues",
+        "Communication has focused on logos while neglecting ethos and pathos",
+        "The information has not reached a wide enough audience"
+      ],
+      "correct": 2,
+      "explanation": "The writer's diagnosis is explicitly rhetorical: 'Most climate communication has focused almost exclusively on logos: here are the facts, here are the projections, here is the evidence. What has been largely absent is a compelling emotional narrative and... credible messengers who speak from shared values.' This maps directly onto the absence of pathos and ethos."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an example of negative adverb inversion?",
+      "options": [
+        "The committee, which had rarely met before, reached a unanimous decision.",
+        "Rarely has a committee reached such a consequential decision so quickly.",
+        "The committee rarely reached decisions of this magnitude.",
+        "Such a decision had rarely been made by any committee."
+      ],
+      "correct": 1,
+      "explanation": "Negative adverb inversion requires the negative adverb ('rarely', 'never', 'not only', etc.) at the start of the sentence, followed by inverted subject-auxiliary order: 'Rarely has [subject] [verb]'. Option A has 'rarely' mid-sentence; Option C has no inversion; Option D is passive but not inverted."
+    },
+    {
+      "id": 3,
+      "question": "What does 'ethos' refer to in Aristotle's rhetorical framework?",
+      "options": [
+        "The emotional resonance of the message",
+        "The logical structure of the argument",
+        "The credibility and character of the speaker",
+        "The ethical values of the audience"
+      ],
+      "correct": 2,
+      "explanation": "Ethos refers to the character, credibility, and trustworthiness of the speaker or writer — why the audience should trust them. Pathos is emotional resonance; logos is logical argument. Ethos can be built through demonstrated expertise, personal experience, or alignment with the audience's values."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence uses the passive voice most appropriately?",
+      "options": [
+        "Someone wrote the original proposal, and someone else revised it later.",
+        "The original proposal was written by an unknown author and subsequently revised.",
+        "They wrote the proposal and then they revised it.",
+        "Writing was done on the proposal and revision was also done."
+      ],
+      "correct": 1,
+      "explanation": "The passive is most appropriate when the agent is unknown or unimportant. In Option B, 'by an unknown author' confirms the agent is genuinely unknown, justifying the passive. The sentence also coordinates the two passive constructions elegantly. Options A and C are active and wordy; Option D is stilted and unidiomatic."
+    },
+    {
+      "id": 5,
+      "question": "The writer says movements like civil rights succeeded because they 'made the desired behaviour feel like an expression of identity rather than a sacrifice.' This is primarily an appeal to:",
+      "options": [
+        "Logos — the rational calculation that the movement's goals were achievable",
+        "Pathos — the emotional resonance of connecting behaviour to self-concept and values",
+        "Ethos — the credibility of civil rights leaders as trustworthy messengers",
+        "Kairos — the right timing of the message for maximum impact"
+      ],
+      "correct": 1,
+      "explanation": "Connecting behaviour to 'identity' is a pathos appeal — it works by making the audience feel that the action is consistent with who they are, which creates emotional investment. This is distinct from a logos argument (which would appeal to rational self-interest or evidence) or ethos (which concerns the speaker's credibility)."
+    }
   ]
 }

@@ -2,236 +2,170 @@
   "id": "lesson-42",
   "unit_id": 7,
   "lesson_number": 4,
-  "title": "Explaining Cause and Effect",
+  "title": "Recipes, Cooking, and Kitchen Vocabulary",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Show relationships between events and outcomes",
-    "Use cause and effect language accurately",
-    "Support explanations with evidence",
-    "Draw logical conclusions from information"
+    "Describe a recipe step by step using clear and accurate kitchen vocabulary",
+    "Identify common cooking verbs and kitchen equipment in English",
+    "Give and follow cooking instructions using imperative and sequence language",
+    "Use gerunds and infinitives after verbs related to cooking actions and preferences"
   ],
-  "target_phrases": [
-    "Because of..., ...",
-    "As a result of...",
-    "This caused...",
-    "Due to...",
-    "Therefore...",
-    "That's why...",
-    "The reason is..."
-  ],
-  "dialogue": {
-    "title": "Discussing a Traffic Problem",
-    "context": "Ahmed and coworkers discuss why they were late to work due to heavy traffic on the highway.",
-    "lines": [
-      {"speaker": "Boss", "text": "Good morning everyone. I noticed several people were late today. What happened?"},
-      {"speaker": "Ahmed", "text": "Sorry we're late. There was terrible traffic on I-5. Because of an accident, all lanes were closed."},
-      {"speaker": "Lisa", "text": "Yes, that accident caused a huge backup. I was stuck for almost an hour."},
-      {"speaker": "Carlos", "text": "I heard on the radio that the accident happened early this morning during rush hour. That's why the traffic was so bad."},
-      {"speaker": "Boss", "text": "I see. Was anyone hurt in the accident?"},
-      {"speaker": "Ahmed", "text": "The news said a truck lost control due to wet roads. As a result, it hit several cars."},
-      {"speaker": "Lisa", "text": "The rain this morning made the roads slippery. Therefore, people should have driven more slowly."},
-      {"speaker": "Carlos", "text": "Exactly. Speeding in the rain is dangerous. This accident was probably preventable."},
-      {"speaker": "Boss", "text": "That's a good point. In the future, if there's bad weather, please leave earlier or let me know if you'll be delayed."},
-      {"speaker": "Ahmed", "text": "That makes sense. Because we all take the same highway, maybe we should carpool on rainy days. That way, if one of us is stuck, at least fewer people are late."},
-      {"speaker": "Lisa", "text": "Great idea! Carpooling would also save money on gas and help the environment."},
-      {"speaker": "Carlos", "text": "Plus, we can use the carpool lane, which moves faster during rush hour. That's a win-win situation."}
+  "reading_passage": {
+    "title": "Cooking from Memory: Somali Food in a New Kitchen",
+    "text": "For many Somali newcomers, cooking traditional food in an American kitchen presents both practical and emotional challenges. The familiar smells of suugo — a slow-cooked tomato and spiced meat sauce — or the rich fragrance of basmati rice cooked with xawaash spice mix can provide powerful comfort during the difficult early months of resettlement.\n\nHowever, the ingredients are not always easy to find, and American kitchens are equipped differently from kitchens back home. A typical American kitchen has an electric or gas stove with four burners, an oven beneath it, a microwave, and counter space for food preparation. Most kitchens include a chopping board, a set of pots and pans of different sizes, a colander for draining pasta or washed vegetables, and measuring cups and spoons for precise quantities.\n\nCooking Somali food in the US often requires substitutions. If you cannot find whole xawaash spices, a blend of cumin, coriander, cardamom, turmeric, and black pepper can approximate the flavour. Suugo can be made with any halal ground meat — lamb, beef, or goat — browned in a pan and then simmered with canned or fresh tomatoes, garlic, and onion.\n\nOrganisations like IRCO run cooking classes for newcomers that introduce American cooking methods and ingredients alongside traditional recipes from participants' home countries. These classes build both culinary skills and community connections — participants often say that sharing a meal they cooked together is one of the best parts of the settlement experience.",
+    "source": "Adapted from IRCO community integration programme documentation and the Somali Kitchen Project, Portland Community College, 2023",
+    "glossary": [
+      {"word": "suugo", "meaning": "a traditional Somali tomato and spiced meat sauce, typically served over pasta or rice"},
+      {"word": "xawaash", "meaning": "a traditional Somali spice blend used in many dishes, typically including cumin, coriander, cardamom, and other aromatics"},
+      {"word": "colander", "meaning": "a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables"},
+      {"word": "simmer", "meaning": "to cook food gently in liquid just below boiling point, allowing flavours to develop over time"},
+      {"word": "substitution", "meaning": "replacing one ingredient with another when the original is unavailable, trying to maintain a similar result"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Showing cause with 'because'",
-      "pattern": "[Effect] because [cause]",
-      "examples": [
-        "I was late because there was traffic.",
-        "She stayed home because she was sick.",
-        "They moved because of better job opportunities.",
-        "We canceled the picnic because it rained.",
-        "He's tired because he didn't sleep well."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what equipment does a typical American kitchen include?",
+      "answer": "A stove with four burners, an oven, a microwave, counter space, a chopping board, pots and pans of different sizes, a colander, and measuring cups and spoons."
     },
     {
-      "id": "drill-2",
-      "focus": "Showing result with 'therefore' and 'as a result'",
-      "pattern": "[Cause]. Therefore/As a result, [effect]",
-      "examples": [
-        "It rained heavily. Therefore, the game was canceled.",
-        "She studied hard. As a result, she passed the test.",
-        "The store closed early. Therefore, we couldn't shop.",
-        "He missed the bus. As a result, he was late.",
-        "The roads were icy. Therefore, schools were closed."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say cooking familiar food can provide 'powerful comfort during difficult early months'?",
+      "answer": "The author implies that food is not just physical nourishment — it carries emotional and cultural meaning. Preparing familiar meals helps newcomers feel connected to their home culture and provides psychological comfort during a challenging period of adjustment."
     },
     {
-      "id": "drill-3",
-      "focus": "Explaining reasons with 'that's why'",
-      "pattern": "[Situation]. That's why [outcome]",
-      "examples": [
-        "The weather was bad. That's why we stayed home.",
-        "She loves animals. That's why she became a vet.",
-        "Gas prices increased. That's why I take the bus now.",
-        "The restaurant was full. That's why we waited an hour.",
-        "He speaks three languages. That's why he got the job."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'simmer' mean in paragraph three?",
+      "answer": "To cook food slowly in liquid over low heat, just below boiling — this method allows flavours from different ingredients to blend and develop gradually."
+    },
+    {
+      "type": "inference",
+      "question": "Why do IRCO cooking classes combine traditional recipes with American cooking methods?",
+      "answer": "To help newcomers learn both new culinary skills relevant to their American environment and to honour their own food traditions — creating a bridge between cultures and building community at the same time."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit7-lesson4-listen1.mp3",
-      "transcript": "Cause and effect relationships are everywhere. A cause is why something happens. An effect is what happens as a result. For example: Cause - It rained for three days. Effect - The river flooded. Understanding cause and effect helps you explain situations, solve problems, and make predictions about what might happen next.",
-      "question": "What is a cause?",
-      "options": [
-        "What happens as a result",
-        "Why something happens",
-        "A prediction",
-        "A solution"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit7-lesson4-listen2.mp3",
-      "transcript": "Common cause words: because, since, due to, because of, as a result of. Common effect words: therefore, so, consequently, as a result, thus. Choose words carefully: 'because' and 'since' are followed by clauses with subjects and verbs. 'Due to' and 'because of' are followed by noun phrases. For example: 'Because it rained' versus 'Due to the rain.'",
-      "question": "What follows 'because'?",
-      "options": [
-        "A noun phrase only",
-        "A clause with subject and verb",
-        "Nothing",
-        "An adjective"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit7-lesson4-listen3.mp3",
-      "transcript": "Multiple causes can lead to one effect, and one cause can have multiple effects. For example: The company failed because of poor management, high costs, and increased competition (multiple causes, one effect). The pandemic caused business closures, job losses, and remote work (one cause, multiple effects). Recognizing complex cause-effect relationships helps you understand real-world situations.",
-      "question": "Can one effect have multiple causes?",
-      "options": [
-        "No, never",
-        "Yes, this is common",
-        "Only in science",
-        "Only in history"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Explain why you made an important decision (moving to a new place, changing jobs, etc.). Use cause and effect language. Record for 30 seconds.",
-      "example": "I decided to move to America because I wanted better opportunities for my family. In my country, jobs were scarce and the economy was struggling. As a result, I couldn't save money or plan for the future. That's why I applied for immigration. The process took three years due to long waiting times. When I finally arrived, I was nervous but hopeful. Because of this move, my children will have access to good education and healthcare. It was a difficult decision, but I believe the long-term effects will be positive for my entire family.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Describe a problem in your community and explain what caused it. Then suggest a solution. Record for 30 seconds.",
-      "example": "In my neighborhood, there's a serious parking problem. Because the apartment building has more residents than parking spaces, people park on the street illegally. This causes conflicts between neighbors. The problem exists because the building was built 40 years ago when fewer people had cars. As a result, they didn't plan for enough parking. Therefore, I think the solution is to rent spaces in a nearby lot or create a parking rotation schedule. If we work together, we can solve this issue peacefully.",
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write about a change in your life. Explain the cause (why it happened) and the effects (what resulted from it). Use cause-effect language. (80-100 words)",
-      "min_words": 80,
-      "example": "Learning English has completely changed my life. I decided to study English because I needed it for work and daily communication in America. This decision required a lot of time and effort. As a result, I had less free time for other activities. However, the positive effects have been enormous. Because I can speak English better now, I got a promotion at work. I've also made American friends, which has helped me understand the culture better. Therefore, my overall quality of life has improved significantly. Due to these positive outcomes, I continue to study English every day. That's why I believe learning a new language is one of the best investments you can make.",
-      "min_words": 80
-    },
-    {
-      "id": "write-2",
-      "prompt": "Choose a current event or social issue. Explain what caused it and what effects it's having. (70-90 words)",
-      "min_words": 70,
-      "example": "Climate change is one of the most serious issues facing the world. It's caused by multiple factors, including burning fossil fuels, deforestation, and industrial pollution. Because of increased carbon emissions, global temperatures are rising. As a result, we're seeing more extreme weather events like hurricanes, droughts, and wildfires. These changes are affecting agriculture, causing crop failures in some regions. Therefore, food prices are increasing. The effects are also visible in ocean levels rising, which threatens coastal cities. That's why many scientists say we need to take immediate action to reduce emissions.",
-      "min_words": 70
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "'Because' and 'Since' for Cause",
-      "explanation": "Use 'because' or 'since' to introduce the reason or cause. Both are followed by subject + verb.",
-      "examples": [
-        "I was late because there was traffic. (cause)",
-        "Since it was raining, we stayed inside. (cause)",
-        "She's tired because she worked all night. (cause)",
-        "Since he's busy, I'll call him later. (cause)"
-      ],
-      "practice": [
-        {"sentence": "I stayed home ___ I was sick.", "blank": "because", "options": ["because", "so", "therefore"]},
-        {"sentence": "___ it's cold, wear a jacket.", "blank": "Since", "options": ["So", "Since", "Therefore"]},
-        {"sentence": "They left early because they ___ tired.", "blank": "were", "options": ["are", "were", "was"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "'So' and 'Therefore' for Effect",
-      "explanation": "Use 'so' or 'therefore' to show result or effect.",
-      "examples": [
-        "It rained, so we canceled the picnic. (effect)",
-        "She studied hard. Therefore, she passed. (effect)",
-        "He was tired, so he went to bed early. (effect)",
-        "The store closed. Therefore, we left. (effect)"
-      ],
-      "practice": [
-        {"sentence": "It was late, ___ we went home.", "blank": "so", "options": ["so", "because", "since"]},
-        {"sentence": "He missed the bus. ___, he was late.", "blank": "Therefore", "options": ["Because", "Since", "Therefore"]},
-        {"sentence": "She's sick, so she ___ go to work.", "blank": "can't", "options": ["can", "can't", "could"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Conditionals for Cause-Effect Predictions",
-      "explanation": "Use 'if...then' to predict cause-effect relationships.",
-      "examples": [
-        "If it rains, the game will be canceled. (prediction)",
-        "If you study, you'll pass the test. (predicted effect)",
-        "If we leave now, we'll arrive on time. (predicted outcome)",
-        "If she's late, we'll start without her. (planned consequence)"
-      ],
-      "practice": [
-        {"sentence": "If it rains, we ___ stay inside.", "blank": "will", "options": ["will", "would", "are"]},
-        {"sentence": "If you ___, you'll be late.", "blank": "don't hurry", "options": ["don't hurry", "hurry", "won't hurry"]},
-        {"sentence": "If he studies, he ___ pass.", "blank": "will", "options": ["will", "would", "can"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "Why were people late to work?", "options": ["They overslept", "Bad weather", "An accident caused traffic", "They got lost"], "correct": 2, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What caused the accident?", "options": ["A truck lost control on wet roads", "Someone was speeding", "Poor visibility", "A tire blowout"], "correct": 0, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What solution does Ahmed suggest?", "options": ["Taking different routes", "Leaving earlier", "Carpooling", "Working from home"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I was late ___ there was traffic.'", "options": ["so", "because", "therefore", "as a result"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "'Because' is followed by a clause with subject and verb.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "One cause can only have one effect.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "It rained. ___, the game was canceled. (showing effect)", "correct": "Therefore", "accept": ["Therefore", "So", "As a result"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "If it rains, we ___ stay inside. (conditional prediction)", "correct": "will", "accept": ["will", "'ll"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the term:", "pairs": [{"left": "Cause", "right": "Why it happened"}, {"left": "Effect", "right": "What resulted"}, {"left": "Because", "right": "Shows cause"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What word shows result or effect?", "options": ["Because", "Since", "Therefore", "Due to"], "correct": 2, "points": 10}
+  "language_focus": {
+    "title": "Sequence Adverbs in Instructions (First, Then, Next, After that, Finally)",
+    "explanation": "When giving a recipe or cooking instructions, we use sequence adverbs to show the order of steps clearly. These adverbs come at the beginning of a sentence and are followed by a comma. Use imperative verbs (base form with no subject) for each instruction step. The sequence should be logical and easy to follow: First... Then... Next... After that... Finally...",
+    "examples": [
+      {
+        "sentence": "First, heat two tablespoons of oil in a large pan over medium heat.",
+        "note": "'First' signals the opening step. Imperative 'heat' gives the direct instruction — no subject needed."
+      },
+      {
+        "sentence": "After that, add the chopped onion and garlic and stir until golden.",
+        "note": "'After that' links to the previous step. 'Add' and 'stir' are imperative forms — clear and direct."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Put these steps in logical order: 'Serve hot. / Simmer for 20 minutes. / Brown the meat in oil. / Add tomatoes and spices.'",
+        "answer": "First, brown the meat in oil. Then, add tomatoes and spices. Next, simmer for 20 minutes. Finally, serve hot."
+      },
+      {
+        "sentence": "Correct the error: 'After that, you should to add the salt.'",
+        "answer": "After that, add the salt. (Use the imperative — 'add' directly, not 'you should to add.')"
+      },
+      {
+        "sentence": "Which is correct for a recipe instruction? A) Firstly you are boiling the water. B) First, bring the water to a boil.",
+        "answer": "B) 'First, bring the water to a boil' is correct — use 'First' followed by an imperative verb. 'Firstly you are boiling' is unnatural in instructions."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "cause", "definition": "reason why something happens", "example": "The cause of the fire was faulty wiring."},
-    {"word": "effect", "definition": "result or consequence", "example": "The effect of the rain was flooding."},
-    {"word": "result", "definition": "outcome or consequence", "example": "As a result, we were late."},
-    {"word": "consequence", "definition": "result of an action", "example": "The consequence of speeding is danger."},
-    {"word": "lead to", "definition": "cause or result in", "example": "Smoking leads to health problems."},
-    {"word": "due to", "definition": "because of; caused by", "example": "Due to rain, we stayed home."},
-    {"word": "outcome", "definition": "final result", "example": "The outcome was positive."},
-    {"word": "impact", "definition": "effect or influence", "example": "The decision had a big impact."},
-    {"word": "influence", "definition": "affect or have effect on", "example": "Weather influences our mood."},
-    {"word": "factor", "definition": "element that contributes to result", "example": "Time is an important factor."}
+  "vocabulary_in_context": [
+    {
+      "word": "simmer",
+      "definition": "To cook food gently in liquid at a temperature just below boiling, allowing flavours to develop over time",
+      "example_sentence": "Suugo can be made with halal ground meat browned in a pan and then simmered with canned or fresh tomatoes, garlic, and onion.",
+      "collocations": ["simmer for 20 minutes", "let it simmer", "simmer on low heat"],
+      "register": "neutral"
+    },
+    {
+      "word": "substitution",
+      "definition": "The act of replacing one ingredient with a different one when the original is not available",
+      "example_sentence": "Cooking Somali food in the US often requires substitutions — if you cannot find whole xawaash spices, a blend of cumin, coriander, and cardamom can approximate the flavour.",
+      "collocations": ["make a substitution", "ingredient substitution", "suitable substitution"],
+      "register": "neutral"
+    },
+    {
+      "word": "colander",
+      "definition": "A bowl-shaped kitchen utensil with perforated holes used to drain liquid from cooked food or to rinse vegetables",
+      "example_sentence": "Most kitchens include a colander for draining pasta or washed vegetables, and measuring cups and spoons for precise quantities.",
+      "collocations": ["drain in a colander", "rinse in a colander", "pasta colander"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "In American business culture, explaining cause and effect clearly is highly valued. It shows logical thinking.",
-    "When explaining why you're late or made a mistake, Americans appreciate taking responsibility rather than making excuses.",
-    "In academic settings, cause-effect analysis is fundamental to science, history, and social studies.",
-    "Americans value problem-solving skills, which require understanding cause-effect relationships.",
-    "News media often use cause-effect language to explain events: 'The storm caused power outages affecting 10,000 homes.'",
-    "In professional writing, using phrases like 'therefore' and 'as a result' makes your arguments more persuasive."
+  "speaking_task": {
+    "type": "presentation",
+    "context": "You are teaching someone a simple recipe from your home culture or from American food that you have learned to cook. The person has never cooked this dish before and has basic kitchen equipment.",
+    "prompt": "Explain how to make a dish step by step. Use sequence adverbs (First, Then, Next, After that, Finally) and imperative verbs for each step. Mention at least three ingredients and two cooking methods (e.g., fry, boil, simmer, bake, stir). Your instructions should be clear enough for someone who has never cooked the dish to follow.",
+    "useful_language": [
+      "First, heat some oil in a large pot over medium heat.",
+      "Next, add the onion and fry until it becomes soft and translucent — about five minutes.",
+      "After that, stir in the spices and cook for one more minute before adding the tomatoes."
+    ],
+    "model_answer": "I'm going to show you how to make a simple suugo. First, heat two tablespoons of oil in a large pan. Then, add one chopped onion and fry it until golden — about five minutes. Next, add 500 grams of ground halal lamb and brown it, breaking it apart as it cooks. After that, add two cans of chopped tomatoes, two cloves of garlic, and a teaspoon of xawaash spice — or a mix of cumin and coriander. Stir everything together and bring it to a boil. Finally, reduce the heat and simmer for 25 to 30 minutes, stirring occasionally. Serve it over rice or pasta. It should taste rich and slightly spicy."
+  },
+  "writing_workshop": {
+    "model_text": "Here is how to make a simple Somali spiced rice. First, wash two cups of basmati rice in cold water and drain it in a colander. Then, heat oil in a large pot and fry one sliced onion until brown. Next, add one teaspoon of xawaash spice and stir for one minute. After that, add the drained rice and four cups of water or chicken broth. Bring everything to a boil. Finally, reduce the heat, cover the pot tightly, and simmer for 18 minutes until the rice is fluffy. Serve hot with stew or grilled chicken. This dish takes about 30 minutes and feeds four people.",
+    "model_analysis": "Notice how the writer uses sequence adverbs at the start of each step, uses imperative verbs throughout (wash, drain, heat, fry, add, stir, bring, reduce, cover, simmer, serve), and includes practical details — measurements, times, and serving size — that make the recipe easy to follow.",
+    "task": "Write a recipe for a simple dish you know how to cook. Include a list of ingredients and at least six clear steps using sequence adverbs and imperative verbs. Add a sentence at the end about how the dish tastes and who it is suitable for.",
+    "success_criteria": [
+      "Use at least five sequence adverbs to organise the steps (First, Then, Next, After that, Finally)",
+      "Use imperative verbs for each cooking instruction (add, stir, heat, simmer, etc.)",
+      "Include specific details: quantities, cooking times, and at least three ingredients"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what can be used as a substitution for xawaash spice?",
+      "options": [
+        "Chilli powder and paprika",
+        "Cumin, coriander, cardamom, turmeric, and black pepper",
+        "Salt, pepper, and garlic powder only",
+        "Curry powder from a supermarket"
+      ],
+      "correct": 1,
+      "explanation": "The passage says: 'a blend of cumin, coriander, cardamom, turmeric, and black pepper can approximate the flavour' of xawaash."
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say IRCO cooking classes help participants achieve?",
+      "options": [
+        "Earn qualifications in professional cooking",
+        "Prepare food for sale at farmers' markets",
+        "Build culinary skills and community connections",
+        "Learn to cook only American food"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'These classes build both culinary skills and community connections — participants often say that sharing a meal they cooked together is one of the best parts of the settlement experience.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence gives a correct recipe instruction using a sequence adverb and imperative?",
+      "options": [
+        "Firstly you are adding the tomatoes.",
+        "First, add the tomatoes and stir well.",
+        "You should to add the tomatoes first.",
+        "The tomatoes are added first."
+      ],
+      "correct": 1,
+      "explanation": "'First, add the tomatoes and stir well' is correct — it uses the sequence adverb 'First' followed by imperative verbs 'add' and 'stir.'"
+    },
+    {
+      "id": 4,
+      "question": "What is a colander used for, according to the passage?",
+      "options": [
+        "Measuring ingredients precisely",
+        "Draining liquid from food such as pasta or washed vegetables",
+        "Mixing and blending ingredients together",
+        "Storing dry spices in the kitchen"
+      ],
+      "correct": 1,
+      "explanation": "The passage describes a colander as 'a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables.'"
+    }
   ]
 }

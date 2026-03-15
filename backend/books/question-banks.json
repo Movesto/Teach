@@ -1845,7 +1845,9 @@
           "Jacob"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Jonas is the twelve-year-old protagonist. The entire narrative follows his journey from selection as Receiver of Memory through his escape from the Community."
       },
       {
         "id": "b9-q2",
@@ -1859,7 +1861,9 @@
           "16"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Children receive their life Assignments at age twelve during the annual December Ceremony."
       },
       {
         "id": "b9-q3",
@@ -1873,7 +1877,9 @@
           "A type of food"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "\"Sameness\" is the Community's governing ideology: weather, colour, choice, and emotion have all been eliminated to prevent conflict and pain, producing a superficially uniform society."
       },
       {
         "id": "b9-q4",
@@ -1887,7 +1893,9 @@
           "Jonas's older brother"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Gabriel is a baby Nurturer-cared-for infant. His scheduled Release is the direct catalyst for Jonas's escape plan."
       },
       {
         "id": "b9-q5",
@@ -1901,7 +1909,9 @@
           "Historical fiction"
         ],
         "correct": 2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The Giver is dystopian fiction — it depicts a seemingly perfect society that conceals authoritarian control and the suppression of authentic human experience."
       },
       {
         "id": "b9-q6",
@@ -1915,7 +1925,9 @@
           "The community votes on new rules"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "At each December Ceremony, the Committee of Elders publicly assigns twelve-year-olds their life roles based on years of quiet observation."
       },
       {
         "id": "b9-q7",
@@ -1929,7 +1941,9 @@
           "He lost a friend"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Jonas's apprehension is rooted in uncertainty about his Assignment, not guilt. He fears receiving something unsuited to his nature — foreshadowing his extraordinary selection."
       },
       {
         "id": "b9-q8",
@@ -1943,7 +1957,9 @@
           "Only language"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Climate Control eliminated weather variation as part of Sameness. Removing environmental unpredictability was part of the Community's broader project of total order."
       },
       {
         "id": "b9-q9",
@@ -1957,7 +1973,9 @@
           "The citizens debate this constantly"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "The Community's unquestioning belief in its own perfection is the novel's central irony — citizens cannot evaluate their society because they have no memories of any alternative way of living."
       },
       {
         "id": "b9-q10",
@@ -1971,7 +1989,9 @@
           "Pilot"
         ],
         "correct": 2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Receiver of Memory is the Community's rarest role. The Receiver holds all human memories so citizens need not bear the weight of the past, and advises the Elders on unprecedented situations."
       },
       {
         "id": "b9-q11",
@@ -1985,7 +2005,9 @@
           "War"
         ],
         "correct": 0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Snow and sledding is Jonas's first transmitted memory — a joyful experience made impossible by climate control. The cold, powdery sensation is the first crack in Jonas's conditioned world."
       },
       {
         "id": "b9-q12",
@@ -1999,7 +2021,9 @@
           "Other people's feelings directly"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The ability to perceive colour is called \"seeing beyond.\" The Community eliminated colour as part of Sameness; Jonas's perception of it marks him as different and symbolises his growing awareness."
       },
       {
         "id": "b9-q13",
@@ -2013,7 +2037,9 @@
           "He trains all the children"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "All memories of human experience — history, emotion, beauty, suffering — reside solely in the Receiver. The Elders consult him when situations arise beyond the Community's experience."
       },
       {
         "id": "b9-q14",
@@ -2027,7 +2053,9 @@
           "Through books"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The Giver places his hands on Jonas's bare back to channel memories physically. The bodily intimacy of transmission contrasts sharply with the emotional distance the Community normally enforces."
       },
       {
         "id": "b9-q15",
@@ -2041,7 +2069,9 @@
           "She escaped to Elsewhere"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Rosemary requested Release after receiving memories of suffering she could not endure. Her death temporarily flooded the Community with released memories, exposing the fragility of the entire system."
       },
       {
         "id": "b9-q16",
@@ -2055,7 +2085,9 @@
           "He gets better food"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The Receiver's unique right to lie — a freedom no other citizen has — signals that the Community's order depends on one person knowing truths the rest are never permitted to learn. This privilege is also a profound isolation."
       },
       {
         "id": "b9-q17",
@@ -2069,7 +2101,9 @@
           "Technology and the future"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The novel's central argument is that a fully human life requires choice, memory, and the capacity for both joy and suffering. Eliminating these to prevent pain does not create a good society — it creates an empty one."
       },
       {
         "id": "b9-q18",
@@ -2083,7 +2117,9 @@
           "Wisdom from books"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Transmitted memories are fully embodied: Jonas feels cold, sees colour, smells food, and experiences emotion as if living the memory himself — not viewing it from outside."
       },
       {
         "id": "b9-q19",
@@ -2097,7 +2133,9 @@
           "He forgets his memories"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "The pills suppress \"stirrings\" — emotional and romantic feelings. Stopping them allows Jonas to feel more deeply, reinforcing Lowry's argument that suppressing emotion suppresses humanity."
       },
       {
         "id": "b9-q20",
@@ -2111,7 +2149,9 @@
           "A memory of starvation"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The war memory — a dying soldier on a battlefield — is Jonas's first encounter with human violence and death. It shatters his Community-conditioned innocence and confronts him with the cost of conflict."
       },
       {
         "id": "b9-q21",
@@ -2125,7 +2165,9 @@
           "That love means following community rules"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The Christmas memory introduces Jonas to love as a present, embodied warmth — grandparents, giving, closeness. His parents' dismissal of \"love\" as too imprecise reveals the emotional poverty of a society that has edited out the word's meaning."
       },
       {
         "id": "b9-q22",
@@ -2139,7 +2181,9 @@
           "His father is not his biological father"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Watching his father calmly inject a newborn with lethal medication while speaking cheerfully forces Jonas to understand that Release is murder — and that his father's ease with it reveals how thoroughly the Community has normalised killing."
       },
       {
         "id": "b9-q23",
@@ -2153,7 +2197,9 @@
           "That Release means retirement to a comfortable place"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "\"Release\" is the Community's euphemism for death by injection. The pleasant-sounding term conceals its true meaning, illustrating how controlled language prevents citizens from understanding or resisting what is done to them."
       },
       {
         "id": "b9-q24",
@@ -2167,7 +2213,9 @@
           "Something unimportant that was wisely removed"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "Colour represents individual difference, beauty, and the richness of lived experience. Eliminating it was part of Sameness — its absence symbolises everything humanity sacrificed for the illusion of order."
       },
       {
         "id": "b9-q25",
@@ -2181,7 +2229,9 @@
           "It is only used to teach young children"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Lowry uses the Community's \"precision of language\" rule to show that restricting vocabulary restricts thought. Citizens who lack words for freedom, love, or beauty cannot imagine or desire them — making resistance literally unthinkable."
       },
       {
         "id": "b9-q26",
@@ -2195,7 +2245,9 @@
           "Report the Giver to the Elders for breaking rules"
         ],
         "correct": 2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Jonas plans to escape before Gabriel is Released. His departure will also cause the Giver's accumulated memories to return to the Community population, flooding them with emotions they have never known."
       },
       {
         "id": "b9-q27",
@@ -2209,7 +2261,9 @@
           "Gabriel knows the way to Elsewhere"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Jonas cannot allow a baby he loves to be killed by the system he is escaping. This act of self-sacrifice demonstrates his moral transformation from passive recipient to an agent who acts on principle."
       },
       {
         "id": "b9-q28",
@@ -2223,7 +2277,9 @@
           "They are deleted by the Elders"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "A Receiver who leaves the Community releases all transmitted memories back to the population. Jonas's escape will force every citizen to experience the emotions and history they surrendered — a potentially destabilising confrontation with reality."
       },
       {
         "id": "b9-q29",
@@ -2237,7 +2293,9 @@
           "We do not know who the Giver really is"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The ambiguous ending — lights and music that could be salvation or dying hallucination — makes readers active participants. Lowry refuses to resolve the question of whether choosing freedom guarantees survival, only that the choice matters."
       },
       {
         "id": "b9-q30",
@@ -2251,7 +2309,9 @@
           "The joy of travel and adventure"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Jonas's escape enacts the novel's central argument: freedom with risk is more fully human than security without choice. He chooses the unknown, the painful, and the free over the controlled, predictable, and empty."
       },
       {
         "id": "b9-q31",
@@ -2265,7 +2325,9 @@
           "Only visual memories transfer"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "During their escape Jonas discovers he can transmit warmth and calm to Gabriel, comforting the baby and keeping him quiet during searches. This confirms Jonas has genuinely inherited the Receiver's capacity."
       },
       {
         "id": "b9-q32",
@@ -2279,7 +2341,9 @@
           "Another version of the community"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "\"Elsewhere\" represents the uncontrolled world beyond the Community's reach — a place of authentic human experience. To the Community it is vague and threatening; to Jonas it represents the freedom worth any risk."
       },
       {
         "id": "b9-q33",
@@ -2293,7 +2357,9 @@
           "Loneliness"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The Christmas memory is the first time Jonas experiences love as a present, felt reality: grandparents, warmth, giving. It makes concrete what his Community's language can name but not access."
       },
       {
         "id": "b9-q34",
@@ -2307,7 +2373,9 @@
           "Pain is removed once you are truly free"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The novel consistently links freedom to the acceptance of pain and consequence. The Community eliminated suffering by eliminating choice — but in doing so eliminated meaning. Jonas's willingness to accept pain is his acceptance of full humanity."
       },
       {
         "id": "b9-q35",
@@ -2321,7 +2389,9 @@
           "The publisher cut the real ending"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "An ambiguous ending places the reader in Jonas's position: we must decide whether to interpret the lights and music as arrival or death. This enacts the novel's core question — does the choice of freedom matter even without a guaranteed outcome?"
       },
       {
         "id": "b9-q36",
@@ -2335,65 +2405,75 @@
           "Jonas himself who gives memories back to the community"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The title refers to the old Receiver — the Giver — who transmits all stored human memories to Jonas. Without his gift, Jonas could not understand what the Community has suppressed, or find the courage to escape."
       }
     ],
     "writing_prompts": [
       {
         "id": "b9-wp1",
         "chapter_id": "b9-ch1",
-        "prompt": "In Jonas's community, everyone has the same life with no real choices. Write a paragraph (150-300 words) discussing whether you would prefer a society with no choices but no pain, or one with full freedom but also suffering. Explain your reasons.",
+        "prompt": "Lowry presents Jonas's Community as a society that sacrificed freedom for safety. Compare the advantages and disadvantages of this trade-off. What does the novel suggest is lost when a society eliminates individual choice? Use specific evidence from the text.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp2",
         "chapter_id": "b9-ch2",
-        "prompt": "Jonas begins to see colors that others cannot. Write a paragraph (150-300 words) about something beautiful in your own life that other people might not notice. How does it make you feel? Why is it important to you?",
+        "prompt": "Jonas begins to see colour while others remain blind to it. How does Lowry use colour as a symbol in the novel? Explain what Jonas's perception of colour represents about his growing awareness of what the Community has taken away.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp3",
         "chapter_id": "b9-ch3",
-        "prompt": "Jonas discovers that Release means death and that his community hides this truth. Write a paragraph (150-300 words) explaining whether you think it is ever acceptable to hide a difficult truth from people. Give reasons and an example.",
+        "prompt": "Jonas discovers that \"Release\" is a euphemism for death. Analyse how the Community uses language to control what citizens understand and feel. Identify at least two examples from the novel where language is used to hide or distort reality.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp4",
         "chapter_id": "b9-ch4",
-        "prompt": "Jonas makes a brave but dangerous choice to escape. Write a paragraph (150-300 words) about the most important choice you have ever made in your life. What made it difficult? Are you glad you made it?",
+        "prompt": "The ending of The Giver is deliberately ambiguous. Analyse what the final scene — the lights, music, and sled — might represent. Is Jonas's escape hopeful, tragic, or both? Support your interpretation with evidence from the novel.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp5",
         "chapter_id": "b9-ch3",
-        "prompt": "The Giver shows Jonas both beautiful memories and terrible ones. Write a paragraph (150-300 words) explaining why both kinds of memories are important to being human. Can you truly appreciate happiness without also knowing pain?",
+        "prompt": "The Giver transmits both beautiful and painful memories to Jonas. Explain why the novel argues that both types of memory are essential to being fully human. How does this challenge the Community's philosophy of Sameness?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp6",
         "chapter_id": "b9-ch4",
-        "prompt": "Jonas must leave his family and everything he knows to save Gabriel and be free. Write a paragraph (150-300 words) about what you would be willing to give up to do the right thing. Is there a time when doing what is right cost you something important?",
+        "prompt": "Jonas leaves his family and friends to save Gabriel and escape the Community. Evaluate this decision: what does it reveal about Jonas's values? How has his character changed over the course of the novel?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp7",
         "chapter_id": "b9-ch2",
-        "prompt": "Jonas's community removed all pain and difference to create Sameness. Write a paragraph (150-300 words) arguing why diversity and individual differences make a society stronger, even if they sometimes cause conflict.",
+        "prompt": "The Community was built on the belief that diversity and individual difference cause suffering. Write an analytical response arguing whether this belief is correct, using at least two specific examples from the novel to support your argument.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b9-wp8",
         "chapter_id": "b9-ch1",
-        "prompt": "Jonas lives in a community with strict rules and no real freedom of choice. Write a paragraph (150-300 words) describing the freedoms that are most important in your own life. What would you miss most if they were taken away?",
+        "prompt": "Analyse the Giver's role in the novel beyond simply training Jonas. What does his relationship with Jonas reveal about the burden of knowledge and the loneliness of being the only person who truly understands the Community's hidden history?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       }
     ]
   },
@@ -2445,7 +2525,9 @@
           "A play with dialogue"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The Color Purple is an epistolary novel — told entirely through letters. This format is central to its themes: Celie's letters are her only private space, her only voice, in a world that silences her."
       },
       {
         "id": "b11-q2",
@@ -2459,7 +2541,9 @@
           "Her friend Shug"
         ],
         "correct": 2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Celie addresses her early letters to God because she has been told to keep her abuse secret from everyone — God is her only available confidant, reflecting her complete social isolation."
       },
       {
         "id": "b11-q3",
@@ -2473,7 +2557,9 @@
           "He sends them to school far away"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Celie's stepfather gives her children away and tells her they died, cutting off even the consolation of knowing they exist. This lie is later revealed when Nettie's letters disclose their fate."
       },
       {
         "id": "b11-q4",
@@ -2487,7 +2573,9 @@
           "A loving father"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Mister (Albert) is abusive, controlling, and violent. He treats Celie as free domestic labour and sexual property, reflecting the intersecting oppressions of gender and race in the early 20th-century American South."
       },
       {
         "id": "b11-q5",
@@ -2501,7 +2589,9 @@
           "Shug Avery's friend"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Nettie is Celie's younger sister and the person Celie loves most. Celie endured her marriage to Mister partly to protect Nettie from their stepfather's advances."
       },
       {
         "id": "b11-q6",
@@ -2515,7 +2605,9 @@
           "Her teacher told her to"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Celie writes to God because her abuser has ordered her to tell nobody. Writing to God is both an act of survival and an act of defiance — a way of asserting that her experience deserves to be witnessed, even if only by the divine."
       },
       {
         "id": "b11-q7",
@@ -2529,7 +2621,9 @@
           "A small town in Texas during the 1980s"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The novel is set in the rural American South in the early 20th century — a specific historical context of racial segregation, sharecropping poverty, and patriarchal violence that shapes every constraint Celie faces."
       },
       {
         "id": "b11-q8",
@@ -2543,7 +2637,9 @@
           "A woman with many friends and support"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Celie embodies the double oppression Alice Walker's novel examines: she is silenced both as a Black woman in a racist society and as a woman subjected to male violence within her own community."
       },
       {
         "id": "b11-q9",
@@ -2557,7 +2653,9 @@
           "Illness"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "The novel opens with Celie experiencing repeated sexual abuse by the man she believes is her father. Walker places this before the reader without flinching, insisting that Celie's story — usually silenced — be told."
       },
       {
         "id": "b11-q10",
@@ -2571,7 +2669,9 @@
           "Nettie's teacher"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Shug Avery is a celebrated blues singer, Mister's longstanding love, and eventually Celie's closest friend. Her worldliness, confidence, and capacity for love become the transformative force in Celie's life."
       },
       {
         "id": "b11-q11",
@@ -2585,7 +2685,9 @@
           "His childhood diary"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Mister has intercepted and hidden all of Nettie's letters for years — an act of calculated cruelty designed to keep Celie isolated and without hope. Their discovery is the turning point of the novel."
       },
       {
         "id": "b11-q12",
@@ -2599,7 +2701,9 @@
           "England"
         ],
         "correct": 2,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Nettie is working as a Christian missionary in Africa with the Olinka people. Her letters introduce the novel's parallel narrative and a broader perspective on Black identity and the legacy of colonialism."
       },
       {
         "id": "b11-q13",
@@ -2613,7 +2717,9 @@
           "She teaches Celie to cook"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Shug mirrors back to Celie a vision of herself as worthy of love and capable of desire. Through care, physical affection, and intellectual challenge, she dismantles the self-erasure Celie's abuse taught her."
       },
       {
         "id": "b11-q14",
@@ -2627,7 +2733,9 @@
           "A political argument about the US government"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Nettie's African letters situate Celie's story within a wider context of Black identity and colonial exploitation, showing that the oppression Celie faces in Georgia is part of a larger global pattern."
       },
       {
         "id": "b11-q15",
@@ -2641,7 +2749,9 @@
           "That church is the only way to find God"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Shug's theology — God as present in all life and love rather than an authoritative figure in a book — liberates Celie from a conception of God aligned with patriarchal authority, allowing her to develop a spirituality rooted in joy and beauty."
       },
       {
         "id": "b11-q16",
@@ -2655,7 +2765,9 @@
           "His jealousy of Nettie"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Mister hiding the letters is a deliberate act of epistemic control: by keeping Celie ignorant of Nettie's existence and love, he maintains her isolation and removes the hope that might fuel resistance."
       },
       {
         "id": "b11-q17",
@@ -2669,7 +2781,9 @@
           "Only Nettie's letters matter to the story"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The epistolary form makes character development visible: Celie's changing voice — her syntax, confidence, and emotional range — across decades of letters is itself the story of her transformation from silenced victim to self-determined woman."
       },
       {
         "id": "b11-q18",
@@ -2683,7 +2797,9 @@
           "A mother-daughter bond"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The relationship between Shug and Celie is the novel's central argument for female solidarity: women supporting, loving, and healing each other across difference is presented as the most reliable source of strength."
       },
       {
         "id": "b11-q19",
@@ -2697,7 +2813,9 @@
           "A school"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Celie starts a business designing and sewing pants. The business gives her financial independence and a creative identity — both essential to her liberation from Mister's household."
       },
       {
         "id": "b11-q20",
@@ -2711,7 +2829,9 @@
           "She stops writing entirely"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Celie's early letters are fragmentary, minimised, and written in dialect as if she barely dares to claim space. As she grows, her prose becomes more confident, assertive, and expansive — her language enacts her liberation."
       },
       {
         "id": "b11-q21",
@@ -2725,7 +2845,9 @@
           "Sorrow and pain"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "In Shug's theology, the colour purple in a field is an example of God's beauty that demands to be noticed. By extension it represents joy, sensory richness, and the experience of life that Celie is finally learning to claim for herself."
       },
       {
         "id": "b11-q22",
@@ -2739,7 +2861,9 @@
           "She burns down his house"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "At a significant dinner, Celie confronts Mister directly and leaves his household — the most visible act of independence in the novel. It marks her transformation from passive endurance to active self-determination."
       },
       {
         "id": "b11-q23",
@@ -2753,7 +2877,9 @@
           "That men will always be more powerful than women"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Celie's arc argues against fatalism: even someone subjected to years of intersecting oppressions can find her voice, reclaim her dignity, and build a self through connection, creativity, and love — though the conditions must be right."
       },
       {
         "id": "b11-q24",
@@ -2767,7 +2893,9 @@
           "She forgives him and they remarry"
         ],
         "correct": 2,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Mister undergoes a genuine transformation after Celie's departure — he becomes reflective, starts sewing alongside Celie, and eventually shows respect for her. Walker presents this change as possible but not required for Celie's healing."
       },
       {
         "id": "b11-q25",
@@ -2781,7 +2909,9 @@
           "A competition for men's attention"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "Walker's novel consistently shows that women's relationships with each other — Celie and Nettie, Celie and Shug, even Celie and Sofia — are the primary sources of survival, healing, and strength."
       },
       {
         "id": "b11-q26",
@@ -2795,7 +2925,9 @@
           "Shug Avery's family"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Nettie returns from Africa with Celie's children (and their husbands and children) after many years. This reunion is the emotional culmination of the entire novel."
       },
       {
         "id": "b11-q27",
@@ -2809,7 +2941,9 @@
           "He is still abusive"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "By the final chapters Mister has grown quieter, more humble, and more reflective. He helps make Nettie's return possible and treats Celie with respect — a transformation Walker presents as genuine but carefully earned."
       },
       {
         "id": "b11-q28",
@@ -2823,7 +2957,9 @@
           "That happiness is only possible in Africa"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The novel's ending argues that resilience is not solitary endurance but a communal achievement: Celie's healing required love (Nettie, Shug), creative work (the pants business), and the gradual restoration of family bonds."
       },
       {
         "id": "b11-q29",
@@ -2837,7 +2973,9 @@
           "Writing to God was always a mistake"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "When Celie begins addressing letters to Nettie instead of God, it signals that she has grown into someone who believes her voice deserves a human audience — that she is worthy of real connection, not just divine witness."
       },
       {
         "id": "b11-q30",
@@ -2851,7 +2989,9 @@
           "That leaving America is the only path to freedom"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Walker's novel is explicitly centred on a Black woman's inner life, joy, and voice — categories historically marginalised by both mainstream American culture and certain strands of Civil Rights discourse focused on public, male experience."
       },
       {
         "id": "b11-q31",
@@ -2865,7 +3005,9 @@
           "It is just a hobby with no deeper meaning"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The pants business provides financial independence but also creative agency: Celie designs something new, something of her own. Walker also plays on the gendered symbolism of trousers — Celie is constructing her own gendered identity."
       },
       {
         "id": "b11-q32",
@@ -2879,7 +3021,9 @@
           "It ignores the theme of forgiveness"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Walker presents a nuanced position: Mister changes and Celie can coexist with him respectfully, but there is no requirement to forgive in the sense of pretending abuse did not happen. Healing and forgiveness are separable."
       },
       {
         "id": "b11-q33",
@@ -2893,7 +3037,9 @@
           "A political statement about Africa"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The reunion is the novel's affirmation that cruelty does not always succeed: Mister tried to keep Celie and Nettie apart forever. Their reunion is Walker's argument that love and family bonds, carefully tended, can survive even deliberate destruction."
       },
       {
         "id": "b11-q34",
@@ -2907,7 +3053,9 @@
           "It was written in the 1960s during the Civil Rights Movement"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The Color Purple is significant for centring Black women's inner lives, sexuality, and voices — a combination rarely seen in American literary fiction. Its Pulitzer Prize (1983) acknowledged this as a major contribution to the canon."
       },
       {
         "id": "b11-q35",
@@ -2921,7 +3069,9 @@
           "Celie is not sustained by Nettie at all"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "character",
+        "explanation": "Celie's love for Nettie is present on the first page and the last. The possibility — even without proof — that Nettie is alive gives Celie something to hold onto through decades of abuse and isolation."
       },
       {
         "id": "b11-q36",
@@ -2935,65 +3085,75 @@
           "The National Book Award"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The Color Purple won the Pulitzer Prize for Fiction in 1983, the same year it won the National Book Award — recognition of its artistic achievement in giving voice to experiences that had been historically excluded from American literary culture."
       }
     ],
     "writing_prompts": [
       {
         "id": "b11-wp1",
         "chapter_id": "b11-ch1",
-        "prompt": "Celie writes letters to God when she has no one else to talk to. Write a paragraph (150-300 words) about a time you felt alone or misunderstood. Who or what helped you through that difficult time?",
+        "prompt": "Celie begins the novel writing to God because she has been told to keep silent. Analyse what this choice of addressee reveals about Celie's isolation and how the act of writing functions as a form of survival or resistance. Use evidence from the text.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp2",
         "chapter_id": "b11-ch2",
-        "prompt": "Shug Avery helps Celie discover her own strength and self-worth. Write a paragraph (150-300 words) about a person in your life who helped you believe in yourself. What did they do? How did it change you?",
+        "prompt": "Shug Avery helps Celie recognise her own worth. Explain how Walker uses the relationship between Shug and Celie to explore the theme of female solidarity. What does Shug give Celie that no other character in the novel provides?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp3",
         "chapter_id": "b11-ch3",
-        "prompt": "Celie starts a business making pants and gains independence. Write a paragraph (150-300 words) about a skill or talent you have that could help you be independent. How would you use it?",
+        "prompt": "Celie's pants business represents more than financial independence. Analyse what it symbolises about her journey toward self-determination. Why does Walker choose this particular business rather than any other form of work?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp4",
         "chapter_id": "b11-ch4",
-        "prompt": "At the end of the novel, Celie is reunited with her sister after many years. Write a paragraph (150-300 words) about someone you have been separated from and missed. What would you say to them if you were reunited?",
+        "prompt": "At the end of the novel Celie is reunited with Nettie after decades of separation caused by Mister's cruelty. What does this reunion represent thematically? What does it suggest about the relationship between love, survival, and the power of human connection?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp5",
         "chapter_id": "b11-ch1",
-        "prompt": "Celie is silenced by the people around her for most of her early life. Write a paragraph (150-300 words) about why you think it is important for people to have a voice — to be heard. What happens when people cannot speak for themselves?",
+        "prompt": "Celie is silenced throughout her early life. Explain how Walker uses the epistolary form — letters — to give Celie a voice. How does the evolution of Celie's writing style across the novel reflect her transformation?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp6",
         "chapter_id": "b11-ch3",
-        "prompt": "Mister changes from an abuser into a more humble person by the end of the novel. Write a paragraph (150-300 words) about whether you think people can truly change. What conditions make change possible?",
+        "prompt": "By the novel's end, Mister has changed significantly. Evaluate Walker's decision to include his transformation. Does it make the novel more or less honest about the reality of abuse and oppression? Support your argument with textual evidence.",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp7",
         "chapter_id": "b11-ch2",
-        "prompt": "Shug teaches Celie to see God in a new way — as something present in nature and love, not an old man in a book. Write a paragraph (150-300 words) about your own ideas about spirituality or what gives life meaning.",
+        "prompt": "Shug teaches Celie to see God in nature, beauty, and love rather than as a patriarchal figure. Explain how this shift in Celie's spirituality connects to her broader liberation. What does it suggest about the relationship between conventional religion and women's freedom in the novel?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       },
       {
         "id": "b11-wp8",
         "chapter_id": "b11-ch4",
-        "prompt": "The Color Purple ends with hope and reunion after great suffering. Write a paragraph (150-300 words) about a difficult experience in your life that eventually led to something positive. What did you learn from it?",
+        "prompt": "Alice Walker describes her novel as centrally concerned with Black women's inner lives. Analyse how the novel achieves this. What specific techniques — form, voice, theme — does Walker use to make Celie's interiority central rather than peripheral?",
         "word_count_min": 150,
-        "word_count_max": 300
+        "word_count_max": 300,
+        "word_count": "120-160"
       }
     ]
   },
@@ -3045,7 +3205,9 @@
           "Daisy Buchanan"
         ],
         "correct": 2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Nick Carraway narrates from a retrospective position, colouring every event with his eventual moral judgment. His Midwestern values and outsider perspective make him a uniquely positioned — if not entirely reliable — observer."
       },
       {
         "id": "b14-q2",
@@ -3059,7 +3221,9 @@
           "Chicago"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Nick rents a modest house in West Egg, next door to Gatsby's mansion. His position between old money (his cousin Daisy) and new money (Gatsby) gives him access to both worlds."
       },
       {
         "id": "b14-q3",
@@ -3073,7 +3237,9 @@
           "West Egg is where old money lives"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "The geographic division enacts the novel's class critique: old money (inherited wealth, established families) occupies East Egg; new money (recently acquired, regardless of origin) occupies West Egg. The social gulf between them is uncrossable for Gatsby."
       },
       {
         "id": "b14-q4",
@@ -3087,7 +3253,9 @@
           "Environmental themes in the novel"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The green light at the end of Daisy's dock is the novel's most resonant symbol: Gatsby's reaching toward it enacts all human longing for an unattainable ideal. At the novel's end it broadens to represent the American Dream itself."
       },
       {
         "id": "b14-q5",
@@ -3101,7 +3269,9 @@
           "Warm and welcoming to Nick"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Tom represents the moral vacancy of inherited wealth. His racism (he reads books about white Nordic supremacy), his infidelity, and his casual violence against those beneath him socially establish him as the novel's most straightforwardly corrupt figure."
       },
       {
         "id": "b14-q6",
@@ -3115,7 +3285,9 @@
           "Athletic and outdoorsy"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Nick's famous description of Daisy's voice as \"full of money\" is one of the novel's most precise metaphors — it captures the way her appeal is inseparable from what she represents: old money, belonging, and the promise of a class Gatsby can never truly enter."
       },
       {
         "id": "b14-q7",
@@ -3129,7 +3301,9 @@
           "Religious celebration"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Gatsby's parties are a precise image of Jazz Age excess: vast, spectacular, full of strangers who enjoy his hospitality without knowing him. They enact the novel's critique — abundance without meaning, spectacle without community, celebration without joy."
       },
       {
         "id": "b14-q8",
@@ -3143,7 +3317,9 @@
           "Gatsby's business partner"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Jordan Baker is a professional golfer — a measure of social freedom unusual for women of the period — and Nick's brief romantic interest. Her dishonesty (she is revealed to have cheated in a tournament) mirrors the broader moral carelessness of East Egg society."
       },
       {
         "id": "b14-q9",
@@ -3157,7 +3333,9 @@
           "A cemetery"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The Valley of Ashes is the industrial wasteland between West Egg and New York where the poor — including the Wilsons — live surrounded by ash and poverty. It symbolises what the glittering world of the Eggs is built on: exploitation and moral decay."
       },
       {
         "id": "b14-q10",
@@ -3171,7 +3349,9 @@
           "Advertising in the 1920s"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The faded billboard eyes of Doctor Eckleburg are the novel's most discussed symbol. They watch over the Valley of Ashes — the scene of the novel's tragedy — suggesting the collapse of divine oversight in a society that has replaced God with consumerism."
       },
       {
         "id": "b14-q11",
@@ -3185,7 +3365,9 @@
           "He performs as an entertainer"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Gatsby's detachment at his own parties — standing apart, watching, not drinking — reveals the performative nature of the spectacle. The parties are not for enjoyment but to create a context in which Daisy might appear."
       },
       {
         "id": "b14-q12",
@@ -3199,7 +3381,9 @@
           "To celebrate his bootlegging success"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Every element of Gatsby's public life — the mansion, the parties, the invented persona — exists for a single private purpose: to attract Daisy's attention and recreate the love affair she ended five years earlier."
       },
       {
         "id": "b14-q13",
@@ -3213,7 +3397,9 @@
           "Deliver a letter to Tom Buchanan"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Gatsby asks Nick to arrange an informal meeting with Daisy at Nick's house. This request reveals both Gatsby's obsession and his awkwardness with direct pursuit — he must engineer an accidental encounter."
       },
       {
         "id": "b14-q14",
@@ -3227,7 +3413,9 @@
           "10 years"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Gatsby and Daisy's relationship was five years ago, before the war. Gatsby's entire post-war life has been shaped by the project of recreating that past — which Nick famously tells him cannot be done."
       },
       {
         "id": "b14-q15",
@@ -3241,7 +3429,9 @@
           "His British education"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The shirt scene is both comic and poignant: Gatsby throws expensive shirts before Daisy as proof of what he has achieved for her sake. Daisy's tears reveal that the shirts move her — but the reader understands they represent everything Gatsby misunderstands about what she values."
       },
       {
         "id": "b14-q16",
@@ -3255,7 +3445,9 @@
           "He considers Gatsby a close friend"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Tom's contempt for Gatsby is rooted in class anxiety: he suspects Gatsby's wealth is illegitimate and finds his social climbing offensive. His exposure of Gatsby at the Plaza Hotel is an act of class protection as much as marital jealousy."
       },
       {
         "id": "b14-q17",
@@ -3269,7 +3461,9 @@
           "Nick's neighbor"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Myrtle Wilson is Tom's working-class mistress, married to a garage mechanic in the Valley of Ashes. Her aspirations to Tom's world — and his willingness to use her — make her another victim of the careless wealthy."
       },
       {
         "id": "b14-q18",
@@ -3283,7 +3477,9 @@
           "Nick is the most materialistic character"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Nick presents himself as uniquely honest — his father told him to withhold judgment. But Nick enables Gatsby's obsession, facilitates the affair, and remains friends with people whose actions destroy lives. The novel subtly questions his moral authority."
       },
       {
         "id": "b14-q19",
@@ -3297,7 +3493,9 @@
           "A positive vision that the novel celebrates"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The American Dream in Fitzgerald's hands is a tragic illusion: the promise that reinvention and wealth can buy belonging and love. Gatsby achieves material reinvention but cannot purchase the acceptance of old money, and the woman he chases turns out to be unworthy of his faith."
       },
       {
         "id": "b14-q20",
@@ -3311,7 +3509,9 @@
           "It shows his love of architecture"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Gatsby's mansion is enormous, spectacular, and empty of genuine human warmth. Like Gatsby's invented persona — \"Jay Gatsby\" rather than James Gatz — it is a magnificent exterior concealing nothing of substance inside."
       },
       {
         "id": "b14-q21",
@@ -3325,7 +3525,9 @@
           "He won it gambling"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Gatsby's wealth comes primarily from bootlegging during Prohibition — illegal alcohol sales operated through a network of drug stores. This criminal foundation undermines his self-presentation as a self-made man of the American Dream."
       },
       {
         "id": "b14-q22",
@@ -3339,7 +3541,9 @@
           "George Gatsby"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Gatsby was born James Gatz, son of unsuccessful farm people in North Dakota. He invented the name and persona of \"Jay Gatsby\" as a teenager, dreaming of a life of wealth and elegance — the ur-instance of American self-reinvention."
       },
       {
         "id": "b14-q23",
@@ -3353,7 +3557,9 @@
           "That education is the only path to success"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Gatsby's self-invention reveals the Dream's contradictions: you can buy the appearance of belonging but not true acceptance. Tom's contempt for Gatsby — despite his wealth — shows that old money recognises and rejects the upstart, no matter how convincingly he performs."
       },
       {
         "id": "b14-q24",
@@ -3367,7 +3573,9 @@
           "He shows Daisy a letter Gatsby wrote"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "At the Plaza Hotel confrontation Tom exposes that Gatsby's fortune comes from bootlegging. This undermines Gatsby's claim to respectability in Daisy's eyes — she chooses Tom's corrupted but legitimately inherited world over Gatsby's criminally acquired one."
       },
       {
         "id": "b14-q25",
@@ -3381,7 +3589,9 @@
           "Gatsby could have won Daisy without any money"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The tragic irony is that Gatsby achieves the impossible — wealth, the right address, the right clothes, the reunion — only to discover that Daisy is not the ideal he has projected onto her. She chooses comfort and conformity over love."
       },
       {
         "id": "b14-q26",
@@ -3395,7 +3605,9 @@
           "Nick is the only character aware of class differences"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The class critique is the novel's sharpest argument: the division between old and new money is nearly theological. Gatsby can buy everything the East Egg world displays, but he cannot purchase its centuries of accumulated social belonging."
       },
       {
         "id": "b14-q27",
@@ -3409,7 +3621,9 @@
           "Daisy represents the past in a purely positive way"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Nick's famous line — \"Can't repeat the past? Why of course you can!\" — is spoken by Gatsby with total conviction and irony. The novel's entire tragedy demonstrates that you cannot repeat the past; clinging to it is self-destruction."
       },
       {
         "id": "b14-q28",
@@ -3423,7 +3637,9 @@
           "George Wilson"
         ],
         "correct": 2,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Daisy is driving Gatsby's yellow car when it strikes and kills Myrtle Wilson. Gatsby takes the blame to protect her — a final act of devotion she repays by abandoning him without warning."
       },
       {
         "id": "b14-q29",
@@ -3437,7 +3653,9 @@
           "He tells Wilson nothing"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Tom tells Wilson the car that killed Myrtle belongs to Gatsby, knowing Wilson will assume Gatsby was the driver and seek revenge. Tom uses Wilson as an instrument of murder while protecting himself and Daisy — the definitive act of \"careless people.\""
       },
       {
         "id": "b14-q30",
@@ -3451,7 +3669,9 @@
           "He reconciles with his family"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "George Wilson shoots Gatsby in his pool, then kills himself. Gatsby dies waiting for a phone call from Daisy that never comes — the final, devastating demonstration that she never valued him as he valued her."
       },
       {
         "id": "b14-q31",
@@ -3465,7 +3685,9 @@
           "Daisy writes a letter of regret to Nick"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Tom and Daisy do not attend Gatsby's funeral. They retreat to their money, and presumably move on. Nick's description of them as \"careless people\" who \"smashed up things and creatures and then retreated back into their money\" is the novel's moral verdict."
       },
       {
         "id": "b14-q32",
@@ -3479,7 +3701,9 @@
           "That it was a private ceremony by choice"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Only a few people attend Gatsby's funeral, despite hundreds attending his parties. This irony crystallises the novel's critique: Gatsby attracted parasites who used his wealth; he had no real relationships, only an audience."
       },
       {
         "id": "b14-q33",
@@ -3493,7 +3717,9 @@
           "They deserved more sympathy than they received"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Nick's phrase \"careless people\" — applied to both Tom and Daisy — is his final moral judgment: they caused destruction and walked away from it because their wealth allowed them to. This is the novel's indictment of the privileged class."
       },
       {
         "id": "b14-q34",
@@ -3507,7 +3733,9 @@
           "That hope always triumphs in the end"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "At the novel's close, the green light expands from Gatsby's personal dream to the American Dream itself. Nick's final image — boats against the current, borne back into the past — argues that the dream is both irresistible and impossible, forever receding even as we strain toward it."
       },
       {
         "id": "b14-q35",
@@ -3521,7 +3749,9 @@
           "It is alive and well in 1920s America"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Fitzgerald's judgment is unequivocal: the American Dream, as practised, is a corrupt and hollow illusion. It destroys those who believe in it most purely, while those who merely use it — Tom and Daisy — float through unscathed on inherited wealth."
       },
       {
         "id": "b14-q36",
@@ -3535,7 +3765,9 @@
           "He provides comic relief in a tragic story"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Nick's outsider-insider position is essential: his Midwestern moral compass lets him see the East's corruption clearly, while his access to both Eggs makes him a reliable structural observer. The novel's elegiac tone — mourning a dream even as it condemns it — comes from Nick's ambivalent admiration for Gatsby."
       },
       {
         "id": "b14-q37",
@@ -3549,7 +3781,9 @@
           "American industrial power"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Gatsby's yellow car is wealth made visible and dangerous. Yellow (false gold) rather than pure gold marks it as corrupted opulence. It kills Myrtle, leads to Gatsby's death, and is the instrument through which Tom destroys Gatsby — the violence of wealth made literal."
       },
       {
         "id": "b14-q38",
@@ -3563,7 +3797,9 @@
           "It focuses only on personal tragedy, not social criticism"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Fitzgerald wrote the novel from inside the Jazz Age as a critique of it: the parties, the wealth, the amorality, and the emptiness he describes were features of his own world. The novel is simultaneously a love letter to and an indictment of the decade."
       },
       {
         "id": "b14-q39",
@@ -3577,7 +3813,9 @@
           "The voice of moral conscience"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Gatsby belongs to the tradition of the American self-made man — Benjamin Franklin, Horatio Alger — but Fitzgerald inverts the archetype: Gatsby's self-creation is based on a lie, and his faith in the Dream leads not to success but to destruction."
       },
       {
         "id": "b14-q40",
@@ -3591,65 +3829,75 @@
           "He chose it randomly"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Fitzgerald set the novel at the height of Jazz Age prosperity — just before the Wall Street Crash of 1929. Readers in 1925 could not yet see the irony; later readers understand the excess Fitzgerald describes was already doomed, lending the novel retrospective tragic weight."
       }
     ],
     "writing_prompts": [
       {
         "id": "b14-wp1",
         "chapter_id": "b14-ch1",
-        "prompt": "What do East Egg and West Egg represent in the novel? What does this division suggest about American society in the 1920s?",
+        "prompt": "Fitzgerald uses the geographical division between East Egg and West Egg to explore the rigidity of the American class system. Analyse what this spatial symbolism reveals about the nature of inherited versus acquired wealth. To what extent does the novel argue that no amount of money can bridge the gap between old and new money?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp2",
         "chapter_id": "b14-ch1",
-        "prompt": "Describe Jay Gatsby based on what you learn in the first chapters. What kind of man does he appear to be, and what mystery surrounds him?",
+        "prompt": "Nick Carraway describes himself as one of the few honest people he has ever known. Critically evaluate this self-assessment. In what ways is Nick morally compromised by his involvement in events? How does Fitzgerald use Nick's narrative unreliability to deepen the novel's critique of the American Dream?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp3",
         "chapter_id": "b14-ch2",
-        "prompt": "What does Gatsby's desire to repeat the past with Daisy say about his character? Is it romantic or obsessive? Explain your view.",
+        "prompt": "Gatsby's dream is ostensibly to recapture the past with Daisy, but it represents something larger in the novel. Analyse how Fitzgerald uses Gatsby's obsession to argue that the American Dream is structurally flawed — not just personally mistaken. What specific literary techniques does he use to convey this critique?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp4",
         "chapter_id": "b14-ch2",
-        "prompt": "Gatsby's parties are huge and glamorous, yet he stands apart from them. What does this tell us about the relationship between wealth and happiness?",
+        "prompt": "Gatsby's parties are spectacular yet hollow. Analyse how Fitzgerald uses imagery and symbol throughout these scenes to convey his critique of 1920s American culture. How do the parties function as a microcosm of the novel's themes of excess, loneliness, and the performance of social belonging?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp5",
         "chapter_id": "b14-ch3",
-        "prompt": "Gatsby built his entire identity and fortune for the sake of a dream. Is this admirable or foolish? What does his story say about ambition?",
+        "prompt": "Gatsby reinvents himself completely — new name, new history, new identity — in pursuit of his dream. Evaluate the novel's attitude toward this self-reinvention: is it admirable, deluded, or both? What does Fitzgerald argue about the relationship between authenticity, ambition, and the American Dream?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp6",
         "chapter_id": "b14-ch3",
-        "prompt": "How does Fitzgerald use symbols (the green light, the Valley of Ashes, the eyes of Doctor Eckleburg) to convey meaning? Explain at least two symbols.",
+        "prompt": "Fitzgerald embeds multiple symbols in the novel — the green light, the Valley of Ashes, the eyes of Doctor Eckleburg, the yellow car. Analyse the significance of at least two of these symbols, explaining how they work together to construct the novel's moral and thematic argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp7",
         "chapter_id": "b14-ch4",
-        "prompt": "Are Tom and Daisy Buchanan villains, or are they simply products of their privileged world? Use evidence from the novel to support your argument.",
+        "prompt": "Tom and Daisy are described by Nick as \"careless people.\" Evaluate the moral responsibility of each character for the tragedy of the novel. Is Daisy more sympathetic than Tom, or equally culpable? Use textual evidence to construct and defend your argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b14-wp8",
         "chapter_id": "b14-ch4",
-        "prompt": "What does 'The Great Gatsby' say about the American Dream? Is Fitzgerald's view of it hopeful, critical, or tragic? Explain using examples from the novel.",
+        "prompt": "The final paragraph of The Great Gatsby — \"So we beat on, boats against the current...\" — is one of the most analysed passages in American literature. Provide a close reading of this passage. How does it crystallise the novel's themes? What does it argue about the nature of the American Dream and the human relationship with the past?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       }
     ]
   },
@@ -3701,7 +3949,9 @@
           "The leader of the resistance movement"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Big Brother may not be a real person — he is the omnipresent face of the Party's authority on every poster and telescreen. Whether real or symbolic, he functions as an object of compulsory love that naturalises absolute political power."
       },
       {
         "id": "b15-q2",
@@ -3715,7 +3965,9 @@
           "A form of mathematics used by the Party"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "\"Doublethink\" is Orwell's invention for a psychological skill the Party requires: holding two mutually contradictory beliefs simultaneously and accepting both as true. It is the cognitive mechanism that makes totalitarian ideology internally consistent to its subjects."
       },
       {
         "id": "b15-q3",
@@ -3729,7 +3981,9 @@
           "Wisdom from ancient history"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The Party's slogans are exercises in doublethink: they are logically contradictory yet the Party insists on their truth. Their function is not to convey information but to make independent thought impossible by dissolving the distinction between truth and lie."
       },
       {
         "id": "b15-q4",
@@ -3743,7 +3997,9 @@
           "Winston's employer"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The Thought Police detect and punish \"thoughtcrime\" — any mental divergence from Party orthodoxy. Their existence ensures that even private thought is a site of potential crime, completing the totalitarian colonisation of inner life."
       },
       {
         "id": "b15-q5",
@@ -3757,7 +4013,9 @@
           "A reward given to loyal Party members"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Telescreens both broadcast Party propaganda and surveil citizens in their homes. They cannot be turned off by Party members, creating an environment of permanent, inescapable observation — Orwell's extrapolation of surveillance technology as a tool of political control."
       },
       {
         "id": "b15-q6",
@@ -3771,7 +4029,9 @@
           "He monitors citizens through telescreens"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Winston works at the Ministry of Truth rewriting historical records, newspaper articles, and statistics to match whatever the Party currently claims is true. His job embodies the Party's central project: making the past conform to the present."
       },
       {
         "id": "b15-q7",
@@ -3785,7 +4045,9 @@
           "He is bored at his job"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Keeping a diary is itself thoughtcrime — a capital offence. Winston begins it as an act of private resistance, a space where his real thoughts can exist. He knows discovery means death, making the act simultaneously defiant and self-destructive."
       },
       {
         "id": "b15-q8",
@@ -3799,7 +4061,9 @@
           "Standard historical scholarship"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "\"Who controls the past controls the future: who controls the present controls the past.\" The Party's rewriting of history destroys the basis for any alternative reality, leaving citizens without the factual anchor needed to question what they are told."
       },
       {
         "id": "b15-q9",
@@ -3813,7 +4077,9 @@
           "Their names are in a different language"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The Ministries are named antithetically to their actual functions — Truth produces lies, Love administers torture, Peace wages war, Plenty manages starvation. This institutionalised doublethink reflects the Party's systematic inversion of language and meaning."
       },
       {
         "id": "b15-q10",
@@ -3827,7 +4093,9 @@
           "Lying to a Party official"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "\"Thoughtcrime\" criminalises mental states before any action has been taken. Its existence — like Newspeak — is part of the Party's project to eliminate not just rebellion but the cognitive conditions that make rebellion possible."
       },
       {
         "id": "b15-q11",
@@ -3841,7 +4109,9 @@
           "O'Brien's assistant"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Julia works in the Fiction Department producing Party propaganda but secretly despises the Party. Her rebellion is primarily sensual and pragmatic rather than ideological — she wants pleasure and freedom, not to change the system."
       },
       {
         "id": "b15-q12",
@@ -3855,7 +4125,9 @@
           "A social club for Party members"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The Brotherhood's existence is uncertain — it may be entirely a Party invention designed to identify potential rebels by allowing them to \"join.\" O'Brien's later revelation that the Brotherhood is a trap demonstrates the Party's use of hope as a weapon."
       },
       {
         "id": "b15-q13",
@@ -3869,7 +4141,9 @@
           "The real identity of Big Brother"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Winston reads O'Brien's face and convinces himself that a shared glance communicates resistance. This is a projection of his own desires onto a stranger — and proves catastrophically wrong. O'Brien is one of the Party's most devoted agents."
       },
       {
         "id": "b15-q14",
@@ -3883,7 +4157,9 @@
           "A distraction from Winston's real goals"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The Party prohibits sex except for reproduction and criminalises love entirely. Winston and Julia's affair is therefore not just a personal relationship but a political act — their private pleasure is itself a form of resistance against a system designed to eliminate desire."
       },
       {
         "id": "b15-q15",
@@ -3897,7 +4173,9 @@
           "A Brotherhood safe house"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "The room above Charrington's shop represents Winston and Julia's fantasy of a private, unobserved life. Its coziness — old furniture, no telescreen — makes it feel like an escape into the past. Its true nature as a surveillance site makes it the novel's most ironic trap."
       },
       {
         "id": "b15-q16",
@@ -3911,7 +4189,9 @@
           "A dialect spoken in the Prole districts"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Newspeak is the Party's linguistic instrument of control: by progressively reducing vocabulary, it aims to make heretical thoughts literally inexpressible. If words for freedom or rebellion no longer exist, the concepts themselves become unthinkable."
       },
       {
         "id": "b15-q17",
@@ -3925,7 +4205,9 @@
           "Julia's love for Winston"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The coral paperweight — beautiful, fragile, and containing a preserved past — is the novel's central physical symbol. Its destruction when Winston is arrested enacts the Party's elimination of beauty and private history. It represents everything totalitarianism seeks to destroy."
       },
       {
         "id": "b15-q18",
@@ -3939,7 +4221,9 @@
           "As symbols of the Party's generosity"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "The Proles are too numerous and too \"unimportant\" for the Party to fully control — they retain folk music, genuine emotion, and private pleasures. Winston believes they represent the potential for revolution, though Orwell does not confirm this hope."
       },
       {
         "id": "b15-q19",
@@ -3953,7 +4237,9 @@
           "To defect to another country"
         ],
         "correct": 2,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "character",
+        "explanation": "Winston's hope for the Proles is political rather than personal: he believes only they, as the majority, have the numbers and the remaining humanity to overthrow the Party. But O'Brien later argues this will never happen — the Proles have been successfully neutralised through entertainment and distraction."
       },
       {
         "id": "b15-q20",
@@ -3967,7 +4253,9 @@
           "To protect citizens from enemy states"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "O'Brien articulates the Party's unique ambition: not mere obedience but genuine love. They are not satisfied with behavioural compliance — they require the complete transformation of Winston's inner world until he genuinely loves Big Brother. This is totalitarianism's final, most absolute claim."
       },
       {
         "id": "b15-q21",
@@ -3981,7 +4269,9 @@
           "A hospital for mental treatment"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The Ministry of Love is the Party's interrogation and torture centre — its name is the novel's most brutal irony. There, Winston is broken through physical and psychological torture until he genuinely loves Big Brother."
       },
       {
         "id": "b15-q22",
@@ -3995,7 +4285,9 @@
           "Mr. Charrington — his landlord is also a Thought Police agent"
         ],
         "correct": 3,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Charrington, the antique shop owner who appeared to be an old Prole, is revealed as a Thought Police agent. The room above his shop was always a surveillance trap. This revelation — along with O'Brien's treachery — shows that trust itself has been weaponised."
       },
       {
         "id": "b15-q23",
@@ -4009,7 +4301,9 @@
           "The Party's central command center"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Room 101 contains each prisoner's worst personal fear. O'Brien tells Winston: \"The thing that is in Room 101 is the worst thing in the world.\" For Winston, it is rats — used at the novel's climax to force his betrayal of Julia."
       },
       {
         "id": "b15-q24",
@@ -4023,7 +4317,9 @@
           "Pain"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Winston's deepest fear is rats. O'Brien discovered this through the surveillance record of Winston's nightmares and uses it as the instrument of final psychological destruction in Room 101."
       },
       {
         "id": "b15-q25",
@@ -4037,7 +4333,9 @@
           "He loses consciousness"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "When the cage of rats is brought to his face, Winston's courage collapses entirely. He begs the torturers to \"do it to Julia\" instead — sacrificing the person he most loves. This betrayal is the moment of his complete psychological annihilation."
       },
       {
         "id": "b15-q26",
@@ -4051,7 +4349,9 @@
           "A list of other rebels"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "O'Brien explicitly distinguishes the Party's goal from ordinary political repression: they require genuine inner conversion, not merely outward compliance. Winston must truly love Big Brother — not pretend to. This is what makes Oceania uniquely totalitarian."
       },
       {
         "id": "b15-q27",
@@ -4065,7 +4365,9 @@
           "The Party shows mercy to reformed rebels"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Winston's total destruction — not just imprisonment but the erasure of his identity and the conversion of his hatred into love — demonstrates that the Party's system is complete. The novel offers no resistance that survives. This is Orwell's most despairing and urgent warning."
       },
       {
         "id": "b15-q28",
@@ -4079,7 +4381,9 @@
           "'He died free' — showing that death was his only escape"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "\"He loved Big Brother.\" These four words are the novel's most devastating conclusion: Winston has not merely been defeated but converted. The Party's victory is not over his body but over the last private territory — his mind."
       },
       {
         "id": "b15-q29",
@@ -4093,7 +4397,9 @@
           "To create a scientific utopia"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "O'Brien's speech on power is the novel's most terrifying passage: the Party does not seek power as a means to an end — it seeks power purely for its own sake. Domination is not instrumental but final. This removes any possibility of reform from within the system."
       },
       {
         "id": "b15-q30",
@@ -4107,7 +4413,9 @@
           "It is only psychological, not physical"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Ordinary political torture seeks confession, information, or public capitulation. The Party requires something qualitatively different: genuine transformation of belief and feeling. Winston must not merely say he loves Big Brother — he must actually feel it."
       },
       {
         "id": "b15-q31",
@@ -4121,7 +4429,9 @@
           "To preserve classical English literature"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The appendix on Newspeak — written in past tense, suggesting the regime eventually fell — explains the linguistic project: by the time Newspeak is complete, thoughtcrime will be impossible because no words will exist to express it. Language as the final instrument of cognitive control."
       },
       {
         "id": "b15-q32",
@@ -4135,7 +4445,9 @@
           "The Party values honesty above all"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "\"Ignorance is Strength\" articulates the Party's management of its population: keep citizens ignorant of alternatives, of history, and of each other, and they cannot organise resistance. The slogan turns a technique of oppression into a declaration of pride."
       },
       {
         "id": "b15-q33",
@@ -4149,7 +4461,9 @@
           "That capitalism will destroy freedom"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "Orwell's warning is that technology, psychology, and language can be combined to produce a form of political control more total than any previous regime — one that colonises not just behaviour but thought, memory, and feeling."
       },
       {
         "id": "b15-q34",
@@ -4163,7 +4477,9 @@
           "Only the British Empire"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Orwell drew on both the Soviet Union under Stalin — show trials, the rewriting of history, the cult of personality — and Nazi Germany — propaganda, surveillance, totalitarian ideology — to construct the composite nightmare of Oceania."
       },
       {
         "id": "b15-q35",
@@ -4177,7 +4493,9 @@
           "Because Newspeak has actually replaced English"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "1984's relevance has grown with digital surveillance, algorithmic manipulation of information, \"fake news,\" and the use of social media to polarise public reality. Orwell's concepts — doublethink, unperson, Newspeak — have entered everyday political vocabulary because the dynamics he described persist."
       },
       {
         "id": "b15-q36",
@@ -4191,7 +4509,9 @@
           "His hatred of modernity"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Winston's love of old objects — the paperweight, the room above the shop, the old man's song — represents his longing for a pre-Party world in which beauty, history, and private emotion existed. These objects function as physical evidence that a different world once was."
       },
       {
         "id": "b15-q37",
@@ -4205,7 +4525,9 @@
           "Through Winston's job description"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "When someone is made an \"unperson,\" all record of their existence is erased — they become literally unthinkable, impossible to mourn or avenge. The concept demonstrates the Party's ambition to control not just the present but the factual basis of memory."
       },
       {
         "id": "b15-q38",
@@ -4219,7 +4541,9 @@
           "Romantic fiction — love is its central theme"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "1984 is dystopian fiction — a genre that uses imagined futures to warn about present tendencies. By extrapolating mid-20th-century totalitarianism to its logical extreme, Orwell makes its dangers visible to readers who might not recognise them in their current form."
       },
       {
         "id": "b15-q39",
@@ -4233,7 +4557,9 @@
           "By comparing Oceania to free democracies"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Orwell defines freedom negatively — by showing its complete destruction. By depicting a world in which thought, speech, love, and memory are all controlled, he makes visible what is lost when these freedoms are taken. The novel's power comes from what it refuses to allow."
       },
       {
         "id": "b15-q40",
@@ -4247,65 +4573,75 @@
           "It is a reference to another novel"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Orwell wrote in 1948 and transposed the final two digits to create the title. The technique places the story just close enough to feel imminent — not safely distant science fiction but the near future of the reader's own world."
       }
     ],
     "writing_prompts": [
       {
         "id": "b15-wp1",
         "chapter_id": "b15-ch1",
-        "prompt": "What is the most frightening aspect of the world Orwell creates in '1984'? Explain why this particular feature of the Party's control is so disturbing.",
+        "prompt": "Orwell depicts multiple mechanisms of totalitarian control in 1984: telescreens, doublethink, Newspeak, the rewriting of history, and Room 101. Analyse which of these mechanisms you consider most essential to the Party's power, and explain why. Use specific textual evidence to support your argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp2",
         "chapter_id": "b15-ch1",
-        "prompt": "The Party controls history by rewriting the past. Why is control of history so powerful? What would happen in your own country if history could be rewritten by the government?",
+        "prompt": "The Party's approach to history — \"Who controls the past controls the future\" — is central to its power. Critically evaluate this claim. How does controlling historical memory function as a form of political control? Draw on both the novel and, if appropriate, real-world examples to develop your argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp3",
         "chapter_id": "b15-ch2",
-        "prompt": "Winston and Julia's love is an act of political rebellion. Do you agree that love and private feeling are threats to totalitarian power? Explain your reasoning.",
+        "prompt": "Winston and Julia's love affair is described as inherently political — a private act of rebellion against a system designed to eliminate desire. Analyse this claim. To what extent does private feeling constitute a genuine political resistance, and to what extent does the novel expose its limitations?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp4",
         "chapter_id": "b15-ch2",
-        "prompt": "Orwell invented the word 'doublethink' — believing two contradictory things at once. Can you think of real-world examples of doublethink in politics or society today?",
+        "prompt": "Orwell coined \"doublethink\" to describe the ability to hold contradictory beliefs simultaneously. Analyse how this concept functions both within the novel and as a critique of real political discourse. Can you identify specific contemporary examples of doublethink in political language or media?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp5",
         "chapter_id": "b15-ch3",
-        "prompt": "When Winston is broken in Room 101, is he a coward or a victim? Is it possible for anyone to truly resist total psychological torture? Argue your position.",
+        "prompt": "When faced with his worst fear in Room 101, Winston betrays Julia. Evaluate the moral significance of this moment. Is Winston a tragic figure, a coward, or simply a victim of irresistible psychological pressure? What does this scene argue about the limits of individual resistance?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp6",
         "chapter_id": "b15-ch3",
-        "prompt": "O'Brien says the Party seeks power purely for its own sake. Is this a realistic description of how authoritarian governments actually think? What historical examples come to mind?",
+        "prompt": "O'Brien tells Winston that the Party seeks power purely for its own sake — not as a means to any social good. Critically evaluate this portrayal of totalitarianism. Is it psychologically credible? How does Orwell use O'Brien's speech to develop the novel's political argument?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp7",
         "chapter_id": "b15-ch4",
-        "prompt": "Newspeak is designed to make certain thoughts impossible. How does language shape what we can think? Give examples of how language is used in real life to control or expand thinking.",
+        "prompt": "Newspeak is designed to make thoughtcrime literally impossible by eliminating the vocabulary needed to express it. Analyse how Orwell uses this invention to explore the relationship between language and thought. What is he arguing about the political significance of linguistic control?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b15-wp8",
         "chapter_id": "b15-ch4",
-        "prompt": "Is '1984' still relevant today? Identify a specific modern technology, political practice, or social phenomenon that parallels something in Orwell's novel and explain the connection.",
+        "prompt": "1984 was published in 1949 and is set in what was then the near future. Evaluate its relevance to the contemporary world. Identify at least two specific features of modern technology, politics, or social media that parallel elements of Orwell's dystopia, and analyse what these parallels suggest.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       }
     ]
   },
@@ -4357,7 +4693,9 @@
           "Memory retrieval"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "System 1 is automatic, fast, and operates below conscious awareness — it recognises faces, reads emotions, drives familiar routes, and generates gut reactions. It runs constantly with almost no effort and cannot be turned off."
       },
       {
         "id": "b18-q2",
@@ -4371,7 +4709,9 @@
           "The brain's memory system"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "System 2 is slow, effortful, and deliberate — it engages when we need to solve a maths problem, consider a complex decision, or concentrate on something unfamiliar. It is resource-intensive and humans are inclined to avoid engaging it when possible."
       },
       {
         "id": "b18-q3",
@@ -4385,7 +4725,9 @@
           "Because humans prefer speed over accuracy"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "System 1 is evolutionarily older and more energy-efficient. Because mental effort is costly, System 2 only activates when System 1's automatic responses seem insufficient — meaning most of our decisions are made by a fast, pattern-matching system prone to predictable errors."
       },
       {
         "id": "b18-q4",
@@ -4399,7 +4741,9 @@
           "A medical condition affecting cognition"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Cognitive ease is the feeling that information is easy to process — produced by familiarity, clear presentation, or repeated exposure. Kahneman shows that this feeling of ease makes us more credulous: we accept fluent information uncritically, a mechanism exploited by advertising and propaganda."
       },
       {
         "id": "b18-q5",
@@ -4413,7 +4757,9 @@
           "A form of advertising"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The priming effect demonstrates that exposure to stimuli below conscious awareness shapes subsequent thoughts, feelings, and even physical behaviour. It challenges the assumption that our choices are fully self-generated rather than shaped by environmental cues."
       },
       {
         "id": "b18-q6",
@@ -4427,7 +4773,9 @@
           "A biological reflex"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "System 2 has a finite cognitive budget. When that budget is exhausted by one demanding task, performance on other tasks requiring System 2 deteriorates — explaining why decision fatigue leads to worse choices and why multitasking is genuinely costly."
       },
       {
         "id": "b18-q7",
@@ -4441,7 +4789,9 @@
           "A learning disorder"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "Kahneman uses \"associative machine\" to describe System 1's core operating principle: it automatically links ideas, images, and emotions in ways that generate coherent — but not necessarily accurate — interpretations of experience."
       },
       {
         "id": "b18-q8",
@@ -4455,7 +4805,9 @@
           "A study of tourist behavior"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "The Florida effect — walking more slowly after exposure to age-related words — is a striking demonstration that priming extends beyond thought to physical behaviour. It shows how deeply environmental cues shape us without conscious awareness."
       },
       {
         "id": "b18-q9",
@@ -4469,7 +4821,9 @@
           "He shows only trained economists think rationally"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Classical economics assumes a \"rational agent\" who maximises expected utility. Kahneman's decades of experimental work with Amos Tversky demonstrated that humans systematically deviate from rational behaviour in predictable, reproducible ways — requiring an entirely new model of human decision-making."
       },
       {
         "id": "b18-q10",
@@ -4483,7 +4837,9 @@
           "A method for building self-esteem"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Ego depletion describes the finding that exerting cognitive or emotional self-control depletes a shared mental resource — making subsequent acts of self-control, careful reasoning, or resisting temptation harder. It explains why people make worse decisions when tired or stressed."
       },
       {
         "id": "b18-q11",
@@ -4497,7 +4853,9 @@
           "A memory technique"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "A heuristic is a cognitive shortcut — a rule-of-thumb that produces fast, good-enough answers in many situations but leads to predictable errors when applied outside its appropriate context. Heuristics are System 1's primary tools."
       },
       {
         "id": "b18-q12",
@@ -4511,7 +4869,9 @@
           "A form of confirmation bias"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The availability heuristic leads us to judge probability by ease of recall. Vivid, recent, or emotionally charged events come to mind easily, making them feel more common or likely than they are — explaining why rare dramatic risks (plane crashes) are overestimated and common gradual ones (poor diet) are underestimated."
       },
       {
         "id": "b18-q13",
@@ -4525,7 +4885,9 @@
           "A form of memory bias"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The anchoring effect shows that an arbitrary initial number — even a randomly generated one — disproportionately influences all subsequent estimates. It is one of the most reliably demonstrated biases in negotiation, pricing, and legal sentencing."
       },
       {
         "id": "b18-q14",
@@ -4539,7 +4901,9 @@
           "A type of statistical error in research"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The Linda problem shows that most people judge \"feminist bank teller\" as more probable than \"bank teller\" — which is logically impossible (the former is a subset of the latter). This demonstrates that System 1 substitutes narrative plausibility for probability, producing systematic logical errors."
       },
       {
         "id": "b18-q15",
@@ -4553,7 +4917,9 @@
           "The mathematical average of a data set"
         ],
         "correct": 0,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Regression to the mean describes the statistical tendency for extreme scores to be followed by less extreme ones — because extreme scores involve both ability and luck. We systematically misattribute this natural reversion to our interventions, producing false theories of cause and effect."
       },
       {
         "id": "b18-q16",
@@ -4567,7 +4933,9 @@
           "A leadership quality"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The halo effect describes how a single positive impression — physical attractiveness, a confident voice, success in one domain — creates a global positive evaluation of a person. It is one of the most pervasive sources of bias in hiring, teaching, and social judgment."
       },
       {
         "id": "b18-q17",
@@ -4581,7 +4949,9 @@
           "A management technique"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The planning fallacy describes the universal tendency to underestimate time, cost, and risk while overestimating benefits. It operates even when people know their past plans have been similarly optimistic — because the \"inside view\" of our own project always feels uniquely promising."
       },
       {
         "id": "b18-q18",
@@ -4595,7 +4965,9 @@
           "A social prejudice"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Base rate neglect occurs when vivid individual information overrides statistical background rates. In medical diagnosis, legal judgment, and everyday prediction, we over-rely on the specific case in front of us and ignore the statistical frequency of outcomes in similar cases."
       },
       {
         "id": "b18-q19",
@@ -4609,7 +4981,9 @@
           "He shows that markets are always efficient"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Kahneman and Tversky's Prospect Theory replaced the classical utility function of economic rational-agent models with a description of how people actually make decisions under uncertainty — showing that choices are reference-dependent, loss-averse, and probability-distorting in predictable ways."
       },
       {
         "id": "b18-q20",
@@ -4623,7 +4997,9 @@
           "A style of persuasive writing"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "The narrative fallacy describes our drive to impose causal narratives on sequences of events. We construct stories that make the past seem predictable and inevitable — reducing uncertainty but distorting our understanding of what actually caused outcomes."
       },
       {
         "id": "b18-q21",
@@ -4637,7 +5013,9 @@
           "A preference for saving money"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Loss aversion — the finding that losses feel roughly twice as painful as equivalent gains feel pleasant — is one of Kahneman's most influential contributions. It explains why people take irrational risks to avoid losses and accept worse expected outcomes to secure gains."
       },
       {
         "id": "b18-q22",
@@ -4651,7 +5029,9 @@
           "A method for predicting future events"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Prospect Theory replaced the expected utility model by showing that people evaluate outcomes relative to a reference point (their current state) rather than in absolute terms, and that the value function is concave for gains (diminishing sensitivity) and convex for losses (loss aversion)."
       },
       {
         "id": "b18-q23",
@@ -4665,7 +5045,9 @@
           "A cultural variation in confidence"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Overconfidence is among the most consistent and consequential biases: people systematically overestimate the accuracy of their knowledge, their ability to predict outcomes, and the quality of their plans. The 90%-of-drivers-above-average finding is a classic demonstration."
       },
       {
         "id": "b18-q24",
@@ -4679,7 +5061,9 @@
           "Optimistic vs. pessimistic planning"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "The inside view focuses on the specific features of our own situation and feels naturally compelling; the outside view uses statistical base rates from similar previous cases, which are usually more accurate. The failure to adopt the outside view is a primary driver of the planning fallacy."
       },
       {
         "id": "b18-q25",
@@ -4693,7 +5077,9 @@
           "Only medical experts are reliably accurate"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "In \"low-validity environments\" — domains where feedback is delayed, ambiguous, or absent — expert intuition cannot develop genuine skill. Kahneman's research shows that in these domains (financial forecasting, clinical psychology, wine rating), simple statistical models routinely outperform trained experts."
       },
       {
         "id": "b18-q26",
@@ -4707,7 +5093,9 @@
           "A legal concept about property"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The endowment effect — we value what we own more than equivalent things we do not own — is a direct consequence of loss aversion. Selling an object activates the psychology of loss; buying activates the psychology of gain; and losses loom larger than gains."
       },
       {
         "id": "b18-q27",
@@ -4721,7 +5109,9 @@
           "A method of political persuasion only"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The framing effect demonstrates that logically equivalent information presented differently produces different choices. The same medical treatment is evaluated very differently as \"90% survival rate\" versus \"10% mortality rate\" — showing that decisions respond to the frame, not just the content."
       },
       {
         "id": "b18-q28",
@@ -4735,7 +5125,9 @@
           "A management tool for firing employees"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "A premortem — imagining a project has failed and asking what went wrong — is Kahneman's practical tool for counteracting the planning fallacy and overconfidence. It legitimises scepticism, surfaces hidden risks, and forces engagement with failure scenarios before commitment."
       },
       {
         "id": "b18-q29",
@@ -4749,7 +5141,9 @@
           "Only the best analysts have genuine skill"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Kahneman's analysis of financial prediction shows that the year-to-year correlation between individual analyst performance is near zero — consistent with random variation rather than skill. The financial industry's confidence in expert forecasters is itself a large-scale demonstration of overconfidence bias."
       },
       {
         "id": "b18-q30",
@@ -4763,7 +5157,9 @@
           "A preference for predictable environments"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "The certainty effect describes the overweighting of guaranteed outcomes relative to probable ones. People prefer a certain $100 to a 95% chance of $150 even though the expected value favours the gamble — because certainty eliminates the possibility of regret."
       },
       {
         "id": "b18-q31",
@@ -4777,7 +5173,9 @@
           "Past self vs. future self"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The experiencing self lives through moments in real time; the remembering self evaluates them retrospectively using the peak-end rule and ignoring duration. Because we make decisions based on remembered utility rather than experienced utility, we routinely make choices that are suboptimal for our experiencing self."
       },
       {
         "id": "b18-q32",
@@ -4791,7 +5189,9 @@
           "The best time to make decisions"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "The peak-end rule means our memory of an experience is determined by its most intense moment and its final moment — not its overall quality or duration. This produces the counterintuitive result that adding a mild period to the end of a painful experience improves its remembered quality."
       },
       {
         "id": "b18-q33",
@@ -4805,7 +5205,9 @@
           "That medical procedures should avoid all pain"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Patients whose colonoscopy ended with a less intense (though longer) period of mild discomfort rated the total experience less negatively than those whose procedure ended at peak pain — demonstrating that memory rewrites experience, and that a worse-on-average experience can be remembered as better."
       },
       {
         "id": "b18-q34",
@@ -4819,7 +5221,9 @@
           "Only the very poor are unhappy due to money"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Kahneman's research found that emotional well-being improves with income up to roughly $75,000 (2010 US figures) but plateaus thereafter. High income improves life satisfaction judgments but not day-to-day emotional experience — the distinction between the remembering and experiencing selves."
       },
       {
         "id": "b18-q35",
@@ -4833,7 +5237,9 @@
           "A form of obsessive thinking"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The focusing illusion — \"Nothing in life is as important as you think it is when you are thinking about it\" — explains systematic errors in predicting what will make us happy. Because we evaluate options by focusing on a single feature, we overweight that feature relative to everything else in our lives."
       },
       {
         "id": "b18-q36",
@@ -4847,7 +5253,9 @@
           "Because life satisfaction is impossible to measure"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Life satisfaction surveys ask the remembering self to evaluate life as a whole — a retrospective, narrative judgment shaped by current mood and recent events. They do not capture the stream of moment-to-moment emotional experience that Kahneman argues is a separate and equally valid measure of well-being."
       },
       {
         "id": "b18-q37",
@@ -4861,7 +5269,9 @@
           "Utility in experience vs. utility in theory"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Decision utility is what we predict we will enjoy; experienced utility is what we actually enjoy in the moment. Kahneman shows these systematically diverge because our predictions are shaped by the remembering self's biases rather than accurate forecasting of actual experience."
       },
       {
         "id": "b18-q38",
@@ -4875,7 +5285,9 @@
           "Avoid all risky choices"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Kahneman's practical recommendations include: use reference class forecasting (the outside view), be suspicious of confident experts in low-validity domains, use premortems, design choice environments that account for known biases (\"nudge\"), and create pause-and-check habits that slow System 1."
       },
       {
         "id": "b18-q39",
@@ -4889,7 +5301,9 @@
           "It has had no impact outside psychology"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Kahneman's work founded behavioural economics, influenced public policy design (\"nudge theory,\" developed with Thaler and Sunstein), transformed medical decision-making research, and shaped legal reasoning about testimony and judgment. His 2002 Nobel Prize in Economics recognised the field-wide impact."
       },
       {
         "id": "b18-q40",
@@ -4903,65 +5317,75 @@
           "That intuition is always wrong"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The book's core prescription is epistemic humility: knowing that System 1's intuitions are fast but systematically biased allows us to design situations — checklists, diverse teams, structured feedback — that compensate for predictable errors rather than assuming we can simply overcome them by trying harder."
       }
     ],
     "writing_prompts": [
       {
         "id": "b18-wp1",
         "chapter_id": "b18-ch1",
-        "prompt": "Describe a situation where you made a quick, automatic decision (System 1) that turned out to be wrong. How could you have used System 2 thinking to make a better choice?",
+        "prompt": "Kahneman argues that System 2 is \"lazy\" and defaults to System 1 whenever possible. Critically evaluate this claim. What are the evolutionary advantages of System 1 dominance? In what contexts is System 1 actually more reliable than System 2, and when does it reliably fail?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp2",
         "chapter_id": "b18-ch1",
-        "prompt": "Kahneman says cognitive ease makes us accept information uncritically. Think of an example from media, advertising, or politics where this effect is used to influence people. Explain how it works.",
+        "prompt": "Cognitive ease makes us accept information uncritically when it is presented fluently and familiarly. Analyse how this mechanism is exploited in advertising, political messaging, or social media. What specific techniques create cognitive ease, and what are the implications for critical thinking in a media-saturated environment?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp3",
         "chapter_id": "b18-ch2",
-        "prompt": "Describe a cognitive bias from the book (availability heuristic, anchoring, halo effect, etc.) that you have personally experienced. What was the situation and how did the bias affect your decision?",
+        "prompt": "Select one cognitive bias from Kahneman's framework — availability heuristic, anchoring, the halo effect, or base rate neglect — and construct a detailed analysis of its operation. How does it arise from System 1's architecture? What real-world domains (law, medicine, finance, everyday judgment) does it affect most seriously?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp4",
         "chapter_id": "b18-ch2",
-        "prompt": "The 'planning fallacy' says we always underestimate how long projects will take. Give an example from your own life or a well-known project. What caused the underestimation?",
+        "prompt": "The planning fallacy describes a systematic tendency to underestimate time, cost, and risk in our own projects. Identify a significant real-world example — a major infrastructure project, a business failure, or a historical decision — where the planning fallacy demonstrably operated. Analyse what went wrong and what an \"outside view\" approach would have looked like.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp5",
         "chapter_id": "b18-ch3",
-        "prompt": "Loss aversion says losses hurt more than equivalent gains feel good. Think of a decision you made because you were afraid of losing something. Was this the right choice? Explain.",
+        "prompt": "Loss aversion means losses feel approximately twice as painful as equivalent gains feel pleasurable. Evaluate the implications of this finding for economic theory, personal decision-making, and public policy. In what ways does recognising loss aversion improve our understanding of human behaviour? Where might it be exploited?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp6",
         "chapter_id": "b18-ch3",
-        "prompt": "Kahneman shows that overconfidence is one of our most dangerous biases. Describe a situation — in history, politics, or your own life — where overconfidence led to a bad outcome.",
+        "prompt": "Kahneman argues that expert intuition in low-validity environments is no better than chance, yet society continues to reward and trust confident experts. Critically evaluate his argument. In which domains is expert intuition genuinely reliable, and in which is it not? What criteria distinguish the two?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp7",
         "chapter_id": "b18-ch4",
-        "prompt": "Kahneman distinguishes the 'experiencing self' from the 'remembering self.' Can you think of an experience that felt bad at the time but you remember positively (or vice versa)? What does this tell you about memory and happiness?",
+        "prompt": "Kahneman distinguishes the \"experiencing self\" from the \"remembering self.\" Analyse the implications of this distinction for how we should make decisions about our lives. Does it matter more to maximise moment-to-moment emotional experience or to create memorable peaks? What does this suggest about how we should evaluate our own happiness?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b18-wp8",
         "chapter_id": "b18-ch4",
-        "prompt": "What is the most useful idea from 'Thinking, Fast and Slow' that you could apply to your own life? How would you use it to make better decisions?",
+        "prompt": "Thinking, Fast and Slow is both a work of empirical psychology and an implicit guide to better thinking. Evaluate the book's practical value: which of Kahneman's insights do you find most applicable to your own decision-making? What are the limitations of knowing about cognitive biases — does awareness of them reliably help us avoid them?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       }
     ]
   },
@@ -5013,7 +5437,9 @@
           "A farming community in Montana"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Tara grew up on Buck's Peak in rural Idaho, isolated from mainstream society. The mountain is simultaneously beautiful and confining — the physical embodiment of her family's separatism."
       },
       {
         "id": "b20-q2",
@@ -5027,7 +5453,9 @@
           "She attended school occasionally when her parents allowed it"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Tara received no formal schooling. The family's survivalist ideology rejected government institutions including schools. She was nominally \"homeschooled\" but received little structured teaching."
       },
       {
         "id": "b20-q3",
@@ -5041,7 +5469,9 @@
           "That mainstream religion is dangerous"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Gene Westover's survivalism and anti-government ideology shaped every aspect of family life: no birth certificates, no doctors, no schools, no official documents — a deliberate withdrawal from the state he believed was corrupt and tyrannical."
       },
       {
         "id": "b20-q4",
@@ -5055,7 +5485,9 @@
           "Non-religious survivalist"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The Westovers are Mormon but practise a more extreme, isolated version of the faith than mainstream Latter-day Saint culture — combining religious belief with survivalist anti-government ideology in ways that set them apart from the broader community."
       },
       {
         "id": "b20-q5",
@@ -5069,7 +5501,9 @@
           "Logging"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Scrap metal work involved cutting and moving heavy metal with power tools in an unregulated environment. Multiple family members suffered severe injuries — burns, lacerations, crush injuries — that were treated at home with herbs because Gene refused hospital care."
       },
       {
         "id": "b20-q6",
@@ -5083,7 +5517,9 @@
           "She is a bookkeeper"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Faye Westover practised as a midwife and herbalist without formal qualifications. Her medical work was extensive but conducted outside any regulatory framework — an extension of the family's broader rejection of state institutions."
       },
       {
         "id": "b20-q7",
@@ -5097,7 +5533,9 @@
           "Tara has no conflicts with her family as a child"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "From childhood Tara notices discrepancies between her family's version of events and her own observations, but the family's authority — backed by religion and isolation — teaches her to distrust her own perceptions. This epistemological displacement is the memoir's central psychological theme."
       },
       {
         "id": "b20-q8",
@@ -5111,7 +5549,9 @@
           "A place she always wanted to escape"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Buck's Peak functions as a complex symbol throughout the memoir: it is genuinely beautiful and Tara genuinely loves it. But it also represents her family's enforced isolation from the world. Westover does not demonise the mountain — she holds both its beauty and its danger simultaneously."
       },
       {
         "id": "b20-q9",
@@ -5125,7 +5565,9 @@
           "Only in her religious practices"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Tara's childhood was characterised by a complete absence of the institutions that define normal American childhood: no birth record, no school records, no medical records, no contact with state services. She was, in legal terms, a non-person."
       },
       {
         "id": "b20-q10",
@@ -5139,7 +5581,9 @@
           "She cannot vote"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Without a birth certificate Tara did not legally exist — she had no access to identity documents, no proof of age, no school or medical history. This made it practically impossible to engage with mainstream society until she obtained a belated document."
       },
       {
         "id": "b20-q11",
@@ -5153,7 +5597,9 @@
           "A brother who died in an accident"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Shawn subjected Tara to escalating physical and psychological abuse across years of adolescence — pinning her, twisting her wrist, humiliating her in front of others. The family's denial of this pattern is as significant as the abuse itself."
       },
       {
         "id": "b20-q12",
@@ -5167,7 +5613,9 @@
           "They send Tara to a therapist"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Tara's parents minimised, reframed, and denied Shawn's abuse — offering alternative interpretations of incidents Tara directly experienced. This family-wide denial forced Tara to choose between trusting her own perceptions and maintaining family belonging."
       },
       {
         "id": "b20-q13",
@@ -5181,7 +5629,9 @@
           "A type of survivalist skill"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "Gaslighting — the sustained manipulation that makes victims doubt their own memory and judgment — is the mechanism through which Tara's family maintained control of the narrative about Shawn. The term is used analytically in the memoir to name what she experienced."
       },
       {
         "id": "b20-q14",
@@ -5195,7 +5645,9 @@
           "All accidents are minor"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Gene's refusal to use conventional medicine meant that serious injuries — severe burns, car accident injuries — were treated at home with herbal preparations. Family members suffered preventable long-term damage as a result."
       },
       {
         "id": "b20-q15",
@@ -5209,7 +5661,9 @@
           "Meeting neighbors"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Tyler's departure for university provided the first proof that leaving was possible. Combined with accumulating contradictions between the family's taught reality and what Tara observed directly, this began the gradual erosion of her certainty in her father's worldview."
       },
       {
         "id": "b20-q16",
@@ -5223,7 +5677,9 @@
           "He supports the family's survivalist beliefs"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "character",
+        "explanation": "Tyler was the first sibling to pursue formal education and leave Buck's Peak. His path demonstrated that educational self-determination was possible from within the family system — and his specific encouragement of Tara to study for the ACT was a direct catalyst."
       },
       {
         "id": "b20-q17",
@@ -5237,7 +5693,9 @@
           "It teaches her no useful skills"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "The physically demanding and dangerous work gave Tara genuine competence and resilience — qualities that later served her in academic contexts. The memoir is careful not to reduce her upbringing to pure harm; it also produced strengths."
       },
       {
         "id": "b20-q18",
@@ -5251,7 +5709,9 @@
           "Her family's approval of mainstream culture"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Local theatrical performances gave Tara her first extended contact with mainstream culture and the world outside her family's ideology. They represent a crack through which curiosity and a different sense of self could enter."
       },
       {
         "id": "b20-q19",
@@ -5265,7 +5725,9 @@
           "That alternative histories are equally valid"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The Westover family's rejection of mainstream history — dismissing official accounts as government lies — illustrates how controlling education means controlling reality. Denied access to shared historical knowledge, Tara had only her family's version of truth."
       },
       {
         "id": "b20-q20",
@@ -5279,7 +5741,9 @@
           "Between her desire for marriage and her desire for education"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "character",
+        "explanation": "Tara's central adolescent conflict is between the loyalty and love she genuinely feels for her family and her growing awareness that their world is built on abuse, denial, and isolation. The memoir is distinguished by refusing to resolve this into simple rejection."
       },
       {
         "id": "b20-q21",
@@ -5293,7 +5757,9 @@
           "She takes community college classes first"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Tara self-studied for the ACT using textbooks — teaching herself algebra, trigonometry, and grammar with no teacher and no prior formal education. Her success demonstrates both exceptional intellectual capacity and the importance of having books at all."
       },
       {
         "id": "b20-q22",
@@ -5307,7 +5773,9 @@
           "She quickly drops out"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "At BYU Tara discovered she lacked basic historical knowledge her peers took for granted — most significantly, she did not know about the Holocaust until a fellow student explained it. This experience made concrete what her educational deprivation meant."
       },
       {
         "id": "b20-q23",
@@ -5321,7 +5789,9 @@
           "That religion shapes education too heavily"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "The Holocaust gap is not merely an academic deficiency — it is a moral one. To have no knowledge of one of the twentieth century's defining atrocities is to be unable to understand major questions of justice, memory, and human capacity for evil that education is partly designed to transmit."
       },
       {
         "id": "b20-q24",
@@ -5335,7 +5805,9 @@
           "It makes her unhappy"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Access to libraries and structured academic inquiry gave Tara tools to evaluate her own experience — frameworks for understanding abuse, isolation, and the manipulation of truth. Education did not alienate her from her past but gave her language to understand it."
       },
       {
         "id": "b20-q25",
@@ -5349,7 +5821,9 @@
           "Marshall Scholarship"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Tara won the Gates Cambridge Scholarship — a highly competitive award funding graduate study at Cambridge University. The scholarship was made possible by Professor Kerry's mentorship and Tara's own extraordinary academic development."
       },
       {
         "id": "b20-q26",
@@ -5363,7 +5837,9 @@
           "She abandons all previous beliefs"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "comprehension",
+        "explanation": "Formal education gave Tara the capacity to question authority — including her father's — and to evaluate claims against evidence. This is the deepest transformation the memoir describes: from accepting a given reality to constructing her own through critical inquiry."
       },
       {
         "id": "b20-q27",
@@ -5377,7 +5853,9 @@
           "As a purely academic achievement"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Westover frames education as \"self-creation\" — the process of acquiring enough knowledge to construct your own identity rather than having it imposed. This framing elevates education from credential-seeking to a fundamental act of becoming a self-determining person."
       },
       {
         "id": "b20-q28",
@@ -5391,7 +5869,9 @@
           "Conflicts about her career choices"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "character",
+        "explanation": "As Tara developed her own account of Shawn's abuse, her family increasingly rejected her narrative — calling her a liar, questioning her sanity, ultimately requiring her to choose between her truth and her family. Education had given her the tools to articulate what happened, making silence impossible."
       },
       {
         "id": "b20-q29",
@@ -5405,7 +5885,9 @@
           "He teaches her about the Holocaust"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Professor Kerry, a Brigham Young University academic, recognised Tara's exceptional ability and actively mentored her toward graduate study. He helped her apply for the Gates Cambridge Scholarship and believed in her potential before she believed in it herself."
       },
       {
         "id": "b20-q30",
@@ -5419,7 +5901,9 @@
           "That self-education is always superior"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Tara's trajectory — from no formal education to a Cambridge PhD — demonstrates that the capacity for learning is not primarily determined by formal schooling. But her story also insists on access: without Tyler's example, the ACT textbooks, and eventually a university library, her intelligence alone would not have been sufficient."
       },
       {
         "id": "b20-q31",
@@ -5433,7 +5917,9 @@
           "They support her writing of the memoir"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Tara's family presented her with a stark choice: accept their version of events — including their denial of Shawn's abuse — and maintain family membership, or insist on her own account and be permanently excommunicated from the family."
       },
       {
         "id": "b20-q32",
@@ -5447,7 +5933,9 @@
           "That Tara hates her family"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "This phrase — which Westover describes arriving at slowly — refuses the binary between love and leaving. It acknowledges that family estrangement need not require hatred, and that grieving a relationship one must nonetheless leave is a form of love, not its absence."
       },
       {
         "id": "b20-q33",
@@ -5461,7 +5949,9 @@
           "A criticism of religion"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "Educated is a universal story because self-creation — the struggle to construct one's own identity against an imposed one — is a broadly human experience. The extreme conditions of Tara's upbringing make visible a process that, in less dramatic form, is part of every life."
       },
       {
         "id": "b20-q34",
@@ -5475,7 +5965,9 @@
           "She pretends her past never happened"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "One of the memoir's most mature achievements is its refusal to resolve the contradiction between Tara's genuine love for her family and the mountain and her recognition that she cannot remain within them. She holds both truths simultaneously without collapsing one into the other."
       },
       {
         "id": "b20-q35",
@@ -5489,7 +5981,9 @@
           "The education she would have received if she had gone to school normally"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "\"Educated\" carries both its conventional meaning (academic achievement) and Westover's expanded meaning (self-creation through knowledge). The title suggests that the deepest education is not the acquisition of facts but the transformation of the self who does the knowing."
       },
       {
         "id": "b20-q36",
@@ -5503,7 +5997,9 @@
           "She ignores the problem of memory entirely"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Westover's memoir is unusually self-aware about memory's unreliability: she includes footnotes noting where her siblings' recollections differ from hers, and explicitly acknowledges that she cannot always be certain of her own account. This epistemological honesty is itself a product of her education."
       },
       {
         "id": "b20-q37",
@@ -5517,7 +6013,9 @@
           "That family is the only valid community"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "theme",
+        "explanation": "The memoir explores the profound human need for belonging — and the cost when a community requires you to deny your own reality as the price of membership. Tara's story argues that genuine community must be able to hold truth, not suppress it."
       },
       {
         "id": "b20-q38",
@@ -5531,7 +6029,9 @@
           "That public schools are better than private ones"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Tara's story raises difficult questions about children's rights: should children's access to education be contingent on parental beliefs? The memoir implicitly argues that educational access is a children's right that society should protect, not a parental prerogative to grant or withhold."
       },
       {
         "id": "b20-q39",
@@ -5545,7 +6045,9 @@
           "It follows a traditional narrative arc with a clear happy ending"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Educated follows the classic Bildungsroman arc — from dependent, world-defined childhood through a series of transformative encounters to an independent adult self — but its extreme circumstances make the process visible with unusual clarity and intensity."
       },
       {
         "id": "b20-q40",
@@ -5559,65 +6061,75 @@
           "That family relationships should always come first"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The memoir's argument about education is both personal and universal: becoming educated is not just about acquiring knowledge but about acquiring the right to construct your own reality. This right — to question, evaluate, and decide what is true — should not depend on who your parents are."
       }
     ],
     "writing_prompts": [
       {
         "id": "b20-wp1",
         "chapter_id": "b20-ch1",
-        "prompt": "Tara grew up completely outside mainstream society and education. What was gained and what was lost by her unusual upbringing? Consider both sides honestly.",
+        "prompt": "Westover grew up outside every mainstream institution — no school, no doctors, no state records. Critically evaluate what was gained and lost by her unusual upbringing. What does her story suggest about the relationship between institutional education and intellectual development?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp2",
         "chapter_id": "b20-ch1",
-        "prompt": "Tara's family had a very different relationship with the government and mainstream institutions than most Americans. What are the benefits and dangers of extreme self-sufficiency and distrust of institutions?",
+        "prompt": "Gene Westover's survivalism was built on distrust of government institutions. Analyse the relationship between ideological belief and the welfare of children in the memoir. At what point do parental beliefs become a harm to children's development? Use evidence from the text to construct your argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp3",
         "chapter_id": "b20-ch2",
-        "prompt": "Tara's family denied her abuse was happening. How can people who love someone still harm them? What does it take to acknowledge difficult truths about people we love?",
+        "prompt": "Tara's family denied that Shawn's abuse was happening, forcing her to choose between her own perceptions and family belonging. Analyse the psychological mechanism of gaslighting as it operates in the memoir. What does the text argue about the relationship between truth, power, and the construction of family reality?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp4",
         "chapter_id": "b20-ch2",
-        "prompt": "Have you ever been told that your memory of an event was wrong? How did that feel? What does it mean when people cannot agree on what happened?",
+        "prompt": "Memory is a central problem in Educated. Westover acknowledges throughout that her siblings remember events differently and that she cannot always be certain of her own recollections. Evaluate how this epistemological uncertainty shapes the memoir as a form. What does it mean to write a memoir under conditions of disputed memory?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp5",
         "chapter_id": "b20-ch3",
-        "prompt": "Tara taught herself to pass the ACT exam with almost no formal preparation. What does her success demonstrate about human capacity for learning? What was still missing despite her intelligence?",
+        "prompt": "Tara describes education as \"self-creation\" — using knowledge to construct who you are. Critically evaluate this claim. In what sense is education formative rather than merely informational? Use evidence from the memoir and your own experience to develop your argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp6",
         "chapter_id": "b20-ch3",
-        "prompt": "Tara describes education as 'self-creation' — using knowledge to construct who you are. Do you think of your own education this way? How has what you've learned changed who you are?",
+        "prompt": "Westover frames education not primarily as a route to credentials but as the acquisition of the capacity to question and evaluate. Analyse how this shift in Tara's relationship to knowledge — from accepting given truths to constructing her own — is depicted in the memoir. What specific moments mark the transition?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp7",
         "chapter_id": "b20-ch4",
-        "prompt": "Tara was forced to choose between her family and her sense of truth. Is it possible to love your family and still leave them? What would you do in her situation?",
+        "prompt": "Tara writes that \"you can love someone and still choose to say goodbye.\" Critically evaluate this claim as it applies to the memoir's ending. Is Tara's estrangement from her family a failure or an achievement? What does her decision reveal about the relationship between self-determination and familial love?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b20-wp8",
         "chapter_id": "b20-ch4",
-        "prompt": "What does 'Educated' say about who deserves access to education? What barriers exist in your own community that prevent people from getting the education they deserve?",
+        "prompt": "Educated raises fundamental questions about children's rights to education regardless of their parents' beliefs. Construct a carefully argued response to the following: should a society guarantee all children access to education even against their parents' wishes? Use Tara's story and your own reasoning to support your position.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       }
     ]
   },
@@ -5669,7 +6181,9 @@
           "Latin 'essentia' meaning truth"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "\"Essay\" derives from the French \"essai\" — Montaigne's word for his attempts or tries. The etymology is philosophically significant: the essay is not a demonstration of knowledge already possessed but an attempt to think something through."
       },
       {
         "id": "b21-q2",
@@ -5683,7 +6197,9 @@
           "Benjamin Franklin"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Michel de Montaigne (1533-1592) is credited with inventing the personal essay as a literary form. His Essais (1580) were explorations of his own experience and thought — a genre of intellectual self-examination that influenced all subsequent essayists."
       },
       {
         "id": "b21-q3",
@@ -5697,7 +6213,9 @@
           "Essays are only written for academic purposes"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The essay's defining characteristic is the combination of personal perspective with intellectual inquiry and argumentation. Unlike journalism (reporting), fiction (narrative), or academic writing (impersonal argument), the essay owns its subjectivity as part of its method."
       },
       {
         "id": "b21-q4",
@@ -5711,7 +6229,9 @@
           "A question the essay will answer"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "vocabulary",
+        "explanation": "A thesis is the central arguable claim of an essay — specific enough to be contested, clear enough to guide the reader, and broad enough to require sustained evidential support. Without a genuine thesis, an essay becomes a report or a description."
       },
       {
         "id": "b21-q5",
@@ -5725,7 +6245,9 @@
           "Persuasive essays are shorter"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Expository writing explains, informs, or describes without taking a position; persuasive writing argues a specific claim and attempts to move the reader to agreement. In practice many academic essays combine both — explaining in order to persuade."
       },
       {
         "id": "b21-q6",
@@ -5739,7 +6261,9 @@
           "An essay written in first person only"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "The personal essay uses the particulars of individual experience as a lens for exploring broader questions. The \"I\" of a personal essay is not just autobiography — it is a method, using the personal to reach the general."
       },
       {
         "id": "b21-q7",
@@ -5753,7 +6277,9 @@
           "To define all key terms"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "An effective introduction establishes context, hooks the reader's attention, and ends with a thesis that makes the essay's argumentative direction clear. It promises the reader what the essay will do — and the rest of the essay must deliver on that promise."
       },
       {
         "id": "b21-q8",
@@ -5767,7 +6293,9 @@
           "That essays are always about current events"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Heilker's claim that the essay is \"active\" rather than \"passive\" challenges the common student view of the essay as a container for pre-formed ideas. Writing is itself a mode of thinking — the essay is not a record of completed thought but the process of thinking in progress."
       },
       {
         "id": "b21-q9",
@@ -5781,7 +6309,9 @@
           "Because essays are the oldest form of writing"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "inference",
+        "explanation": "Academic inquiry requires the ability to construct arguments, evaluate evidence, and engage with alternative views — all skills the essay form demands. The essay is not merely a format for displaying learning; it is the practice of scholarly thinking."
       },
       {
         "id": "b21-q10",
@@ -5795,7 +6325,9 @@
           "The loudness of the writing"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Voice is not merely a vocabulary term but a craft concept: it describes the distinctive stylistic choices — diction, syntax, tone, and perspective — that make a writer recognisable. Understanding voice is essential for C1-level writers who must develop an authoritative academic register while maintaining authentic expression, rather than producing generic, anonymous prose."
       },
       {
         "id": "b21-q11",
@@ -5809,7 +6341,9 @@
           "Introduction, middle, and three conclusions"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "The five-paragraph essay structure — introduction with thesis, three body paragraphs, conclusion — provides a clear scaffold for beginning writers. Its limitations as a final form are widely noted, but as a model for argumentative organisation it remains pedagogically useful."
       },
       {
         "id": "b21-q12",
@@ -5823,7 +6357,9 @@
           "A sentence that introduces a new topic"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "A topic sentence announces the paragraph's central claim and its relationship to the overall thesis. Without strong topic sentences, paragraphs lose direction and readers lose track of the argument's logical progress."
       },
       {
         "id": "b21-q13",
@@ -5837,7 +6373,9 @@
           "Using formal vocabulary throughout"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "Coherence describes the quality of ideas flowing logically through an essay — not just within paragraphs but between them. A coherent essay makes the logical connections between its parts explicit, guiding readers through the argument without forcing them to construct the connections themselves."
       },
       {
         "id": "b21-q14",
@@ -5851,7 +6389,9 @@
           "To list all sources"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "A conclusion synthesises — it does not merely summarise. It revisits the thesis in light of the evidence developed in the body and articulates the significance of the argument: why it matters, what it suggests, what questions remain."
       },
       {
         "id": "b21-q15",
@@ -5865,7 +6405,9 @@
           "The movement from one essay to another"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "Transitions are the connective tissue of an essay. They make the logical relationship between paragraphs explicit — showing whether the next idea adds, contrasts, qualifies, or develops — preventing the reader from having to infer these connections themselves."
       },
       {
         "id": "b21-q16",
@@ -5879,7 +6421,9 @@
           "Using parallel grammatical structure"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Unity requires that every sentence in a paragraph earns its place by supporting the topic sentence. Off-topic sentences fragment attention and undermine the paragraph's argumentative contribution to the whole."
       },
       {
         "id": "b21-q17",
@@ -5893,7 +6437,9 @@
           "Summary is more valuable than analysis in academic writing"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "Summary reports what a source says; analysis interprets its significance, evaluates its logic, and explains how it supports your argument. The shift from summary to analysis is the most important intellectual transition in academic writing development."
       },
       {
         "id": "b21-q18",
@@ -5907,7 +6453,9 @@
           "Avoiding technical language always"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Audience awareness is a rhetorical craft skill, not simply a definition. Effective writers constantly calibrate register, evidence selection, and argument framing based on what their audience already knows and values. Recognising this as a craft decision rather than a checklist item distinguishes skilled academic writers from those who produce one-size-fits-all prose."
       },
       {
         "id": "b21-q19",
@@ -5921,7 +6469,9 @@
           "An acronym for grammar rules"
         ],
         "correct": 0,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "PEEL — Point, Evidence, Explanation, Link — is a paragraph framework. Point states the claim; Evidence provides support; Explanation interprets the evidence; Link connects the paragraph back to the thesis. It systematises the analytical movement that strong paragraphs make naturally."
       },
       {
         "id": "b21-q20",
@@ -5935,7 +6485,9 @@
           "Revising is only for advanced writers"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "Revision addresses large-scale issues — argument, structure, development, clarity of thought. Proofreading addresses surface-level correctness — grammar, spelling, punctuation. Writers who skip revision and move directly to proofreading polish the surface of an essay that may have no strong argument underneath."
       },
       {
         "id": "b21-q21",
@@ -5949,7 +6501,9 @@
           "Claims are opinions; evidence is always scientific"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Distinguishing claim from evidence is a foundational argumentation craft skill. A claim is what you assert to be true; evidence is the specific data, example, or quotation that substantiates it. Conflating the two — offering opinions as proof, or quoting without connecting to an argument — is among the most common weaknesses in academic writing at this level."
       },
       {
         "id": "b21-q22",
@@ -5963,7 +6517,9 @@
           "An error in your reasoning"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Addressing the strongest objection to your thesis demonstrates intellectual honesty and strengthens your argument: it shows you have considered alternative views and that your position survives engagement with them. Ignoring counterarguments makes an essay seem naive."
       },
       {
         "id": "b21-q23",
@@ -5977,7 +6533,9 @@
           "Three types of audience"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "Aristotle's three rhetorical appeals remain the foundational vocabulary for persuasion. Ethos (credibility) establishes the author's trustworthiness; pathos (emotion) engages the audience's feelings; logos (logic) constructs the rational case. Effective argument typically requires all three."
       },
       {
         "id": "b21-q24",
@@ -5991,7 +6549,9 @@
           "A type of counterargument"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "A logical fallacy is an error in reasoning that invalidates an argument regardless of its content. Recognising fallacies — ad hominem (attacking the person), straw man (misrepresenting the opponent's view), false dilemma (presenting only two options) — is essential for both constructing and evaluating arguments."
       },
       {
         "id": "b21-q25",
@@ -6005,7 +6565,9 @@
           "Primary sources are always older"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Primary sources are original materials — literary texts, experimental data, historical documents, interviews. Secondary sources are analyses or interpretations of primary sources. Academic argument typically involves using secondary sources to contextualise interpretation of primary sources."
       },
       {
         "id": "b21-q26",
@@ -6019,7 +6581,9 @@
           "Getting high grades"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Academic integrity requires proper attribution of all sources. Plagiarism — presenting others' work as your own — violates the fundamental scholarly principle that ideas have authors and credit must be given. It also undermines the epistemic community that academic work depends on."
       },
       {
         "id": "b21-q27",
@@ -6033,7 +6597,9 @@
           "Language that attacks opposing views"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "vocabulary",
+        "explanation": "Hedging language — \"suggests,\" \"appears to indicate,\" \"may be interpreted as\" — is not weakness but precision: it accurately represents the limits of one's evidence. Over-claiming (asserting more than evidence supports) is a more serious academic flaw than appropriately qualified claims."
       },
       {
         "id": "b21-q28",
@@ -6047,7 +6613,9 @@
           "A conclusion technique"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "craft",
+        "explanation": "Synthesis is among the most demanding academic writing craft skills: it requires not just summarising multiple sources but integrating their arguments into a coherent analytical position. Unlike summary, which reports what sources say, synthesis uses sources as tools to build a new argument — weaving together convergences, tensions, and gaps to produce original academic thinking. This is a key skill assessed at C1 level."
       },
       {
         "id": "b21-q29",
@@ -6061,7 +6629,9 @@
           "Academic writing requires specific length"
         ],
         "correct": 1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "question_type": "inference",
+        "explanation": "Qualification is an intellectual virtue: it demonstrates awareness of the limits of one's argument and strengthens credibility by showing you will not overstate. Unqualified sweeping claims invite easy refutation; properly qualified claims are more defensible and more intellectually honest."
       },
       {
         "id": "b21-q30",
@@ -6075,7 +6645,9 @@
           "Evidence that is surprising or unusual"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Strong evidence is simultaneously specific (concrete, not vague), relevant (directly related to the claim), credible (from reliable, appropriate sources), and sufficient (enough to actually support the claim). Weak evidence fails one or more of these criteria."
       },
       {
         "id": "b21-q31",
@@ -6089,7 +6661,9 @@
           "Using the wrong format"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Summary-heavy writing — cataloguing what sources say without analysing their significance — is the most diagnostic feature of developing academic writers. It indicates that the writer has not yet understood that the essay's job is to argue, not to report."
       },
       {
         "id": "b21-q32",
@@ -6103,7 +6677,9 @@
           "Showing is only for fiction writing"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "\"Showing\" provides concrete details that allow readers to construct meaning; \"telling\" states the meaning directly. Strong academic writing strategically combines both: it shows (evidence, examples) and then tells (analysis, interpretation), but never merely tells without showing."
       },
       {
         "id": "b21-q33",
@@ -6117,7 +6693,9 @@
           "Including all the essay's main points in the first paragraph"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Common bad openings — dictionary definitions, \"Since the beginning of time,\" restating the prompt — signal an absence of argumentative confidence. Effective introductions open with something that creates genuine intellectual engagement and signal the essay's specific analytical direction."
       },
       {
         "id": "b21-q34",
@@ -6131,7 +6709,9 @@
           "Writing only one sentence per paragraph"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "vocabulary",
+        "explanation": "Concision is the discipline of expressing ideas in as few words as necessary without sacrificing precision or clarity. Wordiness — padding, redundancy, circumlocution — weakens academic writing by obscuring the argument and straining the reader's patience."
       },
       {
         "id": "b21-q35",
@@ -6145,7 +6725,9 @@
           "A requirement for publication only"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "Peer review places writers in the role of critical readers — developing the ability to evaluate arguments, structure, and evidence in others' writing, which transfers back to their own. It also normalises the process of external critique as a constitutive part of academic work."
       },
       {
         "id": "b21-q36",
@@ -6159,7 +6741,9 @@
           "Because it improves grammar only"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "The first draft is for discovery — finding what you actually think. Subsequent drafts are for making that thinking clear, organised, and evidentially supported. Writers who treat the first draft as final produce essays that have been typed but not written."
       },
       {
         "id": "b21-q37",
@@ -6173,7 +6757,9 @@
           "Avoiding the use of 'I'"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "comprehension",
+        "explanation": "Active voice — the subject performs the action — produces clearer, more direct, and more energetic sentences than passive voice. Academic writing that overuses passive voice (\"It was found that,\" \"It is argued that\") obscures agency and produces a falsely impersonal tone."
       },
       {
         "id": "b21-q38",
@@ -6187,7 +6773,9 @@
           "It is only useful for long essays"
         ],
         "correct": 1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "question_type": "comprehension",
+        "explanation": "An outline forces the writer to solve the argument's structural problems before writing, not during or after. It reveals whether each paragraph has a clear claim, whether the claims build on each other logically, and whether evidence is distributed appropriately — saving significant revision time."
       },
       {
         "id": "b21-q39",
@@ -6201,7 +6789,9 @@
           "To summarize other people's ideas"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "craft",
+        "explanation": "Developing an idea means not abandoning it after introduction. The full sequence — claim, evidence, explanation of how evidence supports the claim, significance — ensures that each analytical move is completed. Underdevelopment (mentioning and moving on) is a form of intellectual incompleteness."
       },
       {
         "id": "b21-q40",
@@ -6215,65 +6805,75 @@
           "Use of sophisticated vocabulary"
         ],
         "correct": 1,
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "question_type": "theme",
+        "explanation": "The essay's essential quality is argumentative coherence: a clear claim, supported by specific evidence, developed through analytical reasoning, and organised so that the logical connections are transparent. Surface correctness matters, but it cannot substitute for a genuine argument."
       }
     ],
     "writing_prompts": [
       {
         "id": "b21-wp1",
         "chapter_id": "b21-ch1",
-        "prompt": "What is the difference between writing a description of something and making an argument about it? Write a paragraph that describes a place or experience, then write a thesis that would turn it into an academic essay.",
+        "prompt": "Heilker describes the essay as historically rooted in Montaigne's \"attempts\" — explorations rather than demonstrations. How does this origin shape the essay as a form? Analyse how the tension between personal exploration and argumentative rigour operates in academic essay writing. Is this tension productive or problematic?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp2",
         "chapter_id": "b21-ch1",
-        "prompt": "Heilker says the essay is an 'attempt' — a process of exploration rather than a finished argument. When have you discovered what you think by writing about it, rather than writing down what you already knew?",
+        "prompt": "The claim that writing is itself a form of thinking — not just a record of thoughts already formed — has significant implications for academic practice. Critically evaluate this claim. How does the process of drafting and revising produce ideas that did not exist before writing began? What are the implications for how students should approach essay assignments?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp3",
         "chapter_id": "b21-ch2",
-        "prompt": "Take a simple claim — 'Education is important' — and improve it into a strong academic thesis statement. Then write a paragraph that supports it with specific evidence and analysis.",
+        "prompt": "A thesis must be arguable, specific, and significant. Take the following weak thesis — \"Education is important for success\" — and develop it through at least three stages of revision into a strong academic claim. At each stage, explain what you changed and why. Then write a single body paragraph that would support your final thesis, following the PEEL structure.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp4",
         "chapter_id": "b21-ch2",
-        "prompt": "Explain the difference between summary and analysis. Take a paragraph from a book you've read in this class and write a brief analysis of it — not a summary of what it says, but an interpretation of what it means.",
+        "prompt": "The distinction between summary and analysis is often described as the most important threshold in academic writing development. Construct a detailed explanation of this distinction, using a specific example from a text you have studied in this course. Then analyse why students tend to default to summary and what strategies can develop the habit of genuine analytical engagement.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp5",
         "chapter_id": "b21-ch3",
-        "prompt": "Choose a position on a topic you care about. Write a brief argument that includes a claim, evidence, and an acknowledgment of the strongest counterargument — and then respond to that counterargument.",
+        "prompt": "Construct a short but complete academic argument (claim, evidence, counterargument, rebuttal) on a topic of your choice. After writing it, analyse your own argument: how effectively did you address the counterargument? Did engaging with the objection strengthen or weaken your position? What does this exercise reveal about argumentation as a process?",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp6",
         "chapter_id": "b21-ch3",
-        "prompt": "Identify a logical fallacy (ad hominem, straw man, false dilemma, etc.) in a real argument you have heard — in politics, advertising, or everyday conversation. Explain what the fallacy is and why it is misleading.",
+        "prompt": "Identify a logical fallacy — ad hominem, straw man, false dilemma, appeal to authority, slippery slope — in a real argument from public discourse (political speech, media commentary, advertising). Provide the context, identify the fallacy, and explain precisely why it is a fallacy and what effect it has on the quality of the argument.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp7",
         "chapter_id": "b21-ch4",
-        "prompt": "Write the introduction for an academic essay on a topic of your choice. It should include a hook, context, and a clear thesis statement. Then explain the choices you made in constructing it.",
+        "prompt": "Write the introduction for an academic essay arguing a specific claim about one of the books you have read in this course. Your introduction should include a substantive hook, context that establishes the stakes of the argument, and a thesis statement that is arguable, specific, and analytically interesting. Then annotate your own introduction, explaining the rhetorical purpose of each element.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       },
       {
         "id": "b21-wp8",
         "chapter_id": "b21-ch4",
-        "prompt": "What is the most valuable writing skill you have developed so far in your academic studies? How have you developed it, and what do you still want to improve?",
+        "prompt": "Evaluate your own development as an academic writer over the course of this programme. What specific writing skills have improved most significantly? What is the most important insight you have gained about what makes academic writing effective? Identify one specific area for further development and propose a concrete strategy for addressing it.",
         "word_count_min": 200,
-        "word_count_max": 400
+        "word_count_max": 400,
+        "word_count": "180-220"
       }
     ]
   }

@@ -2,237 +2,231 @@
   "id": "lesson-64",
   "unit_id": 11,
   "lesson_number": 2,
-  "title": "Conference Presentations and Academic Speaking",
-  "level": "proficient",
-  "estimated_time": 45,
+  "title": "Workplace Communication: Email, Tone, and Professional Register",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Deliver compelling conference presentations",
-    "Respond to academic questions professionally",
-    "Engage in scholarly discussions",
-    "Navigate Q&A sessions effectively"
+    "Distinguish between register levels in professional written communication and deploy each with precision",
+    "Construct formal emails that achieve communicative goals while managing relational dynamics",
+    "Analyse how tone, word choice, and sentence structure signal professional authority and respect",
+    "Evaluate a range of workplace emails for appropriateness, identifying and correcting register mismatches"
   ],
-  "target_phrases": [
-    "My presentation addresses...",
-    "The theoretical framework underpinning this research...",
-    "That's an insightful question that speaks to...",
-    "I'd like to push back gently on that assumption...",
-    "The data are preliminary, but suggest...",
-    "This finding aligns with/contradicts previous work by...",
-    "Future iterations of this study will examine..."
+  "authentic_text": {
+    "title": "A Director-Level Email on Project Escalation",
+    "type": "formal email",
+    "text": "Subject: Escalation — Meridian Account: Revised Delivery Schedule\n\nDear Sarah,\n\nI am writing to bring to your attention a development on the Meridian account that I believe warrants discussion at director level before we communicate further with the client.\n\nAs you will be aware, the original delivery schedule committed us to a phased rollout concluding by 14 March. Following an internal review conducted earlier this week, it has become apparent that fulfilling this commitment as originally scoped will not be feasible without compromising the quality standards we have agreed with the client. The primary driver of this slippage is the delay in receiving finalised technical specifications from the client's engineering team — a delay that, I should note, is documented in our project correspondence.\n\nI would like to propose that we arrange a brief call today or tomorrow to align on our position before the scheduled client review on Thursday. Specifically, I am seeking your guidance on two points: first, whether to proactively disclose the revised timeline to the client in advance of Thursday's meeting, and second, how to frame the cause of the delay in a manner that is both accurate and constructive.\n\nI am conscious that this is a commercially sensitive situation and that the manner in which we communicate the change will have implications for the ongoing relationship. I have drafted a proposed client communication that I can share ahead of our call, should that be helpful.\n\nPlease let me know your availability.\n\nKind regards,\nMarcus Webb\nSenior Programme Manager",
+    "source": "Illustrative professional correspondence, modelled on escalation protocols in mid-to-large professional services firms",
+    "notes": "The email exemplifies the 'escalation' genre: it is simultaneously informative, advisory, and deferential, deploying passive constructions and nominalisations to soften potentially unwelcome news."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What two specific questions is Marcus seeking his director's guidance on?",
+      "answer": "First, whether to proactively disclose the revised timeline to the client before Thursday's meeting; second, how to frame the cause of the delay in a manner that is accurate but constructive."
+    },
+    {
+      "type": "inference",
+      "question": "What does Marcus imply by noting that the client's delay 'is documented in our project correspondence'?",
+      "answer": "Marcus implies that the company has a written record that places responsibility for the slippage with the client's engineering team, which could be important for managing the client relationship or any future dispute."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the email and identify two specific phrases that establish this tone.",
+      "answer": "The tone is professional, deferential, and diplomatically cautious. 'I would like to propose' (rather than 'I suggest we') and 'I am seeking your guidance' both signal that Marcus is consciously positioning himself as a subordinate seeking approval, not issuing instructions."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'slippage' in the third paragraph is closest in meaning to:",
+      "answer": "A delay or failure to meet a planned schedule or target. In project management contexts, 'slippage' specifically refers to the gap between a planned and actual timeline."
+    },
+    {
+      "type": "purpose",
+      "question": "What is Marcus's main purpose in writing this email, beyond simply reporting the problem?",
+      "answer": "Marcus wants to align with his director on a communication strategy before the client meeting, ensuring the company presents a unified and carefully managed position. He is also, subtly, establishing a documented record that the delay originated with the client."
+    }
   ],
-  "dialogue": {
-    "title": "Preparing for Academic Conference",
-    "context": "Ahmed prepares to present his research at a national logistics conference, practicing with his advisor.",
-    "lines": [
-      {"speaker": "Advisor", "text": "You have 15 minutes to present, plus 10 for Q&A. How will you structure it?"},
-      {"speaker": "Ahmed", "text": "My presentation addresses the relationship between supply chain sustainability and long-term profitability. I'll spend 3 minutes on literature review, 5 on methodology, 5 on findings, and 2 on implications."},
-      {"speaker": "Advisor", "text": "Good pacing. Remember your audience - logistics professionals and scholars. How will you frame the theoretical framework?"},
-      {"speaker": "Ahmed", "text": "The theoretical framework underpinning this research draws from stakeholder theory and resource-based view of the firm. I'll explain how sustainability creates competitive advantage through operational efficiency and reputation."},
-      {"speaker": "Advisor", "text": "Perfect. Now, let's practice Q&A. I'll ask a challenging question: 'Isn't your sample biased toward companies already committed to sustainability?'"},
-      {"speaker": "Ahmed", "text": "That's an insightful question that speaks to selection bias concerns. You're right that companies volunteering data may differ systematically. However, I controlled for this by comparing early adopters to late adopters and found similar patterns, suggesting the relationship holds across adoption motivations."},
-      {"speaker": "Advisor", "text": "Excellent acknowledgment and response. What if someone says: 'Correlation doesn't prove causation. How do you know sustainability caused profitability rather than vice versa?'"},
-      {"speaker": "Ahmed", "text": "I'd like to push back gently on that assumption - I actually agree causation isn't established definitively. The data are preliminary, but suggest the temporal sequence supports sustainability preceding profitability improvements. This finding aligns with longitudinal work by Martinez (2023), though contradicts cross-sectional studies showing reverse causation."},
-      {"speaker": "Advisor", "text": "Perfect nuanced response. What about limitations?"},
-      {"speaker": "Ahmed", "text": "I'll proactively address limitations: the study focuses on large corporations, results may not generalize to SMEs. Future iterations of this study will examine how firm size moderates these relationships and employ quasi-experimental designs to strengthen causal claims."},
-      {"speaker": "Advisor", "text": "That's scholarly maturity - acknowledging limitations while defending your contribution. You're ready."}
+  "language_analysis": {
+    "focus": "Passive Voice in Professional Reports and Emails",
+    "explanation": "The passive voice is a grammatical construction in which the object of an action is made the subject of the sentence, and the agent (the person performing the action) is either moved to a by-phrase or omitted entirely. In professional writing, passive constructions serve several strategic functions that active voice cannot replicate.\n\nFirst, the passive depersonalises unwelcome information, distributing or obscuring agency in a way that reduces direct blame. Compare 'The client's engineering team caused the delay' (active, accusatory) with 'The delay has arisen following the late receipt of technical specifications' (passive, neutral). Second, the passive signals formality: passive constructions are associated with institutional, official, and report-style discourse. Third, where the agent is genuinely unknown or irrelevant, the passive is simply the most precise option: 'The decision was taken at board level' focuses attention on the decision itself rather than on who made it.\n\nHowever, overuse of the passive creates writing that is opaque and evasive. Skilled professional writers use the passive selectively — where it achieves a specific effect — and revert to active voice when clarity and directness are more important. The escalation email above uses passive constructions strategically at key moments of potential tension, while using active voice elsewhere to maintain engagement and accountability.",
+    "examples": [
+      {
+        "from_text": "it has become apparent that fulfilling this commitment as originally scoped will not be feasible",
+        "analysis": "The impersonal construction 'it has become apparent' avoids specifying who discovered the problem or when, which might imply negligence. The passive-adjacent structure ('will not be feasible') further softens the admission of failure by treating infeasibility as an objective condition rather than a decision."
+      },
+      {
+        "from_text": "a delay that, I should note, is documented in our project correspondence",
+        "analysis": "'Is documented' is a passive construction that presents the evidence of the client's responsibility as an objective fact on record, rather than as an accusation being made by Marcus. This is strategically important: it protects the company without appearing adversarial."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The budget approval has been withheld pending the completion of the risk assessment.",
+        "informal": "Someone decided to hold the budget until the risk stuff gets done."
+      },
+      {
+        "formal": "It has been decided that the project timeline will be extended by two weeks.",
+        "informal": "We're pushing the deadline back by two weeks because things went wrong."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Opening presentations",
-      "pattern": "My presentation addresses [topic/question]",
-      "examples": [
-        "My presentation addresses the gap between theoretical models and empirical findings in organizational behavior.",
-        "My presentation addresses how cultural context mediates the effectiveness of educational interventions.",
-        "My presentation addresses methodological challenges in measuring complex social phenomena.",
-        "My presentation addresses the implications of recent policy changes for vulnerable populations.",
-        "My presentation addresses contradictory findings in the literature regarding this relationship."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Responding to questions",
-      "pattern": "That's an insightful question that speaks to [acknowledge issue]",
-      "examples": [
-        "That's an insightful question that speaks to generalizability concerns I should address more explicitly.",
-        "That's an excellent point that speaks to alternative explanations I need to consider.",
-        "That's a fair critique that speaks to limitations of observational research design.",
-        "That's an important question that speaks to practical implementation challenges.",
-        "That's a thoughtful observation that speaks to theoretical tensions I'm still resolving."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Respectful disagreement",
-      "pattern": "I'd like to push back gently on [position], because [reasoning]",
-      "examples": [
-        "I'd like to push back gently on that interpretation, because alternative explanations seem more parsimonious.",
-        "I'd like to respectfully disagree with that characterization, because my data suggest a different pattern.",
-        "I'd like to push back gently on that assumption, because it conflates correlation with causation.",
-        "I'd like to challenge that conclusion respectfully, because it overlooks important contextual factors.",
-        "I'd like to offer a different perspective, because that framework may not apply in this context."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit11-lesson2-listen1.mp3",
-      "transcript": "Academic presentations require balancing accessibility with rigor. Know your audience - specialist conference versus interdisciplinary forum requires different approaches. Standard structure: introduce problem and significance (why should we care?), review relevant literature briefly (what's known?), explain methodology (how did you study it?), present key findings (what did you learn?), discuss implications (so what?). Avoid reading slides - they support, don't replace, your talk. Allocate time: roughly 60% on findings and implications, 40% on setup. Practice timing obsessively.",
-      "question": "What should you allocate most time to?",
-      "options": [
-        "Literature review",
-        "Methodology details",
-        "Findings and implications",
-        "Reading acknowledgments"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit11-lesson2-listen2.mp3",
-      "transcript": "Effective Q&A demonstrates scholarly maturity. Listen carefully to the complete question before responding. If unclear, ask for clarification rather than guessing. Acknowledge valid criticism gracefully - 'That's an important limitation I should have emphasized' builds credibility. Disagree respectfully when appropriate - 'I appreciate that perspective, though my data suggest differently.' If you don't know, say so: 'That's beyond my current dataset, but it's an excellent direction for future research.' Brief answers allow more questions. Thank questioners for engaging with your work.",
-      "question": "What should you do if a question is unclear?",
-      "options": [
-        "Guess what they mean",
-        "Ignore it",
-        "Ask for clarification",
-        "Change the subject"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit11-lesson2-listen3.mp3",
-      "transcript": "Slide design matters. Avoid text-heavy slides - audiences can't read and listen simultaneously. Use visuals: graphs, models, images. One main point per slide. Minimum 24-point font. Ensure color schemes work for colorblind viewers. Cite sources on slides where you present others' work or ideas. Provide handouts for complex data tables. Save detailed methodology for backup slides you can show if asked. The best slides complement rather than duplicate your verbal presentation. You're the presentation; slides are just support.",
-      "question": "What's the main principle for slide text?",
-      "options": [
-        "Include complete paragraphs",
-        "Avoid text-heavy slides - use visuals",
-        "Use small font to fit more",
-        "Read everything on slides"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Give a 45-second conference presentation introduction for research on any topic. Include: problem statement, literature gap, your approach, and why it matters. Use academic presentation language.",
-      "example": "Good afternoon. My presentation addresses a persistent puzzle in educational psychology: why identical interventions produce vastly different outcomes across contexts. While extensive literature demonstrates that evidence-based practices improve learning, the literature reveals insufficient attention to implementation fidelity and contextual adaptation. The theoretical framework underpinning this research integrates implementation science with cultural psychology, proposing that effective interventions require both fidelity to core principles and flexibility in surface features. My study examined 50 schools implementing the same literacy program across diverse communities, using mixed methods combining quantitative outcome data with qualitative analysis of implementation processes. This finding aligns with emerging work suggesting 'principled adaptation' outperforms rigid standardization. The implications of this research are significant for both practitioners who must adapt evidence-based programs to their contexts and policymakers who design scaled interventions. This work contributes to ongoing debates about balancing research evidence with local knowledge. In the next 10 minutes, I'll present methodology, findings, and practical implications.",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Someone questions your methodology. Respond professionally: acknowledge their point, explain your reasoning, and note limitations. Record for 30 seconds.",
-      "example": "That's an insightful question that speaks to important validity concerns. You're absolutely right that self-reported data introduces potential bias. I'd like to address why I chose this approach despite that limitation. First, for measuring subjective experiences like job satisfaction, self-report remains the most direct method - no objective measure captures personal perception. However, I acknowledge the limitation and attempted to mitigate it through several strategies. I included social desirability scales to detect response bias, triangulated self-reports with behavioral data where possible, and used validated instruments with established reliability. The data are preliminary, but patterns remain consistent across multiple measurement approaches. I'd like to push back gently on the assumption that objective measures are inherently superior - they measure different constructs. That said, future iterations of this study will incorporate supervisor ratings and performance metrics to complement self-reports. Your question highlights an important tension in organizational research that deserves more methodological innovation.",
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write an abstract for a conference presentation (150-200 words max). Include: problem, approach, key finding, and significance.",
-      "min_words": 150,
-      "example": "Title: Cultural Intelligence as Mediator: Diversity's Impact on Team Innovation\n\nAbstract:\nWhile research demonstrates positive correlations between team diversity and innovation, mechanisms underlying this relationship remain unclear, and findings are inconsistent. This study addresses this gap by examining cultural intelligence (CQ) as mediator between diversity and innovation outcomes. Drawing from social identity theory and innovation research, I hypothesized that diversity's benefits materialize only when team members possess sufficient CQ to navigate differences productively.\n\nUsing mixed methods, I analyzed 85 project teams in multinational corporations over 12 months. Quantitative analysis revealed that diversity predicted innovation only in high-CQ teams; in low-CQ teams, diversity correlated with conflict without innovation gains. Qualitative data from 30 interviews illuminated mechanisms: high-CQ teams leveraged diverse perspectives through constructive discussion, while low-CQ teams experienced miscommunication and frustration.\n\nThese findings suggest practitioners should invest in CQ development alongside diversity initiatives. Theoretically, this work reconciles contradictory diversity-innovation findings by identifying a critical moderator. Future research should examine whether CQ is trainable and which training approaches prove most effective. This study contributes empirical evidence for mechanisms, not mere correlations, in diversity research.",
-      "min_words": 150
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write responses to these Q&A scenarios: 1) Someone challenges your sample size. 2) Someone asks about practical applications. (100-120 words total)",
-      "min_words": 100,
-      "example": "Q1 - Sample Size Challenge: 'That's a fair methodological concern that speaks to statistical power. My sample of 85 teams provides adequate power (0.80) to detect medium-to-large effects at p<0.05, based on prior effect size estimates. However, I acknowledge this may be underpowered for detecting small effects or complex interaction effects. Future iterations will include larger samples to enhance precision. The data are preliminary, but the pattern consistency across multiple analyses suggests robustness despite sample limitations.'\n\nQ2 - Practical Applications: 'That's an excellent question about translation to practice. The implications suggest organizations should assess cultural intelligence during team formation and provide targeted CQ training. Practically, this means incorporating CQ assessments into hiring and team composition decisions, offering intercultural communication workshops, and creating opportunities for cross-cultural collaboration. Several participating organizations have begun implementing these approaches with promising early results.'",
-      "min_words": 100
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Present Simple for Research Description",
-      "explanation": "Use present simple to describe current research and established findings.",
-      "examples": [
-        "My research examines the relationship between variables. (present)",
-        "This study addresses a gap in the literature. (present)",
-        "The findings suggest important implications. (present)",
-        "Previous research demonstrates this pattern. (present)"
-      ],
-      "practice": [
-        {"sentence": "My research ___ cultural factors.", "blank": "examines", "options": ["examine", "examines", "examined"]},
-        {"sentence": "The data ___ preliminary conclusions.", "blank": "suggest", "options": ["suggest", "suggests", "suggested"]},
-        {"sentence": "This study ___ novel methodology.", "blank": "employs", "options": ["employ", "employs", "employed"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Signposting Language for Presentations",
-      "explanation": "Use clear signposts to guide audience through presentation structure.",
-      "examples": [
-        "Let me now turn to the methodology. (transition)",
-        "This brings me to my main finding. (connection)",
-        "To summarize, three key points emerge. (conclusion)",
-        "I'll begin by outlining the theoretical framework. (preview)"
-      ],
-      "practice": [
-        {"sentence": "Let me now ___ to the findings.", "blank": "turn", "options": ["turn", "turning", "turned"]},
-        {"sentence": "This ___ me to my conclusion.", "blank": "brings", "options": ["bring", "brings", "brought"]},
-        {"sentence": "I'll ___ by explaining the context.", "blank": "begin", "options": ["begin", "begins", "began"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Tentative Language for Preliminary Findings",
-      "explanation": "Use hedging when presenting preliminary or limited data.",
-      "examples": [
-        "The data appear to suggest a pattern. (hedged)",
-        "These findings tentatively indicate a relationship. (cautious)",
-        "This may point toward an alternative explanation. (qualified)",
-        "The results seem to support the hypothesis. (hedged)"
-      ],
-      "practice": [
-        {"sentence": "The data ___ to suggest correlation.", "blank": "appear", "options": ["appear", "prove", "show definitively"]},
-        {"sentence": "This ___ indicate a pattern.", "blank": "may", "options": ["definitely", "may", "proves"]},
-        {"sentence": "Results ___ to support this view.", "blank": "seem", "options": ["prove", "seem", "demonstrate absolutely"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What should you allocate most time to in presentations?", "options": ["Literature review", "Methodology", "Findings and implications", "Acknowledgments"], "correct": 2, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What should you do if a question is unclear?", "options": ["Guess the meaning", "Ignore it", "Ask for clarification", "Change subject"], "correct": 2, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What's the main principle for slides?", "options": ["Complete paragraphs", "Avoid text-heavy slides", "Small font", "Read everything"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'My research ___ cultural factors.'", "options": ["examine", "examines", "examined", "examining"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should acknowledge valid criticism gracefully in Q&A.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Slides should duplicate everything you say verbally.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The data ___ to suggest correlation. (hedging)", "correct": "appear", "accept": ["appear", "seem", "tend"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "Let me now ___ to the findings. (signposting)", "correct": "turn", "accept": ["turn", "move"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match presentation section to time allocation:", "pairs": [{"left": "Setup (lit review, methods)", "right": "40%"}, {"left": "Findings and implications", "right": "60%"}, {"left": "Q&A", "right": "Separate time"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "How did Ahmed handle the causation question?", "options": ["Got defensive", "Agreed and explained evidence", "Changed topic", "Ignored it"], "correct": 1, "points": 10},
-      {"id": "q11", "type": "open-ended", "question": "Find and fix the grammar error: 'My research examine the relationship between culture and innovation.'", "correct": "My research examines the relationship between culture and innovation.", "accept": ["My research examines the relationship between culture and innovation."], "points": 10},
-      {"id": "q12", "type": "open-ended", "question": "Find and fix the grammar error: 'The data are preliminary, but it suggest a pattern.'", "correct": "The data are preliminary, but they suggest a pattern.", "accept": ["The data are preliminary, but they suggest a pattern."], "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error typical of advanced learners in professional contexts. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "I am writing to inform you about a change in the delivery schedule which it affects your order.",
+        "correct": "I am writing to inform you about a change in the delivery schedule which affects your order.",
+        "explanation": "The relative pronoun 'which' already functions as the subject of the relative clause. Adding 'it' creates a double subject, which is a common error in learners whose L1 uses resumptive pronouns in relative clauses."
+      },
+      {
+        "incorrect": "Please revert back to me at your earliest convenience with your decision.",
+        "correct": "Please revert to me at your earliest convenience with your decision.",
+        "explanation": "'Revert' already contains the meaning of 'going back,' so 'back' is redundant (a pleonasm). This is a common collocational error in professional email writing."
+      },
+      {
+        "incorrect": "I would appreciate if you could review the attached proposal before Friday.",
+        "correct": "I would appreciate it if you could review the attached proposal before Friday.",
+        "explanation": "The construction 'I would appreciate if' is grammatically incomplete. The pronoun 'it' is required as a placeholder object: 'I would appreciate it if you could...'"
+      },
+      {
+        "incorrect": "Further to our conversation on Monday, I am pleased to attached the revised budget.",
+        "correct": "Further to our conversation on Monday, I am pleased to attach the revised budget.",
+        "explanation": "'Pleased to' must be followed by a base infinitive ('attach'), not a past participle ('attached'). This is a register-appropriate formula in professional emails, but frequently misformed."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "framework", "definition": "conceptual structure for analysis", "example": "The theoretical framework guides analysis."},
-    {"word": "preliminary", "definition": "initial, subject to revision", "example": "These findings are preliminary."},
-    {"word": "temporal", "definition": "relating to time or sequence", "example": "Examine temporal relationships."},
-    {"word": "parsimonious", "definition": "economical in explanation", "example": "Seek parsimonious explanations."},
-    {"word": "triangulate", "definition": "use multiple methods to verify", "example": "Triangulate findings across methods."},
-    {"word": "generalizability", "definition": "applicability to other contexts", "example": "Consider generalizability limitations."},
-    {"word": "fidelity", "definition": "faithfulness to original design", "example": "Implementation fidelity varies."},
-    {"word": "iteration", "definition": "repetition with modifications", "example": "Future iterations will address this."},
-    {"word": "moderator", "definition": "variable affecting relationship strength", "example": "Culture acts as moderator."},
-    {"word": "mediator", "definition": "variable explaining relationship mechanism", "example": "Identify mediating processes."}
-  ],
-  "cultural_notes": [
-    "American academic conferences value direct, concise presentations - audiences appreciate getting to the point quickly.",
-    "Q&A is seen as collaborative knowledge-building in American academia, not hostile interrogation.",
-    "Acknowledging limitations strengthens credibility in American scholarly culture rather than undermining it.",
-    "American academics value accessible presentations even at specialized conferences - avoid unnecessary jargon.",
-    "Networking at conferences is crucial in American academic culture - attend social events and coffee breaks.",
-    "Conference presentations often lead to publication opportunities and collaborations in American academia."
+  "debate_task": {
+    "motion": "This house believes that internal workplace communication should be predominantly informal, as excessive formality creates distance and inhibits collaboration",
+    "stance": "balanced",
+    "key_arguments": [
+      "Informal communication lowers psychological barriers, encourages honest feedback, and builds the interpersonal trust that is foundational to high-performing teams.",
+      "In fast-moving industries, formal written communication slows decision-making; the agility required by modern organisations demands rapid, low-friction communication channels.",
+      "Rigid formality can be exclusionary — it favours those educated in formal writing conventions and disadvantages colleagues whose first language is not English."
+    ],
+    "counter_arguments": [
+      "Without formal records, critical decisions and agreements lack the audit trails necessary for accountability, project continuity, and legal protection.",
+      "Informal communication norms tend to disadvantage junior and marginalised employees, who may feel unable to push back informally against more powerful colleagues.",
+      "Context matters: communications with external clients, regulators, and senior leadership require formality to signal competence, respect, and institutional seriousness."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Engage substantively with the opposing arguments and use at least four of the discourse markers provided."
+  },
+  "extended_writing": {
+    "type": "formal_email",
+    "task": "You are a project manager at a software company. A key deliverable to a major client has been delayed by three weeks due to an unexpected technical issue on your team's side. Write a formal email to the client's account director, informing them of the delay, explaining the cause honestly, outlining the steps you are taking to resolve it, and proposing a revised timeline.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Opening",
+        "guidance": "Open directly — do not bury the main news. Use a subject line that signals the nature of the email without being alarmist. Acknowledge the seriousness of the situation in the opening sentence."
+      },
+      {
+        "section": "Explanation of the cause",
+        "guidance": "Explain the cause of the delay honestly and concisely. Use passive constructions where appropriate to avoid sounding accusatory, but do not be so vague that the client cannot understand what happened."
+      },
+      {
+        "section": "Steps being taken",
+        "guidance": "Describe the concrete actions your team is already taking to address the issue. This reassures the client that the situation is under active management and demonstrates professional accountability."
+      },
+      {
+        "section": "Revised timeline and closing",
+        "guidance": "Propose a specific revised delivery date. Offer to arrange a call to discuss further. Close professionally and warmly, reaffirming the value of the relationship."
+      }
+    ],
+    "model_answer": "Subject: Meridian Platform Integration — Revised Delivery Timeline\n\nDear Ms. Petrov,\n\nI am writing to inform you of an unexpected delay to the delivery of the platform integration module, which was scheduled for completion on 28 March. I want to address this directly and promptly, as I appreciate that this timeline is critical to your team's planning.\n\nDuring final integration testing this week, our engineers identified a compatibility issue between the new authentication module and your legacy database architecture — an issue that was not apparent during the scoping phase. Resolving it safely requires reworking a portion of the middleware layer, which cannot be completed to the quality standard we both expect within the original timeframe.\n\nWe have already allocated two additional senior engineers to this workstream and have suspended all non-critical tasks on this project to focus resources accordingly. A revised internal estimate suggests we will be in a position to deliver a fully tested, production-ready module by 18 April.\n\nI would very much welcome the opportunity to speak with you this week to walk through the technical details and answer any questions you may have. I understand this news is unwelcome and I want to be as transparent as possible about both the cause and our path forward.\n\nPlease accept my sincere apologies for the disruption this causes. I remain committed to delivering a solution that fully meets your requirements.\n\nKind regards,\nAhmed Hassan\nSenior Project Manager"
+  },
+  "advanced_grammar": {
+    "structure": "Inversion for Formality and Emphasis",
+    "explanation": "Inversion involves reversing the normal subject-verb order in English to achieve either formal register or strong emphasis. In standard declarative sentences, English follows Subject-Verb-Object order. Inversion places an auxiliary or negative adverbial before the subject, requiring subject-auxiliary inversion in the remaining clause.\n\nIn professional and formal written English, inversion frequently appears with negative adverbials: 'Under no circumstances,' 'Not only... but also,' 'Only when,' 'Rarely,' 'Never.' These constructions elevate the formality of a document or email significantly and signal a high level of language mastery. In formal correspondence and reports, inversion is used to add rhetorical weight to key statements, particularly those involving conditions, warnings, or emphatic assertions.",
+    "authentic_examples": [
+      "Under no circumstances should client-sensitive data be transmitted via unencrypted channels.",
+      "Not only did the team complete the project ahead of schedule, but they also delivered it under budget.",
+      "Only after all internal approvals have been obtained should the contract be presented to the client."
+    ],
+    "practice": [
+      {
+        "sentence": "You should never share confidential data with third parties without written authorisation.",
+        "transform": "Rewrite beginning with 'Under no circumstances...'",
+        "answer": "Under no circumstances should confidential data be shared with third parties without written authorisation."
+      },
+      {
+        "sentence": "The team not only met the deadline, but also exceeded the quality targets.",
+        "transform": "Rewrite using 'Not only... but also' with inversion in the first clause.",
+        "answer": "Not only did the team meet the deadline, but they also exceeded the quality targets."
+      },
+      {
+        "sentence": "We rarely encounter a situation in which all stakeholders are fully aligned from the outset.",
+        "transform": "Rewrite beginning with 'Rarely...' using inversion.",
+        "answer": "Rarely do we encounter a situation in which all stakeholders are fully aligned from the outset."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Why does Marcus use the passive construction 'it has become apparent' rather than 'I have discovered' in his email?",
+      "options": [
+        "Because passive voice is always required in formal emails",
+        "To avoid specifying who discovered the problem, which might imply negligence on his part",
+        "Because it is grammatically simpler than the active form",
+        "To make the sentence shorter and more direct"
+      ],
+      "correct": 1,
+      "explanation": "The impersonal passive 'it has become apparent' deliberately avoids specifying the agent of discovery. This protects Marcus from implying that the problem was known earlier and unreported, which might suggest negligence."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence correctly uses inversion for formal emphasis?",
+      "options": [
+        "Never we have encountered such a significant compliance failure.",
+        "Under no circumstances the contract should be signed without legal review.",
+        "Not only the project was delayed, but it also exceeded its budget.",
+        "Under no circumstances should the contract be signed without legal review."
+      ],
+      "correct": 3,
+      "explanation": "Inversion after negative adverbials requires auxiliary-subject order: 'Under no circumstances should [subject] be...' The other options fail to invert correctly."
+    },
+    {
+      "id": 3,
+      "question": "Identify the sentence that contains a professional email error:",
+      "options": [
+        "I am pleased to attach the revised schedule for your review.",
+        "I would appreciate it if you could confirm receipt by Friday.",
+        "Further to our meeting, please find the agreed action points below.",
+        "I would appreciate if you could advise on the next steps."
+      ],
+      "correct": 3,
+      "explanation": "'I would appreciate if' is grammatically incomplete. The correct form requires the placeholder object 'it': 'I would appreciate it if you could...'"
+    },
+    {
+      "id": 4,
+      "question": "What is the primary strategic function of passive voice in the sentence 'The delay has arisen following the late receipt of technical specifications'?",
+      "options": [
+        "It makes the sentence longer and more impressive",
+        "It avoids specifying the agent, thereby depersonalising responsibility without making a direct accusation",
+        "It is required by grammar because 'delay' is an abstract noun",
+        "It allows the writer to use a more formal vocabulary"
+      ],
+      "correct": 1,
+      "explanation": "The passive construction omits the agent (the client's engineering team) and presents the delay as an objective situation, which is less confrontational than a direct accusation while still protecting the company's position."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is the correct analysis of 'Please revert back to me at your earliest convenience'?",
+      "options": [
+        "The sentence is correct and appropriately formal",
+        "'Revert back' is redundant because 'revert' already means to go back; only 'revert to me' is correct",
+        "The error is using 'at your earliest convenience,' which is too informal",
+        "'Please' should be omitted in formal professional emails"
+      ],
+      "correct": 1,
+      "explanation": "'Revert' already encodes the meaning of returning or going back, making 'back' a redundant pleonasm. The correct professional form is 'Please revert to me' or 'Please respond to me.'"
+    }
   ]
 }

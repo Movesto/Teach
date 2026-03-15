@@ -2,237 +2,170 @@
   "id": "lesson-41",
   "unit_id": 7,
   "lesson_number": 3,
-  "title": "Retelling Stories",
+  "title": "Dietary Restrictions and Food Preferences",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Summarize plots effectively",
-    "Identify and explain main events",
-    "Quote dialogue appropriately",
-    "Sequence story events clearly"
+    "Communicate dietary restrictions, allergies, and religious food requirements clearly and confidently",
+    "Understand common American dietary labels including gluten-free, vegan, and halal",
+    "Ask appropriate questions about ingredients when eating out or accepting food from others",
+    "Use the second conditional to describe hypothetical food situations and preferences"
   ],
-  "target_phrases": [
-    "The story is about...",
-    "It takes place in...",
-    "The main character is...",
-    "At the beginning/middle/end...",
-    "Then something unexpected happens...",
-    "In the end...",
-    "The message of the story is..."
-  ],
-  "dialogue": {
-    "title": "Book Club Discussion",
-    "context": "Ahmed joins a workplace book club and retells the story they read to a friend who missed the meeting.",
-    "lines": [
-      {"speaker": "Carlos", "text": "Ahmed, I'm sorry I missed book club yesterday. What book did you discuss?"},
-      {"speaker": "Ahmed", "text": "We read 'The Kite Runner' by Khaled Hosseini. It's a powerful story about friendship and redemption."},
-      {"speaker": "Carlos", "text": "I've heard of it! What's it about?"},
-      {"speaker": "Ahmed", "text": "The story is about two boys in Afghanistan - Amir and Hassan. Amir comes from a wealthy family, while Hassan is a servant's son."},
-      {"speaker": "Carlos", "text": "So it's about their friendship?"},
-      {"speaker": "Ahmed", "text": "Yes, but it's complicated. At the beginning, they're very close. They fly kites together and Hassan is incredibly loyal to Amir. Then something terrible happens - Hassan is hurt, and Amir witnesses it but doesn't help."},
-      {"speaker": "Carlos", "text": "Oh no! Why doesn't he help?"},
-      {"speaker": "Ahmed", "text": "He's afraid and ashamed. After that, their friendship is destroyed. Amir carries this guilt for years. The story then jumps forward - Amir is an adult living in America when he gets a call that changes everything."},
-      {"speaker": "Carlos", "text": "What happens?"},
-      {"speaker": "Ahmed", "text": "He learns that Hassan has died, and he has a chance to make things right by helping Hassan's son. In the end, Amir returns to Afghanistan to rescue the boy, facing his past mistakes."},
-      {"speaker": "Carlos", "text": "Wow, that sounds intense. What's the message?"},
-      {"speaker": "Ahmed", "text": "I think it's about how it's never too late to do the right thing. The book shows that we can find redemption even after terrible mistakes. It really moved me."},
-      {"speaker": "Carlos", "text": "Thanks for explaining it so well! Now I definitely want to read it."}
+  "reading_passage": {
+    "title": "Eating with Confidence: Communicating Your Food Needs",
+    "text": "For many Somali newcomers, navigating food in the United States involves both cultural and religious considerations. Halal dietary requirements — which prohibit pork and require that meat be slaughtered in a specific way — are not always understood by restaurant staff or host families, and communicating these needs clearly is an important life skill.\n\nIn Portland, the number of restaurants offering halal-certified options has grown significantly, particularly in areas with larger Somali and East African communities. However, many mainstream restaurants do not carry halal meat. In these situations, diners can ask about fish, vegetarian, or egg-based dishes, which may meet their requirements. It is always appropriate to ask the server directly: 'Does this dish contain pork?' or 'Is the meat here halal-certified?'\n\nBeyond religious requirements, many Somalis and other newcomers discover new dietary preferences after arriving in the US. Some develop lactose intolerance symptoms after years without consuming much dairy. Others become vegetarian or find that certain ingredients, such as very spicy food or heavy sauces, no longer suit them.\n\nAmerican menus increasingly accommodate diverse needs. Look for labels such as 'GF' (gluten-free), 'V' (vegetarian), 'VG' (vegan), or 'contains nuts.' Grocery stores such as Halal International Market and Bilal International Halal Food in Portland stock a wide range of halal-certified meats, spices, and specialty items that make cooking familiar meals much more accessible.",
+    "source": "Adapted from community food access resources produced by the Oregon Department of Human Services and Somali Community Services of Oregon, Portland, 2023",
+    "glossary": [
+      {"word": "halal", "meaning": "permitted under Islamic law; when applied to food, it means the food meets specific preparation requirements, including the way animals are slaughtered"},
+      {"word": "certified", "meaning": "officially confirmed to meet a particular standard, usually by an independent organisation"},
+      {"word": "lactose intolerance", "meaning": "a digestive condition where a person cannot properly process lactose, a sugar found in dairy products"},
+      {"word": "vegetarian", "meaning": "a person who does not eat meat or fish, but may eat dairy and eggs"},
+      {"word": "accommodate", "meaning": "to adjust or make changes to meet someone's needs or requirements"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Introducing a story",
-      "pattern": "The story is about [summary]",
-      "examples": [
-        "The story is about a family surviving a natural disaster.",
-        "The story is about a woman starting her own business.",
-        "The story is about two friends who become enemies.",
-        "The story is about a child discovering a secret.",
-        "The story is about someone overcoming a difficult challenge."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what can diners order at restaurants that do not carry halal meat?",
+      "answer": "They can ask about fish, vegetarian, or egg-based dishes, which may meet their dietary requirements."
     },
     {
-      "id": "drill-2",
-      "focus": "Sequencing events",
-      "pattern": "At the beginning/middle/end, [event]",
-      "examples": [
-        "At the beginning, the character is happy and carefree.",
-        "In the middle, everything changes when she loses her job.",
-        "At the end, she realizes what's truly important.",
-        "At the beginning, they are strangers. By the end, they're best friends.",
-        "In the middle of the story, a secret is revealed."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say communicating food needs is 'an important life skill'?",
+      "answer": "The author implies that being able to express dietary restrictions clearly and confidently in English — whether for religious, health, or personal reasons — is essential for daily life, social situations, and safety when eating outside the home."
     },
     {
-      "id": "drill-3",
-      "focus": "Explaining story themes",
-      "pattern": "The message/theme is [lesson or idea]",
-      "examples": [
-        "The message is that family is most important.",
-        "The theme is about forgiveness and redemption.",
-        "The message is that honesty is always best.",
-        "The theme is that courage comes in many forms.",
-        "The message is about the importance of following your dreams."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'accommodate' mean in the final paragraph?",
+      "answer": "To make adjustments or changes to meet the needs of different people — in this context, restaurants accommodating diverse diets by offering labelled options like gluten-free, vegan, or vegetarian dishes."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention that some newcomers develop lactose intolerance or change their preferences after arriving in the US?",
+      "answer": "To show that dietary needs are not fixed — they can change due to new environments and diets. This reinforces the importance of being able to communicate current food needs, not just pre-existing ones."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit7-lesson3-listen1.mp3",
-      "transcript": "When retelling a story, focus on the main events, not every detail. Include: who the main characters are, where and when it takes place, the main conflict or problem, key events in order, and how it resolves. Think of it as a movie trailer - give enough information to be interesting but not every scene.",
-      "question": "What should you include when retelling a story?",
-      "options": [
-        "Every single detail",
-        "Only the ending",
-        "Main characters, setting, conflict, key events, resolution",
-        "Just your opinion"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit7-lesson3-listen2.mp3",
-      "transcript": "Use present tense when summarizing plots, even though the story is in past tense. Say 'The story is about a man who loses his job' not 'was about.' This makes the retelling more immediate and engaging. However, when discussing your experience reading it, use past tense: 'I read it last week' or 'It made me cry.'",
-      "question": "What tense should you use when summarizing plots?",
-      "options": [
-        "Always past tense",
-        "Always future tense",
-        "Present tense for the plot",
-        "It doesn't matter"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit7-lesson3-listen3.mp3",
-      "transcript": "To avoid spoilers, you can say 'then something unexpected happens' or 'there's a twist at the end' without giving details. This keeps the story interesting for people who haven't read or watched it yet. You can also ask 'Do you want to know what happens, or should I not spoil it?' before revealing major plot points.",
-      "question": "How can you avoid spoiling a story?",
-      "options": [
-        "Don't tell anything about it",
-        "Tell everything immediately",
-        "Say 'something unexpected happens' without details",
-        "Only discuss boring parts"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Retell a story from a book, movie, or TV show you enjoyed. Include the beginning, middle, and end. Don't spoil major twists! Record for 35 seconds.",
-      "example": "I recently watched a movie called 'The Pursuit of Happyness.' The story is about a man named Chris who is struggling financially. At the beginning, he's trying to sell medical equipment while taking care of his young son. Things get worse when his wife leaves and they become homeless. In the middle of the story, Chris gets an opportunity for an unpaid internship at a stock brokerage firm. Despite living in shelters and facing incredible hardships, he works harder than anyone. At the end - and I won't spoil the details - his determination pays off. The message is about never giving up on your dreams, no matter how difficult things get. It's based on a true story, which makes it even more powerful.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Summarize a traditional story or folktale from your culture. What happens and what's the lesson? Record for 30 seconds.",
-      "example": "In Somalia, we have a folktale about a clever rabbit and a proud lion. The story is about a lion who is terrorizing all the animals in the forest. The animals are afraid and don't know what to do. Then a small rabbit volunteers to deal with the lion. At first, the other animals laugh because the rabbit is so small. But the rabbit uses intelligence instead of strength. He tricks the lion into looking at his reflection in a well, making the lion think there's another lion. The lion attacks his own reflection and falls into the well. The message is that intelligence and cleverness are more powerful than strength and size.",
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a summary of a book or movie you've experienced. Include: what it's about, main events in order, and the message or theme. (90-110 words)",
-      "min_words": 90,
-      "example": "One of my favorite movies is 'Coco,' an animated film about a Mexican boy named Miguel who dreams of becoming a musician. The story is about Miguel accidentally entering the Land of the Dead on the Day of the Dead holiday. At the beginning, his family forbids music because of a painful history. In the middle, Miguel meets his deceased ancestors and learns the truth about his great-great-grandfather, who abandoned the family to pursue music. There's a beautiful twist about who his real ancestor is. At the end, Miguel returns home with a deeper understanding of family and tradition. The message is that we should honor our ancestors while also pursuing our own dreams. The film beautifully shows how family and personal passion can coexist.",
-      "min_words": 90
-    },
-    {
-      "id": "write-2",
-      "prompt": "Retell a news story or historical event as if it were a story. Include beginning, middle, and end. (70-90 words)",
-      "min_words": 70,
-      "example": "The story of the Apollo 11 moon landing is incredible. At the beginning, America and the Soviet Union were in a space race, competing to be first on the moon. In the middle of the story, NASA prepared three astronauts - Neil Armstrong, Buzz Aldrin, and Michael Collins - for this historic mission. The spacecraft launched in July 1969. There was tremendous tension during the landing - they had only seconds of fuel left. At the end, Armstrong stepped onto the moon and said his famous words: 'One small step for man, one giant leap for mankind.' The message is about human courage and achievement.",
-      "min_words": 70
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Past Tense Narrative",
-      "explanation": "Use past tense to tell what happened in a story.",
-      "examples": [
-        "The character went to the city. (simple past)",
-        "She was walking when she met him. (past continuous)",
-        "He had never seen the ocean before. (past perfect for earlier past)",
-        "They lived happily ever after. (simple past)"
-      ],
-      "practice": [
-        {"sentence": "The story ___ place in 1920.", "blank": "took", "options": ["take", "took", "takes"]},
-        {"sentence": "She ___ when the phone rang.", "blank": "was sleeping", "options": ["slept", "was sleeping", "sleeps"]},
-        {"sentence": "He ___ there before.", "blank": "had been", "options": ["was", "has been", "had been"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Reported Speech for Story Dialogue",
-      "explanation": "Use reported speech to tell what characters said without direct quotes.",
-      "examples": [
-        "She said she was tired. (reported speech)",
-        "He told her to be careful. (reported command)",
-        "They said they would help. (reported future)",
-        "She asked if he was okay. (reported question)"
-      ],
-      "practice": [
-        {"sentence": "She said she ___ happy.", "blank": "was", "options": ["is", "was", "were"]},
-        {"sentence": "He told me ___ wait.", "blank": "to", "options": ["to", "for", "that"]},
-        {"sentence": "They said they ___ come.", "blank": "would", "options": ["will", "would", "are"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Sequence Words for Story Order",
-      "explanation": "Use sequence words to show order of events in stories.",
-      "examples": [
-        "First, they met. Then, they fell in love. (sequence)",
-        "After the war, he returned home. (after + event)",
-        "Before she left, she said goodbye. (before + event)",
-        "Finally, they lived happily. (conclusion)"
-      ],
-      "practice": [
-        {"sentence": "___, they were strangers.", "blank": "At first", "options": ["At first", "Finally", "After"]},
-        {"sentence": "___ that, everything changed.", "blank": "After", "options": ["Before", "After", "Finally"]},
-        {"sentence": "___, they reunited.", "blank": "Finally", "options": ["First", "Then", "Finally"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What book did Ahmed's book club read?", "options": ["The Great Gatsby", "The Kite Runner", "To Kill a Mockingbird", "1984"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "Who are the two main characters in the story?", "options": ["Ahmed and Carlos", "Hassan and Khaled", "Amir and Hassan", "Carlos and Lisa"], "correct": 2, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does Amir do at the end of the story?", "options": ["Stays in America", "Returns to Afghanistan to help", "Becomes wealthy", "Forgets the past"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What tense should you use when summarizing a plot?", "options": ["Past tense", "Present tense", "Future tense", "Any tense"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should include every detail when retelling a story.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "It's okay to say 'something unexpected happens' to avoid spoilers.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The story ___ place in Afghanistan. (past tense: take)", "correct": "took", "accept": ["took"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "___, they were friends. (sequence word for beginning)", "correct": "At first", "accept": ["At first", "First", "Initially"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the story element:", "pairs": [{"left": "Plot", "right": "What happens"}, {"left": "Theme", "right": "Message/lesson"}, {"left": "Setting", "right": "Where/when"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "According to Ahmed, what is the book's message?", "options": ["Money is important", "It's never too late to do the right thing", "Friends are temporary", "Stay in your country"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Second Conditional for Hypothetical Food Situations",
+    "explanation": "We use the second conditional (If + past simple, would + verb) to talk about imaginary or hypothetical situations — things that are not real right now, or unlikely to happen. In food and restaurant contexts, this is useful for expressing preferences, imagining scenarios, and politely suggesting alternatives. The structure is: If + subject + past simple verb, subject + would + base verb.",
+    "examples": [
+      {
+        "sentence": "If this restaurant served halal meat, I would eat here every week.",
+        "note": "'Served' and 'would eat' — both in the second conditional. The restaurant does NOT currently serve halal meat (it's hypothetical)."
+      },
+      {
+        "sentence": "If I were allergic to nuts, I would always ask about ingredients before ordering.",
+        "note": "'Were' (not 'was') is standard in second conditional — 'If I were' is the formal/correct form, even for singular subjects."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete using second conditional: 'If this dish ___ (not contain) pork, I ___ (order) it.'",
+        "answer": "If this dish did not contain pork, I would order it. (Past simple 'did not contain' + 'would order.')"
+      },
+      {
+        "sentence": "Rewrite as second conditional: 'There are no vegetarian options here. I don't eat here often.'",
+        "answer": "If there were vegetarian options here, I would eat here more often. (Hypothetical present: 'if there were' + 'would eat.')"
+      },
+      {
+        "sentence": "Which is correct? A) If I am vegetarian, I will ask about ingredients. B) If I were vegetarian, I would ask about ingredients.",
+        "answer": "B) The second conditional uses past simple ('were') and 'would' — not present simple and 'will,' which would be first conditional."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "plot", "definition": "sequence of events in a story", "example": "The plot was very exciting."},
-    {"word": "climax", "definition": "most intense or important point in a story", "example": "The climax happens when they finally meet."},
-    {"word": "resolution", "definition": "how a story ends or concludes", "example": "The resolution was satisfying."},
-    {"word": "protagonist", "definition": "main character in a story", "example": "The protagonist is a young woman."},
-    {"word": "antagonist", "definition": "character who opposes the protagonist", "example": "The antagonist is cruel and greedy."},
-    {"word": "conflict", "definition": "main problem or struggle in a story", "example": "The conflict is between good and evil."},
-    {"word": "setting", "definition": "where and when a story takes place", "example": "The setting is 1920s Paris."},
-    {"word": "theme", "definition": "main idea or message of a story", "example": "The theme is about redemption."},
-    {"word": "sequence", "definition": "order in which events happen", "example": "Tell the events in sequence."},
-    {"word": "summary", "definition": "brief retelling of main points", "example": "Give me a summary of the book."}
+  "vocabulary_in_context": [
+    {
+      "word": "halal",
+      "definition": "Permitted under Islamic law; for food, it means the item meets specific requirements including the method of slaughter and the absence of forbidden ingredients",
+      "example_sentence": "Halal dietary requirements — which prohibit pork and require that meat be slaughtered in a specific way — are not always understood by restaurant staff.",
+      "collocations": ["halal-certified", "halal meat", "halal restaurant"],
+      "register": "neutral"
+    },
+    {
+      "word": "certified",
+      "definition": "Officially verified and confirmed to meet a recognised standard by an authorised body",
+      "example_sentence": "The number of restaurants offering halal-certified options has grown significantly in Portland.",
+      "collocations": ["halal-certified", "certified organic", "certified by"],
+      "register": "neutral"
+    },
+    {
+      "word": "accommodate",
+      "definition": "To adapt or make adjustments in order to meet the needs or requirements of others",
+      "example_sentence": "American menus increasingly accommodate diverse needs — look for labels such as 'GF' (gluten-free), 'V' (vegetarian), or 'VG' (vegan).",
+      "collocations": ["accommodate dietary needs", "accommodate requests", "happy to accommodate"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "Book clubs are popular in the U.S. - groups of friends meet regularly to discuss books they've read.",
-    "Americans often discuss movies, TV shows, and books in casual conversation. Being able to retell stories is a common social skill.",
-    "When retelling, it's polite to ask 'Have you seen/read it?' first to avoid spoilers.",
-    "Movie review websites like Rotten Tomatoes and book review sites like Goodreads are very popular.",
-    "Americans value being able to explain complex stories simply - it shows good communication skills.",
-    "'Spoiler alert!' is a common warning before revealing plot details that might ruin the story for others."
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You have been invited to dinner at a colleague's home. Your colleague has cooked a meal, but some of the dishes may contain ingredients you cannot eat — either for religious reasons or because of a food sensitivity. You want to be polite but also honest about your needs.",
+    "prompt": "Explain your dietary restrictions to your colleague politely. Ask about the ingredients in two of the dishes. Use the second conditional at least once (e.g., 'If this dish contained..., I wouldn't be able to eat it, but I wonder if...'). Be gracious and suggest a way the situation could work.",
+    "useful_language": [
+      "Thank you so much for having me — everything smells wonderful.",
+      "Could I ask whether the meat in this dish is halal? I try to avoid non-halal meat for religious reasons.",
+      "If there's a vegetarian option, I would be happy to have that instead — please don't worry about it."
+    ],
+    "model_answer": "Thank you so much for this beautiful meal — it really means a lot to be invited. I hope you don't mind me asking, but I have a couple of dietary requirements I should mention. For religious reasons, I avoid pork and non-halal meat. Could you tell me whether the meat in this dish is halal, or whether there's a version without meat? If this dish didn't contain meat, I would be able to eat everything. I'm so happy to eat the rice and vegetable dishes — those look absolutely delicious. Please don't feel you need to change anything for me."
+  },
+  "writing_workshop": {
+    "model_text": "Dear Host Family,\n\nThank you so much for welcoming me into your home and preparing food for me. I want to be transparent about my dietary needs so that meals are comfortable for everyone.\n\nI follow a halal diet, which means I avoid pork and non-halal meat. I am happy to eat fish, eggs, vegetables, and rice. If a dish contains halal-certified meat, I would be delighted to have it. I also prefer to avoid very spicy food as my stomach is sensitive to it.\n\nIf you are ever unsure, please do not worry — I am always happy to bring my own food or eat beforehand. I am grateful for your understanding.\n\nSincerely,\nFaadumo",
+    "model_analysis": "Notice how the writer is direct but appreciative, uses the second conditional naturally ('If a dish contains... I would be delighted'), and offers a practical solution at the end to avoid putting pressure on the host.",
+    "task": "Write a short message to a host or restaurant explaining your dietary needs or the dietary needs of someone in your family. Include what you can and cannot eat, use the second conditional at least once, and end with a polite, practical suggestion.",
+    "success_criteria": [
+      "Clearly state at least two specific dietary restrictions or preferences",
+      "Use the second conditional at least once to express a hypothetical preference or scenario",
+      "End with a polite and practical alternative or reassurance for the host"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what should you ask if a restaurant does not carry halal meat?",
+      "options": [
+        "Ask for a menu in Arabic",
+        "Ask about fish, vegetarian, or egg-based dishes",
+        "Demand the restaurant source halal meat for you",
+        "Leave the restaurant immediately"
+      ],
+      "correct": 1,
+      "explanation": "The passage says: 'diners can ask about fish, vegetarian, or egg-based dishes, which may meet their requirements.'"
+    },
+    {
+      "id": 2,
+      "question": "What does the label 'GF' mean on an American menu, according to the passage?",
+      "options": [
+        "Good Food",
+        "Grain-Free",
+        "Gluten-Free",
+        "Grilled Fish"
+      ],
+      "correct": 2,
+      "explanation": "The passage explains: 'Look for labels such as GF (gluten-free), V (vegetarian), VG (vegan), or contains nuts.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses the second conditional?",
+      "options": [
+        "If this dish contains pork, I will not order it.",
+        "If this dish contained pork, I would not order it.",
+        "If this dish contained pork, I will not order it.",
+        "If this dish contains pork, I would not order it."
+      ],
+      "correct": 1,
+      "explanation": "The second conditional uses 'if + past simple, would + base verb.' 'If this dish contained pork, I would not order it' is the correct form for a hypothetical situation."
+    },
+    {
+      "id": 4,
+      "question": "According to the passage, where can Somali families in Portland find halal-certified groceries?",
+      "options": [
+        "At Fred Meyer and Safeway supermarkets",
+        "At Halal International Market and Bilal International Halal Food",
+        "At Costco and Whole Foods",
+        "At the Portland Farmers Market on weekends"
+      ],
+      "correct": 1,
+      "explanation": "The passage mentions: 'Grocery stores such as Halal International Market and Bilal International Halal Food in Portland stock a wide range of halal-certified meats, spices, and specialty items.'"
+    }
   ]
 }

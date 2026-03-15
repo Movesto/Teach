@@ -2,313 +2,170 @@
   "id": "lesson-33",
   "unit_id": 6,
   "lesson_number": 1,
-  "title": "At the Doctor's Office",
+  "title": "Renting an Apartment",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Make medical appointments",
-    "Describe symptoms accurately",
-    "Understand doctor's questions",
-    "Follow medical advice and instructions"
+    "Identify key vocabulary in a rental listing including utilities, deposit, lease, and furnished",
+    "Ask a landlord appropriate questions about an apartment before signing a lease",
+    "Understand the basic rights and responsibilities of tenants in Oregon",
+    "Complete a simple rental application and explain your rental history"
   ],
-  "target_phrases": [
-    "I need to see a doctor",
-    "I have a pain in my...",
-    "How long have you felt this way?",
-    "It started...",
-    "The pain is sharp/dull/constant",
-    "Should I take any medicine?",
-    "When should I come back?"
-  ],
-  "dialogue": {
-    "title": "Ahmed's Medical Checkup",
-    "context": "Ahmed visits a doctor because he's been feeling sick. He describes his symptoms and the doctor examines him.",
-    "lines": [
-      {"speaker": "Receptionist", "text": "Good morning! Do you have an appointment?"},
-      {"speaker": "Ahmed", "text": "Yes, I'm Ahmed Hassan. I have a 10 AM appointment with Dr. Chen."},
-      {"speaker": "Receptionist", "text": "Perfect. Please fill out this form with your medical history and insurance information."},
-      {"speaker": "Ahmed", "text": "Okay, thank you. [After 10 minutes] Here's the completed form."},
-      {"speaker": "Nurse", "text": "Ahmed? Come with me. Let me check your blood pressure and temperature first. What brings you in today?"},
-      {"speaker": "Ahmed", "text": "I've had a bad cough for two weeks. Also, my throat is very sore."},
-      {"speaker": "Dr. Chen", "text": "Hello Ahmed, I'm Dr. Chen. I hear you've had a cough. How long have you felt this way?"},
-      {"speaker": "Ahmed", "text": "It started about two weeks ago. At first it was just a small cough, but now it's much worse."},
-      {"speaker": "Dr. Chen", "text": "I see. Do you have any fever? Any chest pain when you breathe?"},
-      {"speaker": "Ahmed", "text": "I had a fever last week, but not anymore. Sometimes my chest hurts when I cough hard."},
-      {"speaker": "Dr. Chen", "text": "Let me listen to your lungs. Take a deep breath... Good. I think you have bronchitis. I'll prescribe antibiotics. Take them twice a day for 10 days. Don't stop early even if you feel better."},
-      {"speaker": "Ahmed", "text": "Should I take any other medicine for the cough?"},
-      {"speaker": "Dr. Chen", "text": "Yes, you can take over-the-counter cough syrup. Also, drink lots of water and rest. If you're not better in 3-4 days, call us."}
+  "reading_passage": {
+    "title": "What to Know Before You Sign a Lease",
+    "text": "Finding an apartment is one of the most important steps for newcomers settling in a new city. The process can be confusing, but understanding a few key terms and rights can protect you from making costly mistakes.\n\nA lease is a legally binding contract between a tenant and a landlord. It specifies how long you will rent the property, the monthly rent amount, what is included in the rent (such as water or internet), and the rules you must follow — for example, regarding pets or guests. Before signing, read every clause carefully, and do not hesitate to ask the landlord to explain anything you do not understand.\n\nMost landlords in Oregon require a security deposit before you move in. This is typically equal to one month's rent and is held by the landlord to cover any damage beyond normal wear and tear. Oregon law requires landlords to return the deposit within 31 days of the tenant moving out, along with an itemised list of any deductions.\n\nTenants in Oregon also have the right to live in a habitable home — meaning the property must have working heat, safe electrical systems, functioning plumbing, and no serious pest problems. If your landlord fails to make necessary repairs after you report them in writing, you may have the legal right to withhold rent or hire a repairperson and deduct the cost from your rent. Community legal aid organisations in Portland offer free advice to tenants who are unsure of their rights.",
+    "source": "Adapted from the Oregon Renters' Rights Guide published by Community Alliance of Tenants, 2023",
+    "glossary": [
+      {"word": "lease", "meaning": "a legal agreement that sets out the terms of renting a property for a fixed period of time"},
+      {"word": "security deposit", "meaning": "money paid before moving in, held by the landlord to cover potential damage"},
+      {"word": "habitable", "meaning": "safe and suitable for people to live in, meeting basic health and safety standards"},
+      {"word": "wear and tear", "meaning": "normal, gradual damage that happens from everyday use of a property"},
+      {"word": "itemised", "meaning": "listed in detail, one item at a time, with a separate amount for each"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Describing symptoms",
-      "pattern": "I have a [symptom] in my [body part]",
-      "examples": [
-        "I have a pain in my chest.",
-        "I have a rash on my arm.",
-        "I have swelling in my ankle.",
-        "I have burning in my stomach.",
-        "I have numbness in my fingers."
-      ]
+      "type": "literal",
+      "question": "How long does Oregon law give a landlord to return a security deposit after a tenant moves out?",
+      "answer": "31 days — and the landlord must also provide an itemised list of any deductions."
     },
     {
-      "id": "drill-2",
-      "focus": "Talking about duration",
-      "pattern": "I've had [symptom] for [time period]",
-      "examples": [
-        "I've had this cough for two weeks.",
-        "I've had a headache for three days.",
-        "I've had back pain for a month.",
-        "I've had this fever since yesterday.",
-        "I've had trouble sleeping for a week."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say a lease is 'legally binding'?",
+      "answer": "That once you sign it, you are legally obligated to follow its terms — breaking the lease could have financial or legal consequences."
     },
     {
-      "id": "drill-3",
-      "focus": "Following medical advice",
-      "pattern": "Should I [action]?",
-      "examples": [
-        "Should I take this medicine with food?",
-        "Should I stay home from work?",
-        "Should I come back for another visit?",
-        "Should I avoid certain activities?",
-        "Should I take pain medicine?"
-      ]
+      "type": "vocabulary",
+      "question": "What does 'habitable' mean in paragraph three?",
+      "answer": "Safe and suitable to live in — a habitable home has working heat, safe electricity, functioning plumbing, and no serious pest problems."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention community legal aid organisations at the end of the passage?",
+      "answer": "To reassure tenants — especially newcomers who may not know their rights — that free professional help is available if they have problems with their landlord."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit6-lesson1-listen1.mp3",
-      "transcript": "When describing symptoms to a doctor, be specific. Instead of saying 'I don't feel good,' say 'I have a sharp pain in my lower back that's worse in the morning.' Tell your doctor when symptoms started, how often they occur, and what makes them better or worse. This helps the doctor diagnose you correctly.",
-      "question": "What should you tell your doctor about your symptoms?",
-      "options": [
-        "Just say you don't feel good",
-        "Be specific about location, timing, and severity",
-        "Only mention the worst symptom",
-        "Wait for the doctor to guess"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit6-lesson1-listen2.mp3",
-      "transcript": "Common symptoms vocabulary: 'fever' means high body temperature, usually over 100.4°F. 'Nausea' means feeling like you might vomit. 'Dizzy' means feeling like the room is spinning. 'Fatigue' means extreme tiredness. 'Congestion' means your nose is blocked. Learn these words to communicate with doctors effectively.",
-      "question": "What does 'nausea' mean?",
-      "options": [
-        "High temperature",
-        "Feeling like you might vomit",
-        "Room spinning",
-        "Extreme tiredness"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit6-lesson1-listen3.mp3",
-      "transcript": "After your appointment, make sure you understand your treatment plan. Ask questions if anything is unclear. Before leaving, confirm: What medicines should I take? How often? For how long? What should I avoid? When should I call if I don't feel better? Can I go to work or school? It's okay to ask the doctor to repeat or write down instructions.",
-      "question": "What should you do if you don't understand the doctor's instructions?",
-      "options": [
-        "Pretend you understand",
-        "Ask questions and get clarification",
-        "Figure it out later",
-        "Call a friend"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You're at the doctor. Describe these symptoms: bad headache for 3 days, fever yesterday, very tired. Record for 25 seconds.",
-      "example": "Hello doctor. I've had a really bad headache for three days now. It's a throbbing pain on both sides of my head. Yesterday I also had a fever - my temperature was 101 degrees. I've been feeling very tired and weak. The headache gets worse when I move around. I took ibuprofen but it only helped a little bit. I'm worried because this headache won't go away.",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "The doctor says: 'Take this medicine twice a day for 7 days.' Ask 3 follow-up questions. Record yourself.",
-      "example": "Thank you, doctor. I have a few questions to make sure I understand. First, should I take this medicine with food or on an empty stomach? Second, what time of day should I take it - morning and evening? And third, what should I do if I forget to take a dose? Also, are there any side effects I should watch for?",
-      "min_seconds": 20,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Describe a time you were sick. What were your symptoms? What did you do? Did you see a doctor? (60-80 words)",
-      "min_words": 60,
-      "example": "Last winter, I got a really bad flu. I had a high fever, terrible body aches, and a cough that wouldn't stop. I felt so weak I could barely get out of bed. After three days, I went to see a doctor because I wasn't getting better. She examined me and prescribed antiviral medication and cough syrup. She told me to rest and drink lots of fluids. It took about a week, but I finally recovered. Now I get a flu shot every year to prevent getting sick again.",
-      "min_words": 60
-    },
-    {
-      "id": "write-2",
-      "prompt": "You need to call your doctor's office to make an appointment. Write what you would say on the phone. (40-50 words)",
-      "min_words": 40,
-      "example": "Hello, my name is Ahmed Hassan. I'm a patient of Dr. Chen. I need to make an appointment because I've had a bad cough for two weeks and it's not getting better. Do you have any availability this week? I'm available any afternoon after 2 PM. Thank you.",
-      "min_words": 40
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Present Perfect for Duration (I've had...)",
-      "explanation": "Use present perfect to describe symptoms that started in the past and continue now.",
-      "examples": [
-        "I've had this cough for two weeks. (started 2 weeks ago, still have it)",
-        "She's felt dizzy since Monday. (started Monday, still feels it)",
-        "He's been sick for three days. (3 days ago until now)",
-        "We've had these symptoms since yesterday. (started yesterday, continue)"
-      ],
-      "practice": [
-        {"sentence": "I ___ had a headache for 3 days.", "blank": "have", "options": ["have", "has", "had"]},
-        {"sentence": "She ___ felt tired since Tuesday.", "blank": "has", "options": ["have", "has", "had"]},
-        {"sentence": "They've ___ sick for a week.", "blank": "been", "options": ["be", "been", "being"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Imperatives for Medical Instructions",
-      "explanation": "Doctors use imperative (command) form to give instructions.",
-      "examples": [
-        "Take this medicine twice a day. (command)",
-        "Drink lots of water. (instruction)",
-        "Rest for a few days. (advice)",
-        "Don't stop the antibiotics early. (negative command)"
-      ],
-      "practice": [
-        {"sentence": "___ this pill with water.", "blank": "Take", "options": ["Take", "Taking", "Takes"]},
-        {"sentence": "___ lots of fluids.", "blank": "Drink", "options": ["Drink", "Drinking", "Drinks"]},
-        {"sentence": "Don't ___ if you feel dizzy.", "blank": "drive", "options": ["drive", "driving", "drives"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "'Should' for Medical Advice",
-      "explanation": "Use 'should' to ask for or give medical recommendations.",
-      "examples": [
-        "Should I take this with food? (asking for advice)",
-        "You should rest today. (giving advice)",
-        "Should I come back next week? (asking recommendation)",
-        "You shouldn't lift heavy things. (advising against)"
-      ],
-      "practice": [
-        {"sentence": "___ I take pain medicine?", "blank": "Should", "options": ["Should", "Do", "Am"]},
-        {"sentence": "You ___ drink more water.", "blank": "should", "options": ["should", "are", "can"]},
-        {"sentence": "Should he ___ home from work?", "blank": "stay", "options": ["stay", "stays", "staying"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "language_focus": {
+    "title": "Asking for Clarification and Confirmation (Could you explain...? Does that mean...?)",
+    "explanation": "When reviewing a lease or discussing an apartment, you will often need to ask for clarification or confirm your understanding. Use phrases like 'Could you explain what this clause means?', 'Does that mean I cannot...?', and 'Am I correct in understanding that...?' These phrases show you are engaged and help prevent misunderstandings.",
+    "examples": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "What is Ahmed's main symptom?",
-        "options": ["Headache", "Stomach pain", "Cough and sore throat", "Broken arm"],
-        "correct": 2,
-        "points": 10
+        "sentence": "Could you explain what this section about utilities means? Does it include electricity?",
+        "note": "'Could you explain' is a polite request for information — more formal than 'What does this mean?'"
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "How long has Ahmed had the cough?",
-        "options": ["2 days", "1 week", "2 weeks", "1 month"],
-        "correct": 2,
-        "points": 10
+        "sentence": "Am I correct in understanding that the deposit is one month's rent?",
+        "note": "This structure lets you confirm your understanding and gives the landlord a chance to correct any misunderstanding."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite as a clarification question: 'I don't understand normal wear and tear.'",
+        "answer": "Could you explain what 'normal wear and tear' means, please?"
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What does Dr. Chen diagnose?",
-        "options": ["The flu", "Bronchitis", "Pneumonia", "Asthma"],
-        "correct": 1,
-        "points": 10
+        "sentence": "Complete the confirmation: '___ I correct in understanding that guests cannot stay for more than ___ nights?'",
+        "answer": "Am I correct in understanding that guests cannot stay for more than three nights? (numbers may vary)"
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Complete: 'I ___ had this pain for 3 days.'",
-        "options": ["has", "have", "am", "do"],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "You should stop taking antibiotics as soon as you feel better.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "It's okay to ask your doctor to repeat instructions.",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "___ this medicine twice a day. (imperative: take)",
-        "correct": "Take",
-        "accept": ["Take", "take"],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "___ I stay home from work? (asking advice)",
-        "correct": "Should",
-        "accept": ["Should", "should"],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match the symptom to its meaning:",
-        "pairs": [
-          {"left": "Fever", "right": "High temperature"},
-          {"left": "Nausea", "right": "Feel like vomiting"},
-          {"left": "Fatigue", "right": "Extreme tiredness"}
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "What should Ahmed do besides taking antibiotics?",
-        "options": [
-          "Exercise hard",
-          "Drink lots of water and rest",
-          "Go to work",
-          "Stop eating"
-        ],
-        "correct": 1,
-        "points": 10
+        "sentence": "Which is more appropriate when asking a landlord for clarification? A) What's this? B) Could you clarify what this clause refers to?",
+        "answer": "B) 'Could you clarify what this clause refers to?' is more professional and respectful in a formal rental situation."
       }
     ]
   },
-  "vocabulary": [
-    {"word": "symptom", "definition": "sign of illness or disease", "example": "Fever is a common symptom of the flu."},
-    {"word": "appointment", "definition": "scheduled time to see a doctor", "example": "I have a doctor appointment at 2 PM."},
-    {"word": "prescription", "definition": "doctor's written order for medicine", "example": "The doctor gave me a prescription for antibiotics."},
-    {"word": "diagnosis", "definition": "identification of an illness", "example": "The diagnosis was bronchitis."},
-    {"word": "treatment", "definition": "medical care for illness", "example": "The treatment includes rest and medication."},
-    {"word": "medication", "definition": "medicine to treat illness", "example": "Take your medication with food."},
-    {"word": "pain", "definition": "physical suffering or discomfort", "example": "I have pain in my back."},
-    {"word": "fever", "definition": "body temperature above normal", "example": "She has a fever of 101°F."},
-    {"word": "checkup", "definition": "general medical examination", "example": "I get a checkup every year."},
-    {"word": "insurance", "definition": "coverage that pays for medical care", "example": "My health insurance covers doctor visits."}
+  "vocabulary_in_context": [
+    {
+      "word": "lease",
+      "definition": "A written legal contract between a tenant and landlord that sets out the terms of renting a property",
+      "example_sentence": "A lease is a legally binding contract between a tenant and a landlord that specifies how long you will rent the property.",
+      "collocations": ["sign a lease", "break a lease", "lease agreement"],
+      "register": "formal"
+    },
+    {
+      "word": "security deposit",
+      "definition": "Money paid by the tenant before moving in, which the landlord holds as protection against damage",
+      "example_sentence": "Most landlords in Oregon require a security deposit before you move in, typically equal to one month's rent.",
+      "collocations": ["pay a security deposit", "return the deposit", "deposit deductions"],
+      "register": "neutral"
+    },
+    {
+      "word": "habitable",
+      "definition": "Safe, clean, and suitable for people to live in according to health and safety standards",
+      "example_sentence": "Tenants in Oregon have the right to live in a habitable home — meaning the property must have working heat, safe electrical systems, and functioning plumbing.",
+      "collocations": ["habitable condition", "right to a habitable home", "uninhabitable property"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "In the U.S., you usually need to make an appointment to see a doctor. Emergency rooms are for serious emergencies only.",
-    "Bring your insurance card and photo ID to every doctor visit.",
-    "Most doctors' offices charge a 'copay' - a small amount you pay at each visit, usually $20-50.",
-    "It's normal to wait 10-30 minutes past your appointment time. Bring something to read.",
-    "You have the right to ask questions and get clear explanations about your health.",
-    "If you don't understand medical terms, ask the doctor to explain in simpler words."
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are viewing an apartment and considering renting it. The landlord is showing you around and asking if you have any questions before you sign the lease.",
+    "prompt": "Ask the landlord at least four questions about the apartment. Include questions about: what is included in the rent, the security deposit, the rules about guests or pets, and what happens if something breaks. Use clarification and confirmation phrases where appropriate.",
+    "useful_language": [
+      "Could you tell me what utilities are included in the monthly rent?",
+      "Am I correct in understanding that the security deposit is refundable?",
+      "Could you explain what the policy is regarding pets?"
+    ],
+    "model_answer": "Thank you for showing me the apartment. I have a few questions before I decide. Could you tell me what utilities are included in the rent? Am I correct in understanding that the security deposit is one month's rent? Could you also explain the policy on pets — I have a small cat. And finally, if something like the heating system breaks, who is responsible for arranging the repair? Could you explain the process for reporting maintenance issues?"
+  },
+  "writing_workshop": {
+    "model_text": "I am writing to apply for the two-bedroom apartment advertised at 4521 SE Division Street. I have been living in my current apartment for two years and have always paid rent on time. I am currently employed as a warehouse supervisor and earn a stable income. I do not have any pets. I would be interested in scheduling a viewing at your convenience. Please find my contact information below. I look forward to hearing from you.",
+    "model_analysis": "Notice how the writer immediately states why they are writing, provides relevant rental history, mentions employment stability, and ends with a clear next step — all important elements for a rental application letter.",
+    "task": "Write a short letter or email applying for an apartment. Include: why you are interested in the apartment, your current living and work situation, your rental history (how long at your current place, whether you paid on time), and a request to view the property.",
+    "success_criteria": [
+      "State your reason for writing clearly in the first sentence",
+      "Include at least two details about your rental history or financial stability",
+      "Use at least one clarification or confirmation phrase"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what must a landlord provide along with the returned deposit?",
+      "options": [
+        "A new lease for the next tenant",
+        "An itemised list of any deductions",
+        "A reference letter for the tenant",
+        "A receipt for the original deposit payment"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Oregon law requires landlords to return the deposit within 31 days of the tenant moving out, along with an itemised list of any deductions.'"
+    },
+    {
+      "id": 2,
+      "question": "What does a 'habitable' home require, according to the passage?",
+      "options": [
+        "Modern appliances, a garage, and air conditioning",
+        "Working heat, safe electrical systems, functioning plumbing, and no serious pest problems",
+        "A minimum of two bedrooms and a parking space",
+        "Fresh paint and new carpet every two years"
+      ],
+      "correct": 1,
+      "explanation": "The passage lists the components of a habitable home: 'working heat, safe electrical systems, functioning plumbing, and no serious pest problems.'"
+    },
+    {
+      "id": 3,
+      "question": "Which phrase is most appropriate for politely asking a landlord to explain a confusing lease clause?",
+      "options": [
+        "What does this mean?",
+        "I don't get this part.",
+        "Could you explain what this clause means, please?",
+        "This is not clear."
+      ],
+      "correct": 2,
+      "explanation": "'Could you explain what this clause means, please?' is the most professional and polite option — appropriate for a formal interaction with a landlord."
+    },
+    {
+      "id": 4,
+      "question": "What can a tenant legally do if a landlord refuses to make necessary repairs after being notified in writing?",
+      "options": [
+        "Move out immediately without penalty",
+        "Refuse to pay any rent going forward",
+        "Withhold rent or hire a repairperson and deduct the cost from rent",
+        "Contact the police and file a criminal complaint"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'you may have the legal right to withhold rent or hire a repairperson and deduct the cost from your rent.'"
+    }
   ]
 }

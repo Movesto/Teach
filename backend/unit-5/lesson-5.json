@@ -2,307 +2,170 @@
   "id": "lesson-31",
   "unit_id": 5,
   "lesson_number": 5,
-  "title": "Comparing and Contrasting",
+  "title": "Dealing with Travel Delays",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Compare two things, places, or ideas clearly",
-    "Use linking words: whereas, while, on the other hand, both, neither",
-    "Talk about similarities and differences in conversation",
-    "Write a comparison paragraph"
+    "Understand and use vocabulary related to travel disruptions including cancelled, delayed, rescheduled, and diverted",
+    "Ask transit or airline staff clear questions about delays and rebooking options",
+    "Communicate travel delays to an employer, family member, or appointment",
+    "Evaluate options and make decisions when travel plans change unexpectedly"
   ],
-  "target_phrases": [
-    "Both A and B are...",
-    "A is similar to B because...",
-    "A is different from B in that...",
-    "On the one hand... on the other hand...",
-    "Whereas A is..., B is...",
-    "While A..., B...",
-    "Unlike A, B..."
-  ],
-  "dialogue": {
-    "context": "Fatima and her coworker, James, are on their lunch break. They are comparing life in their home countries to life in the United States.",
-    "lines": [
-      { "speaker": "James", "text": "Fatima, you mentioned you're from Ethiopia. How is life here different from back home?" },
-      { "speaker": "Fatima", "text": "There are many differences. In Ethiopia, family is always nearby — your parents, aunts, and cousins all live close together. Here, people often live far from their families." },
-      { "speaker": "James", "text": "That's interesting. But there are also similarities, right?" },
-      { "speaker": "Fatima", "text": "Yes — both places have a strong sense of community. People help their neighbors here too, just in different ways." },
-      { "speaker": "James", "text": "What else is different?" },
-      { "speaker": "Fatima", "text": "Well, whereas the pace of life in Ethiopia is slower and more relaxed, life here is very fast. Everything has a schedule." },
-      { "speaker": "James", "text": "I can imagine that's a big change. What do you prefer?" },
-      { "speaker": "Fatima", "text": "On one hand, I miss the slower pace and being close to family. On the other hand, I love the opportunities here — the jobs, the schools, the freedom." },
-      { "speaker": "James", "text": "That's a really balanced way to see it. Both have something valuable." },
-      { "speaker": "Fatima", "text": "Exactly. Unlike some people who say one is better, I think both places shaped who I am." }
+  "reading_passage": {
+    "title": "When Planes and Buses Don't Run on Time",
+    "text": "Travel disruptions are an unavoidable part of life. Whether it is a bus that fails to show up on a rainy morning or an international flight delayed by mechanical issues, unexpected delays can cause real problems — missed appointments, late arrivals at work, or added costs for rebooking.\n\nFor air travellers in the United States, airlines are required by federal regulations to compensate passengers under certain conditions. If an airline cancels your flight and it was their fault — not due to weather or other circumstances beyond their control — you are entitled to a full refund, even on a non-refundable ticket. Some airlines will also offer meal vouchers or hotel accommodation if the delay is lengthy. However, these rules do not apply to delays caused by severe weather, which are classified as 'extraordinary circumstances.'\n\nFor bus and train passengers, the rules differ. Public transit agencies typically do not offer compensation for delays, but they may provide information about alternative routes. In the event of a service disruption on the MAX light rail in Portland, for example, TriMet often runs shuttle buses to cover the affected segment of the route.\n\nThe most important thing any traveller can do during a delay is to stay informed. Check the airline or transit agency's app or website for real-time updates. Speak with staff at the information desk rather than waiting passively. If a long delay is unavoidable, notify anyone expecting you — your employer, a medical clinic, a host family — as early as possible.",
+    "source": "Adapted from U.S. Department of Transportation consumer travel tips and the TriMet Service Alerts page, 2024",
+    "glossary": [
+      {"word": "disruption", "meaning": "an unexpected interruption that prevents normal service or plans from continuing"},
+      {"word": "compensate", "meaning": "to give money or other benefits to someone as payment for a loss or inconvenience"},
+      {"word": "voucher", "meaning": "a printed or digital token that can be exchanged for a specific product or service"},
+      {"word": "extraordinary circumstances", "meaning": "events beyond anyone's control, such as severe weather, that excuse an airline from paying compensation"},
+      {"word": "shuttle bus", "meaning": "a bus that runs on a temporary route to replace another service that is not operating"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "title": "Both and Neither",
-      "grammar_point": "Use BOTH for two things that share something. Use NEITHER when two things both don't have something.",
-      "examples": [
-        "Both Somalia and Ethiopia are in East Africa.",
-        "Both cities have good public transportation.",
-        "Neither city has a subway system.",
-        "Both languages have complex grammar."
-      ],
-      "practice": [
-        { "prompt": "___ English and Spanish use the Latin alphabet.", "answer": "Both" },
-        { "prompt": "___ city has a Walmart nearby.", "answer": "Neither" },
-        { "prompt": "___ jobs require a driver's license.", "answer": "Both" },
-        { "prompt": "___ plan was perfect.", "answer": "Neither" }
-      ]
+      "type": "literal",
+      "question": "Under what condition is an airline required to give a full refund for a cancelled flight?",
+      "answer": "When the airline cancelled the flight and it was their fault — not due to weather or other circumstances beyond their control."
     },
     {
-      "title": "Whereas and While",
-      "grammar_point": "Use WHEREAS or WHILE to show a direct contrast in the same sentence.",
-      "examples": [
-        "Whereas summer is hot and sunny, winter is cold and dark.",
-        "While Ahmed prefers morning shifts, Carlos prefers evenings.",
-        "Whereas the city is loud and busy, the countryside is quiet and slow.",
-        "While driving is fast, public transit is cheaper."
-      ],
-      "practice": [
-        { "prompt": "___ living costs are lower in rural areas, jobs are fewer.", "answer": "Whereas / While" },
-        { "prompt": "Coffee is bitter, ___ tea is milder.", "answer": "whereas / while" },
-        { "prompt": "___ some students prefer writing, others prefer speaking.", "answer": "While / Whereas" },
-        { "prompt": "He is very organized, ___ I am more spontaneous.", "answer": "whereas / while" }
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say 'weather delays are classified as extraordinary circumstances'?",
+      "answer": "The author implies that in these cases, the airline is not legally responsible for compensating passengers — the delay is not the airline's fault, so different rules apply."
     },
     {
-      "title": "On one hand... on the other hand",
-      "grammar_point": "Use this structure to present two sides of something — positive and negative, or two different perspectives.",
-      "examples": [
-        "On one hand, living in a big city gives you more job options. On the other hand, it's more expensive.",
-        "On one hand, working night shifts pays more. On the other hand, it's exhausting.",
-        "On one hand, driving is convenient. On the other hand, it's bad for the environment."
-      ],
-      "practice": [
-        { "prompt": "On one hand, remote work is flexible. On the ___ hand, it can be lonely.", "answer": "other" },
-        { "prompt": "___ one hand, the job pays well. On the other hand, the hours are long.", "answer": "On" },
-        { "prompt": "On one hand, learning English is hard. On the other hand, it ___ many opportunities.", "answer": "opens" }
-      ]
+      "type": "vocabulary",
+      "question": "What does the word 'compensate' mean in paragraph two?",
+      "answer": "To give passengers money or other benefits (such as a refund or vouchers) because they suffered a loss or inconvenience due to the airline's fault."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author advise travellers to notify anyone expecting them 'as early as possible'?",
+      "answer": "Because informing people early gives them time to adjust their plans — an employer can arrange cover, a clinic can reschedule an appointment, and a host can make alternative arrangements."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit5-lesson5-listen1.mp3",
-      "transcript": "I'm going to compare my old job to my new one. My old job was at a factory. It paid well, but whereas my old job was physically exhausting, my new warehouse job is much better on my body. Both jobs required working early mornings, but unlike my old job, my new job gives me weekends off. On one hand, I miss my old coworkers. On the other hand, my new team is very welcoming.",
-      "question": "What do the two jobs have in common?",
-      "options": [
-        "Both are office jobs",
-        "Both require working early mornings",
-        "Both give weekends off",
-        "Both pay the same salary"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit5-lesson5-listen2.mp3",
-      "transcript": "My sister and I are very different. Whereas she is very outgoing and loves being around people, I'm more quiet and prefer small groups. She chose a job in sales where she talks to customers all day, while I work in data entry where I can focus quietly. Neither of us regrets our choice — we both love what we do. We're different people, but we support each other.",
-      "question": "What is something the two sisters have in common?",
-      "options": [
-        "They both work in sales",
-        "They are both quiet people",
-        "They both love their jobs",
-        "They both work with customers"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit5-lesson5-listen3.mp3",
-      "transcript": "On one hand, living in an apartment is cheaper and more convenient — you don't have to worry about repairs or yard work. On the other hand, a house gives you more space and privacy. Both have advantages, and the right choice depends on your situation. Unlike buying a house, renting doesn't build long-term equity, but whereas homeownership is an investment, renting gives you flexibility to move.",
-      "question": "What is an advantage of renting an apartment mentioned in the audio?",
-      "options": [
-        "It builds long-term equity",
-        "It gives more privacy",
-        "It is cheaper and more convenient",
-        "It gives you a yard"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Compare two cities or places you have lived. Talk about similarities AND differences. Use: both, whereas, on one hand... Record for 30 seconds.",
-      "example": "I want to compare Mogadishu and Portland. Both cities are near water — Mogadishu is on the ocean, and Portland is near the Columbia River. Whereas Mogadishu is very hot year-round, Portland has four seasons. On one hand, I miss the warmth and the culture of home. On the other hand, Portland has amazing opportunities for my children. Both places are part of who I am.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Compare two jobs — one you've had (or seen) and one you want. Use: while, unlike, on the other hand. Record for 25 seconds.",
-      "example": "I used to work in a small shop back home, while here I work at a warehouse. Unlike the shop, the warehouse job has set hours and benefits. On one hand, the shop gave me more freedom. On the other hand, this job is more stable and pays better. Both experiences taught me a lot.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "title": "Comparison Paragraph",
-      "prompt": "Write a paragraph (5-7 sentences) comparing two things: two foods, two cities, two jobs, or two lifestyles. Use at least 3 comparison words from this lesson: both, whereas, while, on one hand, unlike.",
-      "example": "I want to compare two cities I know: Nairobi and Portland. Both cities are growing fast and attracting people from many countries. Whereas Nairobi has a warm tropical climate all year, Portland has a cooler, rainier climate. On one hand, Nairobi is more affordable for everyday necessities like food and rent. On the other hand, Portland has a stronger job market and more social services. Unlike Nairobi, Portland is very quiet after 10 PM. Both cities have taught me something important about community and resilience.",
-      "min_words": 80
-    },
-    {
-      "id": "write-2",
-      "title": "Similarities and Differences Table",
-      "prompt": "Choose two things (two schools, two neighborhoods, two transportation options). Write 2 sentences about what they have in common (use BOTH) and 2 sentences about how they differ (use WHEREAS or WHILE).",
-      "example": "Both buses and trains are affordable public transportation options. Both can be crowded during rush hour. Whereas buses can reach almost any neighborhood, trains are faster but follow fixed routes. While taking the train is more comfortable, buses are more flexible for different routes.",
-      "min_words": 40
-    }
-  ],
-  "grammar_focus": [
-    {
-      "pattern": "Both A and B + [verb]",
-      "explanation": "Use BOTH to show two things share the same quality. The verb agrees with the plural subject.",
-      "examples": [
-        "Both cities have good hospitals.",
-        "Both languages are difficult to learn.",
-        "Both jobs require a background check."
-      ]
-    },
-    {
-      "pattern": "Whereas / While + [clause], [clause]",
-      "explanation": "WHEREAS and WHILE introduce a contrast between two clauses. They can go at the beginning or middle of the sentence.",
-      "examples": [
-        "Whereas summer is hot, winter is cold.",
-        "She prefers mornings, while he prefers evenings.",
-        "While renting is flexible, buying builds equity."
-      ]
-    },
-    {
-      "pattern": "On one hand... on the other hand...",
-      "explanation": "This structure presents two sides — usually a positive and a negative, or two different perspectives.",
-      "examples": [
-        "On one hand, the city is exciting. On the other hand, it is expensive.",
-        "On one hand, night shifts pay more. On the other hand, they are tiring."
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "language_focus": {
+    "title": "First Conditional for Likely Outcomes (If + present simple, will + verb)",
+    "explanation": "The first conditional is used to describe likely or realistic situations and their probable outcomes. It follows the pattern: 'If [present simple], [will + base verb].' This is especially useful when discussing travel disruptions — what will happen if a flight is delayed, what you will do if you miss a connection, and so on.",
+    "examples": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Which sentence correctly uses BOTH?",
-        "options": [
-          "Both Ahmed or Carlos works here.",
-          "Both Ahmed and Carlos works here.",
-          "Both Ahmed and Carlos work here.",
-          "Both of Ahmed and Carlos work here."
-        ],
-        "correct": 2,
-        "points": 10
+        "sentence": "If the bus doesn't arrive in the next five minutes, I will take a taxi instead.",
+        "note": "The condition is realistic and possible — the outcome (taking a taxi) is the likely response."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "Choose the correct word: '___ my old job paid more, my new job has better hours.'",
-        "options": ["Although", "Whereas", "Both", "Neither"],
-        "correct": 1,
-        "points": 10
+        "sentence": "If the airline cancels your flight, they will offer you a full refund or a rebooking.",
+        "note": "The condition (cancellation) is possible; the outcome (refund or rebooking) is what typically follows under the rules."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite using first conditional: 'The flight might be delayed. I will notify my employer.'",
+        "answer": "If the flight is delayed, I will notify my employer."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What does NEITHER mean in this sentence: 'Neither plan was perfect'?",
-        "options": [
-          "Both plans were perfect",
-          "One plan was perfect",
-          "Not one of the two plans was perfect",
-          "The plans were different"
-        ],
-        "correct": 2,
-        "points": 10
+        "sentence": "Complete this conditional: 'If I miss the connecting bus, ___.'",
+        "answer": "If I miss the connecting bus, I will ask staff about the next available service. (Accept other logical completions.)"
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Which word best completes: '___ driving is fast, it's also expensive.'",
-        "options": ["Both", "Neither", "While", "Unlike"],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "multiple-choice",
-        "question": "In the dialogue, what does Fatima say she loves about life in the U.S.?",
-        "options": [
-          "The slower pace of life",
-          "Being close to family",
-          "The opportunities — jobs, schools, freedom",
-          "The weather"
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "multiple-choice",
-        "question": "Which sentence uses ON ONE HAND correctly?",
-        "options": [
-          "On one hand, I like the job, on one hand it's far away.",
-          "On one hand the job is close. On the other hand, it pays well.",
-          "On one hand, the job is close. On the other hand, the pay is low.",
-          "On the one hand and the other hand the job is good."
-        ],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "multiple-choice",
-        "question": "Which linking word shows the MOST direct contrast between two things?",
-        "options": ["Both", "And", "Whereas", "Also"],
-        "correct": 2,
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "multiple-choice",
-        "question": "Rewrite: 'Ahmed is quiet. Maria is loud.' Use WHEREAS.",
-        "options": [
-          "Whereas Ahmed is quiet but Maria is loud.",
-          "Whereas Ahmed is quiet, Maria is loud.",
-          "Ahmed is quiet whereas and Maria is loud.",
-          "Ahmed whereas Maria is quiet and loud."
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "open-ended",
-        "question": "Compare your home country to the United States in 2 sentences. Use WHEREAS or WHILE.",
-        "options": [],
-        "correct": null,
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "open-ended",
-        "question": "Write 2 sentences about two jobs using: On one hand... On the other hand...",
-        "options": [],
-        "correct": null,
-        "points": 10
+        "sentence": "Which is correct? A) If the train will be late, I will call you. B) If the train is late, I will call you.",
+        "answer": "B) In the first conditional, the 'if' clause uses present simple (not 'will') — 'If the train is late, I will call you.'"
       }
     ]
   },
-  "vocabulary": [
-    { "word": "whereas", "definition": "used to show a direct contrast between two facts or ideas", "example": "Whereas coffee is bitter, tea is milder." },
-    { "word": "while", "definition": "used to show contrast (similar to whereas)", "example": "While some people prefer cities, others prefer the countryside." },
-    { "word": "unlike", "definition": "different from; used to show how one thing differs from another", "example": "Unlike driving, cycling is free." },
-    { "word": "similarity", "definition": "a way in which two things are the same", "example": "There are many similarities between the two languages." },
-    { "word": "contrast", "definition": "a difference between two things", "example": "The contrast between winter and summer is huge." }
+  "vocabulary_in_context": [
+    {
+      "word": "disruption",
+      "definition": "Something unexpected that interrupts normal service or plans",
+      "example_sentence": "In the event of a service disruption on the MAX light rail in Portland, TriMet often runs shuttle buses.",
+      "collocations": ["service disruption", "travel disruption", "cause a disruption"],
+      "register": "neutral"
+    },
+    {
+      "word": "compensate",
+      "definition": "To give money, vouchers, or services to someone as payment for a loss or inconvenience",
+      "example_sentence": "Airlines are required by federal regulations to compensate passengers under certain conditions.",
+      "collocations": ["compensate passengers", "compensate for a delay", "financially compensate"],
+      "register": "formal"
+    },
+    {
+      "word": "voucher",
+      "definition": "A document or digital code that can be exchanged for a specific product, service, or discount",
+      "example_sentence": "Some airlines will also offer meal vouchers or hotel accommodation if the delay is lengthy.",
+      "collocations": ["meal voucher", "hotel voucher", "redeem a voucher"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "Comparing cultures and countries is very common in conversation. Show respect when comparing by acknowledging both positive aspects — don't say one is 'better' overall.",
-    "The phrase 'on one hand... on the other hand' is used widely in formal English discussions, essays, and job interviews. It shows balanced thinking."
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "Your flight has been cancelled and you are at the airline information desk at the airport. The delay is not due to weather — it is a mechanical problem with the plane.",
+    "prompt": "Speak to the airline employee. Ask what happened, find out what your options are (rebooking or refund), ask about compensation such as meal vouchers, and confirm when the next available flight leaves. Use first conditional sentences where appropriate.",
+    "useful_language": [
+      "Could you tell me why the flight has been cancelled?",
+      "If I take the next available flight, will you rebook me at no extra cost?",
+      "Am I entitled to any compensation, such as a meal voucher or accommodation?"
+    ],
+    "model_answer": "Excuse me — I'm booked on flight 447 to Seattle, which I can see has been cancelled. Could you explain what happened? Since it's a mechanical issue, am I entitled to compensation? If the next available flight leaves this evening, will you rebook me without any additional charge? And if the delay is more than three hours, would it be possible to get a meal voucher while I wait?"
+  },
+  "writing_workshop": {
+    "model_text": "Subject: Running Late Due to Bus Delay\n\nHello Ms. Rivera,\n\nI wanted to let you know that I will be late to work this morning. The 72 bus has been delayed due to a service disruption on the route. I am currently at the stop on Division Street. If the situation does not improve in the next ten minutes, I will take a rideshare instead. I expect to arrive by 9:30 at the latest. I apologise for the inconvenience and will make up the time at the end of the shift.\n\nThank you,\nAbdirahman",
+    "model_analysis": "Notice how the writer immediately explains the situation, gives a specific timeline, offers an alternative plan, and apologises professionally — all important elements of a work communication during a delay.",
+    "task": "Write a short message (email or text) to an employer or a medical clinic explaining that you will be late due to a travel delay. Include what happened, when you expect to arrive, and what alternative plan you have if the situation gets worse.",
+    "success_criteria": [
+      "Clearly state the reason for the delay in the first sentence",
+      "Use at least one first conditional sentence (if... will...)",
+      "Include a specific estimated arrival time and a brief apology"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, when is a passenger entitled to a full refund from an airline?",
+      "options": [
+        "Any time a flight is delayed by more than one hour",
+        "When a flight is cancelled due to a weather emergency",
+        "When an airline cancels a flight and it is the airline's fault",
+        "Only if the passenger purchased travel insurance"
+      ],
+      "correct": 2,
+      "explanation": "The passage states: 'If an airline cancels your flight and it was their fault — not due to weather or other circumstances beyond their control — you are entitled to a full refund.'"
+    },
+    {
+      "id": 2,
+      "question": "What does TriMet do when there is a service disruption on the MAX light rail?",
+      "options": [
+        "Cancels all services for the day",
+        "Refunds all affected passengers",
+        "Runs shuttle buses to cover the affected route segment",
+        "Directs passengers to use rideshare services"
+      ],
+      "correct": 2,
+      "explanation": "The passage says: 'TriMet often runs shuttle buses to cover the affected segment of the route.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses the first conditional?",
+      "options": [
+        "If the bus will be late, I will take a taxi.",
+        "If the bus is late, I will take a taxi.",
+        "If the bus is late, I would take a taxi.",
+        "If the bus was late, I will take a taxi."
+      ],
+      "correct": 1,
+      "explanation": "The first conditional requires present simple in the 'if' clause ('is late') and 'will + base verb' in the result clause ('will take')."
+    },
+    {
+      "id": 4,
+      "question": "What does the passage recommend travellers do first when a delay occurs?",
+      "options": [
+        "File a formal complaint with the transport authority",
+        "Stay informed by checking apps, websites, and speaking with staff",
+        "Immediately book an alternative route without checking the original",
+        "Wait quietly and trust that the problem will resolve itself"
+      ],
+      "correct": 1,
+      "explanation": "The final paragraph says: 'The most important thing any traveller can do during a delay is to stay informed. Check the airline or transit agency's app or website for real-time updates.'"
+    }
   ]
 }

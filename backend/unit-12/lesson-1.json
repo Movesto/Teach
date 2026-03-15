@@ -2,238 +2,232 @@
   "id": "lesson-66",
   "unit_id": 12,
   "lesson_number": 1,
-  "title": "Executive Communication and Thought Leadership",
-  "level": "mastery",
-  "estimated_time": 45,
+  "title": "Reading the News Critically",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Communicate strategic vision compellingly",
-    "Establish thought leadership in professional domains",
-    "Navigate high-stakes executive conversations",
-    "Influence through nuanced persuasion"
+    "Analyse how news editors construct a political narrative through selection and framing of facts",
+    "Evaluate the use of political euphemism and its effect on public understanding of civic issues",
+    "Distinguish between factual reporting, editorial opinion, and implicit ideological positioning",
+    "Deploy precise metalanguage to discuss media bias in discussion and writing"
   ],
-  "target_phrases": [
-    "The strategic imperative here is...",
-    "Let me reframe this through a different lens...",
-    "The underlying dynamics at play suggest...",
-    "This represents an inflection point where...",
-    "I'd characterize this as fundamentally about...",
-    "The second-order effects we need to consider...",
-    "What's really at stake here is..."
+  "authentic_text": {
+    "title": "Austerity, Adjustment, or Something Else?",
+    "type": "editorial",
+    "text": "When the government announced what the Treasury Secretary described as 'a strategic fiscal recalibration,' most economists reached for a simpler word: cuts. The semantic distance between the two phrases is not accidental. Public institutions, it appears, do not shrink — they undergo 'restructuring.' Social services are not eliminated; they are 'streamlined for efficiency.' Spending reductions affecting the most economically vulnerable citizens are reframed as 'investments in long-term sustainability.'\n\nThis linguistic sleight of hand is not unique to any party or administration. It is, rather, a structural feature of contemporary political communication, in which the language of management and technocracy has largely displaced the language of values and consequence. The effect is not simply cosmetic. When a policy decision is described in the passive voice — 'further adjustments will be required' — responsibility is grammatically dissolved. No agent acts. The budget simply behaves.\n\nCivic literacy, in this environment, requires something beyond vocabulary. It demands what might be called interpretive scepticism: the capacity to read a press release against the grain, to ask whose interests a particular framing serves, and to notice what has been left unsaid. The reader who accepts 'fiscal recalibration' at face value is not merely confused — they are, in a precise sense, politically managed.\n\nNone of this is to suggest that government communication is inherently dishonest. Complexity requires simplification. But simplification that systematically obscures impact is a different matter, and a well-functioning democracy depends on citizens capable of making that distinction.",
+    "source": "Adapted from The Atlantic Monthly, Opinion Section",
+    "notes": "Notice how the editorial itself models interpretive scepticism by juxtaposing official euphemisms with their plain-language equivalents — the technique being analysed is simultaneously being demonstrated."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the editorial, what phrase did the Treasury Secretary use to describe the government's fiscal policy?",
+      "answer": "The Treasury Secretary described it as 'a strategic fiscal recalibration,' which the editorial argues is a euphemism for spending cuts."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by saying that 'responsibility is grammatically dissolved' when the passive voice is used?",
+      "answer": "The writer implies that passive constructions such as 'further adjustments will be required' deliberately remove identifiable human agents from the sentence, making it impossible to hold any specific person or institution accountable for the policy decision — a politically convenient grammatical choice."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the third paragraph, beginning 'Civic literacy, in this environment...' and identify the textual evidence that supports your description.",
+      "answer": "The tone is urgent and cautionary. The writer's coining of the phrase 'interpretive scepticism' as a civic skill, combined with the stark claim that the passive reader is 'in a precise sense, politically managed,' conveys a pressing warning about the danger of linguistic passivity in a democracy."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'sleight' in 'linguistic sleight of hand' (paragraph 2) is closest in meaning to:",
+      "answer": "Dexterity or cunning trickery — the phrase 'sleight of hand' refers to a magician's deceptive skill, so 'linguistic sleight of hand' means the clever manipulation of language to deceive or distract."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this text?",
+      "answer": "The writer's primary purpose is to argue that political euphemism is a systematic and consequential feature of public communication, not mere rhetorical decoration, and to call on citizens to develop the critical literacy necessary to read through it."
+    }
   ],
-  "dialogue": {
-    "title": "C-Suite Executive Meeting",
-    "context": "Ahmed, now a Vice President, participates in executive strategy discussions, navigating complex organizational politics and strategic decisions.",
-    "lines": [
-      {"speaker": "CEO", "text": "Our market position is eroding. We need decisive action. Ahmed, you've studied this sector extensively - what's your assessment?"},
-      {"speaker": "Ahmed", "text": "The strategic imperative here is not simply to defend market share, but to fundamentally redefine our value proposition. What's really at stake is whether we're seen as commodity providers or strategic partners."},
-      {"speaker": "CFO", "text": "That sounds visionary, but we have immediate revenue pressures. We can't afford philosophical discussions when competitors are taking our clients."},
-      {"speaker": "Ahmed", "text": "I appreciate that concern. Let me reframe this through a different lens. The underlying dynamics at play suggest that price competition is a race to the bottom we can't win. The second-order effects of continuing our current approach include margin erosion, talent loss, and strategic irrelevance."},
-      {"speaker": "COO", "text": "So you're proposing we abandon our core business model?"},
-      {"speaker": "Ahmed", "text": "I'd characterize this as fundamentally about evolution, not abandonment. This represents an inflection point where the industry is shifting from transactional to relationship-based models. We either lead that transition or become irrelevant."},
-      {"speaker": "CEO", "text": "You're making a compelling case. What specifically are you proposing?"},
-      {"speaker": "Ahmed", "text": "A three-pronged approach: First, repositioning our value proposition around outcomes rather than outputs. Second, investing in capabilities that differentiate us - data analytics, predictive modeling, strategic consulting. Third, selectively exiting commoditized segments while doubling down on high-value partnerships."},
-      {"speaker": "CFO", "text": "That requires significant investment during a downturn. How do we fund this transformation?"},
-      {"speaker": "Ahmed", "text": "The funding comes from reallocation, not new capital. We divest commodity operations, which frees resources for capability building. Short-term pain, but the alternative is slow decline. The question isn't whether we can afford to transform - it's whether we can afford not to."},
-      {"speaker": "CEO", "text": "That's the kind of strategic thinking we need. Let's develop this proposal further."}
+  "language_analysis": {
+    "focus": "Political Euphemism",
+    "explanation": "A euphemism is the substitution of a mild, abstract, or technical expression for one that might be considered too direct or uncomfortable. Political euphemism operates at scale: it is not incidental but strategic, and it shapes how the public conceptualises policy and its consequences. The key feature of political euphemism is that it replaces words tied to human impact with words drawn from management, finance, or technology — domains that connote expertise rather than choice.\n\nThe communicative purpose is two-fold. First, euphemism makes painful or contested decisions appear to be technical inevitabilities rather than value-laden choices. When job losses become 'workforce optimisation' or benefit reductions become 'means-testing adjustments,' the implicit message is that expert systems are simply operating as they must. Second, euphemism diffuses public opposition by raising the cost of protest: it is difficult to march against 'a strategic fiscal recalibration' in the way that it is possible to march against 'cuts to the NHS.'\n\nAt the C1/C2 level, learners should be able to both identify euphemisms and articulate their specific rhetorical function — not just that they 'soften' language, but precisely how they redirect attention, remove agency, or shift the evaluative frame of a policy debate.",
+    "examples": [
+      {
+        "from_text": "'a strategic fiscal recalibration'",
+        "analysis": "This phrase replaces 'spending cuts' with three words (strategic, fiscal, recalibration) that connote deliberate expertise, financial responsibility, and technical correction respectively — all positive or neutral associations. The effect is to reframe a policy that produces harm as one that produces order."
+      },
+      {
+        "from_text": "'further adjustments will be required'",
+        "analysis": "The passive construction dissolves agency (no one 'requires' the adjustments — they simply become necessary), while 'adjustments' euphemises what might more accurately be described as reductions or eliminations. The indefinite future tense also avoids commitment to a timeline of accountability."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The department will undergo a process of strategic workforce realignment.",
+        "informal": "People are going to lose their jobs."
+      },
+      {
+        "formal": "Enhanced means-testing criteria will be applied to benefit eligibility.",
+        "informal": "Fewer people will qualify for support."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Framing strategic imperatives",
-      "pattern": "The strategic imperative here is [core issue] / What's really at stake is [fundamental concern]",
-      "examples": [
-        "The strategic imperative here is not incremental improvement but fundamental reinvention of our business model.",
-        "What's really at stake is our relevance in an industry undergoing paradigmatic transformation.",
-        "The strategic imperative here is building organizational capabilities for sustained competitive advantage.",
-        "What's really at stake is whether we lead the industry transition or become collateral damage.",
-        "The strategic imperative here is aligning our operations with long-term strategic positioning."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Reframing perspectives",
-      "pattern": "Let me reframe this through [different lens] / I'd characterize this as fundamentally about [core issue]",
-      "examples": [
-        "Let me reframe this through a long-term value creation lens rather than quarterly earnings focus.",
-        "I'd characterize this as fundamentally about organizational culture, not just processes or structure.",
-        "Let me reframe this through the customer experience lens - what does this mean for them?",
-        "I'd characterize this as fundamentally about strategic positioning in an evolving marketplace.",
-        "Let me reframe this through a risk management perspective to understand downside scenarios."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Analyzing dynamics and effects",
-      "pattern": "The underlying dynamics suggest [analysis] / The second-order effects include [consequences]",
-      "examples": [
-        "The underlying dynamics suggest industry consolidation is inevitable; the question is timing and positioning.",
-        "The second-order effects include talent retention challenges and potential regulatory scrutiny.",
-        "The underlying dynamics suggest our competitive advantage is eroding faster than market perception reflects.",
-        "The second-order effects include reputational risks and stakeholder relationship implications.",
-        "The underlying dynamics suggest technology disruption will accelerate, requiring proactive adaptation."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit12-lesson1-listen1.mp3",
-      "transcript": "Executive communication requires synthesizing complex information into clear strategic narratives. Effective executives don't just present data - they tell stories about what data means for organizational direction. Frame issues in terms of strategic imperatives, not tactical details. Anticipate objections and address them preemptively. Use concrete examples to illustrate abstract strategies. Balance confidence with intellectual humility - acknowledge uncertainty while providing direction. The goal is enabling informed decisions, not demonstrating expertise.",
-      "question": "What do effective executives do with data?",
-      "options": [
-        "Just present numbers",
-        "Tell stories about what data means for direction",
-        "Hide unfavorable information",
-        "Focus only on details"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit12-lesson1-listen2.mp3",
-      "transcript": "Thought leadership establishes you as authoritative voice in your domain. Contribute original insights through articles, speaking engagements, and public discourse. Don't just summarize existing knowledge - offer fresh perspectives. Connect disparate ideas in novel ways. Challenge conventional wisdom constructively. Use accessible language without oversimplifying. Build reputation through consistent, high-quality contributions over time. Thought leadership isn't self-promotion; it's advancing collective understanding while positioning your expertise.",
-      "question": "What distinguishes thought leadership?",
-      "options": [
-        "Just summarizing existing knowledge",
-        "Offering fresh perspectives and original insights",
-        "Only self-promotion",
-        "Avoiding controversial topics"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit12-lesson1-listen3.mp3",
-      "transcript": "Navigating executive politics requires reading room dynamics and understanding stakeholder interests. Notice who has influence versus who has authority - they're not always the same. Build coalitions before formal meetings. Frame proposals addressing multiple stakeholders' concerns. When disagreement emerges, find common ground rather than forcing votes. Use strategic questions to guide discussion: 'What if we considered...' or 'How might this affect...' Influence through insight and alignment, not positional power.",
-      "question": "How should you influence in executive settings?",
-      "options": [
-        "Through positional power only",
-        "By forcing votes",
-        "Through insight and alignment",
-        "By dominating conversation"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Present a strategic recommendation to executives on any business/organizational issue. Frame the imperative, address objections, and propose action. Use executive language. Record for 50 seconds.",
-      "example": "Let me address our talent retention challenge. The strategic imperative here is not simply improving compensation - that's treating symptoms, not root causes. What's really at stake is our ability to compete for expertise in an increasingly competitive labor market. Let me reframe this through a strategic lens. The underlying dynamics suggest that talented professionals increasingly value purpose, development, and flexibility over purely monetary rewards. Our current approach - focusing primarily on salary - positions us as commodity employer. The second-order effects include adverse selection - we attract mercenaries rather than missionaries. I'd characterize this as fundamentally about organizational culture and employee value proposition. This represents an inflection point where we can lead industry evolution or suffer continuous turnover. My proposal: redesign our value proposition around three pillars - purposeful work aligned with societal impact, clear development pathways with mentorship, and genuine flexibility around when and where work happens. The investment is primarily reallocation - fewer perks, more meaningful benefits. We pilot this in our highest-turnover department, measure impact after six months, and scale what works. The alternative - continuing our current approach - means perpetual recruiting costs, institutional knowledge loss, and strategic capability gaps.",
-      "min_seconds": 50,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Someone proposes a conservative approach to a strategic challenge. Respectfully push for bolder action using executive framing. Record for 40 seconds.",
-      "example": "I appreciate the risk-mitigation thinking in that proposal - prudence matters. However, let me reframe this through a different lens. The underlying dynamics at play suggest that incremental approaches won't generate the inflection point we need. What's really at stake isn't just short-term stability but long-term viability. I'd characterize this as fundamentally about whether we're willing to lead or content to follow. The strategic imperative here is recognizing that in rapidly evolving markets, the status quo is actually the highest-risk strategy. The second-order effects of cautious incrementalism include opportunity costs, competitive disadvantage, and talent frustration. This represents a moment where calculated boldness serves us better than comfortable conservatism. I'm proposing we maintain our core while simultaneously building parallel capabilities for emerging opportunities. We're not betting the company - we're investing in optionality. The question isn't whether this involves risk - all strategies do. The question is which risks we're better positioned to manage. I believe we're stronger positioned for transformation risk than obsolescence risk.",
-      "min_seconds": 40,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write an executive summary for a strategic initiative. Frame the imperative, outline the approach, address concerns, and call for action. (150-180 words)",
-      "min_words": 150,
-      "example": "Executive Summary: Digital Transformation Initiative\n\nThe strategic imperative here is clear: our industry is undergoing fundamental disruption, and our current digital capabilities position us as followers, not leaders. What's really at stake is market relevance in an increasingly technology-mediated landscape.\n\nThe underlying dynamics suggest that customer expectations have evolved faster than our operational capabilities. Competitors leveraging digital platforms demonstrate 40% higher efficiency and 25% better customer satisfaction. The second-order effects of maintaining our current trajectory include continued market share erosion and diminished ability to attract digital-native talent.\n\nI'd characterize this as fundamentally about organizational evolution, not merely technology adoption. This represents an inflection point where investment in digital infrastructure determines competitive positioning for the next decade.\n\nProposed Approach: Three-year phased transformation involving cloud migration, data analytics capabilities, and process automation. Total investment: $15M, funded through operational efficiency gains and selective divestiture of legacy systems.\n\nThe question isn't whether we can afford this transformation - it's whether we can afford not to. I recommend board approval to proceed with Phase 1 implementation.",
-      "min_words": 150
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a thought leadership article introduction establishing your expertise and offering a fresh perspective on an industry issue. (120-140 words)",
-      "min_words": 120,
-      "example": "Rethinking Supply Chain Resilience: Beyond Just-in-Time\n\nThe pandemic exposed fundamental vulnerabilities in global supply chains optimized for efficiency over resilience. Conventional wisdom now advocates diversification and redundancy - essentially, just-in-case replacing just-in-time. However, this binary framing misses crucial nuances.\n\nHaving led supply chain operations through multiple disruptions over two decades, I'd characterize the real challenge as fundamentally about dynamic adaptability rather than static positioning. The underlying dynamics suggest that neither pure efficiency nor pure resilience optimizes for our increasingly volatile operating environment.\n\nLet me reframe this through a complexity science lens: effective supply chains require what I call 'adaptive resilience' - the capability to rapidly reconfigure in response to changing conditions rather than maintaining expensive redundancy against all possible scenarios. This represents an inflection point where technology enables fundamentally new approaches to supply chain design.\n\nIn this article, I'll outline three principles for building adaptive resilience that balance efficiency and robustness.",
-      "min_words": 120
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Nominalization for Executive Abstraction",
-      "explanation": "Use nominalization to discuss abstract concepts at strategic level.",
-      "examples": [
-        "The optimization of processes requires... (not 'optimizing processes')",
-        "Our transformation of organizational culture... (executive framing)",
-        "The implementation of this strategy... (formal abstraction)",
-        "The evolution of market dynamics... (strategic discussion)"
-      ],
-      "practice": [
-        {"sentence": "The ___ of this approach is essential.", "blank": "implementation", "options": ["implement", "implementation", "implementing"]},
-        {"sentence": "The ___ of stakeholders matters.", "blank": "alignment", "options": ["align", "alignment", "aligning"]},
-        {"sentence": "The ___ of capabilities takes time.", "blank": "development", "options": ["develop", "development", "developing"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Subjunctive Mood for Strategic Conditionals",
-      "explanation": "Use subjunctive for hypothetical strategic scenarios.",
-      "examples": [
-        "Were we to pursue this strategy, the implications would be... (formal conditional)",
-        "If this were our primary focus, we would need... (hypothetical)",
-        "I recommend that we consider alternatives. (subjunctive suggestion)",
-        "It's imperative that leadership align on this. (subjunctive necessity)"
-      ],
-      "practice": [
-        {"sentence": "If this ___ our priority, we'd allocate differently.", "blank": "were", "options": ["was", "were", "is"]},
-        {"sentence": "I suggest that he ___ the proposal.", "blank": "reconsider", "options": ["reconsiders", "reconsider", "reconsidered"]},
-        {"sentence": "Were we ___ this path, risks would include...", "blank": "to pursue", "options": ["pursuing", "to pursue", "pursues"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Hedging and Boosting for Nuanced Claims",
-      "explanation": "Balance certainty and caution in executive communication.",
-      "examples": [
-        "The data strongly suggest this trend will continue. (boosted)",
-        "This approach may yield significant benefits. (hedged)",
-        "We can confidently assert that... (boosted)",
-        "The evidence tends to indicate... (hedged)"
-      ],
-      "practice": [
-        {"sentence": "The findings ___ support this strategy.", "blank": "strongly", "options": ["might", "strongly", "possibly"]},
-        {"sentence": "This ___ create competitive advantage.", "blank": "could", "options": ["will definitely", "could", "must"]},
-        {"sentence": "We can ___ conclude that...", "blank": "reasonably", "options": ["absolutely", "reasonably", "maybe"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What do effective executives do with data?", "options": ["Present numbers only", "Tell stories about strategic direction", "Hide information", "Focus on details"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What distinguishes thought leadership?", "options": ["Summarizing knowledge", "Offering fresh perspectives", "Self-promotion only", "Avoiding controversy"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How should you influence executives?", "options": ["Positional power", "Forcing votes", "Through insight and alignment", "Dominating"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'The ___ of this approach is essential.'", "options": ["implement", "implementation", "implementing", "implemented"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Executive communication requires synthesizing complexity into clear strategic narratives.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Thought leadership is primarily about self-promotion.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "If this ___ our priority, we'd allocate differently. (subjunctive)", "correct": "were", "accept": ["were"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "The findings ___ support this. (boosting)", "correct": "strongly", "accept": ["strongly", "clearly"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match executive communication element:", "pairs": [{"left": "Strategic imperative", "right": "Core issue"}, {"left": "Second-order effects", "right": "Indirect consequences"}, {"left": "Inflection point", "right": "Critical juncture"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed proposed funding transformation through:", "options": ["New capital", "Reallocation of existing resources", "Debt", "Cutting all programs"], "correct": 1, "points": 10},
-      {"id": "q11", "type": "open-ended", "question": "Find and fix the grammar error: 'The strategic imperative here are to redefine our value proposition.'", "correct": "The strategic imperative here is to redefine our value proposition.", "accept": ["The strategic imperative here is to redefine our value proposition."], "points": 10},
-      {"id": "q12", "type": "open-ended", "question": "Find and fix the grammar error: 'If this were our priority, we would allocated resources differently.'", "correct": "If this were our priority, we would allocate resources differently.", "accept": ["If this were our priority, we would allocate resources differently."], "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The editorial critiqued the government's use of language, inferring that official communications were deliberately misleading.",
+        "correct": "The editorial critiqued the government's use of language, implying that official communications were deliberately misleading.",
+        "explanation": "'Infer' means to draw a conclusion from evidence (the reader infers); 'imply' means to suggest something indirectly (the writer implies). The editorial, as the author of the argument, implies — it does not infer."
+      },
+      {
+        "incorrect": "Political euphemisms are so prevalent in contemporary discourse that they have became invisible to the average reader.",
+        "correct": "Political euphemisms are so prevalent in contemporary discourse that they have become invisible to the average reader.",
+        "explanation": "'Have became' is incorrect; the present perfect requires the past participle 'become,' not the simple past 'became.'"
+      },
+      {
+        "incorrect": "The journalist's tendency to write in the passive voice was seen as a mean of obscuring political responsibility.",
+        "correct": "The journalist's tendency to write in the passive voice was seen as a means of obscuring political responsibility.",
+        "explanation": "'Means' in the sense of 'method or instrument' is always singular in form: 'a means,' not 'a mean.' 'Mean' as a standalone noun refers to an average or the mathematical term."
+      },
+      {
+        "incorrect": "Citizens who are capable to read political language critically are less susceptible to manipulation.",
+        "correct": "Citizens who are capable of reading political language critically are less susceptible to manipulation.",
+        "explanation": "'Capable' collocates with 'of' followed by a gerund ('capable of reading'), not with 'to' followed by an infinitive — a common collocation error at the C1 level."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "imperative", "definition": "urgent, essential priority", "example": "The strategic imperative is clear."},
-    {"word": "inflection point", "definition": "critical juncture of change", "example": "We're at an inflection point."},
-    {"word": "paradigmatic", "definition": "serving as fundamental model", "example": "A paradigmatic shift is occurring."},
-    {"word": "value proposition", "definition": "promised value to customers", "example": "Redefine our value proposition."},
-    {"word": "commoditization", "definition": "becoming undifferentiated commodity", "example": "Avoid commoditization through innovation."},
-    {"word": "second-order effects", "definition": "indirect downstream consequences", "example": "Consider second-order effects."},
-    {"word": "reallocation", "definition": "redistributing resources", "example": "Fund through reallocation."},
-    {"word": "optionality", "definition": "having multiple strategic choices", "example": "Build optionality for flexibility."},
-    {"word": "parsimony", "definition": "economy, simplicity", "example": "Seek parsimonious solutions."},
-    {"word": "coalition", "definition": "alliance for common purpose", "example": "Build coalitions before meetings."}
-  ],
-  "cultural_notes": [
-    "American C-suite culture values decisive action balanced with thoughtful analysis.",
-    "Executive meetings in U.S. companies often involve vigorous debate - disagreement is expected and valued.",
-    "Thought leadership is highly valued in American business culture - executives are expected to contribute to industry discourse.",
-    "American executives appreciate direct communication that gets to strategic essence quickly.",
-    "Building cross-functional coalitions before formal meetings is standard practice in American corporate culture.",
-    "In American business, executive decisions often require balancing stakeholder interests - shareholders, employees, customers, community.",
-    "Ahmed's journey: Five years after arriving in the U.S., Ahmed completed his associate degree while working full-time. He progressed from supervisor to operations manager to regional director. Unit 12 finds him in his first executive role as VP of Operations at a regional logistics company."
+  "debate_task": {
+    "motion": "This house believes that political euphemism is a legitimate tool of governance, not a form of public deception.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Complex policies genuinely require simplified communication, and technical language makes texts accessible to non-specialist audiences.",
+      "All language involves framing; euphemism is no different from any other rhetorical choice made by a writer or speaker.",
+      "Democratic institutions depend on public cooperation, and blunt language that provokes fear or outrage can undermine the stability necessary for policy implementation."
+    ],
+    "counter_arguments": [
+      "When euphemism systematically obscures the human cost of policy decisions, it undermines the informed consent that democratic accountability requires.",
+      "The asymmetry of expertise between government communicators and ordinary citizens means euphemism functions as a power tool, not a neutral simplification.",
+      "A citizenry that cannot identify the gap between official language and reality cannot exercise meaningful democratic agency — making euphemism structurally antidemocratic."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Write a short analytical article for a university student magazine explaining what political euphemism is, why it matters for civic life, and offering readers two or three concrete strategies for reading political language more critically.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a concrete, striking example of a political euphemism in use — ideally one from a recent news story. Use it to pose the central question: why does the language of politics so consistently diverge from the reality it describes?"
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Explain the mechanics of political euphemism: how it works linguistically (substituting abstract or technical terms for concrete human impacts) and what communicative purpose it serves (diffusing opposition, manufacturing consent, distributing blame)."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge the legitimate case that simplification is necessary in public communication, and that not all euphemism is cynically motivated. However, argue that systematic euphemism — euphemism that consistently privileges institutional interests over public transparency — crosses a democratic line."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "End with two or three actionable strategies: read the passive voice with suspicion; always ask what concrete action or impact the abstract noun is replacing; compare official press releases with investigative reporting on the same event."
+      }
+    ],
+    "model_answer": "When the Home Secretary announced 'a managed reduction in discretionary public expenditure,' most readers nodded along. The phrase is smooth, authoritative, and entirely empty. It is also, in a very precise sense, designed to be.\n\nPolitical euphemism is the systematic substitution of abstract or technical language for words that carry human weight. Spending cuts become 'fiscal adjustments.' Job losses become 'workforce optimisation.' The effect is not merely aesthetic — it is political. Language that evokes expertise rather than consequence makes it significantly harder to identify who decides, who loses, and who is accountable.\n\nIt would be unfair to suggest that all political simplification is dishonest. Governance is genuinely complex, and some degree of technical shorthand is unavoidable. The problem arises when euphemism is so consistent and so directional — always softening impacts, always dissolving agents — that it functions as structural deception rather than legitimate simplification.\n\nThe good news is that interpretive scepticism is a learnable skill. Three habits help. First, treat the passive voice as a red flag: 'cuts will be made' demands the question 'made by whom?' Second, replace every abstract noun with its concrete equivalent: what does 'recalibration' actually change, and for whom? Third, compare the press release with the investigative report — the gap between them is where the politics live.\n\nA democracy needs citizens who read as carefully as governments write. The tools are available. The question is whether we choose to use them."
+  },
+  "advanced_grammar": {
+    "structure": "Relative Clauses for Precision",
+    "explanation": "Defining relative clauses identify or specify a particular noun from a larger class. They are essential in analytical writing because they allow a writer to make precise distinctions within a category — not just 'euphemisms' but 'euphemisms that systematically obscure impact.' Non-defining relative clauses add supplementary information about a noun that is already uniquely identified; these are separated by commas and can be removed without changing the core meaning of the sentence.\n\nThe communicative purpose of the relative clause in formal writing is precision: it allows the writer to embed a qualification or specification inside a noun phrase rather than requiring a separate sentence. In civic and journalistic writing, this density is characteristic of the register — complex ideas need to be expressed economically without sacrificing accuracy. Learners at C1/C2 level should be able to use both types fluently and to recognise the difference between 'which' (non-defining, British English standard) and 'that' (defining), as well as the zero relative in informal contexts.",
+    "authentic_examples": [
+      "The language that most effectively conceals political responsibility is not the language of lies but the language of management.",
+      "Passive constructions, which remove the grammatical agent from the sentence, are a signature feature of bureaucratic euphemism.",
+      "Citizens who have developed interpretive scepticism are less susceptible to the political management of language."
+    ],
+    "practice": [
+      {
+        "sentence": "The editorial made a distinction between policies that reduce spending and policies that reduce spending fairly. (Combine using a relative clause.)",
+        "transform": "Combine into a single sentence with a defining relative clause introduced by 'that' or 'which'.",
+        "answer": "The editorial made a distinction between policies that reduce spending and those that do so equitably — a distinction which official language routinely collapses."
+      },
+      {
+        "sentence": "Political euphemism is a feature of contemporary discourse. It serves institutional rather than public interests.",
+        "transform": "Combine into a single sentence with a non-defining relative clause (use a comma + which).",
+        "answer": "Political euphemism is a feature of contemporary discourse, which consistently serves institutional rather than public interests."
+      },
+      {
+        "sentence": "The reader accepts the phrase 'fiscal recalibration.' This reader cannot engage in meaningful democratic debate.",
+        "transform": "Combine using a defining relative clause to create one precise sentence.",
+        "answer": "The reader who accepts 'fiscal recalibration' at face value lacks the interpretive tools necessary for meaningful democratic engagement."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "The editorial describes 'interpretive scepticism' as a civic skill. What does this phrase most precisely mean in context?",
+      "options": [
+        "A general tendency to distrust all government communication",
+        "The ability to read political language critically, identifying whose interests a given framing serves",
+        "A form of media training available to professional journalists",
+        "Scepticism about the accuracy of statistical data in news reports"
+      ],
+      "correct": 1,
+      "explanation": "The editorial defines 'interpretive scepticism' as the capacity to 'read a press release against the grain, to ask whose interests a particular framing serves, and to notice what has been left unsaid' — a precise critical reading skill, not a general disposition of distrust."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best describes the linguistic function of the phrase 'further adjustments will be required'?",
+      "options": [
+        "It uses the active voice to assign responsibility clearly.",
+        "It employs a defining relative clause to specify the nature of the adjustments.",
+        "It uses the passive voice and an abstract noun to dissolve both agency and concrete impact.",
+        "It functions as an example of understatement rather than euphemism."
+      ],
+      "correct": 2,
+      "explanation": "The passive construction ('will be required') removes an identifiable agent, and 'adjustments' replaces concrete terms like 'cuts' or 'reductions' with an abstract managerial noun — both features of political euphemism working together."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The report inferred that austerity measures had disproportionately affected low-income households.'",
+      "options": [
+        "No error — 'inferred' is used correctly here.",
+        "Should be 'implied' — a report suggests or implies; readers infer from what they read.",
+        "Should be 'indicated' — 'imply' and 'infer' are both incorrect with inanimate subjects.",
+        "Should be 'intimated' — the formal register requires a more elevated synonym."
+      ],
+      "correct": 1,
+      "explanation": "'Infer' describes the cognitive act of drawing a conclusion from evidence — something a reader does. 'Imply' describes the act of suggesting something indirectly — something a writer or text does. Using 'inferred' with the report as subject is therefore incorrect."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence demonstrates the most sophisticated use of register appropriate to civic analytical writing?",
+      "options": [
+        "The government is obviously lying when it uses words like 'recalibration' — everyone knows it just means cuts.",
+        "Political euphemism, which systematically substitutes technocratic abstraction for language tied to human consequence, represents a structural threat to democratic accountability.",
+        "Politicians use fancy words to confuse people, and this is a big problem for society.",
+        "The use of euphemism in political discourse is very common and can be problematic for citizens."
+      ],
+      "correct": 1,
+      "explanation": "Option B uses a non-defining relative clause to embed a precise definition, employs a formal register throughout ('systematically substitutes,' 'technocratic abstraction,' 'structural threat'), and makes a specific, arguable claim — all features of strong civic analytical writing."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a correctly formed defining relative clause?",
+      "options": [
+        "Citizens, who are capable of critical reading, tend to be more resistant to manipulation.",
+        "Citizens who are capable of critical reading tend to be more resistant to manipulation.",
+        "Citizens that, are capable of critical reading, tend to be more resistant to manipulation.",
+        "Citizens which are capable of critical reading, they tend to be more resistant to manipulation."
+      ],
+      "correct": 1,
+      "explanation": "A defining relative clause identifies a specific subset of a noun and takes no separating commas. 'Citizens who are capable of critical reading' correctly specifies which citizens resist manipulation. Option A uses commas, making it non-defining, which changes the meaning (implying all citizens are capable of critical reading)."
+    }
   ]
 }

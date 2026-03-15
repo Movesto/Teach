@@ -2,279 +2,231 @@
   "id": "lesson-79",
   "unit_id": 10,
   "lesson_number": 5,
-  "title": "Persuasive Language: Making Proposals",
+  "title": "Identity in Diaspora: Belonging, Code-Switching, and the Self",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "Ahmed is two months into his supervisor role. He has noticed that deliveries at Bay 3 are frequently delayed because the check-in process requires staff to walk to the main office to log items. He believes a simple digital form on a tablet would cut delays by half. Now he needs to convince Director Kim to approve the investment.",
   "objectives": [
-    "Frame a proposal professionally using modal verbs and hedging language",
-    "Use concession language (while, although, even though) to acknowledge concerns",
-    "Support claims with evidence language (the data suggests, this indicates)",
-    "Structure a persuasive argument: claim → evidence → concession → reaffirmation"
+    "Analyse how discourse markers create cohesion and signal logical relationships in extended arguments",
+    "Evaluate the use of contrast, concession, and elaboration markers in texts about diasporic identity",
+    "Construct a logically sequenced argument about belonging using a range of discourse markers accurately",
+    "Distinguish between additive, adversative, causal, and sequential discourse markers and deploy them with precision"
   ],
-  "target_phrases": [
-    "I'd like to propose a change to our current process.",
-    "One approach would be to introduce a tablet-based check-in.",
-    "The data suggests this could reduce delays by around 40%.",
-    "While I understand the concern about upfront cost...",
-    "What if we piloted this for one month?",
-    "I'm confident this would improve our throughput.",
-    "Based on what I've observed over the last two months..."
+  "authentic_text": {
+    "title": "Neither Here Nor There — Or Both: On Diasporic Belonging",
+    "type": "speech",
+    "text": "Let me begin with a question I have been asked more times than I can count: 'Where are you really from?' It is, on the surface, a straightforward enquiry. Beneath the surface, however, it encodes a set of assumptions about identity that I want to spend the next few minutes examining — because I believe the question, however well-intentioned, exposes a fundamental misunderstanding of what belonging actually means for those of us who grew up between worlds.\n\nI was born in Mogadishu. I was raised in Minneapolis. Consequently, I am both. Not half of one and half of another — both, entirely. Nevertheless, the dominant discourse of identity continues to frame belonging in spatial and singular terms: you are from one place, you belong to one culture, you have one home. As a result, those of us who inhabit multiple cultural registers simultaneously are routinely invited — implicitly or explicitly — to choose.\n\nWhat strikes me about this invitation is its asymmetry. My colleagues who were born here are never asked to choose between their regional identity and their national one, between their family's Irish heritage and their American present. By contrast, I am regularly positioned as a guest in a country where I have lived for twenty years, paid taxes, raised children, and voted in every election.\n\nThis is not, I should be clear, a counsel of despair. On the contrary, the experience of navigating multiple cultural identities — code-switching between Somali and English, between the values of my parents' household and the norms of my professional environment — has given me capacities I would not exchange. Furthermore, research in cognitive science increasingly suggests that individuals who habitually operate across cultural frames develop measurably greater cognitive flexibility and creative problem-solving ability.\n\nIn short, the question 'where are you really from?' deserves a more interesting answer than either 'here' or 'there'. The answer is: I am from the intersection.",
+    "source": "Adapted from a keynote address at the Midwest Diaspora Studies Conference, published in the conference proceedings",
+    "notes": "The speech is structured around a series of marked logical transitions — 'however', 'consequently', 'nevertheless', 'by contrast', 'furthermore', 'in short' — that guide the audience through a complex argument with clarity and rhetorical force."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What two cities does the speaker identify as central to their personal history?",
+      "answer": "The speaker was born in Mogadishu and raised in Minneapolis, as stated directly in the third paragraph: 'I was born in Mogadishu. I was raised in Minneapolis.'"
+    },
+    {
+      "type": "inference",
+      "question": "What does the speaker imply by noting that colleagues with Irish heritage 'are never asked to choose'?",
+      "answer": "The speaker implies that the demand to choose a singular cultural identity is applied selectively — to visibly racialised or immigrant communities rather than to all people with complex heritage. The comparison exposes an asymmetry in how belonging is policed, suggesting the question 'where are you really from?' functions as a marker of who is considered authentically native."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the tone of the fourth paragraph? Give evidence.",
+      "answer": "The tone shifts from measured critique to cautious optimism. After establishing an argument about asymmetry and exclusion, the speaker explicitly signals a change of direction with 'This is not, I should be clear, a counsel of despair. On the contrary...' — the self-correction mid-sentence and the use of 'on the contrary' produce a tone of deliberate, controlled balance, preventing the speech from reading as simply a grievance narrative."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The phrase 'counsel of despair' in paragraph four is closest in meaning to:",
+      "answer": "An argument or position that leads to hopelessness and inaction — the speaker is rejecting the idea that their critique of belonging discourse is pessimistic or defeatist. 'Counsel' here means advice or position, not a lawyer."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the speaker's main purpose in this speech?",
+      "answer": "To challenge the binary, singular understanding of belonging by arguing from personal experience and cognitive science evidence that multiple cultural identities are not deficiencies to be resolved but capacities to be valued — reframing diaspora experience from a problem of divided loyalty into an asset of intersectional richness."
+    }
   ],
-  "dialogue": {
-    "title": "Ahmed's Process Improvement Proposal",
-    "context": "Ahmed has requested five minutes with Director Kim to present a proposal for improving the Bay 3 check-in process.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Thank you for your time, Director Kim. I'd like to propose a small change to the Bay 3 check-in process."},
-      {"speaker": "Director Kim", "text": "Go ahead."},
-      {"speaker": "Ahmed", "text": "Based on what I've observed over the last two months, the current process requires staff to walk to the main office to log each delivery. That's taking about eight minutes per delivery."},
-      {"speaker": "Director Kim", "text": "I'm aware of it. What are you suggesting?"},
-      {"speaker": "Ahmed", "text": "One approach would be to place a tablet at Bay 3 with a digital check-in form. Staff could log deliveries on-site. I believe this could reduce the delay to under two minutes."},
-      {"speaker": "Director Kim", "text": "That sounds like it could work — but what about the cost?"},
-      {"speaker": "Ahmed", "text": "While I understand the concern about upfront cost, the time savings would likely offset the expense within three months. We're currently losing around 45 staff minutes per shift to this process."},
-      {"speaker": "Director Kim", "text": "Do you have numbers to support that?"},
-      {"speaker": "Ahmed", "text": "Yes. I tracked delivery times over four weeks. The data suggests an average of 5.6 deliveries per shift at Bay 3. At eight minutes each, that's roughly 45 minutes of avoidable delays daily."},
-      {"speaker": "Director Kim", "text": "I see. What would you need to move forward?"},
-      {"speaker": "Ahmed", "text": "What if we piloted this for one month with a single tablet? If the data shows a 30% or greater reduction in check-in time, we could expand to the other bays."},
-      {"speaker": "Director Kim", "text": "I like that you're proposing a test rather than a full rollout. That shows good judgment. Submit a one-page summary and I'll consider it."},
-      {"speaker": "Ahmed", "text": "Thank you. I'm confident this would improve our throughput. I'll have the summary on your desk by tomorrow morning."}
+  "language_analysis": {
+    "focus": "Discourse Markers for Cohesion",
+    "explanation": "Discourse markers are words and phrases that signal the logical relationship between clauses, sentences, or paragraphs. They function as signposts — guiding the reader through an argument by making its structure explicit. Without discourse markers, even a well-reasoned argument can feel disjointed; with them, the same ideas become a coherent, navigable whole.\n\nDiscoure markers can be classified by function. Additive markers add information: 'furthermore', 'moreover', 'in addition', 'equally'. Adversative markers signal contrast or concession: 'however', 'nevertheless', 'by contrast', 'on the contrary', 'yet'. Causal markers indicate reason or result: 'consequently', 'as a result', 'therefore', 'hence'. Sequential and summarising markers organise or conclude: 'first', 'subsequently', 'in short', 'to summarise', 'ultimately'.\n\nAt C1/C2 level, the key distinction is between markers that work within a sentence (conjunctions like 'although', 'whereas', 'so that') and those that link sentences or paragraphs (adverbials like 'however', 'moreover', 'consequently'). A common error is to use sentence-initial adverbials as conjunctions — writing 'I am from two cultures, however I identify with both' is incorrect; the comma should be a full stop or semicolon. Precision in placing and punctuating discourse markers is itself a marker of C2 competence.",
+    "examples": [
+      {
+        "from_text": "I was born in Mogadishu. I was raised in Minneapolis. Consequently, I am both.",
+        "analysis": "'Consequently' signals that the third sentence is a logical conclusion from the two preceding facts. The use of a full stop rather than a comma before 'Consequently' is grammatically and stylistically correct — the marker links two independent sentences, not two clauses within one sentence. The brevity of 'I am both' after the marker gives it rhetorical force."
+      },
+      {
+        "from_text": "This is not, I should be clear, a counsel of despair. On the contrary, the experience of navigating multiple cultural identities...has given me capacities I would not exchange.",
+        "analysis": "'On the contrary' is an adversative marker that introduces a complete reversal of the expected direction. It is stronger than 'however' because it does not merely qualify — it inverts. The marker here performs a structuring function: it tells the audience the argument is about to pivot from critique to celebration."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The dominant discourse frames belonging in singular terms; nevertheless, the reality of diasporic experience is considerably more complex.",
+        "informal": "People think you can only belong to one place, but that's not really true for a lot of us."
+      },
+      {
+        "formal": "Code-switching demands considerable cognitive labour. Furthermore, this labour is disproportionately borne by those who inhabit minority cultural positions.",
+        "informal": "Code-switching is hard work, and on top of that, it's mostly people in minority communities who have to do it."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Modal verbs for proposals: would, could, might",
-      "pattern": "Use 'would' for confident proposals, 'could' for possibilities, 'might' for less certain ideas.",
-      "examples": [
-        "One approach would be to move the check-in station closer to Bay 3.",
-        "This could reduce delays by up to 40%. (possible result — not 100% certain)",
-        "A tablet system might also help with inventory accuracy. (additional possibility)",
-        "I believe this would improve the process significantly. (confident recommendation)",
-        "We could pilot this for one month before committing to a full rollout. (tentative suggestion)"
-      ],
-      "your_turn": "Propose a small improvement at your workplace or school. Use 'One approach would be to...' or 'This could help us...'",
-      "prompts": [
-        {"sentence": "One approach ___ be to digitize the check-in form. (confident proposal)", "answer": "would"},
-        {"sentence": "This ___ reduce wait times significantly. (possible result)", "answer": "could"},
-        {"sentence": "A pilot program ___ show us whether it works before we commit. (less certain)", "answer": "might"}
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Concession language: while, although, even though",
-      "pattern": "Acknowledge the concern (concession clause), then reaffirm your main point (main clause). Pattern: While/Although + concern, main claim.",
-      "examples": [
-        "While I understand the concern about cost, the time savings would offset the expense within three months.",
-        "Although the initial investment is significant, the long-term benefits are clear.",
-        "Even though we have limited IT support, the setup is simple enough for in-house installation.",
-        "While this is a change from the current process, the transition would take less than a day.",
-        "Although some staff may need brief training, the interface is designed to be intuitive."
-      ],
-      "your_turn": "Use 'While I understand...' to acknowledge a concern, then give your counter-argument.",
-      "prompts": [
-        {"sentence": "___ I understand the budget concern, the ROI is very strong.", "answer": "While"},
-        {"sentence": "___ the change requires training, it would only take one afternoon.", "answer": "Although"},
-        {"sentence": "___ even though the timeline is tight, the team is fully capable.", "answer": "Although"},
-        {"sentence": "Even ___ there are risks, the potential gains outweigh them.", "answer": "though"}
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Evidence language and claim structure",
-      "pattern": "CLAIM: 'I believe this would...' | EVIDENCE: 'The data suggests...' / 'Based on...' | CONCESSION: 'While...' | REAFFIRMATION: 'I'm confident...'",
-      "examples": [
-        "The data suggests that check-in time averages 8 minutes per delivery. (evidence — observable fact)",
-        "Based on four weeks of tracking, we're losing 45 minutes per shift to this process. (evidence — specific period)",
-        "This indicates that a digital solution could recover significant staff time. (interpretation — 'this indicates')",
-        "I'm confident this would pay for itself within one quarter. (confident conclusion)",
-        "What if we tested this for 30 days? The results would give us clear data to decide. (pilot framing)"
-      ],
-      "your_turn": "Say: 'Based on what I've observed, [something you have noticed]. This suggests that [your recommendation].'",
-      "prompts": [
-        {"sentence": "The ___ suggests that errors increase during peak hours. (evidence phrase)", "answer": "data"},
-        {"sentence": "___ on my observations, the current system has a key bottleneck. (evidence opener)", "answer": "Based"},
-        {"sentence": "I'm ___ this would improve accuracy if we implemented it. (confident conclusion)", "answer": "confident"}
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit10-lesson5-listen1.mp3",
-      "transcript": "Persuasive communication in professional settings relies on three elements: a clear claim, supporting evidence, and an acknowledgement of the other person's concerns. Simply stating 'I think we should do this' is less persuasive than 'Based on the data, this approach would reduce errors by 30%, and while I understand the concern about implementation time, the process is straightforward.' The second version is more persuasive because it anticipates objections rather than ignoring them.",
-      "question": "What makes the second example more persuasive?",
-      "options": [
-        "It is longer",
-        "It uses more formal vocabulary",
-        "It includes evidence and acknowledges concerns",
-        "It uses the word 'please'"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit10-lesson5-listen2.mp3",
-      "transcript": "Modal verbs carry different levels of confidence in proposals. 'Will' states something as certain. 'Would' proposes something as likely in the right conditions. 'Could' presents a possibility. 'Might' suggests something less certain. In professional proposals, 'would' and 'could' are preferred because they show confidence without overclaiming. Saying 'this will fix everything' can seem naive; 'this would likely improve the process by X%' sounds professional and credible.",
-      "question": "Why are 'would' and 'could' preferred over 'will' in professional proposals?",
-      "options": [
-        "They are more formal",
-        "They show confidence without overclaiming",
-        "They are easier to pronounce",
-        "They are required by workplace grammar rules"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit10-lesson5-listen3.mp3",
-      "transcript": "A pilot program is a powerful persuasive tool. Instead of asking for full approval of a large change, you propose a small test: 'What if we tried this for 30 days?' This reduces the perceived risk for the decision-maker. If the pilot succeeds, the data speaks for you. If it fails, the cost is small. Framing proposals as pilots or tests is a highly effective professional communication strategy, especially when proposing changes to established processes.",
-      "question": "Why is proposing a pilot program effective in persuasion?",
-      "options": [
-        "It avoids the need for evidence",
-        "It reduces perceived risk and lets results speak",
-        "It is required for all proposals",
-        "It makes the proposal sound less important"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Present a one-minute proposal to improve something at your workplace or school. Include: what you are proposing, evidence or observation supporting it, an acknowledgement of a possible concern, and your confident conclusion. Use 'I'd like to propose...', 'Based on...', 'While I understand...', and 'I'm confident...'",
-      "example": "I'd like to propose a change to how we communicate shift updates. Currently, supervisors post notices on the break room board, but based on my observations, many staff don't check the board until mid-shift. Over the last month, I've noticed at least three incidents where staff missed important updates. One approach would be to send a brief text message at the start of each shift. While I understand there are privacy concerns about using personal phones, we could use the company group chat that's already set up. I'm confident this would reduce missed communications by at least 60%, and the cost is zero.",
-      "min_seconds": 45,
-      "target_language": "english",
-      "sentence_starters": [
-        "I'd like to propose a change to ...",
-        "Based on what I've observed over the past [weeks/months], ...",
-        "While I understand the concern about ..., I'm confident that ..."
-      ]
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You are on the other side: your manager is proposing a change you have concerns about. Acknowledge the proposal positively, then raise one concern using 'While I appreciate...', and ask a clarifying question using 'What if...?' or 'How would this affect...?' Record for 30 seconds.",
-      "example": "Thank you for sharing this proposal — I can see the potential benefits, especially for our peak-hour workflow. While I appreciate the efficiency gains, I do have a concern about the transition period. Some of our longer-serving staff are comfortable with the current system and may need time to adjust. What if we ran both systems in parallel for the first two weeks? That way, staff could familiarize themselves with the new process without the pressure of it being the only option.",
-      "min_seconds": 30,
-      "target_language": "english",
-      "sentence_starters": [
-        "I can see the potential here, especially for ...",
-        "While I appreciate [the proposal], I do have a concern about ...",
-        "What if we [tried / tested / piloted] ... first?"
-      ]
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a one-page proposal summary (100-120 words) for Director Kim. Include: the problem you observed, the proposed solution, supporting evidence, a brief acknowledgement of concerns, and a clear recommendation. Use the persuasive language structures from this lesson.",
-      "min_words": 100,
-      "example": "PROPOSAL: Digital Check-In System for Bay 3\n\nCurrently, Bay 3 check-in requires staff to log deliveries at the main office, resulting in an average delay of 8 minutes per delivery. Based on four weeks of tracking, this accounts for approximately 45 minutes of lost productivity per shift.\n\nI propose installing a tablet-based digital check-in form at Bay 3. This would allow on-site logging and could reduce check-in time to under 2 minutes.\n\nWhile I understand the concern about upfront cost, the time savings would likely offset the investment within three months.\n\nI recommend a one-month pilot with a single tablet. I'm confident the data will support a full rollout.\n\nSubmitted by: Ahmed Hassan, Supervisor",
-      "rubric": [
-        "State the problem clearly before proposing any solution",
-        "Use at least one evidence phrase (the data suggests, based on, I've observed) and one concession (while, although, even though)",
-        "End with a specific, concrete recommendation — not just a vague conclusion"
-      ]
-    },
-    {
-      "id": "write-2",
-      "prompt": "Think of something you would like to change at work or school. Write a persuasive paragraph (80-100 words) using this structure: 1) State the problem briefly. 2) Propose a solution using 'One approach would be to...' 3) Give one piece of evidence. 4) Acknowledge one concern using 'While...' 5) End with a confident recommendation.",
-      "min_words": 80,
-      "example": "In our department, weekly status updates are sent by email, but many team members admit they rarely read them fully. One approach would be to replace the email with a 5-minute stand-up meeting at the start of each Monday shift. Research on team communication consistently shows that brief in-person updates improve information retention significantly. While I understand this requires everyone to arrive at the same time, most team members already overlap by 15 minutes at shift start. I'm confident this change would improve team coordination and reduce duplicated work within the first month.",
-      "rubric": [
-        "Follow the 5-part structure: problem → solution → evidence → concession → recommendation",
-        "Use modal verbs (would, could, might) for the proposal — not 'will' or 'must'",
-        "The concession must genuinely acknowledge a real concern, not dismiss it"
-      ]
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Modal Verbs for Proposals: would, could, might",
-      "explanation": "'Would' is used for confident proposals and likely outcomes. 'Could' presents a possibility. 'Might' suggests something less certain. Choosing the right modal signals how confident you are.",
-      "examples": [
-        "One approach would be to digitize the process. (confident recommendation)",
-        "This could reduce delays by 40%. (possible outcome — we don't know for sure)",
-        "A pilot might give us useful data. (less certain — but worth trying)",
-        "I believe this would improve accuracy significantly. (belief + would = professional confidence)",
-        "We could start with one station before expanding. (tentative suggestion — open to feedback)"
-      ],
-      "practice": [
-        {"sentence": "One approach ___ be to pilot the system for 30 days. (confident proposal)", "blank": "would", "options": ["would", "will", "might"]},
-        {"sentence": "This ___ reduce our processing time significantly. (possible result)", "blank": "could", "options": ["could", "would", "must"]},
-        {"sentence": "A digital form ___ also improve accuracy. (additional possibility)", "blank": "might", "options": ["might", "will", "should"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Concession Clauses: while, although, even though",
-      "explanation": "Concession clauses acknowledge a valid concern before making your point. This makes arguments more persuasive because you show you have considered both sides.",
-      "examples": [
-        "While I understand the concern about cost, the time savings are significant. (while + concern, main claim)",
-        "Although the setup takes one day, the long-term benefit is clear. (although + cost, payoff)",
-        "Even though this is a change, staff would adapt quickly. (even though + downside, reassurance)",
-        "While this requires training, the interface is simple. (brief downside → brief reassurance)",
-        "Although I don't have all the answers yet, the direction is promising. (honest concession)"
-      ],
-      "practice": [
-        {"sentence": "___ I understand the budget concern, the data supports this investment.", "blank": "While", "options": ["While", "Because", "So"]},
-        {"sentence": "___ the timeline is tight, the team is ready to move forward.", "blank": "Although", "options": ["Although", "Therefore", "Since"]},
-        {"sentence": "Even ___ there is some risk, the potential gain outweighs it.", "blank": "though", "options": ["though", "so", "but"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Evidence and Claim Phrases",
-      "explanation": "Strong professional arguments separate claims from evidence. Use evidence phrases to introduce data, and claim phrases to state what the data means.",
-      "examples": [
-        "The data suggests that... (introducing evidence-based interpretation)",
-        "Based on [time period/source], [finding]. (grounding a claim in observation)",
-        "This indicates that... (drawing a conclusion from evidence)",
-        "I'm confident that... (expressing well-founded certainty)",
-        "What if we [proposed action]? (framing a recommendation as a question — less threatening)"
-      ],
-      "practice": [
-        {"sentence": "The ___ suggests that delays are concentrated in the morning shift.", "blank": "data", "options": ["data", "story", "feeling"]},
-        {"sentence": "___ on three weeks of observation, the pattern is consistent.", "blank": "Based", "options": ["Based", "Since", "Because"]},
-        {"sentence": "I'm ___ this would improve our processing time.", "blank": "confident", "options": ["confident", "hoping", "thinking"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "Which modal verb is best for a confident proposal?", "options": ["Might", "Could", "Would", "Should"], "correct": 2, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "Choose the most persuasive way to open a proposal:", "options": ["I think we should do this.", "I'd like to propose a change based on what I've observed.", "We must change this right away.", "This is probably wrong."], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "Which sentence uses concession language correctly?", "options": ["While I understand the cost concern, the benefits are significant.", "Because the cost is high, we should not do this.", "The cost is high. The benefits are significant.", "Although we should do this."], "correct": 0, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What is the purpose of a concession clause?", "options": ["To admit you are wrong", "To make the sentence longer", "To acknowledge a concern before making your main point", "To avoid giving evidence"], "correct": 2, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Using 'could' instead of 'will' in a proposal sounds more professional because it shows confidence without overclaiming.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "'The data suggests' is a weaker phrase than 'I think' because it relies on evidence.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ I understand the concern about timing, the opportunity is significant.", "correct": "While", "accept": ["While", "Although"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "___ on my observations over the past month, the current process has a clear bottleneck.", "correct": "Based", "accept": ["Based"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match each phrase to its function:", "pairs": [{"left": "The data suggests...", "right": "introduce evidence"}, {"left": "While I understand...", "right": "acknowledge a concern"}, {"left": "I'm confident this would...", "right": "state confident conclusion"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Why is proposing a pilot program effective?", "options": ["It avoids the need for evidence", "It reduces perceived risk for the decision-maker", "It is required for all proposals", "It makes the proposal shorter"], "correct": 1, "points": 10},
-      {"id": "q11", "type": "open-ended", "question": "Fix the error: 'While the cost is high, but the benefits are worth it.'", "correct": "While the cost is high, the benefits are worth it.", "accept": ["While the cost is high, the benefits are worth it.", "Although the cost is high, the benefits are worth it."], "points": 10},
-      {"id": "q12", "type": "open-ended", "question": "Rewrite this as a professional proposal opener: 'I think you should change the process because it is slow.'", "correct": "I'd like to propose a change to the current process. Based on my observations, delays are averaging 8 minutes per delivery.", "accept": ["I'd like to propose", "Based on", "One approach would be"], "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The speaker acknowledges the cognitive demands of code-switching; nevertheless they insist that these demands also confer significant advantages.",
+        "correct": "The speaker acknowledges the cognitive demands of code-switching; nevertheless, they insist that these demands also confer significant advantages.",
+        "explanation": "When 'nevertheless' is used as a sentence adverbial at the start of a clause following a semicolon, it must be followed by a comma. The punctuation pattern is: [independent clause]; nevertheless, [independent clause]. Omitting the comma after 'nevertheless' is a common punctuation error at this level."
+      },
+      {
+        "incorrect": "Diaspora communities often develop rich linguistic repertoires; in contrary, majority-culture speakers rarely need to adapt their communicative style to the same degree.",
+        "correct": "Diaspora communities often develop rich linguistic repertoires; by contrast, majority-culture speakers rarely need to adapt their communicative style to the same degree.",
+        "explanation": "'In contrary' is not a standard English discourse marker. The correct forms are 'by contrast' (to introduce a contrasting parallel) or 'on the contrary' (to introduce a direct reversal of the previous statement). 'In contrary' is a collocation error influenced by Spanish, French, or Italian equivalents."
+      },
+      {
+        "incorrect": "The question 'where are you really from?' encodes assumptions about singular cultural belonging. Consequently, it is well-intentioned in most contexts.",
+        "correct": "The question 'where are you really from?' encodes assumptions about singular cultural belonging. Nevertheless, it is well-intentioned in most contexts.",
+        "explanation": "'Consequently' signals a logical result or conclusion — it would imply the well-intentioned nature flows from the encoded assumptions, which is not the intended meaning. 'Nevertheless' (or 'however') is the correct adversative marker here, as the second sentence concedes something that stands in contrast to the critique in the first."
+      },
+      {
+        "incorrect": "Research suggests that cognitive flexibility and creative problem-solving are enhanced among individuals who regularly operate between cultural frames; in addition, this finding has met with some methodological criticism.",
+        "correct": "Research suggests that cognitive flexibility and creative problem-solving are enhanced among individuals who regularly operate between cultural frames; however, this finding has met with some methodological criticism.",
+        "explanation": "'In addition' is an additive marker that introduces supporting or supplementary information. The second clause here introduces a qualification or limitation, not additional support — 'however' (adversative) is the correct marker."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "propose", "definition": "formally suggest a plan or course of action", "example": "Ahmed proposed a new check-in system to the director."},
-    {"word": "concession", "definition": "acknowledging a point made by the other side before arguing your own position", "example": "'While the cost is high, the benefits outweigh it' — this sentence opens with a concession."},
-    {"word": "evidence", "definition": "facts, data, or observations that support a claim", "example": "Ahmed used four weeks of tracking data as evidence for his proposal."},
-    {"word": "pilot", "definition": "a small-scale test of a new idea before full implementation", "example": "She proposed a one-month pilot before rolling out the system company-wide."},
-    {"word": "offset", "definition": "counterbalance or compensate for something", "example": "The time savings would offset the upfront cost within three months."},
-    {"word": "rollout", "definition": "the process of introducing or implementing something on a larger scale", "example": "After the successful pilot, management approved a full rollout."},
-    {"word": "throughput", "definition": "the amount of work processed in a given time period", "example": "The new system improved our daily throughput by 20%."},
-    {"word": "anticipate", "definition": "expect or prepare for something before it happens", "example": "A good proposal anticipates objections and addresses them."},
-    {"word": "credible", "definition": "convincing and trustworthy; worthy of belief", "example": "Using data makes a proposal more credible than using opinion alone."},
-    {"word": "reaffirmation", "definition": "a statement that restates or strengthens your main point, especially after a concession", "example": "After the concession, Ahmed ended with a confident reaffirmation of his recommendation."}
-  ],
-  "cultural_notes": [
-    "In American workplaces, proposals are expected to be data-driven. Saying 'I believe this would help' is much less persuasive than 'Based on four weeks of tracking, this would reduce delays by X%'.",
-    "Proposing a pilot or test rather than a full implementation is a very American professional strategy — it reduces risk perception and shows good judgment.",
-    "American managers often respond well to proposals that anticipate their objections. Raising the concern yourself ('While I understand the cost...') signals that you have thought it through carefully.",
-    "The structure Claim → Evidence → Concession → Recommendation is a standard American business communication pattern, taught in MBA programs and used in business proposals across industries.",
-    "Ahmed's approach — tracking data for four weeks before making a proposal — reflects a key American workplace value: letting the facts speak rather than relying on seniority or personal opinion alone."
+  "debate_task": {
+    "motion": "This house believes that code-switching — adapting one's language, manner, and presentation to fit a dominant cultural context — is a form of cultural self-erasure rather than an empowering skill.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Code-switching is structurally coercive when it is a precondition for professional advancement, meaning individuals from minority backgrounds must suppress authentic cultural expression simply to be treated as competent — a form of assimilationist pressure with real psychological costs.",
+      "The cognitive and social labour of constant cultural translation disproportionately burdens those who already face systemic disadvantage, constituting an additional and invisible tax on minoritised communities.",
+      "Framing code-switching as 'empowering' risks romanticising a survival strategy adopted under structural constraint, obscuring the power relations that make it necessary in the first place."
+    ],
+    "counter_arguments": [
+      "Adaptability across social and cultural registers is a universal human skill — all social participants adjust their register, formality, and mode of address depending on context; code-switching is a sophisticated version of this universal competence.",
+      "Many individuals in diaspora communities describe code-switching not as self-erasure but as self-expansion — the ability to inhabit multiple cultural frameworks simultaneously enriches rather than diminishes identity.",
+      "Positioning code-switching purely as oppression removes agency from the individuals who practise it and denies the documented cognitive and social advantages that multilingual and multicultural competence confers."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion using at least 3 discourse markers."
+  },
+  "extended_writing": {
+    "type": "speech",
+    "task": "Write a speech for a secondary school or university audience on the theme: 'What does it mean to belong?' Draw on the idea of code-switching and diasporic identity to argue that belonging need not be singular or exclusive. (220-260 words)",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a direct address to the audience and a thought-provoking question or personal anecdote that frames the complexity of belonging. Avoid beginning with a dictionary definition."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Argue that dominant frameworks of belonging demand singular, exclusive attachment — and that this framework disadvantages those with complex or hybrid identities. Use at least one adversative discourse marker."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge that belonging to a specific community, place, or culture provides genuine grounding and stability — the argument is not that singular belonging is worthless, but that it should not be imposed. Use a concession marker."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Return to your opening image or question and resolve it with your central claim: belonging is plural, not singular — it is a practice, not a fixed location."
+      }
+    ],
+    "model_answer": "What does it mean to belong? I have spent most of my adult life asking this question — not abstractly, but in moments of very specific discomfort: the job interview where my name provoked a pause, the family gathering where my accent attracted a comment, the community meeting where I was asked, however gently, which side I was on.\n\nThe dominant answer to my question is territorial and singular: you belong to the place where you were born, or the culture your parents gave you, or the country whose passport you carry. Consequently, those of us who were shaped by more than one of these things are routinely expected to choose — to declare a primary allegiance and demote the rest to heritage, to background, to memory.\n\nNevertheless, there is a different answer. Belonging, I want to suggest, is not a location but a practice — it is something you do, not somewhere you are from. It is enacted through relationships, responsibilities, and contributions. By contrast with the territorial model, this understanding of belonging is capacious rather than exclusive. It can hold multiple languages, multiple histories, multiple ways of being in the world.\n\nTo concede this point: there is genuine comfort in the singularity of belonging — in a clear story of who you are and where you come from. That comfort is real. Furthermore, it is not something I would wish to diminish for anyone who has it. What I ask, simply, is that they do not require it of those of us for whom the story is longer, richer, and more complicated than a single place can contain."
+  },
+  "advanced_grammar": {
+    "structure": "Mixed Conditionals",
+    "explanation": "Mixed conditionals combine elements from different conditional types to express relationships where the time frame of the condition and the result differ. The two most important patterns at C1/C2 level are: (1) Past condition, present result: 'If + past perfect [condition], would + bare infinitive [present result]'. Example: 'If she had been raised in a monolingual environment, she would not have this cognitive flexibility now.' This expresses a past hypothetical with consequences that are still relevant today. (2) Present/general condition, past result: 'If + simple past [general/present condition], would have + past participle [past result]'. Example: 'If code-switching were purely a burden, many diaspora individuals would not have embraced it as an identity.'  \n\nMixed conditionals require precise control of tense and aspect. The common error is 'collapsing' them into a standard third conditional ('If she had been raised...she would have had') which loses the time distinction between condition and consequence. At C2 level, mixed conditionals signal a writer's ability to track temporal complexity — a genuine indicator of language mastery.",
+    "authentic_examples": [
+      "If diaspora communities had not developed the practice of code-switching across generations, the extraordinary linguistic repertoires we see in multilingual cities today would not exist.",
+      "If the dominant culture were genuinely inclusive of hybrid identities, the question 'where are you really from?' would long since have lost its sting.",
+      "If she had internalised the demand for singular belonging during her adolescence, she would perhaps not describe herself today with such confident fluency across cultural frames."
+    ],
+    "practice": [
+      {
+        "sentence": "She was raised bilingually. She now has exceptional code-switching ability. (past condition, present result)",
+        "transform": "Combine into a mixed conditional expressing: the past condition produced the current ability.",
+        "answer": "If she had not been raised bilingually, she would not have such exceptional code-switching ability now."
+      },
+      {
+        "sentence": "The framework demands singular belonging. Many diaspora individuals found it painful in the past.",
+        "transform": "Combine into a mixed conditional: the present nature of the framework explains a past consequence.",
+        "answer": "If the framework did not demand singular belonging, many diaspora individuals would not have found it so painful."
+      },
+      {
+        "sentence": "He grew up navigating two cultural contexts. He is now a skilled intercultural mediator.",
+        "transform": "Rewrite as a mixed conditional beginning 'Had he not grown up...'",
+        "answer": "Had he not grown up navigating two cultural contexts, he would not be such a skilled intercultural mediator today."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "The speaker says: 'I was born in Mogadishu. I was raised in Minneapolis. Consequently, I am both.' What logical relationship does 'consequently' signal?",
+      "options": [
+        "Contrast — the third sentence contradicts the first two",
+        "Concession — the third sentence reluctantly admits a limitation",
+        "Result — the third sentence presents a conclusion that follows from the two facts",
+        "Elaboration — the third sentence expands the information in the previous sentences"
+      ],
+      "correct": 2,
+      "explanation": "'Consequently' is a causal/result discourse marker. It signals that 'I am both' is the logical conclusion that follows from the two biographical facts. It does not contrast or concede — it draws a conclusion."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence correctly uses an adversative discourse marker?",
+      "options": [
+        "Code-switching demands significant effort; furthermore, it is rarely acknowledged by majority institutions.",
+        "Code-switching demands significant effort; consequently, many diaspora individuals find it rewarding.",
+        "Code-switching demands significant effort; however, it also confers measurable cognitive advantages.",
+        "Code-switching demands significant effort; in addition, it is a form of cultural erasure."
+      ],
+      "correct": 2,
+      "explanation": "'However' is adversative — it introduces a contrasting or qualifying statement. Option A uses 'furthermore' (additive) where contrast is intended; B uses 'consequently' (result) incorrectly; D uses 'in addition' (additive) for a point that actually contrasts with the first clause."
+    },
+    {
+      "id": 3,
+      "question": "Identify the sentence with a discourse marker error:",
+      "options": [
+        "The framework demands singular belonging; nevertheless, many people resist it.",
+        "Code-switching is exhausting. In contrary, it is also cognitively enriching.",
+        "The speaker cites cognitive research; furthermore, they draw on personal experience.",
+        "Belonging is often framed territorially; by contrast, the speaker defines it as a practice."
+      ],
+      "correct": 1,
+      "explanation": "'In contrary' is not a standard English discourse marker. The correct forms are 'on the contrary' (direct reversal) or 'by contrast' (parallel contrast). This is a collocation error common among speakers whose first language has an equivalent phrase constructed differently."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of a mixed conditional?",
+      "options": [
+        "If the framework demands singular belonging, diaspora individuals will struggle.",
+        "If the framework demanded singular belonging, diaspora individuals would struggle.",
+        "If the framework had not demanded singular belonging, diaspora individuals would not have struggled.",
+        "If the framework had not demanded singular belonging, diaspora individuals would not struggle today."
+      ],
+      "correct": 3,
+      "explanation": "Option D is a mixed conditional: past condition ('had not demanded') + present result ('would not struggle today'). The time frames differ — the condition is in the past, the consequence is in the present. Options A and B are simple conditionals; C is a standard third conditional with no time-frame mixing."
+    },
+    {
+      "id": 5,
+      "question": "The speaker describes code-switching between 'the values of my parents' household and the norms of my professional environment'. The word 'norms' most nearly means:",
+      "options": [
+        "Written rules and regulations that govern professional conduct",
+        "Shared, generally unwritten expectations about appropriate behaviour in a given context",
+        "Personal preferences that individuals bring to professional settings",
+        "Formal standards evaluated in professional appraisal systems"
+      ],
+      "correct": 1,
+      "explanation": "'Norms' refers to unwritten but widely shared expectations — the implicit standards that govern behaviour in a social context. This contrasts with 'rules' (explicit, enforceable) or 'preferences' (individual). In sociological and intercultural discourse, 'norms' is a key technical term."
+    }
   ]
 }

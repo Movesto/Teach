@@ -2,237 +2,170 @@
   "id": "lesson-35",
   "unit_id": 6,
   "lesson_number": 3,
-  "title": "Healthy Habits",
+  "title": "Neighbourhood Services and Community Resources",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Discuss diet and nutrition basics",
-    "Talk about exercise routines",
-    "Understand importance of sleep",
-    "Set realistic health goals"
+    "Identify and locate key neighbourhood services including libraries, community centres, and food banks",
+    "Ask for and provide information about local services using formal and informal registers",
+    "Describe your neighbourhood and its amenities using descriptive language",
+    "Evaluate whether a neighbourhood meets a family's needs by comparing available services"
   ],
-  "target_phrases": [
-    "I try to eat...",
-    "I exercise... times a week",
-    "I should get more sleep",
-    "My goal is to...",
-    "I'm trying to...",
-    "It's important to...",
-    "I need to cut down on..."
-  ],
-  "dialogue": {
-    "title": "Discussing Fitness and Nutrition",
-    "context": "Ahmed and coworkers talk about their health routines during lunch break.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "You guys always seem so energetic. Do you exercise regularly?"},
-      {"speaker": "Lisa", "text": "I try to! I go to the gym three times a week - Monday, Wednesday, and Friday mornings before work."},
-      {"speaker": "Carlos", "text": "I play soccer every Saturday and Sunday. It's fun and great exercise at the same time."},
-      {"speaker": "Ahmed", "text": "I should exercise more. I'm always too tired after work."},
-      {"speaker": "Lisa", "text": "That's why I go in the morning! If I wait until evening, I make excuses. What about your diet? Do you cook at home?"},
-      {"speaker": "Ahmed", "text": "Not as much as I should. I eat a lot of fast food because it's convenient. I know it's not healthy."},
-      {"speaker": "Carlos", "text": "I meal prep on Sundays. I cook healthy meals for the whole week and freeze them. It saves time and money."},
-      {"speaker": "Lisa", "text": "That's smart! Also, Ahmed, are you getting enough sleep? Sleep is just as important as exercise and diet."},
-      {"speaker": "Ahmed", "text": "Honestly, no. I usually sleep only 5-6 hours. I stay up late watching TV."},
-      {"speaker": "Carlos", "text": "You should aim for 7-8 hours. Your body needs rest to stay healthy and have energy."},
-      {"speaker": "Ahmed", "text": "You're right. My goal is to eat healthier, exercise more, and sleep better. Maybe we can be workout partners?"},
-      {"speaker": "Lisa", "text": "Absolutely! Let's start this weekend. Small changes make a big difference over time."}
+  "reading_passage": {
+    "title": "Finding Your Community in a New City",
+    "text": "Moving into a new neighbourhood is more than finding an apartment — it is about building a support network and learning where to access the services your family needs. For newcomers, this process can take months, and the learning often happens through word of mouth, through neighbours and coworkers, and through community organisations that specifically serve immigrant populations.\n\nMost Portland neighbourhoods have a library branch within a short bus ride. Libraries are among the most accessible public resources: they are free, open to all residents regardless of immigration status, and offer far more than books. Many branches host English conversation groups, computer classes, children's storytime, and assistance with job applications. A library card is free and can be obtained with proof of a local address.\n\nFood pantries and community meals are also widely available in Portland. Organisations such as Oregon Food Bank and Blanchet House operate distribution sites throughout the city. Many religious institutions — mosques, churches, and temples — also run weekly food programmes that serve anyone in need, often regardless of religious affiliation.\n\nFor families with children, knowing the location of the nearest park and school is essential. Portland Parks and Recreation operates more than 200 parks and offers subsidised recreation programmes for low-income families. Many community centres also provide after-school care, summer programmes, and English classes for adults. Making use of these services early helps families establish routines, meet neighbours, and reduce the isolation that many newcomers experience in their first months.",
+    "source": "Adapted from the Welcome to Portland Newcomer Resource Guide, published by Immigrant and Refugee Community Organisation (IRCO), 2023",
+    "glossary": [
+      {"word": "support network", "meaning": "a group of people and services you can rely on for help and information"},
+      {"word": "word of mouth", "meaning": "information passed from person to person through conversation, not through media"},
+      {"word": "accessible", "meaning": "easy for people to reach or use, especially for those with few resources"},
+      {"word": "food pantry", "meaning": "a place where people can go to receive free food supplies"},
+      {"word": "subsidised", "meaning": "reduced in price because part of the cost is paid by the government or an organisation"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Frequency of healthy habits",
-      "pattern": "I [activity] [number] times a week",
-      "examples": [
-        "I exercise three times a week.",
-        "I eat vegetables every day.",
-        "I go to the gym five times a week.",
-        "I cook at home four times a week.",
-        "I drink water eight times a day."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what services do Portland libraries offer besides lending books?",
+      "answer": "Libraries offer English conversation groups, computer classes, children's storytime, and assistance with job applications."
     },
     {
-      "id": "drill-2",
-      "focus": "Setting health goals",
-      "pattern": "My goal is to [healthy action]",
-      "examples": [
-        "My goal is to lose 10 pounds.",
-        "My goal is to exercise more regularly.",
-        "My goal is to eat less sugar.",
-        "My goal is to sleep 8 hours every night.",
-        "My goal is to drink more water."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say that food programmes serve people 'regardless of religious affiliation'?",
+      "answer": "The author implies that newcomers of any religion — or no religion — are welcome at these programmes, so they should not feel excluded or hesitant about going."
     },
     {
-      "id": "drill-3",
-      "focus": "Giving health advice",
-      "pattern": "You should [healthy recommendation]",
-      "examples": [
-        "You should eat more fruits and vegetables.",
-        "You should walk for 30 minutes daily.",
-        "You should get enough sleep.",
-        "You should drink more water.",
-        "You should reduce your stress."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'subsidised' mean in paragraph four?",
+      "answer": "Reduced in price because part of the cost is covered by the government or an organisation — so low-income families pay less than the full price."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author say newcomers should make use of neighbourhood services 'early'?",
+      "answer": "Because using community services early helps families build routines, meet neighbours, and reduce isolation — which is a significant challenge for many newcomers in their first months."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit6-lesson3-listen1.mp3",
-      "transcript": "A balanced diet includes five food groups: fruits, vegetables, grains, proteins, and dairy. Try to fill half your plate with fruits and vegetables. Choose whole grains like brown rice and whole wheat bread over white rice and white bread. Include lean proteins like chicken, fish, beans, and nuts. Limit processed foods, sugar, and salt.",
-      "question": "What should fill half your plate?",
-      "options": [
-        "Meat and dairy",
-        "Fruits and vegetables",
-        "Grains and proteins",
-        "Sugar and salt"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit6-lesson3-listen2.mp3",
-      "transcript": "The CDC recommends adults get at least 150 minutes of moderate exercise per week. That's about 30 minutes, five days a week. Moderate exercise includes brisk walking, swimming, or bike riding. You don't need a gym membership - walking is free and very beneficial. Even breaking it into three 10-minute walks throughout the day works.",
-      "question": "How much exercise do adults need per week?",
-      "options": [
-        "30 minutes total",
-        "1 hour total",
-        "150 minutes total",
-        "300 minutes total"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit6-lesson3-listen3.mp3",
-      "transcript": "Sleep is crucial for health. Adults need 7-9 hours per night. Lack of sleep affects your immune system, weight, mood, and concentration. Create good sleep habits: go to bed at the same time, avoid screens an hour before bed, keep your bedroom cool and dark, and don't eat heavy meals late at night.",
-      "question": "How many hours of sleep do adults need?",
-      "options": [
-        "5-6 hours",
-        "6-7 hours",
-        "7-9 hours",
-        "9-10 hours"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe your weekly exercise routine OR a routine you want to start. Include how often and what type of exercise. Record for 30 seconds.",
-      "example": "I'm trying to develop a better exercise routine. Right now, I walk for 20 minutes three times a week during my lunch break. I want to increase this to 30 minutes, five days a week. I also want to add some strength training - maybe using free weights or doing push-ups and sit-ups at home. My goal is to feel more energetic and strong. I know I need to start slow and build up gradually to avoid injury.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Give advice to someone who wants to eat healthier but doesn't have much time. Suggest 3 tips. Record for 25 seconds.",
-      "example": "If you want to eat healthier but you're busy, here are three tips. First, meal prep on weekends - cook healthy meals and freeze them for the week. Second, keep healthy snacks available like fruits, nuts, and yogurt so you don't reach for junk food. Third, drink a lot of water throughout the day instead of soda or juice. These small changes are easy to maintain and will make a big difference in your health.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write about your current health habits. What do you do well? What do you want to improve? (60-80 words)",
-      "min_words": 60,
-      "example": "I think I have some good health habits, but I could improve in other areas. I drink a lot of water every day, which is good. I also try to eat fruits and vegetables with most meals. However, I need to exercise more regularly - right now I only walk occasionally. I also need to sleep more. I often stay up late on my phone and only get 6 hours of sleep. My goal is to exercise at least three times a week and sleep 8 hours every night.",
-      "min_words": 60
-    },
-    {
-      "id": "write-2",
-      "prompt": "Create a simple meal plan for one day. Include breakfast, lunch, dinner, and snacks. Make it healthy and balanced. (50-70 words)",
-      "min_words": 50,
-      "example": "Here's my healthy meal plan for one day: Breakfast - oatmeal with berries and a banana. Mid-morning snack - apple with peanut butter. Lunch - grilled chicken salad with vegetables and olive oil dressing. Afternoon snack - carrots and hummus. Dinner - baked salmon, brown rice, and steamed broccoli. This plan includes all food groups, lots of vegetables, lean protein, and whole grains. I would drink water throughout the day.",
-      "min_words": 50
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Frequency Adverbs (always, usually, sometimes, rarely, never)",
-      "explanation": "Use frequency adverbs to describe how often you do healthy activities. They usually come before the main verb.",
-      "examples": [
-        "I always eat breakfast. (100% of the time)",
-        "She usually exercises in the morning. (most of the time)",
-        "He sometimes eats fast food. (occasionally)",
-        "We rarely drink soda. (not often)",
-        "They never skip meals. (0% of the time)"
-      ],
-      "practice": [
-        {"sentence": "I ___ eat vegetables.", "blank": "always", "options": ["always", "never", "rarely"]},
-        {"sentence": "She ___ goes to the gym.", "blank": "usually", "options": ["usually", "never", "rarely"]},
-        {"sentence": "We ___ eat junk food.", "blank": "rarely", "options": ["always", "usually", "rarely"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "'Should' for Health Recommendations",
-      "explanation": "Use 'should' to give advice or recommendations about health.",
-      "examples": [
-        "You should exercise regularly. (recommendation)",
-        "I should eat more vegetables. (what I need to do)",
-        "We should get 8 hours of sleep. (advice)",
-        "She should drink more water. (recommendation)"
-      ],
-      "practice": [
-        {"sentence": "You ___ eat healthy food.", "blank": "should", "options": ["should", "can", "do"]},
-        {"sentence": "I ___ exercise more.", "blank": "should", "options": ["should", "am", "can"]},
-        {"sentence": "They ___ get enough sleep.", "blank": "should", "options": ["should", "are", "do"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Present Simple for Habits",
-      "explanation": "Use present simple to talk about regular habits and routines.",
-      "examples": [
-        "I exercise every morning. (habit)",
-        "She eats salad for lunch. (routine)",
-        "He drinks water all day. (habit)",
-        "They sleep 8 hours. (routine)"
-      ],
-      "practice": [
-        {"sentence": "I ___ to the gym daily.", "blank": "go", "options": ["go", "goes", "going"]},
-        {"sentence": "She ___ healthy meals.", "blank": "cooks", "options": ["cook", "cooks", "cooking"]},
-        {"sentence": "We ___ water instead of soda.", "blank": "drink", "options": ["drink", "drinks", "drinking"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "How often does Lisa go to the gym?", "options": ["Every day", "Three times a week", "Once a week", "Twice a week"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does Carlos do for exercise?", "options": ["Goes to gym", "Plays soccer", "Runs", "Swims"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How many hours of sleep should adults get?", "options": ["5-6 hours", "6-7 hours", "7-9 hours", "10-12 hours"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "What should fill half your plate?", "options": ["Meat", "Grains", "Fruits and vegetables", "Dairy"], "correct": 2, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Walking is a good form of moderate exercise.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You need a gym membership to exercise.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "I ___ eat breakfast. (100% of time - frequency adverb)", "correct": "always", "accept": ["always"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "You ___ exercise regularly. (giving advice)", "correct": "should", "accept": ["should"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the health tip:", "pairs": [{"left": "Balanced diet", "right": "5 food groups"}, {"left": "Exercise", "right": "150 minutes/week"}, {"left": "Sleep", "right": "7-9 hours"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What does Carlos do on Sundays?", "options": ["Sleeps late", "Meal preps for the week", "Goes to gym", "Eats fast food"], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Present Simple for Describing Regular Services and Facilities",
+    "explanation": "When describing neighbourhood services and how they work, we typically use the present simple tense. The present simple expresses facts, routines, and permanent arrangements — things that are generally true, not just happening right now. Notice that third-person singular subjects (the library, the food bank, the centre) take the -s form of the verb.",
+    "examples": [
+      {
+        "sentence": "The library opens at 9 AM on weekdays and offers free computer access.",
+        "note": "Both 'opens' and 'offers' use the third-person singular -s form because the subject is 'the library.'"
+      },
+      {
+        "sentence": "Many community centres provide after-school care and English classes for adults.",
+        "note": "'Provide' does not take -s because the subject is plural — 'many community centres.'"
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete with the correct form: 'The food bank ___ (distribute) supplies on Tuesday and Thursday afternoons.'",
+        "answer": "The food bank distributes supplies on Tuesday and Thursday afternoons."
+      },
+      {
+        "sentence": "Correct the error: 'The library offer free English classes on Wednesday evenings.'",
+        "answer": "The library offers free English classes on Wednesday evenings. (Add -s for third-person singular.)"
+      },
+      {
+        "sentence": "Which is correct? A) Libraries is free for all residents. B) Libraries are free for all residents.",
+        "answer": "B) 'Libraries' is plural, so the verb must be 'are,' not 'is.'"
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "nutrition", "definition": "food needed for health and growth", "example": "Good nutrition is important for energy."},
-    {"word": "diet", "definition": "the food you regularly eat", "example": "I'm trying to improve my diet."},
-    {"word": "exercise", "definition": "physical activity for fitness", "example": "I exercise three times a week."},
-    {"word": "routine", "definition": "regular way of doing things", "example": "My morning routine includes a walk."},
-    {"word": "sleep", "definition": "rest with eyes closed and unconscious", "example": "I need 8 hours of sleep."},
-    {"word": "habit", "definition": "regular behavior pattern", "example": "Eating breakfast is a good habit."},
-    {"word": "healthy", "definition": "good for your physical wellbeing", "example": "Vegetables are healthy foods."},
-    {"word": "fitness", "definition": "physical health and strength", "example": "Exercise improves your fitness."},
-    {"word": "portion", "definition": "amount of food served", "example": "Watch your portion sizes."},
-    {"word": "balanced", "definition": "having the right amounts of different things", "example": "A balanced diet includes all food groups."}
+  "vocabulary_in_context": [
+    {
+      "word": "accessible",
+      "definition": "Easy to reach, use, or benefit from, particularly for people with limited resources",
+      "example_sentence": "Libraries are among the most accessible public resources: they are free, open to all residents regardless of immigration status.",
+      "collocations": ["easily accessible", "publicly accessible", "accessible to everyone"],
+      "register": "neutral"
+    },
+    {
+      "word": "affiliation",
+      "definition": "A connection or membership with a particular group, organisation, or religion",
+      "example_sentence": "Many religious institutions run weekly food programmes that serve anyone in need, often regardless of religious affiliation.",
+      "collocations": ["religious affiliation", "political affiliation", "no affiliation required"],
+      "register": "formal"
+    },
+    {
+      "word": "isolation",
+      "definition": "The feeling of being alone and disconnected from other people and the community around you",
+      "example_sentence": "Making use of these services early helps families reduce the isolation that many newcomers experience in their first months.",
+      "collocations": ["social isolation", "feeling of isolation", "reduce isolation"],
+      "register": "neutral"
+    }
   ],
-  "cultural_notes": [
-    "The U.S. has high rates of obesity - about 40% of adults. Fast food and processed foods are major contributing factors.",
-    "Gyms are popular in the U.S. Common chains include Planet Fitness, LA Fitness, and 24 Hour Fitness.",
-    "Many Americans track fitness with apps and wearable devices like Fitbit or Apple Watch.",
-    "Meal prep on Sundays is a growing trend to save time and eat healthier during the week.",
-    "Farmer's markets are popular for buying fresh, local produce.",
-    "The 'MyPlate' model replaced the food pyramid - it shows how to fill your plate with healthy foods."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "A newly arrived family in your neighbourhood has asked you for advice. They have two school-age children, they are learning English, and they are currently relying on food assistance.",
+    "prompt": "Tell the family about three or four neighbourhood services that would help them most. Describe what each service offers, where to find it, and why it is relevant to their situation. Use the present simple tense to describe each service.",
+    "useful_language": [
+      "The library on Division Street offers free English conversation groups on Tuesday mornings.",
+      "The food bank on Burnside distributes food on Tuesdays and Thursdays — you do not need to make an appointment.",
+      "The community centre provides after-school programmes for children aged 6 to 14."
+    ],
+    "model_answer": "For a family in your situation, I would recommend starting with three places. First, the public library — it offers free English classes, children's activities, and computer access. You can get a free card with your address. Second, the Oregon Food Bank has a distribution site nearby — it opens on Tuesday and Thursday afternoons and you do not need an appointment. Third, the community centre on Foster Road provides after-school care and summer programmes for children at a subsidised cost. These three places will help your whole family settle in more quickly."
+  },
+  "writing_workshop": {
+    "model_text": "My neighbourhood has several useful services that I use regularly. The library is about five minutes' walk from my building and opens at nine o'clock every day except Sunday. I go there on Wednesday evenings for an English conversation group, which meets in the meeting room on the first floor. There is also a food pantry at the mosque on 122nd Avenue that distributes food every Friday afternoon. It is free and open to everyone. These services make a real difference to families like mine who are still getting settled.",
+    "model_analysis": "Notice how the writer uses the present simple consistently to describe the services, includes specific details (times, days, locations), and ends with a personal reflection on why these services matter.",
+    "task": "Write about two or three neighbourhood services that you use or that are available to you. Describe what each service offers, when it is open, and how it has helped or could help you or your family.",
+    "success_criteria": [
+      "Describe at least two different services using present simple tense throughout",
+      "Include specific details: days, times, or locations for at least one service",
+      "End with a personal reflection on why community services are important"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what do you need to get a free library card in Portland?",
+      "options": [
+        "A valid passport and proof of income",
+        "A social security number and photo ID",
+        "Proof of a local address",
+        "A referral from a resettlement agency"
+      ],
+      "correct": 2,
+      "explanation": "The passage says 'A library card is free and can be obtained with proof of a local address.'"
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about food programmes at religious institutions?",
+      "options": [
+        "They are only available to members of that religion",
+        "They require a referral from a social worker",
+        "They serve anyone in need regardless of religious affiliation",
+        "They are only available on Sundays"
+      ],
+      "correct": 2,
+      "explanation": "The passage states 'many religious institutions run weekly food programmes that serve anyone in need, often regardless of religious affiliation.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses the present simple to describe a service?",
+      "options": [
+        "The food bank are open on Tuesdays.",
+        "The food bank open on Tuesdays.",
+        "The food bank opens on Tuesdays.",
+        "The food bank is opening on Tuesdays."
+      ],
+      "correct": 2,
+      "explanation": "'Opens' is correct — the subject 'the food bank' is third-person singular and requires the -s ending in the present simple."
+    },
+    {
+      "id": 4,
+      "question": "Why does the author say newcomers should use community services early, according to the final paragraph?",
+      "options": [
+        "Because services often have waiting lists and spots fill up quickly",
+        "To help establish routines, meet neighbours, and reduce isolation",
+        "Because many services are only available to residents of less than one year",
+        "To demonstrate to immigration authorities that they are integrating"
+      ],
+      "correct": 1,
+      "explanation": "The passage says: 'Making use of these services early helps families establish routines, meet neighbours, and reduce the isolation that many newcomers experience in their first months.'"
+    }
   ]
 }

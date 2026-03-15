@@ -1,0 +1,132 @@
+{
+  "unit_id": 9,
+  "unit_title": "Advanced Communication",
+  "description": "Test your command of advanced communication skills — hedging, epistemic modality, cleft sentences, nominalization, and formal academic discourse",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Which sentence most effectively uses hedging language appropriate for an academic claim?",
+      "options": [
+        "The data proves that bilingual education is superior.",
+        "The data appears to suggest a moderate advantage for bilingual education, though further replication would be required.",
+        "The data might possibly perhaps indicate something about bilingual education.",
+        "Bilingual education works, according to some data."
+      ],
+      "correct": 1,
+      "explanation": "Option B uses a reporting verb of moderate strength ('appears to suggest'), a scoped adjective ('moderate'), and a conditional acknowledgement of limitations — all hallmarks of calibrated academic hedging. A overclaims, C over-hedges to the point of obscurity, D is too informal."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "A writer uses the passive construction 'It has been argued that economic growth alone cannot eliminate poverty.' What is the primary communicative function of this passive?",
+      "options": [
+        "To hide the identity of the writer and avoid responsibility",
+        "To attribute the claim to an unspecified scholarly consensus, lending it impersonal authority",
+        "To avoid using a complex verb tense",
+        "To make the sentence sound more informal and accessible"
+      ],
+      "correct": 1,
+      "explanation": "The passive with a reporting verb ('it has been argued') is a standard attribution strategy in academic writing. It distances the claim from the writer's personal opinion and implies that the view is drawn from the broader literature, adding objective authority without naming a specific source."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "A negotiator says: 'There might be some room for flexibility on the delivery schedule, provided the core terms remain unchanged.' Which advanced language strategy is this sentence an example of?",
+      "options": [
+        "Inversion for emphasis",
+        "Free indirect discourse",
+        "Tentative language combined with a conditional concession",
+        "Nominalization of a verb phrase"
+      ],
+      "correct": 2,
+      "explanation": "The sentence uses 'might' (epistemic modal for tentativeness) and 'provided' (a conditional marker) to open negotiating space while signalling firm limits. This combination of tentative offer and conditional constraint is a classic strategy in professional negotiation language."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "In the sentence 'What the report demonstrates is a consistent decline in productivity,' the cleft structure places primary emphasis on 'a consistent decline in productivity' rather than on 'the report'.",
+      "correct": true,
+      "explanation": "A 'What…is…' cleft sentence fronts the subject clause ('what the report demonstrates') as given information, and places the new, highlighted information in the post-copula position. The focus therefore falls on 'a consistent decline in productivity', which is foregrounded as the key finding."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "Nominalization always weakens the clarity of a sentence and should be avoided in formal writing.",
+      "correct": false,
+      "explanation": "Nominalization — the conversion of verbs or adjectives into nouns (e.g. 'investigate' → 'investigation') — is a valued feature of formal and academic writing. It increases lexical density, allows complex ideas to be packaged concisely, and enables those ideas to function as grammatical subjects or objects. While overuse can obscure meaning, nominalization is a deliberate and appropriate stylistic choice in many formal registers."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "Never ___ the board have reversed a decision of such constitutional significance.",
+      "answer": "has",
+      "hint": "inversion after a negative adverb — the auxiliary moves before the subject",
+      "explanation": "When a negative adverb ('Never') is fronted for emphasis, the auxiliary verb inverts with the subject: 'Never has the board…'. This is subject-auxiliary inversion triggered by negative fronting, a formal emphatic construction."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "The committee's ___ of the proposal — converting 'recommend' to a noun form — allowed it to serve as the sentence's grammatical subject.",
+      "answer": "nominalization",
+      "hint": "the grammatical process of turning a verb into a noun",
+      "explanation": "Nominalization is the process of forming a noun from another word class, typically a verb or adjective. Here, 'recommend' becomes 'recommendation', allowing the committee's action to be treated as a concept — a grammatical subject — rather than a process."
+    },
+    {
+      "id": 8,
+      "type": "matching",
+      "instruction": "Match each grammatical feature to its primary communicative function in formal discourse.",
+      "pairs": [
+        {"left": "Cleft sentence ('It is the timing that matters.')", "right": "Foregrounds one element of a proposition for contrastive emphasis"},
+        {"left": "Epistemic modal ('This may indicate…')", "right": "Calibrates the writer's degree of commitment to a claim"},
+        {"left": "Passive with reporting verb ('It has been shown that…')", "right": "Attributes a claim to unspecified prior scholarship impersonally"},
+        {"left": "Discourse marker ('Furthermore,')", "right": "Signals additive cohesion between clauses or paragraphs"}
+      ],
+      "explanation": "Each of these structures performs a distinct rhetorical function. Clefts control information focus; epistemic modals manage certainty; passives with reporting verbs attribute claims objectively; discourse markers signal logical relationships between propositions."
+    },
+    {
+      "id": 9,
+      "type": "ordering",
+      "instruction": "Reconstruct this sentence beginning with 'Rarely', using subject-auxiliary inversion correctly:",
+      "words": ["Rarely", "does", "the", "subjunctive", "mood", "appear", "in", "everyday", "spoken", "English"],
+      "answer": ["Rarely", "does", "the", "subjunctive", "mood", "appear", "in", "everyday", "spoken", "English"],
+      "explanation": "After the negative adverb 'Rarely' in sentence-initial position, the auxiliary 'does' inverts with the subject 'the subjunctive mood'. The base form 'appear' follows, as the auxiliary 'does' now carries tense. The result is: 'Rarely does the subjunctive mood appear in everyday spoken English.'"
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "A colleague has written: 'Globalisation causes cultural homogenisation. This is a bad thing.' Rewrite these two sentences as a single, cohesive academic sentence that hedges the claim appropriately, uses a discourse marker, and employs at least one nominalization. Then write a second sentence explaining what language choices you made and why.",
+      "word_count": "60-80",
+      "guidance": "Your rewritten sentence should avoid blunt assertion. Use an epistemic modal or hedging adverb, convert at least one verb to a noun form, and use a linking word to show logical connection. Your analytical sentence should name the specific strategies you used.",
+      "sample_answer": "The process of globalisation may, to some extent, contribute to cultural homogenisation, although the nature and extent of this convergence remain a subject of considerable scholarly debate. In this revision, 'causes' is nominalized to 'contribution' (implied through 'contribute to'), the blunt assertion is hedged with 'may' and 'to some extent', and 'although' introduces a concessive clause that acknowledges complexity — features characteristic of calibrated academic prose."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "A writer states: 'It would be an oversimplification to suggest that all members of a given culture share identical values.' Which hedging strategy is this sentence using?",
+      "options": [
+        "Passive voice with a reporting verb",
+        "A concessive cleft with inversion",
+        "A negative construction to soften a generalisation about cultural identity",
+        "Free indirect discourse"
+      ],
+      "correct": 2,
+      "explanation": "The sentence uses a negative frame ('It would be an oversimplification to suggest…') to qualify a cultural generalisation without making a direct claim. This is a hedging strategy that acknowledges nuance — central to the kind of language analysis Unit 10 explores around hedging cultural generalisations.",
+      "is_preview": true,
+      "preview_unit": 10,
+      "preview_unit_title": "Culture & Identity"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "In academic writing about culture, using a non-defining relative clause (e.g. 'Collectivist societies, which tend to prioritise group harmony, often…') allows the writer to embed background information without interrupting the main claim.",
+      "correct": true,
+      "explanation": "Non-defining relative clauses add supplementary, non-essential information about a noun without altering its reference. This is a key structure in Unit 10's treatment of relative clauses in sophisticated writing about culture and identity.",
+      "is_preview": true,
+      "preview_unit": 10,
+      "preview_unit_title": "Culture & Identity"
+    }
+  ]
+}

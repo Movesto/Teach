@@ -1,0 +1,132 @@
+{
+  "unit_id": 11,
+  "unit_title": "Work & Professional Life",
+  "description": "Test your analytical command of professional language — hedging in workplace speech, passive voice in reports, nominalization in business writing, diplomatic disagreement, and formal grammatical structures",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "A project manager says in a meeting: 'It might be worth exploring whether the current timeline remains realistic given the resourcing constraints.' Which professional language strategy does this sentence primarily exemplify?",
+      "options": [
+        "Inversion after a negative adverb to signal urgency",
+        "Hedging through modal distancing to raise a concern without direct challenge",
+        "Cleft structure to foreground the timeline as the key issue",
+        "Subjunctive mood to express a formal recommendation"
+      ],
+      "correct": 1,
+      "explanation": "'It might be worth exploring whether…' uses three layers of hedging: the epistemic modal 'might', the impersonal 'it', and the open question frame 'whether'. This allows the speaker to flag a potential problem diplomatically — raising a concern without directly asserting that the timeline is unrealistic or challenging a colleague's planning."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "A formal report states: 'It is recommended that all compliance documentation be submitted prior to the review date.' What grammatical feature makes this sentence appropriate for its register, and what function does it serve?",
+      "options": [
+        "The passive 'is recommended' depersonalises the instruction; the subjunctive 'be submitted' signals formal mandative obligation",
+        "The passive 'is recommended' attributes the instruction to a specific named authority",
+        "The subjunctive 'be submitted' is informal and should be replaced with 'should be submitted'",
+        "The use of 'prior to' is a cleft structure that emphasises the date"
+      ],
+      "correct": 0,
+      "explanation": "The passive 'it is recommended' removes personal agency, lending the instruction impersonal institutional authority. The mandative subjunctive 'be submitted' (base form regardless of subject) is the grammatically precise form after recommendation verbs in formal writing — it signals a formal requirement rather than a suggestion. Together these features are hallmarks of professional report language."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Which sentence most effectively employs cleft structure to foreground the cause of a project delay in a formal professional context?",
+      "options": [
+        "The project was delayed because of supplier shortfalls.",
+        "It was the persistent shortfall in supplier deliveries that caused the project delay, not a failure of internal planning.",
+        "There were supplier shortfalls which caused the project delay.",
+        "The delay happened due to suppliers not delivering on time."
+      ],
+      "correct": 1,
+      "explanation": "Option B uses an 'It was…that…' cleft to foreground 'the persistent shortfall in supplier deliveries' as the focus and explicitly excludes an alternative cause ('not a failure of internal planning'). This is the most rhetorically precise option — it controls what the reader takes as the key information and performs a corrective function characteristic of formal professional communication."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "In the sentence 'The committee proposed that the merger be deferred until a full financial assessment had been completed,' the form 'be deferred' is an example of the mandative subjunctive.",
+      "correct": true,
+      "explanation": "After verbs of proposal, recommendation, requirement, and suggestion in formal registers, English uses the mandative subjunctive: the base form of the verb ('be') regardless of number or person. 'Be deferred' is grammatically correct here. An informal alternative would be 'should be deferred', but the bare subjunctive is the preferred formal form."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "The sentence 'Under no circumstances should confidential client data be shared with third parties without written consent' is an example of subject-auxiliary inversion triggered by fronting a negative adverbial.",
+      "correct": true,
+      "explanation": "When a negative adverbial phrase ('Under no circumstances') is moved to sentence-initial position, it triggers subject-auxiliary inversion: 'should confidential client data be shared'. This construction creates formal emphasis and is characteristic of professional policy documents, contracts, and codes of conduct."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "The successful ___ of the new HR system has reduced processing times by 40%, according to the interim report.",
+      "answer": "implementation",
+      "hint": "nominalize the verb 'implement' — the formal noun form ending in -ation",
+      "explanation": "'Implementation' is the nominalization of 'implement'. Using the noun form as grammatical subject allows the outcome to be presented as a completed process with measurable effects — a standard pattern in professional reports. Compare the more wordy alternative: 'The fact that the new HR system was successfully implemented has reduced…'"
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "I take your point about the budget constraints; ___, I believe we need to revisit the staffing allocation before finalising the proposal.",
+      "answer": "nevertheless",
+      "hint": "a high-register concessive marker meaning 'despite what has just been said'",
+      "explanation": "'Nevertheless' is a formal cohesive device that signals concession: the speaker acknowledges the previous point before asserting a position that qualifies or overrides it. In professional disagreement, this structure performs a face-saving function — it validates the interlocutor's concern before redirecting the argument."
+    },
+    {
+      "id": 8,
+      "type": "matching",
+      "instruction": "Match each sentence from a professional context to the advanced language strategy it exemplifies.",
+      "pairs": [
+        {"left": "'Were the targets to be missed again, a formal review would be triggered automatically.'", "right": "Conditional inversion using 'were' in a formal hypothetical"},
+        {"left": "'The consolidation of regional offices, while financially prudent, carries significant reputational risk.'", "right": "Concessive clause embedded in a complex noun phrase structure"},
+        {"left": "'Central to the success of this initiative is the commitment of senior leadership.'", "right": "Fronting of a subject complement for rhetorical emphasis"},
+        {"left": "'It was the lack of stakeholder consultation, rather than the policy itself, that generated opposition.'", "right": "Cleft sentence performing a corrective contrast"}
+      ],
+      "explanation": "Conditional inversion ('Were…to…') replaces 'If' in formal hypotheticals. Concessive clauses acknowledge complexity. Fronting of a complement ('Central to…is…') creates emphasis through inversion. Cleft sentences with 'rather than' isolate the true cause, correcting a potential misreading."
+    },
+    {
+      "id": 9,
+      "type": "ordering",
+      "instruction": "Reconstruct this sentence beginning with 'Rarely', using subject-auxiliary inversion after the negative adverb:",
+      "words": ["Rarely", "does", "a", "single", "restructuring", "initiative", "deliver", "the", "anticipated", "efficiency", "gains", "in", "the", "projected", "timeframe"],
+      "answer": ["Rarely", "does", "a", "single", "restructuring", "initiative", "deliver", "the", "anticipated", "efficiency", "gains", "in", "the", "projected", "timeframe"],
+      "explanation": "After the negative adverb 'Rarely' in initial position, the auxiliary 'does' inverts with the subject 'a single restructuring initiative'. The base form 'deliver' follows. The result is: 'Rarely does a single restructuring initiative deliver the anticipated efficiency gains in the projected timeframe.' This inversion pattern adds formal emphasis appropriate for analytical business writing."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "Rewrite the following informal complaint as a formal professional email paragraph that uses at least one nominalization, one passive construction, and hedging language: 'I'm really annoyed because someone in the team leaked the client data and now the client is furious with us and might leave.'",
+      "word_count": "60-80",
+      "guidance": "Convert informal vocabulary to formal register. Use a nominalization (e.g. 'leak' → 'disclosure'). Use passive voice to depersonalise where appropriate. Hedge your claim about the client's response. Maintain a diplomatic, measured tone throughout.",
+      "sample_answer": "I am writing to bring to your attention a matter of significant concern. An unauthorised disclosure of client data appears to have occurred within the team, the consequences of which may have adversely affected our relationship with the client in question. It would seem that the client has expressed considerable dissatisfaction, and there is some risk that the relationship may be jeopardised if the matter is not addressed promptly and transparently. I would recommend that a formal investigation be initiated as a matter of urgency."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "A political commentator writes: 'The government's decision to implement so-called \"efficiency measures\" has been widely interpreted as a euphemism for large-scale public sector redundancies.' What does the use of 'so-called' and scare quotes around 'efficiency measures' signal?",
+      "options": [
+        "The writer endorses the government's terminology as accurate and appropriate",
+        "The writer is distancing themselves from the official term, implying it obscures the true nature of the policy",
+        "The writer is using hedging language to avoid expressing an opinion",
+        "The writer is attributing the term to a specific earlier document"
+      ],
+      "correct": 1,
+      "explanation": "'So-called' and scare quotes are distancing devices that signal the writer does not accept the term at face value. They imply the official language is a euphemism — a milder or more neutral framing that conceals an uncomfortable reality. This is a key concept in Unit 12's analysis of political euphemism and bias in news language.",
+      "is_preview": true,
+      "preview_unit": 12,
+      "preview_unit_title": "Society & Current Events"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "In journalistic writing, the construction 'Not since the financial crisis of 2008 has public trust in institutions fallen so sharply' uses inversion after a negative adverbial to create rhetorical emphasis.",
+      "correct": true,
+      "explanation": "'Not since…' is a negative adverbial phrase. When fronted, it triggers subject-auxiliary inversion: 'has public trust…fallen'. This construction is analysed in Unit 12 as a feature of editorial and journalistic style — a way of lending historical weight to a claim through formal syntactic emphasis.",
+      "is_preview": true,
+      "preview_unit": 12,
+      "preview_unit_title": "Society & Current Events"
+    }
+  ]
+}

@@ -2,235 +2,232 @@
   "id": "lesson-67",
   "unit_id": 12,
   "lesson_number": 2,
-  "title": "Global Diplomacy and International Relations",
-  "level": "mastery",
-  "estimated_time": 45,
+  "title": "Bias in the Press",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Navigate cross-cultural diplomatic contexts",
-    "Understand geopolitical implications",
-    "Communicate across cultural paradigms",
-    "Manage international stakeholder relationships"
+    "Analyse how word choice, source selection, and story placement construct ideological bias in news reporting",
+    "Evaluate the distinction between bias by omission, bias by framing, and deliberate misrepresentation",
+    "Construct a comparative reading of two reports on the same event to identify divergent framing strategies",
+    "Distinguish between a news outlet's editorial line and the professional norms that constrain its journalists"
   ],
-  "target_phrases": [
-    "From a geopolitical perspective...",
-    "The historical context that informs this...",
-    "Cultural sensitivities around this issue include...",
-    "To bridge these divergent perspectives...",
-    "The multilateral implications are...",
-    "Speaking to the underlying tensions...",
-    "This represents a delicate balance between..."
+  "authentic_text": {
+    "title": "Two Reports, One Rally",
+    "type": "article",
+    "text": "Consider two reports published on the same day about the same civic rally in the same city. The first, appearing in a centre-left broadsheet, opens: 'Thousands of residents marched through the downtown corridor on Saturday, demanding urgent action on housing affordability in what organisers described as the largest civil demonstration in the city for a decade.' The second, from a centre-right tabloid, begins: 'Protesters disrupted city centre traffic on Saturday in a march organised by housing advocacy groups, causing significant inconvenience for weekend commuters.'\n\nBoth reports are, in a narrow sense, factually accurate. The march occurred. Traffic was affected. Thousands attended. And yet the emotional and political implications of the two accounts could not be more different. The broadsheet emphasises democratic participation and scale; the tabloid foregrounds inconvenience and disruption. Neither invents facts — but the selection of which facts to lead with, and which framings to apply, produces two entirely different events.\n\nThis is the essence of framing bias: not the falsification of events but the structuring of attention. Journalists, regardless of professional intention, make constant choices — about which sources to quote, which details to include, which verb to use when describing a crowd. These choices are never neutral, and their cumulative effect shapes how readers interpret political reality.\n\nA media-literate citizenry is not one that mistrusts all journalism. It is one that reads two reports before forming a view, notices the verb and not just the noun, and asks, always, whose voice is absent from the account.",
+    "source": "Adapted from Columbia Journalism Review, feature article",
+    "notes": "The two contrasting lead sentences at the opening are an embedded demonstration of the very phenomenon the article analyses — framing bias operating in plain sight."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What factual information do both reports have in common, according to the article?",
+      "answer": "Both reports are factually accurate about the same event: a march took place, thousands attended, and traffic was affected. The difference lies not in the facts but in which facts are foregrounded and how they are framed."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by the phrase 'two entirely different events' when referring to the two accounts of the same march?",
+      "answer": "The writer implies that framing is so powerful that two factually accurate reports can create incompatible understandings of the same event in the reader's mind — one in which the march is a meaningful democratic act, and another in which it is an antisocial disruption. Framing, not invention, creates perceived reality."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the final paragraph and identify specific words or phrases that establish it.",
+      "answer": "The tone is measured and constructive rather than alarmist. The writer's use of 'not one that mistrusts all journalism' shows a deliberate effort to avoid overclaiming, while the specific, practical instructions ('read two reports,' 'notices the verb,' 'asks whose voice is absent') give the paragraph an urgent but teacherly quality — the tone of someone who believes the problem is solvable."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'foregrounds' (paragraph 2) is closest in meaning to:",
+      "answer": "Emphasises or places in the foreground of attention — to 'foreground' something in a text means to make it the most prominent or visible element, drawing the reader's attention to it above other elements."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this text?",
+      "answer": "The writer's main purpose is to demonstrate, through a concrete comparative example, how framing bias operates in journalistic practice and to argue that media literacy — the ability to read critically across sources — is a civic necessity rather than an optional academic skill."
+    }
   ],
-  "dialogue": {
-    "title": "International Business Negotiation",
-    "context": "Ahmed leads negotiations for a multinational partnership involving American, European, and Asian stakeholders, navigating cultural differences and competing interests.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Welcome, everyone. Before we discuss contract specifics, I want to acknowledge that we bring different cultural paradigms to this conversation. Cultural sensitivities around decision-making timelines vary significantly across our organizations."},
-      {"speaker": "German Partner", "text": "We appreciate directness. What are the key obstacles to finalizing this agreement?"},
-      {"speaker": "Japanese Partner", "text": "Perhaps we should first ensure alignment on broader principles before addressing specific terms."},
-      {"speaker": "Ahmed", "text": "Both perspectives are valid. Let me reframe this: we're navigating between cultures valuing efficiency and those prioritizing relationship-building. To bridge these divergent perspectives, I suggest we establish shared principles this week, then address specifics in subsequent meetings."},
-      {"speaker": "French Partner", "text": "The historical context that informs our caution is previous partnerships where American companies prioritized short-term gains over long-term collaboration."},
-      {"speaker": "Ahmed", "text": "I appreciate that transparency. Speaking to the underlying tensions, there's legitimate concern about whether this represents genuine partnership or strategic positioning. From a geopolitical perspective, this collaboration occurs amid shifting trade relationships and technological competition."},
-      {"speaker": "Chinese Partner", "text": "Precisely. The multilateral implications extend beyond our individual organizations to broader economic relationships between our nations."},
-      {"speaker": "Ahmed", "text": "Which is why this represents a delicate balance between commercial interests and diplomatic considerations. I propose we frame this partnership around shared innovation rather than market access alone - positioning it as collaborative value creation, not zero-sum competition."},
-      {"speaker": "German Partner", "text": "That philosophical framing is elegant, but how does it translate to IP rights and profit sharing?"},
-      {"speaker": "Ahmed", "text": "Fair question. The principle of collaborative value creation translates to proportional benefit-sharing based on contribution, not geography. We develop joint IP, license equitably, and reinvest profits in continued innovation. This aligns incentives long-term while respecting each party's interests."},
-      {"speaker": "Japanese Partner", "text": "This approach honors both efficiency and relationship-building. We can work with this framework."}
+  "language_analysis": {
+    "focus": "Bias in News Language",
+    "explanation": "News language produces meaning not only through what it says but through the choices it makes at every linguistic level: the verb used to describe an action, the noun applied to a group of people, the order in which information appears, and the sources given space to speak. These choices are never ideologically neutral, even when the individual journalist believes they are being objective.\n\nVerb choice is one of the most revealing features of news bias. Compare 'protesters demanded' with 'protesters called for,' 'protesters insisted,' 'protesters claimed,' or 'protesters threatened.' Each conveys a different attitude toward the legitimacy and emotional tenor of the protest. Noun choice is equally loaded: 'demonstrators,' 'activists,' 'agitators,' 'marchers,' and 'extremists' can all be applied to the same people at the same event. The choice of noun frames the reader's entire subsequent interpretation.\n\nSource selection compounds these effects. A report that quotes only police and council officials about a housing rally produces a different account from one that also quotes residents and housing economists. Media-literate readers at C1/C2 level should be able to identify these features systematically and articulate how they interact to produce a particular ideological slant.",
+    "examples": [
+      {
+        "from_text": "'Thousands of residents marched through the downtown corridor, demanding urgent action'",
+        "analysis": "The subject 'residents' (as opposed to 'protesters' or 'activists') emphasises community membership and legitimacy. 'Demanding' conveys purposeful civic urgency. The adjectival phrase 'urgent action' validates the cause. Every word choice positions the reader to sympathise with the participants."
+      },
+      {
+        "from_text": "'Protesters disrupted city centre traffic, causing significant inconvenience for weekend commuters'",
+        "analysis": "The verb 'disrupted' frames the march's primary function as interference rather than democratic expression. The foregrounded victims are not housing-insecure residents but 'weekend commuters' — a demographic likely to share the tabloid's readership and to resent inconvenience. The cumulative effect is delegitimisation."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Demonstrators gathered in unprecedented numbers to express their opposition to the proposed development.",
+        "informal": "Hundreds of angry protesters blocked the road and caused chaos in the city centre."
+      },
+      {
+        "formal": "The council's spokesperson outlined the administration's position on housing affordability.",
+        "informal": "A council official defended the policy, dismissing residents' concerns as misguided."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Geopolitical framing",
-      "pattern": "From a geopolitical perspective... / The multilateral implications are...",
-      "examples": [
-        "From a geopolitical perspective, this partnership must navigate evolving trade relationships and technological sovereignty concerns.",
-        "The multilateral implications extend beyond commercial terms to broader diplomatic relationships between our nations.",
-        "From a geopolitical perspective, resource allocation decisions reflect strategic priorities amid global competition.",
-        "The multilateral implications include potential impacts on regional economic integration efforts.",
-        "From a geopolitical perspective, this represents soft power projection through economic collaboration."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Cultural sensitivity",
-      "pattern": "Cultural sensitivities around [issue] include... / To bridge these divergent perspectives...",
-      "examples": [
-        "Cultural sensitivities around hierarchy include varying expectations about decision-making authority levels.",
-        "To bridge these divergent perspectives, we must find common ground between individualist and collectivist values.",
-        "Cultural sensitivities around time include different orientations toward deadlines and relationship-building.",
-        "To bridge these divergent perspectives, we need explicit discussion of implicit assumptions.",
-        "Cultural sensitivities around communication styles range from high-context to low-context preferences."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Historical and contextual awareness",
-      "pattern": "The historical context that informs... / This represents a delicate balance between...",
-      "examples": [
-        "The historical context that informs this caution includes previous collaborations that disadvantaged developing economies.",
-        "This represents a delicate balance between economic interests and environmental sustainability commitments.",
-        "The historical context that informs regulatory approaches includes colonial legacies and sovereignty concerns.",
-        "This represents a delicate balance between innovation incentives and equitable access to benefits.",
-        "The historical context that informs trust deficits includes asymmetric power dynamics in previous partnerships."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit12-lesson2-listen1.mp3",
-      "transcript": "International diplomacy requires understanding that different cultures operate from different paradigms - not wrong, just different. High-context cultures (Asian, Middle Eastern) rely on implicit communication and relationship history; low-context cultures (American, German, Scandinavian) prefer explicit clarity. Power distance - acceptance of hierarchical inequality - varies dramatically. Time orientation differs: monochronic cultures schedule precisely; polychronic cultures view time fluidly. Successful international negotiation acknowledges these differences without privileging any as superior.",
-      "question": "What must international diplomacy recognize?",
-      "options": [
-        "One culture is superior",
-        "Different cultures operate from different paradigms",
-        "Everyone thinks the same",
-        "Cultural differences don't matter"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit12-lesson2-listen2.mp3",
-      "transcript": "Geopolitical awareness means understanding that business transactions occur within broader contexts of national interests, historical relationships, and power dynamics. What seems purely commercial often carries diplomatic implications. Resource extraction partnerships involve environmental justice and sovereignty. Technology collaborations touch national security and economic competitiveness. Trade agreements reflect geopolitical alignments. Effective international leaders navigate both business logic and political realities, recognizing that economic and political spheres intersect constantly.",
-      "question": "What does geopolitical awareness require understanding?",
-      "options": [
-        "Only business aspects",
-        "Business occurs within broader political and historical contexts",
-        "Politics doesn't affect business",
-        "National interests are irrelevant"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit12-lesson2-listen3.mp3",
-      "transcript": "Building trust across cultures requires patience, cultural humility, and explicit communication. Don't assume shared understanding - verify. What's polite in one culture may be offensive in another. Direct criticism American culture values may damage relationships in face-saving cultures. Accept that relationship-building takes longer than Americans typically expect. Invest in understanding partners' historical experiences, current constraints, and cultural values. Trust emerges from demonstrated reliability, cultural respect, and mutual benefit over time, not from contracts alone.",
-      "question": "How does trust emerge across cultures?",
-      "options": [
-        "From contracts alone",
-        "Instantly",
-        "From demonstrated reliability, respect, and mutual benefit over time",
-        "It's impossible"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You're mediating between parties with different cultural communication styles (one direct, one indirect). Bridge their perspectives and find common ground. Use diplomatic language. Record for 45 seconds.",
-      "example": "I appreciate both perspectives being shared, and I want to acknowledge that we're navigating different cultural paradigms around communication. Cultural sensitivities around directness vary significantly - some cultures value explicit clarity while others prioritize harmony and indirect communication. To bridge these divergent perspectives, let me reframe what I'm hearing. Our German colleagues value efficiency and clarity - they need explicit commitments with clear timelines. Our Japanese colleagues value relationship-building and consensus - they need confidence that all stakeholders are aligned before formalizing agreements. This represents a delicate balance between speed and thoroughness. From a practical standpoint, these aren't incompatible. I propose we establish a two-phase approach: Phase one focuses on relationship-building and principle alignment - honoring the need for consensus. Phase two translates those principles into specific commitments with clear timelines - honoring the need for clarity. The historical context that informs this approach is that successful long-term partnerships require both solid relationships and clear expectations. Speaking to the underlying tensions, the real question isn't whether to prioritize relationship or clarity - it's how to integrate both. Can we explore this framework?",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain how geopolitical factors affect a business decision (e.g., supply chain, partnership, market entry). Show sophisticated understanding of international dynamics. Record for 40 seconds.",
-      "example": "Let me address the geopolitical dimensions of our proposed China expansion. From a geopolitical perspective, U.S.-China relations have evolved from strategic engagement to strategic competition, fundamentally altering the risk calculus for American companies operating there. The multilateral implications extend beyond bilateral trade - how we position this affects relationships with allies in Asia-Pacific region. The historical context that informs Chinese regulatory approaches includes century of foreign exploitation, creating legitimate sovereignty sensitivity around data and technology. This represents a delicate balance between market opportunity and geopolitical risk. Speaking to the underlying tensions, Chinese government views certain technologies through national security lens, not purely commercial. Our entry strategy must acknowledge these realities. I recommend we partner with local entities for market access while maintaining IP protection through structural safeguards. We focus on sectors where U.S.-China interests align - climate technology, healthcare - avoiding those where strategic competition is acute. Cultural sensitivities around foreign control mean we position as collaborative partner, not market dominant. This isn't just risk mitigation - it's sustainable market positioning amid geopolitical evolution.",
-      "min_seconds": 40,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a diplomatic communication addressing a sensitive international business issue. Navigate cultural differences, acknowledge historical context, and propose constructive path forward. (150-180 words)",
-      "min_words": 150,
-      "example": "Subject: Pathway Forward on Joint Venture Governance\n\nDear Partners,\n\nI write to address governance concerns that have emerged in our joint venture discussions. Cultural sensitivities around decision-making authority require explicit acknowledgment: our organizations bring different paradigms regarding centralized versus distributed control.\n\nThe historical context that informs these differing perspectives includes experiences where governance structures advantaged certain partners disproportionately. Speaking to the underlying tensions, concerns exist about whether voting mechanisms will respect equitable partnership or concentrate power.\n\nFrom a practical standpoint, this represents a delicate balance between operational efficiency and partnership equity. To bridge these divergent perspectives, I propose a hybrid model: strategic decisions require consensus (honoring partnership equality), while operational decisions follow delegated authority (enabling efficiency).\n\nThe multilateral implications extend to how this partnership models collaborative innovation globally. I believe we can establish governance reflecting both cultural values and practical effectiveness.\n\nI welcome your perspectives on this framework and remain committed to finding solutions honoring all partners' legitimate interests.\n\nRespectfully,\nAhmed Hassan",
-      "min_words": 150
-    },
-    {
-      "id": "write-2",
-      "prompt": "Analyze how cultural differences affect a specific international business practice (negotiations, meetings, decision-making). Show nuanced understanding. (120-140 words)",
-      "min_words": 120,
-      "example": "Cross-Cultural Dynamics in International Contract Negotiations\n\nContract negotiation approaches reflect deeper cultural paradigms. American negotiators typically view contracts as comprehensive legal documents specifying all contingencies - reflecting low-context communication preferences and individualist orientation emphasizing legal enforceability. By contrast, many Asian and Middle Eastern negotiators view contracts as frameworks documenting current understanding within ongoing relationships - reflecting high-context communication and collectivist values emphasizing relational trust over legal coercion.\n\nThese divergent perspectives create predictable tensions. Americans seek detailed specifications; partners view this as indicating distrust. Partners seek flexibility for changing circumstances; Americans interpret this as avoiding commitment.\n\nTo bridge these differences requires explicit meta-communication about contracting philosophies. Successful negotiations acknowledge both perspectives: contracts specify core commitments clearly while building in relationship-based flexibility for good-faith adaptation. This represents synthesis rather than compromise - integrating legal clarity with relational trust. The key is making cultural assumptions explicit rather than allowing implicit misunderstanding.",
-      "min_words": 120
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Diplomatic Passive Voice",
-      "explanation": "Use passive voice to soften criticism and maintain diplomatic tone.",
-      "examples": [
-        "Concerns have been raised about the timeline. (vs. 'You delayed this')",
-        "Different priorities have emerged during discussions. (neutral)",
-        "The issue was brought to our attention. (diplomatic)",
-        "Expectations were not aligned initially. (softened criticism)"
-      ],
-      "practice": [
-        {"sentence": "Concerns ___ raised about governance.", "blank": "have been", "options": ["have been", "are", "were"]},
-        {"sentence": "Different perspectives ___ shared.", "blank": "have been", "options": ["have been", "are", "were"]},
-        {"sentence": "The matter ___ discussed thoroughly.", "blank": "was", "options": ["is", "was", "were"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conditional Sentences for Diplomatic Suggestions",
-      "explanation": "Use conditionals to make suggestions less direct and more diplomatic.",
-      "examples": [
-        "If we were to consider this approach... (diplomatic suggestion)",
-        "Should all parties agree, we could proceed. (conditional cooperation)",
-        "Were this acceptable, implementation could begin. (formal diplomatic)",
-        "If stakeholders found this amenable... (polite conditional)"
-      ],
-      "practice": [
-        {"sentence": "If we ___ to proceed, what timeline works?", "blank": "were", "options": ["are", "were", "was"]},
-        {"sentence": "Should this ___ acceptable, we'll advance.", "blank": "prove", "options": ["prove", "proves", "proving"]},
-        {"sentence": "Were all parties ___, we could finalize.", "blank": "agreeable", "options": ["agree", "agreeable", "agreeing"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Hedging for Cultural Sensitivity",
-      "explanation": "Use hedging language to acknowledge uncertainty and respect different perspectives.",
-      "examples": [
-        "This may reflect different cultural priorities. (hedged)",
-        "It appears that expectations varied. (tentative)",
-        "This could be interpreted differently across contexts. (acknowledging variability)",
-        "The situation seems to involve competing interests. (cautious)"
-      ],
-      "practice": [
-        {"sentence": "This ___ reflect cultural differences.", "blank": "may", "options": ["definitely", "may", "must"]},
-        {"sentence": "Expectations ___ to vary.", "blank": "appear", "options": ["prove", "appear", "must"]},
-        {"sentence": "This ___ be viewed differently.", "blank": "could", "options": ["must", "could", "will definitely"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What must international diplomacy recognize?", "options": ["One superior culture", "Different cultural paradigms", "Everyone thinks same", "Culture doesn't matter"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What does geopolitical awareness require?", "options": ["Only business focus", "Understanding broader political contexts", "Ignoring politics", "National interests irrelevant"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How does cross-cultural trust emerge?", "options": ["Contracts only", "Instantly", "From reliability, respect, and mutual benefit over time", "It's impossible"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Concerns ___ raised about governance.'", "options": ["are", "have been", "was", "were"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "High-context and low-context cultures are equally valid, just different.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Business transactions have no geopolitical implications.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "If we ___ to proceed, what timeline works? (diplomatic)", "correct": "were", "accept": ["were"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "This ___ reflect cultural differences. (hedging)", "correct": "may", "accept": ["may", "might", "could"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match cultural dimension:", "pairs": [{"left": "High-context", "right": "Implicit communication"}, {"left": "Low-context", "right": "Explicit clarity"}, {"left": "Power distance", "right": "Hierarchy acceptance"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed proposed framing partnership around:", "options": ["Market access only", "Shared innovation and collaborative value", "Competition", "Short-term gains"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The article raises questions about whether media bias is an inherent feature of journalism or a symptom of editorial negligence.",
+        "correct": "The article raises questions about whether media bias is an inherent feature of journalism or a symptom of editorial negligence. (No error — but consider below:) The article raises questions about whether media bias is inherent to journalism or merely symptomatic of editorial negligence.",
+        "explanation": "The original sentence is grammatically acceptable, but 'inherent feature of' is a weaker construction than 'inherent to' in formal analytical prose. 'Symptomatic of' is also more precise and idiomatic than 'a symptom of' when describing systemic conditions. This is a register and collocation refinement rather than an error."
+      },
+      {
+        "incorrect": "Both reports purported to present an objective account of the demonstration, yet neither succeeded in doing so.",
+        "correct": "Both reports purported to present an objective account of the demonstration, yet neither succeeded in doing so.",
+        "explanation": "This sentence is correct. A true C1/C2 error to practise: 'Both reports claimed to present an objective account of the demonstration, despite which neither succeeded to do so.' — the error is 'succeeded to do' (should be 'succeeded in doing'). 'Succeed' collocates with 'in' + gerund, not 'to' + infinitive."
+      },
+      {
+        "incorrect": "Framing bias operates not by falsifying facts but by structuring the reader's attention toward some facts at the expensive of others.",
+        "correct": "Framing bias operates not by falsifying facts but by structuring the reader's attention toward some facts at the expense of others.",
+        "explanation": "'At the expensive of' is a spelling/lexical confusion. The correct fixed phrase is 'at the expense of,' not 'at the expensive of.' This is a common high-level slip involving adjective/noun confusion."
+      },
+      {
+        "incorrect": "The editor's decision to bury the story on page twelve spoke volumes about the paper's sympathies toward the protestors' cause.",
+        "correct": "The editor's decision to bury the story on page twelve spoke volumes about the paper's sympathies with the protesters' cause.",
+        "explanation": "'Sympathies toward' is an incorrect collocation. 'Sympathies' collocates with 'with' (sympathy with a cause/group), not 'toward.' Additionally, 'protestors' is an accepted alternative spelling but the standard British English is 'protesters.'"
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "geopolitical", "definition": "relating to politics influenced by geography", "example": "Consider geopolitical implications."},
-    {"word": "multilateral", "definition": "involving multiple parties/nations", "example": "Multilateral negotiations are complex."},
-    {"word": "paradigm", "definition": "conceptual framework or worldview", "example": "Different cultural paradigms exist."},
-    {"word": "sovereignty", "definition": "supreme power or authority", "example": "Respect national sovereignty."},
-    {"word": "diplomatic", "definition": "skilled in international relations", "example": "Use diplomatic language."},
-    {"word": "asymmetric", "definition": "lacking symmetry, unequal", "example": "Address asymmetric power dynamics."},
-    {"word": "synthesis", "definition": "combining elements into coherent whole", "example": "Seek synthesis, not compromise."},
-    {"word": "amenable", "definition": "willing to agree, cooperative", "example": "We hope partners are amenable."},
-    {"word": "polychronic", "definition": "doing multiple things simultaneously", "example": "Polychronic time orientation."},
-    {"word": "monochronic", "definition": "doing one thing at a time", "example": "Monochronic cultures value punctuality."}
-  ],
-  "cultural_notes": [
-    "American business culture tends toward low-context communication - explicitness is valued over implicitness.",
-    "U.S. contracts are typically more detailed than in relationship-oriented cultures where trust matters more than legal specificity.",
-    "American negotiators often view compromise as fair outcome; some cultures see compromise as both parties losing.",
-    "Time orientation in American business is monochronic and future-focused - punctuality and deadlines matter significantly.",
-    "Americans often separate business from personal relationships; many cultures view them as inseparable.",
-    "U.S. business culture values individual achievement; collectivist cultures emphasize group harmony and consensus."
+  "debate_task": {
+    "motion": "This house believes that social media has made media bias more dangerous, not less, by giving every citizen the appearance of access to multiple perspectives.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Algorithmic content curation on social media platforms creates filter bubbles that reinforce existing biases rather than exposing users to genuinely diverse viewpoints.",
+      "The appearance of choice among sources can be more insidious than acknowledged dependence on a single outlet, because it generates false confidence in one's own objectivity.",
+      "Social media's speed incentivises sharing before verification, which amplifies sensationalised or biased content at the expense of careful reporting."
+    ],
+    "counter_arguments": [
+      "Citizens can now access primary sources — government documents, raw footage, eyewitness accounts — that were previously mediated entirely by professional journalists.",
+      "The proliferation of independent journalism online has broken the oligopoly of a small number of powerful editors who previously set the terms of public debate.",
+      "Media literacy education can teach citizens to use the abundance of sources available online as a tool for critical comparison rather than passive consumption."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "report",
+    "task": "Write a short analytical report for a media literacy organisation comparing two newspaper reports on the same political event. Identify the key differences in framing, explain the linguistic choices that produce them, and evaluate which report better serves the public interest.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Identify the event being reported and the two sources. State your analytical purpose clearly: you are not adjudicating which outlet is 'right' but examining how framing choices produce different political meanings."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Analyse specific linguistic features in each report: verb choice, noun selection, source attribution, and story placement. Use precise metalanguage (framing, agency, foregrounding, sourcing bias)."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge that some framing is unavoidable — no report is perspective-free — and that journalistic economy (limited space, tight deadlines) constrains choices. However, argue that systematic and consistent bias in one direction cannot be excused by reference to the general inevitability of framing."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Evaluate which report better serves democratic accountability, using a specific criterion (range of sources, transparency of editorial position, accuracy of emphasis). Avoid stating that one is 'unbiased' — frame your conclusion in terms of relative transparency and civic value."
+      }
+    ],
+    "model_answer": "This report analyses two accounts of Saturday's housing demonstration: one published by The Chronicle (broadsheet, centre-left) and one by The Metro Herald (tabloid, centre-right). Both are factually accurate; both are ideologically positioned. The analysis focuses on the linguistic mechanisms through which that positioning operates.\n\nThe Chronicle's lead verb — 'demanded' — assigns agency and moral urgency to demonstrators; its choice of 'residents' rather than 'protesters' emphasises civic membership. The Metro Herald's use of 'disrupted' immediately frames the march in terms of its externalities rather than its purpose, while 'inconvenience for commuters' centres an unsympathetic victim. At the level of sourcing, The Chronicle quotes two housing economists and three residents; The Herald quotes one police liaison officer. The cumulative effect is two entirely different evaluations of the same event's legitimacy.\n\nTo concede this point: no report escapes framing entirely. Space is limited, sources must be selected, and every verb carries a valence. The question is not whether framing exists but whether it is consistent in direction and transparent to the reader.\n\nOn that criterion, The Chronicle's report better serves democratic accountability. Its range of sources reflects the multi-stakeholder nature of the housing debate, and its foregrounding of scale accurately represents the event's democratic significance. The Herald's editorial choices consistently subordinate public interest to the affective concerns of a particular readership.\n\nMedia literacy requires citizens to notice these differences — and to ask, of every report, what a reader who picked up only this account would understand, and what they would miss."
+  },
+  "advanced_grammar": {
+    "structure": "Appositives in Formal Writing",
+    "explanation": "An appositive is a noun phrase placed immediately after another noun phrase to identify, rename, or elaborate on it. Appositives appear in parenthetical commas or dashes and allow a writer to pack additional information into a single sentence without requiring a relative clause construction. In journalistic and analytical writing, appositives are essential for efficiently introducing sources, defining terms, and contextualising claims.\n\nThe communicative purpose of the appositive is density and economy: it allows the writer to provide attribution, definition, or contrast within the flow of the main clause rather than interrupting it with a separate sentence. At C1/C2 level, learners should be able to use appositives to position sources precisely, to distinguish evaluative from neutral identification, and to deploy them in both restrictive (no commas) and non-restrictive (with commas) forms.",
+    "authentic_examples": [
+      "The report's author, a former editor of three national newspapers, brings unusual credibility to the question of structural bias in the British press.",
+      "Framing bias — the structuring of attention rather than the falsification of fact — is the defining challenge of media literacy in a digital age.",
+      "Two reporters, both with bylines that day in competing outlets, produced accounts so different that they might plausibly have been covering different events."
+    ],
+    "practice": [
+      {
+        "sentence": "Professor Halima Osei studies media bias. She argues that verb choice is the most revealing indicator of ideological slant. (Combine using an appositive.)",
+        "transform": "Integrate the first sentence as an appositive phrase after 'Professor Halima Osei'.",
+        "answer": "Professor Halima Osei, a leading scholar of media bias, argues that verb choice is the most revealing indicator of ideological slant."
+      },
+      {
+        "sentence": "The two reports used very different framings. This was the core issue of the analysis.",
+        "transform": "Rewrite as a single sentence using a dash appositive to define the core issue.",
+        "answer": "The two reports' divergent framings — the core issue of the analysis — demonstrated that factual accuracy and ideological positioning can coexist in a single account."
+      },
+      {
+        "sentence": "The Columbia Journalism Review published the original article. It is an influential press-criticism journal. The article examined sourcing patterns in election coverage.",
+        "transform": "Combine all three into one sentence using an appositive.",
+        "answer": "The Columbia Journalism Review, an influential press-criticism journal, published an article examining sourcing patterns in election coverage."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "In the sentence 'Protesters disrupted city centre traffic,' what is the primary effect of the verb 'disrupted'?",
+      "options": [
+        "It accurately describes the physical impact of the march on road traffic.",
+        "It frames the march's primary function as interference and delegitimises the participants' purpose.",
+        "It is a neutral, factual description equivalent to 'moved through' or 'occupied.'",
+        "It signals the reporter's personal sympathy with the protesters."
+      ],
+      "correct": 1,
+      "explanation": "Verb choice is a key mechanism of framing. 'Disrupted' positions traffic inconvenience as the march's defining effect, making the protesters agents of harm rather than democratic participants. This is a choice, not a neutral description — 'marched through' conveys the same event with entirely different implications."
+    },
+    {
+      "id": 2,
+      "question": "What does the article mean by 'framing bias'?",
+      "options": [
+        "The deliberate publication of false information to advance a political agenda",
+        "The structuring of attention through choices of emphasis, verb, and source, without falsifying facts",
+        "The bias introduced when a journalist's personal opinions appear in a news report",
+        "The physical layout of a newspaper page, which draws attention to some stories over others"
+      ],
+      "correct": 1,
+      "explanation": "The article explicitly defines framing bias as 'not the falsification of events but the structuring of attention' — the cumulative effect of choices about which facts to lead with, which sources to quote, and which verbs to use."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The journalist claimed to provide an objective account, despite which she succeeded to reproduce the editorial line of her publication.'",
+      "options": [
+        "No error — 'succeeded to reproduce' is grammatically correct.",
+        "'Succeeded to reproduce' should be 'succeeded in reproducing' — 'succeed' takes 'in' + gerund.",
+        "'Despite which' should be 'despite of which' in formal prose.",
+        "'Claimed to provide' should be 'claimed providing' in this context."
+      ],
+      "correct": 1,
+      "explanation": "'Succeed' collocates with 'in' followed by a gerund: 'succeeded in reproducing.' The construction 'succeeded to reproduce' (infinitive) is incorrect. This is a persistent C1-level collocation error."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence most effectively uses an appositive to introduce a source in analytical writing?",
+      "options": [
+        "A researcher said bias is a problem. The researcher studies media.",
+        "Media bias, which is studied by researchers, is considered a problem by many people.",
+        "Dr Amara Diallo, a media sociologist at University College London, argues that sourcing choices are the most reliable index of ideological orientation.",
+        "Dr Amara Diallo studies media and she says that sourcing choices show what a paper believes."
+      ],
+      "correct": 2,
+      "explanation": "Option C efficiently integrates the source's credentials ('a media sociologist at University College London') as an appositive, which identifies her authority without requiring a separate sentence. The claim is then stated with precision and appropriate attribution."
+    },
+    {
+      "id": 5,
+      "question": "The article recommends that media-literate citizens 'notice the verb and not just the noun.' What is the most likely reason for this recommendation?",
+      "options": [
+        "Nouns in news reports are usually accurate; verbs are more frequently misspelt.",
+        "Verbs carry more ideological freight than nouns because they assign agency and frame the nature of an action, not just its participants.",
+        "Verbs are more difficult to understand than nouns and therefore require more attention.",
+        "Nouns in political reporting are always derived from official press releases and are therefore more reliable."
+      ],
+      "correct": 1,
+      "explanation": "Verbs determine how an action is characterised: 'demanded,' 'insisted,' 'threatened,' and 'requested' can all describe the same speech act but produce radically different evaluative frames. The verb is where much of the political work of framing is done."
+    }
   ]
 }

@@ -2,237 +2,231 @@
   "id": "lesson-59",
   "unit_id": 10,
   "lesson_number": 3,
-  "title": "Media Literacy & Critical Analysis",
+  "title": "Navigating Cultural Differences: Reading Between the Lines",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
   "objectives": [
-    "Evaluate information sources for credibility",
-    "Identify bias and logical fallacies",
-    "Distinguish fact from opinion",
-    "Apply critical thinking to media consumption"
+    "Analyse how hedging language constructs cultural sensitivity in written discourse",
+    "Evaluate the communicative purpose of epistemic modality in cross-cultural commentary",
+    "Construct nuanced arguments about cultural difference that avoid essentialism",
+    "Distinguish between descriptive and prescriptive claims in texts about cultural identity"
   ],
-  "target_phrases": [
-    "What's the source of this information?",
-    "We need to consider potential bias...",
-    "The evidence doesn't support that claim...",
-    "Let's distinguish between fact and opinion...",
-    "This appears to be correlation, not causation...",
-    "The author's credentials are...",
-    "This commits the logical fallacy of..."
+  "authentic_text": {
+    "title": "The Unwritten Rules Nobody Told You About",
+    "type": "article",
+    "text": "When Amina Osman arrived in London from Mogadishu at the age of seventeen, she was, by her own account, a confident and capable young woman. What she had not anticipated was the bewildering density of unspoken conventions that governed everyday British social life. The rules around eye contact, queuing, small talk with strangers, and the precise register expected in a job interview were nowhere written down — yet transgressing them carried real social consequences.\n\nCultural difference, it seems, tends to operate most powerfully at the level of the implicit. Researchers working in the field of intercultural communication have suggested that the most significant sources of misunderstanding between people of different backgrounds are rarely matters of explicit belief or overt custom. Rather, they appear to cluster around what anthropologist Edward Hall termed 'low-context' versus 'high-context' communication styles — the degree to which meaning is encoded in words themselves versus left to shared situational knowledge.\n\nFor diaspora communities navigating majority cultures, the stakes of these misreadings can be considerable. A Somali-British youth worker interviewed for this piece described the exhausting cognitive labour of constant code-switching: 'You are always translating — not just language but entire frameworks of what counts as respectful, what counts as confident, what counts as rude.' This dual consciousness, as W.E.B. Du Bois described it in a different but resonant context, may be one of the defining experiences of diasporic life.\n\nWhat is perhaps most striking, however, is how rarely majority-culture institutions acknowledge the asymmetry of this labour. The expectation, more often than not, tends to fall on the newcomer to adapt.",
+    "source": "Adapted from The Guardian, Long Read, Culture & Society section",
+    "notes": "The writer employs hedging extensively ('it seems', 'tends to', 'may be') to avoid sweeping cultural generalisations — a deliberate rhetorical strategy worth analysing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the text, where are the rules governing British social life written down?",
+      "answer": "They are not written down anywhere — the text states explicitly that these conventions are 'nowhere written down', making them unspoken and implicit."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing Amina as 'a confident and capable young woman' before explaining her difficulties?",
+      "answer": "The writer implies that cultural disorientation is not a matter of personal inadequacy or intelligence — by establishing Amina's competence first, the writer attributes her difficulties to the complexity of implicit cultural codes rather than any individual failing."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the tone of the final paragraph? Give evidence from the text.",
+      "answer": "The tone is subtly critical and understated. The phrase 'more often than not, tends to fall on the newcomer to adapt' uses hedging that paradoxically sharpens its point — the writer acknowledges nuance while still implicating majority institutions in an asymmetric burden. The word 'asymmetry' carries a quietly accusatory charge."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'transgressing' in paragraph one is closest in meaning to:",
+      "answer": "Violating or crossing a boundary — it implies breaking a rule or norm, though here applied to social conventions rather than laws, which heightens the sense of invisible but consequential codes."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this article?",
+      "answer": "To illuminate the hidden cognitive and social labour borne by diaspora individuals navigating majority cultures, drawing on academic concepts and personal testimony to argue that cultural adjustment is asymmetrically demanded of newcomers rather than shared by host institutions."
+    }
   ],
-  "dialogue": {
-    "title": "Community Forum on Misinformation",
-    "context": "Ahmed attends a library workshop on media literacy and learns to critically evaluate news and information.",
-    "lines": [
-      {"speaker": "Librarian", "text": "Welcome to Media Literacy 101. In today's information environment, critical thinking is essential. Who can tell me: what makes a source credible?"},
-      {"speaker": "Ahmed", "text": "I think it depends on the author's credentials and whether they cite their sources?"},
-      {"speaker": "Librarian", "text": "Excellent start! Credibility involves expertise, transparency, and verifiability. Let's analyze an article together. Here's a claim: 'Studies show coffee prevents cancer.' What questions should we ask?"},
-      {"speaker": "Participant", "text": "What studies? Who conducted them?"},
-      {"speaker": "Ahmed", "text": "What's the source of this information? Is it peer-reviewed research or just a blog post?"},
-      {"speaker": "Librarian", "text": "Perfect! The article doesn't cite specific studies or methodology. The evidence doesn't support that claim without details. This is anecdotal evidence presented as scientific fact. We need to consider potential bias - is the website selling coffee?"},
-      {"speaker": "Ahmed", "text": "I see! So correlation isn't causation. Maybe coffee drinkers have other healthy habits that prevent cancer."},
-      {"speaker": "Librarian", "text": "Exactly. This commits the logical fallacy of post hoc ergo propter hoc - 'after this, therefore because of this.' Now, let's distinguish between fact and opinion. Fact: 'Coffee contains caffeine.' Opinion: 'Coffee is the best beverage.'"},
-      {"speaker": "Participant", "text": "How do we identify bias in news sources?"},
-      {"speaker": "Librarian", "text": "Look for loaded language, one-sided presentation, and omitted information. Compare multiple sources. The author's credentials matter - are they subject matter experts? Check their affiliations and potential conflicts of interest."},
-      {"speaker": "Ahmed", "text": "What about social media posts? They're often the first place I see news."},
-      {"speaker": "Librarian", "text": "Social media algorithms create 'filter bubbles' showing you information confirming existing beliefs. Always verify before sharing. Ask: Can I find this in established news sources? Does it seem designed to provoke emotional reactions? Misinformation thrives on outrage."},
-      {"speaker": "Ahmed", "text": "This is eye-opening. I realize I haven't been critical enough about what I read and share."}
+  "language_analysis": {
+    "focus": "Hedging Language",
+    "explanation": "Hedging refers to the linguistic strategies writers and speakers use to express uncertainty, tentativeness, or caution about a claim. Rather than stating something as absolute fact, hedged language signals that the writer is aware of complexity, exceptions, or the limits of their own knowledge. Common hedging devices include modal verbs ('may', 'might', 'could', 'tends to'), adverbs ('perhaps', 'apparently', 'seemingly'), and reporting verbs that imply interpretation rather than fact ('suggests', 'appears', 'seems').\n\nIn academic and journalistic writing at C1/C2 level, hedging is not a sign of weakness — it is a mark of intellectual rigour. A writer who says 'cultural difference tends to operate at the level of the implicit' is more credible than one who says 'cultural difference operates at the level of the implicit', because the hedged version acknowledges that generalisations about culture are inherently approximate.\n\nIn texts about culture and identity, hedging carries additional ethical weight. Over-confident statements about cultural groups risk essentialism — the reductive assumption that all members of a culture share the same characteristics. Hedging allows the writer to identify patterns without erasing individual variation. This is why strong intercultural writing typically combines specific examples (Amina's story) with hedged generalisations ('diaspora communities may experience...'), preventing the reader from treating the particular as universal.",
+    "examples": [
+      {
+        "from_text": "Cultural difference, it seems, tends to operate most powerfully at the level of the implicit.",
+        "analysis": "Two hedges appear in a single clause: 'it seems' (a parenthetical that signals the writer's tentativeness) and 'tends to' (a semi-modal that implies frequency rather than universality). Together they allow the writer to identify a pattern without overstating it as law."
+      },
+      {
+        "from_text": "This dual consciousness...may be one of the defining experiences of diasporic life.",
+        "analysis": "The modal verb 'may' hedges what could otherwise be a sweeping claim. The writer references Du Bois's concept but refuses to assert that all diaspora individuals experience this — 'may be' invites the reader to consider the possibility without compelling them to accept it as absolute."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Diaspora communities tend to bear a disproportionate share of the adaptation burden.",
+        "informal": "Immigrants always have to do all the adjusting."
+      },
+      {
+        "formal": "This may represent one of the more significant challenges in intercultural communication.",
+        "informal": "This is definitely the biggest problem."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Evaluating sources",
-      "pattern": "What's the source of this information? / The author's credentials are...",
-      "examples": [
-        "What's the source of this information? I can't find the original study cited.",
-        "The author's credentials are unclear - they're not identified as subject matter experts.",
-        "What's the source of this statistic? It's not attributed to any organization.",
-        "The author's credentials include a PhD in epidemiology from Johns Hopkins, lending credibility.",
-        "What's the source of this claim? It appears to be opinion masquerading as fact."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Identifying bias and fallacies",
-      "pattern": "We need to consider potential bias... / This commits the logical fallacy of...",
-      "examples": [
-        "We need to consider potential bias - this research was funded by the pharmaceutical company selling the drug.",
-        "This commits the logical fallacy of ad hominem - attacking the person instead of addressing their argument.",
-        "We need to consider potential bias in how the question was framed in this survey.",
-        "This commits the logical fallacy of false dichotomy - presenting only two options when more exist.",
-        "We need to consider potential bias - the article only quotes sources from one political perspective."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Distinguishing fact from opinion",
-      "pattern": "Let's distinguish between fact and opinion... / The evidence doesn't support...",
-      "examples": [
-        "Let's distinguish between fact and opinion: the data shows X (fact), but the conclusion that this proves Y is interpretation.",
-        "The evidence doesn't support that claim - the study had a small sample size and wasn't peer-reviewed.",
-        "Let's distinguish between fact and opinion: unemployment is 4% (fact), but whether that's 'good' depends on context (opinion).",
-        "The evidence doesn't support that sweeping generalization based on one example.",
-        "Let's distinguish between fact and opinion: the event occurred (fact), but attributing motive is speculation (opinion)."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit10-lesson3-listen1.mp3",
-      "transcript": "Source credibility depends on multiple factors: author expertise (relevant education and experience), transparency (clear methodology and funding sources), peer review (vetted by other experts), and track record (history of accuracy). Primary sources (original research, eyewitness accounts) are generally more reliable than secondary sources (interpretations, summaries). However, primary sources can still contain bias. Always cross-reference multiple sources and check publication date for currency.",
-      "question": "What makes a source credible?",
-      "options": [
-        "It agrees with my beliefs",
-        "Author expertise, transparency, peer review, track record",
-        "It's on the internet",
-        "It's popular on social media"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit10-lesson3-listen2.mp3",
-      "transcript": "Common logical fallacies include: ad hominem (attacking the person), straw man (misrepresenting an argument to defeat it easily), false dichotomy (presenting only two options), slippery slope (claiming one action inevitably leads to extreme consequences), and appeal to authority (claiming something is true because an authority says so, even outside their expertise). Recognizing these fallacies helps evaluate argument quality. Even well-intentioned arguments can contain fallacies, weakening their persuasive power.",
-      "question": "What is the straw man fallacy?",
-      "options": [
-        "Attacking the person",
-        "Misrepresenting an argument to defeat it easily",
-        "Claiming inevitability",
-        "Appealing to emotions"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit10-lesson3-listen3.mp3",
-      "transcript": "Confirmation bias makes people seek information confirming existing beliefs while dismissing contradicting evidence. Social media algorithms exploit this, creating echo chambers. Combat confirmation bias by actively seeking opposing viewpoints, questioning your own assumptions, and considering alternative explanations. Fact-checking websites like Snopes, FactCheck.org, and PolitiFact help verify claims. Remember: just because information confirms what you believe doesn't make it true, and discomfort with information doesn't make it false.",
-      "question": "What is confirmation bias?",
-      "options": [
-        "Confirming sources are accurate",
-        "Seeking information confirming existing beliefs",
-        "Double-checking facts",
-        "Getting confirmation from experts"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You encounter a viral social media post making a dramatic claim. Explain how you would evaluate its credibility before sharing. Use media literacy language. Record for 35 seconds.",
-      "example": "Before sharing any viral content, I apply critical thinking. First, what's the source of this information? I check if it's from an established news organization or unknown website. I examine the author's credentials - are they subject matter experts or anonymous? Second, I look for potential bias. Does the language seem designed to provoke emotional reactions? Is only one perspective presented? Third, the evidence doesn't support dramatic claims without verification. I search fact-checking websites like Snopes or FactCheck.org. Fourth, this appears to be correlation, not causation if it's making causal claims from limited data. I distinguish between fact and opinion - are claims verifiable or subjective? Fifth, I check if this commits common logical fallacies like cherry-picking data or false dichotomies. Finally, I ask: can I find this story in multiple credible sources? If not, I don't share. We need to consider our responsibility not to spread misinformation, even unintentionally.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain the difference between correlation and causation using an example. Why does this distinction matter? Record for 30 seconds.",
-      "example": "Let's distinguish between correlation and causation with an example. Correlation means two things occur together. For instance, ice cream sales and drowning deaths both increase in summer. They're correlated. However, ice cream doesn't cause drowning - both are caused by a third factor: warm weather brings people to pools and increases ice cream consumption. This commits the logical fallacy of assuming correlation equals causation. This distinction matters enormously in evaluating research and policy. The evidence doesn't support claims like 'vaccines cause autism' which confused correlation with causation. We need to consider alternative explanations before accepting causal claims. In professional and civic life, understanding this prevents poor decision-making based on coincidental relationships rather than actual cause-and-effect.",
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Analyze a news article or opinion piece. Identify: the main claim, evidence provided, potential bias, and whether arguments are logical. (120-150 words)",
-      "min_words": 120,
-      "example": "Article Analysis: 'City Should Ban Single-Use Plastics'\n\nMain Claim: The city should prohibit single-use plastic bags and containers to reduce environmental harm.\n\nEvidence Provided: The article cites ocean plastic pollution statistics and mentions other cities' successful bans. The author's credentials include environmental science background, adding credibility.\n\nPotential Bias: We need to consider potential bias - the author works for an environmental advocacy organization. The article presents only environmental benefits without discussing economic impacts on businesses or low-income consumers.\n\nLogical Analysis: The evidence supports environmental concerns. However, this commits the logical fallacy of false dichotomy by presenting 'ban' versus 'do nothing' without exploring alternatives like recycling improvements or biodegradable options. Let's distinguish between fact and opinion: plastic pollution exists (fact), but whether a ban is the best solution is debatable (opinion).\n\nConclusion: The article raises valid concerns but lacks balanced analysis of trade-offs and alternative solutions.",
-      "min_words": 120
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a guide teaching someone how to evaluate sources they encounter online. Include specific steps and warning signs. (100-120 words)",
-      "min_words": 100,
-      "example": "Guide to Evaluating Online Sources\n\nBefore trusting information online, ask these critical questions:\n\n1. What's the source of this information? Check the website's 'About' page and domain (.edu, .gov are generally reliable; unfamiliar domains warrant skepticism).\n\n2. What are the author's credentials? Are they subject matter experts?\n\n3. We need to consider potential bias. Who funds this website? What's their agenda?\n\n4. The evidence doesn't support claims without citations. Does the article link to original research or just make assertions?\n\n5. This appears to be correlation, not causation - be wary of claimed causal relationships.\n\n6. Let's distinguish between fact and opinion. Are claims verifiable or subjective interpretations?\n\nWarning Signs: Emotional language, no author identified, no sources cited, claims that seem too dramatic, requests to share urgently.\n\nVerify through multiple credible sources before accepting or sharing information.",
-      "min_words": 100
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Reporting Verbs for Citations and Claims",
-      "explanation": "Use specific reporting verbs to indicate level of certainty and type of claim.",
-      "examples": [
-        "The study demonstrates a clear link. (strong evidence)",
-        "Researchers suggest a possible connection. (tentative)",
-        "Critics argue the methodology was flawed. (disagreement)",
-        "The author claims without evidence that... (unsupported assertion)"
-      ],
-      "practice": [
-        {"sentence": "The research ___ significant correlation.", "blank": "demonstrates", "options": ["demonstrates", "maybe shows", "thinks"]},
-        {"sentence": "Experts ___ this approach might work.", "blank": "suggest", "options": ["prove", "suggest", "guarantee"]},
-        {"sentence": "The article ___ without citing sources.", "blank": "claims", "options": ["proves", "claims", "demonstrates"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conditional Sentences for Hypothetical Analysis",
-      "explanation": "Use conditionals to discuss scenarios and logical consequences.",
-      "examples": [
-        "If the source lacks credentials, we should question its reliability.",
-        "If multiple studies show similar results, the finding is more credible.",
-        "If bias is present, it undermines the argument's persuasiveness.",
-        "If this were true, we would see different outcomes."
-      ],
-      "practice": [
-        {"sentence": "If the study ___ peer-reviewed, it's more credible.", "blank": "is", "options": ["is", "was", "were"]},
-        {"sentence": "If bias ___, consider alternative sources.", "blank": "exists", "options": ["exist", "exists", "existing"]},
-        {"sentence": "If this ___ true, other sources would report it.", "blank": "were", "options": ["is", "was", "were"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Modal Verbs for Epistemic Certainty",
-      "explanation": "Use modals to express degrees of certainty about claims.",
-      "examples": [
-        "This must be verified before sharing. (strong necessity)",
-        "The claim might be exaggerated. (possibility)",
-        "The source could be biased. (possibility)",
-        "The evidence should be examined carefully. (recommendation)"
-      ],
-      "practice": [
-        {"sentence": "This ___ be verified first.", "blank": "must", "options": ["must", "might", "could"]},
-        {"sentence": "The article ___ contain bias.", "blank": "might", "options": ["must", "might", "will"]},
-        {"sentence": "We ___ check multiple sources.", "blank": "should", "options": ["should", "might", "could"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What makes a source credible?", "options": ["It's popular", "Expertise, transparency, peer review, track record", "It's on social media", "It confirms my beliefs"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What is the straw man fallacy?", "options": ["Attacking the person", "Misrepresenting an argument", "Appealing to emotions", "Using statistics"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What is confirmation bias?", "options": ["Confirming facts", "Seeking information confirming beliefs", "Double-checking sources", "Expert confirmation"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'The research ___ significant correlation.'", "options": ["maybe shows", "demonstrates", "thinks", "hopes"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Correlation always means causation.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Primary sources are generally more reliable than secondary sources.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "This ___ be verified before sharing. (strong necessity)", "correct": "must", "accept": ["must", "should"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "If this ___ true, other sources would report it. (subjunctive)", "correct": "were", "accept": ["were"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the concept:", "pairs": [{"left": "Primary source", "right": "Original research"}, {"left": "Bias", "right": "One-sided presentation"}, {"left": "Fallacy", "right": "Flawed reasoning"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What should you do before sharing viral content?", "options": ["Share immediately", "Check credibility and fact-check", "Add your opinion", "Tag everyone"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The researchers suggested that cultural misunderstandings tend to cluster around implicit, rather than explicit, norms — a finding that seems to resonate to many diaspora communities.",
+        "correct": "The researchers suggested that cultural misunderstandings tend to cluster around implicit, rather than explicit, norms — a finding that seems to resonate with many diaspora communities.",
+        "explanation": "'Resonate' collocates with 'with', not 'to'. This is a collocation error common at advanced level: 'resonate with someone/something' is the correct form."
+      },
+      {
+        "incorrect": "Code-switching, which refers to the practice of adjusting one's language or behaviour according to social context, can be an exhausting process for those who must perform it on a daily base.",
+        "correct": "Code-switching, which refers to the practice of adjusting one's language or behaviour according to social context, can be an exhausting process for those who must perform it on a daily basis.",
+        "explanation": "'On a daily basis' is the correct fixed phrase. 'On a daily base' is a register error — 'base' does not collocate here."
+      },
+      {
+        "incorrect": "The assumption that newcomers are solely responsible for cultural adaptation has been hardly challenged by mainstream institutions.",
+        "correct": "The assumption that newcomers are solely responsible for cultural adaptation has been rarely challenged by mainstream institutions.",
+        "explanation": "'Hardly' in this position would mean 'almost not at all' but with a slightly different nuance — the error is one of register and precision. More critically, 'hardly challenged' implies it was barely contested at all, whereas the intended meaning requires 'rarely', which is the natural collocate for frequency of events in formal writing."
+      },
+      {
+        "incorrect": "Implicit cultural norms are, by their very nature, difficult to articulate; nevertheless, their breach carries with it a significant social cost for those who are unaware of them.",
+        "correct": "Implicit cultural norms are, by their very nature, difficult to articulate; nevertheless, their breach carries a significant social cost for those who are unaware of them.",
+        "explanation": "'Carries with it' is redundant in this construction. The verb 'carry' already implies something is brought along; 'with it' is unnecessary and produces a slightly awkward register. The cleaner and more idiomatic form is 'carries a significant social cost'."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "credibility", "definition": "quality of being trusted and believed", "example": "Check the source's credibility."},
-    {"word": "bias", "definition": "prejudice in favor of or against something", "example": "Consider potential bias."},
-    {"word": "fallacy", "definition": "flawed reasoning or logic", "example": "This commits a logical fallacy."},
-    {"word": "anecdotal", "definition": "based on personal account, not scientific", "example": "Anecdotal evidence isn't conclusive."},
-    {"word": "peer-reviewed", "definition": "evaluated by experts in the field", "example": "Peer-reviewed research is more reliable."},
-    {"word": "correlation", "definition": "mutual relationship between variables", "example": "Correlation doesn't equal causation."},
-    {"word": "causation", "definition": "action of causing something", "example": "Prove causation, not just correlation."},
-    {"word": "misinformation", "definition": "false information spread unintentionally", "example": "Combat misinformation with fact-checking."},
-    {"word": "propaganda", "definition": "biased information to promote a view", "example": "Recognize propaganda techniques."},
-    {"word": "objectivity", "definition": "judgment based on facts, not feelings", "example": "Strive for objectivity in analysis."}
-  ],
-  "cultural_notes": [
-    "Media literacy education is increasingly emphasized in American schools due to misinformation concerns.",
-    "First Amendment protects free speech but doesn't protect deliberate false statements that cause harm (libel, slander).",
-    "Fact-checking organizations play important roles in American civic discourse.",
-    "Partisan media consumption has increased - Americans increasingly consume news from ideologically aligned sources.",
-    "Social media platforms face pressure to combat misinformation while respecting free speech.",
-    "Critical thinking skills are valued in American education - questioning sources is encouraged, not considered disrespectful."
+  "debate_task": {
+    "motion": "This house believes that host societies, not newcomers, bear the primary responsibility for enabling cultural integration.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Host institutions possess greater structural power and resources to implement inclusive policies, language support, and cultural orientation — making integration a matter of institutional design rather than individual effort.",
+      "Expecting newcomers to decode implicit cultural codes without guidance replicates existing inequalities and places an asymmetric cognitive burden on already disadvantaged groups.",
+      "Mutual cultural exchange, as evidenced by societies that actively celebrate diaspora contributions, produces richer social outcomes than one-directional assimilation models."
+    ],
+    "counter_arguments": [
+      "Integration that is wholly institutionally driven risks becoming paternalistic, denying newcomers the agency and self-determination that meaningful cultural participation requires.",
+      "Host communities cannot be held responsible for cultural norms that are, by definition, tacit and evolved organically — no institution can fully codify or teach the implicit.",
+      "Historical evidence suggests that diaspora communities themselves often drive the most successful integration by building bridges voluntarily, suggesting intrinsic motivation matters more than structural support."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion using at least 3 discourse markers."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "The anthropologist Edward Hall argued that the most significant cross-cultural misunderstandings arise not from differences in explicit values, but from differences in implicit communication styles. To what extent do you agree? Write a discursive essay drawing on your own experience or observations. (220-260 words)",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Introduce Hall's distinction between explicit and implicit cultural norms. State your position clearly but with appropriate hedging — avoid absolute agreement or disagreement from the outset."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Develop the case that implicit norms — around eye contact, silence, directness, hierarchy — are indeed more treacherous than explicit ones because they are invisible and rarely articulated. Use a specific illustrative example."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge that explicit value differences (around gender roles, religious practice, or political norms, for example) can also generate profound misunderstandings. Consider whether Hall's framework over-emphasises communication style at the expense of deeper ideological divergence."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Offer a qualified synthesis: implicit norms may be the more frequent source of everyday friction, but explicit value differences represent the higher-stakes conflicts. The distinction is one of frequency versus severity."
+      }
+    ],
+    "model_answer": "Hall's distinction between high- and low-context communication styles offers a genuinely illuminating lens for understanding why intercultural friction so often occurs in the gaps between words rather than in explicit disagreement. To a considerable extent, his argument holds: implicit norms governing eye contact, personal space, silence, and directness appear to produce more frequent misunderstandings than differences in stated values, precisely because they are assumed rather than communicated.\n\nThe experience of diaspora communities lends support to this view. Many individuals report that navigating unspoken expectations — the 'right' level of assertiveness in a job interview, the appropriate emotional register with a British GP — proves more disorienting than adapting to explicitly different customs. Implicit rules, by definition, are never explained; their transgression therefore carries consequences that feel inexplicable to the newcomer.\n\nNevertheless, it would be an oversimplification to suggest that explicit value differences are a lesser concern. Conflicts around gender equality, attitudes to religious observance in public life, or contrasting notions of individual versus collective obligation can generate misunderstandings of considerable depth and political consequence — ones that cannot be resolved through better communication style alone.\n\nOn balance, Hall's framework is most persuasive as a description of everyday social friction rather than as a comprehensive theory of cultural conflict. Implicit norms may account for the majority of minor misreadings; explicit value divergences, while less frequent, tend to carry the greater weight."
+  },
+  "advanced_grammar": {
+    "structure": "Cleft Sentences",
+    "explanation": "Cleft sentences divide a single clause into two parts in order to place emphasis on one particular element. The two most common types in formal English are 'it-clefts' ('It is X that...') and 'wh-clefts' ('What X does is...'). By foregrounding information this way, writers can direct the reader's attention precisely — a technique highly valued in academic and journalistic prose.\n\nAn it-cleft takes the form: 'It is/was + [focused element] + that/who + [rest of the clause]'. For example, 'The implicit norms proved most disorienting' becomes 'It was the implicit norms that proved most disorienting' — the emphasis shifts onto 'implicit norms'. A wh-cleft takes the form: 'What + [subject] + [verb] + is/was + [focused element]': 'What the text reveals is the asymmetry of cultural labour.' Cleft sentences are particularly effective when introducing a contrast or correcting an assumption.",
+    "authentic_examples": [
+      "It is the unspoken conventions, rather than explicit customs, that most frequently confound newly arrived migrants.",
+      "What researchers in intercultural communication have consistently found is that misunderstandings cluster at the level of the implicit.",
+      "It was not the language barrier that Amina found most challenging — it was the invisible architecture of social expectation."
+    ],
+    "practice": [
+      {
+        "sentence": "The asymmetry of cultural labour rarely receives institutional acknowledgement.",
+        "transform": "Rewrite as an it-cleft emphasising 'the asymmetry of cultural labour'.",
+        "answer": "It is the asymmetry of cultural labour that rarely receives institutional acknowledgement."
+      },
+      {
+        "sentence": "Code-switching demands the greatest cognitive effort from diaspora individuals.",
+        "transform": "Rewrite as a wh-cleft beginning 'What code-switching demands...'",
+        "answer": "What code-switching demands most from diaspora individuals is sustained cognitive effort."
+      },
+      {
+        "sentence": "Hall's concept of high-context communication helps explain these misunderstandings.",
+        "transform": "Rewrite as an it-cleft to emphasise 'Hall's concept of high-context communication'.",
+        "answer": "It is Hall's concept of high-context communication that helps explain these misunderstandings."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "In the article, 'transgressing' unspoken conventions most nearly means:",
+      "options": [
+        "Carefully following social expectations",
+        "Violating implicit social norms without necessarily knowing them",
+        "Openly challenging cultural assumptions",
+        "Translating between cultural frameworks"
+      ],
+      "correct": 1,
+      "explanation": "'Transgressing' means crossing or breaking a boundary or rule. In context, Amina transgresses conventions she was never told about — the word implies violation without necessarily implying intent."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best describes the function of 'it seems' and 'tends to' in the same clause of the authentic text?",
+      "options": [
+        "They introduce a direct quotation from a research source",
+        "They signal absolute certainty about a cultural pattern",
+        "They hedge a generalisation to acknowledge complexity and avoid essentialism",
+        "They create a formal academic register through passive voice"
+      ],
+      "correct": 2,
+      "explanation": "Both 'it seems' and 'tends to' are hedging devices. Together in a single clause they signal the writer's tentativeness about cultural generalisation — a deliberate strategy to avoid presenting cultural patterns as universal laws."
+    },
+    {
+      "id": 3,
+      "question": "Identify the sentence with a collocation error:",
+      "options": [
+        "This finding tends to resonate with practitioners in the field.",
+        "The burden of adaptation falls disproportionately on newcomers.",
+        "These norms are difficult to transgress in a formal context.",
+        "Code-switching can be exhausting to perform on a daily base."
+      ],
+      "correct": 3,
+      "explanation": "'On a daily base' is incorrect. The fixed phrase is 'on a daily basis'. 'Base' and 'basis' are frequently confused: 'basis' is used in abstract expressions of frequency and method."
+    },
+    {
+      "id": 4,
+      "question": "What is the primary function of a wh-cleft sentence such as 'What the text reveals is the asymmetry of cultural labour'?",
+      "options": [
+        "To form a question indirectly",
+        "To hedge a claim using a relative clause",
+        "To emphasise a particular element of information by foregrounding it",
+        "To avoid using the passive voice in academic writing"
+      ],
+      "correct": 2,
+      "explanation": "Wh-cleft sentences ('What X does/shows/reveals is Y') are a device for emphasis and focus. They direct the reader's attention to the element that appears after 'is', making it the informational focus of the sentence."
+    },
+    {
+      "id": 5,
+      "question": "The phrase 'dual consciousness' is borrowed from W.E.B. Du Bois. Its use in this article most likely serves to:",
+      "options": [
+        "Demonstrate the writer's familiarity with African-American history",
+        "Lend intellectual credibility to a cross-cultural phenomenon by connecting it to an established theoretical concept",
+        "Argue that the Somali diaspora experience is identical to African-American experience",
+        "Introduce a counter-argument to the main thesis of the article"
+      ],
+      "correct": 1,
+      "explanation": "Invoking Du Bois lends academic authority and historical resonance. The writer carefully qualifies it with 'in a different but resonant context', signalling that the concept is being applied analogously, not equivalently — a nuanced rhetorical move."
+    }
   ]
 }

@@ -2,237 +2,170 @@
   "id": "lesson-40",
   "unit_id": 7,
   "lesson_number": 2,
-  "title": "Describing People and Characters",
+  "title": "Reading a Menu and Food Vocabulary",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Describe physical appearance accurately",
-    "Explain personality traits and characteristics",
-    "Compare and contrast different people",
-    "Avoid stereotypes when describing others"
+    "Read and interpret American restaurant menus including descriptions, categories, and pricing",
+    "Identify and use food vocabulary for common American and international dishes",
+    "Distinguish between countable and uncountable nouns when describing food",
+    "Describe food using sensory adjectives related to taste, texture, and preparation method"
   ],
-  "target_phrases": [
-    "He/She looks...",
-    "He/She is... (height/build)",
-    "He/She has... (features)",
-    "His/Her personality is...",
-    "He/She tends to be...",
-    "What I notice most is...",
-    "He/She reminds me of..."
-  ],
-  "dialogue": {
-    "title": "Describing Family Members",
-    "context": "Ahmed shows his coworkers photos of his family and describes each person.",
-    "lines": [
-      {"speaker": "Lisa", "text": "Ahmed, are these your family photos? Tell us about them!"},
-      {"speaker": "Ahmed", "text": "Yes! This is my mother. She's in her fifties, average height, and she has kind eyes. She's always smiling."},
-      {"speaker": "Carlos", "text": "She looks very warm and friendly. What's her personality like?"},
-      {"speaker": "Ahmed", "text": "She's incredibly patient and generous. She used to help all the neighbors in Somalia. Everyone loved her."},
-      {"speaker": "Lisa", "text": "And who's this tall man next to her?"},
-      {"speaker": "Ahmed", "text": "That's my older brother, Abdi. He's about six feet tall with a athletic build. He played soccer professionally."},
-      {"speaker": "Carlos", "text": "He looks serious in this photo."},
-      {"speaker": "Ahmed", "text": "He can be serious about work, but he has a great sense of humor with family. He's also very protective of our younger siblings."},
-      {"speaker": "Lisa", "text": "And this little girl?"},
-      {"speaker": "Ahmed", "text": "That's my niece, Amina. She has big brown eyes and curly hair. She's only seven but very curious and talkative. She asks a million questions!"},
-      {"speaker": "Carlos", "text": "She sounds adorable! Who does she remind you of?"},
-      {"speaker": "Ahmed", "text": "Actually, she reminds me of my mother - same curious nature and warm personality. People say I was like that as a child too."},
-      {"speaker": "Lisa", "text": "It's wonderful how family traits get passed down. You must miss them so much."}
+  "reading_passage": {
+    "title": "Understanding What You're Ordering",
+    "text": "For newcomers eating out in the United States, menus can be both exciting and confusing. American menus often include dishes from many different culinary traditions — Italian pasta, Mexican tacos, Japanese sushi, and American classics like mac and cheese or chicken wings — all available in the same restaurant. Understanding how dishes are described helps you order confidently and avoid surprises.\n\nMost menus describe dishes using sensory language. Words like 'crispy,' 'tender,' 'grilled,' 'smoked,' 'braised,' and 'sautéed' describe how food is cooked. Words like 'creamy,' 'tangy,' 'savoury,' 'mild,' and 'rich' describe how food tastes. Reading these descriptions carefully can tell you a great deal about whether a dish will suit your preferences and dietary needs.\n\nOne source of confusion is the difference between countable and uncountable food nouns. 'A burger,' 'two tacos,' and 'three eggs' are countable — you can order a specific number of them. But 'rice,' 'bread,' 'pasta,' 'soup,' and 'coffee' are uncountable — you cannot say 'two rices' or 'a soup' in standard English. Instead, you use quantifiers: 'a bowl of soup,' 'a cup of coffee,' 'a serving of rice,' or 'a slice of bread.'\n\nMenus also often note which dishes contain common allergens — nuts, dairy, gluten, or shellfish — using small icons or asterisks. If you have a dietary restriction or allergy, it is always safer to confirm with the server rather than relying only on the menu description.",
+    "source": "Adapted from ESL food literacy curriculum developed by Oregon Literacy Inc. and Portland Community College Continuing Education, 2023",
+    "glossary": [
+      {"word": "culinary", "meaning": "relating to cooking and food preparation"},
+      {"word": "braised", "meaning": "cooked slowly in a small amount of liquid in a covered pot, resulting in tender, flavourful meat"},
+      {"word": "sautéed", "meaning": "cooked quickly in a small amount of oil or butter over high heat"},
+      {"word": "allergen", "meaning": "a substance in food that can cause an allergic reaction in some people, such as nuts, dairy, or gluten"},
+      {"word": "quantifier", "meaning": "a word that indicates the amount or quantity of something, such as 'a cup of,' 'some,' or 'a few'"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Physical appearance",
-      "pattern": "He/She is [height/build/age]",
-      "examples": [
-        "She is tall and slim.",
-        "He is of average height with a muscular build.",
-        "She is in her thirties with long black hair.",
-        "He is short with broad shoulders.",
-        "She is elderly with gray hair and glasses."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what do words like 'crispy,' 'grilled,' and 'braised' describe on a menu?",
+      "answer": "They describe how food is cooked — the preparation method used to make the dish."
     },
     {
-      "id": "drill-2",
-      "focus": "Describing features",
-      "pattern": "He/She has [physical features]",
-      "examples": [
-        "She has curly brown hair and green eyes.",
-        "He has a beard and wears glasses.",
-        "She has a warm smile and dimples.",
-        "He has dark skin and short hair.",
-        "She has freckles and red hair."
-      ]
+      "type": "inference",
+      "question": "Why does the author advise confirming allergen information with the server rather than relying only on the menu?",
+      "answer": "Because menus can be incomplete or unclear — icons and asterisks may be easy to miss, and a server can give specific, up-to-date information about ingredients to ensure the meal is safe for someone with allergies."
     },
     {
-      "id": "drill-3",
-      "focus": "Personality traits",
-      "pattern": "He/She is [personality adjective]",
-      "examples": [
-        "She is kind and patient.",
-        "He is outgoing and friendly.",
-        "She is quiet but thoughtful.",
-        "He is confident and ambitious.",
-        "She is generous and caring."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'culinary' mean in the first paragraph?",
+      "answer": "Relating to cooking and food preparation — a 'culinary tradition' refers to the food practices and recipes that come from a particular culture or country."
+    },
+    {
+      "type": "inference",
+      "question": "What does the author imply by saying that many different food traditions appear on the same American restaurant menu?",
+      "answer": "The author implies that American food culture is diverse and internationally influenced — and that this variety, while exciting, can be unfamiliar and even overwhelming for newcomers who are still learning English food vocabulary."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit7-lesson2-listen1.mp3",
-      "transcript": "When describing people, separate appearance from personality. For appearance, describe: height (tall, short, average), build (slim, athletic, heavy-set), age (young, middle-aged, elderly), and distinct features (hair color, eye color, facial hair). For personality, use adjectives like: friendly, shy, outgoing, serious, funny, kind, patient. Be specific and respectful.",
-      "question": "What should you describe separately?",
-      "options": [
-        "Only appearance",
-        "Only personality",
-        "Appearance and personality separately",
-        "Neither"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit7-lesson2-listen2.mp3",
-      "transcript": "Avoid stereotypes when describing people. Don't assume someone's personality based on their appearance, nationality, or profession. Instead of 'All teachers are patient,' say 'My teacher is patient.' Instead of 'She looks mean,' say 'She looks serious.' Focus on what you actually observe or know about the specific person.",
-      "question": "How should you avoid stereotypes?",
-      "options": [
-        "Describe everyone the same",
-        "Focus on the specific person, not groups",
-        "Don't describe anyone",
-        "Only mention positive traits"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit7-lesson2-listen3.mp3",
-      "transcript": "Using 'tends to' or 'usually' shows nuance in descriptions. 'She tends to be quiet in large groups' is more accurate than 'She is quiet.' 'He's usually cheerful' acknowledges that moods change. This makes your descriptions more realistic and shows you understand that people are complex.",
-      "question": "Why use 'tends to' or 'usually'?",
-      "options": [
-        "To sound more formal",
-        "To show people are complex and moods change",
-        "To avoid saying anything definite",
-        "It's required in English"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Describe someone important in your life. Include both appearance and personality. Record for 30 seconds.",
-      "example": "I want to describe my best friend from home. Her name is Fatima. She's in her late twenties, about average height, and she has beautiful long black hair that she usually wears in a braid. She has dark brown eyes and a contagious smile. As for her personality, Fatima is one of the most loyal and supportive people I know. She's always there when I need to talk. She tends to be quiet in groups, but one-on-one she's very open and funny. What I admire most about her is her strength - she always stays positive even during difficult times.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Compare two people you know - how are they similar and different in appearance or personality? Record for 25 seconds.",
-      "example": "My two brothers are very different. My older brother Abdi is tall and athletic, while my younger brother Hassan is shorter and slimmer. In personality, they're also opposites. Abdi is very serious and responsible - he always thinks before acting. Hassan is more spontaneous and fun-loving. However, they're similar in one important way - both are extremely loyal to family. They would do anything to help each other or our parents.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Describe a family member or close friend. Include physical appearance, personality, and what makes them special. (80-100 words)",
-      "min_words": 80,
-      "example": "My mother is the most important person in my life. She's in her mid-fifties, with graying hair that she keeps in a traditional headscarf. She has a round, kind face with warm brown eyes that crinkle when she smiles. Physically, she's of average height but very strong from years of hard work. Her personality is what makes her truly special. She's incredibly patient - I never saw her lose her temper, even in difficult situations. She's also very generous and always puts others before herself. What I admire most is her wisdom. She always knows the right thing to say when I'm struggling. She has this quiet strength that inspires everyone around her. I miss her every day.",
-      "min_words": 80
-    },
-    {
-      "id": "write-2",
-      "prompt": "Describe a character from a book, movie, or TV show. What do they look like? What's their personality? (60-80 words)",
-      "min_words": 60,
-      "example": "One of my favorite characters is Forrest Gump from the movie. He's a tall man with short brown hair and a simple, honest face. Throughout the movie, he wears casual clothes and often carries his suitcase. His personality is what makes him special - he's incredibly kind, loyal, and optimistic. He tends to see the good in everyone. Even though people said he wasn't smart, he achieved amazing things through his determination and good heart. His simple wisdom often revealed deep truths.",
-      "min_words": 60
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "'Be + adjective' for Appearance and Personality",
-      "explanation": "Use 'be + adjective' to describe how someone is.",
-      "examples": [
-        "She is tall and slim. (appearance)",
-        "He is friendly and outgoing. (personality)",
-        "They are young and energetic. (appearance/personality)",
-        "I am patient and calm. (personality)"
-      ],
-      "practice": [
-        {"sentence": "She ___ very kind.", "blank": "is", "options": ["is", "are", "be"]},
-        {"sentence": "They ___ tall and athletic.", "blank": "are", "options": ["is", "are", "am"]},
-        {"sentence": "He is ___ and generous.", "blank": "friendly", "options": ["friend", "friendly", "friendliness"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "'Have/has + features' for Physical Characteristics",
-      "explanation": "Use 'have/has' to talk about physical features someone possesses.",
-      "examples": [
-        "She has long black hair. (feature)",
-        "He has blue eyes. (feature)",
-        "They have warm smiles. (feature)",
-        "I have curly hair. (feature)"
-      ],
-      "practice": [
-        {"sentence": "She ___ green eyes.", "blank": "has", "options": ["has", "have", "is"]},
-        {"sentence": "They ___ dark hair.", "blank": "have", "options": ["has", "have", "are"]},
-        {"sentence": "He has ___ hair.", "blank": "curly", "options": ["curl", "curly", "curls"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Relative Clauses with 'who' for People",
-      "explanation": "Use 'who' to add information about a person.",
-      "examples": [
-        "My mother, who lives in Somalia, is very kind. (extra info)",
-        "The man who helped me was very friendly. (identifying which man)",
-        "She's the teacher who taught me English. (identifying which teacher)",
-        "My friend, who I met in class, is from Mexico. (extra info)"
-      ],
-      "practice": [
-        {"sentence": "The person ___ helped me was kind.", "blank": "who", "options": ["who", "which", "what"]},
-        {"sentence": "My sister, ___ lives here, is tall.", "blank": "who", "options": ["who", "which", "that"]},
-        {"sentence": "He's the man ___ I told you about.", "blank": "who", "options": ["who", "which", "what"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "How does Ahmed describe his mother?", "options": ["Tall and serious", "Average height with kind eyes", "Short and quiet", "Young and energetic"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What sport did Ahmed's brother play?", "options": ["Basketball", "Soccer", "Baseball", "Tennis"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How old is Ahmed's niece Amina?", "options": ["Five", "Seven", "Nine", "Ten"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'She ___ long black hair.'", "options": ["is", "has", "are", "have"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should avoid stereotypes when describing people.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "It's okay to assume someone's personality from their appearance.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "He ___ very friendly. (be + adjective)", "correct": "is", "accept": ["is", "'s"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "The person ___ helped me was kind. (relative clause)", "correct": "who", "accept": ["who"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the description type:", "pairs": [{"left": "Tall", "right": "Appearance"}, {"left": "Kind", "right": "Personality"}, {"left": "Curly hair", "right": "Physical feature"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Who does Amina remind Ahmed of?", "options": ["His father", "His brother", "His mother", "Himself as a child"], "correct": 2, "points": 10}
+  "language_focus": {
+    "title": "Countable and Uncountable Nouns with Food",
+    "explanation": "Food nouns in English are either countable (you can count individual items: one egg, two tacos, three cookies) or uncountable (you cannot count them directly: rice, soup, bread, coffee). Uncountable nouns do not take 'a/an' and cannot be pluralised. To express quantity with uncountable nouns, use a quantifier phrase: 'a bowl of soup,' 'a cup of coffee,' 'a piece of bread,' 'a serving of rice.' Getting this right sounds natural and helps when ordering food.",
+    "examples": [
+      {
+        "sentence": "Could I have a bowl of rice and two pieces of flatbread, please?",
+        "note": "'Rice' and 'bread' are uncountable — use 'a bowl of rice' and 'pieces of bread,' not 'a rice' or 'two breads.'"
+      },
+      {
+        "sentence": "I'd like three tacos and a glass of water.",
+        "note": "'Tacos' and 'glass' are countable — you can say 'three tacos' directly. 'Water' is uncountable, so use 'a glass of water.'"
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Correct the error: 'Can I have a soup and two breads, please?'",
+        "answer": "Can I have a bowl of soup and two slices of bread, please? (Use quantifiers with uncountable nouns: 'a bowl of soup,' 'slices of bread.')"
+      },
+      {
+        "sentence": "Choose the correct form: 'I'd like ___ (a coffee / a cup of coffee) to start.'",
+        "answer": "I'd like a cup of coffee to start. ('Coffee' is uncountable — use 'a cup of coffee,' not 'a coffee' in formal restaurant language.)"
+      },
+      {
+        "sentence": "Which nouns are countable? A) rice, pasta, bread. B) egg, taco, sandwich.",
+        "answer": "B) Egg, taco, and sandwich are countable — you can say 'two eggs,' 'three tacos,' 'one sandwich.' Rice, pasta, and bread are uncountable."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "appearance", "definition": "how someone looks physically", "example": "Her appearance is very professional."},
-    {"word": "personality", "definition": "characteristics that make someone unique", "example": "He has a warm, friendly personality."},
-    {"word": "trait", "definition": "characteristic or quality", "example": "Honesty is an important trait."},
-    {"word": "characteristic", "definition": "typical feature or quality", "example": "Patience is her best characteristic."},
-    {"word": "height", "definition": "how tall someone is", "example": "He is average height."},
-    {"word": "build", "definition": "body type or physique", "example": "She has an athletic build."},
-    {"word": "feature", "definition": "distinctive part of appearance", "example": "Her eyes are her most striking feature."},
-    {"word": "temperament", "definition": "natural personality tendencies", "example": "He has a calm temperament."},
-    {"word": "attitude", "definition": "way of thinking or feeling", "example": "She has a positive attitude."},
-    {"word": "demeanor", "definition": "outward behavior or manner", "example": "His demeanor is always professional."}
+  "vocabulary_in_context": [
+    {
+      "word": "culinary",
+      "definition": "Relating to cooking, food preparation, and the traditions of making and serving food",
+      "example_sentence": "American menus often include dishes from many different culinary traditions — Italian pasta, Mexican tacos, Japanese sushi.",
+      "collocations": ["culinary tradition", "culinary skills", "culinary experience"],
+      "register": "formal"
+    },
+    {
+      "word": "allergen",
+      "definition": "A substance in food that triggers an allergic reaction in some people, such as nuts, dairy, gluten, or shellfish",
+      "example_sentence": "Menus often note which dishes contain common allergens — nuts, dairy, gluten, or shellfish — using small icons or asterisks.",
+      "collocations": ["common allergen", "contain allergens", "allergen information"],
+      "register": "formal"
+    },
+    {
+      "word": "quantifier",
+      "definition": "A word or phrase that shows the amount of something, used before uncountable nouns (a cup of, a bowl of, a piece of)",
+      "example_sentence": "Instead, you use quantifiers: 'a bowl of soup,' 'a cup of coffee,' 'a serving of rice,' or 'a slice of bread.'",
+      "collocations": ["use a quantifier", "quantity expression", "a piece of"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "In American culture, commenting on someone's appearance can be sensitive. Focus on compliments like 'You look nice' rather than specific body features.",
-    "It's common to describe personality traits when introducing people: 'This is my friend Sarah - she's really funny and creative.'",
-    "Americans value individuality and don't like being stereotyped based on groups they belong to.",
-    "When describing people in professional contexts, focus on relevant qualities and accomplishments, not appearance.",
-    "Physical descriptions are used mainly for practical purposes (helping someone find a person) or in close relationships.",
-    "Describing someone as 'interesting' or 'unique' is usually a compliment in American culture."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are helping a newly arrived friend understand a restaurant menu for the first time. The menu has the following items: grilled chicken with a side of rice ($16), tomato bisque soup ($8), beef tacos — three per order ($12), macaroni and cheese ($10), and chocolate lava cake ($7).",
+    "prompt": "Explain at least three dishes on the menu to your friend. For each one, describe what it is, how it is cooked (if the menu says), and whether any part of it is countable or uncountable. Help your friend choose something they would enjoy based on their preferences.",
+    "useful_language": [
+      "The grilled chicken comes with a serving of rice — 'rice' is uncountable so you can't say 'rices.'",
+      "The tacos are countable — you get three in one order, so you can say 'three tacos.'",
+      "The tomato bisque is a smooth, creamy soup — 'soup' is uncountable, so you'd ask for 'a bowl of soup.'"
+    ],
+    "model_answer": "OK, let me help you read the menu. The grilled chicken is chicken cooked over a flame — 'grilled' means cooked on a grill. It comes with rice on the side. Rice is uncountable, so we say 'a serving of rice,' not 'a rice.' The tacos are small filled tortillas — they're countable, and this order gives you three. The tomato bisque is a smooth creamy soup. Soup is uncountable, so you'd order 'a bowl of soup.' If you prefer something familiar, the macaroni and cheese is pasta with a creamy cheese sauce — very popular here. What do you think you'd like?"
+  },
+  "writing_workshop": {
+    "model_text": "American menus can seem overwhelming at first, but once you understand the vocabulary, ordering becomes easier. I have learned that 'grilled' means cooked on an open flame, which gives food a slightly smoky taste. 'Braised' means slow-cooked in liquid, which makes meat very tender. When I see 'a bowl of soup' or 'a cup of coffee' on the menu, I now know these are uncountable nouns with quantifiers. My favourite thing to order is grilled salmon with a side of rice — it is light, healthy, and always well cooked. I always ask the server whether any dish contains dairy, since I avoid it.",
+    "model_analysis": "Notice how the writer uses food vocabulary learned in the lesson (grilled, braised, uncountable nouns), includes personal experience, and demonstrates how to ask about dietary needs — showing both language and practical knowledge.",
+    "task": "Write a description of two or three dishes that you enjoy or would like to try. Describe how they are cooked, what they taste like, and identify whether the main ingredients are countable or uncountable. Include a sentence about any dietary preferences or restrictions you have.",
+    "success_criteria": [
+      "Describe at least two dishes using preparation method words (grilled, baked, fried, etc.) and taste adjectives",
+      "Correctly use countable and uncountable nouns — use quantifiers where needed",
+      "Include a sentence about a dietary preference or how you would customise an order"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what do words like 'creamy,' 'tangy,' and 'mild' describe on a menu?",
+      "options": [
+        "How the food is cooked",
+        "How the food tastes",
+        "The portion size of the dish",
+        "The country the dish comes from"
+      ],
+      "correct": 1,
+      "explanation": "The passage states: 'Words like creamy, tangy, savoury, mild, and rich describe how food tastes.'"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following food nouns is uncountable?",
+      "options": [
+        "Taco",
+        "Egg",
+        "Sandwich",
+        "Rice"
+      ],
+      "correct": 3,
+      "explanation": "Rice is uncountable — you cannot say 'two rices.' You must use a quantifier: 'a serving of rice' or 'a bowl of rice.' Taco, egg, and sandwich are countable."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence correctly uses a quantifier with an uncountable noun?",
+      "options": [
+        "Can I have two soups, please?",
+        "Can I have a soup, please?",
+        "Can I have a bowl of soup, please?",
+        "Can I have some soup bowls, please?"
+      ],
+      "correct": 2,
+      "explanation": "'A bowl of soup' is correct — 'soup' is uncountable so it needs a quantifier phrase like 'a bowl of' to express quantity."
+    },
+    {
+      "id": 4,
+      "question": "What does the passage recommend doing if you have a food allergy?",
+      "options": [
+        "Ordering only dishes with no description on the menu",
+        "Avoiding all restaurants and cooking at home",
+        "Confirming with the server rather than relying only on the menu",
+        "Ordering the most expensive dish to ensure quality ingredients"
+      ],
+      "correct": 2,
+      "explanation": "The passage advises: 'it is always safer to confirm with the server rather than relying only on the menu description.'"
+    }
   ]
 }

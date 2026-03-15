@@ -84,6 +84,7 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(h
         raise HTTPException(status_code=401, detail="Not authenticated")
     if not _AUTH_AVAILABLE:
         raise HTTPException(status_code=501, detail="Auth not configured")
+    conn = None
     try:
         payload = jwt.decode(credentials.credentials, SECRET_KEY, algorithms=[ALGORITHM])
         user_id = payload.get("sub")
@@ -97,14 +98,16 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(h
         )
         row = cur.fetchone()
         cur.close()
-        conn.close()
         if not row:
             raise HTTPException(status_code=401, detail="User not found")
         return dict(row)
-    except (JWTError, Exception) as e:
-        if isinstance(e, HTTPException):
-            raise
+    except HTTPException:
+        raise
+    except Exception:
         raise HTTPException(status_code=401, detail="Invalid token")
+    finally:
+        if conn:
+            conn.close()
 
 
 async def get_optional_user(credentials: HTTPAuthorizationCredentials = Depends(http_bearer)):
@@ -120,6 +123,11 @@ async def get_optional_user(credentials: HTTPAuthorizationCredentials = Depends(
 
 # Serve PDFs and other book assets as static files at /books/pdf/...
 app.mount("/books", StaticFiles(directory=str(BOOKS_DIR)), name="books")
+
+# Serve lesson audio files at /audio/...
+AUDIO_DIR = Path(__file__).parent / "audio"
+AUDIO_DIR.mkdir(exist_ok=True)
+app.mount("/audio", StaticFiles(directory=str(AUDIO_DIR)), name="audio")
 
 # Register placement test router
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -469,6 +477,10 @@ async def login(req: LoginRequest):
         user_data = {k: v for k, v in dict(row).items() if k != "password_hash"}
         token = create_access_token({"sub": str(user_data["id"])})
         return {"token": token, "user": user_data}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
     finally:
         if conn:
             conn.close()
@@ -518,8 +530,31 @@ async def save_placement(data: dict, user=Depends(get_current_user)):
 # --- Existing endpoints ---
 
 @app.get("/api/units")
-async def get_units():
+async def get_units(optional_user=Depends(get_optional_user)):
+    user_id = optional_user["id"] if optional_user else None
     units = load_units()
+
+    completed_map = {}  # lesson_id → score
+    test_map = {}       # unit_id → {score, percentage}
+    if user_id:
+        conn = get_db()
+        try:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT lesson_id, score FROM user_lessons WHERE user_id = %s AND completed = true",
+                (user_id,)
+            )
+            for row in cur.fetchall():
+                completed_map[row['lesson_id']] = row['score']
+            cur.execute(
+                "SELECT unit_id, score, percentage FROM unit_test_results WHERE user_id = %s",
+                (user_id,)
+            )
+            for row in cur.fetchall():
+                test_map[row['unit_id']] = {"score": row['score'], "percentage": row['percentage']}
+            cur.close()
+        finally:
+            conn.close()
 
     for unit in units:
         unit_dir = LESSONS_DIR / f"unit-{unit['id']}"
@@ -533,20 +568,26 @@ async def get_units():
                 except (json.JSONDecodeError, KeyError, UnicodeDecodeError) as e:
                     print(f"Skipping invalid lesson file {lesson_file}: {e}")
                     continue
+                lid = _lesson_numeric_id(lesson_data["id"])
+                done = lid in completed_map
                 lessons.append({
-                    "id": _lesson_numeric_id(lesson_data["id"]),
+                    "id": lid,
                     "lesson_number": lesson_data["lesson_number"],
                     "title": lesson_data["title"],
                     "description": lesson_data.get("description") or lesson_data.get("level", ""),
                     "difficulty": lesson_data.get("difficulty") or lesson_data.get("level", "beginner"),
-                    "completed": False,
-                    "score": None,
+                    "completed": done,
+                    "score": completed_map.get(lid),
                     "locked": False
                 })
             lessons.sort(key=lambda l: l["lesson_number"])
             unit["lessons"] = lessons
             unit["total_lessons"] = len(lessons)
-            unit["completed_lessons"] = 0
+            unit["completed_lessons"] = sum(1 for l in lessons if l["completed"])
+            tid = unit["id"]
+            unit["test_done"] = tid in test_map
+            unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
+            unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
 
     return units
 
@@ -587,8 +628,19 @@ async def submit_quiz(request: dict, optional_user=Depends(get_optional_user)):
         """, (user_id, lesson_id, unit_id, score))
 
         conn.commit()
+
+        # Check if all lessons in this unit are now complete
+        cur.execute(
+            "SELECT COUNT(*) as done FROM user_lessons WHERE user_id = %s AND unit_id = %s AND completed = true",
+            (user_id, unit_id)
+        )
+        done_count = cur.fetchone()['done']
+        unit_dir = LESSONS_DIR / f"unit-{unit_id}"
+        total = len(list(unit_dir.glob("lesson-*.json"))) if unit_dir.exists() else 0
+        unit_complete = (total > 0 and done_count >= total)
+
         cur.close()
-        return {"success": True, "score": score}
+        return {"success": True, "score": score, "unit_complete": unit_complete, "unit_id": unit_id}
     except Exception as e:
         print(f"Database error: {e}")
         return {"success": False, "error": str(e)}
@@ -1000,7 +1052,7 @@ async def complete_chapter(
     user_id = current_user["id"]
     quiz_score = payload.get("quiz_score")
     try:
-        conn = get_db_connection()
+        conn = get_db()
         with conn.cursor() as cur:
             cur.execute(
                 """
@@ -1029,7 +1081,7 @@ async def get_book_progress(current_user=Depends(get_optional_user)):
     banks = load_question_banks()
     completed_by_book: dict[str, list] = {}
     try:
-        conn = get_db_connection()
+        conn = get_db()
         with conn.cursor() as cur:
             cur.execute(
                 """
@@ -1056,6 +1108,63 @@ async def get_book_progress(current_user=Depends(get_optional_user)):
             "completed_chapter_ids": done_ids,
         }
     return result
+
+
+UNIT_TESTS_DIR = Path(__file__).parent / "unit-tests"
+
+
+@app.get("/api/unit-tests/{unit_id}")
+async def get_unit_test(unit_id: int, optional_user=Depends(get_optional_user)):
+    test_file = UNIT_TESTS_DIR / f"unit-{unit_id}-test.json"
+    if not test_file.exists():
+        raise HTTPException(status_code=404, detail="Test not found")
+    with open(test_file, encoding='utf-8') as f:
+        data = json.load(f)
+    data["previous_result"] = None
+    if optional_user:
+        conn = get_db()
+        try:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT score, percentage, taken_at FROM unit_test_results WHERE user_id = %s AND unit_id = %s",
+                (optional_user["id"], unit_id)
+            )
+            row = cur.fetchone()
+            if row:
+                data["previous_result"] = {
+                    "score": row["score"],
+                    "percentage": row["percentage"],
+                    "taken_at": row["taken_at"].isoformat() if row["taken_at"] else None,
+                }
+            cur.close()
+        finally:
+            conn.close()
+    return data
+
+
+class UnitTestSubmit(BaseModel):
+    score: int
+    percentage: float
+    answers: list
+
+
+@app.post("/api/unit-tests/{unit_id}/submit")
+async def submit_unit_test(unit_id: int, req: UnitTestSubmit, user=Depends(get_current_user)):
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute("""
+            INSERT INTO unit_test_results (user_id, unit_id, score, percentage, answers)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (user_id, unit_id)
+            DO UPDATE SET score=EXCLUDED.score, percentage=EXCLUDED.percentage,
+                          answers=EXCLUDED.answers, taken_at=CURRENT_TIMESTAMP
+        """, (user["id"], unit_id, req.score, req.percentage, json.dumps(req.answers)))
+        conn.commit()
+        cur.close()
+    finally:
+        conn.close()
+    return {"success": True}
 
 
 if __name__ == "__main__":

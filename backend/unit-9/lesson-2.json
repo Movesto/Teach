@@ -2,232 +2,231 @@
   "id": "lesson-52",
   "unit_id": 9,
   "lesson_number": 2,
-  "title": "Professional Email Writing",
-  "level": "upper-intermediate",
-  "estimated_time": 45,
+  "title": "Handling Conflict Verbally: Diplomatic Directness",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Write clear, professional business emails",
-    "Use appropriate tone and formality",
-    "Structure emails effectively",
-    "Handle difficult email situations diplomatically"
+    "Distinguish between assertiveness and aggression in verbal communication, and deploy each register appropriately",
+    "Analyse the face-threatening dimension of conflict situations and evaluate strategies for managing it",
+    "Construct responses to criticism and disagreement that are simultaneously firm and professionally gracious",
+    "Nuance spoken and written responses by deploying softening devices without sacrificing communicative clarity"
   ],
-  "target_phrases": [
-    "I hope this email finds you well",
-    "I'm writing to...",
-    "Please let me know if...",
-    "I would appreciate it if...",
-    "Thank you for your time and consideration",
-    "Looking forward to hearing from you",
-    "Please don't hesitate to contact me if..."
+  "authentic_text": {
+    "title": "The Language of Productive Conflict",
+    "type": "article",
+    "text": "Most people, when confronted with a difficult conversation, make one of two errors. They either avoid the conflict entirely — deploying vague reassurances, changing the subject, or simply not saying what they mean — or they overcorrect into bluntness that, while honest, alienates the very person they need to persuade. Neither approach is particularly effective. What distinguishes skilled communicators is not that they avoid conflict, but that they have learned to handle it with what might be called diplomatic directness.\n\nThe concept is not as paradoxical as it sounds. Diplomacy, in the interpersonal sense, is not about concealment; it is about calibration. It involves choosing language that conveys a message clearly while preserving the other party's dignity and the relationship's future usefulness. In professional settings, this capacity is enormously valuable. A manager who can tell a team member that their work is inadequate without humiliating them, a colleague who can raise a concern without triggering defensiveness — these are people who make institutions function better.\n\nThe linguistic tools of diplomatic directness include hedged directness ('I find myself concerned about...'), depersonalised framing ('The report doesn't yet achieve...', rather than 'you haven't achieved...'), and what linguists call 'face-saving strategies' — moves that allow the other party to acknowledge a problem without losing status. None of this is manipulation; it is a recognition that how something is said is part of what is communicated.\n\nCritically, diplomatic directness should not be confused with indirectness. The goal is to say the thing that needs saying — clearly, completely, and honestly — while doing so in a manner that makes genuine dialogue possible.",
+    "source": "Adapted from Harvard Business Review, January 2025",
+    "notes": "Notice the paragraph structure: each paragraph introduces a concept, complicates it, and then resolves — this is characteristic of high-quality explanatory journalism."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What two errors does the writer say most people make when faced with a difficult conversation?",
+      "answer": "Either they avoid the conflict entirely (using vague reassurances, changing the subject, or not saying what they mean), or they overcorrect into bluntness that, while honest, alienates the other person."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing a relationship's 'future usefulness'?",
+      "answer": "The writer implies a pragmatic, professional view of relationships — that effective communication is partly about preserving the capacity for future collaboration. The phrase implies that how we handle conflict now has long-term consequences for working relationships."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the writer's tone throughout this text? Give evidence.",
+      "answer": "The tone is measured and authoritative — the writer presents ideas with confidence but avoids didacticism. Evidence: the use of 'might be called' (hedging a coined term), 'is not as paradoxical as it sounds' (anticipating and dismissing a potential objection), and the closing clarification ('should not be confused with indirectness') demonstrate precision and intellectual care."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'calibration' (paragraph 2) is closest in meaning to:",
+      "answer": "'Calibration' means careful adjustment to achieve the right level or degree. In this context, it means precisely adjusting language to fit the situation — choosing exactly the right degree of directness, softness, or formality."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in the final paragraph?",
+      "answer": "The final paragraph serves as a clarification and guard against misreading. Having described diplomatic directness, the writer anticipates that readers might confuse it with evasiveness or indirectness. The purpose is to draw a sharp distinction: the goal is always to say the necessary thing clearly — the diplomacy is in the manner, not in any avoidance of substance."
+    }
   ],
-  "dialogue": {
-    "title": "Learning Professional Email Etiquette",
-    "context": "Ahmed's supervisor helps him revise a professional email that was too casual.",
-    "lines": [
-      {"speaker": "Supervisor", "text": "Ahmed, I saw the email you sent to the client. The content is good, but the tone is too informal for a business communication."},
-      {"speaker": "Ahmed", "text": "Really? I thought it was friendly. What's wrong with it?"},
-      {"speaker": "Supervisor", "text": "You started with 'Hey!' That's too casual for a first-time client. Use 'Dear Mr. Johnson' or 'Dear John' if you have an established relationship."},
-      {"speaker": "Ahmed", "text": "I see. What about ending with 'Thanks!' - is that wrong too?"},
-      {"speaker": "Supervisor", "text": "For a casual colleague, it's fine. But for clients or senior management, use 'Thank you for your time and consideration' or 'I look forward to hearing from you.'"},
-      {"speaker": "Ahmed", "text": "What about the subject line? I wrote 'Question.'"},
-      {"speaker": "Supervisor", "text": "Too vague. Be specific: 'Question Regarding Project Timeline' or 'Follow-up on Budget Discussion.' People get hundreds of emails - specific subjects help."},
-      {"speaker": "Ahmed", "text": "And I wrote 'Can you send me that thing we talked about?' Should that be more formal?"},
-      {"speaker": "Supervisor", "text": "Definitely. Try 'I would appreciate it if you could send the revised proposal we discussed in yesterday's meeting.' Be specific and polite."},
-      {"speaker": "Ahmed", "text": "This is more complex than I thought. Is there a basic structure I should follow?"},
-      {"speaker": "Supervisor", "text": "Yes: greeting, brief opening (state purpose), body (details), closing (action items), and professional sign-off. Let me show you an example."},
-      {"speaker": "Ahmed", "text": "That helps! So tone matches the relationship and situation?"},
-      {"speaker": "Supervisor", "text": "Exactly. Formal for new contacts and sensitive topics, more casual for close colleagues on routine matters. When in doubt, err on the side of formality."}
+  "language_analysis": {
+    "focus": "Face-Saving Strategies and Depersonalised Framing",
+    "explanation": "Politeness theory, developed by linguists Brown and Levinson, distinguishes between 'positive face' (our desire to be liked and approved of) and 'negative face' (our desire to act freely without imposition). Many speech acts — criticism, requests, refusals, complaints — are inherently face-threatening. Skilled communicators deploy strategies to mitigate this threat while still communicating clearly.\n\nDepersonalised framing is one of the most powerful of these strategies. Instead of directing criticism at a person ('You made errors in the report'), the criticism is directed at the work or situation ('The report contains some inaccuracies'). This allows the other person to engage with the substance of the criticism without feeling personally attacked — and makes a defensive reaction less likely.\n\nA related technique is hedged directness: wrapping a direct observation in language that acknowledges complexity or the speaker's own perspective ('I find myself wondering whether...', 'It strikes me that...', 'One concern I'd raise is...'). These phrases signal that the speaker is raising an issue in good faith, not launching an attack. The crucial thing is that they do not actually weaken the message — the concern is still communicated, clearly and completely.",
+    "examples": [
+      {
+        "from_text": "A manager who can tell a team member that their work is inadequate without humiliating them",
+        "analysis": "The writer here is characterising skilled communication without directly demonstrating it — but the characterisation is instructive. Notice that 'inadequate' is a direct word (not softened); the skill lies not in avoiding the word but in delivering the message 'without humiliating'. This illustrates that diplomatic directness preserves the substance of criticism."
+      },
+      {
+        "from_text": "'The report doesn't yet achieve...', rather than 'you haven't achieved...'",
+        "analysis": "This example from the text is a textbook demonstration of depersonalisation. The first formulation directs the criticism at the report (a thing); the second directs it at the person. The word 'yet' does additional work — it implies that achievement is possible and expected, transforming a criticism into something closer to a development goal."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "I find myself concerned that the timeline may be difficult to meet given current resourcing.",
+        "informal": "I don't think we have enough people to get this done in time."
+      },
+      {
+        "formal": "The proposal would benefit from a more detailed treatment of the financial implications.",
+        "informal": "You haven't explained the costs properly."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Professional openings",
-      "pattern": "I hope this email finds you well. I'm writing to...",
-      "examples": [
-        "I hope this email finds you well. I'm writing to follow up on our meeting yesterday.",
-        "I hope you're doing well. I'm writing to request information about the project timeline.",
-        "I trust this email finds you well. I'm writing to confirm our appointment for next Tuesday.",
-        "I hope this message finds you well. I'm writing to discuss the budget proposal.",
-        "I hope you're having a good week. I'm writing to introduce our new team member."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Polite requests",
-      "pattern": "I would appreciate it if you could...",
-      "examples": [
-        "I would appreciate it if you could send the report by Friday.",
-        "I would be grateful if you could review the attached document.",
-        "It would be helpful if you could provide your feedback by end of day.",
-        "I would appreciate your input on this matter at your earliest convenience.",
-        "Could you please confirm receipt of this email when you have a moment?"
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Professional closings",
-      "pattern": "Thank you for... / I look forward to...",
-      "examples": [
-        "Thank you for your time and consideration. I look forward to hearing from you.",
-        "Thank you for your prompt attention to this matter.",
-        "I appreciate your assistance with this. Please let me know if you need any clarification.",
-        "Thank you in advance for your help. I look forward to your response.",
-        "I appreciate your understanding. Please don't hesitate to contact me if you have questions."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson2-listen1.mp3",
-      "transcript": "Professional email structure has five parts: 1) Clear subject line that summarizes content. 2) Formal greeting (Dear...). 3) Opening stating purpose. 4) Body with details in short paragraphs. 5) Professional closing and signature. Keep emails concise - busy professionals appreciate brevity. If an email is longer than three paragraphs, consider a phone call instead.",
-      "question": "How many parts does professional email structure have?",
-      "options": ["Three", "Five", "Seven", "Ten"],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson2-listen2.mp3",
-      "transcript": "Email tone should match your relationship with the recipient and the situation's formality. For new contacts, supervisors, or sensitive topics, use formal language. For colleagues you know well on routine matters, you can be slightly more casual. Avoid slang, emoji, or excessive exclamation points in professional emails. When uncertain, choose formal over casual - you can always relax tone later.",
-      "question": "When should you use formal email tone?",
-      "options": [
-        "Only with strangers",
-        "Never",
-        "For new contacts, supervisors, or sensitive topics",
-        "Always with everyone"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson2-listen3.mp3",
-      "transcript": "Common email mistakes: vague subject lines, no greeting, unclear purpose, walls of text, demanding tone, and forgetting attachments. Always proofread before sending. For important emails, write a draft, wait an hour, then review with fresh eyes. Never send angry emails immediately - save as a draft and revisit when calm. Remember: emails are permanent records.",
-      "question": "What should you do before sending important emails?",
-      "options": [
-        "Send immediately",
-        "Write a draft, wait, then review",
-        "Don't proofread",
-        "Use all caps for emphasis"
-      ],
-      "correct": 1
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You need to ask your supervisor for time off. Explain what you would say in a professional email (don't write it - speak it). Record for 25 seconds.",
-      "example": "If I were writing a professional email to request time off, I would start with a formal greeting like 'Dear Ms. Johnson.' Then I'd state my purpose clearly: 'I'm writing to request vacation time from June 15th to June 22nd.' I'd explain the reason briefly if appropriate: 'I'm planning to visit family who I haven't seen in two years.' Then I'd show consideration: 'I've reviewed the team calendar and confirmed this wouldn't conflict with major deadlines. I'll ensure all my current projects are completed before I leave.' Finally, I'd close professionally: 'Thank you for considering my request. Please let me know if you need any additional information.' This structure is clear, respectful, and professional.",
-      "min_seconds": 25,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Explain the difference between an email to a close colleague and one to a new client. Give examples. Record for 25 seconds.",
-      "example": "The tone and formality differ significantly between colleagues and new clients. To a close colleague about a routine matter, I might write: 'Hi Sarah, can you send me that report when you get a chance? Thanks!' That's casual and brief. But to a new client, I'd write: 'Dear Mr. Anderson, I hope this email finds you well. I'm writing to request the quarterly report we discussed in our meeting on Monday. I would appreciate it if you could send it at your earliest convenience. Thank you for your time and consideration.' The second version is more formal, specific, and polite. As relationships develop, you can gradually become less formal, but always maintain professionalism.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a professional email to a potential employer thanking them for an interview and expressing continued interest. Include: subject line, greeting, body, and closing. (100-120 words)",
-      "min_words": 100,
-      "example": "Subject: Thank You - Interview for Marketing Coordinator Position\n\nDear Ms. Thompson,\n\nI hope this email finds you well. I'm writing to thank you for taking the time to interview me yesterday for the Marketing Coordinator position. I truly enjoyed our conversation about the company's digital strategy initiatives.\n\nOur discussion reinforced my strong interest in joining your team. I was particularly excited to learn about the upcoming product launch campaign. My experience managing social media campaigns for previous employers aligns well with the responsibilities we discussed.\n\nI appreciate the opportunity to learn more about the role and your vision for the marketing department. Please don't hesitate to contact me if you need any additional information.\n\nThank you again for your time and consideration. I look forward to hearing from you.\n\nBest regards,\nAhmed Hassan",
-      "min_words": 100
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a professional email to a client apologizing for a delayed response and providing the requested information. (80-100 words)",
-      "min_words": 80,
-      "example": "Subject: Response to Your Inquiry - Project Timeline\n\nDear Mr. Rodriguez,\n\nI apologize for the delayed response to your inquiry from last week. We experienced unexpected system issues that affected our email access.\n\nRegarding your question about the project timeline, I'm pleased to confirm that we're on schedule for the March 15th delivery date. The design phase is complete, and we've begun development. I've attached a detailed timeline showing each milestone.\n\nI would appreciate it if you could review the attachment and let me know if you have any questions or concerns.\n\nThank you for your patience and understanding.\n\nBest regards,\nAhmed Hassan",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Modal Verbs for Politeness (would, could, may)",
-      "explanation": "Use modal verbs to make requests and suggestions more polite in professional emails.",
-      "examples": [
-        "I would appreciate your feedback. (more polite than 'I want')",
-        "Could you please send the report? (politer than 'Send the report')",
-        "You may wish to consider this alternative. (softer than 'You should')",
-        "Would it be possible to reschedule? (politer than 'Can we reschedule?')"
-      ],
-      "practice": [
-        {"sentence": "I ___ appreciate your help.", "blank": "would", "options": ["would", "will", "want"]},
-        {"sentence": "___ you please review this?", "blank": "Could", "options": ["Can", "Could", "Will"]},
-        {"sentence": "You ___ want to check this.", "blank": "may", "options": ["may", "must", "will"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Passive Voice for Diplomacy",
-      "explanation": "Use passive voice to soften criticism or avoid assigning blame.",
-      "examples": [
-        "An error was made in the report. (vs. 'You made an error')",
-        "The deadline was missed. (vs. 'You missed the deadline')",
-        "It has been brought to my attention... (formal and diplomatic)",
-        "The document needs to be revised. (softer than 'You need to revise')"
-      ],
-      "practice": [
-        {"sentence": "The meeting ___ rescheduled.", "blank": "was", "options": ["was", "is", "were"]},
-        {"sentence": "An error ___ found.", "blank": "was", "options": ["was", "is", "are"]},
-        {"sentence": "The report needs to ___ reviewed.", "blank": "be", "options": ["be", "is", "was"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Conditional Statements for Suggestions",
-      "explanation": "Use conditionals to make suggestions less direct and more diplomatic.",
-      "examples": [
-        "It would be helpful if you could attend. (suggestion)",
-        "If you have time, please review the attachment. (polite request)",
-        "It might be beneficial to consider alternatives. (gentle suggestion)",
-        "If possible, I would appreciate an early response. (polite request)"
-      ],
-      "practice": [
-        {"sentence": "It ___ be helpful if you could attend.", "blank": "would", "options": ["would", "will", "can"]},
-        {"sentence": "If you ___ time, please call.", "blank": "have", "options": ["have", "had", "has"]},
-        {"sentence": "It might ___ wise to reconsider.", "blank": "be", "options": ["be", "is", "was"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was wrong with Ahmed's original email?", "options": ["Too long", "Too informal", "No subject", "Wrong person"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What should a subject line be?", "options": ["Vague", "Specific and clear", "Funny", "Optional"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "How many parts does professional email structure have?", "options": ["Two", "Three", "Five", "Ten"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'I ___ appreciate your help.'", "options": ["will", "would", "want", "must"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should always use formal tone in every email.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Emails are permanent records.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ you please send the report? (polite request)", "correct": "Could", "accept": ["Could", "Would"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "An error ___ made. (passive voice)", "correct": "was", "accept": ["was"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match email part:", "pairs": [{"left": "Subject line", "right": "Specific summary"}, {"left": "Opening", "right": "State purpose"}, {"left": "Closing", "right": "Thank you"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "When in doubt about formality, you should:", "options": ["Be very casual", "Use slang", "Err on side of formality", "Not send email"], "correct": 2, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
+      {
+        "incorrect": "I would like to raise a concern regarding to the project timeline.",
+        "correct": "I would like to raise a concern regarding the project timeline.",
+        "explanation": "'Regarding' is a preposition that does not take 'to' — it is used alone: 'regarding the matter', 'regarding this issue'. The error likely arises from confusion with 'with regard to', which is a separate, longer prepositional phrase meaning the same thing."
+      },
+      {
+        "incorrect": "She gave me a very constructive feedback on my presentation.",
+        "correct": "She gave me very constructive feedback on my presentation.",
+        "explanation": "'Feedback' is an uncountable noun in English and does not take an indefinite article. You cannot say 'a feedback'. Compare: 'some feedback', 'a piece of feedback', 'constructive feedback'. This is a frequent error even at advanced levels."
+      },
+      {
+        "incorrect": "The meeting was tense, but we managed to resolve the conflict at the end.",
+        "correct": "The meeting was tense, but we managed to resolve the conflict in the end.",
+        "explanation": "'In the end' (meaning 'after everything') is the correct fixed expression here. 'At the end' refers to a specific point in time at the conclusion of something (e.g., 'at the end of the meeting'). 'In the end' expresses a final outcome after a process."
+      },
+      {
+        "incorrect": "His response was unexpectedly diplomatic, which made the situation easier to deal.",
+        "correct": "His response was unexpectedly diplomatic, which made the situation easier to deal with.",
+        "explanation": "The phrasal verb 'deal with' requires the preposition 'with' — you cannot strand it by omitting it here. Compare: 'a problem to deal with', 'difficult to deal with'. Omitting the preposition is a common error influenced by languages where such prepositions are dropped."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "recipient", "definition": "person who receives email", "example": "Choose tone based on the recipient."},
-    {"word": "formality", "definition": "level of official/professional manner", "example": "Increase formality for new contacts."},
-    {"word": "etiquette", "definition": "customary code of polite behavior", "example": "Learn professional email etiquette."},
-    {"word": "brevity", "definition": "concise and exact use of words", "example": "Business emails value brevity."},
-    {"word": "diplomatic", "definition": "tactful and sensitive communication", "example": "Use diplomatic language for criticism."},
-    {"word": "proofread", "definition": "read to find and correct errors", "example": "Always proofread before sending."},
-    {"word": "attachment", "definition": "file sent with email", "example": "Please see the attached document."},
-    {"word": "courtesy", "definition": "polite behavior", "example": "Professional courtesy is important."},
-    {"word": "correspondence", "definition": "communication by letters/emails", "example": "Maintain professional correspondence."},
-    {"word": "salutation", "definition": "greeting in letter/email", "example": "Use appropriate salutation."}
-  ],
-  "cultural_notes": [
-    "American business emails tend to be direct and concise - get to the point quickly after a brief greeting.",
-    "Email is the primary business communication in U.S. workplaces - response within 24 hours is expected.",
-    "Americans value work-life balance - avoid sending work emails late at night or on weekends unless urgent.",
-    "'Reply all' should be used carefully - only when everyone needs the information.",
-    "Out-of-office automatic replies are standard when on vacation or unavailable.",
-    "Professional email addresses should be firstname.lastname@company - not nicknames or unprofessional handles."
+  "debate_task": {
+    "motion": "This house believes that radical honesty — saying exactly what one thinks without diplomatic softening — is more respectful than diplomatic indirectness.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Diplomatic language can obscure the true message, leaving the recipient without the clear information they need to improve or act — genuine respect means trusting people with unvarnished truth.",
+      "The social energy spent on managing tone and face is energy not spent on solving the underlying problem; bluntness, while uncomfortable, accelerates resolution.",
+      "In high-stakes professional environments — surgery, aviation, law — the failure to communicate problems directly has caused catastrophic outcomes; a culture of diplomatic vagueness carries real costs."
+    ],
+    "counter_arguments": [
+      "How information is delivered affects whether it is received — a message delivered without regard for the recipient's dignity is often rejected defensively, making it functionally useless however accurate it is.",
+      "Context matters enormously: radical honesty in a professional setting may constitute harassment or bullying; the law, workplace norms, and basic ethics all constrain what counts as acceptable directness.",
+      "Diplomatic framing is not dishonesty — it is the recognition that communication is a two-person transaction. The goal of any difficult message is to be understood and acted upon, and that requires attending to how the message lands."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech (approximately 250 words) arguing either FOR or AGAINST the motion. Use at least 3 discourse markers from the list. Your speech should open with a strong hook, develop two substantive arguments, and close with a memorable sentence."
+  },
+  "extended_writing": {
+    "type": "formal_email",
+    "task": "You are a senior colleague. Write a formal email to a junior team member whose recent project report was submitted late and contained significant factual errors. You need to address both issues clearly and directly, while maintaining a professional and constructive tone. The email should be approximately 230-250 words.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Opening",
+        "guidance": "Acknowledge receipt of the report and open on a forward-looking note — avoid beginning with the criticism."
+      },
+      {
+        "section": "Addressing the issues",
+        "guidance": "Raise the lateness and the factual errors clearly and directly. Use depersonalised framing where appropriate. Avoid being vague — name the specific concerns."
+      },
+      {
+        "section": "Constructive path forward",
+        "guidance": "Offer a specific, practical remedy — a deadline for a revised version, an offer to discuss the factual issues, a clear expectation for future reports."
+      },
+      {
+        "section": "Closing",
+        "guidance": "Close on a professionally warm note that preserves the relationship without minimising the seriousness of the issues."
+      }
+    ],
+    "model_answer": "Subject: Project Alpha Report — Follow-up\n\nDear Marcus,\n\nThank you for submitting the Project Alpha report. I have now had the opportunity to review it in detail, and I wanted to follow up with some observations before it is circulated more widely.\n\nThe report arrived two days after the agreed deadline. While I understand that competing priorities can create pressure on timelines, late delivery in this case meant that colleagues preparing the board briefing had insufficient time to incorporate the findings. Going forward, I would ask that you flag any timeline difficulties as early as possible so that we can manage expectations and reallocate support if needed.\n\nI also need to raise some concerns about the accuracy of the data presented in Sections 2 and 4. The Q3 figures cited appear to conflict with the source data we discussed in our briefing on the 12th, and two of the comparative statistics in Section 4 do not appear to be supported by the methodology described. I would appreciate a revised version that addresses these specific points, submitted by this Friday.\n\nI want to be clear that I am raising these concerns because they matter for the credibility of the work, not to be critical of your effort. The project itself has real value, and it deserves a report that reflects that.\n\nPlease do come and find me if it would be helpful to talk through the data issues — I am happy to do so.\n\nBest regards,\nDr Sandra Okonkwo"
+  },
+  "advanced_grammar": {
+    "structure": "Nominalization for Formal Register",
+    "explanation": "Nominalisation is the process of converting a verb or adjective into a noun or noun phrase. It is one of the most distinctive features of formal written English and academic prose. Compare: 'The company decided to expand' (verb-centred) with 'The company's decision to expand' (nominalised).\n\nNominalisation serves several functions in formal communication: it creates distance and objectivity (useful in professional and academic contexts), it allows the writer to compress information efficiently, and it produces the sense of logical weight and permanence associated with formal prose. However, it can also create unnecessarily dense or opaque writing if overused — the skill lies in knowing when to nominalise and when to keep the verbal form.",
+    "authentic_examples": [
+      "The committee's failure to reach agreement led to the postponement of the decision. (failure = fail; postponement = postpone)",
+      "There has been a significant deterioration in the quality of public discourse. (deterioration = deteriorate)",
+      "The introduction of new safeguards may contribute to a reduction in errors. (introduction = introduce; reduction = reduce)"
+    ],
+    "practice": [
+      {
+        "sentence": "The government decided to reform the tax system, and this affected how companies invested.",
+        "transform": "Rewrite using nominalisations to give a more formal, document-like register.",
+        "answer": "The government's decision to reform the tax system had a significant effect on corporate investment behaviour."
+      },
+      {
+        "sentence": "He refused to cooperate, which caused delays.",
+        "transform": "Rewrite using nominalisations.",
+        "answer": "His refusal to cooperate resulted in significant delays."
+      },
+      {
+        "sentence": "We need to clarify the requirements before we approve the proposal.",
+        "transform": "Rewrite the first clause as a nominalisation.",
+        "answer": "Clarification of the requirements is necessary before approval of the proposal."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the text, what is the difference between 'diplomatic directness' and indirectness?",
+      "options": [
+        "Diplomatic directness avoids saying difficult things; indirectness says them bluntly",
+        "Diplomatic directness says the necessary thing clearly, while managing how it lands; indirectness avoids saying the necessary thing",
+        "Diplomatic directness is only appropriate in formal settings; indirectness works in all contexts",
+        "There is no meaningful distinction — both involve softening a message"
+      ],
+      "correct": 1,
+      "explanation": "The final paragraph makes this distinction explicit: 'diplomatic directness should not be confused with indirectness. The goal is to say the thing that needs saying — clearly, completely, and honestly — while doing so in a manner that makes genuine dialogue possible.'"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an example of depersonalised framing?",
+      "options": [
+        "You have made a number of serious errors in this report.",
+        "I'm afraid your work is not up to the required standard.",
+        "The report contains several inaccuracies that will need to be addressed.",
+        "This is not good enough and I'm disappointed."
+      ],
+      "correct": 2,
+      "explanation": "Option C directs the criticism at the report (a thing), not the person. This is depersonalised framing. Options A, B, and D all direct the criticism at the person ('you', 'your work', 'this is not good enough' — implicitly about the person's output)."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence is correct?",
+      "options": [
+        "She gave me a very useful feedback.",
+        "She gave me very useful feedback.",
+        "She gave me a very useful feedbacks.",
+        "She gave me an useful feedback."
+      ],
+      "correct": 1,
+      "explanation": "'Feedback' is uncountable and takes no article. 'A feedback', 'an feedback', and 'feedbacks' are all incorrect. The correct form is simply 'feedback' with or without an adjective."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a nominalisation of the sentence 'They failed to deliver the project on time'?",
+      "options": [
+        "They did not deliver the project on time, which was a failure.",
+        "The failure to deliver the project on time was noted.",
+        "It is noted that failing to deliver was their problem.",
+        "The delivering of the project was done late."
+      ],
+      "correct": 1,
+      "explanation": "Option B converts the verb 'failed' into the noun 'failure' and restructures the sentence accordingly — this is a true nominalisation. The sentence gains the formality and objectivity typical of professional written English."
+    },
+    {
+      "id": 5,
+      "question": "What does 'face-saving' mean in the context of communication theory?",
+      "options": [
+        "Maintaining a serious, unsmiling expression during difficult conversations",
+        "Using strategies that allow someone to acknowledge a problem without losing dignity or status",
+        "Avoiding any form of criticism to prevent embarrassment",
+        "Saving the most important point until the end of a conversation"
+      ],
+      "correct": 1,
+      "explanation": "Face-saving, in Brown and Levinson's politeness theory, refers to communicative strategies that protect the 'face' (social identity and dignity) of participants in an interaction. It does not mean avoiding criticism — it means delivering criticism in a way that allows the recipient to engage with it without feeling humiliated."
+    }
   ]
 }

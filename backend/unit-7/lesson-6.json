@@ -2,242 +2,170 @@
   "id": "lesson-44",
   "unit_id": 7,
   "lesson_number": 6,
-  "title": "Sharing Family Stories",
+  "title": "American Food Culture and Eating Out",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Talk about family history and heritage",
-    "Preserve and share oral traditions",
-    "Connect past experiences to present identity",
-    "Value and respect cultural heritage"
+    "Understand American food culture including fast food, food trucks, farmers' markets, and restaurant etiquette",
+    "Describe food and dining experiences using sensory and evaluative language",
+    "Navigate tipping culture and understand how bills are split at restaurants",
+    "Use adverbs of frequency and manner to describe eating habits and cultural comparisons"
   ],
-  "target_phrases": [
-    "My family comes from...",
-    "My grandmother/grandfather used to tell us...",
-    "According to family tradition...",
-    "This has been passed down for generations",
-    "I learned from my elders that...",
-    "It's important to remember...",
-    "These stories shape who I am"
-  ],
-  "dialogue": {
-    "title": "Grandparents Share Family History",
-    "context": "Ahmed's children ask their grandfather (via video call) to tell them about the family's history and traditions.",
-    "lines": [
-      {"speaker": "Amina", "text": "Grandpa, can you tell us a story about when you were young?"},
-      {"speaker": "Grandfather", "text": "Of course, my dear! Let me tell you about your great-grandfather. He was a trader who traveled across East Africa."},
-      {"speaker": "Ahmed", "text": "I remember you telling me this story when I was a child. It's one of my favorites."},
-      {"speaker": "Grandfather", "text": "Your great-grandfather used to travel by camel, carrying spices and cloth. He was known for his honesty - people trusted him completely. This value of honesty has been passed down through our family for generations."},
-      {"speaker": "Hassan", "text": "Did he ever get lost in the desert?"},
-      {"speaker": "Grandfather", "text": "Yes! According to family tradition, once he was caught in a terrible sandstorm. He couldn't see anything for three days. But he never panicked. He used the stars to find his way once the storm cleared."},
-      {"speaker": "Amina", "text": "Was he scared?"},
-      {"speaker": "Grandfather", "text": "I'm sure he was, but he was also brave and smart. I learned from my elders that courage doesn't mean you're not afraid - it means you keep going even when you are afraid."},
-      {"speaker": "Ahmed", "text": "That's a lesson I try to teach my own children now. These stories connect us to our roots even though we're far from home."},
-      {"speaker": "Grandfather", "text": "Exactly, Ahmed. It's important to remember where you came from. Your great-grandfather's spirit of adventure brought your family opportunities. Now you're creating new stories in America."},
-      {"speaker": "Hassan", "text": "So our family has always been brave and traveled to new places?"},
-      {"speaker": "Grandfather", "text": "Yes! These stories shape who we are. You children are continuing the family tradition of courage by learning a new language and culture."},
-      {"speaker": "Ahmed", "text": "Thank you for sharing these stories, Father. I want my children to know their heritage."}
+  "reading_passage": {
+    "title": "Food Culture in the United States: What Newcomers Should Know",
+    "text": "Food culture in the United States is extraordinarily diverse and reflects the country's long history of immigration. In Portland, a city known for its thriving restaurant scene, you can find authentic Ethiopian injera, Vietnamese pho, Mexican tamales, and Somali canjeero all within a short distance of each other. The city's food cart pods — clusters of small mobile food stalls in parking lots — are particularly popular and offer an affordable way to try dishes from dozens of different culinary traditions.\n\nAmerican eating habits can surprise newcomers in several ways. Many Americans eat lunch quickly, often at their desks or from a fast-food chain, and reserve longer meals for evenings and weekends. Breakfast — when eaten — frequently consists of cereal, eggs, toast, or yoghurt consumed very quickly before work or school. Dinner is typically the most social meal of the day.\n\nRestaurant etiquette includes several customs that differ from other countries. Bills are typically split between diners — this is called 'going Dutch' or 'splitting the bill' — and it is normal for each person to pay for what they ordered. Tipping 18 to 20 percent is a strong social expectation, not optional; servers in Oregon earn a minimum wage but rely on tips to make a living wage. Asking for a 'to-go box' or 'doggy bag' to take leftover food home is completely normal and not considered rude.\n\nFor Somali families, Portland's Halal restaurants and East African grocers provide a familiar and welcoming food environment. Restaurants such as Basha's Deli in Beaverton and various establishments on 82nd Avenue serve Somali cuisine, and the community regularly organises shared meals and potlucks that bring together both Somali and American neighbours.",
+    "source": "Adapted from Portland Bureau of Planning community food systems report and IRCO newcomer cultural orientation materials, Portland, Oregon, 2023",
+    "glossary": [
+      {"word": "food cart pod", "meaning": "a cluster of several small food carts or trucks operating together in one location, common in Portland"},
+      {"word": "canjeero", "meaning": "a traditional Somali fermented flatbread, similar to Ethiopian injera, typically eaten at breakfast or with stew"},
+      {"word": "going Dutch", "meaning": "an informal expression meaning each person pays their own share of a shared bill"},
+      {"word": "to-go box", "meaning": "a container provided by a restaurant to allow diners to take unfinished food home"},
+      {"word": "potluck", "meaning": "a shared meal where each person or family brings a dish to contribute to the table"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Talking about family origins",
-      "pattern": "My family comes/came from [place/background]",
-      "examples": [
-        "My family comes from a long line of teachers.",
-        "My family came from a small village in the mountains.",
-        "My family comes from East Africa.",
-        "My family came from farming communities.",
-        "My family comes from a tradition of storytelling."
-      ]
+      "type": "literal",
+      "question": "According to the passage, what are Portland's 'food cart pods'?",
+      "answer": "Clusters of small mobile food stalls located in parking lots, where you can try dishes from dozens of different culinary traditions at affordable prices."
     },
     {
-      "id": "drill-2",
-      "focus": "Sharing family traditions",
-      "pattern": "According to family tradition, [practice/story]",
-      "examples": [
-        "According to family tradition, we celebrate with a big feast.",
-        "According to family tradition, the eldest child inherits the house.",
-        "According to family tradition, we gather every Friday.",
-        "According to family tradition, elders are honored and respected.",
-        "According to family tradition, we pass down names to grandchildren."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say tipping is 'a strong social expectation, not optional'?",
+      "answer": "The author implies that not tipping is considered socially unacceptable in the US — unlike in some other countries where tipping is rare or truly voluntary. Servers depend on tips as part of their income, so a poor tip or no tip is seen as disrespectful."
     },
     {
-      "id": "drill-3",
-      "focus": "Lessons from elders",
-      "pattern": "I learned from my [elder] that [lesson]",
-      "examples": [
-        "I learned from my grandmother that patience is a virtue.",
-        "I learned from my grandfather that honesty builds trust.",
-        "I learned from my elders that family comes first.",
-        "I learned from my mother that kindness costs nothing.",
-        "I learned from my father that hard work pays off."
-      ]
+      "type": "vocabulary",
+      "question": "What does 'going Dutch' mean in the third paragraph?",
+      "answer": "Each person at the table pays their own share of the bill — rather than one person paying for everyone or the bill being divided equally regardless of what each person ordered."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention that asking for a 'to-go box' is 'not considered rude'?",
+      "answer": "Because in some cultures, taking food home from a restaurant is considered bad manners — by stating this explicitly, the author reassures newcomers that this is an entirely normal and accepted practice in the US, which can also help reduce food waste and save money."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit7-lesson6-listen1.mp3",
-      "transcript": "Family stories preserve history, values, and identity. When grandparents share stories from their youth, they're passing down more than facts - they're transmitting cultural values, family identity, and life lessons. These oral histories help younger generations understand where they came from and guide them in making decisions about who they want to become.",
-      "question": "Why are family stories important?",
-      "options": [
-        "Only for entertainment",
-        "They preserve history, values, and identity",
-        "To make elders feel important",
-        "They're not really important"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit7-lesson6-listen2.mp3",
-      "transcript": "When sharing family stories, use phrases like 'My grandmother used to tell us...' or 'According to family tradition...' These phrases signal that you're passing down knowledge from previous generations. Also include sensory details to make stories vivid: 'My grandfather's house always smelled like coffee and cardamom' brings the past to life.",
-      "question": "What makes family stories more vivid?",
-      "options": [
-        "Making them very long",
-        "Using formal language only",
-        "Including sensory details",
-        "Leaving out details"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit7-lesson6-listen3.mp3",
-      "transcript": "Recording or writing down family stories preserves them for future generations. Many families create memory books, record video interviews with elders, or use apps to document family history. These become treasured records, especially for immigrant families whose children may not speak their ancestral language. Even simple voice recordings on your phone can capture a grandparent's voice telling stories.",
-      "question": "How can you preserve family stories?",
-      "options": [
-        "Just remember them",
-        "Don't tell anyone",
-        "Record, write, or document them",
-        "Only tell them once"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Tell a story about a family member (grandparent, parent, aunt, uncle). What were they like? What can you learn from them? Record for 35 seconds.",
-      "example": "I want to tell you about my grandmother. She was born in a small village and never went to school, but she was one of the wisest people I've ever known. My grandmother used to wake up before sunrise every day to pray and prepare breakfast for the family. She taught me that discipline and routine create peace in life. I learned from her that you don't need formal education to be intelligent - she could solve any problem and gave the best advice. According to family tradition, the eldest daughter learns cooking and home management from the grandmother. I spent many hours with her in the kitchen, and that's where she told me stories about our ancestors. What I remember most is her patience and kindness. Even when life was hard, she never complained. These qualities have been passed down - my mother is the same way. I hope to embody these values and pass them to my children.",
-      "min_seconds": 35,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Share a family tradition or custom from your culture. Explain what it is and why it's meaningful. Record for 30 seconds.",
-      "example": "In Somali culture, we have a tradition called 'Baris' which is sharing food with neighbors and community. According to family tradition, whenever you cook a special meal, you should share it with at least three neighboring families. My mother used to send us to deliver plates of food to our neighbors, especially elderly people living alone. I learned from my elders that this practice builds strong community bonds and ensures no one goes hungry. It's important to remember this tradition because it teaches us that we're responsible for each other's wellbeing. Now in America, I continue this tradition by sharing meals with my neighbors, even though they're from different cultures. They're surprised at first, but then they really appreciate it. This tradition shapes who I am - someone who believes in community and generosity.",
-      "min_seconds": 30,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write about a family tradition or story that's important to you. Why is it meaningful? How does it connect you to your heritage? (100-120 words)",
-      "min_words": 100,
-      "example": "One family tradition that's deeply important to me is our Friday family gathering. According to family tradition that goes back many generations, every Friday after midday prayers, the entire extended family gathers at the eldest family member's house for a meal together. My grandfather used to tell us that this tradition started with his grandfather, who believed that weekly family time prevents conflicts and keeps everyone connected. When we lived in Somalia, sometimes 30-40 people would gather - grandparents, aunts, uncles, cousins. We would eat traditional foods, share news, resolve any family disputes, and the elders would tell stories about our ancestors. I learned from my elders that family is the foundation of everything - more important than work or money. Now that I'm in America, I try to continue this tradition even though our family is smaller and scattered. Every Friday, I video call my relatives back home and gather with other Somali families here in Portland. This tradition shapes who I am because it reminds me that I'm part of something larger than myself. It connects me to my heritage and gives me a sense of belonging, even thousands of miles from home.",
-      "min_words": 100
-    },
-    {
-      "id": "write-2",
-      "prompt": "Interview an older family member (or imagine doing so). Write about one story they told you about their life. (80-100 words)",
-      "min_words": 80,
-      "example": "I recently asked my father to tell me about his childhood. He shared a story I'd never heard before. When he was twelve years old, his father died suddenly, and he became responsible for supporting his mother and three younger siblings. He had to quit school and work at the market, selling vegetables. He said those were the hardest years of his life, but also when he learned the most about responsibility and resilience. According to him, that experience taught him never to waste opportunities. That's why he pushed me so hard to get education - he wanted me to have the chances he never had. Hearing this story made me understand my father better and appreciate the sacrifices he made. It's important to remember these stories because they help us understand why our parents make the choices they do.",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "'Used to' for Past Family Habits",
-      "explanation": "Use 'used to' to describe family habits or situations that were true in the past but not now.",
-      "examples": [
-        "My grandmother used to tell us stories every night. (past habit)",
-        "We used to gather every Friday. (past routine)",
-        "My father used to work in the fields. (past situation)",
-        "They used to live in a big house. (past state)"
-      ],
-      "practice": [
-        {"sentence": "She used to ___ us stories.", "blank": "tell", "options": ["tell", "telling", "tells"]},
-        {"sentence": "We ___ to gather on Fridays.", "blank": "used", "options": ["use", "used", "using"]},
-        {"sentence": "They used to ___ in Somalia.", "blank": "live", "options": ["live", "living", "lived"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Present Perfect for Family Traditions",
-      "explanation": "Use present perfect to describe traditions that started in the past and continue today.",
-      "examples": [
-        "This tradition has been in our family for generations. (continuing tradition)",
-        "We have always celebrated this way. (continuing from past to now)",
-        "The story has been passed down through families. (started in past, true now)",
-        "These values have shaped our family. (past action with present result)"
-      ],
-      "practice": [
-        {"sentence": "This tradition has ___ for 100 years.", "blank": "existed", "options": ["exist", "existed", "exists"]},
-        {"sentence": "We ___ always done this.", "blank": "have", "options": ["has", "have", "had"]},
-        {"sentence": "The story has been ___ down.", "blank": "passed", "options": ["pass", "passed", "passing"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Past Perfect for Earlier Family History",
-      "explanation": "Use past perfect to talk about events that happened before other past events in family stories.",
-      "examples": [
-        "My grandfather had traveled to many countries before he settled down. (earlier past)",
-        "She had never seen the ocean before she moved to the coast. (earlier past)",
-        "They had lived in three different countries before coming to America. (earlier past)",
-        "He had worked for 40 years before he retired. (earlier past)"
-      ],
-      "practice": [
-        {"sentence": "She ___ never left her village before.", "blank": "had", "options": ["has", "had", "have"]},
-        {"sentence": "They had ___ there for years.", "blank": "lived", "options": ["live", "lived", "living"]},
-        {"sentence": "He had ___ to five countries.", "blank": "traveled", "options": ["travel", "traveled", "travels"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's great-grandfather's profession?", "options": ["Farmer", "Trader", "Teacher", "Fisherman"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What value has been passed down in Ahmed's family?", "options": ["Wealth", "Honesty", "Fame", "Power"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "According to the grandfather, what is courage?", "options": ["Never being afraid", "Being strong", "Keeping going even when afraid", "Avoiding danger"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'My grandmother ___ to tell us stories.'", "options": ["use", "used", "uses", "using"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Family stories help preserve cultural values and identity.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "It's not important to share family stories with younger generations.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "This tradition has ___ for generations. (present perfect: exist)", "correct": "existed", "accept": ["existed", "been"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "He ___ traveled widely before settling down. (past perfect)", "correct": "had", "accept": ["had", "'d"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match the phrase:", "pairs": [{"left": "Used to", "right": "Past habit"}, {"left": "Has been", "right": "Continuing tradition"}, {"left": "Had done", "right": "Earlier past"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What does the grandfather say about Ahmed's children?", "options": [
-        "They should forget the past",
-        "They're continuing family courage tradition",
-        "They should return to Somalia",
-        "They're not brave"
-      ], "correct": 1, "points": 10}
+  "language_focus": {
+    "title": "Adverbs of Frequency and Manner",
+    "explanation": "Adverbs of frequency (always, usually, often, sometimes, rarely, never) describe how often something happens. They typically come before the main verb but after 'to be.' Adverbs of manner (quickly, slowly, carefully, loudly, politely) describe how something is done and usually come after the verb or object. Both types are very common when comparing eating habits and cultural practices.",
+    "examples": [
+      {
+        "sentence": "Many Americans usually eat lunch quickly at their desks.",
+        "note": "'Usually' (frequency) comes before the main verb 'eat.' 'Quickly' (manner) comes after the verb and describes how they eat."
+      },
+      {
+        "sentence": "She always eats dinner slowly and rarely skips a meal.",
+        "note": "'Always' and 'rarely' both come before the main verbs 'eats' and 'skips.' Both are frequency adverbs."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite correctly: 'I eat rarely fast food.'",
+        "answer": "I rarely eat fast food. (Adverbs of frequency come before the main verb — 'rarely' comes before 'eat.')"
+      },
+      {
+        "sentence": "Complete with the adverb in the right position: 'She speaks to the server. (politely)'",
+        "answer": "She speaks politely to the server. (Adverbs of manner come after the verb.)"
+      },
+      {
+        "sentence": "Which is correct? A) He quickly ate his lunch. B) He ate quickly his lunch.",
+        "answer": "A) 'He quickly ate his lunch' is correct — the adverb of manner can come before the verb or after the object, but not between the verb and its direct object."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "heritage", "definition": "traditions, culture passed down from ancestors", "example": "I'm proud of my Somali heritage."},
-    {"word": "ancestor", "definition": "family member from past generations", "example": "My ancestors were traders."},
-    {"word": "generation", "definition": "all people born around the same time", "example": "Three generations live in this house."},
-    {"word": "tradition", "definition": "custom passed down over time", "example": "This is a family tradition."},
-    {"word": "legacy", "definition": "something handed down from the past", "example": "Her legacy is her kindness."},
-    {"word": "roots", "definition": "family origins or background", "example": "I want to stay connected to my roots."},
-    {"word": "history", "definition": "past events of a family or place", "example": "Our family history is fascinating."},
-    {"word": "passed down", "definition": "given from one generation to next", "example": "These stories were passed down."},
-    {"word": "preserve", "definition": "keep safe and unchanged", "example": "We must preserve these traditions."},
-    {"word": "customs", "definition": "traditional practices of a culture", "example": "We follow our cultural customs."}
+  "vocabulary_in_context": [
+    {
+      "word": "food cart pod",
+      "definition": "A group of several small food carts or trucks that operate together in a shared outdoor space, common in Portland",
+      "example_sentence": "Portland's food cart pods — clusters of small mobile food stalls in parking lots — are particularly popular and offer an affordable way to try dishes from dozens of different culinary traditions.",
+      "collocations": ["Portland food cart", "food cart pod", "food truck"],
+      "register": "neutral"
+    },
+    {
+      "word": "potluck",
+      "definition": "A communal meal where each person or family contributes a dish, creating a shared spread of different foods",
+      "example_sentence": "The community regularly organises shared meals and potlucks that bring together both Somali and American neighbours.",
+      "collocations": ["host a potluck", "potluck dinner", "bring a dish to a potluck"],
+      "register": "neutral"
+    },
+    {
+      "word": "to-go box",
+      "definition": "A container given by a restaurant to allow a diner to take home any food not eaten at the table",
+      "example_sentence": "Asking for a 'to-go box' or 'doggy bag' to take leftover food home is completely normal and not considered rude.",
+      "collocations": ["ask for a to-go box", "take home leftovers", "doggy bag"],
+      "register": "informal"
+    }
   ],
-  "cultural_notes": [
-    "In American culture, family trees and genealogy (researching ancestry) are popular hobbies. Websites like Ancestry.com are widely used.",
-    "Many American families create photo albums, scrapbooks, or digital collections to preserve family memories.",
-    "Immigrant families often have rich oral history traditions that are especially important to preserve.",
-    "In the U.S., Thanksgiving is often when families gather and share family stories across generations.",
-    "Recording elders' stories on video or audio is increasingly recognized as valuable - their voices and mannerisms are preserved.",
-    "Many schools assign 'family heritage projects' where children interview relatives and create presentations about their cultural background."
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are talking with an American colleague who wants to know more about Somali food culture. They have never tried Somali food before and are curious about what a typical Somali meal looks like, how it differs from American food culture, and where they could try it in Portland.",
+    "prompt": "Describe Somali food culture to your colleague — including a typical meal, how food is eaten (together or separately, quickly or slowly, etc.), and what makes it different from American food culture. Use adverbs of frequency and manner throughout. Recommend at least one place in Portland where they could try Somali food.",
+    "useful_language": [
+      "In Somali culture, we usually eat together as a family — we rarely eat alone or at our desks.",
+      "The main meal is typically served on a large shared plate, and everyone eats slowly and together.",
+      "If you want to try Somali food in Portland, I'd strongly recommend visiting 82nd Avenue — there are several good restaurants there."
+    ],
+    "model_answer": "Somali food culture is very different from American food culture in some beautiful ways. We usually eat our main meal together as a family — we rarely eat quickly or alone. The food is typically served on one large communal plate, and everyone eats together from the same dish. We use our right hand or a spoon, and meals often include rice or pasta with a rich meat stew called suugo. Tea with cardamom is always served slowly and enjoyed at the end of a meal. If you want to try Somali food, I'd strongly recommend the restaurants on SE 82nd Avenue in Portland — they serve authentic Somali rice, stew, and canjeero. You should definitely go on a weekend when they sometimes have live music too."
+  },
+  "writing_workshop": {
+    "model_text": "One thing that surprised me about American food culture is how quickly people usually eat. In Somalia, we always eat slowly and together as a family. Here, I sometimes see people eating lunch very quickly while walking on the street. I rarely do this — I prefer to sit down properly for meals. I have gradually learned to enjoy some American foods. I now regularly visit the food cart pod on SE Division Street, where I often buy Vietnamese spring rolls or Mexican tacos. However, I never skip a proper Somali dinner in the evening, which I carefully prepare after work. Sharing food with neighbours is something I have always done and always will.",
+    "model_analysis": "Notice how the writer uses frequency adverbs correctly (usually, always, sometimes, rarely, regularly, often, never) — all before the main verb — and manner adverbs (quickly, slowly, properly, gradually, carefully) — all after the verb. The writing compares two food cultures naturally and personally.",
+    "task": "Write about your own eating habits and how they may have changed since coming to the US. Compare American and your home food culture. Use at least four adverbs of frequency and two adverbs of manner.",
+    "success_criteria": [
+      "Use at least four adverbs of frequency correctly positioned (before the main verb or after 'be')",
+      "Use at least two adverbs of manner correctly positioned (after the verb or object)",
+      "Include a comparison between your home food culture and American food culture"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what are Portland's food cart pods?",
+      "options": [
+        "Large indoor food courts inside shopping malls",
+        "Clusters of small mobile food stalls in outdoor locations",
+        "Free community meals provided by nonprofits",
+        "Somali-owned restaurants specialising in East African cuisine"
+      ],
+      "correct": 1,
+      "explanation": "The passage describes food cart pods as 'clusters of small mobile food stalls in parking lots' that are popular and affordable in Portland."
+    },
+    {
+      "id": 2,
+      "question": "What does 'going Dutch' mean in an American restaurant context?",
+      "options": [
+        "Ordering a Dutch or European dish from the menu",
+        "One person pays for the entire table as a gesture of generosity",
+        "Each person pays for their own share of the bill",
+        "Splitting the bill exactly in half regardless of what was ordered"
+      ],
+      "correct": 2,
+      "explanation": "The passage defines 'going Dutch' or 'splitting the bill' as 'normal for each person to pay for what they ordered.'"
+    },
+    {
+      "id": 3,
+      "question": "Which sentence uses adverbs of frequency and manner correctly?",
+      "options": [
+        "She eats always her lunch quickly.",
+        "She always eats her lunch quickly.",
+        "She eats her lunch always quickly.",
+        "Always she eats her lunch quickly."
+      ],
+      "correct": 1,
+      "explanation": "'Always' (frequency) comes before the main verb 'eats,' and 'quickly' (manner) comes after the object 'her lunch.' This is the correct word order."
+    },
+    {
+      "id": 4,
+      "question": "According to the passage, why is tipping described as 'a strong social expectation' rather than optional?",
+      "options": [
+        "Oregon law requires a minimum tip of 20 percent",
+        "Restaurant owners keep all tips and use them to lower menu prices",
+        "Servers rely on tips as part of their income to earn a living wage",
+        "Not tipping can result in being asked to leave the restaurant"
+      ],
+      "correct": 2,
+      "explanation": "The passage explains: 'servers in Oregon earn a minimum wage but rely on tips to make a living wage' — which is why tipping is a strong expectation."
+    }
   ]
 }

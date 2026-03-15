@@ -8,20 +8,20 @@ import { Volume2, Mic, Check, X } from 'lucide-react';
 export function StorySection({ story, onComplete, onRequestHelp }) {
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">The Situation</h2>
-      
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">The Situation</h2>
+
       {story.context && (
-        <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mb-6">
-          <p className="text-blue-900 font-semibold mb-1">Context:</p>
-          <p className="text-blue-800">{story.context}</p>
+        <div className="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-600 p-4 mb-6">
+          <p className="text-blue-900 dark:text-blue-200 font-semibold mb-1">Context:</p>
+          <p className="text-blue-800 dark:text-blue-300">{story.context}</p>
         </div>
       )}
 
       <div className="prose max-w-none mb-6">
         {story.dialogue?.map((line, idx) => (
           <div key={idx} className="mb-6">
-            <p className="font-bold text-gray-900 mb-1">{line.speaker}:</p>
-            <p className="text-gray-800 text-lg ml-4 leading-relaxed">{line.text}</p>
+            <p className="font-bold text-gray-900 dark:text-white mb-1">{line.speaker}:</p>
+            <p className="text-gray-800 dark:text-gray-200 text-lg ml-4 leading-relaxed">{line.text}</p>
           </div>
         ))}
       </div>
@@ -42,13 +42,25 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef(null);
 
   const exercise = exercises[current];
   const isLast = current === exercises.length - 1;
 
-  const playAudio = () => {
+  const toggleAudio = () => {
+    if (isPlaying) {
+      audioRef.current?.pause();
+      audioRef.current = null;
+      setIsPlaying(false);
+      return;
+    }
     const audio = new Audio(exercise.audio);
+    audioRef.current = audio;
+    audio.onended = () => { setIsPlaying(false); audioRef.current = null; };
+    audio.onerror = () => { setIsPlaying(false); audioRef.current = null; };
     audio.play();
+    setIsPlaying(true);
   };
 
   const handleAnswer = (idx) => {
@@ -57,6 +69,9 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
   };
 
   const next = () => {
+    audioRef.current?.pause();
+    audioRef.current = null;
+    setIsPlaying(false);
     setShowFeedback(false);
     if (isLast) {
       onComplete();
@@ -67,28 +82,30 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Listening Practice</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Listening Practice</h2>
 
-      <div className="mb-4 text-sm text-gray-600">
+      <div className="mb-4 text-sm text-gray-600 dark:text-gray-400">
         Exercise {current + 1} of {exercises.length}
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 mb-6">
-        <p className="text-gray-900 font-semibold mb-4">{exercise.question}</p>
-        
+      <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
+        <p className="text-gray-900 dark:text-white font-semibold mb-4">{exercise.question}</p>
+
         <button
-          onClick={playAudio}
-          className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 mb-6"
+          onClick={toggleAudio}
+          className={`w-full py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 mb-6 ${
+            isPlaying ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'
+          }`}
         >
           <Volume2 className="w-5 h-5" />
-          Play Audio
+          {isPlaying ? 'Stop Audio' : 'Play Audio'}
         </button>
 
         <div className="space-y-3">
           {exercise.options.map((option, idx) => {
             const isSelected = answers[current] === idx;
             const isCorrect = idx === exercise.correct;
-            
+
             return (
               <button
                 key={idx}
@@ -97,13 +114,13 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
                 className={`w-full p-4 rounded-lg text-left transition-all ${
                   showFeedback
                     ? isCorrect
-                      ? 'bg-green-100 border-2 border-green-500'
+                      ? 'bg-green-100 dark:bg-green-900/30 border-2 border-green-500 text-green-900 dark:text-green-200'
                       : isSelected
-                      ? 'bg-red-100 border-2 border-red-500'
-                      : 'bg-gray-100'
+                      ? 'bg-red-100 dark:bg-red-900/30 border-2 border-red-500 text-red-900 dark:text-red-200'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400'
                     : isSelected
-                    ? 'bg-blue-100 border-2 border-blue-500'
-                    : 'bg-gray-50 border-2 border-gray-200 hover:border-blue-300'
+                    ? 'bg-blue-100 dark:bg-blue-900/30 border-2 border-blue-500 text-blue-900 dark:text-blue-200'
+                    : 'bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-500 text-gray-900 dark:text-white'
                 }`}
               >
                 <div className="flex items-center justify-between">
@@ -117,8 +134,8 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
         </div>
 
         {showFeedback && exercise.explanation && (
-          <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-600 rounded">
-            <p className="text-sm text-blue-900">{exercise.explanation}</p>
+          <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-600 rounded">
+            <p className="text-sm text-blue-900 dark:text-blue-300">{exercise.explanation}</p>
           </div>
         )}
       </div>
@@ -140,8 +157,10 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   const [current, setCurrent] = useState(0);
   const [recordings, setRecordings] = useState({});
   const [isRecording, setIsRecording] = useState(false);
+  const [isPlayingBack, setIsPlayingBack] = useState(false);
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
+  const playbackAudioRef = useRef(null);
   const [pronunciationResult, setPronunciationResult] = useState({})
   const [isAssessing, setIsAssessing] = useState(false)
 
@@ -149,6 +168,9 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   const isLast = current === tasks.length - 1;
 
   const startRecording = async () => {
+    playbackAudioRef.current?.pause();
+    playbackAudioRef.current = null;
+    setIsPlayingBack(false);
     const taskIndex = current;
     const expectedText = tasks[current].example || tasks[current].instruction || '';
     try {
@@ -194,13 +216,25 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
     }
   };
 
-  const playRecording = () => {
-    if (recordings[current]) {
-      new Audio(recordings[current]).play();
+  const togglePlayback = () => {
+    if (isPlayingBack) {
+      playbackAudioRef.current?.pause();
+      playbackAudioRef.current = null;
+      setIsPlayingBack(false);
+      return;
     }
+    if (!recordings[current]) return;
+    const audio = new Audio(recordings[current]);
+    playbackAudioRef.current = audio;
+    audio.onended = () => { setIsPlayingBack(false); playbackAudioRef.current = null; };
+    audio.play();
+    setIsPlayingBack(true);
   };
 
   const next = () => {
+    playbackAudioRef.current?.pause();
+    playbackAudioRef.current = null;
+    setIsPlayingBack(false);
     if (isLast) {
       onComplete();
     } else {
@@ -210,30 +244,30 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Speaking Practice</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Speaking Practice</h2>
 
-      <div className="mb-4 text-sm text-gray-600">
+      <div className="mb-4 text-sm text-gray-600 dark:text-gray-400">
         Task {current + 1} of {tasks.length}
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 mb-6">
-        <h3 className="font-semibold text-gray-900 mb-2">{task.title}</h3>
-        <p className="text-gray-700 mb-4">{task.instruction}</p>
+      <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
+        <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{task.title}</h3>
+        <p className="text-gray-700 dark:text-gray-300 mb-4">{task.instruction}</p>
 
         {task.example && (
-          <div className="bg-blue-50 rounded-lg p-4 mb-4">
-            <p className="text-sm text-blue-800 font-semibold mb-1">Example:</p>
-            <p className="text-blue-900">{task.example}</p>
+          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 mb-4">
+            <p className="text-sm text-blue-800 dark:text-blue-300 font-semibold mb-1">Example:</p>
+            <p className="text-blue-900 dark:text-blue-200">{task.example}</p>
           </div>
         )}
 
         {task.sentence_starters && task.sentence_starters.length > 0 && (
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
-            <p className="text-sm font-semibold text-amber-800 mb-2">Try starting with one of these:</p>
+          <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-lg p-4 mb-4">
+            <p className="text-sm font-semibold text-amber-800 dark:text-amber-300 mb-2">Try starting with one of these:</p>
             <ul className="space-y-1">
               {task.sentence_starters.map((starter, i) => (
-                <li key={i} className="text-sm text-amber-900 flex items-start gap-1">
-                  <span className="text-amber-600 font-bold mt-0.5">→</span>
+                <li key={i} className="text-sm text-amber-900 dark:text-amber-200 flex items-start gap-1">
+                  <span className="text-amber-600 dark:text-amber-400 font-bold mt-0.5">→</span>
                   <span className="italic ml-1">"{starter}"</span>
                 </li>
               ))}
@@ -258,25 +292,27 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
 
           {recordings[current] && (
             <button
-              onClick={playRecording}
-              className="px-6 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 flex items-center gap-2"
+              onClick={togglePlayback}
+              className={`px-6 py-3 rounded-lg font-semibold flex items-center gap-2 ${
+                isPlayingBack ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-gray-600 hover:bg-gray-700 text-white'
+              }`}
             >
               <Volume2 className="w-5 h-5" />
-              Play
+              {isPlayingBack ? 'Stop' : 'Play'}
             </button>
           )}
         </div>
 
         {isAssessing && (
-          <p className="mt-3 text-sm text-gray-500 animate-pulse">Assessing pronunciation...</p>
+          <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 animate-pulse">Assessing pronunciation...</p>
         )}
         {pronunciationResult[current] && !isAssessing && (
-          <div className="mt-4 p-3 bg-white border border-green-200 rounded-lg">
+          <div className="mt-4 p-3 bg-white dark:bg-gray-700 border border-green-200 dark:border-green-700 rounded-lg">
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-lg font-bold text-gray-900">
+              <span className="text-lg font-bold text-gray-900 dark:text-white">
                 {pronunciationResult[current].overall_score}/100
               </span>
-              <span className="text-sm text-gray-700">
+              <span className="text-sm text-gray-700 dark:text-gray-300">
                 {pronunciationResult[current].feedback}
               </span>
             </div>
@@ -285,7 +321,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
                 <span
                   key={i}
                   className={`text-xs px-2 py-1 rounded-full font-medium ${
-                    w.correct ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                    w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
                   }`}
                 >
                   {w.expected} ({w.score}%)
@@ -317,14 +353,12 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
     if (!lsKey) return {};
     try { return JSON.parse(localStorage.getItem(lsKey) || '{}'); } catch { return {}; }
   });
-  // assessmentState: 'idle' | 'loading' | 'passed' | 'failed'
   const [assessmentState, setAssessmentState] = useState('idle');
   const [feedback, setFeedback] = useState('');
   const [feedbackSomali, setFeedbackSomali] = useState('');
   const [score, setScore] = useState(null);
   const abortRef = useRef(null);
 
-  // Persist draft answers to localStorage whenever they change
   useEffect(() => {
     if (!lsKey) return;
     localStorage.setItem(lsKey, JSON.stringify(answers));
@@ -359,7 +393,6 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
       setAssessmentState(data.passed ? 'passed' : 'failed');
     } catch {
       clearTimeout(timeout);
-      // AI unavailable or timed out — accept the writing and let the student continue
       setScore(null);
       setFeedback('Assessment unavailable. Your writing has been accepted.');
       setFeedbackSomali('');
@@ -389,30 +422,30 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Writing Practice</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Writing Practice</h2>
 
-      <div className="mb-4 text-sm text-gray-600">
+      <div className="mb-4 text-sm text-gray-600 dark:text-gray-400">
         Task {current + 1} of {tasks.length}
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 mb-6">
-        <h3 className="font-semibold text-gray-900 mb-2">{task.title}</h3>
-        <p className="text-gray-700 mb-4">{task.instruction}</p>
+      <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
+        <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{task.title}</h3>
+        <p className="text-gray-700 dark:text-gray-300 mb-4">{task.instruction}</p>
 
         {task.example && (
-          <div className="bg-gray-50 rounded-lg p-4 mb-4 border border-gray-200">
-            <p className="text-sm text-gray-700 font-semibold mb-1">Example:</p>
-            <p className="text-gray-800 italic">{task.example}</p>
+          <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 mb-4 border border-gray-200 dark:border-gray-600">
+            <p className="text-sm text-gray-700 dark:text-gray-300 font-semibold mb-1">Example:</p>
+            <p className="text-gray-800 dark:text-gray-200 italic">{task.example}</p>
           </div>
         )}
 
         {task.rubric && task.rubric.length > 0 && (
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
-            <p className="text-sm font-semibold text-green-800 mb-2">Your response should:</p>
+          <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg p-4 mb-4">
+            <p className="text-sm font-semibold text-green-800 dark:text-green-300 mb-2">Your response should:</p>
             <ul className="space-y-1">
               {task.rubric.map((criterion, i) => (
-                <li key={i} className="text-sm text-green-900 flex items-start gap-2">
-                  <span className="text-green-600 font-bold mt-0.5">✓</span>
+                <li key={i} className="text-sm text-green-900 dark:text-green-200 flex items-start gap-2">
+                  <span className="text-green-600 dark:text-green-400 font-bold mt-0.5">✓</span>
                   <span>{criterion}</span>
                 </li>
               ))}
@@ -425,23 +458,23 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
           onChange={(e) => setAnswers({ ...answers, [current]: e.target.value })}
           placeholder="Write your answer here..."
           disabled={assessmentState === 'loading' || assessmentState === 'passed'}
-          className="w-full p-4 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none min-h-[200px] disabled:bg-gray-50 disabled:cursor-not-allowed"
+          className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none min-h-[200px] disabled:bg-gray-50 disabled:dark:bg-gray-700 disabled:cursor-not-allowed bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
         />
-        <p className="text-sm text-gray-500 mt-2">{currentText.length} characters</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{currentText.length} characters</p>
       </div>
 
       {/* Passed panel */}
       {assessmentState === 'passed' && (
-        <div className="bg-green-50 border-2 border-green-400 rounded-lg p-6 mb-4">
+        <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-400 dark:border-green-600 rounded-lg p-6 mb-4">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-3xl font-bold text-green-700">
+            <span className="text-3xl font-bold text-green-700 dark:text-green-400">
               {score !== null ? `${score}/100` : '✓'}
             </span>
-            <span className="text-green-800 font-semibold text-lg">Great work!</span>
+            <span className="text-green-800 dark:text-green-300 font-semibold text-lg">Great work!</span>
           </div>
-          {feedback && <p className="text-green-900 mb-2">{feedback}</p>}
+          {feedback && <p className="text-green-900 dark:text-green-200 mb-2">{feedback}</p>}
           {feedbackSomali && feedbackSomali !== feedback && (
-            <p className="text-green-800 text-sm mb-4 italic">{feedbackSomali}</p>
+            <p className="text-green-800 dark:text-green-300 text-sm mb-4 italic">{feedbackSomali}</p>
           )}
           <button
             onClick={handleContinue}
@@ -455,16 +488,16 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
 
       {/* Failed panel */}
       {assessmentState === 'failed' && (
-        <div className="bg-orange-50 border-2 border-orange-400 rounded-lg p-6 mb-4">
+        <div className="bg-orange-50 dark:bg-orange-900/20 border-2 border-orange-400 dark:border-orange-600 rounded-lg p-6 mb-4">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-3xl font-bold text-orange-700">{score}/100</span>
-            <span className="text-orange-800 font-semibold text-lg">Keep trying!</span>
+            <span className="text-3xl font-bold text-orange-700 dark:text-orange-400">{score}/100</span>
+            <span className="text-orange-800 dark:text-orange-300 font-semibold text-lg">Keep trying!</span>
           </div>
-          {feedback && <p className="text-orange-900 mb-2">{feedback}</p>}
+          {feedback && <p className="text-orange-900 dark:text-orange-200 mb-2">{feedback}</p>}
           {feedbackSomali && feedbackSomali !== feedback && (
-            <p className="text-orange-800 text-sm mb-4 italic">{feedbackSomali}</p>
+            <p className="text-orange-800 dark:text-orange-300 text-sm mb-4 italic">{feedbackSomali}</p>
           )}
-          <p className="text-sm text-orange-700 mb-4">Score needed to continue: 60/100</p>
+          <p className="text-sm text-orange-700 dark:text-orange-400 mb-4">Score needed to continue: 60/100</p>
           <button
             onClick={handleTryAgain}
             className="w-full py-3 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-700 transition-colors"
@@ -487,8 +520,8 @@ export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }
 
       {/* Loading state */}
       {assessmentState === 'loading' && (
-        <div className="w-full py-3 bg-blue-100 text-blue-700 rounded-lg font-semibold text-center flex items-center justify-center gap-3">
-          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
+        <div className="w-full py-3 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-semibold text-center flex items-center justify-center gap-3">
+          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600 dark:border-blue-400"></div>
           Evaluating your writing...
         </div>
       )}
@@ -521,8 +554,8 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
         {parts[0]}
         <span className={`inline-block min-w-[80px] border-b-2 text-center font-bold px-1 ${
           !answered ? 'border-blue-400 text-blue-300' :
-          selectedIdx === correctIdx ? 'border-green-500 text-green-700' :
-          'border-red-400 text-red-600'
+          selectedIdx === correctIdx ? 'border-green-500 text-green-700 dark:text-green-400' :
+          'border-red-400 text-red-600 dark:text-red-400'
         }`}>
           {answered ? item.options[selectedIdx] : '___'}
         </span>
@@ -533,17 +566,17 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Grammar Discovery</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Grammar Discovery</h2>
 
-      <div className="bg-yellow-50 border-l-4 border-yellow-600 p-4 mb-4">
-        <p className="text-yellow-900">
+      <div className="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-600 p-4 mb-4">
+        <p className="text-yellow-900 dark:text-yellow-200">
           <strong>Remember:</strong> We don't teach grammar rules. We help you NOTICE patterns.
         </p>
       </div>
 
       {conceptIds.length > 0 && (
-        <div className="bg-indigo-50 border border-indigo-200 rounded-xl px-4 py-3 mb-6 flex flex-wrap items-center gap-2">
-          <span className="text-xs font-bold text-indigo-600 uppercase tracking-wide mr-1">
+        <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-700 rounded-xl px-4 py-3 mb-6 flex flex-wrap items-center gap-2">
+          <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wide mr-1">
             📖 Learn these concepts:
           </span>
           {conceptIds.map(id => {
@@ -552,7 +585,7 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
               <Link
                 key={id}
                 to={`/grammar#${id}`}
-                className="px-2.5 py-1 bg-white border border-indigo-300 text-indigo-700 rounded-full text-xs font-semibold hover:bg-indigo-100 transition-colors"
+                className="px-2.5 py-1 bg-white dark:bg-gray-800 border border-indigo-300 dark:border-indigo-600 text-indigo-700 dark:text-indigo-400 rounded-full text-xs font-semibold hover:bg-indigo-100 dark:hover:bg-indigo-900/30 transition-colors"
               >
                 {label} →
               </Link>
@@ -563,28 +596,28 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
 
       <div className="space-y-6 mb-6">
         {content.sections?.map((section, idx) => (
-          <div key={idx} className="bg-white border-2 border-gray-200 rounded-lg p-6">
-            <h3 className="font-semibold text-gray-900 mb-3">{section.title}</h3>
+          <div key={idx} className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6">
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">{section.title}</h3>
 
             {section.examples && (
-              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 mb-4">
                 {section.examples.map((ex, i) => (
-                  <p key={i} className="font-mono text-gray-800 mb-1">{ex}</p>
+                  <p key={i} className="font-mono text-gray-800 dark:text-gray-200 mb-1">{ex}</p>
                 ))}
               </div>
             )}
 
             {section.question && (
-              <p className="text-blue-900 font-semibold mb-2">{section.question}</p>
+              <p className="text-blue-900 dark:text-blue-300 font-semibold mb-2">{section.question}</p>
             )}
 
             {section.explanation && (
-              <p className="text-gray-700">{section.explanation}</p>
+              <p className="text-gray-700 dark:text-gray-300">{section.explanation}</p>
             )}
 
             {section.practice && section.practice.length > 0 && (
-              <div className="mt-4 border-t border-gray-200 pt-4">
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Quick Practice</p>
+              <div className="mt-4 border-t border-gray-200 dark:border-gray-600 pt-4">
+                <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-3">Quick Practice</p>
                 <div className="space-y-4">
                   {section.practice.map((item, itemIdx) => {
                     const key = `${idx}-${itemIdx}`
@@ -592,8 +625,8 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
                     const answered = selectedIdx !== undefined
                     const correctIdx = item.options.indexOf(item.blank)
                     return (
-                      <div key={itemIdx} className="bg-gray-50 rounded-lg p-3">
-                        <p className="text-gray-800 text-sm mb-2">
+                      <div key={itemIdx} className="bg-gray-50 dark:bg-gray-700 rounded-lg p-3">
+                        <p className="text-gray-800 dark:text-gray-200 text-sm mb-2">
                           {renderPracticeSentence(item.sentence, item, answered, selectedIdx)}
                         </p>
                         <div className="flex flex-wrap gap-2">
@@ -605,11 +638,11 @@ export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId })
                               className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors ${
                                 answered
                                   ? optIdx === correctIdx
-                                    ? 'bg-green-100 border-green-400 text-green-800'
+                                    ? 'bg-green-100 dark:bg-green-900/30 border-green-400 dark:border-green-600 text-green-800 dark:text-green-300'
                                     : optIdx === selectedIdx
-                                    ? 'bg-red-100 border-red-400 text-red-700'
-                                    : 'bg-gray-100 border-gray-300 text-gray-400'
-                                  : 'bg-white border-gray-300 text-gray-700 hover:border-blue-400 hover:bg-blue-50'
+                                    ? 'bg-red-100 dark:bg-red-900/30 border-red-400 dark:border-red-600 text-red-700 dark:text-red-400'
+                                    : 'bg-gray-100 dark:bg-gray-600 border-gray-300 dark:border-gray-500 text-gray-400'
+                                  : 'bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-400 hover:bg-blue-50 dark:hover:border-blue-500 dark:hover:bg-blue-900/20'
                               }`}
                             >
                               {opt}{answered && optIdx === correctIdx ? ' ✓' : ''}

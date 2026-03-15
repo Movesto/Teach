@@ -2,323 +2,170 @@
   "id": "lesson-27",
   "unit_id": 5,
   "lesson_number": 1,
-  "title": "Giving Your Opinion",
+  "title": "Navigating the Airport",
+  "template": "intermediate",
   "level": "intermediate",
-  "estimated_time": 45,
   "objectives": [
-    "Express opinions clearly and confidently",
-    "Agree and disagree politely",
-    "Support opinions with reasons",
-    "Respect different viewpoints"
+    "Identify and use key airport vocabulary including check-in, boarding pass, gate, and customs",
+    "Ask for and understand directions within an airport environment",
+    "Complete common airport procedures such as check-in and security screening",
+    "Handle unexpected airport situations such as flight delays or lost luggage"
   ],
-  "target_phrases": [
-    "I think that...",
-    "In my opinion...",
-    "I agree because...",
-    "I disagree, but I understand...",
-    "That's a good point, but...",
-    "I see it differently",
-    "From my perspective..."
-  ],
-  "dialogue": {
-    "title": "Should Children Have Cell Phones?",
-    "context": "Ahmed joins an ESL discussion group. Today they're debating whether young children should have cell phones.",
-    "lines": [
-      {"speaker": "Teacher", "text": "Today's question: Should children under 12 have cell phones? Ahmed, what do you think?"},
-      {"speaker": "Ahmed", "text": "In my opinion, children shouldn't have cell phones until they're older. It's not necessary when they're young."},
-      {"speaker": "Lisa", "text": "I disagree. I think kids should have phones for safety. What if there's an emergency?"},
-      {"speaker": "Ahmed", "text": "That's a good point, but they can use their parents' phones in emergencies. Kids don't need their own phones."},
-      {"speaker": "Carlos", "text": "I see it differently. In my country, many children have phones by age 10. It helps parents stay in touch."},
-      {"speaker": "Ahmed", "text": "I understand that perspective, but I'm worried about screen time. Kids spend too much time on phones already."},
-      {"speaker": "Lisa", "text": "I agree with you about screen time. Maybe parents should set strict limits if kids have phones."},
-      {"speaker": "Teacher", "text": "Good discussion! You're all supporting your opinions with reasons. That's excellent!"},
-      {"speaker": "Ahmed", "text": "I learned something from Lisa's point about emergencies. Maybe a simple phone without internet would be okay."},
-      {"speaker": "Carlos", "text": "That's a fair compromise! A basic phone for safety, not a smartphone."}
+  "reading_passage": {
+    "title": "A First Flight to America",
+    "text": "Arriving at an international airport for the first time can be overwhelming. Mohamed had never flown before, so when he landed at Minneapolis–Saint Paul International Airport, he was not sure where to go. After leaving the plane, he followed the signs marked 'Arrivals' and 'Baggage Claim,' but the terminal was enormous. Crowds of passengers moved in every direction, announcements echoed through the halls, and the screens overhead displayed dozens of flight numbers and gates.\n\nMohamed stopped at an information desk and asked an airport employee for help. She handed him a terminal map and explained that he needed to collect his luggage from carousel seven, then proceed through customs and immigration. She warned him that the customs line could be long, so he should have his passport, visa, and declaration form ready.\n\nAt the customs booth, the officer asked Mohamed about the purpose of his visit and whether he was bringing any food or large sums of money. Mohamed answered clearly and was waved through. When he finally reached the arrivals hall, his sponsor family was waiting with a handwritten sign bearing his name. Despite the stress of the journey, Mohamed felt a wave of relief. He had successfully navigated one of the most complicated parts of starting a new life.",
+    "source": "Adapted from a refugee resettlement orientation guide, Minneapolis, 2023",
+    "glossary": [
+      {"word": "terminal", "meaning": "the large building at an airport where passengers arrive and depart"},
+      {"word": "carousel", "meaning": "a moving belt at an airport where checked luggage is delivered"},
+      {"word": "customs", "meaning": "the government process of checking what travellers bring into a country"},
+      {"word": "declaration form", "meaning": "a document where you list items you are bringing into a new country"},
+      {"word": "sponsor family", "meaning": "a family that agrees to help a refugee or new immigrant settle in"}
     ]
   },
-  "pattern_drills": [
+  "comprehension": [
     {
-      "id": "drill-1",
-      "focus": "Expressing opinions",
-      "pattern": "I think (that) [opinion]",
-      "examples": [
-        "I think children need more outdoor time.",
-        "I think homework is important for learning.",
-        "I think everyone should learn a second language.",
-        "I think schools should have longer lunch breaks.",
-        "I think parents should limit screen time."
-      ]
+      "type": "literal",
+      "question": "What two things did the airport employee tell Mohamed he needed to do after collecting his luggage?",
+      "answer": "She told him to collect his luggage from carousel seven and then proceed through customs and immigration."
     },
     {
-      "id": "drill-2",
-      "focus": "Agreeing and adding reasons",
-      "pattern": "I agree because [reason]",
-      "examples": [
-        "I agree because safety is very important.",
-        "I agree because kids need to play outside.",
-        "I agree because learning languages helps your brain.",
-        "I agree because children need time to eat properly.",
-        "I agree because too much screen time is bad for health."
-      ]
+      "type": "inference",
+      "question": "What does the author imply when they say Mohamed 'felt a wave of relief' at the end?",
+      "answer": "The author implies that the journey had been stressful and difficult, and seeing the sponsor family waiting meant the most uncertain part was finally over."
     },
     {
-      "id": "drill-3",
-      "focus": "Polite disagreement",
-      "pattern": "I disagree, but [acknowledge their point]",
-      "examples": [
-        "I disagree, but I understand your concern.",
-        "I disagree, but that's an interesting perspective.",
-        "I disagree, but you make a good point.",
-        "I disagree, but I see where you're coming from.",
-        "I disagree, but I respect your opinion."
-      ]
+      "type": "vocabulary",
+      "question": "What does the word 'overwhelming' mean in the first paragraph?",
+      "answer": "It means feeling very difficult to deal with because there is too much to take in at once — too much noise, movement, and information."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the author mention that Mohamed had never flown before?",
+      "answer": "To explain why he was confused and needed help — he had no previous experience to rely on, which made the airport more disorienting."
     }
   ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit5-lesson1-listen1.mp3",
-      "transcript": "When expressing opinions, it's important to be respectful. Start with phrases like 'I think' or 'In my opinion' rather than saying 'You're wrong.' When you disagree, acknowledge the other person's point first. Say things like 'That's interesting, but I see it differently' or 'I understand your perspective, however...'",
-      "question": "What should you do when you disagree with someone?",
-      "options": [
-        "Say they're wrong",
-        "Acknowledge their point first",
-        "Change the subject",
-        "Stay silent"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit5-lesson1-listen2.mp3",
-      "transcript": "Strong opinions need strong support. Use words like 'because' and 'for example' to back up what you say. Instead of just saying 'I think schools need more art classes,' say 'I think schools need more art classes because creativity is important for child development.' Facts, personal experiences, and examples make your opinion more convincing.",
-      "question": "How can you make your opinion stronger?",
-      "options": [
-        "Speak louder",
-        "Repeat it many times",
-        "Support it with reasons and examples",
-        "Insist you're right"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit5-lesson1-listen3.mp3",
-      "transcript": "In American culture, it's normal to have different opinions and discuss them openly. Disagreement doesn't mean disrespect. People can have strong discussions and still be friends. However, always use respectful language and listen to others. Phrases like 'I see your point' or 'That's valid, but...' show you're listening even when you disagree.",
-      "question": "In American culture, what does disagreement mean?",
-      "options": [
-        "You're not friends anymore",
-        "Someone is disrespectful",
-        "It's normal and okay",
-        "You should avoid the person"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Give your opinion about this: 'Students should wear uniforms to school.' Say whether you agree or disagree and give 2 reasons. Record for at least 30 seconds.",
-      "example": "I think students should wear uniforms to school. I have two reasons for this opinion. First, uniforms make mornings easier because kids don't have to decide what to wear. Second, uniforms help everyone feel equal - rich kids and poor kids wear the same clothes, so no one feels bad about their clothing. Some people disagree and think kids should express themselves through clothing, and I understand that perspective, but I still think the benefits of uniforms are worth it.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Practice disagreeing politely. Someone says: 'Everyone should work from home.' Disagree and give your reason. Record yourself.",
-      "example": "That's an interesting perspective, but I disagree. I think working in an office is better for many people. I understand that working from home is convenient, but I think people need social interaction with coworkers. Also, not everyone has a quiet space to work at home. So while working from home is good for some people, I don't think everyone should do it. It depends on the job and the person.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write your opinion about this topic: 'Should children learn to speak their parents' native language?' Give your opinion and 3 reasons. (60-80 words)",
-      "min_words": 60,
-      "example": "I strongly believe that children should learn their parents' native language. First, it helps them communicate with their grandparents and extended family. Second, being bilingual is good for brain development and helps children in school. Third, it keeps them connected to their culture and heritage, which is important for their identity. Some people worry that learning two languages might confuse children, but research shows that bilingual children actually have advantages in learning. For all these reasons, I think families should speak their native language at home."
-    },
-    {
-      "id": "write-2",
-      "prompt": "Someone says: 'Social media is bad for society.' Do you agree or disagree? Write your opinion with 2 supporting reasons. (50-70 words)",
-      "min_words": 50,
-      "example": "I partially agree with this statement. Social media has both good and bad effects. On one hand, it connects people across the world and helps us share information quickly. On the other hand, it can spread false information and make people feel bad about their lives when they compare themselves to others. I think social media isn't inherently bad, but people need to use it wisely and limit their time on it."
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Opinion Phrases (I think, In my opinion)",
-      "explanation": "Use these phrases to introduce your opinion. They make your statement sound less direct and more polite.",
-      "examples": [
-        "I think homework is important. (personal opinion)",
-        "In my opinion, schools need more funding. (formal opinion)",
-        "I believe children need outdoor time. (strong opinion)",
-        "From my perspective, both sides have merit. (considering viewpoint)"
-      ],
-      "practice": [
-        {"sentence": "___ think kids need more sleep.", "blank": "I", "options": ["I", "My", "Me"]},
-        {"sentence": "In ___ opinion, this is important.", "blank": "my", "options": ["my", "I", "me"]},
-        {"sentence": "I ___ that parents should set limits.", "blank": "believe", "options": ["believe", "believes", "believing"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Because/So for Reasons",
-      "explanation": "'Because' introduces a reason. 'So' introduces a result.",
-      "examples": [
-        "I agree because safety is important. (reason for agreement)",
-        "Kids need sleep, so bedtime is important. (result)",
-        "I think uniforms are good because they save time. (reason)",
-        "Screen time is harmful, so parents should limit it. (result)"
-      ],
-      "practice": [
-        {"sentence": "I agree ___ you make a good point.", "blank": "because", "options": ["because", "so", "but"]},
-        {"sentence": "It's raining, ___ take an umbrella.", "blank": "so", "options": ["because", "so", "although"]},
-        {"sentence": "She's late ___ traffic was bad.", "blank": "because", "options": ["because", "so", "but"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Although for Contrast",
-      "explanation": "Use 'although' to show contrast or introduce an opposing idea.",
-      "examples": [
-        "Although I disagree, I respect your view. (contrast)",
-        "I like phones, although they have problems. (acknowledging downside)",
-        "Although it's expensive, it's worth it. (contrasting ideas)",
-        "She's busy, although she always helps. (despite being busy)"
-      ],
-      "practice": [
-        {"sentence": "___ I disagree, I understand.", "blank": "Although", "options": ["Although", "Because", "So"]},
-        {"sentence": "I'll try, ___ it's difficult.", "blank": "although", "options": ["although", "because", "so"]},
-        {"sentence": "___ he's young, he's very smart.", "blank": "Although", "options": ["Although", "Because", "So"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "language_focus": {
+    "title": "Modal Verbs for Obligation and Advice (must, need to, should)",
+    "explanation": "Use 'must' or 'need to' when something is required — there is no choice. Use 'should' for advice — it is a good idea, but not a strict rule. In airport contexts, these modals appear constantly: 'You must show your passport' is a requirement, while 'You should arrive two hours early' is advice.",
+    "examples": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "What is Ahmed's opinion about children and cell phones?",
-        "options": [
-          "All children should have phones",
-          "Children under 12 shouldn't have phones",
-          "Only teenagers should have phones",
-          "He has no opinion"
-        ],
-        "correct": 1,
-        "points": 10
+        "sentence": "You must have your boarding pass ready before you reach the gate.",
+        "note": "'Must' signals a requirement — you cannot board without it."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "How does Ahmed respond when Lisa disagrees with him?",
-        "options": [
-          "He gets angry",
-          "He changes his mind immediately",
-          "He acknowledges her point but explains his view",
-          "He ignores her"
-        ],
-        "correct": 2,
-        "points": 10
+        "sentence": "You should check the departure board as soon as you arrive.",
+        "note": "'Should' gives advice — gates sometimes change, so it is wise to check."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite using 'must': 'It is required that you remove your shoes at security.'",
+        "answer": "You must remove your shoes at security."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What compromise does Ahmed suggest at the end?",
-        "options": [
-          "No phones at all",
-          "Only smartphones",
-          "A basic phone without internet",
-          "Phones only for emergencies at school"
-        ],
-        "correct": 2,
-        "points": 10
+        "sentence": "Complete this sentence with 'should' or 'must': 'Passengers ___ carry valid photo identification at all times.'",
+        "answer": "must (this is a requirement, not just advice)"
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Complete: '___ my opinion, this is important.'",
-        "options": ["On", "In", "At", "For"],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "In American culture, disagreement always means disrespect.",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "You should support your opinions with reasons and examples.",
-        "correct": true,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "I agree ___ safety is important. (giving reason)",
-        "correct": "because",
-        "accept": ["because"],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "___ I disagree, I respect your view. (showing contrast)",
-        "correct": "Although",
-        "accept": ["Although", "although"],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match the phrase to its purpose:",
-        "pairs": [
-          {"left": "I think that...", "right": "State your opinion"},
-          {"left": "I agree because...", "right": "Agree with reason"},
-          {"left": "That's a good point, but...", "right": "Polite disagreement"}
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "What should you do before disagreeing?",
-        "options": [
-          "Raise your voice",
-          "Acknowledge the other person's point",
-          "Leave the conversation",
-          "Insist you're right"
-        ],
-        "correct": 1,
-        "points": 10
+        "sentence": "Which is correct? A) You should to arrive early. B) You should arrive early.",
+        "answer": "B) 'Should' is followed directly by the base verb, not 'to + verb'."
       }
     ]
   },
-  "vocabulary": [
-    {"word": "opinion", "definition": "what you think about something", "example": "In my opinion, summer is the best season."},
-    {"word": "viewpoint", "definition": "way of thinking about a topic", "example": "I understand your viewpoint even though I disagree."},
-    {"word": "perspective", "definition": "particular way of seeing a situation", "example": "From a parent's perspective, safety is most important."},
-    {"word": "argument", "definition": "reason supporting an opinion", "example": "She made a strong argument for exercise."},
-    {"word": "reason", "definition": "explanation for why you think something", "example": "My reason for disagreeing is personal experience."},
-    {"word": "evidence", "definition": "facts supporting a claim", "example": "Research provides evidence that reading helps learning."},
-    {"word": "disagree", "definition": "have a different opinion", "example": "I disagree with that statement."},
-    {"word": "respectfully", "definition": "in a polite, considerate way", "example": "You can disagree respectfully without being rude."},
-    {"word": "consider", "definition": "think carefully about", "example": "Consider both sides before deciding."},
-    {"word": "valid", "definition": "reasonable and acceptable", "example": "That's a valid point I hadn't thought of."}
+  "vocabulary_in_context": [
+    {
+      "word": "terminal",
+      "definition": "The main building of an airport where passengers check in, board, and arrive",
+      "example_sentence": "The terminal was enormous — crowds of passengers moved in every direction.",
+      "collocations": ["international terminal", "departure terminal", "inside the terminal"],
+      "register": "neutral"
+    },
+    {
+      "word": "carousel",
+      "definition": "A revolving belt at an airport where checked bags are delivered to passengers",
+      "example_sentence": "She explained that he needed to collect his luggage from carousel seven.",
+      "collocations": ["baggage carousel", "luggage carousel", "wait at the carousel"],
+      "register": "neutral"
+    },
+    {
+      "word": "proceed",
+      "definition": "To move forward or continue to the next step in a process",
+      "example_sentence": "He needed to collect his luggage from carousel seven, then proceed through customs and immigration.",
+      "collocations": ["proceed to the gate", "proceed with caution", "proceed through security"],
+      "register": "formal"
+    }
   ],
-  "cultural_notes": [
-    "In American culture, healthy debate is encouraged. Disagreeing doesn't mean you don't like someone.",
-    "It's normal to have different political or religious opinions even among family and friends.",
-    "In professional settings, supporting your opinions with data and examples is highly valued.",
-    "Phrases like 'I disagree' are considered polite and direct. You don't need to be overly indirect.",
-    "Active listening is important - show you've heard the other person before stating your view.",
-    "In group discussions, it's okay to change your opinion if someone makes a convincing argument."
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "Imagine you have just landed at an airport in a new country and you are not sure what to do next. You see an information desk.",
+    "prompt": "Ask the airport employee for help. Explain that this is your first time at this airport, ask where to collect your luggage, and find out what documents you need for customs. Use at least three questions.",
+    "useful_language": [
+      "Excuse me, could you help me? This is my first time here.",
+      "Where do I need to go to collect my luggage?",
+      "What documents should I have ready for customs?"
+    ],
+    "model_answer": "Excuse me, could you help me? This is my first time flying internationally and I am not sure what to do next. Where do I collect my luggage? And what documents do I need to have ready for customs? Should I fill out a declaration form before I get in line?"
+  },
+  "writing_workshop": {
+    "model_text": "When I arrived at the airport, I was confused because the signs were all in English. I stopped at an information desk and asked for help. The employee was patient and explained each step clearly. She told me I needed to go to carousel four for my bags and then join the customs line. I followed her directions and made it through without any problems. Asking for help made everything much easier.",
+    "model_analysis": "Notice how the writer uses a clear chronological structure — what happened first, then next, then finally — and reflects briefly on what made the experience easier.",
+    "task": "Write about a time you arrived somewhere new and felt lost or confused (an airport, a hospital, a government office, a new school). Describe what happened, how you got help, and how you felt. Use past tense throughout.",
+    "success_criteria": [
+      "Use at least three past tense verbs to describe what happened",
+      "Include one sentence with 'must,' 'need to,' or 'should'",
+      "End with a reflection on what you learned or how you felt"
+    ],
+    "word_count": "100-150"
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, what did Mohamed need to do before going through customs?",
+      "options": [
+        "Find his sponsor family in the arrivals hall",
+        "Collect his luggage from carousel seven",
+        "Fill out a boarding pass",
+        "Check the departure board"
+      ],
+      "correct": 1,
+      "explanation": "The airport employee told Mohamed to collect his luggage from carousel seven and then proceed through customs."
+    },
+    {
+      "id": 2,
+      "question": "What did the customs officer ask Mohamed about?",
+      "options": [
+        "His English level and job history",
+        "His airline ticket and seat number",
+        "The purpose of his visit and items he was bringing",
+        "Whether he had a sponsor family waiting"
+      ],
+      "correct": 2,
+      "explanation": "The officer asked about the purpose of his visit and whether he was carrying food or large sums of money — standard customs questions."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence uses 'must' correctly to express a requirement?",
+      "options": [
+        "You must to show your passport at the gate.",
+        "You must showing your passport at the gate.",
+        "You must show your passport at the gate.",
+        "You must showed your passport at the gate."
+      ],
+      "correct": 2,
+      "explanation": "'Must' is followed by the base form of the verb (no 'to,' no -ing, no past tense)."
+    },
+    {
+      "id": 4,
+      "question": "Based on the passage, why was Mohamed's experience stressful?",
+      "options": [
+        "He could not find his sponsor family",
+        "He had no passport or visa",
+        "The airport was unfamiliar, crowded, and he had never flown before",
+        "His flight was delayed for several hours"
+      ],
+      "correct": 2,
+      "explanation": "The passage states he had never flown before, the terminal was enormous, crowds moved in every direction, and announcements echoed everywhere — all contributing to the stress."
+    }
   ]
 }

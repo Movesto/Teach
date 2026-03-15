@@ -2,239 +2,231 @@
   "id": "lesson-53",
   "unit_id": 9,
   "lesson_number": 3,
-  "title": "Giving Presentations",
-  "level": "upper-intermediate",
-  "estimated_time": 45,
+  "title": "Academic Discussion: Seminars, Lectures, and the Language of Inquiry",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Structure presentations effectively",
-    "Use visual aids appropriately",
-    "Handle questions confidently",
-    "Engage audiences professionally"
+    "Analyse the conventions of academic spoken discourse and distinguish them from general conversational norms",
+    "Evaluate and synthesise competing scholarly positions using appropriate citation and attribution language",
+    "Construct well-formed academic questions and responses that demonstrate critical engagement with ideas",
+    "Deploy discipline-specific discourse markers to signal the logical relationship between ideas in discussion"
   ],
-  "target_phrases": [
-    "Today I'll be presenting...",
-    "Let me start by...",
-    "As you can see in this slide...",
-    "To summarize...",
-    "That's an excellent question...",
-    "Moving on to the next point...",
-    "In conclusion..."
+  "authentic_text": {
+    "title": "What We Talk About When We Talk About Learning",
+    "type": "article",
+    "text": "There is a persistent myth that the best university seminars are those in which the lecturer talks least. The idea has a pleasing democratic feel: students learn by doing, not by being lectured at, and the silent professor in the corner is proof of a class that has truly taken flight. Like most educational myths, this one contains enough truth to be dangerous.\n\nThe research on discussion-based learning is genuinely encouraging. When students articulate their thinking — not just absorb it — they develop deeper understanding, identify gaps in their reasoning, and are more likely to retain ideas over time. The pedagogical case for discussion is strong. But what is too rarely examined is the quality of that discussion. A seminar in which students merely assert and counter-assert, trading opinions without engaging with the intellectual substance of the material, is not discussion in the educationally productive sense — it is just talking.\n\nAcademic discussion is a distinct register. It involves particular conventions: the habit of grounding claims in evidence, the practice of attributing ideas to sources ('As Sen argues...' or 'This challenges Rawls' contention that...'), the willingness to revise a view when presented with a compelling counterargument, and the capacity to sustain a thread of inquiry across multiple exchanges. These are not natural behaviours; they are disciplinary ones, acquired through practice and explicit instruction.\n\nThe implication is that discussion, like writing, needs to be taught — not just enabled. Creating space for talk is not the same as creating conditions for learning.",
+    "source": "Adapted from Times Higher Education, March 2025",
+    "notes": "The writer uses a classic rhetorical move: introduce a popular idea, concede its partial validity, then complicate it. This 'yes, but...' structure is worth studying for your own argumentative writing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What does the writer say the research on discussion-based learning shows?",
+      "answer": "The research is 'genuinely encouraging': when students articulate their thinking, they develop deeper understanding, identify gaps in their reasoning, and are more likely to retain ideas over time."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing the democratic myth as containing 'enough truth to be dangerous'?",
+      "answer": "The writer implies that the idea's partial truth makes it harder to challenge — it sounds reasonable and progressive, so people accept it uncritically. A wholly false idea is easier to dismiss; a partly true one can lead practice in the wrong direction while appearing to be evidence-based."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the writer's attitude toward students in this text? Give evidence.",
+      "answer": "The writer's attitude is demanding but not disparaging — they hold students to a high standard but locate the failure in inadequate instruction, not in students themselves. Evidence: 'These are not natural behaviours; they are disciplinary ones, acquired through practice and explicit instruction' — this is sympathetic, attributing the gap to systemic failure rather than student inadequacy."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'pedagogical' (paragraph 2) mean in this context?",
+      "answer": "'Pedagogical' relates to the theory and practice of teaching and education. 'The pedagogical case for discussion is strong' means the argument from educational theory and teaching practice supports the value of discussion-based learning."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the main argument of this text, and how does the final line serve it?",
+      "answer": "The argument is that discussion-based learning requires teaching, not just space. The final line — 'Creating space for talk is not the same as creating conditions for learning' — serves as a neat, aphoristic summary of this distinction. It is memorable precisely because of its brevity and its contrast structure, making it a rhetorical device that reinforces the central thesis."
+    }
   ],
-  "dialogue": {
-    "title": "Preparing for a Work Presentation",
-    "context": "Ahmed's supervisor coaches him on preparing and delivering his first formal presentation to management.",
-    "lines": [
-      {"speaker": "Supervisor", "text": "Ahmed, you're presenting the quarterly results to management next week. Have you started preparing?"},
-      {"speaker": "Ahmed", "text": "I've gathered all the data, but I'm nervous about presenting in English to senior leaders."},
-      {"speaker": "Supervisor", "text": "That's normal! Let's work on structure first. Every presentation needs three parts: introduction, body, and conclusion."},
-      {"speaker": "Ahmed", "text": "So I introduce the topic, present the details, then summarize?"},
-      {"speaker": "Supervisor", "text": "Exactly. Start with: 'Today I'll be presenting our Q4 sales results.' Tell them what you'll cover, present it, then recap key points. This helps audiences follow along."},
-      {"speaker": "Ahmed", "text": "What about slides? How many should I have?"},
-      {"speaker": "Supervisor", "text": "Rule of thumb: one slide per minute of presenting. Keep text minimal - slides support your talk, they don't replace it. Use visuals like charts and graphs for data."},
-      {"speaker": "Ahmed", "text": "I'm most worried about questions. What if someone asks something I don't know?"},
-      {"speaker": "Supervisor", "text": "Say: 'That's an excellent question. I don't have that specific data with me, but I'll follow up with you after the meeting.' It's fine not to know everything - just be honest."},
-      {"speaker": "Ahmed", "text": "How do I transition between topics smoothly?"},
-      {"speaker": "Supervisor", "text": "Use signposting language: 'Moving on to the next point' or 'Now let's look at regional performance.' This keeps your presentation organized and easy to follow."},
-      {"speaker": "Ahmed", "text": "Should I memorize everything or use notes?"},
-      {"speaker": "Supervisor", "text": "Don't memorize word-for-word - you'll sound robotic. Know your content well, use bullet points as reminders, and speak naturally. Practice several times before the actual presentation."},
-      {"speaker": "Ahmed", "text": "This is really helpful! I'll practice with you before the real presentation?"},
-      {"speaker": "Supervisor", "text": "Absolutely. We'll do a dry run on Friday. Remember: they want you to succeed. Take a deep breath, speak clearly, and you'll do great."}
+  "language_analysis": {
+    "focus": "Attribution and Hedged Reporting in Academic Discourse",
+    "explanation": "In academic discussion and writing, a crucial skill is the ability to attribute ideas accurately and to signal your relationship to them — whether you are endorsing, questioning, or merely reporting a view. This is done through reporting verbs and attribution phrases, and the choice of verb carries significant meaning.\n\nReporting verbs exist on a spectrum of commitment: 'argues' and 'contends' suggest the writer is presenting a view they may or may not agree with; 'demonstrates' and 'shows' suggest the evidence is strong and the writer accepts the claim; 'claims' and 'asserts' introduce a note of scepticism — the writer is not endorsing the view. 'Acknowledges' and 'concedes' suggest the cited author is admitting something that supports the citing writer's argument.\n\nThis precision matters enormously in academic contexts. Saying 'Smith argues that inequality causes crime' is very different from saying 'Smith demonstrates that inequality causes crime' — the first is a claim under scrutiny; the second presents it as established fact. Advanced learners must develop sensitivity to these distinctions.",
+    "examples": [
+      {
+        "from_text": "As Sen argues... or This challenges Rawls' contention that...",
+        "analysis": "The writer uses 'argues' (neutral — reporting a position without endorsing it) and 'contention' (a noun form that similarly implies a contested claim). This vocabulary signals to the reader that these are positions to be engaged with, not facts to be accepted. Using 'demonstrates' or 'shows' in their place would misrepresent the epistemological status of the claims."
+      },
+      {
+        "from_text": "The research on discussion-based learning is genuinely encouraging.",
+        "analysis": "Notice the adverb 'genuinely' — the writer is not simply reporting that research is encouraging, but is personally vouching for it. This hedged endorsement ('genuinely' rather than 'entirely' or 'conclusively') signals that the writer has examined the research and finds it credible, while stopping short of claiming it is definitive."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Bourdieu contends that educational systems reproduce existing social hierarchies.",
+        "informal": "Bourdieu basically says that schools keep rich kids rich and poor kids poor."
+      },
+      {
+        "formal": "The study's findings would appear to support the hypothesis, though the sample size remains a limitation.",
+        "informal": "The study seems to back up the idea, but they didn't have many participants."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Opening presentations",
-      "pattern": "Today I'll be presenting... / Let me start by...",
-      "examples": [
-        "Today I'll be presenting our quarterly sales results and market analysis.",
-        "Good morning, everyone. Let me start by thanking you for being here.",
-        "Today I'll be discussing three key strategies for improving customer satisfaction.",
-        "Let me start by outlining the agenda for this presentation.",
-        "I'm pleased to present our findings from the recent customer survey."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Referring to visuals",
-      "pattern": "As you can see in this slide/chart/graph...",
-      "examples": [
-        "As you can see in this chart, sales increased by 15% this quarter.",
-        "This graph shows the trend over the past six months.",
-        "If you look at this slide, you'll notice three main categories.",
-        "The data in this table illustrates our market share growth.",
-        "This pie chart breaks down our customer demographics."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Transitioning and concluding",
-      "pattern": "Moving on to... / To summarize... / In conclusion...",
-      "examples": [
-        "Moving on to our next topic, let's discuss regional performance.",
-        "Now let's shift our focus to cost reduction strategies.",
-        "To summarize the key points we've covered today...",
-        "In conclusion, I recommend we proceed with option A.",
-        "That brings me to the end of my presentation. Are there any questions?"
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson3-listen1.mp3",
-      "transcript": "Presentation structure follows a simple formula: tell them what you'll tell them (introduction), tell them (body), tell them what you told them (conclusion). Introduction states your topic and previews main points. Body presents information in logical order with supporting evidence. Conclusion summarizes key takeaways and includes a call to action if appropriate. This structure helps audiences retain information.",
-      "question": "What are the three parts of presentation structure?",
-      "options": [
-        "Beginning, middle, end",
-        "Introduction, body, conclusion",
-        "Opening, talking, closing",
-        "Start, speak, stop"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson3-listen2.mp3",
-      "transcript": "Effective slides follow the 6x6 rule: maximum 6 bullet points per slide, maximum 6 words per bullet. Slides should enhance your presentation, not distract from it. Use large, readable fonts (minimum 24 point). Include visuals like charts, graphs, and images. Avoid reading slides word-for-word - audiences can read faster than you speak. Slides are visual aids, not scripts.",
-      "question": "What is the 6x6 rule for slides?",
-      "options": [
-        "6 slides, 6 minutes",
-        "6 bullet points, 6 words each",
-        "6 colors, 6 fonts",
-        "6 people, 6 topics"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson3-listen3.mp3",
-      "transcript": "Handling Q&A sessions professionally: Listen carefully to each question. Repeat or rephrase questions to ensure everyone heard them. If you don't know the answer, admit it: 'That's a great question. I don't have that information right now, but I'll find out and get back to you.' Stay calm even if questions are challenging. Thank people for their questions: 'Thank you for bringing that up.'",
-      "question": "What should you do if you don't know an answer?",
-      "options": [
-        "Make something up",
-        "Ignore the question",
-        "Admit it and offer to follow up",
-        "Get angry"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Give a 30-second mini-presentation introducing yourself and your background to a professional audience. Use presentation language.",
-      "example": "Good morning, everyone. Today I'd like to introduce myself and share my professional background. My name is Ahmed Hassan, and I've been with this company for three years as a logistics coordinator. Let me start by telling you about my journey. I moved to the United States from Somalia in 2023 and began working in warehouse operations. Through hard work and continued education, I advanced to my current role. My key strengths include supply chain management, data analysis, and team coordination. Moving forward, I'm excited to contribute to our department's growth. Thank you for your time, and I look forward to working with all of you.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "You're presenting data showing sales increased 20%. Describe the chart and explain what it means. Use presentation language. Record for 25 seconds.",
-      "example": "As you can see in this chart, our sales performance shows significant growth this quarter. The blue bars represent Q3 results, while the red bars show Q4. Notice the 20% increase across all regions. This graph clearly illustrates that our new marketing strategy is working effectively. The data in this table breaks down performance by region - the West Coast led with 25% growth, followed by the Midwest at 18%. To summarize this slide, we exceeded our targets in every category. Now let's move on to what this means for next quarter's projections.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write an outline for a 5-minute presentation on a topic you know well (your job, a hobby, your hometown, etc.). Include: introduction, 3 main points, conclusion. (80-100 words)",
-      "min_words": 80,
-      "example": "Presentation Title: Introduction to Somali Cuisine\n\nI. Introduction (30 seconds)\n   - Good morning. Today I'll be presenting an introduction to Somali cuisine and its unique flavors.\n   - Preview: I'll cover three main topics: traditional ingredients, popular dishes, and cultural significance.\n\nII. Body (4 minutes)\n   A. Traditional ingredients (1.5 min)\n      - Spices: cumin, cardamom, coriander\n      - Staples: rice, pasta, flatbread\n      - Proteins: goat, lamb, chicken, fish\n   \n   B. Popular dishes (1.5 min)\n      - Sambusas (savory pastries)\n      - Suqaar (spiced meat)\n      - Canjeero (sourdough pancakes)\n   \n   C. Cultural significance (1 min)\n      - Communal eating traditions\n      - Special occasion foods\n\nIII. Conclusion (30 seconds)\n    - To summarize: Somali cuisine blends African and Arab influences\n    - Questions?",
-      "min_words": 80
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write what you would say when handling these Q&A situations: 1) Someone asks a question you don't know. 2) Someone challenges your data. (60-80 words)",
-      "min_words": 60,
-      "example": "Situation 1 - Unknown answer: 'That's an excellent question, and I appreciate you bringing it up. I don't have that specific information with me right now, but it's definitely worth investigating. Let me research that and follow up with you by email tomorrow. Can I have your contact information after the presentation?'\n\nSituation 2 - Challenged data: 'Thank you for raising that concern. This data comes from our internal sales database, compiled last week. If you've seen different numbers, I'd be interested in comparing sources. Could we discuss this after the meeting to understand the discrepancy? I want to ensure we're working with accurate information.'",
-      "min_words": 60
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Future with 'will' for Presentation Plans",
-      "explanation": "Use 'will' to tell audience what you're going to cover in your presentation.",
-      "examples": [
-        "Today I'll be presenting our quarterly results.",
-        "I'll start by reviewing last quarter, then discuss current performance.",
-        "We'll look at three key strategies.",
-        "I'll conclude with recommendations for next quarter."
-      ],
-      "practice": [
-        {"sentence": "Today I ___ be presenting sales data.", "blank": "will", "options": ["will", "would", "can"]},
-        {"sentence": "I ___ start with an overview.", "blank": "will", "options": ["will", "would", "must"]},
-        {"sentence": "We ___ examine three options.", "blank": "will", "options": ["will", "would", "should"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Signposting Language for Transitions",
-      "explanation": "Use transition phrases to guide audience through your presentation.",
-      "examples": [
-        "Moving on to the next point...",
-        "Now let's turn our attention to...",
-        "This brings me to my next topic...",
-        "Let me shift focus to..."
-      ],
-      "practice": [
-        {"sentence": "___ on to the next slide.", "blank": "Moving", "options": ["Moving", "Move", "Moved"]},
-        {"sentence": "Now let's ___ at the data.", "blank": "look", "options": ["look", "looking", "looked"]},
-        {"sentence": "This ___ me to my conclusion.", "blank": "brings", "options": ["bring", "brings", "brought"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Present Simple for Describing Visuals",
-      "explanation": "Use present simple when describing charts, graphs, and slides.",
-      "examples": [
-        "This chart shows sales trends.",
-        "The graph illustrates quarterly growth.",
-        "This slide presents three options.",
-        "The data indicates a positive trend."
-      ],
-      "practice": [
-        {"sentence": "This chart ___ the results.", "blank": "shows", "options": ["show", "shows", "showing"]},
-        {"sentence": "The graph ___ our progress.", "blank": "illustrates", "options": ["illustrate", "illustrates", "illustrating"]},
-        {"sentence": "The data ___ improvement.", "blank": "indicates", "options": ["indicate", "indicates", "indicating"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What are the three parts of presentation structure?", "options": ["Start, middle, finish", "Introduction, body, conclusion", "Opening, speaking, ending", "Beginning, talking, stopping"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What is the 6x6 rule for slides?", "options": ["6 slides total", "6 bullet points, 6 words each", "6 minutes speaking", "6 people watching"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What should you do if you don't know an answer?", "options": ["Make something up", "Admit it and offer to follow up", "Ignore the question", "Change the subject"], "correct": 1, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'Today I ___ be presenting...'", "options": ["would", "will", "can", "must"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "You should memorize presentations word-for-word.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Slides should support your talk, not replace it.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "___ on to the next point. (transition)", "correct": "Moving", "accept": ["Moving"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "This chart ___ sales trends. (present simple)", "correct": "shows", "accept": ["shows"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match presentation part:", "pairs": [{"left": "Introduction", "right": "Preview topic"}, {"left": "Body", "right": "Present details"}, {"left": "Conclusion", "right": "Summarize"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "How many slides per minute of presenting?", "options": ["One", "Two", "Five", "Ten"], "correct": 0, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
+      {
+        "incorrect": "According to Smith (2019), the results clearly demonstrate that the intervention had no effect, but I disagree with this conclusion.",
+        "correct": "According to Smith (2019), the results appear to demonstrate that the intervention had no effect; however, this conclusion warrants further scrutiny.",
+        "explanation": "In academic writing, 'but I disagree' is too informal and personal. More importantly, if you disagree with a claim attributed to a source, you should explain why rather than simply asserting disagreement. The revision uses 'appears to demonstrate' (hedged) and 'warrants further scrutiny' (academic register, signals grounds for challenge without being dismissive)."
+      },
+      {
+        "incorrect": "The professor asked us to discuss about the implications of the reading.",
+        "correct": "The professor asked us to discuss the implications of the reading.",
+        "explanation": "'Discuss' is a transitive verb that takes a direct object without a preposition. 'Discuss about' is incorrect in standard English. Compare: 'talk about something' (correct) but 'discuss something' (not 'discuss about something')."
+      },
+      {
+        "incorrect": "This theory was first proposed in the early nineties, and since has been challenged by several scholars.",
+        "correct": "This theory was first proposed in the early nineties and has since been challenged by several scholars.",
+        "explanation": "The adverb 'since' must follow the auxiliary verb 'has' in this construction, not precede it. The correct order is 'has since been', not 'since has been'. This is a word order error with adverbs in perfect tenses."
+      },
+      {
+        "incorrect": "Her argument raises an interesting question about whether inequality is cause or a symptom of poverty.",
+        "correct": "Her argument raises an interesting question about whether inequality is a cause or a symptom of poverty.",
+        "explanation": "The parallel structure requires the same article form for both nouns in the pair. Since 'a symptom' uses the indefinite article, 'a cause' must also use it. Omitting the article from the first element of a parallel pair is a subtle but significant error in formal writing."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "presentation", "definition": "formal talk to audience", "example": "I'm giving a presentation tomorrow."},
-    {"word": "visual aid", "definition": "image/chart supporting talk", "example": "Use visual aids effectively."},
-    {"word": "signposting", "definition": "language guiding audience through talk", "example": "Signposting helps audiences follow."},
-    {"word": "transition", "definition": "movement from one point to another", "example": "Use smooth transitions."},
-    {"word": "deliver", "definition": "give or present", "example": "Deliver your presentation confidently."},
-    {"word": "engage", "definition": "attract and hold attention", "example": "Engage your audience."},
-    {"word": "rehearse", "definition": "practice before performance", "example": "Rehearse your presentation."},
-    {"word": "Q&A", "definition": "question and answer session", "example": "We'll have Q&A at the end."},
-    {"word": "body language", "definition": "nonverbal communication", "example": "Use positive body language."},
-    {"word": "recap", "definition": "summarize main points", "example": "Let me recap the key points."}
-  ],
-  "cultural_notes": [
-    "American business presentations value direct communication and clear structure - audiences appreciate knowing exactly what to expect.",
-    "PowerPoint or Google Slides are standard in U.S. workplaces. Knowing how to create effective slides is an important skill.",
-    "Americans value eye contact during presentations - it shows confidence and engagement.",
-    "Questions during presentations are encouraged in American culture - interruptions for clarification are generally acceptable.",
-    "TED Talk style (storytelling, minimal slides, emotional connection) has influenced American presentation culture.",
-    "Practice presentations ('dry runs') are common before important meetings - asking colleagues for feedback is normal and valued."
+  "debate_task": {
+    "motion": "This house believes that university seminars should be assessed on the quality of students' spoken contributions, not just their written work.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Oral communication is a graduate competency that employers consistently rank as among the most important — universities that do not assess it fail to develop or certify it.",
+      "Assessing spoken contributions would incentivise preparation and active engagement, transforming seminar culture from passive attendance to genuine intellectual participation.",
+      "For many disciplines — law, medicine, politics, management — the ability to argue clearly in real time is as important as written precision; assessment should reflect that."
+    ],
+    "counter_arguments": [
+      "Spoken assessment systematically disadvantages students who are quieter by temperament, those with speech impediments, and non-native speakers — it risks mistaking fluency for intelligence.",
+      "The spontaneous nature of seminar discussion makes fair, consistent assessment extremely difficult; different seminars produce different dynamics, and a grade cannot reflect what a student knows based on one discussion.",
+      "The presence of assessment transforms the pedagogical function of seminars — students stop exploring ideas and start performing, which is precisely the opposite of what good discussion-based learning requires."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. Open with an illustrative example or scenario, develop two arguments, address one counterargument using a concessive structure ('While it is true that... nevertheless...'), and close with a principled statement. Use at least 3 discourse markers."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write a 250-word argumentative essay responding to this claim: 'The most important skill a university student can develop is the ability to question received wisdom.' You may agree, disagree, or argue a more nuanced position. Your essay must be structured and use appropriate academic register.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Engage with the claim directly. Do not simply restate it — interrogate it. What does 'questioning received wisdom' mean? Is it always valuable? State your position clearly."
+      },
+      {
+        "section": "Argument in support",
+        "guidance": "Present the strongest version of the case for questioning received wisdom. Ground this in what education is for, not just in abstract principle."
+      },
+      {
+        "section": "Complication or counterargument",
+        "guidance": "Introduce a genuine complication: are there limits? Is there a difference between questioning and rejecting? Consider the risk of scepticism becoming an end in itself."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Offer a synthesising position that does justice to the complexity. Avoid a weak 'on the one hand, on the other hand' conclusion — commit to a view."
+      }
+    ],
+    "model_answer": "The claim that questioning received wisdom is the most important university skill captures something genuine about the intellectual project of higher education, but it risks mistaking a method for a goal. Questioning is not valuable in itself — it is valuable when it is rigorous, grounded, and capable of producing something better than what it displaces.\n\nThe case for this capacity is strong. Universities exist, in part, to produce people who can identify the assumptions underlying dominant frameworks — in science, in policy, in culture — and subject them to examination. The history of knowledge is a history of received wisdom overturned: in medicine, in physics, in economics. Students who cannot bring this critical disposition to their disciplines are likely to replicate rather than advance them.\n\nAnd yet there is a risk. A culture that prizes questioning above all else can produce a paralysing scepticism — the student who deconstructs every claim without the capacity or willingness to build anything in its place. Intellectual humility requires knowing when to defer to expertise, when established knowledge represents the best available understanding rather than a target for critique. The ability to question received wisdom is only fully valuable when paired with the judgement to know which wisdom deserves questioning.\n\nThe most important university skill, then, is not questioning alone, but the capacity to distinguish between what deserves challenge and what deserves careful study. That is a harder thing to teach — and a harder thing to assess — but it is what serious intellectual formation requires."
+  },
+  "advanced_grammar": {
+    "structure": "The Subjunctive Mood in Formal English",
+    "explanation": "The subjunctive is a grammatical mood used to express necessity, suggestion, recommendation, hypothesis, or wish. In contemporary American English, the subjunctive is more commonly used than in British English, and it appears regularly in formal and academic writing.\n\nThe present subjunctive uses the base form of the verb (without -s in third person singular): 'It is essential that he submit the report by Friday' (not 'submits'). The past subjunctive uses 'were' for all persons: 'If I were in your position...' (not 'was'). The subjunctive often follows verbs of recommendation, requirement, or suggestion: propose, recommend, suggest, insist, require, demand, ask.",
+    "authentic_examples": [
+      "It is essential that every participant submit a written statement before the hearing. (present subjunctive after 'essential that')",
+      "The committee recommended that the policy be reviewed annually. (present subjunctive after 'recommended that')",
+      "Were the proposal to be accepted, the implications would be considerable. (past subjunctive in formal conditional — note the inversion)"
+    ],
+    "practice": [
+      {
+        "sentence": "I recommend that he revises his thesis before submission.",
+        "transform": "Correct the verb form to use the proper subjunctive.",
+        "answer": "I recommend that he revise his thesis before submission."
+      },
+      {
+        "sentence": "If I was the committee chair, I would vote against the motion.",
+        "transform": "Correct the verb form to use the formal subjunctive appropriate to hypothetical conditions.",
+        "answer": "If I were the committee chair, I would vote against the motion."
+      },
+      {
+        "sentence": "It is vital that all applications are submitted before the deadline.",
+        "transform": "Rewrite using the present subjunctive form.",
+        "answer": "It is vital that all applications be submitted before the deadline."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the writer mean when they say a class has 'truly taken flight'?",
+      "options": [
+        "Students have physically left the room",
+        "The discussion has become genuinely independent and intellectually alive",
+        "The course has been cancelled due to poor attendance",
+        "The lecturer has exceeded the scheduled time"
+      ],
+      "correct": 1,
+      "explanation": "The metaphor 'taken flight' is used idiomatically to mean a discussion that has become self-sustaining and genuinely engaged — it is an image of movement and freedom. In context, the writer is characterising the popular myth that a silent professor signals excellent student-led learning."
+    },
+    {
+      "id": 2,
+      "question": "Which reporting verb expresses the most scepticism about a cited claim?",
+      "options": [
+        "Smith demonstrates that inequality is rising.",
+        "Smith argues that inequality is rising.",
+        "Smith claims that inequality is rising.",
+        "Smith acknowledges that inequality is rising."
+      ],
+      "correct": 2,
+      "explanation": "'Claims' carries an implicit suggestion that the assertion may not be substantiated — it is the most sceptical of the four. 'Demonstrates' implies strong evidence; 'argues' is neutral; 'acknowledges' suggests the cited author is admitting something, often used to support the citing writer's own position."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence uses the subjunctive correctly?",
+      "options": [
+        "It is important that she submits the form immediately.",
+        "It is important that she submit the form immediately.",
+        "It is important that she submitted the form immediately.",
+        "It is important that she would submit the form immediately."
+      ],
+      "correct": 1,
+      "explanation": "The present subjunctive uses the base form of the verb regardless of subject — 'submit', not 'submits'. This construction follows adjectives of necessity or importance ('essential that', 'vital that', 'important that') combined with 'that'."
+    },
+    {
+      "id": 4,
+      "question": "What is the error in this sentence: 'The professor asked us to discuss about the implications'?",
+      "options": [
+        "The infinitive 'to discuss' should be 'discussing'",
+        "'Discuss' does not take the preposition 'about' — it is used with a direct object",
+        "'Implications' should be 'implication' (singular)",
+        "The sentence is correct as written"
+      ],
+      "correct": 1,
+      "explanation": "'Discuss' is transitive and takes a direct object without a preposition. You 'discuss a topic', not 'discuss about a topic'. Compare: 'talk about a topic' (correct, because 'talk' here is intransitive) vs. 'discuss a topic' (correct, because 'discuss' takes a direct object)."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following best describes what the writer means by 'a distinct register' (paragraph 3)?",
+      "options": [
+        "A formal tone that is polite and avoids conflict",
+        "A specialised variety of language with its own conventions and norms appropriate to a particular context",
+        "A style of speaking that is only found in lecture halls",
+        "A technical vocabulary used only by academics"
+      ],
+      "correct": 1,
+      "explanation": "A 'register' in linguistics refers to a variety of language used in particular social situations, characterised by specific vocabulary, syntax, and conventions. Academic discussion is a register because it has identifiable features (attribution, evidence-grounding, sustained inquiry) that distinguish it from casual conversation — it is not just about tone or technicality."
+    }
   ]
 }

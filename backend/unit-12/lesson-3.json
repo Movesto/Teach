@@ -2,236 +2,232 @@
   "id": "lesson-68",
   "unit_id": 12,
   "lesson_number": 3,
-  "title": "Complex Problem-Solving and Innovation",
-  "level": "mastery",
-  "estimated_time": 45,
+  "title": "Writing to Power: Civic Letters and Petitions",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Apply systems thinking to complex challenges",
-    "Facilitate innovation processes",
-    "Navigate wicked problems",
-    "Synthesize multidisciplinary insights"
+    "Analyse the structural and rhetorical conventions of effective formal letters to public officials",
+    "Evaluate the appropriate use of the passive voice as a tool for journalistic objectivity and civic authority",
+    "Construct a formal letter of civic complaint or advocacy that deploys evidence, concession, and specific request",
+    "Distinguish between emotional appeal and structured argument in civic communication"
   ],
-  "target_phrases": [
-    "This is fundamentally a systems problem where...",
-    "The non-linear dynamics at play...",
-    "We're dealing with a wicked problem characterized by...",
-    "Drawing insights from adjacent domains...",
-    "The constraint that's actually limiting us is...",
-    "If we interrogate our assumptions about...",
-    "The leverage point for intervention appears to be..."
+  "authentic_text": {
+    "title": "A Letter the Council Could Not Ignore",
+    "type": "letter",
+    "text": "Dear Councillor Whitfield,\n\nI write on behalf of the Northgate Residents' Association, which represents over 340 households in the affected area, to request an urgent review of the planning decision issued on 14 February regarding the proposed industrial facility on Coldharbour Lane.\n\nThe decision, as published, fails to engage adequately with three substantive concerns raised during the statutory consultation period. First, the Environmental Impact Assessment submitted by the developer was based on traffic modelling data that predates the opening of the new secondary school by fourteen months; the consequent underestimation of peak-hour vehicle movement is significant. Second, independent air-quality monitoring conducted between October and December by the Northgate Environmental Trust recorded nitrogen dioxide concentrations that exceed the WHO threshold on forty-seven of seventy-two days in the study period — a finding that was presented to the planning committee but does not appear to have influenced the assessment. Third, the decision letter makes no reference to the legally binding commitments under the Local Authority Air Quality Action Plan, adopted in September of last year.\n\nWe do not oppose development as such. We oppose this development in this location on the basis of specific, evidenced concerns that have not been adequately addressed by the planning authority.\n\nWe respectfully request that the council withdraw the decision pending an independent review of the matters set out above, and that a written response addressing each of the three points be provided within twenty-one days.\n\nYours faithfully,\nDr Priya Nambiar\nChair, Northgate Residents' Association",
+    "source": "Adapted from a civic advocacy letter, Southeast England Local Council Records",
+    "notes": "Notice how the letter's second paragraph uses numbered claims, each supported by specific data — dates, figures, sources — to make the argument almost impossible to dismiss without engaging with its substance."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What three specific concerns does the letter raise about the planning decision?",
+      "answer": "The letter raises three concerns: (1) the Environmental Impact Assessment used outdated traffic data that predates a new school opening; (2) independent air-quality monitoring exceeded WHO thresholds on 47 of 72 days but did not appear to influence the assessment; (3) the decision letter fails to reference the legally binding Local Authority Air Quality Action Plan."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by the phrase 'a finding that was presented to the planning committee but does not appear to have influenced the assessment'?",
+      "answer": "The phrase implies that the planning committee may have ignored or set aside evidence that contradicted the decision it had already reached. The careful, qualified phrasing ('does not appear to have') is legally astute — it is damning without making an allegation that could be challenged on the grounds of insufficient evidence."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the overall tone of the letter and explain how it is maintained throughout.",
+      "answer": "The tone is formal, measured, and scrupulously civil — never hostile or emotional, despite the strength of the complaint. The writer uses 'respectfully request,' 'we do not oppose development as such,' and the formal salutation and valediction to maintain a tone of institutional authority. This is a deliberate strategy: a letter that sounds angry is easier to dismiss than one that sounds meticulous and well-evidenced."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'substantive' (paragraph 2) is closest in meaning to:",
+      "answer": "Significant and relevant to the core matter — 'substantive concerns' means concerns of real weight and importance that address the actual substance of the decision, not minor procedural quibbles."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this letter?",
+      "answer": "The writer's primary purpose is to compel the council to review and withdraw a planning decision by presenting specific evidenced objections and making a formal, time-bound request for a written response — creating an official record that can be used in further legal or civic action if the request is ignored."
+    }
   ],
-  "dialogue": {
-    "title": "Innovation Lab Session",
-    "context": "Ahmed facilitates a cross-functional team tackling a complex organizational challenge using design thinking and systems analysis.",
-    "lines": [
-      {"speaker": "Ahmed", "text": "Thank you all for joining this innovation session. We're tasked with reducing customer churn by 40%. Before jumping to solutions, let's frame the problem properly. What are we really solving for?"},
-      {"speaker": "Marketing Lead", "text": "Customer acquisition costs are rising while retention declines. We need better loyalty programs."},
-      {"speaker": "Ahmed", "text": "That's a solution, not problem definition. Let me reframe: This is fundamentally a systems problem where multiple interacting factors - product experience, customer support, competitive alternatives, pricing - create retention challenges. We're dealing with a wicked problem characterized by no clear solution and where interventions create unintended consequences."},
-      {"speaker": "Operations Lead", "text": "So we can't solve it?"},
-      {"speaker": "Ahmed", "text": "Wicked problems require different approaches than tame problems. Instead of solving, we manage them. The non-linear dynamics at play mean small changes in one area can cascade. For instance, cutting support costs might increase churn more than it saves."},
-      {"speaker": "Product Lead", "text": "Where do we start then?"},
-      {"speaker": "Ahmed", "text": "By identifying leverage points - places where small interventions create disproportionate impact. Drawing insights from adjacent domains, subscription businesses that excel at retention focus on value realization, not just feature addition. The constraint that's actually limiting us might not be our product but customer time and attention."},
-      {"speaker": "Marketing Lead", "text": "I'm not following. We have great features competitors lack."},
-      {"speaker": "Ahmed", "text": "If we interrogate our assumptions about value, we assume features equal value. But if customers don't use features, they provide zero value. The leverage point for intervention appears to be onboarding and activation - ensuring customers experience value quickly rather than overwhelming them with capabilities they never use."},
-      {"speaker": "Operations Lead", "text": "That's counterintuitive. We've been adding features to justify our pricing."},
-      {"speaker": "Ahmed", "text": "Which might exacerbate the problem. More features = more complexity = harder value realization = higher churn. What if we experimented with progressive disclosure - revealing features as customers master basics? We test this hypothesis through rapid prototyping before full implementation."},
-      {"speaker": "Product Lead", "text": "This systems thinking approach reveals root causes hidden beneath symptoms. I'm in."}
+  "language_analysis": {
+    "focus": "Passive Voice in Journalism and Civic Writing",
+    "explanation": "The passive voice is one of the most politically significant grammatical structures in civic and journalistic English. At its most basic level, it allows the writer to omit the agent of an action ('the decision was issued' rather than 'the planning officer issued the decision'). This omission can serve very different purposes depending on context.\n\nIn scientific and journalistic writing, the passive is often used to foreground the action or process rather than the individual who performed it — appropriate when the actor is irrelevant, unknown, or already established. In civic writing, however, the choice to use active or passive voice carries significant rhetorical weight. A letter that says 'evidence was ignored' creates a very different accountability frame from one that says 'the committee ignored the evidence' — both are claims about the same act, but only one assigns responsibility to a specific agent.\n\nExpert civic advocates at C1/C2 level use both active and passive voice deliberately: they use the passive to appear measured and to avoid actionable accusations where evidence is circumstantial, but they deploy the active voice when they want to pin responsibility clearly to a named party. The strategic alternation between the two is a hallmark of sophisticated formal writing.",
+    "examples": [
+      {
+        "from_text": "The decision, as published, fails to engage adequately with three substantive concerns raised during the statutory consultation period.",
+        "analysis": "The active construction ('fails to engage') assigns responsibility directly to the decision document — and by extension to those who wrote it. This is more forceful than 'three concerns were not engaged with.' The passive 'raised during the statutory consultation period' then de-emphasises the residents as actors, focusing attention on the procedural fact that the consultation occurred."
+      },
+      {
+        "from_text": "a finding that was presented to the planning committee but does not appear to have influenced the assessment",
+        "analysis": "The passive 'was presented' is followed by the active 'does not appear to have influenced' — the asymmetry is rhetorical. The residents presented evidence (active would be appropriate but would emphasise them); the committee failed to be influenced (but the passive hedges the accusation with 'does not appear to have,' softening what would otherwise be a damaging direct claim)."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The air-quality data was submitted to the committee in December and appears not to have been considered in the final assessment.",
+        "informal": "We gave them the air quality numbers and they just ignored it."
+      },
+      {
+        "formal": "It is respectfully submitted that the decision fails to comply with the requirements of the Action Plan adopted in September.",
+        "informal": "They broke their own rules and we can prove it."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Systems thinking framing",
-      "pattern": "This is fundamentally a systems problem where... / The non-linear dynamics at play...",
-      "examples": [
-        "This is fundamentally a systems problem where multiple stakeholders with conflicting incentives interact in complex ways.",
-        "The non-linear dynamics at play mean interventions produce counterintuitive results and delayed feedback.",
-        "This is fundamentally a systems problem where optimizing individual components may degrade overall performance.",
-        "The non-linear dynamics at play create tipping points where gradual changes suddenly cascade.",
-        "This is fundamentally a systems problem where feedback loops amplify or dampen effects unpredictably."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Problem reframing",
-      "pattern": "If we interrogate our assumptions about... / We're dealing with a wicked problem characterized by...",
-      "examples": [
-        "If we interrogate our assumptions about customer value, we might discover we're solving the wrong problem.",
-        "We're dealing with a wicked problem characterized by no definitive formulation and stakeholder disagreement.",
-        "If we interrogate our assumptions about success metrics, we reveal misaligned incentives.",
-        "We're dealing with a wicked problem characterized by solutions that can't be tested without implementing them.",
-        "If we interrogate our assumptions about causation, we find correlation we mistook for cause-and-effect."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Innovation and leverage",
-      "pattern": "Drawing insights from adjacent domains... / The leverage point for intervention appears to be...",
-      "examples": [
-        "Drawing insights from adjacent domains like behavioral economics can illuminate irrational decision patterns.",
-        "The leverage point for intervention appears to be changing default options rather than adding new features.",
-        "Drawing insights from network theory helps understand how ideas spread through organizations.",
-        "The leverage point for intervention appears to be feedback loops amplifying desired behaviors.",
-        "Drawing insights from complexity science reveals emergent patterns from simple rules."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit12-lesson3-listen1.mp3",
-      "transcript": "Systems thinking recognizes that elements interact in ways where the whole exceeds the sum of parts. Linear thinking assumes direct cause-effect; systems thinking identifies feedback loops, delays, and unintended consequences. When you optimize one component, you may degrade system performance. Interventions create ripple effects. Understanding systems requires mapping relationships, identifying feedback loops, and recognizing that today's problems often result from yesterday's solutions. Systems thinking is essential for complex organizational and societal challenges.",
-      "question": "What does systems thinking recognize?",
-      "options": [
-        "Simple cause-effect only",
-        "Elements interact with feedback loops and unintended consequences",
-        "Optimizing parts always improves whole",
-        "Linear relationships only"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit12-lesson3-listen2.mp3",
-      "transcript": "Wicked problems, coined by Rittel and Webber, have no definitive formulation, no stopping rule, and solutions aren't true or false but better or worse. Examples: climate change, poverty, education reform. Unlike tame problems with clear solutions, wicked problems involve stakeholder disagreement about problem definition itself. Every intervention changes the problem. You can't test solutions risk-free. These require adaptive management - continuous learning and adjustment rather than comprehensive planning and execution.",
-      "question": "What characterizes wicked problems?",
-      "options": [
-        "Clear solutions exist",
-        "No definitive formulation, stakeholder disagreement, can't test solutions risk-free",
-        "Easy to solve",
-        "Have one correct answer"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit12-lesson3-listen3.mp3",
-      "transcript": "Innovation requires divergent thinking (generating possibilities) and convergent thinking (selecting solutions). Design thinking integrates both: empathize with users, define problems, ideate solutions, prototype quickly, test and iterate. Key principles: embrace constraints, fail fast and cheap, focus on user needs not technology capabilities, multidisciplinary collaboration, bias toward action over analysis. Innovation isn't random creativity - it's disciplined process of exploring possibility space systematically while maintaining user centricity.",
-      "question": "What does design thinking integrate?",
-      "options": [
-        "Only divergent thinking",
-        "Only convergent thinking",
-        "Both divergent and convergent thinking",
-        "Neither type of thinking"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Analyze a complex problem using systems thinking. Identify feedback loops, unintended consequences, and leverage points. Use advanced problem-solving language. Record for 45 seconds.",
-      "example": "Let me analyze urban traffic congestion through systems lens. This is fundamentally a systems problem where individual rational decisions create collective irrationality. The non-linear dynamics at play include: when roads are built to reduce congestion, induced demand means more people drive, recreating congestion - a reinforcing feedback loop. If we interrogate our assumptions about solutions, we assume adding capacity reduces congestion, but Braess's paradox shows adding roads can worsen traffic. We're dealing with a wicked problem characterized by stakeholder disagreement - drivers want faster commutes, cities want sustainability, businesses need freight access. Drawing insights from adjacent domains like behavioral economics, congestion pricing changes incentives rather than just adding capacity. The constraint that's actually limiting us isn't road capacity but peak-hour demand concentration. The leverage point for intervention appears to be shifting when people travel through flexible work hours and congestion pricing, not just building more roads. Small changes in peak distribution create disproportionate flow improvements. This requires systems intervention - coordinated policies across transportation, urban planning, and workplace norms - not isolated engineering solutions.",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Facilitate an innovation session: frame a problem, challenge assumptions, and propose experimental approach. Record for 40 seconds.",
-      "example": "Welcome to this innovation session on improving employee engagement. Before proposing solutions, let's frame the problem properly. If we interrogate our assumptions about engagement, we often assume it's about perks and events. But drawing insights from adjacent domains like behavioral psychology, engagement correlates more strongly with autonomy, mastery, and purpose than with ping-pong tables. We're dealing with a complex problem where systemic factors - management practices, organizational culture, role clarity - interact non-linearly. The constraint that's actually limiting us might not be insufficient programs but misaligned incentives and manager capabilities. The leverage point for intervention appears to be manager training and structural changes enabling autonomy, not adding more employee programs. I propose we test this hypothesis through experimentation: select three teams, implement different interventions - enhanced autonomy, skill development, clearer purpose alignment - measure engagement monthly, learn what works, iterate. This is fundamentally a systems problem requiring experimental iteration rather than comprehensive planning. We'll learn by doing, fail fast where approaches don't work, and scale what succeeds.",
-      "min_seconds": 40,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a problem analysis using systems thinking. Identify feedback loops, leverage points, and potential unintended consequences of interventions. (150-180 words)",
-      "min_words": 150,
-      "example": "Systems Analysis: Healthcare Cost Escalation\n\nThis is fundamentally a systems problem where multiple feedback loops create cost acceleration. The non-linear dynamics at play include: fee-for-service payment creates incentives for more procedures, not better outcomes. Defensive medicine driven by litigation fears adds unnecessary tests. Insurance insulation from cost consequences reduces price sensitivity. Technology adoption often increases rather than decreases costs - new capabilities expand treatment possibilities.\n\nIf we interrogate our assumptions about solutions, simply cutting reimbursement rates may reduce access without addressing root causes. We're dealing with a wicked problem characterized by stakeholder disagreement about priorities - patients want unlimited care, providers want autonomy, payers want cost control, society wants universal access.\n\nDrawing insights from adjacent domains like behavioral economics, payment reform altering incentives shows promise. The leverage point for intervention appears to be shifting from volume-based to value-based care, aligning incentives around outcomes. However, unintended consequences could include cherry-picking healthy patients or under-treating complex cases. The constraint that's actually limiting us is the system optimizes for acute care, not prevention and chronic disease management. Intervention requires coordinated changes across payment, provider practices, and patient expectations.",
-      "min_words": 150
-    },
-    {
-      "id": "write-2",
-      "prompt": "Describe how you'd approach a wicked problem. Explain why traditional problem-solving won't work and what alternative approach you'd use. (120-140 words)",
-      "min_words": 120,
-      "example": "Approaching Climate Change as Wicked Problem\n\nWe're dealing with a wicked problem characterized by: no definitive problem formulation (economic development versus environmental protection?), stakeholder disagreement about priorities, no stopping rule, and solutions that can't be tested risk-free. Traditional comprehensive planning fails because the problem evolves as we intervene.\n\nThe non-linear dynamics at play include tipping points, feedback loops, and decades-long delays between emissions and impacts. If we interrogate our assumptions, hoping for perfect information before acting guarantees failure - we must act despite uncertainty.\n\nMy approach: adaptive management. Drawing insights from complexity science, we pursue multiple parallel experiments, learn rapidly what works in different contexts, and iterate. The leverage points for intervention appear to be carbon pricing (changing incentives), technology innovation, and behavior change. We don't solve wicked problems; we manage them through continuous adaptation, accepting that today's solutions create tomorrow's challenges. Success means progress, not perfection.",
-      "min_words": 120
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Conditional Sentences for Hypothetical Analysis",
-      "explanation": "Use complex conditionals to explore scenarios and assumptions.",
-      "examples": [
-        "If we were to interrogate our assumptions, we'd discover flawed premises. (hypothetical)",
-        "Were we to optimize individual components, system performance might degrade. (formal conditional)",
-        "Should this intervention succeed, we'd scale implementation. (conditional planning)",
-        "Had we understood these dynamics earlier, we'd have avoided this. (past hypothetical)"
-      ],
-      "practice": [
-        {"sentence": "If we ___ our assumptions, we'd find errors.", "blank": "interrogated", "options": ["interrogate", "interrogated", "interrogating"]},
-        {"sentence": "Were this ___ succeed, we'd expand.", "blank": "to", "options": ["to", "for", "at"]},
-        {"sentence": "Should we ___ early, benefits multiply.", "blank": "intervene", "options": ["intervene", "intervenes", "intervening"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Nominalization for Complex Concepts",
-      "explanation": "Use nominalization to discuss abstract systems concepts.",
-      "examples": [
-        "The optimization of components... (nominalized)",
-        "Our interrogation of assumptions... (complex nominalization)",
-        "The emergence of patterns... (systems language)",
-        "The amplification of feedback loops... (technical abstraction)"
-      ],
-      "practice": [
-        {"sentence": "The ___ of the problem took weeks.", "blank": "definition", "options": ["define", "definition", "defining"]},
-        {"sentence": "The ___ of solutions requires testing.", "blank": "validation", "options": ["validate", "validation", "validating"]},
-        {"sentence": "The ___ of complexity increases.", "blank": "recognition", "options": ["recognize", "recognition", "recognizing"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Relative Clauses for Defining Complex Relationships",
-      "explanation": "Use relative clauses to precisely define systems relationships.",
-      "examples": [
-        "The feedback loop that amplifies volatility... (defining relative clause)",
-        "Interventions which address root causes... (specific identification)",
-        "The constraint that actually limits performance... (emphasizing specific element)",
-        "Problems where multiple stakeholders disagree... (contextual specification)"
-      ],
-      "practice": [
-        {"sentence": "The factor ___ limits us is time.", "blank": "that", "options": ["that", "what", "which"]},
-        {"sentence": "Problems ___ stakeholders disagree require...", "blank": "where", "options": ["where", "which", "that"]},
-        {"sentence": "The feedback loop ___ amplifies effects...", "blank": "that", "options": ["that", "what", "who"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What does systems thinking recognize?", "options": ["Simple cause-effect", "Elements interact with feedback and unintended consequences", "Parts equal whole", "Linear relationships"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What characterizes wicked problems?", "options": ["Clear solutions", "No definitive formulation and stakeholder disagreement", "Easy to solve", "One correct answer"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What does design thinking integrate?", "options": ["Only divergent", "Only convergent", "Both divergent and convergent thinking", "Neither"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'If we ___ our assumptions...'", "options": ["interrogate", "interrogated", "interrogating", "interrogates"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Optimizing individual components always improves overall system performance.", "correct": false, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Wicked problems require adaptive management rather than comprehensive planning.", "correct": true, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "The ___ of the problem took weeks. (nominalization)", "correct": "definition", "accept": ["definition", "framing"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "Problems ___ stakeholders disagree require... (relative clause)", "correct": "where", "accept": ["where"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match concept:", "pairs": [{"left": "Systems thinking", "right": "Feedback loops"}, {"left": "Wicked problem", "right": "No clear solution"}, {"left": "Leverage point", "right": "Disproportionate impact"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed identified the real constraint as:", "options": ["Lack of features", "Customer time and attention", "Pricing", "Competition"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The residents' association submitted evidence during the consultation period, none of which were addressed in the final decision letter.",
+        "correct": "The residents' association submitted evidence during the consultation period, none of which was addressed in the final decision letter.",
+        "explanation": "The pronoun 'none' refers to 'evidence' (an uncountable noun), so the verb must be singular: 'was addressed,' not 'were addressed.' Even when 'none' is followed by a plural noun phrase, when the head noun is singular or uncountable, singular agreement is required."
+      },
+      {
+        "incorrect": "The planning committee must be called to account for its failure to comply the legal requirements of the Action Plan.",
+        "correct": "The planning committee must be called to account for its failure to comply with the legal requirements of the Action Plan.",
+        "explanation": "'Comply' requires the preposition 'with': 'comply with requirements/rules/regulations.' Omitting 'with' produces an incorrect prepositional collocation."
+      },
+      {
+        "incorrect": "We write on behalf of residents who are deeply concerning about the potential health impacts of the proposed development.",
+        "correct": "We write on behalf of residents who are deeply concerned about the potential health impacts of the proposed development.",
+        "explanation": "'Concerning' is a participle used as an adjective meaning 'worrying' (as in 'a concerning development'), but the correct adjective for people who feel worried is 'concerned.' Using 'concerning' to describe a human emotional state is a common C1-level confusion."
+      },
+      {
+        "incorrect": "The letter called for the council to withdraw its decision, pending an independent review of the three issues raised.",
+        "correct": "The letter called on the council to withdraw its decision, pending an independent review of the three issues raised.",
+        "explanation": "'Call for' means to demand or advocate for something ('call for a review'). 'Call on' means to appeal to or urge a specific party to take action ('call on the council to withdraw'). The distinction is between demanding an outcome and addressing a specific agent."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "wicked problem", "definition": "complex issue with no clear solution", "example": "Climate change is a wicked problem."},
-    {"word": "systems thinking", "definition": "holistic approach recognizing interconnections", "example": "Apply systems thinking to complexity."},
-    {"word": "feedback loop", "definition": "output affecting subsequent input", "example": "Identify reinforcing feedback loops."},
-    {"word": "leverage point", "definition": "where intervention has disproportionate impact", "example": "Find leverage points for change."},
-    {"word": "emergence", "definition": "complex patterns from simple interactions", "example": "Emergent properties surprise us."},
-    {"word": "non-linear", "definition": "not proportional, unpredictable relationships", "example": "Non-linear dynamics create tipping points."},
-    {"word": "unintended consequences", "definition": "unforeseen results of actions", "example": "Consider unintended consequences."},
-    {"word": "constraint", "definition": "limitation or restriction", "example": "Identify the binding constraint."},
-    {"word": "iteration", "definition": "repetition with refinement", "example": "Success requires multiple iterations."},
-    {"word": "convergent thinking", "definition": "narrowing to single solution", "example": "Balance divergent and convergent thinking."}
-  ],
-  "cultural_notes": [
-    "American business culture increasingly values systems thinking and design thinking methodologies.",
-    "Silicon Valley popularized 'fail fast' innovation culture - rapid experimentation over comprehensive planning.",
-    "U.S. management education emphasizes frameworks like design thinking, lean startup, and agile methodologies.",
-    "American innovation culture values multidisciplinary collaboration - bringing diverse perspectives together.",
-    "Wicked problems framework originated in American urban planning and policy analysis.",
-    "U.S. organizational culture increasingly recognizes that complex problems require adaptive approaches, not just analysis."
+  "debate_task": {
+    "motion": "This house believes that civic letter-writing and petitioning are ineffective forms of democratic participation in the age of social media.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Formal civic letters create legal records that can be cited in judicial review proceedings, giving them durable force that a viral tweet cannot replicate.",
+      "Petitions backed by evidence and signed by large numbers of constituents carry genuine weight in planning and policy processes, where councillors are legally obliged to consider them.",
+      "The combination of organised letter-writing and social media amplification has proven effective in numerous recent campaigns, suggesting the two methods are complementary rather than competitive."
+    ],
+    "counter_arguments": [
+      "Social media campaigns can mobilise thousands of people in hours, while formal letter-writing reaches only those with the literacy, time, and institutional knowledge to navigate civic processes.",
+      "Decision-makers have learned to absorb and dismiss large volumes of form letters, and the threshold of what constitutes a meaningful response from the public has risen significantly.",
+      "Online petitions with millions of signatures are routinely ignored by governments, demonstrating the limits of volume-based civic participation."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "letter",
+    "task": "Write a formal letter to a local councillor or elected representative objecting to a planning or policy decision that affects your community. Your letter should present three evidenced objections, use a formal and measured tone throughout, and close with a specific request and time frame.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "State who you are writing on behalf of, the specific decision you are addressing (with reference number or date if possible), and your purpose in writing. The opening must be formal, clear, and establish your standing to raise the objection."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Present your three objections in numbered form, each supported by a specific piece of evidence: data, a legal reference, an independent report, or an expert statement. Avoid emotional language — let the evidence do the rhetorical work."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Include one sentence explicitly acknowledging that you are not opposed to the stated policy goal in principle, only to this specific decision as implemented. This positions you as a reasonable interlocutor rather than a blanket opponent, and makes it harder for the official to dismiss your letter."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Close with a specific, time-bound request — withdrawal of the decision, a written response addressing your points, or an independent review. Use 'respectfully request' and close with the appropriate valediction."
+      }
+    ],
+    "model_answer": "Dear Councillor Rahman,\n\nI write on behalf of the Millbrook Green Action Group, which represents 280 households in the Millbrook ward, to request urgent reconsideration of the planning consent granted on 3 March for the expansion of the Hartley Road depot.\n\nWe raise three substantive objections. First, the transport assessment submitted by the applicant models HGV movements based on 2019 traffic data, which predates the opening of Millbrook Primary School and the new cycle infrastructure — a material omission that inflates the assessed level of service on Hartley Road. Second, air-quality readings recorded by the council's own monitoring station on Princes Avenue between January and March of this year showed particulate matter levels above the legal limit on eleven separate occasions — data not referenced in the planning officer's report. Third, the proposed development falls within the statutory buffer zone defined in the council's adopted Air Quality Management Plan, and no analysis of this conflict appears in the decision notice.\n\nWe do not oppose the depot's ongoing operation as such. We object to this specific expansion in the absence of an adequate cumulative impact assessment.\n\nWe respectfully request that the consent be suspended pending an independent review of the three matters above, and that a written response addressing each point be provided within twenty-eight days.\n\nYours faithfully,\nMarcus Osei\nCoordinator, Millbrook Green Action Group"
+  },
+  "advanced_grammar": {
+    "structure": "Conditional Structures in Journalistic and Civic Writing",
+    "explanation": "Conditional structures allow writers to express the logical relationship between a condition and its consequence without asserting that the condition has necessarily been met. In journalistic and civic writing, this is particularly important because it allows a writer to signal an implication — often a damaging one — without stating it as fact and thereby exposing themselves to accusations of inaccuracy or legal risk.\n\nThe first conditional ('if the data is correct, the assessment is flawed') asserts a real, present possibility. The second conditional ('if the committee had considered the evidence, it would have reached a different decision') implies counterfactually that they did not. The third conditional ('if the findings had been incorporated, the decision would have been different') reconstructs a past that did not occur. Understanding which conditional form to deploy — and what implication it carries — is a mark of sophisticated civic and journalistic register. Misusing the second and third conditionals is one of the most common advanced-level grammatical errors in English.",
+    "authentic_examples": [
+      "If the traffic modelling data is as outdated as the residents contend, the entire Environmental Impact Assessment must be considered unreliable.",
+      "Had the committee engaged with the independent air-quality findings, it would have been difficult to justify approving the application.",
+      "Should the council fail to respond within the stated period, the association will consider its legal options, including an application for judicial review."
+    ],
+    "practice": [
+      {
+        "sentence": "The council did not engage with the evidence. As a result, the decision was flawed. (Express as a third conditional.)",
+        "transform": "Rewrite as a third conditional sentence showing the counterfactual outcome.",
+        "answer": "Had the council engaged with the evidence, the decision might well have been different."
+      },
+      {
+        "sentence": "The data may show levels above the legal limit. If it does, the authority faces a statutory obligation to act.",
+        "transform": "Combine into a single first conditional sentence appropriate for formal civic writing.",
+        "answer": "If the data shows levels above the legal limit — as preliminary readings suggest it does — the authority faces a statutory obligation to act."
+      },
+      {
+        "sentence": "We are prepared to escalate this matter. We will do so if the council does not respond within twenty-one days.",
+        "transform": "Rewrite using 'should' as a formal conditional opener.",
+        "answer": "Should the council fail to respond within twenty-one days, we are prepared to escalate this matter through the appropriate channels."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Why does the letter writer use the phrase 'does not appear to have influenced the assessment' rather than stating directly that the committee ignored the evidence?",
+      "options": [
+        "Because the writer is not confident in her own argument and wishes to hedge.",
+        "To avoid making a definitive allegation where the evidence is circumstantial, while still conveying the damaging implication — a legally and rhetorically astute choice.",
+        "Because the passive voice is always preferable in formal letter-writing.",
+        "Because the phrase is more polite and less likely to offend the councillor receiving the letter."
+      ],
+      "correct": 1,
+      "explanation": "The hedged construction ('does not appear to have influenced') is strategically precise: it implies that the committee ignored the evidence without stating it as proven fact, protecting the writer from a defamation claim while conveying the damaging point clearly to any reader. This is sophisticated civic language use."
+    },
+    {
+      "id": 2,
+      "question": "What is the rhetorical function of the fourth paragraph ('We do not oppose development as such...')?",
+      "options": [
+        "To weaken the letter's argument by suggesting the residents are willing to accept the development.",
+        "To position the residents as reasonable interlocutors with specific, evidenced objections rather than as blanket opponents, making the letter harder to dismiss.",
+        "To comply with the formal requirements of civic correspondence, which must include an acknowledgement of the decision-maker's position.",
+        "To soften the emotional impact of the preceding three objections."
+      ],
+      "correct": 1,
+      "explanation": "Acknowledging a legitimate principle while objecting to a specific implementation is a standard move in sophisticated civic advocacy. It signals reasonableness, narrows the dispute to specific and answerable points, and removes the council's ability to characterise the objectors as simply anti-development."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The association called for the planning authority to account for its failure to address residents' concerns.'",
+      "options": [
+        "'Called for' should be 'called on' — 'call on' is used when addressing a specific party to take action.",
+        "'To account for' should be 'to be accountable of' in formal register.",
+        "'Its failure to address' should be 'its failure in addressing' — gerunds are required after failure.",
+        "No error — the sentence is correct."
+      ],
+      "correct": 0,
+      "explanation": "'Call for' is used to demand an outcome or policy ('call for a review'). 'Call on' is used to urge a specific party to act ('call on the authority to account for'). When the object is a specific institution being urged to take action, 'call on' is the correct collocation."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence most effectively uses a conditional structure to imply official failure without stating it as fact?",
+      "options": [
+        "The committee ignored the air-quality evidence, which was completely unacceptable.",
+        "Had the committee engaged with the air-quality findings, approving the application would have been difficult to justify.",
+        "If committees generally considered evidence properly, decisions would generally be better.",
+        "The committee should have looked at the evidence before deciding."
+      ],
+      "correct": 1,
+      "explanation": "The third conditional ('Had the committee engaged...') is a counterfactual: it implies that the committee did not engage with the evidence by presenting the alternative scenario. This is more powerful than a direct accusation because it invites the reader to draw the conclusion themselves, and it is legally safer because it does not assert as fact what has not been proven."
+    },
+    {
+      "id": 5,
+      "question": "In the sentence 'The decision, as published, fails to engage adequately with three substantive concerns,' what does the phrase 'as published' contribute?",
+      "options": [
+        "It specifies the medium in which the decision appeared, for the purposes of legal citation.",
+        "It implies that the decision as eventually amended or revised might be different — narrowing the critique to the current published version and leaving the council a route to remedy.",
+        "It is a redundant phrase that adds no meaning to the sentence.",
+        "It signals that the residents have obtained a copy of the decision for the purposes of this complaint."
+      ],
+      "correct": 1,
+      "explanation": "'As published' is a precise qualifier that limits the objection to the decision in its current form. This is strategically valuable: it makes the complaint focused and remediable (the council can address it by amending the published decision) rather than a broad attack on the planning process itself."
+    }
   ]
 }

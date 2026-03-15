@@ -2,238 +2,232 @@
   "id": "lesson-70",
   "unit_id": 12,
   "lesson_number": 5,
-  "title": "Mentoring and Developing Others",
-  "level": "mastery",
-  "estimated_time": 45,
+  "title": "Community Activism and Civic Persuasion",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Mentor emerging leaders effectively",
-    "Use coaching questions over directive advice",
-    "Foster growth mindsets in others",
-    "Build organizational learning culture"
+    "Analyse the rhetorical structure of persuasive civic speech and evaluate the effectiveness of its appeals to ethos, pathos, and logos",
+    "Evaluate the appropriate deployment of hedging language in civic communication to signal authority without overclaiming",
+    "Construct a persuasive civic speech or campaign text that combines evidence with narrative to move a specific audience",
+    "Distinguish between the language of advocacy and the language of agitation, and deploy each in the appropriate civic context"
   ],
-  "target_phrases": [
-    "What options have you considered?",
-    "Help me understand your thinking on...",
-    "The pattern I'm observing is...",
-    "How might you approach this differently if...",
-    "What did you learn from that experience?",
-    "I see tremendous potential in...",
-    "What would success look like for you?"
+  "authentic_text": {
+    "title": "Address to the City Council: Eastside Transit Coalition",
+    "type": "speech",
+    "text": "Councillors, I speak tonight on behalf of over three thousand Eastside residents who rely on the Route 47 bus service for employment, healthcare, and education. I want to be precise about what that means in practice, because abstractions are easy to vote against.\n\nMrs Adaeze Okafor is sixty-eight years old and travels to her dialysis appointment three times a week. She has no car, no family within fifty miles, and no alternative to Route 47. Mr Joseph Brennan is seventeen, sits his A-levels in six weeks, and travels to Westgate College every morning on this route. Neither of them is an abstraction. Both of them will be directly, immediately, and irreversibly harmed by the proposed withdrawal of this service.\n\nI want to engage with the council's stated reason for the decision: that the route is financially unviable. I accept the numbers. I do not accept the conclusion. The service costs the council £280,000 annually. The council's own economic impact assessment — and I have it here — estimates the cost to the local economy of the route's withdrawal at between £1.4 and £2.1 million per year, principally in lost productivity and increased healthcare demand. The cost of withdrawing the route substantially exceeds the cost of retaining it. This is not advocacy — it is arithmetic.\n\nWe are asking for one thing: a twelve-month suspension of the withdrawal decision, during which a proper demand analysis, including the healthcare transport premium, is conducted. That is a modest request. The cost of getting this wrong will be paid by people who have no alternative.",
+    "source": "Adapted from transcript, Eastside City Council Meeting, October session",
+    "notes": "Notice how the speaker alternates between specific individuals (Mrs Okafor, Mr Brennan) and aggregate data — a classic rhetorical strategy that uses narrative to make statistics emotionally legible."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What specific request does the speaker make of the council?",
+      "answer": "The speaker requests a twelve-month suspension of the withdrawal decision, during which a proper demand analysis — including the healthcare transport premium — should be conducted."
+    },
+    {
+      "type": "inference",
+      "question": "What does the speaker imply by saying 'This is not advocacy — it is arithmetic'?",
+      "answer": "The speaker implies that the council's financial objection to the route can be countered on its own terms — that the economic case for retaining the service is stronger than the case for withdrawing it, even using the council's own data. The phrase reframes the speech from emotional pleading to logical argument, positioning the speaker as reasonable and evidence-based rather than merely passionate."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the second paragraph and analyse how the choice of specific individuals contributes to it.",
+      "answer": "The tone is deliberately personal and emotionally grounded without being sentimental. By naming Mrs Okafor and Mr Brennan specifically — with ages, circumstances, and the phrase 'Neither of them is an abstraction' — the speaker refuses to allow the council to vote against a statistical category. The tone is both humanising and gently accusatory: it makes the concrete human cost visible while reminding councillors that their decision is not administrative but moral."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The phrase 'healthcare transport premium' (final paragraph) is closest in meaning to:",
+      "answer": "The additional cost to the healthcare system attributable specifically to the loss of transport access — i.e., the increase in healthcare demand and cost that results when people who depend on public transport for medical appointments can no longer reach them. The speaker argues this premium has not been factored into the council's economic analysis."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the speaker's main purpose in this speech?",
+      "answer": "The speaker's primary purpose is to persuade the council to suspend the withdrawal of Route 47 by combining an emotional appeal (specific named individuals who will be harmed) with a logical counter-argument (the council's own data shows withdrawal costs more than retention) — making it simultaneously difficult to dismiss the case emotionally and to defend it financially."
+    }
   ],
-  "dialogue": {
-    "title": "Mentoring a Rising Leader",
-    "context": "Ahmed mentors Maya, a talented junior manager facing a challenging situation, using coaching questions to develop her problem-solving capabilities.",
-    "lines": [
-      {"speaker": "Maya", "text": "Ahmed, thanks for meeting. I'm struggling with my team. Two members constantly clash, productivity is suffering, and I don't know what to do."},
-      {"speaker": "Ahmed", "text": "I appreciate you coming to me. Before I share thoughts, help me understand your thinking on what's driving the conflict."},
-      {"speaker": "Maya", "text": "They have different work styles - one is very structured, the other more creative and flexible. They criticize each other's approaches."},
-      {"speaker": "Ahmed", "text": "Interesting. What options have you considered for addressing this?"},
-      {"speaker": "Maya", "text": "I thought about separating them on different projects, but that seems like avoiding the problem. Or mediating a conversation, but I'm not sure how."},
-      {"speaker": "Ahmed", "text": "Those are both possibilities. The pattern I'm observing is that you're recognizing avoidance versus confronting the issue. How might you approach this differently if you viewed their different styles as complementary rather than conflicting?"},
-      {"speaker": "Maya", "text": "I never thought of it that way. You mean help them see value in each other's approaches?"},
-      {"speaker": "Ahmed", "text": "What would that look like? How could you facilitate that shift?"},
-      {"speaker": "Maya", "text": "Maybe I could have them collaborate on something where they each contribute their strengths? The structured person could handle planning while the creative one drives innovation?"},
-      {"speaker": "Ahmed", "text": "That's worth exploring. What did you learn from situations where you've had to bridge different perspectives?"},
-      {"speaker": "Maya", "text": "That usually the conflict comes from not understanding why the other person works differently. When I understand the 'why,' I'm less judgmental."},
-      {"speaker": "Ahmed", "text": "Exactly. I see tremendous potential in your ability to reframe challenges as opportunities. What would success look like for you in this situation?"},
-      {"speaker": "Maya", "text": "Not just ending the conflict, but creating a team that values diverse approaches and collaborates better because of differences, not despite them."},
-      {"speaker": "Ahmed", "text": "That's mature thinking. You've essentially solved this yourself - you just needed to talk it through. That's leadership development."}
+  "language_analysis": {
+    "focus": "Hedging in Civic Communication",
+    "explanation": "Hedging in civic and political communication is the use of modal verbs, qualifying phrases, and epistemic markers to signal the degree of certainty with which a claim is made. Far from weakening an argument, strategic hedging in civic discourse signals intellectual honesty, respect for evidence, and awareness of complexity — all of which build credibility with an audience of officials or educated citizens.\n\nThe key distinction is between hedging that reflects genuine uncertainty and hedging that is used rhetorically to distinguish the speaker's measured claims from an opponent's overclaimed ones. A speaker who says 'the evidence suggests,' 'it appears that,' or 'the available data indicates' is performing epistemic responsibility — signalling that the claim is grounded but not beyond challenge. This is different from hedging that signals weakness or avoidance.\n\nAt C1/C2 level, learners should be able to deploy hedging strategically: to hedge claims where the evidence is genuinely uncertain, to avoid hedging where the evidence is clear (overcautious hedging sounds evasive), and to use hedging as a rhetorical contrast — making the speaker's careful claims appear more credible precisely because they are not asserted with false certainty.",
+    "examples": [
+      {
+        "from_text": "I accept the numbers. I do not accept the conclusion.",
+        "analysis": "This is a deliberate hedge by concession: accepting the data (which would be difficult to challenge) while disputing the interpretation drawn from it. The structure signals intellectual honesty and positions the speaker as someone who engages with evidence rather than dismissing it — a sophisticated form of hedging that concedes territory strategically."
+      },
+      {
+        "from_text": "The council's own economic impact assessment estimates the cost to the local economy of the route's withdrawal at between £1.4 and £2.1 million per year",
+        "analysis": "The range ('between £1.4 and £2.1 million') is a form of quantitative hedging: it signals that the figure is an estimate with a margin of uncertainty rather than a definitive number. This is more credible than a single precise figure ('exactly £1.7 million'), because it reflects what economic modelling actually produces and signals that the speaker is not inflating the data."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The available evidence suggests that withdrawal of the service would impose costs on the local economy substantially in excess of the savings generated.",
+        "informal": "Taking the bus away will cost way more than it saves — everyone knows it."
+      },
+      {
+        "formal": "It appears that the impact assessment may not have fully accounted for the healthcare transport premium associated with reduced service access.",
+        "informal": "They forgot to count the money it costs when sick people can't get to hospital."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Coaching questions over advice",
-      "pattern": "What options have you considered? / How might you approach this differently if...",
-      "examples": [
-        "What options have you considered for addressing this challenge?",
-        "How might you approach this differently if you had no resource constraints?",
-        "What have you tried so far, and what were the results?",
-        "How might you frame this if you viewed it as opportunity rather than obstacle?",
-        "What would you do if you knew you couldn't fail?"
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Understanding mentee thinking",
-      "pattern": "Help me understand your thinking on... / What did you learn from...",
-      "examples": [
-        "Help me understand your thinking on what's really driving this situation.",
-        "What did you learn from the last time you faced something similar?",
-        "Help me understand what success would look like from your perspective.",
-        "What did you learn about yourself from that experience?",
-        "Help me understand what's holding you back from taking action."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Affirming potential and growth",
-      "pattern": "I see tremendous potential in... / The pattern I'm observing is...",
-      "examples": [
-        "I see tremendous potential in your ability to reframe challenges creatively.",
-        "The pattern I'm observing is that you're growing in strategic thinking.",
-        "I see tremendous potential in how you're developing your emotional intelligence.",
-        "The pattern I'm observing is increasing confidence in your decision-making.",
-        "I see tremendous potential in your capacity to develop others."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit12-lesson5-listen1.mp3",
-      "transcript": "Effective mentoring uses coaching approach - asking questions rather than giving answers. This develops mentee's problem-solving capabilities instead of creating dependency. Coaching questions include: 'What have you tried?' 'What options do you see?' 'What's really at stake here?' 'How might you approach this differently?' Questions stimulate thinking, surface assumptions, and empower ownership. Resist the temptation to solve problems for people - help them develop capacity to solve problems themselves. This builds leadership capability.",
-      "question": "Why use questions over answers in mentoring?",
-      "options": [
-        "To avoid helping",
-        "Develops problem-solving capability and prevents dependency",
-        "To waste time",
-        "Because you don't know answers"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit12-lesson5-listen2.mp3",
-      "transcript": "Growth mindset, researched by Carol Dweck, believes abilities can be developed through effort and learning. Fixed mindset sees abilities as static. As mentor, foster growth mindset by: praising effort and strategy, not just outcomes; normalizing failure as learning; encouraging calculated risk-taking; emphasizing process over results; modeling learning from mistakes. Language matters: 'You're naturally talented' reinforces fixed mindset. 'Your hard work paid off' reinforces growth mindset. Leaders who cultivate growth mindsets create learning organizations.",
-      "question": "How do you foster growth mindset?",
-      "options": [
-        "Praise natural talent",
-        "Praise effort, strategy, and learning; normalize failure",
-        "Avoid all failure",
-        "Focus only on results"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit12-lesson5-listen3.mp3",
-      "transcript": "Developmental feedback differs from evaluative feedback. Evaluative judges performance: 'This is good/bad.' Developmental builds capability: 'Here's what worked, here's what might work differently, what did you learn?' Focus on behavior, not person. Be specific, not general. Balance affirmation with growth opportunities. Use 'I noticed...' not 'You always...' Create psychological safety where people can admit struggles without judgment. The goal isn't making people feel good - it's helping them grow. Honesty delivered with care builds trust.",
-      "question": "What's the goal of developmental feedback?",
-      "options": [
-        "Making people feel good",
-        "Judging performance",
-        "Helping them grow through specific, behavioral feedback",
-        "Avoiding tough conversations"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Someone comes to you with a problem. Use coaching questions to help them think through it (don't just give advice). Show mentoring approach. Record for 40 seconds.",
-      "example": "I appreciate you bringing this to me. Before we dive into solutions, help me understand your thinking on what's really at the root of this challenge. What have you tried so far? What were the results? I'm hearing that you've attempted direct conversation but it didn't shift behavior. What options have you considered beyond that conversation? How might you approach this differently if you reframed it from 'correcting behavior' to 'understanding motivation'? What do you think drives their resistance? I see tremendous potential in your ability to analyze situations - you're identifying patterns others might miss. What did you learn from the last time you faced pushback when implementing change? The pattern I'm observing is that you're developing sophistication in change management. What would success look like for you here - is it compliance or genuine buy-in? That distinction matters for your approach. How might you build coalition with those who support the change to create momentum? You're working through this thoughtfully - what's your next step?",
-      "min_seconds": 40,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Give developmental feedback to someone who failed at a task but showed good effort and learning. Foster growth mindset. Record for 35 seconds.",
-      "example": "I want to talk about the presentation project. First, I appreciate the effort and creativity you brought - you clearly invested significant time. The outcome wasn't what we hoped, but what did you learn from the experience? I noticed several strengths: your research was thorough, your visual design was compelling, and you adapted well to audience questions. The areas for growth center on structure and message clarity. Help me understand your thinking on how you organized the content - what drove that approach? For future presentations, how might you approach structure differently knowing your audience needed clearer takeaways? I see tremendous potential in how you're developing presentation skills. The pattern I'm observing is that you're willing to take risks and learn from results - that's exactly what growth requires. This project didn't achieve our goals, but the capabilities you're building will serve you well. What would you do differently next time? That's not failure - that's learning. Keep iterating.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write developmental feedback for someone who has potential but is underperforming. Balance affirmation with growth needs. Use growth mindset language. (130-160 words)",
-      "min_words": 130,
-      "example": "Developmental Feedback: Performance Discussion\n\nI want to share observations about your performance and development trajectory. I see tremendous potential in your analytical capabilities and strategic thinking - the insights you bring to discussions are consistently valuable.\n\nThe pattern I'm observing is a gap between your potential and your current output. Help me understand what's driving this disconnect. What obstacles are you encountering? What support would enable you to perform at the level I believe you're capable of?\n\nSpecific areas for development:\n\n1. Follow-through: You generate excellent ideas but inconsistently execute them fully. What's preventing completion?\n\n2. Initiative: You contribute well when directed but could demonstrate more proactive problem-solving. How might you approach this differently?\n\n3. Communication: Your written analysis is strong, but verbal presentation needs development. What did you learn from recent presentations?\n\nI'm invested in your growth because I genuinely believe you have capacity for leadership. What would success look like for you in the next six months? How can I support that development?\n\nThis feedback comes from wanting to see you succeed, not from disappointment. Growth requires honest assessment. I'm here to help you reach your potential.",
-      "min_words": 130
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write mentoring guidance for a new manager struggling with delegation. Use coaching questions and developmental approach. (100-120 words)",
-      "min_words": 100,
-      "example": "Mentoring Conversation: Delegation Development\n\nI understand you're finding delegation challenging. Rather than tell you what to do, let's explore your thinking.\n\nWhat makes delegation difficult for you? Many new managers struggle with this - what specifically holds you back?\n\nWhen you do delegate, what happens? What did you learn from those experiences?\n\nHow might you approach delegation differently if you viewed it as team development rather than task transfer? What would that shift mean for how you delegate?\n\nI've observed that you excel at complex work yourself. The pattern I'm observing is perfectionism making you reluctant to let others learn through doing. How might your career have developed if your early managers hadn't trusted you with challenging assignments?\n\nWhat would effective delegation look like for you? How might you build that capability?\n\nI see tremendous potential in your development as leader. Delegation isn't about getting things off your plate - it's about growing your team's capacity.",
-      "min_words": 100
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Open-Ended Questions for Coaching",
-      "explanation": "Use open-ended questions (how, what, why) to stimulate thinking, not closed yes/no questions.",
-      "examples": [
-        "What options have you considered? (open, promotes thinking)",
-        "How might you approach this? (open, encourages creativity)",
-        "What did you learn? (open, promotes reflection)",
-        "Why do you think that happened? (open, develops analysis)"
-      ],
-      "practice": [
-        {"sentence": "___ options have you considered?", "blank": "What", "options": ["What", "Do", "Are"]},
-        {"sentence": "___ might you approach this?", "blank": "How", "options": ["How", "Can", "Will"]},
-        {"sentence": "___ did you learn from that?", "blank": "What", "options": ["What", "Did", "Have"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Conditional Sentences for Reframing",
-      "explanation": "Use conditionals to help mentees consider alternative perspectives.",
-      "examples": [
-        "How might you approach this if you had no constraints? (hypothetical)",
-        "What would you do if you knew you couldn't fail? (reframing)",
-        "If you viewed this as opportunity, what would you see? (perspective shift)",
-        "How might this look if you had more confidence? (growth possibility)"
-      ],
-      "practice": [
-        {"sentence": "What ___ you do if you couldn't fail?", "blank": "would", "options": ["will", "would", "can"]},
-        {"sentence": "How might this look if you ___ more confident?", "blank": "were", "options": ["are", "were", "was"]},
-        {"sentence": "What would happen if you ___ that approach?", "blank": "tried", "options": ["try", "tried", "tries"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Present Progressive for Observed Patterns",
-      "explanation": "Use present progressive to describe ongoing patterns you observe.",
-      "examples": [
-        "The pattern I'm observing is... (ongoing observation)",
-        "You're developing strong capabilities in... (continuing growth)",
-        "I'm noticing that you're becoming more... (progressive change)",
-        "You're showing increasing comfort with... (developing skill)"
-      ],
-      "practice": [
-        {"sentence": "The pattern I'm ___ is improvement.", "blank": "observing", "options": ["observe", "observing", "observed"]},
-        {"sentence": "You're ___ strong leadership skills.", "blank": "developing", "options": ["develop", "developing", "developed"]},
-        {"sentence": "I'm ___ increasing confidence.", "blank": "noticing", "options": ["notice", "noticing", "noticed"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "Why use questions over answers in mentoring?", "options": ["To avoid helping", "Develops problem-solving capability", "To waste time", "You don't know"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "How do you foster growth mindset?", "options": ["Praise talent", "Praise effort, strategy, and learning", "Avoid failure", "Focus on results only"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What's the goal of developmental feedback?", "options": ["Feel good", "Judge performance", "Help them grow through specific feedback", "Avoid tough talks"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: '___ options have you considered?'", "options": ["Do", "What", "Are", "Can"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Effective mentoring builds problem-solving capability, not dependency.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You should always give direct answers to mentees' questions.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "What ___ you do if you couldn't fail? (reframing)", "correct": "would", "accept": ["would"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "You're ___ strong skills. (present progressive)", "correct": "developing", "accept": ["developing", "building"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match mentoring concept:", "pairs": [{"left": "Coaching questions", "right": "Develop thinking"}, {"left": "Growth mindset", "right": "Abilities develop"}, {"left": "Developmental feedback", "right": "Build capability"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed helped Maya by:", "options": ["Solving her problem", "Using questions to develop her thinking", "Telling her what to do", "Avoiding the issue"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The speaker's appeal to pathos — her use of named individuals to humanise an abstract policy decision — proves to be the most effective rhetorical device in the speech.",
+        "correct": "The speaker's appeal to pathos — the use of named individuals to humanise an abstract policy decision — proves to be the most effective rhetorical device in the speech.",
+        "explanation": "Using 'her' here is inconsistent with the impersonal analytical register appropriate for this kind of critical commentary. The non-defining appositive should be reformulated without the possessive pronoun when the gender of the speaker has not been established or when writing in a detached analytical voice."
+      },
+      {
+        "incorrect": "The coalition's economic argument is compelling, comprising evidence from the council's own impact assessment to counter the claim that the route is financially unviable.",
+        "correct": "The coalition's economic argument is compelling, drawing on evidence from the council's own impact assessment to counter the claim that the route is financially unviable.",
+        "explanation": "'Comprising' means 'consisting of' or 'made up of' — it describes composition, not process. An argument does not 'comprise evidence'; it 'draws on' or 'uses' or 'deploys' evidence. 'Comprising' is one of the most commonly misused C1-level words."
+      },
+      {
+        "incorrect": "Effective civic advocacy requires that speakers should tailor their argument to the specific concerns and institutional constraints of their audience.",
+        "correct": "Effective civic advocacy requires that speakers tailor their argument to the specific concerns and institutional constraints of their audience.",
+        "explanation": "After 'require that,' the subjunctive mood is used: the base form of the verb without 'should.' 'Requires that speakers tailor' (not 'should tailor') is correct in formal English. Adding 'should' after 'that' in a mandative construction is a common C1 error."
+      },
+      {
+        "incorrect": "The speech's use of both emotional narrative and quantitative evidence allows it to address the council both from the perspective of values and the perspective of financial responsibility.",
+        "correct": "The speech's use of both emotional narrative and quantitative evidence allows it to address the council from the perspectives of both values and financial responsibility.",
+        "explanation": "The original places 'both' in two different positions, creating an awkward and asymmetrical construction. The corrected version uses a single 'from the perspectives of both' to create a parallel and elegant structure, avoiding repetition of 'from the perspective of.'"
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "mentoring", "definition": "guiding someone's development", "example": "Mentoring builds future leaders."},
-    {"word": "coaching", "definition": "asking questions to develop thinking", "example": "Use coaching approach in mentoring."},
-    {"word": "growth mindset", "definition": "belief abilities can develop", "example": "Foster growth mindset in others."},
-    {"word": "developmental", "definition": "focused on building capability", "example": "Give developmental feedback."},
-    {"word": "scaffolding", "definition": "temporary support enabling growth", "example": "Provide scaffolding as they learn."},
-    {"word": "reflection", "definition": "thoughtful consideration of experience", "example": "Promote reflection on learning."},
-    {"word": "capability", "definition": "ability to do something", "example": "Build leadership capabilities."},
-    {"word": "potential", "definition": "latent qualities awaiting development", "example": "I see tremendous potential."},
-    {"word": "empowerment", "definition": "giving authority and confidence", "example": "Mentoring empowers others."},
-    {"word": "succession", "definition": "planned transfer of leadership", "example": "Mentoring ensures succession."}
-  ],
-  "cultural_notes": [
-    "American workplace culture increasingly values coaching over directive management.",
-    "Growth mindset (Carol Dweck) has significantly influenced American education and business culture.",
-    "U.S. companies invest heavily in leadership development programs and mentoring.",
-    "American mentoring culture emphasizes empowerment over dependency - teaching to fish rather than giving fish.",
-    "Psychological safety (Google's Project Aristotle) has made creating learning-friendly environments a priority in American workplaces.",
-    "American culture values individual accountability, so mentoring focuses on building self-sufficiency."
+  "debate_task": {
+    "motion": "This house believes that community activism based on personal narrative is more effective than activism based on data and economic argument.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Narrative creates emotional salience that moves decision-makers and the public in ways that statistics cannot, because people respond to stories about individuals rather than aggregate data.",
+      "The media attention generated by compelling personal stories amplifies a campaign's reach far beyond what technical reports can achieve in the attention economy.",
+      "Emotional connection to a cause generates sustained volunteer commitment and political will in ways that purely analytical arguments do not."
+    ],
+    "counter_arguments": [
+      "Officials tasked with allocating public resources are obligated to respond to evidence, and decisions made purely on the basis of emotional appeal are vulnerable to accusations of inconsistency and partiality.",
+      "Campaigns built exclusively on personal narrative can be countered by opposing narratives, whereas data-based arguments require the opponent to engage with the evidence on its own terms.",
+      "The most effective civic advocacy combines both — narrative to attract attention and create emotional salience, data to close the argument and prevent dismissal."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "speech",
+    "task": "Write a short civic speech addressed to a local authority, school board, or community council arguing for or against a specific local decision. Your speech should include at least one specific named individual or case, an evidence-based argument, an acknowledgement of the opposing position, and a clear and specific request.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Establish your standing (who you represent and how many), name the specific decision you are addressing, and signal that you will engage with the authority's stated concerns rather than simply opposing them."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Introduce one or two specific individuals who will be affected by the decision, using names, ages, and circumstances to make the abstract concrete. Transition from narrative to data: use the individuals to establish moral salience, then back your argument with specific figures or official sources."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge the authority's stated rationale — financial, logistical, or policy-based — and engage with it seriously. Concede any element that is factually accurate, then argue that the conclusion drawn from it does not follow, or that the data has been applied incorrectly."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Make a single, specific, time-bound request. Frame it as modest and reasonable. Close with a reminder of the human cost of inaction — but briefly, so the final note is practical rather than emotional."
+      }
+    ],
+    "model_answer": "Chair, I speak on behalf of the Westwood Parents' Forum, representing 420 families, to oppose the proposed closure of Westwood Library's Saturday service.\n\nI want to put a face on the numbers. Fourteen-year-old Amara Diallo uses the Saturday session every week to complete coursework she cannot do at home — her family's flat has no broadband. She is not the only one. In a survey of 112 regular Saturday users conducted last month, sixty-eight per cent reported that the session was their primary access to digital services and educational resources. Forty-one per cent reported having no home internet connection.\n\nI accept the council's financial position. The Saturday service costs £34,000 annually, and I understand that savings must be found. Nevertheless, the council's digital inclusion report — published in January — identifies reduced library access as the primary risk factor for digital exclusion among young people in this borough. Closing the service the report identifies as essential, in the same year the report is published, demands an explanation we have not yet received.\n\nWe are asking for three things: first, a pause on the closure decision pending consultation with the affected communities; second, an assessment of the cost to educational attainment of removing the only digital access point for a significant proportion of students in this ward; and third, a written response within twenty-eight days.\n\nAmara will sit her GCSEs in ten months. The cost of getting this wrong is measurable. The cost of a twelve-month review is £34,000. The arithmetic is not complicated."
+  },
+  "advanced_grammar": {
+    "structure": "Complex Nominal Groups",
+    "explanation": "A nominal group (noun phrase) is the unit of language built around a noun. In formal and analytical writing, these groups become 'complex' through the accumulation of pre-modifiers (adjectives, nouns as adjectives, participial phrases) and post-modifiers (prepositional phrases, relative clauses, appositive phrases). Complex nominal groups are characteristic of academic, journalistic, and civic registers because they allow a writer to pack significant information into a single noun phrase, creating the density of expression appropriate to formal discourse.\n\nThe communicative purpose of complex nominal groups is precision and economy: rather than requiring a separate clause to specify each element of a concept, the writer builds all necessary qualification into the noun phrase itself. 'The proposed twelve-month suspension of the council's route withdrawal decision' is a complex nominal group that conveys specific information (proposed status, duration, nature of the request, and the specific decision targeted) in a single unit. At C1/C2 level, learners should be able to both produce and unpack complex nominal groups — to read through the density of formal writing and to construct it in their own analytical and civic prose.",
+    "authentic_examples": [
+      "A twelve-month suspension of the withdrawal decision, during which a proper demand analysis is conducted, represents a modest and responsible response to a significant evidential gap.",
+      "The council's own economic impact assessment of the proposed service withdrawal estimates costs to the local economy substantially in excess of the projected savings.",
+      "The healthcare transport premium associated with reduced access to dialysis and specialist services for non-car-owning residents has not been factored into the financial analysis."
+    ],
+    "practice": [
+      {
+        "sentence": "The coalition submitted evidence. The evidence related to economic impact. The council had not considered this impact. (Reduce to a single complex nominal group as the subject.)",
+        "transform": "Combine using a complex nominal group as the grammatical subject of the sentence.",
+        "answer": "The coalition's previously unconsidered evidence of the service withdrawal's economic impact was submitted to the council."
+      },
+      {
+        "sentence": "The speaker argued for a review. The review would be independent. It would last twelve months. It would examine the demand for the route.",
+        "transform": "Reduce to a single sentence using a complex nominal group for the object of 'argued for.'",
+        "answer": "The speaker argued for an independent twelve-month review of route demand, encompassing the healthcare transport premium."
+      },
+      {
+        "sentence": "The decision was proposed. It affects three thousand residents. They depend on the bus service for healthcare.",
+        "transform": "Rewrite opening with a complex nominal group that incorporates the relative clause.",
+        "answer": "The proposed decision affecting three thousand healthcare-dependent residents has not been adequately impact-assessed."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the rhetorical purpose of naming Mrs Okafor and Mr Brennan specifically in the speech?",
+      "options": [
+        "To provide evidence that can be independently verified by the council.",
+        "To create emotional salience — to make it impossible for councillors to vote against abstract statistics without also voting against specific named individuals.",
+        "To demonstrate that the speaker has personally interviewed residents affected by the decision.",
+        "To comply with the formal requirements of civic testimony, which must include named witnesses."
+      ],
+      "correct": 1,
+      "explanation": "The speaker explicitly signals this purpose: 'abstractions are easy to vote against.' By naming and humanising two individuals, the speaker makes the abstract policy decision concrete and morally legible — a classic rhetorical move that uses narrative to give statistics emotional weight."
+    },
+    {
+      "id": 2,
+      "question": "What does the phrase 'This is not advocacy — it is arithmetic' signal about the speaker's rhetorical strategy?",
+      "options": [
+        "The speaker is abandoning an emotional argument in favour of a purely logical one.",
+        "The speaker is reframing the argument as objective evidence rather than partisan pleading, using the council's own data to make the financial case for retention.",
+        "The speaker is criticising the council for allowing financial considerations to override humanitarian ones.",
+        "The speaker is claiming that the decision is mathematically impossible to justify."
+      ],
+      "correct": 1,
+      "explanation": "The phrase is a rhetorical pivot: having established the human cost, the speaker now presents the financial counter-argument using the council's own assessment. By calling it 'arithmetic' rather than 'advocacy,' the speaker implies that only mathematical incompetence or bad faith could produce a different conclusion — a powerful debating move."
+    },
+    {
+      "id": 3,
+      "question": "Identify the error: 'The report, comprising extensive economic analysis, argues that the cost of service withdrawal will substantially exceed the projected savings.'",
+      "options": [
+        "No error — 'comprising' is correctly used here.",
+        "'Comprising' should be 'incorporating' or 'drawing on' — 'comprise' describes composition, not the use of material.",
+        "'Will substantially exceed' should be 'substantially exceeds' — present simple is required in formal reports.",
+        "'The cost of service withdrawal' should be 'the costs of withdrawing the service' — the gerund is required."
+      ],
+      "correct": 1,
+      "explanation": "'Comprising extensive economic analysis' implies the report is made up of economic analysis, which is plausible but unusual for this construction. More importantly, 'comprising' describes composition ('the report comprises three sections'), not the use of material as evidence. 'Drawing on' or 'incorporating' are more appropriate when describing how a document uses its sources."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following most effectively uses hedging to signal a well-evidenced but appropriately qualified claim?",
+      "options": [
+        "The withdrawal of Route 47 will definitely destroy the local economy.",
+        "The available evidence strongly suggests that withdrawal costs will substantially exceed projected savings, though the precise magnitude will depend on demand modelling assumptions.",
+        "Maybe the withdrawal will be quite expensive, but it's hard to say.",
+        "The council's data is wrong because it does not include healthcare costs."
+      ],
+      "correct": 1,
+      "explanation": "Option B uses 'strongly suggests' (hedged but confident), 'substantially exceed' (specific but not overclaimed), and 'will depend on demand modelling assumptions' (acknowledged source of variability). This signals evidential responsibility without undermining the claim's force."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence contains a correctly formed complex nominal group in bold?",
+      "options": [
+        "The [decision about withdrawal of the bus route which was proposed] has been controversial.",
+        "The [council's proposed withdrawal of the Route 47 bus service] has been opposed by over three thousand residents.",
+        "The [thing that they decided, which was to withdraw Route 47] upset many people.",
+        "The [withdrawal which has been proposed by the council about Route 47] is expensive."
+      ],
+      "correct": 1,
+      "explanation": "Option B constructs a compact, pre-modified nominal group: 'the council's' (possessive pre-modifier) + 'proposed' (participial pre-modifier) + 'withdrawal of the Route 47 bus service' (head noun + post-modifier). This is denser and more elegant than the relative clause constructions in the other options."
+    }
   ]
 }

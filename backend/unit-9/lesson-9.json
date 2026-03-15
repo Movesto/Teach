@@ -2,588 +2,231 @@
   "id": "lesson-76",
   "unit_id": 9,
   "lesson_number": 9,
-  "title": "Reported Speech",
+  "title": "Reported Speech: Distance, Accuracy, and the Politics of Attribution",
+  "template": "advanced",
   "level": "advanced",
-  "estimated_time": 45,
-  "story_context": "Ahmed has just come out of a meeting with Director Kim that Rosa missed. As he catches her up on what was discussed, Rosa notices something interesting: Ahmed is automatically shifting tenses and changing phrases as he reports what the director said. Without realizing it, he has been using reported speech all along. This lesson makes that instinct conscious and gives Ahmed the tools to report workplace communication accurately.",
   "objectives": [
-    "Use 'say' and 'tell' correctly in reported speech",
-    "Apply tense backshift when reporting past statements",
-    "Report questions, commands, and requests accurately",
-    "Handle time expressions correctly in reported speech"
+    "Analyse the range of structures available for reported speech and evaluate the epistemic implications of each choice",
+    "Distinguish between direct quotation, indirect speech, and free indirect discourse, and deploy each for specific communicative effect",
+    "Evaluate the ethical and rhetorical dimensions of attribution — how what is reported and how it is reported shapes meaning",
+    "Synthesise multiple attributed positions into a coherent argumentative structure using appropriate reporting verbs"
   ],
-  "target_phrases": [
-    "She said that the meeting would start at noon.",
-    "He told me that the project had been approved.",
-    "She asked whether I could attend.",
-    "He said he would send the report.",
-    "The manager told us to submit the forms.",
-    "She mentioned that she had already finished.",
-    "He explained that the deadline had changed."
+  "authentic_text": {
+    "title": "The Mayor's Housing Plan: What Was Said, and What Was Heard",
+    "type": "article",
+    "text": "Speaking at a press conference on Tuesday, the Mayor announced what she described as a 'transformative' plan to address the city's housing shortage. She argued that the proposal would deliver twelve thousand new homes within five years and insisted that these would be 'genuinely affordable', a phrase she declined to define in numerical terms.\n\nCritics were swift to respond. The opposition leader said the figure was 'entirely unrealistic' and claimed that no planning infrastructure existed to support development at this scale. Housing campaigners, for their part, expressed concern about what they characterised as vagueness over affordability thresholds, pointing out that previous administrations had used the same language to justify developments in which the cheapest units were unaffordable to the very households they were meant to serve.\n\nThe Mayor's office pushed back, arguing that the campaign groups were misrepresenting her position. In a subsequent statement, aides insisted that the affordability criteria would be defined in the technical planning documentation, which was described as forthcoming.\n\nWhat this episode illustrates is how contested language operates in public policy debates. Words like 'affordable', 'transformative', and 'genuinely' carry enormous rhetorical weight precisely because they invite projection — each constituency hears in them the promise they most want. When the mayor says 'genuinely affordable', she is making a commitment; but the commitment is essentially empty until it is made specific. That gap between rhetorical assertion and substantive commitment is one of the defining features of contemporary political communication.",
+    "source": "Adapted from The Guardian, February 2025",
+    "notes": "Notice how the writer moves between direct quotation (with speech marks), indirect speech (no speech marks), and their own analytical voice — this three-way movement is characteristic of quality political journalism."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "What did housing campaigners express concern about, according to paragraph 2?",
+      "answer": "Housing campaigners expressed concern about vagueness over affordability thresholds, specifically that previous administrations had used the same language ('genuinely affordable') to justify developments in which the cheapest units were unaffordable to the households they were meant to serve."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by saying the Mayor declined to define 'genuinely affordable' 'in numerical terms'?",
+      "answer": "The adverb 'in numerical terms' implies that the Mayor gave some definition, but not a measurable or verifiable one. The phrase suggests deliberate vagueness — choosing rhetorical commitment over substantive specificity. This is implicitly critical."
+    },
+    {
+      "type": "tone",
+      "question": "In the final paragraph, does the writer take a side? How do you know?",
+      "answer": "The writer presents a critical analysis without explicitly endorsing any political position — but the analysis is far from neutral. Phrases like 'essentially empty', 'the commitment is essentially empty until it is made specific', and 'one of the defining features of contemporary political communication' (implying a systemic problem) reveal a critical stance toward political rhetoric in general, and toward this episode in particular."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'projection' mean in the final paragraph?",
+      "answer": "In this context, 'projection' means the psychological process of reading into a vague statement the specific meaning or promise that you want it to contain. Vague language 'invites projection' because it can be interpreted differently by different audiences — each hears what they hope for."
+    },
+    {
+      "type": "purpose",
+      "question": "Why does the writer place 'genuinely' in quotation marks in the final paragraph even though this is their own sentence, not a direct quote?",
+      "answer": "The quotation marks around 'genuinely' signal scepticism — the writer is distancing themselves from the word's claims, implying it should not be taken at face value. This is a subtle use of quotation marks to signal irony or critical distance without explicitly saying 'I do not believe this claim'."
+    }
   ],
-  "dialogue": {
-    "title": "Reporting the Manager's Instructions",
-    "context": "Ahmed has just come out of a meeting with his manager, Director Kim. His coworker Rosa missed the meeting and asks Ahmed what was discussed.",
-    "lines": [
+  "language_analysis": {
+    "focus": "Reporting Verbs and Their Epistemic Implications",
+    "explanation": "When we report what someone has said, we do not simply relay information — we frame it. The choice of reporting verb carries significant meaning about the speaker's attitude to the reported statement, its truth status, and its rhetorical character.\n\nReporting verbs can be grouped by the stance they signal: Neutral verbs say nothing about truth or tone: 'said', 'stated', 'noted'. Commitment verbs imply the speaker is asserting a claim strongly: 'insisted', 'maintained', 'argued', 'contended'. Sceptical verbs introduce doubt: 'claimed', 'alleged', 'purported'. Performative verbs describe the speech act itself: 'announced', 'warned', 'conceded', 'acknowledged', 'admitted'. Attribution verbs report how the speaker framed their own statement: 'described as', 'characterised as', 'referred to as'.\n\nAt C1/C2 level, choosing between 'she said', 'she argued', 'she claimed', 'she alleged', and 'she insisted' is not a stylistic preference — each choice positions the reader differently in relation to the reported statement. Good academic and journalistic writing uses this spectrum with precision.",
+    "examples": [
       {
-        "speaker": "Rosa",
-        "text": "Ahmed, I missed Director Kim's meeting. What did she say?"
+        "from_text": "what she characterised as vagueness over affordability thresholds",
+        "analysis": "'Characterised as' is an attribution verb — it reports how the campaigners framed the situation without the writer endorsing that framing. This creates distance: the writer is not saying there was vagueness, but that the campaigners described it as such. This is a standard journalistic technique for presenting contested interpretations without appearing to take sides."
       },
       {
-        "speaker": "Ahmed",
-        "text": "She said that the deadline for the inventory report had been moved. She told us it was now due on Friday instead of next Monday."
+        "from_text": "arguing that the campaign groups were misrepresenting her position",
+        "analysis": "The verb 'arguing' here is stronger than 'saying' but weaker than 'insisting' — it presents the Mayor's office as actively trying to persuade, while implying the question is not settled. 'Arguing' is a commitment-heavy verb that signals a contested claim. Compare with 'the Mayor's office noted...' (neutral) or 'the Mayor's office maintained...' (stronger commitment)."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The minister maintained that the policy had achieved its intended objectives, notwithstanding the evidence to the contrary.",
+        "informal": "The minister kept saying the policy worked, even though the evidence showed it didn't."
       },
       {
-        "speaker": "Rosa",
-        "text": "Really? She told you it was due on Friday? That's only two days away!"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "I know. She also mentioned that she had already emailed everyone, but she wanted to tell us in person to make sure we understood."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "What else? Did she talk about the new software system?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Yes. She explained that the new system would be installed the following week. She said it would replace the current spreadsheet process."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "Did she say whether there would be training?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "She asked whether anyone had experience with the software. Then she told us she would arrange training sessions for everyone who needed them."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "What about the budget meeting? Was that discussed?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "She said the budget meeting had been rescheduled. She told the team not to worry — she would send a new calendar invite that afternoon."
-      },
-      {
-        "speaker": "Rosa",
-        "text": "I notice you're saying 'she said' and 'she told us' — is there a difference?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "Good catch! 'Say' doesn't need a person after it — 'she said the deadline had changed.' But 'tell' needs a person — 'she told us the deadline had changed.' You can't say 'she told the deadline had changed.'"
-      },
-      {
-        "speaker": "Rosa",
-        "text": "And I notice you changed the tenses — 'is due' became 'was due', 'will' became 'would'. Why?"
-      },
-      {
-        "speaker": "Ahmed",
-        "text": "That's tense backshift — because the manager spoke in the past, everything shifts back one tense when we report it. Present becomes past, will becomes would, can becomes could."
+        "formal": "The report concedes that earlier projections were overly optimistic.",
+        "informal": "The report basically admits the original numbers were wrong."
       }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Tense backshift in reported statements",
-      "pattern": "Direct: 'I am ready.' → Reported: She said (that) she was ready. | Direct: 'I will help.' → Reported: He said he would help.",
-      "examples": [
-        "'The meeting starts at 9.' → She said the meeting started at 9.",
-        "'I can attend tomorrow.' → He said he could attend the next day.",
-        "'We have finished the report.' → They said they had finished the report.",
-        "'I will send the documents.' → She said she would send the documents.",
-        "'The system is being updated.' → He explained that the system was being updated."
-      ],
-      "your_turn": "Report this: 'The meeting starts at 9 and everyone will attend.'",
-      "prompts": [
-        {
-          "sentence": "Direct: 'I am ready.' → She said she ___ ready.",
-          "answer": "was"
-        },
-        {
-          "sentence": "Direct: 'We will finish soon.' → They said they ___ finish soon.",
-          "answer": "would"
-        },
-        {
-          "sentence": "Direct: 'I have submitted it.' → He said he ___ submitted it.",
-          "answer": "had"
-        }
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Say vs Tell",
-      "pattern": "SAY: say (that)... — no person after say | TELL: tell + person + (that)... — always needs a person",
-      "examples": [
-        "She said (that) the meeting was postponed. ✓ | She told that the meeting was postponed. ✗",
-        "He told me (that) he would be late. ✓ | He said me (that) he would be late. ✗",
-        "The manager said the policy had changed. ✓",
-        "The manager told the team the policy had changed. ✓",
-        "She told us to submit our reports by Friday. ✓ (tell + person + infinitive for commands)"
-      ],
-      "your_turn": "Use 'told' in a sentence: 'The manager told [someone] that the deadline had changed.'",
-      "prompts": [
-        {
-          "sentence": "She ___ that the meeting was cancelled. (no person needed after this verb)",
-          "answer": "said"
-        },
-        {
-          "sentence": "He ___ me the project had been approved. (person required after this verb)",
-          "answer": "told"
-        },
-        {
-          "sentence": "The manager ___ us to submit the forms by Friday. (command)",
-          "answer": "told"
-        }
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Reporting questions and commands",
-      "pattern": "Reported questions: asked + if/whether (yes/no) or asked + wh-word (wh-questions) | Reported commands: told + person + to + infinitive",
-      "examples": [
-        "'Do you have experience?' → She asked whether I had experience. (yes/no → whether/if)",
-        "'When will you finish?' → He asked when I would finish. (wh-question — use wh-word)",
-        "'Please submit the form.' → She told us to submit the form. (command → told + to infinitive)",
-        "'Can you come to the meeting?' → She asked if I could come to the meeting.",
-        "'Don't be late.' → He told us not to be late. (negative command → told + not to)"
-      ],
-      "your_turn": "Report: 'Do you have experience?' and 'When will you finish?'",
-      "prompts": [
-        {
-          "sentence": "Direct: 'Do you understand?' → She asked ___ I understood.",
-          "answer": "if"
-        },
-        {
-          "sentence": "Direct: 'Where is the report?' → He asked where the report ___.",
-          "answer": "was"
-        },
-        {
-          "sentence": "Direct: 'Please sit down.' → She ___ us to sit down.",
-          "answer": "told"
-        }
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson9-listen1.mp3",
-      "transcript": "Rosa: 'So what did Director Kim say in the meeting?' Ahmed: 'She said the new inventory system would be installed next month. She mentioned that it would replace the current spreadsheet process — she said everyone would need to adjust their workflow.' Rosa: 'So she said «will» — but you said «would»?' Ahmed: 'Exactly. She said «The system will be installed.» But when I report what she said, it becomes «would» — because she said it in the past, and I'm reporting it now.' Rosa: 'Like a tense shift.' Ahmed: 'Right. «Will» in direct speech becomes «would» in reported speech.'",
-      "question": "What happens to 'will' in reported speech?",
-      "options": [
-        "It stays as 'will'",
-        "It becomes 'would'",
-        "It becomes 'should'",
-        "It is removed"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson9-listen2.mp3",
-      "transcript": "Marcus [on phone]: 'Hey Ahmed, I missed the briefing. What did Director Kim say?' Ahmed: 'She said training would start the following Monday — she said «next Monday» in the meeting, but that's now «the following Monday» when I report it.' Marcus: 'She said the following Monday? So «tomorrow» would become «the next day»?' Ahmed: 'Exactly. «Today» becomes «that day». «This week» becomes «that week». «Tomorrow» becomes «the next day» or «the following day». The time shifts because she spoke yesterday — I'm reporting today.' Marcus: 'That makes sense. What else?' Ahmed: 'She said the materials had already been sent — she used «yesterday», which became «the day before» in my report.'",
-      "question": "What does 'tomorrow' become in reported speech?",
-      "options": [
-        "Tomorrow",
-        "Today",
-        "The next day",
-        "The day before"
-      ],
-      "correct": 2
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson9-listen3.mp3",
-      "transcript": "HR Manager: 'So I spoke with the employee this morning about the complaint. I asked her whether she felt comfortable continuing in her current role. She said she did, but she asked what process had been followed when the schedule was changed. I told her that the standard procedure had been applied. She also asked if her supervisor had been informed. I told her he had been. She asked what steps would be taken going forward, and I told her we would review the case within two weeks.' Director Kim: 'Good. And your recommendation?' HR: 'I asked her if she would be willing to meet with the team lead. She said she would if the timing worked.'",
-      "question": "What do we use for reported yes/no questions?",
-      "options": [
-        "That",
-        "Which",
-        "If or whether",
-        "What"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Your colleague missed a team meeting. Report what your manager said using reported speech. Include at least one command, one question the manager asked, and two statements. Record for 35 seconds.",
-      "example": "Let me fill you in on what the manager said. She told us that the quarterly targets had been revised and that we would need to increase our output by 15% over the next month. She asked whether anyone had ideas for improving efficiency, and several team members suggested better scheduling. She explained that the new tracking software would be introduced the following week. She also told us not to share the updated targets with clients yet — she said she would announce the changes officially the next day. She mentioned that she had already spoken with senior management and that they had approved the new plan.",
-      "min_seconds": 35,
-      "target_language": "english",
-      "sentence_starters": [
-        "She/He told us that ...",
-        "The manager explained that ... and that ...",
-        "She/He asked whether ... She/He also told us to ..."
-      ]
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Report a conversation you had recently — with a friend, family member, or colleague. Use reported statements, a question, and a command or request. Record for 30 seconds.",
-      "example": "I spoke with my brother last night. He told me that he had started a new job and that he was really enjoying it. He said the commute was long but that his colleagues were friendly. He asked me whether I had seen our parents recently, and I told him I had visited them the weekend before. He mentioned that he would come home for the holidays and asked if I could help him plan a small dinner. He also told me not to tell our mother about the new job yet — he said he wanted to surprise her himself when he visited.",
-      "min_seconds": 30,
-      "target_language": "english",
-      "sentence_starters": [
-        "I spoke with [my colleague / a friend / my manager] recently. They told me that ...",
-        "They mentioned that ... and that ...",
-        "They asked me whether ... They also told me to ..."
-      ]
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Convert this dialogue to reported speech in a paragraph (80-100 words). Write as if you are telling a colleague what was said.\n\nManager: 'The training will start at 9am tomorrow. Everyone must attend. Can you help set up the room today? The previous training went very well.'\nAhmed: 'Yes, I can help. Will there be materials we need to prepare?'\nManager: 'Yes. Please print the handouts this afternoon.'",
-      "min_words": 80,
-      "example": "The manager told us that the training would start at 9am the following day and that everyone had to attend. She asked Ahmed if he could help set up the room that day. She also mentioned that the previous training had gone very well. Ahmed replied that he could help and asked whether there were any materials they needed to prepare. The manager confirmed that there were and told him to print the handouts that afternoon.",
-      "rubric": [
-        "Apply tense backshift correctly throughout — no present tense verbs in your reported version",
-        "Use both 'said' and 'told' correctly (told needs a person object; said does not)",
-        "Change time expressions where needed (tomorrow → the following day, today → that day)"
-      ]
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a short email (80-100 words) to a colleague who missed a meeting. Use reported speech to summarize what was discussed — include at least 3 statements, 1 question that was raised, and 1 instruction the manager gave.",
-      "min_words": 80,
-      "example": "Hi Marcus,\n\nYou missed today's team meeting, so here's a summary. Director Kim said that the project deadline had been extended by one week. She explained that the client had requested additional revisions and that the team would need to incorporate them before the final submission. Someone asked whether the budget would be affected, and the director said it would not change. She also told everyone to update their task lists in the shared system by end of day Thursday. Let me know if you have questions.\n\nBest,\nAhmed",
-      "rubric": [
-        "Include at least 3 reported statements, 1 reported question (using if/whether or a wh-word), and 1 reported instruction (told + person + to + verb)",
-        "Vary your reporting verbs — use said, told, explained, mentioned, asked (not just 'said' repeatedly)",
-        "Use proper email format: greeting, body paragraphs, and sign-off"
-      ]
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Tense Backshift Chart",
-      "explanation": "When reporting past speech, shift all tenses one step back in time.",
-      "examples": [
-        "Present simple → Past simple: 'I work here.' → He said he worked there.",
-        "Present continuous → Past continuous: 'I am working.' → She said she was working.",
-        "Past simple → Past perfect: 'I finished.' → He said he had finished.",
-        "Will → Would: 'I will come.' → She said she would come.",
-        "Can → Could: 'I can help.' → He said he could help."
-      ],
-      "practice": [
-        {
-          "sentence": "Direct: 'I am ready.' → Reported: She said she ___ ready.",
-          "blank": "was",
-          "options": [
-            "was",
-            "is",
-            "will be"
-          ]
-        },
-        {
-          "sentence": "Direct: 'I will send it.' → Reported: He said he ___ send it.",
-          "blank": "would",
-          "options": [
-            "will",
-            "would",
-            "could"
-          ]
-        },
-        {
-          "sentence": "Direct: 'We have finished.' → Reported: They said they ___ finished.",
-          "blank": "had",
-          "options": [
-            "have",
-            "had",
-            "has"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Say vs Tell: Core Rules",
-      "explanation": "'Say' does not need a person object. 'Tell' always needs a person object. Both can introduce reported clauses.",
-      "examples": [
-        "She said (that) the meeting was cancelled. ✓ (no person after say)",
-        "She told me (that) the meeting was cancelled. ✓ (person 'me' after tell)",
-        "She told (that) the meeting was cancelled. ✗ (missing person after tell)",
-        "She said me the meeting was cancelled. ✗ (no person directly after say)",
-        "He told us to arrive early. ✓ (tell + person + to + infinitive for commands)"
-      ],
-      "practice": [
-        {
-          "sentence": "She ___ that she would be late.",
-          "blank": "said",
-          "options": [
-            "said",
-            "told",
-            "spoke"
-          ]
-        },
-        {
-          "sentence": "He ___ me the project had been approved.",
-          "blank": "told",
-          "options": [
-            "said",
-            "told",
-            "talked"
-          ]
-        },
-        {
-          "sentence": "The manager ___ us to submit the forms by Friday.",
-          "blank": "told",
-          "options": [
-            "said",
-            "told",
-            "spoke"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Reported Questions: Word Order and Conjunctions",
-      "explanation": "Reported questions use normal (non-inverted) word order and no question mark. Use 'if/whether' for yes/no questions and the wh-word for open questions.",
-      "examples": [
-        "Direct: 'Is the report ready?' → Reported: She asked if the report was ready.",
-        "Direct: 'When will you finish?' → Reported: He asked when I would finish.",
-        "Direct: 'Can you help?' → Reported: She asked whether I could help.",
-        "Direct: 'Why did you arrive late?' → Reported: He asked why I had arrived late."
-      ],
-      "practice": [
-        {
-          "sentence": "Direct: 'Do you understand?' → She asked ___ I understood.",
-          "blank": "if",
-          "options": [
-            "if",
-            "that",
-            "what"
-          ]
-        },
-        {
-          "sentence": "Direct: 'What time does it start?' → He asked ___ time it started.",
-          "blank": "what",
-          "options": [
-            "what",
-            "if",
-            "that"
-          ]
-        },
-        {
-          "sentence": "Direct: 'Can she come?' → They asked ___ she could come.",
-          "blank": "whether",
-          "options": [
-            "whether",
-            "that",
-            "who"
-          ]
-        }
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
       {
-        "id": "q1",
-        "type": "multiple-choice",
-        "question": "Choose the correct reported speech: Direct: 'I am tired.'",
-        "options": [
-          "She said she is tired.",
-          "She said she was tired.",
-          "She told she was tired.",
-          "She said she were tired."
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "The researcher argued that the results are significant and that further investigation was needed.",
+        "correct": "The researcher argued that the results were significant and that further investigation was needed.",
+        "explanation": "In reported speech, when the reporting verb is in the past ('argued'), the tense in the reported clause typically shifts back — 'are' becomes 'were'. This is sequence of tenses (or backshift). Both clauses should be in the past: 'were significant and... was needed'."
       },
       {
-        "id": "q2",
-        "type": "multiple-choice",
-        "question": "Which sentence uses 'tell' correctly?",
-        "options": [
-          "He told that he would come.",
-          "He told the news to us.",
-          "He told us he would come.",
-          "He told he was ready."
-        ],
-        "correct": 2,
-        "points": 10
+        "incorrect": "She said me that the meeting had been rescheduled.",
+        "correct": "She told me that the meeting had been rescheduled.",
+        "explanation": "'Say' does not take an indirect object — you cannot 'say someone something'. The correct verb is 'tell', which takes an indirect object: 'told me that...'. Compare: 'she said (something)' vs. 'she told me (something)'."
       },
       {
-        "id": "q3",
-        "type": "multiple-choice",
-        "question": "What does 'will' become in reported speech?",
-        "options": [
-          "Will",
-          "Would",
-          "Should",
-          "Could"
-        ],
-        "correct": 1,
-        "points": 10
+        "incorrect": "The professor denied to have seen the document before the meeting.",
+        "correct": "The professor denied having seen the document before the meeting.",
+        "explanation": "The verb 'deny' is followed by a gerund (-ing form), not a to-infinitive. 'Deny doing something' is the correct pattern. 'Deny to do' does not exist in standard English. Compare: 'admitted doing', 'denied doing', 'acknowledged doing'."
       },
       {
-        "id": "q4",
-        "type": "multiple-choice",
-        "question": "Reported question: Direct: 'Where is the report?' → He asked ___",
-        "options": [
-          "where is the report?",
-          "where the report was.",
-          "where was the report.",
-          "that where the report was."
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q5",
-        "type": "true-false",
-        "question": "In reported questions, the subject and verb are inverted (like in direct questions).",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q6",
-        "type": "true-false",
-        "question": "'Say' can be directly followed by a person object (e.g., 'she said me...').",
-        "correct": false,
-        "points": 10
-      },
-      {
-        "id": "q7",
-        "type": "fill-blank",
-        "question": "Direct: 'I can help.' → Reported: He said he ___ help.",
-        "correct": "could",
-        "accept": [
-          "could"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q8",
-        "type": "fill-blank",
-        "question": "Use if/whether or a wh-word: Direct: 'Do you understand?' → She asked ___ I understood.",
-        "correct": "if",
-        "accept": [
-          "if",
-          "whether"
-        ],
-        "points": 10
-      },
-      {
-        "id": "q9",
-        "type": "matching",
-        "question": "Match direct speech tense to reported speech tense:",
-        "pairs": [
-          {
-            "left": "Present simple",
-            "right": "Past simple"
-          },
-          {
-            "left": "Will",
-            "right": "Would"
-          },
-          {
-            "left": "Past simple",
-            "right": "Past perfect"
-          }
-        ],
-        "points": 10
-      },
-      {
-        "id": "q10",
-        "type": "multiple-choice",
-        "question": "Reported command: Direct: 'Please sit down.' → The manager ___",
-        "options": [
-          "said us to sit down.",
-          "told us to sit down.",
-          "asked sit down.",
-          "told to sit down."
-        ],
-        "correct": 1,
-        "points": 10
-      },
-      {
-        "id": "q11",
-        "type": "open-ended",
-        "question": "Find and fix the grammar error: 'She told that the meeting will be cancelled.'",
-        "correct": "She said that the meeting would be cancelled.",
-        "accept": [
-          "She said that the meeting would be cancelled.",
-          "She told us that the meeting would be cancelled."
-        ],
-        "points": 10
-      },
-      {
-        "id": "q12",
-        "type": "open-ended",
-        "question": "Find and fix the grammar error: 'He asked where is the document.'",
-        "correct": "He asked where the document was.",
-        "accept": [
-          "He asked where the document was."
-        ],
-        "points": 10
+        "incorrect": "According to the report, 'the government has failed to address the underlying causes.'",
+        "correct": "According to the report, the government has failed to address the underlying causes.",
+        "explanation": "When using 'according to', you are paraphrasing rather than directly quoting — quotation marks are inappropriate. If quoting directly, the attribution phrase should not be 'according to' but rather 'the report states:'. Mixing paraphrase attribution with direct-quote punctuation is a common formatting error."
       }
     ]
   },
-  "vocabulary": [
+  "debate_task": {
+    "motion": "This house believes that journalists should be required to attribute all claims to named sources, with anonymous sourcing banned.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Anonymity enables sources to make claims without accountability — readers cannot evaluate the credibility of an unnamed source or the potential agenda behind a leaked statement.",
+      "The widespread use of anonymous sources has contributed to a culture of strategically placed leaks in which powerful actors manipulate media narratives without consequence or attribution.",
+      "Democratic legitimacy requires transparency: if a claim is worth making publicly, the person making it should be willing to attach their name to it."
+    ],
+    "counter_arguments": [
+      "Anonymous sourcing has produced some of the most important investigative journalism in history — Watergate, corporate fraud exposés, whistleblowing on illegal government surveillance — all would have been impossible without it.",
+      "In many contexts, requiring named attribution would put sources at genuine personal or professional risk; protecting vulnerable sources is a journalistic duty that overrides the convenience of transparency.",
+      "The question of credibility can be managed through editorial standards and verification rather than blanket attribution requirements — the solution to abuse is better journalism, not a rule that kills investigative reporting."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 250-word speech arguing FOR or AGAINST the motion. Include at least one specific historical example as evidence, use at least 3 discourse markers, and demonstrate your understanding of the function of attributed and anonymous sources in journalism."
+  },
+  "extended_writing": {
+    "type": "article",
+    "task": "Write a 250-word analysis for a media studies journal about how reported speech is used in news reporting to construct a narrative. Use the authentic text from this lesson (or any news article you are familiar with) as your primary example. Your analysis should comment on the effect of specific reporting verbs.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Frame the analytical question: how does the choice of reporting verb shape how readers receive a reported statement? Give one example immediately to anchor the discussion."
+      },
+      {
+        "section": "Analysis 1: Commitment and scepticism verbs",
+        "guidance": "Analyse at least two examples showing how verbs like 'argued', 'insisted', 'claimed', or 'alleged' position the reader differently. Quote from the text."
+      },
+      {
+        "section": "Analysis 2: Attribution and framing",
+        "guidance": "Analyse the use of 'described as', 'characterised as' or similar constructions to show how journalists introduce contested interpretations at arm's length."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Reflect on the implications: is it possible to report speech neutrally? What does your analysis suggest about the relationship between journalism and objectivity?"
+      }
+    ],
+    "model_answer": "In news reporting, the verb of attribution is rarely as neutral as it appears. When a journalist writes 'she said', they are presenting a statement neutrally; when they write 'she insisted', they are implying the statement is contested or under pressure; when they write 'she claimed', they introduce a note of scepticism about the statement's truth. This range of reporting verbs is one of the primary mechanisms through which journalistic framing operates.\n\nThe Guardian's coverage of the Mayor's housing announcement illustrates this with unusual clarity. The Mayor's statement that housing would be 'genuinely affordable' is attributed with neutral verbs ('announced', 'described'), but the opposition's response is reported using 'said' and 'claimed' — the latter introducing implicit doubt. Campaigners, meanwhile, are said to have 'expressed concern' and to have 'characterised' the situation as vague. 'Characterised as' is a particularly revealing construction: it allows the journalist to introduce a contested framing — vagueness — without endorsing it.\n\nFrequently, the most revealing attribution in a report is not the direct quote but the framing of indirect speech. 'Aides insisted that the affordability criteria would be defined later' tells us not only what was said but that its credibility is under question — 'insisted' signals resistance to a pressure that is not explicitly named.\n\nThe implication is that truly neutral reporting of speech may be a methodological impossibility. Every attribution is a choice; every reporting verb carries a valence. Recognising this is not a counsel of cynicism but a precondition for reading news critically."
+  },
+  "advanced_grammar": {
+    "structure": "Free Indirect Discourse",
+    "explanation": "Free indirect discourse (FID) is a narrative technique that blends the narrator's voice with a character's or speaker's thoughts and speech, without using explicit reporting verbs or quotation marks. It allows a writer to represent a perspective while maintaining narrative distance and ironic possibilities that direct and indirect speech cannot achieve.\n\nIn journalism and literary non-fiction, FID creates a subtle effect: the writer seems to be voicing someone else's perspective, but the absence of explicit attribution can signal either sympathy or irony. The technique is identified by a third-person pronoun, a past tense, and the presence of subjective language that 'belongs' to the subject: 'She had worked for twenty years on this project. Surely the committee would recognise that. Surely they would not simply discard everything she had built.'",
+    "authentic_examples": [
+      "The minister had been clear, hadn't he? The decision had been made at the highest level; there was no question of reversal. (FID — the reasoning is the minister's, reported without quotation marks)",
+      "Of course the numbers added up. Anyone who looked at them carefully would see that. The critics simply hadn't done their homework. (FID — echoes the speaker's confident dismissiveness without the writer endorsing it)",
+      "What did it matter, in the end? The project was done. The results spoke for themselves. (FID — the writer adopts the subject's resigned, conclusory register)"
+    ],
+    "practice": [
+      {
+        "sentence": "She thought: 'This is completely unfair. I have done everything that was asked of me.'",
+        "transform": "Rewrite as free indirect discourse (third person, past tense, no quotation marks or reporting verb).",
+        "answer": "This was completely unfair. She had done everything that had been asked of her."
+      },
+      {
+        "sentence": "He told the committee that the project was on schedule and that there was nothing to worry about.",
+        "transform": "Rewrite as free indirect discourse, adopting his perspective and register.",
+        "answer": "The project was on schedule. There was absolutely nothing to worry about."
+      },
+      {
+        "sentence": "The critics claimed that the evidence was insufficient and that the methodology was flawed.",
+        "transform": "Rewrite in free indirect discourse, capturing the critics' perspective with a note of insistence.",
+        "answer": "The evidence was insufficient — anyone could see that. And the methodology? Plainly flawed."
+      }
+    ]
+  },
+  "quiz": [
     {
-      "word": "reported speech",
-      "definition": "reporting what someone said without using their exact words",
-      "example": "She said the meeting had been cancelled — this is reported speech."
+      "id": 1,
+      "question": "What does the writer mean by saying 'each constituency hears in them the promise they most want'?",
+      "options": [
+        "Different political parties each support different housing policies",
+        "Vague language allows different groups to interpret it as the specific commitment they desire",
+        "The Mayor has made separate promises to different groups",
+        "Housing policy is always interpreted differently by those who hear about it in different constituencies"
+      ],
+      "correct": 1,
+      "explanation": "The writer is describing the mechanism of rhetorical vagueness: words like 'genuinely affordable' are powerful precisely because they are undefined, allowing each group to project onto them the specific meaning or promise they want to hear. This is distinct from making multiple separate promises — it is a single vague statement that functions as a mirror for each group's expectations."
     },
     {
-      "word": "direct speech",
-      "definition": "quoting someone's exact words, usually in quotation marks",
-      "example": "'I am ready,' he said — this is direct speech."
+      "id": 2,
+      "question": "Which reporting verb introduces the most scepticism about the truth of what is reported?",
+      "options": [
+        "She argued that the policy was effective.",
+        "She demonstrated that the policy was effective.",
+        "She claimed that the policy was effective.",
+        "She confirmed that the policy was effective."
+      ],
+      "correct": 2,
+      "explanation": "'Claimed' carries an implicit suggestion that the assertion may be untrue or unsubstantiated — it distances the reporter from the content of the statement. 'Demonstrated' implies the claim is proven; 'confirmed' implies it was already known to be true; 'argued' is neutral — it presents a view under debate without endorsing or dismissing it."
     },
     {
-      "word": "tense backshift",
-      "definition": "shifting verb tenses back when reporting past speech",
-      "example": "'I will come' becomes 'he said he would come' after tense backshift."
+      "id": 3,
+      "question": "What is the error in 'She said me that the meeting had been rescheduled'?",
+      "options": [
+        "'Had been rescheduled' should be 'was rescheduled'",
+        "'Said' does not take an indirect object — 'told' should be used instead",
+        "'Said me' should be 'said to me'",
+        "The sentence is correct as written"
+      ],
+      "correct": 1,
+      "explanation": "'Say' does not take an indirect object in English — you cannot say 'she said me something'. The correct verb is 'tell': 'she told me that...'. 'Said to me' (Option C) is grammatically possible but would require a complete restructuring: 'she said to me that...' — but even this is awkward. 'Told me' is the standard form."
     },
     {
-      "word": "conjunction",
-      "definition": "connecting word; 'that', 'if', 'whether' introduce reported clauses",
-      "example": "She said that she had finished."
+      "id": 4,
+      "question": "Which of the following is an example of free indirect discourse?",
+      "options": [
+        "She said: 'I have worked too hard for this to be dismissed so easily.'",
+        "She told the committee that she had worked too hard for this to be dismissed so easily.",
+        "She had worked too hard for this. Who were they to dismiss it so easily?",
+        "It was noted by the committee that her hard work deserved recognition."
+      ],
+      "correct": 2,
+      "explanation": "Free indirect discourse blends the narrator's voice with the character's perspective without quotation marks or reporting verbs. Option C adopts the character's rhetorical question ('Who were they...?') in third-person, past-tense narration — the perspective is clearly hers but the grammatical form is narrative. Options A and B are direct and indirect speech respectively; D is a passive report."
     },
     {
-      "word": "inversion",
-      "definition": "reversing subject-verb order (used in direct questions but NOT in reported questions)",
-      "example": "Direct: 'Are you ready?' — no inversion in reported: He asked if I was ready."
-    },
-    {
-      "word": "command",
-      "definition": "an instruction telling someone to do something",
-      "example": "The manager told us to submit the forms."
-    },
-    {
-      "word": "request",
-      "definition": "politely asking someone to do something",
-      "example": "She asked if I could help with the setup."
-    },
-    {
-      "word": "summarize",
-      "definition": "give the main points of something concisely",
-      "example": "Ahmed summarized what the manager had said."
-    },
-    {
-      "word": "backshift",
-      "definition": "moving a verb tense to an earlier time in reported speech",
-      "example": "'Is' backshifts to 'was' in reported speech."
-    },
-    {
-      "word": "clause",
-      "definition": "a group of words with a subject and verb",
-      "example": "She said that the report was ready — 'that the report was ready' is a reported clause."
+      "id": 5,
+      "question": "What is the correct reported speech version of 'I am writing the report now' (reported the following day)?",
+      "options": [
+        "She said she is writing the report now.",
+        "She said she was writing the report then.",
+        "She said she has been writing the report now.",
+        "She said she wrote the report now."
+      ],
+      "correct": 1,
+      "explanation": "In reported speech, the present continuous ('am writing') shifts back to past continuous ('was writing'), and 'now' shifts to 'then' (since the time has changed). 'She said she was writing the report then' correctly applies both the tense backshift and the deixis shift (now → then)."
     }
-  ],
-  "cultural_notes": [
-    "In American professional settings, accurately reporting what was said in meetings is an important skill — miscommunicating a manager's instructions can cause real problems.",
-    "Americans often use reported speech without the word 'that': 'He said the meeting was cancelled' sounds perfectly natural without 'that'.",
-    "Email summaries after meetings (often called 'meeting minutes' or 'follow-up emails') are standard American workplace practice and rely heavily on reported speech.",
-    "In American conversation, people sometimes use the present tense to report current beliefs: 'She says she's coming.' Backshift is used when clearly reporting past speech.",
-    "The phrase 'I was told...' (passive reported speech) is commonly used in American workplaces to share information without revealing the source or to soften news."
   ]
 }

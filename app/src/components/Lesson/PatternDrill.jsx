@@ -101,7 +101,6 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
     setPromptFeedback(null);
 
     if (nextPrompt >= drill.prompts.length) {
-      // All prompts done, show "Your Turn"
       setShowYourTurn(true);
     } else {
       setCurrentPrompt(nextPrompt);
@@ -131,14 +130,13 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
     }
   };
 
-  // Render the sentence with the blank highlighted
   const renderSentence = (sentence, answer, showAnswer) => {
     const parts = sentence.split('___');
     return (
       <span className="text-xl">
         {parts[0]}
         <span className={`inline-block min-w-[80px] border-b-2 text-center font-bold ${
-          showAnswer ? 'border-green-500 text-green-700' : 'border-blue-500 text-blue-700'
+          showAnswer ? 'border-green-500 text-green-700 dark:text-green-400' : 'border-blue-500 text-blue-700 dark:text-blue-400'
         }`}>
           {showAnswer ? answer : '___'}
         </span>
@@ -149,11 +147,11 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Pattern Drills</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Pattern Drills</h2>
 
       <div className="mb-6">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-semibold text-gray-700">
+          <span className="text-sm font-semibold text-gray-700 dark:text-gray-300">
             Drill {currentDrill + 1} of {drills.length}
           </span>
           <div className="flex gap-1">
@@ -165,7 +163,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                     ? 'bg-blue-600'
                     : idx < currentDrill
                     ? 'bg-green-600'
-                    : 'bg-gray-300'
+                    : 'bg-gray-300 dark:bg-gray-600'
                 }`}
               ></div>
             ))}
@@ -173,16 +171,16 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         </div>
       </div>
 
-      <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 mb-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-4">{drill.title}</h3>
-        <p className="text-blue-800 mb-4">{drill.instruction}</p>
+      <div className="bg-blue-50 dark:bg-blue-900/20 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6 mb-6">
+        <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-200 mb-4">{drill.title}</h3>
+        <p className="text-blue-800 dark:text-blue-300 mb-4">{drill.instruction}</p>
 
         {/* Interactive prompts mode */}
         {hasPrompts && !showYourTurn && (
           <div>
             {/* Prompt progress */}
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-sm text-gray-600">
+              <span className="text-sm text-gray-600 dark:text-gray-400">
                 Prompt {currentPrompt + 1} of {drill.prompts.length}
               </span>
               <div className="flex gap-1">
@@ -194,7 +192,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                         ? 'bg-blue-600'
                         : idx < currentPrompt
                         ? 'bg-green-600'
-                        : 'bg-gray-300'
+                        : 'bg-gray-300 dark:bg-gray-600'
                     }`}
                   ></div>
                 ))}
@@ -202,7 +200,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
             </div>
 
             {/* Sentence with blank */}
-            <div className="bg-white rounded-lg p-6 border border-blue-200 mb-4 text-center">
+            <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border border-blue-200 dark:border-blue-700 mb-4 text-center">
               {renderSentence(
                 drill.prompts[currentPrompt].sentence,
                 drill.prompts[currentPrompt].answer,
@@ -221,7 +219,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                   onKeyDown={handleKeyDown}
                   placeholder="Type the missing word..."
                   autoFocus
-                  className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none text-lg"
+                  className="flex-1 px-4 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none text-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
                 />
                 <button
                   onClick={handlePromptSubmit}
@@ -235,10 +233,10 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
 
             {/* Feedback */}
             {promptFeedback === 'correct' && (
-              <div className="bg-green-50 border-2 border-green-300 rounded-lg p-4 mb-4">
+              <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-300 dark:border-green-700 rounded-lg p-4 mb-4">
                 <div className="flex items-center gap-2 mb-1">
                   <Check className="w-6 h-6 text-green-600" />
-                  <span className="font-bold text-green-800 text-lg">Correct!</span>
+                  <span className="font-bold text-green-800 dark:text-green-300 text-lg">Correct!</span>
                 </div>
                 <button
                   onClick={handlePromptNext}
@@ -251,12 +249,12 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
             )}
 
             {promptFeedback === 'wrong' && (
-              <div className="bg-red-50 border-2 border-red-300 rounded-lg p-4 mb-4">
+              <div className="bg-red-50 dark:bg-red-900/20 border-2 border-red-300 dark:border-red-700 rounded-lg p-4 mb-4">
                 <div className="flex items-center gap-2 mb-1">
                   <X className="w-6 h-6 text-red-600" />
-                  <span className="font-bold text-red-800 text-lg">Not quite</span>
+                  <span className="font-bold text-red-800 dark:text-red-300 text-lg">Not quite</span>
                 </div>
-                <p className="text-red-700">
+                <p className="text-red-700 dark:text-red-400">
                   The correct answer is: <strong>{drill.prompts[currentPrompt].answer}</strong>
                 </p>
                 <button
@@ -275,18 +273,18 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         {!hasPrompts && !showYourTurn && (
           <div className="space-y-3 mb-6">
             {drill.examples.map((example, idx) => (
-              <div key={idx} className="bg-white rounded-lg p-4 border border-blue-200">
-                <p className="text-gray-800 font-medium">{example}</p>
+              <div key={idx} className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-blue-200 dark:border-blue-700">
+                <p className="text-gray-800 dark:text-gray-200 font-medium">{example}</p>
               </div>
             ))}
           </div>
         )}
 
-        {/* Your Turn section — shown after prompts complete, or immediately for passive drills */}
+        {/* Your Turn section */}
         {(showYourTurn || !hasPrompts) && (
-          <div className="bg-green-50 border-2 border-green-200 rounded-lg p-4">
-            <p className="font-semibold text-green-900 mb-3">Your Turn: {drill.your_turn}</p>
-            <p className="text-sm text-green-800 mb-4">
+          <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-200 dark:border-green-700 rounded-lg p-4">
+            <p className="font-semibold text-green-900 dark:text-green-200 mb-3">Your Turn: {drill.your_turn}</p>
+            <p className="text-sm text-green-800 dark:text-green-300 mb-4">
               Record yourself saying this{drill.repetitions > 1 ? ` ${drill.repetitions} times` : ''}.
             </p>
 
@@ -323,15 +321,15 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
             </div>
 
             {isAssessing && (
-              <p className="mt-3 text-sm text-gray-500 animate-pulse">Assessing pronunciation...</p>
+              <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 animate-pulse">Assessing pronunciation...</p>
             )}
             {pronunciationResult[currentDrill] && !isAssessing && (
-              <div className="mt-4 p-3 bg-white border border-green-200 rounded-lg">
+              <div className="mt-4 p-3 bg-white dark:bg-gray-800 border border-green-200 dark:border-green-700 rounded-lg">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-lg font-bold text-gray-900">
+                  <span className="text-lg font-bold text-gray-900 dark:text-white">
                     {pronunciationResult[currentDrill].overall_score}/100
                   </span>
-                  <span className="text-sm text-gray-700">
+                  <span className="text-sm text-gray-700 dark:text-gray-300">
                     {pronunciationResult[currentDrill].feedback}
                   </span>
                 </div>
@@ -340,7 +338,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                     <span
                       key={i}
                       className={`text-xs px-2 py-1 rounded-full font-medium ${
-                        w.correct ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                        w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
                       }`}
                     >
                       {w.expected} ({w.score}%)
@@ -363,7 +361,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
               setPromptFeedback(null);
               setShowYourTurn(false);
             }}
-            className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+            className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             Previous Drill
           </button>
@@ -380,7 +378,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
 
       <button
         onClick={() => onRequestHelp({ type: 'drill', content: drill })}
-        className="mt-4 text-blue-600 hover:underline text-sm"
+        className="mt-4 text-blue-600 dark:text-blue-400 hover:underline text-sm"
       >
         Need help understanding this pattern?
       </button>

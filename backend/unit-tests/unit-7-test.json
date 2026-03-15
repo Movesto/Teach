@@ -1,0 +1,132 @@
+{
+  "unit_id": 7,
+  "unit_title": "Food & Restaurants",
+  "description": "Test what you learned in Unit 7 — present perfect for food experiences, countable and uncountable nouns, second conditional, sequence adverbs in recipes, quantifiers, and adverbs of frequency and manner",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the present perfect to ask about a food experience?",
+      "options": [
+        "Did you ever try sushi?",
+        "Have you ever tried sushi?",
+        "Do you ever tried sushi?",
+        "Were you ever trying sushi?"
+      ],
+      "correct": 1,
+      "explanation": "'Have you ever tried...?' is the correct present perfect question form for asking about life experiences. 'Did you ever try' uses simple past and is less natural for general experiences."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Which sentence uses quantifiers correctly with an uncountable noun?",
+      "options": [
+        "Can I have a few rice, please?",
+        "Can I have a little rice, please?",
+        "Can I have many rice, please?",
+        "Can I have a rice, please?"
+      ],
+      "correct": 1,
+      "explanation": "'A little' is used with uncountable nouns (rice, water, milk). 'A few' is used with countable nouns (biscuits, apples). You cannot say 'a rice' because rice is uncountable."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Which sentence is a correct example of the second conditional for a hypothetical food situation?",
+      "options": [
+        "If I will become a chef, I open a restaurant.",
+        "If I became a chef, I will open a restaurant.",
+        "If I became a chef, I would open a restaurant.",
+        "If I become a chef, I would open a restaurant."
+      ],
+      "correct": 2,
+      "explanation": "The second conditional uses 'If + past simple, would + verb' for hypothetical or imaginary situations. Option C is the only sentence that follows this structure correctly."
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "statement": "In recipe instructions, sequence adverbs such as 'First', 'Then', 'After that', and 'Finally' are used to show the order of steps.",
+      "correct": true,
+      "explanation": "Sequence adverbs are essential in recipe writing and instructions. They guide the reader through steps in chronological order. Unit 7 practised using these in cooking contexts."
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "statement": "You can use 'many' with uncountable nouns, for example: 'I drank many water after the race.'",
+      "correct": false,
+      "explanation": "'Many' is only used with countable nouns (many cups, many glasses). For uncountable nouns like water, you use 'much' or 'a lot of': 'I drank a lot of water' or 'I drank much water'."
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "sentence": "I have ___ eaten at that restaurant — it opened only last week and I have not had time to visit.",
+      "answer": "never",
+      "hint": "adverb of frequency meaning 'not at any time'",
+      "explanation": "'Never' is the correct adverb of frequency. 'I have never eaten there' uses the present perfect with 'never' to express that this experience has not happened at any point up to now."
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "sentence": "___ that, add the chopped onions and stir gently for two minutes.",
+      "answer": "After",
+      "hint": "sequence adverb used before 'that' in recipe instructions",
+      "explanation": "'After that' is a key sequence adverb used in recipes and instructions to link one step to the next. It follows 'Then' and comes before 'Finally' in a typical sequence."
+    },
+    {
+      "id": 8,
+      "type": "ordering",
+      "instruction": "Put these recipe instruction steps in the correct sequence using the sequence adverbs as a guide:",
+      "words": ["Finally,", "serve", "hot.", "Then,", "the", "add", "salt.", "First,", "boil", "the", "water.", "Next,", "the", "add", "pasta."],
+      "answer": ["First,", "boil", "the", "water.", "Next,", "add", "the", "pasta.", "Then,", "add", "the", "salt.", "Finally,", "serve", "hot."],
+      "explanation": "The sequence adverbs First, Next, Then, and Finally signal the order of steps in a recipe. Each instruction follows a logical cooking process."
+    },
+    {
+      "id": 9,
+      "type": "matching",
+      "instruction": "Match each quantifier on the left to the type of noun it is used with on the right.",
+      "pairs": [
+        {"left": "a few", "right": "countable nouns (e.g. a few eggs)"},
+        {"left": "a little", "right": "uncountable nouns (e.g. a little flour)"},
+        {"left": "many", "right": "countable nouns in questions and negatives (e.g. many tomatoes)"},
+        {"left": "much", "right": "uncountable nouns in questions and negatives (e.g. much sugar)"}
+      ],
+      "explanation": "Quantifiers in Unit 7: 'a few' and 'many' go with countable nouns; 'a little' and 'much' go with uncountable nouns. 'A lot of' works with both."
+    },
+    {
+      "id": 10,
+      "type": "writing",
+      "prompt": "Write a short recipe for a simple dish you know how to make (40-60 words). Use at least three sequence adverbs (First, Then, Next, After that, Finally) and include at least one quantifier (some, a little, a few, etc.).",
+      "word_count": "40-60",
+      "guidance": "Name the dish in your opening sentence. List the steps in order using sequence adverbs. Use quantifiers to describe amounts (e.g. 'a little oil', 'a few cloves of garlic'). End with 'Finally' and what to do when the dish is ready.",
+      "sample_answer": "Here is a simple tomato pasta recipe. First, boil a large pot of salted water. Next, add the pasta and cook for ten minutes. Then, heat a little olive oil in a pan and add a few garlic cloves. After that, pour in some tinned tomatoes and simmer for five minutes. Finally, mix the sauce with the pasta and serve hot."
+    }
+  ],
+  "preview_questions": [
+    {
+      "id": 101,
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a relative clause to describe a person?",
+      "options": [
+        "She is the teacher who she explains things clearly.",
+        "She is the teacher who explains things clearly.",
+        "She is the teacher that she is explaining things clearly.",
+        "She is the teacher which explains things clearly."
+      ],
+      "correct": 1,
+      "explanation": "Relative clauses use 'who' for people and 'which' for things. The verb in the relative clause does not repeat the subject pronoun. 'She is the teacher who explains things clearly' is correct. This previews Unit 8's focus on relative clauses.",
+      "is_preview": true,
+      "preview_unit": 8,
+      "preview_unit_title": "Education & Technology"
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "statement": "In English, 'I have studied for this exam' (present perfect) and 'I studied for this exam last night' (past simple) are both grammatically correct, but they are used in different situations.",
+      "correct": true,
+      "explanation": "Present perfect ('have studied') connects a past action to the present with no specific time stated. Past simple ('studied last night') refers to a completed action at a specific past time. This contrast is a core focus of Unit 8.",
+      "is_preview": true,
+      "preview_unit": 8,
+      "preview_unit_title": "Education & Technology"
+    }
+  ]
+}

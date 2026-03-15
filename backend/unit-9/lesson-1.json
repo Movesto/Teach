@@ -2,236 +2,231 @@
   "id": "lesson-51",
   "unit_id": 9,
   "lesson_number": 1,
-  "title": "Participating in Discussions and Debates",
-  "level": "upper-intermediate",
-  "estimated_time": 45,
+  "title": "The Art of Argumentation: Expressing Nuanced Opinions",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Express and defend opinions in formal discussions",
-    "Respectfully disagree with others",
-    "Build on others' ideas effectively",
-    "Use advanced discussion language"
+    "Analyse the rhetorical structure of persuasive texts to identify how arguments are constructed and sustained",
+    "Evaluate the strength of competing claims by distinguishing between evidence, inference, and assertion",
+    "Deploy hedging language and epistemic modality to express degrees of certainty with precision",
+    "Construct a well-reasoned spoken or written argument that acknowledges complexity and anticipates counterarguments"
   ],
-  "target_phrases": [
-    "I see your point, but...",
-    "Building on what [name] said...",
-    "I'd like to challenge that assumption...",
-    "From my perspective...",
-    "To play devil's advocate...",
-    "Let me offer a counterargument...",
-    "That raises an interesting question..."
+  "authentic_text": {
+    "title": "The Case for Principled Disagreement",
+    "type": "article",
+    "text": "There is a peculiar irony at the heart of contemporary public discourse: we have more platforms for disagreement than at any point in human history, yet the quality of that disagreement has, by almost any measure, deteriorated sharply. The problem, I would suggest, is not that we argue too much, but that we argue badly.\n\nEffective argumentation requires, above all, what the philosopher John Stuart Mill called 'the strongest version of the opposing case.' To engage seriously with an argument is not merely to anticipate it and dismiss it — that is a kind of intellectual bad faith — but to genuinely reckon with its force. This is harder than it sounds. It demands a temporary suspension of one's own convictions, a willingness to sit with discomfort, and a degree of intellectual honesty that flatters no one's ego.\n\nWhat distinguishes principled disagreement from mere contention is the presence of shared criteria. When two people argue about whether a particular policy is effective, they are, at some level, appealing to evidence, precedent, and shared values — even if they weight those factors differently. The moment an argument abandons these shared criteria and descends into appeals to identity or loyalty, it ceases to be an argument in any meaningful sense and becomes, instead, a form of tribal signalling.\n\nThis is not a counsel of false neutrality. One can hold strong views and still argue with rigour. Indeed, the most persuasive arguments are typically those that demonstrate the greatest familiarity with the opposing position — not to capitulate to it, but to show, with precision, exactly where and why it falls short. That is the standard to which serious thinkers aspire.",
+    "source": "Adapted from The Atlantic, February 2025",
+    "notes": "Notice how the writer uses hedging phrases ('I would suggest', 'by almost any measure') alongside strong declarative claims — this balance is characteristic of high-quality opinion writing."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the writer, what does 'principled disagreement' require, as distinct from mere contention?",
+      "answer": "The presence of shared criteria — appeals to evidence, precedent, and shared values — rather than descending into appeals to identity or tribal loyalty."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing the dismissal of opposing arguments as 'a kind of intellectual bad faith'?",
+      "answer": "The writer implies that pretending to engage with an argument while actually dismissing it is dishonest — it violates an implicit contract of genuine intellectual engagement. 'Bad faith' suggests a deliberate, knowing failure to argue honestly."
+    },
+    {
+      "type": "tone",
+      "question": "How would you describe the writer's tone in the final paragraph? Give evidence from the text.",
+      "answer": "The tone is exacting and aspirational — the writer sets a high standard without being harsh. Evidence: 'That is the standard to which serious thinkers aspire' is both demanding and respectful of the reader's capacity; 'not to capitulate to it, but to show, with precision, exactly where and why it falls short' reveals a careful, rigorous mind."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'reckon' (paragraph 2) is closest in meaning to:",
+      "answer": "'Reckon with' means to deal seriously with something — to genuinely confront its significance rather than avoid or minimise it. It is stronger than 'consider' and implies that the thing demands real engagement."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this text?",
+      "answer": "The writer's primary purpose is to diagnose a problem in contemporary public debate and propose a standard for better argumentation. The text achieves this by first identifying the paradox (more platforms, worse discourse), then articulating what genuine intellectual engagement requires, and finally distinguishing principled disagreement from tribal signalling."
+    }
   ],
-  "dialogue": {
-    "title": "Community Meeting About Development Project",
-    "context": "Ahmed attends a community meeting to discuss a proposed development project. Residents debate the pros and cons.",
-    "lines": [
-      {"speaker": "Moderator", "text": "Thank you all for coming. We're here to discuss the proposed apartment complex on Division Street. Let's hear different perspectives."},
-      {"speaker": "Resident 1", "text": "I support this project. Our neighborhood needs more housing. The rental market is extremely tight, and this will help."},
-      {"speaker": "Ahmed", "text": "I see your point about housing needs, but I'm concerned about parking. The plan only includes one space per unit, yet many families have two cars."},
-      {"speaker": "Resident 2", "text": "Building on what Ahmed said, I'm also worried about traffic congestion. Division Street is already crowded during rush hour."},
-      {"speaker": "Developer", "text": "Those are valid concerns. However, the building is near the MAX line. We're encouraging public transit use, which should reduce car dependency."},
-      {"speaker": "Ahmed", "text": "I appreciate that perspective, but to play devil's advocate - many residents work in suburbs without good transit access. They'll still need cars."},
-      {"speaker": "Resident 1", "text": "Let me offer a counterargument. If we don't build denser housing near transit, we'll just push development further out, creating more sprawl and traffic."},
-      {"speaker": "Resident 3", "text": "That raises an interesting question about balancing growth with livability. Perhaps we could support the project with conditions?"},
-      {"speaker": "Ahmed", "text": "I'd agree with that approach. What if we required more parking or funded traffic improvements?"},
-      {"speaker": "Moderator", "text": "These are thoughtful points from all sides. I appreciate the respectful exchange of ideas."},
-      {"speaker": "Developer", "text": "We're open to discussing modifications. Let's form a working group to explore solutions."},
-      {"speaker": "Ahmed", "text": "That seems like a reasonable path forward. I'd be willing to participate."}
+  "language_analysis": {
+    "focus": "Hedging and Epistemic Modality",
+    "explanation": "Hedging refers to the use of linguistic devices that soften or qualify claims — indicating that the writer is not asserting something with absolute certainty, but with a measured degree of confidence. This is not the same as being evasive or uncommitted; skilled writers use hedges to demonstrate intellectual precision.\n\nEpistemic modality concerns how a speaker or writer signals their degree of certainty about a proposition. Modal verbs (may, might, could, would), adverbs (perhaps, arguably, seemingly), and reporting phrases (it appears that, evidence suggests) all serve this function. At C1/C2 level, the distinction between 'this is true' and 'this appears to be true' or 'this is arguably true' is crucial for sophisticated academic and professional writing.\n\nIn formal English writing, hedging also performs a social function: it signals intellectual humility and invites dialogue. A claim presented without hedges can sound arrogant or closed to challenge; appropriate hedging signals that the writer has considered complexity and is open to revision in the face of evidence.",
+    "examples": [
+      {
+        "from_text": "The problem, I would suggest, is not that we argue too much, but that we argue badly.",
+        "analysis": "The parenthetical 'I would suggest' is a classic hedge — it signals that what follows is the writer's reasoned interpretation, not an unchallengeable fact. The conditional 'would' softens the assertion without weakening it. Removing this hedge ('The problem is not...') would make the claim sound dogmatic."
+      },
+      {
+        "from_text": "by almost any measure, deteriorated sharply",
+        "analysis": "The qualifier 'almost any' is doing precise epistemic work here: the writer is not claiming universal agreement, but is asserting a very strong consensus. This is more honest and more persuasive than the absolute claim 'by any measure', which would be easy to challenge with a single counterexample."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "The evidence would appear to suggest a correlation between the two variables.",
+        "informal": "It looks like those two things are connected."
+      },
+      {
+        "formal": "One might reasonably conclude that this policy has had limited effect.",
+        "informal": "This policy probably hasn't worked very well."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Acknowledging then disagreeing",
-      "pattern": "I see your point, but/however [counterpoint]",
-      "examples": [
-        "I see your point about cost, but we also need to consider quality.",
-        "I understand that perspective, however I think there's another side to this.",
-        "I appreciate your concern, but I believe the benefits outweigh the risks.",
-        "That's a valid argument, but have you considered the long-term implications?",
-        "I hear what you're saying, however the data suggests otherwise."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Building on others' ideas",
-      "pattern": "Building on what [person] said, [additional idea]",
-      "examples": [
-        "Building on what Sara said, I think we should also consider environmental impact.",
-        "To add to Michael's point, this could create new job opportunities.",
-        "Expanding on that idea, we might apply the same approach to other areas.",
-        "Following up on your comment, have we looked at similar projects?",
-        "That connects to what I was thinking about community input."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Presenting counterarguments",
-      "pattern": "Let me offer a counterargument/To play devil's advocate",
-      "examples": [
-        "Let me offer a counterargument - rushing this decision might cause bigger problems later.",
-        "To play devil's advocate, what if the opposite approach actually works better?",
-        "I'd like to challenge that assumption - is it really true in all cases?",
-        "From a different angle, couldn't we argue that...?",
-        "Let me present an alternative view - perhaps we're focusing on the wrong issue."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit9-lesson1-listen1.mp3",
-      "transcript": "Effective debaters acknowledge opposing views before presenting counterarguments. This shows respect and makes your position stronger. Don't just say 'You're wrong.' Instead, say 'I see your point about X, but I think we also need to consider Y.' This technique, called 'steel-manning,' demonstrates you understand the other side before disagreeing.",
-      "question": "What is 'steel-manning' in debate?",
-      "options": [
-        "Ignoring opposing views",
-        "Understanding opposing views before disagreeing",
-        "Attacking the other person",
-        "Agreeing with everything"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit9-lesson1-listen2.mp3",
-      "transcript": "Building on others' ideas shows collaborative thinking. Use phrases like 'Building on what Sarah said,' or 'To add to that point.' This creates constructive dialogue rather than competitive arguing. In professional settings, this approach demonstrates teamwork and critical thinking skills. It's more effective than completely dismissing previous speakers.",
-      "question": "Why build on others' ideas in discussions?",
-      "options": [
-        "To show off",
-        "To create constructive, collaborative dialogue",
-        "To confuse people",
-        "To avoid giving your own opinion"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit9-lesson1-listen3.mp3",
-      "transcript": "Playing devil's advocate means arguing the opposite position to test ideas. Say 'To play devil's advocate,' before presenting the counterpoint. This helps groups consider all angles and avoid groupthink. It's not the same as being contrarian - you're genuinely helping the group think more critically, even if you partially agree with the original position.",
-      "question": "What does playing devil's advocate mean?",
-      "options": [
-        "Being mean to people",
-        "Always disagreeing",
-        "Arguing the opposite to test ideas",
-        "Avoiding discussion"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "Choose a local issue (traffic, housing, schools). Present one viewpoint, then acknowledge and counter it. Use discussion phrases. Record for 30 seconds.",
-      "example": "Let me discuss the proposal to add bike lanes on our main street. Supporters argue this will reduce traffic and promote healthy transportation. I see their point about environmental benefits - cycling produces zero emissions. However, I'm concerned about the impact on businesses. Removing parking spaces could hurt shops that depend on drive-up customers. To play devil's advocate against my own concern, perhaps better bike access could actually bring more customers who currently avoid the area due to parking difficulties. This raises an interesting question: should we prioritize long-term sustainability over short-term business concerns? I think we need data from similar projects before deciding.",
-      "min_seconds": 30,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "Someone says 'Social media does more harm than good.' Respond by acknowledging their view, then building a counterargument. Record for 25 seconds.",
-      "example": "I understand why some people feel social media does more harm than good. There are legitimate concerns about privacy, misinformation, and mental health impacts, especially for young people. However, let me offer a counterargument. Social media has also enabled global movements for social justice, helped people maintain long-distance relationships, and created economic opportunities for small businesses. Building on that point, during the pandemic, social media was crucial for keeping communities connected. Perhaps the issue isn't social media itself, but how we regulate and use it. That raises the question of whether we need better digital literacy education rather than condemning the technology entirely.",
-      "min_seconds": 25,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a paragraph presenting both sides of an issue (remote work, online education, etc.). Use discussion language to acknowledge and counter arguments. (100-120 words)",
-      "min_words": 100,
-      "example": "The debate over mandatory return-to-office policies presents valid arguments on both sides. Employers argue that in-person work fosters collaboration, builds company culture, and improves productivity through direct supervision. I see their point about spontaneous interactions leading to innovation. However, I'd like to challenge the assumption that physical presence equals better results. Remote work has demonstrated numerous benefits: eliminated commute time, better work-life balance, and access to global talent pools. Building on the productivity argument, many studies show remote workers are actually more efficient due to fewer office distractions. To play devil's advocate against my own position, some roles genuinely require in-person collaboration. Perhaps the solution isn't one-size-fits-all but rather flexible hybrid models that leverage benefits of both approaches while minimizing drawbacks.",
-      "min_words": 100
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write a response to this statement: 'Everyone should learn to code.' Acknowledge the view, present a counterargument, and suggest a middle ground. (80-100 words)",
-      "min_words": 80,
-      "example": "I understand the enthusiasm behind 'everyone should learn to code.' In our digital age, coding skills offer career advantages and help people understand technology shaping our world. Those are compelling points. However, let me offer a counterargument. Not everyone has aptitude for or interest in programming, and that's okay. We need diverse skills - teachers, healthcare workers, artists, tradespeople. Requiring universal coding knowledge could devalue other essential abilities. That said, I think there's a middle ground: everyone should understand basic computational thinking and how technology works, but not necessarily become programmers. Digital literacy matters more than coding proficiency for most people.",
-      "min_words": 80
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Concessive Clauses (although, even though, while)",
-      "explanation": "Use concessive clauses to acknowledge opposing points while maintaining your position.",
-      "examples": [
-        "Although I understand the concern, I disagree with the conclusion.",
-        "Even though costs are high, the benefits justify the investment.",
-        "While that's a valid point, we should also consider long-term impacts.",
-        "Despite these challenges, I believe the project should proceed."
-      ],
-      "practice": [
-        {"sentence": "___ housing is expensive, we need to build more.", "blank": "Although", "options": ["Although", "Because", "So"]},
-        {"sentence": "___ that's true, there's another perspective.", "blank": "While", "options": ["While", "Because", "Therefore"]},
-        {"sentence": "I agree, ___ I have some concerns.", "blank": "though", "options": ["though", "because", "so"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Modal Verbs for Speculation and Possibility",
-      "explanation": "Use modals (could, might, may) to suggest possibilities in discussions.",
-      "examples": [
-        "This could create unintended consequences.",
-        "That might work in some cases but not others.",
-        "We may need to consider alternative approaches.",
-        "This approach could potentially solve both problems."
-      ],
-      "practice": [
-        {"sentence": "This ___ lead to problems.", "blank": "could", "options": ["could", "must", "will"]},
-        {"sentence": "We ___ need more information.", "blank": "might", "options": ["might", "must", "will"]},
-        {"sentence": "That ___ be true in theory.", "blank": "may", "options": ["may", "must", "will"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Conditional Sentences for Hypothetical Scenarios",
-      "explanation": "Use conditionals to explore 'what if' scenarios in debates.",
-      "examples": [
-        "If we implement this policy, what would happen to small businesses?",
-        "If we don't act now, the problem will worsen.",
-        "What if we tried a different approach?",
-        "If that were true, we would see different results."
-      ],
-      "practice": [
-        {"sentence": "If we ___ this, traffic would improve.", "blank": "did", "options": ["do", "did", "done"]},
-        {"sentence": "What if we ___ differently?", "blank": "approached", "options": ["approach", "approached", "approaches"]},
-        {"sentence": "If that ___ true, I'd agree.", "blank": "were", "options": ["was", "were", "is"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What was Ahmed's main concern about the development?", "options": ["Cost", "Parking", "Design", "Location"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "What phrase means arguing the opposite to test ideas?", "options": ["Building on", "Devil's advocate", "I see your point", "Counterargument"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What did the group decide to do?", "options": ["Reject the project", "Approve immediately", "Form a working group", "Delay indefinitely"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: '___ I understand, I disagree.'", "options": ["Because", "Although", "So", "Therefore"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Building on others' ideas shows collaborative thinking.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "You should immediately dismiss opposing views in debates.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "This ___ create problems. (modal for possibility)", "correct": "could", "accept": ["could", "might", "may"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "___ that's valid, I have concerns. (concessive)", "correct": "While", "accept": ["While", "Although", "Though"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match discussion technique:", "pairs": [{"left": "I see your point, but", "right": "Acknowledge then disagree"}, {"left": "Building on that", "right": "Add to others' ideas"}, {"left": "Devil's advocate", "right": "Test ideas"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "What shows respect in debate?", "options": ["Ignoring others", "Acknowledging opposing views", "Interrupting", "Attacking personally"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence below contains one error made by an advanced learner. Identify the error and correct it.",
+    "sentences": [
+      {
+        "incorrect": "She argued that the policy was ineffective, and I had to concede to her point.",
+        "correct": "She argued that the policy was ineffective, and I had to concede her point.",
+        "explanation": "'Concede' in the sense of acknowledging an argument takes a direct object — you concede a point, not 'concede to' a point. 'Concede to' is used for surrendering to a person or authority (e.g., 'he conceded to his opponent'), not for acknowledging an argument."
+      },
+      {
+        "incorrect": "The author infers that modern debate has become more tribal, which I find convincing.",
+        "correct": "The author implies that modern debate has become more tribal, which I find convincing.",
+        "explanation": "The writer (author) implies; the reader infers. To imply is to suggest something indirectly in what you write or say. To infer is to draw a conclusion from what you read or hear. This is a classic C1-level collocation error."
+      },
+      {
+        "incorrect": "It is worth to note that the study was conducted before the policy changed.",
+        "correct": "It is worth noting that the study was conducted before the policy changed.",
+        "explanation": "The adjective 'worth' is followed by a gerund (-ing form), not an infinitive. Compare: 'worth doing', 'worth considering', 'worth noting'. The construction 'worth to + infinitive' does not exist in standard English."
+      },
+      {
+        "incorrect": "The committee have reached a consensus on the matter and will announce its decision tomorrow.",
+        "correct": "The committee has reached a consensus on the matter and will announce its decision tomorrow.",
+        "explanation": "While British English sometimes treats collective nouns as plural, consistency is required: if you treat 'committee' as singular (using 'its'), the verb must also be singular ('has'). Mixing singular 'its' with plural 'have' is a register inconsistency."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "debate", "definition": "formal discussion of opposing views", "example": "We had a debate about the policy."},
-    {"word": "counterargument", "definition": "argument opposing another argument", "example": "She presented a strong counterargument."},
-    {"word": "perspective", "definition": "particular way of viewing things", "example": "From my perspective, this is important."},
-    {"word": "advocate", "definition": "publicly support or recommend", "example": "I advocate for this approach."},
-    {"word": "assumption", "definition": "thing accepted as true without proof", "example": "That's a questionable assumption."},
-    {"word": "implication", "definition": "conclusion that follows from something", "example": "What are the implications of this?"},
-    {"word": "consensus", "definition": "general agreement", "example": "We reached consensus on the plan."},
-    {"word": "concede", "definition": "admit something is true", "example": "I concede that point."},
-    {"word": "rhetoric", "definition": "art of effective speaking/writing", "example": "His rhetoric was persuasive."},
-    {"word": "refute", "definition": "prove statement wrong", "example": "The data refutes that claim."}
-  ],
-  "cultural_notes": [
-    "American workplace culture values constructive debate - disagreement is seen as productive, not rude, when done respectfully.",
-    "Town hall meetings and community forums are common in U.S. civic life for public discussion of local issues.",
-    "In U.S. academic settings, students are expected to question ideas and engage in debate - it's part of critical thinking.",
-    "Political debates are central to American democracy - presidential debates are major media events.",
-    "Americans generally value direct communication in professional discussions, though always with respect.",
-    "The phrase 'agree to disagree' is commonly used when consensus isn't possible but relationships remain respectful."
+  "debate_task": {
+    "motion": "This house believes that the ability to argue effectively is more important than the ability to reach consensus.",
+    "stance": "balanced",
+    "key_arguments": [
+      "Rigorous argumentation is the mechanism by which bad ideas are exposed and discarded — consensus reached without genuine debate is merely conformity.",
+      "In pluralistic societies, the ability to argue across difference is a civic necessity; consensus is often impossible between groups with fundamentally different values.",
+      "History shows that major social advances — civil rights, women's suffrage, democratic reform — were achieved through sustained, principled argument, not through premature consensus."
+    ],
+    "counter_arguments": [
+      "Argument without the capacity or willingness to reach agreement produces paralysis; effective governance and institutional functioning require the ability to move forward collectively.",
+      "An overemphasis on winning arguments can entrench positions and damage relationships; consensus-building, though slower, produces more durable outcomes.",
+      "In many professional and community contexts, the social costs of persistent disagreement outweigh the intellectual benefits — the ability to find common ground is a practical necessity."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless",
+      "To concede this point,"
+    ],
+    "task": "Write a 2-minute speech (approximately 250 words) arguing FOR or AGAINST the motion. Your speech must open with a clear statement of position, develop two substantive arguments with evidence or examples, address the strongest counterargument, and close with a memorable formulation. Use at least 3 discourse markers from the list above."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write a 250-word opinion piece for a broadsheet newspaper arguing that schools should formally teach the skills of argumentation and reasoned disagreement as part of the curriculum. Address potential objections to this view.",
+    "word_count": "230-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "Open with a striking observation or paradox about contemporary discourse. State your thesis clearly by the end of the first paragraph."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Argue that argumentative skill is a civic competency, not merely an academic one. Use an example or analogy to make this concrete."
+      },
+      {
+        "section": "Main argument 2 / Counter-argument",
+        "guidance": "Acknowledge the concern that teaching argumentation might produce adversarial students or undermine authority. Reframe this concern: distinguish between argumentation and aggression."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Close with a forward-looking statement. Avoid merely summarising — add something new in the final sentence."
+      }
+    ],
+    "model_answer": "At a moment when public discourse has become a byword for polarisation and bad faith, one might ask where people learn to argue well. The answer, for most, is nowhere in particular — and that should alarm us. The case for teaching formal argumentation in schools is not a case for producing combative students; it is a case for producing citizens.\n\nArgumentation is, at its core, a civic technology. Democracies depend on the capacity of their members to assess competing claims, weigh evidence, and change their minds when the evidence demands it. None of these capacities are innate. They require instruction, practice, and — crucially — a culture that values intellectual rigour over tribal loyalty. Schools are, in principle, the obvious site for cultivating that culture.\n\nCritics might object that teaching students to argue will breed disrespect for authority or a culture of constant contestation. This objection mistakes argumentation for aggression. A student who can identify a logical fallacy is not being rude to their teacher; they are exercising exactly the kind of critical engagement that good teaching aims to produce. The goal is not to produce contrarians, but to produce thinkers — people who can hold strong views without being threatened by strong counterarguments.\n\nThe skills of principled disagreement — how to steelman an opposing view, how to concede a point without abandoning a position, how to distinguish assertion from evidence — are among the most transferable any school could teach. We owe students nothing less."
+  },
+  "advanced_grammar": {
+    "structure": "Cleft Sentences for Emphasis",
+    "explanation": "A cleft sentence splits a simple sentence into two clauses in order to place emphasis on a particular element. The two main types are 'it-clefts' (It is X that/who...) and 'wh-clefts' (What X does is...). Cleft sentences are characteristic of sophisticated written and spoken English because they allow a writer to control precisely which part of their argument the reader attends to.\n\nThe communicative purpose of clefting is emphasis and contrast. In argumentation, a cleft sentence can be used to highlight the most important part of a claim, to correct a misapprehension, or to foreground a specific element for dramatic or rhetorical effect.",
+    "authentic_examples": [
+      "It is not that we argue too much, but that we argue badly. (it-cleft that foregrounds the contrast)",
+      "What distinguishes principled disagreement from mere contention is the presence of shared criteria. (wh-cleft that foregrounds the defining feature)",
+      "It was Mill who first articulated this standard for engaging with opposing arguments. (it-cleft that foregrounds the person, correcting a possible misattribution)"
+    ],
+    "practice": [
+      {
+        "sentence": "The lack of shared criteria causes arguments to collapse into tribalism.",
+        "transform": "Rewrite as a wh-cleft sentence beginning 'What causes...'",
+        "answer": "What causes arguments to collapse into tribalism is the lack of shared criteria."
+      },
+      {
+        "sentence": "We need better civic education, not more platforms for debate.",
+        "transform": "Rewrite as an it-cleft to emphasise 'better civic education'",
+        "answer": "It is better civic education that we need, not more platforms for debate."
+      },
+      {
+        "sentence": "The final paragraph surprised me most with its directness.",
+        "transform": "Rewrite as a wh-cleft sentence beginning 'What surprised me most...'",
+        "answer": "What surprised me most was the directness of the final paragraph."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the text, what happens when an argument 'descends into appeals to identity or loyalty'?",
+      "options": [
+        "It becomes more persuasive to a wider audience",
+        "It ceases to be an argument in any meaningful sense",
+        "It demonstrates the strongest version of the opposing case",
+        "It reveals the presence of shared criteria"
+      ],
+      "correct": 1,
+      "explanation": "The writer states explicitly: 'The moment an argument abandons these shared criteria and descends into appeals to identity or loyalty, it ceases to be an argument in any meaningful sense and becomes, instead, a form of tribal signalling.'"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following sentences uses hedging most effectively for a formal academic context?",
+      "options": [
+        "This policy has clearly failed and everyone knows it.",
+        "The policy might have possibly perhaps not worked as well as hoped.",
+        "The evidence would suggest that this policy has had a limited impact.",
+        "I think the policy was bad, but I'm not completely sure."
+      ],
+      "correct": 2,
+      "explanation": "Option C uses epistemic modality ('would suggest') and precise qualification ('limited impact') appropriately. Option A is overconfident; Option B over-hedges to the point of incoherence; Option D is too informal in register."
+    },
+    {
+      "id": 3,
+      "question": "Which sentence contains an error?",
+      "options": [
+        "The report implies that funding has been misallocated.",
+        "From the data, we can infer that demand is rising.",
+        "The author infers a connection between the two events.",
+        "She implied, without stating it directly, that she disagreed."
+      ],
+      "correct": 2,
+      "explanation": "Option C confuses 'imply' and 'infer'. An author (writer/speaker) implies — they suggest something indirectly. The reader infers — they draw a conclusion. The correct form would be 'The author implies a connection...'"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a wh-cleft sentence?",
+      "options": [
+        "It is rigorous thinking that distinguishes good arguments.",
+        "What distinguishes good arguments is rigorous thinking.",
+        "Good arguments are distinguished by rigorous thinking.",
+        "Rigorous thinking, which distinguishes good arguments, is rare."
+      ],
+      "correct": 1,
+      "explanation": "A wh-cleft sentence begins with a wh-clause ('What distinguishes good arguments') followed by a copula verb ('is') and then the focused element. Option A is an it-cleft; Options C and D are standard sentences."
+    },
+    {
+      "id": 5,
+      "question": "The phrase 'a temporary suspension of one's own convictions' (paragraph 2) is an example of:",
+      "options": [
+        "A colloquial expression used to build rapport with the reader",
+        "Nominalisation — turning a verbal process into a noun phrase",
+        "A conditional clause signalling a hypothetical scenario",
+        "An idiomatic phrase whose meaning cannot be inferred from its parts"
+      ],
+      "correct": 1,
+      "explanation": "Nominalisation converts verbs or adjectives into nouns. Here, 'suspend' (verb) becomes 'suspension' (noun), allowing the writer to build a complex noun phrase. Nominalisation is a key feature of formal written English and is discussed further in later lessons."
+    }
   ]
 }

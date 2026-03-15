@@ -2,237 +2,232 @@
   "id": "lesson-69",
   "unit_id": 12,
   "lesson_number": 4,
-  "title": "Crisis Management and High-Stakes Communication",
-  "level": "mastery",
-  "estimated_time": 45,
+  "title": "Navigating Social Issues in Public Discourse",
+  "template": "advanced",
+  "level": "advanced",
   "objectives": [
-    "Communicate effectively during organizational crises",
-    "Manage multiple stakeholders under pressure",
-    "Balance transparency with legal constraints",
-    "Maintain credibility during uncertainty"
+    "Analyse the structural conventions of editorial writing and evaluate their rhetorical effectiveness",
+    "Distinguish between the productive use of discourse markers to build argument and their use as decoration",
+    "Deploy a range of concessive, additive, and contrastive discourse markers in extended analytical writing",
+    "Synthesise evidence from multiple perspectives into a nuanced written position on a contested social issue"
   ],
-  "target_phrases": [
-    "Our immediate priority is...",
-    "We're committed to full transparency as facts emerge...",
-    "I take full responsibility for...",
-    "The timeline for resolution is...",
-    "We're implementing immediate corrective actions including...",
-    "Stakeholders deserve clear, honest communication about...",
-    "While we don't yet have all answers..."
+  "authentic_text": {
+    "title": "The Poverty of the Poverty Debate",
+    "type": "editorial",
+    "text": "There is something troubling about the way Western democracies discuss poverty. Not the fact of poverty — that, at least, is discussed with regularity. What goes largely unexamined is the conceptual scaffolding beneath the debate: the assumptions about agency, desert, and structural causation that determine, before any evidence is examined, whose fault poverty is.\n\nConsider, for instance, the asymmetric language of public discourse. Wealthy individuals who inherit capital are described as 'wealth creators'; poor individuals who inherit circumstance are described as 'welfare dependent.' The first phrase celebrates a structural advantage as personal achievement; the second pathologises a structural disadvantage as personal failing. The parallelism is not accidental — it reflects a deep ideological commitment to individual agency as the dominant explanatory framework for social outcomes.\n\nNor is this simply a left-wing critique. Conservative and centre-right thinkers have long recognised that genuine social mobility — a goal shared across the political spectrum — requires structural preconditions: stable housing, quality schooling, access to healthcare, safe communities. Without these, individual agency operates in an environment so constrained as to be hardly meaningful.\n\nWhat the debate currently lacks is not more passion — there is plenty of that — but more precision. We need, as a matter of civic urgency, to distinguish between poverty as a moral failing, poverty as a policy failure, and poverty as a structural condition that reproduces itself across generations in the absence of deliberate intervention. These are not the same diagnosis, and they do not call for the same remedy.",
+    "source": "Adapted from The Guardian, Long Read section",
+    "notes": "The editorial models the very discursive precision it calls for — notice how each of the three diagnoses in the final sentence is formally distinguished by parallel grammatical structure."
+  },
+  "critical_reading": [
+    {
+      "type": "literal",
+      "question": "According to the editorial, what does the debate about poverty currently lack?",
+      "answer": "The editorial argues that the poverty debate lacks precision rather than passion — specifically, the ability to distinguish between poverty as a moral failing, a policy failure, and a structural condition that reproduces across generations."
+    },
+    {
+      "type": "inference",
+      "question": "What does the writer imply by describing as 'not accidental' the asymmetric language applied to wealthy and poor individuals?",
+      "answer": "The writer implies that the linguistic asymmetry is ideologically motivated — that the different vocabularies applied to wealth and poverty reflect a deliberate or at least systematic cultural commitment to individual agency as an explanation for economic outcomes, which naturalises wealth and pathologises poverty in ways that serve particular political interests."
+    },
+    {
+      "type": "tone",
+      "question": "Describe the tone of the third paragraph ('Nor is this simply a left-wing critique...') and explain its rhetorical function.",
+      "answer": "The tone shifts to deliberately bipartisan and conciliatory. The writer's acknowledgment that 'Conservative and centre-right thinkers' share the goal of social mobility is a rhetorical move designed to prevent the argument from being dismissed as partisan advocacy. By finding common ground across political lines, the writer broadens the editorial's potential audience and strengthens its authority."
+    },
+    {
+      "type": "vocabulary",
+      "question": "The word 'pathologises' (paragraph 2) is closest in meaning to:",
+      "answer": "Treats as a disease or abnormality — to 'pathologise' something is to present it as a symptom of dysfunction or moral disorder, in the way that medical discourse treats illness. Applied to poverty, 'pathologising' means describing it as a personal abnormality or failing rather than a structural condition."
+    },
+    {
+      "type": "purpose",
+      "question": "What is the writer's main purpose in this editorial?",
+      "answer": "The writer's main purpose is to argue that the public debate about poverty is conceptually impoverished — that it proceeds on unexamined ideological assumptions about agency and desert — and to call for a more precise analytical framework that distinguishes between moral, policy, and structural explanations."
+    }
   ],
-  "dialogue": {
-    "title": "Managing Product Safety Crisis",
-    "context": "Ahmed leads crisis response when a product safety issue emerges, coordinating internal teams, media, regulators, and customers while maintaining accountability.",
-    "lines": [
-      {"speaker": "Legal Counsel", "text": "Ahmed, we have a serious situation. Three customers reported injuries from our flagship product. Media is calling. What's our response?"},
-      {"speaker": "Ahmed", "text": "First, our immediate priority is customer safety. Second, we need facts before making statements. What do we know definitively?"},
-      {"speaker": "Engineering Lead", "text": "We've identified a potential defect in units manufactured between March and May. It affects approximately 15,000 units."},
-      {"speaker": "Ahmed", "text": "Okay. We're implementing immediate corrective actions including: voluntary recall of all affected units, customer notification within 24 hours, and independent safety testing. Legal, I know you're concerned about liability, but stakeholders deserve clear, honest communication."},
-      {"speaker": "Legal Counsel", "text": "We need to be careful about admitting fault before investigation completes."},
-      {"speaker": "Ahmed", "text": "I understand, but silence breeds speculation. We're committed to full transparency as facts emerge. Here's what I'm proposing for our statement: acknowledge the reports, express concern for affected customers, announce the recall, and commit to investigation and corrective action."},
-      {"speaker": "Communications Director", "text": "Media wants to interview you. They're asking if we knowingly sold defective products."},
-      {"speaker": "Ahmed", "text": "I'll do the interview. While we don't yet have all answers, I can honestly say we're taking this seriously and acting immediately. I take full responsibility for ensuring this gets resolved properly."},
-      {"speaker": "Legal Counsel", "text": "That's risky. What if the investigation reveals we should have caught this earlier?"},
-      {"speaker": "Ahmed", "text": "Then we'll own that too. The timeline for resolution is: recall announced today, replacement units available within two weeks, investigation completed within 30 days, and we'll report findings publicly. Credibility comes from accountability, not evasion."},
-      {"speaker": "Board Member", "text": "This could significantly impact our reputation and stock price."},
-      {"speaker": "Ahmed", "text": "It will impact both regardless. The question is whether we emerge from this having demonstrated integrity or having appeared evasive. Long-term trust matters more than short-term stock fluctuations."},
-      {"speaker": "Communications Director", "text": "That's the kind of leadership our stakeholders need to see right now."}
+  "language_analysis": {
+    "focus": "Discourse Markers in Editorial Writing",
+    "explanation": "Discourse markers are words and phrases that organise the logical and rhetorical structure of a text — signalling contrast, concession, addition, consequence, and transition between ideas. In editorial writing, discourse markers perform a dual function: they guide the reader through the argument's structure, and they signal the writer's relationship to the claims being made.\n\nThe choice of discourse marker carries significant rhetorical weight. 'However' signals straightforward contrast. 'Nevertheless' signals a contrast that the writer judges insufficient to overturn the main claim — it concedes something while maintaining the argument's direction. 'Notwithstanding this' is more formal and suggests a greater weight of concession being overcome. 'Furthermore' adds evidence in the same direction; 'moreover' adds evidence that is additionally significant; 'indeed' intensifies the claim just made.\n\nAt C1/C2 level, learners should be able to choose among these markers based on the specific logical relationship they wish to signal, not simply as interchangeable transitions. An editorial that uses 'however' where 'notwithstanding' is appropriate, or 'furthermore' where 'indeed' would be more precise, signals a writer who knows the function of discourse markers but has not yet mastered their fine-grained distinctions.",
+    "examples": [
+      {
+        "from_text": "Nor is this simply a left-wing critique.",
+        "analysis": "The discourse marker 'Nor' at the start of a sentence is a sophisticated contrastive device that extends the negation from the previous sentence. It signals 'and additionally, this is not the case either,' building a cumulative refutation while avoiding the syntactic heaviness of 'And furthermore, it should be noted that this is also not merely a left-wing critique.' The inverted syntax ('Nor is this' rather than 'This is also not') is a formal register marker in its own right."
+      },
+      {
+        "from_text": "Not the fact of poverty — that, at least, is discussed with regularity. What goes largely unexamined is...",
+        "analysis": "This structure uses a dash to introduce a concessive parenthesis ('that, at least, is discussed with regularity') before pivoting to the main claim with 'What goes largely unexamined.' The discourse movement is: acknowledge what is discussed / pivot to what is not. The discourse marker is structural rather than lexical here — the contrast is created by sentence architecture."
+      }
+    ],
+    "contrast": [
+      {
+        "formal": "Notwithstanding the government's stated commitment to reducing inequality, the evidence suggests that the structural conditions producing it remain largely unaddressed.",
+        "informal": "The government says it cares about inequality, but nothing has actually changed."
+      },
+      {
+        "formal": "The editorial raises an important point. Nevertheless, the proposed solution fails to account for regional variation in social mobility outcomes.",
+        "informal": "It's a good point, but the solution won't work everywhere."
+      }
     ]
   },
-  "pattern_drills": [
-    {
-      "id": "drill-1",
-      "focus": "Establishing priorities in crisis",
-      "pattern": "Our immediate priority is [urgent action] / We're implementing immediate corrective actions including [specifics]",
-      "examples": [
-        "Our immediate priority is ensuring customer safety through product recall and transparent communication.",
-        "We're implementing immediate corrective actions including investigation launch, stakeholder notification, and process review.",
-        "Our immediate priority is containing the situation while preserving stakeholder trust through honest updates.",
-        "We're implementing immediate corrective actions including third-party auditing, enhanced oversight, and full disclosure.",
-        "Our immediate priority is addressing root causes rather than merely treating symptoms of this crisis."
-      ]
-    },
-    {
-      "id": "drill-2",
-      "focus": "Balancing transparency with uncertainty",
-      "pattern": "We're committed to transparency as facts emerge / While we don't yet have all answers...",
-      "examples": [
-        "We're committed to full transparency as facts emerge from our ongoing investigation.",
-        "While we don't yet have all answers, we're sharing what we know and updating regularly as we learn more.",
-        "We're committed to transparency while ensuring accuracy - we won't speculate but will report confirmed findings.",
-        "While we don't yet have complete information, we believe stakeholders deserve honest acknowledgment of what we do and don't know.",
-        "We're committed to transparency balanced with responsibility - we'll share facts as they're verified."
-      ]
-    },
-    {
-      "id": "drill-3",
-      "focus": "Taking accountability",
-      "pattern": "I take full responsibility for [issue] / Stakeholders deserve clear, honest communication about [situation]",
-      "examples": [
-        "I take full responsibility for ensuring this situation is resolved with integrity and transparency.",
-        "Stakeholders deserve clear, honest communication about both what went wrong and how we're fixing it.",
-        "I take full responsibility for the oversight failures that allowed this to occur.",
-        "Stakeholders deserve clear, honest communication about our timeline, actions, and lessons learned.",
-        "I take full responsibility for rebuilding the trust that this situation has undermined."
-      ]
-    }
-  ],
-  "listening_exercises": [
-    {
-      "id": "listen-1",
-      "audio": "/audio/unit12-lesson4-listen1.mp3",
-      "transcript": "Crisis communication requires speed, accuracy, and transparency. The first 24 hours are critical - silence creates vacuum filled by speculation. Acknowledge the situation quickly even if you don't have all details. Express genuine concern. Explain what actions you're taking. Commit to updates as you learn more. Avoid 'no comment' which sounds evasive. Designate single spokesperson for consistency. Don't minimize or make excuses - acknowledge stakeholder concerns legitimately. Transparency builds trust even when news is bad.",
-      "question": "What's critical in crisis communication?",
-      "options": [
-        "Hiding information",
-        "Speed, accuracy, and transparency",
-        "Saying 'no comment'",
-        "Waiting for perfect information"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-2",
-      "audio": "/audio/unit12-lesson4-listen2.mp3",
-      "transcript": "Stakeholder management during crisis involves understanding different constituencies have different concerns. Customers want safety and compensation. Employees need reassurance. Investors want financial impact assessment. Regulators demand compliance. Media wants dramatic narrative. Address each audience's legitimate interests without contradicting yourself across channels. Internal communication matters - employees are ambassadors who interact with external stakeholders. Keep them informed so they can respond knowledgeably to questions. United front prevents conflicting messages that undermine credibility.",
-      "question": "Why does internal communication matter in crisis?",
-      "options": [
-        "It doesn't matter",
-        "Employees are ambassadors who interact with external stakeholders",
-        "Only executives need information",
-        "Internal communication can wait"
-      ],
-      "correct": 1
-    },
-    {
-      "id": "listen-3",
-      "audio": "/audio/unit12-lesson4-listen3.mp3",
-      "transcript": "Taking responsibility versus admitting legal liability requires nuance. You can acknowledge a situation is unacceptable and take responsibility for fixing it without necessarily admitting legal fault before investigation completes. 'I take responsibility for ensuring we resolve this' differs from 'We were negligent.' Work with legal counsel but don't let legal concerns prevent necessary communication. Long-term reputation often matters more than short-term liability exposure. Organizations that demonstrate accountability and integrity during crisis often emerge stronger. Those that appear evasive suffer lasting damage.",
-      "question": "What's the balance in crisis communication?",
-      "options": [
-        "Admit everything immediately",
-        "Say nothing due to legal concerns",
-        "Take responsibility for resolution while working with legal counsel",
-        "Blame others"
-      ],
-      "correct": 2
-    }
-  ],
-  "speaking_tasks": [
-    {
-      "id": "speak-1",
-      "prompt": "You're giving a statement about an organizational crisis (data breach, product defect, ethical violation, etc.). Balance transparency, accountability, and action. Use crisis communication language. Record for 45 seconds.",
-      "example": "Thank you for being here. I want to address the data breach that affected approximately 50,000 customer accounts. Our immediate priority is customer protection and full transparency about what occurred. Here's what we know: on Monday, unauthorized access to our customer database was detected. We immediately shut down affected systems, engaged cybersecurity experts, and notified law enforcement. While we don't yet have all answers about how this occurred, we're committed to sharing findings as our investigation progresses. We're implementing immediate corrective actions including: mandatory password resets for all affected accounts, enhanced security protocols, complimentary credit monitoring for impacted customers, and third-party security audit. I take full responsibility for ensuring we not only resolve this situation but prevent recurrence. Stakeholders deserve clear, honest communication - you trusted us with your data and we failed to protect it adequately. That's unacceptable. The timeline for resolution is: customer notifications completed by tomorrow, investigation findings within two weeks, enhanced security measures operational within 30 days. We're committed to transparency as facts emerge. I'll take questions now.",
-      "min_seconds": 45,
-      "target_language": "english"
-    },
-    {
-      "id": "speak-2",
-      "prompt": "A reporter asks tough questions about your crisis response. Answer honestly while balancing transparency with what you don't yet know. Record for 35 seconds.",
-      "example": "Those are fair questions. Let me address each directly. First, when did we know? We detected the issue on Monday morning and began investigation immediately. Second, should we have caught this sooner? That's precisely what our investigation is examining - whether existing protocols should have identified this earlier. While we don't yet have definitive answers, I take responsibility for ensuring we find out. Third, how much will this cost? We're focused on doing what's right for affected customers regardless of cost. We'll report financial impacts when we have accurate estimates, but customer protection is our priority, not expense minimization. Fourth, could this happen again? We're implementing enhanced safeguards, but I won't claim perfection - what I can commit to is continuous improvement in our security practices. Stakeholders deserve honesty: we made mistakes, we're fixing them, and we're committed to earning back trust. I appreciate these challenging questions - they're exactly what we should be answering.",
-      "min_seconds": 35,
-      "target_language": "english"
-    }
-  ],
-  "writing_tasks": [
-    {
-      "id": "write-1",
-      "prompt": "Write a crisis communication statement for customers/stakeholders. Balance transparency, accountability, and specific actions. Include what you know, don't know, and are doing. (150-180 words)",
-      "min_words": 150,
-      "example": "Important Customer Safety Notice: Voluntary Product Recall\n\nDear Valued Customers,\n\nOur immediate priority is your safety. We're writing to inform you of a voluntary recall affecting our Model X product manufactured between March-May 2025.\n\nWhat We Know: We've received reports of potential safety issues affecting approximately 15,000 units. While we don't yet have complete information, we're acting immediately out of abundance of caution.\n\nWhat We're Doing: We're implementing immediate corrective actions including:\n- Voluntary recall of all potentially affected units\n- Free replacement or full refund\n- Independent safety testing and investigation\n- Enhanced quality control protocols\n\nI take full responsibility for ensuring this situation is resolved with integrity. Stakeholders deserve clear, honest communication about what occurred and how we're addressing it.\n\nTimeline for Resolution:\n- Customer notification: Complete by Friday\n- Replacement units available: Within 2 weeks\n- Investigation findings: Within 30 days\n\nWe're committed to full transparency as facts emerge. For questions or to process your recall, contact us at [number] or visit [website].\n\nWe apologize for this inconvenience and appreciate your continued trust.\n\nSincerely,\nAhmed Hassan\nVice President, Operations",
-      "min_words": 150
-    },
-    {
-      "id": "write-2",
-      "prompt": "Write talking points for executives handling crisis media interviews. Address likely tough questions while maintaining transparency and accountability. (120-140 words)",
-      "min_words": 120,
-      "example": "Crisis Media Interview Talking Points\n\nCore Message: Our immediate priority is [stakeholder safety/customer protection]. We're taking full responsibility and implementing comprehensive corrective actions.\n\nKey Points:\n1. Acknowledge: We understand stakeholder concerns and take them seriously.\n2. Accountability: I take responsibility for ensuring proper resolution.\n3. Action: We're implementing [specific corrective measures].\n4. Timeline: [Specific deadlines for key actions].\n5. Transparency: We're committed to sharing findings as investigation progresses.\n\nAnticipated Tough Questions:\n\nQ: Should you have known sooner?\nA: That's what we're investigating. While we don't yet have answers, I take responsibility for finding out.\n\nQ: Will heads roll?\nA: We're focused on root causes and systemic improvements, not scapegoating.\n\nQ: How much will this cost?\nA: Stakeholders deserve proper resolution regardless of cost. We'll report financial impacts when available.\n\nQ: Can customers trust you?\nA: Trust is earned through actions, not words. We're demonstrating commitment through transparency and accountability.\n\nAvoid: 'No comment,' defensive tone, minimizing, blaming others",
-      "min_words": 120
-    }
-  ],
-  "grammar_focus": [
-    {
-      "id": "grammar-1",
-      "title": "Present Continuous for Ongoing Crisis Actions",
-      "explanation": "Use present continuous to emphasize active, ongoing response efforts.",
-      "examples": [
-        "We're implementing corrective measures immediately. (active response)",
-        "We're conducting a comprehensive investigation. (ongoing effort)",
-        "We're working with experts to resolve this. (current action)",
-        "We're notifying all affected stakeholders. (in progress)"
-      ],
-      "practice": [
-        {"sentence": "We ___ immediate action.", "blank": "are taking", "options": ["take", "are taking", "took"]},
-        {"sentence": "We ___ with regulators.", "blank": "are coordinating", "options": ["coordinate", "are coordinating", "coordinated"]},
-        {"sentence": "We ___ customers now.", "blank": "are notifying", "options": ["notify", "are notifying", "notified"]}
-      ]
-    },
-    {
-      "id": "grammar-2",
-      "title": "Passive Voice for Diplomatic Crisis Language",
-      "explanation": "Use passive voice to soften statements while maintaining clarity.",
-      "examples": [
-        "The issue was identified on Monday. (passive, factual)",
-        "Affected customers are being contacted. (passive, less direct)",
-        "A full investigation is being conducted. (passive, professional)",
-        "Corrective measures have been implemented. (passive, completed action)"
-      ],
-      "practice": [
-        {"sentence": "The problem ___ identified.", "blank": "was", "options": ["is", "was", "were"]},
-        {"sentence": "Customers ___ being notified.", "blank": "are", "options": ["is", "are", "were"]},
-        {"sentence": "Measures ___ been implemented.", "blank": "have", "options": ["has", "have", "had"]}
-      ]
-    },
-    {
-      "id": "grammar-3",
-      "title": "Future with 'Will' for Commitments",
-      "explanation": "Use 'will' to make clear, firm commitments about future actions.",
-      "examples": [
-        "We will report findings publicly. (firm commitment)",
-        "We will ensure this doesn't recur. (strong promise)",
-        "We will provide regular updates. (commitment to transparency)",
-        "We will make this right. (accountability statement)"
-      ],
-      "practice": [
-        {"sentence": "We ___ report findings.", "blank": "will", "options": ["will", "would", "might"]},
-        {"sentence": "We ___ ensure accountability.", "blank": "will", "options": ["will", "would", "could"]},
-        {"sentence": "We ___ provide updates.", "blank": "will", "options": ["will", "would", "may"]}
-      ]
-    }
-  ],
-  "quiz": {
-    "passing_score": 70,
-    "questions": [
-      {"id": "q1", "type": "multiple-choice", "question": "What's critical in crisis communication?", "options": ["Hiding information", "Speed, accuracy, and transparency", "Saying 'no comment'", "Waiting for perfect info"], "correct": 1, "points": 10},
-      {"id": "q2", "type": "multiple-choice", "question": "Why does internal communication matter in crisis?", "options": ["It doesn't", "Employees are stakeholder ambassadors", "Only executives need info", "It can wait"], "correct": 1, "points": 10},
-      {"id": "q3", "type": "multiple-choice", "question": "What's the balance in crisis communication?", "options": ["Admit everything", "Say nothing", "Take responsibility while working with legal counsel", "Blame others"], "correct": 2, "points": 10},
-      {"id": "q4", "type": "multiple-choice", "question": "Complete: 'We ___ immediate action.'", "options": ["take", "are taking", "took", "taken"], "correct": 1, "points": 10},
-      {"id": "q5", "type": "true-false", "question": "Silence during crisis creates vacuum filled by speculation.", "correct": true, "points": 10},
-      {"id": "q6", "type": "true-false", "question": "Legal concerns should prevent all crisis communication.", "correct": false, "points": 10},
-      {"id": "q7", "type": "fill-blank", "question": "We ___ report findings. (commitment)", "correct": "will", "accept": ["will"], "points": 10},
-      {"id": "q8", "type": "fill-blank", "question": "The problem ___ identified. (passive)", "correct": "was", "accept": ["was"], "points": 10},
-      {"id": "q9", "type": "matching", "question": "Match crisis element:", "pairs": [{"left": "Immediate priority", "right": "Stakeholder safety"}, {"left": "Transparency", "right": "Share facts as emerge"}, {"left": "Accountability", "right": "Take responsibility"}], "points": 10},
-      {"id": "q10", "type": "multiple-choice", "question": "Ahmed's approach emphasized:", "options": ["Legal protection only", "Transparency and accountability", "Minimizing issue", "Blaming others"], "correct": 1, "points": 10}
+  "error_correction": {
+    "instruction": "Each sentence contains one subtle C1/C2 error. Identify and correct it.",
+    "sentences": [
+      {
+        "incorrect": "The editorial argues convincingly that the poverty debate lacks the precision it needs; however it fails to propose a concrete policy alternative.",
+        "correct": "The editorial argues convincingly that the poverty debate lacks the precision it needs; however, it fails to propose a concrete policy alternative.",
+        "explanation": "When 'however' functions as a conjunctive adverb joining two independent clauses (after a semicolon), it must be followed by a comma. 'However, it fails...' — the comma after 'however' is not optional at formal register level."
+      },
+      {
+        "incorrect": "The asymmetric language applied to wealth and poverty does not only reflect existing assumptions but actively reinforces them.",
+        "correct": "The asymmetric language applied to wealth and poverty not only reflects existing assumptions but actively reinforces them.",
+        "explanation": "In the 'not only... but also' construction, 'not only' must immediately precede the element it modifies. Here, 'not only' modifies 'reflects,' so it must appear before 'reflects,' not before 'does not.' 'Does not only reflect' changes the meaning and produces a grammatically awkward construction."
+      },
+      {
+        "incorrect": "We must distinguish among poverty as a moral failing and poverty as a structural condition — these require different policy responses.",
+        "correct": "We must distinguish between poverty as a moral failing and poverty as a structural condition — these require different policy responses.",
+        "explanation": "'Distinguish between' is the correct collocation when comparing two specific things. 'Distinguish among' is used with three or more items — though even then, 'among' requires a list, not a paired comparison introduced by 'and.'"
+      },
+      {
+        "incorrect": "Discourse markers such as 'nevertheless' and 'notwithstanding' signal that the writer is making a concession but maintaining their overall position, and they are not interchangeable between each other.",
+        "correct": "Discourse markers such as 'nevertheless' and 'notwithstanding' signal that the writer is making a concession while maintaining their overall position, and they are not interchangeable with each other.",
+        "explanation": "Two errors: 'but maintaining' should be 'while maintaining' — 'but' implies contrast, whereas 'while' correctly signals simultaneity. 'Interchangeable between each other' is redundant; 'interchangeable with each other' is correct, though simply 'interchangeable' is more economical."
+      }
     ]
   },
-  "vocabulary": [
-    {"word": "crisis", "definition": "time of intense difficulty or danger", "example": "Manage the crisis transparently."},
-    {"word": "transparency", "definition": "openness and honesty", "example": "Transparency builds trust."},
-    {"word": "accountability", "definition": "responsibility for actions", "example": "Take accountability for resolution."},
-    {"word": "stakeholder", "definition": "person with interest or concern", "example": "Address all stakeholder concerns."},
-    {"word": "mitigation", "definition": "action to reduce severity", "example": "Implement mitigation measures."},
-    {"word": "remediation", "definition": "action to correct problem", "example": "Begin remediation immediately."},
-    {"word": "escalation", "definition": "increase in intensity", "example": "Prevent crisis escalation."},
-    {"word": "containment", "definition": "action to limit spread", "example": "Focus on containment first."},
-    {"word": "liability", "definition": "legal responsibility", "example": "Balance liability concerns with transparency."},
-    {"word": "credibility", "definition": "quality of being trusted", "example": "Maintain credibility through honesty."}
-  ],
-  "cultural_notes": [
-    "American business culture expects rapid, transparent crisis response - delays amplify damage and erode trust.",
-    "U.S. media will fill information vacuum with speculation - proactive communication is essential.",
-    "Taking personal accountability (even when organizational) builds credibility in American culture.",
-    "American consumers value transparency over perfection - admitting mistakes honestly often strengthens brands.",
-    "Social media accelerates crisis spread in America - responses must be immediate and multichannel.",
-    "American litigation culture creates tension between transparency and legal exposure - work with counsel but don't go silent."
+  "debate_task": {
+    "motion": "This house believes that the language used to discuss poverty in public discourse is a greater barrier to solving it than a lack of political will.",
+    "stance": "balanced",
+    "key_arguments": [
+      "When poverty is consistently framed as personal moral failure, it generates public support for punitive rather than structural policy responses, regardless of what the evidence supports.",
+      "The vocabularies of 'welfare dependency' and 'scroungers' — deployed across the political spectrum in different forms — make it politically impossible to fund the structural interventions that evidence suggests are effective.",
+      "A debate that cannot distinguish between a moral failing and a structural condition will inevitably reach the wrong policy conclusions, because the diagnosis determines the remedy."
+    ],
+    "counter_arguments": [
+      "Concrete political obstacles — fiscal constraints, electoral incentives, ideological commitments — determine policy outcomes far more directly than the vocabulary in which poverty is discussed.",
+      "Language reflects power relations; it does not produce them. Changing the words used to describe poverty without changing the economic conditions that produce it achieves little.",
+      "Effective poverty reduction programmes have been implemented in countries with punitive public discourse — suggesting that political will is separable from linguistic framing."
+    ],
+    "discourse_markers": [
+      "Furthermore,",
+      "On the contrary,",
+      "It could be argued that",
+      "The evidence suggests",
+      "While it is true that... nevertheless,",
+      "To concede this point,",
+      "Notwithstanding this,"
+    ],
+    "task": "Write a 2-minute speech arguing FOR or AGAINST the motion. Use at least 3 discourse markers and one concession."
+  },
+  "extended_writing": {
+    "type": "essay",
+    "task": "Write an analytical essay responding to the proposition: 'The language we use to discuss social problems determines the solutions we reach.' Draw on the editorial's argument and your own analysis to develop a nuanced position.",
+    "word_count": "220-260",
+    "structure": [
+      {
+        "section": "Introduction",
+        "guidance": "State the proposition and introduce your position. Avoid simply agreeing or disagreeing — establish a nuanced thesis: the relationship between language and policy solutions is significant but not deterministic, and the direction of causality is not simple."
+      },
+      {
+        "section": "Main argument 1",
+        "guidance": "Develop the case that language is constitutive of political possibility: the vocabulary in which we frame a social problem determines which solutions appear plausible, which populations deserve sympathy, and which interventions seem proportionate."
+      },
+      {
+        "section": "Counter-argument / nuance",
+        "guidance": "Acknowledge the counter-argument that language reflects power relations rather than creating them — that economic interests and electoral incentives drive policy regardless of vocabulary. Engage with this seriously before arguing that the two factors interact rather than operate independently."
+      },
+      {
+        "section": "Conclusion",
+        "guidance": "Return to the proposition with a refined position: language both reflects and reinforces structural conditions. Changing the vocabulary of a debate is necessary but not sufficient — it must be accompanied by the political conditions that make structural intervention possible."
+      }
+    ],
+    "model_answer": "The proposition that language determines solutions is, in its strong form, both compelling and insufficient. Compelling, because the vocabulary in which we frame a social problem genuinely constrains the range of solutions that appear politically imaginable. Insufficient, because language does not operate in a political vacuum — it is both a tool of power and a reflection of it.\n\nConsider the editorial's central observation: that poverty framed as personal moral failure produces policy responses calibrated to correct individual behaviour rather than structural conditions. This is not merely semantic. When the dominant vocabulary of poverty is 'dependency,' 'entitlement,' and 'welfare culture,' the political space for investment in social infrastructure contracts — not because the evidence changes, but because the framing has pre-determined whose fault the condition is.\n\nNotwithstanding this, the counter-argument carries real weight. Welfare states with generous structural provisions have coexisted with punitive public discourse; austerity has been pursued under the banner of social solidarity. It could be argued that fiscal constraints and electoral incentives drive policy outcomes far more directly than newspaper language.\n\nBut the dichotomy is false. Language and structural conditions are not independent variables — they co-constitute each other. The vocabulary of individual agency naturalises inequality; normalised inequality makes structural intervention appear radical rather than remedial. Language is the medium through which power reproduces itself — but it is also the medium through which it can be challenged.\n\nChanging the vocabulary of a debate is necessary but not sufficient. What it makes possible is a different kind of political common sense — one in which structural investment becomes thinkable. That is not nothing."
+  },
+  "advanced_grammar": {
+    "structure": "Inversion after Negative Adverbs",
+    "explanation": "When a negative or restrictive adverbial expression is placed at the beginning of a sentence for rhetorical emphasis, the subject and auxiliary verb invert — following the same structure as a question. This construction is a feature of elevated formal and literary prose; it signals rhetorical emphasis and is associated with editorial, political, and literary writing at C1/C2 level.\n\nCommon triggers for inversion include: 'Nor,' 'Never,' 'Rarely,' 'Not only,' 'Seldom,' 'On no account,' 'Under no circumstances,' 'Hardly... when,' 'No sooner... than,' and 'Only when/then.' The communicative purpose is to foreground the negative or restricted element and to signal the formal register of the writing. Inversion is not merely decorative — in editorial writing, it allows the writer to place the most rhetorically significant element first, creating an opening that immediately establishes the gravity of the claim.",
+    "authentic_examples": [
+      "Nor is this simply a left-wing critique — conservative thinkers have long recognised the structural preconditions of social mobility.",
+      "Never has the distinction between poverty as moral failing and poverty as structural condition been more urgently needed.",
+      "Only when the conceptual scaffolding beneath the debate is examined do its ideological assumptions become visible."
+    ],
+    "practice": [
+      {
+        "sentence": "The debate has rarely engaged seriously with structural explanations for poverty.",
+        "transform": "Rewrite beginning with 'Rarely' and using subject-auxiliary inversion.",
+        "answer": "Rarely has the debate engaged seriously with structural explanations for poverty."
+      },
+      {
+        "sentence": "The editorial not only identifies the problem but proposes a diagnostic framework for addressing it.",
+        "transform": "Rewrite beginning with 'Not only' and using inversion in the first clause.",
+        "answer": "Not only does the editorial identify the problem, but it also proposes a diagnostic framework for addressing it."
+      },
+      {
+        "sentence": "We can begin to remedy the poverty debate only when we are willing to examine its conceptual assumptions.",
+        "transform": "Rewrite beginning with 'Only when' and using inversion in the main clause.",
+        "answer": "Only when we are willing to examine the poverty debate's conceptual assumptions can we begin to remedy it."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "The editorial describes the language of 'welfare dependent' as 'pathologising a structural disadvantage as personal failing.' What does this mean?",
+      "options": [
+        "The phrase is medically inaccurate because poverty is not a disease.",
+        "The phrase treats a condition produced by structural conditions as though it were a symptom of individual moral dysfunction — applying a medical-moral framework to a social phenomenon.",
+        "The phrase is used only in right-wing media and does not appear in mainstream discourse.",
+        "The phrase pathologises the government's welfare policy rather than the individuals receiving support."
+      ],
+      "correct": 1,
+      "explanation": "To 'pathologise' means to treat as a disease or abnormality. The editorial argues that 'welfare dependent' performs this function for poverty: it frames structural disadvantage as a personal dysfunction, suggesting that poverty reflects something wrong with the individual rather than with the conditions in which they live."
+    },
+    {
+      "id": 2,
+      "question": "What is the rhetorical function of the third paragraph, which opens 'Nor is this simply a left-wing critique'?",
+      "options": [
+        "To qualify the argument by suggesting it may have limited political relevance.",
+        "To broaden the editorial's appeal by grounding the argument in values shared across the political spectrum, making it harder to dismiss as partisan.",
+        "To introduce the conservative counter-argument that will be the focus of the remainder of the editorial.",
+        "To demonstrate that the writer has expertise in political science."
+      ],
+      "correct": 1,
+      "explanation": "The paragraph invokes 'Conservative and centre-right thinkers' who share the goal of genuine social mobility, establishing that the editorial's argument is not simply ideologically motivated. This rhetorical move expands the potential audience and disarms a common dismissal."
+    },
+    {
+      "id": 3,
+      "question": "Identify the grammatical error: 'Not only the editorial identifies the ideological assumptions in the poverty debate, but it also proposes a new diagnostic framework.'",
+      "options": [
+        "No error — 'not only' is correctly used here.",
+        "'Not only' triggers subject-auxiliary inversion: 'Not only does the editorial identify...' is the correct form.",
+        "'But it also' should be 'but also it' in formal register.",
+        "'Identifies' should be 'identify' because 'not only' triggers a plural verb form."
+      ],
+      "correct": 1,
+      "explanation": "When 'not only' is placed at the beginning of a clause for emphasis, subject-auxiliary inversion is required: 'Not only does the editorial identify...' The failure to invert is a common error at the C1 level with this construction."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence most effectively uses a discourse marker to signal concession while maintaining the argument's direction?",
+      "options": [
+        "The counter-argument is interesting but wrong.",
+        "Notwithstanding the weight of the counter-argument — that political will matters more than vocabulary — the evidence suggests that framing and policy outcomes are not independent variables.",
+        "However, some people disagree with this view.",
+        "While it is true that not everyone agrees, the writer's point is still valid."
+      ],
+      "correct": 1,
+      "explanation": "'Notwithstanding' signals that the conceded point has real weight (more so than 'while it is true that') before pivoting to the main claim. The dash-enclosed paraphrase of the counter-argument shows the writer has understood it seriously, and the closing formulation ('not independent variables') is precise and analytical."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following correctly uses inversion after a negative adverbial?",
+      "options": [
+        "Rarely the debate has engaged seriously with structural explanations.",
+        "Rarely has the debate engaged seriously with structural explanations.",
+        "Rarely the debate engaged seriously with structural explanations.",
+        "Rarely did the debate has engaged seriously with structural explanations."
+      ],
+      "correct": 1,
+      "explanation": "Inversion after 'Rarely' requires the auxiliary ('has') to precede the subject ('the debate'): 'Rarely has the debate engaged...' The other options either fail to invert or produce double auxiliaries."
+    }
   ]
 }
