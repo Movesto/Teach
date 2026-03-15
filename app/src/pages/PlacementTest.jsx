@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Mic, Square, Play, ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { releaseAudioSession } from '../utils/audio';
 
 const CEFR_COLORS = {
   A1: 'bg-gray-100 text-gray-800 border-gray-300',
@@ -97,6 +98,7 @@ export default function PlacementTest() {
         setAudioBlobs(prev => ({ ...prev, [id]: blob }));
         setAnswers(prev => ({ ...prev, [id]: { question_id: id, audio_url: `audio_${id}` } }));
         stream.getTracks().forEach(t => t.stop());
+        releaseAudioSession();
       };
       mediaRecorder.current.start();
       setIsRecording(true);

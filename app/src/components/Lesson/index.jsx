@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { GRAMMAR_KEYWORDS } from '../../pages/GrammarGuide';
 import { Volume2, Mic, Check, X } from 'lucide-react';
+import { releaseAudioSession } from '../../utils/audio';
 
 // StorySection Component
 export function StorySection({ story, onComplete, onRequestHelp }) {
@@ -185,6 +186,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
         const url = URL.createObjectURL(blob);
         setRecordings({ ...recordings, [taskIndex]: url });
         stream.getTracks().forEach(t => t.stop());
+        releaseAudioSession();
 
         if (expectedText) {
           const formData = new FormData()
