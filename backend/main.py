@@ -675,6 +675,49 @@ async def translate(request: dict):
     return {"translation": translation, "direction": direction}
 
 
+@app.post("/api/speaking/assess")
+async def assess_speaking(request: dict):
+    transcript = request.get("transcript", "").strip()
+    expected = request.get("expected", "").strip()
+
+    if not transcript:
+        return {"score": 0, "transcript": "", "feedback": "No speech detected. Please try again.", "word_scores": []}
+
+    def normalize(s):
+        return re.sub(r"[^a-z0-9\s']", "", s.lower()).split()
+
+    t_words = normalize(transcript)
+    e_words = normalize(expected)
+
+    if not e_words:
+        return {"score": 100, "transcript": transcript, "feedback": "Great job!", "word_scores": []}
+
+    t_copy = list(t_words)
+    word_scores = []
+    for word in e_words:
+        if word in t_copy:
+            t_copy.remove(word)
+            word_scores.append({"word": word, "correct": True})
+        else:
+            word_scores.append({"word": word, "correct": False})
+
+    score = round(sum(1 for w in word_scores if w["correct"]) / len(e_words) * 100)
+
+    feedback = await ask_qwen([{
+        "role": "user",
+        "content": (
+            f'A student learning English was asked to say: "{expected}"\n'
+            f'They said: "{transcript}"\n'
+            f'Score: {score}/100\n'
+            f'Give exactly 1 short encouraging sentence of feedback. '
+            f'If score is 80+, praise them. If lower, gently name 1-2 words to practise. '
+            f'Be warm and simple — this is a beginner.'
+        )
+    }], max_tokens=60)
+
+    return {"score": score, "transcript": transcript, "feedback": feedback, "word_scores": word_scores}
+
+
 @app.post("/api/pronunciation/assess")
 async def pronunciation_assess(
     audio: UploadFile = File(...),

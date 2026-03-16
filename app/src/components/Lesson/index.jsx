@@ -159,65 +159,105 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   const [recordings, setRecordings] = useState({});
   const [isRecording, setIsRecording] = useState(false);
   const [isPlayingBack, setIsPlayingBack] = useState(false);
+  const [isSpeakingDemo, setIsSpeakingDemo] = useState(false);
+  const [assessmentResult, setAssessmentResult] = useState({});
+  const [isAssessing, setIsAssessing] = useState(false);
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
   const playbackAudioRef = useRef(null);
-  const [pronunciationResult, setPronunciationResult] = useState({})
-  const [isAssessing, setIsAssessing] = useState(false)
+  const recognitionRef = useRef(null);
+  const transcriptRef = useRef('');
 
   const task = tasks[current];
   const isLast = current === tasks.length - 1;
+  const exampleText = task.example || '';
+
+  // ── Demo: speak the example using browser TTS ──
+  const speakDemo = () => {
+    if (!window.speechSynthesis) return;
+    if (isSpeakingDemo) {
+      window.speechSynthesis.cancel();
+      setIsSpeakingDemo(false);
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(exampleText);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.85;
+    utterance.onend = () => setIsSpeakingDemo(false);
+    utterance.onerror = () => setIsSpeakingDemo(false);
+    setIsSpeakingDemo(true);
+    window.speechSynthesis.speak(utterance);
+  };
 
   const startRecording = async () => {
+    window.speechSynthesis?.cancel();
+    setIsSpeakingDemo(false);
     playbackAudioRef.current?.pause();
     playbackAudioRef.current = null;
     setIsPlayingBack(false);
     const taskIndex = current;
-    const expectedText = tasks[current].example || tasks[current].instruction || '';
+    const expectedText = task.example || task.instruction || '';
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       const mediaRecorder = new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
       audioChunksRef.current = [];
+      transcriptRef.current = '';
+
+      // Start speech recognition alongside recording
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (SR) {
+        const recognition = new SR();
+        recognition.lang = 'en-US';
+        recognition.continuous = true;
+        recognition.interimResults = false;
+        recognition.onresult = (e) => {
+          for (let i = e.resultIndex; i < e.results.length; i++) {
+            if (e.results[i].isFinal) transcriptRef.current += ' ' + e.results[i][0].transcript;
+          }
+        };
+        recognition.onerror = () => {};
+        recognitionRef.current = recognition;
+        recognition.start();
+      }
 
       mediaRecorder.ondataavailable = (e) => audioChunksRef.current.push(e.data);
       mediaRecorder.onstop = () => {
         const blob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
         const url = URL.createObjectURL(blob);
-        setRecordings({ ...recordings, [taskIndex]: url });
+        setRecordings(prev => ({ ...prev, [taskIndex]: url }));
         stream.getTracks().forEach(t => t.stop());
         releaseAudioSession();
 
+        const transcript = transcriptRef.current.trim();
         if (expectedText) {
-          const formData = new FormData()
-          formData.append('audio', blob, 'recording.webm')
-          formData.append('language', 'english')
-          formData.append('expected_text', expectedText)
-          setIsAssessing(true)
-          fetch('/api/pronunciation/assess', { method: 'POST', body: formData })
+          setIsAssessing(true);
+          fetch('/api/speaking/assess', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ transcript, expected: expectedText }),
+          })
             .then(r => r.ok ? r.json() : null)
             .then(result => {
-              if (result?.overall_score !== undefined) {
-                setPronunciationResult(prev => ({ ...prev, [taskIndex]: result }))
-              }
-              setIsAssessing(false)
+              if (result) setAssessmentResult(prev => ({ ...prev, [taskIndex]: result }));
+              setIsAssessing(false);
             })
-            .catch(() => setIsAssessing(false))
+            .catch(() => setIsAssessing(false));
         }
       };
 
       mediaRecorder.start();
       setIsRecording(true);
-    } catch (err) {
+    } catch {
       alert('Microphone access denied. Please enable microphone permissions.');
     }
   };
 
   const stopRecording = () => {
-    if (mediaRecorderRef.current) {
-      mediaRecorderRef.current.stop();
-      setIsRecording(false);
-    }
+    recognitionRef.current?.stop();
+    recognitionRef.current = null;
+    mediaRecorderRef.current?.stop();
+    setIsRecording(false);
   };
 
   const togglePlayback = () => {
@@ -236,15 +276,24 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   };
 
   const next = () => {
+    window.speechSynthesis?.cancel();
     playbackAudioRef.current?.pause();
     playbackAudioRef.current = null;
     setIsPlayingBack(false);
+    setIsSpeakingDemo(false);
     if (isLast) {
       onComplete();
     } else {
       setCurrent(current + 1);
     }
   };
+
+  const result = assessmentResult[current];
+  const scoreColor = result
+    ? result.score >= 80 ? 'text-green-600 dark:text-green-400'
+    : result.score >= 50 ? 'text-amber-500 dark:text-amber-400'
+    : 'text-red-500 dark:text-red-400'
+    : '';
 
   return (
     <div>
@@ -258,14 +307,28 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
         <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{task.title}</h3>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{task.instruction}</p>
 
-        {task.example && (
-          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 mb-4">
-            <p className="text-sm text-blue-800 dark:text-blue-300 font-semibold mb-1">Example:</p>
-            <p className="text-blue-900 dark:text-blue-200">{task.example}</p>
+        {exampleText && (
+          <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg p-4 mb-4">
+            <div className="flex items-center justify-between mb-1">
+              <p className="text-sm text-blue-800 dark:text-blue-300 font-semibold">Example — listen then repeat:</p>
+              <button
+                onClick={speakDemo}
+                disabled={isRecording}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-colors ${
+                  isSpeakingDemo
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800'
+                }`}
+              >
+                <Volume2 className="w-3.5 h-3.5" />
+                {isSpeakingDemo ? 'Stop' : 'Hear it'}
+              </button>
+            </div>
+            <p className="text-blue-900 dark:text-blue-200 text-lg font-medium">{exampleText}</p>
           </div>
         )}
 
-        {task.sentence_starters && task.sentence_starters.length > 0 && (
+        {task.sentence_starters?.length > 0 && (
           <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-lg p-4 mb-4">
             <p className="text-sm font-semibold text-amber-800 dark:text-amber-300 mb-2">Try starting with one of these:</p>
             <ul className="space-y-1">
@@ -284,20 +347,20 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
             onClick={isRecording ? stopRecording : startRecording}
             className={`flex-1 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 ${
               isRecording
-                ? 'bg-red-500 text-white'
+                ? 'bg-red-500 hover:bg-red-600 text-white'
                 : recordings[current]
-                ? 'bg-green-500 text-white'
-                : 'bg-blue-600 text-white hover:bg-blue-700'
+                ? 'bg-green-500 hover:bg-green-600 text-white'
+                : 'bg-blue-600 hover:bg-blue-700 text-white'
             }`}
           >
             <Mic className="w-5 h-5" />
-            {isRecording ? 'Stop' : recordings[current] ? 'Recorded ✓' : 'Record'}
+            {isRecording ? '⏹ Stop Recording' : recordings[current] ? '✓ Re-record' : '🎤 Record'}
           </button>
 
           {recordings[current] && (
             <button
               onClick={togglePlayback}
-              className={`px-6 py-3 rounded-lg font-semibold flex items-center gap-2 ${
+              className={`px-5 py-3 rounded-lg font-semibold flex items-center gap-2 ${
                 isPlayingBack ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-gray-600 hover:bg-gray-700 text-white'
               }`}
             >
@@ -308,32 +371,38 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
         </div>
 
         {isAssessing && (
-          <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 animate-pulse">Assessing pronunciation...</p>
+          <div className="mt-4 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="w-4 h-4 border-2 border-gray-400 border-t-transparent rounded-full animate-spin" />
+            Analysing your speech...
+          </div>
         )}
-        {pronunciationResult[current] && !isAssessing && (() => {
-          const pr = pronunciationResult[current];
-          const score = pr.overall_score;
-          const scoreColor = score >= 70 ? 'text-green-600 dark:text-green-400' : score >= 50 ? 'text-amber-500 dark:text-amber-400' : 'text-red-500 dark:text-red-400';
-          return (
-            <div className="mt-4 p-3 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg">
-              <div className="flex items-center gap-3 mb-2">
-                <span className={`text-lg font-bold ${scoreColor}`}>{score}/100</span>
-                {pr.feedback && <span className="text-sm text-gray-700 dark:text-gray-300">{pr.feedback}</span>}
-              </div>
-              {pr.word_scores?.length > 0 && (
-                <div className="flex flex-wrap gap-2">
-                  {pr.word_scores.map((w, i) => (
-                    <span key={i} className={`text-xs px-2 py-1 rounded-full font-medium ${
-                      w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
-                    }`}>
-                      {w.expected} ({w.score}%)
-                    </span>
-                  ))}
-                </div>
-              )}
+
+        {result && !isAssessing && (
+          <div className="mt-4 bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-lg p-4">
+            <div className="flex items-center gap-3 mb-3">
+              <span className={`text-2xl font-bold ${scoreColor}`}>{result.score}/100</span>
+              {result.feedback && <span className="text-sm text-gray-700 dark:text-gray-300 flex-1">{result.feedback}</span>}
             </div>
-          );
-        })()}
+            {result.transcript && (
+              <p className="text-xs text-gray-500 dark:text-gray-400 mb-2 italic">
+                Heard: "{result.transcript}"
+              </p>
+            )}
+            {result.word_scores?.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {result.word_scores.map((w, i) => (
+                  <span key={i} className={`text-xs px-2.5 py-1 rounded-full font-medium ${
+                    w.correct
+                      ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300'
+                      : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
+                  }`}>
+                    {w.correct ? '✓' : '✗'} {w.word}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       <button
