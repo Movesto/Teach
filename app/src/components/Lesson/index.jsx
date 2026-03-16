@@ -195,9 +195,11 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
           formData.append('expected_text', expectedText)
           setIsAssessing(true)
           fetch('/api/pronunciation/assess', { method: 'POST', body: formData })
-            .then(r => r.json())
+            .then(r => r.ok ? r.json() : null)
             .then(result => {
-              setPronunciationResult(prev => ({ ...prev, [taskIndex]: result }))
+              if (result?.overall_score !== undefined) {
+                setPronunciationResult(prev => ({ ...prev, [taskIndex]: result }))
+              }
               setIsAssessing(false)
             })
             .catch(() => setIsAssessing(false))
@@ -308,30 +310,30 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
         {isAssessing && (
           <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 animate-pulse">Assessing pronunciation...</p>
         )}
-        {pronunciationResult[current] && !isAssessing && (
-          <div className="mt-4 p-3 bg-white dark:bg-gray-700 border border-green-200 dark:border-green-700 rounded-lg">
-            <div className="flex items-center gap-3 mb-2">
-              <span className="text-lg font-bold text-gray-900 dark:text-white">
-                {pronunciationResult[current].overall_score}/100
-              </span>
-              <span className="text-sm text-gray-700 dark:text-gray-300">
-                {pronunciationResult[current].feedback}
-              </span>
+        {pronunciationResult[current] && !isAssessing && (() => {
+          const pr = pronunciationResult[current];
+          const score = pr.overall_score;
+          const scoreColor = score >= 70 ? 'text-green-600 dark:text-green-400' : score >= 50 ? 'text-amber-500 dark:text-amber-400' : 'text-red-500 dark:text-red-400';
+          return (
+            <div className="mt-4 p-3 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg">
+              <div className="flex items-center gap-3 mb-2">
+                <span className={`text-lg font-bold ${scoreColor}`}>{score}/100</span>
+                {pr.feedback && <span className="text-sm text-gray-700 dark:text-gray-300">{pr.feedback}</span>}
+              </div>
+              {pr.word_scores?.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {pr.word_scores.map((w, i) => (
+                    <span key={i} className={`text-xs px-2 py-1 rounded-full font-medium ${
+                      w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
+                    }`}>
+                      {w.expected} ({w.score}%)
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
-            <div className="flex flex-wrap gap-2">
-              {pronunciationResult[current].word_scores?.map((w, i) => (
-                <span
-                  key={i}
-                  className={`text-xs px-2 py-1 rounded-full font-medium ${
-                    w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
-                  }`}
-                >
-                  {w.expected} ({w.score}%)
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
+          );
+        })()}
       </div>
 
       <button
