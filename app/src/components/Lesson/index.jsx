@@ -49,6 +49,11 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
   const exercise = exercises[current];
   const isLast = current === exercises.length - 1;
 
+  // Stop audio on unmount
+  useEffect(() => {
+    return () => { audioRef.current?.pause(); audioRef.current = null; };
+  }, []);
+
   const toggleAudio = () => {
     if (isPlaying) {
       audioRef.current?.pause();
@@ -172,26 +177,45 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   const isLast = current === tasks.length - 1;
   const exampleText = task.example || '';
 
-  // ── Demo: speak the example using browser TTS ──
+  // ── Demo: speak the example using neural TTS (edge-tts backend) ──
   const speakDemo = () => {
-    if (!window.speechSynthesis) return;
     if (isSpeakingDemo) {
-      window.speechSynthesis.cancel();
+      playbackAudioRef.current?.pause();
+      playbackAudioRef.current = null;
       setIsSpeakingDemo(false);
       return;
     }
-    const utterance = new SpeechSynthesisUtterance(exampleText);
-    utterance.lang = 'en-US';
-    utterance.rate = 0.85;
-    utterance.onend = () => setIsSpeakingDemo(false);
-    utterance.onerror = () => setIsSpeakingDemo(false);
+    if (!exampleText) return;
     setIsSpeakingDemo(true);
-    window.speechSynthesis.speak(utterance);
+
+    const audio = new Audio(`/api/tts?text=${encodeURIComponent(exampleText)}`);
+    playbackAudioRef.current = audio;
+    audio.onended = () => { setIsSpeakingDemo(false); playbackAudioRef.current = null; };
+    audio.onerror = () => {
+      // Fallback to Web Speech API if backend TTS fails
+      playbackAudioRef.current = null;
+      const SR = window.speechSynthesis;
+      if (!SR) { setIsSpeakingDemo(false); return; }
+      const utterance = new SpeechSynthesisUtterance(exampleText);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.85;
+      // Prefer a Google or natural-sounding US voice if available
+      const voices = SR.getVoices();
+      const best = voices.find(v => v.name.includes('Google') && v.lang === 'en-US')
+        || voices.find(v => v.lang === 'en-US');
+      if (best) utterance.voice = best;
+      utterance.onend = () => setIsSpeakingDemo(false);
+      SR.speak(utterance);
+    };
+    audio.play();
   };
 
   const startRecording = async () => {
-    window.speechSynthesis?.cancel();
-    setIsSpeakingDemo(false);
+    if (isSpeakingDemo) {
+      playbackAudioRef.current?.pause();
+      playbackAudioRef.current = null;
+      setIsSpeakingDemo(false);
+    }
     playbackAudioRef.current?.pause();
     playbackAudioRef.current = null;
     setIsPlayingBack(false);
@@ -276,7 +300,6 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   };
 
   const next = () => {
-    window.speechSynthesis?.cancel();
     playbackAudioRef.current?.pause();
     playbackAudioRef.current = null;
     setIsPlayingBack(false);

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
 
 export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
@@ -7,6 +7,20 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizComplete, setQuizComplete] = useState(false);
   const [score, setScore] = useState(0);
+  const audioRef = useRef(null);
+
+  // Stop audio on unmount
+  useEffect(() => {
+    return () => { audioRef.current?.pause(); audioRef.current = null; };
+  }, []);
+
+  const playAudio = (src) => {
+    audioRef.current?.pause();
+    const audio = new Audio(src);
+    audioRef.current = audio;
+    audio.onended = () => { audioRef.current = null; };
+    audio.play();
+  };
 
   const question = questions[currentQ];
   const isLastQuestion = currentQ === questions.length - 1;
@@ -84,9 +98,10 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
 
         <button
           onClick={() => onComplete(score)}
-          className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2 mx-auto"
         >
           Continue to Next Lesson
+          <ChevronRight className="w-5 h-5" />
         </button>
       </div>
     );
@@ -141,7 +156,7 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
 
         {question.type === 'listening' && question.audio && (
           <button
-            onClick={() => new Audio(question.audio).play()}
+            onClick={() => playAudio(question.audio)}
             className="w-full py-3 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-semibold hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors flex items-center justify-center gap-2 mb-4"
           >
             <Volume2 className="w-5 h-5" />

@@ -1,299 +1,206 @@
 import { useState, useEffect, useRef } from 'react';
-import { X, Sparkles, Loader, Send, Globe } from 'lucide-react';
+import { X, Sparkles, Loader, Send } from 'lucide-react';
+
+// Load all unit titles once so the AI knows the full curriculum
+const UNITS_SUMMARY = [
+  "Unit 1: Daily Life & Survival — greetings, shopping, transport, health, emergencies",
+  "Unit 2: People, Work & First Steps — family, job skills, interviews",
+  "Unit 3: Work & Money — workplace, finances, smart shopping",
+  "Unit 4: Community & Civic Life — post office, library, DMV, local services",
+  "Unit 5: Opinions & Discussions — views, current events, entertainment, social plans",
+  "Unit 6: Health & Wellbeing — doctors, pharmacy, mental health",
+  "Unit 7: Travel & the World — directions, travel, cultures",
+  "Unit 8: Education & Learning — schools, studying, goals",
+  "Unit 9: Technology & Modern Life — internet, phones, digital skills",
+  "Unit 10: Rights & Responsibilities — laws, citizenship, rights",
+  "Unit 11: Advanced Communication — presentations, debates, formal writing",
+  "Unit 12: Culture & Identity — traditions, identity, storytelling",
+  "Unit 13: Future & Ambitions — goals, careers, the future",
+].join("; ");
+
+function buildLessonContext(context) {
+  if (!context) return '';
+  const c = context.content || {};
+  if (context.type === 'question') return `quiz question: "${c.question || ''}"`;
+  if (context.type === 'drill') return `pattern drill: "${c.title || ''}" — ${c.instruction || ''}`;
+  if (context.type === 'phrase') return `phrase: "${c.text || ''}"`;
+  if (context.type === 'lesson') return c.title || '';
+  return '';
+}
 
 export default function AITutorModal({ isOpen, onClose, context }) {
-  const [translation, setTranslation] = useState(null);
-  const [explanation, setExplanation] = useState(null);
-  const [explanationEnglish, setExplanationEnglish] = useState(null);
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
-  const [chatMessages, setChatMessages] = useState([]);
-  const [chatInput, setChatInput] = useState('');
-  const [chatLoading, setChatLoading] = useState(false);
-  const [showEnglish, setShowEnglish] = useState(true);
-
-  const chatEndRef = useRef(null);
+  const bottomRef = useRef(null);
   const inputRef = useRef(null);
 
+  // Reset and send opening message whenever the modal opens
   useEffect(() => {
-    if (isOpen && context) {
-      setTranslation(null);
-      setExplanation(null);
-      setExplanationEnglish(null);
-      setChatMessages([]);
-      setChatInput('');
-      setError(null);
-      getHelp();
-    }
+    if (!isOpen) return;
+    setInput('');
+    setError(null);
+    setLoading(true);
+
+    const lessonCtx = buildLessonContext(context);
+    const openingPrompt = lessonCtx
+      ? `I'm studying ${lessonCtx}. Can you help me understand it and practice?`
+      : "Hello! I want to practice my English. Can you help me?";
+
+    const initial = { role: 'user', content: openingPrompt, content_english: openingPrompt, hidden: true };
+    setMessages([initial]);
+
+    fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: openingPrompt,
+        history: [],
+        lesson_context: lessonCtx,
+        units_context: UNITS_SUMMARY,
+      }),
+    })
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(data => {
+        setMessages([initial, { role: 'assistant', content: data.reply, content_english: data.reply_english }]);
+      })
+      .catch(() => setError('Could not connect to AI tutor. Please try again.'))
+      .finally(() => setLoading(false));
   }, [isOpen, context]);
 
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [chatMessages]);
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, loading]);
 
-  const getHelp = async () => {
+  const send = async () => {
+    const text = input.trim();
+    if (!text || loading) return;
+    setInput('');
     setLoading(true);
     setError(null);
+
+    const userMsg = { role: 'user', content: text, content_english: null };
+    const next = [...messages, userMsg];
+    setMessages(next);
+
     try {
-      let textToTranslate = '';
-      let additionalContext = '';
-      const content = context.content || {};
-      if (context.type === 'question') {
-        textToTranslate = content.question || '';
-        additionalContext = 'This is a quiz question.';
-      } else if (context.type === 'drill') {
-        textToTranslate = content.title || '';
-        additionalContext = `Pattern drill: ${content.instruction || ''}`;
-      } else if (context.type === 'phrase') {
-        textToTranslate = content.text || '';
-        additionalContext = content.context || '';
-      } else {
-        textToTranslate = JSON.stringify(content).substring(0, 500);
-      }
-
-      const nllbResponse = await fetch('/api/translate', {
+      const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: textToTranslate, source_lang: 'eng_Latn', target_lang: 'som_Latn' })
+        body: JSON.stringify({
+          message: text,
+          history: next.filter(m => !m.hidden),
+          lesson_context: buildLessonContext(context),
+          units_context: UNITS_SUMMARY,
+        }),
       });
-      if (!nllbResponse.ok) throw new Error('Translation failed');
-      const nllbData = await nllbResponse.json();
-      setTranslation(nllbData.translation);
-
-      const qwenResponse = await fetch('/api/explain', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ english: textToTranslate, somali: nllbData.translation, context: additionalContext, type: context.type })
-      });
-      if (!qwenResponse.ok) throw new Error('Explanation failed');
-      const qwenData = await qwenResponse.json();
-      setExplanation(qwenData.explanation);
-      setExplanationEnglish(qwenData.explanation_english);
-      setChatMessages([{ role: 'assistant', content: qwenData.explanation, content_english: qwenData.explanation_english }]);
-    } catch (err) {
-      console.error('AI Tutor error:', err);
-      setError('Sorry, I couldn\'t get help right now. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const sendChatMessage = async () => {
-    const message = chatInput.trim();
-    if (!message || chatLoading) return;
-    setChatInput('');
-    setChatLoading(true);
-    const userMsg = { role: 'user', content: message, content_english: null };
-    const updatedMessages = [...chatMessages, userMsg];
-    setChatMessages(updatedMessages);
-    try {
-      let lessonContext = '';
-      if (context) {
-        const c = context.content || {};
-        if (context.type === 'question') lessonContext = c.question || '';
-        else if (context.type === 'drill') lessonContext = c.title || '';
-        else if (context.type === 'phrase') lessonContext = c.text || '';
-      }
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message, history: chatMessages, lesson_context: lessonContext })
-      });
-      if (!response.ok) throw new Error('Chat failed');
-      const data = await response.json();
-      setChatMessages(prev => {
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      setMessages(prev => {
         const updated = [...prev];
         updated[updated.length - 1] = { ...updated[updated.length - 1], content_english: data.user_message_english };
-        updated.push({ role: 'assistant', content: data.reply, content_english: data.reply_english });
-        return updated;
+        return [...updated, { role: 'assistant', content: data.reply, content_english: data.reply_english }];
       });
-    } catch (err) {
-      console.error('Chat error:', err);
-      setChatMessages(prev => [...prev, {
-        role: 'assistant',
-        content: 'Waan ka xumahay, khalad ayaa dhacay. Fadlan isku day mar kale.',
-        content_english: 'Sorry, an error occurred. Please try again.',
-      }]);
+    } catch {
+      setError('Something went wrong. Please try again.');
     } finally {
-      setChatLoading(false);
+      setLoading(false);
       inputRef.current?.focus();
     }
   };
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendChatMessage(); }
+  const onKeyDown = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
   };
 
   if (!isOpen) return null;
 
+  const visibleMessages = messages.filter(m => !m.hidden);
+
   return (
-    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[85vh] flex flex-col">
+    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-end sm:items-center justify-center p-0 sm:p-4">
+      <div className="bg-white dark:bg-gray-900 rounded-t-2xl sm:rounded-2xl shadow-2xl w-full sm:max-w-2xl flex flex-col" style={{ height: '85vh' }}>
+
         {/* Header */}
-        <div className="shrink-0 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 p-6 flex items-center justify-between rounded-t-2xl">
+        <div className="shrink-0 flex items-center justify-between px-5 py-4 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-white" />
+            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
+              <Sparkles className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">AI Tutor</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Help in Somali / Caawimo Af-Soomaali</p>
+              <p className="font-bold text-gray-900 dark:text-white text-sm">AI Tutor</p>
+              <p className="text-xs text-gray-500 dark:text-gray-400">English · Somali · Any topic</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setShowEnglish(!showEnglish)}
-              title={showEnglish ? 'Hide English' : 'Show English'}
-              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                showEnglish ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400' : 'hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-400'
-              }`}
-            >
-              <Globe className="w-5 h-5" />
-            </button>
-            <button
-              onClick={onClose}
-              className="w-10 h-10 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center justify-center transition-colors"
-            >
-              <X className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-            </button>
-          </div>
+          <button
+            onClick={onClose}
+            className="w-8 h-8 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center justify-center transition-colors"
+          >
+            <X className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+          </button>
         </div>
 
-        {/* Scrollable content */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-6">
-          {loading ? (
-            <div className="flex flex-col items-center justify-center py-12">
-              <Loader className="w-12 h-12 text-blue-600 animate-spin mb-4" />
-              <p className="text-gray-600 dark:text-gray-400">Getting help from AI tutor...</p>
-              <p className="text-sm text-gray-500 dark:text-gray-500">Tarjumaya...</p>
+        {/* Messages */}
+        <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3">
+          {visibleMessages.map((msg, i) => (
+            <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+              <div className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap ${
+                msg.role === 'user'
+                  ? 'bg-blue-600 text-white rounded-br-sm'
+                  : 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-bl-sm'
+              }`}>
+                {msg.content}
+              </div>
             </div>
-          ) : error ? (
-            <div className="bg-red-50 dark:bg-red-900/20 border-2 border-red-200 dark:border-red-700 rounded-lg p-4">
-              <p className="text-red-900 dark:text-red-300 font-semibold mb-2">Error</p>
-              <p className="text-red-800 dark:text-red-400">{error}</p>
+          ))}
+
+          {loading && (
+            <div className="flex justify-start">
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl rounded-bl-sm px-4 py-3 flex gap-1 items-center">
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+              </div>
             </div>
-          ) : (
-            <>
-              {context && context.content && (
-                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-5 border-2 border-blue-200 dark:border-blue-700">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-sm font-bold text-blue-700 dark:text-blue-400">English</span>
-                  </div>
-                  <p className="text-lg font-semibold text-blue-900 dark:text-blue-200 leading-relaxed">
-                    {context.type === 'question' && context.content.question}
-                    {context.type === 'drill' && context.content.title}
-                    {context.type === 'phrase' && context.content.text}
-                    {!['question', 'drill', 'phrase'].includes(context.type) && JSON.stringify(context.content).substring(0, 200)}
-                  </p>
-                </div>
-              )}
-
-              {translation && (
-                <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-5 border-2 border-green-200 dark:border-green-700">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-sm font-bold text-green-700 dark:text-green-400">Somali / Af-Soomaali</span>
-                  </div>
-                  <p className="text-lg font-semibold text-green-900 dark:text-green-200 leading-relaxed">{translation}</p>
-                </div>
-              )}
-
-              {explanation && (
-                <div className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-5 border-2 border-amber-200 dark:border-amber-700">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Sparkles className="w-5 h-5 text-amber-600 dark:text-amber-400" />
-                    <span className="text-sm font-bold text-amber-700 dark:text-amber-400">Sharaxaad / Explanation</span>
-                  </div>
-                  <div className="text-gray-800 dark:text-gray-200 leading-relaxed space-y-2">
-                    {explanation.split('\n').map((paragraph, idx) => <p key={idx}>{paragraph}</p>)}
-                  </div>
-                  {showEnglish && explanationEnglish && (
-                    <div className="mt-4 pt-4 border-t border-amber-200 dark:border-amber-700">
-                      <p className="text-xs font-bold text-amber-600 dark:text-amber-400 mb-2">English version:</p>
-                      <div className="text-sm text-amber-800 dark:text-amber-300 leading-relaxed space-y-1">
-                        {explanationEnglish.split('\n').map((p, i) => <p key={i}>{p}</p>)}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {chatMessages.length > 1 && (
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
-                    <div className="h-px flex-1 bg-gray-200 dark:bg-gray-700" />
-                    <span className="text-xs font-bold text-gray-400 uppercase">Chat / Wadahadal</span>
-                    <div className="h-px flex-1 bg-gray-200 dark:bg-gray-700" />
-                  </div>
-                  {chatMessages.slice(1).map((msg, idx) => (
-                    <div key={idx} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                      <div className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-                        msg.role === 'user' ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200'
-                      }`}>
-                        <p className="leading-relaxed">{msg.content}</p>
-                        {showEnglish && msg.content_english && msg.role === 'user' && (
-                          <p className="text-xs mt-2 pt-2 border-t border-blue-400 text-blue-200 leading-relaxed">
-                            {msg.content_english}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                  {chatLoading && (
-                    <div className="flex justify-start">
-                      <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl px-4 py-3">
-                        <Loader className="w-5 h-5 text-gray-400 animate-spin" />
-                      </div>
-                    </div>
-                  )}
-                  <div ref={chatEndRef} />
-                </div>
-              )}
-            </>
           )}
+
+          {error && (
+            <div className="text-center">
+              <p className="text-xs text-red-500 dark:text-red-400">{error}</p>
+            </div>
+          )}
+
+          <div ref={bottomRef} />
         </div>
 
-        {/* Chat input */}
-        {!loading && !error && (
-          <div className="shrink-0 border-t border-gray-200 dark:border-gray-700 p-4 bg-gray-50 dark:bg-gray-800 rounded-b-2xl space-y-3">
-            <div className="flex gap-2">
-              <input
-                ref={inputRef}
-                type="text"
-                value={chatInput}
-                onChange={(e) => setChatInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="Su'aal ku qor Af-Soomaali... (Type in Somali)"
-                disabled={chatLoading}
-                className="flex-1 px-4 py-3 border-2 border-gray-200 dark:border-gray-600 rounded-xl focus:border-blue-400 dark:focus:border-blue-500 focus:outline-none bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400 transition-colors disabled:opacity-50"
-              />
-              <button
-                onClick={sendChatMessage}
-                disabled={chatLoading || !chatInput.trim()}
-                className="px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Send className="w-5 h-5" />
-              </button>
-            </div>
+        {/* Input */}
+        <div className="shrink-0 px-4 py-3 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-b-2xl">
+          <div className="flex gap-2 items-end">
+            <textarea
+              ref={inputRef}
+              rows={1}
+              value={input}
+              onChange={e => setInput(e.target.value)}
+              onKeyDown={onKeyDown}
+              placeholder="Ask in English or Somali..."
+              disabled={loading}
+              className="flex-1 resize-none px-4 py-3 border border-gray-200 dark:border-gray-600 rounded-xl focus:border-blue-400 dark:focus:border-blue-500 focus:outline-none bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 text-sm transition-colors disabled:opacity-50"
+              style={{ maxHeight: '120px', overflowY: 'auto' }}
+              onInput={e => {
+                e.target.style.height = 'auto';
+                e.target.style.height = Math.min(e.target.scrollHeight, 120) + 'px';
+              }}
+            />
             <button
-              onClick={onClose}
-              className="w-full py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+              onClick={send}
+              disabled={loading || !input.trim()}
+              className="w-10 h-10 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center shrink-0"
             >
-              Close / Xir
+              <Send className="w-4 h-4" />
             </button>
           </div>
-        )}
-
-        {!loading && error && (
-          <div className="shrink-0 border-t border-gray-200 dark:border-gray-700 p-4 bg-gray-50 dark:bg-gray-800 rounded-b-2xl">
-            <button
-              onClick={onClose}
-              className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-            >
-              Close / Xir
-            </button>
-          </div>
-        )}
+        </div>
       </div>
     </div>
   );

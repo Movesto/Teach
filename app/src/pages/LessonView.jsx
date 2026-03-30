@@ -20,6 +20,7 @@ export default function LessonView() {
   const [showTutor, setShowTutor] = useState(false);
   const [tutorContext, setTutorContext] = useState(null);
   const [completedSections, setCompletedSections] = useState([]);
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     fetch(`/api/lessons/${lessonId}`)
@@ -35,15 +36,23 @@ export default function LessonView() {
   }, [lessonId]);
 
   const submitQuiz = (score) => {
+    if (submitting) return;
+    setSubmitting(true);
     const headers = { 'Content-Type': 'application/json' };
     if (token) headers['Authorization'] = `Bearer ${token}`;
     fetch('/api/quiz/submit', {
       method: 'POST', headers,
       body: JSON.stringify({ lesson_id: lessonId, unit_id: lesson?.unit_id, score })
-    }).then(r => r.json()).then(data => {
-      if (data.unit_complete) navigate(`/unit-test/${data.unit_id}`);
-      else navigate('/dashboard');
-    });
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.unit_complete) navigate(`/unit-test/${data.unit_id}`);
+        else navigate('/dashboard');
+      })
+      .catch(() => {
+        setSubmitting(false);
+        navigate('/dashboard');
+      });
   };
 
   const requestHelp = (content) => {
@@ -57,18 +66,21 @@ export default function LessonView() {
     }
   };
 
-  const sections = [
-    { id: 'objectives', label: 'Learning Objectives', icon: CheckCircle },
-    { id: 'target', label: 'Target Language', icon: BookOpen },
-    { id: 'story', label: 'Situation', icon: BookOpen },
-    { id: 'reading', label: 'Reading Practice', icon: BookOpen },
-    { id: 'drills', label: 'Pattern Drills', icon: Volume2 },
-    { id: 'listening', label: 'Listening', icon: Volume2 },
-    { id: 'speaking', label: 'Speaking', icon: Mic },
-    { id: 'writing', label: 'Writing', icon: Edit },
-    { id: 'grammar', label: 'Grammar Discovery', icon: BookOpen },
-    { id: 'quiz', label: 'Quiz', icon: CheckCircle }
+  const allSections = [
+    { id: 'objectives', label: 'Learning Objectives', icon: CheckCircle, key: 'objectives' },
+    { id: 'target', label: 'Target Language', icon: BookOpen, key: 'target_language' },
+    { id: 'story', label: 'Situation', icon: BookOpen, key: 'story' },
+    { id: 'reading', label: 'Reading Practice', icon: BookOpen, key: 'story' },
+    { id: 'drills', label: 'Pattern Drills', icon: Volume2, key: 'drills' },
+    { id: 'listening', label: 'Listening', icon: Volume2, key: 'listening' },
+    { id: 'speaking', label: 'Speaking', icon: Mic, key: 'speaking' },
+    { id: 'writing', label: 'Writing', icon: Edit, key: 'writing' },
+    { id: 'grammar', label: 'Grammar Discovery', icon: BookOpen, key: 'grammar_discovery' },
+    { id: 'quiz', label: 'Quiz', icon: CheckCircle, key: 'quiz' },
   ];
+  const sections = lesson
+    ? allSections.filter(s => lesson[s.key])
+    : allSections;
 
   if (loading) {
     return (

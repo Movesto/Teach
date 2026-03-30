@@ -1,9 +1,13 @@
 version: '3.8'
 
 services:
+
+  # ── AI Services ────────────────────────────────────────────────────────────
+
   qwen:
     image: vllm/vllm-openai:latest
     container_name: qwen-brain
+    restart: unless-stopped
     ports:
       - "8010:8000"
     volumes:
@@ -25,10 +29,13 @@ services:
       --gpu-memory-utilization 0.70
       --enforce-eager
       --port 8000
+    networks:
+      - teach-network
 
   nllb:
     build: ./services/nllb
     container_name: nllb-translator
+    restart: unless-stopped
     ports:
       - "8001:8001"
     volumes:
@@ -42,6 +49,115 @@ services:
               count: 1
               capabilities: [gpu]
     ipc: host
+    networks:
+      - teach-network
+
+  pronunciation:
+    image: teach-pronunciation
+    container_name: teach-pronunciation
+    restart: unless-stopped
+    ports:
+      - "5002:5002"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - PYTHONUNBUFFERED=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - teach-network
+
+  # ── Data ───────────────────────────────────────────────────────────────────
+
+  database:
+    image: postgres:16
+    container_name: teach-database
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: teach_user
+      POSTGRES_PASSWORD: teach_secure_pass_123
+      POSTGRES_DB: teach_db
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./services/database/init-user-data-only.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U teach_user -d teach_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - teach-network
+
+  # ── Application ────────────────────────────────────────────────────────────
+
+  backend:
+    build: ./backend
+    container_name: teach-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=database
+      - DB_NAME=teach_db
+      - DB_USER=teach_user
+      - DB_PASSWORD=teach_secure_pass_123
+      - NLLB_URL=http://nllb-translator:8001/translate
+      - QWEN_URL=http://qwen-brain:8000/v1/chat/completions
+      - PRONUNCIATION_URL=http://teach-pronunciation:5002
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-dev-secret-change-in-prod-32chars!!}
+    volumes:
+      - ./backend/audio:/app/audio
+      - ./backend/books:/app/books:ro
+      - ./backend/unit-1:/app/unit-1:ro
+      - ./backend/unit-2:/app/unit-2:ro
+      - ./backend/unit-3:/app/unit-3:ro
+      - ./backend/unit-4:/app/unit-4:ro
+      - ./backend/unit-5:/app/unit-5:ro
+      - ./backend/unit-6:/app/unit-6:ro
+      - ./backend/unit-7:/app/unit-7:ro
+      - ./backend/unit-8:/app/unit-8:ro
+      - ./backend/unit-9:/app/unit-9:ro
+      - ./backend/unit-10:/app/unit-10:ro
+      - ./backend/unit-11:/app/unit-11:ro
+      - ./backend/unit-12:/app/unit-12:ro
+      - ./backend/unit-13:/app/unit-13:ro
+      - ./backend/units.json:/app/units.json:ro
+      - ./services/placement_test:/app/services/placement_test:ro
+    depends_on:
+      database:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/api/units')\""]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    networks:
+      - teach-network
+
+  frontend:
+    build: ./app
+    container_name: teach-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - teach-network
 
 volumes:
   huggingface-cache:
+  postgres-data:
+
+networks:
+  teach-network:
+    driver: bridge

@@ -1,4 +1,5 @@
-from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends, Request
+from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends, Request, Query
+from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
@@ -9,6 +10,7 @@ import json
 import os
 import re
 import sys
+import hashlib
 import time
 import random
 from pathlib import Path
@@ -16,18 +18,23 @@ from datetime import datetime, timedelta
 from pydantic import BaseModel
 
 try:
-    from jose import JWTError, jwt
-    from passlib.context import CryptContext
+    from jose import jwt
+    import bcrypt as _bcrypt
     _AUTH_AVAILABLE = True
 except ImportError:
     _AUTH_AVAILABLE = False
-    print("Warning: python-jose or passlib not installed. Auth endpoints disabled. Run: pip install python-jose[cryptography] passlib[bcrypt]")
+    print("Warning: python-jose or bcrypt not installed. Auth endpoints disabled. Run: pip install python-jose[cryptography] bcrypt")
 
 app = FastAPI()
 
+_cors_origins = ["http://localhost:3000"]
+_extra_origin = os.environ.get("FRONTEND_URL", "")
+if _extra_origin:
+    _cors_origins.append(_extra_origin)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=_cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -36,10 +43,10 @@ app.add_middleware(
 # Placement router is included after config block (see below)
 
 # --- Config ---
-NLLB_URL = "http://localhost:8001/translate"
-QWEN_URL = "http://localhost:8010/v1/chat/completions"
+NLLB_URL = os.environ.get("NLLB_URL", "http://localhost:8001/translate")
+QWEN_URL = os.environ.get("QWEN_URL", "http://localhost:8010/v1/chat/completions")
 QWEN_MODEL = "Qwen/Qwen2.5-7B-Instruct-AWQ"
-PRONUNCIATION_URL = "http://localhost:5002"
+PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 BOOKS_DIR = Path(__file__).parent / "books"
 
 # --- Auth config ---
@@ -47,8 +54,6 @@ SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "dev-secret-change-in-prod-32chars
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_DAYS = 7
 
-if _AUTH_AVAILABLE:
-    pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 http_bearer = HTTPBearer(auto_error=False)
 
 
@@ -66,11 +71,15 @@ class LoginRequest(BaseModel):
 
 # --- Auth helper functions ---
 def hash_password(p: str) -> str:
-    return pwd_context.hash(p) if _AUTH_AVAILABLE else p
+    if not _AUTH_AVAILABLE:
+        return p
+    return _bcrypt.hashpw(p.encode("utf-8")[:72], _bcrypt.gensalt()).decode("utf-8")
 
 
 def verify_password(plain: str, hashed: str) -> bool:
-    return pwd_context.verify(plain, hashed) if _AUTH_AVAILABLE else plain == hashed
+    if not _AUTH_AVAILABLE:
+        return plain == hashed
+    return _bcrypt.checkpw(plain.encode("utf-8")[:72], hashed.encode("utf-8"))
 
 
 def create_access_token(payload: dict) -> str:
@@ -138,16 +147,28 @@ except Exception as _e:
     print(f"Warning: could not load placement router: {_e}")
 
 QWEN_SYSTEM_PROMPT = (
-    "You are a kind English tutor for a Somali beginner. "
-    "Answer in 3 to 5 short plain sentences. "
-    "Use very simple words. No lists. No bullet points. No bold. No headings. No markdown. "
-    "Just plain short sentences a child could read. "
-    "Write only in English. A translation system will convert your words to Somali. "
-    "Talk to the student directly using 'you'. Be friendly and encouraging.\n\n"
-    "IMPORTANT: When you show an English word or phrase you are teaching the student, "
-    "wrap it in double curly braces like {{hello}} or {{I was born in London}}. "
-    "These phrases will be kept in English while the rest is translated to Somali. "
-    "Always use {{}} around English words you want the student to see in English."
+    "You are a kind English tutor for Somali students learning English. "
+    "Write your replies in English. A translation system will convert your explanation text to Somali automatically. "
+    "Keep replies to 4-6 short plain sentences. No lists, no bullet points, no bold, no headings. Plain text only. "
+    "Talk directly to the student using 'you'. Be friendly and encouraging.\n\n"
+    "CRITICAL RULE — THE {{}} SYSTEM:\n"
+    "Any English word, phrase, sentence, or dialogue line you want the student to SEE in English must be wrapped "
+    "in double curly braces: {{like this}}. Everything inside {{}} will stay in English on screen. "
+    "Everything outside {{}} will be translated to Somali.\n\n"
+    "ALWAYS wrap in {{}}:\n"
+    "- Every English phrase or sentence you are teaching\n"
+    "- Every line of a practice conversation or role-play dialogue\n"
+    "- Vocabulary words you are introducing\n"
+    "- Any English the student should read and memorise\n\n"
+    "Example of correct output:\n"
+    "You can greet a shopkeeper by saying {{Good morning, do you have fresh fish?}} "
+    "The shopkeeper might reply {{Yes, we have fresh fish today. How much do you need?}} "
+    "Try saying {{I would like one kilogram please}} and they will understand you.\n\n"
+    "WHAT YOU CAN TEACH:\n"
+    "Help with everything in the curriculum AND real-world situations not in the curriculum — "
+    "markets, fish market, hospital, airport, shop, restaurant, workplace, and more. "
+    "Do role-plays, practice conversations, vocabulary, grammar, and pronunciation tips. "
+    "Encourage the student and correct mistakes gently."
 )
 
 WRITING_ASSESSMENT_PROMPT = (
@@ -397,7 +418,7 @@ async def translate_text(text: str, direction: str) -> str:
             return response.json()["translation"]
     except Exception as e:
         print(f"NLLB translation error ({direction}): {e}")
-        return ""
+        return text  # fall back to original English
 
 
 # --- Helper: Qwen AI ---
@@ -421,7 +442,7 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
             return strip_markdown(text)
     except Exception as e:
         print(f"Qwen error: {e}")
-        return f"[AI explanation unavailable: {e}]"
+        return ""
 
 
 # --- Auth endpoints ---
@@ -580,10 +601,10 @@ async def get_units(optional_user=Depends(get_optional_user)):
                     "score": completed_map.get(lid),
                     "locked": False
                 })
-            lessons.sort(key=lambda l: l["lesson_number"])
+            lessons.sort(key=lambda lesson: lesson["lesson_number"])
             unit["lessons"] = lessons
             unit["total_lessons"] = len(lessons)
-            unit["completed_lessons"] = sum(1 for l in lessons if l["completed"])
+            unit["completed_lessons"] = sum(1 for lesson in lessons if lesson["completed"])
             tid = unit["id"]
             unit["test_done"] = tid in test_map
             unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
@@ -718,6 +739,30 @@ async def assess_speaking(request: dict):
     return {"score": score, "transcript": transcript, "feedback": feedback, "word_scores": word_scores}
 
 
+# Preferred American neural voices in order — Jenny is warm and natural,
+# Aria is slightly more expressive, Guy/Davis for male fallback
+TTS_VOICE = "en-US-JennyNeural"
+
+@app.get("/api/tts")
+async def text_to_speech(text: str = Query(..., max_length=500)):
+    """Generate speech from text using Microsoft Edge neural TTS.
+    Audio is cached to disk so the same phrase is only synthesised once.
+    """
+    try:
+        import edge_tts
+    except ImportError:
+        raise HTTPException(status_code=501, detail="edge-tts not installed")
+
+    cache_key = hashlib.md5(f"{TTS_VOICE}:{text}".encode()).hexdigest()
+    cache_file = AUDIO_DIR / f"tts_{cache_key}.mp3"
+
+    if not cache_file.exists():
+        communicate = edge_tts.Communicate(text, TTS_VOICE, rate="-5%")
+        await communicate.save(str(cache_file))
+
+    return FileResponse(str(cache_file), media_type="audio/mpeg", headers={"Cache-Control": "public, max-age=86400"})
+
+
 @app.post("/api/pronunciation/assess")
 async def pronunciation_assess(
     audio: UploadFile = File(...),
@@ -794,45 +839,41 @@ async def explain(request: dict, _=Depends(ai_rate_limit)):
     }
 
 
-# --- Chat endpoint (full round-trip translation) ---
+# --- Chat endpoint ---
 
 @app.post("/api/chat")
 async def chat(request: dict, _=Depends(ai_rate_limit)):
-    """Chat with the AI tutor in Somali.
-
-    Receives: {message (Somali), history[], lesson_context}
-    Flow: Somali → NLLB → English → Qwen → English → NLLB → Somali
+    """AI tutor chat.
+    User message: translated Somali→English via NLLB so Qwen understands it.
+    Qwen replies in English with {{phrases}} marking content to keep in English.
+    Reply: translated English→Somali via NLLB, with {{phrases}} preserved in English.
     """
-    somali_message = request.get("message", "")
+    message = request.get("message", "")
     history = request.get("history", [])
     lesson_context = request.get("lesson_context", "")
+    units_context = request.get("units_context", "")
 
-    # Step 1: Translate user's Somali message to English
-    user_english = await translate_text(somali_message, "som_to_eng")
+    # Step 1: translate user message to English via NLLB (handles Somali or mixed input)
+    user_english = await translate_text(message, "som_to_eng")
 
-    # Step 2: Build Qwen conversation (all in English)
-    qwen_messages = [{"role": "system", "content": QWEN_SYSTEM_PROMPT}]
-
+    # Step 2: build Qwen conversation (all in English)
+    system_parts = [QWEN_SYSTEM_PROMPT]
+    if units_context:
+        system_parts.append(f"The full curriculum the student is working through: {units_context}")
     if lesson_context:
-        qwen_messages.append({
-            "role": "system",
-            "content": f"The student is currently studying: {lesson_context}",
-        })
+        system_parts.append(f"The student is currently studying: {lesson_context}")
 
-    # Add conversation history (already in English from previous rounds)
+    qwen_messages = [{"role": "system", "content": "\n\n".join(system_parts)}]
+
     for msg in history:
-        qwen_messages.append({
-            "role": msg["role"],
-            "content": msg["content_english"],
-        })
+        qwen_messages.append({"role": msg["role"], "content": msg.get("content_english") or msg["content"]})
 
-    # Add current user message
     qwen_messages.append({"role": "user", "content": user_english})
 
-    # Step 3: Get Qwen response in English (keep chat replies short)
-    reply_english = await ask_qwen(qwen_messages, max_tokens=200)
+    # Step 3: Qwen responds in English with {{English phrases}} marked
+    reply_english = await ask_qwen(qwen_messages, max_tokens=350)
 
-    # Step 4: Translate to Somali, preserving {{English}} phrases inline
+    # Step 4: translate reply to Somali via NLLB, preserving {{}} content in English
     reply_combined = await translate_preserving_english(reply_english)
 
     return {
@@ -1208,6 +1249,11 @@ async def submit_unit_test(unit_id: int, req: UnitTestSubmit, user=Depends(get_c
     finally:
         conn.close()
     return {"success": True}
+
+
+@app.get("/api/health")
+async def health():
+    return {"status": "ok"}
 
 
 if __name__ == "__main__":

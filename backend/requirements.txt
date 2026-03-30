@@ -3,3 +3,7 @@ uvicorn
 psycopg2-binary
 httpx
 pydantic
+edge-tts
+python-jose[cryptography]
+bcrypt
+python-multipart
