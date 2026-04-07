@@ -1,0 +1,201 @@
+name: Security
+
+# Run on every push/PR to master, plus a weekly full scan on Mondays.
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  schedule:
+    - cron: '0 3 * * 1'   # Monday 03:00 UTC
+
+# Deny everything at workflow level — each job grants only what it needs.
+permissions: {}
+
+jobs:
+
+  # ── 1. Dependency Audit ───────────────────────────────────────────────────
+  # pip-audit (Python) + npm audit (Node) — no secrets required.
+  # Fails the workflow if HIGH or CRITICAL vulnerabilities are found.
+  dependency-audit:
+    name: Dependency audit (pip + npm)
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+
+      # ── Python ──
+      - name: Set up Python
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install pip-audit
+        run: pip install pip-audit
+
+      - name: pip-audit (fail on HIGH+)
+        run: pip-audit -r backend/requirements.txt --severity high
+
+      # ── Node ──
+      - name: Set up Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af  # v4.1.0
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: app
+        run: npm ci --legacy-peer-deps
+
+      - name: npm audit (fail on HIGH+)
+        working-directory: app
+        run: npm audit --audit-level=high
+
+  # ── 2. Snyk SCA + SAST ───────────────────────────────────────────────────
+  # Software Composition Analysis (known CVEs in deps) and static code analysis.
+  # Requires SNYK_TOKEN repository secret — add at:
+  #   Settings → Secrets and variables → Actions → New repository secret
+  # Results upload to the GitHub Security tab as SARIF.
+  snyk:
+    name: Snyk SCA + SAST
+    runs-on: ubuntu-latest
+    # Skip on PRs from forks — they cannot access repo secrets.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+
+    permissions:
+      contents: read
+      security-events: write   # required to upload SARIF to Security tab
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+
+      # ── Python SCA ──
+      - name: Set up Python
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.11"
+
+      - name: Install backend deps (Snyk needs them installed)
+        run: pip install -r backend/requirements.txt
+
+      - name: Snyk — Python SCA
+        uses: snyk/actions/python@master
+        continue-on-error: true   # upload findings, don't block the workflow
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --file=backend/requirements.txt --sarif-file-output=snyk-python.sarif --severity-threshold=high
+
+      - name: Upload Snyk Python SARIF
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: snyk-python.sarif
+          category: snyk-python
+
+      # ── Node SCA ──
+      - name: Set up Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af  # v4.1.0
+        with:
+          node-version: 20
+
+      - name: Install frontend deps (Snyk needs them installed)
+        working-directory: app
+        run: npm ci --legacy-peer-deps
+
+      - name: Snyk — Node SCA
+        uses: snyk/actions/node@master
+        continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --file=app/package.json --sarif-file-output=snyk-node.sarif --severity-threshold=high
+
+      - name: Upload Snyk Node SARIF
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: snyk-node.sarif
+          category: snyk-node
+
+  # ── 3. OWASP ZAP — DAST ──────────────────────────────────────────────────
+  # Spins up the real database + backend, then runs ZAP baseline scan against
+  # the live API. No GPU services are started — the backend handles their
+  # absence gracefully (warm-up failures are caught and logged).
+  zap-dast:
+    name: ZAP DAST baseline
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      security-events: write   # required to upload SARIF to Security tab
+
+    env:
+      # Override GPU-only service startup — we only bring up db + backend.
+      COMPOSE_PROFILES: ""
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Build backend image
+        run: docker compose build backend
+
+      - name: Start database + backend
+        run: |
+          docker compose up -d database backend
+          echo "Waiting for backend to be healthy..."
+          for i in $(seq 1 30); do
+            if docker inspect --format='{{.State.Health.Status}}' teach-backend 2>/dev/null | grep -q healthy; then
+              echo "Backend is healthy."
+              break
+            fi
+            echo "  attempt $i/30 — not ready yet"
+            sleep 5
+          done
+          docker compose ps
+
+      - name: ZAP baseline scan
+        uses: zaproxy/action-baseline@v0.14.0
+        continue-on-error: true   # findings are uploaded as artifacts/SARIF; don't block
+        with:
+          target: 'http://localhost:8000'
+          # Scan the OpenAPI schema that FastAPI auto-generates
+          cmd_options: '-a -j -I'
+          # Generate a SARIF report for the Security tab
+          issue_title: 'ZAP Baseline Scan'
+          fail_action: false
+          allow_issue_writing: false
+
+      - name: Upload ZAP SARIF
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: results.sarif
+          category: zap-dast
+
+      - name: Upload ZAP HTML report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: zap-report
+          path: report_html.html
+          retention-days: 30
+
+      - name: Stop services
+        if: always()
+        run: docker compose down
