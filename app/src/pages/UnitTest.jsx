@@ -366,6 +366,7 @@ export default function UnitTest() {
   const [selected, setSelected] = useState({});
   const [result, setResult] = useState(null);
   const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
   const topRef = useRef(null);
 
   useEffect(() => {
@@ -500,12 +501,17 @@ export default function UnitTest() {
       const headers = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
       try {
-        await fetch(`/api/unit-tests/${unitId}/submit`, {
-          method: 'POST',
-          headers,
+        const r = await fetch(`/api/unit-tests/${unitId}/submit`, {
+          method: 'POST', headers,
           body: JSON.stringify({ score, percentage, answers })
         });
-      } catch (e) { console.error(e); }
+        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return; }
+        if (!r.ok) throw new Error();
+      } catch {
+        setSubmitError(true);
+        setSubmitting(false);
+        return;
+      }
 
       setResult({ score, percentage, answers });
       setScreen('result');
@@ -570,10 +576,15 @@ export default function UnitTest() {
           )}
           <div className="flex-1" />
           {isLast ? (
-            <button onClick={handleSubmit} disabled={submitting}
-              className="flex items-center gap-2 px-6 py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-xl font-semibold disabled:opacity-60 transition-colors">
-              {submitting ? 'Submitting...' : 'Submit Test'} <CheckCircle className="w-4 h-4" />
-            </button>
+            <div className="flex flex-col items-end gap-1">
+              {submitError && (
+                <p className="text-xs text-red-500 dark:text-red-400">Could not save — check connection and retry.</p>
+              )}
+              <button onClick={() => { setSubmitError(false); handleSubmit(); }} disabled={submitting}
+                className="flex items-center gap-2 px-6 py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-xl font-semibold disabled:opacity-60 transition-colors">
+                {submitting ? 'Submitting...' : 'Submit Test'} <CheckCircle className="w-4 h-4" />
+              </button>
+            </div>
           ) : (
             <button onClick={() => goTo(currentQ + 1)} disabled={!answered && q.type !== 'writing'}
               className="flex items-center gap-2 px-6 py-2.5 bg-amber-500 hover:bg-amber-600 disabled:bg-gray-300 dark:disabled:bg-gray-700 text-white rounded-xl font-semibold disabled:cursor-not-allowed transition-colors">
@@ -619,9 +630,10 @@ export default function UnitTest() {
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-6">
           <h2 className="font-bold text-gray-900 dark:text-white text-lg mb-4">Answer Review</h2>
           <div className="space-y-3">
-            {scoredQuestions.map((q, idx) => (
-              <AnswerReview key={q.id} q={q} answer={answers[idx]?.selected} isCorrect={answers[idx]?.correct} />
-            ))}
+            {scoredQuestions.map((q) => {
+              const a = answers.find(a => a.question_id === q.id);
+              return <AnswerReview key={q.id} q={q} answer={a?.selected} isCorrect={a?.correct} />;
+            })}
           </div>
         </div>
 

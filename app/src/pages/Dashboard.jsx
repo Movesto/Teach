@@ -1,7 +1,15 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy } from 'lucide-react';
+import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy, Mic, Clock } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+
+// Module-level caches — survive React Router navigation, reset on page reload.
+// Books are static catalog data; units carry per-user completion state so we
+// use a short TTL so returning from a lesson shows the updated progress.
+let _booksCache = null;
+let _unitsCache = null;
+let _unitsCacheAt = 0;
+const UNITS_TTL = 30_000; // 30 seconds
 
 const CEFR_BADGE = {
   A1: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200',
@@ -55,6 +63,53 @@ function BookCard({ book, progress }) {
   );
 }
 
+function TalkCard({ token }) {
+  const navigate = useNavigate();
+  const [remaining, setRemaining] = useState(null);
+
+  useEffect(() => {
+    if (!token) return;
+    fetch('/api/conversation/status', { headers: { Authorization: `Bearer ${token}` } })
+      .then(r => {
+        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return null; }
+        return r.ok ? r.json() : null;
+      })
+      .then(d => { if (d) setRemaining(d.remaining_seconds); })
+      .catch(() => {});
+  }, [token]);
+
+  const fmt = (s) => s === null ? '...' : s >= 3600 ? '60 min' : `${Math.floor(s / 60)} min`;
+  const done = remaining === 0;
+
+  return (
+    <div
+      onClick={() => !done && navigate('/talk')}
+      className={`rounded-2xl p-5 mb-6 flex items-center gap-4 shadow-sm transition-all
+        ${done
+          ? 'bg-gray-100 dark:bg-gray-800 cursor-default'
+          : 'bg-gradient-to-r from-amber-500 to-orange-500 cursor-pointer hover:from-amber-600 hover:to-orange-600'
+        }`}
+    >
+      <div className="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center text-3xl flex-shrink-0">
+        👨‍🏫
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className={`font-bold text-lg ${done ? 'text-gray-500 dark:text-gray-400' : 'text-white'}`}>
+          Talk with Mr. Hassan
+        </p>
+        <p className={`text-sm ${done ? 'text-gray-400 dark:text-gray-500' : 'text-amber-100'}`}>
+          {done ? 'Come back tomorrow · Daily session complete' : 'One-on-one English conversation practice'}
+        </p>
+        <div className={`flex items-center gap-1.5 mt-1.5 text-xs font-semibold ${done ? 'text-gray-400 dark:text-gray-500' : 'text-white'}`}>
+          <Clock className="w-3.5 h-3.5" />
+          {done ? 'Used all 60 min today' : `${fmt(remaining)} available today`}
+        </div>
+      </div>
+      {!done && <Mic className="w-6 h-6 text-white flex-shrink-0" />}
+    </div>
+  );
+}
+
 export default function Dashboard() {
   const { user, token } = useAuth();
   const navigate = useNavigate();
@@ -63,15 +118,34 @@ export default function Dashboard() {
   const [bookProgress, setBookProgress] = useState({});
   const [totalBooks, setTotalBooks] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
   const [openUnit, setOpenUnit] = useState(null);
   const [search, setSearch] = useState('');
 
   useEffect(() => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
+    const now = Date.now();
+
+    const unitsPromise = (_unitsCache && now - _unitsCacheAt < UNITS_TTL)
+      ? Promise.resolve(_unitsCache)
+      : fetch('/api/units', { headers }).then(r => {
+          if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
+          return r.json();
+        }).then(data => { _unitsCache = data; _unitsCacheAt = Date.now(); return data; });
+
+    const booksPromise = _booksCache
+      ? Promise.resolve(_booksCache)
+      : fetch('/api/books').then(r => r.json())
+          .then(data => { _booksCache = data; return data; });
+
     Promise.all([
-      fetch('/api/units', { headers }).then(r => r.json()),
-      fetch('/api/books').then(r => r.json()),
-      fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
+      unitsPromise,
+      booksPromise,
+      fetch('/api/user/book-progress', { headers }).then(r => {
+        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
+        return r.ok ? r.json() : {};
+      }),
     ])
       .then(([unitData, bookData, progressData]) => {
         setUnits(unitData);
@@ -85,14 +159,31 @@ export default function Dashboard() {
         setBooksByUnit(grouped);
         if (unitData.length > 0) setOpenUnit(unitData[0].id);
       })
-      .catch(console.error)
+      .catch(err => { if (err.message !== 'auth') setLoadError(true); })
       .finally(() => setLoading(false));
-  }, [token]);
+  }, [token, retryCount]);
 
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+      </div>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
+        <div className="text-center max-w-sm px-4">
+          <p className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Could not load your dashboard</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Check your connection and try again.</p>
+          <button
+            onClick={() => { _unitsCache = null; setLoadError(false); setLoading(true); setRetryCount(c => c + 1); }}
+            className="px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 text-sm font-medium"
+          >
+            Retry
+          </button>
+        </div>
       </div>
     );
   }
@@ -155,6 +246,9 @@ export default function Dashboard() {
           </Link>
         </div>
       )}
+
+      {/* Talk with Mr. Hassan */}
+      <TalkCard token={token} />
 
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4 mb-6">

@@ -167,6 +167,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
   const [isSpeakingDemo, setIsSpeakingDemo] = useState(false);
   const [assessmentResult, setAssessmentResult] = useState({});
   const [isAssessing, setIsAssessing] = useState(false);
+  const [micError, setMicError] = useState(null);
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
   const playbackAudioRef = useRef(null);
@@ -240,7 +241,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
             if (e.results[i].isFinal) transcriptRef.current += ' ' + e.results[i][0].transcript;
           }
         };
-        recognition.onerror = () => {};
+        recognition.onerror = (e) => { if (e.error !== 'no-speech') setMicError('Speech recognition error: ' + e.error); };
         recognitionRef.current = recognition;
         recognition.start();
       }
@@ -273,7 +274,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
       mediaRecorder.start();
       setIsRecording(true);
     } catch {
-      alert('Microphone access denied. Please enable microphone permissions.');
+      setMicError('Microphone access denied. Please enable microphone permissions in your browser.');
     }
   };
 
@@ -365,9 +366,12 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
           </div>
         )}
 
+        {micError && (
+          <p className="mb-2 text-sm text-red-500 dark:text-red-400">{micError}</p>
+        )}
         <div className="flex gap-3">
           <button
-            onClick={isRecording ? stopRecording : startRecording}
+            onClick={() => { setMicError(null); isRecording ? stopRecording() : startRecording(); }}
             className={`flex-1 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 ${
               isRecording
                 ? 'bg-red-500 hover:bg-red-600 text-white'

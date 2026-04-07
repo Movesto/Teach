@@ -10,6 +10,7 @@ import AuthPage from './pages/AuthPage';
 import BookAssignment from './components/BookAssignment';
 import GrammarGuide from './pages/GrammarGuide';
 import UnitTest from './pages/UnitTest';
+import ConversationPractice from './pages/ConversationPractice';
 
 function LoadingScreen() {
   return (
@@ -128,6 +129,7 @@ function AppShell() {
         <Route path="/book/:bookId" element={<ProtectedRoute><BookAssignment /></ProtectedRoute>} />
         <Route path="/grammar" element={<ProtectedRoute><GrammarGuide /></ProtectedRoute>} />
         <Route path="/unit-test/:unitId" element={<ProtectedRoute><UnitTest /></ProtectedRoute>} />
+        <Route path="/talk" element={<ProtectedRoute><ConversationPractice /></ProtectedRoute>} />
       </Routes>
     </div>
   );

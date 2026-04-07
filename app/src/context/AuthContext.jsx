@@ -19,6 +19,17 @@ export function AuthProvider({ children }) {
       .finally(() => setLoading(false));
   }, []);
 
+  // Global 401 handler — any component can fire window.dispatchEvent(new Event('auth:expired'))
+  useEffect(() => {
+    const handler = () => {
+      localStorage.removeItem('token');
+      setToken(null);
+      setUser(null);
+    };
+    window.addEventListener('auth:expired', handler);
+    return () => window.removeEventListener('auth:expired', handler);
+  }, []);
+
   const login = async (email, password) => {
     const r = await fetch('/api/auth/login', {
       method: 'POST',

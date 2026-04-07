@@ -3,6 +3,7 @@ from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from contextlib import asynccontextmanager
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import httpx
@@ -25,7 +26,35 @@ except ImportError:
     _AUTH_AVAILABLE = False
     print("Warning: python-jose or bcrypt not installed. Auth endpoints disabled. Run: pip install python-jose[cryptography] bcrypt")
 
-app = FastAPI()
+# Persistent HTTP client — reuses connections across all requests
+_http_client: httpx.AsyncClient = None
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    global _http_client
+    _http_client = httpx.AsyncClient(timeout=60.0)
+
+    # Warm up Qwen so the first student message is fast
+    try:
+        await _http_client.post(
+            os.environ.get("QWEN_URL", "http://localhost:8010/v1/chat/completions"),
+            json={
+                "model": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+                "messages": [{"role": "user", "content": "hi"}],
+                "max_tokens": 1,
+            },
+        )
+        print("Qwen warm-up complete.")
+    except Exception as e:
+        print(f"Qwen warm-up skipped (will retry on first real request): {e}")
+
+    yield
+
+    await _http_client.aclose()
+
+
+app = FastAPI(lifespan=lifespan)
 
 _cors_origins = ["http://localhost:3000"]
 _extra_origin = os.environ.get("FRONTEND_URL", "")
@@ -246,16 +275,20 @@ def get_db():
 _rate_limit_store: dict = {}
 _RATE_LIMIT = 20        # max requests
 _RATE_WINDOW = 60       # per seconds
+_last_prune: float = 0.0
 
 
 def ai_rate_limit(req: Request):
+    global _last_prune
     ip = req.client.host if req.client else "unknown"
     now = time.time()
     window_start = now - _RATE_WINDOW
-    # Prune stale IPs to prevent unbounded memory growth
-    stale = [k for k, ts in _rate_limit_store.items() if not any(t > window_start for t in ts)]
-    for k in stale:
-        del _rate_limit_store[k]
+    # Prune stale IPs once per rate window (not on every request) to stay O(1) per call
+    if now - _last_prune >= _RATE_WINDOW:
+        stale = [k for k, ts in _rate_limit_store.items() if not any(t > window_start for t in ts)]
+        for k in stale:
+            del _rate_limit_store[k]
+        _last_prune = now
     timestamps = [t for t in _rate_limit_store.get(ip, []) if t > window_start]
     if len(timestamps) >= _RATE_LIMIT:
         raise HTTPException(status_code=429, detail="Too many requests. Please wait a minute before trying again.")
@@ -408,14 +441,12 @@ def normalize_lesson(data: dict) -> dict:
 async def translate_text(text: str, direction: str) -> str:
     """Translate text via NLLB. direction is 'eng_to_som' or 'som_to_eng'."""
     try:
-        async with httpx.AsyncClient() as client:
-            response = await client.post(
-                NLLB_URL,
-                json={"text": text, "direction": direction},
-                timeout=30.0,
-            )
-            response.raise_for_status()
-            return response.json()["translation"]
+        response = await _http_client.post(
+            NLLB_URL,
+            json={"text": text, "direction": direction},
+        )
+        response.raise_for_status()
+        return response.json()["translation"]
     except Exception as e:
         print(f"NLLB translation error ({direction}): {e}")
         return text  # fall back to original English
@@ -425,21 +456,19 @@ async def translate_text(text: str, direction: str) -> str:
 async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
     """Send a chat completion request to Qwen and return the assistant reply."""
     try:
-        async with httpx.AsyncClient() as client:
-            response = await client.post(
-                QWEN_URL,
-                json={
-                    "model": QWEN_MODEL,
-                    "messages": messages,
-                    "max_tokens": max_tokens,
-                    "temperature": 0.7,
-                },
-                timeout=60.0,
-            )
-            response.raise_for_status()
-            data = response.json()
-            text = data["choices"][0]["message"]["content"]
-            return strip_markdown(text)
+        response = await _http_client.post(
+            QWEN_URL,
+            json={
+                "model": QWEN_MODEL,
+                "messages": messages,
+                "max_tokens": max_tokens,
+                "temperature": 0.7,
+            },
+        )
+        response.raise_for_status()
+        data = response.json()
+        text = data["choices"][0]["message"]["content"]
+        return strip_markdown(text)
     except Exception as e:
         print(f"Qwen error: {e}")
         return ""
@@ -742,6 +771,35 @@ async def assess_speaking(request: dict):
 # Preferred American neural voices in order — Jenny is warm and natural,
 # Aria is slightly more expressive, Guy/Davis for male fallback
 TTS_VOICE = "en-US-JennyNeural"
+TEACHER_VOICE = "en-US-ChristopherNeural"  # edge-tts fallback voice
+KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
+KOKORO_VOICE = "bm_george"  # British male — warm, authoritative, mid-50s feel
+
+CONVERSATION_DAILY_LIMIT = 3600  # 60 minutes in seconds
+
+TEACHER_SYSTEM_PROMPT = (
+    "You are Mr. Hassan, an English teacher in your mid-50s with over 25 years of experience "
+    "teaching English to adult learners from Somalia and East Africa. "
+    "You are warm, patient, and encouraging — but you hold students to a high standard because you believe in them. "
+    "You occasionally share short wisdom from your years of teaching. "
+    "You speak in clear, simple English that beginners can follow. "
+    "You always gently correct mistakes without making the student feel bad. "
+    "Keep your replies short — 2 to 4 sentences. Never write long paragraphs. "
+    "No markdown, no bullet points, no bold text. Just plain natural speech. "
+    "You are having a real spoken conversation — keep it flowing and natural.\n\n"
+    "YOUR ROLE:\n"
+    "Help students practice everyday spoken English. "
+    "You can discuss any topic the student brings up — daily life, shopping, work, family, the news, anything. "
+    "You have full knowledge of the course curriculum covering daily life, work, money, community, health, "
+    "travel, education, technology, rights, communication, culture, and future goals. "
+    "If a student makes a grammar or vocabulary mistake, correct it naturally by repeating their sentence correctly "
+    "and then continuing the conversation. "
+    "Occasionally (not every turn) give a short pronunciation tip — name one word and give a simple guide like "
+    "'Say it like: KOM-pyoo-ter' or 'The silent letter in knife is K'. Keep it brief and encouraging. "
+    "If a student seems stuck, offer simple example phrases they can use. "
+    "If a student writes in Somali or mixes languages, gently encourage them to try in English "
+    "and offer the English phrase they need."
+)
 
 @app.get("/api/tts")
 async def text_to_speech(text: str = Query(..., max_length=500)):
@@ -771,14 +829,12 @@ async def pronunciation_assess(
 ):
     try:
         audio_bytes = await audio.read()
-        async with httpx.AsyncClient() as client:
-            response = await client.post(
-                f"{PRONUNCIATION_URL}/api/pronunciation/assess",
-                files={"audio": (audio.filename or "recording.webm", audio_bytes, audio.content_type or "audio/webm")},
-                data={"language": language, "expected_text": expected_text},
-                timeout=30
-            )
-            return response.json()
+        response = await _http_client.post(
+            f"{PRONUNCIATION_URL}/api/pronunciation/assess",
+            files={"audio": (audio.filename or "recording.webm", audio_bytes, audio.content_type or "audio/webm")},
+            data={"language": language, "expected_text": expected_text},
+        )
+        return response.json()
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Pronunciation assessment failed: {e}")
 
@@ -1249,6 +1305,172 @@ async def submit_unit_test(unit_id: int, req: UnitTestSubmit, user=Depends(get_c
     finally:
         conn.close()
     return {"success": True}
+
+
+# ── Conversation Practice (Mr. Hassan) ────────────────────────────────────────
+
+def _ensure_conversation_table():
+    """Create conversation_sessions table if it doesn't exist."""
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS conversation_sessions (
+                id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+                user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+                date DATE NOT NULL DEFAULT CURRENT_DATE,
+                total_seconds INTEGER DEFAULT 0,
+                messages JSONB DEFAULT '[]',
+                updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(user_id, date)
+            )
+        """)
+        conn.commit()
+        cur.close()
+    finally:
+        conn.close()
+
+try:
+    _ensure_conversation_table()
+except Exception as _e:
+    print(f"Warning: could not create conversation_sessions table: {_e}")
+
+
+async def _teacher_tts(text: str) -> str:
+    """Generate teacher voice via Kokoro TTS. Falls back to edge-tts if Kokoro is unavailable."""
+    clean = re.sub(r'[^\x00-\x7F]+', ' ', text).strip()
+    cache_key = hashlib.md5(f"kokoro:{KOKORO_VOICE}:{clean}".encode()).hexdigest()
+    cache_file = AUDIO_DIR / f"teacher_{cache_key}.mp3"
+
+    if cache_file.exists():
+        return f"/audio/teacher_{cache_key}.mp3"
+
+    # Try Kokoro first (OpenAI-compatible /v1/audio/speech endpoint)
+    try:
+        resp = await _http_client.post(
+            f"{KOKORO_URL}/v1/audio/speech",
+            json={"model": "kokoro", "input": clean, "voice": KOKORO_VOICE, "response_format": "mp3"},
+        )
+        if resp.status_code == 200:
+            cache_file.write_bytes(resp.content)
+            return f"/audio/teacher_{cache_key}.mp3"
+    except Exception as e:
+        print(f"Kokoro TTS unavailable ({e}), falling back to edge-tts")
+
+    # Fallback: edge-tts
+    try:
+        import edge_tts
+        communicate = edge_tts.Communicate(clean, TEACHER_VOICE, rate="-8%")
+        await communicate.save(str(cache_file))
+        return f"/audio/teacher_{cache_key}.mp3"
+    except Exception as e:
+        print(f"edge-tts also failed: {e}")
+        return None
+
+
+def _get_today_session(user_id: str):
+    """Get or create today's conversation session for a user."""
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        cur.execute("""
+            INSERT INTO conversation_sessions (user_id, date)
+            VALUES (%s, CURRENT_DATE)
+            ON CONFLICT (user_id, date) DO NOTHING
+        """, (user_id,))
+        conn.commit()
+        cur.execute("""
+            SELECT * FROM conversation_sessions
+            WHERE user_id = %s AND date = CURRENT_DATE
+        """, (user_id,))
+        row = cur.fetchone()
+        cur.close()
+        return dict(row)
+    finally:
+        conn.close()
+
+
+@app.get("/api/conversation/status")
+async def conversation_status(user=Depends(get_current_user)):
+    session = _get_today_session(user["id"])
+    used = session["total_seconds"]
+    remaining = max(0, CONVERSATION_DAILY_LIMIT - used)
+    return {
+        "used_seconds": used,
+        "remaining_seconds": remaining,
+        "limit_seconds": CONVERSATION_DAILY_LIMIT,
+        "session_id": str(session["id"]),
+    }
+
+
+@app.post("/api/conversation/message")
+async def conversation_message(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
+    """Send a message to Mr. Hassan and get a spoken reply."""
+    message = request.get("message", "").strip()
+    history = request.get("history", [])
+    elapsed = int(request.get("elapsed_seconds", 0))
+
+    if not message:
+        raise HTTPException(status_code=400, detail="Message is empty")
+
+    # Check daily limit
+    session = _get_today_session(user["id"])
+    if session["total_seconds"] >= CONVERSATION_DAILY_LIMIT:
+        raise HTTPException(status_code=429, detail="Daily limit reached")
+
+    # Build Qwen conversation (English only — teacher handles mixed input naturally)
+    qwen_messages = [{"role": "system", "content": TEACHER_SYSTEM_PROMPT}]
+    for msg in history[-12:]:  # keep last 12 turns for context window
+        qwen_messages.append({"role": msg["role"], "content": msg["content"]})
+    qwen_messages.append({"role": "user", "content": message})
+
+    reply_text = await ask_qwen(qwen_messages, max_tokens=150)
+
+    # Generate teacher audio
+    audio_url = await _teacher_tts(reply_text)
+
+    # Update session: save message pair and update elapsed time
+    new_messages = history + [
+        {"role": "user", "content": message},
+        {"role": "assistant", "content": reply_text},
+    ]
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute("""
+            UPDATE conversation_sessions
+            SET messages = %s, total_seconds = %s, updated_at = CURRENT_TIMESTAMP
+            WHERE user_id = %s AND date = CURRENT_DATE
+        """, (json.dumps(new_messages), elapsed, user["id"]))
+        conn.commit()
+        cur.close()
+    finally:
+        conn.close()
+
+    return {
+        "reply": reply_text,
+        "audio_url": audio_url,
+        "remaining_seconds": max(0, CONVERSATION_DAILY_LIMIT - elapsed),
+    }
+
+
+@app.get("/api/conversation/history")
+async def conversation_history(user=Depends(get_current_user)):
+    """Return today's saved conversation."""
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        cur.execute("""
+            SELECT messages, total_seconds FROM conversation_sessions
+            WHERE user_id = %s AND date = CURRENT_DATE
+        """, (user["id"],))
+        row = cur.fetchone()
+        cur.close()
+    finally:
+        conn.close()
+    if not row:
+        return {"messages": [], "total_seconds": 0}
+    return {"messages": row["messages"] or [], "total_seconds": row["total_seconds"]}
 
 
 @app.get("/api/health")

@@ -21,6 +21,8 @@ export default function LessonView() {
   const [tutorContext, setTutorContext] = useState(null);
   const [completedSections, setCompletedSections] = useState([]);
   const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
+  const [lastScore, setLastScore] = useState(null);
 
   useEffect(() => {
     fetch(`/api/lessons/${lessonId}`)
@@ -38,20 +40,26 @@ export default function LessonView() {
   const submitQuiz = (score) => {
     if (submitting) return;
     setSubmitting(true);
+    setSubmitError(false);
+    setLastScore(score);
     const headers = { 'Content-Type': 'application/json' };
     if (token) headers['Authorization'] = `Bearer ${token}`;
     fetch('/api/quiz/submit', {
       method: 'POST', headers,
       body: JSON.stringify({ lesson_id: lessonId, unit_id: lesson?.unit_id, score })
     })
-      .then(r => r.json())
+      .then(r => {
+        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
+        if (!r.ok) throw new Error('server');
+        return r.json();
+      })
       .then(data => {
         if (data.unit_complete) navigate(`/unit-test/${data.unit_id}`);
         else navigate('/dashboard');
       })
       .catch(() => {
         setSubmitting(false);
-        navigate('/dashboard');
+        setSubmitError(true);
       });
   };
 
@@ -354,15 +362,31 @@ export default function LessonView() {
             )}
 
             {currentSection === 'quiz' && lesson.quiz && (
-              <Quiz
-                questions={lesson.quiz}
-                lessonId={lessonId}
-                onComplete={(score) => {
-                  markSectionComplete('quiz');
-                  submitQuiz(score);
-                }}
-                onRequestHelp={requestHelp}
-              />
+              <>
+                {submitError && (
+                  <div className="mb-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700 rounded-lg p-4 flex items-center justify-between gap-4">
+                    <p className="text-sm text-red-700 dark:text-red-400">
+                      Could not save your score. Check your connection and try again.
+                    </p>
+                    <button
+                      onClick={() => submitQuiz(lastScore)}
+                      disabled={submitting}
+                      className="shrink-0 px-4 py-2 bg-red-600 text-white text-sm rounded-lg hover:bg-red-700 disabled:opacity-50"
+                    >
+                      {submitting ? 'Saving…' : 'Retry'}
+                    </button>
+                  </div>
+                )}
+                <Quiz
+                  questions={lesson.quiz}
+                  lessonId={lessonId}
+                  onComplete={(score) => {
+                    markSectionComplete('quiz');
+                    submitQuiz(score);
+                  }}
+                  onRequestHelp={requestHelp}
+                />
+              </>
             )}
           </div>
         </div>

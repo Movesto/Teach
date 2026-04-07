@@ -7,6 +7,7 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizComplete, setQuizComplete] = useState(false);
   const [score, setScore] = useState(0);
+  const [writingError, setWritingError] = useState(false);
   const audioRef = useRef(null);
 
   // Stop audio on unmount
@@ -203,10 +204,13 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
           <div>
             <textarea
               value={answers[currentQ] || ''}
-              onChange={(e) => handleTextAnswer(e.target.value)}
+              onChange={(e) => { handleTextAnswer(e.target.value); setWritingError(false); }}
               placeholder="Write your answer here..."
               className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none min-h-[150px] text-gray-900 dark:text-white bg-white dark:bg-gray-700 placeholder-gray-400 dark:placeholder-gray-500"
             />
+            {writingError && (
+              <p className="mt-1 text-sm text-red-500 dark:text-red-400">Please write at least 20 characters.</p>
+            )}
           </div>
         )}
 
@@ -254,9 +258,10 @@ export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
             onClick={() => {
               if (question.type === 'open-ended' || question.type === 'writing') {
                 if (answers[currentQ] && answers[currentQ].length > 20) {
+                  setWritingError(false);
                   setShowFeedback(true);
                 } else {
-                  alert('Please write at least 20 characters.');
+                  setWritingError(true);
                 }
               }
             }}

@@ -33,6 +33,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [lastUserText, setLastUserText] = useState('');
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -51,6 +52,9 @@ export default function AITutorModal({ isOpen, onClose, context }) {
     const initial = { role: 'user', content: openingPrompt, content_english: openingPrompt, hidden: true };
     setMessages([initial]);
 
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 60000);
+
     fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -60,29 +64,51 @@ export default function AITutorModal({ isOpen, onClose, context }) {
         lesson_context: lessonCtx,
         units_context: UNITS_SUMMARY,
       }),
+      signal: controller.signal,
     })
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => {
         setMessages([initial, { role: 'assistant', content: data.reply, content_english: data.reply_english }]);
       })
-      .catch(() => setError('Could not connect to AI tutor. Please try again.'))
-      .finally(() => setLoading(false));
+      .catch(err => {
+        if (err.name === 'AbortError') setError('Request timed out. Please try again.');
+        else setError('Could not connect to AI tutor. Please try again.');
+      })
+      .finally(() => { clearTimeout(timeout); setLoading(false); });
+
+    return () => { controller.abort(); clearTimeout(timeout); };
   }, [isOpen, context]);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, loading]);
 
-  const send = async () => {
+  const retry = () => {
+    if (!lastUserText) return;
+    // Remove the pending user message (the one with no reply)
+    setMessages(prev => prev.slice(0, -1));
+    setError(null);
+    sendText(lastUserText);
+  };
+
+  const send = () => {
     const text = input.trim();
     if (!text || loading) return;
     setInput('');
+    sendText(text);
+  };
+
+  const sendText = async (text) => {
+    setLastUserText(text);
     setLoading(true);
     setError(null);
 
     const userMsg = { role: 'user', content: text, content_english: null };
     const next = [...messages, userMsg];
     setMessages(next);
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 60000);
 
     try {
       const res = await fetch('/api/chat', {
@@ -94,6 +120,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
           lesson_context: buildLessonContext(context),
           units_context: UNITS_SUMMARY,
         }),
+        signal: controller.signal,
       });
       if (!res.ok) throw new Error();
       const data = await res.json();
@@ -102,9 +129,11 @@ export default function AITutorModal({ isOpen, onClose, context }) {
         updated[updated.length - 1] = { ...updated[updated.length - 1], content_english: data.user_message_english };
         return [...updated, { role: 'assistant', content: data.reply, content_english: data.reply_english }];
       });
-    } catch {
-      setError('Something went wrong. Please try again.');
+    } catch (err) {
+      if (err.name === 'AbortError') setError('Request timed out. Please try again.');
+      else setError('Something went wrong. Please try again.');
     } finally {
+      clearTimeout(timeout);
       setLoading(false);
       inputRef.current?.focus();
     }
@@ -167,7 +196,15 @@ export default function AITutorModal({ isOpen, onClose, context }) {
 
           {error && (
             <div className="text-center">
-              <p className="text-xs text-red-500 dark:text-red-400">{error}</p>
+              <p className="text-xs text-red-500 dark:text-red-400 mb-1">{error}</p>
+              {lastUserText && (
+                <button
+                  onClick={retry}
+                  className="text-xs text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  Try again
+                </button>
+              )}
             </div>
           )}
 

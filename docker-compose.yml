@@ -72,6 +72,24 @@ services:
     networks:
       - teach-network
 
+  kokoro:
+    build: ./services/kokoro
+    container_name: kokoro-tts
+    restart: unless-stopped
+    ports:
+      - "8880:8880"
+    environment:
+      - USE_GPU=true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - teach-network
+
   # ── Data ───────────────────────────────────────────────────────────────────
 
   database:
@@ -111,6 +129,7 @@ services:
       - NLLB_URL=http://nllb-translator:8001/translate
       - QWEN_URL=http://qwen-brain:8000/v1/chat/completions
       - PRONUNCIATION_URL=http://teach-pronunciation:5002
+      - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY:-dev-secret-change-in-prod-32chars!!}
     volumes:
       - ./backend/audio:/app/audio

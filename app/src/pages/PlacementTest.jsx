@@ -55,6 +55,8 @@ export default function PlacementTest() {
   const [result, setResult] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState(false);
+  const [micError, setMicError] = useState(false);
   const [passageOpen, setPassageOpen] = useState(false);
   const [startTime] = useState(Date.now());
 
@@ -103,7 +105,7 @@ export default function PlacementTest() {
       mediaRecorder.current.start();
       setIsRecording(true);
     } catch {
-      alert('Please allow microphone access / Ogolow isticmaalka makarafoonka');
+      setMicError(true);
     }
   };
 
@@ -143,7 +145,7 @@ export default function PlacementTest() {
       setResult(data);
       setScreen('result');
     } catch {
-      alert('Error submitting test. Please try again.');
+      setSaveError(true);
     } finally {
       setIsSubmitting(false);
     }
@@ -151,14 +153,17 @@ export default function PlacementTest() {
 
   const savePlacement = async (payload, userUpdate) => {
     setIsSaving(true);
+    setSaveError(false);
     try {
       const headers = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
-      await fetch('/api/placement/save', { method: 'POST', headers, body: JSON.stringify(payload) });
+      const r = await fetch('/api/placement/save', { method: 'POST', headers, body: JSON.stringify(payload) });
+      if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return; }
+      if (!r.ok) throw new Error();
       updateUser({ placement_done: true, ...userUpdate });
       navigate('/dashboard');
-    } catch (e) {
-      console.error('Could not save placement:', e);
+    } catch {
+      setSaveError(true);
     } finally {
       setIsSaving(false);
     }
@@ -292,6 +297,11 @@ export default function PlacementTest() {
               'Bilow Barashada → / Start Learning'
             )}
           </button>
+          {saveError && (
+            <p className="mt-3 text-sm text-red-500 dark:text-red-400 text-center">
+              Could not save your result. Check your connection and try again.
+            </p>
+          )}
         </div>
       </div>
     );
@@ -356,11 +366,17 @@ export default function PlacementTest() {
                 Record {card.min_seconds}–{card.max_seconds} seconds
               </p>
             )}
+            {micError && (
+              <p className="text-sm text-red-500 dark:text-red-400 mb-2">
+                Microphone access denied. Please allow it in your browser settings.<br />
+                <span className="text-xs text-gray-400">Ogolow isticmaalka makarafoonka xagga goobta.</span>
+              </p>
+            )}
             <div className="flex gap-3 flex-wrap mt-2">
               {!audioBlobs[card.id] ? (
                 !isRecording ? (
                   <button
-                    onClick={() => startRecording(card.id)}
+                    onClick={() => { setMicError(false); startRecording(card.id); }}
                     className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 font-medium"
                   >
                     <Mic size={18} /> Start Recording
@@ -447,18 +463,23 @@ export default function PlacementTest() {
         </button>
 
         {isLast ? (
-          <button
-            onClick={handleSubmit}
-            disabled={isSubmitting}
-            className="flex items-center gap-2 px-6 py-2.5 bg-green-600 text-white rounded-xl hover:bg-green-700 font-semibold disabled:opacity-60"
-          >
-            {isSubmitting ? (
-              <>
-                <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                Submitting...
-              </>
-            ) : 'Submit Test ✓'}
-          </button>
+          <div className="flex flex-col items-end gap-1">
+            {saveError && (
+              <p className="text-xs text-red-500 dark:text-red-400">Error — please try again.</p>
+            )}
+            <button
+              onClick={() => { setSaveError(false); handleSubmit(); }}
+              disabled={isSubmitting}
+              className="flex items-center gap-2 px-6 py-2.5 bg-green-600 text-white rounded-xl hover:bg-green-700 font-semibold disabled:opacity-60"
+            >
+              {isSubmitting ? (
+                <>
+                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                  Submitting...
+                </>
+              ) : 'Submit Test ✓'}
+            </button>
+          </div>
         ) : (
           <button
             onClick={handleNext}
