@@ -91,7 +91,7 @@ jobs:
         run: pip install -r backend/requirements.txt
 
       - name: Snyk — Python SCA
-        uses: snyk/actions/python@master
+        uses: snyk/actions/python@9adf32b1121593767fc3c057af55b55db032dc04  # master @ 2026-04-07
         continue-on-error: true   # upload findings, don't block the workflow
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
@@ -99,7 +99,7 @@ jobs:
           args: --file=backend/requirements.txt --sarif-file-output=snyk-python.sarif --severity-threshold=high
 
       - name: Upload Snyk Python SARIF
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
         if: always()
         with:
           sarif_file: snyk-python.sarif
@@ -116,7 +116,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Snyk — Node SCA
-        uses: snyk/actions/node@master
+        uses: snyk/actions/node@9adf32b1121593767fc3c057af55b55db032dc04  # master @ 2026-04-07
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
@@ -124,7 +124,7 @@ jobs:
           args: --file=app/package.json --sarif-file-output=snyk-node.sarif --severity-threshold=high
 
       - name: Upload Snyk Node SARIF
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
         if: always()
         with:
           sarif_file: snyk-node.sarif
@@ -170,7 +170,7 @@ jobs:
           docker compose ps
 
       - name: ZAP baseline scan
-        uses: zaproxy/action-baseline@v0.14.0
+        uses: zaproxy/action-baseline@2b5fc7f98d837319798ab7f128ea50b7d40563b6  # v0.14.0
         continue-on-error: true   # findings are uploaded as artifacts/SARIF; don't block
         with:
           target: 'http://localhost:8000'
@@ -182,14 +182,14 @@ jobs:
           allow_issue_writing: false
 
       - name: Upload ZAP SARIF
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
         if: always()
         with:
           sarif_file: results.sarif
           category: zap-dast
 
       - name: Upload ZAP HTML report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
         if: always()
         with:
           name: zap-report

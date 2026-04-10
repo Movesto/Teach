@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { X, Sparkles, Loader, Send } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 
 // Load all unit titles once so the AI knows the full curriculum
 const UNITS_SUMMARY = [
@@ -29,6 +30,7 @@ function buildLessonContext(context) {
 }
 
 export default function AITutorModal({ isOpen, onClose, context }) {
+  const { token } = useAuth();
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -57,7 +59,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
 
     fetch('/api/chat', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({
         message: openingPrompt,
         history: [],
@@ -113,7 +115,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({
           message: text,
           history: next.filter(m => !m.hidden),

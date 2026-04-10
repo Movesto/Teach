@@ -277,6 +277,22 @@ _RATE_LIMIT = 20        # max requests
 _RATE_WINDOW = 60       # per seconds
 _last_prune: float = 0.0
 
+# Separate, stricter store for auth endpoints — 5 attempts per minute per IP.
+_auth_rate_store: dict = {}
+_AUTH_RATE_LIMIT = 5
+_auth_last_prune: float = 0.0
+
+
+def _check_rate(store: dict, limit: int, window: int, ip: str, detail: str):
+    """Shared sliding-window rate-limit logic."""
+    now = time.time()
+    window_start = now - window
+    timestamps = [t for t in store.get(ip, []) if t > window_start]
+    if len(timestamps) >= limit:
+        raise HTTPException(status_code=429, detail=detail)
+    timestamps.append(now)
+    store[ip] = timestamps
+
 
 def ai_rate_limit(req: Request):
     global _last_prune
@@ -289,11 +305,23 @@ def ai_rate_limit(req: Request):
         for k in stale:
             del _rate_limit_store[k]
         _last_prune = now
-    timestamps = [t for t in _rate_limit_store.get(ip, []) if t > window_start]
-    if len(timestamps) >= _RATE_LIMIT:
-        raise HTTPException(status_code=429, detail="Too many requests. Please wait a minute before trying again.")
-    timestamps.append(now)
-    _rate_limit_store[ip] = timestamps
+    _check_rate(_rate_limit_store, _RATE_LIMIT, _RATE_WINDOW, ip,
+                "Too many requests. Please wait a minute before trying again.")
+
+
+def auth_rate_limit(req: Request):
+    """Strict rate limit for login/register — 5 attempts per minute per IP."""
+    global _auth_last_prune
+    ip = req.client.host if req.client else "unknown"
+    now = time.time()
+    window_start = now - _RATE_WINDOW
+    if now - _auth_last_prune >= _RATE_WINDOW:
+        stale = [k for k, ts in _auth_rate_store.items() if not any(t > window_start for t in ts)]
+        for k in stale:
+            del _auth_rate_store[k]
+        _auth_last_prune = now
+    _check_rate(_auth_rate_store, _AUTH_RATE_LIMIT, _RATE_WINDOW, ip,
+                "Too many login attempts. Please wait a minute before trying again.")
 
 
 # --- Input sanitization ---
@@ -477,7 +505,7 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
 # --- Auth endpoints ---
 
 @app.post("/api/auth/register")
-async def register(req: RegisterRequest):
+async def register(req: RegisterRequest, _=Depends(auth_rate_limit)):
     if not _AUTH_AVAILABLE:
         raise HTTPException(status_code=501, detail="Auth libraries not installed")
     conn = None
@@ -508,7 +536,7 @@ async def register(req: RegisterRequest):
 
 
 @app.post("/api/auth/login")
-async def login(req: LoginRequest):
+async def login(req: LoginRequest, _=Depends(auth_rate_limit)):
     if not _AUTH_AVAILABLE:
         raise HTTPException(status_code=501, detail="Auth libraries not installed")
     conn = None
@@ -702,7 +730,7 @@ async def submit_quiz(request: dict, optional_user=Depends(get_optional_user)):
 # --- Translation endpoint (handles both formats) ---
 
 @app.post("/api/translate")
-async def translate(request: dict):
+async def translate(request: dict, _=Depends(ai_rate_limit)):
     """Forward to NLLB service. Accepts either:
     - {text, direction}  (native NLLB format)
     - {text, source_lang, target_lang}  (frontend format, auto-mapped)
@@ -726,7 +754,7 @@ async def translate(request: dict):
 
 
 @app.post("/api/speaking/assess")
-async def assess_speaking(request: dict):
+async def assess_speaking(request: dict, _=Depends(ai_rate_limit)):
     transcript = request.get("transcript", "").strip()
     expected = request.get("expected", "").strip()
 
@@ -802,7 +830,7 @@ TEACHER_SYSTEM_PROMPT = (
 )
 
 @app.get("/api/tts")
-async def text_to_speech(text: str = Query(..., max_length=500)):
+async def text_to_speech(text: str = Query(..., max_length=500), _=Depends(ai_rate_limit)):
     """Generate speech from text using Microsoft Edge neural TTS.
     Audio is cached to disk so the same phrase is only synthesised once.
     """
@@ -842,7 +870,7 @@ async def pronunciation_assess(
 # --- Explain endpoint (Qwen-powered) ---
 
 @app.post("/api/explain")
-async def explain(request: dict, _=Depends(ai_rate_limit)):
+async def explain(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
     """Generate a context-aware English explanation via Qwen, then translate to Somali."""
     english = request.get("english", "")
     context = request.get("context", "")
@@ -898,7 +926,7 @@ async def explain(request: dict, _=Depends(ai_rate_limit)):
 # --- Chat endpoint ---
 
 @app.post("/api/chat")
-async def chat(request: dict, _=Depends(ai_rate_limit)):
+async def chat(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
     """AI tutor chat.
     User message: translated Somali→English via NLLB so Qwen understands it.
     Qwen replies in English with {{phrases}} marking content to keep in English.
