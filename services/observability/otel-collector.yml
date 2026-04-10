@@ -1,0 +1,41 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+        cors:
+          allowed_origins:
+            - "http://localhost:3000"
+            - "http://localhost:*"
+
+processors:
+  batch:
+    timeout: 1s
+    send_batch_size: 1024
+
+exporters:
+  # Traces → Tempo
+  otlp/tempo:
+    endpoint: tempo:4317
+    tls:
+      insecure: true
+
+  # Logs → Loki
+  loki:
+    endpoint: http://loki:3100/loki/api/v1/push
+    labels:
+      resource:
+        service.name: "service_name"
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlp/tempo]
+    logs:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [loki]

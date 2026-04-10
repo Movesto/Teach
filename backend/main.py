@@ -35,6 +35,13 @@ async def lifespan(app: FastAPI):
     global _http_client
     _http_client = httpx.AsyncClient(timeout=60.0)
 
+    # Initialise OpenTelemetry (traces, logs, metrics) — no-op if pkg missing
+    try:
+        from otel import setup_telemetry
+        setup_telemetry(app)
+    except Exception as _otel_err:
+        print(f"Telemetry setup skipped: {_otel_err}")
+
     # Warm up Qwen so the first student message is fast
     try:
         await _http_client.post(

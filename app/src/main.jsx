@@ -1,3 +1,6 @@
+// Instrumentation must be imported first so all fetch/XHR calls are traced
+import './instrumentation.js'
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

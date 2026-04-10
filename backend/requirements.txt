@@ -7,3 +7,11 @@ edge-tts
 python-jose[cryptography]
 bcrypt
 python-multipart
+
+# ── Observability ──────────────────────────────────────────────────────────
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-fastapi
+opentelemetry-instrumentation-httpx
+opentelemetry-instrumentation-psycopg2
+prometheus-fastapi-instrumentator
