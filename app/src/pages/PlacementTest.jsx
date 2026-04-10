@@ -310,7 +310,7 @@ export default function PlacementTest() {
   // ── TEST SCREEN ──
   const progress = ((idx + 1) / totalCards) * 100;
   const isSpeaking = card?._type === 'speaking';
-  const hasAnswer = isSpeaking
+  const _hasAnswer = isSpeaking
     ? !!audioBlobs[card?.id]
     : answers[card?.id]?.selected_option !== undefined;
 

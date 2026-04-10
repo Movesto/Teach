@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { FileText, CheckCircle, AlertCircle, Info, Circle } from 'lucide-react';
 
 /**
@@ -79,14 +79,8 @@ function WritingInterface({ prompts, essays, onEssayChange }) {
  * Individual Writing Prompt Card
  */
 function WritingPromptCard({ prompt, index, essay, onEssayChange }) {
-  const [wordCount, setWordCount] = useState(0);
+  const wordCount = useMemo(() => essay.trim().split(/\s+/).filter(w => w.length > 0).length, [essay]);
   const [showRubric, setShowRubric] = useState(false);
-
-  // Update word count when essay changes
-  useEffect(() => {
-    const words = essay.trim().split(/\s+/).filter(word => word.length > 0);
-    setWordCount(words.length);
-  }, [essay]);
 
   // Check if meets requirements
   const meetsMinimum = wordCount >= prompt.word_count_min;

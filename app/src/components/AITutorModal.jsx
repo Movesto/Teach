@@ -79,7 +79,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
       .finally(() => { clearTimeout(timeout); setLoading(false); });
 
     return () => { controller.abort(); clearTimeout(timeout); };
-  }, [isOpen, context]);
+  }, [isOpen, context, token]);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });

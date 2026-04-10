@@ -400,6 +400,7 @@ export default function GrammarGuide() {
 }
 
 // Helper used by GrammarDiscovery to detect relevant concept IDs from text
+// eslint-disable-next-line react-refresh/only-export-components
 export const GRAMMAR_KEYWORDS = [
   { id: 'verb',             keywords: ['verb', 'action word'] },
   { id: 'noun',             keywords: ['noun'] },

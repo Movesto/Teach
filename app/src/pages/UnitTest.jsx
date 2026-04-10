@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { CheckCircle, XCircle, ArrowLeft, ArrowRight, Trophy, RotateCcw, Eye, Pencil } from 'lucide-react';
 
@@ -281,7 +281,7 @@ function AnswerReview({ q, answer, isCorrect }) {
         </>
       );
       break;
-    case 'ordering':
+    case 'ordering': {
       const userSentence = Array.isArray(answer) ? answer.map(i => q.words[i]).join(' ') : '(not answered)';
       details = (
         <>
@@ -290,6 +290,7 @@ function AnswerReview({ q, answer, isCorrect }) {
         </>
       );
       break;
+    }
     case 'matching':
       details = (
         <div className="space-y-1 mt-1">
@@ -356,7 +357,6 @@ function AnswerReview({ q, answer, isCorrect }) {
 
 export default function UnitTest() {
   const { unitId } = useParams();
-  const navigate = useNavigate();
   const { token } = useAuth();
 
   const [testData, setTestData] = useState(null);

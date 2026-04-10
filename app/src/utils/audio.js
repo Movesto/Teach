@@ -22,5 +22,5 @@ export function releaseAudioSession() {
   try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
     ctx.close();
-  } catch {}
+  } catch { /* AudioContext not supported — ignore */ }
 }

@@ -6,7 +6,7 @@ import { Volume2, Mic, Check, X } from 'lucide-react';
 import { releaseAudioSession } from '../../utils/audio';
 
 // StorySection Component
-export function StorySection({ story, onComplete, onRequestHelp }) {
+export function StorySection({ story, onComplete }) {
   return (
     <div>
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">The Situation</h2>
@@ -39,7 +39,7 @@ export function StorySection({ story, onComplete, onRequestHelp }) {
 }
 
 // ListeningExercise Component
-export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
+export function ListeningExercise({ exercises, onComplete }) {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -159,7 +159,7 @@ export function ListeningExercise({ exercises, onComplete, onRequestHelp }) {
 }
 
 // SpeakingRecorder Component
-export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
+export function SpeakingRecorder({ tasks, onComplete }) {
   const [current, setCurrent] = useState(0);
   const [recordings, setRecordings] = useState({});
   const [isRecording, setIsRecording] = useState(false);
@@ -445,7 +445,7 @@ export function SpeakingRecorder({ tasks, onComplete, onRequestHelp }) {
 }
 
 // WritingExercise Component
-export function WritingExercise({ tasks, onComplete, onRequestHelp, storageKey }) {
+export function WritingExercise({ tasks, onComplete, storageKey }) {
   const lsKey = storageKey ? `writing_draft_${storageKey}` : null;
 
   const [current, setCurrent] = useState(0);
@@ -642,7 +642,7 @@ function detectConcepts(content) {
 }
 
 // GrammarDiscovery Component
-export function GrammarDiscovery({ content, onComplete, onRequestHelp, unitId }) {
+export function GrammarDiscovery({ content, onComplete, unitId }) {
   const [practiceAnswers, setPracticeAnswers] = useState({});
   const conceptIds = (unitId == null || unitId <= 8) ? detectConcepts(content) : [];
 

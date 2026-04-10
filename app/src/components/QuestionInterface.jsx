@@ -12,25 +12,6 @@ function QuestionInterface({ questions, answers, onAnswerChange }) {
     key => answers[key] !== undefined && answers[key] !== null && answers[key] !== ''
   ).length;
 
-  // Get question type label
-  const getQuestionTypeLabel = (type) => {
-    const labels = {
-      'multiple-choice': 'Multiple Choice',
-      'true-false': 'True/False',
-      'short-answer': 'Short Answer'
-    };
-    return labels[type] || type;
-  };
-
-  // Get difficulty badge color
-  const getDifficultyColor = (difficulty) => {
-    const colors = {
-      'easy': 'bg-green-100 text-green-800',
-      'medium': 'bg-yellow-100 text-yellow-800',
-      'hard': 'bg-red-100 text-red-800'
-    };
-    return colors[difficulty] || 'bg-gray-100 text-gray-800';
-  };
 
   return (
     <div className="space-y-6">

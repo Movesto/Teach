@@ -9,6 +9,7 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const t = localStorage.getItem('token');
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (!t) { setLoading(false); return; }
     fetch('/api/auth/me', { headers: { Authorization: `Bearer ${t}` } })
       .then(r => r.ok ? r.json() : null)
@@ -76,4 +77,5 @@ export function AuthProvider({ children }) {
   );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useAuth = () => useContext(AuthContext);

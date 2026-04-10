@@ -15,7 +15,7 @@ export default function ConversationPractice() {
   const { token } = useAuth();
   const navigate = useNavigate();
 
-  const [status, setStatus] = useState(null);       // { used_seconds, remaining_seconds }
+  const [, setStatus] = useState(null);              // { used_seconds, remaining_seconds }
   const [messages, setMessages] = useState([]);
   const [elapsed, setElapsed] = useState(0);         // seconds used THIS session
   const [listening, setListening] = useState(false);

@@ -85,7 +85,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
   };
 
   const normalizePunctuation = (s) =>
-    s.trim().toLowerCase().replace(/[.,!?;:'"()\-]/g, '').replace(/\s+/g, ' ').trim();
+    s.trim().toLowerCase().replace(/[.,!?;:'"()-]/g, '').replace(/\s+/g, ' ').trim();
 
   const handlePromptSubmit = () => {
     if (!promptInput.trim()) return;

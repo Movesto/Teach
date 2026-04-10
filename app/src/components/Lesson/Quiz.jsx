@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
 
-export function Quiz({ questions, lessonId, onComplete, onRequestHelp }) {
+export function Quiz({ questions, onComplete, onRequestHelp }) {
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
