@@ -83,7 +83,7 @@ def _bootstrap_test_db():
         stmt = stmt.strip()
         # Strip leading comment lines so a DDL block prefixed by "--" comments
         # isn't mistakenly skipped entirely.
-        code_lines = [l for l in stmt.splitlines() if not l.strip().startswith("--")]
+        code_lines = [line for line in stmt.splitlines() if not line.strip().startswith("--")]
         code = "\n".join(code_lines).strip()
         if code:
             try:

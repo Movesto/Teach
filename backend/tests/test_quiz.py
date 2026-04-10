@@ -54,6 +54,6 @@ def test_lesson_marked_completed_in_units(client, auth_headers):
                 headers=auth_headers)
     units = client.get("/api/units", headers=auth_headers).json()
     unit_1 = next(u for u in units if u["id"] == 1)
-    lesson_1 = next((l for l in unit_1["lessons"] if l.get("lesson_number") == 1), None)
+    lesson_1 = next((ls for ls in unit_1["lessons"] if ls.get("lesson_number") == 1), None)
     if lesson_1:
         assert lesson_1["completed"] is True
