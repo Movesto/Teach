@@ -64,6 +64,10 @@ export default function ConversationPractice() {
   }, [messages, transcript, loading]);
 
   // Timer — only runs when session is active
+  const stopTimer = useCallback(() => {
+    if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+  }, []);
+
   const startTimer = useCallback(() => {
     if (timerRef.current) return;
     timerRef.current = setInterval(() => {
@@ -78,11 +82,7 @@ export default function ConversationPractice() {
         return next;
       });
     }, 1000);
-  }, []);
-
-  const stopTimer = useCallback(() => {
-    if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-  }, []);
+  }, [stopTimer]);
 
   // Cleanup on unmount — stop timer, release mic, cancel pending reply
   useEffect(() => () => {

@@ -49,16 +49,34 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Test
+        run: npm test
+
       - name: Build
         run: npm run build
 
   # ── Backend ────────────────────────────────────────────────────────────────
   backend:
-    name: Backend — lint & syntax check
+    name: Backend — lint, syntax check & tests
     runs-on: ubuntu-latest
 
     permissions:
       contents: read  # checkout only
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: teach_user
+          POSTGRES_PASSWORD: teach_secure_pass_123
+          POSTGRES_DB: teach_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
     steps:
       - name: Checkout
@@ -75,7 +93,9 @@ jobs:
           cache-dependency-path: backend/requirements.txt
 
       - name: Install dependencies
-        run: pip install -r backend/requirements.txt
+        run: |
+          pip install -r backend/requirements.txt
+          pip install -r backend/requirements-test.txt
 
       - name: Install ruff (linter)
         run: pip install ruff
@@ -86,3 +106,13 @@ jobs:
       - name: Syntax check
         # Catches import errors and obvious runtime-startup failures.
         run: python -c "import ast, pathlib; [ast.parse(f.read_text()) for f in pathlib.Path('backend').glob('**/*.py')]"
+
+      - name: Run backend tests
+        working-directory: backend
+        env:
+          DB_HOST: localhost
+          DB_USER: teach_user
+          DB_PASSWORD: teach_secure_pass_123
+          DB_NAME: teach_db
+          JWT_SECRET_KEY: ci-test-secret-key-32-characters!!
+        run: python -m pytest tests/ -v --tb=short

@@ -99,14 +99,14 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: teach_user
-      POSTGRES_PASSWORD: teach_secure_pass_123
-      POSTGRES_DB: teach_db
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - postgres-data:/var/lib/postgresql/data
       - ./services/database/init-user-data-only.sql:/docker-entrypoint-initdb.d/init.sql:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U teach_user -d teach_db"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -123,14 +123,14 @@ services:
       - "8000:8000"
     environment:
       - DB_HOST=database
-      - DB_NAME=teach_db
-      - DB_USER=teach_user
-      - DB_PASSWORD=teach_secure_pass_123
+      - DB_NAME=${POSTGRES_DB}
+      - DB_USER=${POSTGRES_USER}
+      - DB_PASSWORD=${POSTGRES_PASSWORD}
       - NLLB_URL=http://nllb-translator:8001/translate
       - QWEN_URL=http://qwen-brain:8000/v1/chat/completions
       - PRONUNCIATION_URL=http://teach-pronunciation:5002
       - KOKORO_URL=http://kokoro-tts:8880
-      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-dev-secret-change-in-prod-32chars!!}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
     volumes:
       - ./backend/audio:/app/audio
       - ./backend/books:/app/books:ro
