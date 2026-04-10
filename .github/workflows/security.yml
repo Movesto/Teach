@@ -100,7 +100,8 @@ jobs:
 
       - name: Upload Snyk Python SARIF
         uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
-        if: always()
+        if: always() && hashFiles('snyk-python.sarif') != ''
+        continue-on-error: true
         with:
           sarif_file: snyk-python.sarif
           category: snyk-python
@@ -125,7 +126,8 @@ jobs:
 
       - name: Upload Snyk Node SARIF
         uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
-        if: always()
+        if: always() && hashFiles('snyk-node.sarif') != ''
+        continue-on-error: true
         with:
           sarif_file: snyk-node.sarif
           category: snyk-node
@@ -140,7 +142,6 @@ jobs:
 
     permissions:
       contents: read
-      security-events: write   # required to upload SARIF to Security tab
 
     env:
       # Override GPU-only service startup — we only bring up db + backend.
@@ -171,29 +172,25 @@ jobs:
 
       - name: ZAP baseline scan
         uses: zaproxy/action-baseline@2b5fc7f98d837319798ab7f128ea50b7d40563b6  # v0.14.0
-        continue-on-error: true   # findings are uploaded as artifacts/SARIF; don't block
+        continue-on-error: true   # findings don't block the workflow
         with:
           target: 'http://localhost:8000'
-          # Scan the OpenAPI schema that FastAPI auto-generates
-          cmd_options: '-a -j -I'
-          # Generate a SARIF report for the Security tab
-          issue_title: 'ZAP Baseline Scan'
+          # -a: include alpha passive rules  -I: do not return failure on warnings
+          cmd_options: '-a -I'
           fail_action: false
           allow_issue_writing: false
 
-      - name: Upload ZAP SARIF
-        uses: github/codeql-action/upload-sarif@3b1a19a80ab047f35cbb237b5bd9bdc1e14f166c  # v3
-        if: always()
-        with:
-          sarif_file: results.sarif
-          category: zap-dast
-
-      - name: Upload ZAP HTML report
+      - name: Upload ZAP reports
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
         if: always()
+        continue-on-error: true
         with:
           name: zap-report
-          path: report_html.html
+          # ZAP action-baseline writes these filenames by default
+          path: |
+            report_html.html
+            report_json.json
+            report_md.md
           retention-days: 30
 
       - name: Stop services
