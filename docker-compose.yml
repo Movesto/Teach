@@ -120,7 +120,7 @@ services:
     container_name: teach-backend
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "127.0.0.1:8000:8000"   # local access only — frontend nginx proxies internally
     environment:
       - DB_HOST=database
       - DB_NAME=${POSTGRES_DB}
@@ -131,6 +131,7 @@ services:
       - PRONUNCIATION_URL=http://teach-pronunciation:5002
       - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - FRONTEND_URL=${FRONTEND_URL:-}
       - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317
       - ENVIRONMENT=production
     volumes:
@@ -168,12 +169,36 @@ services:
     container_name: teach-frontend
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"   # local access only — cloudflared routes externally
     depends_on:
       backend:
         condition: service_healthy
     networks:
       - teach-network
+
+  # ── Cloudflare Tunnel ───────────────────────────────────────────────────────
+  # Routes external HTTPS traffic → http://teach-frontend:3000 (internal network)
+  # No inbound ports needed — cloudflared connects outbound to Cloudflare's edge.
+  #
+  # Setup:
+  #   1. Install cloudflared: https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/
+  #   2. Run: cloudflared tunnel login
+  #   3. Run: cloudflared tunnel create teach
+  #   4. Copy the tunnel token into .env as CLOUDFLARE_TUNNEL_TOKEN
+  #   5. In Cloudflare dashboard, add a Public Hostname: yourdomain.com → http://teach-frontend:3000
+  #   6. Uncomment this service and run: docker compose up -d cloudflared
+  #
+  # cloudflared:
+  #   image: cloudflare/cloudflared:latest
+  #   container_name: teach-cloudflared
+  #   restart: unless-stopped
+  #   command: tunnel --no-autoupdate run
+  #   environment:
+  #     - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+  #   depends_on:
+  #     - frontend
+  #   networks:
+  #     - teach-network
 
   # ── Observability ───────────────────────────────────────────────────────────
   # Stack: OTel Collector → Tempo (traces) + Loki (logs) + Prometheus (metrics)
@@ -192,8 +217,8 @@ services:
     volumes:
       - ./services/observability/otel-collector.yml:/etc/otel/config.yml:ro
     ports:
-      - "4317:4317"   # OTLP gRPC  (backend → collector)
-      - "4318:4318"   # OTLP HTTP  (browser → collector)
+      - "127.0.0.1:4317:4317"   # OTLP gRPC  (backend → collector)
+      - "127.0.0.1:4318:4318"   # OTLP HTTP  (browser → collector, via nginx if needed)
     networks:
       - teach-network
 
@@ -208,7 +233,7 @@ services:
       - ./services/observability/prometheus.yml:/etc/prometheus/prometheus.yml:ro
       - prometheus-data:/prometheus
     ports:
-      - "9090:9090"
+      - "127.0.0.1:9090:9090"   # local only
     networks:
       - teach-network
 
@@ -221,7 +246,7 @@ services:
       - ./services/observability/loki.yml:/etc/loki/config.yml:ro
       - loki-data:/loki
     ports:
-      - "3100:3100"
+      - "127.0.0.1:3100:3100"   # local only
     networks:
       - teach-network
 
@@ -234,7 +259,7 @@ services:
       - ./services/observability/tempo.yml:/etc/tempo/config.yml:ro
       - tempo-data:/var/tempo
     ports:
-      - "3200:3200"
+      - "127.0.0.1:3200:3200"   # local only
     networks:
       - teach-network
 
@@ -243,15 +268,16 @@ services:
     container_name: teach-grafana
     restart: unless-stopped
     environment:
-      - GF_AUTH_ANONYMOUS_ENABLED=true
-      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
-      - GF_AUTH_DISABLE_LOGIN_FORM=true
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD}
+      - GF_AUTH_ANONYMOUS_ENABLED=false
+      - GF_AUTH_DISABLE_LOGIN_FORM=false
       - GF_FEATURE_TOGGLES_ENABLE=traceqlEditor
     volumes:
       - ./services/observability/grafana/provisioning:/etc/grafana/provisioning:ro
       - grafana-data:/var/lib/grafana
     ports:
-      - "3001:3000"   # app uses 3000, so Grafana is on 3001
+      - "127.0.0.1:3001:3000"   # local only — access at http://localhost:3001
     depends_on:
       - prometheus
       - loki

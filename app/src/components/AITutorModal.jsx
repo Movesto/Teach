@@ -68,13 +68,19 @@ export default function AITutorModal({ isOpen, onClose, context }) {
       }),
       signal: controller.signal,
     })
-      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(async r => {
+        if (!r.ok) {
+          const body = await r.json().catch(() => ({}));
+          throw new Error(body.detail || 'Could not connect to AI tutor. Please try again.');
+        }
+        return r.json();
+      })
       .then(data => {
         setMessages([initial, { role: 'assistant', content: data.reply, content_english: data.reply_english }]);
       })
       .catch(err => {
         if (err.name === 'AbortError') setError('Request timed out. Please try again.');
-        else setError('Could not connect to AI tutor. Please try again.');
+        else setError(err.message || 'Could not connect to AI tutor. Please try again.');
       })
       .finally(() => { clearTimeout(timeout); setLoading(false); });
 
@@ -124,7 +130,10 @@ export default function AITutorModal({ isOpen, onClose, context }) {
         }),
         signal: controller.signal,
       });
-      if (!res.ok) throw new Error();
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.detail || 'Something went wrong. Please try again.');
+      }
       const data = await res.json();
       setMessages(prev => {
         const updated = [...prev];
@@ -133,7 +142,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
       });
     } catch (err) {
       if (err.name === 'AbortError') setError('Request timed out. Please try again.');
-      else setError('Something went wrong. Please try again.');
+      else setError(err.message || 'Something went wrong. Please try again.');
     } finally {
       clearTimeout(timeout);
       setLoading(false);

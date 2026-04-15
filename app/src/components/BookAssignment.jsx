@@ -125,6 +125,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
         signal: controller.signal,
       });
       clearTimeout(timeout);
+      if (!res.ok) throw new Error(res.status);
       const data = await res.json();
       setWritingAssessment(data);
       setWritingState(data.passed ? 'passed' : 'failed');

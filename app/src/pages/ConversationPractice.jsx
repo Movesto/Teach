@@ -188,7 +188,10 @@ export default function ConversationPractice() {
         stopTimer();
         return;
       }
-      if (!res.ok) throw new Error();
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.detail || 'Something went wrong. Please try again.');
+      }
 
       const data = await res.json();
       const assistantMsg = { role: 'assistant', content: data.reply, audio_url: data.audio_url };
@@ -203,8 +206,8 @@ export default function ConversationPractice() {
         audio.onerror = () => setAudioPlaying(false);
         audio.play().catch(() => setAudioPlaying(false));
       }
-    } catch {
-      setError('Something went wrong. Please try again.');
+    } catch (err) {
+      setError(err.message || 'Something went wrong. Please try again.');
     } finally {
       setLoading(false);
     }

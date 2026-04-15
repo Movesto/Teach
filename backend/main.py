@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import asyncio
 import hashlib
 import time
 import random
@@ -18,13 +19,16 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from pydantic import BaseModel
 
+import logging
+logger = logging.getLogger(__name__)
+
 try:
     from jose import jwt
     import bcrypt as _bcrypt
     _AUTH_AVAILABLE = True
 except ImportError:
     _AUTH_AVAILABLE = False
-    print("Warning: python-jose or bcrypt not installed. Auth endpoints disabled. Run: pip install python-jose[cryptography] bcrypt")
+    logging.warning("python-jose or bcrypt not installed — auth endpoints disabled. Run: pip install python-jose[cryptography] bcrypt")
 
 # Persistent HTTP client — reuses connections across all requests
 _http_client: httpx.AsyncClient = None
@@ -35,12 +39,15 @@ async def lifespan(app: FastAPI):
     global _http_client
     _http_client = httpx.AsyncClient(timeout=60.0)
 
+    # Initialise DB connection pool
+    _init_db_pool()
+
     # Initialise OpenTelemetry (traces, logs, metrics) — no-op if pkg missing
     try:
         from otel import setup_telemetry
         setup_telemetry(app)
     except Exception as _otel_err:
-        print(f"Telemetry setup skipped: {_otel_err}")
+        logger.warning("Telemetry setup skipped: %s", _otel_err)
 
     # Warm up Qwen so the first student message is fast
     try:
@@ -52,21 +59,34 @@ async def lifespan(app: FastAPI):
                 "max_tokens": 1,
             },
         )
-        print("Qwen warm-up complete.")
+        logger.info("Qwen warm-up complete.")
     except Exception as e:
-        print(f"Qwen warm-up skipped (will retry on first real request): {e}")
+        logger.warning("Qwen warm-up skipped (will retry on first real request): %s", e)
+
+    # Clean up stale teacher audio at startup, then daily
+    deleted = _cleanup_teacher_audio()
+    if deleted:
+        logger.info("Audio cleanup: removed %d teacher audio file(s) older than %d days", deleted, AUDIO_TEACHER_MAX_AGE_DAYS)
+    cleanup_task = asyncio.create_task(_audio_cleanup_loop())
 
     yield
 
+    cleanup_task.cancel()
     await _http_client.aclose()
+    if _db_pool:
+        _db_pool.closeall()
 
 
 app = FastAPI(lifespan=lifespan)
 
+# localhost:3000 always allowed (local access on this machine).
+# Set FRONTEND_URL to your public domain(s) once registered.
+# Supports comma-separated values: FRONTEND_URL=https://example.com,https://www.example.com
 _cors_origins = ["http://localhost:3000"]
-_extra_origin = os.environ.get("FRONTEND_URL", "")
-if _extra_origin:
-    _cors_origins.append(_extra_origin)
+for _origin in os.environ.get("FRONTEND_URL", "").split(","):
+    _origin = _origin.strip()
+    if _origin:
+        _cors_origins.append(_origin)
 
 app.add_middleware(
     CORSMiddleware,
@@ -86,7 +106,14 @@ PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 BOOKS_DIR = Path(__file__).parent / "books"
 
 # --- Auth config ---
-SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "dev-secret-change-in-prod-32chars!!")
+_dev_defaults = {"dev-secret-change-in-prod-32chars!!", "change_me_64_char_hex_secret", ""}
+SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "")
+if SECRET_KEY in _dev_defaults:
+    raise RuntimeError(
+        "JWT_SECRET_KEY is not set or is using a placeholder. "
+        "Generate one with: python3 -c \"import secrets; print(secrets.token_hex(32))\" "
+        "and set it in your .env file."
+    )
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_DAYS = 7
 
@@ -151,8 +178,7 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(h
     except Exception:
         raise HTTPException(status_code=401, detail="Invalid token")
     finally:
-        if conn:
-            conn.close()
+        release_db(conn)
 
 
 async def get_optional_user(credentials: HTTPAuthorizationCredentials = Depends(http_bearer)):
@@ -180,7 +206,7 @@ try:
     from services.placement_test.placement_routes import router as placement_router
     app.include_router(placement_router)
 except Exception as _e:
-    print(f"Warning: could not load placement router: {_e}")
+    logging.warning("Could not load placement router: %s", _e)
 
 QWEN_SYSTEM_PROMPT = (
     "You are a kind English tutor for Somali students learning English. "
@@ -268,14 +294,47 @@ async def translate_preserving_english(text: str) -> str:
     return " ".join(result_parts)
 
 
-def get_db():
-    return psycopg2.connect(
-        host=os.environ.get("DB_HOST", "localhost"),
-        database=os.environ.get("DB_NAME", "teach_db"),
-        user=os.environ.get("DB_USER", "teach_user"),
-        password=os.environ.get("DB_PASSWORD", "teach_secure_pass_123"),
-        cursor_factory=RealDictCursor
+_DB_CONFIG = {
+    "host": os.environ.get("DB_HOST", "localhost"),
+    "database": os.environ.get("DB_NAME", "teach_db"),
+    "user": os.environ.get("DB_USER", "teach_user"),
+    "password": os.environ.get("DB_PASSWORD", ""),
+}
+if _DB_CONFIG["password"] in ("", "teach_secure_pass_123", "change_me_strong_password"):
+    raise RuntimeError(
+        "DB_PASSWORD is not set or is using a placeholder. Set a real password in your .env file."
     )
+
+# Connection pool — reuses connections instead of opening a new one per request.
+# minconn=2 keeps two connections warm; maxconn=10 handles a busy classroom.
+_db_pool: "psycopg2.pool.ThreadedConnectionPool" = None
+
+
+def _init_db_pool() -> None:
+    global _db_pool
+    _db_pool = psycopg2.pool.ThreadedConnectionPool(
+        minconn=2,
+        maxconn=10,
+        cursor_factory=RealDictCursor,
+        **_DB_CONFIG,
+    )
+    logger.info("DB connection pool initialised (min=2, max=10)")
+
+
+def get_db():
+    """Borrow a connection from the pool."""
+    return _db_pool.getconn()
+
+
+def release_db(conn) -> None:
+    """Return a connection to the pool. Rolls back any uncommitted work first."""
+    if conn is None:
+        return
+    try:
+        conn.rollback()  # no-op after a commit; ensures pool gets a clean connection
+    except Exception:
+        pass
+    _db_pool.putconn(conn)
 
 
 # --- Rate limiting (in-memory, per-IP, AI endpoints only) ---
@@ -361,6 +420,22 @@ def load_question_banks():
 def _lesson_numeric_id(raw_id) -> int:
     """Extract a numeric ID from either an int (1) or string ('lesson-15')."""
     return int(re.sub(r"\D", "", str(raw_id)) or "0")
+
+
+_REQUIRED_LESSON_FIELDS = {"id", "title", "unit_id"}
+
+def _validate_lesson(data: dict, path) -> bool:
+    """Return True if data has all required fields; log and return False otherwise."""
+    missing = _REQUIRED_LESSON_FIELDS - data.keys()
+    if missing:
+        logger.warning("Skipping lesson file %s — missing required fields: %s", path, missing)
+        return False
+    return True
+
+
+def sanitize_user_message(text: str) -> str:
+    """Strip {{ }} markers from user input so they can't leak into the translation pipeline."""
+    return re.sub(r'\{\{|\}\}', '', text)
 
 
 def normalize_lesson(data: dict) -> dict:
@@ -483,7 +558,7 @@ async def translate_text(text: str, direction: str) -> str:
         response.raise_for_status()
         return response.json()["translation"]
     except Exception as e:
-        print(f"NLLB translation error ({direction}): {e}")
+        logger.warning("NLLB translation error (%s): %s", direction, e)
         return text  # fall back to original English
 
 
@@ -505,8 +580,11 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
         text = data["choices"][0]["message"]["content"]
         return strip_markdown(text)
     except Exception as e:
-        print(f"Qwen error: {e}")
-        return ""
+        logger.error("Qwen request failed: %s", e)
+        raise HTTPException(
+            status_code=503,
+            detail="The AI tutor is temporarily unavailable. Please try again in a moment.",
+        )
 
 
 # --- Auth endpoints ---
@@ -538,8 +616,7 @@ async def register(req: RegisterRequest, _=Depends(auth_rate_limit)):
             raise HTTPException(status_code=400, detail="Email already registered")
         raise HTTPException(status_code=500, detail=str(e))
     finally:
-        if conn:
-            conn.close()
+        release_db(conn)
 
 
 @app.post("/api/auth/login")
@@ -567,8 +644,7 @@ async def login(req: LoginRequest, _=Depends(auth_rate_limit)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     finally:
-        if conn:
-            conn.close()
+        release_db(conn)
 
 
 @app.get("/api/auth/me")
@@ -608,8 +684,7 @@ async def save_placement(data: dict, user=Depends(get_current_user)):
             conn.rollback()
         raise HTTPException(status_code=500, detail=str(e))
     finally:
-        if conn:
-            conn.close()
+        release_db(conn)
 
 
 # --- Existing endpoints ---
@@ -639,7 +714,7 @@ async def get_units(optional_user=Depends(get_optional_user)):
                 test_map[row['unit_id']] = {"score": row['score'], "percentage": row['percentage']}
             cur.close()
         finally:
-            conn.close()
+            release_db(conn)
 
     for unit in units:
         unit_dir = LESSONS_DIR / f"unit-{unit['id']}"
@@ -651,7 +726,9 @@ async def get_units(optional_user=Depends(get_optional_user)):
                     with open(lesson_file, encoding='utf-8') as f:
                         lesson_data = json.load(f)
                 except (json.JSONDecodeError, KeyError, UnicodeDecodeError) as e:
-                    print(f"Skipping invalid lesson file {lesson_file}: {e}")
+                    logger.warning("Skipping invalid lesson file %s: %s", lesson_file, e)
+                    continue
+                if not _validate_lesson(lesson_data, lesson_file):
                     continue
                 lid = _lesson_numeric_id(lesson_data["id"])
                 done = lid in completed_map
@@ -684,6 +761,8 @@ async def get_lesson(lesson_id: str):
             try:
                 with open(lesson_file, encoding='utf-8') as f:
                     lesson_data = json.load(f)
+                if not _validate_lesson(lesson_data, lesson_file):
+                    continue
                 if str(_lesson_numeric_id(lesson_data.get("id", ""))) == lesson_id:
                     return normalize_lesson(lesson_data)
             except (json.JSONDecodeError, KeyError, UnicodeDecodeError):
@@ -727,11 +806,10 @@ async def submit_quiz(request: dict, optional_user=Depends(get_optional_user)):
         cur.close()
         return {"success": True, "score": score, "unit_complete": unit_complete, "unit_id": unit_id}
     except Exception as e:
-        print(f"Database error: {e}")
+        logger.error("Database error in quiz submit: %s", e)
         return {"success": False, "error": str(e)}
     finally:
-        if conn:
-            conn.close()
+        release_db(conn)
 
 
 # --- Translation endpoint (handles both formats) ---
@@ -812,6 +890,34 @@ KOKORO_VOICE = "bm_george"  # British male — warm, authoritative, mid-50s feel
 
 CONVERSATION_DAILY_LIMIT = 3600  # 60 minutes in seconds
 
+# --- Audio cleanup ---
+# teacher_*.mp3 files are generated for every AI conversation reply and accumulate
+# over time. tts_*.mp3 files are lesson audio — bounded in number, kept forever.
+AUDIO_TEACHER_MAX_AGE_DAYS = int(os.environ.get("AUDIO_TEACHER_MAX_AGE_DAYS", "7"))
+
+
+def _cleanup_teacher_audio() -> int:
+    """Delete teacher_*.mp3 files older than AUDIO_TEACHER_MAX_AGE_DAYS. Returns count removed."""
+    cutoff = time.time() - (AUDIO_TEACHER_MAX_AGE_DAYS * 86400)
+    deleted = 0
+    for f in AUDIO_DIR.glob("teacher_*.mp3"):
+        if f.stat().st_mtime < cutoff:
+            f.unlink(missing_ok=True)
+            deleted += 1
+    return deleted
+
+
+async def _audio_cleanup_loop() -> None:
+    """Run teacher audio cleanup once per day in the background."""
+    while True:
+        await asyncio.sleep(86400)  # 24 hours
+        try:
+            deleted = _cleanup_teacher_audio()
+            if deleted:
+                logger.info("Audio cleanup: removed %d teacher audio file(s) older than %d days", deleted, AUDIO_TEACHER_MAX_AGE_DAYS)
+        except Exception as e:
+            logger.error("Audio cleanup error: %s", e)
+
 TEACHER_SYSTEM_PROMPT = (
     "You are Mr. Hassan, an English teacher in your mid-50s with over 25 years of experience "
     "teaching English to adult learners from Somalia and East Africa. "
@@ -879,8 +985,8 @@ async def pronunciation_assess(
 @app.post("/api/explain")
 async def explain(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
     """Generate a context-aware English explanation via Qwen, then translate to Somali."""
-    english = request.get("english", "")
-    context = request.get("context", "")
+    english = sanitize_user_message(request.get("english", ""))
+    context = sanitize_user_message(request.get("context", ""))
     content_type = request.get("type", "phrase")
 
     # Build a context-specific prompt for Qwen
@@ -939,7 +1045,7 @@ async def chat(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current
     Qwen replies in English with {{phrases}} marking content to keep in English.
     Reply: translated English→Somali via NLLB, with {{phrases}} preserved in English.
     """
-    message = request.get("message", "")
+    message = sanitize_user_message(request.get("message", ""))
     history = request.get("history", [])
     lesson_context = request.get("lesson_context", "")
     units_context = request.get("units_context", "")
@@ -1242,9 +1348,9 @@ async def complete_chapter(
                 (user_id, book_id, chapter_id, quiz_score),
             )
             conn.commit()
-        conn.close()
+        release_db(conn)
     except Exception as e:
-        print(f"[complete_chapter] DB error: {e}")
+        logger.error("[complete_chapter] DB error: %s", e)
     return {"ok": True}
 
 
@@ -1269,9 +1375,9 @@ async def get_book_progress(current_user=Depends(get_optional_user)):
             for row in cur.fetchall():
                 b, c = row[0], row[1]
                 completed_by_book.setdefault(b, []).append(c)
-        conn.close()
+        release_db(conn)
     except Exception as e:
-        print(f"[get_book_progress] DB error: {e}")
+        logger.error("[get_book_progress] DB error: %s", e)
     result = {}
     for bid, bank in banks.items():
         total = len(bank.get("chapters", []))
@@ -1313,7 +1419,7 @@ async def get_unit_test(unit_id: int, optional_user=Depends(get_optional_user)):
                 }
             cur.close()
         finally:
-            conn.close()
+            release_db(conn)
     return data
 
 
@@ -1338,37 +1444,13 @@ async def submit_unit_test(unit_id: int, req: UnitTestSubmit, user=Depends(get_c
         conn.commit()
         cur.close()
     finally:
-        conn.close()
+        release_db(conn)
     return {"success": True}
 
 
 # ── Conversation Practice (Mr. Hassan) ────────────────────────────────────────
 
-def _ensure_conversation_table():
-    """Create conversation_sessions table if it doesn't exist."""
-    conn = get_db()
-    try:
-        cur = conn.cursor()
-        cur.execute("""
-            CREATE TABLE IF NOT EXISTS conversation_sessions (
-                id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-                user_id UUID REFERENCES users(id) ON DELETE CASCADE,
-                date DATE NOT NULL DEFAULT CURRENT_DATE,
-                total_seconds INTEGER DEFAULT 0,
-                messages JSONB DEFAULT '[]',
-                updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-                UNIQUE(user_id, date)
-            )
-        """)
-        conn.commit()
-        cur.close()
-    finally:
-        conn.close()
-
-try:
-    _ensure_conversation_table()
-except Exception as _e:
-    print(f"Warning: could not create conversation_sessions table: {_e}")
+# conversation_sessions table is managed by Alembic migration 0002
 
 
 async def _teacher_tts(text: str) -> str:
@@ -1390,7 +1472,7 @@ async def _teacher_tts(text: str) -> str:
             cache_file.write_bytes(resp.content)
             return f"/audio/teacher_{cache_key}.mp3"
     except Exception as e:
-        print(f"Kokoro TTS unavailable ({e}), falling back to edge-tts")
+        logger.warning("Kokoro TTS unavailable (%s), falling back to edge-tts", e)
 
     # Fallback: edge-tts
     try:
@@ -1399,7 +1481,7 @@ async def _teacher_tts(text: str) -> str:
         await communicate.save(str(cache_file))
         return f"/audio/teacher_{cache_key}.mp3"
     except Exception as e:
-        print(f"edge-tts also failed: {e}")
+        logger.error("edge-tts also failed: %s", e)
         return None
 
 
@@ -1422,7 +1504,7 @@ def _get_today_session(user_id: str):
         cur.close()
         return dict(row)
     finally:
-        conn.close()
+        release_db(conn)
 
 
 @app.get("/api/conversation/status")
@@ -1441,14 +1523,15 @@ async def conversation_status(user=Depends(get_current_user)):
 @app.post("/api/conversation/message")
 async def conversation_message(request: dict, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
     """Send a message to Mr. Hassan and get a spoken reply."""
-    message = request.get("message", "").strip()
+    message = sanitize_user_message(request.get("message", "").strip())
     history = request.get("history", [])
-    elapsed = int(request.get("elapsed_seconds", 0))
+    # Cap elapsed server-side — never trust the client to enforce the limit
+    elapsed = min(max(int(request.get("elapsed_seconds", 0)), 0), CONVERSATION_DAILY_LIMIT)
 
     if not message:
         raise HTTPException(status_code=400, detail="Message is empty")
 
-    # Check daily limit
+    # Check daily limit against the DB value (authoritative)
     session = _get_today_session(user["id"])
     if session["total_seconds"] >= CONVERSATION_DAILY_LIMIT:
         raise HTTPException(status_code=429, detail="Daily limit reached")
@@ -1480,7 +1563,7 @@ async def conversation_message(request: dict, _=Depends(ai_rate_limit), user=Dep
         conn.commit()
         cur.close()
     finally:
-        conn.close()
+        release_db(conn)
 
     return {
         "reply": reply_text,
@@ -1502,7 +1585,7 @@ async def conversation_history(user=Depends(get_current_user)):
         row = cur.fetchone()
         cur.close()
     finally:
-        conn.close()
+        release_db(conn)
     if not row:
         return {"messages": [], "total_seconds": 0}
     return {"messages": row["messages"] or [], "total_seconds": row["total_seconds"]}
