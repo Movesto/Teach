@@ -1,10 +1,11 @@
-from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends, Request, Query
+from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends, Request, Query, BackgroundTasks
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from contextlib import asynccontextmanager
 import psycopg2
+import psycopg2.pool
 from psycopg2.extras import RealDictCursor
 import httpx
 import json
@@ -16,7 +17,7 @@ import hashlib
 import time
 import random
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone, date
 from pydantic import BaseModel
 
 import logging
@@ -614,7 +615,8 @@ async def register(req: RegisterRequest, _=Depends(auth_rate_limit)):
             conn.rollback()
         if "unique" in str(e).lower() or "duplicate" in str(e).lower():
             raise HTTPException(status_code=400, detail="Email already registered")
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error("Unhandled error: %s", e)
+        raise HTTPException(status_code=500, detail="An unexpected error occurred.")
     finally:
         release_db(conn)
 
@@ -642,7 +644,8 @@ async def login(req: LoginRequest, _=Depends(auth_rate_limit)):
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error("Unhandled error: %s", e)
+        raise HTTPException(status_code=500, detail="An unexpected error occurred.")
     finally:
         release_db(conn)
 
@@ -682,7 +685,8 @@ async def save_placement(data: dict, user=Depends(get_current_user)):
     except Exception as e:
         if conn:
             conn.rollback()
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error("Unhandled error: %s", e)
+        raise HTTPException(status_code=500, detail="An unexpected error occurred.")
     finally:
         release_db(conn)
 
@@ -772,7 +776,7 @@ async def get_lesson(lesson_id: str):
 
 
 @app.post("/api/quiz/submit")
-async def submit_quiz(request: dict, optional_user=Depends(get_optional_user)):
+async def submit_quiz(request: dict, background_tasks: BackgroundTasks, optional_user=Depends(get_optional_user)):
     user_id = optional_user["id"] if optional_user else "00000000-0000-0000-0000-000000000001"
     raw_lid = request.get("lesson_id")
     lesson_id = _lesson_numeric_id(raw_lid) if raw_lid is not None else None
@@ -804,6 +808,9 @@ async def submit_quiz(request: dict, optional_user=Depends(get_optional_user)):
         unit_complete = (total > 0 and done_count >= total)
 
         cur.close()
+        # Populate vocabulary in the background — doesn't block the quiz result
+        if optional_user and lesson_id:
+            background_tasks.add_task(_populate_vocabulary, str(user_id), lesson_id)
         return {"success": True, "score": score, "unit_complete": unit_complete, "unit_id": unit_id}
     except Exception as e:
         logger.error("Database error in quiz submit: %s", e)
@@ -836,6 +843,192 @@ async def translate(request: dict, _=Depends(ai_rate_limit)):
 
     translation = await translate_text(text, direction)
     return {"translation": translation, "direction": direction}
+
+
+# ── Vocabulary (spaced repetition) ────────────────────────────────────────────
+
+# Review intervals in days, indexed by mastery_level (0–5)
+_SRS_INTERVALS = [1, 3, 7, 14, 30, 60]
+
+
+async def _populate_vocabulary(user_id: str, lesson_id: int) -> None:
+    """Background task: extract phrases from a completed lesson and upsert to user_vocabulary."""
+    lesson_data = None
+    for unit_dir in LESSONS_DIR.glob("unit-*"):
+        for lf in sorted(unit_dir.glob("lesson-*.json")):
+            try:
+                with open(lf, encoding="utf-8") as f:
+                    data = json.load(f)
+                if _lesson_numeric_id(data.get("id", "")) == lesson_id:
+                    lesson_data = data
+                    break
+            except Exception:
+                continue
+        if lesson_data:
+            break
+
+    if not lesson_data:
+        return
+
+    phrases = lesson_data.get("target_language", {}).get("phrases", [])
+    phrases = [p for p in phrases if isinstance(p, str) and p.strip()]
+    if not phrases:
+        return
+
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        inserted = 0
+        for phrase in phrases:
+            try:
+                translation = await translate_text(phrase, "eng_to_som")
+            except Exception:
+                translation = ""
+            cur.execute("""
+                INSERT INTO user_vocabulary (user_id, word, translation, lesson_id, next_review)
+                VALUES (%s, %s, %s, %s, NOW())
+                ON CONFLICT (user_id, word) DO NOTHING
+            """, (user_id, phrase, translation, lesson_id))
+            inserted += cur.rowcount
+        conn.commit()
+        cur.close()
+        if inserted:
+            logger.info("Vocabulary: added %d phrases for user %s lesson %d", inserted, user_id, lesson_id)
+    except Exception as e:
+        logger.error("Vocabulary population error: %s", e)
+    finally:
+        release_db(conn)
+
+
+@app.get("/api/vocabulary/due")
+async def get_vocabulary_due(user=Depends(get_current_user)):
+    """Return up to 20 vocabulary items due for review today."""
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT id, word, translation, mastery_level, review_count
+            FROM user_vocabulary
+            WHERE user_id = %s
+              AND (next_review IS NULL OR next_review <= NOW())
+            ORDER BY COALESCE(next_review, '1970-01-01'::timestamptz) ASC
+            LIMIT 20
+        """, (user["id"],))
+        rows = [dict(r) for r in cur.fetchall()]
+        cur.execute(
+            "SELECT COUNT(*) as total FROM user_vocabulary WHERE user_id = %s",
+            (user["id"],)
+        )
+        total = cur.fetchone()["total"]
+        cur.close()
+        return {"words": rows, "total_words": total}
+    finally:
+        release_db(conn)
+
+
+@app.post("/api/vocabulary/review")
+async def review_vocabulary(request: dict, user=Depends(get_current_user)):
+    """Record a vocabulary review result and schedule the next review."""
+    word_id = request.get("word_id")
+    knew = bool(request.get("knew", False))
+
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT mastery_level FROM user_vocabulary WHERE id = %s AND user_id = %s",
+            (word_id, user["id"])
+        )
+        row = cur.fetchone()
+        if not row:
+            raise HTTPException(status_code=404, detail="Word not found")
+
+        current = row["mastery_level"]
+        new_level = min(current + 1, len(_SRS_INTERVALS) - 1) if knew else max(current - 1, 0)
+        days = _SRS_INTERVALS[new_level]
+        next_review = datetime.now(timezone.utc) + timedelta(days=days)
+
+        cur.execute("""
+            UPDATE user_vocabulary
+            SET mastery_level = %s,
+                next_review = %s,
+                last_reviewed = NOW(),
+                review_count = review_count + 1
+            WHERE id = %s AND user_id = %s
+        """, (new_level, next_review, word_id, user["id"]))
+        conn.commit()
+        cur.close()
+        return {"mastery_level": new_level, "next_review_days": days}
+    finally:
+        release_db(conn)
+
+
+# ── Progress stats ─────────────────────────────────────────────────────────────
+
+@app.get("/api/progress/stats")
+async def get_progress_stats(user=Depends(get_current_user)):
+    """Aggregate learning stats for the progress dashboard."""
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+
+        # Lesson completion + time + score
+        cur.execute("""
+            SELECT
+                COUNT(*) as lessons_completed,
+                COALESCE(AVG(score), 0) as avg_score,
+                COALESCE(SUM(time_spent), 0) as total_seconds
+            FROM user_lessons
+            WHERE user_id = %s AND completed = true
+        """, (user["id"],))
+        ls = cur.fetchone()
+
+        # Vocabulary
+        cur.execute("""
+            SELECT
+                COUNT(*) as total,
+                COUNT(*) FILTER (WHERE mastery_level >= 3) as mastered
+            FROM user_vocabulary WHERE user_id = %s
+        """, (user["id"],))
+        vs = cur.fetchone()
+
+        # Last 10 quiz scores (oldest→newest for trend line)
+        cur.execute("""
+            SELECT score FROM user_lessons
+            WHERE user_id = %s AND completed = true AND score IS NOT NULL
+            ORDER BY completed_at DESC LIMIT 10
+        """, (user["id"],))
+        recent = list(reversed([r["score"] for r in cur.fetchall()]))
+
+        # Study streak — consecutive days with at least one completed lesson
+        cur.execute("""
+            SELECT DISTINCT DATE(completed_at) as day
+            FROM user_lessons
+            WHERE user_id = %s AND completed = true AND completed_at IS NOT NULL
+            ORDER BY day DESC LIMIT 365
+        """, (user["id"],))
+        study_days = {r["day"] for r in cur.fetchall()}
+        streak = 0
+        check = date.today()
+        if check not in study_days:
+            check -= timedelta(days=1)  # allow yesterday as streak start
+        while check in study_days:
+            streak += 1
+            check -= timedelta(days=1)
+
+        cur.close()
+        return {
+            "lessons_completed": ls["lessons_completed"],
+            "avg_score": round(float(ls["avg_score"]), 1),
+            "total_minutes": round(ls["total_seconds"] / 60),
+            "words_learning": vs["total"],
+            "words_mastered": vs["mastered"],
+            "recent_scores": recent,
+            "streak_days": streak,
+            "cefr_level": user.get("cefr_level") or "A1",
+        }
+    finally:
+        release_db(conn)
 
 
 @app.post("/api/speaking/assess")
@@ -884,6 +1077,12 @@ async def assess_speaking(request: dict, _=Depends(ai_rate_limit)):
 # Preferred American neural voices in order — Jenny is warm and natural,
 # Aria is slightly more expressive, Guy/Davis for male fallback
 TTS_VOICE = "en-US-JennyNeural"
+# Allowed voices for dialogue playback — whitelist prevents arbitrary voice injection
+TTS_VOICE_MAP = {
+    "jenny": "en-US-JennyNeural",   # default, female
+    "guy":   "en-US-GuyNeural",     # male characters in dialogue
+    "aria":  "en-US-AriaNeural",    # expressive female alternative
+}
 TEACHER_VOICE = "en-US-ChristopherNeural"  # edge-tts fallback voice
 KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
 KOKORO_VOICE = "bm_george"  # British male — warm, authoritative, mid-50s feel
@@ -943,20 +1142,26 @@ TEACHER_SYSTEM_PROMPT = (
 )
 
 @app.get("/api/tts")
-async def text_to_speech(text: str = Query(..., max_length=500), _=Depends(ai_rate_limit)):
+async def text_to_speech(
+    text: str = Query(..., max_length=500),
+    voice: str = Query("jenny"),
+    _=Depends(ai_rate_limit),
+):
     """Generate speech from text using Microsoft Edge neural TTS.
     Audio is cached to disk so the same phrase is only synthesised once.
+    voice: jenny (default female) | guy (male) | aria (expressive female)
     """
     try:
         import edge_tts
     except ImportError:
         raise HTTPException(status_code=501, detail="edge-tts not installed")
 
-    cache_key = hashlib.md5(f"{TTS_VOICE}:{text}".encode()).hexdigest()
+    voice_id = TTS_VOICE_MAP.get(voice, TTS_VOICE)
+    cache_key = hashlib.md5(f"{voice_id}:{text}".encode()).hexdigest()
     cache_file = AUDIO_DIR / f"tts_{cache_key}.mp3"
 
     if not cache_file.exists():
-        communicate = edge_tts.Communicate(text, TTS_VOICE, rate="-5%")
+        communicate = edge_tts.Communicate(text, voice_id, rate="-5%")
         await communicate.save(str(cache_file))
 
     return FileResponse(str(cache_file), media_type="audio/mpeg", headers={"Cache-Control": "public, max-age=86400"})

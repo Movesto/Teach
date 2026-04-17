@@ -11,6 +11,8 @@ import BookAssignment from './components/BookAssignment';
 import GrammarGuide from './pages/GrammarGuide';
 import UnitTest from './pages/UnitTest';
 import ConversationPractice from './pages/ConversationPractice';
+import VocabularyReview from './pages/VocabularyReview';
+import Progress from './pages/Progress';
 
 function LoadingScreen() {
   return (
@@ -52,6 +54,12 @@ function NavBar() {
                 </Link>
                 <Link to="/grammar" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Grammar Guide
+                </Link>
+                <Link to="/progress" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
+                  Progress
+                </Link>
+                <Link to="/vocabulary" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
+                  Vocabulary
                 </Link>
                 <span className="text-sm text-gray-500 dark:text-gray-400 border-l border-gray-200 dark:border-gray-700 pl-3 ml-1">{user.name}</span>
                 <button
@@ -130,6 +138,8 @@ function AppShell() {
         <Route path="/grammar" element={<ProtectedRoute><GrammarGuide /></ProtectedRoute>} />
         <Route path="/unit-test/:unitId" element={<ProtectedRoute><UnitTest /></ProtectedRoute>} />
         <Route path="/talk" element={<ProtectedRoute><ConversationPractice /></ProtectedRoute>} />
+        <Route path="/vocabulary" element={<ProtectedRoute><VocabularyReview /></ProtectedRoute>} />
+        <Route path="/progress" element={<ProtectedRoute><Progress /></ProtectedRoute>} />
       </Routes>
     </div>
   );

@@ -1,12 +1,82 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Play, Square } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { GRAMMAR_KEYWORDS } from '../../pages/GrammarGuide';
 import { Volume2, Mic, Check, X } from 'lucide-react';
 import { releaseAudioSession } from '../../utils/audio';
 
+// Returns TTS voice key for a dialogue speaker
+function voiceFor(speaker) {
+  return speaker === 'You' ? 'jenny' : 'guy';
+}
+
 // StorySection Component
 export function StorySection({ story, onComplete }) {
+  const [playingIdx, setPlayingIdx] = useState(null); // index of currently playing line, or null
+  const [playingAll, setPlayingAll] = useState(false);
+  const audioRef = useRef(null);
+  const stopRef = useRef(false); // signal to abort "play all" sequence
+
+  // Stop any playing audio on unmount
+  useEffect(() => {
+    return () => {
+      stopRef.current = true;
+      audioRef.current?.pause();
+      audioRef.current = null;
+    };
+  }, []);
+
+  const stopCurrent = () => {
+    stopRef.current = true;
+    audioRef.current?.pause();
+    audioRef.current = null;
+    setPlayingIdx(null);
+    setPlayingAll(false);
+  };
+
+  const playLine = (idx) => {
+    if (playingIdx === idx) { stopCurrent(); return; }
+    stopCurrent();
+    stopRef.current = false;
+    const line = story.dialogue[idx];
+    const voice = voiceFor(line.speaker);
+    const url = `/api/tts?text=${encodeURIComponent(line.text)}&voice=${voice}`;
+    const audio = new Audio(url);
+    audioRef.current = audio;
+    setPlayingIdx(idx);
+    audio.onended = () => { if (!stopRef.current) { setPlayingIdx(null); } audioRef.current = null; };
+    audio.onerror = () => { setPlayingIdx(null); audioRef.current = null; };
+    audio.play();
+  };
+
+  const playAll = async () => {
+    if (playingAll) { stopCurrent(); return; }
+    stopCurrent();
+    stopRef.current = false;
+    setPlayingAll(true);
+    const lines = story.dialogue || [];
+    for (let i = 0; i < lines.length; i++) {
+      if (stopRef.current) break;
+      setPlayingIdx(i);
+      const voice = voiceFor(lines[i].speaker);
+      const url = `/api/tts?text=${encodeURIComponent(lines[i].text)}&voice=${voice}`;
+      await new Promise((resolve) => {
+        if (stopRef.current) { resolve(); return; }
+        const audio = new Audio(url);
+        audioRef.current = audio;
+        audio.onended = () => { audioRef.current = null; resolve(); };
+        audio.onerror = () => { audioRef.current = null; resolve(); };
+        audio.play();
+      });
+      if (!stopRef.current && i < lines.length - 1) {
+        await new Promise(r => setTimeout(r, 600));
+      }
+    }
+    if (!stopRef.current) { setPlayingIdx(null); setPlayingAll(false); }
+  };
+
+  const hasDialogue = story.dialogue && story.dialogue.length > 0;
+
   return (
     <div>
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">The Situation</h2>
@@ -18,11 +88,54 @@ export function StorySection({ story, onComplete }) {
         </div>
       )}
 
+      {hasDialogue && (
+        <div className="flex justify-end mb-3">
+          <button
+            onClick={playingAll ? stopCurrent : playAll}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              playingAll
+                ? 'bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 border border-red-200 dark:border-red-800 hover:bg-red-100'
+                : 'bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800 hover:bg-indigo-100'
+            }`}
+          >
+            {playingAll ? <Square className="w-3.5 h-3.5 fill-current" /> : <Play className="w-3.5 h-3.5 fill-current" />}
+            {playingAll ? 'Stop' : 'Play Dialogue'}
+          </button>
+        </div>
+      )}
+
       <div className="prose max-w-none mb-6">
         {story.dialogue?.map((line, idx) => (
-          <div key={idx} className="mb-6">
-            <p className="font-bold text-gray-900 dark:text-white mb-1">{line.speaker}:</p>
-            <p className="text-gray-800 dark:text-gray-200 text-lg ml-4 leading-relaxed">{line.text}</p>
+          <div
+            key={idx}
+            className={`mb-4 rounded-xl px-4 py-3 transition-colors ${
+              playingIdx === idx
+                ? 'bg-indigo-50 dark:bg-indigo-900/30 border border-indigo-200 dark:border-indigo-700'
+                : 'hover:bg-gray-50 dark:hover:bg-gray-800/50'
+            }`}
+          >
+            <div className="flex items-start gap-3">
+              <button
+                onClick={() => playLine(idx)}
+                className={`mt-0.5 flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-colors ${
+                  playingIdx === idx
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 hover:text-indigo-600'
+                }`}
+                title={playingIdx === idx ? 'Stop' : `Play ${line.speaker}'s line`}
+              >
+                {playingIdx === idx
+                  ? <Square className="w-3 h-3 fill-current" />
+                  : <Play className="w-3 h-3 fill-current" />
+                }
+              </button>
+              <div className="flex-1">
+                <p className={`font-bold text-sm mb-0.5 ${
+                  playingIdx === idx ? 'text-indigo-600 dark:text-indigo-400' : 'text-gray-900 dark:text-white'
+                }`}>{line.speaker}</p>
+                <p className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed">{line.text}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
