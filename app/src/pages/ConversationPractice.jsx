@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Mic, MicOff, Volume2, ChevronLeft, Clock, RotateCcw } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
-const DAILY_LIMIT = 3600; // 60 minutes
+const DAILY_LIMIT = 3600;
 
 function fmt(seconds) {
   const m = Math.floor(seconds / 60).toString().padStart(2, '0');
@@ -12,7 +12,6 @@ function fmt(seconds) {
 }
 
 export default function ConversationPractice() {
-  const { token } = useAuth();
   const navigate = useNavigate();
 
   const [, setStatus] = useState(null);              // { used_seconds, remaining_seconds }
@@ -35,16 +34,11 @@ export default function ConversationPractice() {
   const bottomRef = useRef(null);
   const elapsedRef = useRef(0);
 
-  // Sync elapsed to ref so timer callback always has latest value
   useEffect(() => { elapsedRef.current = elapsed; }, [elapsed]);
 
-  // Load status + today's history on mount
   useEffect(() => {
-    fetch('/api/conversation/status', { headers: { Authorization: `Bearer ${token}` } })
-      .then(r => {
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error(); }
-        return r.json();
-      })
+    apiFetch('/api/conversation/status')
+      .then(r => r.json())
       .then(data => {
         setStatus(data);
         setElapsed(data.used_seconds);
@@ -53,17 +47,16 @@ export default function ConversationPractice() {
       })
       .catch(() => setError('Could not load session status.'));
 
-    fetch('/api/conversation/history', { headers: { Authorization: `Bearer ${token}` } })
-      .then(r => { if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error(); } return r.json(); })
-      .then(data => { if (data.messages?.length) setMessages(data.messages); })
+    apiFetch('/api/conversation/history')
+      .then(r => r.ok ? r.json() : null)
+      .then(data => { if (data?.messages?.length) setMessages(data.messages); })
       .catch(() => {});
-  }, [token]);
+  }, []);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, transcript, loading]);
 
-  // Timer — only runs when session is active
   const stopTimer = useCallback(() => {
     if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
   }, []);
@@ -84,14 +77,12 @@ export default function ConversationPractice() {
     }, 1000);
   }, [stopTimer]);
 
-  // Cleanup on unmount — stop timer, release mic, cancel pending reply
   useEffect(() => () => {
     stopTimer();
     recognitionRef.current?.abort();
     clearTimeout(replyDelayRef.current);
   }, [stopTimer]);
 
-  // Web Speech API setup
   const setupRecognition = () => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) return null;
@@ -112,7 +103,6 @@ export default function ConversationPractice() {
       setTranscript(accumulatedRef.current + interim);
     };
 
-    // onend fires when the user taps stop — send everything accumulated
     rec.onend = () => {
       setListening(false);
       const final = accumulatedRef.current.trim();
@@ -172,9 +162,8 @@ export default function ConversationPractice() {
     setMessages(prev => [...prev, userMsg]);
 
     try {
-      const res = await fetch('/api/conversation/message', {
+      const res = await apiFetch('/api/conversation/message', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({
           message: text,
           history: messages,
@@ -182,7 +171,6 @@ export default function ConversationPractice() {
         }),
       });
 
-      if (res.status === 401) { window.dispatchEvent(new Event('auth:expired')); return; }
       if (res.status === 429) {
         setLimitReached(true);
         stopTimer();
@@ -197,7 +185,6 @@ export default function ConversationPractice() {
       const assistantMsg = { role: 'assistant', content: data.reply, audio_url: data.audio_url };
       setMessages(prev => [...prev, assistantMsg]);
 
-      // Play teacher audio
       if (data.audio_url) {
         setAudioPlaying(true);
         const audio = new Audio(data.audio_url);

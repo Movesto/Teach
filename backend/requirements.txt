@@ -1,19 +1,18 @@
-fastapi
-uvicorn
-psycopg2-binary
-httpx
-pydantic
-edge-tts
-python-jose[cryptography]
-bcrypt
-python-multipart
-alembic
-sqlalchemy
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+psycopg2-binary==2.9.10
+httpx==0.27.2
+pydantic==2.10.4
+edge-tts==6.1.9
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+python-multipart==0.0.20
+alembic==1.14.0
+sqlalchemy==2.0.36
 
-# ── Observability ──────────────────────────────────────────────────────────
-opentelemetry-sdk
-opentelemetry-exporter-otlp-proto-grpc
-opentelemetry-instrumentation-fastapi
-opentelemetry-instrumentation-httpx
-opentelemetry-instrumentation-psycopg2
-prometheus-fastapi-instrumentator
+opentelemetry-sdk==1.28.0
+opentelemetry-exporter-otlp-proto-grpc==1.28.0
+opentelemetry-instrumentation-fastapi==0.49b0
+opentelemetry-instrumentation-httpx==0.49b0
+opentelemetry-instrumentation-psycopg2==0.49b0
+prometheus-fastapi-instrumentator==7.0.0

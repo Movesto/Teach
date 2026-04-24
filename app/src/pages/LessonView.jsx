@@ -7,12 +7,11 @@ import IntermediateLesson from '../components/Lesson/IntermediateLesson';
 import AdvancedLesson from '../components/Lesson/AdvancedLesson';
 import AITutorModal from '../components/AITutorModal';
 import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
 export default function LessonView() {
   const { lessonId } = useParams();
   const navigate = useNavigate();
-  const { token } = useAuth();
 
   const [lesson, setLesson] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -25,16 +24,10 @@ export default function LessonView() {
   const [lastScore, setLastScore] = useState(null);
 
   useEffect(() => {
-    fetch(`/api/lessons/${lessonId}`)
+    apiFetch(`/api/lessons/${lessonId}`)
       .then(res => res.json())
-      .then(data => {
-        setLesson(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading lesson:', err);
-        setLoading(false);
-      });
+      .then(data => { setLesson(data); setLoading(false); })
+      .catch(() => setLoading(false));
   }, [lessonId]);
 
   const submitQuiz = (score) => {
@@ -42,17 +35,11 @@ export default function LessonView() {
     setSubmitting(true);
     setSubmitError(false);
     setLastScore(score);
-    const headers = { 'Content-Type': 'application/json' };
-    if (token) headers['Authorization'] = `Bearer ${token}`;
-    fetch('/api/quiz/submit', {
-      method: 'POST', headers,
-      body: JSON.stringify({ lesson_id: lessonId, unit_id: lesson?.unit_id, score })
+    apiFetch('/api/quiz/submit', {
+      method: 'POST',
+      body: JSON.stringify({ lesson_id: lessonId, unit_id: lesson?.unit_id, score }),
     })
-      .then(r => {
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
-        if (!r.ok) throw new Error('server');
-        return r.json();
-      })
+      .then(r => { if (!r.ok) throw new Error('server'); return r.json(); })
       .then(data => {
         if (data.unit_complete) navigate(`/unit-test/${data.unit_id}`);
         else navigate('/dashboard');
@@ -135,7 +122,6 @@ export default function LessonView() {
         )}
       </div>
 
-      {/* Progress Bar — beginner only (other templates have built-in progress) */}
       {(!lesson.template || lesson.template === 'beginner') && (
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-4 mb-6">
         <div className="flex justify-between items-center mb-2">
@@ -151,7 +137,7 @@ export default function LessonView() {
           ></div>
         </div>
       </div>
-      )} {/* end progress bar */}
+      )}
 
       {/* ── Intermediate template ── */}
       {lesson.template === 'intermediate' && (

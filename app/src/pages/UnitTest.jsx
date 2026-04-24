@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 import { CheckCircle, XCircle, ArrowLeft, ArrowRight, Trophy, RotateCcw, Eye, Pencil } from 'lucide-react';
-
-// ─── Scoring ─────────────────────────────────────────────────────────────────
 
 function scoreQuestion(q, answer) {
   switch (q.type) {
@@ -62,8 +60,6 @@ function questionTypeBadgeColor(type) {
   };
   return colors[type] || 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300';
 }
-
-// ─── Question renderers (test mode) ──────────────────────────────────────────
 
 function MCQuestion({ q, answer, setAnswer }) {
   return (
@@ -238,8 +234,6 @@ function WritingQuestion({ q, answer, setAnswer }) {
   );
 }
 
-// ─── Answer review (result screen) ───────────────────────────────────────────
-
 function AnswerReview({ q, answer, isCorrect }) {
   const base = `p-4 rounded-xl border-2 ${isCorrect
     ? 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/10'
@@ -353,11 +347,8 @@ function AnswerReview({ q, answer, isCorrect }) {
   );
 }
 
-// ─── Main component ───────────────────────────────────────────────────────────
-
 export default function UnitTest() {
   const { unitId } = useParams();
-  const { token } = useAuth();
 
   const [testData, setTestData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -370,12 +361,11 @@ export default function UnitTest() {
   const topRef = useRef(null);
 
   useEffect(() => {
-    const headers = token ? { Authorization: `Bearer ${token}` } : {};
-    fetch(`/api/unit-tests/${unitId}`, { headers })
+    apiFetch(`/api/unit-tests/${unitId}`)
       .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
       .then(data => { setTestData(data); setLoading(false); })
       .catch(() => { setTestData(null); setLoading(false); });
-  }, [unitId, token]);
+  }, [unitId]);
 
   if (loading) {
     return (
@@ -406,7 +396,6 @@ export default function UnitTest() {
     return acc;
   }, {});
 
-  // ─── Intro ────────────────────────────────────────────────────────────────
   if (screen === 'intro') {
     const prev = testData.previous_result;
     const prevPassed = prev && prev.percentage >= 70;
@@ -472,7 +461,6 @@ export default function UnitTest() {
     );
   }
 
-  // ─── Test ─────────────────────────────────────────────────────────────────
   if (screen === 'test') {
     const q = allQuestions[currentQ];
     const isPreview = !!q.is_preview;
@@ -498,14 +486,11 @@ export default function UnitTest() {
       });
       const percentage = Math.round((score / scoredQuestions.length) * 100);
 
-      const headers = { 'Content-Type': 'application/json' };
-      if (token) headers['Authorization'] = `Bearer ${token}`;
       try {
-        const r = await fetch(`/api/unit-tests/${unitId}/submit`, {
-          method: 'POST', headers,
-          body: JSON.stringify({ score, percentage, answers })
+        const r = await apiFetch(`/api/unit-tests/${unitId}/submit`, {
+          method: 'POST',
+          body: JSON.stringify({ score, percentage, answers }),
         });
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return; }
         if (!r.ok) throw new Error();
       } catch {
         setSubmitError(true);
@@ -596,7 +581,6 @@ export default function UnitTest() {
     );
   }
 
-  // ─── Result ───────────────────────────────────────────────────────────────
   if (screen === 'result' && result) {
     const { score, percentage, answers } = result;
     const passed = percentage >= 70;

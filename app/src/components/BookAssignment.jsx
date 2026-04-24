@@ -2,10 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { CheckCircle, Clock, ChevronRight, ChevronLeft, BookOpen, Lock } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
 function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const params = useParams();
-  const { user, token } = useAuth();
+  const { user } = useAuth();
   const bookId = bookIdProp || params.bookId;
   const studentId = studentIdProp || user?.id || '00000000-0000-0000-0000-000000000001';
 
@@ -33,14 +34,13 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const [pdfOpened, setPdfOpened] = useState(false);
 
   useEffect(() => {
-    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     Promise.all([
-      fetch(`/api/books/${bookId}`).then(r => {
+      apiFetch(`/api/books/${bookId}`).then(r => {
         if (!r.ok) throw new Error('Book not found');
         return r.json();
       }),
-      fetch(`/api/books/${bookId}/chapters`).then(r => r.ok ? r.json() : []),
-      fetch('/api/user/book-progress', { headers }).then(r => r.ok ? r.json() : {}),
+      apiFetch(`/api/books/${bookId}/chapters`).then(r => r.ok ? r.json() : []),
+      apiFetch('/api/user/book-progress').then(r => r.ok ? r.json() : {}),
     ])
       .then(([bookData, chaptersData, progressData]) => {
         setBook(bookData);
@@ -49,7 +49,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
         setCompletedChapters(new Set(doneIds));
       })
       .catch(err => setLoadError(err.message));
-  }, [bookId, token]);
+  }, [bookId]);
 
   const writingDraftKey = (chapterId, promptIdx) =>
     `book_draft_${bookId}_${chapterId}_${promptIdx}`;
@@ -72,7 +72,7 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     setWritingAssessment(null);
     setLoadingChapter(true);
     try {
-      const res = await fetch(`/api/books/${bookId}/chapters/${chapter.id}/assignment/${studentId}`);
+      const res = await apiFetch(`/api/books/${bookId}/chapters/${chapter.id}/assignment/${studentId}`);
       const data = await res.json();
       setChapterAssignment(data);
     } catch {
@@ -114,9 +114,8 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     writingAbortRef.current = controller;
     const timeout = setTimeout(() => controller.abort(), 90000);
     try {
-      const res = await fetch('/api/writing/assess', {
+      const res = await apiFetch('/api/writing/assess', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           writing_text: writingText,
           prompt_instruction: prompt.prompt,
@@ -158,13 +157,10 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
   const completeChapter = () => {
     setCompletedChapters(prev => new Set([...prev, activeChapter.id]));
     setChapterPhase('done');
-    if (token) {
-      fetch(`/api/books/${bookId}/chapters/${activeChapter.id}/complete`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        body: JSON.stringify({ quiz_score: quizScore }),
-      }).catch(e => console.error('Could not save chapter progress:', e));
-    }
+    apiFetch(`/api/books/${bookId}/chapters/${activeChapter.id}/complete`, {
+      method: 'POST',
+      body: JSON.stringify({ quiz_score: quizScore }),
+    }).catch(() => {});
   };
 
   const goToNextChapter = () => {
@@ -176,7 +172,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     }
   };
 
-  // ── Error state ──
   if (loadError) {
     return (
       <div className="max-w-2xl mx-auto p-8 text-center">
@@ -196,7 +191,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     );
   }
 
-  // ── Loading state ──
   if (!book) {
     return (
       <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
@@ -208,7 +202,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     );
   }
 
-  // ── Chapter active view ──
   if (activeChapter) {
     if (loadingChapter) {
       return (
@@ -518,7 +511,6 @@ function BookAssignment({ bookId: bookIdProp, studentId: studentIdProp }) {
     );
   }
 
-  // ── Book overview + chapter list ──
   return (
     <div className="max-w-3xl mx-auto p-6">
       {/* Book header */}

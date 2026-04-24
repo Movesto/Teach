@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { GRAMMAR_KEYWORDS } from '../../pages/GrammarGuide';
 import { Volume2, Mic, Check, X } from 'lucide-react';
 import { releaseAudioSession } from '../../utils/audio';
+import { apiFetch } from '../../utils/api';
 
-// Returns TTS voice key for a dialogue speaker
 function voiceFor(speaker) {
   return speaker === 'You' ? 'jenny' : 'guy';
 }
@@ -370,9 +370,8 @@ export function SpeakingRecorder({ tasks, onComplete }) {
         const transcript = transcriptRef.current.trim();
         if (expectedText) {
           setIsAssessing(true);
-          fetch('/api/speaking/assess', {
+          apiFetch('/api/speaking/assess', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ transcript, expected: expectedText }),
           })
             .then(r => r.ok ? r.json() : null)
@@ -587,9 +586,8 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
     abortRef.current = controller;
     const timeout = setTimeout(() => controller.abort(), 90000);
     try {
-      const res = await fetch('/api/writing/assess', {
+      const res = await apiFetch('/api/writing/assess', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           writing_text: currentText,
           prompt_instruction: task.instruction || task.title || '',

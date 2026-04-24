@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
 const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const CEFR_COLORS = {
@@ -112,22 +112,17 @@ function VocabBar({ learning, mastered }) {
 }
 
 export default function Progress() {
-  const { token } = useAuth();
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/api/progress/stats', { headers: { Authorization: `Bearer ${token}` } })
-      .then(r => {
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error(); }
-        if (!r.ok) throw new Error();
-        return r.json();
-      })
+    apiFetch('/api/progress/stats')
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => { setStats(data); setLoading(false); })
       .catch(() => { setError('Could not load progress.'); setLoading(false); });
-  }, [token]);
+  }, []);
 
   if (loading) {
     return (

@@ -2,10 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy, Mic, Clock } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
-// Module-level caches — survive React Router navigation, reset on page reload.
-// Books are static catalog data; units carry per-user completion state so we
-// use a short TTL so returning from a lesson shows the updated progress.
 let _booksCache = null;
 let _unitsCache = null;
 let _unitsCacheAt = 0;
@@ -63,20 +61,16 @@ function BookCard({ book, progress }) {
   );
 }
 
-function TalkCard({ token }) {
+function TalkCard() {
   const navigate = useNavigate();
   const [remaining, setRemaining] = useState(null);
 
   useEffect(() => {
-    if (!token) return;
-    fetch('/api/conversation/status', { headers: { Authorization: `Bearer ${token}` } })
-      .then(r => {
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return null; }
-        return r.ok ? r.json() : null;
-      })
+    apiFetch('/api/conversation/status')
+      .then(r => r.ok ? r.json() : null)
       .then(d => { if (d) setRemaining(d.remaining_seconds); })
       .catch(() => {});
-  }, [token]);
+  }, []);
 
   const fmt = (s) => s === null ? '...' : s >= 3600 ? '60 min' : `${Math.floor(s / 60)} min`;
   const done = remaining === 0;
@@ -111,7 +105,7 @@ function TalkCard({ token }) {
 }
 
 export default function Dashboard() {
-  const { user, token } = useAuth();
+  const { user } = useAuth();
   const navigate = useNavigate();
   const [units, setUnits] = useState([]);
   const [booksByUnit, setBooksByUnit] = useState({});
@@ -124,28 +118,22 @@ export default function Dashboard() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    const headers = token ? { Authorization: `Bearer ${token}` } : {};
     const now = Date.now();
 
     const unitsPromise = (_unitsCache && now - _unitsCacheAt < UNITS_TTL)
       ? Promise.resolve(_unitsCache)
-      : fetch('/api/units', { headers }).then(r => {
-          if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
-          return r.json();
-        }).then(data => { _unitsCache = data; _unitsCacheAt = Date.now(); return data; });
+      : apiFetch('/api/units').then(r => r.json())
+          .then(data => { _unitsCache = data; _unitsCacheAt = Date.now(); return data; });
 
     const booksPromise = _booksCache
       ? Promise.resolve(_booksCache)
-      : fetch('/api/books').then(r => r.json())
+      : apiFetch('/api/books').then(r => r.json())
           .then(data => { _booksCache = data; return data; });
 
     Promise.all([
       unitsPromise,
       booksPromise,
-      fetch('/api/user/book-progress', { headers }).then(r => {
-        if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); throw new Error('auth'); }
-        return r.ok ? r.json() : {};
-      }),
+      apiFetch('/api/user/book-progress').then(r => r.ok ? r.json() : {}),
     ])
       .then(([unitData, bookData, progressData]) => {
         setUnits(unitData);
@@ -159,9 +147,9 @@ export default function Dashboard() {
         setBooksByUnit(grouped);
         if (unitData.length > 0) setOpenUnit(unitData[0].id);
       })
-      .catch(err => { if (err.message !== 'auth') setLoadError(true); })
+      .catch(() => setLoadError(true))
       .finally(() => setLoading(false));
-  }, [token, retryCount]);
+  }, [retryCount]);
 
   if (loading) {
     return (
@@ -248,7 +236,7 @@ export default function Dashboard() {
       )}
 
       {/* Talk with Mr. Hassan */}
-      <TalkCard token={token} />
+      <TalkCard />
 
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4 mb-6">

@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
 import { Volume2, Mic, ChevronRight, Check, X } from 'lucide-react';
+import { apiFetch } from '../../utils/api';
 
 export function PatternDrill({ drills, onComplete, onRequestHelp }) {
   const [currentDrill, setCurrentDrill] = useState(0);
   const [currentPrompt, setCurrentPrompt] = useState(0);
   const [promptInput, setPromptInput] = useState('');
-  const [promptFeedback, setPromptFeedback] = useState(null); // null | 'correct' | 'wrong'
-  const [completedPrompts, setCompletedPrompts] = useState({}); // { drillIdx: count }
+  const [promptFeedback, setPromptFeedback] = useState(null);
+  const [completedPrompts, setCompletedPrompts] = useState({});
   const [showYourTurn, setShowYourTurn] = useState(false);
   const [recordings, setRecordings] = useState({});
   const [isRecording, setIsRecording] = useState(false);
@@ -53,7 +54,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         formData.append('language', 'english')
         formData.append('expected_text', drills[drillIndex].your_turn)
         setIsAssessing(true)
-        fetch('/api/pronunciation/assess', { method: 'POST', body: formData })
+        apiFetch('/api/pronunciation/assess', { method: 'POST', body: formData })
           .then(r => r.json())
           .then(result => {
             setPronunciationResult(prev => ({ ...prev, [drillIndex]: result }))
@@ -64,8 +65,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
 
       mediaRecorder.start();
       setIsRecording(true);
-    } catch (err) {
-      console.error('Error accessing microphone:', err);
+    } catch {
       alert('Could not access microphone. Please check permissions.');
     }
   };

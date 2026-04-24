@@ -1,77 +1,61 @@
 import { createContext, useContext, useState, useEffect } from 'react';
+import { apiFetch } from '../utils/api';
 
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
-  const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const t = localStorage.getItem('token');
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (!t) { setLoading(false); return; }
-    fetch('/api/auth/me', { headers: { Authorization: `Bearer ${t}` } })
+    apiFetch('/api/auth/me')
       .then(r => r.ok ? r.json() : null)
-      .then(u => {
-        if (u) { setToken(t); setUser(u); }
-        else localStorage.removeItem('token');
-      })
+      .then(u => { if (u) setUser(u); })
       .finally(() => setLoading(false));
   }, []);
 
-  // Global 401 handler — any component can fire window.dispatchEvent(new Event('auth:expired'))
   useEffect(() => {
-    const handler = () => {
-      localStorage.removeItem('token');
-      setToken(null);
-      setUser(null);
-    };
+    const handler = () => setUser(null);
     window.addEventListener('auth:expired', handler);
     return () => window.removeEventListener('auth:expired', handler);
   }, []);
 
   const login = async (email, password) => {
-    const r = await fetch('/api/auth/login', {
+    const r = await apiFetch('/api/auth/login', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password })
+      body: JSON.stringify({ email, password }),
     });
     if (!r.ok) throw new Error((await r.json()).detail);
-    const { token: t, user: u } = await r.json();
-    localStorage.setItem('token', t); setToken(t); setUser(u);
+    const { user: u } = await r.json();
+    setUser(u);
     return u;
   };
 
   const register = async (name, email, password) => {
-    const r = await fetch('/api/auth/register', {
+    const r = await apiFetch('/api/auth/register', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, password })
+      body: JSON.stringify({ name, email, password }),
     });
     if (!r.ok) throw new Error((await r.json()).detail);
-    const { token: t, user: u } = await r.json();
-    localStorage.setItem('token', t); setToken(t); setUser(u);
+    const { user: u } = await r.json();
+    setUser(u);
     return u;
   };
 
-  const logout = () => {
-    localStorage.removeItem('token'); setToken(null); setUser(null);
+  const logout = async () => {
+    await apiFetch('/api/auth/logout', { method: 'POST' });
+    setUser(null);
   };
 
-  const updateUser = (userData) => {
-    setUser(prev => ({ ...prev, ...userData }));
-  };
+  const updateUser = (userData) => setUser(prev => ({ ...prev, ...userData }));
 
   const refreshUser = async () => {
-    const t = localStorage.getItem('token');
-    if (!t) return;
-    const r = await fetch('/api/auth/me', { headers: { Authorization: `Bearer ${t}` } });
+    const r = await apiFetch('/api/auth/me');
     if (r.ok) setUser(await r.json());
   };
 
   return (
-    <AuthContext.Provider value={{ user, token, loading, login, register, logout, refreshUser, updateUser }}>
+    <AuthContext.Provider value={{ user, loading, login, register, logout, refreshUser, updateUser }}>
       {children}
     </AuthContext.Provider>
   );

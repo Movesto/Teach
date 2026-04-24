@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { X, Sparkles, Loader, Send } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
-// Load all unit titles once so the AI knows the full curriculum
 const UNITS_SUMMARY = [
   "Unit 1: Daily Life & Survival — greetings, shopping, transport, health, emergencies",
   "Unit 2: People, Work & First Steps — family, job skills, interviews",
@@ -30,7 +29,6 @@ function buildLessonContext(context) {
 }
 
 export default function AITutorModal({ isOpen, onClose, context }) {
-  const { token } = useAuth();
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -39,7 +37,6 @@ export default function AITutorModal({ isOpen, onClose, context }) {
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
 
-  // Reset and send opening message whenever the modal opens
   useEffect(() => {
     if (!isOpen) return;
     setInput('');
@@ -57,9 +54,8 @@ export default function AITutorModal({ isOpen, onClose, context }) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 60000);
 
-    fetch('/api/chat', {
+    apiFetch('/api/chat', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({
         message: openingPrompt,
         history: [],
@@ -85,7 +81,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
       .finally(() => { clearTimeout(timeout); setLoading(false); });
 
     return () => { controller.abort(); clearTimeout(timeout); };
-  }, [isOpen, context, token]);
+  }, [isOpen, context]);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -93,7 +89,6 @@ export default function AITutorModal({ isOpen, onClose, context }) {
 
   const retry = () => {
     if (!lastUserText) return;
-    // Remove the pending user message (the one with no reply)
     setMessages(prev => prev.slice(0, -1));
     setError(null);
     sendText(lastUserText);
@@ -119,9 +114,8 @@ export default function AITutorModal({ isOpen, onClose, context }) {
     const timeout = setTimeout(() => controller.abort(), 60000);
 
     try {
-      const res = await fetch('/api/chat', {
+      const res = await apiFetch('/api/chat', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({
           message: text,
           history: next.filter(m => !m.hidden),

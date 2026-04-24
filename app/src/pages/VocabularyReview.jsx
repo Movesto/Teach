@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, RotateCcw, Check, X, BookOpen, Star } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 
 const MASTERY_LABELS = ['New', 'Learning', 'Familiar', 'Good', 'Strong', 'Mastered'];
 const MASTERY_COLORS = [
@@ -14,21 +14,20 @@ const MASTERY_COLORS = [
 ];
 
 export default function VocabularyReview() {
-  const { token } = useAuth();
   const navigate = useNavigate();
 
   const [words, setWords] = useState([]);
   const [totalWords, setTotalWords] = useState(0);
   const [current, setCurrent] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const [results, setResults] = useState([]);   // {word, knew}
+  const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/api/vocabulary/due', { headers: { Authorization: `Bearer ${token}` } })
+    apiFetch('/api/vocabulary/due')
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => {
         setWords(data.words);
@@ -36,7 +35,7 @@ export default function VocabularyReview() {
         setLoading(false);
       })
       .catch(() => { setError('Could not load vocabulary.'); setLoading(false); });
-  }, [token]);
+  }, []);
 
   const submitResult = async (knew) => {
     if (submitting) return;
@@ -45,13 +44,11 @@ export default function VocabularyReview() {
     setResults(prev => [...prev, { word: word.word, knew }]);
 
     try {
-      await fetch('/api/vocabulary/review', {
+      await apiFetch('/api/vocabulary/review', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({ word_id: word.id, knew }),
       });
     } catch {
-      // Non-fatal — result is tracked locally even if server call fails
     }
 
     if (current + 1 >= words.length) {
@@ -86,7 +83,6 @@ export default function VocabularyReview() {
     );
   }
 
-  // No words due
   if (words.length === 0) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
@@ -122,7 +118,6 @@ export default function VocabularyReview() {
     );
   }
 
-  // Session complete
   if (done) {
     const pct = Math.round((knewCount / results.length) * 100);
     return (

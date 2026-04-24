@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Mic, Square, Play, ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { apiFetch } from '../utils/api';
 import { releaseAudioSession } from '../utils/audio';
 
 const CEFR_COLORS = {
@@ -43,7 +44,7 @@ function flattenSections(sections) {
 
 export default function PlacementTest() {
   const navigate = useNavigate();
-  const { token, updateUser } = useAuth();
+  const { updateUser } = useAuth();
 
   const [testData, setTestData] = useState(null);
   const [allCards, setAllCards] = useState([]);
@@ -64,13 +65,13 @@ export default function PlacementTest() {
   const audioChunks = useRef([]);
 
   useEffect(() => {
-    fetch('/api/placement/test')
+    apiFetch('/api/placement/test')
       .then(r => r.json())
       .then(data => {
         setTestData(data);
         setAllCards(flattenSections(data.sections || []));
       })
-      .catch(err => console.error('Error loading placement test:', err));
+      .catch(() => {});
   }, []);
 
   if (!testData) {
@@ -88,7 +89,6 @@ export default function PlacementTest() {
   const isLast = idx === allCards.length - 1;
   const totalCards = allCards.length;
 
-  // ── Recording helpers ──
   const startRecording = async (id) => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -136,9 +136,8 @@ export default function PlacementTest() {
     setIsSubmitting(true);
     const timeTaken = Math.round((Date.now() - startTime) / 60000);
     try {
-      const res = await fetch('/api/placement/submit', {
+      const res = await apiFetch('/api/placement/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers: Object.values(answers), time_taken_minutes: timeTaken }),
       });
       const data = await res.json();
@@ -155,10 +154,7 @@ export default function PlacementTest() {
     setIsSaving(true);
     setSaveError(false);
     try {
-      const headers = { 'Content-Type': 'application/json' };
-      if (token) headers['Authorization'] = `Bearer ${token}`;
-      const r = await fetch('/api/placement/save', { method: 'POST', headers, body: JSON.stringify(payload) });
-      if (r.status === 401) { window.dispatchEvent(new Event('auth:expired')); return; }
+      const r = await apiFetch('/api/placement/save', { method: 'POST', body: JSON.stringify(payload) });
       if (!r.ok) throw new Error();
       updateUser({ placement_done: true, ...userUpdate });
       navigate('/dashboard');
@@ -183,7 +179,6 @@ export default function PlacementTest() {
     );
   };
 
-  // ── INTRO SCREEN ──
   if (screen === 'intro') {
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
@@ -225,7 +220,6 @@ export default function PlacementTest() {
     );
   }
 
-  // ── RESULT SCREEN ──
   if (screen === 'result' && result) {
     const cefr = result.cefr?.toUpperCase() || 'A1';
     const colorClass = CEFR_COLORS[cefr] || CEFR_COLORS.A1;
@@ -307,7 +301,6 @@ export default function PlacementTest() {
     );
   }
 
-  // ── TEST SCREEN ──
   const progress = ((idx + 1) / totalCards) * 100;
   const isSpeaking = card?._type === 'speaking';
   const _hasAnswer = isSpeaking
