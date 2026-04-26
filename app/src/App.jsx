@@ -13,6 +13,7 @@ import UnitTest from './pages/UnitTest';
 import ConversationPractice from './pages/ConversationPractice';
 import VocabularyReview from './pages/VocabularyReview';
 import Progress from './pages/Progress';
+import AdminFeedback from './pages/AdminFeedback';
 
 function LoadingScreen() {
   return (
@@ -61,6 +62,11 @@ function NavBar() {
                 <Link to="/vocabulary" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Vocabulary
                 </Link>
+                {user.email === 'zahirabdi415@gmail.com' && (
+                  <Link to="/admin/feedback" className="text-xs px-2 py-1 bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 rounded-lg font-medium hover:bg-indigo-200 dark:hover:bg-indigo-900/60">
+                    Feedback
+                  </Link>
+                )}
                 <span className="text-sm text-gray-500 dark:text-gray-400 border-l border-gray-200 dark:border-gray-700 pl-3 ml-1">{user.name}</span>
                 <button
                   onClick={logout}
@@ -140,6 +146,7 @@ function AppShell() {
         <Route path="/talk" element={<ProtectedRoute><ConversationPractice /></ProtectedRoute>} />
         <Route path="/vocabulary" element={<ProtectedRoute><VocabularyReview /></ProtectedRoute>} />
         <Route path="/progress" element={<ProtectedRoute><Progress /></ProtectedRoute>} />
+        <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
       </Routes>
     </div>
   );

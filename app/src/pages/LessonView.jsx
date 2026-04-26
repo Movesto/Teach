@@ -6,6 +6,7 @@ import { StorySection, ListeningExercise, SpeakingRecorder, WritingExercise, Gra
 import IntermediateLesson from '../components/Lesson/IntermediateLesson';
 import AdvancedLesson from '../components/Lesson/AdvancedLesson';
 import AITutorModal from '../components/AITutorModal';
+import FeedbackModal from '../components/FeedbackModal';
 import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
@@ -18,6 +19,7 @@ export default function LessonView() {
   const [currentSection, setCurrentSection] = useState('objectives');
   const [showTutor, setShowTutor] = useState(false);
   const [tutorContext, setTutorContext] = useState(null);
+  const [showFeedback, setShowFeedback] = useState(false);
   const [completedSections, setCompletedSections] = useState([]);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState(false);
@@ -104,13 +106,21 @@ export default function LessonView() {
           <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">
             Unit {lesson.unit_id} • Lesson {lesson.lesson_number}
           </span>
-          <button
-            onClick={() => requestHelp({ type: 'lesson', content: lesson })}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            <HelpCircle className="w-5 h-5" />
-            Get Help in Somali
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowFeedback(true)}
+              className="flex items-center gap-2 px-4 py-2 border border-yellow-500 text-yellow-600 dark:text-yellow-400 rounded-lg hover:border-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-400/10 transition-colors text-sm font-medium"
+            >
+              ★ Rating
+            </button>
+            <button
+              onClick={() => requestHelp({ type: 'lesson', content: lesson })}
+              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <HelpCircle className="w-5 h-5" />
+              Get Help in Somali
+            </button>
+          </div>
         </div>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{lesson.title}</h1>
         <p className="text-gray-600 dark:text-gray-400">{lesson.description}</p>
@@ -383,6 +393,11 @@ export default function LessonView() {
         isOpen={showTutor}
         onClose={() => setShowTutor(false)}
         context={tutorContext}
+      />
+      <FeedbackModal
+        isOpen={showFeedback}
+        onClose={() => setShowFeedback(false)}
+        context={{ page: 'lesson', lessonId: Number(lessonId), lessonTitle: lesson?.title }}
       />
     </div>
   );

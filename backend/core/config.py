@@ -26,10 +26,8 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_DAYS = 7
 
 _db_password = os.environ.get("DB_PASSWORD", "")
-if _db_password in ("", "teach_secure_pass_123", "change_me_strong_password"):
-    raise RuntimeError(
-        "DB_PASSWORD is not set or is using a placeholder. Set a real password in your .env file."
-    )
+if not _db_password:
+    raise RuntimeError("DB_PASSWORD is not set. Set a password in your .env file.")
 DB_CONFIG = {
     "host": os.environ.get("DB_HOST", "localhost"),
     "database": os.environ.get("DB_NAME", "teach_db"),

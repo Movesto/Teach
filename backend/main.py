@@ -100,6 +100,7 @@ except Exception as _e:
     logging.warning("Could not load placement router: %s", _e)
 
 from routers.auth import auth_router, placement_router as auth_placement_router
+from routers.feedback import router as feedback_router
 from routers.lessons import router as lessons_router
 from routers.vocabulary import router as vocabulary_router
 from routers.translate import router as translate_router
@@ -119,6 +120,7 @@ app.include_router(assessment_router)
 app.include_router(books_router)
 app.include_router(progress_router)
 app.include_router(conversation_router)
+app.include_router(feedback_router)
 
 
 @app.get("/api/health")

@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy, Mic, Clock } from 'lucide-react';
+import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy, Mic, Clock, MessageSquare } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
+import FeedbackModal from '../components/FeedbackModal';
 
 let _booksCache = null;
 let _unitsCache = null;
@@ -107,6 +108,7 @@ function TalkCard() {
 export default function Dashboard() {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const [showFeedback, setShowFeedback] = useState(false);
   const [units, setUnits] = useState([]);
   const [booksByUnit, setBooksByUnit] = useState({});
   const [bookProgress, setBookProgress] = useState({});
@@ -189,6 +191,7 @@ export default function Dashboard() {
   const totalCompleted = units.reduce((sum, u) => sum + (u.completed_lessons || 0), 0);
 
   return (
+    <>
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-6 mb-6">
@@ -257,6 +260,15 @@ export default function Dashboard() {
           <div className="text-sm text-gray-500 dark:text-gray-400 mt-0.5">Level</div>
         </div>
       </div>
+
+      {/* Feedback button */}
+      <button
+        onClick={() => setShowFeedback(true)}
+        className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2 hover:border-indigo-300 dark:hover:border-indigo-600 transition-colors mb-2 w-fit"
+      >
+        <MessageSquare className="w-4 h-4" />
+        Share feedback
+      </button>
 
       {/* Search + Lessons */}
       <div className="flex items-center justify-between mb-3 gap-3">
@@ -410,5 +422,12 @@ export default function Dashboard() {
         </div>
       )}
     </div>
+
+    <FeedbackModal
+      isOpen={showFeedback}
+      onClose={() => setShowFeedback(false)}
+      context={{ page: 'dashboard' }}
+    />
+    </>
   );
 }
