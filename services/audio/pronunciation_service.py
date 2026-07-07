@@ -112,7 +112,10 @@ def load_models():
         # Load model and processor
         MMS_MODEL = Wav2Vec2ForCTC.from_pretrained(
             "facebook/mms-1b-all",
-            cache_dir="/root/.cache/huggingface"
+            cache_dir="/root/.cache/huggingface",
+            # fp16 on GPU halves VRAM (~4 GB → ~2 GB); lossless for CTC scoring.
+            # Keep fp32 on CPU (fp16 CPU inference is slow/unsupported for this op).
+            torch_dtype=torch.float16 if DEVICE == "cuda" else torch.float32,
         )
         MMS_PROCESSOR = AutoProcessor.from_pretrained(
             "facebook/mms-1b-all",
@@ -235,9 +238,14 @@ def transcribe_somali(audio_path: str) -> dict:
             padding=True
         )
         
-        # Move to GPU if available
+        # Move to GPU if available. Cast float tensors to fp16 to match the fp16
+        # model weights (leave int tensors like attention_mask as-is), otherwise
+        # MMS_MODEL(**inputs) raises a dtype-mismatch error.
         if DEVICE == "cuda":
-            inputs = {k: v.to(DEVICE) for k, v in inputs.items()}
+            inputs = {
+                k: (v.to(DEVICE).half() if v.is_floating_point() else v.to(DEVICE))
+                for k, v in inputs.items()
+            }
         
         # Get predictions
         with torch.no_grad():

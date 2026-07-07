@@ -20,7 +20,8 @@ RUN pip3 install --no-cache-dir \
     peft \
     accelerate \
     sentencepiece \
-    protobuf
+    protobuf \
+    ctranslate2
 
 # Copy the API server
 COPY app.py /app/

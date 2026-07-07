@@ -145,7 +145,7 @@ curl -X POST http://localhost:8001/translate \
 ```bash
 curl -X POST http://localhost:8010/v1/chat/completions \
   -H "Content-Type: application/json" \
-  -d '{"model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "messages": [{"role": "user", "content": "Hello"}]}'
+  -d '{"model": "Qwen/Qwen2.5-3B-Instruct-AWQ", "messages": [{"role": "user", "content": "Hello"}]}'
 ```
 
 ## Port Reference
@@ -160,13 +160,21 @@ curl -X POST http://localhost:8010/v1/chat/completions \
 
 ## GPU Memory Usage
 
-Both NLLB and Qwen share a single GPU:
+Four AI services share a single 16 GB GPU (e.g. RTX 5070 Ti):
 
 | Service | VRAM |
 |---------|------|
-| Qwen 7B AWQ | ~11.4 GB (70% utilization) |
-| NLLB 1.3B | ~2.6 GB |
-| **Total** | **~14 GB / 16 GB** |
+| Qwen 3B AWQ | ~4 GB (25% utilization) |
+| NLLB 1.3B (CTranslate2 int8) | ~1.3 GB (0 GB if on CPU) |
+| Pronunciation (Whisper-small + MMS-1B fp16) | ~3 GB |
+| Kokoro TTS | 0 GB (runs on CPU) |
+| **Total** | **~8 GB / 16 GB** |
+
+The NLLB backend is configurable (CTranslate2 int8 vs. the original fp16 + LoRA) —
+see `services/nllb/CT2_NOTES.md`.
+
+To trade quality for more VRAM headroom, switch Qwen to `Qwen2.5-1.5B-Instruct-AWQ`
+(and lower `--gpu-memory-utilization`) in `docker-compose.yml`.
 
 ## Troubleshooting
 
@@ -181,7 +189,7 @@ Both NLLB and Qwen share a single GPU:
 - Restart Docker Desktop
 
 ### "Out of memory"
-- Lower Qwen memory in `docker-compose.yml`: change `--gpu-memory-utilization 0.70` to `0.60`
+- Lower Qwen memory in `docker-compose.yml`: reduce `--gpu-memory-utilization` (e.g. `0.25` → `0.20`)
 - Lower `--max-model-len` to `2048`
 
 ### Slow first start

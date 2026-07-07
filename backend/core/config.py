@@ -3,7 +3,7 @@ from pathlib import Path
 
 NLLB_URL = os.environ.get("NLLB_URL", "http://localhost:8001/translate")
 QWEN_URL = os.environ.get("QWEN_URL", "http://localhost:8010/v1/chat/completions")
-QWEN_MODEL = "Qwen/Qwen2.5-7B-Instruct-AWQ"
+QWEN_MODEL = "Qwen/Qwen2.5-3B-Instruct-AWQ"
 PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
 KOKORO_VOICE = "bm_george"

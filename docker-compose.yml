@@ -23,10 +23,10 @@ services:
               capabilities: [gpu]
     ipc: host
     command: >
-      --model Qwen/Qwen2.5-7B-Instruct-AWQ
+      --model Qwen/Qwen2.5-3B-Instruct-AWQ
       --quantization awq
-      --max-model-len 4096
-      --gpu-memory-utilization 0.70
+      --max-model-len 2048
+      --gpu-memory-utilization 0.25
       --enforce-eager
       --port 8000
     networks:
@@ -38,6 +38,13 @@ services:
     restart: unless-stopped
     ports:
       - "8001:8001"
+    environment:
+      # ct2 = CTranslate2 int8 (~1.3 GB, ~2x faster). On first boot it merges the
+      # LoRA into the base and converts to CT2 (cached in huggingface-cache).
+      # Set to "transformers" for an instant rollback to fp16 base + LoRA.
+      - NLLB_BACKEND=ct2
+      - NLLB_CT2_QUANTIZATION=int8   # int8 (memory win) | float16 (lossless, less saving)
+      - NLLB_DEVICE=auto             # auto | cuda | cpu (auto → CPU if CT2 lacks GPU kernels)
     volumes:
       - C:/Users/pscad/Documents/somali-nllb-training/nllb-somali-english-v3:/app/model:ro
       - huggingface-cache:/root/.cache/huggingface
@@ -49,6 +56,16 @@ services:
               count: 1
               capabilities: [gpu]
     ipc: host
+    healthcheck:
+      # /health only responds once the startup event finishes — including the
+      # one-time LoRA-merge + CT2 conversion on first boot. The long start_period
+      # (+ retries) gives that conversion room before the container is marked
+      # unhealthy; the backend waits on this via depends_on.
+      test: ["CMD-SHELL", "python3 -c \"import urllib.request; urllib.request.urlopen('http://localhost:8001/health')\""]
+      interval: 30s
+      timeout: 10s
+      retries: 20
+      start_period: 600s
     networks:
       - teach-network
 
@@ -79,14 +96,7 @@ services:
     ports:
       - "8880:8880"
     environment:
-      - USE_GPU=true
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+      - USE_GPU=false   # runs on CPU — same 82M model, identical audio, frees ~1.5 GB VRAM
     networks:
       - teach-network
 
@@ -155,6 +165,8 @@ services:
     depends_on:
       database:
         condition: service_healthy
+      nllb:
+        condition: service_healthy   # wait for NLLB's first-boot LoRA-merge + CT2 conversion
     healthcheck:
       test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/api/units')\""]
       interval: 15s
