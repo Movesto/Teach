@@ -171,6 +171,7 @@
     {
       "question": "Listen: What is wrong with the patient?",
       "audio": "/audio/lesson9-listen1.mp3",
+      "transcript": "What is wrong today? My head hurts. I have a headache.",
       "options": ["Headache", "Stomachache", "Fever", "Broken arm"],
       "correct": 0,
       "explanation": "The patient says 'My head hurts. I have a headache.'"
@@ -178,6 +179,7 @@
     {
       "question": "Listen: What does the doctor tell the patient to do?",
       "audio": "/audio/lesson9-listen2.mp3",
+      "transcript": "Please take this medicine and rest at home.",
       "options": ["Go to the hospital", "Take medicine and rest", "Come back tomorrow", "Drink coffee"],
       "correct": 1,
       "explanation": "The doctor says 'Take this medicine and rest.'"
@@ -185,6 +187,7 @@
     {
       "question": "Listen: How long has the person been sick?",
       "audio": "/audio/lesson9-listen3.mp3",
+      "transcript": "How long have you been sick? Three days.",
       "options": ["One day", "Two days", "Three days", "One week"],
       "correct": 2,
       "explanation": "The patient says 'Three days.'"

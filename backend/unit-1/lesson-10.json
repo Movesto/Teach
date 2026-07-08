@@ -167,6 +167,7 @@
     {
       "question": "Listen: What is the weather like?",
       "audio": "/audio/lesson10-listen1.mp3",
+      "transcript": "How is the weather today? It is cold and raining today.",
       "options": ["Hot and sunny", "Cold and rainy", "Warm and cloudy", "Snowing"],
       "correct": 1,
       "explanation": "The person says 'It is cold and raining today.'"
@@ -174,6 +175,7 @@
     {
       "question": "Listen: What does the person need?",
       "audio": "/audio/lesson10-listen2.mp3",
+      "transcript": "I need an umbrella. It is raining.",
       "options": ["A jacket", "An umbrella", "Boots", "A hat"],
       "correct": 1,
       "explanation": "The person says 'I need an umbrella. It is raining.'"
@@ -181,6 +183,7 @@
     {
       "question": "Listen: Is it going to snow?",
       "audio": "/audio/lesson10-listen3.mp3",
+      "transcript": "Is it going to snow? Maybe. It is very cold.",
       "options": ["Yes", "No", "Maybe", "Tomorrow"],
       "correct": 2,
       "explanation": "The person says 'Maybe. It is very cold.'"

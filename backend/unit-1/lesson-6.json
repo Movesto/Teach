@@ -205,6 +205,7 @@
     {
       "question": "Listen: What does the customer order?",
       "audio": "/audio/lesson6-listen1.mp3",
+      "transcript": "Are you ready to order? Yes, I would like a hamburger, please.",
       "options": [
         "A hamburger",
         "A pizza",
@@ -217,6 +218,7 @@
     {
       "question": "Listen: Is it for here or to go?",
       "audio": "/audio/lesson6-listen2.mp3",
+      "transcript": "Is that for here or to go? For here, please.",
       "options": [
         "For here",
         "To go",
@@ -229,6 +231,7 @@
     {
       "question": "Listen: What drink does the person want?",
       "audio": "/audio/lesson6-listen3.mp3",
+      "transcript": "What would you like to drink? I would like water, please.",
       "options": [
         "Coffee",
         "Tea",

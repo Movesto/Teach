@@ -162,6 +162,7 @@
     {
       "question": "Listen: What time is the appointment?",
       "audio": "/audio/lesson4-listen1.mp3",
+      "transcript": "What time is my appointment? Your appointment is at 9 AM.",
       "options": ["9 AM", "10 AM", "11 AM", "2 PM"],
       "correct": 0,
       "explanation": "The receptionist says 'Monday at 9 AM'"
@@ -169,6 +170,7 @@
     {
       "question": "Listen: What day is the appointment?",
       "audio": "/audio/lesson4-listen2.mp3",
+      "transcript": "What day is my appointment? Your appointment is on Monday.",
       "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
       "correct": 0,
       "explanation": "The appointment is 'on Monday'"
@@ -176,6 +178,7 @@
     {
       "question": "Listen: What time is it now?",
       "audio": "/audio/lesson4-listen3.mp3",
+      "transcript": "What time is it now? It is 4 o'clock.",
       "options": ["3 o'clock", "4 o'clock", "5 o'clock", "6 o'clock"],
       "correct": 1,
       "explanation": "The person says 'It is 4 o'clock'"

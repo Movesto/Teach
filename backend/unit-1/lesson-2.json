@@ -159,6 +159,7 @@
     {
       "question": "Listen: What does the customer need?",
       "audio": "/audio/lesson2-listen1.mp3",
+      "transcript": "Excuse me. I need milk. Where is the milk, please?",
       "options": ["Milk", "Bread", "Water", "Coffee"],
       "correct": 0,
       "explanation": "The customer says 'I need milk'"
@@ -166,6 +167,7 @@
     {
       "question": "Listen: How much is the bread?",
       "audio": "/audio/lesson2-listen2.mp3",
+      "transcript": "How much is the bread? The bread is two dollars.",
       "options": ["One dollar", "Two dollars", "Three dollars", "Four dollars"],
       "correct": 1,
       "explanation": "The clerk says 'The bread is two dollars'"
@@ -173,6 +175,7 @@
     {
       "question": "Listen: Does the store have eggs?",
       "audio": "/audio/lesson2-listen3.mp3",
+      "transcript": "Do you have eggs? Yes, we have eggs. They are over there.",
       "options": ["Yes", "No", "Maybe", "Not mentioned"],
       "correct": 0,
       "explanation": "The clerk says 'Yes, we have eggs'"

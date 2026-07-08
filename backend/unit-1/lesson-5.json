@@ -154,6 +154,7 @@
     {
       "question": "Listen: Which bus goes to the library?",
       "audio": "/audio/lesson5-listen1.mp3",
+      "transcript": "Which bus goes to the library? Take bus number 5.",
       "options": ["Bus 3", "Bus 5", "Bus 7", "Bus 9"],
       "correct": 1,
       "explanation": "The person says 'Take bus number 5'"
@@ -161,6 +162,7 @@
     {
       "question": "Listen: Where should you get off?",
       "audio": "/audio/lesson5-listen2.mp3",
+      "transcript": "Where do I get off? Get off at Main Street.",
       "options": ["First Street", "Main Street", "Oak Street", "Park Street"],
       "correct": 1,
       "explanation": "The person says 'Get off at Main Street'"
@@ -168,6 +170,7 @@
     {
       "question": "Listen: How much is the bus fare?",
       "audio": "/audio/lesson5-listen3.mp3",
+      "transcript": "How much is the bus fare? The fare is two dollars.",
       "options": ["One dollar", "Two dollars", "Three dollars", "Free"],
       "correct": 1,
       "explanation": "The fare is two dollars"

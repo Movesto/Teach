@@ -167,6 +167,7 @@
     {
       "question": "Listen: What does the person need?",
       "audio": "/audio/lesson3-listen1.mp3",
+      "transcript": "Excuse me, can you help me? I need help, please.",
       "options": ["Money", "Food", "Help", "A phone"],
       "correct": 2,
       "explanation": "The person says 'I need help'"
@@ -174,6 +175,7 @@
     {
       "question": "Listen: Where is the bathroom?",
       "audio": "/audio/lesson3-listen2.mp3",
+      "transcript": "Where is the bathroom? The bathroom is on the first floor.",
       "options": ["First floor", "Second floor", "Basement", "Outside"],
       "correct": 0,
       "explanation": "The answer is 'The bathroom is on the first floor'"
@@ -181,6 +183,7 @@
     {
       "question": "Listen: Can he help?",
       "audio": "/audio/lesson3-listen3.mp3",
+      "transcript": "Can you help me? Yes, I can help you.",
       "options": ["Yes", "No", "Maybe", "Later"],
       "correct": 0,
       "explanation": "He says 'Yes, I can help you'"

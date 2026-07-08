@@ -175,6 +175,7 @@
     {
       "question": "Listen: What does the customer want to do?",
       "audio": "/audio/lesson11-listen1.mp3",
+      "transcript": "How can I help you today? I want to open an account.",
       "options": ["Open an account", "Close an account", "Withdraw money", "Deposit a check"],
       "correct": 0,
       "explanation": "The customer says 'I want to open an account.'"
@@ -182,6 +183,7 @@
     {
       "question": "Listen: How much does the customer want to deposit?",
       "audio": "/audio/lesson11-listen2.mp3",
+      "transcript": "How much would you like to deposit? I want to deposit two hundred dollars.",
       "options": ["$50", "$100", "$200", "$500"],
       "correct": 2,
       "explanation": "The customer says 'I want to deposit $200.'"
@@ -189,6 +191,7 @@
     {
       "question": "Listen: What kind of account does the customer want?",
       "audio": "/audio/lesson11-listen3.mp3",
+      "transcript": "What kind of account would you like? I want a checking account.",
       "options": ["Savings account", "Checking account", "Business account", "Joint account"],
       "correct": 1,
       "explanation": "The customer says 'I want a checking account.'"

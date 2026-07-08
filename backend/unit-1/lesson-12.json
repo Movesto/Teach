@@ -218,6 +218,7 @@
     {
       "question": "Listen: What is the emergency?",
       "audio": "/audio/lesson12-listen1.mp3",
+      "transcript": "Nine one one, what is your emergency? There is a fire in my building!",
       "options": [
         "A fire",
         "An accident",
@@ -230,6 +231,7 @@
     {
       "question": "Listen: What does the caller need?",
       "audio": "/audio/lesson12-listen2.mp3",
+      "transcript": "I need an ambulance. Someone is hurt.",
       "options": [
         "The police",
         "An ambulance",
@@ -242,6 +244,7 @@
     {
       "question": "Listen: What does the operator tell the person to do?",
       "audio": "/audio/lesson12-listen3.mp3",
+      "transcript": "Get out of the building and wait outside.",
       "options": [
         "Wait inside",
         "Go outside",
