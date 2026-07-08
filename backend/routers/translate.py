@@ -5,10 +5,12 @@ from pydantic import BaseModel, Field
 
 from core.rate_limit import ai_rate_limit
 from core.security import get_current_user
+from core.config import support_level_for_unit
 from core.ai_client import (
     translate_text, ask_qwen, translate_preserving_english,
     sanitize_user_message,
 )
+from core.curriculum import tutor_support_policy, strip_english_markers
 from core.prompts import QWEN_SYSTEM_PROMPT
 
 logger = logging.getLogger(__name__)
@@ -26,6 +28,7 @@ class ExplainRequest(BaseModel):
     english: str = Field("", max_length=1000)
     context: str = Field("", max_length=500)
     type: str = Field("phrase", max_length=20)
+    unit_id: Optional[int] = Field(None, ge=1)   # drives the support tier (Phase 5)
 
 
 class ChatRequest(BaseModel):
@@ -33,6 +36,11 @@ class ChatRequest(BaseModel):
     history: list = Field(default_factory=list, max_length=50)
     lesson_context: str = Field("", max_length=500)
     units_context: str = Field("", max_length=2000)
+    unit_id: Optional[int] = Field(None, ge=1)   # drives the support tier (Phase 5)
+
+
+def _support_level(unit_id: Optional[int]) -> str:
+    return support_level_for_unit(unit_id) if unit_id else "english_first"
 
 
 @router.post("/translate")
@@ -83,21 +91,29 @@ async def explain(req: ExplainRequest, _=Depends(ai_rate_limit), user=Depends(ge
             f"Tell them what it means and give one example sentence. {brevity}"
         )
 
+    suffix, translate_reply = tutor_support_policy(_support_level(req.unit_id))
+    system_prompt = QWEN_SYSTEM_PROMPT + (f"\n\n{suffix}" if suffix else "")
     messages = [
-        {"role": "system", "content": QWEN_SYSTEM_PROMPT},
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
     ]
     explanation_english = await ask_qwen(messages, max_tokens=400)
-    explanation_combined = await translate_preserving_english(explanation_english)
+    # Immersion tier keeps the reply in English; lower tiers render it into Somali.
+    if translate_reply:
+        explanation_combined = await translate_preserving_english(explanation_english)
+    else:
+        explanation_combined = strip_english_markers(explanation_english)
     return {"explanation": explanation_combined, "explanation_english": explanation_english}
 
 
 @router.post("/chat")
 async def chat(req: ChatRequest, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
     message = sanitize_user_message(req.message)
-    user_english = await translate_text(message, "som_to_eng")
+    suffix, translate_reply = tutor_support_policy(_support_level(req.unit_id))
+    # Immersion students type in English, so don't run their message through som_to_eng.
+    user_english = message if not translate_reply else await translate_text(message, "som_to_eng")
 
-    system_parts = [QWEN_SYSTEM_PROMPT]
+    system_parts = [QWEN_SYSTEM_PROMPT + (f"\n\n{suffix}" if suffix else "")]
     if req.units_context:
         system_parts.append(f"The full curriculum the student is working through: {req.units_context}")
     if req.lesson_context:
@@ -109,7 +125,10 @@ async def chat(req: ChatRequest, _=Depends(ai_rate_limit), user=Depends(get_curr
     qwen_messages.append({"role": "user", "content": user_english})
 
     reply_english = await ask_qwen(qwen_messages, max_tokens=350)
-    reply_combined = await translate_preserving_english(reply_english)
+    reply_combined = (
+        await translate_preserving_english(reply_english)
+        if translate_reply else strip_english_markers(reply_english)
+    )
 
     return {
         "reply": reply_combined,

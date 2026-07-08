@@ -400,6 +400,7 @@ export default function LessonView() {
         isOpen={showTutor}
         onClose={() => setShowTutor(false)}
         context={tutorContext}
+        unitId={lesson?.unit_id}
       />
       <FeedbackModal
         isOpen={showFeedback}

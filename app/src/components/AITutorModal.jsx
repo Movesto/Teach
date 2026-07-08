@@ -28,7 +28,7 @@ function buildLessonContext(context) {
   return '';
 }
 
-export default function AITutorModal({ isOpen, onClose, context }) {
+export default function AITutorModal({ isOpen, onClose, context, unitId }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -61,6 +61,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
         history: [],
         lesson_context: lessonCtx,
         units_context: UNITS_SUMMARY,
+        unit_id: unitId,
       }),
       signal: controller.signal,
     })
@@ -121,6 +122,7 @@ export default function AITutorModal({ isOpen, onClose, context }) {
           history: next.filter(m => !m.hidden),
           lesson_context: buildLessonContext(context),
           units_context: UNITS_SUMMARY,
+          unit_id: unitId,
         }),
         signal: controller.signal,
       });

@@ -1,18 +1,21 @@
-import hashlib
 import json
 import logging
-import re
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 from psycopg2.extras import RealDictCursor
 
 from core.config import (
-    AUDIO_DIR, CONVERSATION_DAILY_LIMIT, KOKORO_URL, KOKORO_VOICE, TEACHER_VOICE,
+    CONVERSATION_DAILY_LIMIT, KOKORO_VOICE, TEACHER_VOICE, support_level_for_unit,
 )
 from core.db import get_db, release_db
 from core.security import get_current_user
 from core.rate_limit import ai_rate_limit
-from core.ai_client import ask_qwen, sanitize_user_message, get_client
+from core.ai_client import ask_qwen, sanitize_user_message
+from core.speech import synthesize
+from core.curriculum import (
+    load_lesson, support_level_for_lesson, lesson_scenario_prompt,
+    conversation_support_directive,
+)
 from core.prompts import TEACHER_SYSTEM_PROMPT
 
 logger = logging.getLogger(__name__)
@@ -23,37 +26,28 @@ class ConversationMessageRequest(BaseModel):
     message: str = Field(..., max_length=1000)
     history: list = Field(default_factory=list)
     elapsed_seconds: int = Field(0, ge=0)
+    lesson_id: int | None = Field(None, ge=0)   # scope the role-play to a lesson (Phase 4)
+    unit_id: int | None = Field(None, ge=1)      # used for the support tier if no lesson_id
 
 
 async def _teacher_tts(text: str) -> str | None:
-    clean = re.sub(r'[^\x00-\x7F]+', ' ', text).strip()
-    cache_key = hashlib.md5(f"kokoro:{KOKORO_VOICE}:{clean}".encode()).hexdigest()
-    cache_file = AUDIO_DIR / f"teacher_{cache_key}.mp3"
+    return await synthesize(text, KOKORO_VOICE, TEACHER_VOICE, prefix="teacher")
 
-    if cache_file.exists():
-        return f"/audio/teacher_{cache_key}.mp3"
 
-    client = get_client()
-
-    try:
-        resp = await client.post(
-            f"{KOKORO_URL}/v1/audio/speech",
-            json={"model": "kokoro", "input": clean, "voice": KOKORO_VOICE, "response_format": "mp3"},
-        )
-        if resp.status_code == 200:
-            cache_file.write_bytes(resp.content)
-            return f"/audio/teacher_{cache_key}.mp3"
-    except Exception as e:
-        logger.warning("Kokoro TTS unavailable (%s), falling back to edge-tts", e)
-
-    try:
-        import edge_tts
-        communicate = edge_tts.Communicate(clean, TEACHER_VOICE, rate="-8%")
-        await communicate.save(str(cache_file))
-        return f"/audio/teacher_{cache_key}.mp3"
-    except Exception as e:
-        logger.error("edge-tts also failed: %s", e)
-        return None
+def _build_system_prompt(lesson_id: int | None, unit_id: int | None) -> str:
+    """Assemble the conversation system prompt: base teacher persona + an optional
+    lesson-scoped scenario (Phase 4) + the tier's Somali-scaffolding directive (Phase 5)."""
+    parts = [TEACHER_SYSTEM_PROMPT]
+    support_level = "english_first"
+    if lesson_id:
+        lesson = load_lesson(lesson_id)
+        if lesson:
+            support_level = support_level_for_lesson(lesson)
+            parts.append(lesson_scenario_prompt(lesson))
+    elif unit_id:
+        support_level = support_level_for_unit(unit_id)
+    parts.append(conversation_support_directive(support_level))
+    return "\n\n".join(parts)
 
 
 def _get_today_session(user_id: str) -> dict:
@@ -106,7 +100,7 @@ async def conversation_message(
     if session["total_seconds"] >= CONVERSATION_DAILY_LIMIT:
         raise HTTPException(status_code=429, detail="Daily limit reached")
 
-    qwen_messages = [{"role": "system", "content": TEACHER_SYSTEM_PROMPT}]
+    qwen_messages = [{"role": "system", "content": _build_system_prompt(req.lesson_id, req.unit_id)}]
     for msg in req.history[-12:]:
         qwen_messages.append({"role": msg["role"], "content": msg["content"]})
     qwen_messages.append({"role": "user", "content": message})
