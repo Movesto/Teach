@@ -154,6 +154,7 @@
     {
       "question": "Listen: What does Ali look like?",
       "audio": "/audio/lesson10-listen1.mp3",
+      "transcript": "What does Ali look like? He is tall with short black hair.",
       "options": ["Tall with black hair", "Short with brown hair", "Tall with brown hair", "Short with black hair"],
       "correct": 0,
       "explanation": "The person says 'He is tall with short black hair'"
@@ -161,6 +162,7 @@
     {
       "question": "Listen: Does Ali wear glasses?",
       "audio": "/audio/lesson10-listen2.mp3",
+      "transcript": "Does Ali wear glasses? Yes, he wears glasses.",
       "options": ["Yes", "No", "Sometimes", "Not mentioned"],
       "correct": 0,
       "explanation": "The person says 'Yes, he wears glasses'"
@@ -168,6 +170,7 @@
     {
       "question": "Listen: What is Ali wearing?",
       "audio": "/audio/lesson10-listen3.mp3",
+      "transcript": "What is Ali wearing today? He is wearing a blue shirt and jeans.",
       "options": ["Red shirt", "Blue shirt", "Black shirt", "Green shirt"],
       "correct": 1,
       "explanation": "He is wearing a blue shirt and jeans"

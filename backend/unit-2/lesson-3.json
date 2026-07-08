@@ -154,6 +154,7 @@
     {
       "question": "Listen: What does Ahmed do?",
       "audio": "/audio/lesson11-listen1.mp3",
+      "transcript": "Hi, I'm Ahmed. I am a driver.",
       "options": ["Teacher", "Driver", "Doctor", "Nurse"],
       "correct": 1,
       "explanation": "Ahmed says 'I am a driver'"
@@ -161,6 +162,7 @@
     {
       "question": "Listen: Where does Sarah work?",
       "audio": "/audio/lesson11-listen2.mp3",
+      "transcript": "Where do you work, Sarah? I work at City Hospital.",
       "options": ["School", "Restaurant", "Hospital", "Office"],
       "correct": 2,
       "explanation": "Sarah says 'I work at City Hospital'"
@@ -168,6 +170,7 @@
     {
       "question": "Listen: What time does Sarah start work?",
       "audio": "/audio/lesson11-listen3.mp3",
+      "transcript": "What time do you start work? I start at 7 AM.",
       "options": ["6 AM", "7 AM", "8 AM", "9 AM"],
       "correct": 1,
       "explanation": "Sarah says 'I start at 7 AM'"

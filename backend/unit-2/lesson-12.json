@@ -139,6 +139,7 @@
     {
       "question": "What position is the man applying for?",
       "audio": "/audio/unit2-lesson12-listen1.mp3",
+      "transcript": "Hello. I'd like to apply for the warehouse associate position.",
       "options": [
         "Security guard",
         "Delivery driver",
@@ -151,6 +152,7 @@
     {
       "question": "When does the woman say she can start?",
       "audio": "/audio/unit2-lesson12-listen2.mp3",
+      "transcript": "When can you start? I'm available to start immediately, or Monday if that is better.",
       "options": [
         "Next month",
         "In two weeks",
@@ -163,6 +165,7 @@
     {
       "question": "How does the interviewer end the meeting?",
       "audio": "/audio/unit2-lesson12-listen3.mp3",
+      "transcript": "Thank you for coming in. We'll call you by Thursday.",
       "options": [
         "He says Ahmed is hired right away",
         "He says they will call by Thursday",

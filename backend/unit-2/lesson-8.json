@@ -138,6 +138,7 @@
     {
       "question": "According to the job posting, what is REQUIRED?",
       "audio": "/audio/unit2-lesson8-listen1.mp3",
+      "transcript": "Let's look at the job posting. Required: a valid ID and the ability to lift 50 pounds.",
       "options": [
         "A college degree and Spanish",
         "A valid ID and the ability to lift 50 pounds",
@@ -150,6 +151,7 @@
     {
       "question": "What does 'preferred but not required' mean for this position?",
       "audio": "/audio/unit2-lesson8-listen2.mp3",
+      "transcript": "The posting says experience is preferred but not required. That means you can apply without experience, but having it helps.",
       "options": [
         "You must have experience to apply",
         "Experience will get you a higher salary",
@@ -162,6 +164,7 @@
     {
       "question": "What question does the man ask the employer?",
       "audio": "/audio/unit2-lesson8-listen3.mp3",
+      "transcript": "The man had one important question for the employer: Do I have to work on weekends?",
       "options": [
         "Do I have to wear a uniform?",
         "Do I have to work on weekends?",

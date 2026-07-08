@@ -137,6 +137,7 @@
     {
       "question": "What are the work hours for the job in the audio?",
       "audio": "/audio/unit2-lesson10-listen1.mp3",
+      "transcript": "The shift is Monday through Friday, from 6 AM to 2:30 PM.",
       "options": [
         "Monday to Friday, 8 AM to 5 PM",
         "Monday to Saturday, 7 AM to 3 PM",
@@ -149,6 +150,7 @@
     {
       "question": "What does the woman say about weekends?",
       "audio": "/audio/unit2-lesson10-listen2.mp3",
+      "transcript": "I'm available on Saturdays, but I can't work on Sundays.",
       "options": [
         "She can work both Saturday and Sunday",
         "She can work Saturdays but not Sundays",
@@ -161,6 +163,7 @@
     {
       "question": "What does 'full-time' mean in the job description?",
       "audio": "/audio/unit2-lesson10-listen3.mp3",
+      "transcript": "This is a full-time position — 40 hours a week, Monday through Friday.",
       "options": [
         "Working 20 hours per week",
         "Working whenever the employer needs you",

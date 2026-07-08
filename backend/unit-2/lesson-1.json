@@ -162,6 +162,7 @@
     {
       "question": "Listen: How many brothers does the person have?",
       "audio": "/audio/lesson9-listen1.mp3",
+      "transcript": "Let me tell you about my family. I have two brothers and one sister.",
       "options": ["One", "Two", "Three", "None"],
       "correct": 1,
       "explanation": "The person says 'I have two brothers'"
@@ -169,6 +170,7 @@
     {
       "question": "Listen: What is the mother's name?",
       "audio": "/audio/lesson9-listen2.mp3",
+      "transcript": "My mother is very kind. Her name is Halima.",
       "options": ["Halima", "Fatima", "Amina", "Sara"],
       "correct": 0,
       "explanation": "The person says 'Her name is Halima'"
@@ -176,6 +178,7 @@
     {
       "question": "Listen: Does the person have children?",
       "audio": "/audio/lesson9-listen3.mp3",
+      "transcript": "Do you have any children? No, I don't have children yet.",
       "options": ["Yes, one child", "Yes, two children", "No", "Not mentioned"],
       "correct": 2,
       "explanation": "The person says 'I don't have children yet'"

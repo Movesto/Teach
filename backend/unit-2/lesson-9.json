@@ -138,6 +138,7 @@
     {
       "question": "How long did the woman work as a cashier?",
       "audio": "/audio/unit2-lesson9-listen1.mp3",
+      "transcript": "I worked as a cashier for two years, from 2019 to 2021.",
       "options": [
         "One year",
         "Two years",
@@ -150,6 +151,7 @@
     {
       "question": "Why did the man leave his last job?",
       "audio": "/audio/unit2-lesson9-listen2.mp3",
+      "transcript": "Why did you leave your last job? I left because my family moved to a new city. It was not a problem at work.",
       "options": [
         "He didn't like the work",
         "His boss fired him",
@@ -162,6 +164,7 @@
     {
       "question": "What did the speaker used to do that she wants to do again?",
       "audio": "/audio/unit2-lesson9-listen3.mp3",
+      "transcript": "I used to teach young children in my country. I want to work with children here too.",
       "options": [
         "She used to teach children",
         "She used to work at a hospital",

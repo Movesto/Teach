@@ -139,6 +139,7 @@
     {
       "question": "What does the worker ask the supervisor to do?",
       "audio": "/audio/unit2-lesson11-listen1.mp3",
+      "transcript": "I'm sorry, I didn't understand. Could you repeat that more slowly, please?",
       "options": [
         "Speak louder",
         "Write the instructions down",
@@ -151,6 +152,7 @@
     {
       "question": "How does the employee ask about a word she doesn't know?",
       "audio": "/audio/unit2-lesson11-listen2.mp3",
+      "transcript": "Excuse me, what does that word mean?",
       "options": [
         "She looks it up on her phone",
         "She ignores it and continues working",
@@ -163,6 +165,7 @@
     {
       "question": "What does the supervisor say when the worker asks for help?",
       "audio": "/audio/unit2-lesson11-listen3.mp3",
+      "transcript": "Always ask if you're not sure. It's better to ask than to make a mistake.",
       "options": [
         "She tells him to figure it out alone",
         "She says 'Please always ask if you're not sure'",

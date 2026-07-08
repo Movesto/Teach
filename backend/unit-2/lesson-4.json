@@ -158,6 +158,7 @@
     {
       "question": "Listen: What sport does Ahmed like?",
       "audio": "/audio/lesson12-listen1.mp3",
+      "transcript": "What sports do you like? I like playing soccer.",
       "options": ["Basketball", "Soccer", "Running", "Tennis"],
       "correct": 1,
       "explanation": "Ahmed says 'I like playing soccer'"
@@ -165,6 +166,7 @@
     {
       "question": "Listen: Does Tom like basketball?",
       "audio": "/audio/lesson12-listen2.mp3",
+      "transcript": "Do you like basketball, Tom? No, I don't like basketball.",
       "options": ["Yes, he loves it", "Yes, he likes it", "No, he doesn't", "Not mentioned"],
       "correct": 2,
       "explanation": "Tom says 'I don't like basketball'"
@@ -172,6 +174,7 @@
     {
       "question": "Listen: When does Tom play soccer?",
       "audio": "/audio/lesson12-listen3.mp3",
+      "transcript": "When do you play soccer, Tom? I play every Saturday.",
       "options": ["Every day", "Every Saturday", "Every Sunday", "Twice a week"],
       "correct": 1,
       "explanation": "Tom says 'I play every Saturday'"

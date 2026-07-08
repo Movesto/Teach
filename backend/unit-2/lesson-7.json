@@ -139,6 +139,7 @@
     {
       "question": "What can Maria do at her job?",
       "audio": "/audio/unit2-lesson7-listen1.mp3",
+      "transcript": "What can you do at your job, Maria? I can use a computer, and I am good at speaking with customers.",
       "options": [
         "She can drive and use a forklift",
         "She can only answer the phone",
@@ -151,6 +152,7 @@
     {
       "question": "What skill is the speaker still learning?",
       "audio": "/audio/unit2-lesson7-listen2.mp3",
+      "transcript": "I can drive and I can cook, but I'm still learning how to use a computer.",
       "options": [
         "Driving",
         "Cooking",
@@ -163,6 +165,7 @@
     {
       "question": "Which skill does the employer ask about first?",
       "audio": "/audio/unit2-lesson7-listen3.mp3",
+      "transcript": "For this job, the most important thing is this: Can you lift 50 pounds?",
       "options": [
         "Can you lift 50 pounds?",
         "Can you speak English?",
