@@ -4,7 +4,7 @@ import re
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 from pydantic import BaseModel, Field
 
-from core.config import LESSONS_DIR
+from core.config import LESSONS_DIR, support_level_for_unit
 from core.db import get_db, release_db
 from core.security import get_optional_user
 from core.ai_client import translate_text
@@ -44,8 +44,16 @@ def normalize_lesson(data: dict) -> dict:
         mins = data.get("estimated_time", "")
         data["description"] = f"{lvl.capitalize()} level" + (f" · {mins} min" if mins else "")
 
+    # Canonical level: authored files split between "level" (69) and "difficulty"
+    # (24) — expose one consistent field derived from whichever exists.
+    data["level"] = data.get("level") or data.get("difficulty") or "beginner"
     if not data.get("difficulty"):
-        data["difficulty"] = data.get("level", "beginner")
+        data["difficulty"] = data["level"]
+
+    # Support tier drives Somali scaffolding in the UI (bilingual/english_first/immersion).
+    unit_id = data.get("unit_id")
+    if isinstance(unit_id, int):
+        data["support_level"] = support_level_for_unit(unit_id)
 
     if "target_phrases" in data and "target_language" not in data:
         data["target_language"] = {"phrases": data["target_phrases"]}
@@ -207,6 +215,8 @@ async def get_units(optional_user=Depends(get_optional_user)):
             release_db(conn)
 
     for unit in units:
+        unit["support_level"] = support_level_for_unit(unit["id"])
+        unit["is_current"] = False
         unit_dir = LESSONS_DIR / f"unit-{unit['id']}"
         if unit_dir.exists():
             lessons = []
@@ -230,6 +240,7 @@ async def get_units(optional_user=Depends(get_optional_user)):
                     "completed": done,
                     "score": completed_map.get(lid),
                     "locked": False,
+                    "recommended": False,
                 })
             lessons.sort(key=lambda x: x["lesson_number"])
             unit["lessons"] = lessons
@@ -240,7 +251,20 @@ async def get_units(optional_user=Depends(get_optional_user)):
             unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
             unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
 
+    # Soft-gate "you are here": mark the first incomplete lesson (in unit/lesson
+    # order) as the recommended next step. Nothing is locked — it's a suggestion.
+    _mark_recommended(units)
+
     return units
+
+
+def _mark_recommended(units: list) -> None:
+    for unit in sorted(units, key=lambda u: u.get("order_number", u["id"])):
+        for lesson in unit.get("lessons", []):
+            if not lesson["completed"]:
+                lesson["recommended"] = True
+                unit["is_current"] = True
+                return
 
 
 @router.get("/lessons/{lesson_id}")

@@ -14,6 +14,21 @@ AUDIO_DIR = BACKEND_DIR / "audio"
 LESSONS_DIR = BACKEND_DIR
 UNIT_TESTS_DIR = BACKEND_DIR / "unit-tests"
 
+# ── Curriculum support tiers ────────────────────────────────────────────────
+# How much Somali scaffolding a unit shows, fading from bottom to top.
+# See docs/curriculum-architecture.md. Single source of truth — read everywhere.
+BILINGUAL_MAX_UNIT = 2        # units 1–2  → Somali + English
+ENGLISH_FIRST_MAX_UNIT = 7    # units 3–7  → English, Somali help on demand
+#                               units 8+   → immersion (English only)
+
+
+def support_level_for_unit(unit_id: int) -> str:
+    if unit_id <= BILINGUAL_MAX_UNIT:
+        return "bilingual"
+    if unit_id <= ENGLISH_FIRST_MAX_UNIT:
+        return "english_first"
+    return "immersion"
+
 _dev_secrets = {"dev-secret-change-in-prod-32chars!!", "change_me_64_char_hex_secret", ""}
 SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "")
 if SECRET_KEY in _dev_secrets:
