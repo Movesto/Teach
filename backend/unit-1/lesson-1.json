@@ -148,6 +148,7 @@
     {
       "question": "Listen: What is her name?",
       "audio": "/audio/lesson1-listen1.mp3",
+      "transcript": "Hello. My name is Sarah. Nice to meet you.",
       "options": ["Sarah", "Maria", "Lisa", "Emma"],
       "correct": 0,
       "explanation": "She says 'My name is Sarah'"
@@ -155,6 +156,7 @@
     {
       "question": "Listen: Where is he from?",
       "audio": "/audio/lesson1-listen2.mp3",
+      "transcript": "Hi. My name is Marcus. I am from America.",
       "options": ["Somalia", "England", "America", "Kenya"],
       "correct": 2,
       "explanation": "He says 'I am from America'"
@@ -162,6 +164,7 @@
     {
       "question": "Listen: How is she?",
       "audio": "/audio/lesson1-listen3.mp3",
+      "transcript": "Hello. How are you? I am good, thank you.",
       "options": ["She is tired", "She is good", "She is hungry", "She is sick"],
       "correct": 1,
       "explanation": "She says 'I am good'"
