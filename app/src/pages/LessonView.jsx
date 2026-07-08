@@ -213,7 +213,14 @@ export default function LessonView() {
                   {lesson.objectives.map((obj, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700 dark:text-gray-300">{obj}</span>
+                      <span className="text-gray-700 dark:text-gray-300">
+                        {obj}
+                        {lesson.somali?.objectives?.[idx] && (
+                          <span className="block text-sm text-gray-500 dark:text-gray-400 italic mt-0.5">
+                            {lesson.somali.objectives[idx]}
+                          </span>
+                        )}
+                      </span>
                     </li>
                   ))}
                 </ul>
