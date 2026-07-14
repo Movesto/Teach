@@ -1,5 +1,5 @@
 {
-  "id": 21,
+  "id": 93,
   "unit_id": 3,
   "lesson_number": 3,
   "title": "Money & Banking",
@@ -24,19 +24,58 @@
     "title": "Opening a Bank Account",
     "context": "Ahmed visits Chase Bank to open his first U.S. bank account. Sarah, a bank representative, helps him.",
     "lines": [
-      {"speaker": "Sarah", "text": "Good afternoon! Welcome to Chase Bank. How can I help you today?"},
-      {"speaker": "Ahmed", "text": "Hello. I'd like to open a bank account. This is my first account in the United States."},
-      {"speaker": "Sarah", "text": "Great! I can help you with that. We have two main types: checking and savings. Do you know which one you need?"},
-      {"speaker": "Ahmed", "text": "I'm not sure. What's the difference?"},
-      {"speaker": "Sarah", "text": "A checking account is for everyday use - paying bills, buying things. A savings account is for keeping money you don't need right now."},
-      {"speaker": "Ahmed", "text": "I need to pay my rent and bills, so checking account, right?"},
-      {"speaker": "Sarah", "text": "Exactly! You can also get a debit card with your checking account to buy things at stores."},
-      {"speaker": "Ahmed", "text": "Perfect. What documents do I need to open it?"},
-      {"speaker": "Sarah", "text": "I need two forms of ID - your passport or driver's license, and your social security card or work permit. Do you have those?"},
-      {"speaker": "Ahmed", "text": "Yes, I have my passport and social security card. Is there a monthly fee?"},
-      {"speaker": "Sarah", "text": "There's a $12 monthly fee, but we waive it if you have direct deposit from your job. Do you get paid by direct deposit?"},
-      {"speaker": "Ahmed", "text": "Yes, my paycheck goes directly to my bank. So no fee for me, right?"},
-      {"speaker": "Sarah", "text": "That's correct! No fee as long as you have direct deposit. Let's get started with your application."}
+      {
+        "speaker": "Sarah",
+        "text": "Good afternoon! Welcome to Chase Bank. How can I help you today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hello. I'd like to open a bank account. This is my first account in the United States."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Great! I can help you with that. We have two main types: checking and savings. Do you know which one you need?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm not sure. What's the difference?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "A checking account is for everyday use - paying bills, buying things. A savings account is for keeping money you don't need right now."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I need to pay my rent and bills, so checking account, right?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Exactly! You can also get a debit card with your checking account to buy things at stores."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Perfect. What documents do I need to open it?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "I need two forms of ID - your passport or driver's license, and your social security card or work permit. Do you have those?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I have my passport and social security card. Is there a monthly fee?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "There's a $12 monthly fee, but we waive it if you have direct deposit from your job. Do you get paid by direct deposit?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, my paycheck goes directly to my bank. So no fee for me, right?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "That's correct! No fee as long as you have direct deposit. Let's get started with your application."
+      }
     ]
   },
   "pattern_drills": [
@@ -160,9 +199,33 @@
         "I'd like to speak with a manager. (polite)"
       ],
       "practice": [
-        {"sentence": "___ to deposit this check.", "blank": "I'd like", "options": ["I'd like", "I want", "I'm wanting"]},
-        {"sentence": "___ to close my account.", "blank": "I'd like", "options": ["I'd like", "I like", "I'd want"]},
-        {"sentence": "___ to apply for a credit card.", "blank": "I'd like", "options": ["I'd like", "I'm liking", "I was like"]}
+        {
+          "sentence": "___ to deposit this check.",
+          "blank": "I'd like",
+          "options": [
+            "I'd like",
+            "I want",
+            "I'm wanting"
+          ]
+        },
+        {
+          "sentence": "___ to close my account.",
+          "blank": "I'd like",
+          "options": [
+            "I'd like",
+            "I like",
+            "I'd want"
+          ]
+        },
+        {
+          "sentence": "___ to apply for a credit card.",
+          "blank": "I'd like",
+          "options": [
+            "I'd like",
+            "I'm liking",
+            "I was like"
+          ]
+        }
       ]
     },
     {
@@ -176,9 +239,33 @@
         "Do I have to pay a fee? (is it required?)"
       ],
       "practice": [
-        {"sentence": "___ I use this card at any store?", "blank": "Can", "options": ["Can", "Do", "Am"]},
-        {"sentence": "___ I need a social security number?", "blank": "Do", "options": ["Can", "Do", "Is"]},
-        {"sentence": "___ I transfer money online?", "blank": "Can", "options": ["Can", "Do", "Must"]}
+        {
+          "sentence": "___ I use this card at any store?",
+          "blank": "Can",
+          "options": [
+            "Can",
+            "Do",
+            "Am"
+          ]
+        },
+        {
+          "sentence": "___ I need a social security number?",
+          "blank": "Do",
+          "options": [
+            "Can",
+            "Do",
+            "Is"
+          ]
+        },
+        {
+          "sentence": "___ I transfer money online?",
+          "blank": "Can",
+          "options": [
+            "Can",
+            "Do",
+            "Must"
+          ]
+        }
       ]
     },
     {
@@ -192,9 +279,33 @@
         "ATMs charge a fee. (general fact)"
       ],
       "practice": [
-        {"sentence": "The bank ___ at 6 PM.", "blank": "closes", "options": ["close", "closes", "closing"]},
-        {"sentence": "I ___ my bills online.", "blank": "pay", "options": ["pay", "pays", "paying"]},
-        {"sentence": "This card ___ a PIN.", "blank": "requires", "options": ["require", "requires", "requiring"]}
+        {
+          "sentence": "The bank ___ at 6 PM.",
+          "blank": "closes",
+          "options": [
+            "close",
+            "closes",
+            "closing"
+          ]
+        },
+        {
+          "sentence": "I ___ my bills online.",
+          "blank": "pay",
+          "options": [
+            "pay",
+            "pays",
+            "paying"
+          ]
+        },
+        {
+          "sentence": "This card ___ a PIN.",
+          "blank": "requires",
+          "options": [
+            "require",
+            "requires",
+            "requiring"
+          ]
+        }
       ]
     }
   ],
@@ -244,7 +355,12 @@
         "id": "q4",
         "type": "multiple-choice",
         "question": "Complete: '___ like to open a savings account.'",
-        "options": ["I", "I'm", "I'd", "I've"],
+        "options": [
+          "I",
+          "I'm",
+          "I'd",
+          "I've"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -267,7 +383,10 @@
         "type": "fill-blank",
         "question": "___ I use any ATM with this debit card? (asking if possible)",
         "correct": "Can",
-        "accept": ["Can", "can"],
+        "accept": [
+          "Can",
+          "can"
+        ],
         "points": 10
       },
       {
@@ -275,7 +394,9 @@
         "type": "fill-blank",
         "question": "I ___ my paycheck every Friday. (present simple: deposit)",
         "correct": "deposit",
-        "accept": ["deposit"],
+        "accept": [
+          "deposit"
+        ],
         "points": 10
       },
       {
@@ -283,9 +404,18 @@
         "type": "matching",
         "question": "Match the banking term to its meaning:",
         "pairs": [
-          {"left": "Deposit", "right": "Put money into account"},
-          {"left": "Withdraw", "right": "Take money out"},
-          {"left": "Balance", "right": "Amount in your account"}
+          {
+            "left": "Deposit",
+            "right": "Put money into account"
+          },
+          {
+            "left": "Withdraw",
+            "right": "Take money out"
+          },
+          {
+            "left": "Balance",
+            "right": "Amount in your account"
+          }
         ],
         "points": 10
       },
@@ -305,16 +435,56 @@
     ]
   },
   "vocabulary": [
-    {"word": "checking account", "definition": "bank account for everyday expenses", "example": "I use my checking account to pay my rent."},
-    {"word": "savings account", "definition": "bank account for keeping money long-term", "example": "I put $200 in my savings account every month."},
-    {"word": "deposit", "definition": "to put money into an account", "example": "I deposit my paycheck every Friday."},
-    {"word": "withdraw", "definition": "to take money out of an account", "example": "I need to withdraw $100 from the ATM."},
-    {"word": "balance", "definition": "the amount of money in your account", "example": "My account balance is $450."},
-    {"word": "debit card", "definition": "card to pay with money from your checking account", "example": "I use my debit card to buy groceries."},
-    {"word": "PIN", "definition": "Personal Identification Number - secret code for your card", "example": "Never share your PIN with anyone."},
-    {"word": "direct deposit", "definition": "money automatically put into your account", "example": "My employer uses direct deposit for paychecks."},
-    {"word": "ATM", "definition": "Automated Teller Machine - machine to get cash", "example": "There's an ATM on the corner."},
-    {"word": "interest", "definition": "money the bank pays you for savings", "example": "This savings account earns 0.5% interest."}
+    {
+      "word": "checking account",
+      "definition": "bank account for everyday expenses",
+      "example": "I use my checking account to pay my rent."
+    },
+    {
+      "word": "savings account",
+      "definition": "bank account for keeping money long-term",
+      "example": "I put $200 in my savings account every month."
+    },
+    {
+      "word": "deposit",
+      "definition": "to put money into an account",
+      "example": "I deposit my paycheck every Friday."
+    },
+    {
+      "word": "withdraw",
+      "definition": "to take money out of an account",
+      "example": "I need to withdraw $100 from the ATM."
+    },
+    {
+      "word": "balance",
+      "definition": "the amount of money in your account",
+      "example": "My account balance is $450."
+    },
+    {
+      "word": "debit card",
+      "definition": "card to pay with money from your checking account",
+      "example": "I use my debit card to buy groceries."
+    },
+    {
+      "word": "PIN",
+      "definition": "Personal Identification Number - secret code for your card",
+      "example": "Never share your PIN with anyone."
+    },
+    {
+      "word": "direct deposit",
+      "definition": "money automatically put into your account",
+      "example": "My employer uses direct deposit for paychecks."
+    },
+    {
+      "word": "ATM",
+      "definition": "Automated Teller Machine - machine to get cash",
+      "example": "There's an ATM on the corner."
+    },
+    {
+      "word": "interest",
+      "definition": "money the bank pays you for savings",
+      "example": "This savings account earns 0.5% interest."
+    }
   ],
   "cultural_notes": [
     "Most Americans have at least one bank account. It's difficult to function without one.",

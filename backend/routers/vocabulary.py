@@ -1,7 +1,9 @@
 import logging
 from datetime import datetime, timedelta, timezone
+from uuid import UUID
+
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 from core.config import SRS_INTERVALS
 from core.db import get_db, release_db
@@ -12,7 +14,8 @@ router = APIRouter(prefix="/api/vocabulary", tags=["vocabulary"])
 
 
 class VocabReviewRequest(BaseModel):
-    word_id: int = Field(..., ge=1)
+    # user_vocabulary.id is a UUID — validating as int rejected every real row.
+    word_id: UUID
     knew: bool
 
 
@@ -43,7 +46,7 @@ async def get_vocabulary_due(user=Depends(get_current_user)):
 
 @router.post("/review")
 async def review_vocabulary(request: VocabReviewRequest, user=Depends(get_current_user)):
-    word_id = request.word_id
+    word_id = str(request.word_id)  # psycopg2 can't adapt uuid.UUID without register_uuid
     knew = request.knew
 
     conn = get_db()

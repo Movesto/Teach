@@ -182,6 +182,19 @@ async def get_optional_user(
     try:
         payload = jwt.decode(raw, SECRET_KEY, algorithms=[ALGORITHM])
         user_id = payload.get("sub")
-        return {"id": user_id} if user_id else None
+        if not user_id:
+            return None
+        # A valid signature is not enough: the user may have been deleted while
+        # the cookie lives on, and callers write rows keyed to this id.
+        conn = None
+        try:
+            conn = get_db()
+            cur = conn.cursor()
+            cur.execute("SELECT id FROM users WHERE id = %s", (user_id,))
+            row = cur.fetchone()
+            cur.close()
+            return {"id": user_id} if row else None
+        finally:
+            release_db(conn)
     except Exception:
         return None

@@ -94,7 +94,22 @@ def _bootstrap_test_db():
     conn.close()
 
 
+def _apply_migrations():
+    """Run alembic upgrade head against the test DB, mirroring production:
+    the Dockerfile CMD runs migrations before uvicorn. Without this, columns
+    and tables added after the init SQL (vocab translation, feedback) are
+    missing here and tests drift from the real schema."""
+    from alembic import command
+    from alembic.config import Config
+
+    backend_dir = Path(__file__).parent.parent
+    cfg = Config(str(backend_dir / "alembic.ini"))
+    cfg.set_main_option("script_location", str(backend_dir / "alembic"))
+    command.upgrade(cfg, "head")
+
+
 _bootstrap_test_db()
+_apply_migrations()
 
 # ── 3. Now it is safe to import main ──────────────────────────────────────
 import main  # noqa: E402

@@ -1,5 +1,5 @@
 {
-  "id": 24,
+  "id": 96,
   "unit_id": 3,
   "lesson_number": 6,
   "title": "Budgeting & Saving Money",
@@ -24,18 +24,54 @@
     "title": "Learning to Budget",
     "context": "Ahmed talks to his friend Lisa about creating a budget and saving money. Lisa is good with money and helps him.",
     "lines": [
-      {"speaker": "Lisa", "text": "Hi Ahmed! How's the new job going?"},
-      {"speaker": "Ahmed", "text": "It's going well, but I'm worried about money. I don't know where all my money goes each month."},
-      {"speaker": "Lisa", "text": "Sounds like you need a budget! It's not hard. First, how much do you earn per month after taxes?"},
-      {"speaker": "Ahmed", "text": "About $2,400 per month. Is that enough?"},
-      {"speaker": "Lisa", "text": "That depends on your expenses. Let's write them down. What's your rent?"},
-      {"speaker": "Ahmed", "text": "Rent is $900. Then I have utilities, phone, food, and gas for my car."},
-      {"speaker": "Lisa", "text": "Okay, those are all needs - things you must pay for. Do you have any wants - things you don't really need but enjoy?"},
-      {"speaker": "Ahmed", "text": "I eat out a lot - maybe $300 per month. And I have a gym membership for $50."},
-      {"speaker": "Lisa", "text": "That's where you can save! Eating out is expensive. If you cook more at home, you could save $200 a month. That's $2,400 a year!"},
-      {"speaker": "Ahmed", "text": "Wow, I never thought about it that way. What should I do with the money I save?"},
-      {"speaker": "Lisa", "text": "Put it in your savings account. Try to save at least $200 per month. That's your emergency fund for unexpected expenses."},
-      {"speaker": "Ahmed", "text": "Great advice! I'm going to start tracking my spending and cut down on eating out. Thank you, Lisa!"}
+      {
+        "speaker": "Lisa",
+        "text": "Hi Ahmed! How's the new job going?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "It's going well, but I'm worried about money. I don't know where all my money goes each month."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Sounds like you need a budget! It's not hard. First, how much do you earn per month after taxes?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "About $2,400 per month. Is that enough?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "That depends on your expenses. Let's write them down. What's your rent?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Rent is $900. Then I have utilities, phone, food, and gas for my car."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Okay, those are all needs - things you must pay for. Do you have any wants - things you don't really need but enjoy?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I eat out a lot - maybe $300 per month. And I have a gym membership for $50."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "That's where you can save! Eating out is expensive. If you cook more at home, you could save $200 a month. That's $2,400 a year!"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Wow, I never thought about it that way. What should I do with the money I save?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Put it in your savings account. Try to save at least $200 per month. That's your emergency fund for unexpected expenses."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Great advice! I'm going to start tracking my spending and cut down on eating out. Thank you, Lisa!"
+      }
     ]
   },
   "pattern_drills": [
@@ -82,7 +118,12 @@
       "audio": "/audio/unit3-lesson6-listen1.mp3",
       "transcript": "The 50-30-20 rule is a simple way to budget. Spend 50% of your income on needs like rent, food, and bills. Spend 30% on wants like entertainment and hobbies. Save 20% for emergencies and future goals. For example, if you earn $2,000 per month, spend $1,000 on needs, $600 on wants, and save $400.",
       "question": "According to the 50-30-20 rule, how much should you save if you earn $2,000?",
-      "options": ["$200", "$300", "$400", "$500"],
+      "options": [
+        "$200",
+        "$300",
+        "$400",
+        "$500"
+      ],
       "correct": 2
     },
     {
@@ -154,9 +195,33 @@
         "They buy too many things they don't need. (things = countable)"
       ],
       "practice": [
-        {"sentence": "I spend ___ much money on eating out.", "blank": "too", "options": ["too", "to", "very"]},
-        {"sentence": "He has ___ many bills to pay.", "blank": "too", "options": ["too", "to", "very"]},
-        {"sentence": "She works ___ much overtime.", "blank": "too", "options": ["too", "to", "so"]}
+        {
+          "sentence": "I spend ___ much money on eating out.",
+          "blank": "too",
+          "options": [
+            "too",
+            "to",
+            "very"
+          ]
+        },
+        {
+          "sentence": "He has ___ many bills to pay.",
+          "blank": "too",
+          "options": [
+            "too",
+            "to",
+            "very"
+          ]
+        },
+        {
+          "sentence": "She works ___ much overtime.",
+          "blank": "too",
+          "options": [
+            "too",
+            "to",
+            "so"
+          ]
+        }
       ]
     },
     {
@@ -170,9 +235,33 @@
         "Saving money is the most important goal. (superlative)"
       ],
       "practice": [
-        {"sentence": "Rent is ___ than food.", "blank": "more expensive", "options": ["expensive", "more expensive", "most expensive"]},
-        {"sentence": "This is the ___ way to save.", "blank": "best", "options": ["good", "better", "best"]},
-        {"sentence": "Cooking is ___ than ordering delivery.", "blank": "cheaper", "options": ["cheap", "cheaper", "cheapest"]}
+        {
+          "sentence": "Rent is ___ than food.",
+          "blank": "more expensive",
+          "options": [
+            "expensive",
+            "more expensive",
+            "most expensive"
+          ]
+        },
+        {
+          "sentence": "This is the ___ way to save.",
+          "blank": "best",
+          "options": [
+            "good",
+            "better",
+            "best"
+          ]
+        },
+        {
+          "sentence": "Cooking is ___ than ordering delivery.",
+          "blank": "cheaper",
+          "options": [
+            "cheap",
+            "cheaper",
+            "cheapest"
+          ]
+        }
       ]
     },
     {
@@ -186,9 +275,33 @@
         "They want to save for a house. (future goal)"
       ],
       "practice": [
-        {"sentence": "I'm ___ to save more money.", "blank": "trying", "options": ["trying", "try", "tried"]},
-        {"sentence": "I ___ to buy a car next year.", "blank": "want", "options": ["want", "wanting", "wants"]},
-        {"sentence": "She ___ trying to cut expenses.", "blank": "is", "options": ["is", "does", "has"]}
+        {
+          "sentence": "I'm ___ to save more money.",
+          "blank": "trying",
+          "options": [
+            "trying",
+            "try",
+            "tried"
+          ]
+        },
+        {
+          "sentence": "I ___ to buy a car next year.",
+          "blank": "want",
+          "options": [
+            "want",
+            "wanting",
+            "wants"
+          ]
+        },
+        {
+          "sentence": "She ___ trying to cut expenses.",
+          "blank": "is",
+          "options": [
+            "is",
+            "does",
+            "has"
+          ]
+        }
       ]
     }
   ],
@@ -199,7 +312,12 @@
         "id": "q1",
         "type": "multiple-choice",
         "question": "In the dialogue, how much does Ahmed earn per month?",
-        "options": ["$1,800", "$2,000", "$2,400", "$2,800"],
+        "options": [
+          "$1,800",
+          "$2,000",
+          "$2,400",
+          "$2,800"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -233,7 +351,12 @@
         "id": "q4",
         "type": "multiple-choice",
         "question": "Complete: 'I spend ___ much money on eating out.'",
-        "options": ["to", "too", "two", "very"],
+        "options": [
+          "to",
+          "too",
+          "two",
+          "very"
+        ],
         "correct": 1,
         "points": 10
       },
@@ -256,7 +379,9 @@
         "type": "fill-blank",
         "question": "I'm ___ to save $300 per month. (present continuous: try)",
         "correct": "trying",
-        "accept": ["trying"],
+        "accept": [
+          "trying"
+        ],
         "points": 10
       },
       {
@@ -264,7 +389,9 @@
         "type": "fill-blank",
         "question": "Cooking at home is ___ than eating out. (comparative: cheap)",
         "correct": "cheaper",
-        "accept": ["cheaper"],
+        "accept": [
+          "cheaper"
+        ],
         "points": 10
       },
       {
@@ -272,9 +399,18 @@
         "type": "matching",
         "question": "Match each item to whether it's a need or want:",
         "pairs": [
-          {"left": "Rent", "right": "Need"},
-          {"left": "Going to movies", "right": "Want"},
-          {"left": "Food", "right": "Need"}
+          {
+            "left": "Rent",
+            "right": "Need"
+          },
+          {
+            "left": "Going to movies",
+            "right": "Want"
+          },
+          {
+            "left": "Food",
+            "right": "Need"
+          }
         ],
         "points": 10
       },
@@ -282,23 +418,68 @@
         "id": "q10",
         "type": "multiple-choice",
         "question": "What does Lisa recommend Ahmed save each month?",
-        "options": ["$50", "$100", "$200", "$500"],
+        "options": [
+          "$50",
+          "$100",
+          "$200",
+          "$500"
+        ],
         "correct": 2,
         "points": 10
       }
     ]
   },
   "vocabulary": [
-    {"word": "budget", "definition": "a plan for spending money", "example": "I made a budget to track my expenses."},
-    {"word": "income", "definition": "money you earn from work", "example": "My monthly income is $2,400."},
-    {"word": "expenses", "definition": "money you spend on things", "example": "My biggest expenses are rent and food."},
-    {"word": "savings", "definition": "money you keep and don't spend", "example": "I have $1,000 in savings."},
-    {"word": "need", "definition": "something you must have", "example": "Food and shelter are needs."},
-    {"word": "want", "definition": "something you'd like but don't need", "example": "A new phone is a want, not a need."},
-    {"word": "emergency fund", "definition": "money saved for unexpected problems", "example": "My emergency fund has $3,000."},
-    {"word": "goal", "definition": "something you want to achieve", "example": "My goal is to save $5,000 this year."},
-    {"word": "track", "definition": "to record and monitor", "example": "I track my spending with an app."},
-    {"word": "cut costs", "definition": "to reduce spending", "example": "I need to cut costs by cooking more at home."}
+    {
+      "word": "budget",
+      "definition": "a plan for spending money",
+      "example": "I made a budget to track my expenses."
+    },
+    {
+      "word": "income",
+      "definition": "money you earn from work",
+      "example": "My monthly income is $2,400."
+    },
+    {
+      "word": "expenses",
+      "definition": "money you spend on things",
+      "example": "My biggest expenses are rent and food."
+    },
+    {
+      "word": "savings",
+      "definition": "money you keep and don't spend",
+      "example": "I have $1,000 in savings."
+    },
+    {
+      "word": "need",
+      "definition": "something you must have",
+      "example": "Food and shelter are needs."
+    },
+    {
+      "word": "want",
+      "definition": "something you'd like but don't need",
+      "example": "A new phone is a want, not a need."
+    },
+    {
+      "word": "emergency fund",
+      "definition": "money saved for unexpected problems",
+      "example": "My emergency fund has $3,000."
+    },
+    {
+      "word": "goal",
+      "definition": "something you want to achieve",
+      "example": "My goal is to save $5,000 this year."
+    },
+    {
+      "word": "track",
+      "definition": "to record and monitor",
+      "example": "I track my spending with an app."
+    },
+    {
+      "word": "cut costs",
+      "definition": "to reduce spending",
+      "example": "I need to cut costs by cooking more at home."
+    }
   ],
   "cultural_notes": [
     "Americans save an average of only 3-5% of their income - financial experts recommend 20%.",

@@ -1,5 +1,5 @@
 {
-  "id": 22,
+  "id": 94,
   "unit_id": 3,
   "lesson_number": 4,
   "title": "Shopping Smart",
@@ -24,19 +24,58 @@
     "title": "Shopping for Work Clothes",
     "context": "Ahmed needs to buy clothes for his new job. He's shopping at Target and talking to a sales associate named Jennifer.",
     "lines": [
-      {"speaker": "Jennifer", "text": "Hi! Can I help you find something today?"},
-      {"speaker": "Ahmed", "text": "Yes, please. I need work pants and shirts for my job. Where can I find men's clothes?"},
-      {"speaker": "Jennifer", "text": "Men's clothing is in aisle 12. We're having a sale today - all work pants are 25% off!"},
-      {"speaker": "Ahmed", "text": "That's great! How much are the pants normally?"},
-      {"speaker": "Jennifer", "text": "They're usually $32, but with the discount, they're $24."},
-      {"speaker": "Ahmed", "text": "Perfect. Do you have this in size 34?"},
-      {"speaker": "Jennifer", "text": "Let me check... Yes, here you go. We also have shirts on sale - buy one, get one 50% off."},
-      {"speaker": "Ahmed", "text": "Excellent! Can I return these if they don't fit?"},
-      {"speaker": "Jennifer", "text": "Yes, you have 90 days to return with your receipt. Keep the tags on if you're not sure about the size."},
-      {"speaker": "Ahmed", "text": "Good to know. One more question - is tax included in these prices?"},
-      {"speaker": "Jennifer", "text": "No, Oregon doesn't have sales tax, so the price you see is what you pay. That's nice, right?"},
-      {"speaker": "Ahmed", "text": "Yes, that makes it easy! I'll take two pairs of pants and three shirts."},
-      {"speaker": "Jennifer", "text": "Great choice! Let me ring these up for you at the register."}
+      {
+        "speaker": "Jennifer",
+        "text": "Hi! Can I help you find something today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, please. I need work pants and shirts for my job. Where can I find men's clothes?"
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "Men's clothing is in aisle 12. We're having a sale today - all work pants are 25% off!"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "That's great! How much are the pants normally?"
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "They're usually $32, but with the discount, they're $24."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Perfect. Do you have this in size 34?"
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "Let me check... Yes, here you go. We also have shirts on sale - buy one, get one 50% off."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Excellent! Can I return these if they don't fit?"
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "Yes, you have 90 days to return with your receipt. Keep the tags on if you're not sure about the size."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Good to know. One more question - is tax included in these prices?"
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "No, Oregon doesn't have sales tax, so the price you see is what you pay. That's nice, right?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, that makes it easy! I'll take two pairs of pants and three shirts."
+      },
+      {
+        "speaker": "Jennifer",
+        "text": "Great choice! Let me ring these up for you at the register."
+      }
     ]
   },
   "pattern_drills": [
@@ -83,7 +122,12 @@
       "audio": "/audio/unit3-lesson4-listen1.mp3",
       "transcript": "Welcome to our summer sale! All summer clothing is 40% off. T-shirts start at just $10. Shorts are buy one, get one 50% off. And sandals are marked down to $15 a pair. Don't forget - we have a clearance rack in the back with items up to 70% off. Sale ends Sunday!",
       "question": "What is the discount on summer clothing?",
-      "options": ["25% off", "30% off", "40% off", "50% off"],
+      "options": [
+        "25% off",
+        "30% off",
+        "40% off",
+        "50% off"
+      ],
       "correct": 2
     },
     {
@@ -91,7 +135,12 @@
       "audio": "/audio/unit3-lesson4-listen2.mp3",
       "transcript": "Our return policy is simple. You have 30 days to return most items with your receipt. The item must be unused with tags still attached. We'll give you a full refund to your original payment method. For items without a receipt, we can give you store credit at the current sale price.",
       "question": "How long do you have to return items?",
-      "options": ["7 days", "15 days", "30 days", "90 days"],
+      "options": [
+        "7 days",
+        "15 days",
+        "30 days",
+        "90 days"
+      ],
       "correct": 2
     },
     {
@@ -99,7 +148,12 @@
       "audio": "/audio/unit3-lesson4-listen3.mp3",
       "transcript": "Let me explain your receipt. The subtotal is $85.50 - that's the cost of your items before tax. Sales tax is 6%, so that's $5.13. Your total is $90.63. You paid with a debit card, and you saved $22.40 with today's sale. Your confirmation number is 7-8-4-2.",
       "question": "What was the total amount paid including tax?",
-      "options": ["$85.50", "$87.63", "$90.63", "$92.40"],
+      "options": [
+        "$85.50",
+        "$87.63",
+        "$90.63",
+        "$92.40"
+      ],
       "correct": 2
     }
   ],
@@ -145,9 +199,33 @@
         "Those pants are nice. (multiple pants, over there)"
       ],
       "practice": [
-        {"sentence": "How much is ___ shirt? (near you, one)", "blank": "this", "options": ["this", "that", "these"]},
-        {"sentence": "I like ___ shoes. (near you, two)", "blank": "these", "options": ["this", "that", "these"]},
-        {"sentence": "___ hat over there is nice. (far away, one)", "blank": "That", "options": ["This", "That", "Those"]}
+        {
+          "sentence": "How much is ___ shirt? (near you, one)",
+          "blank": "this",
+          "options": [
+            "this",
+            "that",
+            "these"
+          ]
+        },
+        {
+          "sentence": "I like ___ shoes. (near you, two)",
+          "blank": "these",
+          "options": [
+            "this",
+            "that",
+            "these"
+          ]
+        },
+        {
+          "sentence": "___ hat over there is nice. (far away, one)",
+          "blank": "That",
+          "options": [
+            "This",
+            "That",
+            "Those"
+          ]
+        }
       ]
     },
     {
@@ -161,9 +239,33 @@
         "That store is closer to my house. (close → closer)"
       ],
       "practice": [
-        {"sentence": "This shirt is ___ than that one.", "blank": "cheaper", "options": ["cheap", "cheaper", "more cheap"]},
-        {"sentence": "This jacket is ___ expensive.", "blank": "more", "options": ["more", "most", "very"]},
-        {"sentence": "These pants are ___ quality.", "blank": "better", "options": ["good", "better", "best"]}
+        {
+          "sentence": "This shirt is ___ than that one.",
+          "blank": "cheaper",
+          "options": [
+            "cheap",
+            "cheaper",
+            "more cheap"
+          ]
+        },
+        {
+          "sentence": "This jacket is ___ expensive.",
+          "blank": "more",
+          "options": [
+            "more",
+            "most",
+            "very"
+          ]
+        },
+        {
+          "sentence": "These pants are ___ quality.",
+          "blank": "better",
+          "options": [
+            "good",
+            "better",
+            "best"
+          ]
+        }
       ]
     },
     {
@@ -177,9 +279,33 @@
         "Do you charge extra if I pay with a card? (condition)"
       ],
       "practice": [
-        {"sentence": "Can I return this ___ it doesn't fit?", "blank": "if", "options": ["if", "when", "because"]},
-        {"sentence": "What happens ___ I want to exchange it?", "blank": "if", "options": ["if", "that", "why"]},
-        {"sentence": "___ I need a receipt to return items?", "blank": "Do", "options": ["Do", "If", "Can"]}
+        {
+          "sentence": "Can I return this ___ it doesn't fit?",
+          "blank": "if",
+          "options": [
+            "if",
+            "when",
+            "because"
+          ]
+        },
+        {
+          "sentence": "What happens ___ I want to exchange it?",
+          "blank": "if",
+          "options": [
+            "if",
+            "that",
+            "why"
+          ]
+        },
+        {
+          "sentence": "___ I need a receipt to return items?",
+          "blank": "Do",
+          "options": [
+            "Do",
+            "If",
+            "Can"
+          ]
+        }
       ]
     }
   ],
@@ -190,7 +316,12 @@
         "id": "q1",
         "type": "multiple-choice",
         "question": "In the dialogue, what discount is on work pants?",
-        "options": ["15% off", "20% off", "25% off", "50% off"],
+        "options": [
+          "15% off",
+          "20% off",
+          "25% off",
+          "50% off"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -211,7 +342,12 @@
         "id": "q3",
         "type": "multiple-choice",
         "question": "Complete: 'Do you have this ___ blue?'",
-        "options": ["at", "in", "on", "with"],
+        "options": [
+          "at",
+          "in",
+          "on",
+          "with"
+        ],
         "correct": 1,
         "points": 10
       },
@@ -219,7 +355,12 @@
         "id": "q4",
         "type": "multiple-choice",
         "question": "How long does Ahmed have to return items at Target?",
-        "options": ["30 days", "60 days", "90 days", "One year"],
+        "options": [
+          "30 days",
+          "60 days",
+          "90 days",
+          "One year"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -242,7 +383,9 @@
         "type": "fill-blank",
         "question": "How much ___ these shoes? (question about plural items)",
         "correct": "are",
-        "accept": ["are"],
+        "accept": [
+          "are"
+        ],
         "points": 10
       },
       {
@@ -250,7 +393,9 @@
         "type": "fill-blank",
         "question": "This shirt is ___ than that one. (comparative: cheap)",
         "correct": "cheaper",
-        "accept": ["cheaper"],
+        "accept": [
+          "cheaper"
+        ],
         "points": 10
       },
       {
@@ -258,9 +403,18 @@
         "type": "matching",
         "question": "Match the shopping term to its meaning:",
         "pairs": [
-          {"left": "Discount", "right": "Reduced price"},
-          {"left": "Receipt", "right": "Proof of purchase"},
-          {"left": "Return", "right": "Bring item back"}
+          {
+            "left": "Discount",
+            "right": "Reduced price"
+          },
+          {
+            "left": "Receipt",
+            "right": "Proof of purchase"
+          },
+          {
+            "left": "Return",
+            "right": "Bring item back"
+          }
         ],
         "points": 10
       },
@@ -280,16 +434,56 @@
     ]
   },
   "vocabulary": [
-    {"word": "sale", "definition": "items sold at reduced prices", "example": "There's a big sale at the mall this weekend."},
-    {"word": "discount", "definition": "reduction in price", "example": "I got a 20% discount with my coupon."},
-    {"word": "coupon", "definition": "paper or code that gives you a discount", "example": "I have a coupon for $5 off."},
-    {"word": "receipt", "definition": "paper showing what you bought and paid", "example": "Keep your receipt in case you need to return something."},
-    {"word": "return", "definition": "to bring an item back to the store", "example": "Can I return this if it doesn't fit?"},
-    {"word": "exchange", "definition": "to trade an item for a different one", "example": "I want to exchange this for a larger size."},
-    {"word": "refund", "definition": "money given back when you return something", "example": "I got a full refund for the broken item."},
-    {"word": "clearance", "definition": "items sold at very low prices to clear inventory", "example": "Check the clearance rack for great deals."},
-    {"word": "tax", "definition": "extra money added to price by government", "example": "The tax on this item is 6%."},
-    {"word": "subtotal", "definition": "cost before tax is added", "example": "The subtotal is $50, plus $3 tax."}
+    {
+      "word": "sale",
+      "definition": "items sold at reduced prices",
+      "example": "There's a big sale at the mall this weekend."
+    },
+    {
+      "word": "discount",
+      "definition": "reduction in price",
+      "example": "I got a 20% discount with my coupon."
+    },
+    {
+      "word": "coupon",
+      "definition": "paper or code that gives you a discount",
+      "example": "I have a coupon for $5 off."
+    },
+    {
+      "word": "receipt",
+      "definition": "paper showing what you bought and paid",
+      "example": "Keep your receipt in case you need to return something."
+    },
+    {
+      "word": "return",
+      "definition": "to bring an item back to the store",
+      "example": "Can I return this if it doesn't fit?"
+    },
+    {
+      "word": "exchange",
+      "definition": "to trade an item for a different one",
+      "example": "I want to exchange this for a larger size."
+    },
+    {
+      "word": "refund",
+      "definition": "money given back when you return something",
+      "example": "I got a full refund for the broken item."
+    },
+    {
+      "word": "clearance",
+      "definition": "items sold at very low prices to clear inventory",
+      "example": "Check the clearance rack for great deals."
+    },
+    {
+      "word": "tax",
+      "definition": "extra money added to price by government",
+      "example": "The tax on this item is 6%."
+    },
+    {
+      "word": "subtotal",
+      "definition": "cost before tax is added",
+      "example": "The subtotal is $50, plus $3 tax."
+    }
   ],
   "cultural_notes": [
     "Most U.S. states have sales tax (6-10%), but Oregon, Delaware, Montana, New Hampshire, and Alaska don't.",

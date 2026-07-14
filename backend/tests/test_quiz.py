@@ -5,8 +5,12 @@ Tests for:
 """
 
 
-def test_quiz_submit_guest_succeeds(client):
-    """Guest users (no token) can submit a quiz using the fallback guest UUID."""
+def test_quiz_submit_guest_succeeds_without_persisting(client):
+    """Guests get their result back, but nothing is written to the database —
+    a shared guest row would let anonymous users clobber each other."""
+    from tests.conftest import _connect
+
+    client.cookies.clear()  # the session client may hold a stale auth cookie
     resp = client.post("/api/quiz/submit", json={
         "lesson_id": 1,
         "unit_id": 1,
@@ -16,6 +20,13 @@ def test_quiz_submit_guest_succeeds(client):
     data = resp.json()
     assert data["success"] is True
     assert data["score"] == 80
+
+    conn = _connect()
+    cur = conn.cursor()
+    cur.execute("SELECT COUNT(*) FROM user_lessons")
+    assert cur.fetchone()[0] == 0
+    cur.close()
+    conn.close()
 
 
 def test_quiz_submit_authenticated_saves_to_user(client, auth_headers):
