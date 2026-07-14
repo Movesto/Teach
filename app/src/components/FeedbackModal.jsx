@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X, Star, Send, CheckCircle } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
@@ -10,8 +10,6 @@ export default function FeedbackModal({ isOpen, onClose, context = {} }) {
   const [done, setDone] = useState(false);
   const [error, setError] = useState(null);
 
-  if (!isOpen) return null;
-
   const reset = () => {
     setRating(0);
     setHovered(0);
@@ -21,6 +19,16 @@ export default function FeedbackModal({ isOpen, onClose, context = {} }) {
   };
 
   const handleClose = () => { reset(); onClose(); };
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKey = (e) => { if (e.key === 'Escape' && !submitting) handleClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen, submitting]);
+
+  if (!isOpen) return null;
 
   const submit = async () => {
     if (!rating) { setError('Please select a star rating.'); return; }
@@ -49,8 +57,17 @@ export default function FeedbackModal({ isOpen, onClose, context = {} }) {
   const LABELS = ['', 'Poor', 'Fair', 'Good', 'Great', 'Excellent'];
 
   return (
-    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-md">
+    <div
+      className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      onClick={() => !submitting && handleClose()}
+      role="dialog"
+      aria-modal="true"
+      aria-label={context.lessonTitle ? `Feedback: ${context.lessonTitle}` : 'Share Your Feedback'}
+    >
+      <div
+        className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-md"
+        onClick={e => e.stopPropagation()}
+      >
         <div className="flex items-center justify-between px-5 py-4 border-b border-gray-200 dark:border-gray-700">
           <p className="font-bold text-gray-900 dark:text-white">
             {context.lessonTitle ? `Feedback: ${context.lessonTitle}` : 'Share Your Feedback'}

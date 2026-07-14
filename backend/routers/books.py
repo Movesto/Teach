@@ -184,6 +184,7 @@ async def complete_chapter(
         return {"ok": True}
     user_id = current_user["id"]
     quiz_score = (payload or {}).get("quiz_score")
+    conn = None
     try:
         conn = get_db()
         with conn.cursor() as cur:
@@ -200,9 +201,10 @@ async def complete_chapter(
                 (user_id, book_id, chapter_id, quiz_score),
             )
             conn.commit()
-        release_db(conn)
     except Exception as e:
         logger.error("[complete_chapter] DB error: %s", e)
+    finally:
+        release_db(conn)
     return {"ok": True}
 
 
@@ -213,6 +215,7 @@ async def get_book_progress(current_user=Depends(get_optional_user)):
     user_id = current_user["id"]
     banks = load_question_banks()
     completed_by_book: dict[str, list] = {}
+    conn = None
     try:
         conn = get_db()
         with conn.cursor() as cur:
@@ -221,10 +224,11 @@ async def get_book_progress(current_user=Depends(get_optional_user)):
                 (user_id,),
             )
             for row in cur.fetchall():
-                completed_by_book.setdefault(row[0], []).append(row[1])
-        release_db(conn)
+                completed_by_book.setdefault(row["book_id"], []).append(row["chapter_id"])
     except Exception as e:
         logger.error("[get_book_progress] DB error: %s", e)
+    finally:
+        release_db(conn)
     result = {}
     for bid, bank in banks.items():
         total = len(bank.get("chapters", []))

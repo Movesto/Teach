@@ -4,13 +4,13 @@ Tests for rate limiting:
   - AI endpoints cap at 20 requests/minute per IP
 """
 
-import main
+from core import rate_limit
 
 
 def _reset_rate_stores():
     """Clear in-memory rate limit stores between tests."""
-    main._rate_limit_store.clear()
-    main._auth_rate_store.clear()
+    rate_limit._ai_store.clear()
+    rate_limit._auth_store.clear()
 
 
 def test_auth_rate_limit_blocks_after_5_attempts(client):

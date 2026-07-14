@@ -1,0 +1,49 @@
+OS Name	Microsoft Windows 11 Pro
+Version	10.0.26200 Build 26200
+Other OS Description 	Not Available
+OS Manufacturer	Microsoft Corporation
+System Name	DESKTOP-5G2LFVP
+System Manufacturer	ASRock
+System Model	B850M-X WiFi R2.0
+System Type	x64-based PC
+System SKU	Default string
+Processor	AMD Ryzen 5 9600X 6-Core Processor, 3900 Mhz, 6 Core(s), 12 Logical Processor(s)
+BIOS Version/Date	American Megatrends International, LLC. 4.03, 12/11/2025
+SMBIOS Version	3.4
+Embedded Controller Version	255.255
+BIOS Mode	UEFI
+BaseBoard Manufacturer	ASRock
+BaseBoard Product	B850M-X WiFi R2.0
+BaseBoard Version	Default string
+Platform Role	Desktop
+Secure Boot State	Off
+PCR7 Configuration	Elevation Required to View
+Windows Directory	C:\Windows
+System Directory	C:\Windows\system32
+Boot Device	\Device\HarddiskVolume1
+Locale	United States
+Hardware Abstraction Layer	Version = "10.0.26100.1"
+User Name	DESKTOP-5G2LFVP\pscad
+Time Zone	Pacific Daylight Time
+Installed Physical Memory (RAM)	32.0 GB
+Total Physical Memory	31.1 GB
+Available Physical Memory	16.8 GB
+Total Virtual Memory	65.1 GB
+Available Virtual Memory	46.6 GB
+Page File Space	34.0 GB
+Page File	C:\pagefile.sys
+Kernel DMA Protection	Off
+Virtualization-based security	Running
+Virtualization-based security Required Security Properties	Base Virtualization Support
+Virtualization-based security Available Security Properties	Base Virtualization Support, DMA Protection, UEFI Code Readonly, SMM Security Mitigations 1.0, Mode Based Execution Control
+Virtualization-based security Services Configured	Hypervisor enforced Code Integrity
+Virtualization-based security Services Running	Hypervisor enforced Code Integrity
+App Control for Business policy	Enforced
+App Control for Business user mode policy	Off
+Automatic Device Encryption Support	Elevation Required to View
+A hypervisor has been detected. Features required for Hyper-V will not be displayed.	
+
+
+
+
+GPU NVidia RTX 5070 TI

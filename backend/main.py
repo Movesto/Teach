@@ -18,13 +18,15 @@ from core.config import (
 logger = logging.getLogger(__name__)
 
 
-def _cleanup_teacher_audio() -> int:
+def _cleanup_audio_cache() -> int:
+    """Delete cached teacher_*.mp3 and tts_*.mp3 files older than the configured age."""
     cutoff = time.time() - (AUDIO_TEACHER_MAX_AGE_DAYS * 86400)
     deleted = 0
-    for f in AUDIO_DIR.glob("teacher_*.mp3"):
-        if f.stat().st_mtime < cutoff:
-            f.unlink(missing_ok=True)
-            deleted += 1
+    for pattern in ("teacher_*.mp3", "tts_*.mp3"):
+        for f in AUDIO_DIR.glob(pattern):
+            if f.stat().st_mtime < cutoff:
+                f.unlink(missing_ok=True)
+                deleted += 1
     return deleted
 
 
@@ -32,9 +34,9 @@ async def _audio_cleanup_loop() -> None:
     while True:
         await asyncio.sleep(86400)
         try:
-            deleted = _cleanup_teacher_audio()
+            deleted = _cleanup_audio_cache()
             if deleted:
-                logger.info("Audio cleanup: removed %d teacher audio file(s) older than %d days",
+                logger.info("Audio cleanup: removed %d cached audio file(s) older than %d days",
                             deleted, AUDIO_TEACHER_MAX_AGE_DAYS)
         except Exception as e:
             logger.error("Audio cleanup error: %s", e)
@@ -61,9 +63,16 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.warning("Qwen warm-up skipped: %s", e)
 
-    deleted = _cleanup_teacher_audio()
+    try:
+        from routers import lessons as _lessons_mod
+        _lessons_mod._build_lesson_index()
+        logger.info("Lesson index warmed: %d lessons cached", len(_lessons_mod._lesson_by_id))
+    except Exception as e:
+        logger.warning("Lesson index warm-up skipped: %s", e)
+
+    deleted = _cleanup_audio_cache()
     if deleted:
-        logger.info("Audio cleanup: removed %d teacher audio file(s) on startup", deleted)
+        logger.info("Audio cleanup: removed %d cached audio file(s) on startup", deleted)
     cleanup_task = asyncio.create_task(_audio_cleanup_loop())
 
     yield

@@ -140,6 +140,7 @@ export default function PlacementTest() {
         method: 'POST',
         body: JSON.stringify({ answers: Object.values(answers), time_taken_minutes: timeTaken }),
       });
+      if (!res.ok) throw new Error('submit failed');
       const data = await res.json();
       setResult(data);
       setScreen('result');

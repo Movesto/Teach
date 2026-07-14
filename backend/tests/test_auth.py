@@ -62,11 +62,11 @@ def test_login_success(client):
     client.post("/api/auth/register", json={
         "name": "Xasan",
         "email": "xasan@example.com",
-        "password": "mypassword",
+        "password": "mypassword1",
     })
     resp = client.post("/api/auth/login", json={
         "email": "xasan@example.com",
-        "password": "mypassword",
+        "password": "mypassword1",
     })
     assert resp.status_code == 200
     data = resp.json()
@@ -79,11 +79,11 @@ def test_login_wrong_password_returns_401(client):
     client.post("/api/auth/register", json={
         "name": "User",
         "email": "wrong@example.com",
-        "password": "correct",
+        "password": "correct1",
     })
     resp = client.post("/api/auth/login", json={
         "email": "wrong@example.com",
-        "password": "incorrect",
+        "password": "incorrect1",
     })
     assert resp.status_code == 401
 

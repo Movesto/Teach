@@ -127,8 +127,9 @@ _TABLES_TO_CLEAN = [
 def clean_db():
     """Reset rate-limit counters and user tables before every test."""
     # Clear in-memory rate limit stores so auth tests don't bleed into each other
-    main._rate_limit_store.clear()
-    main._auth_rate_store.clear()
+    from core import rate_limit
+    rate_limit._ai_store.clear()
+    rate_limit._auth_store.clear()
 
     conn = _connect()
     conn.autocommit = True

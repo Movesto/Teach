@@ -168,7 +168,7 @@ export default function Dashboard() {
           <p className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Could not load your dashboard</p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Check your connection and try again.</p>
           <button
-            onClick={() => { _unitsCache = null; setLoadError(false); setLoading(true); setRetryCount(c => c + 1); }}
+            onClick={() => { _unitsCache = null; _booksCache = null; setLoadError(false); setLoading(true); setRetryCount(c => c + 1); }}
             className="px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 text-sm font-medium"
           >
             Retry

@@ -20,12 +20,23 @@ export function AuthProvider({ children }) {
     return () => window.removeEventListener('auth:expired', handler);
   }, []);
 
+  const errorMessage = (detail, fallback) => {
+    if (typeof detail === 'string') return detail;
+    if (Array.isArray(detail) && detail.length > 0) {
+      return detail.map(d => d?.msg).filter(Boolean).join('; ') || fallback;
+    }
+    return fallback;
+  };
+
   const login = async (email, password) => {
     const r = await apiFetch('/api/auth/login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
     });
-    if (!r.ok) throw new Error((await r.json()).detail);
+    if (!r.ok) {
+      const body = await r.json().catch(() => ({}));
+      throw new Error(errorMessage(body.detail, 'Could not sign in. Please try again.'));
+    }
     const { user: u } = await r.json();
     setUser(u);
     return u;
@@ -36,7 +47,10 @@ export function AuthProvider({ children }) {
       method: 'POST',
       body: JSON.stringify({ name, email, password }),
     });
-    if (!r.ok) throw new Error((await r.json()).detail);
+    if (!r.ok) {
+      const body = await r.json().catch(() => ({}));
+      throw new Error(errorMessage(body.detail, 'Could not create account. Please try again.'));
+    }
     const { user: u } = await r.json();
     setUser(u);
     return u;

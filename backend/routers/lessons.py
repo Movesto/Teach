@@ -1,6 +1,8 @@
 import json
 import logging
 import re
+import time
+from threading import Lock
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
@@ -16,6 +18,14 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["lessons"])
 
 _REQUIRED_LESSON_FIELDS = {"id", "title", "unit_id"}
+
+# Lesson file index — built once and refreshed on TTL. Avoids re-reading
+# ~95 JSON files on every /api/units, /api/lessons/{id}, and quiz submit.
+_INDEX_TTL_SECONDS = 60
+_index_lock = Lock()
+_index_built_at: float = 0.0
+_lessons_by_unit: dict[int, list[dict]] = {}
+_lesson_by_id: dict[int, dict] = {}
 
 
 class QuizSubmitRequest(BaseModel):
@@ -39,6 +49,44 @@ def _validate_lesson(data: dict, path) -> bool:
 def load_units():
     with open(LESSONS_DIR / "units.json", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _build_lesson_index() -> None:
+    """Scan every unit-*/lesson-*.json once and build in-memory indexes."""
+    global _index_built_at, _lessons_by_unit, _lesson_by_id
+    by_unit: dict[int, list[dict]] = {}
+    by_id: dict[int, dict] = {}
+    for unit_dir in LESSONS_DIR.glob("unit-*"):
+        try:
+            unit_num = int(re.sub(r"\D", "", unit_dir.name) or "0")
+        except ValueError:
+            continue
+        for lesson_file in sorted(unit_dir.glob("lesson-*.json")):
+            try:
+                with open(lesson_file, encoding="utf-8") as f:
+                    data = json.load(f)
+            except (json.JSONDecodeError, KeyError, UnicodeDecodeError) as e:
+                logger.warning("Skipping invalid lesson file %s: %s", lesson_file, e)
+                continue
+            if not _validate_lesson(data, lesson_file):
+                continue
+            lid = _lesson_numeric_id(data["id"])
+            by_unit.setdefault(unit_num, []).append(data)
+            by_id[lid] = data
+    for lessons in by_unit.values():
+        lessons.sort(key=lambda x: x.get("lesson_number", 0))
+    _lessons_by_unit = by_unit
+    _lesson_by_id = by_id
+    _index_built_at = time.time()
+
+
+def _get_lesson_index() -> tuple[dict[int, list[dict]], dict[int, dict]]:
+    """Return (lessons_by_unit, lesson_by_id), rebuilding if TTL expired."""
+    if time.time() - _index_built_at > _INDEX_TTL_SECONDS:
+        with _index_lock:
+            if time.time() - _index_built_at > _INDEX_TTL_SECONDS:
+                _build_lesson_index()
+    return _lessons_by_unit, _lesson_by_id
 
 
 def normalize_lesson(data: dict) -> dict:
@@ -151,20 +199,8 @@ def normalize_lesson(data: dict) -> dict:
 
 
 async def _populate_vocabulary(user_id: str, lesson_id: int) -> None:
-    lesson_data = None
-    for unit_dir in LESSONS_DIR.glob("unit-*"):
-        for lf in sorted(unit_dir.glob("lesson-*.json")):
-            try:
-                with open(lf, encoding="utf-8") as f:
-                    data = json.load(f)
-                if _lesson_numeric_id(data.get("id", "")) == lesson_id:
-                    lesson_data = data
-                    break
-            except Exception:
-                continue
-        if lesson_data:
-            break
-
+    _, by_id = _get_lesson_index()
+    lesson_data = by_id.get(lesson_id)
     if not lesson_data:
         return
 
@@ -225,7 +261,9 @@ async def get_units(optional_user=Depends(get_optional_user)):
         finally:
             release_db(conn)
 
+    by_unit, _ = _get_lesson_index()
     for unit in units:
+<<<<<<< HEAD
         unit["support_level"] = support_level_for_unit(unit["id"])
         unit["is_current"] = False
         unit_dir = LESSONS_DIR / f"unit-{unit['id']}"
@@ -261,6 +299,30 @@ async def get_units(optional_user=Depends(get_optional_user)):
             unit["test_done"] = tid in test_map
             unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
             unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
+=======
+        unit_lessons = by_unit.get(unit["id"], [])
+        lessons = []
+        for lesson_data in unit_lessons:
+            lid = _lesson_numeric_id(lesson_data["id"])
+            done = lid in completed_map
+            lessons.append({
+                "id": lid,
+                "lesson_number": lesson_data["lesson_number"],
+                "title": lesson_data["title"],
+                "description": lesson_data.get("description") or lesson_data.get("level", ""),
+                "difficulty": lesson_data.get("difficulty") or lesson_data.get("level", "beginner"),
+                "completed": done,
+                "score": completed_map.get(lid),
+                "locked": False,
+            })
+        unit["lessons"] = lessons
+        unit["total_lessons"] = len(lessons)
+        unit["completed_lessons"] = sum(1 for x in lessons if x["completed"])
+        tid = unit["id"]
+        unit["test_done"] = tid in test_map
+        unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
+        unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
+>>>>>>> dd73619 (added lessons, authentication as well adedded feedback)
 
     # Soft-gate "you are here": mark the first incomplete lesson (in unit/lesson
     # order) as the recommended next step. Nothing is locked — it's a suggestion.
@@ -280,18 +342,17 @@ def _mark_recommended(units: list) -> None:
 
 @router.get("/lessons/{lesson_id}")
 async def get_lesson(lesson_id: str):
-    for unit_dir in LESSONS_DIR.glob("unit-*"):
-        for lesson_file in unit_dir.glob("lesson-*.json"):
-            try:
-                with open(lesson_file, encoding="utf-8") as f:
-                    lesson_data = json.load(f)
-                if not _validate_lesson(lesson_data, lesson_file):
-                    continue
-                if str(_lesson_numeric_id(lesson_data.get("id", ""))) == lesson_id:
-                    return normalize_lesson(lesson_data)
-            except (json.JSONDecodeError, KeyError, UnicodeDecodeError):
-                continue
-    raise HTTPException(status_code=404, detail="Lesson not found")
+    try:
+        lid = int(re.sub(r"\D", "", lesson_id) or "-1")
+    except ValueError:
+        raise HTTPException(status_code=404, detail="Lesson not found")
+    _, by_id = _get_lesson_index()
+    lesson_data = by_id.get(lid)
+    if not lesson_data:
+        raise HTTPException(status_code=404, detail="Lesson not found")
+    # normalize_lesson mutates the dict — work on a copy so the cached entry
+    # stays in its raw form for subsequent calls.
+    return normalize_lesson(dict(lesson_data))
 
 
 @router.get("/lessons/{lesson_id}/listen/{idx}")
@@ -344,8 +405,8 @@ async def submit_quiz(
             (user_id, unit_id),
         )
         done_count = cur.fetchone()["done"]
-        unit_dir = LESSONS_DIR / f"unit-{unit_id}"
-        total = len(list(unit_dir.glob("lesson-*.json"))) if unit_dir.exists() else 0
+        by_unit, _ = _get_lesson_index()
+        total = len(by_unit.get(unit_id, []))
         unit_complete = total > 0 and done_count >= total
         cur.close()
 

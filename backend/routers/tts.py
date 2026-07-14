@@ -10,6 +10,8 @@ from core.ai_client import get_client
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["tts"])
 
+PRONUNCIATION_MAX_BYTES = 10 * 1024 * 1024  # 10 MB
+
 
 @router.get("/tts")
 async def text_to_speech(
@@ -43,8 +45,13 @@ async def pronunciation_assess(
     language: str = Form("english"),
     expected_text: str = Form(...),
 ):
+    audio_bytes = await audio.read(PRONUNCIATION_MAX_BYTES + 1)
+    if len(audio_bytes) > PRONUNCIATION_MAX_BYTES:
+        raise HTTPException(
+            status_code=413,
+            detail=f"Audio file is too large (max {PRONUNCIATION_MAX_BYTES // (1024 * 1024)} MB).",
+        )
     try:
-        audio_bytes = await audio.read()
         client = get_client()
         response = await client.post(
             f"{PRONUNCIATION_URL}/api/pronunciation/assess",
@@ -52,5 +59,7 @@ async def pronunciation_assess(
             data={"language": language, "expected_text": expected_text},
         )
         return response.json()
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Pronunciation assessment failed: {e}")
