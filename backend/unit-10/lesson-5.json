@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are speaking on a panel about bilingual life for an audience of teachers.",
+    "prompt": "Describe your own (or a plausible) experience of code-switching: one context where switching feels like a skill, one where it feels like a demand, and what teachers should understand about students who do it. Speak for about 90 seconds.",
+    "useful_language": [
+      "Switching feels like a skill when...",
+      "It becomes a demand when...",
+      "What looks like confusion is often...",
+      "The cost that isn't visible is...",
+      "What I'd ask teachers to remember is..."
+    ],
+    "model_answer": "Switching feels like a skill when I move a meeting from English to Somali to welcome an elder — I can feel the room relax, and I did that. It becomes a demand when I flatten my name for a hiring manager or translate my mother's medical appointment while processing the diagnosis myself. What looks like confusion in a bilingual student is often traffic management — two grammars negotiating right of way. The cost that isn't visible is energy: performing the acceptable self all day is work. What I'd ask teachers to remember is that a child switching languages mid-sentence isn't failing at either language; she's doing something you'd need two languages to attempt."
+  },
+  "writing_workshop": {
+    "task": "Write an analytical paragraph on code-switching using the resource/burden distinction from the lesson. Include one concrete scene and one explicit claim about when switching becomes costly.",
+    "word_count": "150-200",
+    "model_text": "Code-switching is a resource that becomes a burden at exactly the point where choice disappears. Consider a Friday afternoon at a Minneapolis clinic: a Somali-American medical assistant greets an elderly patient in Somali, takes the history in a blend both find natural, then briefs the physician in clinical English — three registers in ten minutes, deployed with a precision no monolingual staffer could match. That is the resource. The burden begins upstream, where she learned that her promotion interview required not just English but a particular accent of it, and that her name would be 'easier' shortened. The linguistic act is identical — adjusting speech to audience — but the first adjustment expresses competence while the second is charged as rent for belonging. Any account of code-switching that praises the skill while ignoring the rent describes only half the phenomenon.",
+    "model_analysis": "The paragraph advances one arguable claim (choice is the hinge between resource and burden), grounds it in a specific scene, and uses the rent metaphor to make the invisible cost concrete.",
+    "success_criteria": [
+      "A clear analytical claim, not just description",
+      "One concrete scene with specific details",
+      "The resource/burden distinction applied precisely",
+      "Academic register with controlled metaphor"
+    ]
+  }
 }

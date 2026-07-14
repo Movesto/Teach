@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "presentation",
+    "context": "You have two minutes at a city council public comment session.",
+    "prompt": "Deliver your testimony: name and neighborhood, one point backed by one vivid first-hand detail, and one specific action requested — timed to two minutes with a third cut for safety.",
+    "useful_language": [
+      "My name is..., from the ... neighborhood.",
+      "I'm here to make one point:...",
+      "Let me tell you what that looks like on my street.",
+      "I'm asking the council to...",
+      "Thank you for your time."
+    ],
+    "model_answer": "Good evening. My name is Yusuf Hersi, from the Riverside neighborhood, and I'm here to make one point: the number 9 bus's reduced evening schedule is cutting our workers off from their jobs. Let me tell you what that looks like on my street. My neighbor Sahra finishes her shift at the care home at ten. The last 9 now leaves at nine forty. Three nights a week, a certified nursing assistant who spends her days lifting patients walks fifty minutes home in the dark, in January, because twenty minutes of bus service was cut. She is not asking for sympathy — she'd like the bus. I'm asking the council to restore the ten-thirty departure on route 9 in the spring service change. Thank you for your time."
+  },
+  "writing_workshop": {
+    "task": "Write a complete two-minute council testimony script: constituent opening, one point, one first-hand vivid detail, one specific ask — then note which third you would cut if the chair calls time early.",
+    "word_count": "170-220",
+    "model_text": "Script: Good evening. My name is Yusuf Hersi; I've lived in Riverside for eleven years. I'm here to make one point: cutting route 9's evening service has cut our night-shift workers off from their jobs. The transit authority's report calls the ten-thirty departure 'low ridership.' Here is what low ridership looks like: my neighbor Sahra, a certified nursing assistant, finishes at ten and now walks fifty minutes home in the dark three nights a week — past the very stop where the bus used to be. Eleven riders a night is a small number in a spreadsheet; it is not small if you are one of the eleven, in January. I am asking the council to direct the authority to restore the ten-thirty departure on route 9 in the spring service change. Thank you. Cut plan: if the chair calls time, the spreadsheet sentence goes; the ask and Sahra's walk stay — the detail persuades, the ask directs, and everything else is scaffolding.",
+    "model_analysis": "One point, one human detail that answers the official statistic on its own terms, one votable ask — and the cut plan shows the writer knows which sentences are load-bearing.",
+    "success_criteria": [
+      "Constituent opening and a single point",
+      "One vivid first-hand detail that answers the official framing",
+      "A specific, actionable request",
+      "A stated cut plan preserving detail and ask"
+    ]
+  }
 }

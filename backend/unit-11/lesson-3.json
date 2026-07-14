@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "In your performance review, your manager says: 'Solid year overall. One growth area — I'd like to see more strategic visibility from you.'",
+    "prompt": "Record your response: accept the feedback without defensiveness, ask for specifics, and negotiate a concrete success measure for the next review. Speak for about one minute.",
+    "useful_language": [
+      "Thank you — I'd like to understand that fully.",
+      "Could you give me an example of...",
+      "What would strong ... look like by the next review?",
+      "So if I ... , would that meet the bar?",
+      "Can we put that in the written goals?"
+    ],
+    "model_answer": "Thank you — I want to make sure I understand that fully rather than guess at it. Could you give me an example of where more strategic visibility would have changed something this year? ... That helps. So the gap is less about the work and more about who sees it. What would strong visibility look like by the next review — would presenting the quarterly metrics to the leadership meeting meet the bar, or is it more about proposing initiatives? I'd like to agree on one or two concrete measures and put them in the written goals, so in six months we're evaluating evidence rather than impressions."
+  },
+  "writing_workshop": {
+    "task": "Write the accomplishments section of your own self-assessment (real or invented): three achievements in evidence-first style — what you did, the quantified effect, and one constraint you overcame. No modesty markers, no inflation.",
+    "word_count": "150-200",
+    "model_text": "Key accomplishments. First: I led the migration of patient records to the new scheduling system, completing the cutover two weeks ahead of plan despite the vendor delivering test access a month late; post-migration error rates ran below one percent against a five percent allowance. Second: I designed and delivered onboarding for eleven new hires across two sites, and the cohort reached full productivity in six weeks against the historical nine. Third: after our interpreter no-show rate hit twelve percent, I renegotiated the vendor contract to include confirmed bookings with penalties; no-shows fell to two percent within one quarter, and the clinic absorbed no additional cost. Each of these is documented in the project tracker, and I would welcome the chance to discuss the leadership dimension of the migration in particular.",
+    "model_analysis": "Every claim follows the same skeleton — action verb, scope, quantified outcome, constraint — and the register is informational rather than boastful: in this genre, precision is the modesty.",
+    "success_criteria": [
+      "Three achievements in evidence-first form",
+      "Quantified outcomes",
+      "One constraint or obstacle named per item",
+      "No hedges ('helped with', 'was involved in') and no inflation"
+    ]
+  }
 }

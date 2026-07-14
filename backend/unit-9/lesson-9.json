@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are recounting a disagreement between two colleagues to a manager who missed the meeting — fairly.",
+    "prompt": "Report what two people said in a disagreement, using neutral and non-neutral reporting verbs deliberately (said, pointed out, claimed, warned, conceded). Then flag your own framing to the listener. Speak for about one minute.",
+    "useful_language": [
+      "Amina pointed out that...",
+      "Daniel claimed that... — though I should say that's his framing.",
+      "She conceded that...",
+      "He warned that...",
+      "To report it as neutrally as I can:..."
+    ],
+    "model_answer": "To report it as neutrally as I can: Amina said the vendor's numbers hadn't been verified, and she pointed out that the last unverified estimate cost us a month. Daniel said the timeline leaves no room for an audit — I'd call that a warning rather than a claim, because the deadline is real. Amina conceded the deadline matters but maintained that unverified numbers make it meaningless. You'll notice my verbs are doing some work there, so let me flag it: I find her argument stronger, and you should hear both directly before deciding."
+  },
+  "writing_workshop": {
+    "task": "Write a paragraph reporting what someone said (from news, a meeting, or an interview) twice: once with maximally neutral attribution, once with loaded reporting verbs. Conclude with one sentence on what the second version smuggles in.",
+    "word_count": "130-180",
+    "model_text": "Neutral: The minister said the reform would reduce waiting times, and said that early data from two pilot regions supported this. Critics said the pilots were too small to generalize. Loaded: The minister insisted the reform would reduce waiting times, claiming that early data from two hand-picked regions backed him up. Critics pointed out that the pilots were far too small to generalize. What the second version smuggles in: 'insisted' implies desperation, 'claiming' plants doubt, 'hand-picked' alleges manipulation without evidence, and 'pointed out' quietly certifies the critics as correct — the reader has been told whom to believe before encountering a single fact.",
+    "model_analysis": "Attribution verbs assign credibility invisibly. The exercise trains you to spot the machinery — and to choose your own verbs with intent rather than habit.",
+    "success_criteria": [
+      "Both versions report the same propositional content",
+      "Reporting verbs in the second version are genuinely loaded",
+      "The final sentence names the smuggled implications precisely",
+      "Backshift and attribution grammar are accurate"
+    ]
+  }
 }

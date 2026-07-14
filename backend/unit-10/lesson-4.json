@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "Your workplace is preparing cultural-awareness guidance and has asked employees to contribute recorded reflections.",
+    "prompt": "Choose one custom from any culture you know well. Explain the value it expresses, how outsiders commonly misread it, and how you would explain it to a colleague — using provisional, sensitive language.",
+    "useful_language": [
+      "The custom itself is..., but the value underneath is...",
+      "Outsiders sometimes read it as..., when in fact...",
+      "In my experience, though of course practices vary...",
+      "A fair comparison might be...",
+      "The person in front of you may not fit the pattern."
+    ],
+    "model_answer": "The custom I'd explain is why many Somali guests refuse food twice before accepting. Outsiders sometimes read the refusals as genuine, clear the table, and accidentally send a guest home hungry. The value underneath is restraint — accepting immediately could suggest greed or need, and dignity matters more than appetite. In my experience, though practices vary by family and generation, the third offer is the real one. A fair comparison might be the American 'you really didn't have to' said while happily accepting a gift. And of course, the person in front of you may not fit the pattern — the custom is a starting point, not a rule about individuals."
+  },
+  "writing_workshop": {
+    "task": "Write an explanatory paragraph for a workplace guide: pick one custom, distinguish the visible behavior from the underlying value, address one common misreading, and mark your generalizations as provisional.",
+    "word_count": "150-200",
+    "model_text": "Colleagues sometimes notice that some Muslim coworkers decline the office happy hour and worry the refusal signals unfriendliness. The visible behavior is skipping the bar; the value underneath is religious observance, not social distance — many of the same colleagues will happily join a lunch, a coffee, or a game night. The common misreading runs in both directions: hosts read absence as rejection, while the absent colleague may conclude that all bonding here requires alcohol and stop expecting to be included. Practices vary — some observant Muslims attend and simply don't drink, and no one should be assumed into or out of any category. The practical guidance is simple: rotate at least some team events to venues where the default drink is coffee, and let attendance mean what it actually means — scheduling, not sentiment.",
+    "model_analysis": "The paragraph separates behavior from value, names the misreading on both sides, marks variation explicitly ('practices vary'), and lands on actionable guidance rather than abstract sensitivity.",
+    "success_criteria": [
+      "Behavior and underlying value clearly distinguished",
+      "One misreading addressed fairly",
+      "Generalizations marked as provisional, individuals kept in view",
+      "A practical takeaway"
+    ]
+  }
 }

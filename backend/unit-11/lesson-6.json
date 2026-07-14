@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "Two members of your team disagree about ownership of a project, and both have come to you. You have called a joint meeting.",
+    "prompt": "Record your opening two minutes as mediator: establish common ground, set the restating rule, and move the conversation from past grievances to future working agreements.",
+    "useful_language": [
+      "We're here because both of you want this project to succeed.",
+      "Before we discuss solutions, I'll ask each of you to state the other's position — to their satisfaction.",
+      "The past we can learn from; only the future is negotiable.",
+      "What would working well together look like from Monday?",
+      "Let's write down what we agree on."
+    ],
+    "model_answer": "Thanks for coming, both of you. I want to start with what's not in dispute: you both want this launch to succeed, and frankly it needs you both. Here's how we'll run this. Before anyone argues their own case, I'll ask each of you to state the other's position — and we'll check that the restatement is fair. Sara, you'll summarize David's view first; David, you'll do the same. In my experience, half of what looks like disagreement dissolves at this step. Then we're going to point forward: the past we can learn from, but only the future is negotiable. The question on the table is not who was right in March; it's what ownership looks like from Monday. And whatever we agree, we write down before we leave the room."
+  },
+  "writing_workshop": {
+    "task": "Write a mediation summary memo after a workplace dispute (real or invented): neutral statement of each party's interests, the agreements reached, and the objective criteria that will judge success — without assigning blame for the past.",
+    "word_count": "150-200",
+    "model_text": "Memo: Resolution summary — reporting-line question, data team. Context: Sara and David each understood themselves to own the client dashboard, an ambiguity created when the project moved departments in March. Interests: Sara's priority is design consistency with the analytics suite she maintains; David's is delivery speed for a client he faces weekly. Both stated the other's interest to the other's satisfaction in our meeting of the 14th. Agreements: Sara owns the dashboard's architecture and review; David owns client requirements and release scheduling; changes touching both require a same-day conversation, not an email chain. Success criteria: releases remain on the biweekly schedule, review turnaround stays under two working days, and the client's quarterly satisfaction score holds or improves. We will review against these three measures on January 15. No further account of the March transition is required from either party.",
+    "model_analysis": "The memo treats the dispute's origin as structural ('an ambiguity created when...'), records interests rather than accusations, and converts the resolution into three measurable criteria with a review date — turning peace into a checkable agreement.",
+    "success_criteria": [
+      "Each party's interests stated neutrally",
+      "Specific agreements with clear ownership",
+      "Objective success criteria and a review date",
+      "No blame assigned for the past"
+    ]
+  }
 }

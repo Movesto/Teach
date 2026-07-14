@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "You are negotiating a raise. Your manager has said the salary budget is frozen this year.",
+    "prompt": "Record your response. Move from your position (more money) to your interests (recognition, growth, fairness) and propose at least two non-salary options. Speak for about one minute.",
+    "useful_language": [
+      "I hear that the budget is fixed this year.",
+      "What matters most to me is...",
+      "Could we explore...",
+      "Would it be possible to revisit this in...",
+      "What would you need to see from me to..."
+    ],
+    "model_answer": "I hear that the salary budget is fixed this year, and I'm not asking you to break it. What matters most to me is that my growth here keeps pace with my contribution. So could we explore two things: first, the senior title, which reflects the work I'm already doing; and second, the conference budget I requested, which costs a fraction of a raise. And would it be possible to revisit compensation in January, with a written goal we agree on now? Tell me what you'd need to see from me to make that an easy yes."
+  },
+  "writing_workshop": {
+    "task": "Write a negotiation preparation memo for a real or imagined negotiation: your interests (not just position), your BATNA, the other side's likely interests, and three options that serve both sides.",
+    "word_count": "150-200",
+    "model_text": "Negotiation: lease renewal with landlord. My position is a rent freeze, but my interests are predictability and staying near my children's school. My BATNA is a similar unit two miles away at forty dollars less — real, but moving costs would eat a year of savings, so it is weak; I will not reveal it. The landlord's interests are likely avoiding vacancy, reliable payment, and low turnover costs — a re-rental costs him at least one empty month. Options serving both sides: a two-year lease at a smaller increase; a standard increase with repainting and the broken dishwasher replaced; or rent unchanged in exchange for me handling yard maintenance. I will open by asking about his plans for the property, not with a number.",
+    "model_analysis": "The memo separates position from interests, honestly assesses the BATNA as weak (and plans not to reveal it), imagines the counterpart's interests, and generates options that expand the pie rather than split it.",
+    "success_criteria": [
+      "Interests distinguished from the stated position",
+      "An honest BATNA assessment",
+      "The other side's interests considered",
+      "Three options with mutual benefit"
+    ]
+  }
 }

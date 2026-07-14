@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are recording a short segment for a community media-literacy workshop.",
+    "prompt": "Explain to newcomers how to tell a news report from an opinion piece from sponsored content, and demonstrate lateral reading on an unfamiliar source. Speak for about 90 seconds.",
+    "useful_language": [
+      "Before asking whether it's true, ask what kind of thing it is.",
+      "A report should separate what is known from what is claimed.",
+      "The label to hunt for is...",
+      "Open a new tab and search the source's name.",
+      "The top result is not automatically the best result."
+    ],
+    "model_answer": "Before asking whether an article is true, ask what kind of thing it is. A news report should separate what is known from what is claimed — look for attribution on every major fact. An opinion column argues from values, and honest ones are labeled 'opinion' near the headline. Sponsored content is advertising in an article's clothing — the label to hunt for is small: 'sponsored' or 'partner content,' usually at the top. When the source itself is unfamiliar, don't study its About page; it wrote that itself. Open a new tab and search the source's name — read what others say about it. And scan the whole results page before you click. The top result is not automatically the best result."
+  },
+  "writing_workshop": {
+    "task": "Write a source evaluation of one real or invented article using lateral reading: identify its genre, what checking other sources revealed about the outlet, which claims are attributed versus asserted, and your verdict on how to use it.",
+    "word_count": "150-200",
+    "model_text": "The article 'New Study: Evening Screens Wreck Teen Sleep' arrived via a family group chat. Genre check: despite the 'study' framing, the page is a wellness blog post with an affiliate link to blue-light glasses in the third paragraph — commercially interested content, not reporting. Lateral check: searching the site's name shows no masthead, no corrections page, and a marketing firm as the domain registrant; searching the study itself finds the original paper, which examined ninety adults, not teens. Attribution audit: the post's strongest claim — 'screens cause insomnia in 70% of teenagers' — appears nowhere in the paper and carries no source of its own. Verdict: the underlying paper is real but modest; the post inflates it to sell glasses. Usable as a pointer to the original research, and for nothing else. The reply I sent the group chat: the paper's actual finding, in two sentences, with the link.",
+    "model_analysis": "The evaluation works through genre, lateral checks, and attribution in order, and ends with a practical disposition — how to use the source — rather than a simple true/false verdict.",
+    "success_criteria": [
+      "Genre identified with evidence",
+      "Lateral reading performed and reported",
+      "Attributed claims distinguished from asserted ones",
+      "A practical verdict on how to use the source"
+    ]
+  }
 }

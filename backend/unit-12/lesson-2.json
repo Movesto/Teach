@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "Your book club has read two very different articles about the same protest.",
+    "prompt": "Present a one-minute comparison: the shared factual core, one framing difference, one sourcing difference, and what triangulating both gives you that neither gives alone.",
+    "useful_language": [
+      "Both outlets agree that...",
+      "Where they part is the frame:...",
+      "Notice who gets quoted in each.",
+      "Neither is lying, but...",
+      "Read together, they show..."
+    ],
+    "model_answer": "Both outlets agree on the core: roughly two thousand people marched Saturday, the march was permitted, and three arrests followed a confrontation near city hall. Where they part is the frame: one headline reads 'Peaceful march marred by arrests,' the other 'Protest turns confrontational' — same three arrests, opposite center of gravity. Notice who gets quoted: the first interviews two organizers and a legal observer; the second, a police spokesperson and a shopkeeper. Neither is lying, but each has chosen whose Saturday you experience. Read together, they show a mostly peaceful march, a brief confrontation, and — most usefully — exactly what each outlet's audience is presumed to worry about."
+  },
+  "writing_workshop": {
+    "task": "Write a comparative bias analysis of two outlets' coverage of one event: the agreed factual core, then differences in selection, framing, sourcing, and headline temperature — ending with a triangulated account, not a winner.",
+    "word_count": "170-220",
+    "model_text": "Two national outlets covered Tuesday's teacher walkout. Shared core: teachers in the state's three largest districts stopped work for one day; the union claims 12,000 participants; classes were cancelled for roughly 200,000 students. Selection: Outlet A devotes four paragraphs to a parent scrambling for childcare; Outlet B gives those paragraphs to a teacher pricing insulin on a second job. Framing: A's verb is 'strand' — teachers strand families; B's is 'stand' — teachers stand up for schools. Sourcing: A quotes the governor's office and a parents' association; B quotes the union president and two classroom teachers; neither quotes a school principal, arguably the person best placed to describe both pressures. Headline temperature: 'Walkout Chaos Hits 200,000 Students' against 'Educators Draw a Line.' Triangulated: a large, disruptive, one-day action with real costs to families and real grievances behind it — a sentence neither outlet printed, and the reason for reading both.",
+    "model_analysis": "The analysis holds the factual core steady, then treats each bias mechanism in turn with concrete evidence (the verb choice, the missing principal), and refuses the lazy conclusion that one outlet is simply right.",
+    "success_criteria": [
+      "The agreed factual core isolated first",
+      "Selection, framing, sourcing, and headline differences each evidenced",
+      "A triangulated account as the conclusion",
+      "No verdict of one 'unbiased' winner"
+    ]
+  }
 }

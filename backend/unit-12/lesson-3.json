@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "Your neighborhood association is organizing residents to contact the city council about a missing crosswalk.",
+    "prompt": "Record a one-minute voicemail to your council member's office: constituent identification, one issue, one specific ask, one personal stake, respectful close.",
+    "useful_language": [
+      "My name is..., and I live on... in your district.",
+      "I'm calling about one issue:...",
+      "I'm asking Council Member ... to...",
+      "This matters to my family because...",
+      "Thank you for logging my call."
+    ],
+    "model_answer": "Good morning. My name is Fadumo Ali, and I live on Cedar Avenue in Ward Six — I'm one of your constituents. I'm calling about one issue: the missing crosswalk at Cedar and 24th, item 14 in this year's pedestrian safety review. I'm asking Council Member Reyes to vote to fund that crossing in the current budget cycle. This matters to my family because my two children cross there every school day, and last month a neighbor's son was nearly struck. I know these calls are tallied, so please log me as a yes on item 14. Thank you for your time and for logging my call."
+  },
+  "writing_workshop": {
+    "task": "Write a one-page letter to a real or invented public official following the full genre: constituent identification, one issue with its bill or item number, one specific request, a brief personal stake, and a respectful close.",
+    "word_count": "150-200",
+    "model_text": "Dear Council Member Reyes, My name is Fadumo Ali and I have lived at 2412 Cedar Avenue, in Ward Six, for nine years. I am writing about one issue: the unfunded crosswalk at Cedar and 24th Street, listed as item 14 in the 2026 Pedestrian Safety Review. I ask you to vote to fund this crossing in the current budget cycle. The intersection sits between our neighborhood's largest apartment blocks and Cedar Elementary; my own children cross it twice a day, and in October a fourth-grader from our building was nearly struck by a turning truck — the third near-miss neighbors have reported this year. The city's own review scored this crossing 'high priority,' so the study is done and only the funding decision remains. I would be glad to speak with your staff, and I thank you for your service to our ward. Respectfully, Fadumo Ali.",
+    "model_analysis": "Constituent status arrives in line one, the ask is a single votable action tied to an item number, the personal stake is specific and local, and the letter hands the official a ready justification — the city's own priority score.",
+    "success_criteria": [
+      "Constituent identification up front",
+      "One issue, with its item or bill number",
+      "One specific, actionable request",
+      "A concrete personal stake and respectful close, on one page"
+    ]
+  }
 }

@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "You are in a job interview for a role you genuinely want.",
+    "prompt": "Record your answer to 'Tell me about yourself' using the present-past-future structure, in about 90 seconds. Then answer one behavioral question ('Tell me about a time you solved a problem under pressure') using STAR.",
+    "useful_language": [
+      "Currently, I...",
+      "Before that, I spent ... years...",
+      "What draws me to this role is...",
+      "The situation was... / My task was...",
+      "As a result,..."
+    ],
+    "model_answer": "Currently, I coordinate intake at a community health center, where I manage scheduling for six providers. Before that, I spent four years in logistics, which taught me to keep complex systems moving under pressure. What draws me to this role is the chance to combine both: patient-facing work with real operational responsibility. For the behavioral question: the situation was a clinic morning when our scheduling system went down with forty patients booked. My task was to keep care moving. I built a paper triage board, briefed each provider between appointments, and called the afternoon patients to stagger arrivals. As a result, we saw every scheduled patient that day, and the paper backup became our standard outage procedure."
+  },
+  "writing_workshop": {
+    "task": "Write two interview answers as scripts: your 90-second 'Tell me about yourself' (present-past-future) and one STAR answer to a behavioral question, with the Result quantified.",
+    "word_count": "180-250",
+    "model_text": "Tell me about yourself: I'm a certified nursing assistant at Riverside Care, where I support twelve residents and train new aides on our memory-care protocols. Before certification, I spent three years interpreting at my family's clinic visits, which is where I learned that care depends on communication. I'm applying to the LPN bridge program because I want the clinical scope to match the responsibility I'm already trusted with. STAR — a time I handled conflict: Situation: two aides on my shift disagreed about a resident's mobility plan, and the tension was visible to families. Task: as senior aide, I needed the plan clarified without escalating. Action: I pulled the physical therapist's latest notes, brought both aides to a five-minute huddle, and had us agree on one written protocol posted at the station. Result: transfers followed one standard from that day, and our unit's incident reports dropped from three that month to zero the next.",
+    "model_analysis": "Both answers select rather than narrate: the self-introduction connects each stage to the role, and the STAR answer keeps situation and task to one sentence each so the action and quantified result carry the weight.",
+    "success_criteria": [
+      "Present-past-future structure, tied to the target role",
+      "STAR with action in first person singular",
+      "A quantified result",
+      "Deliverable in under two minutes of speech"
+    ]
+  }
 }

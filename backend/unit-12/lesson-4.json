@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "A community forum is discussing a contested local issue (for example, converting a parking lot into a shelter).",
+    "prompt": "Record a one-minute contribution that steelmans the opposing view first — to their satisfaction — and only then argues your own, flagging any loaded terms in play.",
+    "useful_language": [
+      "Let me state the other side as strongly as I can.",
+      "That concern is real, and here is its best version:...",
+      "Having said that fairly, here is where I land.",
+      "Notice the phrase '...' — it decides the question before we discuss it.",
+      "If I've misstated anyone's view, correct me."
+    ],
+    "model_answer": "Let me state the opposing view as strongly as I can, and correct me if I misstate it. Neighbors against the shelter aren't heartless: their best argument is that this block already absorbs more than its share of services, that the site is two hundred meters from an elementary school, and that the city has a record of opening facilities without funding their upkeep. That concern is real. Having said it fairly, here is where I land: the county's data shows shelters with on-site services reduce street homelessness nearby rather than increase it, and the school's own board endorsed the plan with conditions. One more thing — I'd retire the phrase 'those people' from this discussion. Half of 'those people' are families with children in our own school district, and the words decide the question before we've discussed it."
+  },
+  "writing_workshop": {
+    "task": "Write a position piece on a contested issue that opens by steelmanning the opposing position (fairly enough that an opponent would sign it), identifies one loaded term used in the debate, and then argues your view.",
+    "word_count": "170-220",
+    "model_text": "The case against the Cedar Avenue shelter deserves its strongest telling. Opponents argue that our block already hosts the food bank and the methadone clinic while wealthier wards host nothing; that a facility near an elementary school demands more than promises; and that the city's record of underfunding what it opens gives past experience a vote. An opponent could sign that paragraph, and it is a serious case. Note, too, the vocabulary carrying the debate: 'dumping ground' does argumentative work no statistic has to answer — it converts a policy question into an insult before evidence arrives. My own view: the shelter should open, with the school board's conditions written into the operating contract, because the county's five-site study shows that shelters with on-site services reduced unsheltered homelessness within a half mile in every case measured. Fairness to the opposition, in the end, sharpens rather than weakens the conclusion: their distrust of the city is the best argument for a binding contract instead of another promise.",
+    "model_analysis": "The steelman is specific enough to be signable, the loaded term is named and neutralized rather than returned in kind, and the final move converts the opposition's strongest point into a design requirement for the writer's own proposal.",
+    "success_criteria": [
+      "A steelman an opponent would accept",
+      "One loaded term identified and analyzed",
+      "The writer's position argued with evidence",
+      "The opposing concern incorporated, not dismissed"
+    ]
+  }
 }

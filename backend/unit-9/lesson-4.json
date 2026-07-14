@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "presentation",
+    "context": "You are giving a short persuasive pitch to your neighborhood association for a project you want funded.",
+    "prompt": "Make a 90-second persuasive case using all three appeals: establish your credibility (ethos), connect to what the audience cares about (pathos), and give evidence (logos).",
+    "useful_language": [
+      "I've lived on this street for... / I've worked in... for...",
+      "Every one of us has seen...",
+      "The numbers tell the same story:...",
+      "For the cost of..., we could...",
+      "I'm asking you to..."
+    ],
+    "model_answer": "I've coached the youth soccer program here for six years, so I've watched our kids play on a field that floods every spring. Every one of us has driven past and seen them practicing in the parking lot instead. The numbers tell the same story: we lost eleven practice weeks last year. For the cost of resurfacing one road — about forty thousand dollars — proper drainage would give three hundred children a usable field year-round. I'm asking you to put it on this year's budget."
+  },
+  "writing_workshop": {
+    "task": "Write a persuasive paragraph for a real audience (council, school board, employer). Deliberately deploy ethos, pathos, and logos, and avoid the three fallacies from this lesson (slippery slope, straw man, false dilemma).",
+    "word_count": "150-200",
+    "model_text": "As a nurse of twelve years at Riverside Clinic, I urge the board to fund evening interpreter hours. Last month I watched a father use his ten-year-old daughter to translate her own mother's cancer diagnosis — a scene no family should endure and no clinician can accept. The case for funding is practical as well as moral: appointments with professional interpreters run eleven minutes shorter on average and produce fewer medication errors, which are costs the clinic currently absorbs. Some will say budgets are tight. They are — which is why we should spend where the return is clearest.",
+    "model_analysis": "Ethos arrives in the first clause (twelve years as a nurse), pathos in the specific scene rather than abstract sentiment, and logos in the quantified claims. The objection is answered without misrepresenting it.",
+    "success_criteria": [
+      "All three appeals present and identifiable",
+      "A concrete scene or example, not abstract emotion",
+      "At least one quantified or verifiable claim",
+      "No slippery slope, straw man, or false dilemma"
+    ]
+  }
 }

@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "At a professional event, you meet someone who works at an organization you would like to join.",
+    "prompt": "Record the conversation opener and follow-up you would use: introduce yourself memorably, ask one genuine question about their work, and close by proposing a specific, low-cost way to stay in touch. About one minute.",
+    "useful_language": [
+      "What I'm working on lately is...",
+      "I read about your team's... — how is that going from the inside?",
+      "That connects to something I've been trying to solve...",
+      "Would it be all right if I sent you...",
+      "I won't take more of your evening — it was a pleasure."
+    ],
+    "model_answer": "Hi — I'm Hodan Farah. I run intake operations at a community clinic, and lately I've been building our interpreter scheduling from scratch, which is why your badge caught my eye. I read that Fairview centralized its interpreter services last year — how has that worked from the inside? ... That's genuinely useful; the confirmation-penalty idea connects to a contract problem I'm wrestling with now. Would it be all right if I sent you a short note next week with what we end up doing? I'd value your reaction, and I promise to keep it to one paragraph. I won't take more of your evening — it was a pleasure meeting you."
+  },
+  "writing_workshop": {
+    "task": "Write two short networking messages: (1) a follow-up within 48 hours of meeting someone, referencing the conversation; (2) a 'weak-tie revival' note to someone you have not contacted in a year — each with a specific, low-cost ask or none at all.",
+    "word_count": "140-190",
+    "model_text": "Follow-up: Subject: Interpreter scheduling — the one-paragraph note I promised. Hi Marcus, good meeting you at the MHA reception on Thursday. As threatened: we adopted the confirmed-booking clause you described, adapted for a clinic our size, and I've attached the two-line summary. If Fairview ever publishes its no-show data, I'd be glad to see it — and if I can return the favor with our small-clinic numbers, say the word. Best, Hodan. Revival: Subject: Long overdue hello. Hi Priya, it's been over a year since the analytics course, and I still use your advice about presenting one chart per decision. I saw your team's expansion announcement last month — congratulations. No ask here; just glad to see it, and if you're ever comparing notes on clinic dashboards, mine are yours. Warmly, Hodan.",
+    "model_analysis": "Both notes lead with specific shared context, offer value before requesting any, and keep the ask either tiny or absent — which is what makes weak ties easy to maintain and pleasant to receive.",
+    "success_criteria": [
+      "Specific reference to the shared context",
+      "Value offered, not only requested",
+      "A low-cost ask, or deliberately none",
+      "Brevity a busy reader would thank you for"
+    ]
+  }
 }

@@ -254,5 +254,30 @@
       ],
       "correct": 2
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A junior colleague has asked you how to email a senior director they have never met.",
+    "prompt": "Give one minute of advice: how to calibrate register for a first email to someone senior, what to mirror in the reply, and one example opening and closing you would use.",
+    "useful_language": [
+      "For a first contact, I'd err on the side of...",
+      "Match their register, one notch more formal.",
+      "An opening that works is...",
+      "Avoid sounding curt — 'Fine.' reads as...",
+      "Once they sign off with their first name,..."
+    ],
+    "model_answer": "For a first contact with a director, I'd err on the side of formal: 'Dear Ms. Alvarez,' a one-line reason for writing, and a specific, small request. Keep it under five sentences — senior people read on phones. An opening that works: 'I'm writing at Sarah Chen's suggestion regarding the vendor review.' Close with 'Kind regards' and your full name and role. Then mirror the reply: once she signs off as 'Elena,' you may open with 'Hi Elena,' but stay one notch more formal than she is. And watch curtness — a one-word 'Fine.' reads as irritation in email, even when you meant agreement."
+  },
+  "writing_workshop": {
+    "task": "Write a difficult professional email: you must tell a client or senior colleague that a deadline will slip. Deliver the news early and clearly, give the reason without blame, and propose a concrete recovery plan.",
+    "word_count": "120-170",
+    "model_text": "Subject: Riverside report — revised delivery date and plan. Dear Mr. Osman, I want to flag a schedule change early rather than surprise you later: the audit report will be ready Thursday the 21st, one week after the original date. The delay comes from the expanded transaction sample we agreed on in March, which doubled the review workload; the additional coverage is worth having, but I underestimated the time it required, and that misjudgment is mine. To keep your board timeline intact, we will deliver the executive summary and key findings this Friday, with the full documentation to follow on the 21st, and I will hold time for a call at your convenience next week. Thank you for your patience — the final report will be the stronger for it. Kind regards, Amina Warsame.",
+    "model_analysis": "The subject line does honest work, the bad news arrives in sentence one, ownership is taken in a single clause without groveling, and the recovery plan gives the reader something to act on rather than merely forgive.",
+    "success_criteria": [
+      "Bad news stated early and plainly",
+      "Reason given with ownership, no blame-shifting",
+      "A concrete recovery plan with dates",
+      "Professional register calibrated to the reader"
+    ]
+  }
 }

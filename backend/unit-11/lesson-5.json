@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "presentation",
+    "context": "You are opening a ten-minute presentation to management proposing a change you believe in.",
+    "prompt": "Record your opening ninety seconds: a hook, the tell-tell-tell roadmap with exactly three points, and a signpost into the first point.",
+    "useful_language": [
+      "Let me start with a number/scene:...",
+      "Today I'll make three points.",
+      "First... second... and third...",
+      "By the end, I'll be asking you to decide one thing:...",
+      "So, to the first point."
+    ],
+    "model_answer": "Last Tuesday, four patients left our waiting room without being seen — that's twenty-two this month, and each one is a missed diagnosis waiting to happen. Today I'll make three points. First, the walk-out numbers and what drives them: it's not staffing levels, it's scheduling shape. Second, what the pilot clinic changed — and the forty percent drop that followed. Third, what adopting the same model here would cost, which is less than you'd guess. By the end, I'll be asking you to decide one thing: whether we run the same pilot for ninety days. So, to the first point — the shape of our mornings."
+  },
+  "writing_workshop": {
+    "task": "Write the complete outline script for a five-minute persuasive presentation: hook, three-point roadmap, one signposted transition per section, and a closing that makes a single explicit ask.",
+    "word_count": "180-240",
+    "model_text": "Hook: Every Friday, our team spends four combined hours copying numbers between two systems that don't talk to each other — two hundred hours a year, or five full working weeks. Roadmap: I'll make three points: what the manual transfer actually costs, what the integration would take, and why this quarter is the moment. Point one (cost): beyond the hours, manual transfer caused six reporting errors last year; two reached clients. Transition: That's the problem's price tag — here's the solution's. Point two (the fix): the vendor's connector costs eight thousand dollars and two days of IT time; I've confirmed both. Transition: So it's affordable — why now rather than someday? Point three (timing): the vendor's price rises in January, and Q4 is our lightest reporting load, making it the safest window we will get. Close: I'm asking for one decision today: approve the eight-thousand-dollar connector for a November install. Five weeks of staff time a year comes back the day it goes live.",
+    "model_analysis": "Three points, each signposted; the hook and the close use the same quantity (five weeks) so the talk lands where it began; and the ask is single and decidable in the room.",
+    "success_criteria": [
+      "A concrete hook with a number or scene",
+      "Exactly three points with explicit signposting",
+      "Transitions a distracted listener could rejoin at",
+      "One explicit, decidable ask at the close"
+    ]
+  }
 }

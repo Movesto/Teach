@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are recording a segment for other advanced learners about idioms in American workplaces.",
+    "prompt": "Teach three idioms or phrasal verbs you have actually encountered: the literal image, the real meaning, the register, and one context where each would misfire. Speak for about 90 seconds.",
+    "useful_language": [
+      "The image behind it is...",
+      "What it actually means is...",
+      "You'll hear it in..., but never in...",
+      "The Latinate equivalent is...",
+      "Where it misfires is..."
+    ],
+    "model_answer": "Three from my first American office. 'Circle back' — the image is walking a loop; the meaning is 'return to this topic later,' and half the time it politely means never. Fine in meetings; in a formal report you'd write 'revisit.' 'Touch base' — a baseball image; it means a brief check-in, and the Latinate equivalent is 'confer' or simply 'meet.' Where it misfires is with clients from outside baseball cultures — I once promised a Somali elder we'd 'touch base' and he understandably asked which base. And 'put off' — meaning postpone; you can put off a meeting with colleagues, but in the minutes it should be 'postponed.' The pattern to steal: phrasal for the hallway, Latinate for the page."
+  },
+  "writing_workshop": {
+    "task": "Write a short register-shifting exercise: one workplace paragraph saturated with phrasal verbs and idioms (spoken register), then the same content rewritten with Latinate equivalents (formal written register), then two sentences on what shifted.",
+    "word_count": "150-200",
+    "model_text": "Spoken: Quick heads-up — the vendor call got pushed back to Thursday, so we'll need to touch base beforehand to figure out our numbers. Can you dig up last quarter's report and run through it before we sit down? If anything looks off, flag it and we'll iron it out then. Formal: Please note that the vendor meeting has been postponed until Thursday; we should therefore confer beforehand to determine our figures. Kindly retrieve last quarter's report and review it prior to our discussion. If any discrepancies emerge, identify them and we will resolve them at that time. What shifted: every phrasal verb found a Latinate partner — pushed back/postponed, dig up/retrieve, run through/review, iron out/resolve — and with them the social distance: the first paragraph presumes a relationship, the second constructs a record.",
+    "model_analysis": "The pairs are the lesson: same propositions, different register machinery, and the closing reflection names what the machinery does — intimacy in one direction, auditability in the other.",
+    "success_criteria": [
+      "A natural spoken version dense with phrasal verbs/idioms",
+      "An accurate formal rewrite with Latinate equivalents",
+      "Meaning preserved across both",
+      "A precise reflection on the register shift"
+    ]
+  }
 }

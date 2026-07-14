@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "A colleague has repeatedly taken credit for work you did together. You have asked to speak privately.",
+    "prompt": "Record what you would say to open this difficult conversation. Describe the behavior, its impact, and invite their perspective — without accusation. Speak for 60-90 seconds.",
+    "useful_language": [
+      "I want us to keep working well together, so I'd like to raise something.",
+      "When X happened, the effect on me was...",
+      "I may be missing context, so...",
+      "How do you see it?",
+      "What I'd like going forward is..."
+    ],
+    "model_answer": "Thanks for making time. I want us to keep working well together, so I'd like to raise something directly. In Monday's meeting, the migration plan was presented as your work, and my part wasn't mentioned. The effect on me was real: my manager asked what I'd been contributing. I may be missing context, so I wanted to hear how you see it. Going forward, I'd like us to present shared work as shared."
+  },
+  "writing_workshop": {
+    "task": "Write a short message (email or chat) raising a workplace problem with a colleague using diplomatic directness: neutral description of behavior, impact, and a forward-looking request.",
+    "word_count": "120-160",
+    "model_text": "Hi Jordan — I'd like to flag something small before it becomes something big. The last two status reports went out before I had a chance to review the sections that cover my team's work, and both contained figures we'd already corrected. When that happens, my team spends the week answering questions about numbers that aren't ours. Could we agree that I get a same-day look before the report goes out? Happy to turn reviews around within two hours. Thanks — I think this one change saves us both some noise.",
+    "model_analysis": "The message describes behavior ('reports went out before review') rather than character, names a concrete impact, and ends with a specific, low-cost request framed as mutual benefit.",
+    "success_criteria": [
+      "Behavior described neutrally, without accusations",
+      "Concrete impact stated",
+      "A specific, forward-looking request",
+      "Professional, non-escalating tone"
+    ]
+  }
 }

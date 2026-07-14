@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "Your organization's hiring review found that applicants with foreign credentials were screened out at twice the rate of others. You are speaking in the meeting about it.",
+    "prompt": "Make a one-minute intervention that moves the discussion from individual blame to process analysis, and propose one concrete change. Use the language of accountability from the lesson.",
+    "useful_language": [
+      "I don't think anyone here intended...",
+      "The more useful question is what the process does.",
+      "The screen filters out..., regardless of intent.",
+      "A concrete change would be...",
+      "We should measure whether..."
+    ],
+    "model_answer": "I don't think anyone here intended to exclude internationally trained applicants, and I'd rather we skip the question of intent entirely — the more useful question is what the process does. Right now the screening software rejects any application without a US degree in the education field, so a nurse with fifteen years' experience and full state licensure never reaches human eyes. The screen filters out exactly the people our clinics say they can't find, regardless of anyone's intent. A concrete change: make state licensure, not degree origin, the pass criterion, and have HR report the screen-out rates by credential origin quarterly, so we can see whether the fix works."
+  },
+  "writing_workshop": {
+    "task": "Draft a short institutional accountability statement for a real or invented failure, containing all three elements from the lesson: name the act, accept agency, commit to specific change. Then add one sentence identifying which common evasions you avoided.",
+    "word_count": "150-200",
+    "model_text": "Statement: Between January and June, our clinic's appointment system sent reminder messages in English only, and as a direct result, patients with limited English missed appointments at three times the rate of other patients — missed care that we caused. We are changing the system this quarter: reminders will go out in the five most common patient languages, patients will set their language preference at registration, and we will publish no-show rates by language group every six months so our progress can be checked by others. We apologize to the patients affected and are contacting each of them to reschedule. Reflection: This statement avoids the agentless 'mistakes were made,' avoids locating the harm in feelings ('we regret any confusion'), and ties the apology to a measurable commitment with a public check.",
+    "model_analysis": "The statement names the act with its consequence, uses first person plural with an active verb ('we caused'), and makes the commitment falsifiable through published metrics — the three elements that distinguish accountability from public relations.",
+    "success_criteria": [
+      "The act named concretely, with its impact",
+      "Agency accepted in active voice",
+      "A specific, checkable commitment",
+      "Common evasions identified and avoided"
+    ]
+  }
 }

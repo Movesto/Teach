@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "A civic debate club asks members to analyze one piece of political rhetoric.",
+    "prompt": "Choose a slogan or soundbite. In one minute: apply the publicity test, identify one euphemism or agentless construction, and restate the message in Orwell's concrete style.",
+    "useful_language": [
+      "Apply the publicity test: could the speaker state the real premise aloud?",
+      "The phrase '...' is doing quiet work here.",
+      "Notice there is no agent in that sentence.",
+      "Said concretely, it means:...",
+      "The concrete version can be debated; the original can only be applauded."
+    ],
+    "model_answer": "Take the phrase 'tough choices will have to be made about senior services.' Apply the publicity test: could the speaker state the premise aloud — 'I intend to cut the senior center budget'? If not, the vagueness is the strategy. Notice there is no agent: choices 'will have to be made,' by nobody in particular, as if budget cuts were weather. And 'tough choices' is doing quiet work — it praises the cutter's courage instead of describing the cut. Said concretely: 'I will vote to reduce senior center funding by two hundred thousand dollars, closing the Tuesday and Thursday meal program.' The concrete version can be debated; the original can only be applauded. That difference is the whole game."
+  },
+  "writing_workshop": {
+    "task": "Take one real or invented piece of political language and write a two-part analysis: first, name its mechanisms (euphemism, agentless passive, ready-made phrases); second, rewrite the message in Orwell's concrete style and reflect on what the rewrite exposes.",
+    "word_count": "160-210",
+    "model_text": "The statement: 'Regrettable outcomes occurred during the facility's transition period, and lessons have been learned.' Mechanisms: 'regrettable outcomes' is euphemism — the outcomes were four residents hospitalized for medication errors; 'occurred' presents harm as weather; 'transition period' relocates blame to the calendar; and 'lessons have been learned' is an agentless passive so complete that no one, grammatically, learned anything. The sentence is engineered to be quotable and unactionable. Concrete rewrite: 'During the ownership change in March, the facility cut nursing staff by a third; four residents were hospitalized after missed medications. We are rehiring to the previous staffing level and publishing monthly medication audits.' What the rewrite exposes: the original had no facts to hide because it had removed them all — and once the facts return, accountability follows them into the sentence. The euphemistic version protects its author; the concrete version protects the residents.",
+    "model_analysis": "The analysis names each mechanism with its instance, and the rewrite demonstrates Orwell's point in action: concreteness is not a style preference but the grammatical precondition of accountability.",
+    "success_criteria": [
+      "Mechanisms named and matched to exact phrases",
+      "A concrete rewrite with agents, numbers, and actions",
+      "Reflection on what the rewrite exposes",
+      "Analytical, not partisan, tone"
+    ]
+  }
 }

@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are explaining your essay plan to a study partner before writing it.",
+    "prompt": "Choose a thesis you could defend and talk through a three-paragraph argument plan: the claim of each paragraph, the evidence you would use, and how each links back to the thesis. Speak for about 90 seconds.",
+    "useful_language": [
+      "My thesis is that...",
+      "The first paragraph establishes...",
+      "The strongest evidence here is...",
+      "This connects back to the thesis because...",
+      "The counterargument paragraph will address..."
+    ],
+    "model_answer": "My thesis is that the city's new bus-lane network has succeeded on its own terms. The first paragraph establishes what those terms were: the stated goals of speed and ridership. The strongest evidence is the transit authority's before-and-after data — travel times down eighteen percent, ridership up nine. The second paragraph handles the counterargument about car congestion, using the traffic study showing delays rose less than two minutes. The final paragraph argues the trade-off matches the city's declared priorities, which returns to the thesis: judged by its goals, the project delivered."
+  },
+  "writing_workshop": {
+    "task": "Write one complete academic body paragraph on a topic you know: topic sentence, evidence, interpretation of that evidence, and a closing link to a broader thesis. Do not end on a quotation.",
+    "word_count": "130-180",
+    "model_text": "Community health workers reduce hospital readmissions because they address the non-medical causes of relapse. In one randomized trial at a Philadelphia hospital, patients paired with a community health worker were thirty percent less likely to be readmitted within thirty days than the control group. The figure matters less for its size than for its mechanism: the workers spent most of their hours on housing letters, food access, and transportation to follow-up appointments — factors no prescription touches. Medicine treated the disease; the workers treated the circumstances that cause its return. This is precisely the gap that a purely clinical model of care leaves open, and it is where the rest of this essay will argue reform should concentrate.",
+    "model_analysis": "The paragraph's third and fourth sentences do the interpretive work students often skip: they explain why the statistic matters and what mechanism it reveals, in the writer's own voice, before the final sentence links forward to the thesis.",
+    "success_criteria": [
+      "A topic sentence stating the paragraph's claim",
+      "Specific evidence",
+      "Interpretation in your own voice — the 'so what' of the evidence",
+      "A closing sentence linking to a broader argument, not a quotation"
+    ]
+  }
 }

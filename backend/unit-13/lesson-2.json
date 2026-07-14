@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are making a formal argument at a public meeting and want your key sentence to land.",
+    "prompt": "Deliver a one-minute argument that deliberately uses one inversion ('Never/Not only...'), one cleft ('What matters is...'), and one participle clause — and make them sound natural, not decorative.",
+    "useful_language": [
+      "Never have we...",
+      "Not only does this..., it also...",
+      "What concerns me most is...",
+      "Having reviewed..., I can say...",
+      "It is ... that deserves our attention."
+    ],
+    "model_answer": "Having reviewed every budget this committee has passed since 2019, I can say this plainly: never have we asked so much of the library system while giving it so little. Not only does the branch serve twice the visitors it did five years ago, it does so with three fewer staff. What concerns me most is not the overwork, though that is real — it is the closing of the children's hour, the one program with a waiting list. It is that program, not the paint budget, that deserves restoration first."
+  },
+  "writing_workshop": {
+    "task": "Write a formal paragraph (argument or analysis) that uses at least four advanced structures purposefully: inversion, a cleft sentence, a participle clause, and one nominalization or subjunctive — then annotate in brackets what each structure contributes.",
+    "word_count": "150-200",
+    "model_text": "Having examined the clinic's staffing data for the past three years [participle clause: compresses the credential into a subordinate position], I find the pattern difficult to dismiss. Not only have interpreter hours failed to keep pace with patient growth; they have declined in absolute terms [inversion: the fronted negative concentrates emphasis on the failure]. What the numbers conceal is the human sequence behind each missed appointment — the unexplained diagnosis, the medication taken wrongly, the return visit that costs more than the interpreter would have [cleft: aims the reader at the concealment itself]. The speed of the board's decision will determine whether this winter repeats the last [nominalization: 'the speed of their decision' turns an event into a measurable subject]. I therefore recommend that the interpreter budget be restored before the January cycle [subjunctive: formal register for a formal demand].",
+    "model_analysis": "Each structure earns its place: the annotations force the writer to justify markedness, which is the difference between sophistication and ornament.",
+    "success_criteria": [
+      "All four structures present and grammatical",
+      "Each annotated with its rhetorical contribution",
+      "The paragraph reads as argument, not as a grammar showcase",
+      "Formal register sustained"
+    ]
+  }
 }

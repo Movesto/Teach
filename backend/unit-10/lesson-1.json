@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are mentoring a newly arrived friend about workplace communication in the United States.",
+    "prompt": "Describe one real or plausible cross-cultural misunderstanding (direct vs. indirect style), explain what each person likely intended, and give your friend one practical repair strategy. Speak for about 90 seconds.",
+    "useful_language": [
+      "In my experience, Americans tend to...",
+      "Where I grew up, saying that directly would...",
+      "Neither side was being rude — the systems just differ.",
+      "What I do now is...",
+      "A phrase that helps is..."
+    ],
+    "model_answer": "In my experience, Americans tend to treat 'no' as information, not insult. Where I grew up, refusing a request from an elder directly would be shameful, so we say 'inshallah' or 'I will try.' My first supervisor heard 'I will try' as a promise, and when the task wasn't done, she thought I had lied — while I thought I had been polite. Neither side was being rude; the systems just differ. What I do now is add one sentence of translation: 'Honestly, I don't think I can finish this by Friday — Monday is realistic.' A phrase that helps is 'to be direct with you' — Americans hear it as a gift."
+  },
+  "writing_workshop": {
+    "task": "Write a reflective paragraph analyzing one cross-cultural communication difference you have experienced or observed, using the high-context/low-context framework from the lesson. Avoid ranking either culture as better.",
+    "word_count": "150-200",
+    "model_text": "The word 'maybe' taught me the difference between my two worlds. In Mogadishu, when my aunt asked relatives to a wedding, 'maybe' was a soft and complete answer; pressing for certainty would have been the rude act, because the relationship mattered more than the calendar. In Minneapolis, when I told my supervisor 'maybe' about a Saturday shift, she waited, then asked, 'So is that a yes or a no?' — not from impatience, I later understood, but because in her system an unclear answer creates work for the other person. Neither reading of 'maybe' is wrong. One protects the relationship in the moment; the other protects the plan. I have learned to ask myself which is being protected before I choose my answer.",
+    "model_analysis": "The paragraph anchors the framework in one concrete word, gives both cultural logics a fair rationale, and ends with a transferable insight rather than a verdict.",
+    "success_criteria": [
+      "One specific, concrete example",
+      "Both communication systems explained from the inside",
+      "The high-context/low-context concept applied accurately",
+      "No ranking of cultures as better or worse"
+    ]
+  }
 }

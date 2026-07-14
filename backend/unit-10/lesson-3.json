@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "A new colleague from a very direct culture asks you why the team leader said 'interesting idea, let's revisit it later' about their proposal.",
+    "prompt": "Explain to your colleague what the phrase likely meant, how to verify the real message politely, and what to do next. Speak for about one minute.",
+    "useful_language": [
+      "In this office, that phrase usually means...",
+      "It's not dishonesty — it's a politeness system.",
+      "A way to check without forcing a confrontation is...",
+      "Watch for signals like...",
+      "If you want the idea to survive, I'd suggest..."
+    ],
+    "model_answer": "I'll be honest with you: in this office, 'let's revisit it later' usually means the idea is parked, possibly permanently. It's not dishonesty — it's a politeness system that avoids public rejection. A way to check without forcing a confrontation is a private follow-up: 'Should I develop the proposal further, or are there concerns I should address first?' That gives her a graceful way to say what she really thinks. Watch for signals like whether it appears in the meeting notes. If you want the idea to survive, I'd suggest finding one ally before raising it again."
+  },
+  "writing_workshop": {
+    "task": "Write a short 'decoder guide' for newcomers to a workplace or community you know: four indirect phrases people actually use, what each usually means, and one polite way to verify the real message.",
+    "word_count": "150-200",
+    "model_text": "A newcomer's decoder for our office. 'Let's take this offline' — the discussion is embarrassing someone; expect it to continue privately or not at all. 'I hear you' — acknowledgment, not agreement; do not book the celebration. 'We've always done it this way' — the real objection is effort or risk, not tradition; answer the unspoken cost, not the stated history. 'Do you have capacity for this?' — from a manager, this is usually an assignment wearing a question's clothes; the honest answers are 'yes' or 'yes, if X moves.' To verify any of them, the all-purpose polite probe is: 'Just so I plan correctly — should I treat this as a priority, or as an idea for later?' It converts atmosphere into information without accusing anyone of indirectness.",
+    "model_analysis": "Each entry pairs the surface phrase with its usual function and keeps the tone observational rather than cynical; the closing probe shows how to check meaning while letting everyone save face.",
+    "success_criteria": [
+      "Four authentic indirect phrases with plausible decodings",
+      "A workable verification question",
+      "Observational, non-judgmental tone",
+      "Concise entries a newcomer could actually use"
+    ]
+  }
 }

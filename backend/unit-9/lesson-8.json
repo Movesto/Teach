@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are leading a media-literacy workshop segment on how grammar shapes news.",
+    "prompt": "Take a real or invented headline in the passive voice ('Protesters arrested', 'Funding cut'). Explain to your audience who has disappeared from the sentence, why the choice matters, and rephrase it actively. Speak for about one minute.",
+    "useful_language": [
+      "Notice who is missing from this sentence.",
+      "The passive lets the writer avoid saying...",
+      "Rephrased actively, it would read...",
+      "The question to ask is: by whom?",
+      "Neither version is false, but..."
+    ],
+    "model_answer": "Take the headline 'School lunch funding cut.' Notice who is missing: funding doesn't cut itself. The passive lets the writer avoid saying who acted — rephrased actively, it would read 'The state legislature cut school lunch funding,' and suddenly there is someone to call, someone to vote on. Neither version is false, but only one gives readers an address for their response. The question to train yourself to ask, every time, is simply: by whom?"
+  },
+  "writing_workshop": {
+    "task": "Write two versions of the same short news paragraph — one strategically passive, one active with agents named — followed by two sentences analyzing how the versions differ in assigned responsibility.",
+    "word_count": "150-200",
+    "model_text": "Version A: Rents in the Cedar district were raised sharply last quarter, and dozens of long-term tenants were displaced. Concerns have been raised about the pace of change. Version B: Marsh Properties, which bought four Cedar district buildings in January, raised rents by up to forty percent last quarter, displacing dozens of long-term tenants. Tenant organizations and two council members have raised concerns. Analysis: Version A reports the same events with every actor removed — rents simply rise, tenants are simply displaced, concern arrives from nowhere. Version B assigns each action an agent, giving readers someone to question and a decision that could have been otherwise.",
+    "model_analysis": "The exercise makes the grammar visible: the passive version is not inaccurate, but it converts decisions into weather. Naming agents restores the possibility of accountability.",
+    "success_criteria": [
+      "Both versions grammatical and factually parallel",
+      "Passive and active used deliberately, not accidentally",
+      "The analysis names what changed in responsibility",
+      "Concise, news-register prose"
+    ]
+  }
 }

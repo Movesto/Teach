@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A community podcast has invited you to give a two-minute opinion segment on a local issue you care about.",
+    "prompt": "Give a nuanced opinion on an issue in your city (housing, transit, schools). State your position, concede one point to the other side, then counter it. Speak for about two minutes.",
+    "useful_language": [
+      "While I understand the concern that...",
+      "The evidence suggests that...",
+      "That said, I would argue...",
+      "It's worth acknowledging that...",
+      "On balance, I believe..."
+    ],
+    "model_answer": "While I understand the concern that new apartment buildings change a neighborhood's character, I would argue the housing shortage is the more urgent problem. Rents in our area have risen thirty percent in five years, and families I know are leaving. It's worth acknowledging that construction is disruptive — but the disruption is temporary, and the displacement of long-term residents is not. On balance, I believe the council should approve the Oak Street development, with conditions on parking and green space."
+  },
+  "writing_workshop": {
+    "task": "Write an opinion paragraph on a public issue using the concede-and-counter structure: state your claim, concede the strongest opposing point fairly, then counter it with evidence or reasoning.",
+    "word_count": "150-200",
+    "model_text": "Our city should replace the downtown parking minimums that require every new building to include off-street parking. Admittedly, parking is already difficult, and residents reasonably fear that new housing without garages will crowd the streets further. However, the requirement adds roughly fifty thousand dollars per unit to construction costs — costs that renters ultimately pay — while studies from comparable cities show that many downtown residents own no car at all. Building housing for people, rather than storage for vehicles they may not have, is the better bargain.",
+    "model_analysis": "The paragraph states its claim in the first sentence, concedes the opposing concern with 'Admittedly' and treats it as reasonable, then pivots with 'However' to two pieces of evidence before closing with a memorable formulation.",
+    "success_criteria": [
+      "A clear claim stated early",
+      "One opposing point conceded fairly, not as a caricature",
+      "A counter supported by evidence or reasoning",
+      "Hedged, measured language rather than absolute statements"
+    ]
+  }
 }

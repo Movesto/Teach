@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are presenting preliminary research findings to a skeptical academic audience.",
+    "prompt": "Present one finding in 60-90 seconds with calibrated hedging: claim exactly what your evidence supports, anticipate the strongest objection (procatalepsis), and answer it before questions open.",
+    "useful_language": [
+      "Our data suggest, though do not establish,...",
+      "The effect is consistent with..., but so is...",
+      "It might reasonably be objected that...",
+      "We anticipated this by...",
+      "The claim I am prepared to defend is precisely this:..."
+    ],
+    "model_answer": "Our data suggest, though they do not establish, that the tutoring program improves reading outcomes: the ninety students enrolled gained on average four months of reading level against the district's two. It might reasonably be objected that families who enroll are already more engaged — that we are measuring parents, not tutoring. We anticipated this by comparing enrollees against the waitlist, families identical in motivation who differed only in a lottery: the gap persists at three months. The effect is consistent with a causal story, but so is one further confound we cannot yet exclude, attendance at the after-school meal program housed in the same building. The claim I am prepared to defend is precisely this: the program plausibly works, the lottery comparison survives the selection objection, and the meal-program confound is the next thing to test."
+  },
+  "writing_workshop": {
+    "task": "Write an academic paragraph presenting a finding (real or invented) with calibrated hedging and one procatalepsis: every qualifier must be load-bearing, and the anticipated objection must be the strongest available, not a convenient one.",
+    "word_count": "150-200",
+    "model_text": "The survey results suggest an association between evening interpreter availability and appointment adherence: clinics offering evening interpreter hours recorded no-show rates roughly a third lower than otherwise comparable clinics. We stop short of a causal claim for two reasons: clinics were not randomly assigned, and evening interpreter hours correlate with evening clinical hours generally, so patients may be responding to scheduling convenience rather than language access. The strongest objection deserves stating plainly: perhaps clinics progressive enough to fund evening interpreters differ across a dozen unmeasured dimensions, and interpreters merely mark, rather than make, the difference. Two features of the data resist that reading, without defeating it — the association holds within clinic systems under common management, and it strengthens in the language groups with the least English proficiency, exactly where an interpreter mechanism predicts and a general-quality mechanism does not. The finding therefore warrants a randomized trial; it does not yet warrant a mandate.",
+    "model_analysis": "Each hedge carries information ('suggest', 'roughly', 'stop short of'), the objection chosen is genuinely the strongest (unmeasured clinic quality), and the reply is honest about its limits — persuading a skeptical reader precisely by refusing to overclaim.",
+    "success_criteria": [
+      "Hedges calibrated to the actual evidence",
+      "The strongest objection anticipated, not a strawman",
+      "A reply that is honest about its own limits",
+      "A closing claim sized exactly to what was shown"
+    ]
+  }
 }

@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "role-play",
+    "context": "In one afternoon you must make the same request — moving a deadline — to a close teammate, a department head, and an external client.",
+    "prompt": "Record all three versions of the request back to back, shifting register deliberately each time, and end with one sentence naming what you changed.",
+    "useful_language": [
+      "Any chance we could...",
+      "Would it be possible to...",
+      "I would be grateful if we could...",
+      "I realize the timing isn't ideal...",
+      "What I changed between versions was..."
+    ],
+    "model_answer": "To my teammate: 'Hey — any chance we push the draft to Monday? The data came in late and I'd rather send you something real.' To the department head: 'Would it be possible to move the draft deadline to Monday? The vendor data arrived Thursday, and the extra two days would let me verify the figures rather than caveat them.' To the client: 'I would be grateful if we could deliver the draft on Monday rather than Friday. The final dataset reached us later than scheduled, and I would rather give you verified figures than fast ones. I realize the timing isn't ideal and appreciate your flexibility.' What I changed: contractions and directness for the teammate, a reasoned conditional for the manager, full forms, gratitude, and an acknowledgment of cost for the client — same request, three distances."
+  },
+  "writing_workshop": {
+    "task": "Write the same message — declining an invitation or request — in three registers (close colleague, senior manager, external contact you've never met), then a closing note identifying the specific formality materials you adjusted.",
+    "word_count": "150-200",
+    "model_text": "To a teammate: 'Ah, can't make Thursday — I'm slammed with the audit. Rain check? You'll crush it without me.' To a senior manager: 'Thank you for including me in Thursday's session. Unfortunately I can't attend, as the audit deadline falls the same afternoon. I'd welcome the chance to review the notes and contribute afterward.' To an external contact: 'Dear Ms. Tran, Thank you very much for the invitation to Thursday's roundtable. Regrettably, I am unable to attend owing to a prior commitment, but I would be glad to participate on a future occasion, and I wish you a productive session. Kind regards.' Materials adjusted: contractions (can't → cannot territory), vocabulary altitude (slammed → deadline → prior commitment), the presence of thanks and well-wishes, and how much reason the reader is owed — the teammate gets the truth, the manager gets the relevant fact, the stranger gets courteous opacity.",
+    "model_analysis": "The three versions decline identically; what varies is disclosure and distance. The note makes the machinery explicit — the goal is a dial the writer can set, not a single 'polite' setting.",
+    "success_criteria": [
+      "Three genuinely distinct registers for one speech act",
+      "Formality materials (contractions, vocabulary, hedges) shifted deliberately",
+      "Appropriate disclosure level per audience",
+      "A closing note naming what changed"
+    ]
+  }
 }

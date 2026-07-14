@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are coaching a colleague whose emails are twice as long as they need to be.",
+    "prompt": "Take three wordy sentences (your own or invented), speak each aloud, then deliver the concise revision and name the cut you made. About one minute.",
+    "useful_language": [
+      "The original says... — hear the padding?",
+      "'It is important to note that' announces; it doesn't inform.",
+      "'Very tired' is 'exhausted.'",
+      "'Conduct an analysis of' is just 'analyze.'",
+      "Same meaning, half the words."
+    ],
+    "model_answer": "Original one: 'It is important to note that the meeting has been rescheduled.' Hear the padding? 'It is important to note that' announces without informing. Revision: 'The meeting has moved to Tuesday.' Original two: 'We will conduct a thorough analysis of each and every complaint.' Two cuts: the nominalization 'conduct an analysis of' is just 'analyze,' and 'each and every' is a redundant pair. Revision: 'We will analyze every complaint.' Original three: 'The results were very surprising to all of us.' The weak intensifier is a signal to upgrade the word. Revision: 'The results astonished us.' Same meanings, half the words — and the reader's attention is a budget you just stopped overspending."
+  },
+  "writing_workshop": {
+    "task": "Take a flabby paragraph (write one or use a real draft of ~120 words), produce a revision cutting at least 30% of the words with no loss of meaning, and list each cut by category (redundant pair, throat-clearing, weak intensifier, nominalization).",
+    "word_count": "170-220",
+    "model_text": "Draft (108 words): 'It is important to note that, at this point in time, our team is currently in the process of conducting a review of each and every one of the onboarding documents. The reason for this is due to the fact that a number of new employees have made the observation that the materials are very confusing and not really up to date. In the event that we find problems, we will make revisions to the documents and provide notification to all of the relevant stakeholders as soon as is reasonably possible.' Revision (44 words): 'We are reviewing all onboarding documents because several new employees found them confusing and outdated. If we find problems, we will revise the documents and notify stakeholders promptly.' Cuts: throat-clearing ('It is important to note that'); redundant pairs ('each and every', 'at this point in time' + 'currently'); nominalizations ('conduct a review' → review, 'make revisions' → revise, 'provide notification' → notify); weak intensifiers ('very confusing', 'not really up to date' → outdated); and the double causal ('the reason... is due to the fact that' → because). Fifty-nine percent shorter; nothing lost but fog.",
+    "model_analysis": "The categorized cut list is the pedagogy: naming each deletion builds the reflex, and the word counts prove concision is measurable, not a matter of taste.",
+    "success_criteria": [
+      "At least 30% reduction with meaning preserved",
+      "Cuts categorized accurately",
+      "The revision reads naturally, not telegraphically",
+      "Word counts reported for both versions"
+    ]
+  }
 }

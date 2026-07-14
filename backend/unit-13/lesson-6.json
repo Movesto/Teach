@@ -255,5 +255,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A capstone recording: you are asked to demonstrate mastery by saying less than you could.",
+    "prompt": "Give a one-minute assessment of something imperfect (a proposal, a performance, a plan) that remains truthful and useful while controlling implication: use understatement, one strategic silence, and stress placement — then say, in one sentence, what you deliberately did not say.",
+    "useful_language": [
+      "The proposal is certainly ambitious.",
+      "There is much here to admire — the research section in particular.",
+      "I'd want to see the budget assumptions tested.",
+      "What I'll say is...; what I'd examine further is...",
+      "You'll notice what I haven't commented on."
+    ],
+    "model_answer": "The proposal is certainly ambitious, and the research section in particular repays close reading — it is the strongest work this team has produced. The timeline strikes me as optimistic, and I would want the budget assumptions tested by someone who did not write them. The partnership strategy I will leave for the group to evaluate. What I would examine further, before any signature, is the revenue projection for year two — examined slowly, and with the original spreadsheets open. You will notice what I haven't commented on: I have said nothing about whether I would fund it, because 'certainly ambitious,' the unexamined partnership section, and a year-two projection that needs the original spreadsheets are, taken together, my answer."
+  },
+  "writing_workshop": {
+    "task": "Write a capstone piece: a one-paragraph formal recommendation (hiring, funding, or publication) that is truthful, defensible, and deliberately calibrated — followed by a short analysis of your own implicature: what a careful reader will infer from what you omitted, stressed, and understated.",
+    "word_count": "170-220",
+    "model_text": "Recommendation: I am glad to comment on Mr. Adler's application. He was punctual and personable throughout his contract, attended every training we offered, and his colleagues found him consistently pleasant. On the database migration, he executed the tasks assigned to him, and his documentation, once revised, met our standards. Should your role reward reliability of attendance and ease of collaboration, he will not disappoint, and I am confident he will find the right position. Analysis of my own implicature: a careful reader notices that every virtue named is peripheral — punctuality, pleasantness, attendance — while the professional core is handled with lethal precision: 'tasks assigned to him' (he initiated nothing), 'once revised' (not by him), and 'the right position' (not necessarily yours). Nothing in the letter is false, and no sentence is negative; the assessment lives entirely in the selection. That is the mechanism this course has been circling: at mastery, meaning is carried as much by the shape of what you choose to say as by the words that say it.",
+    "model_analysis": "The letter is a working demonstration of implicature — cooperative on its surface, decisive in its omissions — and the self-analysis shows the writer wielding the mechanism consciously, which is the capstone skill.",
+    "success_criteria": [
+      "A formal text that is truthful and defensible sentence by sentence",
+      "Meaning carried through omission, stress, and understatement",
+      "A self-analysis that names the implicatures precisely",
+      "Register control throughout"
+    ]
+  }
 }

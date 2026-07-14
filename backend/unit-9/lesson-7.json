@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A debate coach has asked you to argue about a past policy decision in your city or country.",
+    "prompt": "Speak for one minute about a decision you believe was wrong, using at least one third conditional ('If they had...'), one mixed conditional ('If they had..., we would now...'), and one first conditional about the future.",
+    "useful_language": [
+      "If the government had..., it would have...",
+      "Had they acted sooner,...",
+      "If that decision had gone the other way, we would now be...",
+      "If we act now, we will...",
+      "Were that to happen again,..."
+    ],
+    "model_answer": "If the city had preserved the streetcar network in the sixties, it would have saved itself the billion dollars it is now spending to rebuild what it tore out. Had planners valued transit as they valued highways, our downtown would not have been split in two. And the mixed consequence is visible today: if those lines had survived, we would now have the ridership base that new systems take decades to build. If the council approves the current plan, we will at least begin the repair — and were funding to fall through again, the lesson of the last mistake should be argument enough."
+  },
+  "writing_workshop": {
+    "task": "Write a short argumentative paragraph about a past decision and its present consequences, using at least three different conditional structures accurately (include one mixed and one inverted form).",
+    "word_count": "120-170",
+    "model_text": "Had the school board adopted the tutoring program in 2020, the district's reading scores would likely have recovered years ago. If the program had reached even half of the students who fell behind, we would not now be debating emergency remediation at triple the cost. The board's defenders note, fairly, that budgets were uncertain — and if uncertainty justified delay once, it cannot justify it forever. If the board funds the program this cycle, the first cohort will reach grade level within two years, according to the pilot data. Were the board to delay again, the arithmetic of catching up only grows crueler.",
+    "model_analysis": "Five conditionals do the argumentative work: an inverted third ('Had the board adopted...'), a mixed ('If the program had reached..., we would not now...'), a concessive, a first conditional promise, and a formal 'were to' warning — past blame, present stakes, future choice.",
+    "success_criteria": [
+      "At least three distinct conditional structures, used accurately",
+      "One mixed conditional connecting past decision to present result",
+      "One inverted or 'were to' form",
+      "The conditionals serve a clear argumentative purpose"
+    ]
+  }
 }

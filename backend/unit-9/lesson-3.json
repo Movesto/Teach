@@ -254,5 +254,30 @@
       ],
       "correct": 2
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are in a graduate seminar. The assigned author argues that remote work permanently damages workplace culture.",
+    "prompt": "Record a seminar contribution: summarize the author's claim fairly, identify one assumption it rests on, and pose a question that tests that assumption. Speak for about one minute.",
+    "useful_language": [
+      "The author's central claim is that...",
+      "This argument seems to rest on the assumption that...",
+      "But is that warranted?",
+      "I'd be interested in how the argument handles...",
+      "A useful test case might be..."
+    ],
+    "model_answer": "The author's central claim is that remote work erodes culture because informal contact is where trust forms. This seems to rest on the assumption that trust can only form face-to-face — but is that warranted? Distributed open-source communities have sustained high-trust collaboration for decades among people who have never met. I'd be interested in how the argument handles those cases: perhaps what matters is the frequency and quality of interaction, not its physical location."
+  },
+  "writing_workshop": {
+    "task": "Write an academic discussion-post paragraph responding to a claim from your field or experience: summarize it, evaluate the strength of its evidence using calibrated language (suggests / demonstrates / is consistent with), and state your position.",
+    "word_count": "150-200",
+    "model_text": "Recent coverage claims that bilingual education delays academic achievement. The studies cited, however, demonstrate something narrower: bilingual students score lower on early vocabulary tests administered in only one of their languages. The same body of research is consistent with a different interpretation — that total vocabulary across both languages matches or exceeds monolingual peers, and that early gaps close by adolescence. The data therefore suggest a measurement problem rather than a learning deficit. Until assessments account for both languages, conclusions about delay claim more than the evidence supports.",
+    "model_analysis": "Notice the calibration ladder: 'demonstrate' for what the studies firmly show, 'is consistent with' for a rival interpretation, 'suggest' for the writer's inference — each verb claims exactly as much as the evidence allows.",
+    "success_criteria": [
+      "The original claim summarized fairly",
+      "Calibrated reporting verbs (suggests / demonstrates / is consistent with) used accurately",
+      "A clear final position",
+      "Academic register throughout"
+    ]
+  }
 }

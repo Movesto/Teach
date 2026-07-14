@@ -254,5 +254,30 @@
       ],
       "correct": 1
     }
-  ]
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A university oral-history project is collecting recordings about language and identity in diaspora communities.",
+    "prompt": "Record a contribution about your own languages: what each language carries for you, a moment you felt between them, and how your relationship to them has changed. Speak for about two minutes.",
+    "useful_language": [
+      "My first language carries...",
+      "There's a version of me that only exists in...",
+      "I used to feel..., whereas now...",
+      "What I want to pass on is...",
+      "Being between languages has taught me..."
+    ],
+    "model_answer": "My first language carries my grandmother's proverbs and the sound of evening prayers; English carries my degree, my work, my adult arguments. There's a version of me that only exists in Somali — funnier, softer — and for years I grieved that my children mostly meet the English one. I used to feel that every English word I mastered cost me a Somali one, whereas now I think of it as a second house rather than a replacement. What I want to pass on is both sets of keys. Being between languages has taught me that belonging is something you build, not something you find."
+  },
+  "writing_workshop": {
+    "task": "Write a personal essay paragraph about language and identity, using at least one extended metaphor and one moment of specific detail (a word, a phrase, a scene) rather than general statements.",
+    "word_count": "150-200",
+    "model_text": "My mother's Somali is a house with the radio always on: proverbs in the kitchen, blessings at the door, an argument and its forgiveness in the same breath. My English is an office — well-lit, efficient, and quiet at night. For years I commuted between them and called the commute my life. The word that ended the commute was 'hooyo,' which means mother and is also what a mother calls her child, the name travelling both directions like a bridge that carries you whichever way you are walking. When my daughter first called me hooyo in a sentence otherwise made entirely of English, I understood that I was not commuting between two buildings after all. I was the street they share.",
+    "model_analysis": "Two buildings and a commute form the extended metaphor; the specific word 'hooyo,' with its two-way meaning, supplies the concrete detail that lets the ending land without abstraction.",
+    "success_criteria": [
+      "An extended metaphor sustained across the paragraph",
+      "At least one specific word, phrase, or scene",
+      "Reflection that goes beyond 'two cultures are different'",
+      "Controlled, personal-essay register"
+    ]
+  }
 }
