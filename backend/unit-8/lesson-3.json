@@ -16,11 +16,26 @@
     "text": "Parent-teacher conferences are a vital opportunity for families and educators to discuss a child's academic progress, social development, and any concerns that may have arisen during the school year. Despite their importance, many parents — particularly those from immigrant communities — feel anxious about attending, often because of language barriers or uncertainty about what to expect.\n\nTeachers typically report on a student's performance across all subjects, highlighting both strengths and areas for improvement. They may tell parents that their child is excelling in reading but struggling with mathematics, or that the student has excellent attendance but needs to participate more actively in class discussions. These observations are meant to be constructive, not critical.\n\nExperts advise parents to come prepared with questions. For instance, a parent might ask what specific support is available for a child who is finding a subject difficult, or how they can help at home with homework and revision. Teachers generally appreciate parents who engage actively in these conversations.\n\nSchool counsellors note that communication between home and school is one of the strongest predictors of a child's academic success. Research shows that students whose parents attend meetings and maintain regular contact with teachers tend to perform better, feel more motivated, and develop stronger study habits than those whose parents have less involvement.",
     "source": "Adapted from the National Education Association Parent Engagement Handbook",
     "glossary": [
-      {"word": "conference", "meaning": "a formal meeting to discuss a specific topic"},
-      {"word": "excelling", "meaning": "performing extremely well; achieving at a high level"},
-      {"word": "constructive", "meaning": "intended to be helpful and produce improvement, not to criticise"},
-      {"word": "revision", "meaning": "the process of reviewing and studying material already learned"},
-      {"word": "predictor", "meaning": "something that indicates what is likely to happen in the future"}
+      {
+        "word": "conference",
+        "meaning": "a formal meeting to discuss a specific topic"
+      },
+      {
+        "word": "excelling",
+        "meaning": "performing extremely well; achieving at a high level"
+      },
+      {
+        "word": "constructive",
+        "meaning": "intended to be helpful and produce improvement, not to criticise"
+      },
+      {
+        "word": "revision",
+        "meaning": "the process of reviewing and studying material already learned"
+      },
+      {
+        "word": "predictor",
+        "meaning": "something that indicates what is likely to happen in the future"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "vital",
       "definition": "absolutely necessary or essential for something to succeed",
       "example_sentence": "Parent-teacher conferences are a vital opportunity for families and educators to discuss a child's academic progress.",
-      "collocations": ["vital opportunity", "vital role", "vital information"],
+      "collocations": [
+        "vital opportunity",
+        "vital role",
+        "vital information"
+      ],
       "register": "formal"
     },
     {
       "word": "arisen",
       "definition": "(past participle of 'arise') emerged or come to exist as a problem or situation",
       "example_sentence": "Parent-teacher conferences allow families and educators to discuss any concerns that may have arisen during the school year.",
-      "collocations": ["concerns that have arisen", "problems that arise", "issues arising from"],
+      "collocations": [
+        "concerns that have arisen",
+        "problems that arise",
+        "issues arising from"
+      ],
       "register": "formal"
     },
     {
       "word": "maintain",
       "definition": "to continue doing something over a period of time; to keep something at the same level",
       "example_sentence": "Students whose parents attend meetings and maintain regular contact with teachers tend to perform better.",
-      "collocations": ["maintain contact", "maintain standards", "maintain a routine"],
+      "collocations": [
+        "maintain contact",
+        "maintain standards",
+        "maintain a routine"
+      ],
       "register": "neutral"
     },
     {
       "word": "engagement",
       "definition": "the degree to which someone is involved and interested in an activity or situation",
       "example_sentence": "Teachers generally appreciate parents who engage actively in these conversations.",
-      "collocations": ["active engagement", "parent engagement", "student engagement"],
+      "collocations": [
+        "active engagement",
+        "parent engagement",
+        "student engagement"
+      ],
       "register": "formal"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 1,
       "explanation": "'Will' becomes 'would' in reported speech. 'Next month' becomes 'the following month' because time expressions change when reporting from a different time/place. 'She said' (not 'she told') is used without an indirect object."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Thank you for coming in, Mrs. Hassan. Overall, Ayan is doing very well. Her reading has improved a lot this semester, and she works hard in class. In math she sometimes needs extra time, so I'm sending home practice sheets twice a week. She's also very kind to other students. Do you have any questions about how you can support her at home?",
+      "question": "What does the teacher say about Ayan's reading?",
+      "options": [
+        "It needs improvement",
+        "It has improved a lot",
+        "She refuses to read",
+        "She reads only at home"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Parent-teacher conferences are usually short — about fifteen minutes — so come prepared. Write your questions before you go. Good questions include: How is my child doing compared to grade level? What can we practice at home? How is my child doing socially? If you need an interpreter, tell the school in advance — schools must provide one for free. Your questions show the teacher you care.",
+      "question": "What should parents do if they need an interpreter?",
+      "options": [
+        "Bring a friend to translate",
+        "Tell the school in advance",
+        "Pay for one at the meeting",
+        "Skip the conference"
+      ],
+      "correct": 1
     }
   ]
 }

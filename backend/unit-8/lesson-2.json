@@ -16,11 +16,26 @@
     "text": "When students move from primary to secondary school, the range of subjects they study expands significantly. While core subjects such as mathematics, English, and science remain compulsory, students are introduced to a much wider curriculum that includes history, geography, foreign languages, music, art, and physical education.\n\nMany educators argue that a broad curriculum, which exposes students to diverse fields of knowledge, is essential for their overall development. Students who engage with humanities subjects, such as history and literature, develop critical thinking and empathy. Those who focus on STEM subjects — science, technology, engineering, and mathematics — build problem-solving and analytical skills that are increasingly valuable in the modern workforce.\n\nLearning styles also play an important role in academic success. Some students learn best through visual materials, including diagrams and charts. Others prefer hands-on activities, which allow them to experiment and discover through doing. A third group thrives in collaborative environments where discussion and debate drive understanding.\n\nResearch conducted by educational psychologists suggests that teachers who vary their instructional methods, rather than relying on a single approach, tend to achieve better outcomes across diverse classrooms. The most effective lessons are those that combine explanation, demonstration, and practical application, giving every student a meaningful opportunity to engage.",
     "source": "Adapted from the OECD Education at a Glance Report",
     "glossary": [
-      {"word": "compulsory", "meaning": "required by law or rules; not optional"},
-      {"word": "curriculum", "meaning": "the subjects and content taught in a school or programme"},
-      {"word": "humanities", "meaning": "subjects concerned with human culture, such as history, literature, and philosophy"},
-      {"word": "STEM", "meaning": "an abbreviation for Science, Technology, Engineering, and Mathematics"},
-      {"word": "instructional", "meaning": "relating to the methods used in teaching"}
+      {
+        "word": "compulsory",
+        "meaning": "required by law or rules; not optional"
+      },
+      {
+        "word": "curriculum",
+        "meaning": "the subjects and content taught in a school or programme"
+      },
+      {
+        "word": "humanities",
+        "meaning": "subjects concerned with human culture, such as history, literature, and philosophy"
+      },
+      {
+        "word": "STEM",
+        "meaning": "an abbreviation for Science, Technology, Engineering, and Mathematics"
+      },
+      {
+        "word": "instructional",
+        "meaning": "relating to the methods used in teaching"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "compulsory",
       "definition": "required by rules or law; something that must be done or studied",
       "example_sentence": "While core subjects such as mathematics, English, and science remain compulsory, students are introduced to a much wider curriculum.",
-      "collocations": ["compulsory subject", "compulsory attendance", "compulsory education"],
+      "collocations": [
+        "compulsory subject",
+        "compulsory attendance",
+        "compulsory education"
+      ],
       "register": "formal"
     },
     {
       "word": "exposes",
       "definition": "introduces someone to something so that they experience or learn about it",
       "example_sentence": "A broad curriculum, which exposes students to diverse fields of knowledge, is essential for their overall development.",
-      "collocations": ["expose students to", "expose someone to new ideas", "exposed to different cultures"],
+      "collocations": [
+        "expose students to",
+        "expose someone to new ideas",
+        "exposed to different cultures"
+      ],
       "register": "neutral"
     },
     {
       "word": "thrives",
       "definition": "grows or develops well and successfully in a particular environment",
       "example_sentence": "A third group thrives in collaborative environments where discussion and debate drive understanding.",
-      "collocations": ["thrive in an environment", "thrive under pressure", "thrive academically"],
+      "collocations": [
+        "thrive in an environment",
+        "thrive under pressure",
+        "thrive academically"
+      ],
       "register": "neutral"
     },
     {
       "word": "diverse",
       "definition": "showing a great deal of variety; very different from one another",
       "example_sentence": "The most effective lessons are those that combine explanation, demonstration, and practical application, giving every student a meaningful opportunity to engage.",
-      "collocations": ["diverse classrooms", "diverse range of", "culturally diverse"],
+      "collocations": [
+        "diverse classrooms",
+        "diverse range of",
+        "culturally diverse"
+      ],
       "register": "neutral"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 1,
       "explanation": "The passage states: 'Research suggests that teachers who vary their instructional methods tend to achieve better outcomes across diverse classrooms.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Good morning, class. Here is today's schedule. First period is math, then science at nine twenty. After the morning break you have English language arts, then social studies before lunch. In the afternoon there's art on Mondays and Wednesdays, and physical education — we call it P.E. — on Tuesdays and Thursdays. Last period is reading time in the library.",
+      "question": "When do students have P.E.?",
+      "options": [
+        "Every day",
+        "Mondays and Wednesdays",
+        "Tuesdays and Thursdays",
+        "Only on Fridays"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Everyone learns differently. Some people are visual learners — they understand best with pictures, charts, and written notes. Others are auditory learners, who learn by listening and talking about ideas. Hands-on learners need to touch and do things to understand them. Most people use a mix of all three. Knowing your style helps you study smarter, not just harder.",
+      "question": "How do auditory learners learn best?",
+      "options": [
+        "With pictures and charts",
+        "By listening and talking",
+        "By touching and doing",
+        "By reading silently"
+      ],
+      "correct": 1
     }
   ]
 }

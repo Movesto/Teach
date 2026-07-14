@@ -16,11 +16,26 @@
     "text": "Before GPS became common, people relied heavily on landmarks — recognizable buildings, intersections, or natural features — to give and receive directions. Even today, directions that include landmarks are often clearer than those using only street names and compass points. Saying 'turn left at the red mosque' is more immediately useful to someone unfamiliar with an area than 'turn west on NE Glisan Street.'\n\nResearchers have found that people process landmark-based directions more quickly and make fewer wrong turns than when following address-only instructions. This is partly because landmarks engage visual memory — when you have seen a building or a park before, you can recognize it even under stress.\n\nFor newcomers navigating an unfamiliar city, the challenge is that landmarks are only helpful once you know them. In Portland, new residents often learn the grid system first: streets running east to west are called 'streets,' while those running north to south are called 'avenues.' The city is divided into quadrants — NE, NW, SE, and SW — which helps narrow down locations significantly.\n\nCombining both systems is the most effective strategy. For example, a skilled local might say, 'Take the 72 bus south to Division Street — you'll see the big Fred Meyer on the corner. Get off there and walk east two blocks. The clinic is just past the laundromat, on your right.' This kind of direction mixes route numbers, compass points, specific distances, and a visual landmark — giving the listener multiple ways to confirm they are on the right path.",
     "source": "Adapted from an urban navigation study published in the Journal of Environmental Psychology, 2022",
     "glossary": [
-      {"word": "landmark", "meaning": "an easily recognized building, sign, or feature used as a reference point for navigation"},
-      {"word": "compass points", "meaning": "the four main directions: north, south, east, and west"},
-      {"word": "grid system", "meaning": "a city layout where streets run in straight lines forming a pattern of squares"},
-      {"word": "quadrant", "meaning": "one of four sections created when a city is divided by north-south and east-west lines"},
-      {"word": "navigate", "meaning": "to find your way or plan a route from one place to another"}
+      {
+        "word": "landmark",
+        "meaning": "an easily recognized building, sign, or feature used as a reference point for navigation"
+      },
+      {
+        "word": "compass points",
+        "meaning": "the four main directions: north, south, east, and west"
+      },
+      {
+        "word": "grid system",
+        "meaning": "a city layout where streets run in straight lines forming a pattern of squares"
+      },
+      {
+        "word": "quadrant",
+        "meaning": "one of four sections created when a city is divided by north-south and east-west lines"
+      },
+      {
+        "word": "navigate",
+        "meaning": "to find your way or plan a route from one place to another"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "landmark",
       "definition": "A well-known or easily noticed building or feature used to help people find their way",
       "example_sentence": "Directions that include landmarks are often clearer than those using only street names and compass points.",
-      "collocations": ["use a landmark", "recognize a landmark", "a familiar landmark"],
+      "collocations": [
+        "use a landmark",
+        "recognize a landmark",
+        "a familiar landmark"
+      ],
       "register": "neutral"
     },
     {
       "word": "navigate",
       "definition": "To successfully find your way through or around an unfamiliar place",
       "example_sentence": "For newcomers navigating an unfamiliar city, the challenge is that landmarks are only helpful once you know them.",
-      "collocations": ["navigate the city", "navigate by landmark", "navigate with GPS"],
+      "collocations": [
+        "navigate the city",
+        "navigate by landmark",
+        "navigate with GPS"
+      ],
       "register": "neutral"
     },
     {
       "word": "quadrant",
       "definition": "One of four sections that a city or area is divided into, based on a central point",
       "example_sentence": "The city is divided into quadrants — NE, NW, SE, and SW — which helps narrow down locations significantly.",
-      "collocations": ["northwest quadrant", "city quadrant", "divided into quadrants"],
+      "collocations": [
+        "northwest quadrant",
+        "city quadrant",
+        "divided into quadrants"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The final paragraph describes an effective direction that mixes 'route numbers, compass points, specific distances, and a visual landmark — giving the listener multiple ways to confirm they are on the right path.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Excuse me, can you tell me how to get to the public library? Sure. Go straight on this street for two blocks. Then turn left at the traffic light. The library is on your right, across from the bank. You can't miss it — it's a big brick building with a blue sign. It's about a ten-minute walk from here.",
+      "question": "Where is the library?",
+      "options": [
+        "Next to the traffic light",
+        "On the right, across from the bank",
+        "Two blocks behind the bank",
+        "On the left, next to a school"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Map apps on your phone can give you directions for walking, driving, or taking the bus. Type the address, then choose how you want to travel. The app shows the fastest route and how long it will take. If you don't have internet, you can download the map of your city before you leave home. That way the map still works without a connection.",
+      "question": "What can you do if you won't have internet?",
+      "options": [
+        "Buy a paper map only",
+        "Download the city map before leaving",
+        "Ask the app for a transfer",
+        "Turn off your phone"
+      ],
+      "correct": 1
     }
   ]
 }

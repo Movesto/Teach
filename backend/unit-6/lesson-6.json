@@ -16,11 +16,26 @@
     "text": "For many newcomers, the first months in a new country are spent focusing on survival — finding work, learning the transit system, managing bills, and getting children into school. Building a social life and becoming part of the neighbourhood often comes later. But community advocates say that engaging early, even in small ways, can significantly reduce the isolation many immigrants experience.\n\nPortland is organised into more than ninety neighbourhood coalitions, each of which holds regular public meetings where residents can raise concerns, hear about local projects, and vote on how neighbourhood improvement funds are spent. These meetings are open to all residents regardless of immigration status, and translation services are sometimes available. Attending even once gives newcomers a sense of how decisions are made at the local level.\n\nVolunteer work is another effective way to build connections. Organisations such as Catholic Charities, Oregon Food Bank, and the Muslim Community Center of Portland regularly recruit volunteers for food distribution, tutoring, and event support. Volunteer coordinators often say that many of their most committed volunteers are newcomers who want to give back to the community that supported them on arrival.\n\nSmall acts also matter. Introducing yourself to a neighbour, attending a free event at the library, or joining a community garden are all ways of becoming a familiar face. Somali community members in Portland have formed several informal networks — WhatsApp groups, Friday gatherings, and community dinners — that help both recently arrived and longer-settled families stay connected and share practical information.",
     "source": "Adapted from Portland Bureau of Planning and Sustainability community engagement resources and IRCO community integration materials, 2023",
     "glossary": [
-      {"word": "coalition", "meaning": "a group of people or organisations that come together to work toward a shared goal"},
-      {"word": "isolation", "meaning": "the feeling of being disconnected from people around you, with few social connections"},
-      {"word": "recruit", "meaning": "to find and invite new people to join an organisation or take part in an activity"},
-      {"word": "committed", "meaning": "dedicated and reliable; willing to give time and effort to something over a long period"},
-      {"word": "informal network", "meaning": "an unofficial group of people who share information and support each other without a formal structure"}
+      {
+        "word": "coalition",
+        "meaning": "a group of people or organisations that come together to work toward a shared goal"
+      },
+      {
+        "word": "isolation",
+        "meaning": "the feeling of being disconnected from people around you, with few social connections"
+      },
+      {
+        "word": "recruit",
+        "meaning": "to find and invite new people to join an organisation or take part in an activity"
+      },
+      {
+        "word": "committed",
+        "meaning": "dedicated and reliable; willing to give time and effort to something over a long period"
+      },
+      {
+        "word": "informal network",
+        "meaning": "an unofficial group of people who share information and support each other without a formal structure"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "coalition",
       "definition": "A group of people or organisations united to work toward a shared goal, often at a community or political level",
       "example_sentence": "Portland is organised into more than ninety neighbourhood coalitions, each of which holds regular public meetings where residents can raise concerns.",
-      "collocations": ["neighbourhood coalition", "form a coalition", "coalition meeting"],
+      "collocations": [
+        "neighbourhood coalition",
+        "form a coalition",
+        "coalition meeting"
+      ],
       "register": "formal"
     },
     {
       "word": "isolation",
       "definition": "The feeling of being alone and cut off from meaningful contact with the community around you",
       "example_sentence": "Community advocates say that engaging early, even in small ways, can significantly reduce the isolation many immigrants experience.",
-      "collocations": ["social isolation", "reduce isolation", "feeling of isolation"],
+      "collocations": [
+        "social isolation",
+        "reduce isolation",
+        "feeling of isolation"
+      ],
       "register": "neutral"
     },
     {
       "word": "recruit",
       "definition": "To actively invite and bring new people into an organisation or activity",
       "example_sentence": "Organisations such as Oregon Food Bank regularly recruit volunteers for food distribution, tutoring, and event support.",
-      "collocations": ["recruit volunteers", "actively recruit", "recruit members"],
+      "collocations": [
+        "recruit volunteers",
+        "actively recruit",
+        "recruit members"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage mentions: 'Somali community members in Portland have formed several informal networks — WhatsApp groups, Friday gatherings, and community dinners.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Good evening, everyone, and welcome to the neighborhood association meeting. Tonight we have three topics: the new crosswalk on Elm Street, the summer festival in June, and volunteers for the community garden. If you'd like to speak, please raise your hand and say your name first. Coffee and cookies are in the back. Let's begin with the crosswalk.",
+      "question": "What should you do if you want to speak at the meeting?",
+      "options": [
+        "Stand at the back",
+        "Raise your hand and say your name",
+        "Write a letter first",
+        "Wait until June"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Volunteering is a great way to meet neighbors and practice English at the same time. Schools often need helpers for events, food banks need people to sort donations, and parks need volunteers for clean-up days. You don't need perfect English — you just need to show up and help. Many people find friends, and even jobs, through volunteering.",
+      "question": "What does the speaker say you need to volunteer?",
+      "options": [
+        "Perfect English",
+        "A special license",
+        "To show up and help",
+        "Experience"
+      ],
+      "correct": 2
     }
   ]
 }

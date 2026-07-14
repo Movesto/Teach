@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Option B correctly uses the past perfect ('had trained') in the if-clause to signal a past hypothetical, and 'would be' in the main clause to signal the present consequence. This is the standard mixed conditional form for past cause + present result."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Register is the dimension of language that tracks social distance, and control of it is what 'sounding natural' mostly means. Consider one act — asking for a report — across the scale. To a friend: 'Shoot me that report?' To a colleague: 'Could you send me the report when you get a chance?' To an executive you've never met: 'I would be grateful if you could forward the report at your convenience.' Same request, three worlds. Errors of register are rarely corrected aloud, which makes them harder to learn than grammar — people just quietly recalibrate their opinion of you.",
+      "question": "Why are register errors hard to learn from?",
+      "options": [
+        "They are too rare",
+        "People rarely correct them aloud",
+        "Grammar books forbid them",
+        "They only happen in writing"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Formality is built from identifiable materials. Latinate vocabulary formalizes: begin versus commence, ask versus inquire. Full forms formalize: cannot versus can't. Distance formalizes: 'one might argue' versus 'I think.' Hedges and honorifics formalize. The skill is not maximal formality — an email to a teammate written like a legal brief is its own register error — but range and fit. Read the room, then choose. The most capable speakers in any language are the ones who can move the dial in both directions on purpose.",
+      "question": "What does the speaker identify as the real skill with formality?",
+      "options": [
+        "Always writing formally",
+        "Range and fit — moving the dial on purpose",
+        "Avoiding Latinate words",
+        "Using contractions everywhere"
+      ],
+      "correct": 1
+    }
   ]
 }

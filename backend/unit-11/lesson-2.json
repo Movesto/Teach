@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "'Revert' already encodes the meaning of returning or going back, making 'back' a redundant pleonasm. The correct professional form is 'Please revert to me' or 'Please respond to me.'"
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Professional email tone is calibration under uncertainty. Too formal, and you seem distant; too casual, and you seem careless. The reliable strategy is mirroring: match the register of the person you're writing to, one notch more formal on first contact. Watch openings — 'Dear Dr. Okafor' until invited otherwise; 'Hi Sam' once they sign off as Sam. And beware the accidental curtness of brevity: 'Fine.' reads as anger. 'That works, thanks!' costs three more words and preserves the relationship.",
+      "question": "What is the 'mirroring' strategy?",
+      "options": [
+        "Copying the other person's arguments",
+        "Matching their register, one notch more formal at first",
+        "Repeating their words exactly",
+        "Always writing formally"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Difficult emails deserve a protocol. First, never send angry — draft, save, and reread after an hour. Second, move blame out of the subject line and the first sentence; you want the reader to reach your point before their defenses rise. Third, prefer questions to accusations: 'Can you help me understand the timeline change?' outperforms 'You changed the timeline without telling anyone.' Finally, know when to stop typing: after two rounds of misunderstanding, the correct next message is 'Do you have ten minutes to talk?'",
+      "question": "After two rounds of email misunderstanding, what should you do?",
+      "options": [
+        "Copy in a manager",
+        "Write a longer email",
+        "Suggest a brief conversation instead",
+        "Stop responding entirely"
+      ],
+      "correct": 2
+    }
   ]
 }

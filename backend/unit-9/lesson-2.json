@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "Face-saving, in Brown and Levinson's politeness theory, refers to communicative strategies that protect the 'face' (social identity and dignity) of participants in an interaction. It does not mean avoiding criticism — it means delivering criticism in a way that allows the recipient to engage with it without feeling humiliated."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Workplace conflict rarely explodes; it accumulates. A colleague misses a deadline, you say nothing, resentment builds, and three months later a minor comment triggers a disproportionate reaction. Diplomatic directness offers an alternative: address issues early, describe behavior rather than character, and anchor the conversation in shared goals. 'When the report arrives late, I can't prepare the client briefing' is a description. 'You're unreliable' is an accusation. The first invites problem-solving; the second invites defensiveness.",
+      "question": "What does the speaker recommend addressing conflict early with?",
+      "options": [
+        "Accusations about character",
+        "Descriptions of behavior anchored in shared goals",
+        "Formal complaints to management",
+        "Silence until it resolves itself"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Let me offer a framework for difficult conversations. Begin with intent: 'I want us to work well together, so I'd like to raise something.' Then state the observation neutrally, followed by the impact on you or the team. Finally, invite their perspective: 'How do you see it?' That last move is crucial — it converts a confrontation into a dialogue. People rarely change their behavior because they lost an argument; they change because they felt heard and saw a reason to.",
+      "question": "Why is inviting the other person's perspective crucial?",
+      "options": [
+        "It ends the conversation quickly",
+        "It converts confrontation into dialogue",
+        "It proves you are right",
+        "It delays the decision"
+      ],
+      "correct": 1
+    }
   ]
 }

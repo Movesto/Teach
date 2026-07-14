@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "In option B, 'Having read the article' has the implicit subject 'I,' which matches the main clause subject 'I.' In option A, the implicit subject of 'Having read' is a person, but the main clause subject is 'the distinction' — a dangling participle. Options C and D have similar mismatches between the participle's implied subject and the main clause subject."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Academic hedging is routinely misread as timidity. It is the opposite: a precision instrument. When a researcher writes 'these findings suggest a possible association,' every qualifier is load-bearing — 'suggest' marks inferential distance, 'possible' marks uncertainty, 'association' refuses the causal claim the data cannot support. Strip the hedges and the sentence claims more than the study showed; that is not confidence but error. The craft lies in calibration: hedge exactly as much as the evidence requires, and not one modal verb more.",
+      "question": "What does the speaker say hedging actually is?",
+      "options": [
+        "A sign of timidity",
+        "A precision instrument for calibrating claims",
+        "A way to lengthen papers",
+        "A British custom"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Sophisticated argument anticipates its strongest objection and answers it in advance — a move classical rhetoric calls procatalepsis. 'It might be objected that the sample is small; however, the effect size is large enough that power is adequate.' Handled well, this does double work: it neutralizes the objection before a critic can raise it, and it demonstrates that you have thought around your own position, which is what earns an expert reader's trust. An argument that has never met resistance is an argument no one should rely on.",
+      "question": "What is procatalepsis?",
+      "options": [
+        "A grammar error",
+        "Anticipating and answering an objection in advance",
+        "A type of citation",
+        "An emotional appeal"
+      ],
+      "correct": 1
+    }
   ]
 }

@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "The article makes a strong claim about the semantic function of parallelism: parallel form signals to the reader that items are comparable along the same dimension. When the form breaks, the reader assumes — correctly, if the writer is skilled — that the items are not equivalent. Faulty parallelism misleads the reader because it creates an unintended asymmetry signal."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "What separates competent English from mastery is rarely grammar; it is the management of implication. Masters control what they do not say. 'The report was thorough' praises; 'the report was certainly thorough' — with stress on 'thorough' — hints that thoroughness was its only virtue. Understatement, strategic silence, the eloquent 'that's one approach': these carry meaning through implicature, the inferences listeners draw from what a cooperative speaker chose not to assert. Reaching this level means hearing not just sentences but choices — and making your own on purpose.",
+      "question": "According to the speaker, what separates competence from mastery?",
+      "options": [
+        "Larger vocabulary",
+        "Perfect grammar",
+        "Managing implication and unstated meaning",
+        "Faster speech"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Academic writing conventions are best understood as a contract with a skeptical reader. The thesis appears early because the reader's time is presumed valuable. Sources are cited not as decoration but so every claim can be audited. Counterarguments are addressed because the reader is assumed intelligent enough to think of them. Even the prohibition on unannounced first person — much weaker now than a generation ago — descends from the ideal that arguments should stand independent of who makes them. Learn the conventions as reasons, not rituals, and you can deploy them with judgment rather than superstition.",
+      "question": "How does the speaker recommend understanding academic conventions?",
+      "options": [
+        "As arbitrary rituals",
+        "As a contract with a skeptical reader, learned as reasons",
+        "As outdated rules",
+        "As decoration for arguments"
+      ],
+      "correct": 1
+    }
   ]
 }

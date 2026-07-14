@@ -16,11 +16,26 @@
     "text": "Email has become the primary mode of written communication in workplaces, schools, and government agencies. Despite the widespread use of instant messaging and social media, the ability to write a clear, professional email remains one of the most valued skills in both academic and professional environments.\n\nFor students and parents dealing with schools and universities, knowing how to compose a well-structured email can make a significant difference. A poorly written email — one that is too casual, lacks a clear subject line, or fails to state its purpose directly — risks being ignored or misunderstood. Educators and administrators expect to receive concise, respectful, and clearly organised communication.\n\nResearchers have noted that young people who have grown up with smartphones tend to prefer sending short informal messages and may resist writing longer, more formal texts. However, refusing to develop formal writing skills can limit future opportunities. Employers frequently mention the ability to communicate professionally in writing as one of their top requirements when considering candidates for jobs.\n\nExperts recommend starting an email with a polite greeting and a brief introduction if the recipient does not know you. They suggest stating your purpose in the first or second sentence and avoiding to use vague or overly long explanations. Ending the email by thanking the recipient and offering to provide further information is also considered good practice.\n\nLearning to switch between informal and formal registers — knowing when to use each appropriately — is an essential skill for anyone who communicates in English in the modern world.",
     "source": "Adapted from Grammarly's 2024 State of Business Communication Report",
     "glossary": [
-      {"word": "register", "meaning": "the level of formality in language, adjusted according to context and audience"},
-      {"word": "recipient", "meaning": "the person who receives a message, letter, or email"},
-      {"word": "concise", "meaning": "expressing ideas clearly and in as few words as necessary"},
-      {"word": "vague", "meaning": "not clearly expressed or defined; lacking precision"},
-      {"word": "mode", "meaning": "a particular way or method of doing something"}
+      {
+        "word": "register",
+        "meaning": "the level of formality in language, adjusted according to context and audience"
+      },
+      {
+        "word": "recipient",
+        "meaning": "the person who receives a message, letter, or email"
+      },
+      {
+        "word": "concise",
+        "meaning": "expressing ideas clearly and in as few words as necessary"
+      },
+      {
+        "word": "vague",
+        "meaning": "not clearly expressed or defined; lacking precision"
+      },
+      {
+        "word": "mode",
+        "meaning": "a particular way or method of doing something"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "compose",
       "definition": "to write something carefully and thoughtfully, such as a letter, email, or piece of music",
       "example_sentence": "Knowing how to compose a well-structured email can make a significant difference.",
-      "collocations": ["compose an email", "compose a letter", "compose a message"],
+      "collocations": [
+        "compose an email",
+        "compose a letter",
+        "compose a message"
+      ],
       "register": "formal"
     },
     {
       "word": "widespread",
       "definition": "found or happening over a large area or among many people",
       "example_sentence": "Despite the widespread use of instant messaging and social media, the ability to write a professional email remains valued.",
-      "collocations": ["widespread use", "widespread concern", "widespread adoption"],
+      "collocations": [
+        "widespread use",
+        "widespread concern",
+        "widespread adoption"
+      ],
       "register": "neutral"
     },
     {
       "word": "concise",
       "definition": "expressing ideas in few words, without unnecessary detail",
       "example_sentence": "Educators and administrators expect to receive concise, respectful, and clearly organised communication.",
-      "collocations": ["concise response", "concise summary", "keep it concise"],
+      "collocations": [
+        "concise response",
+        "concise summary",
+        "keep it concise"
+      ],
       "register": "formal"
     },
     {
       "word": "candidate",
       "definition": "a person being considered for a position, job, or award",
       "example_sentence": "Employers frequently mention professional written communication as a top requirement when considering candidates for jobs.",
-      "collocations": ["job candidate", "suitable candidate", "shortlisted candidate"],
+      "collocations": [
+        "job candidate",
+        "suitable candidate",
+        "shortlisted candidate"
+      ],
       "register": "formal"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 2,
       "explanation": "A formal email should begin with 'Dear [Title + Surname],' followed by a clear, professional opening sentence. The other options use informal greetings that are not appropriate for formal correspondence."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Writing a good email is a skill. Start with a clear subject line, like 'Question about my appointment on Friday.' Begin the message with a greeting, such as 'Dear Ms. Johnson' for formal emails or 'Hi Sarah' for people you know. Keep your message short and clear. End with a closing like 'Sincerely' or 'Best regards' and your full name.",
+      "question": "What makes a good subject line?",
+      "options": [
+        "Leaving it empty",
+        "Making it clear and specific",
+        "Writing your name only",
+        "Using all capital letters"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "You have one new voicemail. 'Hello, this message is for Ahmed Yusuf. This is Dr. Miller's office calling to confirm your appointment on Thursday, March tenth, at two thirty PM. Please call us back at 555-0142 to confirm, or press one to confirm now. If you need to reschedule, call at least twenty-four hours in advance. Thank you.'",
+      "question": "What should Ahmed do if he needs to change the appointment?",
+      "options": [
+        "Just not show up",
+        "Call at least twenty-four hours in advance",
+        "Send an email",
+        "Wait for another call"
+      ],
+      "correct": 1
     }
   ]
 }

@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "In project management and HR contexts, 'scope creep' refers to the gradual expansion of an individual's or project's responsibilities beyond what was originally agreed, often without formal authorisation or clear accountability structures."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Performance review language is a genre worth studying. 'Meets expectations' sounds neutral but often functions as faint praise in competitive workplaces. 'Exceeds' and 'consistently exceeds' carry the promotion signal. When your manager offers a criticism wrapped as growth — 'an opportunity to develop stakeholder communication' — translate it: stakeholders have complained. Do not argue in the moment. Ask for specifics and a success measure: 'What would strong stakeholder communication look like by the next review?' That question converts judgment into a contract.",
+      "question": "How should you respond to a criticism framed as a 'growth opportunity'?",
+      "options": [
+        "Argue immediately",
+        "Ignore it as polite filler",
+        "Ask for specifics and a success measure",
+        "Request a new manager"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Self-assessments defeat many strong performers because modesty norms vary by culture. In the American review genre, understatement is read literally: write 'I helped with the migration' and credit flows elsewhere. The convention is evidence, not boasting — state what you did, quantify the effect, name the constraint you overcame. 'I led the data migration, completed two weeks early despite a vendor delay' is not arrogance; in this genre it is simply information. Keep a running file of accomplishments; memory alone under-reports you.",
+      "question": "Why do modest self-assessments hurt some employees?",
+      "options": [
+        "Managers prefer long documents",
+        "Understatement is read literally in the American review genre",
+        "Modesty is against policy",
+        "Quantified results are ignored"
+      ],
+      "correct": 1
+    }
   ]
 }

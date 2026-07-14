@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "Nominalisation converts verbs or adjectives into nouns. Here, 'suspend' (verb) becomes 'suspension' (noun), allowing the writer to build a complex noun phrase. Nominalisation is a key feature of formal written English and is discussed further in later lessons."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "In today's seminar, I want to challenge the assumption that strong opinions require strong language. In fact, the most persuasive speakers tend to qualify their claims. Rather than declaring 'this policy is a failure,' they might say 'the evidence suggests this policy has largely fallen short of its goals.' The hedge is not weakness — it signals that the speaker has weighed the evidence and anticipates objections. Absolute statements, paradoxically, often invite more resistance than measured ones.",
+      "question": "According to the speaker, what do hedged claims signal?",
+      "options": [
+        "Lack of confidence",
+        "That the speaker has weighed the evidence",
+        "That the topic is unimportant",
+        "That no evidence exists"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Consider the difference between disagreeing with a claim and dismissing it. When you dismiss, you say 'that's simply wrong,' and the conversation ends. When you disagree productively, you first restate the other position fairly — 'I understand the concern about costs' — and then introduce your counterpoint: 'however, the long-term savings arguably outweigh the initial investment.' This structure, sometimes called concede-and-counter, keeps the exchange open and positions you as reasonable.",
+      "question": "What is the first step in the concede-and-counter structure?",
+      "options": [
+        "Introducing your counterpoint",
+        "Restating the other position fairly",
+        "Citing a statistic",
+        "Raising your voice"
+      ],
+      "correct": 1
+    }
   ]
 }

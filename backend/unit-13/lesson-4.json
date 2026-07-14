@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Option B correctly fronts a participial phrase ('Having established the principle') with the agent of the main clause ('the writer') as subject — the participial subject and the main clause subject must agree. Option A uses the passive participle ('Having been established') with a missing subject; options C and D are awkward or incorrect."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Concision is not compression for its own sake; it is respect for the reader's attention. The reliable cuts: redundant pairs — 'each and every,' 'first and foremost' — keep one. Throat-clearing openers — 'It is important to note that' — delete entirely; if it weren't important you wouldn't be writing it. Weak intensifiers — 'very,' 'really,' 'quite' — usually signal a word that needs replacing: 'very tired' is 'exhausted.' Nominalized verbs reanimate: 'conduct an analysis of' is 'analyze.' Most drafts shed a quarter of their words and lose nothing but fog.",
+      "question": "What does the speaker say about phrases like 'It is important to note that'?",
+      "options": [
+        "Use them to sound formal",
+        "Delete them entirely",
+        "Move them to the conclusion",
+        "Translate them into Latin"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Proofreading fails when you read for meaning, because your brain repairs errors before your eyes report them. Professionals therefore change the reading conditions. Read aloud — the ear catches what the eye forgives. Read backward, sentence by sentence, to break the flow that hides typos. Change the font or print the page; novelty resets attention. Check your personal error inventory last — everyone has signature mistakes, and a list of yours turns proofreading from a vague hope into a checklist. And never proofread immediately after writing; distance is the cheapest editor you will ever hire.",
+      "question": "Why does reading backward help proofreading?",
+      "options": [
+        "It is faster",
+        "It breaks the flow that hides typos",
+        "It improves vocabulary",
+        "It checks the argument"
+      ],
+      "correct": 1
+    }
   ]
 }

@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "'Internally diverse' and 'contested' signal that the writer views culture as heterogeneous and dynamic — rejecting both the essentialism of cultural competence models and the homogenising tendencies of simplistic tolerance discourse."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Anthropologists distinguish values — what a culture holds to be good — from customs, the visible behaviors that express them. Punctuality in Germany expresses respect; flexible time in much of East Africa expresses the priority of persons over schedules. Both systems value respect; they encode it differently. This distinction matters practically: you can adopt a custom without surrendering a value. Arriving on time for an American job interview betrays nothing of who you are. It is translation, not conversion.",
+      "question": "What is the relationship between values and customs?",
+      "options": [
+        "They are identical",
+        "Customs are visible behaviors that express underlying values",
+        "Values change faster than customs",
+        "Customs exist only in traditional societies"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "The language of cultural sensitivity has its own register. Compare 'those people always...' with 'in my experience, colleagues from X sometimes...'. The second phrasing does three things: it marks your claim as limited experience rather than universal law, it allows exceptions, and it keeps the individual in view behind the group. Generalizations about cultures are sometimes unavoidable — they can even be useful — but sensitive speakers mark them as provisional and stay alert for the person who does not fit the pattern.",
+      "question": "What should speakers do with generalizations about cultures?",
+      "options": [
+        "Never make them",
+        "Mark them as provisional and watch for exceptions",
+        "State them as universal laws",
+        "Use them only in writing"
+      ],
+      "correct": 1
+    }
   ]
 }

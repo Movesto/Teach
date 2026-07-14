@@ -16,11 +16,26 @@
     "text": "Learning to navigate ticket machines and transit counters is one of the small but significant challenges newcomers face when settling into a new city. In many American cities, public transit systems have moved away from paper tickets toward electronic fare cards, which can be confusing for those unfamiliar with the technology.\n\nIn Portland, the Hop Fastpass card works across buses, MAX light rail, and the Portland Streetcar. Riders can buy a physical card at select grocery stores, pharmacies, and transit service centers for a small fee, or download the app to use a virtual card on their smartphone. Once purchased, the card can be loaded with money at ticket machines in MAX stations or online. The system automatically deducts the correct fare when riders tap the card on a yellow reader at the start of their trip.\n\nOne of the most practical features is the fare cap. Regardless of how many times a rider taps their card in a single day, the total cost never exceeds the price of a one-day pass — currently $5. This means frequent riders never overpay. Monthly passes are also available and represent significant savings for people who commute regularly.\n\nFor those who prefer to pay cash, exact change is usually required, as bus drivers generally cannot make change. It is always wise to carry a few dollar bills and quarters when travelling without a transit card, particularly on routes where ticket machines are not available.",
     "source": "Adapted from the TriMet Rider Guide and the Portland Community Transit Welcome Packet, 2024",
     "glossary": [
-      {"word": "fare card", "meaning": "a card that stores money to be used for paying transit fares electronically"},
-      {"word": "fare cap", "meaning": "a maximum amount charged per day or period, regardless of how many trips you take"},
-      {"word": "deducts", "meaning": "automatically subtracts or takes away money from a balance"},
-      {"word": "virtual card", "meaning": "a digital version of a card stored on a smartphone rather than as a physical object"},
-      {"word": "commute", "meaning": "to travel regularly between home and work or school"}
+      {
+        "word": "fare card",
+        "meaning": "a card that stores money to be used for paying transit fares electronically"
+      },
+      {
+        "word": "fare cap",
+        "meaning": "a maximum amount charged per day or period, regardless of how many trips you take"
+      },
+      {
+        "word": "deducts",
+        "meaning": "automatically subtracts or takes away money from a balance"
+      },
+      {
+        "word": "virtual card",
+        "meaning": "a digital version of a card stored on a smartphone rather than as a physical object"
+      },
+      {
+        "word": "commute",
+        "meaning": "to travel regularly between home and work or school"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "fare cap",
       "definition": "A limit on how much you can be charged per day, regardless of how many journeys you make",
       "example_sentence": "Regardless of how many times a rider taps their card in a single day, the total cost never exceeds the price of a one-day pass.",
-      "collocations": ["daily fare cap", "fare cap applies", "reach the fare cap"],
+      "collocations": [
+        "daily fare cap",
+        "fare cap applies",
+        "reach the fare cap"
+      ],
       "register": "neutral"
     },
     {
       "word": "commute",
       "definition": "To travel regularly between home and another place, usually for work or school",
       "example_sentence": "Monthly passes are also available and represent significant savings for people who commute regularly.",
-      "collocations": ["daily commute", "commute by bus", "long commute"],
+      "collocations": [
+        "daily commute",
+        "commute by bus",
+        "long commute"
+      ],
       "register": "neutral"
     },
     {
       "word": "virtual",
       "definition": "Existing in digital form rather than as a physical object",
       "example_sentence": "Riders can download the app to use a virtual card on their smartphone.",
-      "collocations": ["virtual card", "virtual payment", "virtual ticket"],
+      "collocations": [
+        "virtual card",
+        "virtual payment",
+        "virtual ticket"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage advises: 'exact change is usually required, as bus drivers generally cannot make change. It is always wise to carry a few dollar bills and quarters.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Welcome to the Metro ticket machine. To buy a single ride, press one. A single ride costs two seventy-five. To buy a day pass, press two. The day pass costs eight dollars and is good for unlimited rides until midnight. You can pay with cash, credit card, or debit card. Please take your ticket and your change below.",
+      "question": "How long is the day pass good for?",
+      "options": [
+        "Twenty-four hours from purchase",
+        "Until midnight",
+        "One week",
+        "Two hours"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "If you ride public transportation often, compare the prices before you choose a ticket. A single ride is cheapest if you travel only once. A day pass is better if you will make three or more trips in one day. A monthly pass costs more at first, but it usually saves money for people who ride to work every day.",
+      "question": "When is a day pass the better choice?",
+      "options": [
+        "When you travel only once",
+        "When you make three or more trips in one day",
+        "When you ride once a week",
+        "When you pay with cash"
+      ],
+      "correct": 1
     }
   ]
 }

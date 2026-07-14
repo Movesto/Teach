@@ -16,11 +16,26 @@
     "text": "Finding an apartment is one of the most important steps for newcomers settling in a new city. The process can be confusing, but understanding a few key terms and rights can protect you from making costly mistakes.\n\nA lease is a legally binding contract between a tenant and a landlord. It specifies how long you will rent the property, the monthly rent amount, what is included in the rent (such as water or internet), and the rules you must follow — for example, regarding pets or guests. Before signing, read every clause carefully, and do not hesitate to ask the landlord to explain anything you do not understand.\n\nMost landlords in Oregon require a security deposit before you move in. This is typically equal to one month's rent and is held by the landlord to cover any damage beyond normal wear and tear. Oregon law requires landlords to return the deposit within 31 days of the tenant moving out, along with an itemised list of any deductions.\n\nTenants in Oregon also have the right to live in a habitable home — meaning the property must have working heat, safe electrical systems, functioning plumbing, and no serious pest problems. If your landlord fails to make necessary repairs after you report them in writing, you may have the legal right to withhold rent or hire a repairperson and deduct the cost from your rent. Community legal aid organisations in Portland offer free advice to tenants who are unsure of their rights.",
     "source": "Adapted from the Oregon Renters' Rights Guide published by Community Alliance of Tenants, 2023",
     "glossary": [
-      {"word": "lease", "meaning": "a legal agreement that sets out the terms of renting a property for a fixed period of time"},
-      {"word": "security deposit", "meaning": "money paid before moving in, held by the landlord to cover potential damage"},
-      {"word": "habitable", "meaning": "safe and suitable for people to live in, meeting basic health and safety standards"},
-      {"word": "wear and tear", "meaning": "normal, gradual damage that happens from everyday use of a property"},
-      {"word": "itemised", "meaning": "listed in detail, one item at a time, with a separate amount for each"}
+      {
+        "word": "lease",
+        "meaning": "a legal agreement that sets out the terms of renting a property for a fixed period of time"
+      },
+      {
+        "word": "security deposit",
+        "meaning": "money paid before moving in, held by the landlord to cover potential damage"
+      },
+      {
+        "word": "habitable",
+        "meaning": "safe and suitable for people to live in, meeting basic health and safety standards"
+      },
+      {
+        "word": "wear and tear",
+        "meaning": "normal, gradual damage that happens from everyday use of a property"
+      },
+      {
+        "word": "itemised",
+        "meaning": "listed in detail, one item at a time, with a separate amount for each"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "lease",
       "definition": "A written legal contract between a tenant and landlord that sets out the terms of renting a property",
       "example_sentence": "A lease is a legally binding contract between a tenant and a landlord that specifies how long you will rent the property.",
-      "collocations": ["sign a lease", "break a lease", "lease agreement"],
+      "collocations": [
+        "sign a lease",
+        "break a lease",
+        "lease agreement"
+      ],
       "register": "formal"
     },
     {
       "word": "security deposit",
       "definition": "Money paid by the tenant before moving in, which the landlord holds as protection against damage",
       "example_sentence": "Most landlords in Oregon require a security deposit before you move in, typically equal to one month's rent.",
-      "collocations": ["pay a security deposit", "return the deposit", "deposit deductions"],
+      "collocations": [
+        "pay a security deposit",
+        "return the deposit",
+        "deposit deductions"
+      ],
       "register": "neutral"
     },
     {
       "word": "habitable",
       "definition": "Safe, clean, and suitable for people to live in according to health and safety standards",
       "example_sentence": "Tenants in Oregon have the right to live in a habitable home — meaning the property must have working heat, safe electrical systems, and functioning plumbing.",
-      "collocations": ["habitable condition", "right to a habitable home", "uninhabitable property"],
+      "collocations": [
+        "habitable condition",
+        "right to a habitable home",
+        "uninhabitable property"
+      ],
       "register": "formal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'you may have the legal right to withhold rent or hire a repairperson and deduct the cost from your rent.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Thanks for calling about the two-bedroom apartment on Oak Street. The rent is twelve hundred dollars a month, and that includes water and trash. Electricity is separate. We ask for a security deposit equal to one month's rent, and the lease is for twelve months. If you'd like to see it, I can show you the apartment on Saturday at ten.",
+      "question": "What is included in the rent?",
+      "options": [
+        "Electricity and internet",
+        "Water and trash",
+        "Furniture",
+        "Parking"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Before you sign a lease, read it carefully and ask questions about anything you don't understand. Check the apartment for problems — test the faucets, the lights, and the heat. Take photos of any damage you find and send them to the landlord, so you don't pay for it later. Never pay a deposit in cash without getting a written receipt.",
+      "question": "Why should you take photos of damage before moving in?",
+      "options": [
+        "To decorate the apartment",
+        "So you don't pay for that damage later",
+        "To show your friends",
+        "Because the lease requires it"
+      ],
+      "correct": 1
     }
   ]
 }

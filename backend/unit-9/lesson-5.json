@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "The text follows a dialectical structure: it begins with the attractive thesis of consumer choice in education, demonstrates its failure through research, and arrives at a synthesis that reframes the concept of autonomy. This is not a simple problem-solution text because the writer does not propose a specific remedy — the resolution is conceptual, not practical."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "The paragraph is the unit of academic argument. A strong paragraph opens with a topic sentence stating the claim, develops it with evidence, interprets that evidence — this step is the one students most often skip — and closes by linking back to the essay's thesis. Evidence never speaks for itself; your job is to explain why the quotation or statistic supports your point. A paragraph that ends on a quotation has ended on someone else's voice, not yours.",
+      "question": "Which step do students most often skip?",
+      "options": [
+        "Writing a topic sentence",
+        "Including evidence",
+        "Interpreting the evidence",
+        "Linking to the thesis"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Cohesion is what makes writing feel effortless to read. It comes less from connective words like 'however' and 'therefore' than from information flow: end one sentence with the idea the next sentence picks up. Compare: 'The committee rejected the proposal. Budget concerns drove the rejection.' The second sentence opens with old information — the rejection — and adds new. That old-to-new pattern, repeated sentence after sentence, is what readers experience as clarity.",
+      "question": "What creates cohesion, according to the speaker?",
+      "options": [
+        "Using many connective words",
+        "Ending sentences with ideas the next sentence picks up",
+        "Short sentences only",
+        "Avoiding repetition entirely"
+      ],
+      "correct": 1
+    }
   ]
 }

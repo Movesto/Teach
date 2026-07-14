@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Option B achieves maximum economy: the repeated verb phrase 'ask whose interests a given rhetoric serves' is ellipsed after 'others,' and the semicolon creates the pace-building pause characteristic of parallel ellipsis in editorial prose. The result is crisp, authoritative, and syntactically elegant."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Democratic argument depends on a distinction older than democracy itself: the difference between persuasion and coercion. Persuasion offers reasons a free person could accept or reject; coercion forecloses the choice. The philosopher's test is publicity — could you state your real reasons in public and still expect agreement? Arguments that must hide their premises, that work only on the uninformed, or that substitute pressure for reasons fail that test. A healthy public square is not one without conflict; it is one where conflict runs on reasons.",
+      "question": "What is the 'publicity test' for an argument?",
+      "options": [
+        "Whether it appears in newspapers",
+        "Whether you could state your real reasons publicly and expect agreement",
+        "Whether a majority already believes it",
+        "Whether it is entertaining"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Political language, Orwell warned, can make lies sound truthful and murder respectable — and the mechanisms he named have not retired. Euphemism drains events of their content: 'collateral damage' for dead civilians, 'enhanced interrogation' for torture. Abstraction removes agents: 'mistakes were made.' Ready-made phrases think for the speaker: strings of prefabricated words that assemble themselves into sentences no one quite means. His remedy was concreteness — say what happened, name who did it, use words you could define. It remains the best short course in civic self-defense.",
+      "question": "What was Orwell's remedy for corrupted political language?",
+      "options": [
+        "Avoiding politics",
+        "Concreteness: name events, agents, and use definable words",
+        "More formal vocabulary",
+        "Shorter speeches"
+      ],
+      "correct": 1
+    }
   ]
 }

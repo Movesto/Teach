@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "Option B demonstrates the layers of tentative formal language appropriate to professional negotiation: 'I wonder whether' (distancing), 'might be' (modal possibility), 'some flexibility' (non-committal quantity), 'could enable' (conditional), and 'explore' (non-committal verb for an open-ended possibility). It asks and suggests simultaneously without committing to either."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "The single most common negotiation mistake is treating it as a battle over a fixed pie. Skilled negotiators distinguish positions from interests. A position is what you say you want: 'I need a ten percent raise.' An interest is why you want it: recognition, security, fairness relative to peers. Positions collide; interests often overlap. If the budget truly cannot support a raise, interests open other doors — a title change, development budget, flexible schedule — that a position-versus-position fight would never reveal.",
+      "question": "What is the difference between a position and an interest?",
+      "options": [
+        "They are the same thing",
+        "A position is what you want; an interest is why you want it",
+        "An interest is always about money",
+        "A position is secret; an interest is public"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Before any negotiation, know your BATNA — your best alternative to a negotiated agreement. If this deal falls through, what will you actually do? A strong alternative is quiet leverage: you can decline a poor offer without fear. A weak alternative means you should negotiate to improve it before you ever sit down. And never reveal a weak BATNA. The phrase 'I'm exploring several options' is honest, strategic, and considerably better than 'I have nowhere else to go.'",
+      "question": "What does a strong BATNA allow you to do?",
+      "options": [
+        "Demand anything you want",
+        "Decline a poor offer without fear",
+        "Skip preparation",
+        "Avoid negotiating at all"
+      ],
+      "correct": 1
+    }
   ]
 }

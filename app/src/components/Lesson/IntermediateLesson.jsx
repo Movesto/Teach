@@ -1,16 +1,18 @@
 import { useState } from 'react';
 import { CheckCircle, BookOpen, MessageSquare, Volume2, Mic, PenTool, ChevronDown, ChevronUp, Eye, EyeOff, Lightbulb, Target } from 'lucide-react';
 import { Quiz } from './Quiz';
+import { ListeningExercise } from './index';
 
 const SECTIONS = [
-  { id: 'objectives',   label: 'Objectives',        icon: Target },
-  { id: 'reading',      label: 'Reading',            icon: BookOpen },
-  { id: 'comprehension',label: 'Comprehension',      icon: MessageSquare },
-  { id: 'language',     label: 'Language Focus',     icon: Lightbulb },
-  { id: 'vocabulary',   label: 'Vocabulary',         icon: BookOpen },
-  { id: 'speaking',     label: 'Speaking Task',      icon: Mic },
-  { id: 'writing',      label: 'Writing Workshop',   icon: PenTool },
-  { id: 'quiz',         label: 'Quiz',               icon: CheckCircle },
+  { id: 'objectives',   label: 'Objectives',        icon: Target,        has: () => true },
+  { id: 'reading',      label: 'Reading',            icon: BookOpen,      has: l => l.reading_passage },
+  { id: 'comprehension',label: 'Comprehension',      icon: MessageSquare, has: l => l.comprehension },
+  { id: 'listening',    label: 'Listening',          icon: Volume2,       has: l => l.listening?.length },
+  { id: 'language',     label: 'Language Focus',     icon: Lightbulb,     has: l => l.language_focus },
+  { id: 'vocabulary',   label: 'Vocabulary',         icon: BookOpen,      has: l => l.vocabulary_in_context },
+  { id: 'speaking',     label: 'Speaking Task',      icon: Mic,           has: l => l.speaking_task },
+  { id: 'writing',      label: 'Writing Workshop',   icon: PenTool,       has: l => l.writing_workshop },
+  { id: 'quiz',         label: 'Quiz',               icon: CheckCircle,   has: l => l.quiz },
 ];
 
 const REGISTER_COLORS = {
@@ -26,6 +28,14 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
   const [showModel, setShowModel] = useState(false);
   const [writingText, setWritingText] = useState('');
   const [openVocab, setOpenVocab] = useState(null);
+
+  const sections = SECTIONS.filter(s => s.has(lesson));
+
+  // Next available section after `id` — sections vary per lesson.
+  const nextAfter = (id) => {
+    const i = sections.findIndex(s => s.id === id);
+    return sections[i + 1]?.id ?? 'quiz';
+  };
 
   const finish = (section, next) => {
     if (!completed.includes(section)) setCompleted(c => [...c, section]);
@@ -61,13 +71,13 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xs font-bold text-teal-600 dark:text-teal-400 uppercase tracking-wider">Intermediate</span>
           </div>
-          <nav className="space-y-1">{SECTIONS.map(navItem)}</nav>
+          <nav className="space-y-1">{sections.map(navItem)}</nav>
           <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
             <div className="h-1.5 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
               <div className="h-full bg-teal-500 rounded-full transition-all"
-                style={{ width: `${(completed.length / SECTIONS.length) * 100}%` }} />
+                style={{ width: `${(completed.length / sections.length) * 100}%` }} />
             </div>
-            <p className="text-xs text-gray-400 dark:text-gray-500 mt-1.5">{completed.length}/{SECTIONS.length} sections</p>
+            <p className="text-xs text-gray-400 dark:text-gray-500 mt-1.5">{completed.length}/{sections.length} sections</p>
           </div>
         </div>
       </div>
@@ -162,10 +172,20 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
                 </div>
               ))}
             </div>
-            <button onClick={() => finish('comprehension', 'language')}
+            <button onClick={() => finish('comprehension', nextAfter('comprehension'))}
               className="w-full py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-xl font-semibold transition-colors">
-              Explore Language Focus →
+              Continue →
             </button>
+          </div>
+        )}
+
+        {/* ── Listening ── */}
+        {currentSection === 'listening' && lesson.listening?.length > 0 && (
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
+            <ListeningExercise
+              exercises={lesson.listening}
+              onComplete={() => finish('listening', nextAfter('listening'))}
+            />
           </div>
         )}
 

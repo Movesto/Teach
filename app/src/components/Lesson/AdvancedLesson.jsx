@@ -1,14 +1,18 @@
 import { useState } from 'react';
-import { CheckCircle, BookOpen, MessageSquare, PenTool, ChevronDown, ChevronUp, Eye, EyeOff, Zap, AlertCircle, Target, Mic2, FileText } from 'lucide-react';
+import { CheckCircle, BookOpen, MessageSquare, PenTool, ChevronDown, ChevronUp, Eye, EyeOff, Zap, AlertCircle, Target, Mic2, FileText, Volume2 } from 'lucide-react';
 import { Quiz } from './Quiz';
+import { ListeningExercise } from './index';
 
 const SECTIONS = [
   { id: 'objectives',   label: 'Objectives',         icon: Target },
   { id: 'text',         label: 'Authentic Text',      icon: FileText },
   { id: 'critical',     label: 'Critical Reading',    icon: MessageSquare },
+  { id: 'listening',    label: 'Listening',           icon: Volume2 },
   { id: 'analysis',     label: 'Language Analysis',   icon: Zap },
   { id: 'errors',       label: 'Error Correction',    icon: AlertCircle },
   { id: 'debate',       label: 'Debate / Argument',   icon: Mic2 },
+  { id: 'speaking',     label: 'Speaking Task',       icon: Mic2 },
+  { id: 'workshop',     label: 'Writing Workshop',    icon: PenTool },
   { id: 'writing',      label: 'Extended Writing',    icon: PenTool },
   { id: 'grammar',      label: 'Advanced Grammar',    icon: BookOpen },
   { id: 'quiz',         label: 'Assessment',          icon: CheckCircle },
@@ -36,6 +40,7 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
   const [completed, setCompleted] = useState([]);
   const [revealed, setRevealed] = useState({});
   const [writingText, setWritingText] = useState('');
+  const [workshopText, setWorkshopText] = useState('');
   const [correctionShown, setCorrectionShown] = useState({});
 
   const finish = (section, next) => {
@@ -52,9 +57,12 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
     if (s.id === 'quiz') return !!lesson.quiz;
     if (s.id === 'text') return !!lesson.authentic_text;
     if (s.id === 'critical') return !!lesson.critical_reading?.length;
+    if (s.id === 'listening') return !!lesson.listening?.length;
     if (s.id === 'analysis') return !!lesson.language_analysis;
     if (s.id === 'errors') return !!lesson.error_correction?.sentences?.length;
     if (s.id === 'debate') return !!lesson.debate_task;
+    if (s.id === 'speaking') return !!lesson.speaking_task;
+    if (s.id === 'workshop') return !!lesson.writing_workshop;
     if (s.id === 'writing') return !!lesson.extended_writing;
     if (s.id === 'grammar') return !!lesson.advanced_grammar;
     return false;
@@ -192,8 +200,18 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
             </div>
             <button onClick={() => finish('critical', nextSection('critical'))}
               className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-semibold transition-colors">
-              Language Analysis →
+              Continue →
             </button>
+          </div>
+        )}
+
+        {/* ── Listening ── */}
+        {currentSection === 'listening' && lesson.listening?.length > 0 && (
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
+            <ListeningExercise
+              exercises={lesson.listening}
+              onComplete={() => finish('listening', nextSection('listening'))}
+            />
           </div>
         )}
 
@@ -364,7 +382,133 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
 
             <button onClick={() => finish('debate', nextSection('debate'))}
               className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-semibold transition-colors">
-              Extended Writing →
+              Continue →
+            </button>
+          </div>
+        )}
+
+        {/* ── Speaking Task ── */}
+        {currentSection === 'speaking' && lesson.speaking_task && (
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
+            <div className="flex items-center gap-2 mb-1">
+              <Mic2 className="w-4 h-4 text-violet-500" />
+              <span className="text-xs font-semibold text-violet-600 dark:text-violet-400 uppercase tracking-wide">Speaking Task</span>
+              {lesson.speaking_task.type && (
+                <span className="text-xs bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300 px-2.5 py-1 rounded-full font-medium capitalize">
+                  {lesson.speaking_task.type}
+                </span>
+              )}
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Speak Your Mind</h2>
+            {lesson.speaking_task.context && (
+              <div className="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 dark:border-amber-600 rounded-r-xl p-4 mb-5">
+                <p className="text-amber-900 dark:text-amber-200 text-sm">{lesson.speaking_task.context}</p>
+              </div>
+            )}
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-5 mb-5">
+              <p className="font-semibold text-gray-900 dark:text-white mb-1">Your task:</p>
+              <p className="text-gray-700 dark:text-gray-300">{lesson.speaking_task.prompt}</p>
+            </div>
+            {lesson.speaking_task.useful_language?.length > 0 && (
+              <div className="mb-5">
+                <button onClick={() => toggle('speaking-phrases')}
+                  className="flex items-center gap-2 text-sm font-semibold text-violet-600 dark:text-violet-400 hover:text-violet-800 transition-colors mb-2">
+                  {revealed['speaking-phrases'] ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                  Useful language
+                </button>
+                {revealed['speaking-phrases'] && (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {lesson.speaking_task.useful_language.map((p, i) => (
+                      <div key={i} className="bg-violet-50 dark:bg-violet-900/20 border border-violet-200 dark:border-violet-700 rounded-lg px-3 py-2 text-sm text-violet-800 dark:text-violet-200 font-medium">
+                        "{p}"
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+            {lesson.speaking_task.model_answer && (
+              <div className="mb-6">
+                <button onClick={() => toggle('speaking-model')}
+                  className="flex items-center gap-2 text-sm font-semibold text-gray-500 dark:text-gray-400 hover:text-gray-700 transition-colors mb-2">
+                  {revealed['speaking-model'] ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  {revealed['speaking-model'] ? 'Hide model answer' : 'See a model answer'}
+                </button>
+                {revealed['speaking-model'] && (
+                  <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-4 text-sm text-gray-700 dark:text-gray-300 italic">
+                    "{lesson.speaking_task.model_answer}"
+                  </div>
+                )}
+              </div>
+            )}
+            <button onClick={() => finish('speaking', nextSection('speaking'))}
+              className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-semibold transition-colors">
+              Continue →
+            </button>
+          </div>
+        )}
+
+        {/* ── Writing Workshop ── */}
+        {currentSection === 'workshop' && lesson.writing_workshop && (
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
+            <div className="flex items-center gap-2 mb-1">
+              <PenTool className="w-4 h-4 text-violet-500" />
+              <span className="text-xs font-semibold text-violet-600 dark:text-violet-400 uppercase tracking-wide">Writing Workshop</span>
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-5">Writing Workshop</h2>
+            {lesson.writing_workshop.model_text && (
+              <div className="mb-6">
+                <button onClick={() => toggle('workshop-model')}
+                  className="flex items-center gap-2 text-sm font-semibold text-violet-600 dark:text-violet-400 hover:text-violet-800 transition-colors mb-2">
+                  {revealed['workshop-model'] ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                  {revealed['workshop-model'] ? 'Hide' : 'Read'} the model text
+                </button>
+                {revealed['workshop-model'] && (
+                  <div className="bg-gray-50 dark:bg-gray-800 border-l-4 border-violet-400 dark:border-violet-600 rounded-r-xl p-5 mb-3 text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
+                    {lesson.writing_workshop.model_text}
+                  </div>
+                )}
+                {revealed['workshop-model'] && lesson.writing_workshop.model_analysis && (
+                  <div className="bg-violet-50 dark:bg-violet-900/20 rounded-xl p-4 mb-4">
+                    <p className="text-xs font-semibold text-violet-700 dark:text-violet-400 mb-1 uppercase tracking-wide">Why it works:</p>
+                    <p className="text-sm text-violet-900 dark:text-violet-200">{lesson.writing_workshop.model_analysis}</p>
+                  </div>
+                )}
+              </div>
+            )}
+            <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-700 rounded-xl p-5 mb-5">
+              <p className="font-semibold text-indigo-900 dark:text-indigo-200 mb-1">Your task:</p>
+              <p className="text-indigo-800 dark:text-indigo-300">{lesson.writing_workshop.task}</p>
+              {lesson.writing_workshop.word_count && (
+                <p className="text-xs text-indigo-500 dark:text-indigo-400 mt-2">Target: {lesson.writing_workshop.word_count} words</p>
+              )}
+            </div>
+            {lesson.writing_workshop.success_criteria?.length > 0 && (
+              <div className="mb-5">
+                <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Success criteria:</p>
+                <ul className="space-y-1.5">
+                  {lesson.writing_workshop.success_criteria.map((c, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
+                      <CheckCircle className="w-4 h-4 text-violet-400 flex-shrink-0 mt-0.5" />
+                      {c}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <textarea
+              value={workshopText}
+              onChange={e => setWorkshopText(e.target.value)}
+              placeholder="Write your response here..."
+              rows={7}
+              className="w-full px-4 py-3 border-2 border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:border-violet-500 dark:focus:border-violet-400 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 resize-none mb-1"
+            />
+            <p className="text-xs text-gray-400 dark:text-gray-500 mb-5">
+              {workshopText.trim().split(/\s+/).filter(Boolean).length} words
+            </p>
+            <button onClick={() => finish('workshop', nextSection('workshop'))}
+              className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-semibold transition-colors">
+              Continue →
             </button>
           </div>
         )}

@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Option B constructs a compact, pre-modified nominal group: 'the council's' (possessive pre-modifier) + 'proposed' (participial pre-modifier) + 'withdrawal of the Route 47 bus service' (head noun + post-modifier). This is denser and more elegant than the relative clause constructions in the other options."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Community organizing runs on a discipline the textbooks call the one-to-one: a thirty-minute intentional conversation, not to recruit, but to listen for self-interest and capacity. What keeps this parent up at night? What would she fight for, and what can she do — host a meeting, translate a flyer, speak at the council? Organizers say the difference between mobilizing and organizing is exactly this: mobilizing spends people on your issue; organizing builds people who can win their own.",
+      "question": "What is the purpose of a one-to-one conversation in organizing?",
+      "options": [
+        "Immediate recruitment",
+        "Listening for self-interest and capacity",
+        "Fundraising",
+        "Media exposure"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Testifying at a city council meeting, you typically get two or three minutes, and the format rewards preparation. Open with name and neighborhood — you are a constituent, say so. Make one point, backed by one vivid, local, first-hand detail; councils drown in statistics but remember the mother describing the corner where her son crosses to school. End with the specific action you want. Write it out, time it, cut a third. Then deliver it to the members' faces, not to your paper.",
+      "question": "What do council members remember most, according to the speaker?",
+      "options": [
+        "Detailed statistics",
+        "Vivid first-hand local details",
+        "Legal citations",
+        "Long speeches"
+      ],
+      "correct": 1
+    }
   ]
 }

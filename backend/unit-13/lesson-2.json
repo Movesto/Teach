@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Option B correctly uses 'were' (past subjunctive) in the second conditional to signal hypotheticality — the argument is not currently clear. Option A uses 'was' (past indicative), which is acceptable in informal speech but non-standard in formal writing. Option C is a third-person conditional (past hypothetical) which changes the tense and meaning."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Advanced grammar is less about new rules than new leverage. Take inversion: 'Never have I seen such results' says what 'I have never seen such results' says, but the fronted negative concentrates emphasis like a spotlight. Cleft sentences redistribute attention: 'What concerns me is the timeline' aims the listener at exactly one constituent. These structures are optional — that is precisely their value. Because you could have said it plainly, choosing the marked form signals deliberateness, and audiences hear the difference even when they cannot name it.",
+      "question": "Why does the optionality of these structures matter?",
+      "options": [
+        "Optional rules are easier",
+        "Choosing the marked form signals deliberateness",
+        "They can be ignored entirely",
+        "Examiners prefer plain forms"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Consider three refinements that mark sophisticated prose. Participle clauses compress: 'Having reviewed the data, the committee revised its estimate' folds two sentences into one flowing period. Nominalization abstracts: 'they decided quickly' becomes 'the speed of their decision' — useful for topic management, dangerous in bulk, since heavily nominalized prose loses agents and energy. And subjunctive survivals — 'I suggest that he be informed,' 'were I in your position' — persist precisely in formal registers, where their rarity makes them legible as care.",
+      "question": "What is the danger of heavy nominalization?",
+      "options": [
+        "It is ungrammatical",
+        "Prose loses agents and energy",
+        "It shortens sentences too much",
+        "It sounds too casual"
+      ],
+      "correct": 1
+    }
   ]
 }

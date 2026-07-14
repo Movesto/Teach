@@ -16,11 +16,26 @@
     "text": "For many Somali newcomers, navigating food in the United States involves both cultural and religious considerations. Halal dietary requirements — which prohibit pork and require that meat be slaughtered in a specific way — are not always understood by restaurant staff or host families, and communicating these needs clearly is an important life skill.\n\nIn Portland, the number of restaurants offering halal-certified options has grown significantly, particularly in areas with larger Somali and East African communities. However, many mainstream restaurants do not carry halal meat. In these situations, diners can ask about fish, vegetarian, or egg-based dishes, which may meet their requirements. It is always appropriate to ask the server directly: 'Does this dish contain pork?' or 'Is the meat here halal-certified?'\n\nBeyond religious requirements, many Somalis and other newcomers discover new dietary preferences after arriving in the US. Some develop lactose intolerance symptoms after years without consuming much dairy. Others become vegetarian or find that certain ingredients, such as very spicy food or heavy sauces, no longer suit them.\n\nAmerican menus increasingly accommodate diverse needs. Look for labels such as 'GF' (gluten-free), 'V' (vegetarian), 'VG' (vegan), or 'contains nuts.' Grocery stores such as Halal International Market and Bilal International Halal Food in Portland stock a wide range of halal-certified meats, spices, and specialty items that make cooking familiar meals much more accessible.",
     "source": "Adapted from community food access resources produced by the Oregon Department of Human Services and Somali Community Services of Oregon, Portland, 2023",
     "glossary": [
-      {"word": "halal", "meaning": "permitted under Islamic law; when applied to food, it means the food meets specific preparation requirements, including the way animals are slaughtered"},
-      {"word": "certified", "meaning": "officially confirmed to meet a particular standard, usually by an independent organisation"},
-      {"word": "lactose intolerance", "meaning": "a digestive condition where a person cannot properly process lactose, a sugar found in dairy products"},
-      {"word": "vegetarian", "meaning": "a person who does not eat meat or fish, but may eat dairy and eggs"},
-      {"word": "accommodate", "meaning": "to adjust or make changes to meet someone's needs or requirements"}
+      {
+        "word": "halal",
+        "meaning": "permitted under Islamic law; when applied to food, it means the food meets specific preparation requirements, including the way animals are slaughtered"
+      },
+      {
+        "word": "certified",
+        "meaning": "officially confirmed to meet a particular standard, usually by an independent organisation"
+      },
+      {
+        "word": "lactose intolerance",
+        "meaning": "a digestive condition where a person cannot properly process lactose, a sugar found in dairy products"
+      },
+      {
+        "word": "vegetarian",
+        "meaning": "a person who does not eat meat or fish, but may eat dairy and eggs"
+      },
+      {
+        "word": "accommodate",
+        "meaning": "to adjust or make changes to meet someone's needs or requirements"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "halal",
       "definition": "Permitted under Islamic law; for food, it means the item meets specific requirements including the method of slaughter and the absence of forbidden ingredients",
       "example_sentence": "Halal dietary requirements — which prohibit pork and require that meat be slaughtered in a specific way — are not always understood by restaurant staff.",
-      "collocations": ["halal-certified", "halal meat", "halal restaurant"],
+      "collocations": [
+        "halal-certified",
+        "halal meat",
+        "halal restaurant"
+      ],
       "register": "neutral"
     },
     {
       "word": "certified",
       "definition": "Officially verified and confirmed to meet a recognised standard by an authorised body",
       "example_sentence": "The number of restaurants offering halal-certified options has grown significantly in Portland.",
-      "collocations": ["halal-certified", "certified organic", "certified by"],
+      "collocations": [
+        "halal-certified",
+        "certified organic",
+        "certified by"
+      ],
       "register": "neutral"
     },
     {
       "word": "accommodate",
       "definition": "To adapt or make adjustments in order to meet the needs or requirements of others",
       "example_sentence": "American menus increasingly accommodate diverse needs — look for labels such as 'GF' (gluten-free), 'V' (vegetarian), or 'VG' (vegan).",
-      "collocations": ["accommodate dietary needs", "accommodate requests", "happy to accommodate"],
+      "collocations": [
+        "accommodate dietary needs",
+        "accommodate requests",
+        "happy to accommodate"
+      ],
       "register": "formal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage mentions: 'Grocery stores such as Halal International Market and Bilal International Halal Food in Portland stock a wide range of halal-certified meats, spices, and specialty items.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Good evening! Before I take your order, does anyone at the table have a food allergy or dietary restriction? We can make most dishes without nuts, dairy, or gluten. Our halal options are marked with an H on the menu, and we have a separate vegetarian section on the back page. Just let me know and I'll check with the kitchen about ingredients.",
+      "question": "How are halal options marked on the menu?",
+      "options": [
+        "With a leaf",
+        "With an H",
+        "With a star",
+        "In a separate color"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "If you follow a special diet, learn a few key phrases. 'Does this contain pork?' 'Is this cooked with alcohol?' 'I'm allergic to peanuts — is this dish safe for me?' Restaurants in America take allergies very seriously, so never feel shy about asking. If the server isn't sure, they will ask the cook. It's also fine to ask them to change a dish: 'Could I have that without cheese, please?'",
+      "question": "What does the speaker say about asking questions about food?",
+      "options": [
+        "It is rude to ask",
+        "Restaurants take allergies seriously, so ask",
+        "Only cooks may answer",
+        "You should call before visiting"
+      ],
+      "correct": 1
     }
   ]
 }

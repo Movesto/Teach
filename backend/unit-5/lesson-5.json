@@ -16,11 +16,26 @@
     "text": "Travel disruptions are an unavoidable part of life. Whether it is a bus that fails to show up on a rainy morning or an international flight delayed by mechanical issues, unexpected delays can cause real problems — missed appointments, late arrivals at work, or added costs for rebooking.\n\nFor air travellers in the United States, airlines are required by federal regulations to compensate passengers under certain conditions. If an airline cancels your flight and it was their fault — not due to weather or other circumstances beyond their control — you are entitled to a full refund, even on a non-refundable ticket. Some airlines will also offer meal vouchers or hotel accommodation if the delay is lengthy. However, these rules do not apply to delays caused by severe weather, which are classified as 'extraordinary circumstances.'\n\nFor bus and train passengers, the rules differ. Public transit agencies typically do not offer compensation for delays, but they may provide information about alternative routes. In the event of a service disruption on the MAX light rail in Portland, for example, TriMet often runs shuttle buses to cover the affected segment of the route.\n\nThe most important thing any traveller can do during a delay is to stay informed. Check the airline or transit agency's app or website for real-time updates. Speak with staff at the information desk rather than waiting passively. If a long delay is unavoidable, notify anyone expecting you — your employer, a medical clinic, a host family — as early as possible.",
     "source": "Adapted from U.S. Department of Transportation consumer travel tips and the TriMet Service Alerts page, 2024",
     "glossary": [
-      {"word": "disruption", "meaning": "an unexpected interruption that prevents normal service or plans from continuing"},
-      {"word": "compensate", "meaning": "to give money or other benefits to someone as payment for a loss or inconvenience"},
-      {"word": "voucher", "meaning": "a printed or digital token that can be exchanged for a specific product or service"},
-      {"word": "extraordinary circumstances", "meaning": "events beyond anyone's control, such as severe weather, that excuse an airline from paying compensation"},
-      {"word": "shuttle bus", "meaning": "a bus that runs on a temporary route to replace another service that is not operating"}
+      {
+        "word": "disruption",
+        "meaning": "an unexpected interruption that prevents normal service or plans from continuing"
+      },
+      {
+        "word": "compensate",
+        "meaning": "to give money or other benefits to someone as payment for a loss or inconvenience"
+      },
+      {
+        "word": "voucher",
+        "meaning": "a printed or digital token that can be exchanged for a specific product or service"
+      },
+      {
+        "word": "extraordinary circumstances",
+        "meaning": "events beyond anyone's control, such as severe weather, that excuse an airline from paying compensation"
+      },
+      {
+        "word": "shuttle bus",
+        "meaning": "a bus that runs on a temporary route to replace another service that is not operating"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "disruption",
       "definition": "Something unexpected that interrupts normal service or plans",
       "example_sentence": "In the event of a service disruption on the MAX light rail in Portland, TriMet often runs shuttle buses.",
-      "collocations": ["service disruption", "travel disruption", "cause a disruption"],
+      "collocations": [
+        "service disruption",
+        "travel disruption",
+        "cause a disruption"
+      ],
       "register": "neutral"
     },
     {
       "word": "compensate",
       "definition": "To give money, vouchers, or services to someone as payment for a loss or inconvenience",
       "example_sentence": "Airlines are required by federal regulations to compensate passengers under certain conditions.",
-      "collocations": ["compensate passengers", "compensate for a delay", "financially compensate"],
+      "collocations": [
+        "compensate passengers",
+        "compensate for a delay",
+        "financially compensate"
+      ],
       "register": "formal"
     },
     {
       "word": "voucher",
       "definition": "A document or digital code that can be exchanged for a specific product, service, or discount",
       "example_sentence": "Some airlines will also offer meal vouchers or hotel accommodation if the delay is lengthy.",
-      "collocations": ["meal voucher", "hotel voucher", "redeem a voucher"],
+      "collocations": [
+        "meal voucher",
+        "hotel voucher",
+        "redeem a voucher"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The final paragraph says: 'The most important thing any traveller can do during a delay is to stay informed. Check the airline or transit agency's app or website for real-time updates.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Attention passengers: flight six-one-two to Denver is delayed due to bad weather. The new departure time is seven forty-five PM. We apologize for the inconvenience. If you have a connecting flight, please speak to an agent at the customer service desk. Passengers may also rebook for free on tomorrow morning's flight using our mobile app.",
+      "question": "What can passengers with a connecting flight do?",
+      "options": [
+        "Wait at the gate",
+        "Speak to an agent at the customer service desk",
+        "Board the plane early",
+        "Ask the pilot for help"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "When your bus or train is late, stay calm and check the information screens first. Announcements will usually explain the delay and give a new time. If you might miss an important appointment, call ahead and explain the situation — most offices understand transportation delays. Keep your ticket, because some companies give refunds when a delay is very long.",
+      "question": "Why should you keep your ticket during a long delay?",
+      "options": [
+        "To board first",
+        "Some companies give refunds",
+        "To get free food",
+        "The driver will ask for it twice"
+      ],
+      "correct": 1
     }
   ]
 }

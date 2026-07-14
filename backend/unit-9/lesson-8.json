@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "The 'Subject + passive reporting verb + to + infinitive' construction is 'this method is widely considered to be unreliable'. The adverb 'widely' replaces the agent phrase 'by many experts' in a more natural way. Options A (adverb form), B (awkward agent placement), and D (misconstrued) are all incorrect."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "The passive voice has a bad reputation it does not entirely deserve. Yes, 'mistakes were made' conceals the maker — and politicians exploit that. But science writing uses the passive for a principled reason: 'the samples were heated to eighty degrees' keeps attention on the samples, where it belongs, rather than the technician. The question to ask is never 'is this passive?' but 'who is missing from this sentence, and does the reader deserve to know?'",
+      "question": "What question should you ask about a passive sentence?",
+      "options": [
+        "Is it grammatically correct?",
+        "Who is missing, and does the reader deserve to know?",
+        "Is it too long?",
+        "Was it written by a scientist?"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Compare two headlines about the same event. 'Police arrest protesters' — active, agent up front. 'Protesters arrested amid clashes' — passive, and the police have vanished from the grammar entirely. Neither sentence is false, but they distribute responsibility differently, and readers absorb that framing without noticing. Critical readers make the missing agent visible again by asking: arrested by whom? Decided by whom? Funded by whom? Grammar, in the news, is quietly political.",
+      "question": "What happens to the police in the passive headline?",
+      "options": [
+        "They are emphasized",
+        "They disappear from the grammar",
+        "They are blamed directly",
+        "They are quoted"
+      ],
+      "correct": 1
+    }
   ]
 }

@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Verbs determine how an action is characterised: 'demanded,' 'insisted,' 'threatened,' and 'requested' can all describe the same speech act but produce radically different evaluative frames. The verb is where much of the political work of framing is done."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Bias in the press is rarely fabrication; outright false stories are the exception. The everyday forms are quieter. Selection bias: which stories run at all. Placement: front page or page fourteen. Framing: 'tax relief' versus 'tax cuts for the wealthy' — same policy, different moral load. Sourcing: whose voices count as expert. And the passive voice, which can lift responsibility off any actor the outlet prefers to protect. Learning to see these choices is the difference between reading news and being read to.",
+      "question": "According to the speaker, what form does press bias usually take?",
+      "options": [
+        "Fabricated stories",
+        "Quiet choices in selection, framing, and sourcing",
+        "Printing errors",
+        "Openly stated opinions"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Here is an exercise worth repeating weekly. Take one event and read its coverage in two outlets with different audiences. List the facts both agree on — that core is probably solid. Then note what each includes that the other omits, whom each quotes, and the emotional temperature of each headline. You are not hunting for the unbiased outlet; none exists, and the aspiration itself misleads. You are triangulating: building a picture more complete than any single frame allows.",
+      "question": "What is the goal of reading two outlets on the same event?",
+      "options": [
+        "Finding the one unbiased outlet",
+        "Triangulating a more complete picture",
+        "Proving both are lying",
+        "Choosing a side faster"
+      ],
+      "correct": 1
+    }
   ]
 }

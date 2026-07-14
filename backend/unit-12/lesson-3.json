@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "'As published' is a precise qualifier that limits the objection to the decision in its current form. This is strategically valuable: it makes the complaint focused and remediable (the council can address it by amending the published decision) rather than a broad attack on the planning process itself."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "A letter to a public official is a genre with rules, and following them multiplies your impact. Identify yourself as a constituent in the first line — officials weight voters in their district far above everyone else. State one issue, with the bill number if it exists. Make one specific request: vote yes, vote no, hold a hearing. Add a brief personal stake: how the issue touches your family, block, or business. Close respectfully. One page. Staffers tally these letters; a hundred like yours becomes a briefing item.",
+      "question": "Why should you identify yourself as a constituent immediately?",
+      "options": [
+        "It is legally required",
+        "Officials weight district voters far above others",
+        "It makes the letter longer",
+        "Staffers discard anonymous mail"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Petitions trade depth for breadth: one carefully argued letter says more than one signature, but five thousand signatures say something no letter can. The craft is in the ask. Effective petitions target a decision-maker who can actually grant the demand, name a specific and achievable action, and set a deadline that creates urgency. 'Make the city better' gathers dust. 'Fund the Fifth Street crosswalk in this year's budget cycle' gives a council member something they can vote on — and constituents something they can win.",
+      "question": "What makes a petition demand effective?",
+      "options": [
+        "Broad inspirational language",
+        "A specific, achievable action aimed at the right decision-maker",
+        "As many demands as possible",
+        "Anonymous signatures"
+      ],
+      "correct": 1
+    }
   ]
 }

@@ -16,11 +16,26 @@
     "text": "When a refugee family arrives in a new country, one of the first practical challenges is furnishing a bare apartment. Resettlement agencies typically help newcomers find housing, but the apartments are often empty — four walls, a bathroom, and a kitchen with nothing in them. For a family that has left almost everything behind, building a functional home from scratch requires creativity, community support, and knowledge of local resources.\n\nMany cities have furniture banks — nonprofit organisations that collect donated furniture and household goods and distribute them free of charge to families in need. In Portland, organisations like Human Solutions and the Immigrant and Refugee Community Organisation (IRCO) maintain networks of donors and can often furnish an entire apartment within days of a family's arrival. Volunteers deliver items like beds, dressers, dining tables, and kitchen appliances directly to the new home.\n\nBeyond the basics — a bed in every bedroom, a sofa and chairs for the living room, a table and chairs for the kitchen or dining room — families often express surprise at items they had not considered: a shower curtain and rings, drawer liners, lamps, light bulbs, hangers, and basic cleaning supplies. These small items add up and can cost more than expected if purchased new.\n\nFor newcomers who cannot access a furniture bank, thrift stores like Goodwill and Habitat for Humanity's ReStore offer gently used furniture at a fraction of the retail price. Online platforms such as Craigslist's 'free' section and Facebook Marketplace also regularly list free or very cheap household items from neighbours who are moving or decluttering.",
     "source": "Adapted from the Human Solutions New Arrival Welcome Guide, Portland, Oregon, 2023",
     "glossary": [
-      {"word": "resettlement agency", "meaning": "an organisation that helps refugees find housing, work, and services in a new country"},
-      {"word": "furniture bank", "meaning": "a nonprofit that collects donated furniture and gives it free to people who cannot afford to buy it"},
-      {"word": "bare apartment", "meaning": "an empty apartment with no furniture or household items"},
-      {"word": "decluttering", "meaning": "the process of removing unwanted items from a home to create more space"},
-      {"word": "gently used", "meaning": "second-hand items that are in good condition despite having been used before"}
+      {
+        "word": "resettlement agency",
+        "meaning": "an organisation that helps refugees find housing, work, and services in a new country"
+      },
+      {
+        "word": "furniture bank",
+        "meaning": "a nonprofit that collects donated furniture and gives it free to people who cannot afford to buy it"
+      },
+      {
+        "word": "bare apartment",
+        "meaning": "an empty apartment with no furniture or household items"
+      },
+      {
+        "word": "decluttering",
+        "meaning": "the process of removing unwanted items from a home to create more space"
+      },
+      {
+        "word": "gently used",
+        "meaning": "second-hand items that are in good condition despite having been used before"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "furnished",
       "definition": "Equipped with furniture and necessary household items; the opposite is 'unfurnished' or 'bare'",
       "example_sentence": "The apartments are often empty — four walls, a bathroom, and a kitchen with nothing in them.",
-      "collocations": ["fully furnished", "partially furnished", "unfurnished apartment"],
+      "collocations": [
+        "fully furnished",
+        "partially furnished",
+        "unfurnished apartment"
+      ],
       "register": "neutral"
     },
     {
       "word": "resettlement",
       "definition": "The process of helping refugees or displaced people establish a new home in a different country",
       "example_sentence": "Resettlement agencies typically help newcomers find housing, but the apartments are often empty.",
-      "collocations": ["resettlement agency", "refugee resettlement", "resettlement process"],
+      "collocations": [
+        "resettlement agency",
+        "refugee resettlement",
+        "resettlement process"
+      ],
       "register": "formal"
     },
     {
       "word": "distribute",
       "definition": "To give out items to many different people or places",
       "example_sentence": "Nonprofit organisations collect donated furniture and household goods and distribute them free of charge to families in need.",
-      "collocations": ["distribute free of charge", "distribute supplies", "distribute to families"],
+      "collocations": [
+        "distribute free of charge",
+        "distribute supplies",
+        "distribute to families"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The final paragraph suggests 'thrift stores like Goodwill and Habitat for Humanity's ReStore' and 'online platforms such as Craigslist's free section and Facebook Marketplace.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Welcome to Home Basics! This week we have big discounts on furniture. All sofas and armchairs are twenty percent off. In the bedroom section, mattresses start at just one hundred ninety-nine dollars. We also have kitchen tables, desks, lamps, and bookshelves. Delivery is free for orders over three hundred dollars. The sale ends Sunday night.",
+      "question": "When does the sale end?",
+      "options": [
+        "Saturday morning",
+        "Sunday night",
+        "Friday",
+        "At the end of the month"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "When you move into an empty apartment, start with the most important things. First, you need a bed and bedding, because you need to sleep. Second, get basic kitchen items: a pot, a pan, plates, and cups. A table and chairs can wait, and so can a sofa. Many people find good used furniture online or at thrift stores for very low prices.",
+      "question": "According to the speaker, what should you buy first?",
+      "options": [
+        "A sofa",
+        "A television",
+        "A bed and bedding",
+        "A bookshelf"
+      ],
+      "correct": 2
     }
   ]
 }

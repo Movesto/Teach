@@ -16,11 +16,26 @@
     "text": "For many immigrant families, enrolling children in school is one of the first and most important tasks after arriving in a new country. The process can feel overwhelming, particularly when parents are unfamiliar with the local education system and are still developing their language skills.\n\nIn most public school systems, children must attend school from around age five or six until they are at least sixteen. Parents have to provide certain documents when enrolling, including proof of address, vaccination records, and the child's birth certificate. Schools are required by law to accept all children, regardless of immigration status.\n\nMany districts offer enrolment support services, including translators and parent liaisons who speak multiple languages. These professionals help families understand what is expected of students and parents. For example, parents should attend scheduled parent-teacher conferences and need to inform the school if their child will be absent.\n\nSchools also have to assess new students to determine the appropriate grade level and whether additional language support is needed. Students who are learning English as a second language are entitled to receive extra help through English Language Learner programmes.\n\nExperts emphasise that early school enrolment significantly improves long-term outcomes for children. According to education researchers, children who start school on time and attend regularly develop stronger academic and social skills than those who begin late or miss school frequently.",
     "source": "Adapted from the National Parent Teacher Association Guide to School Enrolment",
     "glossary": [
-      {"word": "enrolment", "meaning": "the process of officially registering someone in a school or programme"},
-      {"word": "liaison", "meaning": "a person who acts as a link between groups to ensure communication"},
-      {"word": "vaccination records", "meaning": "official documents showing which vaccines a child has received"},
-      {"word": "entitled", "meaning": "having a right to receive or do something"},
-      {"word": "assess", "meaning": "to evaluate or measure someone's level of knowledge or skill"}
+      {
+        "word": "enrolment",
+        "meaning": "the process of officially registering someone in a school or programme"
+      },
+      {
+        "word": "liaison",
+        "meaning": "a person who acts as a link between groups to ensure communication"
+      },
+      {
+        "word": "vaccination records",
+        "meaning": "official documents showing which vaccines a child has received"
+      },
+      {
+        "word": "entitled",
+        "meaning": "having a right to receive or do something"
+      },
+      {
+        "word": "assess",
+        "meaning": "to evaluate or measure someone's level of knowledge or skill"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "overwhelming",
       "definition": "so large, difficult, or intense that it is hard to deal with",
       "example_sentence": "The process can feel overwhelming, particularly when parents are unfamiliar with the local education system.",
-      "collocations": ["feel overwhelming", "find something overwhelming", "an overwhelming amount of"],
+      "collocations": [
+        "feel overwhelming",
+        "find something overwhelming",
+        "an overwhelming amount of"
+      ],
       "register": "neutral"
     },
     {
       "word": "regardless of",
       "definition": "without being affected or influenced by something",
       "example_sentence": "Schools are required by law to accept all children, regardless of immigration status.",
-      "collocations": ["regardless of status", "regardless of background", "regardless of ability"],
+      "collocations": [
+        "regardless of status",
+        "regardless of background",
+        "regardless of ability"
+      ],
       "register": "formal"
     },
     {
       "word": "emphasise",
       "definition": "to give special importance or attention to something",
       "example_sentence": "Experts emphasise that early school enrolment significantly improves long-term outcomes for children.",
-      "collocations": ["strongly emphasise", "experts emphasise", "emphasise the importance of"],
+      "collocations": [
+        "strongly emphasise",
+        "experts emphasise",
+        "emphasise the importance of"
+      ],
       "register": "formal"
     },
     {
       "word": "entitled",
       "definition": "having a legal or moral right to receive or do something",
       "example_sentence": "Students who are learning English as a second language are entitled to receive extra help.",
-      "collocations": ["entitled to support", "legally entitled", "entitled to benefits"],
+      "collocations": [
+        "entitled to support",
+        "legally entitled",
+        "entitled to benefits"
+      ],
       "register": "formal"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'Students who are learning English as a second language are entitled to receive extra help through English Language Learner programmes.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Welcome to Lincoln Elementary. To enroll your child, you'll need three documents: proof of address, like a utility bill or lease; your child's immunization records; and a birth certificate or passport. School starts at eight fifteen and ends at three. Free breakfast and lunch are available for families who qualify — the form is on our website. Do you have any questions?",
+      "question": "Which documents are needed to enroll a child?",
+      "options": [
+        "Only a passport",
+        "Proof of address, immunization records, and a birth certificate",
+        "A driver's license and a photo",
+        "A letter from a doctor"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "The American school system has three main levels. Elementary school usually covers kindergarten through fifth grade. Middle school is grades six through eight. High school is grades nine through twelve, and students graduate around age eighteen. Public schools are free, including books. Children are assigned to a school based on their home address, which is why proof of address matters.",
+      "question": "How are children assigned to public schools?",
+      "options": [
+        "By test scores",
+        "By their home address",
+        "By their age only",
+        "By parent request"
+      ],
+      "correct": 1
     }
   ]
 }

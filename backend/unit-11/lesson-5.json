@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "'Notwithstanding' is a formal adversative conjunction that signals contrast while acknowledging what has just been said — it manages the transition from positive to difficult material at an appropriate register level for senior-level communication."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Audiences remember structure, not sentences. The presentation frame that survives contact with a distracted room is tell-tell-tell: tell them what you'll say, say it, tell them what you said. Limit yourself to three points — not because your material lacks nuance, but because working memory does. Signpost relentlessly: 'That was the problem; here is our approach.' A listener who drifts for thirty seconds should be able to rejoin without feeling lost. Design for the drifter; the attentive will forgive you.",
+      "question": "Why does the speaker recommend limiting a talk to three points?",
+      "options": [
+        "Slides are expensive",
+        "Working memory is limited",
+        "Three sounds confident",
+        "Longer talks are forbidden"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Question-and-answer sessions frighten presenters more than the talk itself, so borrow a technique from media training: the bridge. Acknowledge the question, answer what you can, and steer to your message: 'That's an important edge case — we tested three scenarios, and the core finding held in each.' If you don't know, say so and commit to following up; a confident 'I don't know, and I'll find out by Friday' builds more credibility than an improvised guess that a specialist in the room can dismantle.",
+      "question": "What should you do when you don't know the answer to a question?",
+      "options": [
+        "Improvise a plausible guess",
+        "Say so and commit to following up",
+        "Redirect to another audience member",
+        "End the session"
+      ],
+      "correct": 1
+    }
   ]
 }

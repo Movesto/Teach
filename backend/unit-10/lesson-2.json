@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "The writer does not make a broad claim about bilingualism's cognitive benefits. The specific claim is that moving between languages means 'carrying multiple frameworks simultaneously — to see the world through more than one window at once'. The 'richness' is perceptual and epistemological — a way of holding multiple perspectives."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Scholars of diaspora describe a condition of double belonging: you are from there, but of here — and increasingly, both descriptions feel incomplete. Language sits at the center of this. The mother tongue carries childhood, prayer, and family; the new language carries work, school, and the future. Many second-generation speakers report grieving as their first language thins. Yet the research is consistent: bilingualism is not a divided self but an expanded one. Maintaining the heritage language strengthens, rather than threatens, integration.",
+      "question": "What does research say about bilingualism?",
+      "options": [
+        "It divides the self",
+        "It expands the self and supports integration",
+        "It slows down learning",
+        "It should be avoided by children"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "In interviews with Somali-American young adults, one theme recurs: the feeling of being an ambassador you never volunteered to be. At school you explain your hijab, your fasting, your name; at home you explain your slang, your plans, your American friendships. Exhausting as this translation work is, many interviewees also describe it as a skill — a trained ability to move between worlds, read rooms quickly, and hold multiple perspectives at once. Employers, incidentally, name exactly these abilities when describing leadership.",
+      "question": "How do many interviewees ultimately describe their 'translation work'?",
+      "options": [
+        "As a burden with no benefit",
+        "As a skill of moving between worlds",
+        "As something to hide",
+        "As a reason to leave home"
+      ],
+      "correct": 1
+    }
   ]
 }

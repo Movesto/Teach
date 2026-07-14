@@ -16,11 +16,26 @@
     "text": "When Abdullahi moved into his first apartment in Portland, he was surprised to receive five separate bills in his first month: electricity, gas, water, internet, and renter's insurance. In Somalia, he had never managed utility accounts independently, and the bills were confusing at first — full of account numbers, service periods, usage graphs, and small print about late fees.\n\nHis case worker at IRCO helped him understand the basics. Every bill shows the billing period — the dates the service covers — and the due date, which is the last day to pay without a late fee. Most utility companies in Oregon offer a budget billing option, which averages your expected yearly costs into equal monthly payments so that your bill stays predictable, even in winter when heating costs rise.\n\nAbdullahi learned to check three things on every bill: the meter reading to confirm that usage was calculated correctly, the total amount due, and the due date. When his electricity bill one month seemed unusually high — nearly double the previous month — he called Portland General Electric and was told his meter had been estimated rather than read. After a technician came to read the actual meter, the bill was corrected.\n\nSetting up utilities requires contacting each company separately. Most accept applications online or by phone. You will need to provide your address, a move-in date, and sometimes a deposit if you have no credit history. Many companies offer low-income assistance programmes — Portland General Electric's OHAP programme, for example, can reduce monthly bills for qualifying families.",
     "source": "Adapted from newcomer financial literacy materials produced by Immigrant and Refugee Community Organisation (IRCO), Portland, Oregon, 2023",
     "glossary": [
-      {"word": "utility", "meaning": "a basic service such as electricity, gas, water, or internet that is provided to a home"},
-      {"word": "billing period", "meaning": "the span of dates that a bill covers, showing how much of the service was used during that time"},
-      {"word": "budget billing", "meaning": "a payment option that spreads annual costs into equal monthly amounts to make bills easier to predict"},
-      {"word": "meter reading", "meaning": "a measurement of how much electricity, gas, or water a home has used, taken from a device on the property"},
-      {"word": "deposit", "meaning": "an upfront payment required by some companies as security, often returned after a period of on-time payments"}
+      {
+        "word": "utility",
+        "meaning": "a basic service such as electricity, gas, water, or internet that is provided to a home"
+      },
+      {
+        "word": "billing period",
+        "meaning": "the span of dates that a bill covers, showing how much of the service was used during that time"
+      },
+      {
+        "word": "budget billing",
+        "meaning": "a payment option that spreads annual costs into equal monthly amounts to make bills easier to predict"
+      },
+      {
+        "word": "meter reading",
+        "meaning": "a measurement of how much electricity, gas, or water a home has used, taken from a device on the property"
+      },
+      {
+        "word": "deposit",
+        "meaning": "an upfront payment required by some companies as security, often returned after a period of on-time payments"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "utility",
       "definition": "A basic service — such as electricity, gas, water, or internet — supplied to a home or building",
       "example_sentence": "He was surprised to receive five separate bills in his first month: electricity, gas, water, internet, and renter's insurance.",
-      "collocations": ["utility bill", "utility company", "set up utilities"],
+      "collocations": [
+        "utility bill",
+        "utility company",
+        "set up utilities"
+      ],
       "register": "neutral"
     },
     {
       "word": "billing period",
       "definition": "The range of dates that a bill covers, recording what service was used during that time",
       "example_sentence": "Every bill shows the billing period — the dates the service covers — and the due date.",
-      "collocations": ["monthly billing period", "current billing period", "service period"],
+      "collocations": [
+        "monthly billing period",
+        "current billing period",
+        "service period"
+      ],
       "register": "formal"
     },
     {
       "word": "deposit",
       "definition": "An upfront payment held by a company as security, often returned after a record of on-time payments",
       "example_sentence": "You will need to provide your address, a move-in date, and sometimes a deposit if you have no credit history.",
-      "collocations": ["pay a deposit", "refundable deposit", "require a deposit"],
+      "collocations": [
+        "pay a deposit",
+        "refundable deposit",
+        "require a deposit"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'You will need to provide your address, a move-in date, and sometimes a deposit if you have no credit history.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "This is your electricity bill for March. Your total is eighty-seven dollars and forty cents, due on April fifteenth. You used six hundred twenty kilowatt hours this month — that's ten percent more than last month. To avoid a late fee, pay before the due date. You can pay online, by phone, or by mail. Sign up for autopay and never miss a payment.",
+      "question": "What happens if you pay after April fifteenth?",
+      "options": [
+        "Nothing",
+        "You pay a late fee",
+        "Your power is cut immediately",
+        "You get a discount"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "There are easy ways to lower your utility bills. In winter, set the heat to sixty-eight degrees when you're home, and lower when you're out. Turn off lights when you leave a room, and unplug chargers you're not using. Wash clothes in cold water — it cleans well and uses much less energy. Small changes like these can save hundreds of dollars a year.",
+      "question": "What does the speaker say about washing clothes in cold water?",
+      "options": [
+        "It doesn't clean well",
+        "It uses much less energy",
+        "It costs more",
+        "It takes more time"
+      ],
+      "correct": 1
     }
   ]
 }

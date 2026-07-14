@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "Connecting behaviour to 'identity' is a pathos appeal — it works by making the audience feel that the action is consistent with who they are, which creates emotional investment. This is distinct from a logos argument (which would appeal to rational self-interest or evidence) or ethos (which concerns the speaker's credibility)."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Aristotle identified three modes of persuasion, and they remain the backbone of rhetoric. Ethos is credibility — why should the audience trust you? Pathos is emotional appeal — how does the issue touch what people care about? Logos is logical argument — evidence, structure, inference. Novice speakers over-rely on logos, assuming facts speak for themselves. They rarely do. An audience that doesn't trust you will not follow your logic, and an audience that doesn't care will not listen at all.",
+      "question": "What mistake do novice speakers make, according to the lecture?",
+      "options": [
+        "They use too much emotion",
+        "They over-rely on logical argument",
+        "They ignore their credibility",
+        "They speak too briefly"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Beware of arguments that persuade without being sound. The slippery slope claims that one small step must lead to catastrophe, without showing the mechanism. The straw man refutes a weaker version of the opponent's position than the one actually held. The false dilemma presents two options when many exist. Recognizing these fallacies serves two purposes: you avoid committing them, which protects your credibility, and you can name them when opponents use them — calmly, and with precision.",
+      "question": "What does the straw man fallacy do?",
+      "options": [
+        "Presents only two options",
+        "Refutes a weaker version of the opponent's position",
+        "Predicts catastrophe from one step",
+        "Appeals to emotion"
+      ],
+      "correct": 1
+    }
   ]
 }

@@ -16,11 +16,26 @@
     "text": "For many Somali newcomers, cooking traditional food in an American kitchen presents both practical and emotional challenges. The familiar smells of suugo — a slow-cooked tomato and spiced meat sauce — or the rich fragrance of basmati rice cooked with xawaash spice mix can provide powerful comfort during the difficult early months of resettlement.\n\nHowever, the ingredients are not always easy to find, and American kitchens are equipped differently from kitchens back home. A typical American kitchen has an electric or gas stove with four burners, an oven beneath it, a microwave, and counter space for food preparation. Most kitchens include a chopping board, a set of pots and pans of different sizes, a colander for draining pasta or washed vegetables, and measuring cups and spoons for precise quantities.\n\nCooking Somali food in the US often requires substitutions. If you cannot find whole xawaash spices, a blend of cumin, coriander, cardamom, turmeric, and black pepper can approximate the flavour. Suugo can be made with any halal ground meat — lamb, beef, or goat — browned in a pan and then simmered with canned or fresh tomatoes, garlic, and onion.\n\nOrganisations like IRCO run cooking classes for newcomers that introduce American cooking methods and ingredients alongside traditional recipes from participants' home countries. These classes build both culinary skills and community connections — participants often say that sharing a meal they cooked together is one of the best parts of the settlement experience.",
     "source": "Adapted from IRCO community integration programme documentation and the Somali Kitchen Project, Portland Community College, 2023",
     "glossary": [
-      {"word": "suugo", "meaning": "a traditional Somali tomato and spiced meat sauce, typically served over pasta or rice"},
-      {"word": "xawaash", "meaning": "a traditional Somali spice blend used in many dishes, typically including cumin, coriander, cardamom, and other aromatics"},
-      {"word": "colander", "meaning": "a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables"},
-      {"word": "simmer", "meaning": "to cook food gently in liquid just below boiling point, allowing flavours to develop over time"},
-      {"word": "substitution", "meaning": "replacing one ingredient with another when the original is unavailable, trying to maintain a similar result"}
+      {
+        "word": "suugo",
+        "meaning": "a traditional Somali tomato and spiced meat sauce, typically served over pasta or rice"
+      },
+      {
+        "word": "xawaash",
+        "meaning": "a traditional Somali spice blend used in many dishes, typically including cumin, coriander, cardamom, and other aromatics"
+      },
+      {
+        "word": "colander",
+        "meaning": "a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables"
+      },
+      {
+        "word": "simmer",
+        "meaning": "to cook food gently in liquid just below boiling point, allowing flavours to develop over time"
+      },
+      {
+        "word": "substitution",
+        "meaning": "replacing one ingredient with another when the original is unavailable, trying to maintain a similar result"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "simmer",
       "definition": "To cook food gently in liquid at a temperature just below boiling, allowing flavours to develop over time",
       "example_sentence": "Suugo can be made with halal ground meat browned in a pan and then simmered with canned or fresh tomatoes, garlic, and onion.",
-      "collocations": ["simmer for 20 minutes", "let it simmer", "simmer on low heat"],
+      "collocations": [
+        "simmer for 20 minutes",
+        "let it simmer",
+        "simmer on low heat"
+      ],
       "register": "neutral"
     },
     {
       "word": "substitution",
       "definition": "The act of replacing one ingredient with a different one when the original is not available",
       "example_sentence": "Cooking Somali food in the US often requires substitutions — if you cannot find whole xawaash spices, a blend of cumin, coriander, and cardamom can approximate the flavour.",
-      "collocations": ["make a substitution", "ingredient substitution", "suitable substitution"],
+      "collocations": [
+        "make a substitution",
+        "ingredient substitution",
+        "suitable substitution"
+      ],
       "register": "neutral"
     },
     {
       "word": "colander",
       "definition": "A bowl-shaped kitchen utensil with perforated holes used to drain liquid from cooked food or to rinse vegetables",
       "example_sentence": "Most kitchens include a colander for draining pasta or washed vegetables, and measuring cups and spoons for precise quantities.",
-      "collocations": ["drain in a colander", "rinse in a colander", "pasta colander"],
+      "collocations": [
+        "drain in a colander",
+        "rinse in a colander",
+        "pasta colander"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage describes a colander as 'a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Today we're making simple vegetable soup. First, chop one onion, two carrots, and two potatoes into small pieces. Next, heat two spoons of oil in a large pot and fry the onion until it's soft. Then add the carrots, potatoes, and six cups of water. Bring it to a boil, then lower the heat and let it simmer for twenty minutes. Finally, add salt and pepper to taste.",
+      "question": "How long should the soup simmer?",
+      "options": [
+        "Six minutes",
+        "Ten minutes",
+        "Twenty minutes",
+        "One hour"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Recipes use special measurement words. A teaspoon is small — about the spoon you use for tea. A tablespoon is bigger, about three teaspoons. A cup is a standard measuring cup, not just any cup from your kitchen. When a recipe says 'preheat the oven to 350 degrees,' turn the oven on before you start cooking, so it's hot when the food goes in.",
+      "question": "How much is a tablespoon?",
+      "options": [
+        "Half a teaspoon",
+        "About three teaspoons",
+        "One cup",
+        "The same as a teaspoon"
+      ],
+      "correct": 1
     }
   ]
 }

@@ -16,11 +16,26 @@
     "text": "Arriving at an international airport for the first time can be overwhelming. Mohamed had never flown before, so when he landed at Minneapolis–Saint Paul International Airport, he was not sure where to go. After leaving the plane, he followed the signs marked 'Arrivals' and 'Baggage Claim,' but the terminal was enormous. Crowds of passengers moved in every direction, announcements echoed through the halls, and the screens overhead displayed dozens of flight numbers and gates.\n\nMohamed stopped at an information desk and asked an airport employee for help. She handed him a terminal map and explained that he needed to collect his luggage from carousel seven, then proceed through customs and immigration. She warned him that the customs line could be long, so he should have his passport, visa, and declaration form ready.\n\nAt the customs booth, the officer asked Mohamed about the purpose of his visit and whether he was bringing any food or large sums of money. Mohamed answered clearly and was waved through. When he finally reached the arrivals hall, his sponsor family was waiting with a handwritten sign bearing his name. Despite the stress of the journey, Mohamed felt a wave of relief. He had successfully navigated one of the most complicated parts of starting a new life.",
     "source": "Adapted from a refugee resettlement orientation guide, Minneapolis, 2023",
     "glossary": [
-      {"word": "terminal", "meaning": "the large building at an airport where passengers arrive and depart"},
-      {"word": "carousel", "meaning": "a moving belt at an airport where checked luggage is delivered"},
-      {"word": "customs", "meaning": "the government process of checking what travellers bring into a country"},
-      {"word": "declaration form", "meaning": "a document where you list items you are bringing into a new country"},
-      {"word": "sponsor family", "meaning": "a family that agrees to help a refugee or new immigrant settle in"}
+      {
+        "word": "terminal",
+        "meaning": "the large building at an airport where passengers arrive and depart"
+      },
+      {
+        "word": "carousel",
+        "meaning": "a moving belt at an airport where checked luggage is delivered"
+      },
+      {
+        "word": "customs",
+        "meaning": "the government process of checking what travellers bring into a country"
+      },
+      {
+        "word": "declaration form",
+        "meaning": "a document where you list items you are bringing into a new country"
+      },
+      {
+        "word": "sponsor family",
+        "meaning": "a family that agrees to help a refugee or new immigrant settle in"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "terminal",
       "definition": "The main building of an airport where passengers check in, board, and arrive",
       "example_sentence": "The terminal was enormous — crowds of passengers moved in every direction.",
-      "collocations": ["international terminal", "departure terminal", "inside the terminal"],
+      "collocations": [
+        "international terminal",
+        "departure terminal",
+        "inside the terminal"
+      ],
       "register": "neutral"
     },
     {
       "word": "carousel",
       "definition": "A revolving belt at an airport where checked bags are delivered to passengers",
       "example_sentence": "She explained that he needed to collect his luggage from carousel seven.",
-      "collocations": ["baggage carousel", "luggage carousel", "wait at the carousel"],
+      "collocations": [
+        "baggage carousel",
+        "luggage carousel",
+        "wait at the carousel"
+      ],
       "register": "neutral"
     },
     {
       "word": "proceed",
       "definition": "To move forward or continue to the next step in a process",
       "example_sentence": "He needed to collect his luggage from carousel seven, then proceed through customs and immigration.",
-      "collocations": ["proceed to the gate", "proceed with caution", "proceed through security"],
+      "collocations": [
+        "proceed to the gate",
+        "proceed with caution",
+        "proceed through security"
+      ],
       "register": "formal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states he had never flown before, the terminal was enormous, crowds moved in every direction, and announcements echoed everywhere — all contributing to the stress."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Attention passengers on flight two-four-seven to Chicago. Your flight is now boarding at gate B12. Please have your boarding pass and photo ID ready. Passengers with small children and anyone who needs extra time may board first. All other passengers, please wait until your group number is called. The doors will close fifteen minutes before departure.",
+      "question": "What do passengers need to have ready?",
+      "options": [
+        "Their luggage and keys",
+        "Their boarding pass and photo ID",
+        "Their passport and visa",
+        "Their ticket receipt"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "When you arrive at the airport, first go to your airline's check-in counter or use a self-service kiosk. Check any large bags there. Next, go through security. Take off your shoes and belt, and put your phone and keys in a bin. After security, look at the screens to find your gate. Arrive at the gate at least thirty minutes before your flight.",
+      "question": "What should you do right after security?",
+      "options": [
+        "Check your large bags",
+        "Buy something to eat",
+        "Look at the screens to find your gate",
+        "Call the airline"
+      ],
+      "correct": 2
     }
   ]
 }

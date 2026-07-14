@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "The article uses the second candidate's response to illustrate 'intellectual sophistication — the capacity to diagnose, reframe, and act at a level of abstraction that suggests genuine leadership potential.' Evaluating thinking means assessing this quality, not task completion."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Let's decode a question you will almost certainly face: 'Tell me about yourself.' It is not an invitation to recite your biography. Interviewers are asking: can you select what matters and present it in ninety seconds? A strong answer follows present-past-future: what you do now, the experience that prepared you, and why this role is the logical next step. Rehearse it until it sounds unrehearsed. The candidates who ramble here rarely recover the interviewer's attention.",
+      "question": "What structure does the speaker recommend for 'Tell me about yourself'?",
+      "options": [
+        "Childhood to present, chronologically",
+        "Present, past, then future",
+        "Strengths, then weaknesses",
+        "Salary expectations first"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Behavioral questions — 'tell me about a time you handled conflict' — reward preparation and the STAR method: situation, task, action, result. Spend one sentence each on situation and task, then linger on action: what you specifically did, in first person singular. Candidates who say 'we' throughout leave interviewers unsure what they contributed. Close with a quantified result where possible. 'Customer complaints fell forty percent' outlives every adjective you could offer about yourself.",
+      "question": "Why should candidates avoid saying 'we' throughout a STAR answer?",
+      "options": [
+        "It sounds arrogant",
+        "The interviewer can't tell what the candidate personally did",
+        "Teams are not valued",
+        "It takes too long"
+      ],
+      "correct": 1
+    }
   ]
 }

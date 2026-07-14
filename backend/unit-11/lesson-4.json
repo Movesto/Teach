@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "In 'look forward to,' the 'to' is a preposition (not an infinitive marker), which means it must be followed by a gerund (-ing form), not a base infinitive. The correct form is 'look forward to discussing.'"
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Networking has a bad name because people picture transactional card-swapping. The research picture is different: most jobs arrive through weak ties — acquaintances, not close friends — because acquaintances circulate in information pools you don't already share. The practical implication is to widen, not deepen: the former colleague, the neighbor from class, the person you met once at a conference. A brief message twice a year — a relevant article, a congratulations — keeps a weak tie alive at almost no cost.",
+      "question": "Why do most job leads come through weak ties?",
+      "options": [
+        "Close friends are unreliable",
+        "Acquaintances circulate in information pools you don't share",
+        "Strangers are more honest",
+        "Weak ties owe you favors"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "When the offer comes, the negotiation window opens — and most candidates close it themselves with an immediate yes. The phrase to memorize: 'Thank you — I'm excited about the role. Could I have a couple of days to review the details?' Then negotiate the package, not just the salary: start date, remote days, development budget, review timing. Anchor with research, ask rather than demand, and give the employer a reason: 'Given my licensure and the market range, is there flexibility on base?' Silence after that question is your ally. Let them fill it.",
+      "question": "What should candidates do immediately after receiving an offer?",
+      "options": [
+        "Accept enthusiastically on the spot",
+        "Ask for time to review the details",
+        "Name the highest possible number",
+        "Decline and wait for better"
+      ],
+      "correct": 1
+    }
   ]
 }

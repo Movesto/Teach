@@ -16,11 +16,26 @@
     "text": "Nasra had been in Portland for two weeks when her coworker invited her to lunch at a diner near their workplace. She had eaten at restaurants before, but the experience at an American diner was different from anything she knew. The server greeted them immediately, filled their water glasses without being asked, and handed them laminated menus. 'Take your time — I'll be back in a few minutes,' the server said with a smile.\n\nNasra studied the menu carefully. The portions seemed enormous: a 'regular' burger came with fries, coleslaw, and a pickle. She noticed that dishes were listed by category — appetisers, mains, desserts, and drinks — and that prices were shown without tax, which would be added to the total at the end.\n\nWhen the server returned, Nasra was ready. 'I'd like the soup of the day, please. Is it spicy?' The server told her it was a mild tomato bisque with no heat. Nasra also asked whether the salad could be prepared without cheese, since she avoided dairy. The server confirmed it could and made a note.\n\nAt the end of the meal, the server placed the check on the table. Nasra's coworker explained that a tip — typically 18 to 20 percent of the total — was expected for good service, and that it was usually left in cash or added to the card payment. Nasra added a 20 percent tip, feeling pleased that she had managed the whole experience on her own.",
     "source": "Adapted from newcomer settlement orientation materials produced by Catholic Charities of Oregon, Portland, 2023",
     "glossary": [
-      {"word": "diner", "meaning": "a casual American restaurant, often open early and late, serving simple meals at reasonable prices"},
-      {"word": "laminated menu", "meaning": "a menu printed on paper and covered with a plastic coating so it can be wiped clean and reused"},
-      {"word": "appetiser", "meaning": "a small dish eaten before the main meal, also called a starter"},
-      {"word": "bisque", "meaning": "a smooth, creamy soup, usually made from vegetables or seafood"},
-      {"word": "tip", "meaning": "extra money given to a server as a reward for good service, separate from the bill total"}
+      {
+        "word": "diner",
+        "meaning": "a casual American restaurant, often open early and late, serving simple meals at reasonable prices"
+      },
+      {
+        "word": "laminated menu",
+        "meaning": "a menu printed on paper and covered with a plastic coating so it can be wiped clean and reused"
+      },
+      {
+        "word": "appetiser",
+        "meaning": "a small dish eaten before the main meal, also called a starter"
+      },
+      {
+        "word": "bisque",
+        "meaning": "a smooth, creamy soup, usually made from vegetables or seafood"
+      },
+      {
+        "word": "tip",
+        "meaning": "extra money given to a server as a reward for good service, separate from the bill total"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "appetiser",
       "definition": "A small dish eaten before the main meal to start the dining experience",
       "example_sentence": "Dishes were listed by category — appetisers, mains, desserts, and drinks — and prices were shown without tax.",
-      "collocations": ["order an appetiser", "share an appetiser", "appetiser menu"],
+      "collocations": [
+        "order an appetiser",
+        "share an appetiser",
+        "appetiser menu"
+      ],
       "register": "neutral"
     },
     {
       "word": "tip",
       "definition": "Extra money given directly to the server, beyond the bill total, as a reward for good service",
       "example_sentence": "A tip — typically 18 to 20 percent of the total — was expected for good service.",
-      "collocations": ["leave a tip", "add a tip", "20 percent tip"],
+      "collocations": [
+        "leave a tip",
+        "add a tip",
+        "20 percent tip"
+      ],
       "register": "neutral"
     },
     {
       "word": "portion",
       "definition": "The amount of food served as one serving in a restaurant or at a meal",
       "example_sentence": "The portions seemed enormous: a 'regular' burger came with fries, coleslaw, and a pickle.",
-      "collocations": ["large portion", "portion size", "generous portion"],
+      "collocations": [
+        "large portion",
+        "portion size",
+        "generous portion"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'a tip — typically 18 to 20 percent of the total — was expected for good service.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Hi, welcome to Rosa's Kitchen. My name is Daniel and I'll be your server tonight. Can I start you off with something to drink? Our special today is grilled salmon with rice and vegetables for sixteen ninety-five. I'll give you a few minutes with the menu, and I'll be right back with your drinks. Just wave if you need anything.",
+      "question": "What is today's special?",
+      "options": [
+        "Chicken with pasta",
+        "Grilled salmon with rice and vegetables",
+        "Steak and potatoes",
+        "Vegetable soup"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "In American restaurants, the server usually brings the check when you ask for it — say 'Could we have the check, please?' It is normal to tip fifteen to twenty percent of the total for good service. You can leave cash on the table or add the tip when you pay by card. If something is wrong with your food, politely tell your server — they will usually fix it.",
+      "question": "How much do people usually tip for good service?",
+      "options": [
+        "Five percent",
+        "Ten percent",
+        "Fifteen to twenty percent",
+        "Twenty-five to thirty percent"
+      ],
+      "correct": 2
     }
   ]
 }

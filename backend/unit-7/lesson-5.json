@@ -16,11 +16,26 @@
     "text": "Walking into an American supermarket for the first time can be an overwhelming experience. Stores like Fred Meyer, Safeway, Winco, and Trader Joe's are typically much larger than shops in Somalia or other East African countries, with dozens of aisles dedicated to specific product categories. Most stores organise their layout with fresh produce near the entrance, followed by dairy, meat, frozen foods, and dry goods in the interior aisles.\n\nReading food labels is an essential skill. In the United States, all packaged foods are required to display a Nutrition Facts label, which shows the serving size, the number of calories, and the amounts of fat, protein, carbohydrates, sodium, and vitamins per serving. The ingredients are also listed in order from most to least — if sugar appears near the top, the product contains a large amount of it.\n\nFor newcomers on a limited budget, comparing unit prices is very useful. Unit prices — shown on the shelf label — display the cost per ounce, pound, or litre, making it easy to compare products of different sizes. The store brand is usually significantly cheaper than name brands and is often made by the same manufacturer.\n\nDiscount grocery stores like WinCo Foods offer much lower prices than standard supermarkets, but they typically require you to bag your own groceries and do not accept credit cards. Some newcomers also access the Oregon Food Bank, which operates distribution sites throughout Portland and provides free food to anyone in need — no proof of income is required.",
     "source": "Adapted from newcomer consumer literacy materials produced by Lutheran Community Services Northwest and Oregon Department of Human Services, Portland, 2023",
     "glossary": [
-      {"word": "aisle", "meaning": "a passage between rows of shelves in a supermarket or shop"},
-      {"word": "produce", "meaning": "fresh fruit and vegetables sold in a supermarket"},
-      {"word": "Nutrition Facts label", "meaning": "the required information panel on packaged food in the US showing calorie and nutrient content"},
-      {"word": "unit price", "meaning": "the cost of a product per standard unit of measurement (per ounce, pound, or litre), shown on the shelf label"},
-      {"word": "store brand", "meaning": "a product made for and sold under the supermarket's own name, usually cheaper than name-brand equivalents"}
+      {
+        "word": "aisle",
+        "meaning": "a passage between rows of shelves in a supermarket or shop"
+      },
+      {
+        "word": "produce",
+        "meaning": "fresh fruit and vegetables sold in a supermarket"
+      },
+      {
+        "word": "Nutrition Facts label",
+        "meaning": "the required information panel on packaged food in the US showing calorie and nutrient content"
+      },
+      {
+        "word": "unit price",
+        "meaning": "the cost of a product per standard unit of measurement (per ounce, pound, or litre), shown on the shelf label"
+      },
+      {
+        "word": "store brand",
+        "meaning": "a product made for and sold under the supermarket's own name, usually cheaper than name-brand equivalents"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "aisle",
       "definition": "A long passage between rows of shelves in a supermarket, each section dedicated to a category of products",
       "example_sentence": "Stores like Fred Meyer and Safeway are typically much larger than shops in Somalia, with dozens of aisles dedicated to specific product categories.",
-      "collocations": ["aisle five", "grocery aisle", "middle aisle"],
+      "collocations": [
+        "aisle five",
+        "grocery aisle",
+        "middle aisle"
+      ],
       "register": "neutral"
     },
     {
       "word": "unit price",
       "definition": "The cost of a product calculated per standard measure (per ounce, pound, or litre), shown on the shelf label to help compare products of different sizes",
       "example_sentence": "Comparing unit prices — shown on the shelf label — displays the cost per ounce, pound, or litre, making it easy to compare products of different sizes.",
-      "collocations": ["compare unit prices", "unit price label", "price per ounce"],
+      "collocations": [
+        "compare unit prices",
+        "unit price label",
+        "price per ounce"
+      ],
       "register": "neutral"
     },
     {
       "word": "produce",
       "definition": "Fresh fruit and vegetables sold in a grocery store or market",
       "example_sentence": "Most stores organise their layout with fresh produce near the entrance, followed by dairy, meat, frozen foods, and dry goods.",
-      "collocations": ["fresh produce", "organic produce", "produce section"],
+      "collocations": [
+        "fresh produce",
+        "organic produce",
+        "produce section"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'the Oregon Food Bank...provides free food to anyone in need — no proof of income is required.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Attention shoppers: this week's specials. Chicken breast is two ninety-nine a pound in the meat department. Fresh strawberries are two for five dollars in produce. In the dairy aisle, milk is on sale for two forty-nine a gallon. And don't forget — if you have our store card, you get an extra five percent off every Tuesday. Thank you for shopping with us.",
+      "question": "What do store-card holders get on Tuesdays?",
+      "options": [
+        "Free milk",
+        "An extra five percent off",
+        "Two-for-one strawberries",
+        "Free delivery"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Here are some tips for saving money at the grocery store. Make a list before you go, and don't shop when you're hungry — you'll buy more than you need. Compare the price per pound or per ounce, not just the package price; the bigger package is often cheaper per unit. Store brands usually taste the same as famous brands but cost much less.",
+      "question": "Why shouldn't you shop when you're hungry?",
+      "options": [
+        "Stores are more crowded",
+        "You'll buy more than you need",
+        "Prices are higher",
+        "You might forget your list"
+      ],
+      "correct": 1
     }
   ]
 }

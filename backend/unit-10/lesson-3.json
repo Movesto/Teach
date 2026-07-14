@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "Invoking Du Bois lends academic authority and historical resonance. The writer carefully qualifies it with 'in a different but resonant context', signalling that the concept is being applied analogously, not equivalently — a nuanced rhetorical move."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Indirect communication follows patterns you can learn to hear. Listen for softeners that carry the real message: 'That might be difficult' frequently means no. 'Interesting idea — let's discuss it later' can mean the idea is dead. Silence after a proposal is not always agreement; in many rooms it is the polite form of dissent. The skill is not paranoia but calibration: check your interpretation. 'Just to make sure I understand — should I go ahead, or wait?' is a sentence that has saved many projects.",
+      "question": "What does 'That might be difficult' frequently mean?",
+      "options": [
+        "Yes, with conditions",
+        "No",
+        "Ask someone else",
+        "It needs a bigger budget"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Feedback cultures differ dramatically. Dutch and Israeli workplaces prize blunt critique delivered in public; the same words in Bangkok or Nairobi could end a relationship. American feedback tends to arrive wrapped: two compliments around one criticism — the so-called sandwich. Newcomers sometimes hear only the bread and miss the meat. If your American manager says your report is 'great, and one small thing to consider,' attend very closely to the small thing. It is rarely small.",
+      "question": "What mistake do newcomers make with American 'sandwich' feedback?",
+      "options": [
+        "They hear only the criticism",
+        "They hear only the compliments and miss the criticism",
+        "They respond too directly",
+        "They ask too many questions"
+      ],
+      "correct": 1
+    }
   ]
 }

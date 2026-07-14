@@ -16,11 +16,26 @@
     "text": "For newcomers who are used to driving in other countries, getting behind the wheel in the United States can be both familiar and surprising. The basic rules of the road — stop at red lights, yield to pedestrians, follow speed limits — are the same as in most countries. However, there are specific American customs and rules that often catch new drivers off guard.\n\nOne common difference is the 'right turn on red' rule. In most states, including Oregon, drivers are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear. This rule surprises many drivers from countries where any movement at a red light is forbidden. Another difference is the four-way stop, where vehicles at four different directions all stop completely, then proceed one at a time in the order they arrived.\n\nRenting a car in the United States requires a valid driver's licence — ideally an International Driving Permit alongside your home country licence — as well as a major credit card and proof of insurance. Most rental companies require drivers to be at least 25 years old, though some will rent to drivers aged 21 and older for an additional fee.\n\nBefore driving in a new area, it is worth downloading an offline map in case GPS service is unavailable. It is also important to know what to do in an accident: stay calm, do not move the vehicles unless they are blocking traffic, and call 911 if anyone is injured. Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.",
     "source": "Adapted from the Oregon Driver Manual and a newcomer driving guide published by Catholic Charities of Oregon, 2023",
     "glossary": [
-      {"word": "yield", "meaning": "to slow down or stop to allow another vehicle or pedestrian to go first"},
-      {"word": "four-way stop", "meaning": "an intersection where all four roads have stop signs and vehicles must take turns"},
-      {"word": "International Driving Permit", "meaning": "an official document that allows someone to drive in another country using their home country licence"},
-      {"word": "rental company", "meaning": "a business that lends cars or other vehicles to customers for a fee"},
-      {"word": "exchange", "meaning": "to give and receive the same type of information or item with another person"}
+      {
+        "word": "yield",
+        "meaning": "to slow down or stop to allow another vehicle or pedestrian to go first"
+      },
+      {
+        "word": "four-way stop",
+        "meaning": "an intersection where all four roads have stop signs and vehicles must take turns"
+      },
+      {
+        "word": "International Driving Permit",
+        "meaning": "an official document that allows someone to drive in another country using their home country licence"
+      },
+      {
+        "word": "rental company",
+        "meaning": "a business that lends cars or other vehicles to customers for a fee"
+      },
+      {
+        "word": "exchange",
+        "meaning": "to give and receive the same type of information or item with another person"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "yield",
       "definition": "To give way to another vehicle or person, allowing them to proceed first",
       "example_sentence": "The basic rules — stop at red lights, yield to pedestrians, follow speed limits — are the same as in most countries.",
-      "collocations": ["yield to traffic", "yield sign", "fail to yield"],
+      "collocations": [
+        "yield to traffic",
+        "yield sign",
+        "fail to yield"
+      ],
       "register": "neutral"
     },
     {
       "word": "exchange",
       "definition": "To give and receive information with another person, each providing the same type of details",
       "example_sentence": "Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.",
-      "collocations": ["exchange information", "exchange contact details", "exchange insurance details"],
+      "collocations": [
+        "exchange information",
+        "exchange contact details",
+        "exchange insurance details"
+      ],
       "register": "neutral"
     },
     {
       "word": "permit",
       "definition": "To officially allow something to happen under specific conditions",
       "example_sentence": "In most states, drivers are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear.",
-      "collocations": ["permitted to turn", "legally permitted", "not permitted"],
+      "collocations": [
+        "permitted to turn",
+        "legally permitted",
+        "not permitted"
+      ],
       "register": "formal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage advises: 'stay calm, do not move the vehicles unless they are blocking traffic, and call 911 if anyone is injured. Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Thank you for choosing City Car Rental. To rent a car, you need a valid driver's license and a credit card. The basic price is thirty-nine dollars a day. Insurance is extra — it costs fifteen dollars a day and covers damage to the car. Please return the car with a full tank of gas, or we will charge a refueling fee.",
+      "question": "What happens if you return the car without a full tank?",
+      "options": [
+        "Nothing happens",
+        "You pay a refueling fee",
+        "You lose your license",
+        "The insurance covers it"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Road safety rules in the United States are strict. Everyone in the car must wear a seat belt, including passengers in the back seat. Children need special car seats until they are big enough for a regular seat belt. Never use your phone in your hand while driving — in many states it is against the law. And always stop completely at a red light before turning right.",
+      "question": "What must all passengers do?",
+      "options": [
+        "Sit in the back seat",
+        "Wear a seat belt",
+        "Hold their phones",
+        "Use a car seat"
+      ],
+      "correct": 1
     }
   ]
 }

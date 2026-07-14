@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "A defining relative clause identifies a specific subset of a noun and takes no separating commas. 'Citizens who are capable of critical reading' correctly specifies which citizens resist manipulation. Option A uses commas, making it non-defining, which changes the meaning (implying all citizens are capable of critical reading)."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Media literacy begins with a deceptively simple habit: before asking 'is this true?', ask 'what kind of thing is this?' A news report, an opinion column, an analysis piece, and a sponsored post look increasingly alike on a phone screen, but they answer to different standards. A report should separate what is known from what is claimed; a column argues openly from values; sponsored content answers, ultimately, to the sponsor. Most viral misinformation exploits readers who process all four as if they were the first.",
+      "question": "What question does the speaker say to ask first?",
+      "options": [
+        "Is this true?",
+        "What kind of thing is this?",
+        "Who shared this?",
+        "How old is this?"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Professional fact-checkers read differently from the rest of us — laterally rather than vertically. Confronted with an unfamiliar site, they don't study its About page or admire its design; they open new tabs and check what other sources say about it. They also practice click restraint: scanning the full page of search results before selecting, rather than trusting the top hit. These two habits, teachable in an afternoon, outperform most of what schools traditionally taught as source evaluation.",
+      "question": "What does reading 'laterally' mean?",
+      "options": [
+        "Reading the About page carefully",
+        "Checking other sources about the site in new tabs",
+        "Reading only headlines",
+        "Trusting the top search result"
+      ],
+      "correct": 1
+    }
   ]
 }

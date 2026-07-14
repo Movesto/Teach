@@ -16,11 +16,26 @@
     "text": "Food culture in the United States is extraordinarily diverse and reflects the country's long history of immigration. In Portland, a city known for its thriving restaurant scene, you can find authentic Ethiopian injera, Vietnamese pho, Mexican tamales, and Somali canjeero all within a short distance of each other. The city's food cart pods — clusters of small mobile food stalls in parking lots — are particularly popular and offer an affordable way to try dishes from dozens of different culinary traditions.\n\nAmerican eating habits can surprise newcomers in several ways. Many Americans eat lunch quickly, often at their desks or from a fast-food chain, and reserve longer meals for evenings and weekends. Breakfast — when eaten — frequently consists of cereal, eggs, toast, or yoghurt consumed very quickly before work or school. Dinner is typically the most social meal of the day.\n\nRestaurant etiquette includes several customs that differ from other countries. Bills are typically split between diners — this is called 'going Dutch' or 'splitting the bill' — and it is normal for each person to pay for what they ordered. Tipping 18 to 20 percent is a strong social expectation, not optional; servers in Oregon earn a minimum wage but rely on tips to make a living wage. Asking for a 'to-go box' or 'doggy bag' to take leftover food home is completely normal and not considered rude.\n\nFor Somali families, Portland's Halal restaurants and East African grocers provide a familiar and welcoming food environment. Restaurants such as Basha's Deli in Beaverton and various establishments on 82nd Avenue serve Somali cuisine, and the community regularly organises shared meals and potlucks that bring together both Somali and American neighbours.",
     "source": "Adapted from Portland Bureau of Planning community food systems report and IRCO newcomer cultural orientation materials, Portland, Oregon, 2023",
     "glossary": [
-      {"word": "food cart pod", "meaning": "a cluster of several small food carts or trucks operating together in one location, common in Portland"},
-      {"word": "canjeero", "meaning": "a traditional Somali fermented flatbread, similar to Ethiopian injera, typically eaten at breakfast or with stew"},
-      {"word": "going Dutch", "meaning": "an informal expression meaning each person pays their own share of a shared bill"},
-      {"word": "to-go box", "meaning": "a container provided by a restaurant to allow diners to take unfinished food home"},
-      {"word": "potluck", "meaning": "a shared meal where each person or family brings a dish to contribute to the table"}
+      {
+        "word": "food cart pod",
+        "meaning": "a cluster of several small food carts or trucks operating together in one location, common in Portland"
+      },
+      {
+        "word": "canjeero",
+        "meaning": "a traditional Somali fermented flatbread, similar to Ethiopian injera, typically eaten at breakfast or with stew"
+      },
+      {
+        "word": "going Dutch",
+        "meaning": "an informal expression meaning each person pays their own share of a shared bill"
+      },
+      {
+        "word": "to-go box",
+        "meaning": "a container provided by a restaurant to allow diners to take unfinished food home"
+      },
+      {
+        "word": "potluck",
+        "meaning": "a shared meal where each person or family brings a dish to contribute to the table"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "food cart pod",
       "definition": "A group of several small food carts or trucks that operate together in a shared outdoor space, common in Portland",
       "example_sentence": "Portland's food cart pods — clusters of small mobile food stalls in parking lots — are particularly popular and offer an affordable way to try dishes from dozens of different culinary traditions.",
-      "collocations": ["Portland food cart", "food cart pod", "food truck"],
+      "collocations": [
+        "Portland food cart",
+        "food cart pod",
+        "food truck"
+      ],
       "register": "neutral"
     },
     {
       "word": "potluck",
       "definition": "A communal meal where each person or family contributes a dish, creating a shared spread of different foods",
       "example_sentence": "The community regularly organises shared meals and potlucks that bring together both Somali and American neighbours.",
-      "collocations": ["host a potluck", "potluck dinner", "bring a dish to a potluck"],
+      "collocations": [
+        "host a potluck",
+        "potluck dinner",
+        "bring a dish to a potluck"
+      ],
       "register": "neutral"
     },
     {
       "word": "to-go box",
       "definition": "A container given by a restaurant to allow a diner to take home any food not eaten at the table",
       "example_sentence": "Asking for a 'to-go box' or 'doggy bag' to take leftover food home is completely normal and not considered rude.",
-      "collocations": ["ask for a to-go box", "take home leftovers", "doggy bag"],
+      "collocations": [
+        "ask for a to-go box",
+        "take home leftovers",
+        "doggy bag"
+      ],
       "register": "informal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage explains: 'servers in Oregon earn a minimum wage but rely on tips to make a living wage' — which is why tipping is a strong expectation."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Americans eat out a lot — from fast food to food trucks to fancy restaurants. Breakfast places are popular on weekends, and many people wait in line for brunch, a late-morning meal that mixes breakfast and lunch. Portions in American restaurants are often very large. It's completely normal to ask for a box and take the rest home for later.",
+      "question": "What is brunch?",
+      "options": [
+        "A very early breakfast",
+        "A late-morning meal mixing breakfast and lunch",
+        "A type of fast food",
+        "A dinner party"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Potluck dinners are an American tradition you may be invited to. At a potluck, every guest brings one dish to share — maybe a salad, a main dish, or a dessert. It's a great chance to share food from your own culture; people love trying new dishes. If you're not sure what to bring, ask the host. Arriving with nothing is considered impolite at a potluck.",
+      "question": "What does every guest do at a potluck?",
+      "options": [
+        "Pays for the meal",
+        "Brings one dish to share",
+        "Cooks at the host's house",
+        "Brings drinks only"
+      ],
+      "correct": 1
     }
   ]
 }

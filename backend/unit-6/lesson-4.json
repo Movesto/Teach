@@ -16,11 +16,26 @@
     "text": "Sadiyo had been living in her Southeast Portland apartment for four months when the heating system stopped working in November. She reported the problem verbally to her landlord, leaving a voicemail on a Monday evening. By Thursday, nothing had been done. With two young children in the apartment and temperatures dropping to near freezing at night, the situation was becoming urgent.\n\nA community advocate at IRCO advised Sadiyo to put her request in writing. She sent a text message to the landlord clearly describing the problem — no heat in the apartment for four days — and stated that Oregon law required the landlord to provide heat in habitable conditions. She kept a screenshot of the message as documentation.\n\nWhen the landlord still had not responded by the following Monday, Sadiyo contacted the Multifamily NW rental housing helpline, which provides free advice to both tenants and landlords in Oregon. The advisor explained that under state law, a landlord must make emergency repairs — such as restoring heat in winter — within a reasonable time, and that Sadiyo had the right to contact the city's housing enforcement office if the problem continued.\n\nFinally, five days after her written notice, a repair technician came and fixed the boiler. The landlord did not apologise or explain the delay. Sadiyo kept all her records — messages, dates, and notes — in a folder in case the situation arose again. Her advocate told her: knowing your rights, documenting everything, and remaining calm but persistent is the most effective strategy a tenant has.",
     "source": "Adapted from a case study shared by the Community Alliance of Tenants, Portland, Oregon, 2023",
     "glossary": [
-      {"word": "verbally", "meaning": "by speaking rather than by writing"},
-      {"word": "community advocate", "meaning": "a person who helps others understand and access their rights and services"},
-      {"word": "documentation", "meaning": "written or digital records that prove something happened or was said"},
-      {"word": "habitable conditions", "meaning": "conditions that meet basic health and safety standards for people to live in"},
-      {"word": "persistent", "meaning": "continuing to do something despite difficulty or delay, without giving up"}
+      {
+        "word": "verbally",
+        "meaning": "by speaking rather than by writing"
+      },
+      {
+        "word": "community advocate",
+        "meaning": "a person who helps others understand and access their rights and services"
+      },
+      {
+        "word": "documentation",
+        "meaning": "written or digital records that prove something happened or was said"
+      },
+      {
+        "word": "habitable conditions",
+        "meaning": "conditions that meet basic health and safety standards for people to live in"
+      },
+      {
+        "word": "persistent",
+        "meaning": "continuing to do something despite difficulty or delay, without giving up"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "verbally",
       "definition": "In spoken words rather than in writing",
       "example_sentence": "She reported the problem verbally to her landlord, leaving a voicemail on a Monday evening.",
-      "collocations": ["report verbally", "confirm verbally", "notify verbally"],
+      "collocations": [
+        "report verbally",
+        "confirm verbally",
+        "notify verbally"
+      ],
       "register": "formal"
     },
     {
       "word": "documentation",
       "definition": "Written or digital records that provide evidence of events, agreements, or communications",
       "example_sentence": "She kept a screenshot of the message as documentation.",
-      "collocations": ["keep documentation", "provide documentation", "written documentation"],
+      "collocations": [
+        "keep documentation",
+        "provide documentation",
+        "written documentation"
+      ],
       "register": "formal"
     },
     {
       "word": "persistent",
       "definition": "Continuing to take action despite delays, difficulties, or lack of response",
       "example_sentence": "Knowing your rights, documenting everything, and remaining calm but persistent is the most effective strategy a tenant has.",
-      "collocations": ["remain persistent", "persistent effort", "calm but persistent"],
+      "collocations": [
+        "remain persistent",
+        "persistent effort",
+        "calm but persistent"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The advocate's advice was: 'knowing your rights, documenting everything, and remaining calm but persistent is the most effective strategy a tenant has.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Hello, this is Amina in apartment 3B. I'm calling because the kitchen sink has been leaking since yesterday, and now there's water under the cabinet. Could you send someone to repair it this week? I'm home after four PM on weekdays. Please call me back at this number to let me know when the repair person is coming. Thank you.",
+      "question": "What is the problem in the apartment?",
+      "options": [
+        "The heat is broken",
+        "The kitchen sink is leaking",
+        "The door won't lock",
+        "The lights don't work"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "When you ask your landlord for a repair, it's best to put the request in writing — a text or email is fine. Describe the problem clearly and say when it started. Keep a copy of every message. If the problem is serious, like no heat in winter, the landlord must usually fix it quickly by law. If nothing happens, your city may have a tenant help line you can call.",
+      "question": "Why should you keep copies of your messages?",
+      "options": [
+        "To show your neighbors",
+        "To have a record of your requests",
+        "Because the landlord asks for them",
+        "To pay less rent"
+      ],
+      "correct": 1
     }
   ]
 }

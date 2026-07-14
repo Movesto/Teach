@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "In reported speech, the present continuous ('am writing') shifts back to past continuous ('was writing'), and 'now' shifts to 'then' (since the time has changed). 'She said she was writing the report then' correctly applies both the tense backshift and the deixis shift (now → then)."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "When you report speech, you make choices that shape meaning. 'She said the project would fail' feels neutral. 'She claimed the project would fail' plants doubt. 'She admitted the project would fail' implies reluctance and prior concealment. 'She warned that the project would fail' grants her foresight. The verb of attribution is never innocent — it tells your listener how much to believe the quoted speaker before they have heard a single word of the quotation.",
+      "question": "What does the reporting verb 'claimed' do?",
+      "options": [
+        "Grants the speaker foresight",
+        "Plants doubt about the statement",
+        "Implies reluctance",
+        "Sounds maximally neutral"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Backshift — moving tenses back when reporting — is standard: 'I am leaving' becomes 'she said she was leaving.' But educated speakers break the rule deliberately. If the reported statement is still true, keeping the present tense asserts its continuing validity: 'She said the policy is unfair' quietly endorses the claim as ongoing fact. 'She said the policy was unfair' confines it to her opinion at that moment. The tense you choose is a stance you take.",
+      "question": "What does keeping the present tense in reported speech signal?",
+      "options": [
+        "A grammar mistake",
+        "That the statement is still true",
+        "That the speaker was lying",
+        "That the event is finished"
+      ],
+      "correct": 1
+    }
   ]
 }

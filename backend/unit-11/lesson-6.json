@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "'I wonder whether there may have been some ambiguity' uses calibrated tentativeness: 'I wonder whether' signals a question rather than an accusation; 'may have been' uses a possibility modal; 'some ambiguity' is less charged than 'misunderstanding.' The passive 'was communicated' distributes rather than assigns responsibility."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Principled negotiation, developed at the Harvard Negotiation Project, rests on four commitments: separate the people from the problem; focus on interests, not positions; generate options before deciding; and insist on objective criteria. The genius of the fourth is that it depersonalizes disagreement. 'I want more' invites a contest of wills. 'Let's look at what comparable roles pay in this market' invites joint problem-solving. When both sides argue from standards, conceding to evidence is not losing face — it is being reasonable.",
+      "question": "What is the benefit of insisting on objective criteria?",
+      "options": [
+        "It guarantees you win",
+        "It depersonalizes disagreement into joint problem-solving",
+        "It shortens meetings",
+        "It avoids all conflict"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Mediating a dispute between colleagues, resist the referee role — you are not there to declare a winner. Open by establishing common ground: both parties want the project to succeed. Have each side state the other's position to the other's satisfaction before advocating their own; this single step dissolves most manufactured disagreements, which turn out to be misunderstandings wearing armor. Then move the conversation from the past, which cannot be negotiated, to the future, which can: 'What would working well together look like from Monday?'",
+      "question": "What does having each side restate the other's position accomplish?",
+      "options": [
+        "It determines who is right",
+        "It dissolves disagreements that are really misunderstandings",
+        "It creates a written record",
+        "It saves time"
+      ],
+      "correct": 1
+    }
   ]
 }

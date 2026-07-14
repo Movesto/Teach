@@ -16,11 +16,26 @@
     "text": "For newcomers eating out in the United States, menus can be both exciting and confusing. American menus often include dishes from many different culinary traditions — Italian pasta, Mexican tacos, Japanese sushi, and American classics like mac and cheese or chicken wings — all available in the same restaurant. Understanding how dishes are described helps you order confidently and avoid surprises.\n\nMost menus describe dishes using sensory language. Words like 'crispy,' 'tender,' 'grilled,' 'smoked,' 'braised,' and 'sautéed' describe how food is cooked. Words like 'creamy,' 'tangy,' 'savoury,' 'mild,' and 'rich' describe how food tastes. Reading these descriptions carefully can tell you a great deal about whether a dish will suit your preferences and dietary needs.\n\nOne source of confusion is the difference between countable and uncountable food nouns. 'A burger,' 'two tacos,' and 'three eggs' are countable — you can order a specific number of them. But 'rice,' 'bread,' 'pasta,' 'soup,' and 'coffee' are uncountable — you cannot say 'two rices' or 'a soup' in standard English. Instead, you use quantifiers: 'a bowl of soup,' 'a cup of coffee,' 'a serving of rice,' or 'a slice of bread.'\n\nMenus also often note which dishes contain common allergens — nuts, dairy, gluten, or shellfish — using small icons or asterisks. If you have a dietary restriction or allergy, it is always safer to confirm with the server rather than relying only on the menu description.",
     "source": "Adapted from ESL food literacy curriculum developed by Oregon Literacy Inc. and Portland Community College Continuing Education, 2023",
     "glossary": [
-      {"word": "culinary", "meaning": "relating to cooking and food preparation"},
-      {"word": "braised", "meaning": "cooked slowly in a small amount of liquid in a covered pot, resulting in tender, flavourful meat"},
-      {"word": "sautéed", "meaning": "cooked quickly in a small amount of oil or butter over high heat"},
-      {"word": "allergen", "meaning": "a substance in food that can cause an allergic reaction in some people, such as nuts, dairy, or gluten"},
-      {"word": "quantifier", "meaning": "a word that indicates the amount or quantity of something, such as 'a cup of,' 'some,' or 'a few'"}
+      {
+        "word": "culinary",
+        "meaning": "relating to cooking and food preparation"
+      },
+      {
+        "word": "braised",
+        "meaning": "cooked slowly in a small amount of liquid in a covered pot, resulting in tender, flavourful meat"
+      },
+      {
+        "word": "sautéed",
+        "meaning": "cooked quickly in a small amount of oil or butter over high heat"
+      },
+      {
+        "word": "allergen",
+        "meaning": "a substance in food that can cause an allergic reaction in some people, such as nuts, dairy, or gluten"
+      },
+      {
+        "word": "quantifier",
+        "meaning": "a word that indicates the amount or quantity of something, such as 'a cup of,' 'some,' or 'a few'"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "culinary",
       "definition": "Relating to cooking, food preparation, and the traditions of making and serving food",
       "example_sentence": "American menus often include dishes from many different culinary traditions — Italian pasta, Mexican tacos, Japanese sushi.",
-      "collocations": ["culinary tradition", "culinary skills", "culinary experience"],
+      "collocations": [
+        "culinary tradition",
+        "culinary skills",
+        "culinary experience"
+      ],
       "register": "formal"
     },
     {
       "word": "allergen",
       "definition": "A substance in food that triggers an allergic reaction in some people, such as nuts, dairy, gluten, or shellfish",
       "example_sentence": "Menus often note which dishes contain common allergens — nuts, dairy, gluten, or shellfish — using small icons or asterisks.",
-      "collocations": ["common allergen", "contain allergens", "allergen information"],
+      "collocations": [
+        "common allergen",
+        "contain allergens",
+        "allergen information"
+      ],
       "register": "formal"
     },
     {
       "word": "quantifier",
       "definition": "A word or phrase that shows the amount of something, used before uncountable nouns (a cup of, a bowl of, a piece of)",
       "example_sentence": "Instead, you use quantifiers: 'a bowl of soup,' 'a cup of coffee,' 'a serving of rice,' or 'a slice of bread.'",
-      "collocations": ["use a quantifier", "quantity expression", "a piece of"],
+      "collocations": [
+        "use a quantifier",
+        "quantity expression",
+        "a piece of"
+      ],
       "register": "formal"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage advises: 'it is always safer to confirm with the server rather than relying only on the menu description.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Let me tell you about our menu. Appetizers are small dishes you eat first, like soup or a salad. Entrées are the main dishes — those come with two sides. Sides are smaller dishes like fries, rice, or vegetables. Desserts are sweet dishes at the end, like ice cream or apple pie. Drinks are on the last page. Anything marked with a little leaf is vegetarian.",
+      "question": "What does the little leaf symbol mean?",
+      "options": [
+        "The dish is spicy",
+        "The dish is vegetarian",
+        "The dish is a dessert",
+        "The dish is new"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Menu words can be confusing at first. 'Grilled' means cooked over fire or high heat with little oil. 'Fried' means cooked in hot oil — crispy but heavier. 'Baked' or 'roasted' means cooked in an oven. 'Steamed' is cooked with hot water vapor and is usually the healthiest choice. If you're not sure what something is, just ask your server — that's completely normal.",
+      "question": "Which cooking method does the speaker call the healthiest?",
+      "options": [
+        "Fried",
+        "Grilled",
+        "Steamed",
+        "Baked"
+      ],
+      "correct": 2
     }
   ]
 }

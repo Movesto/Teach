@@ -16,11 +16,26 @@
     "text": "Moving into a new neighbourhood is more than finding an apartment — it is about building a support network and learning where to access the services your family needs. For newcomers, this process can take months, and the learning often happens through word of mouth, through neighbours and coworkers, and through community organisations that specifically serve immigrant populations.\n\nMost Portland neighbourhoods have a library branch within a short bus ride. Libraries are among the most accessible public resources: they are free, open to all residents regardless of immigration status, and offer far more than books. Many branches host English conversation groups, computer classes, children's storytime, and assistance with job applications. A library card is free and can be obtained with proof of a local address.\n\nFood pantries and community meals are also widely available in Portland. Organisations such as Oregon Food Bank and Blanchet House operate distribution sites throughout the city. Many religious institutions — mosques, churches, and temples — also run weekly food programmes that serve anyone in need, often regardless of religious affiliation.\n\nFor families with children, knowing the location of the nearest park and school is essential. Portland Parks and Recreation operates more than 200 parks and offers subsidised recreation programmes for low-income families. Many community centres also provide after-school care, summer programmes, and English classes for adults. Making use of these services early helps families establish routines, meet neighbours, and reduce the isolation that many newcomers experience in their first months.",
     "source": "Adapted from the Welcome to Portland Newcomer Resource Guide, published by Immigrant and Refugee Community Organisation (IRCO), 2023",
     "glossary": [
-      {"word": "support network", "meaning": "a group of people and services you can rely on for help and information"},
-      {"word": "word of mouth", "meaning": "information passed from person to person through conversation, not through media"},
-      {"word": "accessible", "meaning": "easy for people to reach or use, especially for those with few resources"},
-      {"word": "food pantry", "meaning": "a place where people can go to receive free food supplies"},
-      {"word": "subsidised", "meaning": "reduced in price because part of the cost is paid by the government or an organisation"}
+      {
+        "word": "support network",
+        "meaning": "a group of people and services you can rely on for help and information"
+      },
+      {
+        "word": "word of mouth",
+        "meaning": "information passed from person to person through conversation, not through media"
+      },
+      {
+        "word": "accessible",
+        "meaning": "easy for people to reach or use, especially for those with few resources"
+      },
+      {
+        "word": "food pantry",
+        "meaning": "a place where people can go to receive free food supplies"
+      },
+      {
+        "word": "subsidised",
+        "meaning": "reduced in price because part of the cost is paid by the government or an organisation"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "accessible",
       "definition": "Easy to reach, use, or benefit from, particularly for people with limited resources",
       "example_sentence": "Libraries are among the most accessible public resources: they are free, open to all residents regardless of immigration status.",
-      "collocations": ["easily accessible", "publicly accessible", "accessible to everyone"],
+      "collocations": [
+        "easily accessible",
+        "publicly accessible",
+        "accessible to everyone"
+      ],
       "register": "neutral"
     },
     {
       "word": "affiliation",
       "definition": "A connection or membership with a particular group, organisation, or religion",
       "example_sentence": "Many religious institutions run weekly food programmes that serve anyone in need, often regardless of religious affiliation.",
-      "collocations": ["religious affiliation", "political affiliation", "no affiliation required"],
+      "collocations": [
+        "religious affiliation",
+        "political affiliation",
+        "no affiliation required"
+      ],
       "register": "formal"
     },
     {
       "word": "isolation",
       "definition": "The feeling of being alone and disconnected from other people and the community around you",
       "example_sentence": "Making use of these services early helps families reduce the isolation that many newcomers experience in their first months.",
-      "collocations": ["social isolation", "feeling of isolation", "reduce isolation"],
+      "collocations": [
+        "social isolation",
+        "feeling of isolation",
+        "reduce isolation"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 1,
       "explanation": "The passage says: 'Making use of these services early helps families establish routines, meet neighbours, and reduce the isolation that many newcomers experience in their first months.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "The Northside Community Center is open Monday through Saturday, nine to nine. We offer free English classes on Tuesday and Thursday evenings, a food pantry on Wednesday mornings, and free help with taxes in the spring. The children's program runs after school until six. All services are free for neighborhood residents. Stop by the front desk to register.",
+      "question": "When are the free English classes?",
+      "options": [
+        "Wednesday mornings",
+        "Tuesday and Thursday evenings",
+        "Every morning",
+        "Saturday at nine"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Your public library is much more than books. With a free library card, you can use computers and the internet, print documents, and borrow movies. Many libraries offer free classes for adults, story time for children, and quiet rooms for studying. Librarians can also help you find information about jobs, housing, and community services. Everything is free.",
+      "question": "What do you need to use library services?",
+      "options": [
+        "A monthly payment",
+        "A free library card",
+        "A student ID",
+        "An appointment"
+      ],
+      "correct": 1
     }
   ]
 }

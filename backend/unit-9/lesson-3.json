@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "A 'register' in linguistics refers to a variety of language used in particular social situations, characterised by specific vocabulary, syntax, and conventions. Academic discussion is a register because it has identifiable features (attribution, evidence-grounding, sustained inquiry) that distinguish it from casual conversation — it is not just about tone or technicality."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Welcome to the graduate seminar. A word about expectations: unlike a lecture, a seminar depends on your participation. You are not here to receive knowledge but to interrogate it. When you read the assigned texts, note not only what the author argues but what the author assumes. The most productive seminar questions often begin, 'The author takes for granted that X — but is that warranted?' Critique of that kind is not disrespect; in academic culture, it is the highest form of engagement.",
+      "question": "What does the speaker say about critiquing an author's assumptions?",
+      "options": [
+        "It is considered disrespectful",
+        "It is the highest form of academic engagement",
+        "It should be avoided in seminars",
+        "It is only for professors"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Notice how academics signal the strength of their claims. 'The data demonstrate' is a strong commitment; 'the data suggest' is weaker; 'the data are consistent with' is weaker still. These gradations matter. If you claim more than your evidence supports, reviewers will find the gap. Equally, notice attribution: 'According to Chen' distances you from a claim, while 'As Chen convincingly shows' endorses it. Academic English is a machine for calibrating exactly how much you are asserting.",
+      "question": "Which phrase signals the strongest commitment to a claim?",
+      "options": [
+        "The data are consistent with",
+        "The data suggest",
+        "The data demonstrate",
+        "According to Chen"
+      ],
+      "correct": 2
+    }
   ]
 }

@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "'Norms' refers to unwritten but widely shared expectations — the implicit standards that govern behaviour in a social context. This contrasts with 'rules' (explicit, enforceable) or 'preferences' (individual). In sociological and intercultural discourse, 'norms' is a key technical term."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Code-switching — shifting language, dialect, or register between contexts — was long treated as linguistic confusion. Modern linguistics reads it as competence: the switcher commands two systems and deploys each where it works. But there is a cost dimension the research now takes seriously. When switching is optional, it is a resource. When it is required — when advancement demands erasing your accent, your idiom, your name — the effort becomes what psychologists call minority stress, and it is measurable in health outcomes.",
+      "question": "When does code-switching become a burden, according to the lecture?",
+      "options": [
+        "When it is optional",
+        "When it is required for advancement",
+        "When children do it",
+        "When it happens at home"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "One study followed bilingual professionals through their workday, recording when and why they switched. The findings complicate the assimilation story. Switching into the majority language at work was routine and low-stress. What participants guarded fiercely was the switch back: the phone call to a parent at lunch, the joke with a compatriot colleague, the prayer. These moments functioned as identity maintenance — brief returns to a linguistic home that made the day's performance sustainable. Belonging, the authors conclude, is not a place but a practice.",
+      "question": "What function did switching back to the home language serve?",
+      "options": [
+        "Avoiding work tasks",
+        "Identity maintenance that made the workday sustainable",
+        "Hiding information from colleagues",
+        "Practicing for interviews"
+      ],
+      "correct": 1
+    }
   ]
 }

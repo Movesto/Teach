@@ -228,5 +228,31 @@
       "correct": 2,
       "explanation": "The construction 'Were + subject + to + infinitive' is the formal version of the second conditional — it presents a hypothetical present/future condition. The standard form would be 'If evidence X emerged'; 'were to emerge' is more formal and is common in academic and philosophical writing. It is not third conditional because it doesn't refer to a past event that didn't happen."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Conditionals do far more in argument than describe hypothetical worlds; they allocate blame and possibility. 'If the city had invested in transit, congestion would have fallen' — a third conditional — assigns responsibility for a past failure. 'If we invest now, congestion will fall' — a first conditional — frames the future as controllable. Notice how a debater can slide between them: past neglect, present choice, future consequence, all carried by the grammar itself.",
+      "question": "What does the third conditional do in argumentation?",
+      "options": [
+        "Describes present habits",
+        "Assigns responsibility for a past failure",
+        "Makes polite requests",
+        "States general truths"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Mixed conditionals deserve special attention because real arguments cross time. 'If the regulation had passed in 2010, we would not be facing this crisis today' — past condition, present result. Inverted forms add formality: 'Had the regulation passed, we would not face this crisis.' And 'were to' signals careful speculation: 'Were the ban to take effect, small producers would bear the cost.' Command of these forms lets you argue about causation across time with precision that simpler grammar cannot achieve.",
+      "question": "What does the structure 'Had the regulation passed...' add?",
+      "options": [
+        "Informality",
+        "Formality",
+        "Humor",
+        "Uncertainty about the past"
+      ],
+      "correct": 1
+    }
   ]
 }

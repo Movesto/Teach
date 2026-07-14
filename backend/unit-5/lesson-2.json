@@ -16,11 +16,26 @@
     "text": "For many newcomers to Portland, the TriMet bus system is one of the first things they must learn to use. With over 80 bus routes connecting neighborhoods, shopping centers, hospitals, and schools, it is an affordable and reliable way to travel across the city without a car.\n\nNew riders often find the system confusing at first. Bus numbers and route names are displayed on the front of each bus, but knowing which bus to take requires some planning. The TriMet website and app allow riders to enter their starting point and destination to find the best route. Most trips involve at least one transfer, where the passenger gets off one bus and boards another at a connecting stop.\n\nFares can be paid in cash when boarding, but this costs more than buying a Hop card — a reloadable transit card that automatically calculates the cheapest fare. Single-ride adult fares are currently $2.50 with a Hop card. Riders aged 65 and older, as well as those with qualifying disabilities, pay a reduced fare. Youth under 18 ride free on weekdays.\n\nWhen riding the bus, passengers signal their stop by pulling a yellow cord or pressing a button near the windows before the desired stop. Missing your stop is easy to do, especially in an unfamiliar area. If this happens, simply stay on the bus and exit at the next stop, then walk back or take a return bus.",
     "source": "Adapted from the TriMet New Rider Guide, Portland, Oregon, 2024",
     "glossary": [
-      {"word": "route", "meaning": "a fixed path that a bus travels regularly between two or more points"},
-      {"word": "transfer", "meaning": "when a passenger switches from one bus line to another to complete their journey"},
-      {"word": "reloadable", "meaning": "able to have money added to it again and again, like a prepaid card"},
-      {"word": "fare", "meaning": "the price paid to travel on a bus, train, or other public transport"},
-      {"word": "qualifying disabilities", "meaning": "medical conditions that officially meet the criteria for a special reduced rate"}
+      {
+        "word": "route",
+        "meaning": "a fixed path that a bus travels regularly between two or more points"
+      },
+      {
+        "word": "transfer",
+        "meaning": "when a passenger switches from one bus line to another to complete their journey"
+      },
+      {
+        "word": "reloadable",
+        "meaning": "able to have money added to it again and again, like a prepaid card"
+      },
+      {
+        "word": "fare",
+        "meaning": "the price paid to travel on a bus, train, or other public transport"
+      },
+      {
+        "word": "qualifying disabilities",
+        "meaning": "medical conditions that officially meet the criteria for a special reduced rate"
+      }
     ]
   },
   "comprehension": [
@@ -78,21 +93,33 @@
       "word": "route",
       "definition": "A fixed path regularly followed by a bus between set stops",
       "example_sentence": "With over 80 bus routes connecting neighborhoods, shopping centers, hospitals, and schools, it is an affordable and reliable way to travel.",
-      "collocations": ["bus route", "follow a route", "change your route"],
+      "collocations": [
+        "bus route",
+        "follow a route",
+        "change your route"
+      ],
       "register": "neutral"
     },
     {
       "word": "transfer",
       "definition": "The act of getting off one bus or train and boarding another to continue your journey",
       "example_sentence": "Most trips involve at least one transfer, where the passenger gets off one bus and boards another at a connecting stop.",
-      "collocations": ["make a transfer", "transfer point", "free transfer"],
+      "collocations": [
+        "make a transfer",
+        "transfer point",
+        "free transfer"
+      ],
       "register": "neutral"
     },
     {
       "word": "fare",
       "definition": "The money you pay to use public transportation",
       "example_sentence": "Single-ride adult fares are currently $2.50 with a Hop card.",
-      "collocations": ["adult fare", "reduced fare", "pay the fare"],
+      "collocations": [
+        "adult fare",
+        "reduced fare",
+        "pay the fare"
+      ],
       "register": "neutral"
     }
   ],
@@ -166,6 +193,32 @@
       ],
       "correct": 2,
       "explanation": "The passage states 'Youth under 18 ride free on weekdays.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "This is route fifteen to downtown. The fare is two dollars and fifty cents. Please have exact change ready, because the driver cannot give change. If you need to take a second bus, ask the driver for a transfer when you pay. Transfers are free and are good for two hours. The next stop is Main Street and Fifth Avenue.",
+      "question": "Why should you have exact change?",
+      "options": [
+        "The fare changes every day",
+        "The driver cannot give change",
+        "Transfers cost extra",
+        "The bus only takes cards"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Many cities have apps that show when the next bus is coming. You can also read the schedule posted at the bus stop. Remember that buses come less often at night and on weekends. If you ride the bus every day, a monthly pass usually saves money. Students and seniors often pay a reduced fare, so ask about discounts.",
+      "question": "Who often pays a reduced fare?",
+      "options": [
+        "Tourists",
+        "People with monthly passes",
+        "Students and seniors",
+        "Weekend riders"
+      ],
+      "correct": 2
     }
   ]
 }

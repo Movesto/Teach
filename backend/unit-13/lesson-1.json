@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "The 'not X but Y' structure is a powerful corrective formulation: it identifies a likely misunderstanding ('random accumulation') and replaces it with the writer's preferred framing ('coherent system') in a single balanced construction. This is more efficient and rhetorically effective than a separate sentence of correction."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Native speakers rarely notice how much of their speech is formula. 'How's it going?' is not a question about direction; 'let's touch base' involves no bases; someone who 'spilled the beans' handled no legumes. Idioms resist word-by-word translation because their meaning attaches to the whole expression, not the parts. The learning strategy that works is treating them like vocabulary items with stories: learn the image, the meaning, and — critically — the register. 'Kick the bucket' means die, but you will never see it in a condolence card.",
+      "question": "Why do idioms resist word-by-word translation?",
+      "options": [
+        "They are too old",
+        "Their meaning attaches to the whole expression",
+        "They contain rare words",
+        "They are grammatically wrong"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Phrasal verbs are the trapdoor of advanced English: 'take' is simple until it takes off, takes over, takes after, takes up, and takes in — five meanings sharing one verb. Two properties deserve attention. First, many are polysemous: 'take off' covers airplanes, clothing, careers, and imitation. Second, register: phrasal verbs dominate speech, while their Latinate twins dominate formal writing — you 'put off' a meeting with colleagues but 'postpone' it in the minutes. Mastering the pairs lets you shift formality at will.",
+      "question": "How do phrasal verbs typically differ from their Latinate equivalents?",
+      "options": [
+        "They are more formal",
+        "They dominate speech while Latinate verbs dominate formal writing",
+        "They are always older",
+        "They cannot appear in writing"
+      ],
+      "correct": 1
+    }
   ]
 }

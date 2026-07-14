@@ -16,11 +16,26 @@
     "text": "As internet access has become increasingly widespread, the importance of digital literacy has grown significantly. Digital literacy refers to the ability to find, evaluate, and use information online effectively and safely. In recent years, schools and governments around the world have made digital literacy a core part of the curriculum, recognising that students who have not developed these skills are vulnerable in an increasingly complex online environment.\n\nOne of the most serious challenges facing young internet users is misinformation — false or misleading information that has been shared online, sometimes deliberately and sometimes without the original author realising the content was incorrect. Studies have found that many people, including adults, have been deceived by fake news articles or misleading social media posts at least once. Learning to verify information by checking multiple reliable sources before sharing it is one of the most important digital habits a person can develop.\n\nPrivacy is another major concern. Many users have shared personal details online without fully understanding the potential consequences. Information such as full names, addresses, and school details should never be posted publicly. Young people in particular have sometimes been targeted by strangers online, which is why many experts have argued strongly in favour of stricter parental controls and more comprehensive online safety education.\n\nCyberbullying — the use of digital technology to harass or harm others — has also emerged as a serious social problem. Research has shown that students who have experienced cyberbullying report significantly higher levels of anxiety, depression, and school avoidance than those who have not.",
     "source": "Adapted from the UK Safer Internet Centre Annual Report 2024",
     "glossary": [
-      {"word": "digital literacy", "meaning": "the ability to use, evaluate, and create information using digital technologies"},
-      {"word": "misinformation", "meaning": "false or inaccurate information, especially when it is spread unintentionally"},
-      {"word": "verify", "meaning": "to confirm that something is true or accurate by checking the evidence"},
-      {"word": "vulnerable", "meaning": "exposed to the risk of harm, attack, or negative consequences"},
-      {"word": "cyberbullying", "meaning": "the use of electronic communication to bully, harass, or intimidate someone"}
+      {
+        "word": "digital literacy",
+        "meaning": "the ability to use, evaluate, and create information using digital technologies"
+      },
+      {
+        "word": "misinformation",
+        "meaning": "false or inaccurate information, especially when it is spread unintentionally"
+      },
+      {
+        "word": "verify",
+        "meaning": "to confirm that something is true or accurate by checking the evidence"
+      },
+      {
+        "word": "vulnerable",
+        "meaning": "exposed to the risk of harm, attack, or negative consequences"
+      },
+      {
+        "word": "cyberbullying",
+        "meaning": "the use of electronic communication to bully, harass, or intimidate someone"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "widespread",
       "definition": "existing or happening over a large area or among many people",
       "example_sentence": "As internet access has become increasingly widespread, the importance of digital literacy has grown significantly.",
-      "collocations": ["increasingly widespread", "widespread access", "widespread concern"],
+      "collocations": [
+        "increasingly widespread",
+        "widespread access",
+        "widespread concern"
+      ],
       "register": "neutral"
     },
     {
       "word": "consequences",
       "definition": "results or effects of an action, especially negative ones",
       "example_sentence": "Many users have shared personal details online without fully understanding the potential consequences.",
-      "collocations": ["potential consequences", "face the consequences", "serious consequences"],
+      "collocations": [
+        "potential consequences",
+        "face the consequences",
+        "serious consequences"
+      ],
       "register": "neutral"
     },
     {
       "word": "harass",
       "definition": "to subject someone to repeated and unwanted contact or hostile behaviour",
       "example_sentence": "Cyberbullying is defined as the use of digital technology to harass or harm others.",
-      "collocations": ["harass someone online", "harassment campaign", "targeted harassment"],
+      "collocations": [
+        "harass someone online",
+        "harassment campaign",
+        "targeted harassment"
+      ],
       "register": "neutral"
     },
     {
       "word": "comprehensive",
       "definition": "covering all aspects of something; thorough and complete",
       "example_sentence": "Experts have argued in favour of stricter parental controls and more comprehensive online safety education.",
-      "collocations": ["comprehensive education", "comprehensive guide", "comprehensive review"],
+      "collocations": [
+        "comprehensive education",
+        "comprehensive guide",
+        "comprehensive review"
+      ],
       "register": "formal"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 1,
       "explanation": "The passage states: 'Research has shown that students who have experienced cyberbullying report significantly higher levels of anxiety, depression, and school avoidance than those who have not.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Warning: scammers often call pretending to be from the government or your bank. They may say you owe money and must pay today with gift cards, or that your account is blocked. Real government offices never ask for payment by gift card, and your bank will never ask for your full password on the phone. If a call feels wrong, hang up and call the official number yourself.",
+      "question": "What is one sign that a call is a scam?",
+      "options": [
+        "The caller speaks slowly",
+        "They ask for payment with gift cards",
+        "They know your name",
+        "They call during the day"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Strong passwords protect your accounts. Use at least twelve characters and mix letters, numbers, and symbols. Never use your name, your birthday, or the word 'password.' Use a different password for each important account, especially email and banking. Turn on two-step verification when you can — it sends a code to your phone, so a thief can't log in with the password alone.",
+      "question": "Why is two-step verification useful?",
+      "options": [
+        "It makes passwords shorter",
+        "A thief can't log in with the password alone",
+        "It remembers your passwords",
+        "It works without a phone"
+      ],
+      "correct": 1
     }
   ]
 }

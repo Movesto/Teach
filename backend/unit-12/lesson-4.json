@@ -229,5 +229,31 @@
       "correct": 1,
       "explanation": "Inversion after 'Rarely' requires the auxiliary ('has') to precede the subject ('the debate'): 'Rarely has the debate engaged...' The other options either fail to invert or produce double auxiliaries."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Discussing controversial issues in public requires a skill schools rarely teach: steelmanning — stating the opposing view in its strongest form before answering it. The habit has two effects. Rhetorically, it disarms; an audience that expects caricature relaxes when it hears fairness, and relaxed audiences can be persuaded. Intellectually, it protects you: if you can only defeat the weakest version of the other side, you do not yet understand the issue. Steelman first; if your position survives, argue it with confidence.",
+      "question": "What is 'steelmanning'?",
+      "options": [
+        "Attacking an opponent personally",
+        "Stating the opposing view in its strongest form",
+        "Refusing to debate",
+        "Using industrial metaphors"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Watch the vocabulary of a public debate and you can map its battle lines. Is it an 'estate tax' or a 'death tax'? 'Undocumented workers' or 'illegal aliens'? Each term smuggles in a conclusion before the argument begins. You cannot speak without choosing words, and no choice is neutral — but you can choose consciously, and you can flag loaded terms when others deploy them: 'You're calling it a death tax; the statute taxes estates over thirteen million dollars. Let's discuss what it actually does.'",
+      "question": "What does the speaker say about neutral vocabulary in debates?",
+      "options": [
+        "It is easy to find",
+        "No word choice is neutral, so choose consciously",
+        "Only lawyers use it",
+        "It wins every argument"
+      ],
+      "correct": 1
+    }
   ]
 }

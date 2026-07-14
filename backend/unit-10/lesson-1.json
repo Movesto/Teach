@@ -228,5 +228,31 @@
       "correct": 1,
       "explanation": "The final line of the text states explicitly: 'cultural knowledge is a starting point, not a conclusion — a hypothesis, not a fact.' The writer does not dismiss cultural knowledge but reframes its epistemic status — it should be held tentatively and updated based on experience with the specific individual."
     }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Communication styles differ across cultures in ways that are easy to misread. In low-context cultures — the United States is a classic example — meaning lives in the words: people say what they mean directly, and directness is read as honesty. In high-context cultures, meaning lives in the situation, the relationship, the pause. A Somali or Japanese speaker may convey refusal through hesitation that an American simply does not hear. Neither style is superior; the danger is judging one by the rules of the other.",
+      "question": "In low-context cultures, how is directness usually interpreted?",
+      "options": [
+        "As rudeness",
+        "As honesty",
+        "As weakness",
+        "As formality"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Consider a workplace example. An American manager asks, 'Can you finish this by Friday?' An employee raised in a culture where refusing a superior is disrespectful answers, 'I will try my best.' The manager hears a yes; the employee meant a probably-not. On Friday, both feel betrayed — the manager by the missed deadline, the employee by the public embarrassment. No one lied. Two politeness systems collided, and the cost was trust. Naming the difference, explicitly, is usually the repair.",
+      "question": "What caused the misunderstanding in the example?",
+      "options": [
+        "The employee lied",
+        "Two politeness systems collided",
+        "The manager was unclear",
+        "The deadline was impossible"
+      ],
+      "correct": 1
+    }
   ]
 }

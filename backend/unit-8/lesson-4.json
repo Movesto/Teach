@@ -16,11 +16,26 @@
     "text": "In recent years, smartphones have transformed the way people access information, communicate, and learn. However, their presence in schools has sparked significant debate among educators, parents, and policymakers around the world.\n\nProponents argue that smartphones can be used as powerful learning tools. When integrated thoughtfully into lessons, devices can be accessed to look up information, watch educational videos, or collaborate on shared documents. Apps designed specifically for language learning, mathematics, and science are downloaded by millions of students each year and are widely regarded as effective supplements to traditional instruction.\n\nCritics, however, point out that smartphones are frequently misused in the classroom. Research indicates that students who use their phones for non-academic purposes during lessons retain significantly less information. In several countries, strict policies have been introduced: in France, mobile phones were banned from primary and secondary schools in 2018, and similar restrictions have since been adopted in other nations.\n\nThe internet itself is seen by many as the most transformative educational resource of the modern era. It is estimated that over five billion web searches are conducted every day, and a substantial proportion of these are made by students researching topics for school. Online encyclopedias, academic journals, and open-access courses are now consulted by learners at all levels, making knowledge more accessible than ever before.\n\nThe challenge for schools is not to eliminate technology, but to ensure that it is used purposefully and responsibly.",
     "source": "Adapted from UNESCO's 2023 Global Education Monitoring Report",
     "glossary": [
-      {"word": "proponents", "meaning": "people who strongly support and advocate for something"},
-      {"word": "integrated", "meaning": "combined and incorporated into a larger system or context"},
-      {"word": "retain", "meaning": "to keep something in your memory; to not forget"},
-      {"word": "transformative", "meaning": "causing a major and significant change"},
-      {"word": "open-access", "meaning": "freely available to everyone without needing to pay or register"}
+      {
+        "word": "proponents",
+        "meaning": "people who strongly support and advocate for something"
+      },
+      {
+        "word": "integrated",
+        "meaning": "combined and incorporated into a larger system or context"
+      },
+      {
+        "word": "retain",
+        "meaning": "to keep something in your memory; to not forget"
+      },
+      {
+        "word": "transformative",
+        "meaning": "causing a major and significant change"
+      },
+      {
+        "word": "open-access",
+        "meaning": "freely available to everyone without needing to pay or register"
+      }
     ]
   },
   "comprehension": [
@@ -78,28 +93,44 @@
       "word": "sparked",
       "definition": "caused something to start or be triggered, especially a reaction or discussion",
       "example_sentence": "Their presence in schools has sparked significant debate among educators, parents, and policymakers.",
-      "collocations": ["sparked debate", "sparked controversy", "sparked a reaction"],
+      "collocations": [
+        "sparked debate",
+        "sparked controversy",
+        "sparked a reaction"
+      ],
       "register": "neutral"
     },
     {
       "word": "substantial",
       "definition": "large in amount, size, or importance",
       "example_sentence": "It is estimated that over five billion web searches are conducted every day, and a substantial proportion of these are made by students.",
-      "collocations": ["substantial proportion", "substantial amount", "substantial evidence"],
+      "collocations": [
+        "substantial proportion",
+        "substantial amount",
+        "substantial evidence"
+      ],
       "register": "formal"
     },
     {
       "word": "restrict",
       "definition": "to put a limit on the use or availability of something",
       "example_sentence": "Similar restrictions have since been adopted in other nations.",
-      "collocations": ["restrictions on", "restrict access", "impose restrictions"],
+      "collocations": [
+        "restrictions on",
+        "restrict access",
+        "impose restrictions"
+      ],
       "register": "formal"
     },
     {
       "word": "purposefully",
       "definition": "with a clear intention and goal; deliberately and meaningfully",
       "example_sentence": "The challenge for schools is to ensure that technology is used purposefully and responsibly.",
-      "collocations": ["used purposefully", "act purposefully", "purposeful learning"],
+      "collocations": [
+        "used purposefully",
+        "act purposefully",
+        "purposeful learning"
+      ],
       "register": "formal"
     }
   ],
@@ -175,6 +206,32 @@
       ],
       "correct": 2,
       "explanation": "The passage concludes: 'The challenge for schools is not to eliminate technology, but to ensure that it is used purposefully and responsibly.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Let's set up your new smartphone. First, connect to Wi-Fi — tap Settings, then Wi-Fi, and choose your network. Enter the password exactly, paying attention to capital letters. Once you're connected, you can browse the internet, make video calls, and download apps from the app store. Using Wi-Fi at home saves your mobile data, which can be expensive.",
+      "question": "Why should you use Wi-Fi at home?",
+      "options": [
+        "It's faster than anything else",
+        "It saves your mobile data",
+        "Apps require it",
+        "The phone won't work without it"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Search engines help you find information online. Type a few key words — you don't need full sentences. For example, type 'bus schedule route fifteen' instead of 'I would like to know when the bus comes.' Check who wrote the page before trusting it: government sites end in dot gov, and schools end in dot edu. Those are usually reliable sources.",
+      "question": "Which websites does the speaker say are usually reliable?",
+      "options": [
+        "Sites with many ads",
+        "Sites ending in dot gov and dot edu",
+        "The first result always",
+        "Social media pages"
+      ],
+      "correct": 1
     }
   ]
 }
