@@ -1,6 +1,7 @@
 import logging
 
 from fastapi import APIRouter, HTTPException
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 import json
@@ -56,6 +57,10 @@ async def get_placement_test():
             if "questions" in section:
                 for question in section["questions"]:
                     question.pop("correct", None)
+                    # The transcript IS the listening answer — never ship it to
+                    # the client. Audio is synthesized server-side instead.
+                    if question.pop("transcript", None) is not None:
+                        question["audio"] = f"/api/placement/listen/{question['id']}"
             if "passages" in section:
                 for passage in section["passages"]:
                     for question in passage.get("questions", []):
@@ -66,17 +71,39 @@ async def get_placement_test():
         raise HTTPException(status_code=500, detail="Error loading placement test")
 
 
+@router.get("/listen/{question_id}")
+async def placement_listening_audio(question_id: str):
+    """Generate (and cache) audio for a listening question from its transcript.
+    The committed mp3 paths in the test JSON never existed; this mirrors the
+    lesson listening endpoint (Kokoro -> edge-tts fallback, cached under /audio)."""
+    from core.config import KOKORO_VOICE, TTS_VOICE_DEFAULT
+    from core.speech import synthesize
+
+    test_data = load_placement_test()
+    for section in test_data.get("sections", []):
+        for question in section.get("questions", []):
+            if question.get("id") == question_id and question.get("transcript"):
+                url = await synthesize(
+                    question["transcript"], KOKORO_VOICE, TTS_VOICE_DEFAULT,
+                    prefix=f"placement_{question_id}",
+                )
+                if not url:
+                    raise HTTPException(status_code=503, detail="Audio generation unavailable")
+                return RedirectResponse(url)
+    raise HTTPException(status_code=404, detail="Listening question not found")
+
+
 @router.post("/submit", response_model=PlacementResult)
 async def submit_placement_test(submission: SubmitTestRequest):
     try:
         test_data = load_placement_test()
         total_score = 0
         max_score = test_data["scoring"]["total_points"]
+        # Section maxima come from the test JSON so content edits can't drift
+        # out of sync with hardcoded numbers here.
         breakdown = {
-            "grammar":   {"score": 0, "max": 30, "questions_answered": 0, "questions_total": 0},
-            "listening": {"score": 0, "max": 25, "questions_answered": 0, "questions_total": 0},
-            "reading":   {"score": 0, "max": 25, "questions_answered": 0, "questions_total": 0},
-            "speaking":  {"score": 0, "max": 20, "questions_answered": 0, "questions_total": 0},
+            section: {"score": 0, "max": max_pts, "questions_answered": 0, "questions_total": 0}
+            for section, max_pts in test_data["scoring"]["breakdown"].items()
         }
 
         answer_map = {a.question_id: a for a in submission.answers}

@@ -5,7 +5,6 @@
   "version": "1.0",
   "total_time_minutes": 15,
   "total_points": 100,
-  
   "instructions": {
     "overview": "This test will help us find the right starting point for you. It has 4 sections: Grammar, Listening, Reading, and Speaking. Answer honestly - this helps us give you the best learning experience!",
     "sections": [
@@ -22,7 +21,6 @@
       "You need a microphone for the speaking section"
     ]
   },
-  
   "sections": [
     {
       "id": "grammar",
@@ -33,7 +31,12 @@
         {
           "id": "g1",
           "question": "My name ___ Ahmed.",
-          "options": ["am", "is", "are", "be"],
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
           "correct": 1,
           "points": 2,
           "level": "beginner"
@@ -41,7 +44,12 @@
         {
           "id": "g2",
           "question": "She ___ from Somalia.",
-          "options": ["am", "is", "are", "be"],
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
           "correct": 1,
           "points": 2,
           "level": "beginner"
@@ -49,7 +57,12 @@
         {
           "id": "g3",
           "question": "I ___ two brothers.",
-          "options": ["have", "has", "am", "is"],
+          "options": [
+            "have",
+            "has",
+            "am",
+            "is"
+          ],
           "correct": 0,
           "points": 2,
           "level": "beginner"
@@ -57,7 +70,12 @@
         {
           "id": "g4",
           "question": "He ___ at a hospital.",
-          "options": ["work", "works", "working", "to work"],
+          "options": [
+            "work",
+            "works",
+            "working",
+            "to work"
+          ],
           "correct": 1,
           "points": 2,
           "level": "beginner"
@@ -65,7 +83,12 @@
         {
           "id": "g5",
           "question": "Do you ___ English?",
-          "options": ["speak", "speaks", "speaking", "to speak"],
+          "options": [
+            "speak",
+            "speaks",
+            "speaking",
+            "to speak"
+          ],
           "correct": 0,
           "points": 2,
           "level": "beginner"
@@ -73,7 +96,12 @@
         {
           "id": "g6",
           "question": "I ___ to the store yesterday.",
-          "options": ["go", "goes", "went", "going"],
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
           "correct": 2,
           "points": 2,
           "level": "intermediate"
@@ -81,7 +109,12 @@
         {
           "id": "g7",
           "question": "She has ___ in Portland for three years.",
-          "options": ["live", "lives", "lived", "living"],
+          "options": [
+            "live",
+            "lives",
+            "lived",
+            "living"
+          ],
           "correct": 2,
           "points": 2,
           "level": "intermediate"
@@ -89,7 +122,12 @@
         {
           "id": "g8",
           "question": "If I ___ more money, I would buy a car.",
-          "options": ["have", "has", "had", "having"],
+          "options": [
+            "have",
+            "has",
+            "had",
+            "having"
+          ],
           "correct": 2,
           "points": 2,
           "level": "intermediate"
@@ -97,7 +135,12 @@
         {
           "id": "g9",
           "question": "The book ___ by millions of people.",
-          "options": ["read", "reads", "was read", "reading"],
+          "options": [
+            "read",
+            "reads",
+            "was read",
+            "reading"
+          ],
           "correct": 2,
           "points": 2,
           "level": "intermediate"
@@ -105,7 +148,12 @@
         {
           "id": "g10",
           "question": "I wish I ___ speak Spanish fluently.",
-          "options": ["can", "could", "will", "would"],
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
           "correct": 1,
           "points": 2,
           "level": "advanced"
@@ -113,7 +161,12 @@
         {
           "id": "g11",
           "question": "By next year, I ___ studying English for five years.",
-          "options": ["am", "will be", "will have been", "have been"],
+          "options": [
+            "am",
+            "will be",
+            "will have been",
+            "have been"
+          ],
           "correct": 2,
           "points": 2,
           "level": "advanced"
@@ -121,7 +174,12 @@
         {
           "id": "g12",
           "question": "The project should ___ by the end of the month.",
-          "options": ["complete", "completed", "be completed", "completing"],
+          "options": [
+            "complete",
+            "completed",
+            "be completed",
+            "completing"
+          ],
           "correct": 2,
           "points": 2,
           "level": "advanced"
@@ -129,7 +187,12 @@
         {
           "id": "g13",
           "question": "She insisted ___ going alone.",
-          "options": ["on", "at", "in", "to"],
+          "options": [
+            "on",
+            "at",
+            "in",
+            "to"
+          ],
           "correct": 0,
           "points": 2,
           "level": "advanced"
@@ -137,7 +200,12 @@
         {
           "id": "g14",
           "question": "Neither the students nor the teacher ___ ready.",
-          "options": ["is", "are", "be", "been"],
+          "options": [
+            "is",
+            "are",
+            "be",
+            "been"
+          ],
           "correct": 0,
           "points": 2,
           "level": "advanced"
@@ -145,14 +213,18 @@
         {
           "id": "g15",
           "question": "Had I known about the meeting, I ___ attended.",
-          "options": ["will have", "would have", "will", "would"],
+          "options": [
+            "will have",
+            "would have",
+            "will",
+            "would"
+          ],
           "correct": 1,
           "points": 2,
           "level": "advanced"
         }
       ]
     },
-    
     {
       "id": "listening",
       "title": "Section 2: Listening Comprehension",
@@ -164,7 +236,12 @@
           "audio": "/audio/placement-listen1.mp3",
           "transcript": "My name is Sarah. I am 25 years old. I live in Portland.",
           "question": "What is the speaker's name?",
-          "options": ["Sara", "Sarah", "Sally", "Sandra"],
+          "options": [
+            "Sara",
+            "Sarah",
+            "Sally",
+            "Sandra"
+          ],
           "correct": 1,
           "points": 5,
           "level": "beginner"
@@ -174,7 +251,12 @@
           "audio": "/audio/placement-listen2.mp3",
           "transcript": "I work at a hospital. I am a nurse. I help sick people.",
           "question": "Where does the speaker work?",
-          "options": ["School", "Hospital", "Restaurant", "Bank"],
+          "options": [
+            "School",
+            "Hospital",
+            "Restaurant",
+            "Bank"
+          ],
           "correct": 1,
           "points": 5,
           "level": "beginner"
@@ -184,7 +266,12 @@
           "audio": "/audio/placement-listen3.mp3",
           "transcript": "Last weekend, I went to the park with my family. We had a picnic and played soccer. It was very fun.",
           "question": "What did the speaker do last weekend?",
-          "options": ["Went shopping", "Went to park", "Stayed home", "Went to work"],
+          "options": [
+            "Went shopping",
+            "Went to park",
+            "Stayed home",
+            "Went to work"
+          ],
           "correct": 1,
           "points": 5,
           "level": "intermediate"
@@ -194,7 +281,12 @@
           "audio": "/audio/placement-listen4.mp3",
           "transcript": "I've been studying English for two years now. At first, it was really difficult, but I'm making progress. My goal is to speak fluently by next year.",
           "question": "How long has the speaker been studying English?",
-          "options": ["One year", "Two years", "Three years", "Five years"],
+          "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Five years"
+          ],
           "correct": 1,
           "points": 5,
           "level": "intermediate"
@@ -204,14 +296,48 @@
           "audio": "/audio/placement-listen5.mp3",
           "transcript": "The economic implications of the policy shift remain unclear. While proponents argue it will stimulate growth, critics contend that the potential risks outweigh the benefits, particularly for vulnerable populations.",
           "question": "What is the main concern of the critics?",
-          "options": ["The policy is too expensive", "The risks outweigh benefits", "The policy won't work", "The timing is wrong"],
+          "options": [
+            "The policy is too expensive",
+            "The risks outweigh benefits",
+            "The policy won't work",
+            "The timing is wrong"
+          ],
           "correct": 1,
           "points": 5,
           "level": "advanced"
+        },
+        {
+          "id": "l6",
+          "level": "intermediate",
+          "points": 5,
+          "audio": "/api/placement/listen/l6",
+          "transcript": "Hi Fatima, this is Mike from Northgate Warehouse. I'm calling about your schedule for next week. We need you to work the morning shift on Tuesday instead of Wednesday, from six AM to two thirty. Overtime is also available on Saturday if you want extra hours. Please call me back before Friday to confirm the change. Thanks.",
+          "question": "What does Mike want Fatima to confirm?",
+          "options": [
+            "Working Saturday overtime",
+            "Changing her shift from Wednesday to Tuesday",
+            "Quitting her job",
+            "Arriving at two thirty"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "l7",
+          "level": "intermediate",
+          "points": 5,
+          "audio": "/api/placement/listen/l7",
+          "transcript": "Before we finish today's visit, here are your instructions. Take one tablet twice a day, in the morning and at night, with food. Don't skip doses, even if you feel better. If you notice a rash or have trouble breathing, stop taking it and call us right away. Your follow-up appointment is in two weeks. The front desk can print your lab order.",
+          "question": "When should the patient take the medicine?",
+          "options": [
+            "Once a day before breakfast",
+            "Twice a day with food",
+            "Only when feeling sick",
+            "Every two weeks"
+          ],
+          "correct": 1
         }
       ]
     },
-    
     {
       "id": "reading",
       "title": "Section 3: Reading Comprehension",
@@ -227,29 +353,93 @@
             {
               "id": "r1q1",
               "question": "Where did Ahmed come from?",
-              "options": ["Ethiopia", "Somalia", "Kenya", "Portland"],
+              "options": [
+                "Ethiopia",
+                "Somalia",
+                "Kenya",
+                "Portland"
+              ],
               "correct": 1,
               "points": 3
             },
             {
               "id": "r1q2",
               "question": "What was difficult for Ahmed at first?",
-              "options": ["The weather", "Speaking English", "Finding a house", "Making friends"],
+              "options": [
+                "The weather",
+                "Speaking English",
+                "Finding a house",
+                "Making friends"
+              ],
               "correct": 1,
               "points": 3
             },
             {
               "id": "r1q3",
               "question": "Where does Ahmed work now?",
-              "options": ["Hospital", "School", "Grocery store", "Restaurant"],
+              "options": [
+                "Hospital",
+                "School",
+                "Grocery store",
+                "Restaurant"
+              ],
               "correct": 2,
               "points": 3
             },
             {
               "id": "r1q4",
               "question": "How does Ahmed feel now?",
-              "options": ["Sad", "Angry", "Happy", "Worried"],
+              "options": [
+                "Sad",
+                "Angry",
+                "Happy",
+                "Worried"
+              ],
               "correct": 2,
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "level": "intermediate",
+          "title": "A Letter from the Landlord",
+          "text": "Dear Residents,\n\nStarting next month, the building will have new recycling rules. Blue bins are for paper, cardboard, glass, and plastic bottles. Please rinse containers before recycling them. Food waste, plastic bags, and pizza boxes with grease go in the regular trash. The recycling truck comes on Monday mornings, so put your bins out on Sunday evening.\n\nAlso, a reminder: the parking lot will be repaved on the 15th and 16th. During those two days, please park on Cedar Street. Cars left in the lot will be towed at the owner's expense.\n\nThank you for your cooperation.\n\nBuilding Management",
+          "questions": [
+            {
+              "id": "r3q1",
+              "question": "Which items belong in the blue bins?",
+              "options": [
+                "Plastic bags and food waste",
+                "Paper, glass, and plastic bottles",
+                "Greasy pizza boxes",
+                "Everything except paper"
+              ],
+              "correct": 1,
+              "points": 3
+            },
+            {
+              "id": "r3q2",
+              "question": "When should residents put their bins out?",
+              "options": [
+                "Monday morning",
+                "Sunday evening",
+                "The 15th",
+                "Every evening"
+              ],
+              "correct": 1,
+              "points": 3
+            },
+            {
+              "id": "r3q3",
+              "question": "What happens to cars left in the parking lot on the 15th?",
+              "options": [
+                "Nothing",
+                "They will be towed at the owner's expense",
+                "They will be repaved around",
+                "They must pay for parking"
+              ],
+              "correct": 1,
               "points": 3
             }
           ]
@@ -300,7 +490,6 @@
         }
       ]
     },
-    
     {
       "id": "speaking",
       "title": "Section 4: Speaking Assessment",
@@ -350,18 +539,45 @@
             "grammar": 2,
             "vocabulary": 1
           }
+        },
+        {
+          "id": "s4",
+          "level": "intermediate",
+          "points": 6,
+          "prompt": "Give someone directions from your home to a place you know well (a store, a mosque, a school). Use words like turn, straight, next to.",
+          "example": "From my apartment, walk straight down Cedar Avenue for two blocks. Turn left at the traffic light. The halal market is on your right, next to the pharmacy. It takes about ten minutes.",
+          "min_seconds": 20,
+          "max_seconds": 60,
+          "rubric": [
+            "Uses direction words correctly",
+            "Clear sequence of steps",
+            "Understandable pronunciation"
+          ]
+        },
+        {
+          "id": "s5",
+          "level": "intermediate",
+          "points": 6,
+          "prompt": "Describe your work experience. What jobs have you done, and what did you do in them? Use past tense verbs.",
+          "example": "In Somalia, I worked as a tailor for eight years. I made and repaired clothes, and I trained two young workers. When I came here, I worked in a warehouse. Now I am looking for a job where I can use my skills.",
+          "min_seconds": 25,
+          "max_seconds": 60,
+          "rubric": [
+            "Uses past tense correctly",
+            "Names specific tasks and duration",
+            "Connects experience to goals"
+          ]
         }
       ]
     }
   ],
-  
   "scoring": {
-    "total_points": 100,
+    "total_points": 131,
     "breakdown": {
       "grammar": 30,
-      "listening": 25,
-      "reading": 25,
-      "speaking": 20
+      "listening": 35,
+      "reading": 34,
+      "speaking": 32
     },
     "levels": [
       {
@@ -416,7 +632,6 @@
       }
     ]
   },
-  
   "result_details": {
     "certificate": true,
     "save_to_profile": true,
