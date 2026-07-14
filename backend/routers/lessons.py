@@ -152,6 +152,7 @@ def normalize_lesson(data: dict) -> dict:
                 "instruction": t.get("prompt", ""),
                 "example": t.get("example", ""),
                 "rubric": t.get("rubric", []),
+                "min_words": t.get("min_words"),
             }
             for t in data["writing_tasks"]
         ]

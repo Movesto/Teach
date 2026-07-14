@@ -3,11 +3,11 @@ import { Link, useNavigate } from 'react-router-dom';
 import { BookOpen, CheckCircle, ChevronRight, BookMarked, RotateCcw, Play, Trophy, Mic, Clock, MessageSquare } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
+import { cacheGet, cacheSet, clearCache } from '../utils/cache';
+import { STRINGS } from '../utils/strings';
+import ErrorBox from '../components/ErrorBox';
 import FeedbackModal from '../components/FeedbackModal';
 
-let _booksCache = null;
-let _unitsCache = null;
-let _unitsCacheAt = 0;
 const UNITS_TTL = 30_000; // 30 seconds
 
 const CEFR_BADGE = {
@@ -120,17 +120,17 @@ export default function Dashboard() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    const now = Date.now();
-
-    const unitsPromise = (_unitsCache && now - _unitsCacheAt < UNITS_TTL)
-      ? Promise.resolve(_unitsCache)
+    const cachedUnits = cacheGet('units', UNITS_TTL);
+    const unitsPromise = cachedUnits
+      ? Promise.resolve(cachedUnits)
       : apiFetch('/api/units').then(r => r.json())
-          .then(data => { _unitsCache = data; _unitsCacheAt = Date.now(); return data; });
+          .then(data => { cacheSet('units', data); return data; });
 
-    const booksPromise = _booksCache
-      ? Promise.resolve(_booksCache)
+    const cachedBooks = cacheGet('books');
+    const booksPromise = cachedBooks
+      ? Promise.resolve(cachedBooks)
       : apiFetch('/api/books').then(r => r.json())
-          .then(data => { _booksCache = data; return data; });
+          .then(data => { cacheSet('books', data); return data; });
 
     Promise.all([
       unitsPromise,
@@ -163,18 +163,9 @@ export default function Dashboard() {
 
   if (loadError) {
     return (
-      <div className="flex items-center justify-center min-h-screen dark:bg-gray-950">
-        <div className="text-center max-w-sm px-4">
-          <p className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Could not load your dashboard</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Check your connection and try again.</p>
-          <button
-            onClick={() => { _unitsCache = null; _booksCache = null; setLoadError(false); setLoading(true); setRetryCount(c => c + 1); }}
-            className="px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 text-sm font-medium"
-          >
-            Retry
-          </button>
-        </div>
-      </div>
+      <ErrorBox
+        onRetry={() => { clearCache(); setLoadError(false); setLoading(true); setRetryCount(c => c + 1); }}
+      />
     );
   }
 
@@ -211,7 +202,11 @@ export default function Dashboard() {
               </span>
             )}
             <button
-              onClick={() => navigate('/placement?retake=true')}
+              onClick={() => {
+                if (window.confirm(`${STRINGS.retakeConfirm.en}\n\n${STRINGS.retakeConfirm.so}`)) {
+                  navigate('/placement?retake=true');
+                }
+              }}
               className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 border border-gray-200 dark:border-gray-700 rounded-lg px-3 py-1.5 hover:border-indigo-300 dark:hover:border-indigo-600 transition-colors"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -277,7 +272,7 @@ export default function Dashboard() {
           type="text"
           value={search}
           onChange={e => setSearch(e.target.value)}
-          placeholder="Search lessons..."
+          placeholder={`${STRINGS.searchLessons.en} / ${STRINGS.searchLessons.so}`}
           className="flex-1 max-w-xs px-3 py-1.5 text-sm border-2 border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:border-indigo-400 dark:focus:border-indigo-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
         />
       </div>

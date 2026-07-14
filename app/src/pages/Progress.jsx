@@ -10,7 +10,8 @@ const CEFR_COLORS = {
   C1: 'bg-purple-500', C2: 'bg-indigo-600',
 };
 
-function StatCard({ icon: Icon, label, value, sub, color = 'indigo' }) {
+function StatCard({ icon, label, value, sub, color = 'indigo' }) {
+  const Icon = icon;
   const colors = {
     indigo: 'bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400',
     green:  'bg-green-50 dark:bg-green-900/20 text-green-600 dark:text-green-400',
@@ -39,7 +40,6 @@ function ScoreTrend({ scores }) {
   }
   const max = 100;
   const h = 80;
-  const w = 100 / (scores.length - 1);
 
   return (
     <div className="relative" style={{ height: h + 24 }}>

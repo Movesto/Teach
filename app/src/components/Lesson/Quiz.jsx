@@ -116,6 +116,7 @@ export function Quiz({ questions, onComplete, onRequestHelp }) {
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-semibold text-gray-700 dark:text-gray-300">
             Question {currentQ + 1} of {questions.length}
+            <span className="block text-xs font-normal text-gray-400 dark:text-gray-500">Su'aal {currentQ + 1} ee {questions.length}</span>
           </span>
           <div className="flex gap-1">
             {questions.map((_, idx) => (

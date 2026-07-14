@@ -123,6 +123,7 @@ export function StorySection({ story, onComplete }) {
                     : 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 hover:text-indigo-600'
                 }`}
                 title={playingIdx === idx ? 'Stop' : `Play ${line.speaker}'s line`}
+                aria-label={playingIdx === idx ? 'Stop audio' : `Play ${line.speaker}'s line`}
               >
                 {playingIdx === idx
                   ? <Square className="w-3 h-3 fill-current" />
@@ -286,6 +287,20 @@ export function SpeakingRecorder({ tasks, onComplete }) {
   const playbackAudioRef = useRef(null);
   const recognitionRef = useRef(null);
   const transcriptRef = useRef('');
+  const recordingsRef = useRef(recordings);
+  useEffect(() => { recordingsRef.current = recordings; }, [recordings]);
+
+  // Stop playback/recording and free recording object URLs on unmount
+  useEffect(() => {
+    return () => {
+      playbackAudioRef.current?.pause();
+      playbackAudioRef.current = null;
+      recognitionRef.current?.stop();
+      recognitionRef.current = null;
+      if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop();
+      Object.values(recordingsRef.current).forEach(url => URL.revokeObjectURL(url));
+    };
+  }, []);
 
   const task = tasks[current];
   const isLast = current === tasks.length - 1;
@@ -363,7 +378,10 @@ export function SpeakingRecorder({ tasks, onComplete }) {
       mediaRecorder.onstop = () => {
         const blob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
         const url = URL.createObjectURL(blob);
-        setRecordings(prev => ({ ...prev, [taskIndex]: url }));
+        setRecordings(prev => {
+          if (prev[taskIndex]) URL.revokeObjectURL(prev[taskIndex]);
+          return { ...prev, [taskIndex]: url };
+        });
         stream.getTracks().forEach(t => t.stop());
         releaseAudioSession();
 
@@ -571,6 +589,11 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
   const [score, setScore] = useState(null);
   const abortRef = useRef(null);
 
+  // Cancel an in-flight assessment if the user leaves the exercise
+  useEffect(() => {
+    return () => abortRef.current?.abort();
+  }, []);
+
   useEffect(() => {
     if (!lsKey) return;
     localStorage.setItem(lsKey, JSON.stringify(answers));
@@ -579,6 +602,8 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
   const task = tasks[current];
   const isLast = current === tasks.length - 1;
   const currentText = answers[current] || '';
+  const minWords = task.min_words || 5;
+  const wordCount = currentText.trim() ? currentText.trim().split(/\s+/).length : 0;
 
   const submitForReview = async () => {
     setAssessmentState('loading');
@@ -592,7 +617,7 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
           writing_text: currentText,
           prompt_instruction: task.instruction || task.title || '',
           example: task.example || '',
-          min_words: 5,
+          min_words: minWords,
         }),
         signal: controller.signal,
       });
@@ -603,10 +628,12 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
       setFeedback(data.feedback || '');
       setFeedbackSomali(data.feedback_somali || '');
       setAssessmentState(data.passed ? 'passed' : 'failed');
-    } catch {
+    } catch (e) {
       clearTimeout(timeout);
       setScore(null);
-      setFeedback('Assessment unavailable. Your writing has been accepted.');
+      setFeedback(e?.name === 'AbortError'
+        ? 'The review took too long, so your writing has been accepted. Check your connection if this keeps happening.'
+        : 'Assessment unavailable. Your writing has been accepted.');
       setFeedbackSomali('');
       setAssessmentState('passed');
     }
@@ -672,7 +699,9 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
           disabled={assessmentState === 'loading' || assessmentState === 'passed'}
           className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none min-h-[200px] disabled:bg-gray-50 disabled:dark:bg-gray-700 disabled:cursor-not-allowed bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
         />
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{currentText.length} characters</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+          {wordCount} {wordCount === 1 ? 'word' : 'words'}{wordCount < minWords ? ` — write at least ${minWords}` : ''}
+        </p>
       </div>
 
       {/* Passed panel */}
@@ -723,7 +752,7 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
       {assessmentState === 'idle' && (
         <button
           onClick={submitForReview}
-          disabled={currentText.length < 20}
+          disabled={wordCount < minWords}
           className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
           Submit for Review
@@ -754,7 +783,7 @@ function detectConcepts(content) {
 }
 
 // GrammarDiscovery Component
-export function GrammarDiscovery({ content, onComplete, unitId }) {
+export function GrammarDiscovery({ content, onComplete, unitId, somali }) {
   const [practiceAnswers, setPracticeAnswers] = useState({});
   const conceptIds = (unitId == null || unitId <= 8) ? detectConcepts(content) : [];
 
@@ -825,6 +854,10 @@ export function GrammarDiscovery({ content, onComplete, unitId }) {
 
             {section.explanation && (
               <p className="text-gray-700 dark:text-gray-300">{section.explanation}</p>
+            )}
+
+            {somali?.sections?.[idx]?.explanation && (
+              <p className="text-gray-500 dark:text-gray-400 text-sm italic mt-2">{somali.sections[idx].explanation}</p>
             )}
 
             {section.practice && section.practice.length > 0 && (

@@ -9,6 +9,7 @@ import AITutorModal from '../components/AITutorModal';
 import FeedbackModal from '../components/FeedbackModal';
 import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle } from 'lucide-react';
 import { apiFetch } from '../utils/api';
+import ErrorBox from '../components/ErrorBox';
 
 export default function LessonView() {
   const { lessonId } = useParams();
@@ -24,13 +25,19 @@ export default function LessonView() {
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState(false);
   const [lastScore, setLastScore] = useState(null);
+  const [loadError, setLoadError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     apiFetch(`/api/lessons/${lessonId}`)
-      .then(res => res.json())
+      .then(res => {
+        if (res.status === 404) return null;          // truly missing → "not found"
+        if (!res.ok) throw new Error('load failed');  // server/network → retryable error
+        return res.json();
+      })
       .then(data => { setLesson(data); setLoading(false); })
-      .catch(() => setLoading(false));
-  }, [lessonId]);
+      .catch(() => { setLoadError(true); setLoading(false); });
+  }, [lessonId, retryCount]);
 
   const submitQuiz = (score) => {
     if (submitting) return;
@@ -87,6 +94,14 @@ export default function LessonView() {
     );
   }
 
+  if (loadError) {
+    return (
+      <ErrorBox
+        onRetry={() => { setLoading(true); setLoadError(false); setRetryCount(c => c + 1); }}
+      />
+    );
+  }
+
   if (!lesson) {
     return (
       <div className="max-w-4xl mx-auto p-8 text-center">
@@ -124,6 +139,9 @@ export default function LessonView() {
         </div>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{lesson.title}</h1>
         <p className="text-gray-600 dark:text-gray-400">{lesson.description}</p>
+        {lesson.somali?.description && (
+          <p className="text-gray-500 dark:text-gray-500 text-sm italic mt-1">{lesson.somali.description}</p>
+        )}
         {lesson.story_context && (
           <div className="mt-4 bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 rounded-r-lg p-4">
             <p className="text-xs font-semibold text-amber-700 dark:text-amber-400 uppercase tracking-wide mb-1">Ahmed's Story</p>
@@ -358,6 +376,7 @@ export default function LessonView() {
             {currentSection === 'grammar' && lesson.grammar_discovery && (
               <GrammarDiscovery
                 content={lesson.grammar_discovery}
+                somali={lesson.somali?.grammar_discovery}
                 unitId={lesson.unit_id}
                 onComplete={() => { markSectionComplete('grammar'); setCurrentSection('quiz'); }}
                 onRequestHelp={requestHelp}

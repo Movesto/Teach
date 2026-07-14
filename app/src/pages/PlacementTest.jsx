@@ -63,6 +63,19 @@ export default function PlacementTest() {
 
   const mediaRecorder = useRef(null);
   const audioChunks = useRef([]);
+  const playbackRef = useRef(null);
+
+  // Stop playback/recording on unmount
+  useEffect(() => {
+    return () => {
+      if (playbackRef.current) {
+        playbackRef.current.audio.pause();
+        URL.revokeObjectURL(playbackRef.current.url);
+        playbackRef.current = null;
+      }
+      if (mediaRecorder.current?.state === 'recording') mediaRecorder.current.stop();
+    };
+  }, []);
 
   useEffect(() => {
     apiFetch('/api/placement/test')
@@ -117,7 +130,19 @@ export default function PlacementTest() {
   };
 
   const playRecording = (id) => {
-    if (audioBlobs[id]) new Audio(URL.createObjectURL(audioBlobs[id])).play();
+    if (!audioBlobs[id]) return;
+    if (playbackRef.current) {
+      playbackRef.current.audio.pause();
+      URL.revokeObjectURL(playbackRef.current.url);
+    }
+    const url = URL.createObjectURL(audioBlobs[id]);
+    const audio = new Audio(url);
+    playbackRef.current = { audio, url };
+    audio.onended = () => {
+      URL.revokeObjectURL(url);
+      if (playbackRef.current?.audio === audio) playbackRef.current = null;
+    };
+    audio.play();
   };
 
   const handleAnswer = (questionId, optionIndex) => {

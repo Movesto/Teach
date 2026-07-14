@@ -7,10 +7,18 @@ from core.security import (
     get_current_user, set_auth_cookie, clear_auth_cookie,
     _AUTH_AVAILABLE,
 )
+from core.config import ADMIN_EMAIL
 from core.rate_limit import auth_rate_limit
 from core.db import get_db, release_db
 
 logger = logging.getLogger(__name__)
+
+
+def _with_admin_flag(user: dict) -> dict:
+    """The frontend decides whether to show admin UI from this flag, never
+    from a hardcoded email."""
+    user["is_admin"] = bool(ADMIN_EMAIL) and user.get("email") == ADMIN_EMAIL
+    return user
 
 auth_router = APIRouter(prefix="/api/auth", tags=["auth"])
 placement_router = APIRouter(prefix="/api/placement", tags=["placement"])
@@ -35,7 +43,7 @@ async def register(req: RegisterRequest, response: Response, _=Depends(auth_rate
         cur.close()
         token = create_access_token({"sub": str(user["id"])})
         set_auth_cookie(response, token)
-        return {"token": token, "user": user}
+        return {"token": token, "user": _with_admin_flag(user)}
     except HTTPException:
         raise
     except Exception as e:
@@ -69,7 +77,7 @@ async def login(req: LoginRequest, response: Response, _=Depends(auth_rate_limit
         user_data = {k: v for k, v in dict(row).items() if k != "password_hash"}
         token = create_access_token({"sub": str(user_data["id"])})
         set_auth_cookie(response, token)
-        return {"token": token, "user": user_data}
+        return {"token": token, "user": _with_admin_flag(user_data)}
     except HTTPException:
         raise
     except Exception as e:
@@ -87,7 +95,7 @@ async def logout(response: Response):
 
 @auth_router.get("/me")
 async def get_me(user=Depends(get_current_user)):
-    return user
+    return _with_admin_flag(dict(user))
 
 
 @placement_router.post("/save")

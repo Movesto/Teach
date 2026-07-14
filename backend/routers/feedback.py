@@ -1,17 +1,13 @@
 import logging
-import os
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
+from core.config import ADMIN_EMAIL
 from core.db import get_db, release_db
 from core.security import get_current_user
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["feedback"])
-
-# No default on purpose: a hardcoded fallback would silently grant admin access
-# to that address in any deployment that forgets to set the env var.
-ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL")
 
 
 class FeedbackRequest(BaseModel):

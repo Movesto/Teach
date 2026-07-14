@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, RotateCcw, Check, X, BookOpen, Star } from 'lucide-react';
 import { apiFetch } from '../utils/api';
+import ErrorBox from '../components/ErrorBox';
 
 const MASTERY_LABELS = ['New', 'Learning', 'Familiar', 'Good', 'Strong', 'Mastered'];
 const MASTERY_COLORS = [
@@ -25,6 +26,7 @@ export default function VocabularyReview() {
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     apiFetch('/api/vocabulary/due')
@@ -35,7 +37,7 @@ export default function VocabularyReview() {
         setLoading(false);
       })
       .catch(() => { setError('Could not load vocabulary.'); setLoading(false); });
-  }, []);
+  }, [retryCount]);
 
   const submitResult = async (knew) => {
     if (submitting) return;
@@ -49,6 +51,8 @@ export default function VocabularyReview() {
         body: JSON.stringify({ word_id: word.id, knew }),
       });
     } catch {
+      // A failed review save just means this word comes back sooner — not
+      // worth interrupting the session over.
     }
 
     if (current + 1 >= words.length) {
@@ -75,7 +79,10 @@ export default function VocabularyReview() {
   if (error) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col items-center justify-center gap-4">
-        <p className="text-red-500">{error}</p>
+        <ErrorBox
+          fullScreen={false}
+          onRetry={() => { setLoading(true); setError(null); setRetryCount(c => c + 1); }}
+        />
         <button onClick={() => navigate('/dashboard')} className="text-indigo-600 hover:underline text-sm">
           Back to Dashboard
         </button>

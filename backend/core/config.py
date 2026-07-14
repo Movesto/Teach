@@ -40,6 +40,9 @@ if SECRET_KEY in _dev_secrets:
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_DAYS = 7
 
+# Email allowed to read /api/admin/feedback. No default: unset means no admin.
+ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL")
+
 _db_password = os.environ.get("DB_PASSWORD", "")
 if not _db_password:
     raise RuntimeError("DB_PASSWORD is not set. Set a password in your .env file.")

@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate, useSearchParams
 import { Moon, Sun } from 'lucide-react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
+import ErrorBoundary from './components/ErrorBoundary';
+import { STRINGS } from './utils/strings';
 import LessonView from './pages/LessonView';
 import Dashboard from './pages/Dashboard';
 import PlacementTest from './pages/PlacementTest';
@@ -62,7 +64,7 @@ function NavBar() {
                 <Link to="/vocabulary" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Vocabulary
                 </Link>
-                {user.email === 'zahirabdi415@gmail.com' && (
+                {user.is_admin && (
                   <Link to="/admin/feedback" className="text-xs px-2 py-1 bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 rounded-lg font-medium hover:bg-indigo-200 dark:hover:bg-indigo-900/60">
                     Feedback
                   </Link>
@@ -129,10 +131,29 @@ function ProtectedRoute({ children }) {
   return children;
 }
 
+function SessionExpiredBanner() {
+  const { sessionExpired, dismissSessionExpired } = useAuth();
+  if (!sessionExpired) return null;
+  return (
+    <div className="bg-amber-50 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-700 px-4 py-2.5 text-sm flex items-center justify-center gap-3 flex-wrap">
+      <span className="text-amber-900 dark:text-amber-200 font-medium">{STRINGS.sessionExpired.en}</span>
+      <span className="text-amber-700 dark:text-amber-300">{STRINGS.sessionExpired.so}</span>
+      <Link
+        to="/auth"
+        onClick={dismissSessionExpired}
+        className="px-3 py-1 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-700"
+      >
+        {STRINGS.logIn.en} / {STRINGS.logIn.so}
+      </Link>
+    </div>
+  );
+}
+
 function AppShell() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <NavBar />
+      <SessionExpiredBanner />
       <Routes>
         <Route path="/" element={<RootRoute />} />
         <Route path="/auth" element={<AuthRoute />} />
@@ -154,13 +175,15 @@ function AppShell() {
 
 function App() {
   return (
-    <Router>
-      <ThemeProvider>
-        <AuthProvider>
-          <AppShell />
-        </AuthProvider>
-      </ThemeProvider>
-    </Router>
+    <ErrorBoundary>
+      <Router>
+        <ThemeProvider>
+          <AuthProvider>
+            <AppShell />
+          </AuthProvider>
+        </ThemeProvider>
+      </Router>
+    </ErrorBoundary>
   );
 }
 
