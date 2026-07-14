@@ -54,17 +54,16 @@ def _get_today_session(user_id: str) -> dict:
     conn = get_db()
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
+        # No-op DO UPDATE (instead of DO NOTHING) so RETURNING always yields the
+        # row atomically — a separate SELECT could find nothing if the row moves.
         cur.execute("""
             INSERT INTO conversation_sessions (user_id, date)
             VALUES (%s, CURRENT_DATE)
-            ON CONFLICT (user_id, date) DO NOTHING
+            ON CONFLICT (user_id, date) DO UPDATE SET user_id = EXCLUDED.user_id
+            RETURNING *
         """, (user_id,))
-        conn.commit()
-        cur.execute(
-            "SELECT * FROM conversation_sessions WHERE user_id = %s AND date = CURRENT_DATE",
-            (user_id,),
-        )
         row = cur.fetchone()
+        conn.commit()
         cur.close()
         return dict(row)
     finally:
@@ -115,9 +114,11 @@ async def conversation_message(
     conn = get_db()
     try:
         cur = conn.cursor()
+        # GREATEST: elapsed is the client's cumulative count, so concurrent
+        # requests must never move total_seconds backwards.
         cur.execute("""
             UPDATE conversation_sessions
-            SET messages = %s, total_seconds = %s, updated_at = CURRENT_TIMESTAMP
+            SET messages = %s, total_seconds = GREATEST(total_seconds, %s), updated_at = CURRENT_TIMESTAMP
             WHERE user_id = %s AND date = CURRENT_DATE
         """, (json.dumps(new_messages), elapsed, user["id"]))
         conn.commit()

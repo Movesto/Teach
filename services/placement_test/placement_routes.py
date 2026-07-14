@@ -1,9 +1,13 @@
+import logging
+
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 import json
 from pathlib import Path
 from datetime import datetime
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/placement", tags=["placement"])
 
@@ -57,8 +61,9 @@ async def get_placement_test():
                     for question in passage.get("questions", []):
                         question.pop("correct", None)
         return test_data
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error loading placement test: {str(e)}")
+    except Exception:
+        logger.exception("Error loading placement test")
+        raise HTTPException(status_code=500, detail="Error loading placement test")
 
 
 @router.post("/submit", response_model=PlacementResult)
@@ -135,8 +140,11 @@ async def submit_placement_test(submission: SubmitTestRequest):
             can_retake=True,
             certificate_available=percentage >= 70,
         )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error processing placement test: {str(e)}")
+    except HTTPException:
+        raise
+    except Exception:
+        logger.exception("Error processing placement test")
+        raise HTTPException(status_code=500, detail="Error processing placement test")
 
 
 @router.get("/results/{user_id}")

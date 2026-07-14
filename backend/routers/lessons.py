@@ -263,43 +263,8 @@ async def get_units(optional_user=Depends(get_optional_user)):
 
     by_unit, _ = _get_lesson_index()
     for unit in units:
-<<<<<<< HEAD
         unit["support_level"] = support_level_for_unit(unit["id"])
         unit["is_current"] = False
-        unit_dir = LESSONS_DIR / f"unit-{unit['id']}"
-        if unit_dir.exists():
-            lessons = []
-            for lesson_file in sorted(unit_dir.glob("lesson-*.json")):
-                try:
-                    with open(lesson_file, encoding="utf-8") as f:
-                        lesson_data = json.load(f)
-                except (json.JSONDecodeError, KeyError, UnicodeDecodeError) as e:
-                    logger.warning("Skipping invalid lesson file %s: %s", lesson_file, e)
-                    continue
-                if not _validate_lesson(lesson_data, lesson_file):
-                    continue
-                lid = _lesson_numeric_id(lesson_data["id"])
-                done = lid in completed_map
-                lessons.append({
-                    "id": lid,
-                    "lesson_number": lesson_data["lesson_number"],
-                    "title": lesson_data["title"],
-                    "description": lesson_data.get("description") or lesson_data.get("level", ""),
-                    "difficulty": lesson_data.get("difficulty") or lesson_data.get("level", "beginner"),
-                    "completed": done,
-                    "score": completed_map.get(lid),
-                    "locked": False,
-                    "recommended": False,
-                })
-            lessons.sort(key=lambda x: x["lesson_number"])
-            unit["lessons"] = lessons
-            unit["total_lessons"] = len(lessons)
-            unit["completed_lessons"] = sum(1 for x in lessons if x["completed"])
-            tid = unit["id"]
-            unit["test_done"] = tid in test_map
-            unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
-            unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
-=======
         unit_lessons = by_unit.get(unit["id"], [])
         lessons = []
         for lesson_data in unit_lessons:
@@ -314,6 +279,7 @@ async def get_units(optional_user=Depends(get_optional_user)):
                 "completed": done,
                 "score": completed_map.get(lid),
                 "locked": False,
+                "recommended": False,
             })
         unit["lessons"] = lessons
         unit["total_lessons"] = len(lessons)
@@ -322,7 +288,6 @@ async def get_units(optional_user=Depends(get_optional_user)):
         unit["test_done"] = tid in test_map
         unit["test_score"] = test_map[tid]["score"] if tid in test_map else None
         unit["test_percentage"] = test_map[tid]["percentage"] if tid in test_map else None
->>>>>>> dd73619 (added lessons, authentication as well adedded feedback)
 
     # Soft-gate "you are here": mark the first incomplete lesson (in unit/lesson
     # order) as the recommended next step. Nothing is locked — it's a suggestion.
@@ -383,10 +348,15 @@ async def submit_quiz(
     background_tasks: BackgroundTasks,
     optional_user=Depends(get_optional_user),
 ):
-    user_id = optional_user["id"] if optional_user else "00000000-0000-0000-0000-000000000001"
     lesson_id = request.lesson_id
     unit_id = request.unit_id
     score = request.score
+
+    # Guests get their result back but nothing is persisted: writing to a shared
+    # placeholder row would let anonymous users clobber each other's progress.
+    if not optional_user:
+        return {"success": True, "score": score, "unit_complete": False, "unit_id": unit_id}
+    user_id = optional_user["id"]
 
     conn = None
     try:
@@ -410,11 +380,12 @@ async def submit_quiz(
         unit_complete = total > 0 and done_count >= total
         cur.close()
 
-        if optional_user and lesson_id:
+        if lesson_id:
             background_tasks.add_task(_populate_vocabulary, str(user_id), lesson_id)
         return {"success": True, "score": score, "unit_complete": unit_complete, "unit_id": unit_id}
     except Exception as e:
         logger.error("Database error in quiz submit: %s", e)
-        return {"success": False, "error": str(e)}
+        raise HTTPException(status_code=500, detail="Could not save quiz result")
     finally:
-        release_db(conn)
+        if conn is not None:
+            release_db(conn)

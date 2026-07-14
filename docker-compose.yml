@@ -141,6 +141,7 @@ services:
       - PRONUNCIATION_URL=http://teach-pronunciation:5002
       - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-}
       - FRONTEND_URL=${FRONTEND_URL:-}
       - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317
       - ENVIRONMENT=production

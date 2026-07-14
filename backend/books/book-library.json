@@ -26,7 +26,6 @@
         "description": "A simple story about a caterpillar who eats different foods each day. Perfect for learning food vocabulary and days of the week.",
         "cover_image": "/books/covers/hungry-caterpillar.jpg",
         "pdf_url": "/books/pdf/The Very Hungry Caterpillar.pdf",
-        "audio_url": "/books/audio/hungry-caterpillar.mp3",
         "vocabulary_focus": [
           "apple",
           "pear",
@@ -62,7 +61,6 @@
         "description": "Thirteen short chapters, each told by a different person in a Cleveland neighborhood — many are immigrants building a community garden. Ideal for readers learning about life in America. Simple, clear language.",
         "cover_image": "/books/covers/seedfolks.jpg",
         "pdf_url": "/books/pdf/Seedfolks.pdf",
-        "audio_url": "/books/audio/seedfolks.mp3",
         "vocabulary_focus": [
           "neighborhood",
           "garden",
@@ -97,7 +95,6 @@
         "description": "A young boy helps his grandfather — a new immigrant from Mexico — find day labor work. A story about honesty and integrity in the workplace. Perfect for discussing work values, first jobs, and family.",
         "cover_image": "/books/covers/days-work.jpg",
         "pdf_url": "/books/pdf/A Day's Work.pdf",
-        "audio_url": "/books/audio/days-work.mp3",
         "vocabulary_focus": [
           "work",
           "honest",
@@ -132,7 +129,6 @@
         "description": "Short vignettes about a Latina girl growing up in Chicago. Accessible language with cultural themes.",
         "cover_image": "/books/covers/mango-street.jpg",
         "pdf_url": "/books/pdf/The House on Mango Street.pdf",
-        "audio_url": "/books/audio/mango-street.mp3",
         "vocabulary_focus": [
           "neighborhood",
           "house",
@@ -166,7 +162,6 @@
         "description": "Engaging story about a boy at a desert detention camp. Multiple timelines and great plot.",
         "cover_image": "/books/covers/holes.jpg",
         "pdf_url": "/books/pdf/Holes.pdf",
-        "audio_url": "/books/audio/holes.mp3",
         "vocabulary_focus": [
           "desert",
           "camp",
@@ -201,7 +196,6 @@
         "description": "Classic YA novel about rival gangs. Rich dialogue and character development.",
         "cover_image": "/books/covers/outsiders.jpg",
         "pdf_url": "/books/pdf/The Outsiders.pdf",
-        "audio_url": "/books/audio/outsiders.mp3",
         "vocabulary_focus": [
           "greasers",
           "Socs",
@@ -235,7 +229,6 @@
         "description": "Thought-provoking dystopian novel. Great for discussions about society and freedom.",
         "cover_image": "/books/covers/the-giver.jpg",
         "pdf_url": "/books/pdf/The Giver.pdf",
-        "audio_url": "/books/audio/the-giver.mp3",
         "vocabulary_focus": [
           "community",
           "release",
@@ -269,7 +262,6 @@
         "description": "Letters written by a Black woman in the rural South. Unique voice and powerful story.",
         "cover_image": "/books/covers/color-purple.jpg",
         "pdf_url": "/books/pdf/The Color Purple.pdf",
-        "audio_url": "/books/audio/color-purple.mp3",
         "vocabulary_focus": [
           "letters",
           "struggle",
@@ -302,7 +294,6 @@
         "description": "Jazz Age classic with rich symbolism and beautiful prose. Essential American literature.",
         "cover_image": "/books/covers/gatsby.jpg",
         "pdf_url": "/books/pdf/The Great Gatsby.pdf",
-        "audio_url": "/books/audio/gatsby.mp3",
         "vocabulary_focus": [
           "opulence",
           "illusion",
@@ -336,7 +327,6 @@
         "description": "Dystopian masterpiece about government control. Essential for understanding modern politics.",
         "cover_image": "/books/covers/1984.jpg",
         "pdf_url": "/books/pdf/1984.pdf",
-        "audio_url": "/books/audio/1984.mp3",
         "vocabulary_focus": [
           "totalitarian",
           "surveillance",
@@ -369,7 +359,6 @@
         "description": "Nobel Prize winner's exploration of how we think. Academic but accessible.",
         "cover_image": "/books/covers/thinking-fast-slow.jpg",
         "pdf_url": "/books/pdf/Thinking, Fast and Slow.pdf",
-        "audio_url": "/books/audio/thinking-fast-slow.mp3",
         "vocabulary_focus": [
           "cognitive",
           "bias",
@@ -403,7 +392,6 @@
         "description": "Memoir about a woman who leaves her survivalist family for education. Very relevant for adult learners.",
         "cover_image": "/books/covers/educated.jpg",
         "pdf_url": "/books/pdf/Educated.pdf",
-        "audio_url": "/books/audio/educated.mp3",
         "vocabulary_focus": [
           "education",
           "transformation",
@@ -436,7 +424,6 @@
         "description": "Academic text about essay writing. Perfect for Unit 11 which focuses on essays.",
         "cover_image": "/books/covers/essay-theory.jpg",
         "pdf_url": "/books/pdf/The Essay Theory and Pedagogy for an Active Form.pdf",
-        "audio_url": "/books/audio/essay-theory.mp3",
         "vocabulary_focus": [
           "thesis",
           "argument",

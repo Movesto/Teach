@@ -9,7 +9,9 @@ from core.security import get_current_user
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["feedback"])
 
-ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "zahirabdi415@gmail.com")
+# No default on purpose: a hardcoded fallback would silently grant admin access
+# to that address in any deployment that forgets to set the env var.
+ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL")
 
 
 class FeedbackRequest(BaseModel):
@@ -48,7 +50,7 @@ async def submit_feedback(req: FeedbackRequest, user=Depends(get_current_user)):
 
 @router.get("/admin/feedback")
 async def get_all_feedback(user=Depends(get_current_user)):
-    if user["email"] != ADMIN_EMAIL:
+    if not ADMIN_EMAIL or user["email"] != ADMIN_EMAIL:
         raise HTTPException(status_code=403, detail="Forbidden")
     conn = get_db()
     try:
