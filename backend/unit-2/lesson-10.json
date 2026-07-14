@@ -59,16 +59,46 @@
   "story": {
     "context": "Ahmed has an interview at a warehouse. The hiring manager, Tom, asks about Ahmed's availability and explains the schedule.",
     "dialogue": [
-      { "speaker": "Tom", "text": "Thanks for coming in, Ahmed. Before we talk about the job, let me ask — what hours can you work?" },
-      { "speaker": "Ahmed", "text": "I can work any days, Monday to Saturday. I prefer morning or daytime shifts." },
-      { "speaker": "Tom", "text": "Good. This position is full-time, Monday through Friday. The shift is from 6 AM to 2:30 PM. Does that work for you?" },
-      { "speaker": "Ahmed", "text": "Yes, that works well. I can start at 6 AM. What time does the shift end — is it at 2:30 every day?" },
-      { "speaker": "Tom", "text": "Yes, always at 2:30. Sometimes we offer overtime on Saturdays — would you be available for that?" },
-      { "speaker": "Ahmed", "text": "Yes, I'm available on Saturdays too. Is overtime common here?" },
-      { "speaker": "Tom", "text": "Maybe one or two Saturdays a month. It's always optional, never required. Are you also available for some Sundays if we're very busy?" },
-      { "speaker": "Ahmed", "text": "I'm not available on Sundays. That's the one day I can't work. But any other day is fine." },
-      { "speaker": "Tom", "text": "That's perfectly fine. Sunday is not a normal workday here. So full-time, Monday to Friday, 6 to 2:30. Does that sound good?" },
-      { "speaker": "Ahmed", "text": "Yes, that sounds great. I'm ready to start as soon as possible." }
+      {
+        "speaker": "Tom",
+        "text": "Thanks for coming in, Ahmed. Before we talk about the job, let me ask — what hours can you work?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I can work any days, Monday to Saturday. I prefer morning or daytime shifts."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Good. This position is full-time, Monday through Friday. The shift is from 6 AM to 2:30 PM. Does that work for you?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, that works well. I can start at 6 AM. What time does the shift end — is it at 2:30 every day?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Yes, always at 2:30. Sometimes we offer overtime on Saturdays — would you be available for that?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I'm available on Saturdays too. Is overtime common here?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Maybe one or two Saturdays a month. It's always optional, never required. Are you also available for some Sundays if we're very busy?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm not available on Sundays. That's the one day I can't work. But any other day is fine."
+      },
+      {
+        "speaker": "Tom",
+        "text": "That's perfectly fine. Sunday is not a normal workday here. So full-time, Monday to Friday, 6 to 2:30. Does that sound good?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, that sounds great. I'm ready to start as soon as possible."
+      }
     ]
   },
   "drills": [
@@ -76,10 +106,22 @@
       "title": "Can / Can't for Availability",
       "instruction": "Say whether you are available or not. Use: I can / I can't work + [time or day]",
       "prompts": [
-        { "sentence": "I ___ work Monday through Friday. (yes)", "answer": "can" },
-        { "sentence": "I ___ work on Sundays. (no)", "answer": "can't" },
-        { "sentence": "She ___ work the night shift. (no)", "answer": "can't" },
-        { "sentence": "He ___ work overtime on Saturdays. (yes)", "answer": "can" }
+        {
+          "sentence": "I ___ work Monday through Friday. (yes)",
+          "answer": "can"
+        },
+        {
+          "sentence": "I ___ work on Sundays. (no)",
+          "answer": "can't"
+        },
+        {
+          "sentence": "She ___ work the night shift. (no)",
+          "answer": "can't"
+        },
+        {
+          "sentence": "He ___ work overtime on Saturdays. (yes)",
+          "answer": "can"
+        }
       ],
       "examples": [
         "I can work weekdays from 6 to 3.",
@@ -96,10 +138,22 @@
       "title": "Time Prepositions: On, At, From...To",
       "instruction": "Fill in the correct preposition: on, at, from, to, or until.",
       "prompts": [
-        { "sentence": "I work ___ Mondays and Wednesdays.", "answer": "on" },
-        { "sentence": "The shift starts ___ 6 AM.", "answer": "at" },
-        { "sentence": "I work ___ 8 AM ___ 4 PM.", "answer": "from / to" },
-        { "sentence": "I can stay ___ 6 PM if needed.", "answer": "until" }
+        {
+          "sentence": "I work ___ Mondays and Wednesdays.",
+          "answer": "on"
+        },
+        {
+          "sentence": "The shift starts ___ 6 AM.",
+          "answer": "at"
+        },
+        {
+          "sentence": "I work ___ 8 AM ___ 4 PM.",
+          "answer": "from / to"
+        },
+        {
+          "sentence": "I can stay ___ 6 PM if needed.",
+          "answer": "until"
+        }
       ],
       "examples": [
         "I work on weekdays.",
@@ -116,10 +170,22 @@
       "title": "Schedule Questions",
       "instruction": "Ask about schedule information. Use the question words and phrases you learned.",
       "prompts": [
-        { "sentence": "___ are the hours for this job?", "answer": "What" },
-        { "sentence": "___ shift would I be working?", "answer": "What" },
-        { "sentence": "Is overtime ___?", "answer": "available" },
-        { "sentence": "Do you offer ___ or part-time work?", "answer": "full-time" }
+        {
+          "sentence": "___ are the hours for this job?",
+          "answer": "What"
+        },
+        {
+          "sentence": "___ shift would I be working?",
+          "answer": "What"
+        },
+        {
+          "sentence": "Is overtime ___?",
+          "answer": "available"
+        },
+        {
+          "sentence": "Do you offer ___ or part-time work?",
+          "answer": "full-time"
+        }
       ],
       "examples": [
         "What are the hours for this position?",
@@ -339,5 +405,24 @@
       "correct": null,
       "explanation": "Employers appreciate when you know your own availability. Be honest and specific. Example: 'I prefer the morning shift, from 6 to 2. I am more productive in the morning and it fits my family schedule.'"
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida looga hadlo saacadaha shaqada, wardiyada, iyo goorta aad shaqayn karto",
+    "objectives": [
+      "Waydii oo ka jawaab su'aalaha saacadaha shaqada",
+      "Sheeg goorta aad bannaan tahay iyo goorta aadan bannaanayn",
+      "Faham erayada sida shift, overtime, full-time, iyo part-time",
+      "Isticmaal meeleeyayaasha wakhtiga: on, at, from...to, until"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "ON waxaan la isticmaalnaa maalmaha toddobaadka (on Monday, on weekends). AT waxaan la isticmaalnaa saacadaha gaarka ah (at 6 AM, at noon). FROM...TO ama FROM...UNTIL waxaan u isticmaalnaa xilliyada (from 8 to 4, from Monday to Friday). Ha isku qasin: 'at Monday' ama 'on 6 AM' waa khalad."
+        },
+        {
+          "explanation": "Shift waa xilligaaga shaqo ee joogtada ah. Overtime waa wakhti dheeraad ah oo laga shaqeeyo saacadahaaga caadiga ah ka dib — inta badan maalin fasax ah ama wardiyadaada ka dib. Overtime caadi ahaan waxaa lagu bixiyaa qiimo ka sarreeya. Aqoonta erayadan waxay kaa caawin doontaa inaad fahamto xayaysiisyada shaqada iyo wada-hadallada shaqo-bixiyayaasha."
+        }
+      ]
+    }
+  }
 }

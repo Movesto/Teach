@@ -6,14 +6,12 @@
   "description": "Learn to talk about the weather and what to wear",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-
   "objectives": [
     "Describe the weather (It is hot / cold / raining)",
     "Ask about the weather (What is the weather like?)",
     "Talk about what to wear (You need a jacket)",
     "Use weather words in daily conversation"
   ],
-
   "target_language": {
     "phrases": [
       "What is the weather like today?",
@@ -29,26 +27,42 @@
       {
         "label": "Describing weather",
         "pattern": "It is + [weather word]",
-        "examples": ["It is hot", "It is cold", "It is sunny", "It is cloudy"]
+        "examples": [
+          "It is hot",
+          "It is cold",
+          "It is sunny",
+          "It is cloudy"
+        ]
       },
       {
         "label": "Weather actions",
         "pattern": "It is + [verb]-ing",
-        "examples": ["It is raining", "It is snowing", "It is getting cold"]
+        "examples": [
+          "It is raining",
+          "It is snowing",
+          "It is getting cold"
+        ]
       },
       {
         "label": "Clothing advice",
         "pattern": "You need + [clothing item]",
-        "examples": ["You need a jacket", "You need an umbrella", "You need a hat"]
+        "examples": [
+          "You need a jacket",
+          "You need an umbrella",
+          "You need a hat"
+        ]
       },
       {
         "label": "What you are wearing",
         "pattern": "I am wearing + [clothing]",
-        "examples": ["I am wearing a jacket", "I am wearing boots", "I am wearing a hat"]
+        "examples": [
+          "I am wearing a jacket",
+          "I am wearing boots",
+          "I am wearing a hat"
+        ]
       }
     ]
   },
-
   "story": {
     "context": "You are leaving your apartment. Your neighbor Marcus sees you at the door.",
     "dialogue": [
@@ -102,16 +116,27 @@
       }
     ]
   },
-
   "drills": [
     {
       "title": "Drill 1: Describing the weather",
       "instruction": "Fill in the blank with the correct weather word",
       "prompts": [
-        {"sentence": "It is ___ today.", "answer": "hot"},
-        {"sentence": "It is ___ today.", "answer": "cold"},
-        {"sentence": "It is ___ today.", "answer": "sunny"},
-        {"sentence": "It is ___ outside.", "answer": "cloudy"}
+        {
+          "sentence": "It is ___ today.",
+          "answer": "hot"
+        },
+        {
+          "sentence": "It is ___ today.",
+          "answer": "cold"
+        },
+        {
+          "sentence": "It is ___ today.",
+          "answer": "sunny"
+        },
+        {
+          "sentence": "It is ___ outside.",
+          "answer": "cloudy"
+        }
       ],
       "examples": [
         "It is hot today.",
@@ -127,10 +152,22 @@
       "title": "Drill 2: Weather actions",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "It is ___.", "answer": "raining"},
-        {"sentence": "It is ___.", "answer": "snowing"},
-        {"sentence": "It is going to ___.", "answer": "rain"},
-        {"sentence": "It is getting ___.", "answer": "cold"}
+        {
+          "sentence": "It is ___.",
+          "answer": "raining"
+        },
+        {
+          "sentence": "It is ___.",
+          "answer": "snowing"
+        },
+        {
+          "sentence": "It is going to ___.",
+          "answer": "rain"
+        },
+        {
+          "sentence": "It is getting ___.",
+          "answer": "cold"
+        }
       ],
       "examples": [
         "It is raining.",
@@ -146,10 +183,22 @@
       "title": "Drill 3: Clothing for weather",
       "instruction": "Fill in the blank with the correct clothing item",
       "prompts": [
-        {"sentence": "You need a ___.", "answer": "jacket"},
-        {"sentence": "You need an ___.", "answer": "umbrella"},
-        {"sentence": "You need a ___.", "answer": "hat"},
-        {"sentence": "You need ___.", "answer": "boots"}
+        {
+          "sentence": "You need a ___.",
+          "answer": "jacket"
+        },
+        {
+          "sentence": "You need an ___.",
+          "answer": "umbrella"
+        },
+        {
+          "sentence": "You need a ___.",
+          "answer": "hat"
+        },
+        {
+          "sentence": "You need ___.",
+          "answer": "boots"
+        }
       ],
       "examples": [
         "You need a jacket.",
@@ -162,13 +211,17 @@
       "audio": []
     }
   ],
-
   "listening": [
     {
       "question": "Listen: What is the weather like?",
       "audio": "/audio/lesson10-listen1.mp3",
       "transcript": "How is the weather today? It is cold and raining today.",
-      "options": ["Hot and sunny", "Cold and rainy", "Warm and cloudy", "Snowing"],
+      "options": [
+        "Hot and sunny",
+        "Cold and rainy",
+        "Warm and cloudy",
+        "Snowing"
+      ],
       "correct": 1,
       "explanation": "The person says 'It is cold and raining today.'"
     },
@@ -176,7 +229,12 @@
       "question": "Listen: What does the person need?",
       "audio": "/audio/lesson10-listen2.mp3",
       "transcript": "I need an umbrella. It is raining.",
-      "options": ["A jacket", "An umbrella", "Boots", "A hat"],
+      "options": [
+        "A jacket",
+        "An umbrella",
+        "Boots",
+        "A hat"
+      ],
       "correct": 1,
       "explanation": "The person says 'I need an umbrella. It is raining.'"
     },
@@ -184,12 +242,16 @@
       "question": "Listen: Is it going to snow?",
       "audio": "/audio/lesson10-listen3.mp3",
       "transcript": "Is it going to snow? Maybe. It is very cold.",
-      "options": ["Yes", "No", "Maybe", "Tomorrow"],
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Tomorrow"
+      ],
       "correct": 2,
       "explanation": "The person says 'Maybe. It is very cold.'"
     }
   ],
-
   "speaking": [
     {
       "title": "Task 1: Describe today's weather",
@@ -202,7 +264,6 @@
       "example": "Friend: It is very cold today.\nYou: Do I need a jacket?\nFriend: Yes. And bring an umbrella. It is going to rain.\nYou: Okay. Thank you!"
     }
   ],
-
   "writing": [
     {
       "title": "Task 1: Describe different weather",
@@ -215,7 +276,6 @@
       "example": "You: What is the weather like today?\nFriend: It is cold and cloudy.\nYou: Is it going to rain?\nFriend: Yes, I think so.\nYou: I need an umbrella.\nFriend: And wear a warm jacket.\nYou: Okay. I am wearing my boots too.\nFriend: Good idea!\nYou: Thank you for telling me.\nFriend: You're welcome!"
     }
   ],
-
   "grammar_discovery": {
     "sections": [
       {
@@ -251,7 +311,6 @@
       }
     ]
   },
-
   "quiz": [
     {
       "type": "multiple-choice",
@@ -363,5 +422,27 @@
       "correct": null,
       "explanation": "Practice describing weather from your home country and comparing it. Example: In Somalia, it is usually hot. Here, it is cold in winter."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida cimilada looga hadlo iyo waxa la xidho",
+    "objectives": [
+      "Sharax cimilada (It is hot / cold / raining)",
+      "Waydii cimilada (What is the weather like?)",
+      "Ka hadal waxa la xidhanayo (You need a jacket)",
+      "Isticmaal erayada cimilada wada-hadalka maalinlaha ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Cimilada waxaan mawduuc uga dhignaa 'It'. Waxaan nidhaahnaa 'It is hot', ma aha 'The weather hot'. 'It'-kani shay gaar ah ma aha — wuxuu uun ka dhigan yahay 'cimilada'."
+        },
+        {
+          "explanation": "Marka cimiladu hadda socoto, falka waxaan ku darnaa -ing: rain (roob) → raining, snow (baraf) → snowing. Tani waa present continuous."
+        },
+        {
+          "explanation": "Waxaan odhan karnaa 'You need + [shay]' si aan dhar u soo jeedinno, ama waxaan isticmaali karnaa qaabka amarka: 'Wear a hat' ama 'Bring an umbrella'. Kuwani waa talooyin saaxiibtinimo leh."
+        }
+      ]
+    }
+  }
 }

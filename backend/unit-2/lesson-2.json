@@ -6,14 +6,12 @@
   "description": "Learn to describe appearance and personality",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Describe physical appearance (tall, short, young, old)",
     "Describe personality (nice, friendly, quiet)",
     "Use 'He/She is...' correctly",
     "Ask 'What does he/she look like?'"
   ],
-  
   "target_language": {
     "phrases": [
       "He/She is [tall/short/young/old]",
@@ -29,21 +27,32 @@
       {
         "label": "Describing with 'is'",
         "pattern": "He/She is + [adjective]",
-        "examples": ["He is tall", "She is friendly", "He is young"]
+        "examples": [
+          "He is tall",
+          "She is friendly",
+          "He is young"
+        ]
       },
       {
         "label": "Describing features with 'has'",
         "pattern": "He/She has + [feature]",
-        "examples": ["He has black hair", "She has brown eyes", "He has short hair"]
+        "examples": [
+          "He has black hair",
+          "She has brown eyes",
+          "He has short hair"
+        ]
       },
       {
         "label": "Asking about appearance",
         "pattern": "What does he/she look like?",
-        "examples": ["What does he look like?", "What does she look like?", "What does your brother look like?"]
+        "examples": [
+          "What does he look like?",
+          "What does she look like?",
+          "What does your brother look like?"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are waiting for your friend Ali at a cafe. You call Marcus to tell him what Ali looks like so Marcus can recognize him.",
     "dialogue": [
@@ -89,16 +98,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: He is / She is + adjective",
       "instruction": "Fill in the blank with the correct adjective",
       "prompts": [
-        {"sentence": "He is ___.", "answer": "tall"},
-        {"sentence": "She is ___.", "answer": "short"},
-        {"sentence": "He is ___.", "answer": "young"},
-        {"sentence": "She is ___.", "answer": "friendly"}
+        {
+          "sentence": "He is ___.",
+          "answer": "tall"
+        },
+        {
+          "sentence": "She is ___.",
+          "answer": "short"
+        },
+        {
+          "sentence": "He is ___.",
+          "answer": "young"
+        },
+        {
+          "sentence": "She is ___.",
+          "answer": "friendly"
+        }
       ],
       "examples": [
         "He is tall.",
@@ -114,10 +134,22 @@
       "title": "Drill 2: He has / She has + noun",
       "instruction": "Fill in the blank with the correct feature",
       "prompts": [
-        {"sentence": "He has ___ hair.", "answer": "black"},
-        {"sentence": "She has ___ eyes.", "answer": "brown"},
-        {"sentence": "He has ___ hair.", "answer": "short"},
-        {"sentence": "She has ___ hair.", "answer": "long"}
+        {
+          "sentence": "He has ___ hair.",
+          "answer": "black"
+        },
+        {
+          "sentence": "She has ___ eyes.",
+          "answer": "brown"
+        },
+        {
+          "sentence": "He has ___ hair.",
+          "answer": "short"
+        },
+        {
+          "sentence": "She has ___ hair.",
+          "answer": "long"
+        }
       ],
       "examples": [
         "He has black hair.",
@@ -133,10 +165,22 @@
       "title": "Drill 3: What does he/she look like?",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "What does ___ look like?", "answer": "he"},
-        {"sentence": "What does ___ look like?", "answer": "she"},
-        {"sentence": "What does your ___ look like?", "answer": "brother"},
-        {"sentence": "What ___ your friend look like?", "answer": "does"}
+        {
+          "sentence": "What does ___ look like?",
+          "answer": "he"
+        },
+        {
+          "sentence": "What does ___ look like?",
+          "answer": "she"
+        },
+        {
+          "sentence": "What does your ___ look like?",
+          "answer": "brother"
+        },
+        {
+          "sentence": "What ___ your friend look like?",
+          "answer": "does"
+        }
       ],
       "examples": [
         "What does he look like?",
@@ -149,13 +193,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What does Ali look like?",
       "audio": "/audio/lesson10-listen1.mp3",
       "transcript": "What does Ali look like? He is tall with short black hair.",
-      "options": ["Tall with black hair", "Short with brown hair", "Tall with brown hair", "Short with black hair"],
+      "options": [
+        "Tall with black hair",
+        "Short with brown hair",
+        "Tall with brown hair",
+        "Short with black hair"
+      ],
       "correct": 0,
       "explanation": "The person says 'He is tall with short black hair'"
     },
@@ -163,7 +211,12 @@
       "question": "Listen: Does Ali wear glasses?",
       "audio": "/audio/lesson10-listen2.mp3",
       "transcript": "Does Ali wear glasses? Yes, he wears glasses.",
-      "options": ["Yes", "No", "Sometimes", "Not mentioned"],
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Not mentioned"
+      ],
       "correct": 0,
       "explanation": "The person says 'Yes, he wears glasses'"
     },
@@ -171,12 +224,16 @@
       "question": "Listen: What is Ali wearing?",
       "audio": "/audio/lesson10-listen3.mp3",
       "transcript": "What is Ali wearing today? He is wearing a blue shirt and jeans.",
-      "options": ["Red shirt", "Blue shirt", "Black shirt", "Green shirt"],
+      "options": [
+        "Red shirt",
+        "Blue shirt",
+        "Black shirt",
+        "Green shirt"
+      ],
       "correct": 1,
       "explanation": "He is wearing a blue shirt and jeans"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Describe someone",
@@ -189,7 +246,6 @@
       "example": "My mother is short. She has long black hair. She is about 50 years old. She is very kind and friendly."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Describe three people",
@@ -202,7 +258,6 @@
       "example": "I am average height. I have short black hair and brown eyes. I am 27 years old. I don't wear glasses. I am friendly and I like to help people. I am quiet sometimes, but I am also funny with my friends. My friends say I am kind and a good listener."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -238,7 +293,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -350,5 +404,27 @@
       "correct": null,
       "explanation": "This is personal reflection. Practice thinking and writing about yourself in English."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida muuqaalka iyo dabeecadda dadka loo sharaxo",
+    "objectives": [
+      "Sharax muuqaalka jidhka (tall, short, young, old)",
+      "Sharax dabeecadda (nice, friendly, quiet)",
+      "Si sax ah u isticmaal 'He/She is...'",
+      "Waydii 'What does he/she look like?'"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'is' waxaan la isticmaalnaa tilmaamayaasha (tall, friendly, nice). 'has' waxaan la isticmaalnaa waxyaabaha uu qofku leeyahay (timo, indho, muraayado)."
+        },
+        {
+          "explanation": "Haa! Caadi ahaan waxaan marka hore sharaxnaa cabbirka/dhererka, ka dibna midabka. Dabeecadda, waxaan isticmaali karnaa 'and' si aan tilmaamayaal isugu xidhno."
+        },
+        {
+          "explanation": "'What does he/she look like?' waxay waydiinaysaa sharaxaad muuqaal. Waxaan ku jawaabnaa faahfaahinta muuqaalka."
+        }
+      ]
+    }
+  }
 }

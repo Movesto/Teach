@@ -59,18 +59,54 @@
   "story": {
     "context": "It is Ahmed's first week at the warehouse. His supervisor, Lisa, is training him. Ahmed needs to ask for help and clarification several times.",
     "dialogue": [
-      { "speaker": "Lisa", "text": "Good morning, Ahmed. Today I'll show you how to process incoming shipments. First, you scan the barcode on each box." },
-      { "speaker": "Ahmed", "text": "I'm sorry — could you repeat that? I didn't hear the first part." },
-      { "speaker": "Lisa", "text": "Of course! You scan the barcode on each box with this scanner. Then you put the box on the correct shelf." },
-      { "speaker": "Ahmed", "text": "Thank you. Could you show me how to use the scanner? I haven't used one before." },
-      { "speaker": "Lisa", "text": "Sure! Point it here, press this button, and wait for the beep. Easy, right?" },
-      { "speaker": "Ahmed", "text": "Yes! May I try it?" },
-      { "speaker": "Lisa", "text": "Go ahead. Now, after you scan everything, you fill out a receiving report." },
-      { "speaker": "Ahmed", "text": "Excuse me — what does 'receiving report' mean?" },
-      { "speaker": "Lisa", "text": "Good question. A receiving report is a form where you write what came in — how many boxes, what's inside, and any damage." },
-      { "speaker": "Ahmed", "text": "I understand now. Would you mind showing me the form? I want to make sure I fill it in correctly." },
-      { "speaker": "Lisa", "text": "Absolutely. And Ahmed — please always ask if you're not sure. It's better to ask than to make a mistake." },
-      { "speaker": "Ahmed", "text": "Thank you, Lisa. I will always ask. I want to do this job well." }
+      {
+        "speaker": "Lisa",
+        "text": "Good morning, Ahmed. Today I'll show you how to process incoming shipments. First, you scan the barcode on each box."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm sorry — could you repeat that? I didn't hear the first part."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Of course! You scan the barcode on each box with this scanner. Then you put the box on the correct shelf."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Thank you. Could you show me how to use the scanner? I haven't used one before."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Sure! Point it here, press this button, and wait for the beep. Easy, right?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes! May I try it?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Go ahead. Now, after you scan everything, you fill out a receiving report."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Excuse me — what does 'receiving report' mean?"
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Good question. A receiving report is a form where you write what came in — how many boxes, what's inside, and any damage."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I understand now. Would you mind showing me the form? I want to make sure I fill it in correctly."
+      },
+      {
+        "speaker": "Lisa",
+        "text": "Absolutely. And Ahmed — please always ask if you're not sure. It's better to ask than to make a mistake."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Thank you, Lisa. I will always ask. I want to do this job well."
+      }
     ]
   },
   "drills": [
@@ -78,10 +114,22 @@
       "title": "Could You...? Requests",
       "instruction": "Make a polite request. Use: Could you + [verb] + please?",
       "prompts": [
-        { "sentence": "___ you repeat that, please?", "answer": "Could" },
-        { "sentence": "Could you ___ more slowly?", "answer": "speak" },
-        { "sentence": "Could you ___ me how to do this?", "answer": "show" },
-        { "sentence": "Could you ___ that down for me?", "answer": "write" }
+        {
+          "sentence": "___ you repeat that, please?",
+          "answer": "Could"
+        },
+        {
+          "sentence": "Could you ___ more slowly?",
+          "answer": "speak"
+        },
+        {
+          "sentence": "Could you ___ me how to do this?",
+          "answer": "show"
+        },
+        {
+          "sentence": "Could you ___ that down for me?",
+          "answer": "write"
+        }
       ],
       "examples": [
         "Could you repeat that, please?",
@@ -98,10 +146,22 @@
       "title": "Would You Mind...?",
       "instruction": "Make a very polite request. Use: Would you mind + [verb-ing]?",
       "prompts": [
-        { "sentence": "Would you mind ___ that again? (explain)", "answer": "explaining" },
-        { "sentence": "Would you mind ___ me? (show)", "answer": "showing" },
-        { "sentence": "Would you mind ___ more slowly? (speak)", "answer": "speaking" },
-        { "sentence": "Would you mind ___ my report? (check)", "answer": "checking" }
+        {
+          "sentence": "Would you mind ___ that again? (explain)",
+          "answer": "explaining"
+        },
+        {
+          "sentence": "Would you mind ___ me? (show)",
+          "answer": "showing"
+        },
+        {
+          "sentence": "Would you mind ___ more slowly? (speak)",
+          "answer": "speaking"
+        },
+        {
+          "sentence": "Would you mind ___ my report? (check)",
+          "answer": "checking"
+        }
       ],
       "examples": [
         "Would you mind showing me how to do that?",
@@ -118,10 +178,22 @@
       "title": "I Didn't Understand — Clarification",
       "instruction": "Say that you didn't understand and ask for help. Use the clarification phrases.",
       "prompts": [
-        { "sentence": "I'm sorry, I ___ catch that. Could you repeat?", "answer": "didn't" },
-        { "sentence": "I ___ understand that word. What does it mean?", "answer": "didn't" },
-        { "sentence": "Excuse me, I didn't hear you ___.", "answer": "clearly" },
-        { "sentence": "I'm not ___ I understood. Could you explain?", "answer": "sure" }
+        {
+          "sentence": "I'm sorry, I ___ catch that. Could you repeat?",
+          "answer": "didn't"
+        },
+        {
+          "sentence": "I ___ understand that word. What does it mean?",
+          "answer": "didn't"
+        },
+        {
+          "sentence": "Excuse me, I didn't hear you ___.",
+          "answer": "clearly"
+        },
+        {
+          "sentence": "I'm not ___ I understood. Could you explain?",
+          "answer": "sure"
+        }
       ],
       "examples": [
         "I'm sorry, I didn't catch that.",
@@ -339,5 +411,24 @@
       "correct": null,
       "explanation": "Use your clarification phrases: I'm sorry, I didn't catch all of that. Could you repeat the last part? Or: Would you mind going through that again more slowly? It is professional to ask — not a sign of weakness."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida caawimo loo waydiisto, tilmaanta dib loogu celiyo, loona caddaysto waxa aadan fahmin goobta shaqada",
+    "objectives": [
+      "Si edeb leh u waydiiso qof inuu hadalka kuu celiyo ama gaabiyo",
+      "Waydii macnaha eray ama tilmaan",
+      "Waydiiso caawimo ama hagid goobta shaqada",
+      "Isticmaal qaababka su'aalaha edebta leh: Could you...?, Would you mind...?, May I...?"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "CAN way ku fiican tahay codsiyada degdegga ah ee shaqo-wadaagta aad si fiican u taqaanno. COULD waxay u dhawaaqdaa si edeb iyo ixtiraam badan — la isticmaal kormeerayaasha, macaamiisha, ama xaaladaha rasmiga ah. 'please' ku darista waxay ka dhigaysaa mid ka sii edeb badan. Qaanuunka ugu muhiimsan: iska ilaali qaabka amarka ('Repeat.' / 'Show me.') — mar walba ku jilci CAN, COULD, ama WOULD YOU MIND."
+        },
+        {
+          "explanation": "WOULD YOU MIND ka dib, mar walba isticmaal fal-ing (gerund). Weligaa ha isticmaalin 'to + fal'. Qaabkani aad buu u edeb badan yahay, wuxuuna ku habboon yahay xaalad kasta oo shaqo ah. Hal qodob oo muhiim ah: marka qofku ku jawaabo 'No, not at all' — waxay ka dhigan tahay 'Dhib igama haysato, waan ku faraxsanahay inaan ku caawiyo.' Waxay u dhawaaqdaa 'maya' laakiin waxay ka dhigan tahay 'haa, waan ku caawin doonaa.'"
+        }
+      ]
+    }
+  }
 }

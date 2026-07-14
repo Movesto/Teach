@@ -6,14 +6,12 @@
   "description": "Learn to talk about time and schedule meetings",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Ask and tell the time (What time is it?)",
     "Make appointments (When is...? / At what time...?)",
     "Use basic time expressions (morning, afternoon, evening)",
     "Talk about days of the week"
   ],
-  
   "target_language": {
     "phrases": [
       "What time is it?",
@@ -29,21 +27,32 @@
       {
         "label": "Asking the time",
         "pattern": "What time is it?",
-        "examples": ["What time is it?", "Excuse me, what time is it?", "Do you have the time?"]
+        "examples": [
+          "What time is it?",
+          "Excuse me, what time is it?",
+          "Do you have the time?"
+        ]
       },
       {
         "label": "Telling the time",
         "pattern": "It is + [time]",
-        "examples": ["It is 9 AM", "It is 2 PM", "It is 6 o'clock"]
+        "examples": [
+          "It is 9 AM",
+          "It is 2 PM",
+          "It is 6 o'clock"
+        ]
       },
       {
         "label": "Time prepositions",
         "pattern": "At + [time] / On + [day] / In + [part of day]",
-        "examples": ["At 9 AM", "On Monday", "In the morning"]
+        "examples": [
+          "At 9 AM",
+          "On Monday",
+          "In the morning"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You need to see a doctor. You call the clinic to make an appointment.",
     "dialogue": [
@@ -97,16 +106,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Asking the time",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "What ___ is it?", "answer": "time"},
-        {"sentence": "Excuse me, what time ___ it?", "answer": "is"},
-        {"sentence": "Can you ___ me the time?", "answer": "tell"},
-        {"sentence": "Do you ___ the time?", "answer": "have"}
+        {
+          "sentence": "What ___ is it?",
+          "answer": "time"
+        },
+        {
+          "sentence": "Excuse me, what time ___ it?",
+          "answer": "is"
+        },
+        {
+          "sentence": "Can you ___ me the time?",
+          "answer": "tell"
+        },
+        {
+          "sentence": "Do you ___ the time?",
+          "answer": "have"
+        }
       ],
       "examples": [
         "What time is it?",
@@ -122,10 +142,22 @@
       "title": "Drill 2: Telling the time",
       "instruction": "Fill in the blank with the correct time",
       "prompts": [
-        {"sentence": "It is 9 ___.", "answer": "AM"},
-        {"sentence": "It is 2 ___.", "answer": "PM"},
-        {"sentence": "It is 6 ___.", "answer": "o'clock"},
-        {"sentence": "It is ___.", "answer": "10:30"}
+        {
+          "sentence": "It is 9 ___.",
+          "answer": "AM"
+        },
+        {
+          "sentence": "It is 2 ___.",
+          "answer": "PM"
+        },
+        {
+          "sentence": "It is 6 ___.",
+          "answer": "o'clock"
+        },
+        {
+          "sentence": "It is ___.",
+          "answer": "10:30"
+        }
       ],
       "examples": [
         "It is 9 AM.",
@@ -141,10 +173,22 @@
       "title": "Drill 3: Days and times together",
       "instruction": "Fill in the blank with the correct day or time",
       "prompts": [
-        {"sentence": "___ at 9 AM", "answer": "Monday"},
-        {"sentence": "Tuesday at 2 ___", "answer": "PM"},
-        {"sentence": "Wednesday at ___ AM", "answer": "11"},
-        {"sentence": "___ at 3 PM", "answer": "Friday"}
+        {
+          "sentence": "___ at 9 AM",
+          "answer": "Monday"
+        },
+        {
+          "sentence": "Tuesday at 2 ___",
+          "answer": "PM"
+        },
+        {
+          "sentence": "Wednesday at ___ AM",
+          "answer": "11"
+        },
+        {
+          "sentence": "___ at 3 PM",
+          "answer": "Friday"
+        }
       ],
       "examples": [
         "Monday at 9 AM",
@@ -157,13 +201,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What time is the appointment?",
       "audio": "/audio/lesson4-listen1.mp3",
       "transcript": "What time is my appointment? Your appointment is at 9 AM.",
-      "options": ["9 AM", "10 AM", "11 AM", "2 PM"],
+      "options": [
+        "9 AM",
+        "10 AM",
+        "11 AM",
+        "2 PM"
+      ],
       "correct": 0,
       "explanation": "The receptionist says 'Monday at 9 AM'"
     },
@@ -171,7 +219,12 @@
       "question": "Listen: What day is the appointment?",
       "audio": "/audio/lesson4-listen2.mp3",
       "transcript": "What day is my appointment? Your appointment is on Monday.",
-      "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
       "correct": 0,
       "explanation": "The appointment is 'on Monday'"
     },
@@ -179,12 +232,16 @@
       "question": "Listen: What time is it now?",
       "audio": "/audio/lesson4-listen3.mp3",
       "transcript": "What time is it now? It is 4 o'clock.",
-      "options": ["3 o'clock", "4 o'clock", "5 o'clock", "6 o'clock"],
+      "options": [
+        "3 o'clock",
+        "4 o'clock",
+        "5 o'clock",
+        "6 o'clock"
+      ],
       "correct": 1,
       "explanation": "The person says 'It is 4 o'clock'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Tell the time",
@@ -197,7 +254,6 @@
       "example": "You: I need to make an appointment.\nReceptionist: When?\nYou: Monday at 10 AM, please.\nReceptionist: Okay. See you Monday at 10 AM."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write times and days",
@@ -210,7 +266,6 @@
       "example": "Receptionist: City Clinic. How can I help you?\nYou: I need to make an appointment.\nReceptionist: When do you want to come?\nYou: Can I come on Tuesday?\nReceptionist: Yes. What time?\nYou: In the afternoon, please.\nReceptionist: 2 PM or 4 PM?\nYou: 2 PM is good.\nReceptionist: Great. Tuesday at 2 PM.\nYou: Thank you!"
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -246,7 +301,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -358,5 +412,27 @@
       "correct": null,
       "explanation": "Practice using real information from your life. Example: Doctor appointment on Wednesday at 10 AM."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida wakhtiga looga hadlo, ballamahana loo qabsado",
+    "objectives": [
+      "Waydii oo sheeg wakhtiga (What time is it?)",
+      "Samee ballamo (When is...? / At what time...?)",
+      "Isticmaal erayada wakhtiga aasaasiga ah (morning, afternoon, evening)",
+      "Ka hadal maalmaha toddobaadka"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'What time' ama 'When' waxaan u isticmaalnaa si aan wakhtiga u waydiinno. Kuwani waa erayada su'aalaha wakhtiga."
+        },
+        {
+          "explanation": "'at' waxaan u isticmaalnaa saacado gaar ah (at 9 AM), 'on' maalmaha (on Monday), 'in'-na qaybaha maalinta (in the morning)."
+        },
+        {
+          "explanation": "AM waxaan u isticmaalnaa wakhtiyada subaxa (duhurka ka hor), PM-na galabta iyo fiidka (duhurka ka dib). Waxaan sidoo kale odhan karnaa 'in the morning', 'in the afternoon', 'in the evening', ama 'at night'."
+        }
+      ]
+    }
+  }
 }

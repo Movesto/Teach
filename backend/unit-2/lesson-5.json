@@ -6,14 +6,12 @@
   "description": "Learn to make invitations and social plans",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Make invitations (Do you want to...? / Would you like to...?)",
     "Accept invitations (Sure! / That sounds great!)",
     "Decline politely (I can't, sorry / Maybe next time)",
     "Talk about future plans (I'm going to...)"
   ],
-  
   "target_language": {
     "phrases": [
       "Do you want to [activity]?",
@@ -29,21 +27,32 @@
       {
         "label": "Making invitations",
         "pattern": "Do you want to + [verb]?",
-        "examples": ["Do you want to get coffee?", "Do you want to see a movie?", "Do you want to go shopping?"]
+        "examples": [
+          "Do you want to get coffee?",
+          "Do you want to see a movie?",
+          "Do you want to go shopping?"
+        ]
       },
       {
         "label": "Accepting invitations",
         "pattern": "Sure! / That sounds great!",
-        "examples": ["Sure! When?", "That sounds great!", "Yes, I'd love to!"]
+        "examples": [
+          "Sure! When?",
+          "That sounds great!",
+          "Yes, I'd love to!"
+        ]
       },
       {
         "label": "Declining politely",
         "pattern": "I can't, sorry. / Maybe next time.",
-        "examples": ["I'm sorry, I can't.", "I'm busy that day.", "Maybe another time?"]
+        "examples": [
+          "I'm sorry, I can't.",
+          "I'm busy that day.",
+          "Maybe another time?"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You want to hang out with your friend Lisa. You try to make plans.",
     "dialogue": [
@@ -93,16 +102,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Making invitations",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "Do you want to get ___?", "answer": "coffee"},
-        {"sentence": "Do you want to see a ___?", "answer": "movie"},
-        {"sentence": "Would you like to have ___?", "answer": "dinner"},
-        {"sentence": "Do you want to go ___?", "answer": "shopping"}
+        {
+          "sentence": "Do you want to get ___?",
+          "answer": "coffee"
+        },
+        {
+          "sentence": "Do you want to see a ___?",
+          "answer": "movie"
+        },
+        {
+          "sentence": "Would you like to have ___?",
+          "answer": "dinner"
+        },
+        {
+          "sentence": "Do you want to go ___?",
+          "answer": "shopping"
+        }
       ],
       "examples": [
         "Do you want to get coffee?",
@@ -118,10 +138,22 @@
       "title": "Drill 2: Accepting invitations",
       "instruction": "Fill in the blank with the correct response",
       "prompts": [
-        {"sentence": "Do you want to get coffee? — ___!", "answer": "Sure"},
-        {"sentence": "Do you want to see a movie? — That sounds ___!", "answer": "great"},
-        {"sentence": "Would you like to have dinner? — Yes, I'd ___ to!", "answer": "love"},
-        {"sentence": "Do you want to go shopping? — ___!", "answer": "Perfect"}
+        {
+          "sentence": "Do you want to get coffee? — ___!",
+          "answer": "Sure"
+        },
+        {
+          "sentence": "Do you want to see a movie? — That sounds ___!",
+          "answer": "great"
+        },
+        {
+          "sentence": "Would you like to have dinner? — Yes, I'd ___ to!",
+          "answer": "love"
+        },
+        {
+          "sentence": "Do you want to go shopping? — ___!",
+          "answer": "Perfect"
+        }
       ],
       "examples": [
         "Sure!",
@@ -137,10 +169,22 @@
       "title": "Drill 3: Declining politely",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "I'm sorry, I ___.", "answer": "can't"},
-        {"sentence": "I'm ___ that day.", "answer": "busy"},
-        {"sentence": "Maybe another ___?", "answer": "time"},
-        {"sentence": "I can't, sorry. Maybe next ___?", "answer": "week"}
+        {
+          "sentence": "I'm sorry, I ___.",
+          "answer": "can't"
+        },
+        {
+          "sentence": "I'm ___ that day.",
+          "answer": "busy"
+        },
+        {
+          "sentence": "Maybe another ___?",
+          "answer": "time"
+        },
+        {
+          "sentence": "I can't, sorry. Maybe next ___?",
+          "answer": "week"
+        }
       ],
       "examples": [
         "I'm sorry, I can't.",
@@ -153,13 +197,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: When does Ahmed want to meet?",
       "audio": "/audio/lesson13-listen1.mp3",
       "transcript": "Saturday doesn't work for me. Can we meet on Sunday instead?",
-      "options": ["Friday", "Saturday", "Sunday", "Monday"],
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
       "correct": 2,
       "explanation": "Ahmed suggests Sunday after Saturday doesn't work"
     },
@@ -167,7 +215,12 @@
       "question": "Listen: Can Lisa meet on Saturday?",
       "audio": "/audio/lesson13-listen2.mp3",
       "transcript": "Can you meet on Saturday, Lisa? No, I'm busy on Saturday.",
-      "options": ["Yes", "No, she's busy", "Maybe", "Not mentioned"],
+      "options": [
+        "Yes",
+        "No, she's busy",
+        "Maybe",
+        "Not mentioned"
+      ],
       "correct": 1,
       "explanation": "Lisa says 'I'm busy on Saturday'"
     },
@@ -175,12 +228,16 @@
       "question": "Listen: What time will they meet?",
       "audio": "/audio/lesson13-listen3.mp3",
       "transcript": "What time should we meet? Let's meet at 2 PM.",
-      "options": ["1 PM", "2 PM", "3 PM", "4 PM"],
+      "options": [
+        "1 PM",
+        "2 PM",
+        "3 PM",
+        "4 PM"
+      ],
       "correct": 1,
       "explanation": "They agree to meet at 2 PM"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Make an invitation",
@@ -193,7 +250,6 @@
       "example": "Person: Do you want to see a movie?\nYou: Sure! That sounds great! When?\n---\nPerson: Do you want to have dinner on Monday?\nYou: I'm sorry, I can't. I'm busy on Monday. Maybe next week?"
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Plan a get-together",
@@ -206,7 +262,6 @@
       "example": "You: Hi! Do you want to go shopping on Saturday?\nFriend: Saturday? I can't, sorry. I'm busy.\nYou: Oh okay. What about Sunday?\nFriend: Sunday works! What time?\nYou: How about 2 PM?\nFriend: Perfect! Where?\nYou: At the mall?\nFriend: Sounds good!\nYou: Great! See you Sunday at 2.\nFriend: See you then!"
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -241,7 +296,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -353,5 +407,27 @@
       "correct": null,
       "explanation": "Think about cultural differences in politeness and declining invitations."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida casumaad iyo qorshayaal bulsho loo sameeyo",
+    "objectives": [
+      "Samee casumaado (Do you want to...? / Would you like to...?)",
+      "Aqbal casumaadaha (Sure! / That sounds great!)",
+      "Si edeb leh u diid (I can't, sorry / Maybe next time)",
+      "Ka hadal qorshaha mustaqbalka (I'm going to...)"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'Do you want to' waa caadi, saaxiibbadana waa lagu isticmaalaa. 'Would you like to' waa ka edeb iyo rasmi badan, waxayna ku fiican tahay dadka aad cusub isbarateen ama xaaladaha shaqada."
+        },
+        {
+          "explanation": "Ingiriisiga, diidmada waxaan ku jilcinnaa: raalligelin ('sorry'), sabab bixin ('I'm busy'), ama soo jeedin kale ('maybe next time'). Tani waa ka edeb badan 'no' keliya."
+        },
+        {
+          "explanation": "Labaduba waa shaqeeyaan! 'I'm going to' waxay muujinaysaa niyad. 'I'm -ing' (present continuous) waxaa loo isticmaalaa qorshayaal go'an."
+        }
+      ]
+    }
+  }
 }

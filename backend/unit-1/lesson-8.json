@@ -6,14 +6,12 @@
   "description": "Learn to give and understand directions",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Understand direction words (left, right, straight)",
     "Give simple directions (Turn left at... / Go straight...)",
     "Ask for clarification (Where? / Which way?)",
     "Use landmarks (next to, across from, between)"
   ],
-  
   "target_language": {
     "phrases": [
       "Turn left / Turn right",
@@ -29,21 +27,33 @@
       {
         "label": "Direction commands",
         "pattern": "Turn + [direction] / Go + [direction]",
-        "examples": ["Turn left", "Turn right", "Go straight", "Walk two blocks"]
+        "examples": [
+          "Turn left",
+          "Turn right",
+          "Go straight",
+          "Walk two blocks"
+        ]
       },
       {
         "label": "Describing location",
         "pattern": "It's + [preposition] + [place]",
-        "examples": ["It's on the left", "It's on the right", "It's next to the bank", "It's across from the store"]
+        "examples": [
+          "It's on the left",
+          "It's on the right",
+          "It's next to the bank",
+          "It's across from the store"
+        ]
       },
       {
         "label": "Between two places",
         "pattern": "It's between + [place] + and + [place]",
-        "examples": ["It's between the bank and the library", "It's between Main Street and Oak Street"]
+        "examples": [
+          "It's between the bank and the library",
+          "It's between Main Street and Oak Street"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are lost. You need to find the library. You ask someone on the street for directions.",
     "dialogue": [
@@ -93,16 +103,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Direction commands",
       "instruction": "Fill in the blank with the correct direction word",
       "prompts": [
-        {"sentence": "Turn ___.", "answer": "left"},
-        {"sentence": "Turn ___.", "answer": "right"},
-        {"sentence": "Go ___.", "answer": "straight"},
-        {"sentence": "Walk two ___.", "answer": "blocks"}
+        {
+          "sentence": "Turn ___.",
+          "answer": "left"
+        },
+        {
+          "sentence": "Turn ___.",
+          "answer": "right"
+        },
+        {
+          "sentence": "Go ___.",
+          "answer": "straight"
+        },
+        {
+          "sentence": "Walk two ___.",
+          "answer": "blocks"
+        }
       ],
       "examples": [
         "Turn left.",
@@ -118,10 +139,22 @@
       "title": "Drill 2: Location descriptions",
       "instruction": "Fill in the blank with the correct location word",
       "prompts": [
-        {"sentence": "It's on the ___.", "answer": "left"},
-        {"sentence": "It's on the ___.", "answer": "right"},
-        {"sentence": "It's ___ to the bank.", "answer": "next"},
-        {"sentence": "It's ___ from the store.", "answer": "across"}
+        {
+          "sentence": "It's on the ___.",
+          "answer": "left"
+        },
+        {
+          "sentence": "It's on the ___.",
+          "answer": "right"
+        },
+        {
+          "sentence": "It's ___ to the bank.",
+          "answer": "next"
+        },
+        {
+          "sentence": "It's ___ from the store.",
+          "answer": "across"
+        }
       ],
       "examples": [
         "It's on the left.",
@@ -137,10 +170,22 @@
       "title": "Drill 3: Complete directions",
       "instruction": "Fill in the blank to complete the directions",
       "prompts": [
-        {"sentence": "Go straight, then turn ___.", "answer": "left"},
-        {"sentence": "Turn right at the ___.", "answer": "corner"},
-        {"sentence": "Walk two blocks and turn ___.", "answer": "left"},
-        {"sentence": "It's on the right, ___ to the bank.", "answer": "next"}
+        {
+          "sentence": "Go straight, then turn ___.",
+          "answer": "left"
+        },
+        {
+          "sentence": "Turn right at the ___.",
+          "answer": "corner"
+        },
+        {
+          "sentence": "Walk two blocks and turn ___.",
+          "answer": "left"
+        },
+        {
+          "sentence": "It's on the right, ___ to the bank.",
+          "answer": "next"
+        }
       ],
       "examples": [
         "Go straight, then turn left.",
@@ -153,13 +198,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: Which direction should you turn?",
       "audio": "/audio/lesson8-listen1.mp3",
       "transcript": "How do I get there? Turn left at the corner.",
-      "options": ["Left", "Right", "Straight", "Back"],
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
       "correct": 0,
       "explanation": "The person says 'Turn left'"
     },
@@ -167,7 +216,12 @@
       "question": "Listen: Where is the library?",
       "audio": "/audio/lesson8-listen2.mp3",
       "transcript": "Where is the library? It's on the right.",
-      "options": ["On the left", "On the right", "Straight ahead", "Behind you"],
+      "options": [
+        "On the left",
+        "On the right",
+        "Straight ahead",
+        "Behind you"
+      ],
       "correct": 1,
       "explanation": "The person says 'It's on the right'"
     },
@@ -175,12 +229,16 @@
       "question": "Listen: What is the library next to?",
       "audio": "/audio/lesson8-listen3.mp3",
       "transcript": "The library is next to the post office.",
-      "options": ["The bank", "The post office", "The store", "The school"],
+      "options": [
+        "The bank",
+        "The post office",
+        "The store",
+        "The school"
+      ],
       "correct": 1,
       "explanation": "The library is 'next to the post office'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Give directions",
@@ -193,7 +251,6 @@
       "example": "You: Excuse me. Where is the post office?\nPerson: Go straight and turn right. It's next to the library.\nYou: Turn right? On the right side?\nPerson: Yes, on the right.\nYou: Thank you!"
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write directions",
@@ -206,7 +263,6 @@
       "example": "Person: Excuse me. Where is the hospital?\nYou: The hospital? It's not far.\nPerson: How do I get there?\nYou: Go straight on this street.\nPerson: Okay, go straight.\nYou: Then turn left at Main Street.\nPerson: Turn left at Main Street?\nYou: Yes. Walk two blocks. The hospital is on the right.\nPerson: On the right. Is it next to anything?\nYou: Yes, it's next to the pharmacy.\nPerson: Great! Thank you so much.\nYou: You're welcome!"
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -242,7 +298,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -354,5 +409,27 @@
       "correct": null,
       "explanation": "Practice giving real directions. This is very practical and will help you when people ask you for help."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida jihada loo siiyo loona fahmo",
+    "objectives": [
+      "Faham erayada jihada (left, right, straight)",
+      "Bixi jiho fudud (Turn left at... / Go straight...)",
+      "Waydii caddayn (Where? / Which way?)",
+      "Isticmaal calaamadaha meelaha (next to, across from, between)"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Marka aan jiho ama tilmaan bixinayno, waxaan isticmaalnaa falka aasaasiga ah 'you' la'aan. Kaliya dheh: 'Turn left' ama 'Go straight'. Tan waxaa la yidhaahdaa qaabka amarka (imperative)."
+        },
+        {
+          "explanation": "Meelaha waxaan ku muujinnaa erayada meeleeyayaasha ah (next to, across from, between). Kuwani waxay dadka ka caawiyaan inay meelaha helaan."
+        },
+        {
+          "explanation": "'Turn left' waxay ka dhigan tahay beddel jihadaada. 'On the left' waxay ka dhigan tahay in shay uu yaal dhinaca bidix. Labaduba waxay isticmaalaan isla erayga 'left' laakiin siyaabo kala duwan."
+        }
+      ]
+    }
+  }
 }

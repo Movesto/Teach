@@ -6,14 +6,12 @@
   "description": "Learn to use buses and ask for directions",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Ask which bus to take (Which bus goes to...?)",
     "Ask for directions (How do I get to...?)",
     "Understand basic direction words (take, go, stop)",
     "Buy tickets and ask about fares"
   ],
-  
   "target_language": {
     "phrases": [
       "Which bus goes to [place]?",
@@ -29,21 +27,32 @@
       {
         "label": "Choosing options",
         "pattern": "Which + [noun] + goes to + [place]?",
-        "examples": ["Which bus goes to downtown?", "Which bus goes to the hospital?", "Which train goes to the airport?"]
+        "examples": [
+          "Which bus goes to downtown?",
+          "Which bus goes to the hospital?",
+          "Which train goes to the airport?"
+        ]
       },
       {
         "label": "Asking for directions",
         "pattern": "How do I get to + [place]?",
-        "examples": ["How do I get to the library?", "How do I get to downtown?", "How do I get to the mall?"]
+        "examples": [
+          "How do I get to the library?",
+          "How do I get to downtown?",
+          "How do I get to the mall?"
+        ]
       },
       {
         "label": "Yes/No confirmation",
         "pattern": "Does this + [noun] + go to + [place]?",
-        "examples": ["Does this bus go to Main Street?", "Does this bus go to downtown?", "Does this train go to the airport?"]
+        "examples": [
+          "Does this bus go to Main Street?",
+          "Does this bus go to downtown?",
+          "Does this train go to the airport?"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are at the bus stop. You need to go to the library. You ask someone for help.",
     "dialogue": [
@@ -89,16 +98,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Which bus questions",
       "instruction": "Fill in the blank with the correct place",
       "prompts": [
-        {"sentence": "Which bus goes to ___?", "answer": "downtown"},
-        {"sentence": "Which bus goes to the ___?", "answer": "hospital"},
-        {"sentence": "Which bus goes to the ___?", "answer": "mall"},
-        {"sentence": "Which bus goes to ___ Street?", "answer": "Main"}
+        {
+          "sentence": "Which bus goes to ___?",
+          "answer": "downtown"
+        },
+        {
+          "sentence": "Which bus goes to the ___?",
+          "answer": "hospital"
+        },
+        {
+          "sentence": "Which bus goes to the ___?",
+          "answer": "mall"
+        },
+        {
+          "sentence": "Which bus goes to ___ Street?",
+          "answer": "Main"
+        }
       ],
       "examples": [
         "Which bus goes to downtown?",
@@ -114,10 +134,22 @@
       "title": "Drill 2: How do I get to...",
       "instruction": "Fill in the blank with the correct place",
       "prompts": [
-        {"sentence": "How do I get to the ___?", "answer": "library"},
-        {"sentence": "How do I get to ___?", "answer": "downtown"},
-        {"sentence": "How do I get to the ___?", "answer": "hospital"},
-        {"sentence": "How do I get to the ___?", "answer": "mall"}
+        {
+          "sentence": "How do I get to the ___?",
+          "answer": "library"
+        },
+        {
+          "sentence": "How do I get to ___?",
+          "answer": "downtown"
+        },
+        {
+          "sentence": "How do I get to the ___?",
+          "answer": "hospital"
+        },
+        {
+          "sentence": "How do I get to the ___?",
+          "answer": "mall"
+        }
       ],
       "examples": [
         "How do I get to the library?",
@@ -133,10 +165,22 @@
       "title": "Drill 3: Does this bus go to...",
       "instruction": "Fill in the blank with the correct place",
       "prompts": [
-        {"sentence": "Does this bus go to ___ Street?", "answer": "Main"},
-        {"sentence": "Does this bus go to ___?", "answer": "downtown"},
-        {"sentence": "Does this bus go to the ___?", "answer": "hospital"},
-        {"sentence": "Does this bus go to the ___?", "answer": "library"}
+        {
+          "sentence": "Does this bus go to ___ Street?",
+          "answer": "Main"
+        },
+        {
+          "sentence": "Does this bus go to ___?",
+          "answer": "downtown"
+        },
+        {
+          "sentence": "Does this bus go to the ___?",
+          "answer": "hospital"
+        },
+        {
+          "sentence": "Does this bus go to the ___?",
+          "answer": "library"
+        }
       ],
       "examples": [
         "Does this bus go to Main Street?",
@@ -149,13 +193,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: Which bus goes to the library?",
       "audio": "/audio/lesson5-listen1.mp3",
       "transcript": "Which bus goes to the library? Take bus number 5.",
-      "options": ["Bus 3", "Bus 5", "Bus 7", "Bus 9"],
+      "options": [
+        "Bus 3",
+        "Bus 5",
+        "Bus 7",
+        "Bus 9"
+      ],
       "correct": 1,
       "explanation": "The person says 'Take bus number 5'"
     },
@@ -163,7 +211,12 @@
       "question": "Listen: Where should you get off?",
       "audio": "/audio/lesson5-listen2.mp3",
       "transcript": "Where do I get off? Get off at Main Street.",
-      "options": ["First Street", "Main Street", "Oak Street", "Park Street"],
+      "options": [
+        "First Street",
+        "Main Street",
+        "Oak Street",
+        "Park Street"
+      ],
       "correct": 1,
       "explanation": "The person says 'Get off at Main Street'"
     },
@@ -171,12 +224,16 @@
       "question": "Listen: How much is the bus fare?",
       "audio": "/audio/lesson5-listen3.mp3",
       "transcript": "How much is the bus fare? The fare is two dollars.",
-      "options": ["One dollar", "Two dollars", "Three dollars", "Free"],
+      "options": [
+        "One dollar",
+        "Two dollars",
+        "Three dollars",
+        "Free"
+      ],
       "correct": 1,
       "explanation": "The fare is two dollars"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Ask about buses",
@@ -189,7 +246,6 @@
       "example": "You: Excuse me. How do I get to the library?\nPerson: Take bus 5.\nYou: Where do I get off?\nPerson: Get off at Main Street.\nYou: Thank you!"
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write directions",
@@ -202,7 +258,6 @@
       "example": "You: Excuse me.\nPerson: Yes?\nYou: How do I get to the mall?\nPerson: Take bus 12.\nYou: Which stop?\nPerson: Get off at Oak Street.\nYou: How much is the fare?\nPerson: Two dollars.\nYou: Thank you!\nPerson: You're welcome."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -236,7 +291,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -348,5 +402,27 @@
       "correct": null,
       "explanation": "Practice with real places you need to go. This will help you remember the phrases."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida basaska loo isticmaalo, jihooyinkana loo waydiisto",
+    "objectives": [
+      "Waydii baska aad raacayso (Which bus goes to...?)",
+      "Waydii jihada (How do I get to...?)",
+      "Faham erayada jihada aasaasiga ah (take, go, stop)",
+      "Iibso tikidho oo waydii qiimaha safarka"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'Which' wuxuu ku waydiinayaa inaad ikhtiyaarro ka dooratid (baska kee, joogsiga kee). 'How' wuxuu waydiinayaa habka ama sida loo sameeyo (sidee ku tagaa)."
+        },
+        {
+          "explanation": "Falka qaabkiisa aasaasiga ah (take, get, go) waxaan u isticmaalnaa tilmaan-bixinta. Uma baahnid 'I' ama 'you'."
+        },
+        {
+          "explanation": "'does' waxaan u isticmaalnaa su'aalaha haa/maya ee waxyaabaha. Qaabka: Does + [shay] + [fal]?"
+        }
+      ]
+    }
+  }
 }

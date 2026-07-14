@@ -425,5 +425,27 @@
       "correct": null,
       "explanation": "Knowing how to say your address in English is very important for emergencies. Practice so you can say it quickly and clearly."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida caawimo loo helo xaaladaha degdegga ah, dhibaatooyinkana loo sheego",
+    "objectives": [
+      "Wac 911 oo sharax xaaladda degdegga ah",
+      "Sharax waxa dhacay (There is a fire / Someone is hurt)",
+      "Si cad u sheeg cinwaankaaga iyo meesha aad joogto",
+      "Waydiiso caawimo degdeg ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'There is + a/an + [shay]' waxaan u isticmaalnaa si aan u sheegno in wax jiro ama dhacayo. Xaaladaha degdegga ah, si degdeg ah ayaan u nidhaahnaa. Fiiri: 'a fire' laakiin 'an accident' — 'an' waxaan isticmaalnaa dhawaaqyada shaqalka ka hor (a, e, i, o, u)."
+        },
+        {
+          "explanation": "'Someone is + [xaalad]' waxaan isticmaalnaa marka aan aragno qof caawimo u baahan oo aanan magaciisa aqoon. Haddii aad qofka taqaanno, isticmaal magaciisa: 'Marcus is hurt.'"
+        },
+        {
+          "explanation": "Ameerika dhexdeeda, wac 911 xaalad degdeg ah kasta. Hawlwadeenku wuxuu soo diri doonaa caawimada saxda ah: ambalaas xaaladaha caafimaadka, dab-demiska dabka, ama booliiska dembiyada iyo khatarta. Mar walba si cad u sheeg cinwaankaaga."
+        }
+      ]
+    }
+  }
 }

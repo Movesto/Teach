@@ -6,14 +6,12 @@
   "description": "Learn to talk about your family members",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Name family members (mother, father, brother, sister, etc.)",
     "Use possessive words (my, his, her)",
     "Talk about family relationships (This is my...)",
     "Use 'have' to talk about family (I have a brother)"
   ],
-  
   "target_language": {
     "phrases": [
       "This is my [family member]",
@@ -29,21 +27,32 @@
       {
         "label": "Introducing family",
         "pattern": "This is my + [family member]",
-        "examples": ["This is my mother", "This is my father", "This is my sister"]
+        "examples": [
+          "This is my mother",
+          "This is my father",
+          "This is my sister"
+        ]
       },
       {
         "label": "Possessive pronouns",
         "pattern": "My / His / Her + [noun]",
-        "examples": ["My mother", "His name is Mohamed", "Her name is Halima"]
+        "examples": [
+          "My mother",
+          "His name is Mohamed",
+          "Her name is Halima"
+        ]
       },
       {
         "label": "Talking about family size",
         "pattern": "I have + [number] + [family members]",
-        "examples": ["I have two brothers", "I have one sister", "I don't have children"]
+        "examples": [
+          "I have two brothers",
+          "I have one sister",
+          "I don't have children"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You show Marcus a photo of your family. You tell him about each person.",
     "dialogue": [
@@ -97,16 +106,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: This is my...",
       "instruction": "Fill in the blank with the correct family member",
       "prompts": [
-        {"sentence": "This is my ___.", "answer": "mother"},
-        {"sentence": "This is my ___.", "answer": "father"},
-        {"sentence": "This is my ___.", "answer": "brother"},
-        {"sentence": "This is my ___.", "answer": "sister"}
+        {
+          "sentence": "This is my ___.",
+          "answer": "mother"
+        },
+        {
+          "sentence": "This is my ___.",
+          "answer": "father"
+        },
+        {
+          "sentence": "This is my ___.",
+          "answer": "brother"
+        },
+        {
+          "sentence": "This is my ___.",
+          "answer": "sister"
+        }
       ],
       "examples": [
         "This is my mother.",
@@ -122,10 +142,22 @@
       "title": "Drill 2: His/Her name is...",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "___ name is Halima.", "answer": "Her"},
-        {"sentence": "___ name is Mohamed.", "answer": "His"},
-        {"sentence": "Her name is ___.", "answer": "Amina"},
-        {"sentence": "His name is ___.", "answer": "Ali"}
+        {
+          "sentence": "___ name is Halima.",
+          "answer": "Her"
+        },
+        {
+          "sentence": "___ name is Mohamed.",
+          "answer": "His"
+        },
+        {
+          "sentence": "Her name is ___.",
+          "answer": "Amina"
+        },
+        {
+          "sentence": "His name is ___.",
+          "answer": "Ali"
+        }
       ],
       "examples": [
         "Her name is Halima.",
@@ -141,10 +173,22 @@
       "title": "Drill 3: I have...",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "I have two ___.", "answer": "brothers"},
-        {"sentence": "I have one ___.", "answer": "sister"},
-        {"sentence": "I ___ three children.", "answer": "have"},
-        {"sentence": "I don't have any ___.", "answer": "brothers"}
+        {
+          "sentence": "I have two ___.",
+          "answer": "brothers"
+        },
+        {
+          "sentence": "I have one ___.",
+          "answer": "sister"
+        },
+        {
+          "sentence": "I ___ three children.",
+          "answer": "have"
+        },
+        {
+          "sentence": "I don't have any ___.",
+          "answer": "brothers"
+        }
       ],
       "examples": [
         "I have two brothers.",
@@ -157,13 +201,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: How many brothers does the person have?",
       "audio": "/audio/lesson9-listen1.mp3",
       "transcript": "Let me tell you about my family. I have two brothers and one sister.",
-      "options": ["One", "Two", "Three", "None"],
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
       "correct": 1,
       "explanation": "The person says 'I have two brothers'"
     },
@@ -171,7 +219,12 @@
       "question": "Listen: What is the mother's name?",
       "audio": "/audio/lesson9-listen2.mp3",
       "transcript": "My mother is very kind. Her name is Halima.",
-      "options": ["Halima", "Fatima", "Amina", "Sara"],
+      "options": [
+        "Halima",
+        "Fatima",
+        "Amina",
+        "Sara"
+      ],
       "correct": 0,
       "explanation": "The person says 'Her name is Halima'"
     },
@@ -179,12 +232,16 @@
       "question": "Listen: Does the person have children?",
       "audio": "/audio/lesson9-listen3.mp3",
       "transcript": "Do you have any children? No, I don't have children yet.",
-      "options": ["Yes, one child", "Yes, two children", "No", "Not mentioned"],
+      "options": [
+        "Yes, one child",
+        "Yes, two children",
+        "No",
+        "Not mentioned"
+      ],
       "correct": 2,
       "explanation": "The person says 'I don't have children yet'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Introduce your family",
@@ -197,7 +254,6 @@
       "example": "Yes, I have two brothers and one sister. My brothers are Ali and Omar. My sister is Amina."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write about your family",
@@ -210,7 +266,6 @@
       "example": "My family is from Somalia. My mother is Halima and my father is Mohamed. I have two brothers and one sister. My brothers are Ali and Omar. Ali is 25 years old and Omar is 22. My sister Amina is 18. She is the youngest. I don't have children yet."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -246,7 +301,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -358,5 +412,27 @@
       "correct": null,
       "explanation": "This is personal - there's no wrong answer. Practice expressing your thoughts in English."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida xubnaha qoyskaaga looga hadlo",
+    "objectives": [
+      "Magacaw xubnaha qoyska (mother, father, brother, sister...)",
+      "Isticmaal erayada lahaanshaha (my, his, her)",
+      "Ka hadal xidhiidhka qoyska (This is my...)",
+      "Isticmaal 'have' si aad qoyska uga hadasho (I have a brother)"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'my' waxaan u isticmaalnaa nafteena, 'his' ragga, 'her'-na dumarka. Kuwani waxay muujiyaan lahaansho ama xidhiidh."
+        },
+        {
+          "explanation": "'have' waxaan la isticmaalnaa I, you, we, they. 'has' waxaan la isticmaalnaa he, she, it. Kani waa qaab muhiim ah."
+        },
+        {
+          "explanation": "'Do you have...?' waxaan u isticmaalnaa adiga, 'Does he/she have...?'-na dadka kale."
+        }
+      ]
+    }
+  }
 }

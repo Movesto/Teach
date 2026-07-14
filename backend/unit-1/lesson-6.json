@@ -410,5 +410,27 @@
       "correct": null,
       "explanation": "Practice ordering food you actually like. This makes it more meaningful and easier to remember."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida cuntada loo dalbado, adeegayaasha makhaayaddana loola hadlo",
+    "objectives": [
+      "Si edeb leh cunto u dalbo (I would like... / Can I have...?)",
+      "Waydii su'aalo ku saabsan cuntada liiska ku qoran (What is...? / Do you have...?)",
+      "Waydiiso biilka (Can I have the check?)",
+      "Faham cuntooyinka liiska iyo erayada makhaayadda"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'I would like' ayaa ka edeb badan 'I want'. Makhaayadaha iyo xaaladaha rasmiga ah, waxaan isticmaalnaa 'I would like' ama 'Can I have' si aan edeb ugu muuqanno."
+        },
+        {
+          "explanation": "'For here' waxay ka dhigan tahay inaad makhaayadda dhexdeeda wax ku cunayso. 'To go' (ama 'takeout') waxay ka dhigan tahay inaad cuntada qaadanayso oo meel kale ku cunayso."
+        },
+        {
+          "explanation": "'Anything else?' waxay ka dhigan tahay 'Ma doonaysaa wax kale?' Waxaad odhan kartaa 'No, that's all' haddii aad dalabkaaga dhammaysay, ama u sheeg waxa kale ee aad rabto."
+        }
+      ]
+    }
+  }
 }

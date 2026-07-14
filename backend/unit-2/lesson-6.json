@@ -6,14 +6,12 @@
   "description": "Learn to make casual conversation",
   "difficulty": "beginner",
   "is_last_in_unit": true,
-  
   "objectives": [
     "Talk about the weather (It's hot/cold/nice today)",
     "Ask about someone's weekend/week (How was your weekend?)",
     "Make casual conversation at work or in public",
     "Keep a conversation going with follow-up questions"
   ],
-  
   "target_language": {
     "phrases": [
       "How's it going? / How are you?",
@@ -29,21 +27,34 @@
       {
         "label": "Talking about weather",
         "pattern": "It's + [weather word]",
-        "examples": ["It's hot today.", "It's cold today.", "It's raining.", "The weather is nice!"]
+        "examples": [
+          "It's hot today.",
+          "It's cold today.",
+          "It's raining.",
+          "The weather is nice!"
+        ]
       },
       {
         "label": "Asking about the weekend",
         "pattern": "How was your + [weekend/week]?",
-        "examples": ["How was your weekend?", "What did you do this weekend?", "Did you do anything fun?"]
+        "examples": [
+          "How was your weekend?",
+          "What did you do this weekend?",
+          "Did you do anything fun?"
+        ]
       },
       {
         "label": "Showing interest",
         "pattern": "That sounds + [adjective]!",
-        "examples": ["That sounds fun!", "That sounds nice!", "That's interesting!", "Cool!"]
+        "examples": [
+          "That sounds fun!",
+          "That sounds nice!",
+          "That's interesting!",
+          "Cool!"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "It's Monday morning. You see your coworker Sarah at work. You make small talk.",
     "dialogue": [
@@ -93,16 +104,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Weather talk",
       "instruction": "Fill in the blank with the correct weather word",
       "prompts": [
-        {"sentence": "It's ___ today.", "answer": "hot"},
-        {"sentence": "It's ___ today.", "answer": "cold"},
-        {"sentence": "It's ___.", "answer": "raining"},
-        {"sentence": "The weather is ___!", "answer": "nice"}
+        {
+          "sentence": "It's ___ today.",
+          "answer": "hot"
+        },
+        {
+          "sentence": "It's ___ today.",
+          "answer": "cold"
+        },
+        {
+          "sentence": "It's ___.",
+          "answer": "raining"
+        },
+        {
+          "sentence": "The weather is ___!",
+          "answer": "nice"
+        }
       ],
       "examples": [
         "It's hot today.",
@@ -118,10 +140,22 @@
       "title": "Drill 2: Asking about weekend",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "How was your ___?", "answer": "weekend"},
-        {"sentence": "What did you ___ this weekend?", "answer": "do"},
-        {"sentence": "Did you do anything ___?", "answer": "fun"},
-        {"sentence": "How was your ___?", "answer": "week"}
+        {
+          "sentence": "How was your ___?",
+          "answer": "weekend"
+        },
+        {
+          "sentence": "What did you ___ this weekend?",
+          "answer": "do"
+        },
+        {
+          "sentence": "Did you do anything ___?",
+          "answer": "fun"
+        },
+        {
+          "sentence": "How was your ___?",
+          "answer": "week"
+        }
       ],
       "examples": [
         "How was your weekend?",
@@ -137,10 +171,22 @@
       "title": "Drill 3: Responding and showing interest",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "That sounds ___!", "answer": "fun"},
-        {"sentence": "That sounds ___!", "answer": "nice"},
-        {"sentence": "That's ___!", "answer": "interesting"},
-        {"sentence": "Cool! How ___ it?", "answer": "was"}
+        {
+          "sentence": "That sounds ___!",
+          "answer": "fun"
+        },
+        {
+          "sentence": "That sounds ___!",
+          "answer": "nice"
+        },
+        {
+          "sentence": "That's ___!",
+          "answer": "interesting"
+        },
+        {
+          "sentence": "Cool! How ___ it?",
+          "answer": "was"
+        }
       ],
       "examples": [
         "That sounds fun!",
@@ -153,13 +199,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: How was Ahmed's weekend?",
       "audio": "/audio/lesson14-listen1.mp3",
       "transcript": "How was your weekend, Ahmed? It was good, thank you.",
-      "options": ["Bad", "Okay", "Good", "Terrible"],
+      "options": [
+        "Bad",
+        "Okay",
+        "Good",
+        "Terrible"
+      ],
       "correct": 2,
       "explanation": "Ahmed says 'It was good'"
     },
@@ -167,7 +217,12 @@
       "question": "Listen: What did Ahmed do?",
       "audio": "/audio/lesson14-listen2.mp3",
       "transcript": "What did you do? I went to the park with my family.",
-      "options": ["Went to park", "Watched movies", "Went shopping", "Stayed home"],
+      "options": [
+        "Went to park",
+        "Watched movies",
+        "Went shopping",
+        "Stayed home"
+      ],
       "correct": 0,
       "explanation": "Ahmed says 'I went to the park with my family'"
     },
@@ -175,12 +230,16 @@
       "question": "Listen: How's the weather?",
       "audio": "/audio/lesson14-listen3.mp3",
       "transcript": "How's the weather today? The weather is beautiful. It's a nice day.",
-      "options": ["Hot", "Cold", "Rainy", "Nice"],
+      "options": [
+        "Hot",
+        "Cold",
+        "Rainy",
+        "Nice"
+      ],
       "correct": 3,
       "explanation": "They say 'The weather is beautiful' and 'It's a nice day'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Talk about the weather",
@@ -193,7 +252,6 @@
       "example": "My weekend was good! I went to the park on Saturday. On Sunday, I stayed home and watched TV. It was relaxing. How was your weekend?"
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write about your weekend",
@@ -206,7 +264,6 @@
       "example": "You: Good morning!\nCoworker: Good morning! How are you?\nYou: I'm good, thanks. How about you?\nCoworker: Doing well! It's cold today, isn't it?\nYou: Yes, very cold! How was your weekend?\nCoworker: It was good. I went to the movies.\nYou: That sounds fun! What movie did you see?\nCoworker: I saw the new action movie.\nYou: Cool! Was it good?\nCoworker: Yes, I loved it!\nYou: Nice! Well, have a good day!\nCoworker: Thanks! You too!"
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -243,7 +300,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -355,5 +411,27 @@
       "correct": null,
       "explanation": "Think about cultural differences in casual conversation. What's polite to ask about? What topics are avoided?"
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro wada-hadalka fudud ee caadiga ah (small talk)",
+    "objectives": [
+      "Ka hadal cimilada (It's hot/cold/nice today)",
+      "Waydii qofka wiigiisii (How was your weekend?)",
+      "Samee sheeko caadi ah goobta shaqada ama meelaha dadweynaha",
+      "Ku sii wad sheekada su'aalo dabagal ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Dhaqamada Ingiriisiga lagu hadlo, cimiladu waa mawduuc ammaan ah oo dhexdhexaad ah oo sheekada lagu bilaabo. Waa sheeko fudud oo edeb leh ka hor wada-hadal qoto dheer. Qof walba cimilada wuu la kulmaa, sidaas darteed way fudud tahay in laga sheekaysto."
+        },
+        {
+          "explanation": "Falalka dhammaystiran ee la soo dhaafay, waxaan isticmaalnaa Past Simple. Falal badan oo caadi ah qaanuun ma laha (went, saw, had). Su'aalaha, waxaan isticmaalnaa 'did' + falka aasaasiga ah."
+        },
+        {
+          "explanation": "Sheekooyinka wanaagsan waxay leeyihiin: dib u waydiin ('How about you?'), xiiso muujin ('That sounds fun!'), iyo su'aalo dabagal ah. Tani waxay muujinaysaa inaad dhegaysanayso oo aad danaynayso."
+        }
+      ]
+    }
+  }
 }

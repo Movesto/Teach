@@ -59,17 +59,50 @@
   "story": {
     "context": "Ahmed visits a workforce center for help finding a job. A counselor, David, helps him talk about his work history in English.",
     "dialogue": [
-      { "speaker": "David", "text": "Good morning, Ahmed. I'm going to help you today. Let's start with your work history. What was your job in Somalia?" },
-      { "speaker": "Ahmed", "text": "I worked as a delivery driver for five years. I drove a big truck every day." },
-      { "speaker": "David", "text": "Excellent. And before that? Did you have other jobs?" },
-      { "speaker": "Ahmed", "text": "Yes. Before I was a driver, I worked at a warehouse for two years. I organized the boxes and counted the inventory." },
-      { "speaker": "David", "text": "That's great experience. How do you say when you started and when you finished?" },
-      { "speaker": "Ahmed", "text": "I was a driver from 2017 to 2022. Then I came to the United States." },
-      { "speaker": "David", "text": "Perfect. Now, why did you leave your last job?" },
-      { "speaker": "Ahmed", "text": "I left because my family moved here. It was not a problem with the job. My employer liked my work." },
-      { "speaker": "David", "text": "That's important to say clearly. 'I left because my family moved to the U.S.' — that is a very good answer. What did you use to do there that you want to do here?" },
-      { "speaker": "Ahmed", "text": "I used to drive every day, and I loved it. I want to be a driver again here. I have five years of experience." },
-      { "speaker": "David", "text": "You tell your story very well, Ahmed. That experience is valuable. Let's write it on your application." }
+      {
+        "speaker": "David",
+        "text": "Good morning, Ahmed. I'm going to help you today. Let's start with your work history. What was your job in Somalia?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I worked as a delivery driver for five years. I drove a big truck every day."
+      },
+      {
+        "speaker": "David",
+        "text": "Excellent. And before that? Did you have other jobs?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes. Before I was a driver, I worked at a warehouse for two years. I organized the boxes and counted the inventory."
+      },
+      {
+        "speaker": "David",
+        "text": "That's great experience. How do you say when you started and when you finished?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I was a driver from 2017 to 2022. Then I came to the United States."
+      },
+      {
+        "speaker": "David",
+        "text": "Perfect. Now, why did you leave your last job?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I left because my family moved here. It was not a problem with the job. My employer liked my work."
+      },
+      {
+        "speaker": "David",
+        "text": "That's important to say clearly. 'I left because my family moved to the U.S.' — that is a very good answer. What did you use to do there that you want to do here?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I used to drive every day, and I loved it. I want to be a driver again here. I have five years of experience."
+      },
+      {
+        "speaker": "David",
+        "text": "You tell your story very well, Ahmed. That experience is valuable. Let's write it on your application."
+      }
     ]
   },
   "drills": [
@@ -77,10 +110,22 @@
       "title": "Regular Past Tense",
       "instruction": "Change the verb to past tense. Use: I + [verb-ed]",
       "prompts": [
-        { "sentence": "I ___ at the warehouse for two years. (work)", "answer": "worked" },
-        { "sentence": "She ___ the boxes every morning. (organize)", "answer": "organized" },
-        { "sentence": "He ___ packages across the city. (deliver)", "answer": "delivered" },
-        { "sentence": "I ___ the storeroom and kitchen. (clean)", "answer": "cleaned" }
+        {
+          "sentence": "I ___ at the warehouse for two years. (work)",
+          "answer": "worked"
+        },
+        {
+          "sentence": "She ___ the boxes every morning. (organize)",
+          "answer": "organized"
+        },
+        {
+          "sentence": "He ___ packages across the city. (deliver)",
+          "answer": "delivered"
+        },
+        {
+          "sentence": "I ___ the storeroom and kitchen. (clean)",
+          "answer": "cleaned"
+        }
       ],
       "examples": [
         "I worked as a cashier for one year.",
@@ -97,10 +142,22 @@
       "title": "Irregular Past Tense",
       "instruction": "Use the irregular past tense form of the verb.",
       "prompts": [
-        { "sentence": "I ___ a delivery truck for five years. (drive)", "answer": "drove" },
-        { "sentence": "She ___ English at a primary school. (teach)", "answer": "taught" },
-        { "sentence": "He ___ a security guard at a bank. (be)", "answer": "was" },
-        { "sentence": "I ___ a small business in my city. (have)", "answer": "had" }
+        {
+          "sentence": "I ___ a delivery truck for five years. (drive)",
+          "answer": "drove"
+        },
+        {
+          "sentence": "She ___ English at a primary school. (teach)",
+          "answer": "taught"
+        },
+        {
+          "sentence": "He ___ a security guard at a bank. (be)",
+          "answer": "was"
+        },
+        {
+          "sentence": "I ___ a small business in my city. (have)",
+          "answer": "had"
+        }
       ],
       "examples": [
         "I drove trucks from 2016 to 2021.",
@@ -117,10 +174,22 @@
       "title": "For, From...To, Until",
       "instruction": "Complete the time expression. Use: for, from, to, or until.",
       "prompts": [
-        { "sentence": "I worked there ___ three years.", "answer": "for" },
-        { "sentence": "I was a teacher ___ 2015 ___ 2020.", "answer": "from / to" },
-        { "sentence": "I drove a truck ___ I moved here.", "answer": "until" },
-        { "sentence": "She worked at the hospital ___ six months.", "answer": "for" }
+        {
+          "sentence": "I worked there ___ three years.",
+          "answer": "for"
+        },
+        {
+          "sentence": "I was a teacher ___ 2015 ___ 2020.",
+          "answer": "from / to"
+        },
+        {
+          "sentence": "I drove a truck ___ I moved here.",
+          "answer": "until"
+        },
+        {
+          "sentence": "She worked at the hospital ___ six months.",
+          "answer": "for"
+        }
       ],
       "examples": [
         "I worked there for four years.",
@@ -232,7 +301,12 @@
     {
       "type": "multiple-choice",
       "question": "What is the past tense of DRIVE?",
-      "options": ["drived", "driven", "drove", "drived"],
+      "options": [
+        "drived",
+        "driven",
+        "drove",
+        "drived"
+      ],
       "correct": 2,
       "explanation": "Drive is an irregular verb. Past simple: drove. 'I drove a truck for five years.' (Not 'drived' — that is a common mistake.)"
     },
@@ -275,7 +349,12 @@
     {
       "type": "multiple-choice",
       "question": "What is the past tense of TEACH?",
-      "options": ["teached", "taught", "tought", "teaches"],
+      "options": [
+        "teached",
+        "taught",
+        "tought",
+        "teaches"
+      ],
       "correct": 1,
       "explanation": "Teach is an irregular verb. Past simple: taught. 'She taught English at a primary school for three years.'"
     },
@@ -294,7 +373,12 @@
     {
       "type": "multiple-choice",
       "question": "What is the past tense of ORGANIZE?",
-      "options": ["organized", "organizen", "organize", "organed"],
+      "options": [
+        "organized",
+        "organizen",
+        "organize",
+        "organed"
+      ],
       "correct": 0,
       "explanation": "Organize is a regular verb. Add -ed: organized. 'I organized the warehouse inventory for two years.'"
     },
@@ -324,5 +408,24 @@
       "correct": null,
       "explanation": "This is one of the most common interview questions. Keep your answer honest, brief, and positive. Never say anything negative about your previous employer."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida taariikhda shaqadaada si kalsooni leh ugu sheegto falalka past tense",
+    "objectives": [
+      "Ka hadal shaqooyinkii aad qabatay waagii hore",
+      "Sheeg inta aad wax qabanaysay adigoo isticmaalaya 'for' iyo 'from...to'",
+      "Isticmaal falalka past tense-ka caadiga ah ee aan qaanuunka lahayn",
+      "Sheeg sheeko gaaban oo taariikhda shaqadaada ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Ingiriisigu wuxuu leeyahay falal badan oo past tense ah oo aan qaanuun lahayn. Kuwan waa in la xafido — qaanuun ma jiro. Falalka shaqada ee caadiga ah: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Falalka qaanuunka leh waxay ku daraan -ed keliya: work→worked, organize→organized, deliver→delivered."
+        },
+        {
+          "explanation": "'Used to' waxaa loo isticmaalaa caadooyin ama xaalado waagii hore run ahaa laakiin HADDA aan run ahayn. Waxay muujinaysaa isbeddel u dhexeeya waagaas iyo hadda. 'I used to drive a truck' waxay ka dhigan tahay: waagii hore si joogto ah ayaan gaadhi weyn u wadi jiray, laakiin hadda ma wado. Aad bay faa'iido u leedahay markaad shaqo-bixiyayaasha kala hadlayso khibraddaadii dalkaagii hooyo."
+        }
+      ]
+    }
+  }
 }

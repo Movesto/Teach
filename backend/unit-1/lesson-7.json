@@ -6,14 +6,12 @@
   "description": "Learn to make and answer phone calls",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Answer the phone (Hello? / This is...)",
     "Ask to speak to someone (Can I speak to...? / Is... there?)",
     "Take and leave messages (Can I take a message?)",
     "End phone calls politely (Talk to you later / Goodbye)"
   ],
-  
   "target_language": {
     "phrases": [
       "Hello? / Hi, this is [name]",
@@ -29,21 +27,32 @@
       {
         "label": "Phone introduction",
         "pattern": "This is + [name]",
-        "examples": ["Hello, this is Ahmed", "Hi, this is Sarah", "Good morning, this is Ahmed Hassan"]
+        "examples": [
+          "Hello, this is Ahmed",
+          "Hi, this is Sarah",
+          "Good morning, this is Ahmed Hassan"
+        ]
       },
       {
         "label": "Asking to speak to someone",
         "pattern": "Can I speak to + [name]?",
-        "examples": ["Can I speak to Marcus?", "Can I speak to Dr. Smith?", "Can I speak to the manager?"]
+        "examples": [
+          "Can I speak to Marcus?",
+          "Can I speak to Dr. Smith?",
+          "Can I speak to the manager?"
+        ]
       },
       {
         "label": "Checking if someone is available",
         "pattern": "Is + [name] + there?",
-        "examples": ["Is Marcus there?", "Is Dr. Smith available?", "Is your mom there?"]
+        "examples": [
+          "Is Marcus there?",
+          "Is Dr. Smith available?",
+          "Is your mom there?"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You call Marcus on the phone. His roommate answers.",
     "dialogue": [
@@ -93,16 +102,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Introducing yourself on the phone",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "Hello, ___ is Ahmed.", "answer": "this"},
-        {"sentence": "Hi, this ___ Sarah.", "answer": "is"},
-        {"sentence": "Hello, this is ___ Hassan.", "answer": "Ahmed"},
-        {"sentence": "Good ___, this is Ahmed.", "answer": "morning"}
+        {
+          "sentence": "Hello, ___ is Ahmed.",
+          "answer": "this"
+        },
+        {
+          "sentence": "Hi, this ___ Sarah.",
+          "answer": "is"
+        },
+        {
+          "sentence": "Hello, this is ___ Hassan.",
+          "answer": "Ahmed"
+        },
+        {
+          "sentence": "Good ___, this is Ahmed.",
+          "answer": "morning"
+        }
       ],
       "examples": [
         "Hello, this is Ahmed.",
@@ -118,10 +138,22 @@
       "title": "Drill 2: Asking to speak to someone",
       "instruction": "Fill in the blank with the correct name or word",
       "prompts": [
-        {"sentence": "Is ___ there?", "answer": "Marcus"},
-        {"sentence": "Can I ___ to Marcus?", "answer": "speak"},
-        {"sentence": "Is Dr. Smith ___?", "answer": "available"},
-        {"sentence": "Can I speak to the ___?", "answer": "manager"}
+        {
+          "sentence": "Is ___ there?",
+          "answer": "Marcus"
+        },
+        {
+          "sentence": "Can I ___ to Marcus?",
+          "answer": "speak"
+        },
+        {
+          "sentence": "Is Dr. Smith ___?",
+          "answer": "available"
+        },
+        {
+          "sentence": "Can I speak to the ___?",
+          "answer": "manager"
+        }
       ],
       "examples": [
         "Is Marcus there?",
@@ -137,10 +169,22 @@
       "title": "Drill 3: Taking messages",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "Can I take a ___?", "answer": "message"},
-        {"sentence": "Would you like to ___ a message?", "answer": "leave"},
-        {"sentence": "Can I ___ him you called?", "answer": "tell"},
-        {"sentence": "Do you want him to call you ___?", "answer": "back"}
+        {
+          "sentence": "Can I take a ___?",
+          "answer": "message"
+        },
+        {
+          "sentence": "Would you like to ___ a message?",
+          "answer": "leave"
+        },
+        {
+          "sentence": "Can I ___ him you called?",
+          "answer": "tell"
+        },
+        {
+          "sentence": "Do you want him to call you ___?",
+          "answer": "back"
+        }
       ],
       "examples": [
         "Can I take a message?",
@@ -153,13 +197,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: Who is calling?",
       "audio": "/audio/lesson7-listen1.mp3",
       "transcript": "Hello. This is Ahmed. Can I speak to Marcus?",
-      "options": ["Ahmed", "Marcus", "Sarah", "John"],
+      "options": [
+        "Ahmed",
+        "Marcus",
+        "Sarah",
+        "John"
+      ],
       "correct": 0,
       "explanation": "The caller says 'This is Ahmed'"
     },
@@ -167,7 +215,12 @@
       "question": "Listen: Is Marcus there?",
       "audio": "/audio/lesson7-listen2.mp3",
       "transcript": "Is Marcus there? No, he's not here right now.",
-      "options": ["Yes", "No", "Maybe", "Not mentioned"],
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Not mentioned"
+      ],
       "correct": 1,
       "explanation": "The person says 'He's not here right now'"
     },
@@ -175,12 +228,16 @@
       "question": "Listen: What does the caller want?",
       "audio": "/audio/lesson7-listen3.mp3",
       "transcript": "Would you like to leave a message? Yes, I would like to leave a message.",
-      "options": ["To leave a message", "To call back", "To wait", "To hang up"],
+      "options": [
+        "To leave a message",
+        "To call back",
+        "To wait",
+        "To hang up"
+      ],
       "correct": 0,
       "explanation": "The caller wants to leave a message"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Answer the phone",
@@ -193,7 +250,6 @@
       "example": "Hi, this is Ahmed. Is Marcus there? ... Okay. Can you tell him Ahmed called? Please ask him to call me back. Thank you."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write a phone message",
@@ -206,7 +262,6 @@
       "example": "Person: Hello?\nYou: Hi. This is Ahmed. Is Marcus there?\nPerson: No, he's not here. Can I take a message?\nYou: Yes, please. Can you tell him Ahmed called?\nPerson: Sure. Does he have your number?\nYou: Yes, he has it.\nPerson: Okay. I'll tell him.\nYou: Thank you!\nPerson: No problem. Goodbye.\nYou: Goodbye."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -241,7 +296,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -353,5 +407,27 @@
       "correct": null,
       "explanation": "Practice with a real situation from your life. This helps you prepare for actual phone calls."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida telefoon loo diro loogana jawaabo",
+    "objectives": [
+      "Ka jawaab telefoonka (Hello? / This is...)",
+      "Waydiiso inaad qof la hadasho (Can I speak to...? / Is... there?)",
+      "Qaado oo reeb farriimo (Can I take a message?)",
+      "Si edeb leh u dhammee wicitaanka (Talk to you later / Goodbye)"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Telefoonka waxaan ku nidhaahnaa 'This is [magac]', ma aha 'I am [magac]'. Kani waa qaanuun gaar ah oo telefoonka Ingiriisiga ah."
+        },
+        {
+          "explanation": "Labada su'aalood waxay waydiinayaan inaad qof la hadli karto. 'Is [qofka] there?' ayaa xoogaa ka caadi ah. Labaduba waa edeb oo waa caadi."
+        },
+        {
+          "explanation": "Kuwani dhammaantood waxay ka dhigan yihiin 'sug wakhti yar'. 'Hold on' iyo 'One moment' aad bay ugu badan yihiin telefoonka. Dhammaantood waa siyaabo edeb leh oo qofka looga codsado inuu sugo."
+        }
+      ]
+    }
+  }
 }

@@ -59,18 +59,54 @@
   "story": {
     "context": "Ahmed applies for a warehouse job and has a short interview. This is his first real job interview in the United States.",
     "dialogue": [
-      { "speaker": "Tom", "text": "Hi, come in. You're Ahmed, right? I'm Tom. Please sit down." },
-      { "speaker": "Ahmed", "text": "Thank you, Tom. I'm happy to meet you. I'd like to apply for the warehouse associate position." },
-      { "speaker": "Tom", "text": "Great. Tell me a little about yourself." },
-      { "speaker": "Ahmed", "text": "I'm Ahmed. I've worked in transportation and warehousing for seven years in Somalia. I've driven a delivery truck and organized inventory at a warehouse. I'm reliable and I work hard." },
-      { "speaker": "Tom", "text": "That's great experience. Why are you looking for work here?" },
-      { "speaker": "Ahmed", "text": "My family moved to the United States two years ago. I'm looking for full-time work in logistics or warehousing. This job is a very good fit for my experience." },
-      { "speaker": "Tom", "text": "I like how clearly you explain your background. Do you have any questions for me?" },
-      { "speaker": "Ahmed", "text": "Yes — I'd like to know about the schedule. Is this full-time, Monday through Friday?" },
-      { "speaker": "Tom", "text": "It is. 6 AM to 2:30 PM. When can you start?" },
-      { "speaker": "Ahmed", "text": "I'm available to start immediately. Or on Monday, if that works better for you." },
-      { "speaker": "Tom", "text": "Let's say Monday. I think you're a strong candidate, Ahmed. We'll call you by Thursday." },
-      { "speaker": "Ahmed", "text": "Thank you very much for your time, Tom. I look forward to hearing from you." }
+      {
+        "speaker": "Tom",
+        "text": "Hi, come in. You're Ahmed, right? I'm Tom. Please sit down."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Thank you, Tom. I'm happy to meet you. I'd like to apply for the warehouse associate position."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Great. Tell me a little about yourself."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm Ahmed. I've worked in transportation and warehousing for seven years in Somalia. I've driven a delivery truck and organized inventory at a warehouse. I'm reliable and I work hard."
+      },
+      {
+        "speaker": "Tom",
+        "text": "That's great experience. Why are you looking for work here?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "My family moved to the United States two years ago. I'm looking for full-time work in logistics or warehousing. This job is a very good fit for my experience."
+      },
+      {
+        "speaker": "Tom",
+        "text": "I like how clearly you explain your background. Do you have any questions for me?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes — I'd like to know about the schedule. Is this full-time, Monday through Friday?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "It is. 6 AM to 2:30 PM. When can you start?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm available to start immediately. Or on Monday, if that works better for you."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Let's say Monday. I think you're a strong candidate, Ahmed. We'll call you by Thursday."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Thank you very much for your time, Tom. I look forward to hearing from you."
+      }
     ]
   },
   "drills": [
@@ -78,10 +114,22 @@
       "title": "Would Like To",
       "instruction": "Make a polite professional statement. Use: I'd like to + [verb]",
       "prompts": [
-        { "sentence": "I ___ like to apply for this job.", "answer": "would / 'd" },
-        { "sentence": "I'd like ___ schedule an interview.", "answer": "to" },
-        { "sentence": "___ you like me to bring my resume?", "answer": "Would" },
-        { "sentence": "I'd like ___ know more about the hours.", "answer": "to" }
+        {
+          "sentence": "I ___ like to apply for this job.",
+          "answer": "would / 'd"
+        },
+        {
+          "sentence": "I'd like ___ schedule an interview.",
+          "answer": "to"
+        },
+        {
+          "sentence": "___ you like me to bring my resume?",
+          "answer": "Would"
+        },
+        {
+          "sentence": "I'd like ___ know more about the hours.",
+          "answer": "to"
+        }
       ],
       "examples": [
         "I'd like to apply for this position.",
@@ -98,10 +146,22 @@
       "title": "Present Perfect for Experience",
       "instruction": "Talk about your experience using the present perfect. Use: I've + [past participle]",
       "prompts": [
-        { "sentence": "I've ___ in warehouses for five years. (work)", "answer": "worked" },
-        { "sentence": "I've ___ a delivery truck. (drive)", "answer": "driven" },
-        { "sentence": "I've ___ customers at a store. (help)", "answer": "helped" },
-        { "sentence": "I've ___ for the same company for six years. (work)", "answer": "worked" }
+        {
+          "sentence": "I've ___ in warehouses for five years. (work)",
+          "answer": "worked"
+        },
+        {
+          "sentence": "I've ___ a delivery truck. (drive)",
+          "answer": "driven"
+        },
+        {
+          "sentence": "I've ___ customers at a store. (help)",
+          "answer": "helped"
+        },
+        {
+          "sentence": "I've ___ for the same company for six years. (work)",
+          "answer": "worked"
+        }
       ],
       "examples": [
         "I've worked in warehouses for five years.",
@@ -118,10 +178,22 @@
       "title": "Formal Application Language",
       "instruction": "Complete the professional sentence. Use the formal phrases you learned.",
       "prompts": [
-        { "sentence": "I'm ___ for a full-time position in logistics.", "answer": "looking" },
-        { "sentence": "I'm ___ in the warehouse associate position.", "answer": "interested" },
-        { "sentence": "I believe I am a good ___ for this role.", "answer": "fit" },
-        { "sentence": "I am ___ to start immediately.", "answer": "available" }
+        {
+          "sentence": "I'm ___ for a full-time position in logistics.",
+          "answer": "looking"
+        },
+        {
+          "sentence": "I'm ___ in the warehouse associate position.",
+          "answer": "interested"
+        },
+        {
+          "sentence": "I believe I am a good ___ for this role.",
+          "answer": "fit"
+        },
+        {
+          "sentence": "I am ___ to start immediately.",
+          "answer": "available"
+        }
       ],
       "examples": [
         "I'm looking for full-time work in transportation.",
@@ -353,5 +425,27 @@
       "correct": null,
       "explanation": "This is one of the most common interview questions. Answer confidently and specifically. Example: 'I've worked in warehousing for five years and I know how to organize inventory and work quickly. I am very reliable — I always come on time and I never leave work unfinished. I believe I would be a strong addition to your team.'"
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro luqadda codsiga shaqada, wareysiga, iyo maalintaada ugu horreysa ee shaqo cusub",
+    "objectives": [
+      "Sheeg inaad shaqo raadinayso, sharaxna nooca aad rabto",
+      "Isticmaal luqad rasmi ah si aad u codsato oo aad isu barto",
+      "Ka hadal goorta aad bilaabi karto",
+      "Isticmaal 'would like to' hadallo edeb iyo xirfad leh"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "WANT waa toos oo aan rasmi ahayn. I'D LIKE waa qaab jilicsan oo edeb iyo xirfad badan oo isla fikraddaas ah. Wareysiyada shaqada, iimaylada, iyo wada-hadallada xirfadeed, mar walba isticmaal I'D LIKE halkii I WANT. Waxay muujinaysaa ixtiraam iyo qaangaadhnimo luqadeed. Soo gaabinta I'D = I WOULD — labaduba waa sax."
+        },
+        {
+          "explanation": "Simple past (I worked) wuxuu sharaxayaa dhacdo gaar ah oo dhammaatay. Present perfect (I've worked) wuxuu sharaxayaa khibrad weli khusaysa — wuxuu isku xidhaa waagii hore iyo qofkaaga maanta. Wareysiga shaqada, dheh 'I've worked in logistics for seven years' si aad u muujiso in khibraddaasi qayb ka tahay qofka aad maanta tahay. Simple past isticmaal marka aad faahfaahinta sheegayso."
+        },
+        {
+          "explanation": "Wareysiga si fiican u soo gabagabayntu waxay reebtaa raad kama dambays ah oo xoog leh. Labada weedhood ee ugu muhiimsan waa: 'Thank you for your time' iyo 'I look forward to hearing from you.' Fiiro: LOOK FORWARD TO waxaa mar walba raaca fal-ing. Weligaa ha odhan 'I look forward to hear' — waa inay noqotaa 'I look forward to hearing.'"
+        }
+      ]
+    }
+  }
 }

@@ -6,14 +6,12 @@
   "description": "Learn to ask for help and ask basic questions",
   "difficulty": "beginner",
   "is_last_in_unit": true,
-  
   "objectives": [
     "Ask for help politely (Can you help me?)",
     "Explain simple problems (I need... / I have a problem)",
     "Ask where things are (Where is...?)",
     "Use 'please' and 'thank you' appropriately"
   ],
-  
   "target_language": {
     "phrases": [
       "Can you help me?",
@@ -29,26 +27,41 @@
       {
         "label": "Polite requests",
         "pattern": "Can you + [verb]?",
-        "examples": ["Can you help me?", "Can you show me?", "Can you tell me?"]
+        "examples": [
+          "Can you help me?",
+          "Can you show me?",
+          "Can you tell me?"
+        ]
       },
       {
         "label": "Asking about location",
         "pattern": "Where is + [place/thing]?",
-        "examples": ["Where is the bathroom?", "Where is the laundry room?", "Where is the bus stop?"]
+        "examples": [
+          "Where is the bathroom?",
+          "Where is the laundry room?",
+          "Where is the bus stop?"
+        ]
       },
       {
         "label": "Saying what you need",
         "pattern": "I need + [thing]",
-        "examples": ["I need help", "I need a doctor", "I need directions"]
+        "examples": [
+          "I need help",
+          "I need a doctor",
+          "I need directions"
+        ]
       },
       {
         "label": "Describing a situation",
         "pattern": "I have + [thing]",
-        "examples": ["I have a problem", "I have a question", "I have an appointment"]
+        "examples": [
+          "I have a problem",
+          "I have a question",
+          "I have an appointment"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are in your apartment building. You can't find the laundry room. You ask your neighbor Marcus for help.",
     "dialogue": [
@@ -102,16 +115,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Asking for help",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "Can you ___ me?", "answer": "help"},
-        {"sentence": "Can you help me, ___?", "answer": "please"},
-        {"sentence": "I ___ help.", "answer": "need"},
-        {"sentence": "Excuse me, ___ you help me?", "answer": "can"}
+        {
+          "sentence": "Can you ___ me?",
+          "answer": "help"
+        },
+        {
+          "sentence": "Can you help me, ___?",
+          "answer": "please"
+        },
+        {
+          "sentence": "I ___ help.",
+          "answer": "need"
+        },
+        {
+          "sentence": "Excuse me, ___ you help me?",
+          "answer": "can"
+        }
       ],
       "examples": [
         "Can you help me?",
@@ -127,10 +151,22 @@
       "title": "Drill 2: Asking where things are",
       "instruction": "Fill in the blank with the correct place",
       "prompts": [
-        {"sentence": "Where is the ___?", "answer": "bathroom"},
-        {"sentence": "Where is the ___?", "answer": "laundry room"},
-        {"sentence": "Where is the ___?", "answer": "store"},
-        {"sentence": "Where is the ___?", "answer": "bus stop"}
+        {
+          "sentence": "Where is the ___?",
+          "answer": "bathroom"
+        },
+        {
+          "sentence": "Where is the ___?",
+          "answer": "laundry room"
+        },
+        {
+          "sentence": "Where is the ___?",
+          "answer": "store"
+        },
+        {
+          "sentence": "Where is the ___?",
+          "answer": "bus stop"
+        }
       ],
       "examples": [
         "Where is the bathroom?",
@@ -146,10 +182,22 @@
       "title": "Drill 3: Can you... requests",
       "instruction": "Fill in the blank with the correct verb",
       "prompts": [
-        {"sentence": "Can you ___ me?", "answer": "show"},
-        {"sentence": "Can you ___ me?", "answer": "tell"},
-        {"sentence": "Can you ___ me?", "answer": "call"},
-        {"sentence": "Can you ___?", "answer": "wait"}
+        {
+          "sentence": "Can you ___ me?",
+          "answer": "show"
+        },
+        {
+          "sentence": "Can you ___ me?",
+          "answer": "tell"
+        },
+        {
+          "sentence": "Can you ___ me?",
+          "answer": "call"
+        },
+        {
+          "sentence": "Can you ___?",
+          "answer": "wait"
+        }
       ],
       "examples": [
         "Can you show me?",
@@ -162,13 +210,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What does the person need?",
       "audio": "/audio/lesson3-listen1.mp3",
       "transcript": "Excuse me, can you help me? I need help, please.",
-      "options": ["Money", "Food", "Help", "A phone"],
+      "options": [
+        "Money",
+        "Food",
+        "Help",
+        "A phone"
+      ],
       "correct": 2,
       "explanation": "The person says 'I need help'"
     },
@@ -176,7 +228,12 @@
       "question": "Listen: Where is the bathroom?",
       "audio": "/audio/lesson3-listen2.mp3",
       "transcript": "Where is the bathroom? The bathroom is on the first floor.",
-      "options": ["First floor", "Second floor", "Basement", "Outside"],
+      "options": [
+        "First floor",
+        "Second floor",
+        "Basement",
+        "Outside"
+      ],
       "correct": 0,
       "explanation": "The answer is 'The bathroom is on the first floor'"
     },
@@ -184,12 +241,16 @@
       "question": "Listen: Can he help?",
       "audio": "/audio/lesson3-listen3.mp3",
       "transcript": "Can you help me? Yes, I can help you.",
-      "options": ["Yes", "No", "Maybe", "Later"],
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Later"
+      ],
       "correct": 0,
       "explanation": "He says 'Yes, I can help you'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Ask for directions",
@@ -202,7 +263,6 @@
       "example": "You: Excuse me, Marcus. Can you help me?\nMarcus: Sure!\nYou: Where is the laundry room?\nMarcus: It's in the basement.\nYou: Thank you!"
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write questions",
@@ -215,7 +275,6 @@
       "example": "You: Excuse me.\nPerson: Yes?\nYou: Can you help me?\nPerson: Sure. What do you need?\nYou: Where is the bus stop?\nPerson: The bus stop is on Main Street.\nYou: Can you show me?\nPerson: Yes, come with me.\nYou: Thank you very much!\nPerson: You're welcome."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -251,7 +310,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -363,5 +421,27 @@
       "correct": null,
       "explanation": "Reflect on real situations where you might need help and practice what you would say."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida caawimo loo waydiisto iyo su'aalo aasaasi ah",
+    "objectives": [
+      "Si edeb leh caawimo u waydiiso (Can you help me?)",
+      "Sharax dhibaatooyin fudud (I need... / I have a problem)",
+      "Waydii meesha ay waxyaabuhu yaalliin (Where is...?)",
+      "Isticmaal 'please' iyo 'thank you' si sax ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'Can you + fal?' waxaan u isticmaalnaa si aan qof uga codsanno inuu wax sameeyo si edeb leh. Aad bay u caadi tahay, waana edeb."
+        },
+        {
+          "explanation": "'Where is + [shay/qof]?' waxaan u isticmaalnaa si aan meesha u waydiinno. Waa mid ka mid ah su'aalaha ugu faa'iidada badan."
+        },
+        {
+          "explanation": "Waxaan nidhaahnaa 'Excuse me' si aan si edeb leh dareenka qofka u soo jiidanno ka hor inta aanan su'aal waydiin. Tani aad bay muhiim ugu tahay edebta."
+        }
+      ]
+    }
+  }
 }

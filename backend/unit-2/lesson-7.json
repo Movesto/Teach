@@ -59,18 +59,54 @@
   "story": {
     "context": "Ahmed meets his neighbor Carlos, who works at a warehouse. Carlos is helping Ahmed think about his skills before he starts looking for a job.",
     "dialogue": [
-      { "speaker": "Carlos", "text": "Ahmed! You've been here a few months now. Are you thinking about finding a job?" },
-      { "speaker": "Ahmed", "text": "Yes, I want to find work soon. But I don't know what jobs I can do." },
-      { "speaker": "Carlos", "text": "Let's think about your skills. Can you drive?" },
-      { "speaker": "Ahmed", "text": "Yes, I can drive. I drove a truck in Somalia for five years." },
-      { "speaker": "Carlos", "text": "Good! That's a real skill. Can you use a computer?" },
-      { "speaker": "Ahmed", "text": "A little. I know how to use email. I'm still learning other programs." },
-      { "speaker": "Carlos", "text": "That's fine. What are you good at? What do people always ask you to help with?" },
-      { "speaker": "Ahmed", "text": "I'm good at organizing and lifting heavy things. I'm also good at working hard for a long time." },
-      { "speaker": "Carlos", "text": "Ahmed, you have more skills than you think. Can you work with other people on a team?" },
-      { "speaker": "Ahmed", "text": "Yes, I can. In Somalia, I always worked with a team." },
-      { "speaker": "Carlos", "text": "Then you are ready. You can drive, you can lift, you work in a team. You have skills!" },
-      { "speaker": "Ahmed", "text": "I feel better now. Thank you, Carlos. I'm going to look for a job this week." }
+      {
+        "speaker": "Carlos",
+        "text": "Ahmed! You've been here a few months now. Are you thinking about finding a job?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I want to find work soon. But I don't know what jobs I can do."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Let's think about your skills. Can you drive?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I can drive. I drove a truck in Somalia for five years."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Good! That's a real skill. Can you use a computer?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "A little. I know how to use email. I'm still learning other programs."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "That's fine. What are you good at? What do people always ask you to help with?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'm good at organizing and lifting heavy things. I'm also good at working hard for a long time."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Ahmed, you have more skills than you think. Can you work with other people on a team?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, I can. In Somalia, I always worked with a team."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Then you are ready. You can drive, you can lift, you work in a team. You have skills!"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I feel better now. Thank you, Carlos. I'm going to look for a job this week."
+      }
     ]
   },
   "drills": [
@@ -78,10 +114,22 @@
       "title": "Can and Can't",
       "instruction": "Say what someone can or cannot do. Use: I can / I can't + [verb]",
       "prompts": [
-        { "sentence": "Ahmed ___ drive a truck. (yes)", "answer": "can" },
-        { "sentence": "Ahmed ___ speak French. (no)", "answer": "can't" },
-        { "sentence": "Maria ___ use a computer. (yes)", "answer": "can" },
-        { "sentence": "I ___ lift 50 pounds. (yes)", "answer": "can" }
+        {
+          "sentence": "Ahmed ___ drive a truck. (yes)",
+          "answer": "can"
+        },
+        {
+          "sentence": "Ahmed ___ speak French. (no)",
+          "answer": "can't"
+        },
+        {
+          "sentence": "Maria ___ use a computer. (yes)",
+          "answer": "can"
+        },
+        {
+          "sentence": "I ___ lift 50 pounds. (yes)",
+          "answer": "can"
+        }
       ],
       "examples": [
         "I can speak two languages.",
@@ -98,10 +146,22 @@
       "title": "Know How To",
       "instruction": "Say what you know how to do. Use: I know how to / I don't know how to + [verb]",
       "prompts": [
-        { "sentence": "I ___ how to cook Somali food. (yes)", "answer": "know" },
-        { "sentence": "She ___ how to use a cash register. (yes)", "answer": "knows" },
-        { "sentence": "I ___ how to use that machine yet. (no)", "answer": "don't know" },
-        { "sentence": "___ you know how to drive a forklift?", "answer": "Do" }
+        {
+          "sentence": "I ___ how to cook Somali food. (yes)",
+          "answer": "know"
+        },
+        {
+          "sentence": "She ___ how to use a cash register. (yes)",
+          "answer": "knows"
+        },
+        {
+          "sentence": "I ___ how to use that machine yet. (no)",
+          "answer": "don't know"
+        },
+        {
+          "sentence": "___ you know how to drive a forklift?",
+          "answer": "Do"
+        }
       ],
       "examples": [
         "I know how to fix small machines.",
@@ -118,10 +178,22 @@
       "title": "Good At",
       "instruction": "Talk about what you are good at. Use: I'm good at / I'm not good at + [verb-ing]",
       "prompts": [
-        { "sentence": "I'm good at ___ heavy things. (lift)", "answer": "lifting" },
-        { "sentence": "She's good at ___ with customers. (work)", "answer": "working" },
-        { "sentence": "I'm not very good at ___ on the phone. (speak)", "answer": "speaking" },
-        { "sentence": "Are you good at ___ people? (help)", "answer": "helping" }
+        {
+          "sentence": "I'm good at ___ heavy things. (lift)",
+          "answer": "lifting"
+        },
+        {
+          "sentence": "She's good at ___ with customers. (work)",
+          "answer": "working"
+        },
+        {
+          "sentence": "I'm not very good at ___ on the phone. (speak)",
+          "answer": "speaking"
+        },
+        {
+          "sentence": "Are you good at ___ people? (help)",
+          "answer": "helping"
+        }
       ],
       "examples": [
         "I'm good at organizing boxes.",
@@ -317,7 +389,12 @@
     {
       "type": "multiple-choice",
       "question": "Carlos asks Ahmed: '___ you work in a team?' What word goes in the blank?",
-      "options": ["Do", "Are", "Can", "Have"],
+      "options": [
+        "Do",
+        "Are",
+        "Can",
+        "Have"
+      ],
       "correct": 2,
       "explanation": "We use CAN to ask about ability: 'Can you work in a team?' This asks whether Ahmed has the ability to work with others."
     },
@@ -347,5 +424,27 @@
       "correct": null,
       "explanation": "Connect your personal ability to a real job need. This is exactly what you will say in a job interview."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida xirfadahaaga, kartidaada, iyo waxa aad weli baranayso looga hadlo",
+    "objectives": [
+      "Sheeg waxa aad samayn karto iyo waxa aadan samayn karin",
+      "Waydii dadka kale kartidooda",
+      "Ka hadal xirfadaha aad baranayso",
+      "Ku xidh xirfadahaaga xaaladaha shaqada"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "CAN waxaa mar walba raaca fal aasaasi ah ('to' la'aan). CAN weligiis ma qaato -s, xitaa he/she/it. Su'aal, CAN geli qofka ka hor: 'Can you...?' — weligaa 'do' ha la isticmaalin CAN."
+        },
+        {
+          "explanation": "'good at' ka dib, falku mar walba wuxuu ku dhammaadaa -ing (qaabka gerund). Tani waa la mid tan ka dambaysa 'like', 'enjoy', iyo 'love'. Ka fikir: I like cooking → I'm good at cooking."
+        },
+        {
+          "explanation": "'Can' waa guud, waana dabiici xaalado badan. 'Know how to' waxay xoogga saaraysaa inaad baratay xirfad gaar ah. Labaduba isku macne bay leeyihiin, laakiin 'know how to' waxay u dhawaaqdaa xirfad la tababaray. Wareysiga shaqada, 'I know how to operate a forklift' ayaa ka xirfad badan 'I can operate a forklift.'"
+        }
+      ]
+    }
+  }
 }

@@ -6,14 +6,12 @@
   "description": "Learn to do basic banking tasks and talk about money",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-
   "objectives": [
     "Open a bank account (I want to open an account)",
     "Deposit and withdraw money",
     "Ask about your account balance",
     "Understand basic banking vocabulary"
   ],
-
   "target_language": {
     "phrases": [
       "I want to open an account",
@@ -29,26 +27,41 @@
       {
         "label": "Saying what you want to do",
         "pattern": "I want to + [verb]",
-        "examples": ["I want to open an account", "I want to deposit money", "I want to withdraw $50"]
+        "examples": [
+          "I want to open an account",
+          "I want to deposit money",
+          "I want to withdraw $50"
+        ]
       },
       {
         "label": "Asking about your money",
         "pattern": "How much is + in my account?",
-        "examples": ["How much is in my account?", "How much money do I have?", "What is my balance?"]
+        "examples": [
+          "How much is in my account?",
+          "How much money do I have?",
+          "What is my balance?"
+        ]
       },
       {
         "label": "Making requests",
         "pattern": "Can I + [verb]?",
-        "examples": ["Can I see my statement?", "Can I deposit a check?", "Can I open a savings account?"]
+        "examples": [
+          "Can I see my statement?",
+          "Can I deposit a check?",
+          "Can I open a savings account?"
+        ]
       },
       {
         "label": "Talking about amounts",
         "pattern": "I want to deposit/withdraw + [amount]",
-        "examples": ["I want to deposit $100", "I want to withdraw $50", "I need to send $200"]
+        "examples": [
+          "I want to deposit $100",
+          "I want to withdraw $50",
+          "I need to send $200"
+        ]
       }
     ]
   },
-
   "story": {
     "context": "You go to the bank for the first time. You want to open an account and deposit some money.",
     "dialogue": [
@@ -110,16 +123,27 @@
       }
     ]
   },
-
   "drills": [
     {
       "title": "Drill 1: What you want to do at the bank",
       "instruction": "Fill in the blank with the correct verb",
       "prompts": [
-        {"sentence": "I want to ___ an account.", "answer": "open"},
-        {"sentence": "I want to ___ money.", "answer": "deposit"},
-        {"sentence": "I want to ___ $50.", "answer": "withdraw"},
-        {"sentence": "I want to ___ money to my family.", "answer": "send"}
+        {
+          "sentence": "I want to ___ an account.",
+          "answer": "open"
+        },
+        {
+          "sentence": "I want to ___ money.",
+          "answer": "deposit"
+        },
+        {
+          "sentence": "I want to ___ $50.",
+          "answer": "withdraw"
+        },
+        {
+          "sentence": "I want to ___ money to my family.",
+          "answer": "send"
+        }
       ],
       "examples": [
         "I want to open an account.",
@@ -135,10 +159,22 @@
       "title": "Drill 2: Asking about your account",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "What is my ___?", "answer": "balance"},
-        {"sentence": "How much is in my ___?", "answer": "account"},
-        {"sentence": "Can I see my ___?", "answer": "statement"},
-        {"sentence": "Where is the ___?", "answer": "ATM"}
+        {
+          "sentence": "What is my ___?",
+          "answer": "balance"
+        },
+        {
+          "sentence": "How much is in my ___?",
+          "answer": "account"
+        },
+        {
+          "sentence": "Can I see my ___?",
+          "answer": "statement"
+        },
+        {
+          "sentence": "Where is the ___?",
+          "answer": "ATM"
+        }
       ],
       "examples": [
         "What is my balance?",
@@ -154,10 +190,22 @@
       "title": "Drill 3: Banking amounts",
       "instruction": "Fill in the blank with the correct amount",
       "prompts": [
-        {"sentence": "I want to deposit ___.", "answer": "$100"},
-        {"sentence": "I want to withdraw ___.", "answer": "$50"},
-        {"sentence": "I need to send ___.", "answer": "$200"},
-        {"sentence": "My balance is ___.", "answer": "$500"}
+        {
+          "sentence": "I want to deposit ___.",
+          "answer": "$100"
+        },
+        {
+          "sentence": "I want to withdraw ___.",
+          "answer": "$50"
+        },
+        {
+          "sentence": "I need to send ___.",
+          "answer": "$200"
+        },
+        {
+          "sentence": "My balance is ___.",
+          "answer": "$500"
+        }
       ],
       "examples": [
         "I want to deposit $100.",
@@ -170,13 +218,17 @@
       "audio": []
     }
   ],
-
   "listening": [
     {
       "question": "Listen: What does the customer want to do?",
       "audio": "/audio/lesson11-listen1.mp3",
       "transcript": "How can I help you today? I want to open an account.",
-      "options": ["Open an account", "Close an account", "Withdraw money", "Deposit a check"],
+      "options": [
+        "Open an account",
+        "Close an account",
+        "Withdraw money",
+        "Deposit a check"
+      ],
       "correct": 0,
       "explanation": "The customer says 'I want to open an account.'"
     },
@@ -184,7 +236,12 @@
       "question": "Listen: How much does the customer want to deposit?",
       "audio": "/audio/lesson11-listen2.mp3",
       "transcript": "How much would you like to deposit? I want to deposit two hundred dollars.",
-      "options": ["$50", "$100", "$200", "$500"],
+      "options": [
+        "$50",
+        "$100",
+        "$200",
+        "$500"
+      ],
       "correct": 2,
       "explanation": "The customer says 'I want to deposit $200.'"
     },
@@ -192,12 +249,16 @@
       "question": "Listen: What kind of account does the customer want?",
       "audio": "/audio/lesson11-listen3.mp3",
       "transcript": "What kind of account would you like? I want a checking account.",
-      "options": ["Savings account", "Checking account", "Business account", "Joint account"],
+      "options": [
+        "Savings account",
+        "Checking account",
+        "Business account",
+        "Joint account"
+      ],
       "correct": 1,
       "explanation": "The customer says 'I want a checking account.'"
     }
   ],
-
   "speaking": [
     {
       "title": "Task 1: Banking requests",
@@ -210,7 +271,6 @@
       "example": "Teller: How can I help you?\nYou: I want to deposit money.\nTeller: How much?\nYou: $100, please.\nTeller: Sign here, please.\nYou: Thank you."
     }
   ],
-
   "writing": [
     {
       "title": "Task 1: Banking vocabulary",
@@ -223,7 +283,6 @@
       "example": "Teller: Hello. How can I help you?\nYou: I want to open an account.\nTeller: Checking or savings?\nYou: Checking, please.\nTeller: I need your ID.\nYou: Here is my ID.\nTeller: Do you want to deposit money?\nYou: Yes. $200.\nTeller: Sign here. Your account is open.\nYou: Thank you!"
     }
   ],
-
   "grammar_discovery": {
     "sections": [
       {
@@ -259,7 +318,6 @@
       }
     ]
   },
-
   "quiz": [
     {
       "type": "multiple-choice",
@@ -371,5 +429,27 @@
       "correct": null,
       "explanation": "Practice talking about your real banking experiences. Example: I go to the bank to deposit money. I use the ATM to check my balance."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro hawlaha bangiga aasaasiga ah iyo ka hadalka lacagta",
+    "objectives": [
+      "Fur akoon bangi (I want to open an account)",
+      "Lacag dhigo, lacagna la bax",
+      "Waydii haraaga akoonkaaga",
+      "Faham erayada bangiga aasaasiga ah"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'I want to + fal' waxaan u isticmaalnaa si aan u sheegno waxa aan rabno inaan samayno. Falka 'to' ka dambeeya mar walba waa qaabka aasaasiga ah (open, deposit, withdraw — ma aha opening, depositing)."
+        },
+        {
+          "explanation": "Checking account waa akoon isticmaalka maalinlaha ah — biilasha bixinta iyo wax-iibsiga. Savings account waa akoon lacagta lagu keydiyo si ay u nabad gasho, waqti ka dibna u korto."
+        },
+        {
+          "explanation": "Deposit waxay ka dhigan tahay lacag gelinta akoonkaaga. Withdraw waxay ka dhigan tahay lacag ka bixinta. Balance waa inta lacag ah ee akoonkaaga ku jirta. Statement wuxuu muujiyaa dhammaan dhaqdhaqaaqa lacagtaada."
+        }
+      ]
+    }
+  }
 }

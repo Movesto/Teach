@@ -6,14 +6,12 @@
   "description": "Learn basic introductions and greetings",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Introduce yourself (name, origin)",
     "Greet someone politely",
     "Use simple 'to be' sentences (I am, you are)",
     "Have a basic first conversation in English"
   ],
-  
   "target_language": {
     "phrases": [
       "Hello / Hi",
@@ -29,16 +27,23 @@
       {
         "label": "About yourself",
         "pattern": "I am + [word]",
-        "examples": ["I am Ahmed", "I am from Somalia", "I am good"]
+        "examples": [
+          "I am Ahmed",
+          "I am from Somalia",
+          "I am good"
+        ]
       },
       {
         "label": "About someone else",
         "pattern": "You are + [word]",
-        "examples": ["You are Marcus", "You are from America", "You are good"]
+        "examples": [
+          "You are Marcus",
+          "You are from America",
+          "You are good"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are in the hallway of your apartment building. A man comes out of the apartment across from yours.",
     "dialogue": [
@@ -84,16 +89,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Substitute the name",
       "instruction": "Fill in the blank with the correct name",
       "prompts": [
-        {"sentence": "My name is ___.", "answer": "Marcus"},
-        {"sentence": "My name is ___.", "answer": "Sarah"},
-        {"sentence": "My name is ___.", "answer": "Ahmed"},
-        {"sentence": "My name is ___.", "answer": "Fatima"}
+        {
+          "sentence": "My name is ___.",
+          "answer": "Marcus"
+        },
+        {
+          "sentence": "My name is ___.",
+          "answer": "Sarah"
+        },
+        {
+          "sentence": "My name is ___.",
+          "answer": "Ahmed"
+        },
+        {
+          "sentence": "My name is ___.",
+          "answer": "Fatima"
+        }
       ],
       "examples": [
         "My name is Marcus.",
@@ -109,10 +125,22 @@
       "title": "Drill 2: Substitute the place",
       "instruction": "Fill in the blank with the correct country",
       "prompts": [
-        {"sentence": "I am from ___.", "answer": "Somalia"},
-        {"sentence": "I am from ___.", "answer": "America"},
-        {"sentence": "I am from ___.", "answer": "England"},
-        {"sentence": "I am from ___.", "answer": "Kenya"}
+        {
+          "sentence": "I am from ___.",
+          "answer": "Somalia"
+        },
+        {
+          "sentence": "I am from ___.",
+          "answer": "America"
+        },
+        {
+          "sentence": "I am from ___.",
+          "answer": "England"
+        },
+        {
+          "sentence": "I am from ___.",
+          "answer": "Kenya"
+        }
       ],
       "examples": [
         "I am from Somalia.",
@@ -128,10 +156,22 @@
       "title": "Drill 3: Complete introduction",
       "instruction": "Fill in the blank to complete the introduction",
       "prompts": [
-        {"sentence": "Hi. My name is Marcus. I am from ___.", "answer": "America"},
-        {"sentence": "Hi. My name is Sarah. I am from ___.", "answer": "England"},
-        {"sentence": "Hi. My name is ___. I am from Somalia.", "answer": "Ahmed"},
-        {"sentence": "Hi. ___ name is Fatima. I am from Kenya.", "answer": "My"}
+        {
+          "sentence": "Hi. My name is Marcus. I am from ___.",
+          "answer": "America"
+        },
+        {
+          "sentence": "Hi. My name is Sarah. I am from ___.",
+          "answer": "England"
+        },
+        {
+          "sentence": "Hi. My name is ___. I am from Somalia.",
+          "answer": "Ahmed"
+        },
+        {
+          "sentence": "Hi. ___ name is Fatima. I am from Kenya.",
+          "answer": "My"
+        }
       ],
       "examples": [
         "Hi. My name is Marcus. I am from America.",
@@ -143,13 +183,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What is her name?",
       "audio": "/audio/lesson1-listen1.mp3",
       "transcript": "Hello. My name is Sarah. Nice to meet you.",
-      "options": ["Sarah", "Maria", "Lisa", "Emma"],
+      "options": [
+        "Sarah",
+        "Maria",
+        "Lisa",
+        "Emma"
+      ],
       "correct": 0,
       "explanation": "She says 'My name is Sarah'"
     },
@@ -157,7 +201,12 @@
       "question": "Listen: Where is he from?",
       "audio": "/audio/lesson1-listen2.mp3",
       "transcript": "Hi. My name is Marcus. I am from America.",
-      "options": ["Somalia", "England", "America", "Kenya"],
+      "options": [
+        "Somalia",
+        "England",
+        "America",
+        "Kenya"
+      ],
       "correct": 2,
       "explanation": "He says 'I am from America'"
     },
@@ -165,12 +214,16 @@
       "question": "Listen: How is she?",
       "audio": "/audio/lesson1-listen3.mp3",
       "transcript": "Hello. How are you? I am good, thank you.",
-      "options": ["She is tired", "She is good", "She is hungry", "She is sick"],
+      "options": [
+        "She is tired",
+        "She is good",
+        "She is hungry",
+        "She is sick"
+      ],
       "correct": 1,
       "explanation": "She says 'I am good'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Introduce yourself",
@@ -183,7 +236,6 @@
       "example": "Person A: Hi!\nPerson B: Hello. My name is Ahmed. I am from Somalia.\nPerson A: Nice to meet you!\nPerson B: Nice to meet you too."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Fill in the blanks",
@@ -196,7 +248,6 @@
       "example": "Person A: Hi!\nPerson B: Hello.\nPerson A: My name is Sarah. I am from England.\nPerson B: Nice to meet you! My name is Ahmed.\nPerson A: Nice to meet you too. Where are you from?\nPerson B: I am from Somalia.\nPerson A: How are you?\nPerson B: I am good. Thank you."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -231,7 +282,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -343,5 +393,27 @@
       "correct": null,
       "explanation": "There is no wrong answer. This helps you reflect on what you learned and what will be most useful in your life."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro is-baranta aasaasiga ah iyo salaanta",
+    "objectives": [
+      "Is-bar dadka: sheeg magacaaga iyo halka aad ka timid",
+      "Si edeb leh u salaan qof",
+      "Isticmaal jumlado fudud oo 'to be' ah (I am, you are)",
+      "Yeelo wada-hadalkaaga Ingiriisi ee ugu horreeya"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Saddexda jumladood oo dhan waxay isticmaalaan 'I am'. Waxaan u isticmaalnaa 'I am' si aan dadka uga sheegno wax nafteena ku saabsan."
+        },
+        {
+          "explanation": "Markaad la hadlayso qof kale, waxaan isticmaalnaa 'you are' halkii 'I am'."
+        },
+        {
+          "explanation": "'I am' waxaad ku isticmaali kartaa magacaaga, meesha aad ka timid, sida aad dareemayso, iyo waxyaabo kale oo badan oo adiga kugu saabsan."
+        }
+      ]
+    }
+  }
 }

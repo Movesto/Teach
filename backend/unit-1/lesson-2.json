@@ -6,14 +6,12 @@
   "description": "Learn to shop and ask for things politely",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Ask for things politely (Can I have...?)",
     "Ask about prices (How much is...?)",
     "Use basic numbers for shopping",
     "Make simple requests in stores"
   ],
-  
   "target_language": {
     "phrases": [
       "Can I have [item]?",
@@ -29,26 +27,41 @@
       {
         "label": "Polite requests",
         "pattern": "Can I have + [thing]?",
-        "examples": ["Can I have milk?", "Can I have bread?", "Can I have water?"]
+        "examples": [
+          "Can I have milk?",
+          "Can I have bread?",
+          "Can I have water?"
+        ]
       },
       {
         "label": "Asking about price",
         "pattern": "How much is + [thing]?",
-        "examples": ["How much is this?", "How much is the milk?", "How much is the bread?"]
+        "examples": [
+          "How much is this?",
+          "How much is the milk?",
+          "How much is the bread?"
+        ]
       },
       {
         "label": "Saying what you need",
         "pattern": "I need + [thing]",
-        "examples": ["I need milk", "I need bread", "I need eggs"]
+        "examples": [
+          "I need milk",
+          "I need bread",
+          "I need eggs"
+        ]
       },
       {
         "label": "Asking if something exists",
         "pattern": "Do you have + [thing]?",
-        "examples": ["Do you have milk?", "Do you have bread?", "Do you have eggs?"]
+        "examples": [
+          "Do you have milk?",
+          "Do you have bread?",
+          "Do you have eggs?"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You are at a grocery store. You need to buy milk, bread, and eggs. You talk to the clerk.",
     "dialogue": [
@@ -94,16 +107,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: Polite requests",
       "instruction": "Fill in the blank with the correct item",
       "prompts": [
-        {"sentence": "Can I have ___?", "answer": "milk"},
-        {"sentence": "Can I have ___?", "answer": "bread"},
-        {"sentence": "Can I have ___?", "answer": "eggs"},
-        {"sentence": "Can I have ___?", "answer": "water"}
+        {
+          "sentence": "Can I have ___?",
+          "answer": "milk"
+        },
+        {
+          "sentence": "Can I have ___?",
+          "answer": "bread"
+        },
+        {
+          "sentence": "Can I have ___?",
+          "answer": "eggs"
+        },
+        {
+          "sentence": "Can I have ___?",
+          "answer": "water"
+        }
       ],
       "examples": [
         "Can I have milk?",
@@ -119,10 +143,22 @@
       "title": "Drill 2: Asking about existence",
       "instruction": "Fill in the blank with the correct item",
       "prompts": [
-        {"sentence": "Do you have ___?", "answer": "milk"},
-        {"sentence": "Do you have ___?", "answer": "bread"},
-        {"sentence": "Do you have ___?", "answer": "apples"},
-        {"sentence": "Do you have ___?", "answer": "coffee"}
+        {
+          "sentence": "Do you have ___?",
+          "answer": "milk"
+        },
+        {
+          "sentence": "Do you have ___?",
+          "answer": "bread"
+        },
+        {
+          "sentence": "Do you have ___?",
+          "answer": "apples"
+        },
+        {
+          "sentence": "Do you have ___?",
+          "answer": "coffee"
+        }
       ],
       "examples": [
         "Do you have milk?",
@@ -138,10 +174,22 @@
       "title": "Drill 3: Asking about prices",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "How much is ___?", "answer": "this"},
-        {"sentence": "How much is the ___?", "answer": "milk"},
-        {"sentence": "How much is the ___?", "answer": "bread"},
-        {"sentence": "How much are the ___?", "answer": "eggs"}
+        {
+          "sentence": "How much is ___?",
+          "answer": "this"
+        },
+        {
+          "sentence": "How much is the ___?",
+          "answer": "milk"
+        },
+        {
+          "sentence": "How much is the ___?",
+          "answer": "bread"
+        },
+        {
+          "sentence": "How much are the ___?",
+          "answer": "eggs"
+        }
       ],
       "examples": [
         "How much is this?",
@@ -154,13 +202,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What does the customer need?",
       "audio": "/audio/lesson2-listen1.mp3",
       "transcript": "Excuse me. I need milk. Where is the milk, please?",
-      "options": ["Milk", "Bread", "Water", "Coffee"],
+      "options": [
+        "Milk",
+        "Bread",
+        "Water",
+        "Coffee"
+      ],
       "correct": 0,
       "explanation": "The customer says 'I need milk'"
     },
@@ -168,7 +220,12 @@
       "question": "Listen: How much is the bread?",
       "audio": "/audio/lesson2-listen2.mp3",
       "transcript": "How much is the bread? The bread is two dollars.",
-      "options": ["One dollar", "Two dollars", "Three dollars", "Four dollars"],
+      "options": [
+        "One dollar",
+        "Two dollars",
+        "Three dollars",
+        "Four dollars"
+      ],
       "correct": 1,
       "explanation": "The clerk says 'The bread is two dollars'"
     },
@@ -176,12 +233,16 @@
       "question": "Listen: Does the store have eggs?",
       "audio": "/audio/lesson2-listen3.mp3",
       "transcript": "Do you have eggs? Yes, we have eggs. They are over there.",
-      "options": ["Yes", "No", "Maybe", "Not mentioned"],
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Not mentioned"
+      ],
       "correct": 0,
       "explanation": "The clerk says 'Yes, we have eggs'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Ask for items",
@@ -194,7 +255,6 @@
       "example": "You: Can I have milk?\nClerk: Here you go.\nYou: How much is this?\nClerk: Three dollars.\nYou: Thank you."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Make a shopping list",
@@ -207,7 +267,6 @@
       "example": "You: Hello.\nClerk: Hello! How can I help you?\nYou: Can I have milk?\nClerk: Sure. Here you go.\nYou: Thank you. Do you have bread?\nClerk: Yes, we have bread.\nYou: How much is the milk?\nClerk: Three dollars.\nYou: Thank you.\nClerk: You're welcome!"
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -243,7 +302,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -355,5 +413,27 @@
       "correct": null,
       "explanation": "Think about which phrase you will use most often when shopping."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida wax loo soo iibsado oo si edeb leh wax loo waydiisto",
+    "objectives": [
+      "Si edeb leh wax u waydiiso (Can I have...?)",
+      "Waydii qiimaha (How much is...?)",
+      "Isticmaal tirooyinka aasaasiga ah marka aad wax iibsanayso",
+      "Samee codsiyo fudud dukaammada dhexdooda"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'Can I have + [shay]?' waxaan u isticmaalnaa si aan si edeb leh wax u waydiisanno. Tani aad bay ugu badan tahay dukaammada."
+        },
+        {
+          "explanation": "'Do you have + [shay]?' waxaan u isticmaalnaa si aan u waydiinno in shaygu jiro iyo in kale."
+        },
+        {
+          "explanation": "'is' waxaan u isticmaalnaa hal shay (keli), 'are'-na waxyaabo badan (wadar)."
+        }
+      ]
+    }
+  }
 }

@@ -6,14 +6,12 @@
   "description": "Learn to describe symptoms and understand doctor instructions",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-
   "objectives": [
     "Describe how you feel (I have a headache / My stomach hurts)",
     "Answer the doctor's questions about symptoms",
     "Understand basic medical instructions",
     "Make and confirm a doctor's appointment"
   ],
-
   "target_language": {
     "phrases": [
       "I have a headache / stomachache / fever",
@@ -29,26 +27,41 @@
       {
         "label": "Describing symptoms",
         "pattern": "I have + [symptom]",
-        "examples": ["I have a headache", "I have a fever", "I have a stomachache"]
+        "examples": [
+          "I have a headache",
+          "I have a fever",
+          "I have a stomachache"
+        ]
       },
       {
         "label": "Saying what hurts",
         "pattern": "My + [body part] + hurts",
-        "examples": ["My head hurts", "My stomach hurts", "My back hurts"]
+        "examples": [
+          "My head hurts",
+          "My stomach hurts",
+          "My back hurts"
+        ]
       },
       {
         "label": "How you feel",
         "pattern": "I feel + [adjective]",
-        "examples": ["I feel sick", "I feel dizzy", "I feel tired"]
+        "examples": [
+          "I feel sick",
+          "I feel dizzy",
+          "I feel tired"
+        ]
       },
       {
         "label": "Doctor instructions",
         "pattern": "Take + [medicine] + [frequency]",
-        "examples": ["Take this medicine two times a day", "Take one pill in the morning", "Take this with food"]
+        "examples": [
+          "Take this medicine two times a day",
+          "Take one pill in the morning",
+          "Take this with food"
+        ]
       }
     ]
   },
-
   "story": {
     "context": "You are not feeling well. You go to the doctor at the clinic near your apartment.",
     "dialogue": [
@@ -106,16 +119,27 @@
       }
     ]
   },
-
   "drills": [
     {
       "title": "Drill 1: Describing symptoms",
       "instruction": "Fill in the blank with the correct symptom",
       "prompts": [
-        {"sentence": "I have a ___.", "answer": "headache"},
-        {"sentence": "I have a ___.", "answer": "fever"},
-        {"sentence": "I have a ___.", "answer": "stomachache"},
-        {"sentence": "I have a ___.", "answer": "cold"}
+        {
+          "sentence": "I have a ___.",
+          "answer": "headache"
+        },
+        {
+          "sentence": "I have a ___.",
+          "answer": "fever"
+        },
+        {
+          "sentence": "I have a ___.",
+          "answer": "stomachache"
+        },
+        {
+          "sentence": "I have a ___.",
+          "answer": "cold"
+        }
       ],
       "examples": [
         "I have a headache.",
@@ -131,10 +155,22 @@
       "title": "Drill 2: Saying what hurts",
       "instruction": "Fill in the blank with the correct body part",
       "prompts": [
-        {"sentence": "My ___ hurts.", "answer": "head"},
-        {"sentence": "My ___ hurts.", "answer": "stomach"},
-        {"sentence": "My ___ hurts.", "answer": "back"},
-        {"sentence": "My ___ hurts.", "answer": "throat"}
+        {
+          "sentence": "My ___ hurts.",
+          "answer": "head"
+        },
+        {
+          "sentence": "My ___ hurts.",
+          "answer": "stomach"
+        },
+        {
+          "sentence": "My ___ hurts.",
+          "answer": "back"
+        },
+        {
+          "sentence": "My ___ hurts.",
+          "answer": "throat"
+        }
       ],
       "examples": [
         "My head hurts.",
@@ -150,10 +186,22 @@
       "title": "Drill 3: At the doctor",
       "instruction": "Fill in the blank to complete the sentence",
       "prompts": [
-        {"sentence": "I feel ___.", "answer": "sick"},
-        {"sentence": "I feel ___.", "answer": "dizzy"},
-        {"sentence": "I feel ___.", "answer": "tired"},
-        {"sentence": "I need to see a ___.", "answer": "doctor"}
+        {
+          "sentence": "I feel ___.",
+          "answer": "sick"
+        },
+        {
+          "sentence": "I feel ___.",
+          "answer": "dizzy"
+        },
+        {
+          "sentence": "I feel ___.",
+          "answer": "tired"
+        },
+        {
+          "sentence": "I need to see a ___.",
+          "answer": "doctor"
+        }
       ],
       "examples": [
         "I feel sick.",
@@ -166,13 +214,17 @@
       "audio": []
     }
   ],
-
   "listening": [
     {
       "question": "Listen: What is wrong with the patient?",
       "audio": "/audio/lesson9-listen1.mp3",
       "transcript": "What is wrong today? My head hurts. I have a headache.",
-      "options": ["Headache", "Stomachache", "Fever", "Broken arm"],
+      "options": [
+        "Headache",
+        "Stomachache",
+        "Fever",
+        "Broken arm"
+      ],
       "correct": 0,
       "explanation": "The patient says 'My head hurts. I have a headache.'"
     },
@@ -180,7 +232,12 @@
       "question": "Listen: What does the doctor tell the patient to do?",
       "audio": "/audio/lesson9-listen2.mp3",
       "transcript": "Please take this medicine and rest at home.",
-      "options": ["Go to the hospital", "Take medicine and rest", "Come back tomorrow", "Drink coffee"],
+      "options": [
+        "Go to the hospital",
+        "Take medicine and rest",
+        "Come back tomorrow",
+        "Drink coffee"
+      ],
       "correct": 1,
       "explanation": "The doctor says 'Take this medicine and rest.'"
     },
@@ -188,12 +245,16 @@
       "question": "Listen: How long has the person been sick?",
       "audio": "/audio/lesson9-listen3.mp3",
       "transcript": "How long have you been sick? Three days.",
-      "options": ["One day", "Two days", "Three days", "One week"],
+      "options": [
+        "One day",
+        "Two days",
+        "Three days",
+        "One week"
+      ],
       "correct": 2,
       "explanation": "The patient says 'Three days.'"
     }
   ],
-
   "speaking": [
     {
       "title": "Task 1: Describe your symptoms",
@@ -206,7 +267,6 @@
       "example": "Doctor: How are you feeling?\nYou: I feel sick. My stomach hurts.\nDoctor: How long?\nYou: Two days.\nDoctor: Take this medicine.\nYou: Thank you, doctor."
     }
   ],
-
   "writing": [
     {
       "title": "Task 1: Write your symptoms",
@@ -219,7 +279,6 @@
       "example": "Doctor: Hello. How are you feeling?\nYou: I feel sick.\nDoctor: What is wrong?\nYou: My head hurts and I have a fever.\nDoctor: How long?\nYou: Three days.\nDoctor: Take this medicine two times a day.\nYou: Okay. Thank you.\nDoctor: Come back in one week.\nYou: Thank you, doctor."
     }
   ],
-
   "grammar_discovery": {
     "sections": [
       {
@@ -255,7 +314,6 @@
       }
     ]
   },
-
   "quiz": [
     {
       "type": "multiple-choice",
@@ -367,5 +425,27 @@
       "correct": null,
       "explanation": "Practice using real experiences. Example: I had a fever. My head hurt. I felt tired."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida calaamadaha jirrada loo sharaxo, tilmaamaha dhakhtarkana loo fahmo",
+    "objectives": [
+      "Sharax sida aad dareemayso (I have a headache / My stomach hurts)",
+      "Ka jawaab su'aalaha dhakhtarka ee calaamadaha jirrada",
+      "Faham tilmaamaha caafimaadka aasaasiga ah",
+      "Qabso oo xaqiiji ballan dhakhtar"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'I have + a + calaamad' waxaan u isticmaalnaa si aan u sheegno waxa khaldan. Calaamadaha caadiga ah: a headache (madax-xanuun), a fever (qandho), a stomachache (calool-xanuun), a cold (hargab), a cough (qufac)."
+        },
+        {
+          "explanation": "'My + [xubin jidhka] + hurts' waxaan u isticmaalnaa si aan u sheegno meesha xanuunku yahay. Tani aad bay faa'iido ugu leedahay dhakhtarka."
+        },
+        {
+          "explanation": "'I feel + [tilmaame]' waxaan u isticmaalnaa si aan u sharaxno xaaladdeena guud. Dhakhtarku wuxuu inta badan waydiiyaa 'How do you feel?' ama 'How are you feeling?'"
+        }
+      ]
+    }
+  }
 }

@@ -6,14 +6,12 @@
   "description": "Learn to socialize and find common interests",
   "difficulty": "beginner",
   "is_last_in_unit": false,
-  
   "objectives": [
     "Talk about hobbies and interests (I like... / I enjoy...)",
     "Find common interests (Do you like...? / Me too!)",
     "Make conversation with new people",
     "Express likes and dislikes"
   ],
-  
   "target_language": {
     "phrases": [
       "I like [activity/thing]",
@@ -29,21 +27,32 @@
       {
         "label": "Expressing likes",
         "pattern": "I like + [noun / verb-ing]",
-        "examples": ["I like soccer", "I like playing soccer", "I like movies"]
+        "examples": [
+          "I like soccer",
+          "I like playing soccer",
+          "I like movies"
+        ]
       },
       {
         "label": "Asking about interests",
         "pattern": "Do you like + [noun / verb-ing]?",
-        "examples": ["Do you like soccer?", "Do you like reading?", "Do you like cooking?"]
+        "examples": [
+          "Do you like soccer?",
+          "Do you like reading?",
+          "Do you like cooking?"
+        ]
       },
       {
         "label": "Agreeing with others",
         "pattern": "Me too! / Me neither!",
-        "examples": ["I like soccer. — Me too!", "I don't like basketball. — Me neither!", "I love reading. — Me too!"]
+        "examples": [
+          "I like soccer. — Me too!",
+          "I don't like basketball. — Me neither!",
+          "I love reading. — Me too!"
+        ]
       }
     ]
   },
-  
   "story": {
     "context": "You meet Tom at a community center. You try to find common interests.",
     "dialogue": [
@@ -93,16 +102,27 @@
       }
     ]
   },
-  
   "drills": [
     {
       "title": "Drill 1: I like / I don't like",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "I like ___.", "answer": "soccer"},
-        {"sentence": "I like ___.", "answer": "reading"},
-        {"sentence": "I don't like ___.", "answer": "basketball"},
-        {"sentence": "I don't like ___.", "answer": "cooking"}
+        {
+          "sentence": "I like ___.",
+          "answer": "soccer"
+        },
+        {
+          "sentence": "I like ___.",
+          "answer": "reading"
+        },
+        {
+          "sentence": "I don't like ___.",
+          "answer": "basketball"
+        },
+        {
+          "sentence": "I don't like ___.",
+          "answer": "cooking"
+        }
       ],
       "examples": [
         "I like soccer.",
@@ -118,10 +138,22 @@
       "title": "Drill 2: Do you like...?",
       "instruction": "Fill in the blank with the correct word",
       "prompts": [
-        {"sentence": "Do you like ___?", "answer": "soccer"},
-        {"sentence": "Do you like ___?", "answer": "reading"},
-        {"sentence": "Do you like ___?", "answer": "cooking"},
-        {"sentence": "Do you like ___?", "answer": "movies"}
+        {
+          "sentence": "Do you like ___?",
+          "answer": "soccer"
+        },
+        {
+          "sentence": "Do you like ___?",
+          "answer": "reading"
+        },
+        {
+          "sentence": "Do you like ___?",
+          "answer": "cooking"
+        },
+        {
+          "sentence": "Do you like ___?",
+          "answer": "movies"
+        }
       ],
       "examples": [
         "Do you like soccer?",
@@ -137,10 +169,22 @@
       "title": "Drill 3: Me too! / Me neither!",
       "instruction": "Fill in the blank with the correct response",
       "prompts": [
-        {"sentence": "I like soccer. — Me ___!", "answer": "too"},
-        {"sentence": "I love reading. — Me ___!", "answer": "too"},
-        {"sentence": "I don't like basketball. — Me ___!", "answer": "neither"},
-        {"sentence": "I don't enjoy cooking. — Me ___!", "answer": "neither"}
+        {
+          "sentence": "I like soccer. — Me ___!",
+          "answer": "too"
+        },
+        {
+          "sentence": "I love reading. — Me ___!",
+          "answer": "too"
+        },
+        {
+          "sentence": "I don't like basketball. — Me ___!",
+          "answer": "neither"
+        },
+        {
+          "sentence": "I don't enjoy cooking. — Me ___!",
+          "answer": "neither"
+        }
       ],
       "examples": [
         "I like soccer. — Me too!",
@@ -153,13 +197,17 @@
       "audio": []
     }
   ],
-  
   "listening": [
     {
       "question": "Listen: What sport does Ahmed like?",
       "audio": "/audio/lesson12-listen1.mp3",
       "transcript": "What sports do you like? I like playing soccer.",
-      "options": ["Basketball", "Soccer", "Running", "Tennis"],
+      "options": [
+        "Basketball",
+        "Soccer",
+        "Running",
+        "Tennis"
+      ],
       "correct": 1,
       "explanation": "Ahmed says 'I like playing soccer'"
     },
@@ -167,7 +215,12 @@
       "question": "Listen: Does Tom like basketball?",
       "audio": "/audio/lesson12-listen2.mp3",
       "transcript": "Do you like basketball, Tom? No, I don't like basketball.",
-      "options": ["Yes, he loves it", "Yes, he likes it", "No, he doesn't", "Not mentioned"],
+      "options": [
+        "Yes, he loves it",
+        "Yes, he likes it",
+        "No, he doesn't",
+        "Not mentioned"
+      ],
       "correct": 2,
       "explanation": "Tom says 'I don't like basketball'"
     },
@@ -175,12 +228,16 @@
       "question": "Listen: When does Tom play soccer?",
       "audio": "/audio/lesson12-listen3.mp3",
       "transcript": "When do you play soccer, Tom? I play every Saturday.",
-      "options": ["Every day", "Every Saturday", "Every Sunday", "Twice a week"],
+      "options": [
+        "Every day",
+        "Every Saturday",
+        "Every Sunday",
+        "Twice a week"
+      ],
       "correct": 1,
       "explanation": "Tom says 'I play every Saturday'"
     }
   ],
-  
   "speaking": [
     {
       "title": "Task 1: Talk about your interests",
@@ -193,7 +250,6 @@
       "example": "You: What do you like to do?\nPerson: I like playing soccer.\nYou: Really? I love soccer too! Do you play on a team?\nPerson: No, just with friends. Do you like basketball?\nYou: No, I don't like basketball. But I like tennis."
     }
   ],
-  
   "writing": [
     {
       "title": "Task 1: Write about your interests",
@@ -206,7 +262,6 @@
       "example": "You: Hi! I'm Ahmed.\nPerson: Hi! I'm Lisa. Nice to meet you.\nYou: What do you like to do?\nLisa: I like reading and watching movies. What about you?\nYou: I like movies too! What kind of movies do you like?\nLisa: I like action movies.\nYou: Me too! Do you like sports?\nLisa: Not really. I don't like sports. Do you?\nYou: Yes, I love playing soccer.\nLisa: That's cool. We should watch a movie sometime!\nYou: Yes! That sounds great."
     }
   ],
-  
   "grammar_discovery": {
     "sections": [
       {
@@ -244,7 +299,6 @@
       }
     ]
   },
-  
   "quiz": [
     {
       "type": "multiple-choice",
@@ -356,5 +410,27 @@
       "correct": null,
       "explanation": "Think about how shared interests bring people together."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida saaxiibbo loo sameeyo, danaha guudna loo helo",
+    "objectives": [
+      "Ka hadal hiwaayadaha iyo danaha (I like... / I enjoy...)",
+      "Hel danaha aad wadaagtaan (Do you like...? / Me too!)",
+      "La hadal dad cusub",
+      "Muuji waxa aad jeceshahay iyo waxa aadan jeclayn"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Haa! 'I like soccer' iyo 'I like playing soccer' labaduba waa sax. Isticmaalka fal-ing wuxuu si gaar ah u sheegayaa hawsha."
+        },
+        {
+          "explanation": "'Me too' waxaan u isticmaalnaa inaan ku raacno hadallada togan. 'Me neither' waxaan u isticmaalnaa hadallada diidmada ah (don't/doesn't)."
+        },
+        {
+          "explanation": "'We should...' ama 'You should...' waa siyaabo saaxiibtinimo leh oo lagu soo jeediyo inaad wax wada samaysaan. Waa caadi marka aad qorshe la samaysanayso saaxiibbo cusub."
+        }
+      ]
+    }
+  }
 }

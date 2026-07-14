@@ -59,17 +59,50 @@
   "story": {
     "context": "Ahmed finds a job posting at the community center. He asks his English teacher, Ms. Kim, to help him read and understand it.",
     "dialogue": [
-      { "speaker": "Ahmed", "text": "Ms. Kim, can you help me? I found a job, but I don't understand all the words." },
-      { "speaker": "Ms. Kim", "text": "Of course! Let me see. It says: 'Warehouse Associate — Full Time. $18/hour.' What part is confusing?" },
-      { "speaker": "Ahmed", "text": "Here it says 'required' and here it says 'preferred.' What is the difference?" },
-      { "speaker": "Ms. Kim", "text": "Good question. 'Required' means you must have it — no exceptions. 'Preferred' means it helps, but you can still apply without it." },
-      { "speaker": "Ahmed", "text": "Okay. So it says a driver's license is required. I don't have a U.S. license yet." },
-      { "speaker": "Ms. Kim", "text": "Then you cannot apply for that position. But look here — this other posting says a license is only preferred." },
-      { "speaker": "Ahmed", "text": "Oh! And it says 'must be able to lift 50 pounds.' I can do that. And 'experience preferred, not required.' So I can apply?" },
-      { "speaker": "Ms. Kim", "text": "Yes! You meet most of the requirements. Do you have any questions you want to ask the employer?" },
-      { "speaker": "Ahmed", "text": "Yes — do I have to work on weekends? And do I need to bring anything to the interview?" },
-      { "speaker": "Ms. Kim", "text": "Those are excellent questions. You should also ask: is a background check required?" },
-      { "speaker": "Ahmed", "text": "I understand now. 'Required' means I must have it. 'Preferred' means it helps but is not required. I can do this!" }
+      {
+        "speaker": "Ahmed",
+        "text": "Ms. Kim, can you help me? I found a job, but I don't understand all the words."
+      },
+      {
+        "speaker": "Ms. Kim",
+        "text": "Of course! Let me see. It says: 'Warehouse Associate — Full Time. $18/hour.' What part is confusing?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Here it says 'required' and here it says 'preferred.' What is the difference?"
+      },
+      {
+        "speaker": "Ms. Kim",
+        "text": "Good question. 'Required' means you must have it — no exceptions. 'Preferred' means it helps, but you can still apply without it."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Okay. So it says a driver's license is required. I don't have a U.S. license yet."
+      },
+      {
+        "speaker": "Ms. Kim",
+        "text": "Then you cannot apply for that position. But look here — this other posting says a license is only preferred."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Oh! And it says 'must be able to lift 50 pounds.' I can do that. And 'experience preferred, not required.' So I can apply?"
+      },
+      {
+        "speaker": "Ms. Kim",
+        "text": "Yes! You meet most of the requirements. Do you have any questions you want to ask the employer?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes — do I have to work on weekends? And do I need to bring anything to the interview?"
+      },
+      {
+        "speaker": "Ms. Kim",
+        "text": "Those are excellent questions. You should also ask: is a background check required?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I understand now. 'Required' means I must have it. 'Preferred' means it helps but is not required. I can do this!"
+      }
     ]
   },
   "drills": [
@@ -77,10 +110,22 @@
       "title": "Must and Need To",
       "instruction": "Complete the requirement. Use: must / need to + [verb]",
       "prompts": [
-        { "sentence": "You ___ be 18 years or older to apply.", "answer": "must" },
-        { "sentence": "You ___ to fill out the application form online.", "answer": "need" },
-        { "sentence": "Applicants ___ have a valid ID.", "answer": "must" },
-        { "sentence": "You ___ to bring two references to the interview.", "answer": "need" }
+        {
+          "sentence": "You ___ be 18 years or older to apply.",
+          "answer": "must"
+        },
+        {
+          "sentence": "You ___ to fill out the application form online.",
+          "answer": "need"
+        },
+        {
+          "sentence": "Applicants ___ have a valid ID.",
+          "answer": "must"
+        },
+        {
+          "sentence": "You ___ to bring two references to the interview.",
+          "answer": "need"
+        }
       ],
       "examples": [
         "You must be able to lift heavy boxes.",
@@ -97,10 +142,22 @@
       "title": "Do I Have To?",
       "instruction": "Ask about requirements. Use: Do I have to + [verb]?",
       "prompts": [
-        { "sentence": "___ I have to work on weekends?", "answer": "Do" },
-        { "sentence": "___ I have to have a high school diploma?", "answer": "Do" },
-        { "sentence": "___ she have to speak Spanish?", "answer": "Does" },
-        { "sentence": "___ we have to bring our own tools?", "answer": "Do" }
+        {
+          "sentence": "___ I have to work on weekends?",
+          "answer": "Do"
+        },
+        {
+          "sentence": "___ I have to have a high school diploma?",
+          "answer": "Do"
+        },
+        {
+          "sentence": "___ she have to speak Spanish?",
+          "answer": "Does"
+        },
+        {
+          "sentence": "___ we have to bring our own tools?",
+          "answer": "Do"
+        }
       ],
       "examples": [
         "Do I have to work nights?",
@@ -117,10 +174,22 @@
       "title": "Required vs Preferred",
       "instruction": "Listen and decide: is it required or preferred? Use the words in your answer.",
       "prompts": [
-        { "sentence": "A diploma is ___. You cannot apply without one.", "answer": "required" },
-        { "sentence": "Experience is ___. It helps, but you can still apply.", "answer": "preferred" },
-        { "sentence": "A background check is ___. Everyone must pass it.", "answer": "required" },
-        { "sentence": "Spanish is ___. It is useful but not necessary.", "answer": "preferred" }
+        {
+          "sentence": "A diploma is ___. You cannot apply without one.",
+          "answer": "required"
+        },
+        {
+          "sentence": "Experience is ___. It helps, but you can still apply.",
+          "answer": "preferred"
+        },
+        {
+          "sentence": "A background check is ___. Everyone must pass it.",
+          "answer": "required"
+        },
+        {
+          "sentence": "Spanish is ___. It is useful but not necessary.",
+          "answer": "preferred"
+        }
       ],
       "examples": [
         "A valid ID is required. You must have one.",
@@ -339,5 +408,24 @@
       "correct": null,
       "explanation": "Connect real job requirements to your own availability. Saying clearly what you can and cannot do is an important skill."
     }
-  ]
+  ],
+  "somali": {
+    "description": "Baro sida loo akhriyo loona fahmo xayaysiisyada shaqada, shuruudahana loo waydiiyo",
+    "objectives": [
+      "Akhri oo faham xayaysiis shaqo oo fudud",
+      "Faham erayada sida 'required', 'preferred', iyo 'must'",
+      "Waydii shuruudaha shaqada ee aadan fahmin",
+      "Sheeg inaad shuruud buuxinayso iyo in kale"
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "MUST iyo NEED TO labaduba waxay muujiyaan waajib — wax loo baahan yahay. Si kastaba, MUST waxay u dhawaaqdaa si rasmi iyo adag (sida sharci ama qaanuun adag), halka NEED TO ay u dhawaaqdo si wax-ku-ool ah (sida tallaabo hab-socod). Xayaysiisyada shaqadu inta badan waxay isticmaalaan MUST. Su'aalaha, waxaan caadi ahaan isticmaalnaa NEED TO ama HAVE TO, ma aha MUST."
+        },
+        {
+          "explanation": "REQUIRED waxay ka dhigan tahay in shaqo-bixiyuhu aanu ku shaqaalaysiin la'aanteed. PREFERRED waxay ka dhigan tahay in shaqo-bixiyuhu jeclaan lahaa, laakiin weli codsigaaga way tixgelin doonaan la'aanteed. Mar walba si taxaddar leh u hubi: haddii aad ka maqan tahay shuruud REQUIRED ah, codsigaaga waxay u badan tahay in la diido. Ka maqnaanshaha shuruud PREFERRED ah caadi ahaan waa la aqbali karaa."
+        }
+      ]
+    }
+  }
 }
