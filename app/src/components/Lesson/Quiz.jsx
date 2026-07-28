@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
 
-export function Quiz({ questions, onComplete, onRequestHelp }) {
+export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp }) {
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -220,6 +220,11 @@ export function Quiz({ questions, onComplete, onRequestHelp }) {
             <p className="text-sm text-blue-900 dark:text-blue-300">
               <strong>Explanation:</strong> {question.explanation}
             </p>
+            {somaliExplanations?.[String(question.id ?? currentQ)] && (
+              <p className="text-sm text-blue-800 dark:text-blue-300/80 italic mt-2">
+                {somaliExplanations[String(question.id ?? currentQ)]}
+              </p>
+            )}
           </div>
         )}
 

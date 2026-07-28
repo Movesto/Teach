@@ -7,7 +7,7 @@ import IntermediateLesson from '../components/Lesson/IntermediateLesson';
 import AdvancedLesson from '../components/Lesson/AdvancedLesson';
 import AITutorModal from '../components/AITutorModal';
 import FeedbackModal from '../components/FeedbackModal';
-import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle } from 'lucide-react';
+import { HelpCircle, BookOpen, Volume2, Mic, Edit, CheckCircle, Languages } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 import ErrorBox from '../components/ErrorBox';
 
@@ -27,6 +27,14 @@ export default function LessonView() {
   const [lastScore, setLastScore] = useState(null);
   const [loadError, setLoadError] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
+  // Somali scaffolding: always-on for the bilingual tier (units 1–2), an
+  // on-demand toggle for english_first (units 3–7). null = follow the tier default.
+  const [showSomali, setShowSomali] = useState(null);
+
+  const somaliAvailable =
+    lesson?.somali && Object.keys(lesson.somali).length > 0 && lesson?.support_level !== 'immersion';
+  const somaliOn = somaliAvailable && (showSomali ?? lesson?.support_level === 'bilingual');
+  const so = somaliOn ? lesson.somali : null;
 
   useEffect(() => {
     apiFetch(`/api/lessons/${lessonId}`)
@@ -128,6 +136,20 @@ export default function LessonView() {
             >
               ★ Rating
             </button>
+            {somaliAvailable && (
+              <button
+                onClick={() => setShowSomali(!somaliOn)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg border-2 transition-colors ${
+                  somaliOn
+                    ? 'border-teal-600 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300'
+                    : 'border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                }`}
+                title="Show or hide Somali translations in this lesson"
+              >
+                <Languages className="w-5 h-5" />
+                {somaliOn ? 'Soomaali: On' : 'Soomaali'}
+              </button>
+            )}
             <button
               onClick={() => requestHelp({ type: 'lesson', content: lesson })}
               className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -139,8 +161,8 @@ export default function LessonView() {
         </div>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{lesson.title}</h1>
         <p className="text-gray-600 dark:text-gray-400">{lesson.description}</p>
-        {lesson.somali?.description && (
-          <p className="text-gray-500 dark:text-gray-500 text-sm italic mt-1">{lesson.somali.description}</p>
+        {so?.description && (
+          <p className="text-gray-500 dark:text-gray-500 text-sm italic mt-1">{so.description}</p>
         )}
         {lesson.story_context && (
           <div className="mt-4 bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 rounded-r-lg p-4">
@@ -171,6 +193,7 @@ export default function LessonView() {
       {lesson.template === 'intermediate' && (
         <IntermediateLesson
           lesson={lesson}
+          somali={so}
           onRequestHelp={requestHelp}
           onQuizComplete={submitQuiz}
         />
@@ -233,9 +256,9 @@ export default function LessonView() {
                       <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-700 dark:text-gray-300">
                         {obj}
-                        {lesson.somali?.objectives?.[idx] && (
+                        {so?.objectives?.[idx] && (
                           <span className="block text-sm text-gray-500 dark:text-gray-400 italic mt-0.5">
-                            {lesson.somali.objectives[idx]}
+                            {so.objectives[idx]}
                           </span>
                         )}
                       </span>
@@ -260,7 +283,14 @@ export default function LessonView() {
                     {lesson.target_language.phrases?.map((phrase, idx) => (
                       <li key={idx} className="flex items-start gap-2">
                         <span className="text-blue-600 dark:text-blue-400 font-bold">{idx + 1}.</span>
-                        <span className="text-gray-800 dark:text-gray-200 text-lg">"{phrase}"</span>
+                        <span className="text-gray-800 dark:text-gray-200 text-lg">
+                          "{phrase}"
+                          {so?.target_phrases?.[idx] && (
+                            <span className="block text-sm text-gray-500 dark:text-gray-400 italic">
+                              {so.target_phrases[idx]}
+                            </span>
+                          )}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -376,7 +406,7 @@ export default function LessonView() {
             {currentSection === 'grammar' && lesson.grammar_discovery && (
               <GrammarDiscovery
                 content={lesson.grammar_discovery}
-                somali={lesson.somali?.grammar_discovery}
+                somali={so?.grammar_discovery}
                 unitId={lesson.unit_id}
                 onComplete={() => { markSectionComplete('grammar'); setCurrentSection('quiz'); }}
                 onRequestHelp={requestHelp}
@@ -401,6 +431,7 @@ export default function LessonView() {
                 )}
                 <Quiz
                   questions={lesson.quiz}
+                  somaliExplanations={so?.quiz_explanations}
                   lessonId={lessonId}
                   onComplete={(score) => {
                     markSectionComplete('quiz');
