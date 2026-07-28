@@ -1,0 +1,282 @@
+{
+  "id": "lesson-107",
+  "unit_id": 5,
+  "lesson_number": 8,
+  "title": "Taking a Taxi or Rideshare",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand how taxis and rideshare apps like Uber and Lyft work in the United States",
+    "Book a ride and give clear directions to a driver",
+    "Talk about fares, tipping, and ride safety with confidence",
+    "Handle a problem with a ride politely and effectively"
+  ],
+  "reading_passage": {
+    "title": "Getting Around by Taxi and Rideshare",
+    "text": "For people who do not own a car, taxis and rideshare services are an important way to get around an American city, especially for trips that public transport does not cover well. Understanding how they work — and how they differ — can save you money and stress.\n\nA traditional taxi is a car you hire for a single trip. In some cities you can wave one down on the street; in others, you must call a taxi company or find a taxi stand outside an airport, hotel, or train station. The price is shown on a meter, which starts at a fixed amount and then increases with distance and time. Because the meter keeps running when the car is stopped in traffic, a taxi can become expensive during busy periods. You usually pay the driver directly, in cash or by card, and it is customary to add a tip of about fifteen percent.\n\nA rideshare service works through a smartphone app such as Uber or Lyft. You enter your pick-up location and your destination, and the app finds a nearby driver, shows you the price before you agree, and lets you pay automatically through the card saved in your account. This is one of the biggest advantages of rideshare: you know the cost in advance, and there is no need to handle cash. The app also shows the driver's name, photo, and car, so you can check that you are getting into the right vehicle — an important safety habit. Before you open the door, confirm the driver's name and the licence plate.\n\nRideshare prices are not always fixed, however. When many people want rides at the same time — after a concert, during bad weather, or at rush hour — prices rise. This is called surge pricing, and it can double or triple the normal fare. If you see a very high price, it is often worth waiting ten or fifteen minutes for it to fall.\n\nWhichever option you choose, a few habits keep you safe and save money. Compare the app price with a taxi if you are unsure. Sit in the back seat when you travel alone. Share your trip with a friend or family member through the app, so someone knows where you are. And if a driver behaves in a way that worries you, you can end the trip early and report the driver afterwards. Used sensibly, taxis and rideshare give you a flexible, door-to-door way to travel across the city.",
+    "source": "Adapted for learners — everyday transport in the United States",
+    "glossary": [
+      {
+        "word": "meter",
+        "meaning": "a device in a taxi that measures the fare, increasing with distance and time"
+      },
+      {
+        "word": "rideshare",
+        "meaning": "a service such as Uber or Lyft that connects riders with drivers through a phone app"
+      },
+      {
+        "word": "surge pricing",
+        "meaning": "higher prices charged when demand for rides is very high"
+      },
+      {
+        "word": "licence plate",
+        "meaning": "the official number sign on the front and back of a vehicle"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "How is the price of a traditional taxi trip calculated?",
+      "answer": "By a meter, which starts at a fixed amount and then increases with distance and time. Because it keeps running while the car is stopped in traffic, taxis can become expensive during busy periods."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say knowing the price in advance is 'one of the biggest advantages of rideshare'?",
+      "answer": "Because the app shows the total cost before you agree to the ride, so you are not surprised by a large meter fare at the end, and you can decide whether to accept the price or wait — unlike a taxi, where the final amount is uncertain until you arrive."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'surge pricing' mean, and give one situation that causes it.",
+      "answer": "Surge pricing means higher-than-normal fares charged when many people want rides at once. It happens at times of high demand such as after a concert, during bad weather, or at rush hour, and can double or triple the normal price."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise confirming the driver's name and licence plate before getting in?",
+      "answer": "For safety — to make sure you are getting into the correct car and not a stranger's vehicle. The app shows the driver's name, photo, and plate number, so checking them protects you from getting into the wrong or an unsafe car."
+    }
+  ],
+  "language_focus": {
+    "title": "Polite Requests and Giving Directions to a Driver",
+    "explanation": "When you speak to a taxi or rideshare driver, you often need to make a request or give a direction. Polite forms make the interaction smooth and friendly. Use 'Could you...?' and 'Would you mind...?' for requests, and clear location words ('at the corner of', 'just past', 'in front of') for directions. Notice that 'Could you' is more polite than a plain command like 'Turn here.'",
+    "examples": [
+      {
+        "sentence": "Could you drop me off at the corner of Fifth and Main, please?",
+        "note": "'Could you...?' + 'please' is a polite request; 'at the corner of' gives an exact location."
+      },
+      {
+        "sentence": "Would you mind taking the highway? I'm in a bit of a hurry.",
+        "note": "'Would you mind + -ing' is a very polite way to ask for something and softens the request with a reason."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Make this a polite request: 'Stop here.'",
+        "answer": "Could you stop here, please?"
+      },
+      {
+        "sentence": "Make this a polite request: 'Wait for me for two minutes.'",
+        "answer": "Would you mind waiting for me for two minutes?"
+      },
+      {
+        "sentence": "Give a clear direction using 'just past': the pharmacy is a little after the bank.",
+        "answer": "It's just past the bank, on the right."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "fare",
+      "definition": "the money you pay for a journey by taxi, bus, train, or rideshare",
+      "example_sentence": "The fare from the airport to downtown was about thirty dollars.",
+      "collocations": [
+        "pay the fare",
+        "the fare comes to",
+        "a flat fare"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "pick-up",
+      "definition": "the place where a driver collects you at the start of a trip",
+      "example_sentence": "I set the pick-up location to my apartment and the destination to the clinic.",
+      "collocations": [
+        "pick-up location",
+        "pick-up point",
+        "schedule a pick-up"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "tip",
+      "definition": "extra money you give a driver or server to thank them for good service",
+      "example_sentence": "In the US it is normal to add a tip of about fifteen percent.",
+      "collocations": [
+        "leave a tip",
+        "add a tip",
+        "a generous tip"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "drop-off",
+      "definition": "the place where the driver lets you out at the end of a trip",
+      "example_sentence": "Please change the drop-off to the side entrance of the hospital.",
+      "collocations": [
+        "drop-off point",
+        "change the drop-off",
+        "a quick drop-off"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You have ordered a rideshare to take you from your apartment to a job interview across the city. The driver has just arrived.",
+    "prompt": "Have a short conversation with the driver. Confirm you are getting in the right car, greet the driver, give your destination clearly, make one polite request (for example, about the route or the temperature), and thank the driver at the end. Speak for about ninety seconds.",
+    "useful_language": [
+      "Hi, are you here for Ahmed?",
+      "I'm going to 240 Center Street, please.",
+      "Could you take the highway if it's not too much longer?",
+      "Would you mind turning the air conditioning down a little?",
+      "Thanks very much — have a good day."
+    ],
+    "model_answer": "Hi, are you here for Ahmed? Great, thank you. I'm going to 240 Center Street, near the community college. Could you take the highway if it's not too much longer? I have an interview at ten and I don't want to be late. Would you mind turning the music down a little so I can go over my notes? Thank you. This is perfect, you can drop me off right in front of the main entrance. Thanks very much — have a good day."
+  },
+  "writing_workshop": {
+    "task": "Write a short, polite message to send to a rideshare company's help centre about a problem with a recent ride (for example, you were charged too much, or the driver took a longer route). Explain what happened clearly and say what you would like them to do.",
+    "word_count": "120-160",
+    "model_text": "Hello, I am writing about a ride I took on Saturday evening from the airport to my home on Center Street. When I booked the ride, the app showed a price of twenty-two dollars. However, I was charged thirty-five dollars, and I do not understand why. The driver also took a much longer route than the map suggested, along the highway, when the direct road was open. I would be grateful if you could look into this and explain the difference in price. If there was an error, I would appreciate a refund of the extra amount. Thank you for your help. My trip reference number is 4821-B.",
+    "model_analysis": "The message states the problem clearly in the first two sentences, gives specific details (date, route, both prices, reference number), stays polite throughout ('I would be grateful', 'I would appreciate'), and ends with a clear request. Specific facts make a complaint far more effective than an angry, vague one.",
+    "success_criteria": [
+      "State the problem clearly in the first two sentences",
+      "Include specific details: date, route, prices, and a reference number",
+      "Make one clear request (an explanation or a refund)",
+      "Keep a polite, calm tone throughout"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "How do you usually pay for a rideshare trip booked through an app?",
+      "options": [
+        "In cash to the driver",
+        "Automatically through the card saved in your account",
+        "At a taxi stand before the trip",
+        "By cheque at the end of the month"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains that a rideshare app 'lets you pay automatically through the card saved in your account', so there is no need to handle cash."
+    },
+    {
+      "id": 2,
+      "question": "According to the passage, why can a taxi become expensive in heavy traffic?",
+      "options": [
+        "The driver charges a fixed penalty",
+        "The meter keeps running even when the car is stopped",
+        "Surge pricing applies to taxis",
+        "You must pay a tip of fifty percent"
+      ],
+      "correct": 1,
+      "explanation": "The passage states that 'the meter keeps running when the car is stopped in traffic', so a taxi can become expensive during busy periods."
+    },
+    {
+      "id": 3,
+      "question": "What is the best response to a very high surge price, according to the passage?",
+      "options": [
+        "Pay it immediately because prices never fall",
+        "Wait ten or fifteen minutes for the price to fall",
+        "Report the driver to the police",
+        "Take a taxi with no meter"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises that 'it is often worth waiting ten or fifteen minutes for it to fall' when you see a very high surge price."
+    },
+    {
+      "id": 4,
+      "question": "Which is the most polite way to ask a driver to stop?",
+      "options": [
+        "Stop here.",
+        "Could you stop here, please?",
+        "You must stop.",
+        "Stop the car now."
+      ],
+      "correct": 1,
+      "explanation": "'Could you... please?' is a polite request, softer than a direct command like 'Stop here.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'drop-off' mean?",
+      "options": [
+        "The money you pay for the trip",
+        "The place where the driver lets you out",
+        "The tip you give the driver",
+        "The app you use to book"
+      ],
+      "correct": 1,
+      "explanation": "'Drop-off' is the place where the driver lets you out at the end of the trip; 'pick-up' is where they collect you."
+    },
+    {
+      "id": 6,
+      "question": "Which safety habit does the passage recommend when travelling alone?",
+      "options": [
+        "Sit in the front seat next to the driver",
+        "Sit in the back seat",
+        "Pay only in cash",
+        "Turn off your phone"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises: 'Sit in the back seat when you travel alone,' as one of several safety habits."
+    },
+    {
+      "id": 7,
+      "question": "Complete the polite request: 'Would you mind ___ for two minutes?'",
+      "options": [
+        "wait",
+        "to wait",
+        "waiting",
+        "waited"
+      ],
+      "correct": 2,
+      "explanation": "'Would you mind' is followed by the -ing form: 'Would you mind waiting...?'"
+    },
+    {
+      "id": 8,
+      "question": "Why does the app show the driver's name, photo, and car?",
+      "options": [
+        "To advertise the driver",
+        "So you can confirm you are getting into the right vehicle",
+        "To calculate the surge price",
+        "To collect your tip"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains this is 'an important safety habit' — you can check that you are getting into the right vehicle by confirming the driver's name and licence plate."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Rider: Hi, are you here for Fatima? Driver: Yes, that's me. Hop in. Where are you headed today? Rider: I'm going to the Riverside Medical Center on Oak Street, please. Driver: No problem. Do you have a preferred route, or shall I take the fastest one the app suggests? Rider: The fastest one is fine. Could you avoid the highway if there's traffic, though? I get a little carsick. Driver: Sure, I'll take the main roads. It might be a couple of minutes longer, but it's a smoother drive. Rider: That's perfect, thank you. About how long will it take? Driver: Around fifteen minutes at this time of day. There's water in the door pocket if you'd like some. Rider: That's very kind, thank you.",
+      "question": "What does the rider ask the driver to do?",
+      "options": [
+        "Drive faster than usual",
+        "Avoid the highway if there's traffic",
+        "Stop for water",
+        "Turn on the air conditioning"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Rider: Excuse me, I think there might be a problem with the fare. The app said the ride would be about eighteen dollars, but it's now showing thirty-one. Driver: Ah, that's probably because of surge pricing. There's a big game finishing downtown, so prices went up when you booked. Rider: I see. I didn't notice the higher price before I confirmed. Is there anything I can do? Driver: I can't change the fare myself, unfortunately — it's set by the app. But you can report it in the help section after the trip, and sometimes they'll review it, especially if the surge wasn't shown clearly. Rider: Okay, I'll do that. Thanks for explaining. It's good to know for next time — I'll check the price more carefully before I confirm. Driver: That's the best thing to do. And if the price is ever really high, waiting a little while usually helps.",
+      "question": "Why was the fare higher than the rider expected?",
+      "options": [
+        "The driver made a mistake",
+        "Surge pricing applied because of a game finishing downtown",
+        "The rider chose a longer route",
+        "The app was broken"
+      ],
+      "correct": 1
+    }
+  ]
+}

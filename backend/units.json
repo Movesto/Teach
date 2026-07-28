@@ -33,10 +33,10 @@
   },
   {
     "id": 5,
-    "title": "Opinions & Discussions",
-    "description": "Express your views, discuss current events, talk about entertainment, and make social plans",
+    "title": "Getting Around: Transport & Travel",
+    "description": "Travel confidently by bus, train, taxi, and plane — buy tickets, read schedules, handle delays, book trips online, and get a driver's license",
     "order_number": 5,
-    "total_lessons": 7,
+    "total_lessons": 11,
     "locked": false
   },
   {

@@ -1,0 +1,282 @@
+{
+  "id": "lesson-110",
+  "unit_id": 5,
+  "lesson_number": 11,
+  "title": "Getting a Driver's License at the DMV",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the steps to get a driver's license in the United States",
+    "Prepare the documents needed for the DMV and understand common requirements",
+    "Describe the written test, the road test, and how to prepare for each",
+    "Use modal verbs of obligation (must, have to, need to) to talk about rules"
+  ],
+  "reading_passage": {
+    "title": "The Road to a Driver's License",
+    "text": "For many people in the United States, a driver's license is more than permission to drive. Because so many cities are spread out and public transport is limited, a license opens up jobs, shopping, and services that are hard to reach otherwise. It also serves as a widely accepted form of identification. Getting one takes several steps, and knowing them in advance makes the process much less stressful.\n\nThe office that handles licenses is called the Department of Motor Vehicles, or the DMV. The exact rules differ from state to state, but the general path is similar everywhere. First, you must gather the required documents. Usually you need proof of your identity, such as a passport, proof that you are allowed to live in the country, and proof of your address, such as a utility bill or a lease. Bringing the wrong documents, or forgetting one, is the most common reason people are turned away, so it is worth checking the DMV website for the exact list before you go.\n\nThe first stage is usually a written knowledge test. This test asks about road signs, traffic laws, and safe driving. You do not have to memorise everything, but you do need to study the driver's handbook, which each state publishes for free, often in several languages. Many people also use free practice tests online. If you pass the written test, you receive a learner's permit, which allows you to practise driving as long as a fully licensed adult sits beside you.\n\nAfter you have practised enough, you take the road test, in which an examiner sits in the car and watches you drive. They check that you can control the vehicle, obey signs and signals, park, change lanes safely, and stay calm in traffic. Nervousness is normal, but the examiner is not trying to trick you; they simply want to see that you drive safely. If you make a serious mistake, such as failing to stop fully at a stop sign, you may not pass, but you can book another attempt and try again.\n\nA few things make the whole process smoother. Book appointments in advance, because DMV offices are often busy and walk-in waits can be long. Read the handbook carefully rather than only taking practice tests, because the questions on the day may be worded differently. Practise driving in different conditions before the road test, not just on quiet streets. And be patient: many people do not pass on the first attempt, and that is completely normal. With preparation, the license that opens so many doors is well within reach.",
+    "source": "Adapted for learners — the licensing process in the United States",
+    "glossary": [
+      {
+        "word": "DMV",
+        "meaning": "the Department of Motor Vehicles, the government office that issues driver's licenses"
+      },
+      {
+        "word": "learner's permit",
+        "meaning": "a document allowing you to practise driving with a licensed adult before you get a full license"
+      },
+      {
+        "word": "road test",
+        "meaning": "a practical driving test in which an examiner watches you drive"
+      },
+      {
+        "word": "handbook",
+        "meaning": "an official book of rules and information, here the state's guide for drivers"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "inference",
+      "question": "Why does the passage say a driver's license is 'more than permission to drive' in the United States?",
+      "answer": "Because many cities are spread out with limited public transport, so a license opens up jobs, shopping, and services that are otherwise hard to reach. It is also widely accepted as a form of identification, giving it value beyond driving itself."
+    },
+    {
+      "type": "literal",
+      "question": "What is the most common reason people are turned away from the DMV, according to the passage?",
+      "answer": "Bringing the wrong documents, or forgetting one. The passage advises checking the DMV website for the exact list of required documents before going."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is a 'learner's permit', and what does it allow you to do?",
+      "answer": "A learner's permit is a document you receive after passing the written test. It allows you to practise driving as long as a fully licensed adult sits beside you in the car."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise reading the handbook carefully rather than only taking practice tests?",
+      "answer": "Because the questions on the real test 'may be worded differently' from the practice tests. Reading the handbook builds real understanding of the rules, so you can answer questions even when they are phrased in an unfamiliar way."
+    }
+  ],
+  "language_focus": {
+    "title": "Modal Verbs of Obligation: must, have to, need to",
+    "explanation": "To talk about rules and requirements, English uses 'must', 'have to', and 'need to'. 'You must' and 'you have to' express a strong obligation (a rule). 'You need to' is slightly softer but still means something is necessary. For the absence of obligation, use 'don't have to' or 'don't need to' — note that this means something is NOT required, which is different from 'must not' (something is forbidden).",
+    "examples": [
+      {
+        "sentence": "You must bring proof of your address, and you have to arrive fifteen minutes early.",
+        "note": "'must' and 'have to' both express a strong requirement — a rule you cannot ignore."
+      },
+      {
+        "sentence": "You don't have to memorise the whole handbook, but you must not use your phone during the test.",
+        "note": "'don't have to' = it is not required; 'must not' = it is forbidden. These are very different meanings."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete: 'You ___ have a licensed adult with you when you drive on a learner's permit.' (strong obligation)",
+        "answer": "You must (or have to) have a licensed adult with you..."
+      },
+      {
+        "sentence": "Complete: 'You ___ memorise every sign, but studying helps.' (not required)",
+        "answer": "You don't have to (or don't need to) memorise every sign..."
+      },
+      {
+        "sentence": "Rewrite as a rule using 'must not': 'Using your phone while driving is forbidden.'",
+        "answer": "You must not use your phone while driving."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "requirement",
+      "definition": "something you must have or do in order to be allowed to do something else",
+      "example_sentence": "Proof of address is a requirement for getting a license.",
+      "collocations": [
+        "meet the requirements",
+        "a legal requirement",
+        "the requirements for"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "appointment",
+      "definition": "an arranged time to visit an office or a person",
+      "example_sentence": "I booked an appointment at the DMV for next Tuesday.",
+      "collocations": [
+        "book an appointment",
+        "make an appointment",
+        "an appointment slot"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "examiner",
+      "definition": "an official person who watches and judges a test",
+      "example_sentence": "The examiner asked me to parallel park.",
+      "collocations": [
+        "a driving examiner",
+        "the examiner said",
+        "pass the examiner's test"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "proof",
+      "definition": "a document or fact that shows something is true",
+      "example_sentence": "A utility bill can serve as proof of your address.",
+      "collocations": [
+        "proof of identity",
+        "proof of address",
+        "provide proof"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "A friend has just arrived in the United States and wants to get a driver's license. You have already been through the process. They ask you how it works.",
+    "prompt": "Explain the main steps to your friend: the documents they need, the written test, the learner's permit, and the road test. Use modal verbs of obligation (must, have to, need to, don't have to) to describe what is and isn't required. Speak for about ninety seconds.",
+    "useful_language": [
+      "First, you have to gather your documents.",
+      "You must bring proof of your identity and your address.",
+      "You don't have to memorise everything, but you need to study the handbook.",
+      "Once you pass the written test, you get a learner's permit.",
+      "You must not drive alone until you pass the road test."
+    ],
+    "model_answer": "Okay, so first you have to gather your documents. You must bring proof of your identity, like your passport, and proof of your address, like a utility bill — check the DMV website for the exact list, because if you forget one they'll turn you away. Then you take a written test about road signs and traffic laws. You don't have to memorise everything, but you do need to study the handbook — it's free online in several languages. Once you pass, you get a learner's permit, which means you can practise, but you must not drive alone — a licensed adult has to be with you. After you've practised enough, you take the road test with an examiner in the car. Don't worry if you don't pass the first time; lots of people don't, and you can just book another try."
+  },
+  "writing_workshop": {
+    "task": "Write a short set of instructions for a friend explaining how to prepare for the DMV written test. Use clear steps and modal verbs of obligation (must, have to, need to, don't have to) to show what is and isn't required.",
+    "word_count": "120-160",
+    "model_text": "Here's how to prepare for the written test. First, you have to download the driver's handbook from your state's DMV website — it's free, and you can often get it in your own language. You must read the whole thing, especially the sections on road signs and traffic laws, because those come up the most. You don't have to memorise every single page, but you need to understand the rules well enough to answer questions worded in different ways. Next, take some free practice tests online. They help you get used to the format, but you must not rely on them alone, because the real questions may be different. Finally, you have to book an appointment in advance and bring the correct documents on the day. If you study the handbook properly, you should pass without much trouble. Good luck!",
+    "model_analysis": "The instructions are ordered and use modal verbs precisely: 'have to' and 'must' for requirements, 'don't have to' for what is not needed, and 'must not' for a warning. This mix shows exactly what the reader is and isn't obliged to do — clearer than repeating 'you should' throughout.",
+    "success_criteria": [
+      "Give the steps in a clear order",
+      "Use 'must' / 'have to' / 'need to' for requirements",
+      "Use 'don't have to' at least once for something not required",
+      "Keep the instructions practical and encouraging"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does 'DMV' stand for?",
+      "options": [
+        "Driver's Main Verification",
+        "Department of Motor Vehicles",
+        "Driving and Motorway Values",
+        "Document and Money Verification"
+      ],
+      "correct": 1,
+      "explanation": "DMV stands for the Department of Motor Vehicles, the government office that issues driver's licenses."
+    },
+    {
+      "id": 2,
+      "question": "According to the passage, what is the first stage of the licensing process?",
+      "options": [
+        "The road test",
+        "Gathering the required documents",
+        "Buying a car",
+        "Getting insurance"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'First, you must gather the required documents' — proof of identity, right to live in the country, and address."
+    },
+    {
+      "id": 3,
+      "question": "What does a learner's permit allow you to do?",
+      "options": [
+        "Drive alone anywhere",
+        "Practise driving with a fully licensed adult beside you",
+        "Skip the road test",
+        "Work as a taxi driver"
+      ],
+      "correct": 1,
+      "explanation": "A learner's permit 'allows you to practise driving as long as a fully licensed adult sits beside you.'"
+    },
+    {
+      "id": 4,
+      "question": "What does the examiner check during the road test?",
+      "options": [
+        "Only how fast you can drive",
+        "That you control the car, obey signs, park, change lanes safely, and stay calm",
+        "Whether you own the car",
+        "How well you sing"
+      ],
+      "correct": 1,
+      "explanation": "The passage lists that the examiner checks you 'can control the vehicle, obey signs and signals, park, change lanes safely, and stay calm in traffic.'"
+    },
+    {
+      "id": 5,
+      "question": "Which sentence uses a modal of obligation correctly?",
+      "options": [
+        "You must to bring your passport",
+        "You have bring your passport",
+        "You have to bring your passport",
+        "You musting bring your passport"
+      ],
+      "correct": 2,
+      "explanation": "'You have to bring...' is correct. 'Must' is not followed by 'to' (you must bring), and 'have to' needs the full form 'have to + verb.'"
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between 'don't have to' and 'must not'?",
+      "options": [
+        "They mean the same thing",
+        "'don't have to' = not required; 'must not' = forbidden",
+        "'must not' = not required; 'don't have to' = forbidden",
+        "Both mean 'forbidden'"
+      ],
+      "correct": 1,
+      "explanation": "'Don't have to' means something is not required, while 'must not' means something is forbidden — an important difference."
+    },
+    {
+      "id": 7,
+      "question": "Why does the passage recommend booking a DMV appointment in advance?",
+      "options": [
+        "Because appointments are cheaper",
+        "Because DMV offices are often busy and walk-in waits can be long",
+        "Because you cannot enter without one, ever",
+        "Because the test is different for appointments"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises booking in advance 'because DMV offices are often busy and walk-in waits can be long.'"
+    },
+    {
+      "id": 8,
+      "question": "What is the passage's attitude toward not passing the road test on the first try?",
+      "options": [
+        "It means you should give up",
+        "It is completely normal, and you can book another attempt",
+        "It is not allowed",
+        "It cancels your learner's permit"
+      ],
+      "correct": 1,
+      "explanation": "The passage reassures that 'many people do not pass on the first attempt, and that is completely normal,' and you can book another attempt."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Clerk: Good morning. How can I help you? Applicant: Hi, I'd like to take the written test for my learner's permit. Clerk: Sure. Do you have your documents with you? I'll need proof of identity, proof that you're allowed to live in the country, and proof of your address. Applicant: Yes, I have my passport, my immigration document, and a phone bill with my address. Clerk: The phone bill is fine, as long as it's from the last two months and shows your name. Applicant: It is, yes. Clerk: Perfect. And did you make an appointment? Applicant: I did, for nine-thirty. Clerk: Great, you're all set. The test has twenty questions, and you need to get at least fifteen right to pass. Take your time. If you pass, we'll process your learner's permit today. Applicant: That's wonderful. Thank you.",
+      "question": "What does the clerk say the applicant needs to pass the written test?",
+      "options": [
+        "Twenty correct answers",
+        "At least fifteen correct answers out of twenty",
+        "An appointment only",
+        "A full driver's license"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Examiner: Okay, before we start the road test, take a deep breath — there's no need to be nervous. I'm just here to check that you drive safely. Driver: Thank you. I'm a little nervous, but I've practised a lot. Examiner: That's good. Now, when you're ready, pull out of the parking space and turn left at the exit. Remember to check your mirrors and signal. Driver: Okay. ... Examiner: Good. You signalled and checked properly. Now, at the next intersection there's a stop sign. Make sure you come to a complete stop, not just a slow roll. Driver: Understood. ... Examiner: Perfect — that was a full stop. You're doing well. In a moment I'll ask you to parallel park, so start looking for a space on the right. Driver: All right, I see one just ahead. Examiner: Take your time. Safe, careful driving is exactly what I want to see.",
+      "question": "What does the examiner emphasise about the stop sign?",
+      "options": [
+        "The driver should slow down but keep rolling",
+        "The driver must come to a complete stop, not a slow roll",
+        "The driver should ignore it",
+        "The driver must stop for one minute"
+      ],
+      "correct": 1
+    }
+  ]
+}
