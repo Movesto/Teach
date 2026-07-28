@@ -84,9 +84,12 @@ questions/grammar preserved. NOT yet committed.
 - [x] Expand each `authentic_text` from ~265 to 700–900 words — *33/33 done*
 - [x] Expand each listening transcript toward 400–600 words (~3–4 min audio) —
       *33/33* (avg 378; units 12–13 landing 400–490)
-- [ ] Units 11–13 **note-taking task**: needs a renderable field (small frontend
-      add in AdvancedLesson listening) — tracked separately, NOT done in the
-      text/question/transcript pass.
+- [x] Units 11–13 **note-taking task** (2026-07-28): added a `note_taking`
+      block (`prompt` + telegraphic `model_notes`) to all 18 lessons, and a
+      renderable panel in `AdvancedLesson.jsx` listening section — focus prompt,
+      a notes textarea (persisted to localStorage), and a "compare with model
+      notes" self-check reveal. Data-driven (renders only when present, so
+      units 9–10 are unaffected). `normalize_lesson` passes the field through.
 - [ ] Regenerate/clear stale listening audio cache for changed transcripts
       (on-demand endpoint regenerates; or clear cache on GPU box).
 - [ ] Units 11–13: convert at least one listening per lesson to lecture-style

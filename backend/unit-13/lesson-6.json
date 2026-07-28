@@ -300,5 +300,14 @@
       "A self-analysis that names the implicatures precisely",
       "Register control throughout"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on what separates mastery from competence (control of implication) and on understanding conventions as a contract. Compare with the model.",
+    "model_notes": [
+      "Mastery = managing implication — what you convey WITHOUT saying it ('the report was certainly thorough' hints it was dull)",
+      "Meaning via implicature: understatement, strategic silence, 'that's certainly one approach'",
+      "Conventions = a contract with a skeptical reader: thesis early (their time), evidence (auditable), counterarguments (they're intelligent)",
+      "Learn conventions as REASONS not rituals → you gain judgement: deploy when the reason applies. Correct vs on purpose = competence vs mastery"
+    ]
   }
 }

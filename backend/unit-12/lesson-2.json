@@ -300,5 +300,14 @@
       "A triangulated account as the conclusion",
       "No verdict of one 'unbiased' winner"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note the everyday forms of press bias and the weekly triangulation exercise. Focus on the five bias mechanisms and what you're actually doing when you compare two outlets. Compare with the model.",
+    "model_notes": [
+      "Bias is rarely fabrication — five quiet forms: selection, placement, framing (word choice), sourcing, strategic passive",
+      "Exercise: read one event in two outlets with different audiences",
+      "Shared facts = reliable core (adversaries agree); each omission/quote/headline reveals priorities",
+      "Goal is not to find the unbiased outlet (none exists) but to triangulate a fuller picture"
+    ]
   }
 }

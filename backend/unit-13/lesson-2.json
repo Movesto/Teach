@@ -300,5 +300,14 @@
       "The paragraph reads as argument, not as a grammar showcase",
       "Formal register sustained"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on why advanced structures are powerful because they're optional, and on the three refinements (with their dangers). Compare with the model.",
+    "model_notes": [
+      "Inversion / clefts are OPTIONAL → that's their value: a marked choice signals deliberateness, spotlights attention",
+      "Use sparingly — power depends on rarity; a paragraph of inversions illuminates nothing",
+      "Participle clauses compress (danger: the dangling participle); nominalization abstracts (danger: buries agents in bulk)",
+      "Subjunctive survives in formal registers ('I suggest he be informed') — rarity makes correct use read as care"
+    ]
   }
 }

@@ -300,5 +300,14 @@
       "Attributed claims distinguished from asserted ones",
       "A practical verdict on how to use the source"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on the two media-literacy habits in the lectures: asking 'what kind of thing is this?' before 'is it true?', and reading laterally. Compare with the model.",
+    "model_notes": [
+      "First ask the genre: report vs column vs analysis vs sponsored — each answers to a different standard",
+      "Misinformation exploits readers who process all genres with the trust owed only to a verified report",
+      "Read laterally, not vertically: leave the unfamiliar site, check what others say about it (harder to fake than its own About page)",
+      "Click restraint: scan the whole results page before trusting the top hit"
+    ]
   }
 }

@@ -300,5 +300,14 @@
       "One specific, actionable request",
       "A concrete personal stake and respectful close, on one page"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note the rules that make a letter to an official effective, and what makes a petition work. Compare with the model.",
+    "model_notes": [
+      "Letter: identify as a constituent in line 1 (voters weighted highest); one issue, name the bill number",
+      "One specific request (vote yes/no, hold a hearing) + a brief personal stake; one page; offices tally letters",
+      "Petition trades depth for breadth — the craft is the ask",
+      "Effective ask: a decision-maker who can grant it + a specific achievable action + a deadline"
+    ]
   }
 }

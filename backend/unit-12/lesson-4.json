@@ -300,5 +300,14 @@
       "The writer's position argued with evidence",
       "The opposing concern incorporated, not dismissed"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on steelmanning and on the loaded vocabulary of public debate. Focus on why steelmanning works and how to handle loaded terms. Compare with the model.",
+    "model_notes": [
+      "Steelman = state the opposing view in its STRONGEST form before answering (opposite of the straw man)",
+      "Two payoffs: rhetorical (disarms a wary audience) and intellectual (if you can only beat the weak version, you don't understand the issue)",
+      "Loaded vocabulary smuggles a conclusion in: 'death tax' vs 'estate tax', 'illegal aliens' vs 'undocumented workers'",
+      "No word is neutral; choose consciously and name loaded terms calmly ('let's discuss what it actually does')"
+    ]
   }
 }

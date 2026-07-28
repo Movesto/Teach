@@ -300,5 +300,14 @@
       "The revision reads naturally, not telegraphically",
       "Word counts reported for both versions"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on the reliable cuts for concision and the professional proofreading techniques. Compare with the model.",
+    "model_notes": [
+      "Reliable cuts: redundant pairs ('each and every'→one); throat-clearing openers ('It is important to note that'→delete)",
+      "Weak intensifiers ('very tired'→'exhausted'); reanimate nominalized verbs ('conduct an analysis of'→'analyse')",
+      "Most drafts shed ~a quarter of their words and lose only fog",
+      "Proofreading: read aloud / backward / change the font; check your personal error list last; never proofread straight after writing (distance is the cheapest editor)"
+    ]
   }
 }

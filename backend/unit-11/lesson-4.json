@@ -299,5 +299,14 @@
       "A low-cost ask, or deliberately none",
       "Brevity a busy reader would thank you for"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on (1) why weak ties matter more than close ones for opportunity, and (2) how to use the negotiation window when an offer arrives. Compare with the model.",
+    "model_notes": [
+      "Close ties know what you know (redundant); weak ties bridge to new information pools → most jobs come through them",
+      "Strategy: widen, not just deepen; keep weak ties warm with a genuine message ~twice a year",
+      "Offer = moment of maximum leverage; don't say yes instantly — 'Could I have a couple of days to review?'",
+      "Negotiate the whole package (start date, remote, budget), anchor in research, ask then stay silent"
+    ]
   }
 }

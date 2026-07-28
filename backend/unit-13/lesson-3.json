@@ -300,5 +300,14 @@
       "Appropriate disclosure level per audience",
       "A closing note naming what changed"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note how one request ('send me the report') changes across the register scale, and the four 'dials' of formality. Compare with the model.",
+    "model_notes": [
+      "Same request, three worlds: 'Shoot me that report?' / 'Could you send it when you get a chance?' / 'I would be grateful if you could forward it at your convenience'",
+      "Register carries the RELATIONSHIP, not the content; errors are silently filed, never corrected → harder than grammar",
+      "Four dials: vocabulary (Latinate), contractions (full forms), grammatical distance ('one might argue' vs 'I think'), politeness (hedges/honorifics)",
+      "Skill is range and fit, not maximal formality (a brief written like a note to a teammate is also an error)"
+    ]
   }
 }

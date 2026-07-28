@@ -300,5 +300,14 @@
       "A reply that is honest about its own limits",
       "A closing claim sized exactly to what was shown"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note why hedging is precision (not timidity) and what procatalepsis does. Compare with the model.",
+    "model_notes": [
+      "Each hedge is load-bearing: 'suggest' (inferential distance), 'possible' (uncertainty), 'association' (refuses causation)",
+      "Strip the hedges and the claim becomes FALSE — over-claiming is error, not confidence; but over-hedging is cowardice too",
+      "Calibration: hedge exactly as much as the evidence requires, not one modal verb more",
+      "Procatalepsis = raise your strongest objection yourself and answer it → defuses the critic + shows you've tested your own case (earns trust)"
+    ]
   }
 }

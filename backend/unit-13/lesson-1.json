@@ -300,5 +300,14 @@
       "Meaning preserved across both",
       "A precise reflection on the register shift"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note why register is the hard part of learning idioms, and the two properties of phrasal verbs. Compare with the model.",
+    "model_notes": [
+      "Learn 3 things per idiom, not 1: image, meaning, and REGISTER (where it fits / where it detonates)",
+      "'Kick the bucket' = die, but never in a condolence card — register error reads as callous, worse than a vocab error",
+      "Phrasal verbs vs Latinate twins differ by register: 'put off' (speech) vs 'postpone' (writing) — a dial for formality",
+      "Phrasal verbs are polysemous: 'take off' = aircraft / clothing / career / imitation — context disambiguates"
+    ]
   }
 }

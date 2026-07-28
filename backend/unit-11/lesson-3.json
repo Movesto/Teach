@@ -299,5 +299,14 @@
       "One constraint or obstacle named per item",
       "No hedges ('helped with', 'was involved in') and no inflation"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note how to decode performance-review language and how to handle self-assessments. Focus on: what 'meets expectations' and wrapped criticism really mean, and why modesty backfires. Compare with the model.",
+    "model_notes": [
+      "'Meets expectations' = faint praise in competitive workplaces; 'exceeds' carries the promotion signal",
+      "Criticism as 'a growth opportunity' = a complaint; don't argue — ask for a specific success measure (turns judgement into a contract)",
+      "Self-assessment: US genre reads modesty literally → understatement loses you credit",
+      "Convention is evidence not boasting: state what you did, quantify, name the constraint; keep a running accomplishments file"
+    ]
   }
 }

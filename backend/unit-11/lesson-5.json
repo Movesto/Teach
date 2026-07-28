@@ -299,5 +299,14 @@
       "Transitions a distracted listener could rejoin at",
       "One explicit, decidable ask at the close"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note the rules for structuring a presentation and for handling Q&A. Focus on the three-point limit / tell-tell-tell frame and the 'bridge' technique. Compare with the model.",
+    "model_notes": [
+      "Limit to 3 points — constraint is the audience's working memory, not your material",
+      "Frame: tell them what you'll say, say it, tell them what you said; signpost for the drifter",
+      "Q&A bridge: acknowledge → answer what you can → steer to your core message",
+      "Don't know? Say so + commit to follow up ('I'll find out by Friday') — beats a guess a specialist can dismantle"
+    ]
   }
 }

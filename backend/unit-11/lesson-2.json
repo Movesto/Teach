@@ -299,5 +299,14 @@
       "A concrete recovery plan with dates",
       "Professional register calibrated to the reader"
     ]
+  },
+  "note_taking": {
+    "prompt": "As you listen, note (1) the 'mirroring' strategy for email tone and the danger of brevity, and (2) the four-step protocol for difficult emails. Compare with the model notes.",
+    "model_notes": [
+      "Mirror the reader's register, +1 notch formal on first contact; easier to relax than to recover from too-casual",
+      "Brevity reads as coldness — 'Fine.' sounds angry; add 3 words of warmth",
+      "Difficult-email protocol: never send angry (draft, wait, reread); keep blame out of subject/first line",
+      "Prefer questions to accusations; after 2 rounds of misunderstanding → 'Do you have ten minutes to talk?'"
+    ]
   }
 }

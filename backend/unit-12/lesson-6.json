@@ -300,5 +300,14 @@
       "Reflection on what the rewrite exposes",
       "Analytical, not partisan, tone"
     ]
+  },
+  "note_taking": {
+    "prompt": "Take notes on the 'publicity test' for arguments and on Orwell's three mechanisms of corrupted political language. Compare with the model.",
+    "model_notes": [
+      "Persuasion offers reasons a free person could reject; coercion forecloses the choice",
+      "Publicity test: could you state your REAL reasons in public and still expect agreement? Hidden premises / works only on the uninformed / pressure-not-reasons → fail",
+      "Orwell's three: euphemism ('collateral damage'), agent-removing abstraction ('mistakes were made'), ready-made phrases that think for you",
+      "Remedy = concreteness: say what happened, name who did it, use words you could define"
+    ]
   }
 }

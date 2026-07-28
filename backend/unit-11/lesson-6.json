@@ -299,5 +299,14 @@
       "Objective success criteria and a review date",
       "No blame assigned for the past"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note (1) why insisting on objective criteria is the key move in principled negotiation, and (2) the steps for mediating a dispute between colleagues. Compare with the model.",
+    "model_notes": [
+      "Objective criteria depersonalise: 'what do comparable roles pay?' replaces a contest of wills → conceding to evidence isn't losing face",
+      "Mediating: resist the referee role; don't declare a winner (creates a loser who won't honour it)",
+      "Open with common ground; have each side restate the other's position to satisfaction first — dissolves misunderstandings",
+      "Move the conversation from the past (fixed) to the future ('what would working well look like from Monday?')"
+    ]
   }
 }

@@ -300,5 +300,14 @@
       "A specific, actionable request",
       "A stated cut plan preserving detail and ask"
     ]
+  },
+  "note_taking": {
+    "prompt": "Note the organising concept of the 'one-to-one' and the rules for testifying at a council. Focus on mobilising vs organising, and what councils remember. Compare with the model.",
+    "model_notes": [
+      "One-to-one = 30-min intentional conversation; listen for the person's self-interest and capacity (not a pitch)",
+      "Mobilising spends people on your issue; organising builds people who can win their own",
+      "Testifying: open with name + neighbourhood (you're a constituent); make ONE point",
+      "Back it with one vivid local first-hand detail (councils remember stories, not statistics); end with the specific ask; look up, not at your paper"
+    ]
   }
 }

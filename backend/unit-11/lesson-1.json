@@ -299,5 +299,14 @@
       "A quantified result",
       "Deliverable in under two minutes of speech"
     ]
+  },
+  "note_taking": {
+    "prompt": "Listen to both lectures on interview technique and take structured notes on: (1) the recommended shape of a 'Tell me about yourself' answer and the two mistakes to avoid; (2) how to use the STAR method without the 'we' problem. Then compare your notes with the model.",
+    "model_notes": [
+      "'Tell me about yourself' → present-past-future frame; ~90 sec; select, don't recite biography",
+      "Two mistakes: the biography reflex (whole history) and empty compression ('hard worker, team player')",
+      "STAR: 1 sentence each on situation/task, linger on ACTION in first-person singular ('I', not 'we')",
+      "Close with a quantified result — a number survives; adjectives don't"
+    ]
   }
 }
