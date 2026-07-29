@@ -106,20 +106,36 @@ dimensions.
 
 ## Phase 3 — Thicken the B1–B2 plateau (units 5–8: 6 → 10 lessons each)
 
-- [ ] Author +4 lessons per unit (+16 total) using the units 5–8 template
-      (`reading_passage`, `comprehension`, `language_focus`,
-      `vocabulary_in_context`, `speaking_task`, `writing_workshop`, `quiz`,
-      `listening_exercises`)
-- [ ] New reading passages at 400–500 words; listening at 200–300 words
-- [ ] Bring ALL unit 5–8 quizzes (existing + new) from 4 to 8–10 questions
-- [ ] Grow existing unit 5–8 passages toward 400+ words while touching the files
-- [ ] Update `backend/units.json` `total_lessons` counts; verify unit tests in
-      `backend/unit-tests/` still map correctly (extend them for new lessons)
-- [ ] Verify lesson numbering/IDs follow the existing convention so progress
-      records and the soft-gate "recommended next" logic stay correct
+**Done 2026-07-29.** Decision: the units.json catalog themes for 5–8 did NOT
+match the actual lesson content, so new lessons deepen the REAL themes and the
+stale catalog titles/descriptions/counts were corrected. New themes: unit 5
+Transport, 6 Housing, 7 Food, 8 Education & Technology. New lesson ids 107–122
+(max prior id was 106); lesson numbers continue the existing sequence.
+Committed one unit per commit, plus a final quiz-expansion commit.
+
+- [x] Author +4 lessons per unit (+16 total) using the units 5–8 intermediate
+      template (all 8 sections). Passages 409–498 words; two listening dialogues
+      each (~120–165 words per dialogue, matching the existing unit 5–8 register);
+      8-question quizzes.
+- [x] New reading passages at 400–500 words *(listening kept to the existing
+      intermediate ~120–165-word dialogue length rather than the 200–300 in the
+      original plan — matches the surrounding lessons; revisit if longer wanted)*
+- [x] Bring ALL unit 5–8 quizzes (existing + new) from 4 to 8+ questions —
+      24 existing lessons each got +4 questions grounded in their own passage,
+      vocab definitions, and grammar focus (96 new questions); new lessons ship
+      with 8. Validated: no dup quiz ids, correct-indices in range.
+- [ ] *(Deferred)* Grow the existing 24 passages toward 400+ words — NOT done;
+      they remain ~205–280 words. Lower priority than the +16 lessons and quizzes.
+- [x] Update `backend/units.json` `total_lessons` (5:11, 6:10, 7:10, 8:10) and
+      retitle to match content. Unit-tests in `backend/unit-tests/` are
+      self-contained (own 10-question set, no lesson-count/id references) so they
+      still pass unchanged; *(optional, deferred)* extend them to cover new topics.
+- [x] Verified lesson numbering/IDs: all 110 lessons load, no duplicate ids,
+      catalog counts match on-disk counts, full index builds.
 
 **Done when:** the A2→B2 stretch has proportionate volume (no more 6-lesson
-units in the longest part of the climb).
+units in the longest part of the climb). ✅ Units 5–8 now have 11/10/10/10
+lessons with 8-question quizzes.
 
 ## Phase 4 — In-app graded reading library (the volume engine)
 
