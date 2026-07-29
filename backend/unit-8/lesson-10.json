@@ -1,0 +1,282 @@
+{
+  "id": "lesson-122",
+  "unit_id": 8,
+  "lesson_number": 10,
+  "title": "Using Online Government and Health Services",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Use official online services for government and health needs with confidence",
+    "Create accounts, log in securely, and complete online applications",
+    "Book and manage medical appointments and access records online",
+    "Use language for describing processes and asking for help online"
+  ],
+  "reading_passage": {
+    "title": "Getting Things Done Online",
+    "text": "More and more, the services people rely on — from renewing a document to booking a doctor's appointment — are handled online. This can be a great convenience: no long queues, no waiting for the office to open, and access at any hour. For newcomers, though, official websites can feel confusing at first. Learning how they generally work makes these services far easier to use.\n\nMost official services begin with an account. You create an account using your email address and a password, and often you must verify your identity, sometimes by entering a code sent to your phone or by answering security questions. This step protects your private information, so it is worth doing carefully. Choose a strong password, and keep a safe record of your login details. When you return, you 'log in' with the same email and password. Because these accounts hold sensitive information, only use them on trusted devices and never share your password.\n\nGovernment websites let you do many things that once required a visit in person: applying for or renewing documents, checking the status of an application, paying a fee or a fine, and finding official information. The key is to use only official websites. Official government sites in the United States usually end in '.gov', and you should be careful of other sites that charge a fee to do something the official site does for free. If you are unsure whether a site is genuine, look for the '.gov' address, and do not enter personal details until you are certain.\n\nHealth services are increasingly online too. Many clinics let you book, change, or cancel appointments through a website or app, which saves time and phone calls. Through a secure patient portal, you can often see your test results, read notes from a visit, request repeat prescriptions, and send a message to your doctor's office. These portals keep your medical information private and let you manage your health without always needing to call. To use one, you usually register with the clinic, who give you a link and help you set up your login.\n\nWhen something goes wrong or is unclear, help is available, and asking for it is sensible. Most official sites have a 'help' or 'contact us' section, a phone number, and sometimes a live chat. Libraries and community centres can help you use these services, and many clinics have staff who assist patients with the online portal. There is no shame in asking; these systems are designed for everyone, and a short question can save a long delay. Step by step, doing things online turns tasks that once meant a whole morning at an office into something you can finish from your kitchen table.",
+    "source": "Adapted for learners — using online government and health services",
+    "glossary": [
+      {
+        "word": "account",
+        "meaning": "a personal arrangement with an online service, protected by a login"
+      },
+      {
+        "word": "verify your identity",
+        "meaning": "to prove that you are who you say you are, for example with a code or security questions"
+      },
+      {
+        "word": "patient portal",
+        "meaning": "a secure website or app for managing your health information and appointments"
+      },
+      {
+        "word": "log in",
+        "meaning": "to enter your details to access your online account"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what does creating an account for an official service usually involve?",
+      "answer": "Creating it with your email address and a password, and often verifying your identity — sometimes by entering a code sent to your phone or answering security questions. You then log in with the same email and password when you return."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage stress using only official government websites ending in '.gov'?",
+      "answer": "Because other, non-official sites may charge a fee to do something the official site does for free, or may try to steal personal details. Checking for the '.gov' address helps ensure you are on the genuine government site and not a fake or misleading one."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is a 'patient portal', and what can you do with one?",
+      "answer": "A patient portal is a secure website or app for managing your health information. Through it you can often see test results, read visit notes, request repeat prescriptions, book or cancel appointments, and message your doctor's office — keeping your medical information private."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say 'there is no shame in asking' for help with online services?",
+      "answer": "Because these systems 'are designed for everyone,' and a short question can save a long delay. Everyone finds some official websites confusing, so seeking help from a site's help section, a library, or clinic staff is a sensible, normal thing to do rather than something to be embarrassed about."
+    }
+  ],
+  "language_focus": {
+    "title": "Describing a Process: sequencing and passive forms",
+    "explanation": "To describe how an online process works, use sequence words ('first', 'then', 'next', 'after that', 'finally') and, often, the passive voice when the doer is not important: 'A code is sent to your phone.' 'Your identity is verified.' Combining the two makes instructions clear: 'First, an account is created; then a code is sent to confirm it.'",
+    "examples": [
+      {
+        "sentence": "First, you create an account; then a verification code is sent to your phone.",
+        "note": "Sequence word 'First... then...' orders the steps; 'a code is sent' (passive) focuses on the action, not who does it."
+      },
+      {
+        "sentence": "After your identity is verified, you can log in and complete the application.",
+        "note": "'After... is verified' (passive time clause) shows the order; 'you can log in' returns to the active voice for the user's action."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Put in order with sequence words: create an account / verify your identity / complete the form.",
+        "answer": "First, you create an account; then you verify your identity; finally, you complete the form."
+      },
+      {
+        "sentence": "Rewrite in the passive: 'The system sends a code to your phone.'",
+        "answer": "A code is sent to your phone."
+      },
+      {
+        "sentence": "Join with 'after': 'You verify your identity.' + 'You can book an appointment.'",
+        "answer": "After you verify your identity, you can book an appointment."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "register",
+      "definition": "to sign up officially for a service, creating a record of your details",
+      "example_sentence": "You need to register with the clinic before using the portal.",
+      "collocations": [
+        "register for",
+        "register with",
+        "complete registration"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "application",
+      "definition": "a formal request for something, such as a document or benefit",
+      "example_sentence": "You can check the status of your application online.",
+      "collocations": [
+        "submit an application",
+        "an online application",
+        "the application process"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "secure",
+      "definition": "protected against theft or unauthorised access",
+      "example_sentence": "A patient portal keeps your medical information secure.",
+      "collocations": [
+        "a secure website",
+        "keep it secure",
+        "a secure connection"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "log in",
+      "definition": "to enter your details to access an online account",
+      "example_sentence": "Log in with your email and password to see your results.",
+      "collocations": [
+        "log in to",
+        "log-in details",
+        "log out"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are calling your doctor's clinic. You want to start using their online patient portal to book appointments and see your results, but you are not sure how to set it up.",
+    "prompt": "Ask the clinic staff how the patient portal works: how to register, how to log in, and what you can do with it. Ask for help if a step is unclear. Use process language (first, then, after that). Speak for about ninety seconds.",
+    "useful_language": [
+      "I'd like to start using the online patient portal.",
+      "How do I register for it?",
+      "So first I create an account, then I verify my identity — is that right?",
+      "What can I do once I'm logged in?",
+      "Could you help me if I get stuck setting it up?"
+    ],
+    "model_answer": "Hello, I'd like to start using your online patient portal, but I'm not sure how to set it up. Could you talk me through it? ... So, first you'll send me a registration link by email. Then I create an account with a password, and after that I verify my identity with a code — is that right? ... Okay, that sounds manageable. Once I'm logged in, what can I actually do? ... So I can book appointments, see my test results, and request repeat prescriptions. That's really useful. One more thing — if I get stuck while setting it up, is there someone who can help me? ... Great, I can call the front desk or come in. Thank you very much. I'll look out for the email."
+  },
+  "writing_workshop": {
+    "task": "Write a short, clear set of instructions explaining to a friend how to set up and use an online patient portal (or a similar official online account). Use sequence words and describe the process step by step.",
+    "word_count": "120-160",
+    "model_text": "Here's how to set up the patient portal — it's easier than it looks. First, call or visit the clinic and ask them to register you; they'll send a link to your email. Then, open that email and click the link to create your account. You'll choose a password — make it a strong one and write it down somewhere safe. Next, you'll need to verify your identity: usually a code is sent to your phone, and you type it in to confirm it's really you. After that, you can log in any time with your email and password. Once you're logged in, you can book or cancel appointments, see your test results, and even send a message to the doctor's office. If you get stuck at any step, don't worry — just call the front desk and they'll help you. Only use it on your own phone or computer, and never share your password.",
+    "model_analysis": "The instructions move step by step with clear sequence words ('First', 'Then', 'Next', 'After that', 'Once'), explain what happens at each stage (including the identity check), and end with practical safety advice and reassurance about getting help. Ordered, reassuring instructions make an unfamiliar online process feel manageable.",
+    "success_criteria": [
+      "Give the steps in a clear order using sequence words",
+      "Explain the account creation and identity verification steps",
+      "Say what the reader can do once logged in",
+      "Include a safety tip and reassurance about getting help"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the passage say most official online services begin with?",
+      "options": [
+        "A payment",
+        "Creating an account",
+        "A phone call",
+        "A visit in person"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'Most official services begin with an account,' created with your email and a password."
+    },
+    {
+      "id": 2,
+      "question": "How can you tell an official US government website?",
+      "options": [
+        "It has a lot of advertisements",
+        "Its address usually ends in '.gov'",
+        "It asks for a fee",
+        "It has bright colours"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'Official government sites in the United States usually end in \".gov\".'"
+    },
+    {
+      "id": 3,
+      "question": "What can you usually do through a secure patient portal?",
+      "options": [
+        "Only pay bills",
+        "See test results, book appointments, request prescriptions, and message the office",
+        "Buy medicine directly",
+        "Nothing useful"
+      ],
+      "correct": 1,
+      "explanation": "The passage lists that through a patient portal you can 'see your test results, read notes from a visit, request repeat prescriptions, and send a message to your doctor's office,' as well as manage appointments."
+    },
+    {
+      "id": 4,
+      "question": "Why should you be careful of non-official sites that charge a fee?",
+      "options": [
+        "They are faster",
+        "They may charge for something the official site does for free, or steal your details",
+        "They are always illegal",
+        "They are more secure"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns to 'be careful of other sites that charge a fee to do something the official site does for free.'"
+    },
+    {
+      "id": 5,
+      "question": "Rewrite in the passive: 'The system sends a code to your phone.'",
+      "options": [
+        "Your phone sends a code",
+        "A code is sent to your phone",
+        "You send a code",
+        "The code sends your phone"
+      ],
+      "correct": 1,
+      "explanation": "The passive form is 'A code is sent to your phone,' focusing on the action rather than who does it."
+    },
+    {
+      "id": 6,
+      "question": "Choose the correctly sequenced instruction.",
+      "options": [
+        "Log in, then create an account",
+        "First create an account, then verify your identity, and finally log in",
+        "Verify your identity before you have an account",
+        "Complete the form before creating an account"
+      ],
+      "correct": 1,
+      "explanation": "The logical order is to create an account, verify identity, then log in — the option using 'First... then... finally' correctly."
+    },
+    {
+      "id": 7,
+      "question": "What does 'register' mean in the context of an online service?",
+      "options": [
+        "To log out",
+        "To sign up officially for a service, creating a record of your details",
+        "To pay a fine",
+        "To delete your account"
+      ],
+      "correct": 1,
+      "explanation": "'Register' means to sign up officially for a service, creating a record of your details — for example registering with a clinic to use its portal."
+    },
+    {
+      "id": 8,
+      "question": "What is the passage's attitude toward asking for help with online services?",
+      "options": [
+        "It is shameful",
+        "There is no shame in it; help is available and asking saves delays",
+        "You should never ask",
+        "Only children should ask"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'There is no shame in asking; these systems are designed for everyone, and a short question can save a long delay.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Staff: Riverside Clinic, how can I help? Patient: Hi, I'd like to set up the online patient portal, but I don't really know how. Staff: Of course, I can help. First, I'll send a registration link to your email — can I confirm your email address? Patient: Yes, it's hodan.ali@email.com. Staff: Perfect. When you get the email, click the link and create a password. Then, to make sure it's really you, a code will be sent to your phone by text. You type that code in, and your account is verified. Patient: So, click the link, make a password, then enter the code from my phone? Staff: Exactly. After that, you can log in any time to book appointments, see your results, and request prescriptions. Patient: That's wonderful. What if I get stuck? Staff: Just call us, or come to the front desk and we'll walk you through it. Patient: Thank you so much. I'll look for the email now.",
+      "question": "After creating a password, what is the next step to verify the account?",
+      "options": [
+        "Pay a fee",
+        "Enter a code sent to the phone by text",
+        "Visit the clinic in person",
+        "Answer ten questions"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Friend 1: I need to renew my ID, and I found a website that says it'll do it for me for a fee. Should I use it? Friend 2: Let me see the address. Hmm — that's not the official site. See, it doesn't end in '.gov'. Friend 1: Does that matter? It looks professional. Friend 2: It matters a lot. Those sites charge you a fee for something the real government site often does for free, and some just want your personal details. Always use the official '.gov' site. Friend 1: How do I find the real one? Friend 2: Search for the official state government website, and check the address ends in '.gov' before you enter anything. If you're not sure, the library can help you find it. Friend 1: Okay, I'll do that instead. I nearly paid that other site. Friend 2: Good thing you asked. Be careful not to enter your details until you're sure the site is genuine.",
+      "question": "Why does Friend 2 say not to use the website Friend 1 found?",
+      "options": [
+        "It is too slow",
+        "It is not the official '.gov' site and may charge for free services or steal details",
+        "It is only in English",
+        "It requires a phone"
+      ],
+      "correct": 1
+    }
+  ]
+}
