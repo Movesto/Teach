@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage advises: 'exact change is usually required, as bus drivers generally cannot make change. It is always wise to carry a few dollar bills and quarters.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'commute' mean?",
+      "options": [
+        "To buy a fare card",
+        "To travel regularly between home and another place, such as work",
+        "To load money onto a card",
+        "To download an app"
+      ],
+      "correct": 1,
+      "explanation": "To commute means to travel regularly between home and another place, such as work or school."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'virtual' fare card?",
+      "options": [
+        "A paper ticket",
+        "A card existing in digital form rather than as a physical object",
+        "A card only for children",
+        "A broken card"
+      ],
+      "correct": 1,
+      "explanation": "'Virtual' means existing in digital form rather than as a physical object — a virtual card is used on a smartphone."
+    },
+    {
+      "id": 7,
+      "question": "Which is the most polite way to make a request at a ticket counter?",
+      "options": [
+        "Give me a day pass.",
+        "Could I get a day pass, please?",
+        "Day pass. Now.",
+        "I want a day pass or I leave."
+      ],
+      "correct": 1,
+      "explanation": "'Could I get a day pass, please?' is a polite request, softer than a direct command."
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, where can riders buy a physical Hop Fastpass card?",
+      "options": [
+        "Only online",
+        "At select grocery stores, pharmacies, and transit service centers",
+        "Only on the bus",
+        "At the airport only"
+      ],
+      "correct": 1,
+      "explanation": "The passage states riders 'can buy a physical card at select grocery stores, pharmacies, and transit service centers for a small fee.'"
     }
   ],
   "listening_exercises": [

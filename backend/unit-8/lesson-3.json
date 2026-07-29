@@ -206,6 +206,54 @@
       ],
       "correct": 1,
       "explanation": "'Will' becomes 'would' in reported speech. 'Next month' becomes 'the following month' because time expressions change when reporting from a different time/place. 'She said' (not 'she told') is used without an indirect object."
+    },
+    {
+      "id": 5,
+      "question": "What does 'vital' mean?",
+      "options": [
+        "Absolutely necessary or essential",
+        "Optional",
+        "Difficult to understand",
+        "Rarely useful"
+      ],
+      "correct": 0,
+      "explanation": "'Vital' means absolutely necessary or essential for something to succeed."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, why do many immigrant parents feel anxious about conferences?",
+      "options": [
+        "Because they cost money",
+        "Because of language barriers or uncertainty about what to expect",
+        "Because they are too long",
+        "Because children are not allowed"
+      ],
+      "correct": 1,
+      "explanation": "The passage says many feel anxious 'often because of language barriers or uncertainty about what to expect.'"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct reported speech: The teacher said, 'Your child is doing well.'",
+      "options": [
+        "The teacher said my child was doing well.",
+        "The teacher said my child is doing well yesterday.",
+        "The teacher say my child doing well.",
+        "The teacher said your child are doing well."
+      ],
+      "correct": 0,
+      "explanation": "In reported speech, present ('is') usually shifts to past ('was'): 'The teacher said my child was doing well.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'engagement' mean in the context of a student?",
+      "options": [
+        "A type of test",
+        "The degree to which someone is involved and interested",
+        "A school subject",
+        "A parent-teacher meeting"
+      ],
+      "correct": 1,
+      "explanation": "'Engagement' is the degree to which someone is involved and interested — for example, a student's engagement in class."
     }
   ],
   "listening_exercises": [

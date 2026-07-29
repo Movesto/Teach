@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'You will need to provide your address, a move-in date, and sometimes a deposit if you have no credit history.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'utility'?",
+      "options": [
+        "A late fee",
+        "A basic service such as electricity, gas, water, or internet",
+        "A rental contract",
+        "A furniture bank"
+      ],
+      "correct": 1,
+      "explanation": "A utility is a basic service — such as electricity, gas, water, or internet — supplied to a home."
+    },
+    {
+      "id": 6,
+      "question": "What does the 'billing period' on a bill show?",
+      "options": [
+        "The last day to pay",
+        "The range of dates the bill covers",
+        "The account holder's name",
+        "The late fee amount"
+      ],
+      "correct": 1,
+      "explanation": "The billing period is the range of dates that a bill covers, recording the service used during that time."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct form: 'He finished ___ the bills.'",
+      "options": [
+        "to pay",
+        "paying",
+        "pay",
+        "paid"
+      ],
+      "correct": 1,
+      "explanation": "The verb 'finish' is followed by a gerund (-ing): 'He finished paying the bills.'"
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct form: 'She wants ___ her account online.'",
+      "options": [
+        "managing",
+        "to manage",
+        "manage",
+        "managed"
+      ],
+      "correct": 1,
+      "explanation": "The verb 'want' is followed by the infinitive: 'She wants to manage her account online.'"
     }
   ],
   "listening_exercises": [

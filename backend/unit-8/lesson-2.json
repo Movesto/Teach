@@ -206,6 +206,54 @@
       ],
       "correct": 1,
       "explanation": "The passage states: 'Research suggests that teachers who vary their instructional methods tend to achieve better outcomes across diverse classrooms.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'compulsory' mean?",
+      "options": [
+        "Optional and free to choose",
+        "Required by rules or law; something that must be done",
+        "Very difficult",
+        "Taught only in secondary school"
+      ],
+      "correct": 1,
+      "explanation": "'Compulsory' means required by rules or law — something that must be done, like core subjects."
+    },
+    {
+      "id": 6,
+      "question": "What does 'diverse' mean?",
+      "options": [
+        "Showing a great deal of variety",
+        "Always the same",
+        "Very expensive",
+        "Required by law"
+      ],
+      "correct": 0,
+      "explanation": "'Diverse' means showing a great deal of variety; very different from one another."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct relative clause.",
+      "options": [
+        "The subject which I enjoy most is history.",
+        "The subject who I enjoy most is history.",
+        "The subject what I enjoy most is history.",
+        "The subject I enjoy which most is history."
+      ],
+      "correct": 0,
+      "explanation": "'Which' is the correct relative pronoun for a thing: 'The subject which I enjoy most is history.'"
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, which subjects remain compulsory in secondary school?",
+      "options": [
+        "Music and art only",
+        "Mathematics, English, and science",
+        "Foreign languages only",
+        "No subjects are compulsory"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'core subjects such as mathematics, English, and science remain compulsory.'"
     }
   ],
   "listening_exercises": [

@@ -206,6 +206,54 @@
       ],
       "correct": 1,
       "explanation": "The passage states: 'Research has shown that students who have experienced cyberbullying report significantly higher levels of anxiety, depression, and school avoidance than those who have not.'"
+    },
+    {
+      "id": 5,
+      "question": "What is 'digital literacy', according to the passage?",
+      "options": [
+        "The ability to build websites",
+        "The ability to find, evaluate, and use information online effectively and safely",
+        "The ability to type quickly",
+        "The ability to buy a computer"
+      ],
+      "correct": 1,
+      "explanation": "The passage defines digital literacy as 'the ability to find, evaluate, and use information online effectively and safely.'"
+    },
+    {
+      "id": 6,
+      "question": "What does 'consequences' mean?",
+      "options": [
+        "Rewards for good behaviour",
+        "Results or effects of an action, especially negative ones",
+        "Online friends",
+        "Types of websites"
+      ],
+      "correct": 1,
+      "explanation": "'Consequences' are the results or effects of an action, especially negative ones."
+    },
+    {
+      "id": 7,
+      "question": "What does 'comprehensive' mean?",
+      "options": [
+        "Covering all aspects of something; thorough and complete",
+        "Very short and simple",
+        "Difficult to understand",
+        "Only for experts"
+      ],
+      "correct": 0,
+      "explanation": "'Comprehensive' means covering all aspects of something; thorough and complete."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Schools have made digital literacy a core subject in recent years.",
+        "Schools have made digital literacy a core subject yesterday.",
+        "Schools has made digital literacy a core subject.",
+        "Schools making digital literacy a core subject last year."
+      ],
+      "correct": 0,
+      "explanation": "The present perfect ('have made') is correct with 'in recent years', an unfinished time period; the past simple would need a finished time like 'yesterday'."
     }
   ],
   "listening_exercises": [

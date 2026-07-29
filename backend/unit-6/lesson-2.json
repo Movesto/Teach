@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The final paragraph suggests 'thrift stores like Goodwill and Habitat for Humanity's ReStore' and 'online platforms such as Craigslist's free section and Facebook Marketplace.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'furnished' mean?",
+      "options": [
+        "Empty of all furniture",
+        "Equipped with furniture and necessary household items",
+        "Only for refugees",
+        "Free of charge"
+      ],
+      "correct": 1,
+      "explanation": "'Furnished' means equipped with furniture and necessary household items."
+    },
+    {
+      "id": 6,
+      "question": "What is 'resettlement'?",
+      "options": [
+        "Buying a new apartment",
+        "The process of helping refugees or displaced people establish a new home",
+        "Selling furniture",
+        "Paying rent"
+      ],
+      "correct": 1,
+      "explanation": "Resettlement is the process of helping refugees or displaced people establish themselves in a new place."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct preposition: 'The lamp is ___ the table.'",
+      "options": [
+        "on",
+        "in",
+        "between",
+        "opposite"
+      ],
+      "correct": 0,
+      "explanation": "'On' is the correct preposition of place for an object resting on top of a surface: 'The lamp is on the table.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'distribute' mean?",
+      "options": [
+        "To collect furniture",
+        "To give out items to many different people or places",
+        "To buy items in bulk",
+        "To store items"
+      ],
+      "correct": 1,
+      "explanation": "To distribute means to give out items to many different people or places — as furniture banks distribute donated goods to families."
     }
   ],
   "listening_exercises": [

@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The final paragraph describes an effective direction that mixes 'route numbers, compass points, specific distances, and a visual landmark — giving the listener multiple ways to confirm they are on the right path.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'landmark'?",
+      "options": [
+        "A compass point",
+        "A well-known or easily noticed building or feature",
+        "A street name",
+        "A map app"
+      ],
+      "correct": 1,
+      "explanation": "A landmark is a well-known or easily noticed building or feature used to help give and follow directions."
+    },
+    {
+      "id": 6,
+      "question": "What does 'navigate' mean?",
+      "options": [
+        "To draw a map",
+        "To successfully find your way through or around an area",
+        "To give a compass point",
+        "To build a landmark"
+      ],
+      "correct": 1,
+      "explanation": "To navigate means to successfully find your way through or around an area."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence is a correctly formed imperative for giving directions?",
+      "options": [
+        "You should turning left at the bank.",
+        "Turn left at the bank.",
+        "To turn left at the bank.",
+        "Turning left at the bank."
+      ],
+      "correct": 1,
+      "explanation": "An imperative direction uses the base verb with no subject: 'Turn left at the bank.'"
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, why do people follow landmark-based directions more easily?",
+      "options": [
+        "Because landmarks engage visual memory",
+        "Because street names are always wrong",
+        "Because compass points are illegal",
+        "Because GPS never works"
+      ],
+      "correct": 0,
+      "explanation": "The passage explains landmark directions work well 'partly because landmarks engage visual memory' — you recognise a place you have seen before."
     }
   ],
   "listening_exercises": [

@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage describes a colander as 'a bowl-shaped kitchen tool with holes used to drain liquid from food such as pasta or washed vegetables.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'simmer' mean?",
+      "options": [
+        "To cook gently in liquid just below boiling",
+        "To fry at very high heat",
+        "To freeze food",
+        "To serve food cold"
+      ],
+      "correct": 0,
+      "explanation": "To simmer means to cook food gently in liquid at a temperature just below boiling."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'substitution' in cooking?",
+      "options": [
+        "A type of spice",
+        "The act of replacing one ingredient with a different one",
+        "A kitchen utensil",
+        "A cooking temperature"
+      ],
+      "correct": 1,
+      "explanation": "A substitution is the act of replacing one ingredient with a different one, for example when the original is unavailable."
+    },
+    {
+      "id": 7,
+      "question": "What is a 'colander' used for?",
+      "options": [
+        "To measure spices",
+        "To drain water from food through its holes",
+        "To fry meat",
+        "To store rice"
+      ],
+      "correct": 1,
+      "explanation": "A colander is a bowl-shaped utensil with holes, used to drain water from food such as pasta or washed vegetables."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correctly ordered instruction using sequence adverbs.",
+      "options": [
+        "First wash the rice, then add the water, and finally cook it.",
+        "Finally wash the rice, first cook it, then add water.",
+        "Then wash the rice first, finally add water.",
+        "Cook the rice, first wash it, then finally."
+      ],
+      "correct": 0,
+      "explanation": "'First... then... finally' orders the steps logically: wash, add water, cook."
     }
   ],
   "listening_exercises": [

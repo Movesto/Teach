@@ -206,6 +206,54 @@
       ],
       "correct": 2,
       "explanation": "A formal email should begin with 'Dear [Title + Surname],' followed by a clear, professional opening sentence. The other options use informal greetings that are not appropriate for formal correspondence."
+    },
+    {
+      "id": 5,
+      "question": "What does 'compose' mean?",
+      "options": [
+        "To delete a message",
+        "To write something carefully and thoughtfully",
+        "To read an email quickly",
+        "To send a photo"
+      ],
+      "correct": 1,
+      "explanation": "To compose means to write something carefully and thoughtfully, such as a professional email."
+    },
+    {
+      "id": 6,
+      "question": "What does 'concise' mean?",
+      "options": [
+        "Very long and detailed",
+        "Expressing ideas in few words, without unnecessary detail",
+        "Written in another language",
+        "Full of mistakes"
+      ],
+      "correct": 1,
+      "explanation": "'Concise' means expressing ideas in few words, without unnecessary detail."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct form: 'She agreed ___ the email before sending it.'",
+      "options": [
+        "to check",
+        "checking",
+        "check",
+        "checked"
+      ],
+      "correct": 0,
+      "explanation": "The verb 'agree' is followed by the infinitive: 'She agreed to check the email.'"
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct form: 'Avoid ___ your email too casual.'",
+      "options": [
+        "to make",
+        "making",
+        "make",
+        "made"
+      ],
+      "correct": 1,
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing): 'Avoid making your email too casual.'"
     }
   ],
   "listening_exercises": [

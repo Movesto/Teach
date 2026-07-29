@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage mentions: 'Grocery stores such as Halal International Market and Bilal International Halal Food in Portland stock a wide range of halal-certified meats, spices, and specialty items.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'halal' mean for food?",
+      "options": [
+        "Food that is very spicy",
+        "Food permitted under Islamic law",
+        "Food that is vegetarian",
+        "Food that is free"
+      ],
+      "correct": 1,
+      "explanation": "'Halal' means permitted under Islamic law; for food, it means the item meets Islamic dietary requirements."
+    },
+    {
+      "id": 6,
+      "question": "What does 'certified' mean?",
+      "options": [
+        "Very expensive",
+        "Officially verified and confirmed to meet a recognised standard",
+        "Cooked slowly",
+        "Sold in a supermarket"
+      ],
+      "correct": 1,
+      "explanation": "'Certified' means officially verified and confirmed to meet a recognised standard, as with halal-certified food."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence correctly uses the second conditional?",
+      "options": [
+        "If the restaurant offered halal food, I would eat there more often.",
+        "If the restaurant offers halal food, I would ate there.",
+        "If the restaurant will offer halal food, I ate there.",
+        "If the restaurant offered halal food, I will eat there."
+      ],
+      "correct": 0,
+      "explanation": "The second conditional is 'if' + past simple, then 'would' + base verb: 'If the restaurant offered halal food, I would eat there.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'accommodate' mean?",
+      "options": [
+        "To refuse a request",
+        "To adapt or make adjustments to meet someone's needs",
+        "To pay the bill",
+        "To cook a meal"
+      ],
+      "correct": 1,
+      "explanation": "To accommodate means to adapt or make adjustments in order to meet the needs of others, such as a restaurant accommodating a dietary requirement."
     }
   ],
   "listening_exercises": [
