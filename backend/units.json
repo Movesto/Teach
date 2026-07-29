@@ -49,10 +49,10 @@
   },
   {
     "id": 7,
-    "title": "Storytelling & Description",
-    "description": "Tell personal stories, describe people and places, explain cause and effect, and share family history",
+    "title": "Food and Eating",
+    "description": "Handle food with confidence — restaurants, menus, recipes, groceries, healthy eating, food safety, hosting, and eating out",
     "order_number": 7,
-    "total_lessons": 6,
+    "total_lessons": 10,
     "locked": false
   },
   {
