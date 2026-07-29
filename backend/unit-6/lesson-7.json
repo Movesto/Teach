@@ -1,0 +1,282 @@
+{
+  "id": "lesson-111",
+  "unit_id": 6,
+  "lesson_number": 7,
+  "title": "Moving In and Setting Up Your Home",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the practical steps of moving into a new home in the United States",
+    "Set up basic services: electricity, gas, water, and internet",
+    "Update your address with important organisations",
+    "Use the language of arranging services and giving personal information"
+  ],
+  "reading_passage": {
+    "title": "The First Week in a New Home",
+    "text": "Signing the lease is only the beginning. The first week in a new home is busy, and doing a few important things early will save you trouble later. The goal is simple: to make the home safe, comfortable, and connected before daily life gets in the way.\n\nThe first priority is usually the services, sometimes called utilities. In most rented homes, you are responsible for setting up electricity and gas in your own name, and often water as well, although in some buildings water is included in the rent. To set up a service, you contact the utility company, give your new address and the date you moved in, and provide some identification. The company then opens an account and, if the supply is off, arranges to turn it on. It is wise to do this a few days before you move, because connection is not always instant. Ask whether there is a deposit, which some companies require from new customers and return later.\n\nInternet is the service people most often forget until they need it. Because installation can take a week or more, it is best to arrange it as early as possible. Compare a few providers, check whether the price rises after an introductory period, and ask whether you need to be home for an engineer to visit. If you cannot wait, a mobile hotspot can keep you online in the meantime.\n\nOnce the services are arranged, update your address. Many organisations need to know where you now live: your bank, your employer, your doctor, your children's school, and the government offices that handle taxes and benefits. In the United States, you can file a change of address with the postal service, which will forward your mail for a period, but this is only temporary — you should still tell each organisation directly. Forgetting to update an address can mean missed bills, lost documents, or delayed benefits.\n\nFinally, take care of a few small but important things. Locate the fuse box and the water shut-off valve, so you can act quickly if there is a problem. Test the smoke alarms and replace the batteries if needed. Note down the phone number of your landlord or building manager for emergencies. And introduce yourself to a neighbour or two; a friendly relationship next door is valuable when you need to borrow a tool, receive a package, or simply ask how things work in the building. A little effort in the first week turns an empty apartment into a home that runs smoothly.",
+    "source": "Adapted for learners — settling into a new home",
+    "glossary": [
+      {
+        "word": "utilities",
+        "meaning": "basic home services such as electricity, gas, water, and sometimes internet"
+      },
+      {
+        "word": "deposit",
+        "meaning": "a sum of money paid in advance and usually returned later, as security"
+      },
+      {
+        "word": "provider",
+        "meaning": "a company that supplies a service such as internet or electricity"
+      },
+      {
+        "word": "change of address",
+        "meaning": "the process of informing organisations that you have moved to a new home"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "What information do you usually give a utility company when setting up a service?",
+      "answer": "Your new address, the date you moved in, and some form of identification. The company then opens an account in your name and, if the supply is off, arranges to turn it on."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise arranging internet as early as possible?",
+      "answer": "Because installation can take a week or more. Arranging it early means you are not left without internet for days after moving; if you cannot wait, a mobile hotspot can bridge the gap."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What are 'utilities', and give two examples from the passage.",
+      "answer": "Utilities are basic home services. Examples from the passage include electricity, gas, water, and internet."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say filing a change of address with the postal service is 'only temporary'?",
+      "answer": "Because mail forwarding lasts only for a limited period, so it does not permanently update your address with each organisation. You must still tell your bank, employer, doctor, school, and government offices directly, or you risk missed bills and lost documents."
+    }
+  ],
+  "language_focus": {
+    "title": "Arranging Services: Requests and Giving Information",
+    "explanation": "When you set up a service by phone, you make requests and give personal information clearly. Use 'I'd like to...' and 'I'm calling to...' to state your purpose, and 'Could you tell me...?' to ask for details. When giving information such as an address or a date, speak slowly and be ready to spell names and repeat numbers.",
+    "examples": [
+      {
+        "sentence": "Hello, I'm calling to set up electricity at my new address.",
+        "note": "'I'm calling to...' states your purpose immediately and politely."
+      },
+      {
+        "sentence": "Could you tell me whether there's a deposit, and when the supply will be connected?",
+        "note": "'Could you tell me whether...?' asks politely for two pieces of information in one question."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "State your purpose: you want to open a water account.",
+        "answer": "Hello, I'd like to open a water account at my new address."
+      },
+      {
+        "sentence": "Ask politely about timing: when will the internet be installed?",
+        "answer": "Could you tell me when the internet will be installed?"
+      },
+      {
+        "sentence": "Ask politely whether you must be home for the engineer.",
+        "answer": "Could you tell me whether I need to be home when the engineer visits?"
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "set up",
+      "definition": "to arrange or start a service or account",
+      "example_sentence": "I need to set up gas and electricity before I move in.",
+      "collocations": [
+        "set up an account",
+        "set up a service",
+        "get set up"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "connection",
+      "definition": "the joining of a service such as electricity or internet to your home",
+      "example_sentence": "The connection took three days after I called.",
+      "collocations": [
+        "arrange a connection",
+        "internet connection",
+        "connection fee"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "installation",
+      "definition": "the work of putting in and setting up equipment such as internet",
+      "example_sentence": "Installation is free, but you have to be home for the visit.",
+      "collocations": [
+        "book an installation",
+        "installation date",
+        "installation fee"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "forward",
+      "definition": "to send mail on to a new address",
+      "example_sentence": "The postal service will forward my mail for three months.",
+      "collocations": [
+        "forward mail",
+        "forward a letter",
+        "mail forwarding"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You have just moved into a new apartment and you are calling the electricity company to set up service in your name.",
+    "prompt": "Have the phone conversation. State why you are calling, give your new address and move-in date, ask about any deposit and when the supply will be connected, and confirm the details before you finish. Speak for about ninety seconds.",
+    "useful_language": [
+      "Hello, I'm calling to set up electricity at my new address.",
+      "My address is 58 Maple Street, apartment 3B.",
+      "I moved in on the first of the month.",
+      "Could you tell me if there's a deposit?",
+      "So the supply will be connected on Thursday — is that right?"
+    ],
+    "model_answer": "Hello, I'm calling to set up electricity at my new address, please. ... My name is Hodan Ali, and the address is 58 Maple Street, apartment 3B — that's M-A-P-L-E. ... I moved in on the first of this month. Could you tell me if there's a deposit? ... Fifty dollars, okay, and that's returned later? Good. And when will the supply be connected? ... Thursday. So, just to confirm, the account is in my name, there's a fifty-dollar deposit, and the electricity will be on by Thursday — is that right? Perfect. Thank you very much for your help."
+  },
+  "writing_workshop": {
+    "task": "You have moved to a new home. Write a short email to your bank asking them to update your address on your account. Give your old and new addresses clearly and ask them to confirm the change.",
+    "word_count": "110-150",
+    "model_text": "Dear Customer Service, I am writing to update the address on my account. I recently moved, and I would like my new address recorded so that my statements and cards are sent to the right place. My old address was 12 Birch Lane, apartment 5. My new address is 58 Maple Street, apartment 3B, in the same city. My account number is 4471-9032. Could you please update the address and confirm once it has been changed? If you need any documents to verify the new address, please let me know and I will send them. Thank you for your help. Kind regards, Hodan Ali.",
+    "model_analysis": "The email states the purpose in the first sentence, gives both the old and new address (so there is no confusion), includes the account number, and asks for confirmation. Offering to send proof shows helpfulness and speeds up the process.",
+    "success_criteria": [
+      "State the purpose (updating your address) in the first sentence",
+      "Give both the old and new addresses clearly",
+      "Include your account number",
+      "Ask for confirmation of the change"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does the passage say is usually the first priority in a new home?",
+      "options": [
+        "Buying furniture",
+        "Setting up the services (utilities)",
+        "Painting the walls",
+        "Meeting the landlord"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'The first priority is usually the services, sometimes called utilities.'"
+    },
+    {
+      "id": 2,
+      "question": "Why should you set up electricity a few days before you move?",
+      "options": [
+        "Because it is cheaper before moving",
+        "Because connection is not always instant",
+        "Because the landlord requires it",
+        "Because deposits are only returned early"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises setting up utilities early 'because connection is not always instant.'"
+    },
+    {
+      "id": 3,
+      "question": "Which service does the passage say people most often forget?",
+      "options": [
+        "Electricity",
+        "Gas",
+        "Internet",
+        "Water"
+      ],
+      "correct": 2,
+      "explanation": "The passage says 'Internet is the service people most often forget until they need it.'"
+    },
+    {
+      "id": 4,
+      "question": "Why must you tell each organisation your new address directly, even after filing with the postal service?",
+      "options": [
+        "Because the postal service charges a fee",
+        "Because mail forwarding is only temporary",
+        "Because organisations ignore the post office",
+        "Because forwarding is illegal"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains that mail forwarding 'is only temporary — you should still tell each organisation directly,' or you risk missed bills and lost documents."
+    },
+    {
+      "id": 5,
+      "question": "Which two things does the passage say you should locate for emergencies?",
+      "options": [
+        "The kitchen and the bedroom",
+        "The fuse box and the water shut-off valve",
+        "The landlord and the neighbour",
+        "The bank and the school"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises locating 'the fuse box and the water shut-off valve, so you can act quickly if there is a problem.'"
+    },
+    {
+      "id": 6,
+      "question": "What does 'set up' mean in 'set up an account'?",
+      "options": [
+        "To close something",
+        "To arrange or start something",
+        "To pay a fine",
+        "To move house"
+      ],
+      "correct": 1,
+      "explanation": "'Set up' means to arrange or start a service or account, as in setting up electricity or an internet account."
+    },
+    {
+      "id": 7,
+      "question": "Which is the most appropriate way to begin a call to a utility company?",
+      "options": [
+        "Give me electricity now.",
+        "Hello, I'm calling to set up electricity at my new address.",
+        "Why is my power off?",
+        "I want free electricity."
+      ],
+      "correct": 1,
+      "explanation": "'Hello, I'm calling to set up electricity at my new address' politely states the purpose of the call immediately."
+    },
+    {
+      "id": 8,
+      "question": "Why does the passage recommend introducing yourself to a neighbour?",
+      "options": [
+        "Because it is required by law",
+        "Because a friendly neighbour is helpful for packages, tools, and advice",
+        "Because neighbours pay your bills",
+        "Because it lowers your rent"
+      ],
+      "correct": 1,
+      "explanation": "The passage says a friendly relationship next door 'is valuable when you need to borrow a tool, receive a package, or simply ask how things work in the building.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Agent: Thank you for calling City Power. How can I help? Customer: Hi, I'd like to set up electricity at my new apartment, please. Agent: Of course. Can I take the address? Customer: Yes, it's 58 Maple Street, apartment 3B. Agent: And when did you move in? Customer: The first of this month. Agent: Thank you. I can set up the account in your name today. There's a one-time connection deposit of fifty dollars for new customers, which is refunded after twelve months of on-time payments. Customer: That's fine. When will the power be connected? Agent: The supply is actually already on at that address, so it'll simply transfer to your name from today. You don't need to be home. Customer: Oh, that's easy. So there's nothing else I need to do? Agent: Just make sure the deposit is paid with your first bill, and you're all set. I'll email you a confirmation now.",
+      "question": "What does the agent tell the customer about the deposit?",
+      "options": [
+        "It is never refunded",
+        "It is fifty dollars, refunded after twelve months of on-time payments",
+        "It must be paid in cash today",
+        "It replaces the first bill"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Customer: Hi, I'm calling about setting up internet at a new address. Rep: Sure! What's the address? Customer: 58 Maple Street, apartment 3B. Rep: Let me check availability... Yes, we cover that building. Our standard plan is forty dollars a month for the first year, then it goes up to sixty. Customer: Okay, good to know it changes after a year. How soon can it be installed? Rep: The earliest installation appointment is next Wednesday, between eight and twelve in the morning. Someone needs to be home for the engineer. Customer: Next Wednesday is a bit late — I work from home and need it sooner. Rep: I understand. In that case, I can post you a mobile hotspot device today, which will keep you online until the installation. There's no extra charge. Customer: That would be perfect, thank you. Rep: Great. I'll set up the hotspot and book the installation for Wednesday.",
+      "question": "How will the customer stay online before the installation?",
+      "options": [
+        "By using a neighbour's internet",
+        "With a mobile hotspot sent by the provider",
+        "By visiting a library",
+        "They will have no internet at all"
+      ],
+      "correct": 1
+    }
+  ]
+}
