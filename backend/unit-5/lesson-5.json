@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The final paragraph says: 'The most important thing any traveller can do during a delay is to stay informed. Check the airline or transit agency's app or website for real-time updates.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'disruption' mean?",
+      "options": [
+        "A refund",
+        "Something unexpected that interrupts normal service",
+        "A meal voucher",
+        "A hotel room"
+      ],
+      "correct": 1,
+      "explanation": "A disruption is something unexpected that interrupts normal service, such as a delayed or cancelled trip."
+    },
+    {
+      "id": 6,
+      "question": "What does it mean to 'compensate' a passenger?",
+      "options": [
+        "To delay their trip",
+        "To give them money, vouchers, or services in return for a problem",
+        "To cancel their ticket",
+        "To sell them a new ticket"
+      ],
+      "correct": 1,
+      "explanation": "To compensate means to give money, vouchers, or services to someone as a way of making up for a problem."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence correctly uses the first conditional?",
+      "options": [
+        "If the flight is cancelled, you will get a refund.",
+        "If the flight will be cancelled, you get a refund.",
+        "If the flight is cancelled, you would got a refund.",
+        "If the flight cancelled, you will getting a refund."
+      ],
+      "correct": 0,
+      "explanation": "The first conditional is 'if' + present simple, then 'will' + base verb: 'If the flight is cancelled, you will get a refund.'"
+    },
+    {
+      "id": 8,
+      "question": "What is a 'voucher', as used in the passage?",
+      "options": [
+        "A revolving belt",
+        "A document or code that can be exchanged for something, such as a meal",
+        "A type of aircraft",
+        "A bus route"
+      ],
+      "correct": 1,
+      "explanation": "A voucher is a document or digital code that can be exchanged for something — for example a meal voucher during a delay."
     }
   ],
   "listening_exercises": [

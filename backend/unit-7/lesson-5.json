@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'the Oregon Food Bank...provides free food to anyone in need — no proof of income is required.'"
+    },
+    {
+      "id": 5,
+      "question": "What is an 'aisle' in a supermarket?",
+      "options": [
+        "The checkout counter",
+        "A long passage between rows of shelves",
+        "The entrance",
+        "A shopping cart"
+      ],
+      "correct": 1,
+      "explanation": "An aisle is a long passage between rows of shelves in a supermarket."
+    },
+    {
+      "id": 6,
+      "question": "What does 'unit price' tell you?",
+      "options": [
+        "The total cost of your shopping",
+        "The cost of a product per standard measure, for comparing value",
+        "The store's opening hours",
+        "The brand of a product"
+      ],
+      "correct": 1,
+      "explanation": "The unit price is the cost of a product calculated per standard measure (such as per ounce), which helps you compare value between products."
+    },
+    {
+      "id": 7,
+      "question": "What does 'produce' mean in a grocery store?",
+      "options": [
+        "Packaged snacks",
+        "Fresh fruit and vegetables",
+        "Frozen meals",
+        "Cleaning products"
+      ],
+      "correct": 1,
+      "explanation": "'Produce' means fresh fruit and vegetables sold in a grocery store or market."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct quantifier: 'There are ___ apples, but there isn't ___ milk.'",
+      "options": [
+        "a few / much",
+        "much / many",
+        "many / a few",
+        "a little / many"
+      ],
+      "correct": 0,
+      "explanation": "'A few' is used with countable nouns (apples) and 'much' with uncountable nouns (milk): 'a few apples... much milk.'"
     }
   ],
   "listening_exercises": [

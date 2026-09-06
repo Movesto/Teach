@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states he had never flown before, the terminal was enormous, crowds moved in every direction, and announcements echoed everywhere — all contributing to the stress."
+    },
+    {
+      "id": 5,
+      "question": "What is a 'terminal' at an airport?",
+      "options": [
+        "A revolving belt for bags",
+        "The main building where passengers arrive and depart",
+        "A customs officer",
+        "A type of flight"
+      ],
+      "correct": 1,
+      "explanation": "A terminal is the main building of an airport where passengers arrive, depart, and move between flights."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'carousel' at an airport?",
+      "options": [
+        "A revolving belt where checked bags arrive",
+        "A ticket machine",
+        "An information desk",
+        "A departure gate"
+      ],
+      "correct": 0,
+      "explanation": "A carousel is the revolving belt where you collect your checked luggage — Mohamed collected his from carousel seven."
+    },
+    {
+      "id": 7,
+      "question": "Choose the sentence that correctly uses 'should' to give advice.",
+      "options": [
+        "You should to arrive early for your flight.",
+        "You should arrive early for your flight.",
+        "You should arriving early for your flight.",
+        "You arrive should early for your flight."
+      ],
+      "correct": 1,
+      "explanation": "'Should' is followed by the base verb with no 'to': 'You should arrive early.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'proceed' mean, as used in the passage?",
+      "options": [
+        "To stop and wait",
+        "To move forward or continue to the next step",
+        "To buy a ticket",
+        "To ask for help"
+      ],
+      "correct": 1,
+      "explanation": "'Proceed' means to move forward or continue to the next step — for example, to proceed through customs and immigration."
     }
   ],
   "listening_exercises": [

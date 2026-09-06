@@ -1,0 +1,281 @@
+{
+  "id": "lesson-108",
+  "unit_id": 5,
+  "lesson_number": 9,
+  "title": "Traveling by Train and Subway",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand how trains and subways work in American cities and between cities",
+    "Read a train schedule and buy the right kind of ticket",
+    "Ask for and understand travel information at a station",
+    "Use time and sequence language to describe a journey"
+  ],
+  "reading_passage": {
+    "title": "Riding the Rails: Trains and Subways",
+    "text": "Trains are one of the most reliable ways to travel, both across a city and between cities. Because a train runs on its own track, it is not held up by road traffic, so it often arrives more predictably than a bus or car. Learning to use the rail system opens up cheaper, faster travel for people who do not drive.\n\nInside a city, the local train is usually called the subway, the metro, or the light rail, depending on where you live. It stops frequently, every few minutes, at stations across the urban area. To ride it, you buy a ticket or load money onto a reusable travel card, then tap the card at a gate or a reader before you board. Many cities now let you tap a bank card or a phone instead. The most important skill is reading the system map: each line has a colour and a name, and you follow it to your stop, changing lines at a station where two colours meet. If you are unsure, the direction is shown by the name of the last station on the line — for example, a train might be labelled 'Northbound to Riverside.'\n\nFor longer trips between cities, you take an intercity train, such as those run by Amtrak. These are quite different from the subway. You usually buy a ticket in advance for a specific train at a specific time, and the price is often lower if you book early. The ticket may show a car number and sometimes a seat number, and a conductor walks through the train to check tickets after it departs. Intercity trains are more comfortable, with larger seats, tables, and often a café car, but they run far less frequently — perhaps only a few times a day — so missing one can mean a long wait.\n\nReading a schedule is the key to stress-free rail travel. A schedule lists the departure time, the arrival time, and the platform or track number. Arrive early, because trains leave exactly on time and will not wait. Check the departure board in the station, which shows any delays and tells you which platform to go to. If the information is confusing, staff at the ticket office or information desk are there to help, and asking a clear question — 'Which platform does the eleven-fifteen to Portland leave from?' — will get you a quick answer. With a little practice, the rail network becomes one of the simplest and most affordable ways to travel.",
+    "source": "Adapted for learners — rail travel in the United States",
+    "glossary": [
+      {
+        "word": "subway",
+        "meaning": "a local train system inside a city, often running underground"
+      },
+      {
+        "word": "travel card",
+        "meaning": "a reusable card that you load with money to pay for trips on public transport"
+      },
+      {
+        "word": "conductor",
+        "meaning": "a railway worker who checks tickets and helps passengers on a train"
+      },
+      {
+        "word": "platform",
+        "meaning": "the raised area beside the track where you wait for and board a train (also called a track)"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "Why does the passage say a train often arrives more predictably than a bus or car?",
+      "answer": "Because a train runs on its own track and is not held up by road traffic, so it is less affected by congestion and tends to keep to its schedule."
+    },
+    {
+      "type": "inference",
+      "question": "Why is it important to know the name of the last station on a subway line?",
+      "answer": "Because trains are labelled by their direction, shown by the name of the last station (for example, 'Northbound to Riverside'). Knowing that name lets you make sure you board a train going the right way, even when you don't recognise the intermediate stops."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is a 'conductor', and what do they do on an intercity train?",
+      "answer": "A conductor is a railway worker who checks tickets and helps passengers. On an intercity train, the conductor walks through the train after it departs to check that passengers have valid tickets."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say that missing an intercity train can 'mean a long wait', while missing a subway is less serious?",
+      "answer": "Because intercity trains run far less frequently — perhaps only a few times a day — so the next one may be hours away. Subways stop every few minutes, so if you miss one, another comes very soon."
+    }
+  ],
+  "language_focus": {
+    "title": "Sequencing a Journey: Time and Order Words",
+    "explanation": "When you describe or plan a journey, you connect the steps with time and sequence words: 'first', 'then', 'after that', 'once', 'as soon as', 'before', and 'finally'. These words make your directions easy to follow. Notice that 'once' and 'as soon as' introduce the moment something happens: 'Once you tap your card, walk to the platform.'",
+    "examples": [
+      {
+        "sentence": "First, buy a ticket; then take the red line north and change to the blue line at Central Station.",
+        "note": "'First... then...' orders the steps of the journey clearly."
+      },
+      {
+        "sentence": "As soon as the train arrives, check the destination on the front before you board.",
+        "note": "'As soon as' means 'immediately when'; 'before you board' adds an important condition."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Join with 'then': 'Tap your card at the gate.' + 'Walk down to the platform.'",
+        "answer": "Tap your card at the gate, then walk down to the platform."
+      },
+      {
+        "sentence": "Complete with a sequence word: '___ you reach Central Station, change to the green line.'",
+        "answer": "Once (or When) you reach Central Station, change to the green line."
+      },
+      {
+        "sentence": "Rewrite using 'before': 'Check the platform number. After that, go through the gate.'",
+        "answer": "Check the platform number before you go through the gate."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "schedule",
+      "definition": "a list of the times when trains or buses arrive and leave",
+      "example_sentence": "According to the schedule, the next train to the airport leaves at 9:40.",
+      "collocations": [
+        "check the schedule",
+        "the train schedule",
+        "behind schedule"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "departure",
+      "definition": "the act of a train or bus leaving; the time it leaves",
+      "example_sentence": "The departure board showed a ten-minute delay.",
+      "collocations": [
+        "departure time",
+        "departure board",
+        "the point of departure"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "transfer",
+      "definition": "to change from one train or line to another during a journey",
+      "example_sentence": "You transfer from the red line to the blue line at Central Station.",
+      "collocations": [
+        "transfer to",
+        "a transfer point",
+        "free transfer"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "fare gate",
+      "definition": "the barrier at a station that opens when you tap a valid ticket or card",
+      "example_sentence": "Tap your card at the fare gate and wait for it to open.",
+      "collocations": [
+        "tap at the fare gate",
+        "go through the fare gate"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are at a train station and you need to get to the airport, but you are not sure which train to take. You approach the information desk.",
+    "prompt": "Ask the staff member for the information you need: which train goes to the airport, what time it leaves, which platform, and how much the ticket costs. Use polite questions and repeat the key details back to check you understood. Speak for about ninety seconds.",
+    "useful_language": [
+      "Excuse me, could you tell me which train goes to the airport?",
+      "What time does the next one leave?",
+      "Which platform does it leave from?",
+      "So that's the 10:15 from platform four — is that right?",
+      "How much is a one-way ticket?"
+    ],
+    "model_answer": "Excuse me, could you tell me which train goes to the airport? ... The blue line, okay. What time does the next one leave? ... 10:15, great. And which platform does it leave from? ... Platform four. So that's the 10:15 on the blue line from platform four — is that right? Perfect. One more thing — how much is a one-way ticket? ... Three dollars fifty. Thank you very much for your help."
+  },
+  "writing_workshop": {
+    "task": "A friend is visiting your city for the first time and will arrive by train. Write a short message explaining how to travel from the main train station to your home using the subway. Give clear, ordered steps.",
+    "word_count": "120-160",
+    "model_text": "Hi Amir! I'm so glad you're coming. Here's how to get from the main station to my apartment — it's easy. First, when you arrive, follow the signs to the subway, which is one level down. Buy a ticket from the machine, or you can just tap your bank card at the fare gate. Then take the red line going north, toward Riverside. Stay on it for four stops and get off at Elm Street station. After that, transfer to the green line and go one stop to Park Avenue. Once you come out of the station, turn left, and my building is the third one on the right, number 14. The whole trip takes about twenty-five minutes. Text me when you're on the train and I'll meet you outside. See you soon!",
+    "model_analysis": "The message uses clear sequence words ('First', 'Then', 'After that', 'Once') to order the steps, names specific lines, directions, and stops, and gives the total time so the reader knows what to expect. Ordered, concrete steps are much easier to follow than a single long sentence.",
+    "success_criteria": [
+      "Give the steps in a clear order using sequence words (first, then, after that)",
+      "Name the specific lines, directions, and stops",
+      "Include the total travel time",
+      "Keep a friendly, helpful tone"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, how do you usually pay to ride a city subway?",
+      "options": [
+        "You pay the conductor in cash on the train",
+        "You tap a ticket or travel card at a gate before boarding",
+        "You buy a seat number in advance",
+        "You pay only when you leave the city"
+      ],
+      "correct": 1,
+      "explanation": "The passage says you 'buy a ticket or load money onto a reusable travel card, then tap the card at a gate or a reader before you board.'"
+    },
+    {
+      "id": 2,
+      "question": "How is a subway train's direction usually shown?",
+      "options": [
+        "By the colour of the seats",
+        "By the name of the last station on the line",
+        "By the number of passengers",
+        "By the price of the ticket"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains the direction 'is shown by the name of the last station on the line — for example... Northbound to Riverside.'"
+    },
+    {
+      "id": 3,
+      "question": "What is one key difference between an intercity train and a subway?",
+      "options": [
+        "The subway is more comfortable",
+        "The intercity train runs far less frequently",
+        "The intercity train has no tickets",
+        "The subway needs a seat number"
+      ],
+      "correct": 1,
+      "explanation": "The passage notes intercity trains 'run far less frequently — perhaps only a few times a day', unlike the subway which stops every few minutes."
+    },
+    {
+      "id": 4,
+      "question": "Why does the passage advise arriving early for a train?",
+      "options": [
+        "Because tickets are cheaper early in the day",
+        "Because trains leave exactly on time and will not wait",
+        "Because the conductor checks tickets before departure",
+        "Because platforms close ten minutes early"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns: 'Arrive early, because trains leave exactly on time and will not wait.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'transfer' mean in the context of train travel?",
+      "options": [
+        "To buy a more expensive ticket",
+        "To change from one train or line to another",
+        "To wait on the platform",
+        "To check the departure board"
+      ],
+      "correct": 1,
+      "explanation": "'Transfer' means to change from one train or line to another during your journey, for example changing lines at a station where two colours meet."
+    },
+    {
+      "id": 6,
+      "question": "Where should you look to find out about delays and which platform to use?",
+      "options": [
+        "The café car",
+        "The departure board in the station",
+        "The travel card",
+        "The seat number"
+      ],
+      "correct": 1,
+      "explanation": "The passage says to 'Check the departure board in the station, which shows any delays and tells you which platform to go to.'"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correctly sequenced instruction.",
+      "options": [
+        "Walk to the platform, then buy your ticket after you board",
+        "First buy a ticket, then tap at the fare gate, and finally go to the platform",
+        "Board the train before you check the destination",
+        "Transfer lines, then buy a ticket at the first station"
+      ],
+      "correct": 1,
+      "explanation": "The logical order is to buy a ticket first, tap in at the gate, then go to the platform — the option that uses 'First... then... finally' correctly."
+    },
+    {
+      "id": 8,
+      "question": "Complete the sentence: '___ you reach Central Station, change to the green line.'",
+      "options": [
+        "Before",
+        "Once",
+        "Until",
+        "Unless"
+      ],
+      "correct": 1,
+      "explanation": "'Once' (meaning 'as soon as / when') correctly introduces the moment you should change lines: 'Once you reach Central Station...'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Passenger: Excuse me, I'm trying to get to Lincoln Park. Am I on the right line? Staff: Not quite — this is the red line, and Lincoln Park is on the green line. You'll need to transfer. Passenger: Okay, where do I do that? Staff: Take this train two stops to Central Station, then follow the signs for the green line, and take a green-line train going south toward Bayside. Lincoln Park is the fourth stop. Passenger: So, red line to Central, then transfer to the green line toward Bayside, and get off at the fourth stop. Staff: Exactly. It's about fifteen minutes altogether. Passenger: Great, thank you. One more thing — do I need a new ticket to transfer? Staff: No, the transfer is free as long as you don't leave through the fare gates. Passenger: Perfect. Thanks very much.",
+      "question": "What must the passenger do to reach Lincoln Park?",
+      "options": [
+        "Stay on the red line all the way",
+        "Transfer to the green line at Central Station",
+        "Buy a new ticket after transferring",
+        "Get off at the second stop"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Announcement: Attention, passengers. The eleven-fifteen intercity service to Portland has been delayed by approximately twenty minutes due to a signal problem further up the line. It will now depart at approximately eleven thirty-five from platform six, not platform four as previously shown. Passengers who have already boarded on platform four should make their way to platform six. We apologise for the inconvenience. Passengers travelling to Salem and Eugene are reminded that this is the last direct service of the morning; the next departure after this one is not until two o'clock this afternoon. The café car is open and located in the middle of the train. Please have your tickets ready for inspection after departure. Thank you for your patience.",
+      "question": "What has changed about the eleven-fifteen train to Portland?",
+      "options": [
+        "It has been cancelled completely",
+        "It is delayed and now leaves from platform six",
+        "It no longer has a café car",
+        "It is now going to Salem instead"
+      ],
+      "correct": 1
+    }
+  ]
+}

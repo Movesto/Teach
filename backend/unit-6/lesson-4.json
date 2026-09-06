@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The advocate's advice was: 'knowing your rights, documenting everything, and remaining calm but persistent is the most effective strategy a tenant has.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'verbally' mean?",
+      "options": [
+        "In writing",
+        "In spoken words rather than in writing",
+        "By text message",
+        "By email"
+      ],
+      "correct": 1,
+      "explanation": "'Verbally' means in spoken words rather than in writing — Sadiyo first reported the problem verbally, by voicemail."
+    },
+    {
+      "id": 6,
+      "question": "Why did the advocate advise Sadiyo to put her request in writing?",
+      "options": [
+        "Because writing is faster than speaking",
+        "To create documentation — a written record as evidence",
+        "Because the landlord could not hear",
+        "Because it is required to pay rent"
+      ],
+      "correct": 1,
+      "explanation": "A written request creates documentation — a record of when and what was reported, which is useful if the problem is not fixed."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence correctly uses the passive voice for a formal complaint?",
+      "options": [
+        "The heating was not repaired for four days.",
+        "The heating not repair for four days.",
+        "The landlord repairing the heating.",
+        "They was repair the heating."
+      ],
+      "correct": 0,
+      "explanation": "'The heating was not repaired' is the passive voice (was + past participle), common in formal written complaints."
+    },
+    {
+      "id": 8,
+      "question": "What does 'persistent' mean?",
+      "options": [
+        "Giving up quickly",
+        "Continuing to take action despite delays or difficulties",
+        "Paying rent on time",
+        "Living somewhere a long time"
+      ],
+      "correct": 1,
+      "explanation": "'Persistent' means continuing to take action despite delays, difficulties, or a lack of response."
     }
   ],
   "listening_exercises": [

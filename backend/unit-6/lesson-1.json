@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'you may have the legal right to withhold rent or hire a repairperson and deduct the cost from your rent.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'lease'?",
+      "options": [
+        "A monthly rent payment",
+        "A written legal contract between a tenant and landlord",
+        "A security deposit",
+        "A furniture bank"
+      ],
+      "correct": 1,
+      "explanation": "A lease is a written, legally binding contract between a tenant and a landlord that sets out the terms of renting."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'security deposit'?",
+      "options": [
+        "The monthly rent",
+        "Money paid by the tenant before moving in, held by the landlord",
+        "A type of insurance",
+        "A utility bill"
+      ],
+      "correct": 1,
+      "explanation": "A security deposit is money paid by the tenant before moving in, which the landlord holds as protection against damage or unpaid rent."
+    },
+    {
+      "id": 7,
+      "question": "What does 'habitable' mean?",
+      "options": [
+        "Fully furnished",
+        "Safe, clean, and suitable for people to live in",
+        "Expensive to rent",
+        "Close to a bus stop"
+      ],
+      "correct": 1,
+      "explanation": "'Habitable' means safe, clean, and suitable for people to live in, according to legal standards."
+    },
+    {
+      "id": 8,
+      "question": "Which is a correct way to ask a landlord for clarification?",
+      "options": [
+        "Explain this now.",
+        "Could you explain what this clause means?",
+        "You must tell me this.",
+        "Why you not explain?"
+      ],
+      "correct": 1,
+      "explanation": "'Could you explain what this clause means?' is a polite request for clarification, as taught in the lesson's language focus."
     }
   ],
   "listening_exercises": [

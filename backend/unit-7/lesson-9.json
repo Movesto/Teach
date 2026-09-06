@@ -1,0 +1,281 @@
+{
+  "id": "lesson-117",
+  "unit_id": 7,
+  "lesson_number": 9,
+  "title": "Hosting a Meal and Table Manners",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Invite guests and host a meal politely in an American context",
+    "Understand common table manners and dining customs in the United States",
+    "Offer food and drink, and respond politely to offers as a guest",
+    "Use polite offers and requests (Would you like...?, May I...?, Help yourself)"
+  ],
+  "reading_passage": {
+    "title": "Sharing a Table: Hosting and Being a Guest",
+    "text": "Sharing food is one of the warmest ways to build friendships, and in every culture there are customs around it. When you host a meal, or when you are a guest at someone's home, knowing a few common American customs helps everyone feel comfortable — and shows that you respect your host or your guests.\n\nIf you are invited to a meal, a few habits are appreciated. It is polite to reply to the invitation quickly, so the host knows how many people to expect. Ask whether you can bring something; often the host will say a drink or a dessert would be welcome. Arriving on time matters more in the United States than in some cultures — a few minutes late is fine, but very late is considered rude for a planned dinner. It is also thoughtful to mention any food you cannot eat when you accept, so the host can plan, rather than leaving it as a surprise at the table.\n\nAt the table, American manners are fairly relaxed but have some common rules. People usually wait until everyone is served, or until the host says 'please, start', before eating. Napkins go on the lap. It is polite to keep your phone away and to join the conversation. If you want something out of reach, it is better to ask someone to pass it — 'Could you pass the salt, please?' — than to reach across other people. And if you do not want more food, a simple 'No, thank you, it was delicious' is polite; you do not have to give a reason.\n\nAs a host, your main job is to make guests feel welcome and relaxed. Offer food and drink warmly, and encourage guests to help themselves: 'Please, help yourself.' Do not be offended if a guest declines a dish; they may have a reason they prefer not to explain. It is kind to check for dietary needs when you invite people, so no one is left with nothing to eat. And remember that the food does not have to be perfect — guests remember a warm welcome far more than a flawless meal.\n\nFinally, small courtesies close a meal well. As a guest, thank your host warmly before you leave, and a short message the next day is a thoughtful touch. As a host, walk your guests to the door and tell them you enjoyed having them. These small gestures, in any culture, say the same thing: that time shared around a table is valued. Hospitality is less about the food itself and more about the care shown in offering and receiving it.",
+    "source": "Adapted for learners — hosting and dining customs in the United States",
+    "glossary": [
+      {
+        "word": "host",
+        "meaning": "a person who invites and looks after guests at a meal or event"
+      },
+      {
+        "word": "guest",
+        "meaning": "a person who is invited to a meal or event"
+      },
+      {
+        "word": "dietary needs",
+        "meaning": "foods a person must or must not eat, for health, religion, or preference"
+      },
+      {
+        "word": "hospitality",
+        "meaning": "the friendly and generous treatment of guests"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what should you do when you accept an invitation to a meal, regarding food you cannot eat?",
+      "answer": "Mention any food you cannot eat when you accept the invitation, so the host can plan for it, rather than leaving it as a surprise at the table."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say arriving very late is considered rude for a planned dinner?",
+      "answer": "Because punctuality matters more in the United States than in some cultures, and a host has planned and prepared food for a certain time. Very late arrival can spoil the meal or the plan, so it is seen as inconsiderate, though a few minutes late is fine."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'help yourself' mean when a host says it?",
+      "answer": "It is a warm invitation for guests to take food or drink themselves, rather than waiting to be served. It signals that guests should feel relaxed and free to serve themselves."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say guests 'remember a warm welcome far more than a flawless meal'?",
+      "answer": "Because hospitality is 'less about the food itself and more about the care shown in offering and receiving it.' A relaxed, welcoming atmosphere makes guests feel valued, which matters more to them than whether every dish was perfect."
+    }
+  ],
+  "language_focus": {
+    "title": "Polite Offers and Responses",
+    "explanation": "Hosting and being a guest involve offering and responding politely. To offer, use 'Would you like...?' and 'Help yourself.' To ask permission, use 'May I...?' or 'Could I...?'. To accept, 'Yes, please' or 'That would be lovely'; to decline, 'No, thank you' — you do not need a reason. Notice that 'Would you like some more?' is warmer than 'Do you want more?'.",
+    "examples": [
+      {
+        "sentence": "Would you like some more rice? — No, thank you, it was delicious.",
+        "note": "'Would you like...?' is a warm offer; 'No, thank you' politely declines with no reason needed."
+      },
+      {
+        "sentence": "May I have a little water, please? — Of course, help yourself.",
+        "note": "'May I...?' politely asks permission; 'help yourself' warmly grants it."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Make a polite offer of dessert.",
+        "answer": "Would you like some dessert?"
+      },
+      {
+        "sentence": "Politely decline more food.",
+        "answer": "No, thank you — it was delicious, but I'm full."
+      },
+      {
+        "sentence": "Politely ask permission to use the bathroom.",
+        "answer": "May I use the bathroom, please?"
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "invitation",
+      "definition": "a spoken or written request asking someone to come to an event",
+      "example_sentence": "I accepted the invitation and asked if I could bring a dessert.",
+      "collocations": [
+        "accept an invitation",
+        "send an invitation",
+        "a dinner invitation"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "help yourself",
+      "definition": "a polite phrase telling a guest to take food or drink freely",
+      "example_sentence": "There's plenty of food — please help yourself.",
+      "collocations": [
+        "help yourself to",
+        "please help yourself"
+      ],
+      "register": "informal"
+    },
+    {
+      "word": "decline",
+      "definition": "to politely refuse something that is offered",
+      "example_sentence": "You can decline a dish politely without giving a reason.",
+      "collocations": [
+        "decline an offer",
+        "politely decline",
+        "decline a second helping"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "courtesy",
+      "definition": "polite behaviour that shows respect for other people",
+      "example_sentence": "A thank-you message the next day is a small courtesy that hosts appreciate.",
+      "collocations": [
+        "a small courtesy",
+        "common courtesy",
+        "as a courtesy"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You have invited a friend to dinner at your home. Act out welcoming them, offering food and drink, and responding politely as the meal goes on.",
+    "prompt": "Play the host. Welcome your guest, offer them a drink and food, invite them to help themselves, and respond warmly when they compliment the meal or decline more. Use at least three polite offers or responses. Speak for about ninety seconds.",
+    "useful_language": [
+      "Welcome! Come in, please.",
+      "Would you like something to drink?",
+      "Please, help yourself — there's plenty.",
+      "Would you like some more?",
+      "I'm so glad you enjoyed it."
+    ],
+    "model_answer": "Welcome! Come in, please — it's so good to see you. Let me take your coat. Would you like something to drink? I have water, juice, and tea. ... Here you go. Dinner's almost ready; please, sit down and make yourself comfortable. ... Okay, it's ready — please, help yourself, there's plenty for everyone. Would you like some rice with that? ... I'm so glad you like it, thank you. Would you like some more? ... No? That's fine. Save a little room, though — I made dessert. It's wonderful having you here."
+  },
+  "writing_workshop": {
+    "task": "Write a short, friendly message inviting a friend to dinner at your home. Give the day and time, mention what kind of meal it will be, ask about any dietary needs, and tell them they don't need to bring anything (or what they could bring).",
+    "word_count": "100-140",
+    "model_text": "Hi Layla! I'd love to have you over for dinner this Saturday, around seven o'clock. I'm going to cook a big Somali meal — rice, chicken, and a few side dishes — and I'd really enjoy sharing it with you. Is there anything you don't eat, or any allergies I should know about? Just let me know and I'll make sure there's plenty you can enjoy. You really don't need to bring anything — just yourself! But if you'd like, a small dessert to share would be lovely. Let me know if Saturday works for you, or if another day is easier. I'm looking forward to it! Warm wishes, Sahra.",
+    "model_analysis": "The invitation gives the key details (day, time, type of meal), asks about dietary needs in advance (thoughtful and practical), makes clear the guest need not bring anything while gently suggesting an option, and ends warmly. Asking about dietary needs when inviting is exactly the courtesy the reading recommends.",
+    "success_criteria": [
+      "Give the day and time clearly",
+      "Say what kind of meal it will be",
+      "Ask about dietary needs or allergies",
+      "Keep a warm, friendly tone"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, why should you reply to a meal invitation quickly?",
+      "options": [
+        "To get the best seat",
+        "So the host knows how many people to expect",
+        "To avoid paying",
+        "Because it is the law"
+      ],
+      "correct": 1,
+      "explanation": "The passage says it is polite to reply quickly 'so the host knows how many people to expect.'"
+    },
+    {
+      "id": 2,
+      "question": "What do people at an American table usually do before starting to eat?",
+      "options": [
+        "Take a photo of the food",
+        "Wait until everyone is served or the host says to start",
+        "Leave the room",
+        "Pay the host"
+      ],
+      "correct": 1,
+      "explanation": "The passage says people usually 'wait until everyone is served, or until the host says \"please, start\", before eating.'"
+    },
+    {
+      "id": 3,
+      "question": "If you want something out of reach at the table, what is the polite thing to do?",
+      "options": [
+        "Reach across other people",
+        "Ask someone to pass it",
+        "Stand up and walk around",
+        "Wait until the meal ends"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises it is better to 'ask someone to pass it — \"Could you pass the salt, please?\"— than to reach across other people.'"
+    },
+    {
+      "id": 4,
+      "question": "How should a host react if a guest declines a dish?",
+      "options": [
+        "Be offended and ask why",
+        "Not be offended; the guest may have a reason they prefer not to explain",
+        "Insist the guest eats it",
+        "Ask the guest to leave"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises hosts 'Do not be offended if a guest declines a dish; they may have a reason they prefer not to explain.'"
+    },
+    {
+      "id": 5,
+      "question": "Which is the warmest, most polite way to offer more food?",
+      "options": [
+        "Do you want more?",
+        "Would you like some more?",
+        "Eat more.",
+        "There's more if you want."
+      ],
+      "correct": 1,
+      "explanation": "'Would you like some more?' is warmer and more polite than 'Do you want more?' as the passage notes."
+    },
+    {
+      "id": 6,
+      "question": "How can a guest politely decline more food?",
+      "options": [
+        "Say nothing and push the plate away",
+        "'No, thank you, it was delicious' — no reason needed",
+        "Explain in detail why not",
+        "Leave the table"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'a simple \"No, thank you, it was delicious\" is polite; you do not have to give a reason.'"
+    },
+    {
+      "id": 7,
+      "question": "What does 'help yourself' mean?",
+      "options": [
+        "Cook your own meal",
+        "Take food or drink freely, without waiting to be served",
+        "Help the host cook",
+        "Pay for your food"
+      ],
+      "correct": 1,
+      "explanation": "'Help yourself' is a warm invitation for a guest to take food or drink themselves, rather than waiting to be served."
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, what do guests remember most about a meal?",
+      "options": [
+        "Whether the food was perfect",
+        "A warm welcome",
+        "How expensive it was",
+        "How long it lasted"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'guests remember a warm welcome far more than a flawless meal.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Host: Come in, come in! It's so lovely to see you. Guest: Thank you so much for having me. I brought a little dessert — I hope that's okay. Host: That's very kind, thank you! You didn't have to, but it's much appreciated. Can I get you something to drink? I have juice, water, or tea. Guest: A glass of water would be great, thank you. Host: Coming right up. Please, sit down and make yourself at home. Dinner will be ready in about ten minutes. Guest: It smells wonderful. Is there anything I can help with? Host: That's kind, but everything's under control — just relax. Oh, I remembered you don't eat pork, so everything tonight is chicken and vegetables. Guest: Thank you for remembering — that's really thoughtful. Host: Of course. Right, let's sit down. Please, help yourself when it comes out — there's plenty.",
+      "question": "What thoughtful thing has the host done for the guest?",
+      "options": [
+        "Bought them a gift",
+        "Remembered the guest doesn't eat pork and planned the menu around it",
+        "Cooked only dessert",
+        "Invited many other people"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Host: Would you like some more rice? Guest: No, thank you, it was delicious, but I'm really full. Host: Are you sure? There's plenty. Guest: I'm sure, thank you — everything was wonderful, especially the chicken. Host: I'm so glad you enjoyed it. Save a little room, though, because my guest brought a lovely dessert. Guest: Oh, I can always find room for dessert! Thank you again for such a warm evening. Host: It's been a pleasure having you. You must come again soon. Guest: I'd love to. And please let me help clear the table. Host: Don't worry about that — just enjoy yourself. Guest: Well, thank you for everything. I'll send you a message tomorrow, but really, this was lovely.",
+      "question": "How does the guest politely decline more rice?",
+      "options": [
+        "By leaving the table",
+        "By saying 'No, thank you, it was delicious, but I'm really full'",
+        "By not answering",
+        "By asking for the recipe"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "lesson-109",
+  "unit_id": 5,
+  "lesson_number": 10,
+  "title": "Booking Travel Online",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the steps of booking travel (flights, trains, buses) on a website or app",
+    "Read and compare travel options by price, time, and conditions",
+    "Recognise common online booking terms and avoid extra charges",
+    "Use comparative language to explain your choice"
+  ],
+  "reading_passage": {
+    "title": "Booking a Trip Online, Step by Step",
+    "text": "Booking travel online can save you money and time, but the first few times it can feel confusing. Websites and apps are designed to move you quickly through the purchase, and they sometimes add extra costs along the way. Understanding the steps, and reading carefully, helps you get the trip you actually want at a fair price.\n\nThe process usually begins with a search. You enter where you are leaving from, where you want to go, the date, and the number of travellers. For a flight, you also choose one-way or round-trip. The site then shows a list of options, which you can sort by price or by time. It is tempting to choose the cheapest, but the lowest price is not always the best deal. A very cheap flight may leave at four in the morning, include a long stop in another city, or charge extra for a bag. A slightly more expensive option that is direct and includes luggage can be better value overall.\n\nReading the conditions is the most important habit. Look closely at what the price includes. Does it cover a checked bag, or only a small carry-on? Can you change or cancel the ticket if your plans change, or is it non-refundable? For buses and trains, check whether the ticket is valid only for one specific departure or for any departure that day. These details are often written in small print below the price, and missing them can cost you far more than the ticket itself.\n\nWhen you have chosen, you move to the booking page, where you enter the travellers' names exactly as they appear on their identity documents. This matters especially for flights: a name that does not match your passport or ID can cause problems at the airport. Next comes payment. At this stage, watch for boxes that are already ticked, adding travel insurance, seat selection, or other extras you may not need. Untick anything you did not ask for. Finally, you receive a confirmation, usually by email, with a booking reference — a short code of letters and numbers. Save this reference and your ticket, on your phone or on paper, because you will need it to check in and to solve any problem.\n\nA few simple habits make online booking safe and cheap. Compare two or three sites before you buy. Book well in advance for the lowest prices, especially for popular dates. Read the cancellation policy before you pay, not after. And always check the final total on the last screen, because extra fees are often added at the very end. With care, booking online gives you control over your journey and often the best price available.",
+    "source": "Adapted for learners — booking travel online",
+    "glossary": [
+      {
+        "word": "round-trip",
+        "meaning": "a journey to a place and back again (also called 'return')"
+      },
+      {
+        "word": "non-refundable",
+        "meaning": "describing a ticket whose money cannot be returned if you cancel"
+      },
+      {
+        "word": "carry-on",
+        "meaning": "a small bag you take with you into the passenger area, rather than checking it in"
+      },
+      {
+        "word": "booking reference",
+        "meaning": "a short code of letters and numbers that identifies your reservation"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "inference",
+      "question": "Why does the passage warn that 'the lowest price is not always the best deal'?",
+      "answer": "Because a very cheap ticket may have hidden downsides — a very early departure, a long stop in another city, or extra charges for a bag. A slightly more expensive option that is direct and includes luggage can be better value once these factors are considered."
+    },
+    {
+      "type": "literal",
+      "question": "What should you check about the conditions of a bus or train ticket before buying?",
+      "answer": "Whether the ticket is valid only for one specific departure or for any departure that day, and whether it can be changed or cancelled. These conditions are often in small print below the price."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say the traveller's name matters 'especially for flights'?",
+      "answer": "Because a name that does not match the passenger's passport or ID can cause problems at the airport, potentially preventing them from boarding. Names must be entered exactly as they appear on the identity document."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'non-refundable' mean, and why should you check for it before paying?",
+      "answer": "'Non-refundable' means the money for the ticket cannot be returned if you cancel. You should check for it before paying because, if your plans change, you would lose the full price of a non-refundable ticket."
+    }
+  ],
+  "language_focus": {
+    "title": "Comparatives for Weighing Options",
+    "explanation": "When you compare travel options, you use comparative forms: '-er than' for short adjectives (cheaper, faster, earlier) and 'more ... than' for longer ones (more expensive, more convenient). Use 'as ... as' for things that are equal, and phrases like 'a bit', 'much', and 'far' to show the size of the difference: 'This flight is much cheaper but far less convenient.'",
+    "examples": [
+      {
+        "sentence": "The direct flight is a bit more expensive than the one with a stop, but it's much faster.",
+        "note": "'more expensive than' (long adjective) and 'much faster' (short adjective + 'much' for a big difference)."
+      },
+      {
+        "sentence": "The morning bus isn't as cheap as the night bus, but it's far more comfortable.",
+        "note": "'as cheap as' shows a comparison of equality (here, negative); 'far more comfortable' emphasises a large difference."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Compare using '-er than': The train (fast) / the bus.",
+        "answer": "The train is faster than the bus."
+      },
+      {
+        "sentence": "Compare using 'more ... than': The direct flight (convenient) / the one with two stops.",
+        "answer": "The direct flight is more convenient than the one with two stops."
+      },
+      {
+        "sentence": "Complete with 'as ... as': The early ticket isn't ___ the late one.",
+        "answer": "The early ticket isn't as expensive as the late one."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "one-way",
+      "definition": "a ticket for a journey in one direction only, not a return",
+      "example_sentence": "I only need a one-way ticket because I'm not coming back.",
+      "collocations": [
+        "a one-way ticket",
+        "one-way fare",
+        "one-way trip"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "confirmation",
+      "definition": "a message that proves your booking is complete and correct",
+      "example_sentence": "I received a confirmation email with my booking reference.",
+      "collocations": [
+        "a confirmation email",
+        "booking confirmation",
+        "send a confirmation"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "fee",
+      "definition": "an amount of money charged for a particular service, often added on top of a price",
+      "example_sentence": "There was a small booking fee added at the last screen.",
+      "collocations": [
+        "a booking fee",
+        "a service fee",
+        "charge a fee",
+        "hidden fees"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "in advance",
+      "definition": "before the time something happens; ahead of time",
+      "example_sentence": "Book your ticket well in advance to get the lowest price.",
+      "collocations": [
+        "book in advance",
+        "pay in advance",
+        "two weeks in advance"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are helping a family member choose between two options for a trip. Option A is a cheap flight that leaves at 5 a.m. and has one stop; it charges extra for a bag. Option B is twenty dollars more, is direct, leaves at midday, and includes a bag.",
+    "prompt": "Explain which option you would choose and why, comparing the two on price, time, and what each includes. Use at least three comparative expressions. Speak for about ninety seconds.",
+    "useful_language": [
+      "Option A is cheaper, but...",
+      "Option B is a bit more expensive, however it's much more convenient.",
+      "The early flight isn't as comfortable as the later one.",
+      "Once you add the bag fee, the difference is smaller than it looks.",
+      "Overall, I think Option B is better value."
+    ],
+    "model_answer": "I would choose Option B. It's true that Option A looks cheaper at first, but once you add the bag fee, the difference is much smaller than it looks — only about ten dollars. Option A also leaves at five in the morning and has a stop, so it's far less convenient. You'd have to wake up in the middle of the night and the whole journey would take longer. Option B is a bit more expensive, but it's direct, it leaves at a reasonable time, and the bag is included. So overall, I think Option B is better value, even though it isn't the lowest price."
+  },
+  "writing_workshop": {
+    "task": "You booked a bus ticket online, but the website charged you a fee you did not expect and did not explain. Write a short, polite email to the company asking them to explain the extra charge and, if it was a mistake, to refund it.",
+    "word_count": "120-160",
+    "model_text": "Hello, I am writing about a bus ticket I booked on your website yesterday for the trip from Portland to Seattle on 12 October. The fare shown during the search was thirty-two dollars, but the final total was forty-one dollars. When I checked my confirmation email, I saw a nine-dollar charge described only as a 'service fee', with no further explanation. Could you please explain what this fee covers? I read the conditions carefully before paying and did not see it mentioned. If it was added in error, I would be grateful for a refund of the nine dollars. My booking reference is TR-90423. Thank you for your help. Kind regards, Sahra.",
+    "model_analysis": "The email gives the exact details (route, date, both prices, the fee, the reference), asks a clear question, and stays polite while being firm. Quoting the specific amounts and the reference number makes it easy for the company to find the booking and respond.",
+    "success_criteria": [
+      "Give the specific details: route, date, prices, and booking reference",
+      "Ask a clear question about the extra fee",
+      "Request a refund if the charge was an error",
+      "Keep a polite, firm tone"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What information do you usually enter first when booking travel online?",
+      "options": [
+        "Your payment card number",
+        "Where you're leaving from, your destination, the date, and the number of travellers",
+        "Your booking reference",
+        "The name of the conductor"
+      ],
+      "correct": 1,
+      "explanation": "The passage says the process begins with a search where 'you enter where you are leaving from, where you want to go, the date, and the number of travellers.'"
+    },
+    {
+      "id": 2,
+      "question": "Why might a very cheap flight not be the best choice?",
+      "options": [
+        "It always gets cancelled",
+        "It may leave very early, include a long stop, or charge extra for a bag",
+        "It never includes a seat",
+        "It cannot be booked online"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains a very cheap flight 'may leave at four in the morning, include a long stop in another city, or charge extra for a bag.'"
+    },
+    {
+      "id": 3,
+      "question": "Why must you enter travellers' names exactly as on their identity documents?",
+      "options": [
+        "To get a discount",
+        "Because a name that doesn't match a passport or ID can cause problems at the airport",
+        "To receive extra luggage",
+        "To change the departure time"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns that for flights, 'a name that does not match your passport or ID can cause problems at the airport.'"
+    },
+    {
+      "id": 4,
+      "question": "What should you do about boxes that are already ticked on the payment page?",
+      "options": [
+        "Leave them all ticked to be safe",
+        "Untick anything you did not ask for",
+        "Tick every available box",
+        "Ignore them completely"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises watching for pre-ticked boxes adding extras and to 'Untick anything you did not ask for.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'booking reference'?",
+      "options": [
+        "The price of the ticket",
+        "A short code of letters and numbers that identifies your reservation",
+        "The name of the website",
+        "A type of travel insurance"
+      ],
+      "correct": 1,
+      "explanation": "A booking reference is 'a short code of letters and numbers' that identifies your reservation; you need it to check in and solve problems."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, when are extra fees often added?",
+      "options": [
+        "At the very start of the search",
+        "At the very end, on the last screen",
+        "Only in the confirmation email",
+        "Never, on any site"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns to 'always check the final total on the last screen, because extra fees are often added at the very end.'"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct comparative sentence.",
+      "options": [
+        "The direct flight is more cheaper than the other one",
+        "The direct flight is much more convenient than the one with a stop",
+        "The direct flight is convenienter than the other",
+        "The direct flight is as more convenient than the other"
+      ],
+      "correct": 1,
+      "explanation": "'much more convenient than' is correct: 'more ... than' for the long adjective 'convenient', with 'much' to show a big difference. 'More cheaper' and 'convenienter' are incorrect forms."
+    },
+    {
+      "id": 8,
+      "question": "Complete: 'The early ticket isn't ___ the late one.'",
+      "options": [
+        "as expensive as",
+        "more expensive than",
+        "expensiver than",
+        "so expensive than"
+      ],
+      "correct": 0,
+      "explanation": "'as ... as' shows a comparison of equality (here made negative): 'isn't as expensive as' means the two are not equal in price."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Woman: I'm trying to book flights for us to visit my sister, but there are so many options. Man: Let me see. Okay, this first one is the cheapest — a hundred and ten dollars. Woman: Let's take that one, then. Man: Wait, look at the details. It leaves at five in the morning, and it has a two-hour stop in Denver. And it says 'carry-on only' — a checked bag costs another forty dollars. Woman: Oh. So it's not really a hundred and ten. Man: Not once you add the bag. This second one is a hundred and forty, but it's direct, it leaves at eleven, and a bag is included. Woman: So it's only thirty dollars more, but it's direct and much easier. Man: Exactly. And we wouldn't have to get up at three in the morning. Woman: Let's book the second one. It's better value once you think about it properly.",
+      "question": "Why do they decide to book the more expensive flight?",
+      "options": [
+        "It is the cheapest overall",
+        "It is direct, includes a bag, and is only a little more once fees are added",
+        "It leaves earlier in the morning",
+        "It has a longer stop"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Customer: Hi, I booked a train ticket on your website, but I think there's a problem. I chose the ten o'clock train, but my confirmation shows the ticket is 'any time' and it cost more than I expected. Agent: Let me check your reference, please. ... Yes, I see. You selected the flexible fare, which is valid on any departure that day. That's why it's more expensive than the fixed ten o'clock ticket. Customer: Ah, I didn't mean to. I only need the ten o'clock. Can I change it? Agent: Yes, if you haven't travelled yet, I can change you to the fixed ten o'clock fare and refund the difference — that's about twelve dollars back to your card. Customer: That would be great, thank you. I'll be more careful to check the fare type next time. Agent: No problem. You'll get a new confirmation email in a few minutes.",
+      "question": "Why did the customer's ticket cost more than expected?",
+      "options": [
+        "They accidentally chose the flexible 'any time' fare instead of the fixed one",
+        "The train was delayed",
+        "They booked two tickets",
+        "The website added a bag fee"
+      ],
+      "correct": 0
+    }
+  ]
+}

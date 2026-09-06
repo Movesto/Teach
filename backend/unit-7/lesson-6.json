@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage explains: 'servers in Oregon earn a minimum wage but rely on tips to make a living wage' — which is why tipping is a strong expectation."
+    },
+    {
+      "id": 5,
+      "question": "What is a 'food cart pod'?",
+      "options": [
+        "A single large restaurant",
+        "A group of several small food carts operating together",
+        "A grocery store",
+        "A cooking class"
+      ],
+      "correct": 1,
+      "explanation": "A food cart pod is a group of several small food carts or trucks that operate together, often in a parking lot."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'potluck'?",
+      "options": [
+        "A restaurant meal paid by one person",
+        "A communal meal where each person contributes a dish",
+        "A type of food cart",
+        "A cooking competition"
+      ],
+      "correct": 1,
+      "explanation": "A potluck is a communal meal where each person or family contributes a dish to share."
+    },
+    {
+      "id": 7,
+      "question": "What is a 'to-go box' for?",
+      "options": [
+        "To store spices",
+        "To take leftover restaurant food home",
+        "To pay the bill",
+        "To cook food"
+      ],
+      "correct": 1,
+      "explanation": "A to-go box is a container given by a restaurant to allow a diner to take leftover food home."
+    },
+    {
+      "id": 8,
+      "question": "Choose the sentence with the adverb of frequency in the correct position.",
+      "options": [
+        "I often eat at food carts.",
+        "I eat often at food carts.",
+        "Often I eat at food carts sometimes.",
+        "I eat at food carts often always."
+      ],
+      "correct": 0,
+      "explanation": "Adverbs of frequency like 'often' usually go before the main verb: 'I often eat at food carts.'"
     }
   ],
   "listening_exercises": [

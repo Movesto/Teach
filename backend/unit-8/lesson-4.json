@@ -206,6 +206,54 @@
       ],
       "correct": 2,
       "explanation": "The passage concludes: 'The challenge for schools is not to eliminate technology, but to ensure that it is used purposefully and responsibly.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'sparked' mean in 'smartphones have sparked debate'?",
+      "options": [
+        "Ended a debate",
+        "Caused something to start or be triggered",
+        "Solved a problem",
+        "Slowed something down"
+      ],
+      "correct": 1,
+      "explanation": "'Sparked' means caused something to start or be triggered, especially a reaction or discussion."
+    },
+    {
+      "id": 6,
+      "question": "What does 'restrict' mean?",
+      "options": [
+        "To encourage more use",
+        "To put a limit on the use or availability of something",
+        "To download an app",
+        "To repair a device"
+      ],
+      "correct": 1,
+      "explanation": "To restrict means to put a limit on the use or availability of something."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence is in the passive voice?",
+      "options": [
+        "Educational apps are downloaded by millions of students.",
+        "Students download educational apps.",
+        "Students are downloading apps now.",
+        "Students will download apps."
+      ],
+      "correct": 0,
+      "explanation": "'Educational apps are downloaded by millions of students' is passive (are + past participle), focusing on the apps rather than the doer."
+    },
+    {
+      "id": 8,
+      "question": "What do proponents argue about smartphones, according to the passage?",
+      "options": [
+        "They should be banned everywhere",
+        "They can be powerful learning tools when integrated thoughtfully",
+        "They are useless in schools",
+        "They should replace teachers"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'Proponents argue that smartphones can be used as powerful learning tools' when integrated thoughtfully into lessons."
     }
   ],
   "listening_exercises": [

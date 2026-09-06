@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage advises: 'it is always safer to confirm with the server rather than relying only on the menu description.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'culinary' mean?",
+      "options": [
+        "Relating to cooking and food preparation",
+        "A type of allergy",
+        "A restaurant bill",
+        "A serving size"
+      ],
+      "correct": 0,
+      "explanation": "'Culinary' means relating to cooking, food preparation, and food traditions."
+    },
+    {
+      "id": 6,
+      "question": "What is an 'allergen'?",
+      "options": [
+        "A cooking method",
+        "A substance in food that triggers an allergic reaction",
+        "A type of menu",
+        "A quantity word"
+      ],
+      "correct": 1,
+      "explanation": "An allergen is a substance in food that can trigger an allergic reaction in some people."
+    },
+    {
+      "id": 7,
+      "question": "Which noun is uncountable?",
+      "options": [
+        "burger",
+        "rice",
+        "taco",
+        "apple"
+      ],
+      "correct": 1,
+      "explanation": "'Rice' is an uncountable noun (we say 'some rice', not 'two rices'); burger, taco, and apple are countable."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "How much rice do you want?",
+        "How many rice do you want?",
+        "How much tacos do you want?",
+        "How many rice you want?"
+      ],
+      "correct": 0,
+      "explanation": "'How much' is used with uncountable nouns like rice: 'How much rice do you want?'"
     }
   ],
   "listening_exercises": [

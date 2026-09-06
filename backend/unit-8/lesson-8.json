@@ -1,0 +1,282 @@
+{
+  "id": "lesson-120",
+  "unit_id": 8,
+  "lesson_number": 8,
+  "title": "Digital Skills for Work",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the digital skills commonly needed for work in the United States",
+    "Learn about common workplace software and online job tasks",
+    "Find free resources to build digital skills",
+    "Use language for describing abilities (can, be able to, know how to)"
+  ],
+  "reading_passage": {
+    "title": "The Skills Employers Look For",
+    "text": "In today's workplace, digital skills are no longer only for office jobs. Whether you work in a warehouse, a shop, a hospital, or a school, some ability with computers and smartphones is now part of almost every job. The good news is that these skills can be learned, often for free, and building them can open the door to better and higher-paid work.\n\nThe most basic digital skills are the foundation everything else rests on. Being able to use a computer or smartphone, connect to the internet, send and receive email, and fill in an online form are now expected in most jobs. Even work that is mainly physical often involves clocking in on a screen, checking a schedule online, or reporting a problem through an app. A worker who is comfortable with these basics has a real advantage over one who is not.\n\nBeyond the basics, certain common software appears again and again at work. Word processing programs are used to write letters and documents. Spreadsheets are used to record numbers, hours, or stock, and to do simple calculations. Email and messaging tools are used to communicate with colleagues and customers. Increasingly, workers also join video meetings, share files online, and use systems where the company keeps its records. You do not need to master all of these at once; knowing how to do the common tasks in each is enough to start, and you learn more as you go.\n\nSome digital skills are less about software and more about judgement. Employers value workers who can find information online quickly and reliably, who can tell a trustworthy source from an unreliable one, and who protect information carefully — for example, by using strong passwords and not sharing private company or customer data. These habits of safe, sensible technology use are as valuable as knowing any particular program, because they build trust.\n\nThe best news is that building digital skills need not cost anything. Public libraries often offer free computer classes and free access to computers and the internet. Many websites and apps teach digital skills step by step, at your own pace, and some are designed for beginners or for speakers of other languages. Community colleges and adult education centres run low-cost courses too. The key is to start with one skill, practise it until you are comfortable, and then add another. Step by step, digital confidence grows, and with it, the range of jobs open to you.",
+    "source": "Adapted for learners — digital skills for the workplace",
+    "glossary": [
+      {
+        "word": "spreadsheet",
+        "meaning": "a computer program for recording numbers in rows and columns and doing calculations"
+      },
+      {
+        "word": "software",
+        "meaning": "the programs and apps that run on a computer or phone"
+      },
+      {
+        "word": "online form",
+        "meaning": "a document you fill in on a screen, for example to apply for something"
+      },
+      {
+        "word": "password",
+        "meaning": "a secret word or code used to protect an account from other people"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what are the most basic digital skills expected in most jobs?",
+      "answer": "Being able to use a computer or smartphone, connect to the internet, send and receive email, and fill in an online form. Even mainly physical work often involves clocking in on a screen, checking a schedule online, or reporting a problem through an app."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say you 'do not need to master all of these at once'?",
+      "answer": "Because knowing how to do the common tasks in each program is enough to start, and 'you learn more as you go.' The point is to begin with the essentials rather than being discouraged by trying to learn everything before starting."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is a 'spreadsheet', and what is it used for at work?",
+      "answer": "A spreadsheet is a computer program for recording numbers in rows and columns and doing calculations. At work it is used to record numbers, hours, or stock, and to do simple calculations."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say safe technology habits are 'as valuable as knowing any particular program'?",
+      "answer": "Because habits such as using strong passwords, judging reliable sources, and protecting private data 'build trust.' An employer needs to rely on a worker to handle information safely, so these judgement-based skills matter as much as technical knowledge of software."
+    }
+  ],
+  "language_focus": {
+    "title": "Describing Abilities: can, be able to, know how to",
+    "explanation": "To talk about skills and abilities, use 'can' + verb ('I can use a spreadsheet'), 'be able to' ('I am able to send emails'), and 'know how to' ('I know how to fill in an online form'). For past ability, use 'could' or 'was able to'. For skills you are still learning, use 'I'm learning to...' or 'I'm getting better at...'.",
+    "examples": [
+      {
+        "sentence": "I can use email and word processing, and I know how to fill in online forms.",
+        "note": "'can' + verb and 'know how to' + verb both describe present abilities."
+      },
+      {
+        "sentence": "I'm not able to use spreadsheets well yet, but I'm learning.",
+        "note": "'not able to... yet' and 'I'm learning' describe a skill still being developed."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Describe an ability with 'can': using a smartphone.",
+        "answer": "I can use a smartphone."
+      },
+      {
+        "sentence": "Describe an ability with 'know how to': joining a video meeting.",
+        "answer": "I know how to join a video meeting."
+      },
+      {
+        "sentence": "Describe a developing skill: spreadsheets.",
+        "answer": "I'm learning how to use spreadsheets (I'm getting better at it)."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "skill",
+      "definition": "the ability to do something well, gained through practice",
+      "example_sentence": "Digital skills open the door to more jobs.",
+      "collocations": [
+        "build a skill",
+        "a valuable skill",
+        "develop skills"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "attachment",
+      "definition": "a file sent together with an email",
+      "example_sentence": "I sent my resume as an attachment.",
+      "collocations": [
+        "open an attachment",
+        "send an attachment",
+        "email attachment"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "account",
+      "definition": "an arrangement that lets you use an online service, protected by a password",
+      "example_sentence": "You need to create an account to apply online.",
+      "collocations": [
+        "create an account",
+        "log into an account",
+        "account details"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "reliable",
+      "definition": "able to be trusted to be correct or to work well",
+      "example_sentence": "Learn to tell a reliable website from an unreliable one.",
+      "collocations": [
+        "a reliable source",
+        "reliable information",
+        "reliable software"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "You are in a job interview, and the interviewer asks: 'What computer or digital skills do you have?' You want to describe your skills honestly and positively, including skills you are still building.",
+    "prompt": "Describe your digital skills. Say what you can do confidently, what you know how to do, and what you are still learning. Use 'can', 'be able to', and 'know how to' at least three times. Speak for about ninety seconds.",
+    "useful_language": [
+      "I can use email confidently, including sending attachments.",
+      "I know how to fill in online forms and use word processing.",
+      "I'm able to use a smartphone for work apps and schedules.",
+      "I'm still learning spreadsheets, but I'm getting better.",
+      "I'm always happy to learn new software."
+    ],
+    "model_answer": "I have solid basic digital skills. I can use email confidently — I know how to send messages, reply, and add attachments like my resume. I'm able to use a smartphone well, including work apps for checking my schedule and clocking in. I also know how to fill in online forms and use a word processing program to write letters and documents. I'm still learning spreadsheets — I can do simple things like adding up a column of numbers, and I'm getting better at it with practice. Most importantly, I'm careful with passwords and private information, and I'm always happy to learn new software when a job needs it."
+  },
+  "writing_workshop": {
+    "task": "Write a short 'skills' section for a job application, describing your digital skills. List what you can do and mention skills you are developing. Be honest and positive.",
+    "word_count": "100-140",
+    "model_text": "Digital Skills\n\nI have reliable everyday digital skills and I learn new tools quickly. I can use email confidently, including writing clear messages and sending attachments. I know how to use word processing to create letters and documents, and I am comfortable filling in online forms and creating accounts for online services. I am able to use a smartphone for work tasks such as checking schedules, clocking in, and using company apps. I am currently improving my spreadsheet skills and can already record data and do simple calculations. I am careful with passwords and private information, and I always protect customer and company data. I am confident using video meetings and sharing files online, and I am happy to learn any new software a role requires.",
+    "model_analysis": "The section leads with a positive summary, then lists specific skills using clear ability language ('I can', 'I know how to', 'I am able to'), and honestly notes a developing skill without undermining confidence. Concrete examples ('sending attachments', 'checking schedules') are more convincing than vague claims like 'good with computers'.",
+    "success_criteria": [
+      "Open with a short positive summary",
+      "List specific skills using 'can', 'know how to', 'be able to'",
+      "Honestly mention at least one developing skill",
+      "Use concrete examples, not vague claims"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, are digital skills only needed for office jobs?",
+      "options": [
+        "Yes, only office jobs",
+        "No — some ability with computers and phones is part of almost every job",
+        "Only for jobs in schools",
+        "Only for young workers"
+      ],
+      "correct": 1,
+      "explanation": "The passage states digital skills 'are no longer only for office jobs' and are 'now part of almost every job.'"
+    },
+    {
+      "id": 2,
+      "question": "Which is described as a basic digital skill expected in most jobs?",
+      "options": [
+        "Building a website",
+        "Sending and receiving email",
+        "Programming software",
+        "Repairing computers"
+      ],
+      "correct": 1,
+      "explanation": "The passage lists basics including 'send and receive email, and fill in an online form.'"
+    },
+    {
+      "id": 3,
+      "question": "What are spreadsheets commonly used for at work?",
+      "options": [
+        "Writing long letters",
+        "Recording numbers, hours, or stock and doing calculations",
+        "Sending video messages",
+        "Designing logos"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'Spreadsheets are used to record numbers, hours, or stock, and to do simple calculations.'"
+    },
+    {
+      "id": 4,
+      "question": "Which is an example of a judgement-based digital skill the passage values?",
+      "options": [
+        "Typing very fast",
+        "Telling a trustworthy source from an unreliable one",
+        "Owning the newest phone",
+        "Playing games well"
+      ],
+      "correct": 1,
+      "explanation": "The passage values workers 'who can tell a trustworthy source from an unreliable one, and who protect information carefully.'"
+    },
+    {
+      "id": 5,
+      "question": "Where does the passage say you can build digital skills for free?",
+      "options": [
+        "Only at expensive private schools",
+        "Public libraries, free websites and apps, and low-cost college courses",
+        "Only by buying a new computer",
+        "Only at work"
+      ],
+      "correct": 1,
+      "explanation": "The passage mentions 'Public libraries often offer free computer classes,' plus free websites and apps and low-cost community college courses."
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct sentence describing ability.",
+      "options": [
+        "I can to use email",
+        "I know how to use email",
+        "I am can use email",
+        "I know use email"
+      ],
+      "correct": 1,
+      "explanation": "'I know how to use email' is correct. 'Can' is not followed by 'to' (I can use email), and 'know how to' needs the full form."
+    },
+    {
+      "id": 7,
+      "question": "How does the passage suggest building digital skills?",
+      "options": [
+        "Learn everything at once",
+        "Start with one skill, practise it, then add another",
+        "Only learn from a paid teacher",
+        "Avoid difficult programs forever"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises to 'start with one skill, practise it until you are comfortable, and then add another.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'attachment' mean in the context of email?",
+      "options": [
+        "A reply to a message",
+        "A file sent together with an email",
+        "A password",
+        "A video meeting"
+      ],
+      "correct": 1,
+      "explanation": "An attachment is 'a file sent together with an email,' such as a resume sent with a job application."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Interviewer: Tell me about your computer skills. Applicant: Of course. I can use email confidently — I send messages, reply, and attach documents like my resume. I know how to use word processing to write letters, and I'm comfortable filling in online forms. Interviewer: Do you have any experience with spreadsheets? We use them a lot here. Applicant: I'm still building that skill, to be honest. I can record data and do simple sums, but I'm not an expert yet. I'm learning, and I pick things up quickly. Interviewer: That's fine — we provide training on our systems anyway. What matters is a willingness to learn. Applicant: I definitely have that. And I'm always careful with passwords and private information. Interviewer: Good to hear. Being safe with data is very important to us. Applicant: I understand. I'd never share customer details or use a weak password. Interviewer: Excellent. That's exactly the attitude we're looking for.",
+      "question": "How does the applicant describe their spreadsheet skills?",
+      "options": [
+        "As expert-level",
+        "As still building, able to do simple things and willing to learn",
+        "As non-existent",
+        "As unnecessary"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Librarian: Can I help you find something? Visitor: Yes, I'd like to get better with computers, but I don't have one at home. Is there anything here? Librarian: Absolutely. First, you can use our computers here for free — just sign up at the desk. And we run free classes for beginners every week. Visitor: Free classes? I didn't know that. Librarian: Yes, this month's class covers email and filling in online forms, which is very useful for job applications. There's also one on staying safe online. Visitor: That's exactly what I need. My English isn't perfect, though. Librarian: That's no problem — the classes go slowly, step by step, and the teacher is very patient. We also have some guides in other languages. Visitor: Thank you so much. How do I sign up? Librarian: I'll add your name right now. The next class is Tuesday at ten. Visitor: I'll be here. Thank you — this is a real help.",
+      "question": "What free help does the library offer the visitor?",
+      "options": [
+        "A free computer to take home",
+        "Free use of computers and free beginner classes",
+        "Only books, no computers",
+        "Paid classes only"
+      ],
+      "correct": 1
+    }
+  ]
+}

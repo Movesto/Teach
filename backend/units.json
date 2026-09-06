@@ -33,34 +33,34 @@
   },
   {
     "id": 5,
-    "title": "Opinions & Discussions",
-    "description": "Express your views, discuss current events, talk about entertainment, and make social plans",
+    "title": "Getting Around: Transport & Travel",
+    "description": "Travel confidently by bus, train, taxi, and plane — buy tickets, read schedules, handle delays, book trips online, and get a driver's license",
     "order_number": 5,
-    "total_lessons": 7,
+    "total_lessons": 11,
     "locked": false
   },
   {
     "id": 6,
-    "title": "Health & Wellbeing",
-    "description": "Communicate about health — doctors, pharmacy, healthy habits, mental health, and emergencies",
+    "title": "Housing and Your Home",
+    "description": "Rent and run a home confidently — apartments, furniture, landlords, bills, repairs, safety, and your rights as a renter",
     "order_number": 6,
-    "total_lessons": 6,
+    "total_lessons": 10,
     "locked": false
   },
   {
     "id": 7,
-    "title": "Storytelling & Description",
-    "description": "Tell personal stories, describe people and places, explain cause and effect, and share family history",
+    "title": "Food and Eating",
+    "description": "Handle food with confidence — restaurants, menus, recipes, groceries, healthy eating, food safety, hosting, and eating out",
     "order_number": 7,
-    "total_lessons": 6,
+    "total_lessons": 10,
     "locked": false
   },
   {
     "id": 8,
-    "title": "Writing Skills",
-    "description": "Build structured writing — sentences, paragraphs, descriptive writing, narratives, and how-to texts",
+    "title": "Education and Technology",
+    "description": "Navigate school, college, and the digital world — enrolment, learning, the internet, email, online safety, digital skills, and official online services",
     "order_number": 8,
-    "total_lessons": 6,
+    "total_lessons": 10,
     "locked": false
   },
   {

@@ -1,0 +1,281 @@
+{
+  "id": "lesson-118",
+  "unit_id": 7,
+  "lesson_number": 10,
+  "title": "Coffee Shops and Fast Food",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Order confidently at a coffee shop and a fast-food restaurant",
+    "Understand common menu choices, sizes, and customisation options",
+    "Handle a mistake with an order politely",
+    "Use polite requests and phrasal verbs common in casual ordering"
+  ],
+  "reading_passage": {
+    "title": "Ordering on the Go",
+    "text": "Coffee shops and fast-food restaurants are part of daily life in the United States, and ordering in them has its own language and speed. The lines move quickly, the staff ask several questions in a row, and there are many choices. Knowing how ordering usually works makes the experience easy rather than stressful.\n\nAt a coffee shop, you order at the counter, pay, and then wait for your drink, often at a separate area. The staff member will usually ask a series of quick questions: what you want, what size, and whether it is 'for here or to go' — that is, to drink in the shop or to take away. Sizes often have special names that vary between chains, but there are usually three: small, medium, and large. Coffee drinks can be customised: you can ask for a different kind of milk, less sugar, an extra shot of coffee, or no cream. It is perfectly normal to say how you want your drink, and staff are used to it: 'A medium coffee with oat milk and no sugar, please.'\n\nFast-food restaurants work in a similar quick way. You order at the counter or, at a drive-through, through a speaker from your car. A common choice is between ordering a single item or a 'combo' or 'meal', which bundles a main item, a side such as fries, and a drink together for a lower price than buying each separately. The staff will often ask if you want to 'make it a meal', what size, and whether you want anything else. Being ready with your order helps the line move and makes it easier for you, too.\n\nSometimes an order comes out wrong — the wrong drink, a missing item, or a mistake with your request. This is common and easily fixed. The polite thing is to mention it calmly and clearly: 'Excuse me, I think there's been a mix-up — I ordered a medium, but this is a large,' or 'Sorry, I asked for no sugar, but this one is sweet.' Staff will almost always correct it without any trouble. There is no need to be embarrassed or angry; fixing mistakes is a normal part of their job.\n\nA few small tips make ordering smoother. Look at the menu, often displayed above the counter, before you reach the front, so you are ready. Speak clearly and give your order in a logical order: drink, size, and any changes. If you do not understand a question, it is fine to ask the staff to repeat it. And in the United States, tipping is common at coffee shops with table service or a tip jar, though it is usually optional for a quick counter order. With a little practice, ordering on the go becomes quick, friendly, and easy.",
+    "source": "Adapted for learners — ordering at coffee shops and fast-food restaurants",
+    "glossary": [
+      {
+        "word": "to go",
+        "meaning": "food or drink taken away to eat elsewhere, rather than eaten in the shop"
+      },
+      {
+        "word": "customise",
+        "meaning": "to change something to suit your own taste or needs"
+      },
+      {
+        "word": "combo",
+        "meaning": "a meal that bundles a main item, a side, and a drink together at a lower price (also called a 'meal')"
+      },
+      {
+        "word": "drive-through",
+        "meaning": "a service where you order and collect food from your car"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "What three things does a coffee shop staff member usually ask when you order?",
+      "answer": "What you want, what size, and whether it is 'for here or to go' (to drink in the shop or to take away)."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is a 'combo' or 'meal' at a fast-food restaurant?",
+      "answer": "It is an order that bundles a main item, a side such as fries, and a drink together for a lower price than buying each item separately."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say there is 'no need to be embarrassed or angry' when an order comes out wrong?",
+      "answer": "Because mistakes with orders are common and easily fixed, and 'fixing mistakes is a normal part of their job.' Staff will almost always correct it without trouble, so a calm, clear mention is all that is needed."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise looking at the menu before you reach the front of the line?",
+      "answer": "Because coffee shops and fast-food lines move quickly and staff ask several questions in a row. Being ready with your order helps the line move and makes the experience easier and less stressful for you."
+    }
+  ],
+  "language_focus": {
+    "title": "Casual Ordering: Polite Requests and Common Phrasal Verbs",
+    "explanation": "When ordering casually, you still use polite requests — 'Could I get...?', 'Can I have...?', '..., please' — but the style is quicker and more informal. Common phrasal verbs appear often: 'order in advance', 'pick up' (collect), and questions like 'Is that for here or to go?'. Ending with 'please' and 'thank you' keeps even a quick order polite.",
+    "examples": [
+      {
+        "sentence": "Could I get a medium coffee with oat milk, please? — For here or to go? — To go, thanks.",
+        "note": "'Could I get...?' is a common, polite casual request; 'for here or to go' is the standard question."
+      },
+      {
+        "sentence": "Can I have a cheeseburger meal, and could you leave out the onions?",
+        "note": "'Can I have...?' orders; 'leave out' is a phrasal verb meaning 'not include'."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Order a large tea to take away, politely.",
+        "answer": "Could I get a large tea to go, please?"
+      },
+      {
+        "sentence": "Ask for a burger without cheese using 'leave out'.",
+        "answer": "Could you leave out the cheese, please?"
+      },
+      {
+        "sentence": "Politely ask the staff to repeat a question you didn't catch.",
+        "answer": "Sorry, could you say that again, please?"
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "order",
+      "definition": "to ask for food or drink in a shop or restaurant; the food you ask for",
+      "example_sentence": "I'd like to order a coffee and a sandwich.",
+      "collocations": [
+        "place an order",
+        "take your order",
+        "order to go"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "size",
+      "definition": "how big something is; here, the amount of a drink or meal",
+      "example_sentence": "What size would you like — small, medium, or large?",
+      "collocations": [
+        "what size",
+        "a large size",
+        "size up"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "leave out",
+      "definition": "to not include something",
+      "example_sentence": "Could you leave out the onions, please?",
+      "collocations": [
+        "leave out an item",
+        "leave it out"
+      ],
+      "register": "informal"
+    },
+    {
+      "word": "refill",
+      "definition": "a second serving of a drink, sometimes free",
+      "example_sentence": "The coffee comes with a free refill.",
+      "collocations": [
+        "a free refill",
+        "get a refill",
+        "ask for a refill"
+      ],
+      "register": "informal"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are at a fast-food restaurant. You want a chicken burger, but without mayonnaise, plus fries and a drink. The server takes your order and asks the usual questions.",
+    "prompt": "Order your meal clearly. Ask for the change you want (no mayonnaise), respond to the server's questions (size, for here or to go), and check the total at the end. Use polite requests. Speak for about ninety seconds.",
+    "useful_language": [
+      "Hi, could I get a chicken burger, please?",
+      "Could you leave out the mayonnaise?",
+      "Can I make that a meal, with fries and a drink?",
+      "A medium, please. For here.",
+      "How much is that altogether?"
+    ],
+    "model_answer": "Hi, could I get a chicken burger, please? And could you leave out the mayonnaise? ... Yes, let's make it a meal, with fries and a drink. ... A medium size, please. ... The drink? A lemonade, thanks. ... For here, please. ... Sorry, could you say the total again? ... Nine dollars fifty — great, here you go. Thank you very much."
+  },
+  "writing_workshop": {
+    "task": "Write a short, polite online review or message to a coffee shop about your recent visit. Mention one thing that was good and one small problem with your order, and how the staff handled it.",
+    "word_count": "100-140",
+    "model_text": "I visited your coffee shop on Main Street yesterday morning, and I wanted to share some feedback. Overall, it was a good experience — the shop was clean, and the staff were friendly and quick, even though there was a long line. I did have one small issue: I ordered a medium coffee with no sugar, but the first cup was sweet. However, when I mentioned it politely, the barista apologised straight away and made me a fresh one with no trouble at all. I really appreciated how kindly it was handled. I'll definitely come back. Thank you for the good service. — Ahmed",
+    "model_analysis": "The review is balanced and fair: it praises what was good, describes the small problem specifically, and gives credit for how it was fixed. A calm, specific review like this is far more useful and credible than one that is only angry or only positive.",
+    "success_criteria": [
+      "Mention one positive point specifically",
+      "Describe one small problem clearly",
+      "Say how the staff handled it",
+      "Keep a fair, polite tone"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What does 'for here or to go' mean at a coffee shop?",
+      "options": [
+        "Pay now or pay later",
+        "Drink in the shop or take it away",
+        "Small or large",
+        "Hot or cold"
+      ],
+      "correct": 1,
+      "explanation": "'For here or to go' asks whether you will drink it in the shop ('for here') or take it away ('to go')."
+    },
+    {
+      "id": 2,
+      "question": "What is a 'combo' or 'meal' at a fast-food restaurant?",
+      "options": [
+        "A drink only",
+        "A main item, a side, and a drink bundled together at a lower price",
+        "A dessert",
+        "A table for a group"
+      ],
+      "correct": 1,
+      "explanation": "A combo or meal 'bundles a main item, a side such as fries, and a drink together for a lower price than buying each separately.'"
+    },
+    {
+      "id": 3,
+      "question": "If your order comes out wrong, what does the passage recommend?",
+      "options": [
+        "Say nothing and accept it",
+        "Mention it calmly and clearly; staff will correct it",
+        "Get angry with the staff",
+        "Leave the restaurant"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises to 'mention it calmly and clearly,' since staff 'will almost always correct it without any trouble.'"
+    },
+    {
+      "id": 4,
+      "question": "Why does the passage suggest looking at the menu before you reach the front of the line?",
+      "options": [
+        "To avoid paying",
+        "So you are ready to order and help the line move",
+        "Because the menu changes at the counter",
+        "To get a discount"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises looking at the menu early 'so you are ready,' which helps the fast-moving line and makes ordering easier."
+    },
+    {
+      "id": 5,
+      "question": "Which is a polite casual request for ordering?",
+      "options": [
+        "Give me a coffee.",
+        "Could I get a medium coffee, please?",
+        "Coffee. Now.",
+        "I need coffee or I leave."
+      ],
+      "correct": 1,
+      "explanation": "'Could I get a medium coffee, please?' is a common, polite casual request."
+    },
+    {
+      "id": 6,
+      "question": "What does the phrasal verb 'leave out' mean?",
+      "options": [
+        "To add something",
+        "To not include something",
+        "To pay extra",
+        "To take away"
+      ],
+      "correct": 1,
+      "explanation": "'Leave out' means to not include something, as in 'Could you leave out the onions?'"
+    },
+    {
+      "id": 7,
+      "question": "What should you do if you do not understand a question from the staff?",
+      "options": [
+        "Guess and hope",
+        "Ask them to repeat it politely",
+        "Walk away",
+        "Point at random items"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'If you do not understand a question, it is fine to ask the staff to repeat it.'"
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, is tipping required for a quick counter coffee order?",
+      "options": [
+        "Yes, always required",
+        "It is usually optional for a quick counter order",
+        "It is forbidden",
+        "Only for large orders"
+      ],
+      "correct": 1,
+      "explanation": "The passage says tipping is common with table service or a tip jar 'though it is usually optional for a quick counter order.'"
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Barista: Hi, what can I get for you? Customer: Could I get a medium coffee, please? Barista: Sure. Room for cream? Customer: Sorry, what do you mean? Barista: Would you like me to leave a little space at the top for you to add cream or milk yourself? Customer: Oh, I see — no thanks, could you just add a splash of oat milk and no sugar? Barista: Medium coffee, oat milk, no sugar. For here or to go? Customer: To go, please. Barista: Anything else? Customer: No, that's everything, thanks. Barista: That'll be three dollars fifty. Your name for the cup? Customer: It's Yusuf. Barista: Thanks, Yusuf. It'll be ready at the end of the counter in just a moment.",
+      "question": "What did the customer not understand at first?",
+      "options": [
+        "The price",
+        "The question 'Room for cream?'",
+        "Their own name",
+        "Where to pay"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Customer: Excuse me, I think there's been a mix-up with my order. Server: Oh, I'm sorry — what's the problem? Customer: I ordered the chicken burger with no mayonnaise, but this one has mayo on it. Server: I do apologise. Let me get that fixed right away — a chicken burger, hold the mayo. It'll just take two minutes. Customer: Thank you, no problem at all. Server: Here you are, and I'm sorry for the wait. I've added an extra portion of fries for the trouble. Customer: Oh, that's very kind, thank you. Server: Not at all. Enjoy your meal, and sorry again about the mix-up. Customer: These things happen. Thanks for sorting it out so quickly.",
+      "question": "How does the customer handle the mistake with the order?",
+      "options": [
+        "Angrily demands a refund",
+        "Mentions it calmly and politely, and the server fixes it",
+        "Says nothing and eats it",
+        "Leaves the restaurant"
+      ],
+      "correct": 1
+    }
+  ]
+}

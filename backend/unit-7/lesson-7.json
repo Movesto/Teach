@@ -1,0 +1,282 @@
+{
+  "id": "lesson-115",
+  "unit_id": 7,
+  "lesson_number": 7,
+  "title": "Healthy Eating and Nutrition Labels",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the basics of a balanced diet and healthy eating on a budget",
+    "Read and understand a nutrition label on food packaging",
+    "Compare food products and make healthier choices",
+    "Use quantifiers (a lot of, too much, enough) to talk about food and diet"
+  ],
+  "reading_passage": {
+    "title": "Eating Well Without Spending More",
+    "text": "Many people believe that healthy eating is expensive, but this is often not true. With a little knowledge, you can eat well on a small budget. The key is understanding what a balanced diet is, and learning to read the information on the food you buy.\n\nA balanced diet means eating a variety of foods in sensible amounts. Fruit and vegetables should make up a large part of what you eat; they are full of vitamins and fibre and are often cheaper when bought fresh and in season, or frozen. Whole grains, such as brown rice, oats, and whole-wheat bread, give lasting energy. Beans and lentils are an excellent, inexpensive source of protein, and they store well. Meat and dairy are useful but do not need to be eaten in large amounts. The foods to limit are those high in added sugar, salt, and unhealthy fat — sugary drinks, sweets, and many processed snacks — which are often expensive for the little nutrition they give.\n\nOne of the most useful skills is reading the nutrition label found on packaged food. At the top, it shows the serving size, which matters because all the other numbers are for one serving, not the whole package. It then lists the calories, and the amounts of fat, sugar, salt (often called sodium), fibre, and protein. Comparing two similar products by their labels can be surprising: two cereals that look alike may contain very different amounts of sugar. A quick rule is to check the sugar and sodium: if they are high, the food is best kept as an occasional treat.\n\nThe list of ingredients, printed nearby, is also worth reading. Ingredients are listed in order of amount, from most to least. If sugar, or a word ending in '-ose', appears near the top, the product is high in sugar even if the front of the package says 'natural' or 'healthy'. Front-of-package words are often marketing, not facts; the real information is on the label and the ingredients list.\n\nFinally, a few simple habits make healthy eating easier and cheaper. Plan your meals for the week before you shop, so you buy only what you need. Cook at home more often, because home-cooked food is usually healthier and far cheaper than takeout. Buy staples like rice, beans, and oats in larger bags, which cost less per serving. And do not shop when you are hungry, because hunger makes it much harder to resist expensive, unhealthy snacks. Good eating is less about spending money and more about making informed choices.",
+    "source": "Adapted for learners — healthy eating on a budget",
+    "glossary": [
+      {
+        "word": "balanced diet",
+        "meaning": "eating a variety of foods in sensible amounts to stay healthy"
+      },
+      {
+        "word": "nutrition label",
+        "meaning": "the panel on packaged food showing calories, fat, sugar, salt, and other information"
+      },
+      {
+        "word": "serving size",
+        "meaning": "the amount of a food that the label's numbers are based on"
+      },
+      {
+        "word": "processed",
+        "meaning": "describing food that has been changed from its natural state, often with added sugar, salt, or fat"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what should make up a large part of a balanced diet?",
+      "answer": "Fruit and vegetables, which are full of vitamins and fibre and are often cheaper when bought fresh and in season, or frozen."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say the serving size 'matters' on a nutrition label?",
+      "answer": "Because all the other numbers — calories, fat, sugar, salt — are given for one serving, not the whole package. If you eat more than one serving, you consume more than the label's numbers suggest, so the serving size is needed to understand the real amount."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'processed' food mean, and why does the passage advise limiting it?",
+      "answer": "Processed food is food changed from its natural state, often with added sugar, salt, or fat. The passage advises limiting it because such foods are high in sugar, salt, and unhealthy fat and are 'often expensive for the little nutrition they give.'"
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage warn that front-of-package words like 'natural' or 'healthy' can be misleading?",
+      "answer": "Because those words are 'often marketing, not facts.' A product labelled 'natural' on the front may still be high in sugar; the real information is in the nutrition label and the ingredients list, where sugar's true amount is shown."
+    }
+  ],
+  "language_focus": {
+    "title": "Quantifiers for Food: a lot of, too much/many, enough",
+    "explanation": "When talking about amounts of food, use quantifiers. Use 'a lot of' for large amounts (with both countable and uncountable nouns). Use 'too much' (uncountable, like sugar) and 'too many' (countable, like sweets) to say an amount is more than is good. Use 'enough' to mean the right amount, and 'not enough' for too little: 'This meal doesn't have enough vegetables.'",
+    "examples": [
+      {
+        "sentence": "This drink has too much sugar, and the meal doesn't have enough vegetables.",
+        "note": "'too much sugar' (uncountable, more than is healthy); 'not enough vegetables' (too little)."
+      },
+      {
+        "sentence": "You shouldn't eat too many sweets, but a lot of fruit is good for you.",
+        "note": "'too many sweets' (countable); 'a lot of fruit' (large, positive amount)."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete with 'too much' or 'too many': 'This snack contains ___ salt.'",
+        "answer": "This snack contains too much salt."
+      },
+      {
+        "sentence": "Complete with 'too much' or 'too many': 'He eats ___ sugary snacks.'",
+        "answer": "He eats too many sugary snacks."
+      },
+      {
+        "sentence": "Complete with 'enough': 'The recipe doesn't use ___ vegetables.'",
+        "answer": "The recipe doesn't use enough vegetables."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "ingredient",
+      "definition": "one of the foods used to make a dish or a product",
+      "example_sentence": "The first ingredient on the list is usually the largest by amount.",
+      "collocations": [
+        "a key ingredient",
+        "the ingredients list",
+        "fresh ingredients"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "portion",
+      "definition": "the amount of food served to or eaten by one person",
+      "example_sentence": "A healthy portion of rice is about the size of your fist.",
+      "collocations": [
+        "a large portion",
+        "portion size",
+        "control your portions"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "nutrient",
+      "definition": "a substance in food that the body needs to stay healthy, such as protein or vitamins",
+      "example_sentence": "Vegetables are full of important nutrients.",
+      "collocations": [
+        "rich in nutrients",
+        "essential nutrients",
+        "lose nutrients"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "in season",
+      "definition": "describing fruit or vegetables at the time of year when they are naturally available and cheapest",
+      "example_sentence": "Buy fruit that is in season — it tastes better and costs less.",
+      "collocations": [
+        "in season",
+        "out of season",
+        "seasonal produce"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "discussion",
+    "context": "You are comparing two breakfast cereals at the store. Cereal A costs less and the front says 'natural', but its label shows a lot of sugar. Cereal B costs a little more but has less sugar and more fibre.",
+    "prompt": "Explain which cereal you would choose and why, using the nutrition information. Use quantifiers (too much, a lot of, enough) at least three times. Speak for about ninety seconds.",
+    "useful_language": [
+      "Cereal A is cheaper, but it has too much sugar.",
+      "Cereal B has a lot of fibre, which is good for you.",
+      "The 'natural' label doesn't really tell you much.",
+      "Cereal A doesn't have enough fibre.",
+      "Overall, I'd choose Cereal B, even though it costs a little more."
+    ],
+    "model_answer": "I'd choose Cereal B. I know Cereal A is cheaper and the front says 'natural', but when I read the label, it has too much sugar — almost twelve grams in one serving. That word 'natural' doesn't really tell you anything; it's just marketing. Cereal B costs a little more, but it has a lot of fibre and much less sugar, so it's healthier and it will keep me full for longer. Cereal A doesn't have enough fibre to do that. When I think about it properly, the small extra cost of Cereal B is worth it, because I'm paying for better nutrition, not just sugar."
+  },
+  "writing_workshop": {
+    "task": "Write a short paragraph advising a friend on how to eat more healthily without spending more money. Give at least four practical tips, using quantifiers where useful.",
+    "word_count": "120-160",
+    "model_text": "Eating well doesn't have to be expensive — here are some tips that work for me. First, buy a lot of fruit and vegetables, especially the ones that are in season, or frozen, because they're cheaper and just as healthy. Second, use beans and lentils for protein; they cost very little and store well. Third, cook at home more often. Home-cooked food is far cheaper than takeout, and you control how much salt and sugar goes in. Fourth, read the nutrition label before you buy — some snacks that look healthy actually have too much sugar. Finally, plan your meals for the week and don't shop when you're hungry, or you'll buy too many snacks you don't need. Small changes like these save money and are much better for your health.",
+    "model_analysis": "The paragraph gives clear, ordered, practical advice, uses quantifiers naturally ('a lot of fruit', 'too much sugar', 'too many snacks'), and connects each tip to a reason (cost or health). Concrete tips with reasons are far more persuasive than vague advice to 'eat better'.",
+    "success_criteria": [
+      "Give at least four practical tips",
+      "Use quantifiers (a lot of, too much/many, enough) correctly",
+      "Connect each tip to a reason (health or cost)",
+      "Keep a friendly, encouraging tone"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, which is an inexpensive source of protein that stores well?",
+      "options": [
+        "Fresh meat",
+        "Beans and lentils",
+        "Sugary drinks",
+        "Processed snacks"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'Beans and lentils are an excellent, inexpensive source of protein, and they store well.'"
+    },
+    {
+      "id": 2,
+      "question": "Why is the serving size at the top of a nutrition label important?",
+      "options": [
+        "It shows the price",
+        "All the other numbers are for one serving, not the whole package",
+        "It lists the ingredients",
+        "It shows the expiry date"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains the serving size matters 'because all the other numbers are for one serving, not the whole package.'"
+    },
+    {
+      "id": 3,
+      "question": "How are ingredients listed on a package?",
+      "options": [
+        "In alphabetical order",
+        "In order of amount, from most to least",
+        "By price",
+        "By colour"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'Ingredients are listed in order of amount, from most to least,' so an ingredient near the top is present in a large amount."
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about the words 'natural' or 'healthy' on the front of a package?",
+      "options": [
+        "They are always true",
+        "They are often marketing, not facts",
+        "They show the sugar content",
+        "They are required by law"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns that 'Front-of-package words are often marketing, not facts; the real information is on the label and the ingredients list.'"
+    },
+    {
+      "id": 5,
+      "question": "Complete with the correct quantifier: 'This drink has ___ sugar.'",
+      "options": [
+        "too many",
+        "too much",
+        "enough many",
+        "much too"
+      ],
+      "correct": 1,
+      "explanation": "'Sugar' is uncountable, so 'too much sugar' is correct. 'Too many' is used with countable nouns."
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "He eats too much sweets",
+        "He eats too many sweets",
+        "He eats a lot too sweets",
+        "He eats enough much sweets"
+      ],
+      "correct": 1,
+      "explanation": "'Sweets' is countable, so 'too many sweets' is correct."
+    },
+    {
+      "id": 7,
+      "question": "Why does the passage advise not shopping when you are hungry?",
+      "options": [
+        "Because stores are busier then",
+        "Because hunger makes it harder to resist unhealthy snacks",
+        "Because prices are higher when hungry",
+        "Because labels are harder to read"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains that 'hunger makes it much harder to resist expensive, unhealthy snacks.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'in season' mean when talking about fruit and vegetables?",
+      "options": [
+        "Frozen for a long time",
+        "At the time of year when they are naturally available and cheapest",
+        "Grown far away",
+        "Very expensive"
+      ],
+      "correct": 1,
+      "explanation": "'In season' describes produce at the time of year when it is naturally available, which is when it tastes best and costs least."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Shopper: Excuse me, I'm trying to choose between these two yogurts. They look almost the same. Assistant: They do, but let's check the labels. This first one says 'fruit yogurt' on the front, but look — it has eighteen grams of sugar in one small pot. Shopper: Eighteen? That's a lot. Assistant: It is. Now this second one, the plain yogurt, has only five grams, all natural from the milk. If you want the fruit flavour, you can add some fresh fruit yourself for much less sugar. Shopper: I had no idea the difference was so big. The first one says 'natural' right on the front. Assistant: That word doesn't mean much, I'm afraid. The real information is always on the label. Shopper: Well, I'll take the plain one and add my own fruit, then. Thank you — I'll check the labels from now on. Assistant: That's the best habit you can have.",
+      "question": "Why does the assistant recommend the plain yogurt?",
+      "options": [
+        "It is cheaper only",
+        "It has much less sugar; the shopper can add fresh fruit",
+        "It has no protein",
+        "It says 'natural' on the front"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Friend 1: I want to eat better, but healthy food is so expensive. Friend 2: It doesn't have to be. What do you usually buy? Friend 1: A lot of ready meals and takeout, honestly. It's easier after work. Friend 2: That's actually where the money goes. If you cooked at home a few nights a week, you'd save a lot and eat better. Beans, rice, frozen vegetables — they cost very little. Friend 1: But I don't have time to plan. Friend 2: Just plan three meals on Sunday and buy only what you need. And buy rice and oats in the big bags — they're much cheaper per serving. Friend 1: That makes sense. I always buy too many snacks when I'm hungry at the store, too. Friend 2: We all do. Never shop hungry. Try it for two weeks and see how much you save. Friend 1: Okay, I'll give it a go. Thanks.",
+      "question": "What is the main advice Friend 2 gives?",
+      "options": [
+        "Buy more ready meals",
+        "Cook at home, plan meals, and buy cheap staples in bulk",
+        "Only eat at restaurants",
+        "Stop eating vegetables"
+      ],
+      "correct": 1
+    }
+  ]
+}

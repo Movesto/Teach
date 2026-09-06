@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage says: 'Making use of these services early helps families establish routines, meet neighbours, and reduce the isolation that many newcomers experience in their first months.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'accessible' mean?",
+      "options": [
+        "Very expensive",
+        "Easy to reach, use, or benefit from",
+        "Open only to citizens",
+        "Far from the city"
+      ],
+      "correct": 1,
+      "explanation": "'Accessible' means easy to reach, use, or benefit from, particularly for people who might otherwise face barriers."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, who can use public libraries?",
+      "options": [
+        "Only citizens",
+        "All residents, regardless of immigration status",
+        "Only library members who pay",
+        "Only children"
+      ],
+      "correct": 1,
+      "explanation": "The passage says libraries are 'free, open to all residents regardless of immigration status.'"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct present simple sentence for a regular service.",
+      "options": [
+        "The library open at nine every day.",
+        "The library opens at nine every day.",
+        "The library opening at nine every day.",
+        "The library is open at nine every day it."
+      ],
+      "correct": 1,
+      "explanation": "The present simple third-person form adds -s: 'The library opens at nine every day.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'isolation' mean?",
+      "options": [
+        "A community meeting",
+        "The feeling of being alone and disconnected from others",
+        "A library branch",
+        "A support network"
+      ],
+      "correct": 1,
+      "explanation": "'Isolation' is the feeling of being alone and disconnected from other people."
     }
   ],
   "listening_exercises": [

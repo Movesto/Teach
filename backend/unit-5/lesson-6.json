@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage advises: 'stay calm, do not move the vehicles unless they are blocking traffic, and call 911 if anyone is injured. Exchange contact and insurance information with the other driver, and take photos of the damage before leaving the scene.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'yield' mean when driving?",
+      "options": [
+        "To speed up",
+        "To give way to another vehicle or person",
+        "To turn right on red",
+        "To exchange information"
+      ],
+      "correct": 1,
+      "explanation": "To yield means to give way to another vehicle or person, allowing them to go first."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, what does the 'right turn on red' rule allow?",
+      "options": [
+        "Turning right at a red light after a complete stop, when the way is clear",
+        "Driving through any red light",
+        "Turning left at a red light",
+        "Never turning at a red light"
+      ],
+      "correct": 0,
+      "explanation": "The passage explains that in most states drivers 'are permitted to turn right at a red traffic light after coming to a complete stop, as long as the way is clear.'"
+    },
+    {
+      "id": 7,
+      "question": "Which sentence correctly uses a comparative adjective?",
+      "options": [
+        "This car is more cheaper than that one.",
+        "This car is cheaper than that one.",
+        "This car is cheapest than that one.",
+        "This car is more cheap than that one."
+      ],
+      "correct": 1,
+      "explanation": "The comparative of the short adjective 'cheap' is 'cheaper': 'This car is cheaper than that one.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'permit' mean as a verb?",
+      "options": [
+        "To forbid something",
+        "To officially allow something under specific conditions",
+        "To exchange information",
+        "To yield to a pedestrian"
+      ],
+      "correct": 1,
+      "explanation": "To permit means to officially allow something to happen, often under specific conditions."
     }
   ],
   "listening_exercises": [

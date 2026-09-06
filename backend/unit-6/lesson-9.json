@@ -1,0 +1,282 @@
+{
+  "id": "lesson-113",
+  "unit_id": 6,
+  "lesson_number": 9,
+  "title": "Home Safety and Emergencies",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Identify common home safety risks and how to prevent them",
+    "Know what to do in a home emergency such as a fire, gas leak, or power cut",
+    "Call for help and describe an emergency clearly and calmly",
+    "Use the imperative and 'should/shouldn't' to give safety advice"
+  ],
+  "reading_passage": {
+    "title": "Staying Safe at Home",
+    "text": "A home should be the safest place we know, and with a little preparation it can be. Most home accidents are preventable, and knowing what to do in an emergency can turn a frightening moment into one you can handle. Safety at home comes down to two things: preventing problems before they start, and knowing how to respond when they happen anyway.\n\nFire is the most serious home danger, but it is also one of the most preventable. Every home should have working smoke alarms, ideally one on each floor and near the bedrooms. Test them once a month and change the batteries at least once a year. Never leave cooking unattended, keep anything that can burn away from the stove, and do not overload electrical sockets. Plan an escape route with everyone in the home, so that if the alarm sounds at night, each person knows how to get out. If a fire starts, get everyone out first, stay low under the smoke, and call the emergency number — in the United States, that is 911 — from outside. Never go back inside for belongings.\n\nGas is another risk that deserves care. If you smell gas — a smell like rotten eggs — do not turn on any lights or electrical switches, because a spark can cause an explosion. Open the windows, turn off the gas at the meter if you can do so safely, leave the building, and call the gas company's emergency line from outside. Carbon monoxide is even more dangerous because it has no smell; a carbon monoxide alarm, placed near sleeping areas, is the only reliable way to detect it.\n\nOther everyday risks are less dramatic but still important. Keep medicines and cleaning products locked away from children. Wipe up water on the floor quickly to prevent falls. Do not leave candles burning when you leave a room. And keep a small emergency kit — a flashlight, a first-aid box, some water, and a list of emergency numbers — where everyone can find it.\n\nWhen an emergency does happen, staying calm is the most useful thing you can do. If you need to call for help, speak slowly and clearly. Give your address first, because that lets help be sent even if the call is cut off, then explain what has happened and how many people are involved. Answer the operator's questions and do not hang up until they tell you to. Preparation and a clear head are what keep a home, and the people in it, safe.",
+    "source": "Adapted for learners — home safety and emergencies",
+    "glossary": [
+      {
+        "word": "smoke alarm",
+        "meaning": "a device that makes a loud sound to warn of smoke or fire"
+      },
+      {
+        "word": "escape route",
+        "meaning": "a planned way to get safely out of a building in an emergency"
+      },
+      {
+        "word": "carbon monoxide",
+        "meaning": "a dangerous gas with no colour or smell, produced by faulty heaters or stoves"
+      },
+      {
+        "word": "emergency kit",
+        "meaning": "a small set of useful items kept ready for emergencies"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what should you do first if a fire starts?",
+      "answer": "Get everyone out of the home first, stay low under the smoke, and call the emergency number (911) from outside. The passage stresses you should never go back inside for belongings."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage warn against turning on lights or switches if you smell gas?",
+      "answer": "Because a spark from a light or electrical switch can ignite the gas and cause an explosion. Instead, you should open windows, turn off the gas if safe, leave the building, and call from outside."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is 'carbon monoxide', and why is a special alarm needed to detect it?",
+      "answer": "Carbon monoxide is a dangerous gas with no colour or smell, produced by faulty heaters or stoves. Because it cannot be smelled, a carbon monoxide alarm placed near sleeping areas is the only reliable way to detect it."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise giving your address first when calling for help?",
+      "answer": "Because giving the address first means help can still be sent even if the call is suddenly cut off. It ensures the most critical information reaches the operator before anything else."
+    }
+  ],
+  "language_focus": {
+    "title": "Giving Safety Advice: Imperatives and 'should / shouldn't'",
+    "explanation": "Safety advice uses two main forms. The imperative gives direct instructions: 'Test your smoke alarms.' 'Don't leave cooking unattended.' 'Should' and 'shouldn't' give strong advice in a slightly softer way: 'You should plan an escape route.' 'You shouldn't overload sockets.' Both are common in safety messages; imperatives feel more urgent, 'should' feels more like advice.",
+    "examples": [
+      {
+        "sentence": "Test your smoke alarms once a month, and change the batteries every year.",
+        "note": "Imperative form ('Test...', 'change...') gives direct, clear instructions."
+      },
+      {
+        "sentence": "You shouldn't leave candles burning when you leave the room.",
+        "note": "'shouldn't' gives strong advice against a dangerous habit."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Rewrite as an imperative: 'You should keep medicines away from children.'",
+        "answer": "Keep medicines away from children."
+      },
+      {
+        "sentence": "Give advice with 'shouldn't': leaving cooking alone on the stove.",
+        "answer": "You shouldn't leave cooking alone on the stove."
+      },
+      {
+        "sentence": "Give a safety instruction (imperative) about a wet floor.",
+        "answer": "Wipe up water on the floor quickly to prevent falls."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "prevent",
+      "definition": "to stop something bad from happening",
+      "example_sentence": "Testing your alarms helps prevent a small fire from becoming a disaster.",
+      "collocations": [
+        "prevent an accident",
+        "help prevent",
+        "prevent it from happening"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "hazard",
+      "definition": "something that could be dangerous or cause harm",
+      "example_sentence": "A wet floor is a common hazard in the kitchen.",
+      "collocations": [
+        "a safety hazard",
+        "a fire hazard",
+        "remove the hazard"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "emergency",
+      "definition": "a sudden dangerous situation that needs immediate action",
+      "example_sentence": "In an emergency, call 911 and give your address first.",
+      "collocations": [
+        "in an emergency",
+        "an emergency number",
+        "a medical emergency"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "evacuate",
+      "definition": "to leave a dangerous place and move to safety",
+      "example_sentence": "When the alarm sounds, evacuate the building calmly.",
+      "collocations": [
+        "evacuate the building",
+        "evacuate safely",
+        "an evacuation plan"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A community centre has asked you to give a one-minute safety talk to new residents about how to prevent fires at home.",
+    "prompt": "Give short, clear safety advice about preventing fires and what to do if one starts. Use at least three imperatives and two 'should/shouldn't' sentences. Speak for about ninety seconds.",
+    "useful_language": [
+      "First, test your smoke alarms every month.",
+      "You should plan an escape route with your family.",
+      "Never leave cooking unattended.",
+      "You shouldn't overload your electrical sockets.",
+      "If a fire starts, get everyone out and call 911 from outside."
+    ],
+    "model_answer": "Good evening, everyone. I'd like to share a few simple things that keep your home safe from fire. First, test your smoke alarms every month, and change the batteries once a year — they save lives. You should plan an escape route with your family, so that if the alarm sounds at night, everyone knows how to get out. In the kitchen, never leave cooking unattended, even for a minute, and keep towels and paper away from the stove. You shouldn't overload your electrical sockets with too many plugs. And if a fire ever does start, don't try to save your belongings — get everyone out, stay low under the smoke, and call 911 from outside. A little preparation makes all the difference. Thank you."
+  },
+  "writing_workshop": {
+    "task": "Write a short list of home safety rules for a shared apartment, to put on the kitchen wall. Use imperatives and 'should/shouldn't' to give clear advice. Include an introduction sentence and at least five rules.",
+    "word_count": "110-150",
+    "model_text": "HOME SAFETY — PLEASE READ AND FOLLOW\n\nTo keep everyone safe, please follow these simple rules. Never leave cooking unattended — turn off the stove if you leave the kitchen. Test the smoke alarm on the first of each month; if it beeps weakly, tell the manager, because the battery is low. You shouldn't overload the sockets with too many devices. Keep the exit and the hallway clear at all times, so we can leave quickly in an emergency. Do not leave candles burning when you go out or go to sleep. If you smell gas, don't turn on any switches — open the windows and call the gas company from outside. The emergency number is 911. The first-aid kit and flashlight are in the cupboard by the door. Thank you for helping to keep our home safe.",
+    "model_analysis": "The list opens with a clear purpose, then gives short, direct rules using imperatives ('Never leave...', 'Keep the exit clear') and 'shouldn't' for strong advice. Each rule is specific and easy to act on, and it ends with where to find the emergency kit — practical information a reader needs.",
+    "success_criteria": [
+      "Begin with a short introduction stating the purpose",
+      "Give at least five clear rules",
+      "Use both imperatives and 'should/shouldn't'",
+      "Include practical details (emergency number, kit location)"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, where should smoke alarms be placed?",
+      "options": [
+        "Only in the kitchen",
+        "One on each floor and near the bedrooms",
+        "Outside the front door",
+        "In the basement only"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises 'one on each floor and near the bedrooms,' tested monthly with yearly battery changes."
+    },
+    {
+      "id": 2,
+      "question": "If a fire starts, what does the passage say you should do first?",
+      "options": [
+        "Collect your valuables",
+        "Get everyone out, stay low, and call 911 from outside",
+        "Open all the windows",
+        "Turn on all the lights"
+      ],
+      "correct": 1,
+      "explanation": "The passage says to 'get everyone out first, stay low under the smoke, and call the emergency number... from outside,' and never go back for belongings."
+    },
+    {
+      "id": 3,
+      "question": "Why shouldn't you turn on a light if you smell gas?",
+      "options": [
+        "It wastes electricity",
+        "A spark can cause an explosion",
+        "The gas company charges extra",
+        "It is too dark to see"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns that 'a spark can cause an explosion,' so you should not turn on lights or switches if you smell gas."
+    },
+    {
+      "id": 4,
+      "question": "Why is carbon monoxide especially dangerous?",
+      "options": [
+        "It is very loud",
+        "It has no smell, so only an alarm can detect it",
+        "It only appears in summer",
+        "It is easy to see"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains carbon monoxide 'has no smell,' so 'a carbon monoxide alarm... is the only reliable way to detect it.'"
+    },
+    {
+      "id": 5,
+      "question": "Which sentence is a correct imperative for safety advice?",
+      "options": [
+        "You testing the alarm",
+        "Never leave cooking unattended.",
+        "To not overload the sockets",
+        "Cooking should be left alone"
+      ],
+      "correct": 1,
+      "explanation": "'Never leave cooking unattended' is a correct imperative — a direct instruction, one of the clearest ways to give safety advice."
+    },
+    {
+      "id": 6,
+      "question": "Complete with 'should' or 'shouldn't': 'You ___ overload your electrical sockets.'",
+      "options": [
+        "should",
+        "shouldn't",
+        "have to",
+        "must to"
+      ],
+      "correct": 1,
+      "explanation": "'You shouldn't overload your electrical sockets' gives strong advice against a dangerous habit."
+    },
+    {
+      "id": 7,
+      "question": "When calling for emergency help, what should you say first?",
+      "options": [
+        "Your name",
+        "Your address",
+        "The time of day",
+        "Your phone number"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises giving 'your address first, because that lets help be sent even if the call is cut off.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'evacuate' mean?",
+      "options": [
+        "To clean a room",
+        "To leave a dangerous place and move to safety",
+        "To call the landlord",
+        "To test an alarm"
+      ],
+      "correct": 1,
+      "explanation": "'Evacuate' means to leave a dangerous place and move to safety, for example leaving a building when the fire alarm sounds."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Operator: 911, what's your emergency? Caller: There's a fire in my kitchen. My address is 58 Maple Street, apartment 3B. Operator: Thank you. Is everyone out of the apartment? Caller: Yes, my family and I are all outside on the street now. Operator: That's good — you did exactly the right thing. Do not go back inside for any reason. Is anyone hurt? Caller: No, nobody's hurt. But the smoke is getting worse. Operator: The fire department is on its way and will be there in about four minutes. Stay well away from the building and keep everyone together. Is there anyone still inside — a neighbour, or a pet? Caller: I don't think so. The neighbours are out too. Operator: Okay. Stay on the line with me until the firefighters arrive. Can you see them yet? Caller: I can hear the sirens now. Operator: Good. Wave so they can see you. Stay calm — help is here.",
+      "question": "What does the operator repeatedly tell the caller?",
+      "options": [
+        "To go back inside and put out the fire",
+        "To stay outside and not go back in",
+        "To drive to the fire station",
+        "To call the landlord first"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Neighbour: Hi, are you okay? I heard your carbon monoxide alarm going off. Resident: Yes, it started beeping about ten minutes ago. I wasn't sure what to do at first. Neighbour: You did the right thing coming outside. Carbon monoxide has no smell, so the alarm is the only warning you get. Did you turn off the heater? Resident: I turned it off and opened all the windows before I left. Neighbour: Perfect. That's exactly right. You should call the gas company's emergency line — they'll come and check the heater before you go back in. Resident: I'll do that now. I didn't realise how dangerous it could be. Neighbour: It's very dangerous, but you handled it well. Never ignore that alarm, even if you feel fine — the gas can affect you before you notice anything.",
+      "question": "Why does the neighbour say the carbon monoxide alarm is so important?",
+      "options": [
+        "Because it is very loud",
+        "Because carbon monoxide has no smell and the alarm is the only warning",
+        "Because it also detects fire",
+        "Because the gas company requires it"
+      ],
+      "correct": 1
+    }
+  ]
+}

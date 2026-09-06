@@ -1,0 +1,282 @@
+{
+  "id": "lesson-116",
+  "unit_id": 7,
+  "lesson_number": 8,
+  "title": "Food Safety and Storage",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand how to store food safely to keep it fresh and prevent illness",
+    "Read and understand date labels such as 'use by' and 'best before'",
+    "Follow safe habits when preparing and reheating food",
+    "Use sequence and time clauses (before, after, when, until) to describe food steps"
+  ],
+  "reading_passage": {
+    "title": "Keeping Food Safe",
+    "text": "Food that is not stored or handled correctly can make people ill, sometimes seriously. The good news is that food poisoning is largely preventable, and the habits that prevent it are simple. Safe food comes down to three ideas: keep it at the right temperature, keep it clean, and keep raw and cooked food apart.\n\nTemperature is the most important factor, because bacteria grow fastest when food is warm. Cold food should be kept cold, in a refrigerator set to about four degrees Celsius or below, and frozen food kept frozen. Do not leave food that should be chilled — meat, dairy, cooked rice, prepared meals — sitting out at room temperature for more than about two hours. When you cook, make sure food is hot all the way through, especially meat and chicken. And when you reheat leftovers, heat them until they are steaming hot, not just warm. Reheat food only once.\n\nCleanliness prevents bacteria from spreading. Wash your hands well with soap before you handle food and after touching raw meat. Keep work surfaces and knives clean, and wash fruit and vegetables before eating them. It is a good idea to use different chopping boards for raw meat and for vegetables, because bacteria from raw meat can pass to food that will not be cooked. This spreading of bacteria from one food to another is called cross-contamination, and it is a common cause of illness.\n\nUnderstanding date labels helps you avoid both illness and waste. 'Use by' is about safety: do not eat the food after this date, even if it looks and smells fine, because it may be unsafe. 'Best before' is about quality: after this date the food may not taste as good, but it is usually still safe to eat. Knowing the difference means you throw away truly unsafe food but do not waste food that is merely past its best. Trust these labels more than appearance, because some harmful bacteria cannot be seen or smelled.\n\nA few final habits make a real difference. Store raw meat on the bottom shelf of the refrigerator, so it cannot drip onto other food. Cool leftovers quickly and refrigerate them within two hours. Freeze food you will not eat soon, and label it with the date. And when in doubt, throw it out — the small cost of wasting some food is far less than the cost of becoming ill. With these simple habits, the food in your kitchen stays a source of health, not harm.",
+    "source": "Adapted for learners — food safety at home",
+    "glossary": [
+      {
+        "word": "bacteria",
+        "meaning": "very small living things, some of which can grow in food and cause illness"
+      },
+      {
+        "word": "cross-contamination",
+        "meaning": "the spreading of bacteria from one food to another, often from raw to ready-to-eat food"
+      },
+      {
+        "word": "leftovers",
+        "meaning": "cooked food that is not eaten at a meal and is kept for later"
+      },
+      {
+        "word": "use by",
+        "meaning": "a date label about safety, after which food should not be eaten"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "Why is temperature described as the most important factor in food safety?",
+      "answer": "Because bacteria grow fastest when food is warm. Keeping cold food cold, frozen food frozen, and cooking or reheating food until it is hot all the way through prevents bacteria from multiplying to dangerous levels."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is 'cross-contamination', and how can it be prevented?",
+      "answer": "Cross-contamination is the spreading of bacteria from one food to another, often from raw meat to food that will not be cooked. It can be prevented by using different chopping boards for raw meat and vegetables, washing hands and surfaces, and storing raw meat on the bottom shelf."
+    },
+    {
+      "type": "inference",
+      "question": "What is the difference between 'use by' and 'best before', and why does it matter?",
+      "answer": "'Use by' is about safety — food should not be eaten after this date, even if it looks fine. 'Best before' is about quality — after it, the food may taste less good but is usually still safe. The difference matters because it lets you throw away truly unsafe food while avoiding wasting food that is only past its best."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say to trust date labels 'more than appearance'?",
+      "answer": "Because some harmful bacteria cannot be seen or smelled, so food may be unsafe even when it looks and smells fine. The 'use by' date is a more reliable guide to safety than how the food appears."
+    }
+  ],
+  "language_focus": {
+    "title": "Time Clauses for Steps: before, after, when, until",
+    "explanation": "To describe the order of steps in preparing food, use time clauses with 'before', 'after', 'when', and 'until'. Note that after these words we usually use the present tense, even for future actions: 'Wash your hands before you touch the food.' 'Reheat it until it is steaming hot.'",
+    "examples": [
+      {
+        "sentence": "Wash your hands before you handle food, and again after you touch raw meat.",
+        "note": "'before' and 'after' + present tense order the steps clearly."
+      },
+      {
+        "sentence": "Heat the leftovers until they are steaming hot, and eat them straight away.",
+        "note": "'until' shows the point you must reach; note the present tense 'are' after 'until'."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Join with 'before': 'Wash the vegetables.' + 'You cook them.'",
+        "answer": "Wash the vegetables before you cook them."
+      },
+      {
+        "sentence": "Join with 'until': 'Reheat the soup.' + 'It is steaming hot.'",
+        "answer": "Reheat the soup until it is steaming hot."
+      },
+      {
+        "sentence": "Join with 'after': 'Refrigerate the leftovers.' + 'They have cooled.'",
+        "answer": "Refrigerate the leftovers after they have cooled."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "store",
+      "definition": "to keep food in a particular place and way so it stays safe and fresh",
+      "example_sentence": "Store raw meat on the bottom shelf of the fridge.",
+      "collocations": [
+        "store food",
+        "store it safely",
+        "how to store"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "reheat",
+      "definition": "to make already-cooked food hot again",
+      "example_sentence": "Reheat the rice until it is steaming, and only reheat it once.",
+      "collocations": [
+        "reheat leftovers",
+        "reheat thoroughly",
+        "safe to reheat"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "spoil",
+      "definition": "(of food) to become bad and no longer safe or pleasant to eat",
+      "example_sentence": "Milk spoils quickly if it is left out of the fridge.",
+      "collocations": [
+        "food spoils",
+        "spoil quickly",
+        "spoiled food"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "chilled",
+      "definition": "kept cold, but not frozen",
+      "example_sentence": "Chilled food should be kept below about four degrees.",
+      "collocations": [
+        "keep it chilled",
+        "chilled food",
+        "serve chilled"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "monologue",
+    "context": "A friend has just moved into their first apartment and does not know much about storing food safely. You are giving them simple advice.",
+    "prompt": "Explain the most important food safety habits: keeping food cold, cooking and reheating properly, keeping things clean, and understanding date labels. Use time clauses (before, after, until, when) at least three times. Speak for about ninety seconds.",
+    "useful_language": [
+      "Keep meat and dairy in the fridge, below about four degrees.",
+      "Always wash your hands before you handle food.",
+      "Reheat leftovers until they're steaming hot, and only once.",
+      "'Use by' is about safety, but 'best before' is about quality.",
+      "When in doubt, throw it out."
+    ],
+    "model_answer": "Okay, here are the basics. First, keep cold food cold — meat, milk, and leftovers should go in the fridge, which should be below about four degrees. Don't leave food that should be chilled sitting out for more than two hours. Always wash your hands before you handle food, and again after you touch raw meat, because that's how bacteria spread. When you cook, make sure meat is hot all the way through, and when you reheat leftovers, heat them until they're steaming — and only reheat them once. Also, learn the date labels: 'use by' is about safety, so never eat food after that date, but 'best before' is just about quality. And honestly, when in doubt, throw it out — being ill is worse than wasting a little food."
+  },
+  "writing_workshop": {
+    "task": "Write a short set of clear instructions for storing and reheating leftovers safely, for a note in a shared kitchen. Use time clauses and imperatives. Include at least five steps.",
+    "word_count": "110-150",
+    "model_text": "STORING AND REHEATING LEFTOVERS — PLEASE FOLLOW\n\nAfter a meal, let the leftovers cool, but refrigerate them within two hours — don't leave them out overnight. Put the food in a covered container and, when you store it, label it with the date. Store raw meat on the bottom shelf so it can't drip onto other food. Eat leftovers within two or three days, or freeze them if you won't use them soon. Before you reheat food, check the date on the label. When you reheat, heat it until it is steaming hot all the way through, not just warm, and only reheat it once. If food smells strange, or you're not sure how old it is, throw it out — it's not worth the risk. Thank you for keeping our kitchen safe!",
+    "model_analysis": "The instructions use time clauses ('After a meal', 'when you store it', 'Before you reheat', 'until it is steaming hot') to order the steps, and imperatives to make each one clear and direct. The final 'when in doubt' rule and the friendly closing make the note practical and easy to follow.",
+    "success_criteria": [
+      "Give at least five clear steps in a sensible order",
+      "Use time clauses (before, after, when, until) correctly",
+      "Include the two-hour and reheat-once safety rules",
+      "Use imperatives to make instructions direct"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Why should chilled food not be left at room temperature for more than about two hours?",
+      "options": [
+        "It loses its colour",
+        "Bacteria grow fastest when food is warm",
+        "It becomes frozen",
+        "It costs more"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains 'bacteria grow fastest when food is warm,' so chilled food left out too long becomes unsafe."
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about reheating leftovers?",
+      "options": [
+        "Reheat them as many times as you like",
+        "Heat them until steaming hot, and reheat only once",
+        "Reheat them until just warm",
+        "Never reheat any food"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises to 'heat them until they are steaming hot, not just warm. Reheat food only once.'"
+    },
+    {
+      "id": 3,
+      "question": "What is 'cross-contamination'?",
+      "options": [
+        "Keeping food too cold",
+        "The spreading of bacteria from one food to another",
+        "Cooking food twice",
+        "Buying food out of season"
+      ],
+      "correct": 1,
+      "explanation": "Cross-contamination is 'the spreading of bacteria from one food to another,' often from raw meat to ready-to-eat food."
+    },
+    {
+      "id": 4,
+      "question": "What does a 'use by' date tell you?",
+      "options": [
+        "The food will taste best until this date",
+        "The food should not be eaten after this date for safety",
+        "The price of the food",
+        "When the food was made"
+      ],
+      "correct": 1,
+      "explanation": "'Use by' is about safety: 'do not eat the food after this date, even if it looks and smells fine, because it may be unsafe.'"
+    },
+    {
+      "id": 5,
+      "question": "Where should raw meat be stored in the refrigerator?",
+      "options": [
+        "On the top shelf",
+        "On the bottom shelf, so it can't drip onto other food",
+        "In the door",
+        "Next to the vegetables"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises storing raw meat 'on the bottom shelf of the refrigerator, so it cannot drip onto other food.'"
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct time clause: 'Wash your hands ___ you handle food.'",
+      "options": [
+        "until",
+        "before",
+        "since",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "'Before you handle food' correctly orders the actions — washing comes first."
+    },
+    {
+      "id": 7,
+      "question": "Complete: 'Reheat the soup ___ it is steaming hot.'",
+      "options": [
+        "before",
+        "after",
+        "until",
+        "since"
+      ],
+      "correct": 2,
+      "explanation": "'Until it is steaming hot' shows the point you must reach when reheating."
+    },
+    {
+      "id": 8,
+      "question": "What is the meaning of the advice 'when in doubt, throw it out'?",
+      "options": [
+        "Always keep food, whatever its condition",
+        "If you are unsure whether food is safe, it is better to throw it away",
+        "Throw away all food weekly",
+        "Only throw out frozen food"
+      ],
+      "correct": 1,
+      "explanation": "It means that if you are not sure food is safe, the small cost of wasting it is far less than the risk of becoming ill."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Roommate 1: Is this chicken still okay? It was in the fridge. Roommate 2: Let me see the label. What's the date? Roommate 1: It says 'use by' yesterday. But it looks fine and it doesn't smell bad. Roommate 2: I wouldn't risk it. 'Use by' is about safety, not quality. Some bacteria you can't see or smell, so even if it looks fine, it could make you ill. Roommate 1: Really? I always thought if it smelled okay it was fine. Roommate 2: That works for 'best before' dates, which are about taste. But 'use by' is different — once that date passes, especially with meat, it's not worth the risk. Roommate 1: Okay, I'll throw it out. Better safe than sorry. Roommate 2: Exactly. Next time, if we're not going to eat the chicken in time, we can freeze it before the use-by date. Roommate 1: Good idea. I'll do that from now on.",
+      "question": "Why does Roommate 2 say the chicken should be thrown out?",
+      "options": [
+        "It smells bad",
+        "It is past its 'use by' date, which is about safety",
+        "It is the wrong colour",
+        "It was never cooked"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Cook: Can you help me get dinner ready safely? I always worry about the chicken. Helper: Sure. First, wash your hands before you touch anything. Now, use this red board for the raw chicken and the green one for the vegetables — never the same board. Cook: Why two boards? Helper: To avoid cross-contamination. Bacteria from raw chicken can pass to the vegetables, and the vegetables in the salad won't be cooked, so the bacteria wouldn't be killed. Cook: I see. What about cooking it? Helper: Cook the chicken until it's hot all the way through and there's no pink inside. And after you touch the raw chicken, wash your hands again before you touch anything else. Cook: Got it. Wash before, separate boards, cook it through, wash after. Helper: Perfect. Do those four things and you'll be fine.",
+      "question": "Why does the helper insist on using two different chopping boards?",
+      "options": [
+        "To make the kitchen look tidy",
+        "To avoid cross-contamination between raw chicken and vegetables",
+        "Because one board is broken",
+        "To cook the food faster"
+      ],
+      "correct": 1
+    }
+  ]
+}

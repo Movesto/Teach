@@ -1,0 +1,283 @@
+{
+  "id": "lesson-112",
+  "unit_id": 6,
+  "lesson_number": 8,
+  "title": "Home Repairs and Reporting Problems",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Describe common household problems clearly, in person, by phone, or in writing",
+    "Understand what a landlord must repair and how to make a repair request",
+    "Ask about timing and follow up politely when a repair is delayed",
+    "Use the present perfect and 'since/for' to describe how long a problem has lasted"
+  ],
+  "reading_passage": {
+    "title": "When Something Breaks: Getting Repairs Done",
+    "text": "In any home, things break: a tap drips, the heating stops, a lock sticks, or the ceiling shows a damp patch. When you rent, the important first question is who is responsible for the repair — you or the landlord. Knowing the answer, and reporting the problem the right way, is the key to getting it fixed quickly.\n\nIn most rented homes, the landlord is responsible for keeping the property in a safe and working condition. This usually includes the heating, hot water, plumbing, electrics, and the structure of the building itself. Tenants are generally responsible for small everyday things, such as replacing a light bulb, and for any damage they cause themselves. If you are unsure, the lease will often say, and it is always reasonable to ask.\n\nHow you report a problem matters. A clear report gets a faster response than a vague one. Describe exactly what is wrong, where it is, and how long it has been happening: 'The kitchen tap has been dripping since Monday, and now the water won't turn off completely.' If the problem is urgent — no heating in winter, a serious leak, or anything dangerous — say so clearly and ask for an emergency repair. For less urgent issues, a written request, by email or text, is useful because it creates a record of when you reported it.\n\nAfter you report a problem, ask when it will be fixed, and keep a note of the date and what was agreed. Most repairs are done within a reasonable time, but delays happen. If a landlord does not respond, a polite follow-up is the right next step: 'I reported the broken heater last Tuesday and haven't heard back. Could you let me know when someone can come?' Keeping your messages calm and factual is far more effective than anger, and it also protects you, because you have a clear record of trying to resolve the problem properly.\n\nIf a serious repair is ignored for a long time, tenants often have further rights, which vary by state. In some places you can report the landlord to a local housing authority, or arrange the repair yourself and deduct the cost from the rent — but only by following specific legal steps. Before taking any such action, it is wise to get advice from a tenants' rights organisation, many of which help for free. For most problems, though, a clear report and a calm follow-up are all that is needed to turn a broken tap back into a working one.",
+    "source": "Adapted for learners — repairs and tenants' responsibilities",
+    "glossary": [
+      {
+        "word": "leak",
+        "meaning": "an unwanted escape of water or gas through a hole or crack"
+      },
+      {
+        "word": "tenant",
+        "meaning": "a person who rents and lives in a property"
+      },
+      {
+        "word": "urgent",
+        "meaning": "needing immediate attention or action"
+      },
+      {
+        "word": "deduct",
+        "meaning": "to take an amount away from a total, such as taking a repair cost from the rent"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what is the landlord usually responsible for repairing?",
+      "answer": "Keeping the property safe and in working condition — usually the heating, hot water, plumbing, electrics, and the structure of the building itself. Tenants are generally responsible for small everyday things and for damage they cause themselves."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage recommend reporting less urgent problems in writing?",
+      "answer": "Because a written request, by email or text, 'creates a record of when you reported it.' This record is useful if there is a delay or dispute, as it shows exactly when the tenant raised the problem."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What does 'deduct' mean, and in what situation does the passage mention it?",
+      "answer": "'Deduct' means to take an amount away from a total. The passage mentions that in some states a tenant may 'arrange the repair yourself and deduct the cost from the rent' — but only by following specific legal steps."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say keeping messages 'calm and factual' protects the tenant?",
+      "answer": "Because calm, factual messages create a clear record of the tenant trying to resolve the problem properly, which is useful evidence if the issue escalates. It is also more effective than anger at getting a landlord to act."
+    }
+  ],
+  "language_focus": {
+    "title": "Present Perfect with 'since' and 'for'",
+    "explanation": "To say how long a problem has been happening, use the present perfect (has/have + past participle), often continuous, with 'since' or 'for'. Use 'since' for a starting point ('since Monday', 'since I moved in') and 'for' for a length of time ('for three days', 'for a week'). This tense shows the problem started in the past and is still continuing now.",
+    "examples": [
+      {
+        "sentence": "The heating hasn't worked since Tuesday.",
+        "note": "'since Tuesday' gives the starting point; the present perfect shows the problem continues now."
+      },
+      {
+        "sentence": "The tap has been dripping for three days.",
+        "note": "'for three days' gives the length of time; the present perfect continuous emphasises the ongoing action."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete with 'since' or 'for': 'The lock has been broken ___ last week.'",
+        "answer": "The lock has been broken since last week."
+      },
+      {
+        "sentence": "Complete with 'since' or 'for': 'We haven't had hot water ___ two days.'",
+        "answer": "We haven't had hot water for two days."
+      },
+      {
+        "sentence": "Make a present perfect sentence: heating / not work / Monday.",
+        "answer": "The heating hasn't worked since Monday."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "report",
+      "definition": "to tell someone officially about a problem",
+      "example_sentence": "I reported the leak to the building manager on Monday.",
+      "collocations": [
+        "report a problem",
+        "report it to",
+        "report a fault"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "repair",
+      "definition": "the act of fixing something that is broken; to fix something",
+      "example_sentence": "The landlord arranged a repair for the following day.",
+      "collocations": [
+        "arrange a repair",
+        "an urgent repair",
+        "carry out a repair",
+        "repair request"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "follow up",
+      "definition": "to check again on something you have already reported",
+      "example_sentence": "I had to follow up twice before anyone came.",
+      "collocations": [
+        "follow up on",
+        "a follow-up message",
+        "follow up with"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "faulty",
+      "definition": "not working correctly; broken",
+      "example_sentence": "The faulty wiring was dangerous and needed urgent attention.",
+      "collocations": [
+        "a faulty appliance",
+        "faulty wiring",
+        "report a fault"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "The heating in your apartment stopped working three days ago in cold weather. You are calling your building manager to report it and ask for an urgent repair.",
+    "prompt": "Report the problem clearly: say what is wrong, how long it has been happening, and why it is urgent. Ask when someone can come and confirm what was agreed. Use the present perfect with 'since' or 'for'. Speak for about ninety seconds.",
+    "useful_language": [
+      "I'm calling to report a problem with the heating.",
+      "It hasn't worked since Wednesday — that's three days now.",
+      "It's very cold, so this is quite urgent.",
+      "Could someone come to fix it today or tomorrow?",
+      "So an engineer will come tomorrow morning — is that right?"
+    ],
+    "model_answer": "Hello, I'm calling to report a problem with the heating in apartment 3B. It hasn't worked since Wednesday, so that's three days now, and it's very cold this week. There are young children in the apartment, so I'm afraid it's quite urgent. Could someone come to fix it today or tomorrow? ... Tomorrow morning between nine and eleven — okay, I can be home for that. So, just to confirm, an engineer will come tomorrow morning to look at the heating. Thank you very much. If anything changes, could you please let me know?"
+  },
+  "writing_workshop": {
+    "task": "Write a short, clear email to your landlord reporting a repair that is needed in your home. Describe the problem, say how long it has been happening, and ask when it can be fixed.",
+    "word_count": "110-150",
+    "model_text": "Dear Mr Thompson, I am writing to report a problem in my apartment at 58 Maple Street, 3B. There is a leak under the kitchen sink, which has been getting worse for about four days. Water is now collecting in the cupboard, and I am worried it may damage the floor if it is not fixed soon. I have put a bucket underneath for now, but it needs a proper repair. Could you please arrange for someone to come and look at it this week? I am usually home in the mornings, and I am happy to arrange a convenient time. Thank you for your help. Kind regards, Hodan Ali.",
+    "model_analysis": "The email describes the problem precisely (a leak, where, how long, getting worse), explains why it matters (possible floor damage), shows the tenant has taken reasonable temporary action (a bucket), and asks clearly for a repair with a time. Calm, specific, and dated — exactly what makes a repair request effective.",
+    "success_criteria": [
+      "Describe the problem clearly and say where it is",
+      "Say how long it has been happening (using 'since' or 'for')",
+      "Explain why it needs attention",
+      "Ask clearly when it can be fixed"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "In most rented homes, who is responsible for repairing the heating and plumbing?",
+      "options": [
+        "The tenant",
+        "The landlord",
+        "The neighbour",
+        "The postal service"
+      ],
+      "correct": 1,
+      "explanation": "The passage says the landlord is usually responsible for keeping the property safe and working, including 'the heating, hot water, plumbing, electrics, and the structure of the building.'"
+    },
+    {
+      "id": 2,
+      "question": "What are tenants generally responsible for?",
+      "options": [
+        "Repairing the roof",
+        "Replacing the boiler",
+        "Small everyday things and damage they cause themselves",
+        "Rewiring the building"
+      ],
+      "correct": 2,
+      "explanation": "The passage states tenants are 'generally responsible for small everyday things, such as replacing a light bulb, and for any damage they cause themselves.'"
+    },
+    {
+      "id": 3,
+      "question": "Why is a written repair request useful?",
+      "options": [
+        "It is required by law everywhere",
+        "It creates a record of when you reported the problem",
+        "It costs less than a phone call",
+        "It guarantees same-day repair"
+      ],
+      "correct": 1,
+      "explanation": "The passage says a written request 'is useful because it creates a record of when you reported it.'"
+    },
+    {
+      "id": 4,
+      "question": "What does the passage recommend if a landlord does not respond?",
+      "options": [
+        "Stop paying rent immediately",
+        "Send a polite, factual follow-up message",
+        "Change the locks",
+        "Move out that day"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises 'a polite follow-up is the right next step' and that calm, factual messages are more effective than anger."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence correctly uses the present perfect with 'since'?",
+      "options": [
+        "The heating doesn't work since Tuesday",
+        "The heating hasn't worked since Tuesday",
+        "The heating isn't working for Tuesday",
+        "The heating didn't work since Tuesday"
+      ],
+      "correct": 1,
+      "explanation": "'The heating hasn't worked since Tuesday' correctly uses the present perfect with 'since' to show a problem that began in the past and continues now."
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct word: 'We haven't had hot water ___ two days.'",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "during"
+      ],
+      "correct": 1,
+      "explanation": "'For' is used with a length of time ('for two days'); 'since' is used with a starting point ('since Monday')."
+    },
+    {
+      "id": 7,
+      "question": "What does 'follow up' mean?",
+      "options": [
+        "To report a new problem",
+        "To check again on something you already reported",
+        "To pay the rent",
+        "To move out"
+      ],
+      "correct": 1,
+      "explanation": "'Follow up' means to check again on something you have already reported, such as a repair that has not yet been done."
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, what should you do before deducting a repair cost from your rent?",
+      "options": [
+        "Nothing — you can do it anytime",
+        "Get advice from a tenants' rights organisation and follow the legal steps",
+        "Ask a neighbour",
+        "Pay double rent first"
+      ],
+      "correct": 1,
+      "explanation": "The passage warns this is only allowed 'by following specific legal steps' and advises getting advice from a tenants' rights organisation first."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Manager: Building management, good morning. Tenant: Hi, I'm calling from apartment 3B to report a problem. The bathroom ceiling has a damp patch that's been getting bigger for about a week, and now there's water dripping. Manager: That sounds like it could be a leak from the apartment above. How bad is the dripping? Tenant: It's slow, but steady. I've put a towel down, but I'm worried about the ceiling. Manager: You did the right thing calling. I'll contact the tenant upstairs and send a plumber to check both apartments. Can someone be home tomorrow afternoon? Tenant: Yes, I'll be here after two. Manager: Good. I'll book the plumber for two-thirty and let you know if anything changes. In the meantime, if the dripping gets much worse, call me straight away. Tenant: I will. Thank you for dealing with it so quickly.",
+      "question": "What does the manager think is causing the damp patch?",
+      "options": [
+        "The tenant left a window open",
+        "A leak from the apartment above",
+        "The heating is broken",
+        "Old paint"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Tenant: Hello, I'm calling to follow up on a repair. I reported that my oven wasn't working last Tuesday, and I still haven't heard back. Landlord: I'm sorry about that — let me check. ... Yes, I see your message. I meant to arrange it and it slipped through. That's my mistake. Tenant: I understand things get busy, but it's been over a week now, and cooking has been difficult. Could you let me know when someone can come? Landlord: Absolutely. I'll call the repair company today and get the earliest appointment. I'll text you the time by this afternoon. Tenant: Thank you. I'd appreciate that. Landlord: And I'm sorry for the delay — you were right to follow up. Tenant: No problem. I'll wait for your text, then.",
+      "question": "Why is the tenant calling the landlord?",
+      "options": [
+        "To report a brand-new problem",
+        "To follow up on a repair reported a week ago that had no response",
+        "To pay the rent",
+        "To give notice to move out"
+      ],
+      "correct": 1
+    }
+  ]
+}

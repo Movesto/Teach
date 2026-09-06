@@ -1,0 +1,282 @@
+{
+  "id": "lesson-114",
+  "unit_id": 6,
+  "lesson_number": 10,
+  "title": "Renters' Rights and Responsibilities",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand the basic rights and responsibilities of renting a home in the United States",
+    "Recognise key terms in a lease and what a security deposit protects",
+    "Know how to give notice and get a deposit back correctly",
+    "Use conditional sentences (if... will/can) to talk about rules and consequences"
+  ],
+  "reading_passage": {
+    "title": "Knowing Your Rights as a Renter",
+    "text": "Renting a home is an agreement with two sides. The landlord provides a safe, working home; the tenant pays the rent and looks after the property. Both sides have rights, and both have responsibilities. Understanding them protects you from unfair treatment and helps you avoid losing money you are entitled to keep.\n\nThe most important document is the lease, the written agreement you sign. It sets out the rent, how long the agreement lasts, and the rules of the tenancy — whether pets are allowed, how much notice each side must give, and what happens if the rent is late. You should read the lease carefully before signing and keep a copy, because it is the record you can point to if a disagreement arises. If a term seems unfair or unclear, it is reasonable to ask about it, and sometimes to negotiate, before you sign.\n\nTenants have important legal rights, although the details vary from state to state. In general, you have the right to a home that is safe and fit to live in, with working heating, water, and locks. You have the right to privacy: a landlord usually cannot enter without giving notice, except in a real emergency. And you are protected against unfair eviction — a landlord cannot simply force you out without following a legal process. If you believe your rights are being ignored, a local tenants' rights organisation can advise you, often for free.\n\nThe security deposit is where many disputes happen. This is money you pay at the start, which the landlord holds to cover any damage or unpaid rent. If you leave the home clean and undamaged, you should get it back. To protect yourself, take dated photographs when you move in and again when you move out, so you can show the condition of the home. Normal wear and tear — small marks from ordinary living — is not damage, and a landlord cannot keep your deposit for it. If a deposit is kept unfairly, you can challenge it, and in many states the landlord must give you an itemised list of any deductions.\n\nWhen you decide to leave, follow the correct steps. Give notice in writing, and give the amount of notice your lease requires — often thirty days. Leave the home clean, return the keys, and give the landlord your new address so your deposit can be returned. Doing these things properly means you leave on good terms, get your money back, and can rely on a good reference for your next home. Renting works best when both sides understand the deal and keep their part of it.",
+    "source": "Adapted for learners — tenants' rights in the United States",
+    "glossary": [
+      {
+        "word": "lease",
+        "meaning": "the written agreement between a landlord and a tenant that sets out the terms of renting"
+      },
+      {
+        "word": "eviction",
+        "meaning": "the legal process of forcing a tenant to leave a property"
+      },
+      {
+        "word": "security deposit",
+        "meaning": "money paid at the start of a tenancy, held to cover damage or unpaid rent"
+      },
+      {
+        "word": "wear and tear",
+        "meaning": "the normal, expected damage that happens to a home through ordinary use"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what does the lease set out?",
+      "answer": "The rent, how long the agreement lasts, and the rules of the tenancy — such as whether pets are allowed, how much notice each side must give, and what happens if the rent is late."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage advise taking dated photographs when you move in and out?",
+      "answer": "So you can show the condition of the home at both points and prove it was left clean and undamaged. This protects your security deposit by giving evidence if the landlord tries to keep it for damage you did not cause."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is 'wear and tear', and why does it matter for a deposit?",
+      "answer": "Wear and tear is the normal, expected damage that happens through ordinary use — small marks from everyday living. It matters because it is not counted as damage, so a landlord cannot legally keep your deposit for it."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say renting 'works best when both sides understand the deal and keep their part of it'?",
+      "answer": "Because renting is a two-sided agreement in which the landlord must provide a safe home and the tenant must pay rent and care for the property. When both understand and meet their responsibilities, disputes are avoided and each side gets what they are entitled to."
+    }
+  ],
+  "language_focus": {
+    "title": "Conditional Sentences for Rules and Consequences (if... will / can)",
+    "explanation": "To talk about rules and their results, use the first conditional: 'if' + present simple, then 'will' or 'can' for the result. This describes a real, likely situation and its consequence: 'If you pay the rent late, the landlord will charge a fee.' 'If you leave the home clean, you can get your deposit back.'",
+    "examples": [
+      {
+        "sentence": "If you give thirty days' notice, you will leave on good terms.",
+        "note": "'if' + present ('give') / 'will' + verb ('will leave') describes a real situation and its likely result."
+      },
+      {
+        "sentence": "If the home is damaged, the landlord can keep part of the deposit.",
+        "note": "'can' expresses what is allowed as a consequence of the condition."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete: 'If you don't pay the rent, the landlord ___ (charge) a late fee.'",
+        "answer": "If you don't pay the rent, the landlord will charge a late fee."
+      },
+      {
+        "sentence": "Complete: 'If you leave the apartment clean, you ___ (get) your deposit back.'",
+        "answer": "If you leave the apartment clean, you will get your deposit back."
+      },
+      {
+        "sentence": "Make a first conditional: give notice in writing / leave on good terms.",
+        "answer": "If you give notice in writing, you will leave on good terms."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "notice",
+      "definition": "a formal warning that you are going to leave, given a set time in advance",
+      "example_sentence": "You must give thirty days' notice before you move out.",
+      "collocations": [
+        "give notice",
+        "thirty days' notice",
+        "notice period"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "deduction",
+      "definition": "an amount taken away from a total, such as from a deposit",
+      "example_sentence": "The landlord must provide an itemised list of any deductions.",
+      "collocations": [
+        "make a deduction",
+        "an itemised deduction",
+        "challenge a deduction"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "tenancy",
+      "definition": "the period during which you rent and live in a property, and the arrangement itself",
+      "example_sentence": "The rules of the tenancy are written in the lease.",
+      "collocations": [
+        "end a tenancy",
+        "the terms of the tenancy",
+        "a joint tenancy"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "reference",
+      "definition": "a statement from a former landlord about you as a tenant",
+      "example_sentence": "A good reference makes it easier to rent your next home.",
+      "collocations": [
+        "a good reference",
+        "provide a reference",
+        "ask for a reference"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are moving out of your apartment. You call your landlord to give notice and to ask what you need to do to get your full security deposit back.",
+    "prompt": "Give notice that you are leaving, confirm how much notice is required, and ask what you must do to get your deposit back. Use first conditional sentences (if... will/can). Speak for about ninety seconds.",
+    "useful_language": [
+      "I'm calling to give notice that I'll be moving out.",
+      "My lease says thirty days' notice — is that right?",
+      "If I leave the apartment clean, will I get my full deposit back?",
+      "Could you send me an itemised list if there are any deductions?",
+      "I'll give you my new address so you can return the deposit."
+    ],
+    "model_answer": "Hello, I'm calling to give notice that I'll be moving out of apartment 3B. My lease says I need to give thirty days' notice, so I'm giving notice today, and I plan to leave at the end of next month. I'll put it in writing as well and email it to you. Could I check a couple of things about the deposit? If I leave the apartment clean and undamaged, will I get the full amount back? ... Good. And if there are any deductions, could you please send me an itemised list? ... Thank you. I'll return the keys on my last day and give you my new address so you can send the deposit. Thanks very much for your help over the past year."
+  },
+  "writing_workshop": {
+    "task": "Write a short, formal letter or email to your landlord giving notice that you will move out. State the date you will leave, confirm you are giving the required notice, and ask about the return of your security deposit.",
+    "word_count": "120-160",
+    "model_text": "Dear Mr Thompson, I am writing to give formal notice that I will be moving out of apartment 3B at 58 Maple Street. As my lease requires thirty days' notice, and today is the first of the month, my last day will be the thirtieth. I have enjoyed living here, and I will make sure the apartment is left clean and in good condition. Could you please let me know if you would like to arrange a final inspection before I go? I would also be grateful if you could confirm the process for returning my security deposit. If any deductions are necessary, I would appreciate an itemised list. My new address will be 21 Oak Avenue, and I will return the keys on my last day. Thank you for a good year. Kind regards, Hodan Ali.",
+    "model_analysis": "The letter gives notice formally and clearly, states the exact leaving date and that it meets the required notice, and politely raises the deposit and inspection. Offering to leave the home clean and asking for an itemised list shows the tenant knows their rights while keeping a friendly, cooperative tone.",
+    "success_criteria": [
+      "Give formal notice with a clear leaving date",
+      "Confirm the notice meets the lease requirement",
+      "Ask about the return of the deposit and any deductions",
+      "Keep a polite, formal tone and give your new address"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the most important document in a tenancy, according to the passage?",
+      "options": [
+        "The utility bill",
+        "The lease",
+        "The security deposit receipt",
+        "The reference letter"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'The most important document is the lease, the written agreement you sign,' which sets out the rent, length, and rules."
+    },
+    {
+      "id": 2,
+      "question": "What is a security deposit for?",
+      "options": [
+        "To pay the first month's rent",
+        "To cover any damage or unpaid rent",
+        "To pay the landlord's taxes",
+        "To buy furniture"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains the deposit is 'money you pay at the start, which the landlord holds to cover any damage or unpaid rent.'"
+    },
+    {
+      "id": 3,
+      "question": "Can a landlord keep your deposit for normal 'wear and tear'?",
+      "options": [
+        "Yes, always",
+        "No — normal wear and tear is not damage",
+        "Only in winter",
+        "Only if you have pets"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'Normal wear and tear... is not damage, and a landlord cannot keep your deposit for it.'"
+    },
+    {
+      "id": 4,
+      "question": "According to the passage, what right protects tenants from being forced out?",
+      "options": [
+        "The right to free rent",
+        "Protection against unfair eviction",
+        "The right to a new lease",
+        "The right to a bigger home"
+      ],
+      "correct": 1,
+      "explanation": "The passage says tenants 'are protected against unfair eviction — a landlord cannot simply force you out without following a legal process.'"
+    },
+    {
+      "id": 5,
+      "question": "Complete the first conditional: 'If you leave the home clean, you ___ your deposit back.'",
+      "options": [
+        "got",
+        "will get",
+        "getting",
+        "would got"
+      ],
+      "correct": 1,
+      "explanation": "The first conditional uses 'if' + present simple with 'will' + verb: 'If you leave the home clean, you will get your deposit back.'"
+    },
+    {
+      "id": 6,
+      "question": "How should you give notice that you are leaving?",
+      "options": [
+        "By simply moving out",
+        "In writing, giving the amount of notice the lease requires",
+        "By telling a neighbour",
+        "By stopping rent payments"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises to 'Give notice in writing, and give the amount of notice your lease requires — often thirty days.'"
+    },
+    {
+      "id": 7,
+      "question": "What must a landlord in many states provide if they keep part of a deposit?",
+      "options": [
+        "A new apartment",
+        "An itemised list of any deductions",
+        "A month of free rent",
+        "A reference letter"
+      ],
+      "correct": 1,
+      "explanation": "The passage notes that 'in many states the landlord must give you an itemised list of any deductions.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'notice' mean in the context of moving out?",
+      "options": [
+        "A sign on the wall",
+        "A formal warning that you are going to leave, given in advance",
+        "A repair request",
+        "A rent increase"
+      ],
+      "correct": 1,
+      "explanation": "'Notice' here means a formal warning that you are going to leave, given a set time (often thirty days) in advance."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Tenant: Hi, before I sign the lease, I have a couple of questions. Landlord: Of course, go ahead. Tenant: It says here the security deposit is one month's rent. When would I get that back? Landlord: You get it back within thirty days of moving out, as long as the apartment is clean and there's no damage beyond normal wear and tear. Tenant: And if there is some damage? Landlord: Then I'd deduct the repair cost and send you an itemised list showing exactly what was taken and why. Tenant: That sounds fair. One more thing — the lease says no pets. I don't have any, but if I got a cat later, what would happen? Landlord: You'd need to ask me first and sign an addendum. If you kept a pet without permission, it would break the lease. Tenant: Understood. Thank you for explaining. I'm happy to sign.",
+      "question": "What will the landlord do if there is damage beyond normal wear and tear?",
+      "options": [
+        "Keep the whole deposit with no explanation",
+        "Deduct the repair cost and send an itemised list",
+        "Charge double rent",
+        "Refuse to return the keys"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Adviser: Tenants' rights helpline, how can I help? Caller: Hi. I moved out of my apartment a month ago, and my landlord still hasn't returned my deposit or explained why. Adviser: I see. In this state, a landlord has thirty days to return the deposit or provide an itemised list of deductions. Has it been more than thirty days? Caller: Yes, thirty-four days now, and I've heard nothing. Adviser: Then the landlord may be breaking the rules. First, send a polite written request, by email, asking for the deposit or the itemised list, and keep a copy. If they still don't respond, you may be able to take further action, and in some cases the law allows you to claim extra. Do you have photos of the apartment when you left? Caller: Yes, I took dated photos on my last day. Adviser: That's excellent — that's exactly the evidence you need. Send the written request first, and call us back if there's no reply within a week.",
+      "question": "What does the adviser tell the caller to do first?",
+      "options": [
+        "Take the landlord to court immediately",
+        "Send a polite written request for the deposit or itemised list, and keep a copy",
+        "Move back into the apartment",
+        "Stop paying at the new address"
+      ],
+      "correct": 1
+    }
+  ]
+}

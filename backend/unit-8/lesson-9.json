@@ -1,0 +1,282 @@
+{
+  "id": "lesson-121",
+  "unit_id": 8,
+  "lesson_number": 9,
+  "title": "Avoiding Online Scams and Fraud",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Recognise common online and phone scams that target people, including newcomers",
+    "Learn the warning signs of a scam and how to protect your money and information",
+    "Know what to do if you are targeted or have already been tricked",
+    "Use warning and advice language (if..., make sure, be careful not to)"
+  ],
+  "reading_passage": {
+    "title": "Spotting a Scam Before It's Too Late",
+    "text": "Scams — dishonest schemes designed to trick people out of money or personal information — are common, and they can target anyone. Newcomers to a country can be especially at risk, because they may be unsure of how official systems really work. The best protection is knowledge: once you understand how scams operate, they become much easier to spot and avoid.\n\nMost scams share a small number of warning signs, and learning these is more useful than memorising every trick. First, scammers create a sense of urgency: they say you must act right now, or something terrible will happen — you will be arrested, deported, or lose your money. This pressure is designed to stop you thinking clearly. Second, they ask for money or personal information in unusual ways: by gift card, wire transfer, or cryptocurrency, or they ask for your bank details, passwords, or Social Security number. Third, the contact is often unexpected, and the story does not quite make sense when you look closely. If any of these signs appear, be very careful.\n\nSome scams are worth knowing by name because they are so common. In the government imposter scam, someone calls pretending to be from the tax office, immigration, or the police, and demands immediate payment to avoid arrest or deportation. Remember: real government agencies do not call and demand payment by gift card, and they do not threaten immediate arrest over the phone. In the prize scam, you are told you have won a lottery or prize, but must pay a fee to receive it — a real prize never requires a payment. In phishing, a fake email or text pretends to be from your bank or a company and asks you to click a link and enter your details. Always go to a company's website directly instead of clicking links in unexpected messages.\n\nProtecting yourself comes down to a few firm habits. Never send money or give personal information to someone who contacted you unexpectedly, no matter how urgent or official they sound. Do not click links in unexpected emails or texts. If someone claims to be from an organisation, hang up and call the organisation back using a number you find yourself, not one they give you. And be especially careful with anyone who asks to be paid in gift cards or wire transfers — these are favourite methods of scammers precisely because they are almost impossible to trace or recover.\n\nIf you are targeted, or realise you have been tricked, do not be ashamed — scams fool millions of sensible people every year. Act quickly. Contact your bank if you have sent money or shared account details; sometimes a payment can still be stopped. Change any passwords that may have been exposed. Report the scam to the authorities, such as the Federal Trade Commission, which tracks scams and can advise you. And warn friends and family, because scammers often target the same communities. Knowledge, shared, is the strongest protection of all.",
+    "source": "Adapted for learners — recognising and avoiding scams",
+    "glossary": [
+      {
+        "word": "scam",
+        "meaning": "a dishonest scheme designed to trick people out of money or information"
+      },
+      {
+        "word": "urgency",
+        "meaning": "a feeling that something must be done immediately"
+      },
+      {
+        "word": "phishing",
+        "meaning": "a scam using fake emails or texts to trick you into giving personal details"
+      },
+      {
+        "word": "imposter",
+        "meaning": "a person who pretends to be someone else in order to deceive"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what are the three common warning signs of a scam?",
+      "answer": "First, a sense of urgency — you must act right now or something terrible will happen. Second, a request for money or personal information in unusual ways (gift card, wire transfer, cryptocurrency, or asking for bank details, passwords, or Social Security number). Third, unexpected contact with a story that does not quite make sense on closer inspection."
+    },
+    {
+      "type": "inference",
+      "question": "Why do scammers create a sense of urgency, according to the passage?",
+      "answer": "Because the pressure 'is designed to stop you thinking clearly.' If a person feels they must act immediately to avoid disaster, they are less likely to pause, question the story, or check with someone — which is exactly what would reveal the scam."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is 'phishing', and how does the passage say you should protect against it?",
+      "answer": "Phishing is a scam using a fake email or text that pretends to be from your bank or a company and asks you to click a link and enter your details. To protect yourself, the passage advises always going to a company's website directly instead of clicking links in unexpected messages."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say to call an organisation back using a number you find yourself?",
+      "answer": "Because a scammer pretending to be from an organisation will give you a fake number that connects back to them. Finding the real number independently (for example, on the organisation's official website) ensures you reach the genuine organisation, not the scammer."
+    }
+  ],
+  "language_focus": {
+    "title": "Giving Warnings and Advice: if..., make sure, be careful not to",
+    "explanation": "To warn and advise, English uses several forms. 'If...' + advice describes a situation and what to do: 'If someone demands a gift card, hang up.' 'Make sure (that)...' gives strong advice to do something important: 'Make sure you call the real number.' 'Be careful not to...' warns against a specific action: 'Be careful not to click the link.' 'Never...' gives the strongest warning.",
+    "examples": [
+      {
+        "sentence": "If someone asks you to pay with a gift card, be careful — it's almost always a scam.",
+        "note": "'If...' sets up the situation; 'be careful' warns; the reason follows."
+      },
+      {
+        "sentence": "Make sure you never share your password, and be careful not to click links in unexpected texts.",
+        "note": "'Make sure you never...' is a strong instruction; 'be careful not to...' warns against a specific action."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Give a warning with 'be careful not to': clicking links in strange emails.",
+        "answer": "Be careful not to click links in strange emails."
+      },
+      {
+        "sentence": "Give advice with 'if': someone claims to be from the bank and asks for your password.",
+        "answer": "If someone claims to be from the bank and asks for your password, hang up and call the bank yourself."
+      },
+      {
+        "sentence": "Give strong advice with 'make sure': using a number you find yourself.",
+        "answer": "Make sure you call back using a number you find yourself."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "fraud",
+      "definition": "the crime of tricking people to get money or an advantage dishonestly",
+      "example_sentence": "Report the fraud to your bank as soon as you notice it.",
+      "collocations": [
+        "commit fraud",
+        "a victim of fraud",
+        "report fraud"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "suspicious",
+      "definition": "making you feel that something is wrong or dishonest",
+      "example_sentence": "Delete any suspicious email that asks for your details.",
+      "collocations": [
+        "look suspicious",
+        "a suspicious message",
+        "be suspicious of"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "verify",
+      "definition": "to check that something is true or genuine",
+      "example_sentence": "Always verify who is calling before you give any information.",
+      "collocations": [
+        "verify a claim",
+        "verify your identity",
+        "verify the source"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "trace",
+      "definition": "to find where something, such as money, has gone",
+      "example_sentence": "Money sent by gift card is almost impossible to trace.",
+      "collocations": [
+        "trace a payment",
+        "hard to trace",
+        "trace the source"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "A friend tells you they got a phone call from someone claiming to be from the tax office, saying they owe money and will be arrested today unless they pay with gift cards. Your friend is frightened.",
+    "prompt": "Reassure your friend and advise them what to do. Explain why this is a scam, and tell them what to do next. Use warning and advice language (if..., make sure, be careful not to, never). Speak for about ninety seconds.",
+    "useful_language": [
+      "Don't worry — this is a very common scam.",
+      "Real government offices never demand payment by gift card.",
+      "Make sure you don't send them any money.",
+      "If they call again, just hang up.",
+      "Be careful not to give them any personal information."
+    ],
+    "model_answer": "Okay, first, don't panic — this is a very common scam, and a lot of people get this exact call. The tax office would never phone and demand payment by gift card, and they would never threaten to arrest you today over the phone. That's how you know it's fake. So, make sure you don't send them any money, and be careful not to give them any personal information — not your bank details, not your Social Security number, nothing. If they call again, just hang up. If you want to be completely sure, we can look up the real tax office number together and call them ourselves to check. And it's a good idea to warn your family, because scammers often try the same trick on lots of people in the same community. You did the right thing telling me."
+  },
+  "writing_workshop": {
+    "task": "Write a short warning message for a community group chat, alerting people to a scam that is going around and telling them how to protect themselves. Include the warning signs and clear advice.",
+    "word_count": "110-150",
+    "model_text": "IMPORTANT — PLEASE READ AND SHARE\n\nSeveral people in our community have received scam phone calls this week. The caller pretends to be from immigration or the tax office and says you will be arrested or deported today unless you pay immediately with gift cards. Please know: this is a scam. Real government offices never call to demand payment by gift card, and they never threaten immediate arrest over the phone. If you get a call like this, do not panic and do not pay. Never give your personal details or bank information. Be careful not to trust the number they give you — hang up and, if you want to check, call the real office using a number you find yourself. Please share this with your family and neighbours, especially older relatives, so no one is tricked. Stay safe.",
+    "model_analysis": "The message names the specific scam, states clearly that it is fake and why, and gives direct advice using warning language ('never give', 'be careful not to', 'do not pay'). Asking readers to share it, especially with vulnerable relatives, reflects the reading's point that shared knowledge is the strongest protection.",
+    "success_criteria": [
+      "Describe the specific scam and its warning signs",
+      "State clearly that it is a scam and why",
+      "Give direct advice using warning language",
+      "Ask readers to share the warning"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to the passage, why are newcomers to a country especially at risk of scams?",
+      "options": [
+        "They have more money",
+        "They may be unsure of how official systems really work",
+        "They do not use phones",
+        "They never check emails"
+      ],
+      "correct": 1,
+      "explanation": "The passage says newcomers 'can be especially at risk, because they may be unsure of how official systems really work.'"
+    },
+    {
+      "id": 2,
+      "question": "Why do scammers create a sense of urgency?",
+      "options": [
+        "To be polite",
+        "To stop you thinking clearly",
+        "To save you time",
+        "Because they are busy"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains the urgency 'is designed to stop you thinking clearly.'"
+    },
+    {
+      "id": 3,
+      "question": "What is true about real government agencies, according to the passage?",
+      "options": [
+        "They demand payment by gift card",
+        "They do not call and demand payment by gift card or threaten immediate arrest",
+        "They only contact people by email",
+        "They always ask for cryptocurrency"
+      ],
+      "correct": 1,
+      "explanation": "The passage states 'real government agencies do not call and demand payment by gift card, and they do not threaten immediate arrest over the phone.'"
+    },
+    {
+      "id": 4,
+      "question": "What should you do if someone claims to be from your bank and asks you to click a link?",
+      "options": [
+        "Click the link quickly",
+        "Go to the bank's website directly instead of clicking the link",
+        "Reply with your password",
+        "Forward the email to friends"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises 'Always go to a company's website directly instead of clicking links in unexpected messages.'"
+    },
+    {
+      "id": 5,
+      "question": "Why are gift cards and wire transfers favourite methods of scammers?",
+      "options": [
+        "They are very expensive",
+        "They are almost impossible to trace or recover",
+        "They are illegal to use",
+        "Banks refuse them"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains these are favoured 'precisely because they are almost impossible to trace or recover.'"
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct warning: '___ click links in unexpected texts.'",
+      "options": [
+        "Make sure you",
+        "Be careful not to",
+        "If you",
+        "Never to"
+      ],
+      "correct": 1,
+      "explanation": "'Be careful not to click links in unexpected texts' correctly warns against a specific action."
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say you should do if you realise you have been tricked?",
+      "options": [
+        "Feel ashamed and tell no one",
+        "Act quickly: contact your bank, change passwords, report it, and warn others",
+        "Do nothing",
+        "Send more money to fix it"
+      ],
+      "correct": 1,
+      "explanation": "The passage advises acting quickly — contacting the bank, changing passwords, reporting the scam, and warning friends and family — and not to feel ashamed."
+    },
+    {
+      "id": 8,
+      "question": "What does 'verify' mean?",
+      "options": [
+        "To pay quickly",
+        "To check that something is true or genuine",
+        "To delete something",
+        "To send money"
+      ],
+      "correct": 1,
+      "explanation": "'Verify' means to check that something is true or genuine, such as verifying who is really calling before giving information."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Caller: Hello, this is Officer Johnson from the Immigration Department. Our records show a serious problem with your file. There is a warrant for your arrest. Resident: What? I don't understand. Caller: You must act now. To cancel the warrant, you need to pay a fine of two thousand dollars today, using gift cards. If you do not, officers will come to arrest you within the hour. Do not tell anyone. Resident: This... this doesn't sound right. Immigration wouldn't ask for gift cards. Caller: This is a special emergency process. You must go to the store now and buy the cards. Resident: No. Real government offices never demand gift cards or threaten arrest over the phone. I'm going to hang up and call the immigration office myself using their official number. Caller: If you hang up, you will be arrested — Resident: Goodbye. [hangs up] I'm going to report this call and warn my family.",
+      "question": "How does the resident correctly identify the call as a scam?",
+      "options": [
+        "The caller was polite",
+        "Real government offices never demand gift cards or threaten arrest by phone",
+        "The caller had the wrong name",
+        "The line was bad"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Friend 1: I got a text saying I won a five-hundred-dollar gift card, but I have to pay a twenty-dollar 'delivery fee' to claim it. Should I? Friend 2: No, definitely not. That's a classic prize scam. A real prize never asks you to pay a fee to receive it. Friend 1: But it looked official, with a company logo and everything. Friend 2: Scammers copy logos all the time. Be careful not to click any link in that text, and don't give them any card details. If you paid the twenty dollars, they'd just ask for more, and you'd never get a prize. Friend 1: That makes sense. I almost did it — it seemed real. Friend 2: Don't feel bad, these tricks fool lots of people. Just delete the text. And if you're ever unsure, ask me before you pay anything. Friend 1: I will. Thanks for stopping me. Friend 2: Any time. Better to check first than lose your money.",
+      "question": "Why does Friend 2 say the prize text is a scam?",
+      "options": [
+        "The gift card is too small",
+        "A real prize never asks you to pay a fee to receive it",
+        "The logo was too big",
+        "Friend 1 never enters competitions"
+      ],
+      "correct": 1
+    }
+  ]
+}

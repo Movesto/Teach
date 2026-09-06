@@ -21,7 +21,7 @@ const REGISTER_COLORS = {
   informal: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
 };
 
-export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHelp }) {
+export default function IntermediateLesson({ lesson, somali, onQuizComplete, onRequestHelp }) {
   const [currentSection, setCurrentSection] = useState('objectives');
   const [completed, setCompleted] = useState([]);
   const [revealed, setRevealed] = useState({});
@@ -93,7 +93,14 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
               {(lesson.objectives || []).map((obj, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="w-6 h-6 rounded-full bg-teal-100 dark:bg-teal-900/40 text-teal-600 dark:text-teal-400 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i + 1}</span>
-                  <span className="text-gray-700 dark:text-gray-300">{obj}</span>
+                  <span className="text-gray-700 dark:text-gray-300">
+                    {obj}
+                    {somali?.objectives?.[i] && (
+                      <span className="block text-sm text-gray-500 dark:text-gray-400 italic mt-0.5">
+                        {somali.objectives[i]}
+                      </span>
+                    )}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -197,7 +204,12 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
               <span className="text-xs font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wide">Language Focus</span>
             </div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{lesson.language_focus.title}</h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">{lesson.language_focus.explanation}</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-2 leading-relaxed">{lesson.language_focus.explanation}</p>
+            {somali?.language_focus?.explanation && (
+              <p className="text-gray-500 dark:text-gray-400 text-sm italic mb-6 border-l-2 border-teal-300 dark:border-teal-700 pl-3">
+                {somali.language_focus.explanation}
+              </p>
+            )}
 
             {/* Examples from text */}
             {lesson.language_focus.examples?.length > 0 && (
@@ -269,6 +281,15 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
                   {openVocab === i && (
                     <div className="px-4 pb-4 space-y-3 border-t border-gray-100 dark:border-gray-800">
                       <p className="text-gray-600 dark:text-gray-400 text-sm pt-3">{v.definition}</p>
+                      {(() => {
+                        const g = somali?.vocabulary_in_context?.find(x => x.word === v.word);
+                        return g ? (
+                          <p className="text-gray-500 dark:text-gray-400 text-sm italic border-l-2 border-teal-300 dark:border-teal-700 pl-3">
+                            <span className="font-semibold not-italic">{g.somali}</span>
+                            {g.definition ? ` — ${g.definition}` : ''}
+                          </p>
+                        ) : null;
+                      })()}
                       <div className="bg-teal-50 dark:bg-teal-900/20 rounded-lg p-3">
                         <p className="text-xs font-semibold text-teal-600 dark:text-teal-400 mb-1">In the text:</p>
                         <p className="text-gray-800 dark:text-gray-200 text-sm italic">"{v.example_sentence}"</p>
@@ -433,7 +454,7 @@ export default function IntermediateLesson({ lesson, onQuizComplete, onRequestHe
         {/* ── Quiz ── */}
         {currentSection === 'quiz' && lesson.quiz && (
           <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
-            <Quiz questions={lesson.quiz} lessonId={lesson.id} onComplete={onQuizComplete} onRequestHelp={onRequestHelp} />
+            <Quiz questions={lesson.quiz} somaliExplanations={somali?.quiz_explanations} lessonId={lesson.id} onComplete={onQuizComplete} onRequestHelp={onRequestHelp} />
           </div>
         )}
       </div>

@@ -193,6 +193,54 @@
       ],
       "correct": 1,
       "explanation": "The passage mentions: 'Somali community members in Portland have formed several informal networks — WhatsApp groups, Friday gatherings, and community dinners.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'coalition'?",
+      "options": [
+        "A single person",
+        "A group of people or organisations united to work toward a shared goal",
+        "A rent payment",
+        "A library branch"
+      ],
+      "correct": 1,
+      "explanation": "A coalition is a group of people or organisations united to work toward a common goal — like Portland's neighbourhood coalitions."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, what do advocates say about engaging with the community early?",
+      "options": [
+        "It is a waste of time",
+        "It can significantly reduce the isolation many immigrants experience",
+        "It should wait several years",
+        "It costs a lot of money"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'engaging early, even in small ways, can significantly reduce the isolation many immigrants experience.'"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct reported speech: She said, 'I am busy.'",
+      "options": [
+        "She said she is busy.",
+        "She said she was busy.",
+        "She said I am busy.",
+        "She say she busy."
+      ],
+      "correct": 1,
+      "explanation": "In reported speech, the present ('am') usually shifts back to the past ('was'): 'She said she was busy.'"
+    },
+    {
+      "id": 8,
+      "question": "What does 'recruit' mean?",
+      "options": [
+        "To leave a group",
+        "To actively invite and bring new people into an organisation",
+        "To pay a membership fee",
+        "To hold a meeting"
+      ],
+      "correct": 1,
+      "explanation": "To recruit means to actively invite and bring new people into an organisation or group."
     }
   ],
   "listening_exercises": [

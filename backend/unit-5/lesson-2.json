@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states 'Youth under 18 ride free on weekdays.'"
+    },
+    {
+      "id": 5,
+      "question": "What is a 'transfer' on the bus system?",
+      "options": [
+        "The money you pay to ride",
+        "Getting off one bus and boarding another at a connecting stop",
+        "The front of the bus showing the route",
+        "A free ride for children"
+      ],
+      "correct": 1,
+      "explanation": "A transfer is when a passenger gets off one bus or train and boards another at a connecting stop."
+    },
+    {
+      "id": 6,
+      "question": "What does 'fare' mean?",
+      "options": [
+        "A bus route",
+        "The money you pay to use public transportation",
+        "A connecting stop",
+        "The bus schedule"
+      ],
+      "correct": 1,
+      "explanation": "A fare is the money you pay to use public transportation such as a bus or train."
+    },
+    {
+      "id": 7,
+      "question": "Which question correctly asks about duration?",
+      "options": [
+        "How long does the trip take?",
+        "How long the trip takes?",
+        "How long take the trip?",
+        "How long is take the trip?"
+      ],
+      "correct": 0,
+      "explanation": "'How long does the trip take?' correctly uses the question word 'how long' with the auxiliary 'does'."
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, how can new riders find the best route?",
+      "options": [
+        "By asking another passenger only",
+        "By using the TriMet website or app to enter their start and destination",
+        "By waiting at any stop",
+        "By reading the newspaper"
+      ],
+      "correct": 1,
+      "explanation": "The passage says 'The TriMet website and app allow riders to enter their starting point and destination to find the best route.'"
     }
   ],
   "listening_exercises": [

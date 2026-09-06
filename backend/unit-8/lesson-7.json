@@ -1,0 +1,282 @@
+{
+  "id": "lesson-119",
+  "unit_id": 8,
+  "lesson_number": 7,
+  "title": "Adult Education and Going to College",
+  "template": "intermediate",
+  "level": "intermediate",
+  "objectives": [
+    "Understand adult education options in the United States, including community colleges and GED programs",
+    "Learn how to enrol, find financial help, and balance study with work and family",
+    "Ask questions about courses, costs, and schedules",
+    "Use future forms (will, going to, present continuous) to talk about study plans"
+  ],
+  "reading_passage": {
+    "title": "It's Never Too Late to Learn",
+    "text": "Many adults believe that the time for education has passed them by. In the United States, this is far from true. The education system offers many routes for adults to learn new skills, finish a qualification, or begin a college degree, whatever their age or background. For newcomers especially, education can be the key that opens the door to better work and a more settled life.\n\nOne of the most valuable options is the community college. These are local colleges that offer two-year degrees, called associate degrees, as well as shorter certificates in practical fields such as nursing, computing, and business. They cost far less than four-year universities, have flexible timetables including evening and weekend classes, and welcome students of all ages. Many students later transfer from a community college to a four-year university to complete a bachelor's degree, saving a great deal of money along the way. Community colleges also offer English classes for speakers of other languages, often free or at low cost.\n\nFor adults who did not finish high school, the GED — the General Educational Development test — offers a second chance. Passing it gives a qualification equal to a high school diploma, which is required for many jobs and college courses. Free classes to prepare for the GED are widely available, and the test can be taken in several languages. For many immigrants, the GED is an important first step toward further study and better employment.\n\nMoney is often the biggest worry, but help exists. Financial aid, including grants that do not have to be repaid and low-interest loans, is available to many students, including some immigrants. To apply, students complete a form about their income, and colleges have advisers who help with this process for free. Many colleges also offer scholarships, and some employers will pay part of the cost of study that is related to your job. It is always worth asking, because many people qualify for more help than they expect.\n\nBalancing study with work and family is the real challenge for adult learners, but it is manageable with planning. Choose a realistic number of classes, use the flexible schedules on offer, and take advantage of the support colleges provide — libraries, tutoring, childcare in some cases, and advisers who understand adult students. Millions of adults study successfully while working and raising families. With the right information and support, going back to education is not only possible but, for many, life-changing.",
+    "source": "Adapted for learners — adult education in the United States",
+    "glossary": [
+      {
+        "word": "community college",
+        "meaning": "a local college offering two-year degrees and practical certificates at low cost"
+      },
+      {
+        "word": "GED",
+        "meaning": "a test and qualification equal to a high school diploma, for adults who did not finish high school"
+      },
+      {
+        "word": "financial aid",
+        "meaning": "money to help pay for study, including grants and loans"
+      },
+      {
+        "word": "scholarship",
+        "meaning": "an award of money to help a student pay for their education, which is not repaid"
+      }
+    ]
+  },
+  "comprehension": [
+    {
+      "type": "literal",
+      "question": "According to the passage, what makes community colleges a valuable option for adult learners?",
+      "answer": "They offer two-year associate degrees and shorter practical certificates, cost far less than four-year universities, have flexible timetables including evenings and weekends, welcome students of all ages, and often provide low-cost English classes. Students can also transfer to a four-year university later, saving money."
+    },
+    {
+      "type": "vocabulary",
+      "question": "What is the GED, and why is it important for many immigrants?",
+      "answer": "The GED (General Educational Development test) is a qualification equal to a high school diploma, for adults who did not finish high school. It is important because that qualification is required for many jobs and college courses, making it a first step toward further study and better employment."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage say 'it is always worth asking' about financial help?",
+      "answer": "Because many forms of help exist — grants, low-interest loans, scholarships, and employer contributions — and 'many people qualify for more help than they expect.' Students who do not ask may miss aid they are entitled to, so asking is worthwhile even if you think you may not qualify."
+    },
+    {
+      "type": "inference",
+      "question": "Why does the passage describe balancing study with work and family as 'manageable with planning'?",
+      "answer": "Because, although it is the real challenge for adult learners, colleges offer flexible schedules and support (libraries, tutoring, sometimes childcare, and advisers who understand adult students). With a realistic number of classes and use of this support, millions of adults study successfully while working and raising families."
+    }
+  ],
+  "language_focus": {
+    "title": "Talking About Plans: will, going to, present continuous",
+    "explanation": "To talk about future study plans, use three forms. Use 'going to' for intentions and plans you have decided ('I'm going to enrol in a course'). Use the present continuous for fixed arrangements with a time ('I'm starting classes in September'). Use 'will' for decisions made at the moment of speaking and predictions ('I think I'll take the evening class').",
+    "examples": [
+      {
+        "sentence": "I'm going to apply for financial aid, and I'm meeting an adviser on Thursday.",
+        "note": "'going to apply' = a decided intention; 'I'm meeting... on Thursday' = a fixed arrangement (present continuous)."
+      },
+      {
+        "sentence": "The evening class suits me better, so I think I'll take that one.",
+        "note": "'I'll take' = a decision made now, at the moment of speaking."
+      }
+    ],
+    "practice": [
+      {
+        "sentence": "Complete with 'going to': 'She ___ (study) nursing at the community college.'",
+        "answer": "She is going to study nursing at the community college."
+      },
+      {
+        "sentence": "Complete with present continuous for a fixed arrangement: 'I ___ (start) my GED classes next Monday.'",
+        "answer": "I am starting my GED classes next Monday."
+      },
+      {
+        "sentence": "Complete with 'will' for a decision made now: 'The morning class is full, so I ___ take the evening one.'",
+        "answer": "...so I will take the evening one."
+      }
+    ]
+  },
+  "vocabulary_in_context": [
+    {
+      "word": "enrol",
+      "definition": "to officially join a course or school (also spelled 'enroll')",
+      "example_sentence": "I want to enrol in an accounting course this fall.",
+      "collocations": [
+        "enrol in a course",
+        "enrol at a college",
+        "enrolment fee"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "qualification",
+      "definition": "an official record that you have passed a course or exam",
+      "example_sentence": "The GED is a qualification equal to a high school diploma.",
+      "collocations": [
+        "gain a qualification",
+        "a formal qualification",
+        "required qualifications"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "tuition",
+      "definition": "the money you pay for teaching at a college or university",
+      "example_sentence": "Community college tuition is much lower than at a four-year university.",
+      "collocations": [
+        "pay tuition",
+        "tuition fees",
+        "tuition costs"
+      ],
+      "register": "neutral"
+    },
+    {
+      "word": "transfer",
+      "definition": "to move from one college to another to continue your studies",
+      "example_sentence": "Many students transfer to a university after two years.",
+      "collocations": [
+        "transfer to",
+        "transfer credits",
+        "a transfer student"
+      ],
+      "register": "neutral"
+    }
+  ],
+  "speaking_task": {
+    "type": "roleplay",
+    "context": "You are calling a community college to ask about studying there. You work during the day and have a family, so you need flexible classes and want to know about costs and help.",
+    "prompt": "Ask the adviser about the courses available, the cost, whether there are evening or weekend classes, and whether financial help is available. Use future forms (going to, will, present continuous) to describe your plans. Speak for about ninety seconds.",
+    "useful_language": [
+      "I'm going to look into studying, and I have a few questions.",
+      "Do you offer evening or weekend classes?",
+      "How much is the tuition?",
+      "Is any financial aid available?",
+      "I think I'll start with one class and see how it goes."
+    ],
+    "model_answer": "Hello, I'm going to look into studying at your college, and I have a few questions, if that's okay. I work during the day and I have young children, so I need flexible classes — do you offer any in the evenings or at weekends? ... That's good to hear. How much is the tuition for one course? ... And is any financial aid available? I'm not sure if I qualify. ... An adviser can help me apply — great, I'll make an appointment. I think I'll start with just one class to see how it fits with work, and then I'm going to take more once I'm settled. Thank you very much for your help."
+  },
+  "writing_workshop": {
+    "task": "Write a short email to a community college asking for information about starting a course as an adult learner. Explain your situation briefly and ask three or four specific questions.",
+    "word_count": "120-160",
+    "model_text": "Dear Admissions Office, I am an adult learner interested in studying at your college, and I would be grateful for some information. I work full-time during the day and have a family, so I am looking for flexible classes. I am going to start with one course and take more later once I am settled. Could you please help me with a few questions? First, do you offer evening or weekend classes in business or computing? Second, how much is the tuition for one course, and are there any additional fees? Third, is financial aid available for adult students, and can someone help me apply? Finally, do I need any qualifications to enrol, or can I begin without a high school diploma? Thank you for your help. I look forward to hearing from you. Kind regards, Ahmed Nur.",
+    "model_analysis": "The email briefly explains the writer's situation (working adult with a family), states the plan, and asks clear, numbered questions covering schedule, cost, financial help, and entry requirements. Specific, organised questions make it easy for the college to reply usefully in one message.",
+    "success_criteria": [
+      "Briefly explain your situation as an adult learner",
+      "Ask three or four specific, clear questions",
+      "Cover practical points (schedule, cost, or entry requirements)",
+      "Use a polite, organised structure"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is an 'associate degree'?",
+      "options": [
+        "A four-year university degree",
+        "A two-year degree offered by a community college",
+        "A high school diploma",
+        "A type of scholarship"
+      ],
+      "correct": 1,
+      "explanation": "The passage says community colleges 'offer two-year degrees, called associate degrees.'"
+    },
+    {
+      "id": 2,
+      "question": "What does passing the GED give you?",
+      "options": [
+        "A university degree",
+        "A qualification equal to a high school diploma",
+        "A scholarship",
+        "A job"
+      ],
+      "correct": 1,
+      "explanation": "The passage explains that passing the GED 'gives a qualification equal to a high school diploma, which is required for many jobs and college courses.'"
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between a grant and a loan, according to the passage?",
+      "options": [
+        "Grants must be repaid; loans do not",
+        "Grants do not have to be repaid; loans do",
+        "They are the same",
+        "Neither has to be repaid"
+      ],
+      "correct": 1,
+      "explanation": "The passage describes 'grants that do not have to be repaid and low-interest loans,' so a grant is not repaid while a loan is."
+    },
+    {
+      "id": 4,
+      "question": "Why does the passage say many adults can balance study with work and family?",
+      "options": [
+        "Because classes are very short",
+        "Because of flexible schedules and college support like tutoring and advisers",
+        "Because study is not difficult",
+        "Because employers give time off by law"
+      ],
+      "correct": 1,
+      "explanation": "The passage points to 'flexible schedules' and 'the support colleges provide — libraries, tutoring, childcare in some cases, and advisers who understand adult students.'"
+    },
+    {
+      "id": 5,
+      "question": "Complete with 'going to': 'She ___ study nursing next year.'",
+      "options": [
+        "will studying",
+        "is going to",
+        "going to",
+        "will to"
+      ],
+      "correct": 1,
+      "explanation": "'She is going to study nursing' uses 'going to' for a decided plan or intention."
+    },
+    {
+      "id": 6,
+      "question": "Which sentence uses the present continuous for a fixed future arrangement?",
+      "options": [
+        "I will maybe start classes",
+        "I'm starting my GED classes next Monday",
+        "I start classes generally",
+        "I would start classes"
+      ],
+      "correct": 1,
+      "explanation": "'I'm starting my GED classes next Monday' uses the present continuous for a fixed arrangement with a specific time."
+    },
+    {
+      "id": 7,
+      "question": "What does 'transfer' mean in the context of college?",
+      "options": [
+        "To pay tuition",
+        "To move from one college to another to continue studying",
+        "To fail a course",
+        "To take a test"
+      ],
+      "correct": 1,
+      "explanation": "'Transfer' means to move from one college to another, for example from a community college to a four-year university, to continue studying."
+    },
+    {
+      "id": 8,
+      "question": "What is the passage's overall message about adult education?",
+      "options": [
+        "It is only for young people",
+        "It is never too late, and many routes and support exist",
+        "It is too expensive for most people",
+        "It requires a university degree first"
+      ],
+      "correct": 1,
+      "explanation": "The passage's message, captured in its title 'It's Never Too Late to Learn,' is that many routes and support exist for adults of any age or background."
+    }
+  ],
+  "listening_exercises": [
+    {
+      "id": "listen-1",
+      "transcript": "Adviser: Community College admissions, how can I help? Caller: Hi, I'm interested in studying, but I work full-time and I have two kids. Is that possible? Adviser: Absolutely — many of our students work and have families. We offer evening classes, weekend classes, and some fully online courses, so you can fit study around your schedule. Caller: That's a relief. What about the cost? Adviser: Tuition here is much lower than at a university. And you may qualify for financial aid — a grant you don't repay, or a low-interest loan. We have advisers who'll help you apply for free. Caller: I didn't finish high school. Does that stop me? Adviser: Not at all. We offer free GED preparation classes, and once you have your GED, you can move straight into a college course. Many of our most successful students started exactly where you are. Caller: That's really encouraging. I think I'll come in and talk to someone. Adviser: Please do. We're here to help.",
+      "question": "What does the adviser suggest for the caller who didn't finish high school?",
+      "options": [
+        "They cannot study at the college",
+        "Free GED preparation classes, then a college course",
+        "A four-year university only",
+        "Nothing can be done"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "listen-2",
+      "transcript": "Friend 1: I've decided — I'm going to go back to college. Friend 2: That's wonderful! What are you going to study? Friend 1: I'm starting an accounting certificate in September. I'm meeting an adviser next week to sort out the financial aid. Friend 2: How will you manage it with your job? Friend 1: I'm only taking two evening classes to begin with. If it goes well, I'll add more next year. Friend 2: That sounds sensible. Are you nervous? Friend 1: A little — it's been years since I was in a classroom. But the college has tutoring and a study centre, so I won't be on my own. Friend 2: You're going to do great. And an accounting qualification will really help your career. Friend 1: That's the plan. Better pay, better hours, hopefully. I should have done this years ago. Friend 2: Well, you're doing it now. That's what matters.",
+      "question": "How is Friend 1 planning to manage college with their job?",
+      "options": [
+        "By quitting their job",
+        "By starting with only two evening classes",
+        "By studying full-time immediately",
+        "By not using any support"
+      ],
+      "correct": 1
+    }
+  ]
+}

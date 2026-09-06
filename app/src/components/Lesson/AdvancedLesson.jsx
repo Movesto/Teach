@@ -42,6 +42,13 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
   const [writingText, setWritingText] = useState('');
   const [workshopText, setWorkshopText] = useState('');
   const [correctionShown, setCorrectionShown] = useState({});
+  const [notes, setNotes] = useState(() => {
+    try { return localStorage.getItem(`notes-${lesson.id}`) || ''; } catch { return ''; }
+  });
+  const saveNotes = (v) => {
+    setNotes(v);
+    try { localStorage.setItem(`notes-${lesson.id}`, v); } catch { /* ignore */ }
+  };
 
   const finish = (section, next) => {
     if (!completed.includes(section)) setCompleted(c => [...c, section]);
@@ -208,6 +215,41 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
         {/* ── Listening ── */}
         {currentSection === 'listening' && lesson.listening?.length > 0 && (
           <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-8">
+            {lesson.note_taking && (
+              <div className="mb-6 border-2 border-violet-100 dark:border-violet-900/40 rounded-xl p-5 bg-violet-50/50 dark:bg-violet-900/10">
+                <div className="flex items-center gap-2 mb-2">
+                  <FileText className="w-4 h-4 text-violet-500" />
+                  <span className="text-xs font-semibold text-violet-600 dark:text-violet-400 uppercase tracking-wide">Note-taking</span>
+                </div>
+                <p className="text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">{lesson.note_taking.prompt}</p>
+                <textarea
+                  value={notes}
+                  onChange={e => saveNotes(e.target.value)}
+                  placeholder="Take notes here as you listen…"
+                  className="w-full p-3 border-2 border-gray-200 dark:border-gray-700 rounded-lg focus:border-violet-500 focus:outline-none min-h-[140px] text-gray-900 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400 dark:placeholder-gray-500"
+                />
+                {lesson.note_taking.model_notes?.length > 0 && (
+                  <div className="mt-3">
+                    <button
+                      onClick={() => toggle('note_model')}
+                      className="flex items-center gap-1.5 text-sm font-medium text-violet-600 dark:text-violet-400 hover:underline"
+                    >
+                      {revealed.note_model ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                      {revealed.note_model ? 'Hide model notes' : 'Compare with model notes'}
+                    </button>
+                    {revealed.note_model && (
+                      <ul className="mt-2 space-y-1.5 bg-white dark:bg-gray-800 rounded-lg p-4 border border-violet-100 dark:border-violet-900/40">
+                        {lesson.note_taking.model_notes.map((m, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                            <span className="text-violet-500 mt-0.5">&#8226;</span>{m}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
             <ListeningExercise
               exercises={lesson.listening}
               onComplete={() => finish('listening', nextSection('listening'))}

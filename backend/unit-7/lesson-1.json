@@ -193,6 +193,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'a tip — typically 18 to 20 percent of the total — was expected for good service.'"
+    },
+    {
+      "id": 5,
+      "question": "What is an 'appetiser'?",
+      "options": [
+        "A small dish eaten before the main meal",
+        "The bill at the end",
+        "Extra money for the server",
+        "A large main course"
+      ],
+      "correct": 0,
+      "explanation": "An appetiser is a small dish eaten before the main meal to start the meal."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'tip' at a restaurant?",
+      "options": [
+        "A dish on the menu",
+        "Extra money given directly to the server, beyond the bill",
+        "A free glass of water",
+        "The main portion"
+      ],
+      "correct": 1,
+      "explanation": "A tip is extra money given directly to the server, beyond the amount of the bill, to thank them for service."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct present perfect question about experience.",
+      "options": [
+        "Have you ever tried American food?",
+        "Did you ever trying American food?",
+        "Have you ever tried American food yesterday?",
+        "You have ever try American food?"
+      ],
+      "correct": 0,
+      "explanation": "'Have you ever tried...?' is the correct present perfect form for asking about past experience without a specific time."
+    },
+    {
+      "id": 8,
+      "question": "According to the passage, what did the server do without being asked?",
+      "options": [
+        "Brought the bill",
+        "Filled their water glasses",
+        "Chose their food",
+        "Added a tip"
+      ],
+      "correct": 1,
+      "explanation": "The passage says the server 'filled their water glasses without being asked' — a common feature of American diner service."
     }
   ],
   "listening_exercises": [

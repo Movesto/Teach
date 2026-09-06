@@ -206,6 +206,54 @@
       ],
       "correct": 2,
       "explanation": "The passage states: 'Students who are learning English as a second language are entitled to receive extra help through English Language Learner programmes.'"
+    },
+    {
+      "id": 5,
+      "question": "What does 'overwhelming' mean?",
+      "options": [
+        "Very simple and quick",
+        "So large or difficult that it is hard to deal with",
+        "Free of charge",
+        "Required by law"
+      ],
+      "correct": 1,
+      "explanation": "'Overwhelming' means so large, difficult, or intense that it is hard to deal with."
+    },
+    {
+      "id": 6,
+      "question": "According to the passage, what documents must parents provide when enrolling a child?",
+      "options": [
+        "Only a passport",
+        "Proof of address, vaccination records, and the child's birth certificate",
+        "A driver's license only",
+        "No documents are needed"
+      ],
+      "correct": 1,
+      "explanation": "The passage says parents 'have to provide certain documents when enrolling, including proof of address, vaccination records, and the child's birth certificate.'"
+    },
+    {
+      "id": 7,
+      "question": "What does 'entitled' mean?",
+      "options": [
+        "Having a legal or moral right to receive or do something",
+        "Being refused something",
+        "Paying a fee",
+        "Feeling confused"
+      ],
+      "correct": 0,
+      "explanation": "'Entitled' means having a legal or moral right to receive or do something."
+    },
+    {
+      "id": 8,
+      "question": "Which sentence uses a modal of obligation correctly?",
+      "options": [
+        "Children must attend school until at least sixteen.",
+        "Children must to attend school.",
+        "Children musting attend school.",
+        "Children attend must school."
+      ],
+      "correct": 0,
+      "explanation": "'Must' is followed by the base verb with no 'to': 'Children must attend school.'"
     }
   ],
   "listening_exercises": [
