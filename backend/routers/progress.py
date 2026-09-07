@@ -1,6 +1,7 @@
 import json
 import logging
 from datetime import date, timedelta
+from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
@@ -10,6 +11,39 @@ from core.config import UNIT_TESTS_DIR
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["progress"])
+
+_CANDO_PATH = Path(__file__).parent.parent / "data" / "can-do-statements.json"
+_cando = None
+
+
+def _get_cando():
+    global _cando
+    if _cando is None:
+        try:
+            with open(_CANDO_PATH, encoding="utf-8") as f:
+                _cando = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            _cando = []
+    return _cando
+
+
+@router.get("/progress/can-do")
+async def get_can_do(user=Depends(get_current_user)):
+    """CEFR can-do descriptors per unit, marked achieved when the unit test is
+    passed (>=60%). Makes progress concrete: 'here's what you can now do'."""
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT unit_id FROM unit_test_results WHERE user_id = %s AND percentage >= 60",
+            (user["id"],),
+        )
+        passed = {r["unit_id"] for r in cur.fetchall()}
+        cur.close()
+    finally:
+        release_db(conn)
+    units = [{**u, "achieved": u["unit_id"] in passed} for u in _get_cando()]
+    return {"units": units, "achieved_units": len(passed)}
 
 
 @router.get("/progress/stats")

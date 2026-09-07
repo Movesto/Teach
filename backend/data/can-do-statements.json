@@ -1,0 +1,67 @@
+[
+  { "unit_id": 1, "cefr": "A1", "statements": [
+    "I can greet people and introduce myself.",
+    "I can ask for and give basic personal information.",
+    "I can handle simple shopping, transport, and emergencies."
+  ]},
+  { "unit_id": 2, "cefr": "A2", "statements": [
+    "I can talk about my family and describe people.",
+    "I can describe my daily routine and free time.",
+    "I can take first steps in workplace English."
+  ]},
+  { "unit_id": 3, "cefr": "A2", "statements": [
+    "I can handle everyday tasks at work and ask for help.",
+    "I can talk about money, prices, and shopping.",
+    "I can compare options and make simple choices."
+  ]},
+  { "unit_id": 4, "cefr": "A2", "statements": [
+    "I can use community services like the post office and library.",
+    "I can ask for help and explain a problem.",
+    "I can handle basic civic and emergency situations."
+  ]},
+  { "unit_id": 5, "cefr": "B1", "statements": [
+    "I can travel by bus, train, taxi, and plane and buy tickets.",
+    "I can ask for and follow directions.",
+    "I can deal with delays and travel problems."
+  ]},
+  { "unit_id": 6, "cefr": "B1", "statements": [
+    "I can rent a home and deal with a landlord.",
+    "I can describe housing problems and ask for repairs.",
+    "I can talk about furniture and daily home life."
+  ]},
+  { "unit_id": 7, "cefr": "B1", "statements": [
+    "I can order food and read a menu in a restaurant.",
+    "I can follow a recipe and talk about cooking.",
+    "I can shop for food and describe what I like."
+  ]},
+  { "unit_id": 8, "cefr": "B1", "statements": [
+    "I can enrol in and navigate school or college.",
+    "I can use everyday digital tools and complete tasks online.",
+    "I can talk about education and technology."
+  ]},
+  { "unit_id": 9, "cefr": "B2", "statements": [
+    "I can write clear professional emails.",
+    "I can take part in a debate and give a presentation.",
+    "I can express and support an opinion in detail."
+  ]},
+  { "unit_id": 10, "cefr": "B2", "statements": [
+    "I can communicate across cultures with sensitivity.",
+    "I can lead a discussion and think strategically.",
+    "I can adapt my English to different audiences."
+  ]},
+  { "unit_id": 11, "cefr": "C1", "statements": [
+    "I can write structured academic texts.",
+    "I can give an academic presentation and review sources.",
+    "I can take notes from a lecture and summarise them."
+  ]},
+  { "unit_id": 12, "cefr": "C1", "statements": [
+    "I can communicate at an executive level.",
+    "I can handle diplomacy and negotiate outcomes.",
+    "I can manage communication in a crisis."
+  ]},
+  { "unit_id": 13, "cefr": "C1", "statements": [
+    "I can understand informal and idiomatic American English.",
+    "I can follow cultural references and humour.",
+    "I can hold natural, socially fluent conversations."
+  ]}
+]

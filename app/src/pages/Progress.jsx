@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award, Target } from 'lucide-react';
+import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award, Target, CheckCircle2, Circle } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
 const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -199,11 +199,48 @@ function ProgressCheckCard({ attempts, navigate }) {
   );
 }
 
+function CanDoCard({ data }) {
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <CheckCircle2 className="w-4 h-4 text-green-500" />
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">What you can do</p>
+        </div>
+        <span className="text-xs text-gray-500 dark:text-gray-400">{data.achieved_units} of {data.units.length} units</span>
+      </div>
+      <div className="max-h-72 overflow-y-auto space-y-4 pr-1">
+        {data.units.map((u) => (
+          <div key={u.unit_id} className={u.achieved ? '' : 'opacity-60'}>
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">Unit {u.unit_id}</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400">{u.cefr}</span>
+              {u.achieved && <span className="text-[10px] text-green-600 dark:text-green-400 font-medium">achieved</span>}
+            </div>
+            <ul className="space-y-1 pl-1">
+              {u.statements.map((s, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  {u.achieved
+                    ? <CheckCircle2 className="w-4 h-4 text-green-500 shrink-0 mt-0.5" />
+                    : <Circle className="w-4 h-4 text-gray-300 dark:text-gray-600 shrink-0 mt-0.5" />}
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">Pass a unit test to check off its skills.</p>
+    </div>
+  );
+}
+
 export default function Progress() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
   const [coverage, setCoverage] = useState(null);
   const [attempts, setAttempts] = useState(null);
+  const [canDo, setCanDo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -219,6 +256,10 @@ export default function Progress() {
     apiFetch('/api/placement/history')
       .then(r => (r.ok ? r.json() : { attempts: [] }))
       .then(d => setAttempts(d.attempts || []))
+      .catch(() => {});
+    apiFetch('/api/progress/can-do')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setCanDo)
       .catch(() => {});
   }, []);
 
@@ -286,6 +327,9 @@ export default function Progress() {
 
         {/* Vocabulary coverage toward C1 */}
         {coverage && <CoverageCard cov={coverage} />}
+
+        {/* Can-do statements */}
+        {canDo && canDo.units?.length > 0 && <CanDoCard data={canDo} />}
 
         {/* Stats grid */}
         <div className="grid grid-cols-2 gap-3">
