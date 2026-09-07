@@ -195,6 +195,12 @@ function ProgressCheckCard({ attempts, navigate }) {
       >
         Take a progress check
       </button>
+      <button
+        onClick={() => navigate('/placement?capstone=1')}
+        className="w-full mt-2 py-2.5 rounded-lg border border-teal-600 text-teal-700 dark:text-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 text-sm font-medium"
+      >
+        Take the C1 Capstone 🎓
+      </button>
     </div>
   );
 }

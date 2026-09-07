@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { ChevronLeft, Printer, Award } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
@@ -12,6 +12,10 @@ const CEFR_NAME = {
 export default function Certificate() {
   const navigate = useNavigate();
   const { user } = useAuth();
+  const [searchParams] = useSearchParams();
+  const overrideCefr = searchParams.get('cefr');       // set when arriving from the capstone
+  const overrideScore = searchParams.get('score');
+  const isCapstone = !!overrideCefr;
   const [latest, setLatest] = useState(null);
   const [loaded, setLoaded] = useState(false);
 
@@ -22,8 +26,9 @@ export default function Certificate() {
       .catch(() => setLoaded(true));
   }, []);
 
-  const cefr = latest?.cefr || user?.cefr_level || 'A1';
-  const date = latest?.taken_at ? new Date(latest.taken_at) : new Date();
+  const cefr = overrideCefr || latest?.cefr || user?.cefr_level || 'A1';
+  const scorePct = overrideScore != null ? Number(overrideScore) : latest?.percentage;
+  const date = (!overrideCefr && latest?.taken_at) ? new Date(latest.taken_at) : new Date();
   const dateStr = date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
 
   return (
@@ -64,8 +69,13 @@ export default function Certificate() {
             CEFR {cefr}
             <span className="block text-base font-medium text-gray-500 mt-1">{CEFR_NAME[cefr] || ''}</span>
           </p>
-          {latest?.percentage != null && (
-            <p className="mt-4 text-sm text-gray-500">Assessment score: {Math.round(latest.percentage)}%</p>
+          {scorePct != null && (
+            <p className="mt-4 text-sm text-gray-500">
+              {isCapstone ? 'Capstone score' : 'Assessment score'}: {Math.round(scorePct)}%
+            </p>
+          )}
+          {isCapstone && cefr === 'C1' && (
+            <p className="mt-2 text-sm font-semibold text-green-600">✓ Passed the C1 Capstone — college-ready</p>
           )}
           <p className="mt-8 text-sm text-gray-500">Awarded on {dateStr}</p>
 

@@ -125,7 +125,7 @@ function PlacementRoute() {
   const [searchParams] = useSearchParams();
   if (loading) return <LoadingScreen />;
   if (!user) return <Navigate to="/auth" replace />;
-  if (user.placement_done && !searchParams.get('retake')) return <Navigate to="/dashboard" replace />;
+  if (user.placement_done && !searchParams.get('retake') && !searchParams.get('capstone')) return <Navigate to="/dashboard" replace />;
   return <PlacementTest />;
 }
 
