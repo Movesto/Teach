@@ -150,10 +150,60 @@ function CoverageCard({ cov }) {
   );
 }
 
+const CEFR_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+function ProgressCheckCard({ attempts, navigate }) {
+  const first = attempts[0];
+  const latest = attempts[attempts.length - 1];
+  const improved = attempts.length >= 2
+    && CEFR_ORDER.indexOf(latest.cefr) > CEFR_ORDER.indexOf(first.cefr);
+  const fmt = (iso) => iso ? new Date(iso).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '';
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="w-4 h-4 text-teal-500" />
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">Prove your progress</p>
+        </div>
+        <button onClick={() => navigate('/certificate')} className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline font-medium">
+          Certificate →
+        </button>
+      </div>
+
+      {attempts.length >= 2 ? (
+        <div className="flex items-center justify-center gap-4 mb-4">
+          <div className="text-center">
+            <p className="text-xs text-gray-400 dark:text-gray-500">Then · {fmt(first.taken_at)}</p>
+            <p className="text-2xl font-bold text-gray-400 dark:text-gray-500">{first.cefr}</p>
+          </div>
+          <div className={`text-2xl ${improved ? 'text-green-500' : 'text-gray-300 dark:text-gray-600'}`}>→</div>
+          <div className="text-center">
+            <p className="text-xs text-gray-400 dark:text-gray-500">Now · {fmt(latest.taken_at)}</p>
+            <p className="text-2xl font-bold text-teal-600 dark:text-teal-400">{latest.cefr}</p>
+          </div>
+        </div>
+      ) : (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+          Your baseline is <strong>{first?.cefr || 'not set'}</strong>. Take a progress check after
+          a couple more units to see how far you&rsquo;ve come.
+        </p>
+      )}
+
+      <button
+        onClick={() => navigate('/placement?retake=1')}
+        className="w-full py-2.5 rounded-lg bg-teal-600 text-white hover:bg-teal-700 text-sm font-medium"
+      >
+        Take a progress check
+      </button>
+    </div>
+  );
+}
+
 export default function Progress() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
   const [coverage, setCoverage] = useState(null);
+  const [attempts, setAttempts] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -165,6 +215,10 @@ export default function Progress() {
     apiFetch('/api/vocabulary/coverage')
       .then(r => (r.ok ? r.json() : null))
       .then(setCoverage)
+      .catch(() => {});
+    apiFetch('/api/placement/history')
+      .then(r => (r.ok ? r.json() : { attempts: [] }))
+      .then(d => setAttempts(d.attempts || []))
       .catch(() => {});
   }, []);
 
@@ -226,6 +280,9 @@ export default function Progress() {
             ))}
           </div>
         </div>
+
+        {/* Prove your progress — then vs now + certificate */}
+        {attempts && attempts.length > 0 && <ProgressCheckCard attempts={attempts} navigate={navigate} />}
 
         {/* Vocabulary coverage toward C1 */}
         {coverage && <CoverageCard cov={coverage} />}

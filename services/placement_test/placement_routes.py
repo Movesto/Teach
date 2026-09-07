@@ -1,12 +1,15 @@
 import logging
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 import json
 from pathlib import Path
 from datetime import datetime
+
+from core.db import get_db, release_db
+from core.security import get_current_user
 
 logger = logging.getLogger(__name__)
 
@@ -172,6 +175,34 @@ async def submit_placement_test(submission: SubmitTestRequest):
     except Exception:
         logger.exception("Error processing placement test")
         raise HTTPException(status_code=500, detail="Error processing placement test")
+
+
+@router.get("/history")
+async def placement_history(user=Depends(get_current_user)):
+    """The learner's assessment timeline (baseline placement + later progress
+    checks) for a 'then vs now' view. Each retake inserts a placement_results row."""
+    conn = get_db()
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            """SELECT percentage, level, cefr, recommended_unit, taken_at
+               FROM placement_results WHERE user_id = %s ORDER BY taken_at ASC""",
+            (user["id"],),
+        )
+        attempts = [
+            {
+                "percentage": r["percentage"],
+                "level": r["level"],
+                "cefr": r["cefr"],
+                "recommended_unit": r["recommended_unit"],
+                "taken_at": r["taken_at"].isoformat() if r["taken_at"] else None,
+            }
+            for r in cur.fetchall()
+        ]
+        cur.close()
+        return {"attempts": attempts}
+    finally:
+        release_db(conn)
 
 
 @router.get("/results/{user_id}")
