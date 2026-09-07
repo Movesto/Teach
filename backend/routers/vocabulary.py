@@ -68,6 +68,7 @@ async def get_vocabulary_coverage(user=Depends(get_current_user)):
     through the lessons they've completed, against the ~3,800-word C1 target."""
     idx = _get_content_index()
     lessons_map = idx.get("lessons", {})
+    reader_chapters_map = idx.get("reader_chapters", {})
 
     conn = get_db()
     try:
@@ -77,6 +78,13 @@ async def get_vocabulary_coverage(user=Depends(get_current_user)):
             (user["id"],),
         )
         completed = [r["lesson_id"] for r in cur.fetchall()]
+        # reader chapters read (stored in user_chapter_progress with a reader- book_id)
+        cur.execute(
+            "SELECT chapter_id FROM user_chapter_progress "
+            "WHERE user_id = %s AND book_id LIKE 'reader-%%'",
+            (user["id"],),
+        )
+        reader_chapter_ids = [r["chapter_id"] for r in cur.fetchall()]
         cur.close()
     finally:
         release_db(conn)
@@ -84,6 +92,11 @@ async def get_vocabulary_coverage(user=Depends(get_current_user)):
     learned = set()
     for lid in completed:
         learned.update(lessons_map.get(str(lid), []))
+    reading_only = set()
+    for cid in reader_chapter_ids:
+        reading_only.update(reader_chapters_map.get(cid, []))
+    reading_added = len(reading_only - learned)
+    learned |= reading_only
 
     from core import wordlists
     list_totals = idx.get("list_totals", {})
@@ -97,6 +110,8 @@ async def get_vocabulary_coverage(user=Depends(get_current_user)):
         "learned": len(learned),
         "target_total": idx.get("target_total", 0),
         "content_ceiling": idx.get("content_coverage", {}).get("total", 0),
+        "reading_added": reading_added,
+        "reader_chapters_read": len(reader_chapter_ids),
         "by_list": {
             name: {"learned": per_list.get(name, 0), "total": list_totals.get(name, 0)}
             for name in list_totals

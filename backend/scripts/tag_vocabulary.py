@@ -50,15 +50,25 @@ def main():
         if lid is not None:
             lessons[str(lid)] = sorted(words)
 
-    readers = {}
+    readers = {}          # reader_id -> all target words (union, for reference/ceiling)
+    reader_chapters = {}  # chapter_id -> target words (coverage credits per chapter read)
     for path in sorted(glob(os.path.join(BACKEND, "readers", "reader-*.json"))):
         try:
-            data, words = words_in_json(path)
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
         except (OSError, json.JSONDecodeError):
             continue
         rid = data.get("id")
-        if rid:
-            readers[rid] = sorted(words)
+        if not rid:
+            continue
+        rwords = set()
+        for ch in data.get("chapters", []):
+            cwords = wordlists.target_words_in(" ".join(all_strings(ch)))
+            cid = ch.get("id")
+            if cid:
+                reader_chapters[cid] = sorted(cwords)
+            rwords |= cwords
+        readers[rid] = sorted(rwords)
 
     # ceiling: how many target words appear anywhere in the content at all
     covered = set()
@@ -76,6 +86,7 @@ def main():
         "content_coverage": {**by_list, "total": len(covered)},
         "lessons": lessons,
         "readers": readers,
+        "reader_chapters": reader_chapters,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:

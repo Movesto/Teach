@@ -126,11 +126,16 @@ function CoverageCard({ cov }) {
         <span className="text-lg font-medium text-gray-400 dark:text-gray-500"> of {cov.target_total.toLocaleString()} words</span>
       </p>
       <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
-        Core + academic words you have met in completed lessons.
+        Core + academic words you have met in completed lessons and reading.
       </p>
       <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
         <div className="h-3 rounded-full bg-purple-500 transition-all duration-700" style={{ width: `${pct}%` }} />
       </div>
+      {cov.reader_chapters_read > 0 && (
+        <p className="text-xs text-purple-600 dark:text-purple-400 mt-2">
+          +{cov.reading_added} new from reading · {cov.reader_chapters_read} reader chapter{cov.reader_chapters_read !== 1 ? 's' : ''} read
+        </p>
+      )}
       <div className="grid grid-cols-2 gap-3 mt-4">
         <div>
           <p className="text-xs text-gray-500 dark:text-gray-400">Core (NGSL)</p>
