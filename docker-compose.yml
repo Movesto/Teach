@@ -1,36 +1,45 @@
-version: '3.8'
+# version: '3.8'
 
 services:
 
   # ── AI Services ────────────────────────────────────────────────────────────
 
-  qwen:
-    image: vllm/vllm-openai:latest
-    container_name: qwen-brain
-    restart: unless-stopped
-    ports:
-      - "8010:8000"
-    volumes:
-      - huggingface-cache:/root/.cache/huggingface
-    environment:
-      - HUGGING_FACE_HUB_TOKEN=${HUGGING_FACE_HUB_TOKEN:-}
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    ipc: host
-    command: >
-      --model Qwen/Qwen2.5-3B-Instruct-AWQ
-      --quantization awq
-      --max-model-len 2048
-      --gpu-memory-utilization 0.25
-      --enforce-eager
-      --port 8000
-    networks:
-      - teach-network
+  # The chat "brain" (AI tutor / conversation) now runs on a hosted, FREE
+  # OpenAI-compatible LLM via OpenRouter — see the backend service's QWEN_URL /
+  # QWEN_MODEL / OPENROUTER_API_KEY below and docs/curriculum-architecture.md.
+  # No local GPU model is needed for chat anymore.
+  #
+  # To run the chat brain locally instead (offline / no external API), uncomment
+  # this service and set QWEN_URL=http://qwen-brain:8000/v1/chat/completions on
+  # the backend (leave OPENROUTER_API_KEY unset). Needs ~4 GB VRAM.
+  #
+  # qwen:
+  #   image: vllm/vllm-openai:latest
+  #   container_name: qwen-brain
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8010:8000"
+  #   volumes:
+  #     - huggingface-cache:/root/.cache/huggingface
+  #   environment:
+  #     - HUGGING_FACE_HUB_TOKEN=${HUGGING_FACE_HUB_TOKEN:-}
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   ipc: host
+  #   command: >
+  #     --model Qwen/Qwen2.5-3B-Instruct-AWQ
+  #     --quantization awq
+  #     --max-model-len 2048
+  #     --gpu-memory-utilization 0.25
+  #     --enforce-eager
+  #     --port 8000
+  #   networks:
+  #     - teach-network
 
   nllb:
     build: ./services/nllb
@@ -137,7 +146,13 @@ services:
       - DB_USER=${POSTGRES_USER}
       - DB_PASSWORD=${POSTGRES_PASSWORD}
       - NLLB_URL=http://nllb-translator:8001/translate
-      - QWEN_URL=http://qwen-brain:8000/v1/chat/completions
+      # Chat brain: hosted free OpenRouter model by default (values from .env, with
+      # cloud defaults). To use the local qwen container instead, set
+      # QWEN_URL=http://qwen-brain:8000/v1/chat/completions and uncomment that service.
+      - QWEN_URL=${QWEN_URL:-https://openrouter.ai/api/v1/chat/completions}
+      - QWEN_MODEL=${QWEN_MODEL:-inclusionai/ling-3.0-flash-sante:free}
+      - LLM_FALLBACK_MODELS=${LLM_FALLBACK_MODELS:-minimax/minimax-m3:free,liquid/lfm-2.5-2.6b:free}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
       - PRONUNCIATION_URL=http://teach-pronunciation:5002
       - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}

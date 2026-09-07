@@ -247,11 +247,14 @@ up is regularly succeeding with real-world English.
   after Phase 1 (dictation and the mistake notebook need nothing from Phases 2–6
   and can ship whenever app-side work is on the table; the free-writing-feedback
   item waits for the cloud-LLM swap).
-- The separately-agreed platform work (drop local Qwen → cloud LLM, plan flag,
-  scripted conversations — see plan `dazzling-munching-glacier.md` and memory
-  `drop-qwen-direction`) can proceed in parallel; nothing here depends on it
-  except that Phase 1 removes the free tier's dependence on runtime AI for
-  Somali help.
+- Platform work: **dropping the local Qwen GPU for a hosted, free
+  OpenAI-compatible LLM is DONE (2026-09-06)** — the chat brain now runs on
+  OpenRouter free models via `ask_qwen()`, configured by env
+  (`QWEN_URL`/`QWEN_MODEL`/`LLM_FALLBACK_MODELS`); the local `qwen` container is
+  commented out in `docker-compose.yml` as an optional offline fallback. Remaining
+  platform ideas (paid-tier plan flag, scripted conversations) can proceed in
+  parallel; nothing here depends on them, except that Phase 1 removes the free
+  tier's dependence on runtime AI for Somali help.
 - Keep the GPU box's NLLB alive at least through Phases 1 and 5 (last baking
   runs). After that, nothing at runtime needs it except the on-demand translate
   button.
