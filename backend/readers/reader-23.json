@@ -1,0 +1,580 @@
+{
+  "id": "reader-23",
+  "title": "The Quiet Fraud",
+  "author": "Barashada Ingiriisiga",
+  "level": "B2",
+  "cefr": "upper-intermediate",
+  "interest_tags": [
+    "work",
+    "money"
+  ],
+  "genre": "Realistic fiction",
+  "description": "A junior accountant discovers a financial discrepancy that tests her loyalty and integrity, forcing her to choose between silence and truth.",
+  "word_count": 6757,
+  "reading_time_minutes": 38,
+  "chapters": [
+    {
+      "id": "reader-23-ch-1",
+      "title": "The First Red Flag",
+      "text": "The offices of Al-Noor Accounting were not the kind of place that inspired excitement. They occupied the third floor of a modest building in the older commercial district, where the lifts groaned and the air conditioning never quite worked in summer. But for Amina, who had joined the firm just over a year ago, the job represented something solid, something real. It was her first proper position after finishing her qualifications, and she had promised herself she would do well. She arrived early most mornings, made tea for the small team, and worked through her spreadsheets with the kind of quiet attention that her colleagues sometimes mistook for shyness.\n\nOn the first Thursday of the month, Amina was checking the expense reports for a client called Gulf Star Trading. It was routine work, the kind she could almost do without thinking. She moved through the rows of figures, comparing the receipts with the entries, ticking off each line with a careful hand. Everything matched, as it usually did. Then she reached the section for office supplies, and something stopped her.\n\nThe figure in the report did not match the total on the attached invoice. It was not a large difference, only a few hundred dirhams, and she had to look twice to be certain. She checked the invoice again, then the entry in the system, then the calculation on her calculator. The numbers did not agree. The report showed a payment that was slightly higher than the invoice it claimed to represent.\n\nAmina sat back in her chair and stared at the screen. It could be a typo, she thought. A slip of the finger when someone had entered the data. Such things happened, especially at the end of a long month. But the difference was odd. It was not a round number, not the kind of error a person would make by accident. It was precise, almost as if it had been adjusted deliberately.\n\nShe considered the matter for a few minutes, then decided that the sensible thing was to ask someone. She did not want to make a fuss over a small mistake, but she also did not want to ignore it. If there was a problem, better to raise it early than to discover it later, when it might be harder to fix.\n\nMr. Hassan, the senior accountant, had his own office at the end of the corridor. He was a man in his late fifties, with grey hair and a manner that was usually calm and reassuring. Amina knocked on his door, and he looked up from his desk with a mild smile.\n\n\"I'm sorry to interrupt,\" she said. \"There's something in the Gulf Star report I wanted to check with you.\"\n\nHe motioned for her to sit down, and she explained the discrepancy. She showed him the figures, pointing out where the entry in the system did not match the invoice. She expected him to look concerned, to examine the numbers himself, perhaps to praise her for noticing. But Mr. Hassan simply glanced at the screen and waved his hand.\n\n\"That's nothing,\" he said. \"A small error. It happens all the time. I wouldn't worry about it.\"\n\nAmina hesitated. \"But it's not just a rounding difference. The amount is different from the invoice. Shouldn't we correct it?\"\n\nMr. Hassan leaned back in his chair and folded his arms. \"Amina, you're new to this business, so let me give you some advice. In a firm like ours, we deal with hundreds of transactions every month. Sometimes there are small differences. They are not worth the trouble of chasing down. If we corrected every tiny mistake, we would never finish our work. Leave it as it is.\"\n\nShe wanted to argue. She wanted to say that a difference was still a difference, and that if the numbers did not match, then something was wrong. But she also knew that Mr. Hassan had been in the profession for thirty years, and she had been there for one. It seemed disrespectful to push the point. So she nodded, thanked him, and returned to her desk.\n\nFor the rest of the day, Amina tried to put the matter out of her mind. She completed her other tasks, prepared the files for the following week, and left the office at the usual time. But on the bus home, the figures kept returning to her. She thought about Mr. Hassan's words, about how easily he had dismissed her concern. Perhaps he was right. Perhaps she was being overly cautious, seeing problems where none existed. She was young, and she was still learning. Maybe this was simply how things worked.\n\nAnd yet, there was something about the way he had responded that troubled her. He had not looked at the invoice himself. He had not asked to see the original document. He had simply told her to leave it, as if the matter were already closed. That was not the behaviour of a careful accountant. That was the behaviour of a man who did not want questions.\n\nOver the following days, Amina found herself paying more attention to the numbers. She did not search for errors deliberately, but she noticed things. A payment here, a transfer there, all of them small, all of them just slightly different from what the documents suggested. She began to keep a private record in a notebook, writing down the details of each discrepancy. She told herself that she was simply being thorough, that she would present her findings to Mr. Hassan when she had enough evidence. But deep down, she knew that she was no longer sure whether she trusted him.\n\nThe hardest part was the uncertainty. If she was wrong, she would look foolish. She might damage her relationship with her boss, or even lose her job. If she was right, then she was uncovering something serious, something that could have consequences far beyond her own position. Either way, speaking up carried a risk. Staying silent carried a different kind of risk, one that she felt in her stomach whenever she looked at the numbers.\n\nShe thought about her colleagues. There was Rania, who sat at the desk beside her and talked constantly about her children. There was Yusuf, who handled the payroll and never seemed to worry about anything. They went about their work without a second thought, trusting that the system was sound. Amina envied them. She wished she could be like them, to accept what was in front of her and move on. But she could not. The numbers did not add up, and once she had seen that, she could not unsee it.\n\nBy the end of the second week, she had recorded seven discrepancies. None of them was large, but together they formed a pattern that she could not ignore. If she said nothing, the pattern would continue. If she said something, she would be accusing a senior colleague of wrongdoing without proof. She needed to be certain. She needed to be careful.\n\nShe decided that she would continue to watch, quietly and patiently. She would gather more information, check every figure, and wait until she was sure. It was not an easy decision, and it kept her awake at night. But it felt like the right one. For now, at least, she would keep her eyes open and her notebook hidden. The truth, she told herself, would eventually come to light. She only hoped that she would have the courage to face it when it did.",
+      "word_count": 1256,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was Amina's initial reaction when she found the discrepancy?",
+          "options": [
+            "She immediately reported it to Mr. Hassan.",
+            "She thought it might be a typo but decided to ask someone.",
+            "She ignored it and moved on.",
+            "She confronted Mr. Hassan angrily."
+          ],
+          "correct": 1,
+          "explanation": "She considered it could be a typo but decided to ask someone.",
+          "id": "reader-23-ch-1-q1",
+          "chapter_id": "reader-23-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Mr. Hassan respond to Amina's concern?",
+          "options": [
+            "He praised her for noticing.",
+            "He investigated the figures carefully.",
+            "He dismissed it as a small error and told her not to worry.",
+            "He asked her to correct it."
+          ],
+          "correct": 2,
+          "explanation": "He waved his hand and said it was nothing.",
+          "id": "reader-23-ch-1-q2",
+          "chapter_id": "reader-23-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina do after Mr. Hassan dismissed her concern?",
+          "options": [
+            "She forgot about it.",
+            "She started keeping a private record of discrepancies.",
+            "She reported him to higher authorities.",
+            "She resigned."
+          ],
+          "correct": 1,
+          "explanation": "She began to keep a private record in a notebook.",
+          "id": "reader-23-ch-1-q3",
+          "chapter_id": "reader-23-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'discrepancy' mean in the context?",
+          "options": [
+            "A difference or inconsistency",
+            "A large sum of money",
+            "A mistake in calculation",
+            "A formal complaint"
+          ],
+          "correct": 0,
+          "explanation": "It refers to the difference between the report and invoice.",
+          "id": "reader-23-ch-1-q4",
+          "chapter_id": "reader-23-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Amina's main fear about speaking up?",
+          "options": [
+            "She would lose her job.",
+            "She would be wrong and look foolish.",
+            "She would damage her relationship with her boss.",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explanation": "She worried about looking foolish, damaging relationships, or losing her job.",
+          "id": "reader-23-ch-1-q5",
+          "chapter_id": "reader-23-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'reassuring' mean?",
+          "options": [
+            "Confusing",
+            "Comforting and calming",
+            "Threatening",
+            "Indifferent"
+          ],
+          "correct": 1,
+          "explanation": "Mr. Hassan's manner was calm and reassuring.",
+          "id": "reader-23-ch-1-q6",
+          "chapter_id": "reader-23-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "modest",
+          "definition": "not large or impressive; moderate"
+        },
+        {
+          "word": "routine",
+          "definition": "a sequence of actions regularly followed; a fixed procedure"
+        },
+        {
+          "word": "discrepancy",
+          "definition": "a lack of compatibility or similarity between two or more facts"
+        },
+        {
+          "word": "reassuring",
+          "definition": "serving to remove doubts or fears; comforting"
+        },
+        {
+          "word": "cautious",
+          "definition": "careful to avoid potential problems or dangers"
+        }
+      ]
+    },
+    {
+      "id": "reader-23-ch-2",
+      "title": "Digging Deeper",
+      "text": "The following morning, Amina arrived at her desk earlier than usual. The office was quiet, the only sound the hum of the air conditioning and the distant clatter of a cleaning cart in the corridor. She had not slept well. Every time she closed her eyes, she saw those numbers again, the small discrepancy that Mr. Hassan had waved away with such casual confidence. She wanted to believe him. She really did. But something in her chest refused to settle.\n\nShe opened the accounting software and pulled up the reports from the past six months. If it was a simple error, she told herself, it would appear once, maybe twice. A pattern would be different. A pattern would mean something else entirely.\n\nFor the next two hours, she worked through each monthly statement line by line. Her coffee grew cold beside her, untouched. She compared the figures from the sales department with the bank deposits, the supplier invoices with the payment records. At first, she found nothing. The numbers matched perfectly, and she began to wonder whether she had been imagining the whole thing. But then she reached the report from March. There it was again, the same category, the same amount, or nearly the same, a sum just under five thousand pounds that had been recorded as a refund to a client whose name she did not recognise. She checked the client list. No such company existed in their files.\n\nHer heart began to beat faster. She opened April. The same entry appeared, this time with a slightly different name but the same amount. In May, it was there again. She counted. Six months, six missing sums, each one carefully hidden inside a legitimate-looking transaction. Whoever had done this knew exactly how the system worked. They knew which categories were rarely checked and which amounts would not raise suspicion.\n\nAmina leaned back in her chair and stared at the screen. Her mouth felt dry. This was not an error. This was a fraud, and it had been going on for months.\n\nShe heard footsteps approaching and quickly closed the window on her screen. Yusuf, the senior accountant who shared her office, walked in carrying a cup of tea and a newspaper. He was a quiet man in his forties, with grey hair at his temples and a way of speaking that was always gentle, always careful. He noticed her expression immediately.\n\n\"You look like you have seen a ghost,\" he said, sitting down at his desk.\n\nAmina hesitated. She had known Yusuf for two years. He had trained her when she first joined the firm, and he had always been kind to her. But she also knew that he was loyal to Mr. Hassan, or at least he appeared to be. She wondered whether she could trust him with what she had found.\n\n\"I think something is wrong,\" she said finally. Her voice came out quieter than she intended.\n\nYusuf put down his tea. \"What do you mean?\"\n\nShe told him about the discrepancy she had noticed the previous week, and about the pattern she had found that morning. She explained that the same amount had been disappearing every month, hidden inside fake refunds. She told him that if she had not checked the client list, she would never have noticed, because the names were always slightly different, and the amounts were always just small enough to avoid attention.\n\nYusuf listened without interrupting. When she finished, he was silent for a long moment. Then he shook his head slowly.\n\n\"Amina, you need to let this go,\" he said. \"I know what you think you have found, but you do not understand how this firm works.\"\n\nShe stared at him. \"What do you mean, what I think I have found? The numbers are right there. I checked them twice.\"\n\n\"I am not saying you made a mistake,\" Yusuf said. He lowered his voice, even though they were alone in the office. \"I am saying that you should not go looking for trouble. This firm has been running for twenty years. Mr. Hassan built it from nothing. If you start asking questions about where the money goes, you will not like the answers, and you will not be able to unask them.\"\n\nAmina felt a cold sensation spread through her stomach. \"Are you saying that Mr. Hassan is involved?\"\n\nYusuf did not answer directly. Instead, he looked at the door, as if checking that no one was listening. Then he leaned forward.\n\n\"I am saying that Mr. Hassan signs every report before it goes to the bank. If there is money missing, and if someone were to look closely at these records, they would have to ask why he never noticed. And if they asked that question, they would also have to ask whether he was the one who approved the payments in the first place.\"\n\nAmina's mind was racing. She had assumed that whoever was responsible had been working in the shadows, hiding their tracks from everyone. But Yusuf was right. Every report passed through Mr. Hassan's hands. He had looked at the same numbers she had looked at. He had signed them. And when she had mentioned the discrepancy to him, he had dismissed it without even opening the file.\n\n\"If I speak up,\" she said slowly, \"I could lose my job. But if I stay quiet, the money will keep disappearing.\"\n\n\"That is exactly what I am telling you,\" Yusuf said. \"You are young. You are talented. You could leave this firm and find another position tomorrow. But if you make accusations against Mr. Hassan, and if you are wrong, or if you cannot prove it, your name will be ruined. No one will hire you. And even if you are right, do you think the partners will thank you for exposing their senior accountant? They would have to admit that they failed to notice it themselves. They would rather blame you for making trouble.\"\n\nAmina felt the weight of his words pressing down on her. She thought about her mother, who had worked in a factory for thirty years so that Amina could go to university. She thought about her student loans, which she was still paying off. She thought about the small flat she rented, and the job that had felt like a lifeline when she had been offered it.\n\nIf she lost everything, there would be no safety net. And yet, if she said nothing, she would be carrying a secret that felt heavier every day.\n\n\"What would you do?\" she asked.\n\nYusuf looked at her for a long time. Then he picked up his tea and took a sip.\n\n\"If I were you,\" he said, \"I would start looking for another job. Quietly. And I would delete anything on your computer that could connect you to this investigation. If Mr. Hassan ever discovers that you found these numbers, he will not ask whether you have told anyone. He will simply decide that you are a risk, and he will find a way to remove you.\"\n\nAmina nodded slowly. She understood what he was telling her. He was not saying that she should ignore what she had found. He was saying that the cost of truth was higher than she could afford.\n\nThat evening, she sat alone in her flat, the report printed out on the table in front of her. She had copied the pages before leaving the office, hiding them inside a folder marked \"personal.\" She looked at the numbers again, and again, and again. Six months. Six payments. If she added them together, the total was nearly thirty thousand pounds. That was more than a year of her salary. It was money that had been taken, quietly and carefully, from the company that had trusted Mr. Hassan to protect it.\n\nShe thought about what would happen if she went to the partners. She imagined herself standing in the boardroom, explaining what she had found, watching their faces change as she spoke. If they believed her, Mr. Hassan would be investigated, and the fraud would stop. But if they did not believe her, or if they chose not to believe her, she would be the one who was punished. She would be the troublemaker, the junior accountant who had made accusations she could not prove.\n\nAnd there was another possibility, one that she did not want to consider, but which she could not ignore. If Mr. Hassan was involved, then he had been doing this for years. He knew how to hide his tracks. He had probably prepared a story for every question. If she confronted him, he would deny everything, and she would have no way to prove that he was lying.\n\nShe looked at the paper again. The names of the fake clients stared back at her, each one carefully invented, each one a small piece of a larger lie. She knew that if she did nothing, the payments would continue. Next month, there would be a new name, a new amount, and the money would disappear again. And she would have to sit at her desk and pretend she had not noticed.\n\nShe closed her eyes and tried to imagine what she would tell herself in ten years. Would she be proud that she had stayed quiet to protect her job? Or would she regret every day that she had chosen silence over truth?\n\nShe did not have an answer. Not yet. But as she folded the paper and placed it inside her drawer, she knew one thing for certain. Whatever she decided to do, she could not go on pretending that the numbers were normal. Too much had been taken, and too many people had looked away. The question was whether she would be one of them.",
+      "word_count": 1638,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina arrive at work earlier than usual?",
+          "options": [
+            "She wanted to finish a report before the others arrived.",
+            "She was unable to sleep because she was worried about the numbers she had found.",
+            "She had an early meeting with Mr. Hassan.",
+            "She wanted to avoid the morning traffic."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'She had not slept well. Every time she closed her eyes, she saw those numbers again, the small discrepancy that Mr. Hassan had waved away with such casual confidence.' This shows she was worried about the discrepancy, which caused her to arrive early.",
+          "id": "reader-23-ch-2-q1",
+          "chapter_id": "reader-23-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'discrepancy' mean in the context of the chapter?",
+          "options": [
+            "A difference or inconsistency between two things",
+            "A serious crime",
+            "A hidden file",
+            "A routine payment"
+          ],
+          "correct": 0,
+          "explanation": "A discrepancy is a lack of compatibility or similarity between two facts. In the text, Amina noticed a small discrepancy in the financial records, meaning a difference or inconsistency that shouldn't be there.",
+          "id": "reader-23-ch-2-q2",
+          "chapter_id": "reader-23-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What pattern did Amina discover in the financial reports?",
+          "options": [
+            "The same client name appeared every month.",
+            "The same amount (just under five thousand pounds) was recorded as a refund to different fake clients each month.",
+            "The amounts were always exactly the same and always in March.",
+            "The supplier invoices were always higher than the bank deposits."
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'She counted. Six months, six missing sums, each one carefully hidden inside a legitimate-looking transaction.' And earlier: 'the same category, the same amount, or nearly the same, a sum just under five thousand pounds that had been recorded as a refund to a client whose name she did not recognise.' The names were different each time.",
+          "id": "reader-23-ch-2-q3",
+          "chapter_id": "reader-23-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Yusuf advise Amina to do?",
+          "options": [
+            "To confront Mr. Hassan directly and demand an explanation.",
+            "To report the findings to the partners immediately.",
+            "To quietly start looking for another job and delete any evidence that could connect her to the investigation.",
+            "To ignore the issue and continue working as normal."
+          ],
+          "correct": 2,
+          "explanation": "Yusuf said: 'I would start looking for another job. Quietly. And I would delete anything on your computer that could connect you to this investigation.' He also warned her not to go looking for trouble.",
+          "id": "reader-23-ch-2-q4",
+          "chapter_id": "reader-23-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What is the meaning of 'fraud' as used in the chapter?",
+          "options": [
+            "A simple accounting error",
+            "A deliberate deception carried out for financial gain",
+            "A legal document",
+            "A type of refund"
+          ],
+          "correct": 1,
+          "explanation": "Fraud is wrongful deception intended to result in financial or personal gain. Amina realizes the missing money is not an error but a fraud: 'This was a fraud, and it had been going on for months.'",
+          "id": "reader-23-ch-2-q5",
+          "chapter_id": "reader-23-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Amina hesitate to report her findings to the partners?",
+          "options": [
+            "She was afraid she might be blamed or not believed, and she could lose her job.",
+            "She thought the partners were already involved in the fraud.",
+            "She didn't have enough evidence to prove anything.",
+            "All of the above."
+          ],
+          "correct": 3,
+          "explanation": "The text mentions multiple reasons: she feared being blamed and losing her job ('If they did not believe her... she would be the one who was punished'), she lacked proof ('she would have no way to prove that he was lying'), and she considered that the partners might prefer to blame her ('They would rather blame you for making trouble'). Therefore all the options are correct.",
+          "id": "reader-23-ch-2-q6",
+          "chapter_id": "reader-23-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "discrepancy",
+          "definition": "A difference or inconsistency between two or more things that should be the same."
+        },
+        {
+          "word": "fraud",
+          "definition": "A crime of deceiving someone in order to get money or property illegally."
+        },
+        {
+          "word": "legitimate",
+          "definition": "Conforming to the law or to rules; reasonable and acceptable."
+        },
+        {
+          "word": "pattern",
+          "definition": "A repeated or regular way in which something happens or is done."
+        }
+      ]
+    },
+    {
+      "id": "reader-23-ch-3",
+      "title": "The Weight of Silence",
+      "text": "The office felt smaller than usual that morning, the walls pressing in on her as she stared at the screen. The numbers were still there, of course. They were always there now, hiding in plain sight. Amina had opened the same spreadsheet three times in the past hour, and each time she saw the same thing: a pattern of transfers that should not have existed. Her stomach twisted with a feeling she could not name.\n\nShe thought about Mr. Hassan, and the image that came to her was not of a fraudster, but of the man who had given her a chance. She remembered her first interview, three years ago, when her hands had trembled and her voice had cracked. He had smiled at her, a warm, patient smile, and told her to take a breath. \"Everyone makes mistakes when they are nervous,\" he had said. \"But you will learn. I can see that you care about getting things right.\"\n\nThat was the man she wanted to believe in. He had supported her when she had struggled with the new software, spending extra time after work to explain the systems. He had remembered her birthday, and when her mother had been sick, he had told her to take as much time as she needed, without any pressure. He was not just a boss; he was a mentor. He was the reason she had stayed at the firm when other offers had come her way.\n\nAnd now, this. She looked at the evidence she had gathered in a private folder on her computer. It was not just one mistake. It was a series of small, careful adjustments, each one tiny enough to be overlooked, but together they formed a river of missing money. She had checked the dates, the amounts, the account numbers. Everything pointed in one direction, and the thought made her feel physically ill.\n\nIf she went to the partners, what would happen? She imagined the scene. She would knock on the senior partner's door, her voice shaking. She would lay out the documents, explain the pattern, and watch their faces change from confusion to alarm. They would thank her, perhaps, and tell her she had done the right thing. They would launch an investigation, and Mr. Hassan would be called into a meeting. He would deny it at first, then grow angry, then quiet. Eventually, he would be escorted out of the building, his career destroyed. And she would be left standing in the wreckage, a hero to some, a traitor to others. The other employees might look at her with suspicion. They might whisper that she had been too ambitious, that she had stabbed a good man in the back to get ahead. Her job would be safe, maybe even secure, but her peace of mind would be gone.\n\nIf she stayed silent, the scenario was different, but no less painful. The money would keep disappearing, month after month. The firm would suffer, and eventually, someone else would notice. Perhaps an auditor from outside would find the problem, or a client would ask too many questions. Then the blame would spread. People would wonder how she, a junior accountant who had access to the records, had not seen anything. They would question her competence, her integrity. \"How could she not have known?\" they would ask. And she would have no answer, because the truth was that she had known, and she had chosen to look away.\n\nShe closed her eyes and tried to picture her own life in five years. If she spoke, she might be known as the person who had exposed the fraud. She might be respected, but she might also be isolated. If she stayed quiet, she might keep her job, keep her relationship with Mr. Hassan, but she would have to live with the knowledge that she had let it happen. She would carry that weight every single day. She would look at her payslip and wonder how much of it was stained.\n\nHer phone buzzed. It was a message from Yusuf. \"Are you okay?\" it read. \"You left early yesterday.\" She typed a quick reply, saying she was fine, but she was not fine. She was trapped between two futures, and both of them seemed to lead to a version of herself that she did not want to become.\n\nShe thought about the conditions of her choice. If Mr. Hassan had made a single error, she could have forgiven it. If he had explained it as a mistake, she might have believed him. But the pattern was too clear, the amounts too precise. She had checked the numbers against the bank statements, and they matched perfectly. There was no other explanation. She had to accept that the man who had guided her was also the man who was stealing from the company that had trusted him.\n\nA knock on her door made her jump. It was Mrs. Okafor, the office manager, carrying a stack of files. \"Amina, are you alright? You look pale,\" she said, her voice full of concern.\n\n\"I'm just tired,\" Amina said, forcing a smile. \"A lot of work.\"\n\nMrs. Okafor nodded. \"Well, don't work too hard. Mr. Hassan mentioned that you have been staying late. He said you are very dedicated. He thinks very highly of you.\"\n\nThe words hit her like a physical blow. He thinks very highly of you. Of course he did. He had no idea that she was sitting on a bomb that could destroy him. Or perhaps he did, and he was trying to keep her close, to make sure she stayed loyal. She could not tell which possibility was worse.\n\nAfter Mrs. Okafor left, Amina opened the folder again. She looked at the clearest piece of evidence: a transfer of fifteen thousand pounds, made six months ago, to an account that did not match any of the firm's known suppliers. The name on the account was a shell company, something that existed only on paper. She had traced it back to an address that was nothing more than a postal box. It was careful, but not careful enough.\n\nShe imagined herself in a meeting with the partners, presenting this single piece of paper. If they asked her how she had found it, she would tell them the truth: she had noticed a small discrepancy and she had kept looking. If they asked her if she was sure, she would say yes. If they asked her if she understood the consequences, she would say that she did, even though the words would feel like a lie.\n\nThe pressure was building inside her, like a kettle about to whistle. She could not keep this secret for much longer. Every time she saw Mr. Hassan in the hallway, she felt a knot tighten in her chest. Every time he smiled at her, she felt a wave of guilt, as if she were the one who had done something wrong.\n\nShe closed the folder and stood up. She walked to the window and looked out at the grey city below. The rain was falling, and the streets were full of people hurrying to their destinations, unaware of the quiet drama unfolding in this small office. She thought about the word \"fraud,\" and how it sounded so formal, so distant. But the reality was not distant. It was sitting in the office next door, in the form of a man who had once believed in her.\n\nShe knew what she had to do. The evidence was strong, and her conscience was stronger. But knowing what to do and doing it were two different things. She needed one more day, she told herself. One more day to prepare, to plan her words, to find the courage. She would go to the partners tomorrow morning, before Mr. Hassan arrived. She would lay out the evidence, and she would let the consequences fall where they may.\n\nShe turned away from the window and looked at her computer screen. The numbers were still there, waiting for her. She took a deep breath and began to write a summary of everything she had found. It was the first step, and it was the hardest one she had ever taken.",
+      "word_count": 1377,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What does Amina notice in the financial records?",
+          "options": [
+            "A pattern of unauthorized transfers to shell companies",
+            "An error in her own expense report",
+            "A list of employee salaries that were too high",
+            "A missing payment from a client"
+          ],
+          "correct": 0,
+          "explanation": "The text states she sees 'a pattern of transfers that should not have existed' and later refers to 'shell companies'.",
+          "id": "reader-23-ch-3-q1",
+          "chapter_id": "reader-23-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How does Amina feel about Mr. Hassan?",
+          "options": [
+            "She admires him as a mentor and is grateful for his support",
+            "She dislikes him because he is too strict",
+            "She is indifferent to him",
+            "She is afraid of him"
+          ],
+          "correct": 0,
+          "explanation": "The text recalls how he gave her a chance, supported her, and mentored her, and she calls him 'a mentor'.",
+          "id": "reader-23-ch-3-q2",
+          "chapter_id": "reader-23-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Amina do at the end of the passage?",
+          "options": [
+            "She decides to stay silent and ignore the fraud",
+            "She begins to write a summary of the evidence",
+            "She confronts Mr. Hassan directly",
+            "She destroys the evidence"
+          ],
+          "correct": 1,
+          "explanation": "The final sentence says 'She began to write a summary of everything she had found.'",
+          "id": "reader-23-ch-3-q3",
+          "chapter_id": "reader-23-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'discrepancy' mean in this context?",
+          "options": [
+            "A large amount of money",
+            "A difference or inconsistency between two things",
+            "A secret agreement",
+            "A type of financial report"
+          ],
+          "correct": 1,
+          "explanation": "In the text, 'a small discrepancy' refers to an inconsistency in the records.",
+          "id": "reader-23-ch-3-q4",
+          "chapter_id": "reader-23-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What is a 'shell company'?",
+          "options": [
+            "A company that produces shells",
+            "A company that exists only on paper and has no real business operations",
+            "A company that is very successful",
+            "A company that is owned by the government"
+          ],
+          "correct": 1,
+          "explanation": "The text mentions 'an account that did not match any of the firm's known suppliers' and 'a shell company' that 'existed only on paper.'",
+          "id": "reader-23-ch-3-q5",
+          "chapter_id": "reader-23-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'integrity' mean?",
+          "options": [
+            "Physical strength",
+            "Honesty and strong moral principles",
+            "Ability to keep secrets",
+            "Wealth and power"
+          ],
+          "correct": 1,
+          "explanation": "The text questions her 'integrity' in the context of being honest about the fraud.",
+          "id": "reader-23-ch-3-q6",
+          "chapter_id": "reader-23-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "discrepancy",
+          "definition": "A difference or inconsistency between two or more things that should be the same."
+        },
+        {
+          "word": "shell company",
+          "definition": "A company that exists only on paper and has no real business operations, often used to hide money or evade taxes."
+        },
+        {
+          "word": "integrity",
+          "definition": "The quality of being honest and having strong moral principles."
+        },
+        {
+          "word": "fraud",
+          "definition": "Wrongful or criminal deception intended to result in financial or personal gain."
+        }
+      ]
+    },
+    {
+      "id": "reader-23-ch-4",
+      "title": "A Leap of Faith",
+      "text": "The decision came to Amina in the early hours of the morning, before the alarm had even had a chance to sound. She had spent the entire night tossing and turning, her mind replaying the conversations she had had with Yusuf and the memories of Mr. Hassan's kindness. But now, lying in the grey light of dawn, she felt a strange sense of clarity. The burden of indecision was heavier than the burden of action. She knew that if she stayed silent, the numbers would continue to lie, and her own integrity would slowly crumble. If she spoke up, she might lose her job, but she would keep her self-respect. She decided that the latter was worth the risk.\n\nShe got up, made a strong cup of coffee, and sat down at her small kitchen table. Her first task was to gather the evidence. She needed to be absolutely certain of her facts before she took this step. She thought about the files she had accessed the previous week. She knew exactly where the discrepancies were, but she needed physical proof. She decided to go into the office early, before anyone else arrived.\n\nThe office was quiet when she let herself in with her security pass. The hum of the computers was the only sound. She went straight to her desk and logged into the system. Her hands were steady as she navigated to the shared drive. She carefully downloaded the monthly reports for the past six months. She created a new, unmarked folder on her personal USB drive and copied the files into it. She also printed out hard copies of the most suspicious transactions, noting the dates and amounts in the margins. She worked methodically, checking every figure twice. She told herself that she was not making an accusation; she was simply collecting facts. She reminded herself that the evidence had to be clear and irrefutable.\n\nBy the time her colleagues started to arrive, she had finished. She placed the printed documents into a plain envelope and slipped it into her bag. She felt a pulse of anxiety, but she pushed it down. She could not afford to hesitate now.\n\nThat evening, she sat down to write her report. She wanted it to be professional and objective. She began by stating her purpose: she had noticed a pattern of financial discrepancies that she felt required further investigation. She described the specific months, the exact amounts, and the accounts involved. She avoided emotional language. She did not mention Mr. Hassan by name in the initial draft, because she wanted the facts to speak for themselves. She wrote a clear summary at the end, suggesting that an independent audit might be necessary. She read it over several times, correcting small errors, and making sure that every claim was supported by the evidence she had gathered.\n\nWriting the report was one thing, but speaking to the auditors was another. She knew that she would have to present her findings in person, and the thought terrified her. To prepare, she began to rehearse the conversation in her mind, and sometimes out loud in the privacy of her apartment. She imagined sitting in a small conference room, facing two serious-looking professionals. She told herself that she would start by thanking them for their time. She said that she had some concerns about the financial records that she wanted to share. She explained that she had noticed a pattern of missing funds over the last few months. She added that she had checked the data carefully and that she had brought documentation to support her observations. She reminded herself that she should not make accusations or express opinions. She would simply present the facts and let them draw their own conclusions.\n\nShe practiced answering potential questions. If they asked her how she had noticed the discrepancy, she would say that she had been reconciling the accounts and had spotted a slight difference. If they asked her if she had discussed this with her manager, she would pause. She knew that this was the most difficult part. She decided that she would tell the truth: she had mentioned it to Mr. Hassan, but he had dismissed it as a simple error. She would then explain that her concerns had grown when she noticed the pattern repeating. She practiced her tone, trying to sound calm and professional, even though her heart was racing.\n\nFeeling that she needed an outside perspective, she decided to contact her former university professor, Dr. Evans. He had always been a mentor to her, and she trusted his judgment. She called him and asked if they could meet for coffee. He agreed immediately, sensing the urgency in her voice.\n\nThey met at a quiet café near the university. Amina ordered a tea, but she barely touched it. She told Dr. Evans everything, starting with the initial discrepancy and ending with her plan to go to the auditors. She explained her fear of losing her job and her worry about betraying Mr. Hassan, who had been so supportive when she first joined the company. Dr. Evans listened without interrupting. When she finished, he leaned back in his chair and looked at her thoughtfully.\n\n\"Amina,\" he said, \"you have always been a meticulous and honest student. This is not just about numbers. This is about who you are as a professional and as a person. If you say nothing, the fraud will likely continue, and you will carry the weight of that silence for the rest of your career. If you speak up, you might face retaliation. You might lose your job. But you will know that you did the right thing.\"\n\nHe paused, letting his words sink in. \"Your integrity is your greatest asset. Without it, you have nothing. If you stay quiet, you will never be able to trust yourself again. If you speak, you might lose your position, but you will keep your self-respect. And in the long run, that is worth more than any salary.\"\n\nHis words echoed her own thoughts. She felt a surge of confidence. Dr. Evans continued, \"Be professional. Be direct. Don't make it personal. Present the facts, and let the auditors do their job. And remember, courage is not the absence of fear. It is acting in spite of it.\"\n\nAmina thanked him. She felt as though a heavy weight had been lifted from her shoulders. She went home and revised her report one last time, incorporating his advice. She printed out the final version and placed it in a clean, new folder. She set her alarm for an early hour. She knew that the next day would be one of the most difficult of her life.\n\nAs she lay in bed that night, she thought about the possible outcomes. If the auditors believed her, the company might launch a full investigation. If they did, Mr. Hassan would inevitably be questioned. She felt a pang of sadness. She remembered his kindness when she had first started, how he had given her extra training and trusted her with important tasks. But she also remembered the pattern in the numbers, the money that was disappearing. She could not let her loyalty to one person blind her to the truth.\n\nShe took a deep breath. She had made her choice. She had gathered the evidence, she had prepared her report, and she had rehearsed her words. There was nothing left to do but act. Tomorrow, she would walk into the office and speak up. She knew that if she stayed silent, she would regret it forever. If she spoke, she would have to face the consequences, but at least she would be able to look herself in the mirror. She closed her eyes, and for the first time in weeks, she slept peacefully.",
+      "word_count": 1304,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What is the main reason Amina decides to report the financial issues?",
+          "options": [
+            "She wants to get a promotion.",
+            "She fears losing her job.",
+            "She values her integrity over her comfort.",
+            "She wants revenge on Mr. Hassan."
+          ],
+          "correct": 2,
+          "explanation": "Amina realizes that staying silent would crumble her integrity, so she chooses to act despite the risks.",
+          "id": "reader-23-ch-4-q1",
+          "chapter_id": "reader-23-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the context of the chapter, what does \"discrepancies\" mean?",
+          "options": [
+            "Mistakes in calculations",
+            "Differences or inconsistencies",
+            "Hidden messages",
+            "Large sums of money"
+          ],
+          "correct": 1,
+          "explanation": "Amina noticed a pattern of financial discrepancies, meaning inconsistencies or differences in the records.",
+          "id": "reader-23-ch-4-q2",
+          "chapter_id": "reader-23-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "Who does Amina seek advice from?",
+          "options": [
+            "Her manager",
+            "Her colleague",
+            "Her former professor",
+            "A lawyer"
+          ],
+          "correct": 2,
+          "explanation": "She contacts her former university professor, Dr. Evans, to get an outside perspective.",
+          "id": "reader-23-ch-4-q3",
+          "chapter_id": "reader-23-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word \"meticulous\" describe in the chapter?",
+          "options": [
+            "The way she spoke to Dr. Evans",
+            "The way she prepared her report",
+            "The way she felt about Mr. Hassan",
+            "The way she slept"
+          ],
+          "correct": 1,
+          "explanation": "She worked methodically, checking every figure twice, which shows meticulous attention to detail in preparing her report.",
+          "id": "reader-23-ch-4-q4",
+          "chapter_id": "reader-23-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What advice does Dr. Evans give Amina?",
+          "options": [
+            "To confront Mr. Hassan directly",
+            "To remain silent and avoid trouble",
+            "To present facts professionally without making accusations",
+            "To quit her job immediately"
+          ],
+          "correct": 2,
+          "explanation": "Dr. Evans advises her to be professional and direct, to present facts without making accusations, and to let the auditors draw their own conclusions.",
+          "id": "reader-23-ch-4-q5",
+          "chapter_id": "reader-23-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the chapter, what does \"retaliation\" refer to?",
+          "options": [
+            "A reward for reporting",
+            "Negative consequences or revenge",
+            "A formal investigation",
+            "A financial gain"
+          ],
+          "correct": 1,
+          "explanation": "Amina fears retaliation, meaning negative consequences or revenge, if she speaks up about the fraud.",
+          "id": "reader-23-ch-4-q6",
+          "chapter_id": "reader-23-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "discrepancy",
+          "definition": "A difference or inconsistency between two or more things that should match."
+        },
+        {
+          "word": "integrity",
+          "definition": "The quality of being honest and having strong moral principles."
+        },
+        {
+          "word": "meticulous",
+          "definition": "Showing great attention to detail; very careful and precise."
+        },
+        {
+          "word": "retaliation",
+          "definition": "The action of returning a negative action in response to something; revenge."
+        },
+        {
+          "word": "objective",
+          "definition": "Not influenced by personal feelings or opinions; based on facts."
+        }
+      ]
+    },
+    {
+      "id": "reader-23-ch-5",
+      "title": "The Truth Comes Out",
+      "text": "The meeting was set for nine o'clock on Thursday morning, in a small conference room on the third floor. Amina had arrived twenty minutes early, carrying a folder that felt heavier than its weight. Inside were the spreadsheets, the bank statements, and the careful notes she had made over the past three weeks. She placed the folder on the table and then sat down, her hands folded in her lap. The regional manager, a woman named Mrs. Okafor, was known for her efficiency and her lack of patience for small talk. Amina had met her only twice before, and both times had been brief.\n\nWhen Mrs. Okafor entered, she did not smile. She nodded once at Amina and took a seat at the head of the table. \"You said this was urgent,\" she said, her voice flat. \"I have a call with the head office in forty minutes. Please be direct.\"\n\nAmina swallowed. She had rehearsed this moment many times, in the shower, in her car, in the middle of the night. She had imagined different versions of the conversation. If Mrs. Okafor asked a difficult question, she would answer calmly. If she seemed skeptical, Amina would show her the evidence. But now that the moment had arrived, all her rehearsed words felt thin. She opened the folder and slid the first spreadsheet across the table.\n\n\"I found a discrepancy in the quarterly reports,\" she said. \"It started small, about six months ago. I thought it was a mistake, so I mentioned it to Mr. Hassan. He said he would look into it.\"\n\nMrs. Okafor's eyes moved across the page. She did not speak.\n\n\"I checked the next month,\" Amina continued, her voice gaining a little strength. \"The numbers were wrong again, but in a different way. So I compared the records. I found a pattern. Funds were being transferred to a vendor account that I couldn't match to any active supplier.\"\n\nShe paused, waiting for a reaction. Mrs. Okafor's face remained unreadable. She turned to the next page, then the next. After a long silence, she looked up.\n\n\"How much money are we talking about?\"\n\n\"Approximately one hundred and forty thousand dollars over six months,\" Amina said. \"I can show you the exact calculations.\"\n\nMrs. Okafor closed the folder. She leaned back in her chair and studied Amina for a moment. \"And you believe Mr. Hassan is responsible?\"\n\nAmina hesitated. This was the moment she had dreaded. She had no proof that Mr. Hassan had taken the money, only that the transfers had been approved under his account. It was possible that someone else had accessed his login details, or that there was another explanation. But the evidence pointed in one direction, and she could not ignore it.\n\n\"I believe the transfers could not have been made without his authorization,\" she said carefully. \"I'm not accusing him of anything. I'm reporting what I found.\"\n\nMrs. Okafor nodded slowly. \"You did the right thing by bringing this to me,\" she said. \"I will have the auditors review the records. In the meantime, I want you to say nothing about this to anyone. Do you understand?\"\n\nAmina nodded. \"Yes, I understand.\"\n\n\"You will also need to give a formal statement. I will arrange a meeting with the legal team later this week.\"\n\nThe meeting ended as abruptly as it had begun. Mrs. Okafor stood up, took the folder, and left the room without another word. Amina sat alone for a long moment, staring at the empty table. She had expected to feel relief, but instead she felt a strange emptiness, as if she had just handed over a part of herself.\n\nThe investigation moved quickly. Two days later, an external auditor arrived at the office and set up in a spare room near the finance department. He asked Amina a series of careful questions, and she answered them as accurately as she could. She showed him the spreadsheets, the emails, the transfer records. She told him about the conversation with Mr. Hassan, the one in which he had dismissed her concerns as a minor error.\n\nOn the following Monday, Mr. Hassan did not come to work. By noon, the news had spread through the office like a current of cold air. He had been placed on administrative leave pending the investigation. No one said the word \"fraud\" out loud, but it hung in the air, unspoken and heavy.\n\nAmina felt the eyes of her colleagues on her throughout the day. Some avoided her completely, as if she were carrying a contagious disease. Others offered thin smiles that did not reach their eyes. Yusuf, who had warned her to stay quiet, passed her in the hallway and shook his head slowly. He did not say a word, but the disappointment on his face was unmistakable.\n\nAt lunch, she sat alone in the break room, staring at her sandwich without eating. A woman from the payroll department, whose name she barely knew, sat down across from her.\n\n\"You're the one who reported it, aren't you?\" the woman said quietly.\n\nAmina nodded, her throat tight.\n\n\"It took courage,\" the woman said. \"Not everyone would have done it.\"\n\nThe words were kind, but they did not ease the knot in Amina's stomach. She thanked the woman and went back to her desk, where she spent the afternoon reviewing numbers that no longer made sense to her.\n\nThat evening, she sat in her small apartment and thought about what she had done. She had believed she was acting on principle, that honesty was more important than loyalty. But now she wondered if she had been naive. If Mr. Hassan was guilty, then justice had been served. But if he was innocent, if there was some explanation she had missed, then she had destroyed a man's career for nothing.\n\nShe thought about the conditionals she had used to justify her decision. If I stay silent, the money will keep disappearing. If I speak up, I might lose my job. If I am wrong, I will never forgive myself. She had chosen the path that seemed most ethical, but ethics did not protect her from doubt.\n\nHer phone buzzed. It was a message from her former mentor, the one who had encouraged her to follow her conscience. \"How are you holding up?\" the message read.\n\nAmina typed a response, then deleted it. She tried again. \"I don't know if I did the right thing,\" she wrote. \"Everyone is looking at me like I'm a traitor.\"\n\nThe reply came quickly. \"You did what was right. The truth is never easy, but it is always necessary. Give it time.\"\n\nShe read the message twice, then set the phone aside. She knew the mentor was right, but knowing something and feeling it were two different things. She looked out the window at the city lights and wondered what tomorrow would bring. The investigation was still ongoing, and Mr. Hassan's future hung in the balance. Her own future felt just as uncertain.\n\nShe had made her choice. Now she had to live with it.",
+      "word_count": 1182,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel when Mrs. Okafor entered the room?",
+          "options": [
+            "Confident and prepared",
+            "Nervous and uncertain",
+            "Angry and frustrated",
+            "Relieved and calm"
+          ],
+          "correct": 1,
+          "explanation": "Amina swallowed, and her rehearsed words felt thin, showing nervousness and uncertainty.",
+          "id": "reader-23-ch-5-q1",
+          "chapter_id": "reader-23-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina discover in the quarterly reports?",
+          "options": [
+            "A small arithmetic error",
+            "Unauthorized transfers to a vendor account",
+            "Missing employee payroll",
+            "A mistake in her own calculations"
+          ],
+          "correct": 1,
+          "explanation": "She found a pattern of funds transferred to a vendor account that didn't match any active supplier.",
+          "id": "reader-23-ch-5-q2",
+          "chapter_id": "reader-23-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'discrepancy' mean in this context?",
+          "options": [
+            "A payment",
+            "A difference or inconsistency",
+            "A complaint",
+            "A mistake"
+          ],
+          "correct": 1,
+          "explanation": "A discrepancy is a difference between expected and actual figures; here it refers to the inconsistent numbers in the reports.",
+          "id": "reader-23-ch-5-q3",
+          "chapter_id": "reader-23-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Amina hesitate to directly accuse Mr. Hassan?",
+          "options": [
+            "She was afraid of losing her job",
+            "She had no proof that he took the money",
+            "She wanted to protect him",
+            "She didn't think he was involved"
+          ],
+          "correct": 1,
+          "explanation": "She had no direct proof, only that the transfers were made under his account, so she couldn't be certain.",
+          "id": "reader-23-ch-5-q4",
+          "chapter_id": "reader-23-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did most colleagues react to Amina after Mr. Hassan was put on leave?",
+          "options": [
+            "They congratulated her",
+            "They avoided her or showed disappointment",
+            "They asked her for details",
+            "They treated her as a hero"
+          ],
+          "correct": 1,
+          "explanation": "Some avoided her, some gave thin smiles, and Yusuf shook his head in disappointment.",
+          "id": "reader-23-ch-5-q5",
+          "chapter_id": "reader-23-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'naive' mean as used in the text?",
+          "options": [
+            "Overly trusting and inexperienced",
+            "Very cautious and suspicious",
+            "Highly knowledgeable",
+            "Indifferent and uncaring"
+          ],
+          "correct": 0,
+          "explanation": "Amina wondered if she had been naive, meaning too trusting and unaware of possible negative consequences.",
+          "id": "reader-23-ch-5-q6",
+          "chapter_id": "reader-23-ch-5"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "discrepancy",
+          "definition": "A difference or inconsistency between two or more things that should match."
+        },
+        {
+          "word": "naive",
+          "definition": "Lacking experience or judgment; overly trusting."
+        },
+        {
+          "word": "authorization",
+          "definition": "Official permission or approval to do something."
+        },
+        {
+          "word": "administrative leave",
+          "definition": "A temporary leave from work while an investigation is conducted, often without regular duties."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think of a time when you had to decide between loyalty and doing what was right. What did you consider? How did you feel? Write about your decision and its outcome.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

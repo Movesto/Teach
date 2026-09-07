@@ -3,7 +3,10 @@
     "id": "reader-1",
     "title": "The New Neighbour",
     "level": "A2",
-    "interest_tags": ["everyday life", "faith & culture"],
+    "interest_tags": [
+      "everyday life",
+      "faith & culture"
+    ],
     "genre": "Short fiction",
     "premise": "Amina and her family move into a small apartment in a new city. A friendly older neighbour, Mr. Okoro, helps them learn where the market, the clinic, and the mosque are. Warm, everyday domestic scenes; simple present and past tenses."
   },
@@ -11,7 +14,10 @@
     "id": "reader-2",
     "title": "First Day at Work",
     "level": "A2",
-    "interest_tags": ["work", "everyday life"],
+    "interest_tags": [
+      "work",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "Yusuf starts his first job at a supermarket. He learns to greet customers, stock shelves, and ask his manager for help when he does not understand. Focus on workplace routines and polite requests."
   },
@@ -19,7 +25,10 @@
     "id": "reader-3",
     "title": "The Lost Bus Ticket",
     "level": "A2",
-    "interest_tags": ["travel", "everyday life"],
+    "interest_tags": [
+      "travel",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "Halima takes the city bus to her English class but loses her ticket. She must ask for directions, explain her problem to the driver, and find another way. Practical travel and problem-solving language."
   },
@@ -27,7 +36,10 @@
     "id": "reader-4",
     "title": "A Visit to the Clinic",
     "level": "A2",
-    "interest_tags": ["health", "everyday life"],
+    "interest_tags": [
+      "health",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "Omar's daughter has a fever. He takes her to the clinic, describes her symptoms to the nurse, and follows the doctor's advice. Health vocabulary, describing feelings and symptoms."
   },
@@ -35,7 +47,10 @@
     "id": "reader-5",
     "title": "The Community Garden",
     "level": "A2",
-    "interest_tags": ["everyday life", "science & nature"],
+    "interest_tags": [
+      "everyday life",
+      "science & nature"
+    ],
     "genre": "Short fiction",
     "premise": "Neighbours from many countries share a small garden. They plant vegetables, solve a problem about water, and hold a harvest meal together. Themes of cooperation and simple nature vocabulary."
   },
@@ -43,7 +58,10 @@
     "id": "reader-6",
     "title": "Saving for a Bicycle",
     "level": "A2",
-    "interest_tags": ["money", "everyday life"],
+    "interest_tags": [
+      "money",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "Ahmed wants a bicycle to get to work faster. He learns to budget, save a little each week, and compare prices at two shops. Money vocabulary, numbers, and comparatives."
   },
@@ -51,7 +69,10 @@
     "id": "reader-7",
     "title": "The Football Match",
     "level": "A2",
-    "interest_tags": ["sport", "everyday life"],
+    "interest_tags": [
+      "sport",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "A local youth team plays an important match. Two friends learn about teamwork, winning, and losing well. Sport vocabulary, describing actions in the past."
   },
@@ -59,7 +80,10 @@
     "id": "reader-8",
     "title": "Grandmother's Recipe",
     "level": "A2",
-    "interest_tags": ["faith & culture", "everyday life"],
+    "interest_tags": [
+      "faith & culture",
+      "everyday life"
+    ],
     "genre": "Short fiction",
     "premise": "A young woman learns to cook a traditional dish by phone with her grandmother far away. Sequencing words (first, then, next), food and kitchen vocabulary, family warmth."
   },
@@ -67,7 +91,10 @@
     "id": "reader-9",
     "title": "The Library Card",
     "level": "A2",
-    "interest_tags": ["everyday life", "tech"],
+    "interest_tags": [
+      "everyday life",
+      "tech"
+    ],
     "genre": "Short fiction",
     "premise": "Fatima discovers the public library: free books, computers, and a children's story time. She signs up for a card and learns to use the computers. Everyday services and simple technology words."
   },
@@ -75,7 +102,10 @@
     "id": "reader-10",
     "title": "A Snowy Morning",
     "level": "A2",
-    "interest_tags": ["everyday life", "science & nature"],
+    "interest_tags": [
+      "everyday life",
+      "science & nature"
+    ],
     "genre": "Short fiction",
     "premise": "A family experiences their first snow. The children play outside while the parents learn to dress warmly and walk safely on ice. Weather and seasons vocabulary, feelings."
   },
@@ -83,7 +113,10 @@
     "id": "reader-11",
     "title": "The Job Interview",
     "level": "B1",
-    "interest_tags": ["work", "money"],
+    "interest_tags": [
+      "work",
+      "money"
+    ],
     "genre": "Realistic fiction",
     "premise": "Nadia prepares for and attends an interview for an office job. She researches the company, practises answers, handles a tricky question about a gap in her CV, and reflects afterwards. Workplace and self-presentation language, conditionals."
   },
@@ -91,7 +124,10 @@
     "id": "reader-12",
     "title": "The Long Way Home",
     "level": "B1",
-    "interest_tags": ["travel", "history"],
+    "interest_tags": [
+      "travel",
+      "history"
+    ],
     "genre": "Realistic fiction",
     "premise": "An older man tells his grandchild the story of his journey to a new country years ago — the choices, the fears, and the people who helped. Narrative past tenses, cause and effect, migration themes told sensitively."
   },
@@ -99,7 +135,10 @@
     "id": "reader-13",
     "title": "The Small Shop",
     "level": "B1",
-    "interest_tags": ["work", "money"],
+    "interest_tags": [
+      "work",
+      "money"
+    ],
     "genre": "Realistic fiction",
     "premise": "A couple opens a small grocery shop. They face a rent increase, a dishonest supplier, and a new competitor, and must decide how to keep the business alive. Business vocabulary, problem-solving, decision language."
   },
@@ -107,7 +146,10 @@
     "id": "reader-14",
     "title": "Learning to Code",
     "level": "B1",
-    "interest_tags": ["tech", "work"],
+    "interest_tags": [
+      "tech",
+      "work"
+    ],
     "genre": "Realistic fiction",
     "premise": "A young woman joins a free evening coding class, struggles with her first program, doubts herself, and slowly builds a simple app that helps her neighbourhood. Technology and learning vocabulary, expressing difficulty and persistence."
   },
@@ -115,7 +157,10 @@
     "id": "reader-15",
     "title": "The River and the Dam",
     "level": "B1",
-    "interest_tags": ["science & nature", "history"],
+    "interest_tags": [
+      "science & nature",
+      "history"
+    ],
     "genre": "Non-fiction narrative",
     "premise": "A clear, accessible non-fiction account of how a village's relationship with its river changed when a dam was built — the benefits, the costs, and the debate. Informational text structure, cause and effect, opinions."
   },
@@ -123,7 +168,10 @@
     "id": "reader-16",
     "title": "A Healthy Heart",
     "level": "B1",
-    "interest_tags": ["health", "science & nature"],
+    "interest_tags": [
+      "health",
+      "science & nature"
+    ],
     "genre": "Non-fiction narrative",
     "premise": "Following one man's check-up, an accessible explanation of how the heart works, what raises risk, and small daily changes that help. Health and body vocabulary, explaining processes, giving advice."
   },
@@ -131,7 +179,10 @@
     "id": "reader-17",
     "title": "The Marathon",
     "level": "B1",
-    "interest_tags": ["sport", "health"],
+    "interest_tags": [
+      "sport",
+      "health"
+    ],
     "genre": "Realistic fiction",
     "premise": "A recovering patient sets herself the goal of finishing a charity 10K. Training setbacks, a supportive coach, and race day. Sport and fitness vocabulary, goals and motivation, sequencing."
   },
@@ -139,7 +190,10 @@
     "id": "reader-18",
     "title": "Two Cities, One Family",
     "level": "B1",
-    "interest_tags": ["faith & culture", "everyday life"],
+    "interest_tags": [
+      "faith & culture",
+      "everyday life"
+    ],
     "genre": "Realistic fiction",
     "premise": "Siblings raised in different countries reunite and discover how their cultures and habits have grown apart and stayed the same. Comparing and contrasting, cultural identity, feelings and relationships."
   },
@@ -147,7 +201,10 @@
     "id": "reader-19",
     "title": "The Money Trap",
     "level": "B1",
-    "interest_tags": ["money", "everyday life"],
+    "interest_tags": [
+      "money",
+      "everyday life"
+    ],
     "genre": "Realistic fiction",
     "premise": "A young worker is tempted by an easy loan and a get-rich-quick offer, learns the hard way about interest and scams, and rebuilds with a sensible plan. Personal-finance vocabulary, warnings and advice, modal verbs."
   },
@@ -155,8 +212,229 @@
     "id": "reader-20",
     "title": "Voices from the Past",
     "level": "B1",
-    "interest_tags": ["history", "faith & culture"],
+    "interest_tags": [
+      "history",
+      "faith & culture"
+    ],
     "genre": "Non-fiction narrative",
     "premise": "An accessible look at how ordinary people's letters and photographs help us understand a historical period, following a student who researches her own grandmother's life. Historical narrative, reported speech, sequencing time."
+  },
+  {
+    "id": "reader-21",
+    "title": "The Hiring Panel",
+    "level": "B2",
+    "interest_tags": [
+      "work"
+    ],
+    "genre": "Realistic fiction",
+    "premise": "A three-person committee must choose between two strong candidates for one job. Their debate exposes unconscious bias, competing definitions of merit, and the compromises hiring really involves. Explores argument, hedging, and workplace ethics."
+  },
+  {
+    "id": "reader-22",
+    "title": "How Cities Breathe",
+    "level": "B2",
+    "interest_tags": [
+      "science & nature",
+      "everyday life"
+    ],
+    "genre": "Non-fiction narrative",
+    "premise": "An accessible look at how a modern city moves water, power, waste, and people, and what happens when one system fails during a heatwave. Explains complex systems, cause and effect, and trade-offs."
+  },
+  {
+    "id": "reader-23",
+    "title": "The Quiet Fraud",
+    "level": "B2",
+    "interest_tags": [
+      "work",
+      "money"
+    ],
+    "genre": "Realistic fiction",
+    "premise": "A junior accountant notices numbers that do not add up and must decide whether to speak. Weighs loyalty, risk, evidence, and consequences. Explores reported speech, conditionals, and moral reasoning."
+  },
+  {
+    "id": "reader-24",
+    "title": "A Short History of Money",
+    "level": "B2",
+    "interest_tags": [
+      "money",
+      "history"
+    ],
+    "genre": "Non-fiction narrative",
+    "premise": "From barter to coins to banks to digital payments: how money was invented and reinvented, and how it changed power and trust. Informational structure, comparison over time, abstract nouns."
+  },
+  {
+    "id": "reader-25",
+    "title": "The Endurance of the Mind",
+    "level": "B2",
+    "interest_tags": [
+      "health",
+      "sport"
+    ],
+    "genre": "Non-fiction narrative",
+    "premise": "Following an ultra-runner and the scientists studying her, an accessible account of how the brain manages pain, fatigue, and motivation. Explains research findings, hedged claims, and the mind-body link."
+  },
+  {
+    "id": "reader-26",
+    "title": "Between Two Languages",
+    "level": "B2",
+    "interest_tags": [
+      "faith & culture",
+      "everyday life"
+    ],
+    "genre": "Reflective essay",
+    "premise": "A first-person essay on living between a mother tongue and a new language: what is gained, what is lost, and how identity shifts with each. Explores nuance, abstract reflection, and figurative language, told sensitively."
+  },
+  {
+    "id": "reader-27",
+    "title": "The Pivot",
+    "level": "B2",
+    "interest_tags": [
+      "tech",
+      "work"
+    ],
+    "genre": "Realistic fiction",
+    "premise": "Three friends build a small tech product, watch it fail, and must decide whether to quit or change direction. Explores decision-making under uncertainty, persuasion, and resilience; business and technology register."
+  },
+  {
+    "id": "reader-28",
+    "title": "Rivers of Trade",
+    "level": "B2",
+    "interest_tags": [
+      "history",
+      "travel"
+    ],
+    "genre": "Non-fiction narrative",
+    "premise": "How three great trade routes moved not just goods but ideas, disease, and language across continents, and shaped the world we live in. Historical narrative, cause-and-effect chains, and synthesis across examples."
+  },
+  {
+    "id": "reader-29",
+    "title": "The Diagnosis",
+    "level": "B2",
+    "interest_tags": [
+      "health"
+    ],
+    "genre": "Realistic fiction",
+    "premise": "A woman navigates weeks of uncertainty, tests, and conflicting advice after a worrying symptom, learning to ask hard questions of doctors and of herself. Explores uncertainty, emotion, and self-advocacy in a health system."
+  },
+  {
+    "id": "reader-30",
+    "title": "The Town Meeting",
+    "level": "B2",
+    "interest_tags": [
+      "science & nature",
+      "money"
+    ],
+    "genre": "Realistic fiction",
+    "premise": "A small town argues over a proposal that would cut pollution but cost jobs. Multiple residents speak, each with a fair point. Explores debate, weighing evidence, competing interests, and civic language."
+  },
+  {
+    "id": "reader-31",
+    "title": "On the Meaning of Work",
+    "level": "C1",
+    "interest_tags": [
+      "work",
+      "everyday life"
+    ],
+    "genre": "Essay",
+    "premise": "A discursive essay asking what work is for beyond money: identity, dignity, contribution, and how modern jobs both fulfil and fail that promise. Builds a nuanced, multi-sided argument with concessions and qualifications."
+  },
+  {
+    "id": "reader-32",
+    "title": "The Age of Attention",
+    "level": "C1",
+    "interest_tags": [
+      "tech",
+      "science & nature"
+    ],
+    "genre": "Essay",
+    "premise": "An analytical essay on how the economy of attention reshapes thought, politics, and daily life, weighing the benefits of connection against the costs to focus and autonomy. Abstract argument, evidence, and counter-argument."
+  },
+  {
+    "id": "reader-33",
+    "title": "Memory and the Self",
+    "level": "C1",
+    "interest_tags": [
+      "health",
+      "science & nature"
+    ],
+    "genre": "Non-fiction essay",
+    "premise": "A science-literate essay on how memory constructs rather than records the past, and what that means for identity, testimony, and forgiveness. Synthesizes research with philosophical reflection; hedged, precise language."
+  },
+  {
+    "id": "reader-34",
+    "title": "The Ethics of Progress",
+    "level": "C1",
+    "interest_tags": [
+      "science & nature",
+      "history"
+    ],
+    "genre": "Essay",
+    "premise": "A balanced essay on whether every technical advance is progress, using historical cases to test the idea and to weigh innovation against unintended harm. Concession, qualification, and structured argument."
+  },
+  {
+    "id": "reader-35",
+    "title": "Migration and Belonging",
+    "level": "C1",
+    "interest_tags": [
+      "faith & culture",
+      "history"
+    ],
+    "genre": "Non-fiction essay",
+    "premise": "An essay on what it means to belong when you have left one home and not fully arrived at another, drawing on history and personal testimony. Nuanced, empathetic argument about identity, memory, and place."
+  },
+  {
+    "id": "reader-36",
+    "title": "The Economics of Happiness",
+    "level": "C1",
+    "interest_tags": [
+      "money",
+      "health"
+    ],
+    "genre": "Essay",
+    "premise": "An essay examining why wealth and well-being diverge, weighing evidence on income, inequality, and what actually makes lives go well. Interprets data critically and qualifies its claims."
+  },
+  {
+    "id": "reader-37",
+    "title": "Language and Power",
+    "level": "C1",
+    "interest_tags": [
+      "history",
+      "faith & culture"
+    ],
+    "genre": "Essay",
+    "premise": "A discursive essay on how the words a society uses shape what it can think and who it includes, from euphemism in politics to the naming of things. Abstract argument with historical and linguistic examples."
+  },
+  {
+    "id": "reader-38",
+    "title": "The Future of the City",
+    "level": "C1",
+    "interest_tags": [
+      "science & nature",
+      "tech"
+    ],
+    "genre": "Non-fiction essay",
+    "premise": "A forward-looking essay weighing competing visions of the 21st-century city (dense and green, or sprawling and smart) against climate, equity, and how people actually want to live. Compares scenarios and their trade-offs."
+  },
+  {
+    "id": "reader-39",
+    "title": "The Art of Persuasion",
+    "level": "C1",
+    "interest_tags": [
+      "work",
+      "everyday life"
+    ],
+    "genre": "Essay",
+    "premise": "An essay on rhetoric: how persuasion works, where it shades into manipulation, and what an honest argument owes its audience. Uses examples from advertising, politics, and daily life; self-aware, layered argument."
+  },
+  {
+    "id": "reader-40",
+    "title": "Time and a Human Life",
+    "level": "C1",
+    "interest_tags": [
+      "health",
+      "everyday life"
+    ],
+    "genre": "Reflective essay",
+    "premise": "A reflective essay on how we experience time, its acceleration with age, its distortion by attention and memory, and what that suggests about how to live. Figurative, philosophical, tightly reasoned."
   }
 ]

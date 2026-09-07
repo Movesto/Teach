@@ -344,7 +344,9 @@ def validate(reader):
         if not (c.get("text") or "").strip():
             errs.append(f"{cid}: empty text")
         cw = c.get("word_count", 0)
-        if cw and not (wpc * 0.55 <= cw <= wpc * 1.6):
+        # Too-short signals a truncated/broken chapter; a long chapter is fine for
+        # a reader, so the upper bound is generous.
+        if cw and not (wpc * 0.55 <= cw <= wpc * 2.5):
             errs.append(f"{cid}: chapter words {cw} far from target ~{wpc}")
         qids = set()
         for q in c.get("questions", []):

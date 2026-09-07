@@ -1,0 +1,588 @@
+{
+  "id": "reader-22",
+  "title": "How Cities Breathe",
+  "author": "Barashada Ingiriisiga",
+  "level": "B2",
+  "cefr": "upper-intermediate",
+  "interest_tags": [
+    "science & nature",
+    "everyday life"
+  ],
+  "genre": "Non-fiction narrative",
+  "description": "Follow the hidden networks that keep a modern city alive-water, electricity, waste, and human movement-and discover what happens when a heatwave pushes them to the breaking point.",
+  "word_count": 6362,
+  "reading_time_minutes": 35,
+  "chapters": [
+    {
+      "id": "reader-22-ch-1",
+      "title": "The City's Invisible Heart",
+      "text": "The city woke slowly, its grey streets still cool beneath a pale morning sky. In a thousand kitchens, kettles began to sing, and showers hissed against tiles, but no one thought about where the water came from. The water arrived, as it always did, clean and invisible, appearing the moment a tap was turned. It was easy to forget that this quiet miracle was the result of a vast and complex system, a hidden heart pumping life through the city's veins.\n\nThat heart began its work many kilometres away, in a deep valley where a river had been held back by a great concrete wall. This was the Ashford Reservoir, a silent lake of over a billion litres, cradled between green hills. The water here was not perfectly clean. It carried the memory of rain, soil, and fallen leaves, a brownish tint that hinted at the work still to come. The first stage of its journey was deceptively simple: it flowed out of the reservoir through a wide tunnel, pulled by nothing more than gravity. The engineers who designed the system a century ago had chosen this location carefully. It was high enough that the water could start its long descent towards the city without needing a single pump, saving enormous amounts of energy.\n\nBut gravity could only do so much. As the tunnel carried the water closer to the city, it reached a point where the land flattened out. Here, at the Edgewater Pumping Station, the water's journey became a matter of force. Rosa Delgado, a maintenance worker with twenty years of experience, stood in the vast, echoing hall of the station, listening to the deep, rhythmic hum of the machinery. The pumps, each one the size of a small car, drove the water forward, pushing it through the next stage of the network. Rosa ran her hand along a cool metal pipe. \"People think it just falls from the sky into their glass,\" she said, her voice barely audible above the hum. \"But it's a fight against distance and friction. Every metre of pipe slows the water down. These pumps give it the strength to keep going.\"\n\nFrom the pumping station, the water was forced into a series of massive settling tanks. Here, the journey slowed. The water was allowed to rest, and the heavier particles of dirt and silt sank slowly to the bottom, leaving the water above clearer. Rosa explained that this was a trade-off. The water could be cleaned faster, but that would require more chemicals and more energy. Letting it rest was slower, but it was natural and cheaper. The city had to balance speed, cost, and cleanliness every single day. After settling, the water moved to the filtration beds, where it was slowly passed through layers of sand and gravel, catching the smallest impurities. Finally, chlorine was added to kill any remaining bacteria, and a tiny amount of fluoride to help protect teeth.\n\nNow, the water was ready. It had travelled over fifty kilometres and had been transformed from a muddy river into a crystal-clear liquid, safe to drink. The final part of its journey was through a network of pipes that lay beneath the city's streets like a hidden circulatory system. Some of these pipes were enormous, the size of a small room, carrying water to whole districts. Others were smaller, branching off into individual streets and finally into the homes of the city's two million residents.\n\nRosa's job did not end at the pumping station. She spent much of her day in a control room, watching a wall of screens that displayed a live map of the entire water network. The map was a web of coloured lines, each one representing a different pipe. Green lines showed healthy pressure, while yellow lines indicated areas where the demand was high. A single red line would signal a problem. \"We monitor everything,\" she said, pointing to a series of numbers that were constantly changing. \"Flow, pressure, even the water's clarity. If there's a leak, the pressure in that section drops, and we know about it within minutes. We can send a team out to find it before it becomes a sinkhole in someone's garden.\"\n\nThe system was designed for efficiency, but it was also designed for resilience. There were backup pumps, backup power generators, and entire sections of the network that could be isolated to allow for repairs without cutting off the whole city. Rosa explained that the philosophy was simple: no single point of failure. If one part broke, the rest would adapt. But this resilience had a limit. Every system had a breaking point, and the city was about to test its limits in a way it had not done in decades.\n\nAs Rosa finished her shift, she walked out of the station into the late afternoon sun. The air was unusually still and heavy. She wiped a bead of sweat from her forehead and looked up at the sky. It was a hazy, pale blue, the kind of sky that felt more like a blanket than a ceiling. On her phone, she saw a notification from the city's weather service. It was a heat advisory. For the next five days, temperatures were expected to reach over forty degrees Celsius, a record for this region. The warning was direct: risk of drought, risk of power failures, and a serious strain on the city's infrastructure.\n\nRosa frowned. She knew what a heatwave meant for the water system. When the temperature soared, people used more water. They filled paddling pools, watered their gardens, and took more showers to cool down. Demand would spike, and the system would have to work harder. The pumps would run faster, the filters would clog more quickly, and the reservoirs would start to drop at an alarming rate. The city's invisible heart would begin to beat faster and faster, trying to keep up with the sudden thirst. She got into her car and turned on the air conditioning, feeling the cool air wash over her face. She thought of the great reservoir, slowly shrinking under the relentless sun, and of the millions of taps that would soon be running. The system was built to handle stress, but this heat was different. It was a test that no one had asked for, and Rosa had a feeling that by the end of the week, the city's hidden heart would be struggling to keep its rhythm.",
+      "word_count": 1076,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "According to the text, what force initially moves the water from the reservoir towards the city?",
+          "options": [
+            "Pumps",
+            "Gravity",
+            "Electricity",
+            "Pressure"
+          ],
+          "correct": 1,
+          "explanation": "The text states that the water flows out of the reservoir 'pulled by nothing more than gravity'.",
+          "id": "reader-22-ch-1-q1",
+          "chapter_id": "reader-22-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why is the Edgewater Pumping Station necessary?",
+          "options": [
+            "To filter the water",
+            "To add chlorine",
+            "To push water forward because the land flattens",
+            "To slow down the water"
+          ],
+          "correct": 2,
+          "explanation": "The text explains that at the point where the land flattens out, the pumps at the station drive the water forward, fighting against distance and friction.",
+          "id": "reader-22-ch-1-q2",
+          "chapter_id": "reader-22-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happens in the settling tanks?",
+          "options": [
+            "Water is heated",
+            "Heavy particles sink to the bottom",
+            "Chlorine is added",
+            "Water is pumped faster"
+          ],
+          "correct": 1,
+          "explanation": "The text says, 'The water was allowed to rest, and the heavier particles of dirt and silt sank slowly to the bottom.'",
+          "id": "reader-22-ch-1-q3",
+          "chapter_id": "reader-22-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How does the system show resilience according to Rosa?",
+          "options": [
+            "It has no backup systems",
+            "It can isolate entire sections for repairs without cutting off the whole city",
+            "It relies on a single pump",
+            "It fails easily"
+          ],
+          "correct": 1,
+          "explanation": "The text mentions backup pumps, backup power generators, and the ability to isolate entire sections for repairs without cutting off the whole city.",
+          "id": "reader-22-ch-1-q4",
+          "chapter_id": "reader-22-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'deceptively' mean in the phrase 'deceptively simple'?",
+          "options": [
+            "Honestly",
+            "Misleadingly",
+            "Clearly",
+            "Obviously"
+          ],
+          "correct": 1,
+          "explanation": "In context, 'deceptively simple' means it appears simple but is actually more complex, as the water's journey involves a vast system.",
+          "id": "reader-22-ch-1-q5",
+          "chapter_id": "reader-22-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'resilience' mean in the context of the water system?",
+          "options": [
+            "Weakness",
+            "The ability to recover or withstand stress",
+            "The speed of water flow",
+            "The amount of water"
+          ],
+          "correct": 1,
+          "explanation": "The text describes the system's ability to handle stress and adapt, with backups and isolation, which is resilience.",
+          "id": "reader-22-ch-1-q6",
+          "chapter_id": "reader-22-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "reservoir",
+          "definition": "A large natural or artificial lake used as a source of water supply."
+        },
+        {
+          "word": "filtration",
+          "definition": "The process of passing a liquid through a filter to remove impurities."
+        },
+        {
+          "word": "infrastructure",
+          "definition": "The basic physical systems of a city, such as water, power, and roads."
+        },
+        {
+          "word": "heatwave",
+          "definition": "A period of unusually hot weather."
+        }
+      ]
+    },
+    {
+      "id": "reader-22-ch-2",
+      "title": "When the Tap Runs Dry",
+      "text": "The heatwave arrived on the third day of the forecast, and it arrived with a kind of silent fury. The sun rose early over the city, a pale disc in a washed-out sky, and by mid-morning the pavements were radiating heat back into the air. The air itself felt thick, as if the city was breathing slowly through a cloth. People moved between air-conditioned buildings, their shadows short and sharp beneath them. And everywhere, in kitchens, in bathrooms, in gardens, the taps were running.\n\nWater demand had been climbing since dawn. The city's water authority, a vast network of pipes and pumps that most residents never thought about, was working at full stretch. In the control room, screens showed a map of the entire network, dotted with green lights for normal pressure and amber lights for areas under strain. The operator, a woman named Elena, watched the numbers rise with a familiar unease. She had seen heatwaves before, but this one was different. The temperature was predicted to break records, and people were doing what people always do: filling paddling pools, watering lawns that were already crisp, running showers to cool off. Every one of those actions pulled water from the same ancient pipes beneath the streets.\n\nThe system was designed for average days, not for this. The pipes were old, some of them over a century, laid when the city was smaller and the streets were quieter. They were built to carry a certain amount of water, and that amount had not changed much, even as the population had grown. Engineers had patched and repaired them over the years, but they had not replaced them all. That would have cost billions, and it would have meant digging up every road, every pavement, every garden. So the city had chosen to maintain, to monitor, to hope. And on this scorching afternoon, hope was not enough\n\nIt happened just after two o'clock. Elena saw it first as a small orange dot flickering on her screen, near the edge of an older district, where the streets were narrow and the houses were packed close together. The dot meant a drop in pressure. She tapped her screen to zoom in. The pressure was falling fast, faster than she had ever seen. Somewhere down there, in the dark earth beneath a row of shops and flats, a pipe had given up\n\nThe call went out immediately. A repair team was dispatched, a van with flashing lights threading through the afternoon traffic. The team leader was a man named Marcus, who had worked on the water network for twenty years. He knew the city's pipes the way a doctor knows a patient's veins. He sat in the passenger seat, watching the streets slide by, thinking about what could have gone wrong. Old cast iron, he thought. Heat makes the ground shift, makes the metal expand and contract. And when a pipe is already weak, already corroded from the inside, the heat can be the final push. He had seen it before, but it never got easier\n\nThe van pulled up at the corner of two residential streets. The air smelled of hot asphalt and dry dust. Marcus jumped out, carrying a listening stick, a long metal rod with a sensor on the end. He pressed it to the ground, then put his ear to the other end. He could hear the water, or rather he could hear its absence. The normal hum of water moving under pressure was gone. In its place was a faint, insistent hiss, the sound of water escaping into the earth. He walked along the pavement, stopping every few meters, pressing the rod down, listening. The hiss grew louder as he moved toward a spot near a junction box. He marked the ground with spray paint, a bright orange circle on the tarmac. \"Here,\" he said to his team. \"We dig here.\"\n\nBut digging was not simple. Beneath the surface lay a tangle of other services: gas pipes, electricity cables, fiber-optic lines. One wrong swing of a pickaxe could cut off power to a hospital or gas to a school. So the work was slow, careful, almost surgical. The team used a small excavator, but mostly they worked with shovels, exposing each layer of earth inch by inch. The heat beat down on them. Sweat soaked their shirts, and their gloves grew slippery with grime. Above them, residents began to gather at the edge of the cordoned-off area. A woman with a toddler on her hip asked when the water would be back. An elderly man, his face creased with worry, said his wife needed water for her medication. Marcus answered them all with the same patient phrase: \"We're working as fast as we can. Trucks are coming.\"\n\nAnd indeed, the water trucks were coming. Down the main road, a convoy of large tankers rumbled toward the affected streets. They parked at intervals, one at the corner, one outside the school, one in the small square at the end of the street. Residents emerged from their houses, carrying bottles, buckets, plastic containers of every size. They formed queues, quiet and orderly, a strange calm settling over the neighborhood. The heat was too great for anger. People stood in the shade of walls and trees, their containers at their feet, waiting their turn. A young woman filled a large jug and carried it carefully back to her flat, her arms straining. A boy helped his grandmother, holding her elbow as she walked with a full bucket, water sloshing over the rim\n\nBack at the excavation, Marcus and his team had reached the pipe. It was a thick, dark iron tube, crusted with rust and dirt. And there, about a meter from the junction, was the crack: a jagged, ugly split running along the length of the pipe, water spraying out in a thin, persistent jet. The damage was worse than they had hoped. The pipe was not just cracked; it was rotten. The metal was thin in places, almost paper-like, eaten away by decades of chemical reactions with the soil and the water. Marcus ran his hand over the surface, feeling the roughness, the weakness. He knew what this meant. They could not simply clamp it. They would have to replace a whole section, cutting out the damaged piece and welding in a new one. That would take hours, not minutes\n\nHe stood up, wiped his forehead with the back of his hand, and looked down the street. He saw the queues, the people, the the heat shimmering off the pavement. He thought about the trade-offs, the choices the city had made over the years. Every year, the water authority had asked for money to replace old pipes. Every year, the city had given them some, but not enough. There was always something else: schools to build, roads to repair, hospitals to staff. And so the old pipes had been patched, and the risk had been accepted. Now the risk had become a reality, and the cost was being paid, not in money, but in inconvenience, in worry, in the small, grinding difficulty of a hot day without running water\n\nThe cascade was already spreading. The drop in pressure in this neighborhood was affecting the whole district. Pumps further up the network were working harder to push water through, straining against the sudden gap. In another part of the city, a different pipe, already weak, began to show signs of stress. Elena, watching her screen, saw another orange dot flicker, then another. She picked up her phone and called another team. The heatwave was not just a weather event anymore. It was a test of everything the city had built, everything it had chosen to maintain, and everything it had chosen to ignore\n\nMarcus looked at the cracked pipe in front of him, then at his team, then at the people waiting in the shade. He took a deep breath. The work was just beginning. He picked up his wrench and turned back to the hole. Somewhere above, the sun continued to beat down, and the city continued to breathe, hot and thirsty, waiting for the water to flow again.",
+      "word_count": 1368,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the main cause of the water pipe failure?",
+          "options": [
+            "The heat caused the ground to shift and the metal to expand and contract, weakening the pipe.",
+            "A construction accident damaged the pipe.",
+            "A deliberate sabotage by a resident.",
+            "The water pressure was too high due to increased demand."
+          ],
+          "correct": 0,
+          "explanation": "The text states: 'Heat makes the ground shift, makes the metal expand and contract. And when a pipe is already weak, already corroded from the inside, the heat can be the final push.' This directly identifies the cause.",
+          "id": "reader-22-ch-2-q1",
+          "chapter_id": "reader-22-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Elena see on her screen just before the pipe failure?",
+          "options": [
+            "A green light indicating normal pressure.",
+            "A small orange dot indicating a drop in pressure.",
+            "A red alert for a major leak.",
+            "A message from the repair team."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'Elena saw it first as a small orange dot flickering on her screen... The dot meant a drop in pressure.'",
+          "id": "reader-22-ch-2-q2",
+          "chapter_id": "reader-22-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the repair work take so long?",
+          "options": [
+            "The pipe was buried very deep underground.",
+            "They had to carefully avoid other underground services like gas and electricity cables.",
+            "The repair team was too small to handle the job.",
+            "They had to wait for a special replacement part to be delivered."
+          ],
+          "correct": 1,
+          "explanation": "The text explains: 'Beneath the surface lay a tangle of other services: gas pipes, electricity cables, fiber-optic lines. One wrong swing of a pickaxe could cut off power to a hospital or gas to a school. So the work was slow, careful, almost surgical.'",
+          "id": "reader-22-ch-2-q3",
+          "chapter_id": "reader-22-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the condition of the pipe when they finally exposed it?",
+          "options": [
+            "It had a small crack that could be easily clamped.",
+            "It was in good condition but had a loose joint.",
+            "It was rotten and thin in places, requiring replacement of a whole section.",
+            "It was blocked by sediment and debris."
+          ],
+          "correct": 2,
+          "explanation": "The text states: 'The pipe was not just cracked; it was rotten. The metal was thin in places, almost paper-like... They would have to replace a whole section.'",
+          "id": "reader-22-ch-2-q4",
+          "chapter_id": "reader-22-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the phrase 'the cascade was already spreading' imply?",
+          "options": [
+            "Water was flooding into the streets and causing damage.",
+            "The failure was causing problems in other parts of the water system.",
+            "The repair team was spreading out to fix multiple leaks.",
+            "The heatwave was causing more people to use water."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'The drop in pressure in this neighborhood was affecting the whole district. Pumps further up the network were working harder... In another part of the city, a different pipe, already weak, began to show signs of stress.' This indicates a chain reaction of failures.",
+          "id": "reader-22-ch-2-q5",
+          "chapter_id": "reader-22-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is the main theme of this chapter?",
+          "options": [
+            "The importance of water conservation.",
+            "The consequences of neglecting infrastructure maintenance.",
+            "The challenges of working in extreme heat.",
+            "The role of technology in managing water systems."
+          ],
+          "correct": 1,
+          "explanation": "The chapter highlights how the city chose to patch old pipes rather than replace them, accepting the risk. The text says: 'the choices the city had made over the years... they had patched, and the risk had been accepted. Now the risk had become a reality.'",
+          "id": "reader-22-ch-2-q6",
+          "chapter_id": "reader-22-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "corroded",
+          "definition": "Gradually destroyed or weakened by chemical reaction, especially rusting."
+        },
+        {
+          "word": "excavator",
+          "definition": "A large machine used for digging and moving earth."
+        },
+        {
+          "word": "jagged",
+          "definition": "Having rough, sharp, or irregular edges."
+        },
+        {
+          "word": "cascade",
+          "definition": "A process whereby something is passed on or occurs in stages, like a chain reaction."
+        },
+        {
+          "word": "tangle",
+          "definition": "A confused mass of something, here meaning a complex network of pipes and cables."
+        }
+      ]
+    },
+    {
+      "id": "reader-22-ch-3",
+      "title": "Power in the Heat",
+      "text": "The heat did not break at night. If anything, it seemed to press down harder on the city, a heavy blanket that trapped the day's warmth in the concrete and glass. By mid-morning, the temperature had already passed forty degrees, and the air in the streets shimmered. Inside apartments and offices, however, the battle against the heat was being fought with a quiet, relentless hum. Air conditioners across the city were running at full power, their outdoor units labouring to push hot air back into the already suffocating atmosphere. It was a collective effort, millions of machines working as one, and it was draining the city's lifeblood: electricity.\n\nTo understand the problem, you had to understand the grid. The electricity that powered the city did not come from a single, simple source. It was a complex web, a network of power plants, high-voltage transmission lines, and local substations, all working in perfect balance. Power plants, some burning gas, others harnessing the flow of rivers or the spin of wind turbines, generated electricity at a steady rate. This electricity was then pushed through thick cables, held high above the streets on steel towers, travelling at voltages strong enough to make the air crackle. Finally, before it reached homes and businesses, it passed through substations, where transformers stepped the voltage down to a safer, usable level.\n\nThis system worked beautifully when demand was predictable. But it had a critical weakness: it could not store electricity easily. Power had to be generated at the exact moment it was needed. If everyone in the city switched on a kettle at the same time, the grid had to respond instantly. On this day, the demand was not a spike but a long, sustained surge. Every air conditioner was a small, greedy mouth, and together they were drinking the grid dry.\n\nMaya Chen was a grid operator, and her world was a wall of screens in a windowless control room. Each screen showed a different part of the network, a map of the city covered in glowing lines and nodes. The colours told a story. Green meant healthy flow. Yellow meant stress. Red meant danger. Today, the map was a patchwork of yellow and orange, with several areas pulsing a deep, alarming red. She had been at her station for ten hours, her coffee long gone cold. Her job was to keep the balance, to ensure that the power going in matched the power being used. When it didn't, the frequency of the electricity would dip, and sensitive equipment could be damaged. If it dipped too far, the whole system could collapse.\n\nThe first sign of trouble came from a substation on the east side of the city. It was an older facility, its transformers not designed for such a long period of peak performance. The metal casings were radiating heat like ovens. The cooling fans, meant to keep the internal temperature stable, were spinning at maximum speed, but they were fighting a losing battle. The oil inside the transformers, which acted as both a coolant and an insulator, was getting dangerously hot. Maya saw the temperature readings climbing on her screen, each degree a step closer to disaster.\n\nShe knew what was at stake. A transformer failure meant a blackout for that neighbourhood. But it was more than just an inconvenience. The heat itself was a killer. The elderly were the most vulnerable. Their bodies were less efficient at regulating temperature, and many were on medications that made them more susceptible to heat stroke. For them, air conditioning was not a luxury; it was a piece of medical equipment. A blackout in a heatwave was a life-or-death event.\n\nMaya's radio crackled. It was a field technician, a man named Ricardo, who had been sent to inspect the substation. His voice was tight with tension. \"Maya, I'm here. The casing on Transformer Four is warping. The paint is blistering. We need to take it offline now, or it's going to blow.\"\n\nTaking it offline was the safe option, but it was not a simple switch. It meant cutting power to thousands of homes and businesses. It meant, potentially, putting lives at risk. But if the transformer blew, the damage would be far worse. It could cause a cascade, a domino effect that would take down a much larger portion of the grid. Maya made the call. \"Understood, Ricardo. We're going to shed load in your sector. Prepare for a rolling blackout.\"\n\nA rolling blackout was a brutal but necessary tool. It was a way of sharing the pain. Instead of plunging one area into darkness for hours, the utility would cut power to different neighbourhoods in turns, thirty minutes at a time. It was a calculated trade-off, a way to reduce stress on the grid while ensuring that no single area suffered for too long. Maya's fingers flew across her keyboard, sending commands to circuit breakers across the eastern district. On her screen, she saw the red zones flicker and then disappear, replaced by black. She had just taken away the power from fifty thousand people.\n\nHer next task was to reroute power from other parts of the grid to help the struggling substation. It was like a complex game of chess, moving electricity along different paths to fill the gaps. She sent power from a newer, more robust substation to the north, increasing its output to cover the deficit. It was a delicate dance, and she could feel the strain on the whole system. The other transformers were now working harder, their temperatures rising to dangerous levels too.\n\nThen, the second problem hit. A message flashed on her screen, a warning from the water department. The pumps at the main water treatment plant were losing pressure. The plant, like everything else, ran on electricity. The rolling blackout had cut power to a section of the city that included a major water pumping station. The pumps had stopped, and without them, the water in the pipes had lost its forward momentum. The pressure in the entire eastern network was dropping.\n\nMaya felt a cold knot in her stomach. This was the chain reaction, the cascade she had been trained to prevent. The power system and the water system were not separate; they were deeply intertwined. The city was a single, living organism, and a failure in one organ could starve another. She had restored power to the water pumping station, but it would take time for the pumps to spin back up and rebuild the pressure. In the meantime, the water in the pipes was heating up, and in some areas, it had stopped flowing altogether.\n\nShe looked at her screen, at the map of the city with its patches of darkness and its lines of stress. She thought of Ricardo, standing in the sweltering heat of the substation, watching a piece of machinery that could explode at any moment. She thought of the old people in their apartments, their fans stopped, their windows open to the hot, still air. She had made the best decision she could with the information she had, but she knew that her choices had consequences. The city was holding its breath, and she was the one trying to keep it breathing. The immediate crisis was averted, but the grid was still fragile, and the heat showed no sign of letting up. The fight was far from over.",
+      "word_count": 1237,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What is the main reason the city's electricity grid is under severe strain in this chapter?",
+          "options": [
+            "A failure at a major power plant",
+            "A prolonged surge in demand from air conditioners during a heatwave",
+            "A shortage of fuel for generators",
+            "Damaged transmission lines from a storm"
+          ],
+          "correct": 1,
+          "explanation": "The text states that 'the demand was not a spike but a long, sustained surge' and that air conditioners were 'drinking the grid dry', causing the grid to be overstressed.",
+          "id": "reader-22-ch-3-q1",
+          "chapter_id": "reader-22-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'the air in the streets shimmered', what does 'shimmered' mean?",
+          "options": [
+            "Felt cooler due to a breeze",
+            "Appeared to tremble or waver due to heat",
+            "Became dusty and polluted",
+            "Reflected the sun like a mirror"
+          ],
+          "correct": 1,
+          "explanation": "The context describes extreme heat, and 'shimmered' refers to the visual effect of heat rising from surfaces, making the air appear to waver.",
+          "id": "reader-22-ch-3-q2",
+          "chapter_id": "reader-22-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why does Maya decide to implement a rolling blackout in the eastern district?",
+          "options": [
+            "To permanently cut power to the substation and fix it",
+            "To prevent a transformer from exploding and causing wider damage",
+            "To save electricity for the water treatment plant",
+            "To punish residents for using too much air conditioning"
+          ],
+          "correct": 1,
+          "explanation": "Maya decides to shed load to avoid a transformer failure that could cause a cascade and blackout a larger area. The text says 'if the transformer blew, the damage would be far worse'.",
+          "id": "reader-22-ch-3-q3",
+          "chapter_id": "reader-22-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'shed' mean in the phrase 'shed load in your sector'?",
+          "options": [
+            "To repair and restore",
+            "To increase and maintain",
+            "To reduce or disconnect",
+            "To store for later use"
+          ],
+          "correct": 2,
+          "explanation": "In the context of electricity, 'shed load' means to reduce or cut off power to certain areas to relieve stress on the grid, as described in the rolling blackout.",
+          "id": "reader-22-ch-3-q4",
+          "chapter_id": "reader-22-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why does the water pressure in the eastern part of the city drop?",
+          "options": [
+            "The water pumps were shut off due to a power cut in the area",
+            "The heat caused evaporation from the pipes",
+            "A pipe burst because of high pressure",
+            "The water treatment plant ran out of fuel"
+          ],
+          "correct": 0,
+          "explanation": "The text says a rolling blackout cut power to a water pumping station, stopping the pumps and causing pressure to drop.",
+          "id": "reader-22-ch-3-q5",
+          "chapter_id": "reader-22-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the author mean by saying 'the city was a single, living organism'?",
+          "options": [
+            "The city has a biological life form controlling it",
+            "The systems in the city are interconnected and affect each other like body organs",
+            "The city needs water and electricity to survive like animals",
+            "The city is fragile and can be easily killed"
+          ],
+          "correct": 1,
+          "explanation": "The metaphor explains that the power and water systems depend on one another; a failure in one causes a cascade, like organs in a body.",
+          "id": "reader-22-ch-3-q6",
+          "chapter_id": "reader-22-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cascade",
+          "definition": "A series of events where each one causes the next, often leading to further failures."
+        },
+        {
+          "word": "sustained",
+          "definition": "Continuing for a long time without stopping."
+        },
+        {
+          "word": "shimmer",
+          "definition": "To shine with a soft, wavering light, often due to heat in the air."
+        },
+        {
+          "word": "rolling blackout",
+          "definition": "A temporary power outage intentionally rotated among different areas to reduce the load on the grid."
+        },
+        {
+          "word": "vulnerable",
+          "definition": "Easily harmed or affected, such as the elderly in heatwaves."
+        }
+      ]
+    },
+    {
+      "id": "reader-22-ch-4",
+      "title": "The Waste That Doesn't Disappear",
+      "text": "The smell hit Rosa before she even opened her front door. It was a thick, sweet rot that seemed to cling to the air itself, and she knew at once that the collection truck had not come again. Three days now. Three days of heat above forty degrees, and the bags of food waste that the apartment block produced each morning were still sitting at the curb, swelling in the sun.\n\nShe walked the two blocks to the depot, past bins that were already overflowing onto the pavement. A seagull tore at a plastic sack, dragging chicken bones across the concrete. Normally, she would have shooed it away, but this morning she lacked the energy. The heat had been pressing down on the city for a week, and everyone was moving slower, thinking slower, hoping for something to break.\n\nAt the depot, the yard was half empty. Only three of the usual seven collection trucks were parked in their bays. The others were in the workshop, their engines overheated from running in conditions they were never designed for. Rosa found her crew chief, a man named Diego, standing over a clipboard, his face wet with sweat.\n\n\"The sorting facility is running at sixty percent,\" he said, without looking up. \"The conveyor belts keep jamming. The heat is warping the sensors, and half the workers are off with heat exhaustion. We can't process what we collect, and we can't collect what we can't process. It's a circle, and it's getting smaller.\"\n\nRosa had worked in sanitation for twelve years. She had seen strikes, budget cuts, and equipment failures. But she had never seen the system bend like this. She climbed into her truck, the cab already baking from the overnight heat, and began her route.\n\nThe first stop was a row of terraced houses where the bins had not been emptied in four days. She lifted the first container, and the smell hit her like a wall. The contents had turned to liquid at the bottom, a dark sludge that dripped down her glove. She dumped it into the truck's hopper, and the compression mechanism ground into action, crushing the waste into a dense block. She thought about what was in there: half-eaten sandwiches, coffee grounds, plastic wrappers, a broken chair, a dead plant. All of it mixed together, all of it her problem.\n\nBetween stops, she explained to a young volunteer who was riding along for the day how the system was supposed to work. In normal times, every neighbourhood had a schedule. Green bins for food waste, blue for recycling, grey for everything else. The trucks ran six days a week, taking their loads to a facility on the edge of the city. There, magnets pulled out steel, eddy currents kicked out aluminium, and optical sorters blew paper and plastic into different streams. Glass was crushed and reused. Organic waste was sent to a digester, where bacteria broke it down into biogas that powered a thousand homes. What remained went to a landfill, thirty kilometres away, where it was buried in lined pits.\n\n\"But that's on a good day,\" Rosa said, as she swung another bin onto the lift. \"On a day like this, the magnets still work, but the sorters overheat and the belts slip. And when the system slows down, everything backs up. The waste doesn't disappear. It just waits.\"\n\nThe volunteer asked why the city didn't simply build more facilities, or hire more crews. Rosa laughed, a dry sound. \"Because it costs money. Every truck, every worker, every sorting line - it all comes out of the same budget as the water pipes and the power grid. The city has to choose. Do we fix the pipes that burst, or do we build a new recycling plant? Do we pay for more collectors, or do we pay for more nurses? You can't do everything. So we do just enough, and we hope nothing goes wrong.\"\n\nShe paused at a junction, watching a line of cars crawl past, their windows sealed against the smell. \"And when something does go wrong, when the heat breaks the machines or the workers get sick, the convenience you don't think about disappears. You throw something away, and you never see it again. But someone has to make it disappear. And when we can't, it sits there. It rots. It breeds.\"\n\nBy midday, the truck was full. Rosa drove to the transfer station, where the waste was loaded onto larger vehicles for the trip to the sorting facility. But the facility had shut down one of its two lines, and the queue of trucks stretched back onto the main road. She sat in the cab, engine off, and watched the heat shimmer rise from the asphalt.\n\nA supervisor came by, tapping on her window. \"There's a problem at the landfill,\" he said. \"The gas collection system is down. The methane is building up. They're worried about a fire.\"\n\nRosa nodded. She had seen landfill fires before. Deep inside the buried waste, heat and methane could ignite, and the fire would smoulder for weeks, sending toxic smoke over the city. It was another failure, another link in the chain. The waste did not disappear. It just changed form, and waited for a moment of weakness.\n\nIn the afternoon, she was sent to a residential block where residents had begun leaving rubbish bags outside their doors because the communal bins were full. The stairwell was hot and dark, and the smell was overwhelming. Flies buzzed in thick clouds. A woman stood at her door, arms crossed, angry.\n\n\"This is unacceptable,\" she said. \"We pay our taxes. We deserve a service.\"\n\nRosa wanted to explain that the service was not a machine, that it was made of people and trucks and circuits, all of them struggling in the heat. Instead, she said, \"I know. We're doing what we can. The heat is slowing everything down. The trucks break, the workers get sick, the sorters jam. It's not an excuse. It's just the truth.\"\n\nShe collected what she could, filling the truck until the hopper could take no more. As she drove back to the depot, she passed a park where the grass had turned brown and the trees drooped. Children played in a fountain that had been turned off to save water. Everything was connected, she thought. The water, the power, the waste. When one system failed, the others felt it. And the heat made everything worse.\n\nAt the end of her shift, she sat on the depot steps, drinking from a bottle of warm water. The volunteer asked her what would happen if the strike that was rumoured for next week actually happened.\n\n\"Then the bins stay full,\" Rosa said. \"And the rats come out. And the flies. And the bacteria multiply in the heat. And people get sick. It's not dramatic, not like a burst pipe or a blackout. It's slow. It's quiet. But it spreads.\"\n\nShe looked at the pile of bags at the edge of the yard, waiting for a truck that might not come. \"We built this city on convenience. We throw things away and we forget them. But nothing is ever really gone. It's just moved somewhere else, waiting for a moment like this to remind us it was always there.\"",
+      "word_count": 1222,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What is the main problem described in the chapter?",
+          "options": [
+            "The waste collection system is failing due to extreme heat.",
+            "The city is running out of landfill space.",
+            "The workers are on strike for better pay.",
+            "The recycling plant has closed down permanently."
+          ],
+          "correct": 0,
+          "explanation": "The chapter repeatedly mentions how the heat is causing breakdowns in the waste collection system, such as trucks overheating, sorters jamming, and workers being off sick.",
+          "id": "reader-22-ch-4-q1",
+          "chapter_id": "reader-22-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why does Rosa say the city can't simply build more facilities or hire more crews?",
+          "options": [
+            "Because there is no available land for new facilities.",
+            "Because the city lacks the necessary technology.",
+            "Because all resources are allocated to other services like water and power.",
+            "Because the workers refuse to work in the heat."
+          ],
+          "correct": 2,
+          "explanation": "Rosa explains that the budget is shared, and the city has to choose between fixing pipes and power grids or building new waste facilities.",
+          "id": "reader-22-ch-4-q2",
+          "chapter_id": "reader-22-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Rosa say happens when the waste system breaks down?",
+          "options": [
+            "The waste is burned in the open.",
+            "The waste accumulates and causes health problems.",
+            "The waste is dumped into the ocean.",
+            "The waste is composted in people's backyards."
+          ],
+          "correct": 1,
+          "explanation": "She mentions that waste sits and rots, attracting rats and flies, and people get sick as a result.",
+          "id": "reader-22-ch-4-q3",
+          "chapter_id": "reader-22-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'sludge' most likely mean in the context of 'a dark sludge that dripped down her glove'?",
+          "options": [
+            "A thick, semi-solid mixture",
+            "A clear liquid",
+            "A dry powder",
+            "A type of plastic"
+          ],
+          "correct": 0,
+          "explanation": "Sludge refers to a thick, muddy, or slimy substance, which fits the description of decomposing waste.",
+          "id": "reader-22-ch-4-q4",
+          "chapter_id": "reader-22-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'shimmer' mean in the phrase 'heat shimmer rise from the asphalt'?",
+          "options": [
+            "A faint, wavering light or image",
+            "A loud noise",
+            "A strong smell",
+            "A sudden movement"
+          ],
+          "correct": 0,
+          "explanation": "Heat shimmer is the wavering effect caused by hot air rising, making objects appear to ripple.",
+          "id": "reader-22-ch-4-q5",
+          "chapter_id": "reader-22-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'baking' mean in the sentence 'the cab already baking from the overnight heat'?",
+          "options": [
+            "Cooking food in an oven",
+            "Becoming extremely hot",
+            "Cooling down",
+            "Being cleaned"
+          ],
+          "correct": 1,
+          "explanation": "Here, 'baking' is used metaphorically to describe the cab becoming very hot due to the heat.",
+          "id": "reader-22-ch-4-q6",
+          "chapter_id": "reader-22-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "sludge",
+          "definition": "Thick, soft, wet mud or a similar substance, often composed of waste or sediment."
+        },
+        {
+          "word": "shimmer",
+          "definition": "To shine with a soft, wavering light; a flickering or glimmering effect."
+        },
+        {
+          "word": "baking",
+          "definition": "Becoming very hot, often in an uncomfortable way, as if being cooked."
+        },
+        {
+          "word": "jamming",
+          "definition": "Getting stuck or blocked so that something cannot move or work properly."
+        },
+        {
+          "word": "overheated",
+          "definition": "Having become too hot, often causing damage or failure."
+        }
+      ]
+    },
+    {
+      "id": "reader-22-ch-5",
+      "title": "People on the Move",
+      "text": "By late afternoon, the sun had turned the city into a giant oven. The air was thick and heavy, and even the shadows offered little relief. Maya stood on the crowded platform of the Grand Avenue subway station, her work bag heavy on her shoulder. She had just finished her shift at the hospital, and all she wanted was to get home, take a cold shower, and lie down. But the digital board above her head showed a message that made her heart sink: *Delays due to heat restrictions. Please seek alternate routes.*\n\nShe sighed, wiping sweat from her forehead. The subway system, like everything else in the city, was struggling. The steel rails had expanded in the heat, and the signals were malfunctioning. To prevent accidents, the transit authority had been forced to slow down every train. What usually took her forty minutes would now take over an hour. She felt a wave of frustration, but there was nothing she could do. She was one of thousands of people waiting for a train that was moving at a snail's pace.\n\nAcross the city, in a neighborhood where the streets were lined with old apartment buildings, a woman named Elena was just leaving her building. She was a home-care nurse, and she had three more visits to make before her day was done. Her small car, which was usually her lifeline, was now a problem. The air conditioning had broken the previous summer, and she couldn't afford to fix it. She knew that driving with the windows down would be like sitting in front of a giant hair dryer, but she had no choice. Her patients, mostly elderly people who lived alone, depended on her.\n\nElena walked to her car, the heat radiating from the pavement burning through the thin soles of her shoes. She knew the city had opened cooling centers, but many of her patients were too frail to travel there. They needed her to bring them water, check their blood pressure, and make sure they were not alone. She was part of a different kind of infrastructure, a human network that kept the city alive in a crisis. She started the engine, hoping it would not overheat before she reached her first stop.\n\nMeanwhile, Carlos was on his bicycle, weaving through the gridlocked traffic. He worked for a local delivery company, and his job was to get packages to people as quickly as possible. Usually, he could beat the cars, but today was different. The heat was slowing everyone down. He saw a delivery van with its hood open, steam rising from the engine. He saw a bus that had broken down, its passengers standing on the sidewalk, looking lost. Carlos knew he was lucky. His own engine was his legs, and they were strong. But even he could feel the sun burning his skin through his thin shirt.\n\nHe stopped at a red light, taking a long drink from his water bottle. He looked around at the city, noticing how different it looked in this extreme heat. The parks, usually full of children playing and people walking their dogs, were almost empty. The city had closed them, fearing that the heat could cause health problems, especially for the very young and the very old. The green spaces were quiet, but the sidewalks were packed with people trying to find any patch of shade. He saw a row of new apartment buildings, all glass and steel, and he knew they were the worst. They reflected the sun's rays, turning the street into a furnace. He remembered reading about this in a city report: the \"urban heat island\" effect. Concrete, asphalt, and glass absorb heat during the day and release it slowly at night, making the city much hotter than the surrounding countryside.\n\nHe noticed a group of people gathered outside a community center, which had been turned into a cooling center. They were sitting on the steps, fanning themselves with newspapers. He saw a mother with a small child, and an old man who looked exhausted. Carlos knew that the city was doing its best, but it was a trade-off. Closing the parks was safe, but it took away the coolest places in the city. Opening the cooling centers was helpful, but they were not always easy to get to, especially for people who couldn't afford a car or a taxi. Every decision had a cost.\n\nMaya finally arrived at her station, her shirt soaked with sweat. The train ride had been slow and uncomfortable, packed with people who, like her, were just trying to get home. She walked out onto the street, and the heat hit her like a wall. She had a ten-minute walk to her apartment, and she knew it would feel like an hour. As she walked, she passed a bus stop where a group of people were waiting. She recognized one of them, an elderly woman from her building. The woman looked pale and weak. Maya stopped.\n\n\"Are you okay?\" she asked.\n\nThe woman nodded weakly. \"I'm just waiting for the bus,\" she said. \"But it's so late. They say the heat is making everything slow.\"\n\nMaya looked at the bus stop sign. The next bus was due in twenty minutes. But in this heat, twenty minutes could be dangerous. She made a quick decision. \"Come on,\" she said, gently taking the woman's arm. \"I'll walk you to the cooling center on Fifth Street. It's not far, and they have water and air conditioning.\"\n\nThe woman hesitated, but Maya was insistent. She knew that the city's systems were failing, but that didn't mean people had to suffer alone. As they walked, Maya thought about the city's infrastructure. It was all connected. The subway she had ridden relied on electricity. The electricity relied on power plants that were struggling to stay cool. The buses relied on roads that were softening in the heat. When one part of the system failed, it created a chain reaction, affecting everything else. But the city was also made of people, and people could adapt.\n\nElena finished her last visit just as the sun began to set. She was exhausted, but she felt a sense of relief. Her patients were safe, and she had done her part. She got back into her car, which had miraculously not overheated, and began the long drive home. She listened to the radio, and the news was full of warnings about the heat. But then, the announcer's voice changed. \"We have a chance of thunderstorms tonight,\" he said. \"It might finally bring some relief.\"\n\nCarlos was on his way back to the depot when he felt the first drop of rain. It was a huge, heavy drop that landed on his arm with a splash. Then another, and another. Within minutes, the sky had darkened, and the rain was coming down in sheets. The streets, which had been empty, suddenly filled with people cheering and laughing. The rain washed away the dust and the exhaustion. Carlos stopped his bike and let the water soak him. He looked up at the sky, feeling the coolness on his face. The city was breathing again.\n\nMaya was in her apartment, watching the rain from her window. She saw the streetlights flicker, and she worried about another blackout. But the power stayed on. The rain was a welcome relief, but it also brought its own dangers. The dry ground could not absorb the water quickly, and there was a risk of flash flooding. The city had to switch from one crisis to another. She thought about the day's events, about the woman she had helped and the delays she had endured. She realized that the city's strength was not just in its pipes and wires, but in the connections between its people. The infrastructure was important, but so was kindness.\n\nAs the rain continued to fall, Elena pulled into her driveway, safe and sound. She sat in her car for a moment, listening to the rhythm of the rain on the roof. She thought about her patients, and she knew she would see them again tomorrow. Carlos finally made it back to the depot, soaked but happy. He took a towel and dried his face, thinking about the day's work. They had all survived. The city had survived. It had been a difficult day, but they had learned something important. They had learned that in a crisis, the most important system was the one that connected people to each other. The trains and the buses were crucial, but so were the small acts of help between neighbors. The city was a complex machine, but it was also a community. And that was its greatest strength.",
+      "word_count": 1459,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What caused the subway delays according to the chapter?",
+          "options": [
+            "Heat restrictions",
+            "Signal malfunction",
+            "Train breakdown",
+            "Passenger overcrowding"
+          ],
+          "correct": 0,
+          "explanation": "The digital board showed 'Delays due to heat restrictions' and the text explains that the steel rails expanded and signals malfunctioned because of the heat, but the primary cause was the heat restrictions imposed by the transit authority.",
+          "id": "reader-22-ch-5-q1",
+          "chapter_id": "reader-22-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the phrase 'snail's pace' mean in the context of the chapter?",
+          "options": [
+            "Very slowly",
+            "Very quickly",
+            "Unevenly",
+            "Dangerously"
+          ],
+          "correct": 0,
+          "explanation": "The text says the train was 'moving at a snail's pace,' which means it was moving extremely slowly.",
+          "id": "reader-22-ch-5-q2",
+          "chapter_id": "reader-22-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Carlos consider himself lucky during the heat wave?",
+          "options": [
+            "He had strong legs",
+            "He had a strong bicycle",
+            "He had water",
+            "He had air conditioning"
+          ],
+          "correct": 0,
+          "explanation": "Carlos says, 'His own engine was his legs, and they were strong,' meaning his physical strength was his advantage compared to vehicles that could break down.",
+          "id": "reader-22-ch-5-q3",
+          "chapter_id": "reader-22-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is the 'urban heat island' effect as described in the chapter?",
+          "options": [
+            "Cities are hotter than surrounding areas due to concrete and glass",
+            "Cities are cooler because of parks",
+            "Cities have more trees",
+            "Cities are affected by ocean breezes"
+          ],
+          "correct": 0,
+          "explanation": "The text explicitly states: 'Concrete, asphalt, and glass absorb heat during the day and release it slowly at night, making the city much hotter than the surrounding countryside.'",
+          "id": "reader-22-ch-5-q4",
+          "chapter_id": "reader-22-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'frail' mean in the context of the chapter?",
+          "options": [
+            "Weak and delicate",
+            "Strong and healthy",
+            "Angry",
+            "Tired"
+          ],
+          "correct": 0,
+          "explanation": "The text says Elena's patients were 'too frail to travel,' meaning they were weak and delicate, especially due to age or illness.",
+          "id": "reader-22-ch-5-q5",
+          "chapter_id": "reader-22-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Maya help the elderly woman she met at the bus stop?",
+          "options": [
+            "She walked her to a cooling center",
+            "She called an ambulance",
+            "She gave her water",
+            "She waited for the bus with her"
+          ],
+          "correct": 0,
+          "explanation": "Maya said, 'I'll walk you to the cooling center on Fifth Street. It's not far, and they have water and air conditioning.'",
+          "id": "reader-22-ch-5-q6",
+          "chapter_id": "reader-22-ch-5"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "infrastructure",
+          "definition": "The basic physical and organizational structures needed for the operation of a society or enterprise, such as roads, power lines, and public transportation."
+        },
+        {
+          "word": "gridlocked",
+          "definition": "So congested that traffic cannot move; completely stuck."
+        },
+        {
+          "word": "urban heat island",
+          "definition": "A metropolitan area that is significantly warmer than its surrounding rural areas due to human activities, concrete, asphalt, and glass absorbing and releasing heat."
+        },
+        {
+          "word": "chain reaction",
+          "definition": "A series of events in which each event is caused by the previous one, often leading to a cumulative effect."
+        },
+        {
+          "word": "frail",
+          "definition": "Weak and delicate, especially in health; easily broken or damaged."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when a basic service in your life-water, electricity, waste collection, or transport-failed, even for a short time. What did you notice, and how did you adapt? Write a short reflection (60-140 words) comparing that experience to what you learned about how cities depend on interconnected systems.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}
