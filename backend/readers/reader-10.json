@@ -1,0 +1,280 @@
+{
+  "id": "reader-10",
+  "title": "A Snowy Morning",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "everyday life",
+    "science & nature"
+  ],
+  "genre": "Short fiction",
+  "description": "A Somali family experiences their first snowfall in Minnesota, learning to stay warm and safe while the children discover the joy of winter play.",
+  "word_count": 1341,
+  "reading_time_minutes": 7,
+  "chapters": [
+    {
+      "id": "reader-10-ch-1",
+      "title": "The First Snow",
+      "text": "The house was quiet and dark. Outside, the world was white. Snow had fallen during the night. It covered the ground, the trees, and the roofs. The sky was grey and heavy. It was the first snow of the year.\n\nInside, the family was waking up. Leo was seven years old. His sister, Mia, was five. They ran to the window. They looked outside and their eyes became big.\n\n\"Look! Look!\" Leo shouted. \"It's snow!\"\n\nMia jumped up and down. \"Snow! Snow!\" she cried. \"Can we go out?\"\n\nTheir mother, Anna, came into the room. She looked at the window. She saw the white ground. She did not smile. She looked worried.\n\n\"It's so cold,\" she said. \"The car is under the snow. How will we go to the shop?\"\n\nTheir father, Tom, came in too. He looked at the snow and shook his head. \"I don't like this,\" he said. \"It's very cold. And the roads are dangerous.\"\n\nLeo and Mia did not listen to their parents. They wanted to play. They wanted to make a snowman. They wanted to throw snowballs.\n\n\"Please, please!\" they said. \"Let's go outside!\"\n\nAnna and Tom looked at each other. They did not know about snow. They were from a hot country. They had never seen snow before.\n\nJust then, the doorbell rang. It was their neighbor, Mrs. Green. She was an old woman with white hair. She smiled at the family.\n\n\"Is this your first snow?\" she asked.\n\n\"Yes,\" said Anna. \"We don't know what to do.\"\n\nMrs. Green laughed. \"Don't worry,\" she said. \"I can help you. You must wear many clothes. First, a warm shirt. Then a sweater. Then a coat. This is called wearing layers. The layers keep you warm.\"\n\nShe looked at the children. \"You need hats for your heads,\" she said. \"And scarves for your necks. And gloves for your hands. And boots for your feet. Boots are very important for the snow.\"\n\nAnna and Tom listened carefully. They went to the bedroom. They found warm clothes. They put on layers. They put on coats. They put on hats and scarves and gloves. They put on big boots.\n\n\"Now,\" said Mrs. Green, \"when you walk, be careful. The ground is slippery. Walk slowly. Do not run.\"\n\nThe children were ready first. They ran to the door. But their mother called them.\n\n\"Wait!\" she said. \"Come here. Let me put on your scarves. Good. Now, hold my hand. We will walk outside together.\"\n\nTom opened the door. Cold air came into the house. The children laughed and shouted. Anna took a deep breath. She held her children's hands. She stepped onto the white ground.",
+      "word_count": 446,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why were Leo and Mia excited?",
+          "options": [
+            "They saw snow for the first time.",
+            "They wanted to go to school.",
+            "They were hungry.",
+            "They saw a dog."
+          ],
+          "correct": 0,
+          "explanation": "The children ran to the window and shouted 'It's snow!' and wanted to go out to play, showing their excitement about the snow.",
+          "id": "reader-10-ch-1-q1",
+          "chapter_id": "reader-10-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why were Anna and Tom worried?",
+          "options": [
+            "They didn't like cold weather.",
+            "They didn't know how to drive in snow.",
+            "They were from a hot country and had never seen snow.",
+            "They were afraid of the neighbor."
+          ],
+          "correct": 2,
+          "explanation": "The text says 'They were from a hot country. They had never seen snow before.' They also worried about the car and dangerous roads.",
+          "id": "reader-10-ch-1-q2",
+          "chapter_id": "reader-10-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mrs. Green advise them to wear?",
+          "options": [
+            "Only a coat.",
+            "Many layers of clothes.",
+            "Just a hat.",
+            "Nothing special."
+          ],
+          "correct": 1,
+          "explanation": "Mrs. Green said 'You must wear many clothes... This is called wearing layers.' She explained the importance of layers for warmth.",
+          "id": "reader-10-ch-1-q3",
+          "chapter_id": "reader-10-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mrs. Green say about walking on snow?",
+          "options": [
+            "Run quickly.",
+            "Walk slowly and be careful.",
+            "Jump.",
+            "Stay inside."
+          ],
+          "correct": 1,
+          "explanation": "Mrs. Green warned 'The ground is slippery. Walk slowly. Do not run.'",
+          "id": "reader-10-ch-1-q4",
+          "chapter_id": "reader-10-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "snow",
+          "definition": "Frozen water that falls from the sky in small white flakes."
+        },
+        {
+          "word": "layers",
+          "definition": "Multiple pieces of clothing worn on top of each other."
+        },
+        {
+          "word": "slippery",
+          "definition": "Smooth and wet, making it easy to slide or fall."
+        },
+        {
+          "word": "scarf",
+          "definition": "A piece of cloth worn around the neck for warmth."
+        },
+        {
+          "word": "boots",
+          "definition": "Heavy shoes that cover the ankle and part of the leg."
+        }
+      ]
+    },
+    {
+      "id": "reader-10-ch-2",
+      "title": "Playing in the White",
+      "text": "The door opened, and a rush of cold air came in. Maria and Tom ran outside. Their boots made big holes in the white snow. \"Look! My feet are gone!\" Tom shouted. He laughed and pointed at his boots. Maria laughed too. The snow was soft and white, like sugar on the ground.\n\nDad came out slowly. He held the door with one hand. He looked at the ice on the path. It was shiny and hard. \"Be careful,\" he said. \"The ice is slippery.\" He put one foot down, then the other. His arms moved like a bird. Mom watched from the door. She laughed. \"You look funny, Dad!\"\n\n\"You try it,\" Dad said. Mom stepped out. Her feet moved slowly too. She held Dad's arm. They walked like two old penguins. Step, stop. Step, stop. The children watched and laughed.\n\nTom made a snowball. He threw it at Maria. It hit her coat. \"Hey!\" she shouted. She made a snowball too. It was big and round. She threw it. But Tom moved, and the snowball hit Dad's leg. Dad looked down. Snow was on his trousers. He smiled. \"Good throw, Maria!\"\n\nThe children played and played. They made more snowballs. They threw them at the tree. They threw them at the wall. Then Tom had an idea. \"Let's make a snowman!\"\n\n\"Yes!\" Maria said.\n\nThey made a small ball of snow. They pushed it on the ground. The ball got bigger and bigger. But the snow was too dry. It fell apart. \"Oh no!\" Tom said. He tried again. The ball broke again. \"This is hard!\"\n\nMaria slipped then. Her feet went up, and she fell down in the snow. She made a snow angel by accident. For a minute, she was quiet. Then she laughed. \"The snow is soft! It's like a bed!\" Tom fell down next to her. They lay in the snow and laughed.\n\nMom and Dad walked to them. Dad looked at their red faces. \"Your noses are red,\" he said. \"That is a sign. When it is very cold, your skin can freeze. We call it frostbite. It hurts a lot.\"\n\n\"What do we do?\" Maria asked.\n\n\"We go inside when we feel cold,\" Mom said. \"And we wear warm clothes. That is why we have hats, scarves, and gloves.\"\n\nTom touched his nose. It was cold. \"My nose is cold. Is that frostbite?\"\n\nDad smiled. \"No. It is just cold. But let's go inside for hot chocolate.\"\n\nThe children looked at each other. \"Okay,\" they said. They walked to the door. The snow was beautiful, but the house was warm. And hot chocolate was waiting.",
+      "word_count": 443,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Dad tell everyone to 'Be careful'?",
+          "options": [
+            "Because the ice on the path was slippery",
+            "Because it was snowing heavily",
+            "Because he wanted to play a game",
+            "Because the door was broken"
+          ],
+          "correct": 0,
+          "explanation": "The text says: 'He looked at the ice on the path. It was shiny and hard. \"Be careful,\" he said. \"The ice is slippery.\"' So the reason is the slippery ice.",
+          "id": "reader-10-ch-2-q1",
+          "chapter_id": "reader-10-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'frostbite' mean?",
+          "options": [
+            "A type of snowball",
+            "A skin injury caused by extreme cold",
+            "A warm drink made with chocolate",
+            "A game played in the snow"
+          ],
+          "correct": 1,
+          "explanation": "Dad explains: 'When it is very cold, your skin can freeze. We call it frostbite. It hurts a lot.' So it is a skin injury from cold.",
+          "id": "reader-10-ch-2-q2",
+          "chapter_id": "reader-10-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened when Tom and Maria tried to make a snowman?",
+          "options": [
+            "They made a perfect snowman",
+            "The snow was too dry and the ball broke apart",
+            "They used water to stick the snow together",
+            "They decided to make a snow angel instead"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'But the snow was too dry. It fell apart. \"Oh no!\" Tom said. He tried again. The ball broke again.' So the snow was too dry and broke.",
+          "id": "reader-10-ch-2-q3",
+          "chapter_id": "reader-10-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'slippery' mean?",
+          "options": [
+            "Hard to stand on without sliding",
+            "Soft and warm like a blanket",
+            "White and fluffy like sugar",
+            "Fun to throw at others"
+          ],
+          "correct": 0,
+          "explanation": "Dad warns about the ice being slippery, and then he walks with careful steps, 'His arms moved like a bird.' Slippery means it is easy to slide or lose balance on.",
+          "id": "reader-10-ch-2-q4",
+          "chapter_id": "reader-10-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "frostbite",
+          "definition": "An injury to the skin caused by very cold temperatures, which can be painful."
+        },
+        {
+          "word": "slippery",
+          "definition": "Describing a surface that is hard to stand on because it is smooth or icy, causing sliding."
+        },
+        {
+          "word": "snowball",
+          "definition": "A ball made of packed snow, often thrown in play."
+        },
+        {
+          "word": "snowman",
+          "definition": "A figure made of snow, usually shaped like a person with a head and body."
+        },
+        {
+          "word": "penguin",
+          "definition": "A bird that cannot fly and lives in cold places, known for waddling when it walks."
+        }
+      ]
+    },
+    {
+      "id": "reader-10-ch-3",
+      "title": "A Warm Evening",
+      "text": "The cold air followed them through the door, but the warm house pushed it back. They stood in the hallway, red-faced and laughing. Snow fell from their coats and made small pools on the floor. The mother shook her head but she was smiling.\n\n\"Take off your wet things,\" she said. \"Put them near the fire.\"\n\nThe children moved slowly. Their fingers were stiff and their noses were pink. But their eyes were bright. They took off their coats and their hats and their gloves. They put on dry socks. The soft socks felt very good on their cold feet.\n\nIn the kitchen, the father made tea. He put the kettle on the fire. Soon, the water sang. He poured the hot tea into big cups. The cups were warm in their hands. The children held their cups and closed their eyes. The hot drink went down into their bodies and warmed them from the inside.\n\nThey sat in the living room. The fire was big and orange. It made a happy noise. The mother gave them blankets. The children wrapped the blankets around their shoulders. They looked like small, happy animals.\n\n\"That was so fun!\" the little girl said. \"The snow is like sugar from the sky.\"\n\n\"It is not sugar,\" her brother said. \"It is cold. And it is wet.\"\n\n\"But it is beautiful,\" the mother said. \"Look at the window.\"\n\nThey all looked. The world outside was white and quiet. The sky was dark now, but the snow made everything bright. It was a strange light, soft and blue.\n\n\"I did not know snow was so quiet,\" the father said. \"When we walked, the world had no sound. It was strange.\"\n\n\"Strange and beautiful,\" the mother said. \"Two things together.\"\n\nThe children talked about their day. They talked about the snowballs and the falling. They talked about the snowman, which was not very good. Its head was too small. But they laughed about it.\n\nThe parents watched their children. They felt proud. The children were not afraid of the new and cold thing. They ran and they played. They fell and they got up. The parents saw this and their hearts were warm.\n\n\"I am happy we came outside today,\" the father said.\n\n\"Yes,\" the mother said. \"I was worried before. But now I am glad.\"\n\nThe little girl put her cup down. \"Can we go outside again tomorrow?\"\n\nThe parents looked at each other. They smiled.\n\n\"Yes,\" the father said. \"We will go outside again. We have many winter days together.\"\n\nThe fire made a soft sound. The tea was almost finished. Outside, the snow continued to fall, quiet and beautiful. Inside, the family was warm and happy.",
+      "word_count": 452,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did the mother tell the children to take off their wet things?",
+          "options": [
+            "Because they were dirty",
+            "Because they were cold and wet",
+            "Because she wanted to clean them",
+            "Because it was time for bed"
+          ],
+          "correct": 1,
+          "explanation": "The mother said 'Take off your wet things' after the children came in from the snow, and then she said 'Put them near the fire' to warm them and dry them. The text shows they were cold and wet.",
+          "id": "reader-10-ch-3-q1",
+          "chapter_id": "reader-10-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the father compare the snow's silence to?",
+          "options": [
+            "A happy noise",
+            "The sound of the tea kettle",
+            "A world with no sound",
+            "The children's laughter"
+          ],
+          "correct": 2,
+          "explanation": "The father says, 'When we walked, the world had no sound. It was strange.' This directly states the snow made the world quiet.",
+          "id": "reader-10-ch-3-q2",
+          "chapter_id": "reader-10-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'stiff' mean in the text?",
+          "options": [
+            "Soft and warm",
+            "Difficult to move because of cold",
+            "Full of energy",
+            "Happy and excited"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Their fingers were stiff and their noses were pink' after being in the cold, meaning their fingers were hard to move because of the cold.",
+          "id": "reader-10-ch-3-q3",
+          "chapter_id": "reader-10-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the parents feel proud?",
+          "options": [
+            "Because the children built a perfect snowman",
+            "Because the children were not afraid of the snow",
+            "Because the children cleaned the snow off the floor",
+            "Because the children made tea for them"
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'The children were not afraid of the new and cold thing. They ran and they played. They fell and they got up. The parents saw this and their hearts were warm.'",
+          "id": "reader-10-ch-3-q4",
+          "chapter_id": "reader-10-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stiff",
+          "definition": "Not easily bent or moved; hardened or painful, often due to cold."
+        },
+        {
+          "word": "kettle",
+          "definition": "A container used to boil water, especially for making tea."
+        },
+        {
+          "word": "blankets",
+          "definition": "Large pieces of cloth used to keep warm, often draped over the shoulders or body."
+        },
+        {
+          "word": "strange",
+          "definition": "Unusual or surprising in a way that is hard to understand."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling satisfied and pleased about something you or others have done."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time you tried something new for the first time. How did you feel before, during, and after? Write about what you learned and how you grew from that experience.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

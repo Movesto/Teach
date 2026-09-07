@@ -10,6 +10,8 @@ import PlacementTest from './pages/PlacementTest';
 import Landing from './pages/Landing';
 import AuthPage from './pages/AuthPage';
 import BookAssignment from './components/BookAssignment';
+import Library from './pages/Library';
+import ReaderView from './pages/ReaderView';
 import GrammarGuide from './pages/GrammarGuide';
 import UnitTest from './pages/UnitTest';
 import ConversationPractice from './pages/ConversationPractice';
@@ -54,6 +56,9 @@ function NavBar() {
               <>
                 <Link to="/dashboard" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Dashboard
+                </Link>
+                <Link to="/library" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
+                  Library
                 </Link>
                 <Link to="/grammar" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
                   Grammar Guide
@@ -162,6 +167,8 @@ function AppShell() {
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
         <Route path="/lesson/:lessonId" element={<ProtectedRoute><LessonView /></ProtectedRoute>} />
         <Route path="/book/:bookId" element={<ProtectedRoute><BookAssignment /></ProtectedRoute>} />
+        <Route path="/library" element={<ProtectedRoute><Library /></ProtectedRoute>} />
+        <Route path="/reader/:readerId" element={<ProtectedRoute><ReaderView /></ProtectedRoute>} />
         <Route path="/grammar" element={<ProtectedRoute><GrammarGuide /></ProtectedRoute>} />
         <Route path="/unit-test/:unitId" element={<ProtectedRoute><UnitTest /></ProtectedRoute>} />
         <Route path="/talk" element={<ProtectedRoute><ConversationPractice /></ProtectedRoute>} />

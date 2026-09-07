@@ -1,0 +1,422 @@
+{
+  "id": "reader-13",
+  "title": "The Small Shop",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "work",
+    "money"
+  ],
+  "genre": "Realistic fiction",
+  "description": "A couple's small grocery shop faces a rent increase, a dishonest supplier, and a new competitor, and they must make smart decisions to keep their business alive.",
+  "word_count": 3511,
+  "reading_time_minutes": 20,
+  "chapters": [
+    {
+      "id": "reader-13-ch-1",
+      "title": "A New Beginning",
+      "text": "Amina stood back and looked at the small shop. The white walls were clean, and the shelves were full of bright packets and tins. The smell of fresh bread and coffee came from the back. It was a good smell. It was the smell of a new beginning.\n\nOmar came to stand beside her. He put his arm around her shoulder. \"Well,\" he said. \"This is it. Our shop.\"\n\nAmina smiled. She felt a mix of excitement and fear in her stomach. \"It's ours, Omar. All ours.\"\n\nThey had worked for other people for many years. Omar had driven a taxi, and Amina had worked in a hotel kitchen. They had saved their money, a little bit at a time, for a long time. They had a dream, and the dream was this: a small grocery shop in a busy part of the city. A place where people could buy their daily needs - milk, bread, eggs, rice, and soap. A place where they could be their own bosses.\n\nThe shop was not big, but it was in a good position. It was on a corner, near a bus stop and a small park. Many people passed by every day. Amina and Omar knew that a good position was very important for a shop.\n\nTheir first week was very busy. They worked from early morning until late at night. They learned the names of their customers. There was Mr. Chen, who bought a newspaper and a bottle of water every morning. There was Mrs. Petrova, who always asked for the freshest vegetables. And there were the school children who came in the afternoon to buy sweets and cold drinks.\n\n\"Hello, Mr. Chen!\" Omar would call out when the old man came in. \"The newspaper is here, and your water is cold.\"\n\nMr. Chen would nod and smile. \"Good service, Omar. You and your wife are doing a good job.\"\n\nThese small words of praise made Omar and Amina very happy. They worked hard to make sure the shop was always clean and tidy. They checked the prices at other shops to make sure their prices were fair. They listened to their customers and tried to get the things they wanted.\n\nAfter two months, the shop was doing well. They were not rich, but they were making a small profit. They could pay for the goods from their suppliers and have a little money left for themselves. For the first time in their lives, they felt secure. They felt that they were building something for their future.\n\nOne evening, after they had closed the shop, they sat at the small table in the back room. They were counting the day's money. Amina was writing numbers in a small notebook.\n\n\"Look at this, Omar,\" she said, pointing to a number. \"This is our best day yet.\"\n\nOmar smiled. \"That's wonderful, Amina. Our hard work is paying off. Maybe next year, we can even think about hiring someone to help us.\"\n\n\"Maybe,\" Amina said, but her voice was tired. \"But first, we need to talk about the rent. It takes a lot of our money every month.\"\n\nOmar's smile disappeared. He knew the rent was high. The landlord, Mr. Haddad, was a serious man who owned many buildings in the area. He had been fair to them at the beginning, but Omar often worried about the future.\n\n\"We have a contract for one year,\" Omar said. \"The price cannot change for one year.\"\n\n\"I know,\" Amina said. \"But after that, who knows?\"\n\nThey finished their work and turned off the lights. They walked home together, their hands touching. The night air was cool and clean. They were tired, but they were happy.\n\nA few days later, a letter arrived at the shop. It was from Mr. Haddad, the landlord. Amina opened it with a strange feeling in her heart. She read the letter quickly, then read it again. Her face became pale.\n\n\"Omar,\" she said, her voice shaking. \"Omar, look at this.\"\n\nOmar took the letter from her hand. He read it slowly. The letter was polite and formal. It said that Mr. Haddad was happy that they were good tenants. It said that the area was becoming more popular, and the value of the building was going up. Because of this, the rent for the shop would increase. The new rent would be twenty percent higher than the current price. This new price would start in three months.\n\nOmar's hand holding the letter dropped to his side. He looked at Amina, and he saw the same fear in her eyes that he felt in his heart. Twenty percent. That was a lot of money. It was almost all of their profit.\n\n\"We cannot pay this,\" Amina said quietly. \"We will lose the shop.\"\n\nOmar did not answer. He just looked at the letter in his hand. The dream that they had worked so hard for suddenly felt very fragile. It was like a small flame in the wind. They had a difficult decision to make. They had to find a way to keep their business alive.",
+      "word_count": 854,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Amina and Omar do before opening the shop?",
+          "options": [
+            "They worked in a hotel and drove a taxi.",
+            "They were landlords.",
+            "They had another shop.",
+            "They were unemployed."
+          ],
+          "correct": 0,
+          "explanation": "The text says 'Omar had driven a taxi, and Amina had worked in a hotel kitchen.'",
+          "id": "reader-13-ch-1-q1",
+          "chapter_id": "reader-13-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'profit' mean in the context of the story?",
+          "options": [
+            "The money they earn from selling goods minus the cost of goods and other expenses.",
+            "The total amount of money they receive from customers.",
+            "The rent they pay to the landlord.",
+            "The money they save in the bank."
+          ],
+          "correct": 0,
+          "explanation": "The text says 'They could pay for the goods from their suppliers and have a little money left for themselves,' which indicates profit.",
+          "id": "reader-13-ch-1-q2",
+          "chapter_id": "reader-13-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why was the shop's location important?",
+          "options": [
+            "It was near a bus stop and a park, so many people passed by.",
+            "It was close to their home.",
+            "It was in a quiet area.",
+            "It was next to a school."
+          ],
+          "correct": 0,
+          "explanation": "The text says 'It was on a corner, near a bus stop and a small park. Many people passed by every day.'",
+          "id": "reader-13-ch-1-q3",
+          "chapter_id": "reader-13-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mr. Haddad's letter announce?",
+          "options": [
+            "That they had to leave the shop immediately.",
+            "That the rent would increase by twenty percent.",
+            "That they were being praised for their good service.",
+            "That the shop would be sold."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'the rent for the shop would increase. The new rent would be twenty percent higher than the current price.'",
+          "id": "reader-13-ch-1-q4",
+          "chapter_id": "reader-13-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'fragile' mean in the last paragraph?",
+          "options": [
+            "Strong and solid.",
+            "Easily broken or damaged.",
+            "Very expensive.",
+            "Full of light."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'It was like a small flame in the wind,' suggesting something easily destroyed.",
+          "id": "reader-13-ch-1-q5",
+          "chapter_id": "reader-13-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "profit",
+          "definition": "The financial gain from a business after subtracting expenses."
+        },
+        {
+          "word": "rent",
+          "definition": "A regular payment made to a landlord for the use of property."
+        },
+        {
+          "word": "landlord",
+          "definition": "A person who owns and rents out property, such as a building or shop."
+        },
+        {
+          "word": "contract",
+          "definition": "A written or spoken agreement that is legally binding."
+        },
+        {
+          "word": "fragile",
+          "definition": "Easily broken or damaged; delicate."
+        }
+      ]
+    },
+    {
+      "id": "reader-13-ch-2",
+      "title": "Trouble with the Supplier",
+      "text": "Amina and Omar sat at the small table in the back of their shop. On the table was the letter from their landlord, Mr. Haddad. The letter said that the rent would go up by twenty percent from next month. Amina looked at Omar. \"We have to talk to him,\" she said. Omar nodded. \"We can't afford this increase. Our profit is already very small.\"\n\nThey closed the shop early that afternoon and walked to Mr. Haddad's office. The office was on the second floor of an old building. Mr. Haddad was a large man with a thick grey moustache. He smiled when he saw them, but the smile did not reach his eyes.\n\n\"Mr. Haddad,\" Omar began, \"we have been good tenants. We always pay on time. Can we discuss the rent increase?\"\n\nMr. Haddad leaned back in his chair. \"The market is going up, Omar. The value of this property is rising. I must ask for a fair price.\"\n\nAmina spoke. \"But twenty percent is a lot. We are a small shop. We cannot pass this cost to our customers. They will go to the big supermarket.\"\n\nMr. Haddad shook his head. \"I have to think about my own investment. I am sorry, but the new rent is final. If you cannot pay, I will need to find another tenant.\"\n\nOmar felt his hands get cold. He looked at Amina. She looked tired. \"Please, Mr. Haddad, can we meet halfway? Ten percent?\" Omar asked.\n\nMr. Haddad stood up. \"My decision is final. You have one month to decide. I hope you stay, but I must be practical.\"\n\nThey walked out of the office in silence. The sun was hot on the street. Omar put his hand on Amina's shoulder. \"We will find a way,\" he said, but his voice did not sound sure.\n\nBack at the shop, they found a delivery truck outside. Their usual supplier, a company called \"Fresh Foods,\" had sent a new order. The driver was unloading boxes. Amina signed the delivery note.\n\nThey started to unpack the boxes. Amina opened a box of apples. She stopped. The apples were small and had brown spots. She opened another box of oranges. Many of them were soft. Omar opened a carton of milk. He looked at the date. It was only three days until it expired.\n\n\"This is not good quality,\" Amina said. \"This is not what we ordered.\"\n\nOmar looked at the invoice. He compared it with the price list they had. \"Wait,\" he said. \"Look at this. The price for rice has gone up by five percent. And the price for cooking oil is higher too. But they didn't tell us.\"\n\nAmina's face went white. \"They are cheating us. We have been loyal customers for two years.\"\n\nOmar felt a mix of anger and worry. \"First the landlord, now this. Our costs are going up, and our products are worse. We are losing money every day.\"\n\nThey sat on the boxes. Amina started to make a list. \"We need to find a new supplier,\" she said. \"But we have to be careful. We need someone reliable, with good prices and good quality.\"\n\nOmar agreed. \"We cannot trust Fresh Foods anymore. We have to search.\"\n\nThat evening, they did not watch TV. They used their old laptop and searched for local wholesalers. They made phone calls. They wrote down names and addresses.\n\nThe next morning, they visited a wholesale market on the other side of the city. The market was big and noisy. Many small shop owners were buying fruit, vegetables, and dry goods. Amina and Omar walked between the stalls. They asked about prices. They compared the quality.\n\nAt one stall, a woman named Mrs. Khalil was selling fresh vegetables. The tomatoes were red and firm. The lettuce was green and crisp. Amina asked, \"How much for a box of tomatoes?\"\n\nMrs. Khalil told her the price. Amina looked at Omar. It was ten percent cheaper than Fresh Foods. And the quality was much better.\n\nThey talked to Mrs. Khalil. She explained that she worked with local farmers. \"No middlemen,\" she said. \"That is why my prices are fair.\"\n\nOmar asked about delivery. Mrs. Khalil said she could deliver twice a week. She gave them a price list. There were no hidden fees.\n\nAmina and Omar looked at each other. This seemed perfect. But they were cautious. \"Can we try a small order first?\" Omar asked.\n\n\"Of course,\" Mrs. Khalil said with a smile. \"I want to build a long relationship with you.\"\n\nThey placed a small order for vegetables and fruit. They decided to keep using Fresh Foods for some dry goods for now, but they would test Mrs. Khalil's service.\n\nAs they drove back to the shop, Omar felt a little lighter. \"This is good, Amina. We have a new option.\"\n\nAmina nodded. \"But we still have the rent problem. We need to increase our sales. We cannot just reduce costs.\"\n\nOmar thought. \"Maybe we can offer special deals. Or we can start selling fresh bread in the morning. People love fresh bread.\"\n\nAmina smiled for the first time that day. \"That is a good idea. We can work together.\"\n\nThey parked outside their shop. The sign \"Amina & Omar's Grocery\" looked a little old. But they had new hope. They knew they had to work hard, but they were ready to fight for their small shop.",
+      "word_count": 905,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the immediate problem Amina and Omar faced at the beginning of the chapter?",
+          "options": [
+            "They had no customers.",
+            "The rent was going to increase by twenty percent.",
+            "Their supplier stopped delivering goods.",
+            "They had to close the shop immediately."
+          ],
+          "correct": 1,
+          "explanation": "The letter from Mr. Haddad said the rent would go up by twenty percent from next month, which was the main problem they discussed.",
+          "id": "reader-13-ch-2-q1",
+          "chapter_id": "reader-13-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'practical' mean as used by Mr. Haddad when he says 'I must be practical'?",
+          "options": [
+            "Helpful",
+            "Realistic",
+            "Friendly",
+            "Strict"
+          ],
+          "correct": 1,
+          "explanation": "In the context, Mr. Haddad means he has to be realistic and sensible about business, focusing on his own investment.",
+          "id": "reader-13-ch-2-q2",
+          "chapter_id": "reader-13-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Amina and Omar decide to look for a new supplier?",
+          "options": [
+            "Fresh Foods raised their prices and delivered poor-quality products.",
+            "They wanted to find cheaper prices only.",
+            "They wanted to have more variety in their stock.",
+            "They had a disagreement with the delivery driver."
+          ],
+          "correct": 0,
+          "explanation": "They discovered the apples were spotted, oranges were soft, milk was near expiry, and prices on rice and oil had increased without notice, showing poor quality and unfair pricing.",
+          "id": "reader-13-ch-2-q3",
+          "chapter_id": "reader-13-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina and Omar do after visiting Mrs. Khalil's stall?",
+          "options": [
+            "They immediately switched all their orders to Mrs. Khalil.",
+            "They placed a small test order to try her service.",
+            "They decided to continue using Fresh Foods for everything.",
+            "They asked Mrs. Khalil for a discount on the first order."
+          ],
+          "correct": 1,
+          "explanation": "They were cautious and decided to place a small order first, as Omar said, 'Can we try a small order first?'",
+          "id": "reader-13-ch-2-q4",
+          "chapter_id": "reader-13-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'reliable' mean in the context of the story?",
+          "options": [
+            "Able to be trusted",
+            "Very expensive",
+            "Located nearby",
+            "Quick in delivery"
+          ],
+          "correct": 0,
+          "explanation": "In the text, Amina says they need someone 'reliable, with good prices and good quality,' meaning someone trustworthy and dependable.",
+          "id": "reader-13-ch-2-q5",
+          "chapter_id": "reader-13-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tenant",
+          "definition": "A person who rents a property from a landlord."
+        },
+        {
+          "word": "property",
+          "definition": "A piece of land or a building that is owned."
+        },
+        {
+          "word": "investment",
+          "definition": "Money put into something to make a profit or gain an advantage."
+        },
+        {
+          "word": "wholesaler",
+          "definition": "A person or company that sells goods in large quantities to retailers."
+        },
+        {
+          "word": "reliable",
+          "definition": "Able to be trusted; dependable."
+        }
+      ]
+    },
+    {
+      "id": "reader-13-ch-3",
+      "title": "A New Competitor",
+      "text": "Amina was arranging oranges at the front of the shop when she saw the men across the street. They were carrying large signs and putting them in the window of the empty building. The signs were bright yellow and red. They said: \"Fresh Market - Everything at Low Prices. Opening Soon!\"\n\nShe called Omar immediately. He came from the back room, where he was checking the boxes from their new supplier. The new supplier had better prices and better quality, and Omar felt good about that change. But when he saw the signs, his face changed.\n\n\"That building has been empty for six months,\" he said slowly. \"Who is opening a shop there?\"\n\n\"I don't know,\" Amina said. \"But look at the signs. Low prices. Many people in this neighborhood love low prices.\"\n\nThey watched from their door as the workers put more signs in the windows. One sign showed pictures of vegetables and meat with big red numbers under them. Omar could not see the numbers clearly, but he knew they would be low. Very low.\n\nThe next week, the new shop opened. Its name was Fresh Market, and it was big and bright inside. The owners had painted the walls white and put new shelves everywhere. On the first day, a long line of people waited outside before the doors opened.\n\nAmina and Omar stood in their own shop and watched. Their shop was quiet. Only two customers came that morning. One was Mr. Hassan, an old man who lived nearby. He bought bread and milk, as he always did. The other was a young woman who bought only a bottle of water.\n\n\"This is bad,\" Omar said quietly. \"Very bad.\"\n\nThat evening, they counted the money from the day. It was the worst day since they opened the shop. Amina looked at the numbers and felt a heavy weight in her chest.\n\n\"We cannot continue like this,\" she said. \"If we lose our customers, we lose everything.\"\n\nOmar agreed. They sat at the small table in the back room and talked about what to do.\n\n\"Maybe we should lower our prices,\" Omar said. \"If we match their prices, customers will come back.\"\n\nAmina shook her head. \"We cannot. Our rent is going up, and we already pay a lot for good products. If we lower our prices too much, we will lose money on every sale. We are not a big company. We do not have the power to sell at very low prices.\"\n\nOmar knew she was right. Fresh Market was part of a large group of shops. They could buy huge amounts of products, so their costs were lower. A small shop like theirs could never win a price war.\n\n\"Then what can we do?\" Omar asked. \"Do we just close the shop and find other jobs?\"\n\n\"No,\" Amina said firmly. \"We have worked too hard. We must think of other ideas.\"\n\nThey sat in silence for a moment. Then Amina spoke again.\n\n\"We cannot compete with them on price. But we can compete on other things. We can offer products that they do not have.\"\n\n\"What products?\" Omar asked.\n\n\"We can find local producers,\" Amina said. \"There are farmers outside the city who sell good vegetables and fruit. Their products are fresh, and they are not expensive. Fresh Market sells products from big factories. Many people want fresh, local food.\"\n\nOmar thought about this. \"That is a good idea. But it will take time to find these farmers and make agreements with them.\"\n\n\"Time is something we have,\" Amina said. \"We just need to use it well.\"\n\n\"Also,\" Omar added, \"we can offer something that Fresh Market cannot offer. We know our customers. We know their names, their families, their problems. When Mrs. Karim comes in, we ask about her son. When Mr. Ali comes in, we know he likes his coffee beans from a special place. Fresh Market does not know these people.\"\n\nAmina smiled for the first time that day. \"Yes. We can offer better service. We can help people carry their bags. We can remember their orders. We can be friendly and warm. A big shop cannot do that.\"\n\nOmar nodded. \"And we can also add some small things. We can sell fresh coffee at the front of the shop. People can sit and drink it while they talk. Nobody will do that in Fresh Market.\"\n\nAmina wrote their ideas on a piece of paper. First: find local farmers and sell fresh products. Second: improve customer service and remember each customer's needs. Third: add a small coffee corner. Fourth: maybe offer home delivery for old people who cannot walk to the shop.\n\n\"We cannot do everything at once,\" she said. \"We must choose what is most important.\"\n\n\"I think the coffee corner is easy to start,\" Omar said. \"We already have a small machine from my uncle. We can buy good coffee beans and start next week.\"\n\n\"And the local farmers?\" Amina asked.\n\n\"I will visit them on my day off,\" Omar said. \"I know some farmers from my childhood village. They will help us.\"\n\nThey looked at the paper again. It was not a complete plan, but it was a start. They had ideas, and they had hope.\n\n\"We must be patient,\" Amina said. \"Customers will not come back in one day. But if we give them good reasons, they will return.\"\n\nOmar took her hand. \"We will make this work. We have each other, and we have our little shop. That is enough.\"\n\nOutside, the lights of Fresh Market were still bright across the street. But inside their small shop, Amina and Omar were making plans. They knew the road ahead would not be easy. But they were ready to try.",
+      "word_count": 962,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What do Amina and Omar see that inspires them to open their own shop?",
+          "options": [
+            "A new supermarket",
+            "Signs advertising fresh market with low prices",
+            "A farmer's market",
+            "A big sale at a store"
+          ],
+          "correct": 1,
+          "explanation": "The text says they saw signs across the street with 'Fresh Market - Everything at Low Prices' which gave them the idea.",
+          "id": "reader-13-ch-3-q1",
+          "chapter_id": "reader-13-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is their main challenge according to the text?",
+          "options": [
+            "They don't have enough money",
+            "They can't compete with big stores on price",
+            "They don't know how to run a shop",
+            "They have no customers"
+          ],
+          "correct": 1,
+          "explanation": "Amina says 'We cannot compete with them on price' and Omar agrees, indicating price competition is a challenge.",
+          "id": "reader-13-ch-3-q2",
+          "chapter_id": "reader-13-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'compete' mean in this context?",
+          "options": [
+            "To fight",
+            "To try to win or do better than others",
+            "To work together",
+            "To sell"
+          ],
+          "correct": 1,
+          "explanation": "In the text, 'compete' refers to trying to be as good or better than other shops, especially on price.",
+          "id": "reader-13-ch-3-q3",
+          "chapter_id": "reader-13-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What idea do they have to attract customers?",
+          "options": [
+            "Lower prices even more",
+            "Offer better service and local products",
+            "Advertise more",
+            "Move to a bigger location"
+          ],
+          "correct": 1,
+          "explanation": "They discuss offering better service, remembering orders, and selling local products like fresh coffee from farmers.",
+          "id": "reader-13-ch-3-q4",
+          "chapter_id": "reader-13-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'local' mean in the text?",
+          "options": [
+            "From far away",
+            "From the nearby area",
+            "From another country",
+            "From a big city"
+          ],
+          "correct": 1,
+          "explanation": "'Local' refers to things produced in the same area, like farmers from the nearby countryside.",
+          "id": "reader-13-ch-3-q5",
+          "chapter_id": "reader-13-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "fresh",
+          "definition": "Recently made or obtained; not stale or spoiled, especially for food."
+        },
+        {
+          "word": "market",
+          "definition": "A place where goods are bought and sold, often outdoors or in a building."
+        },
+        {
+          "word": "compete",
+          "definition": "To try to be better or more successful than others in business or other activities."
+        },
+        {
+          "word": "local",
+          "definition": "Belonging or relating to a particular area or neighborhood, not far away."
+        },
+        {
+          "word": "service",
+          "definition": "The action of helping or doing work for someone, especially in a shop or business."
+        }
+      ]
+    },
+    {
+      "id": "reader-13-ch-4",
+      "title": "The Decision",
+      "text": "For two days, the shop felt quiet and sad. Amina stood behind the counter and watched the street. Across the road, the new discount store was busy. People carried big bags and smiled. She turned to Omar, who was putting old apples in a box.\n\n\"We cannot fight them on price,\" she said. \"Their prices are too low. We will lose all our money.\"\n\nOmar nodded. He looked tired. \"So what do we do? We cannot just wait.\"\n\nAmina picked up one of the apples. It was soft and had a brown spot. She put it down. \"This is the problem,\" she said. \"Our supplier sends us bad fruit. The customers see it and they leave. We need to change everything.\"\n\nThat evening, they sat at the small table behind the shop. They had paper and a pen. They wrote down their ideas. Lower prices? No. That was dangerous. Special products? Maybe, but what kind? Better service? Yes, but how?\n\nThen Amina had an idea. She remembered the old market in her grandmother's town. People knew each other. They talked. The sellers knew their customers' names. It was not just about shopping. It was about community.\n\n\"We cannot be the cheapest shop,\" she said slowly. \"But we can be the friendliest shop. We can be the shop that knows its customers. We can sell fresh, local food. Good food. We can make people feel welcome.\"\n\nOmar thought about it. His face changed. A small smile appeared. \"You mean, we stop trying to be like them?\"\n\n\"Yes,\" Amina said. \"We be different. We be ourselves.\"\n\nThey made a plan. First, they needed a new supplier. They called a small farm outside the city. The farm grew vegetables and fruit. It was not expensive, but the quality was good. The farmer, a woman named Rosa, agreed to deliver fresh produce three times a week. The prices were fair, and she was honest. Amina felt hope for the first time in weeks.\n\nSecond, they created a loyalty card. Every time a customer bought something, they got a stamp. After ten stamps, they received a free loaf of bread or a basket of fruit. It was simple, but it gave people a reason to come back.\n\nThird, they decided to organize a small market day. They put a sign in the window: \"Come to Our First Market Day - Saturday at 10am.\" Omar asked Rosa to bring extra vegetables. Amina baked cakes and bread. They bought some tables and put them outside the shop.\n\nOn Saturday, the sun was bright. Amina and Omar arrived early. They put the tables out and covered them with clean white cloths. Rosa arrived with boxes of tomatoes, green beans, and fresh herbs. The smell was wonderful.\n\nAt first, nobody came. Amina felt nervous. She looked across the street. The discount store was open, but it was quiet. Then, Mrs. Chen, an old woman from the building next door, walked over.\n\n\"What is this?\" she asked, looking at the tables.\n\n\"It's a small market,\" Omar said. \"Everything is from a local farm. Fresh today.\"\n\nMrs. Chen picked up a tomato. She smelled it. \"This looks like my mother's garden,\" she said. She bought three.\n\nThen more people came. A young man bought a bag of apples. A mother bought vegetables for soup. Amina talked to everyone. She remembered their names. She asked about their children. Omar gave free coffee to everyone who bought something.\n\nAcross the street, a man from the discount store watched. He shook his head. But he did not come over.\n\nBy the end of the day, the tables were nearly empty. Amina counted the money in the box. It was not a huge amount, but it was more than they had expected. More importantly, the shop felt full of life again.\n\nA week later, Mrs. Chen came back. She had her friend with her. \"I told her about your tomatoes,\" she said. \"We want two boxes.\"\n\nThe new supplier made a big difference. The vegetables were fresh and tasty. Customers started to notice. They told their neighbors. The loyalty cards worked too. People brought them back and smiled when they got their free bread.\n\nAmina and Omar did not become rich. They still worried about the rent increase. But they had a plan, and they had each other. They had learned something important: they could not compete with the big store, but they did not need to. They had something better - trust, quality, and a place where people felt at home.\n\nOmar looked at Amina one evening as they closed the shop. \"We made the right decision,\" he said.\n\nAmina smiled. \"We made our own decision,\" she said. \"And that is the best one.\"",
+      "word_count": 790,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina and Omar decide to change their business?",
+          "options": [
+            "They wanted to move to a new location.",
+            "They couldn't compete on price with the discount store.",
+            "They had too many customers.",
+            "They wanted to sell more expensive items."
+          ],
+          "correct": 1,
+          "explanation": "The text says, 'We cannot fight them on price,' indicating they couldn't compete on price.",
+          "id": "reader-13-ch-4-q1",
+          "chapter_id": "reader-13-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the first step in their new plan?",
+          "options": [
+            "They created loyalty cards.",
+            "They organized a market day.",
+            "They needed a new supplier.",
+            "They lowered their prices."
+          ],
+          "correct": 2,
+          "explanation": "The text says, 'First, they needed a new supplier.'",
+          "id": "reader-13-ch-4-q2",
+          "chapter_id": "reader-13-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the passage, what does 'produce' mean?",
+          "options": [
+            "To make something",
+            "Fruits and vegetables",
+            "A type of meat",
+            "A discount"
+          ],
+          "correct": 1,
+          "explanation": "The text mentions 'fresh produce' in the context of vegetables and fruit from a farm.",
+          "id": "reader-13-ch-4-q3",
+          "chapter_id": "reader-13-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mrs. Chen say about the tomatoes?",
+          "options": [
+            "They were too expensive.",
+            "They were from her mother.",
+            "They looked like her mother's garden.",
+            "She didn't like them."
+          ],
+          "correct": 2,
+          "explanation": "The text says, 'This looks like my mother's garden.'",
+          "id": "reader-13-ch-4-q4",
+          "chapter_id": "reader-13-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'loyalty' mean in the phrase 'loyalty cards'?",
+          "options": [
+            "A type of discount",
+            "Faithfulness to a brand or shop",
+            "A free item",
+            "A new product"
+          ],
+          "correct": 1,
+          "explanation": "Loyalty cards reward customers for being faithful to the shop, as described in the passage.",
+          "id": "reader-13-ch-4-q5",
+          "chapter_id": "reader-13-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "produce",
+          "definition": "Fruits and vegetables grown for food."
+        },
+        {
+          "word": "loyalty",
+          "definition": "The quality of being faithful to a person, shop, or brand."
+        },
+        {
+          "word": "compete",
+          "definition": "To try to be more successful than others in business."
+        },
+        {
+          "word": "supplier",
+          "definition": "A person or company that provides goods to a shop."
+        },
+        {
+          "word": "local",
+          "definition": "Relating to a particular area or neighborhood."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a difficult choice you made about work or money. What were the options? How did you decide? What happened in the end?",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

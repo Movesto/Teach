@@ -1,0 +1,280 @@
+{
+  "id": "reader-6",
+  "title": "Saving for a Bicycle",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "money",
+    "everyday life"
+  ],
+  "genre": "Short fiction",
+  "description": "Ahmed saves for a bicycle by learning to budget and compare prices, discovering that small savings add up.",
+  "word_count": 1313,
+  "reading_time_minutes": 7,
+  "chapters": [
+    {
+      "id": "reader-6-ch-1",
+      "title": "The Long Walk",
+      "text": "Ahmed wakes up at six o'clock every morning. The sun is not up yet, but Ahmed is. He puts on his old shoes and his work clothes. He drinks a small cup of tea and eats one piece of bread. Then he leaves his small house and begins his walk.\n\nThe walk to work is long. It takes forty minutes. Forty minutes there, and forty minutes back. That is eighty minutes of walking every day. Ahmed walks past the same houses, the same trees, and the same busy road. His feet hurt. His back hurts. He is tired before his work even begins.\n\nAhmed works at a food shop in the city. He puts boxes on shelves. He cleans the floor. He helps customers find things. It is hard work, and he works for eight hours. At the end of the day, his legs are heavy. He thinks about the long walk home, and he feels sad.\n\nOne day, on his way to work, Ahmed sees a bicycle in a shop window. It is a beautiful bicycle. It is blue and black, with a strong seat and a small bell. A sign next to it says: \"Only $120.\"\n\nAhmed stops. He looks at the bicycle for a long time. He thinks about riding to work. With a bicycle, the walk of forty minutes could be a ride of fifteen minutes. He could sleep longer. He could feel less tired. He could go home faster and see his family more.\n\nHe goes into the shop. The man behind the counter smiles. \"Can I help you?\" he asks.\n\nAhmed points at the bicycle. \"How much is that bike?\"\n\n\"The blue one? That is $120. It is a very good bicycle. Very strong.\"\n\nAhmed puts his hand in his pocket. He has only ten dollars. That is his money for food for the week. He cannot buy a bicycle. He cannot even buy a part of a bicycle.\n\nHe leaves the shop and walks to work. That day, he is very quiet. His friend Leo works with him. Leo sees Ahmed's sad face.\n\n\"What is wrong, Ahmed?\" Leo asks.\n\n\"I want a bicycle,\" Ahmed says. \"But it costs $120. I have no money. I will never have a bicycle.\"\n\nLeo thinks for a minute. \"How much money can you save each week?\"\n\n\"I do not know. Maybe five dollars? I need money for food and for my family.\"\n\n\"Five dollars is good,\" Leo says. \"Five dollars every week. In one month, that is twenty dollars. In six months, that is one hundred and twenty dollars. You can buy the bicycle in six months.\"\n\nAhmed's eyes open wide. \"Six months? That is not so long.\"\n\n\"No, it is not so long,\" Leo says. \"You just need to save a little every week. Small money becomes big money.\"\n\nThat night, Ahmed walks home. He is tired, but he is not sad. He thinks about the blue bicycle. He thinks about the number one hundred and twenty. He thinks about five dollars. Small money becomes big money. He will try.",
+      "word_count": 514,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How long does Ahmed walk to work each day?",
+          "options": [
+            "Forty minutes",
+            "Eighty minutes",
+            "Fifteen minutes",
+            "One hour"
+          ],
+          "correct": 1,
+          "explanation": "The text says the walk takes forty minutes there and forty minutes back, which is eighty minutes total.",
+          "id": "reader-6-ch-1-q1",
+          "chapter_id": "reader-6-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Ahmed do at the food shop?",
+          "options": [
+            "He cooks food.",
+            "He puts boxes on shelves and cleans the floor.",
+            "He sells bicycles.",
+            "He drives a delivery truck."
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'He puts boxes on shelves. He cleans the floor. He helps customers find things.'",
+          "id": "reader-6-ch-1-q2",
+          "chapter_id": "reader-6-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'save' mean in the sentence: 'How much money can you save each week?'",
+          "options": [
+            "To spend money",
+            "To keep money for later",
+            "To borrow money",
+            "To earn money quickly"
+          ],
+          "correct": 1,
+          "explanation": "In the context, Leo asks how much Ahmed can set aside from his weekly money, so 'save' means to keep for future use.",
+          "id": "reader-6-ch-1-q3",
+          "chapter_id": "reader-6-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why does Ahmed feel sad at the end of the day before he talks to Leo?",
+          "options": [
+            "Because he has to walk home for forty minutes",
+            "Because he lost his job",
+            "Because the bicycle is too expensive",
+            "Because his family is sick"
+          ],
+          "correct": 2,
+          "explanation": "The text says: 'He thinks about the long walk home, and he feels sad.' However, the main reason for his sadness is that he cannot afford the bicycle, as shown when he says 'I want a bicycle... But it costs $120. I have no money.' So the correct answer is that the bicycle is too expensive.",
+          "id": "reader-6-ch-1-q4",
+          "chapter_id": "reader-6-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tired",
+          "definition": "Feeling that you need to rest or sleep; exhausted."
+        },
+        {
+          "word": "bicycle",
+          "definition": "A two-wheeled vehicle that you ride by pushing pedals with your feet."
+        },
+        {
+          "word": "save",
+          "definition": "To keep money so you can use it later."
+        },
+        {
+          "word": "expensive",
+          "definition": "Costing a lot of money."
+        },
+        {
+          "word": "pocket",
+          "definition": "A small bag sewn into clothing for carrying things."
+        }
+      ]
+    },
+    {
+      "id": "reader-6-ch-2",
+      "title": "The Saving Plan",
+      "text": "That evening, Ahmed sat at his small table with a pen and some paper. He wanted to make a plan. He wrote \"My Money\" at the top of the page. First, he wrote his pay from work. He gets one hundred and fifty dollars every week. That is his money in.\n\nThen, he wrote his money out. He pays sixty dollars for his room. That is his rent. He pays twenty dollars for food. He buys rice, bread, eggs, and vegetables. He pays ten dollars for his phone. That is for calls and the internet.\n\nHe looked at his paper. Sixty plus twenty plus ten is ninety dollars. He has sixty dollars left every week. But he knows he spends money on other things. He buys coffee every morning. It is two dollars. He drinks coffee five days a week. That is ten dollars a week! He thought about this. \"I like coffee,\" he said. \"But I want a bicycle more.\"\n\nHe made a new plan. No coffee from Monday to Friday. He can drink water or tea at home. That saves him ten dollars each week. But he also buys snacks sometimes. He decided to stop that too. He can save five dollars more from snacks. Now, he can save fifteen dollars a week. He wrote this number at the bottom of his paper. Fifteen dollars. He felt happy.\n\nOn Saturday, Ahmed went to look at bicycles. He went to two shops. The first shop was near his work. It had a nice blue bicycle. The man in the shop said, \"This is a good bicycle. It is one hundred and twenty dollars.\" Ahmed looked at it. It was very nice, but it was expensive.\n\nThen, he walked to the second shop. It was a little far, but the bicycles there were cheaper. He saw a red bicycle. It was strong and looked good. \"How much is this?\" Ahmed asked. The woman in the shop said, \"This one is one hundred dollars.\" The red bicycle was twenty dollars cheaper than the blue one.\n\nAhmed thought. The blue bicycle was more comfortable, but the red one was cheaper. He needs to save his money. He wants to buy a bicycle faster. He decided to get the red bicycle. One hundred dollars. With fifteen dollars a week, he can buy it in about seven weeks. That is not a long time.\n\nHe left the shop with a big smile. He had a plan. He had a goal. Now, he just needed to save his money every week. He was ready to start.",
+      "word_count": 431,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How much money does Ahmed earn every week?",
+          "options": [
+            "One hundred and fifty dollars",
+            "Ninety dollars",
+            "Sixty dollars",
+            "One hundred and twenty dollars"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'He gets one hundred and fifty dollars every week.'",
+          "id": "reader-6-ch-2-q1",
+          "chapter_id": "reader-6-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'rent' mean in the story?",
+          "options": [
+            "Money paid for food",
+            "Money paid for a place to live",
+            "Money paid for phone calls",
+            "Money saved for a bicycle"
+          ],
+          "correct": 1,
+          "explanation": "In the text, Ahmed pays sixty dollars for his room, and that is his rent.",
+          "id": "reader-6-ch-2-q2",
+          "chapter_id": "reader-6-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why does Ahmed decide to stop buying coffee?",
+          "options": [
+            "He does not like coffee anymore",
+            "He wants to save money for a bicycle",
+            "Coffee is too expensive for him",
+            "He prefers to drink tea at home"
+          ],
+          "correct": 1,
+          "explanation": "Ahmed thinks 'I like coffee, but I want a bicycle more.' So he stops coffee to save money for a bicycle.",
+          "id": "reader-6-ch-2-q3",
+          "chapter_id": "reader-6-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How much cheaper is the red bicycle than the blue one?",
+          "options": [
+            "Twenty dollars",
+            "Fifteen dollars",
+            "One hundred dollars",
+            "One hundred and twenty dollars"
+          ],
+          "correct": 0,
+          "explanation": "The blue bicycle costs 120 dollars and the red costs 100 dollars, so the red is 20 dollars cheaper.",
+          "id": "reader-6-ch-2-q4",
+          "chapter_id": "reader-6-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "definition": "A set of decisions about what to do in the future."
+        },
+        {
+          "word": "save",
+          "definition": "To keep money so you can buy something later."
+        },
+        {
+          "word": "bicycle",
+          "definition": "A vehicle with two wheels that you ride by pushing pedals."
+        },
+        {
+          "word": "expensive",
+          "definition": "Costing a lot of money."
+        },
+        {
+          "word": "cheaper",
+          "definition": "Costing less money than something else."
+        }
+      ]
+    },
+    {
+      "id": "reader-6-ch-3",
+      "title": "The New Bike",
+      "text": "After twenty weeks, Ahmed opened his small money box. He counted the money carefully. One, five, ten, fifty, ninety-five, one hundred. He had one hundred dollars! Ahmed smiled. His goal was real now. He remembered the bike in the second shop. It was one hundred dollars. It was cheaper than the first bike, and now he had enough money.\n\nThe next morning, Ahmed walked to the shop. His heart was happy and a little nervous. He saw the bike. It was blue and clean. The wheels were big and strong. Ahmed said to the shop man, \"I want to buy this bike.\" The shop man smiled. \"That is a good bike,\" he said. \"It is one hundred dollars.\" Ahmed gave him the money. The shop man gave him the bike. It was his now.\n\nAhmed took the bike outside. He put his hands on the handlebars. He put his feet on the pedals. Then he rode. At first, he was slow. The street was busy. But soon, he felt good. The wind was on his face. He rode past the coffee shop. He did not need coffee today. He was not tired. He was happy.\n\nHe rode to his work. He looked at his watch. It was only fifteen minutes! Before, the walk was forty minutes. The bike was much faster. He felt proud. He thought about the twenty weeks. Every week, he saved five dollars. Some weeks were hard. He wanted coffee. He wanted to buy things. But he did not. Now, he had a bike. The small money every week made a big change.\n\nThat evening, Ahmed rode home. The ride was easy and fun. He saw his friend near the first shop. He stopped. \"Look!\" he said. \"I have my bike!\" His friend looked at the bike. \"It is very nice,\" his friend said. \"You saved the money. You did a good job.\" Ahmed felt warm inside. He learned something important. A big goal is not one big thing. It is many small things, week after week. Saving a little was not easy, but it was simple. And now, his life was faster and better. He rode home with a big smile on his face.",
+      "word_count": 368,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed buy with his saved money?",
+          "options": [
+            "a coffee",
+            "a bike",
+            "a car",
+            "a watch"
+          ],
+          "correct": 1,
+          "explanation": "Ahmed saved $100 and bought the blue bike from the second shop.",
+          "id": "reader-6-ch-3-q1",
+          "chapter_id": "reader-6-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'goal' mean in the story?",
+          "options": [
+            "a problem",
+            "a plan or aim",
+            "a type of food",
+            "a game"
+          ],
+          "correct": 1,
+          "explanation": "Ahmed's goal was to buy the bike; it was his aim.",
+          "id": "reader-6-ch-3-q2",
+          "chapter_id": "reader-6-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How long did it take Ahmed to ride to work?",
+          "options": [
+            "40 minutes",
+            "20 minutes",
+            "15 minutes",
+            "5 minutes"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'It was only fifteen minutes!'",
+          "id": "reader-6-ch-3-q3",
+          "chapter_id": "reader-6-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'proud' mean?",
+          "options": [
+            "angry",
+            "happy about what you did",
+            "tired",
+            "sad"
+          ],
+          "correct": 1,
+          "explanation": "Ahmed felt proud because he saved money and bought the bike himself.",
+          "id": "reader-6-ch-3-q4",
+          "chapter_id": "reader-6-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "goal",
+          "definition": "something you want to achieve; an aim"
+        },
+        {
+          "word": "save",
+          "definition": "to keep money instead of spending it"
+        },
+        {
+          "word": "proud",
+          "definition": "feeling pleased and satisfied about something you did"
+        },
+        {
+          "word": "handlebars",
+          "definition": "the part of a bike you hold with your hands to steer"
+        },
+        {
+          "word": "pedals",
+          "definition": "the parts of a bike you push with your feet to make it move"
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think of something you want to buy or achieve. How can you save a little money each week? Write about your plan and how you feel about waiting for it.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "id": "reader-11",
+  "title": "The Job Interview",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "work",
+    "money"
+  ],
+  "genre": "Realistic fiction",
+  "description": "Nadia, a young woman with a gap in her work history, prepares for and attends a job interview, learns to answer a difficult question honestly, and reflects on the experience to grow in confidence.",
+  "word_count": 3385,
+  "reading_time_minutes": 19,
+  "chapters": [
+    {
+      "id": "reader-11-ch-1",
+      "title": "Research and Practice",
+      "text": "Nadia sat at her small kitchen table with her laptop open in front of her. The flat was quiet, and the only light came from the lamp above her head. On the screen was the website of Meridian Solutions, the company where she had an interview the next morning. She had been looking at the same page for almost ten minutes, but her mind kept moving in circles.\n\nShe took a deep breath and read the words again. Meridian Solutions was a medium-sized company that helped other businesses organise their data. They had offices in three cities, and they worked with clients in different countries. Nadia had found this information earlier, but she wanted to remember it clearly. If the interviewer asked her why she wanted to work there, she would have a good answer.\n\nShe opened a new page and looked at the \"About Us\" section. The company had started twelve years ago with only five people. Now they had more than two hundred employees. They talked about teamwork, honesty, and helping customers. Nadia wrote these words in her notebook. If she used the same words in her interview, the interviewer would see that she had done her research.\n\nNext, she looked at the news section. There was an article from last month about a new project with a hospital. The project was about making patient records easier to find. Nadia read the article twice. This was useful information. If the interviewer asked about recent company news, she could talk about this project. It showed that she was interested and that she paid attention.\n\nAfter an hour of research, Nadia closed the company website and opened a new document. She had a list of common interview questions that her friend Maria had sent her. The first question was easy: \"Tell me about yourself.\" Nadia had practised this answer many times. She would talk about her education, her experience with office work, and her interest in organisation and data.\n\nShe typed her answer and read it out loud. Her voice sounded strange in the empty flat. \"I studied business at college, and after that I worked for two years in a small office. I learned how to use different computer programmes, and I enjoyed helping the team stay organised. I am looking for a new challenge, and I think this position is perfect for me.\"\n\nIt sounded good. But then she looked at the next question, and her stomach felt tight. \"Can you explain the gap in your CV?\" Nadia knew this question would come. She had not worked for eight months. During that time, she had looked after her mother, who was sick. It was a true and honest answer, but she worried about how to say it.\n\nShe wrote some words in her notebook. \"I took time away from work to care for a family member. During that time, I also took an online course in Microsoft Excel, and I read books about project management. I am ready to return to work now, and I have new skills that I did not have before.\"\n\nNadia read the answer twice. It was honest, and it showed that she had used her time well. If the interviewer asked a difficult question, she would stay calm and give this answer. She wrote one more sentence at the bottom of the page: \"I am proud of what I did for my family, and I am excited about my future.\"\n\nShe closed her notebook and stretched her arms above her head. Her neck felt stiff from sitting in the same position. She stood up and walked to the kitchen to make a cup of tea. While the water boiled, she thought about the next day. She had her clothes ready, a dark blue jacket and black trousers. Her shoes were clean. Her bag was packed with copies of her CV and her certificates.\n\nWhen she sat down again, she looked at her list of skills. She had written them in the afternoon. \"I am good with computers. I can learn new programmes quickly. I work well in a team. I am careful with details. I am always on time.\" She smiled. These were true things. She did not need to invent anything.\n\nShe practised two more answers out loud. \"What are your strengths?\" and \"What are your weaknesses?\" For the weakness question, she said, \"Sometimes I spend too much time checking my work because I want everything to be perfect. I am learning to trust myself more.\" That was honest too.\n\nAt eleven o'clock, Nadia closed her laptop. She had done everything she could. If she felt nervous tomorrow, she would remember her research. If the questions were difficult, she would use her notes. If she made a mistake, she would keep going. She turned off the light and went to bed, feeling a little calmer than before. The interview was tomorrow, and she was ready.",
+      "word_count": 823,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Nadia want to read the Meridian Solutions website carefully?",
+          "options": [
+            "She wanted to find the office address.",
+            "So she could give a good answer at the interview about why she wanted to work there.",
+            "She was checking if they had any job vacancies.",
+            "She wanted to see what the salary would be."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'If the interviewer asked her why she wanted to work there, she would have a good answer.' This shows her purpose was to be prepared to answer interview questions.",
+          "id": "reader-11-ch-1-q1",
+          "chapter_id": "reader-11-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'Can you explain the gap in your CV?', what does the word 'gap' most likely refer to?",
+          "options": [
+            "A printing mistake on the CV",
+            "A period of time without work",
+            "A missing page of the document",
+            "A difference between two skills"
+          ],
+          "correct": 1,
+          "explanation": "A 'gap' in a work history is a period when someone was not employed, as Nadia had an eight-month break.",
+          "id": "reader-11-ch-1-q2",
+          "chapter_id": "reader-11-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Nadia do during her eight months without a job?",
+          "options": [
+            "She went on a long holiday.",
+            "She looked after her mother and took an online course.",
+            "She worked part-time in a hospital.",
+            "She looked for a new flat."
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'I took time away from work to care for a family member. During that time, I also took an online course in Microsoft Excel.'",
+          "id": "reader-11-ch-1-q3",
+          "chapter_id": "reader-11-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "The sentence 'Her neck felt stiff from sitting in the same position' - what does 'stiff' mean here?",
+          "options": [
+            "Sore and difficult to move",
+            "Very relaxed",
+            "Broken",
+            "Warm and comfortable"
+          ],
+          "correct": 0,
+          "explanation": "When muscles are stiff, they feel tight and painful to move, especially after sitting for a long time.",
+          "id": "reader-11-ch-1-q4",
+          "chapter_id": "reader-11-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Nadia's plan if she felt nervous or made mistakes during the interview?",
+          "options": [
+            "She would remember her research and keep working through the questions.",
+            "She would end the interview early.",
+            "She would call her friend for advice.",
+            "She would give a longer answer than expected."
+          ],
+          "correct": 0,
+          "explanation": "The end says: 'If she felt nervous tomorrow, she would remember her research. If the questions were difficult, she would use her notes. If she made a mistake, she would keep going.'",
+          "id": "reader-11-ch-1-q5",
+          "chapter_id": "reader-11-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "research",
+          "definition": "The careful study of information to learn about a topic."
+        },
+        {
+          "word": "practise",
+          "definition": "To do an activity or exercise many times to improve."
+        },
+        {
+          "word": "stiff",
+          "definition": "Not easily bent or moved, often causing pain (like muscles after sitting)."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling pleased about something you have done or achieved."
+        },
+        {
+          "word": "calmer",
+          "definition": "More relaxed and quiet after feeling nervous or worried."
+        }
+      ]
+    },
+    {
+      "id": "reader-11-ch-2",
+      "title": "The Big Day",
+      "text": "The morning light came through the window, and Nadia opened her eyes. For a moment, she did not know where she was. Then she remembered. Today was the interview. Her stomach felt strange, like it was full of butterflies. She sat up in bed and took a deep breath. She had prepared well. She had read everything about the company, and she had practiced her answers many times. Now she just needed to get ready.\n\nShe walked to the bathroom and looked at herself in the mirror. \"You can do this,\" she said quietly. Her voice sounded a little shaky. She washed her face with cold water and felt a little better. Back in her bedroom, she looked at the clothes she had prepared the night before. A dark blue jacket, a white shirt, and black trousers. They were simple and professional. She put them on carefully and looked in the mirror again. She looked different. She looked like someone who worked in an office. That was good. That was the idea.\n\nFor breakfast, she ate a small piece of toast and drank a cup of tea. She was not very hungry, but she knew she needed energy. She checked the time. The interview was at ten o'clock, and the office was a thirty-minute train ride away. She wanted to arrive early. Being late would be terrible. She put her notes in her bag, along with an extra copy of her CV. She took one last look at herself in the hall mirror, picked up her keys, and left the apartment.\n\nThe street was busy with people going to work. Nadia walked to the station and bought her ticket. She found a seat on the train and looked out the window. The city passed by in a blur of buildings and cars. She thought about the questions she might be asked. \"Why do you want this job?\" \"What are your strengths?\" \"Tell me about a time you worked in a team.\" She had practiced all of these. She repeated the answers in her head. If she stayed calm, she would be fine.\n\nThe train arrived, and she followed the directions on her phone. The company office was a tall, modern building with glass walls. She stopped outside for a moment and looked up at it. It looked very important. She took another deep breath. She checked her phone. It was nine forty-five. She was fifteen minutes early. Perfect. She walked into the building and spoke to the receptionist, a friendly woman with a kind smile.\n\n\"Good morning. I have an interview with Ms. Carter at ten o'clock. My name is Nadia.\"\n\nThe receptionist checked a computer screen and nodded. \"Please take a seat. Ms. Carter will come down to meet you.\"\n\nNadia sat in a comfortable chair in the waiting area. She looked around the room. There were some plants and a few magazines on a low table. She did not feel like reading. She just wanted to wait. After a few minutes, she heard footsteps. A woman in a grey suit walked towards her. She was tall and had short, dark hair. She smiled.\n\n\"Hello, Nadia. I'm Ms. Carter. It's nice to meet you. Please, follow me.\"\n\nNadia stood up and smiled back. \"It's nice to meet you too. Thank you for seeing me.\"\n\nThey walked down a long corridor and into a small meeting room. There was a table with four chairs and a window that looked out over the city. Ms. Carter sat down and gestured to a chair. \"Please, sit down. Can I get you some water?\"\n\n\"No, thank you. I'm fine,\" Nadia said. She sat down and put her bag on the floor beside her. She felt nervous, but she also felt a little excited. This was her chance.\n\nMs. Carter looked at some papers on the table. \"So, Nadia. I've read your CV. It's very interesting. Can you tell me a little about yourself?\"\n\nNadia had practiced this question. She smiled and began. \"Of course. I studied business at college, and after that, I worked in a small company for two years. I learned a lot there, especially about customer service and working with a team. I want to develop my career, and I think this job is a perfect opportunity for me.\"\n\nMs. Carter nodded. \"That's good. Why did you choose our company?\"\n\nNadia felt more confident now. \"I researched your company online. I was impressed by your work with local communities. I think it's important for a business to be responsible. I would be proud to work for a company with those values.\"\n\nMs. Carter seemed pleased. \"What would you say is your greatest strength?\"\n\n\"I am very organized,\" Nadia said. \"I always make lists and plan my work carefully. If I have a lot of tasks, I can prioritize them and manage my time well. I think that is very important in an office job.\"\n\nThey continued talking. Ms. Carter asked about her computer skills and about a project she had worked on in her last job. Nadia answered each question clearly. She gave examples from her past experience. She began to relax. The conversation felt natural, like two people talking, not like a test. She even made a small joke, and Ms. Carter laughed.\n\nAt the end of the interview, Ms. Carter stood up and shook Nadia's hand. \"Thank you for coming in today, Nadia. It was a pleasure to meet you. We have a few more interviews this week, but we will contact you by Friday.\"\n\nNadia smiled. \"Thank you for your time. I really enjoyed talking with you.\"\n\nShe walked out of the building and into the fresh air. The sun was shining. She felt a huge sense of relief. She did not know if she would get the job, but she had done her best. She had answered the questions and she had felt confident. As she walked back to the station, she thought about what she would do if she got the job. She would be very happy. And if she didn't, she would try again. For now, she was proud of herself. That was enough.",
+      "word_count": 1030,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Nadia do the night before the interview?",
+          "options": [
+            "She prepared her clothes.",
+            "She studied for a test.",
+            "She called Ms. Carter.",
+            "She went to the office."
+          ],
+          "correct": 0,
+          "explanation": "The text says she looked at the clothes she had prepared the night before.",
+          "id": "reader-11-ch-2-q1",
+          "chapter_id": "reader-11-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the story, what does 'butterflies' mean?",
+          "options": [
+            "Insects",
+            "A nervous feeling",
+            "A happy feeling",
+            "Excitement"
+          ],
+          "correct": 1,
+          "explanation": "Her stomach felt strange, like it was full of butterflies, meaning she was nervous.",
+          "id": "reader-11-ch-2-q2",
+          "chapter_id": "reader-11-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How early did Nadia arrive at the company?",
+          "options": [
+            "10 minutes early",
+            "15 minutes early",
+            "30 minutes early",
+            "Exactly on time"
+          ],
+          "correct": 1,
+          "explanation": "She checked her phone and saw it was nine forty-five, which was fifteen minutes before the ten o'clock interview.",
+          "id": "reader-11-ch-2-q3",
+          "chapter_id": "reader-11-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'prioritize' mean as used in the chapter?",
+          "options": [
+            "To put in order of importance",
+            "To ignore",
+            "To delay",
+            "To forget"
+          ],
+          "correct": 0,
+          "explanation": "Nadia says she can prioritize tasks and manage her time, meaning she arranges them by importance.",
+          "id": "reader-11-ch-2-q4",
+          "chapter_id": "reader-11-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ms. Carter say about the decision at the end of the interview?",
+          "options": [
+            "She would call Nadia tomorrow.",
+            "She would contact Nadia by Friday.",
+            "She offered Nadia the job.",
+            "She said Nadia didn't get the job."
+          ],
+          "correct": 1,
+          "explanation": "Ms. Carter said, 'We will contact you by Friday.'",
+          "id": "reader-11-ch-2-q5",
+          "chapter_id": "reader-11-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "butterflies",
+          "definition": "A nervous feeling in the stomach"
+        },
+        {
+          "word": "professional",
+          "definition": "Suitable for a work environment; businesslike"
+        },
+        {
+          "word": "receptionist",
+          "definition": "A person who greets visitors and answers calls in an office"
+        },
+        {
+          "word": "prioritize",
+          "definition": "To arrange or deal with in order of importance"
+        },
+        {
+          "word": "relief",
+          "definition": "A feeling of relaxation after worry or stress"
+        }
+      ]
+    },
+    {
+      "id": "reader-11-ch-3",
+      "title": "The Tough Question",
+      "text": "Ms. Carter looked down at the papers on her desk and turned over a page of Nadia's CV. She paused for a moment, and then she looked up with a calm expression on her face. \"I notice there is a gap in your work history,\" she said. \"From last year, there is about twelve months where you were not working. Can you tell me about that time?\"\n\nNadia felt her stomach tighten. She had known this question would come. She had practised an answer the night before, but now, sitting in the bright office with Ms. Carter watching her, it felt much harder to speak. She took a deep breath and let it out slowly. She reminded herself that she had prepared for this moment.\n\n\"Yes, of course,\" she said, her voice steady. \"During that year, I was caring for my grandmother. She became very ill, and my family decided that someone needed to stay with her full-time. I was the one who could do it, so I moved in with her for about a year.\"\n\nShe paused and looked at Ms. Carter to see how she was receiving the information. The interviewer's face did not change, so Nadia continued. \"It was a difficult time, but it was also very important to me. My grandmother was a strong woman, and I learned a lot about patience and responsibility during those months.\"\n\nMs. Carter nodded slowly. \"That must have been challenging,\" she said. \"How did you manage your time and your own needs during that period?\"\n\nNadia smiled a little. \"It was a question of organisation,\" she said. \"I had to plan every day. I made a schedule for her medicine, for her meals, and for her appointments with the doctor. I also had to keep in contact with her doctors and explain her situation to them clearly. At first, I felt overwhelmed. But after a few weeks, I learned how to manage everything step by step.\"\n\nShe continued, feeling more comfortable now. \"I also learned to stay calm under pressure. There were days when things did not go as planned, and I had to think quickly and find solutions. If I had not had that experience, I do not think I would be as patient or as organised as I am today.\"\n\nMs. Carter wrote something on her notepad. Then she asked, \"And how do you think those skills are useful for this job?\"\n\nNadia had prepared for this part. \"I believe they are very useful,\" she said. \"In this role, you need to manage multiple tasks at the same time, and you need to communicate clearly with clients and with your team. My time with my grandmother taught me how to prioritise and how to stay focused, even when there are many things happening at once. If I could handle a medical emergency calmly, I am confident that I can handle a busy day in the office.\"\n\nShe also mentioned the practical skills she had gained. \"I learned to keep careful records of her appointments and her expenses. I became good at writing clear emails to her doctors and to other family members. Those are skills that I can use every day in an office environment.\"\n\nMs. Carter looked at her for a long moment. Then she nodded and said, \"That is a very honest answer. Many people try to hide gaps in their CV, or they make up a story. I appreciate that you told me the truth and that you explained what you learned from that time.\"\n\nNadia felt a wave of relief. She had been worried that the gap would be a problem, but now it felt like a strength. She had shown that she could be honest, that she could take responsibility, and that she could turn a difficult situation into a learning experience.\n\n\"Thank you,\" she said. \"I was nervous about that question, but I believe that being honest is the best approach. If I had tried to hide it, I would not have felt good about myself.\"\n\nMs. Carter smiled slightly. \"That is a good attitude,\" she said. \"Honesty is important in any workplace.\" She looked at her notes and then asked another question, this time about Nadia's computer skills. But Nadia felt lighter now. The hardest part was over. She had faced the tough question and she had answered it well. Whatever happened next, she knew she had done her best.",
+      "word_count": 739,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the reason for the gap in Nadia's work history?",
+          "options": [
+            "She was unemployed for a year.",
+            "She was caring for her grandmother.",
+            "She was traveling abroad.",
+            "She was ill and could not work."
+          ],
+          "correct": 1,
+          "explanation": "Nadia explained that she was caring for her grandmother who became very ill, so she moved in with her for about a year.",
+          "id": "reader-11-ch-3-q1",
+          "chapter_id": "reader-11-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Nadia feel when Ms. Carter asked about the gap?",
+          "options": [
+            "Confident and relaxed.",
+            "Nervous and worried.",
+            "Angry and defensive.",
+            "Bored and uninterested."
+          ],
+          "correct": 1,
+          "explanation": "Nadia felt her stomach tighten and she had practised an answer the night before, which shows she was nervous.",
+          "id": "reader-11-ch-3-q2",
+          "chapter_id": "reader-11-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What skill did Nadia say she learned from caring for her grandmother?",
+          "options": [
+            "Computer programming.",
+            "Time management and organisation.",
+            "Public speaking.",
+            "Cooking and cleaning."
+          ],
+          "correct": 1,
+          "explanation": "Nadia said she learned to plan every day, make schedules, and manage everything step by step, which are time management and organisation skills.",
+          "id": "reader-11-ch-3-q3",
+          "chapter_id": "reader-11-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the context of 'gap in your work history', what does 'gap' mean?",
+          "options": [
+            "A break or period of time.",
+            "A mistake or error.",
+            "A lie or falsehood.",
+            "A success or achievement."
+          ],
+          "correct": 0,
+          "explanation": "In this context, 'gap' refers to a period of time when Nadia was not working, i.e., a break in her employment history.",
+          "id": "reader-11-ch-3-q4",
+          "chapter_id": "reader-11-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'overwhelmed' mean as used in the text?",
+          "options": [
+            "Feeling very excited.",
+            "Feeling stressed and unable to cope.",
+            "Feeling bored and tired.",
+            "Feeling angry and frustrated."
+          ],
+          "correct": 1,
+          "explanation": "Nadia said 'At first, I felt overwhelmed', meaning she felt that the situation was too much to handle, i.e., stressed and unable to cope.",
+          "id": "reader-11-ch-3-q5",
+          "chapter_id": "reader-11-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "gap",
+          "definition": "A period of time when something is missing, such as a break in employment."
+        },
+        {
+          "word": "overwhelmed",
+          "definition": "Feeling that something is too much to handle or manage."
+        },
+        {
+          "word": "prioritise",
+          "definition": "To arrange or deal with things in order of importance."
+        },
+        {
+          "word": "patient",
+          "definition": "Able to accept delays or problems without becoming annoyed or anxious."
+        },
+        {
+          "word": "honest",
+          "definition": "Truthful and sincere; not hiding anything."
+        }
+      ]
+    },
+    {
+      "id": "reader-11-ch-4",
+      "title": "Looking Back",
+      "text": "Nadia stepped out of the office building and took a long, slow breath. The cold air felt good on her face. She started to walk home, but her mind was still in the interview room. She could almost hear Ms. Carter's voice and see her kind but serious eyes. The whole experience felt like a dream, but a good dream. She put her hands in her coat pockets and began to replay everything in her head.\n\nFirst, she thought about the beginning. When she had walked into the room, her heart was beating fast. She remembered how she had almost dropped her bag. But then she saw Ms. Carter smile, and that smile made her feel a little calmer. She had answered the first questions about her skills and her motivation. She talked about the projects she had done in her last job, and she explained why she wanted this new position. It was easier than she had expected. She felt a small wave of pride. All that practice the night before had really helped. The words had come out smoothly, not like she had practised them, but like she really meant them.\n\nThen she thought about the middle of the interview. There were some questions that were harder. Ms. Carter asked her about a time when she had to work with a difficult person. Nadia had to think for a moment. She remembered a colleague who never listened to others. She described the situation honestly, and she explained how she had tried to find a solution by talking calmly. She didn't say anything bad about that person. She just described what she did. That felt right. She knew that in a job, you must show that you can be professional, even in difficult situations.\n\nAnd then came the part that she had been most afraid of. The question about the gap in her CV. When Ms. Carter asked it, Nadia's stomach had turned into a tight knot. For a second, she wanted to make up a story. She could have said she was travelling, or that she was studying. But she remembered what she had told herself the night before. Be honest. She took a deep breath, and she told the truth. She explained that she had left her job to care for her grandmother, who was very sick. She said it was a hard year, but also a special one. She talked about the patience she learned, and how she became better at organising things. She told Ms. Carter that she had learned to stay calm in stressful situations.\n\nWalking down the street now, Nadia felt her eyes get a little wet. She was not sad. She was proud. She had been so worried that the gap would be a problem. She had thought that Ms. Carter would see it as a weakness. But the truth was different. When Nadia was honest, the room felt lighter. Ms. Carter had nodded, and her eyes showed interest. She even said that taking care of a family member showed responsibility. Nadia smiled at that memory. It was a big lesson. She understood now that hiding the truth makes you weak, but telling the truth makes you strong. If she had lied, she would have felt nervous for the rest of the interview. She would have been afraid of making a mistake. Because she was honest, she felt free.\n\nAs she walked past a small park, she slowed down. She thought about what she could have done better. Maybe she spoke too fast at the beginning. Her voice was a little shaky. Next time, she would try to breathe more between sentences. She also wished she had asked more questions at the end. She had asked one about the team, but she could have asked about training opportunities. If she had another interview, she would prepare more questions. But these were small things. She didn't feel bad about them. It was her first interview in two years, so it was normal to be a little rusty.\n\nShe turned the corner onto her street, and the sun came out from behind a cloud. The light felt warm on her face. She thought about the future. Maybe she would get a call from Ms. Carter next week. Maybe she wouldn't. But she knew one thing for sure. She had done her best. She had been honest, and she had shown her true self. That was all she could do. She felt a new feeling in her chest. It was hope. Whatever happened, this experience had taught her something valuable. She was ready for the next step, and she was stronger than she thought. She unlocked her front door and smiled. Whatever came next, she would be okay.",
+      "word_count": 793,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Nadia do when asked about the gap in her CV?",
+          "options": [
+            "She made up a story about travelling.",
+            "She told the truth about caring for her grandmother.",
+            "She said she was studying.",
+            "She refused to answer."
+          ],
+          "correct": 1,
+          "explanation": "Nadia chose to be honest and explained that she left her job to care for her sick grandmother.",
+          "id": "reader-11-ch-4-q1",
+          "chapter_id": "reader-11-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'rusty' mean in the context 'it was normal to be a little rusty'?",
+          "options": [
+            "Covered in rust",
+            "Out of practice",
+            "Angry",
+            "Tired"
+          ],
+          "correct": 1,
+          "explanation": "Rusty means not as skilled as before due to lack of practice, which fits Nadia's situation.",
+          "id": "reader-11-ch-4-q2",
+          "chapter_id": "reader-11-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Nadia feel after being honest about the gap?",
+          "options": [
+            "Nervous and afraid",
+            "Proud and free",
+            "Sad and regretful",
+            "Angry and frustrated"
+          ],
+          "correct": 1,
+          "explanation": "Nadia felt proud and free because honesty made her feel strong and not nervous for the rest of the interview.",
+          "id": "reader-11-ch-4-q3",
+          "chapter_id": "reader-11-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ms. Carter say about Nadia's care for her grandmother?",
+          "options": [
+            "It was a weakness.",
+            "It showed responsibility.",
+            "It was a mistake.",
+            "She didn't comment."
+          ],
+          "correct": 1,
+          "explanation": "Ms. Carter said that taking care of a family member showed responsibility.",
+          "id": "reader-11-ch-4-q4",
+          "chapter_id": "reader-11-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'replay' mean in the first paragraph?",
+          "options": [
+            "To play again",
+            "To think about again",
+            "To record",
+            "To forget"
+          ],
+          "correct": 1,
+          "explanation": "Replay here means to go over the interview in her mind, not to actually play something.",
+          "id": "reader-11-ch-4-q5",
+          "chapter_id": "reader-11-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "gap",
+          "definition": "A period of time when something is missing or not happening; in a CV, a time without a job."
+        },
+        {
+          "word": "professional",
+          "definition": "Behaving in a proper and responsible way, especially in a work situation."
+        },
+        {
+          "word": "honest",
+          "definition": "Telling the truth and not hiding anything."
+        },
+        {
+          "word": "rusty",
+          "definition": "Not as good at something as before because you haven't done it for a while."
+        },
+        {
+          "word": "responsibility",
+          "definition": "The duty to take care of something or someone."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Imagine you are Nadia after the interview. Write a short diary entry (60-140 words) about your feelings and what you learned from the experience. Use conditional sentences to talk about what you would do differently if you had another interview, for example: 'If I had more time, I would...' or 'If I were the interviewer, I would...'.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}
