@@ -21,6 +21,7 @@ KOKORO_VOICE = "bm_george"
 
 BACKEND_DIR = Path(__file__).parent.parent
 BOOKS_DIR = BACKEND_DIR / "books"
+READERS_DIR = BACKEND_DIR / "readers"   # in-app graded readers (Phase 4)
 AUDIO_DIR = BACKEND_DIR / "audio"
 LESSONS_DIR = BACKEND_DIR
 UNIT_TESTS_DIR = BACKEND_DIR / "unit-tests"

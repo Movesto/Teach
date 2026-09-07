@@ -64,13 +64,21 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
         "max_tokens": max_tokens,
         "temperature": 0.7,
     }
-    # OpenRouter-only: on a 429 for the primary model, fall through this list.
-    if LLM_FALLBACK_MODELS and "openrouter.ai" in QWEN_URL:
-        body["models"] = [QWEN_MODEL, *LLM_FALLBACK_MODELS]
+    if "openrouter.ai" in QWEN_URL:
+        # The free OpenRouter models are reasoning models. Left unchecked, their
+        # chain-of-thought consumes the whole max_tokens budget and `content` comes
+        # back null. A chat reply doesn't need visible reasoning, so disable it.
+        body["reasoning"] = {"enabled": False}
+        # On a 429 for the primary model, fall through to these alternates.
+        if LLM_FALLBACK_MODELS:
+            body["models"] = [QWEN_MODEL, *LLM_FALLBACK_MODELS]
     try:
         resp = await _client.post(QWEN_URL, headers=headers, json=body)
         resp.raise_for_status()
-        return strip_markdown(resp.json()["choices"][0]["message"]["content"])
+        content = (resp.json()["choices"][0]["message"].get("content") or "").strip()
+        if not content:
+            raise ValueError("model returned empty content")
+        return strip_markdown(content)
     except Exception as e:
         logger.error("Qwen request failed: %s", e)
         raise HTTPException(
