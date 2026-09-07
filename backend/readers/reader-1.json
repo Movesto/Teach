@@ -1,0 +1,280 @@
+{
+  "id": "reader-1",
+  "title": "The New Neighbour",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "everyday life",
+    "faith & culture"
+  ],
+  "genre": "Short fiction",
+  "description": "Amina and her family start a new life in a new city, and a kind neighbour helps them find their way.",
+  "word_count": 1335,
+  "reading_time_minutes": 7,
+  "chapters": [
+    {
+      "id": "reader-1-ch-1",
+      "title": "The New Apartment",
+      "text": "The van stopped outside a tall, grey building. Amina looked out of the window. The street was busy. She saw shops, cars, and many people. She felt a little scared. This was their new home. Her father, Youssef, paid the driver. Then he opened the big door of the building. The family carried their bags up the stairs. It was a long climb to the third floor.\n\nThe apartment was small. There was a living room, a small kitchen, and two bedrooms. The rooms were empty. The floor was clean, but the walls were white and bare. Amina’s mother, Fatima, sighed. “It is very quiet here,” she said softly. Amina looked at the window. She could see the roofs of other buildings. She could hear the city noise. It was all new.\n\nThey were all tired. Youssef put the bags down in the living room. Amina sat on the floor next to her little brother, Sami. Sami was five years old. He was sleepy and a little unhappy. “Where is my room?” he asked. Amina pointed to the small bedroom. “That is your room,” she said. Her voice was not sure.\n\nThen they heard a knock at the door. Youssef opened it. An older man stood there. He had grey hair and a kind, round face. He smiled at them. “Hello,” he said. “I am Mr. Okoro. I live in the apartment next to you. I saw your van. Welcome to the building.”\n\nFatima smiled. “Thank you. I am Fatima. This is my husband, Youssef, and my children, Amina and Sami.” Mr. Okoro nodded. “You look very tired,” he said. “Moving is hard work. Do you need anything?”\n\nYoussef shook his head. “No, thank you. We are okay.” But Mr. Okoro looked at them. He saw their empty kitchen. “I have a little time,” he said. “Come. I can show you the market. It is very near. You can buy food for tonight.” Fatima looked at Youssef. Youssef looked at the children. Then he smiled. “Okay,” he said. “Thank you. That is very kind.”\n\nThey walked with Mr. Okoro down the stairs and out into the street. The city was loud and bright. Mr. Okoro walked slowly. He pointed to a small street on the left. “The market is there,” he said. “It is open every day. You can find fruit, vegetables, and bread.” They walked into the market. The smells were wonderful. Sami smiled. Amina looked at the big piles of oranges and tomatoes. She felt a little better. Mr. Okoro helped them buy some bread and milk. Then they walked back to the apartment.\n\nInside, Fatima put the bread on the table. Youssef smiled at Mr. Okoro. “Thank you for your help,” he said. Mr. Okoro laughed. “You are welcome,” he said. “You are my neighbours now. We help each other here.” He said goodbye and went to his door.\n\nAmina looked around the small, quiet apartment. It was still empty. But now, she knew the way to the market. And she knew a friendly name: Mr. Okoro. She smiled. Maybe this new city was not so bad.",
+      "word_count": 520,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina feel scared at first?",
+          "options": [
+            "She was hungry",
+            "The building was tall",
+            "The street was busy and it was new",
+            "She didn't like her father"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'She felt a little scared. This was their new home.' and describes the busy street, indicating the newness made her scared.",
+          "id": "reader-1-ch-1-q1",
+          "chapter_id": "reader-1-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mr. Okoro offer to do for the family?",
+          "options": [
+            "Give them furniture",
+            "Show them the market",
+            "Carry their bags",
+            "Clean the apartment"
+          ],
+          "correct": 1,
+          "explanation": "Mr. Okoro says 'I can show you the market. It is very near.' and then takes them there.",
+          "id": "reader-1-ch-1-q2",
+          "chapter_id": "reader-1-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'bare' mean in the sentence 'The walls were white and bare'?",
+          "options": [
+            "Empty",
+            "Dirty",
+            "Colorful",
+            "Warm"
+          ],
+          "correct": 0,
+          "explanation": "In the context, 'bare' means without decoration or furniture, i.e., empty.",
+          "id": "reader-1-ch-1-q3",
+          "chapter_id": "reader-1-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel at the end of the chapter?",
+          "options": [
+            "Still scared",
+            "Happy and hopeful",
+            "Angry",
+            "Tired but sad"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'She smiled. Maybe this new city was not so bad.' showing she felt better and hopeful.",
+          "id": "reader-1-ch-1-q4",
+          "chapter_id": "reader-1-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "apartment",
+          "definition": "A set of rooms for living in, usually on one floor of a building."
+        },
+        {
+          "word": "market",
+          "definition": "A place where people buy and sell goods, often outdoors or in a building."
+        },
+        {
+          "word": "neighbour",
+          "definition": "A person who lives near you, often in the same building or street."
+        },
+        {
+          "word": "tired",
+          "definition": "Feeling that you need rest or sleep."
+        },
+        {
+          "word": "bare",
+          "definition": "Empty, without any decoration or covering."
+        }
+      ]
+    },
+    {
+      "id": "reader-1-ch-2",
+      "title": "The Clinic and the Mosque",
+      "text": "Three days passed. Amina's family began to feel more at home. The apartment was small, but it was clean and warm. Amina liked the big window in her room. She could see the street below.\n\nBut on the fourth day, Amina's mother felt sick. Her head hurt, and she was very tired. She stayed in bed all morning.\n\n\"I need to see a doctor,\" she said.\n\nAmina's father looked worried. \"But we do not know where the clinic is,\" he said.\n\n\"I can help,\" said a voice at the door. It was Mr. Okoro. He smiled kindly. \"I will take you to the clinic. It is not far from here.\"\n\nSo they walked together. Amina held her mother's hand. The streets were busy. Cars and buses passed by. Mr. Okoro walked slowly so everyone could follow.\n\nSoon they arrived at a white building. There was a red sign on the door. It said \"Clinic.\"\n\nInside, it was quiet and cool. A kind nurse spoke to them. She asked Amina's mother some questions. Then a doctor came. He was a young man with a friendly face.\n\n\"Don't worry,\" the doctor said. \"You are tired. That is all. You need rest and good food.\"\n\nHe gave them some medicine. Amina's mother smiled. She felt better already.\n\n\"Thank you,\" she said.\n\nWhen they left the clinic, Mr. Okoro said, \"Now I will show you the mosque. It is near here. We can pray together.\"\n\nThey walked for a short time. Then Amina saw a beautiful building with a tall tower. It was the mosque. The door was big and wooden. Inside, there were soft carpets and a quiet feeling.\n\nMany people were there. Some were praying. Some were reading. Amina and her family sat down. Mr. Okoro sat next to them.\n\nThey prayed together. Amina closed her eyes. She thought about her new home, her new city, and her new friend, Mr. Okoro.\n\nWhen they finished, Amina felt calm. Her heart was quiet. She was not afraid anymore.\n\n\"Thank you, Mr. Okoro,\" she said. \"You are very kind.\"\n\n\"It is my pleasure,\" he said. \"You are my neighbours now. We help each other in this city.\"\n\nOn the way home, Amina looked at the streets again. The cars did not seem so noisy now. The buildings did not seem so tall. The city felt like home.\n\nHer mother walked more slowly, but she was smiling. Amina was grateful. She had a new home, a new friend, and a place to pray.\n\nThat night, Amina slept very well.",
+      "word_count": 424,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What happened on the fourth day in the story?",
+          "options": [
+            "Amina's mother felt sick.",
+            "Amina's father got lost.",
+            "They visited the mosque.",
+            "They moved to a new apartment."
+          ],
+          "correct": 0,
+          "explanation": "The text says: 'But on the fourth day, Amina's mother felt sick. Her head hurt, and she was very tired.'",
+          "id": "reader-1-ch-2-q1",
+          "chapter_id": "reader-1-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'clinic' mean in the story?",
+          "options": [
+            "A place where people pray",
+            "A place where doctors help sick people",
+            "A place where people buy food",
+            "A place where cars are repaired"
+          ],
+          "correct": 1,
+          "explanation": "In the story, they go to the clinic because Amina's mother needs to see a doctor. The clinic is a building with a red sign that says 'Clinic'.",
+          "id": "reader-1-ch-2-q2",
+          "chapter_id": "reader-1-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Mr. Okoro help Amina's family?",
+          "options": [
+            "He gave them medicine.",
+            "He showed them the way to the clinic and the mosque.",
+            "He cooked for them.",
+            "He cleaned their apartment."
+          ],
+          "correct": 1,
+          "explanation": "Mr. Okoro said 'I will take you to the clinic' and later said 'Now I will show you the mosque. It is near here.' He guided them to both places.",
+          "id": "reader-1-ch-2-q3",
+          "chapter_id": "reader-1-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'grateful' mean in the story?",
+          "options": [
+            "Feeling thankful",
+            "Feeling sad",
+            "Feeling hungry",
+            "Feeling tired"
+          ],
+          "correct": 0,
+          "explanation": "At the end, Amina is grateful because she has a new home, a new friend, and a place to pray. 'Grateful' means feeling thankful.",
+          "id": "reader-1-ch-2-q4",
+          "chapter_id": "reader-1-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "clinic",
+          "definition": "A place where doctors and nurses help sick people."
+        },
+        {
+          "word": "mosque",
+          "definition": "A building where Muslims go to pray."
+        },
+        {
+          "word": "grateful",
+          "definition": "Feeling thankful or appreciative."
+        },
+        {
+          "word": "calm",
+          "definition": "Peaceful and quiet; not worried or upset."
+        },
+        {
+          "word": "neighbour",
+          "definition": "A person who lives near you."
+        }
+      ]
+    },
+    {
+      "id": "reader-1-ch-3",
+      "title": "The Market and Tea",
+      "text": "On Saturday morning, Mr. Okoro knocked on their door. \"Today is market day,\" he said with a big smile. \"Come with me. You will see many good things.\"\n\nAmina's mother smiled. \"Thank you, Mr. Okoro. We need many things for the house.\"\n\nThey walked together through the busy streets. The market was very big. There were many colours and sounds. People called out and laughed. The smell of fresh bread and fruit filled the air.\n\nMr. Okoro showed them the vegetable seller first. There were big red tomatoes, green peppers, and long yellow bananas. Amina's mother touched the tomatoes carefully. \"These are very fresh,\" she said.\n\nThe vegetable seller laughed. \"I pick them every morning,\" she said.\n\nThey bought tomatoes, onions, and some green beans. Then Mr. Okoro took them to the bread shop. The bread was warm and soft. Amina held the bag close to her face and smelled it. \"Mmm,\" she said. \"It smells so good.\"\n\nHer father laughed. \"You are hungry, Amina?\"\n\n\"Yes, Papa,\" she said. \"Very hungry.\"\n\nMr. Okoro looked at them. \"Then you must come to my home. I have tea, and my wife made some honey cakes this morning.\"\n\nAmina's eyes opened wide. \"Honey cakes?\"\n\n\"Yes, little one,\" Mr. Okoro said. \"The best in the city.\"\n\nThey followed him to his apartment. It was small, like theirs, but very warm and bright. His wife, Mrs. Okoro, was waiting at the door. She welcomed them with open arms.\n\n\"Come in, come in,\" she said. \"Sit down. Rest your feet.\"\n\nThe tea was hot and sweet. Amina drank it slowly. The honey cakes were soft and golden. She ate two of them. Mrs. Okoro smiled at her.\n\n\"You like them?\" she asked.\n\n\"Yes,\" Amina said. \"They are the best I have ever had.\"\n\nEveryone laughed. The room was full of warm light and good smells. Amina looked around her. Here, in this new city, in this small apartment, she felt something new. She felt safe. She felt happy.\n\nShe thought about the first day, when everything was strange and scary. Now the market was a friendly place. The clinic was near. The mosque was beautiful. And Mr. and Mrs. Okoro were like family.\n\nAmina smiled into her tea. Maybe this new city was not so strange after all. Maybe it was the beginning of a good life.",
+      "word_count": 391,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Mr. Okoro invite Amina's family to do on Saturday morning?",
+          "options": [
+            "Go to the market",
+            "Go to the clinic",
+            "Go to the mosque",
+            "Go to school"
+          ],
+          "correct": 0,
+          "explanation": "Mr. Okoro said 'Today is market day. Come with me.'",
+          "id": "reader-1-ch-3-q1",
+          "chapter_id": "reader-1-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina's family buy at the market?",
+          "options": [
+            "Tomatoes and onions",
+            "Bread and honey cakes",
+            "Vegetables and bread",
+            "Tea and vegetables"
+          ],
+          "correct": 2,
+          "explanation": "They bought tomatoes, onions, green beans, and warm bread from the bread shop.",
+          "id": "reader-1-ch-3-q2",
+          "chapter_id": "reader-1-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'welcomed' mean in the story?",
+          "options": [
+            "Greeted warmly",
+            "Fed",
+            "Left",
+            "Ignored"
+          ],
+          "correct": 0,
+          "explanation": "Mrs. Okoro welcomed them with open arms, meaning she greeted them warmly.",
+          "id": "reader-1-ch-3-q3",
+          "chapter_id": "reader-1-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel at the end of the chapter?",
+          "options": [
+            "Scared",
+            "Safe and happy",
+            "Hungry",
+            "Tired"
+          ],
+          "correct": 1,
+          "explanation": "The text says she felt safe and happy in the new city.",
+          "id": "reader-1-ch-3-q4",
+          "chapter_id": "reader-1-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "market",
+          "definition": "A place where people buy and sell goods"
+        },
+        {
+          "word": "fresh",
+          "definition": "Newly made or picked; not old"
+        },
+        {
+          "word": "welcome",
+          "definition": "To greet someone in a friendly way"
+        },
+        {
+          "word": "safe",
+          "definition": "Feeling protected and not in danger"
+        },
+        {
+          "word": "apartment",
+          "definition": "A place to live in a building"
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when someone helped you in a new place. What did they do? How did you feel? Write about it.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

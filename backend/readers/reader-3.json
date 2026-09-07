@@ -1,0 +1,280 @@
+{
+  "id": "reader-3",
+  "title": "The Lost Bus Ticket",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "travel",
+    "everyday life"
+  ],
+  "genre": "Short fiction",
+  "description": "Halima loses her bus ticket on the way to English class and must ask for help, explain her problem, and find a new way to get there.",
+  "word_count": 1402,
+  "reading_time_minutes": 8,
+  "chapters": [
+    {
+      "id": "reader-3-ch-1",
+      "title": "The Lost Ticket",
+      "text": "Halima sat by the window on the big city bus. She smiled. Today was her English class. She liked her teacher, Mr. Green. He was kind and funny. The bus moved through the busy streets. People got on and got off. Halima watched the shops and houses pass by.\n\nShe thought about her class. Today, they would learn new words. Words for food and cooking. She was hungry. She wanted to eat some bread with cheese after class. She looked in her bag for her book. She wanted to read the last lesson again.\n\nHer bag was big and red. She opened it and looked inside. She saw her books, her pens, and her small water bottle. She moved some things around. Then she stopped. She looked again. She put her hand deep in the bag. She felt for the small paper ticket. But she could not find it.\n\nHer heart began to beat fast. No ticket. Where was her ticket? She looked in her pockets. Nothing. She looked on the seat next to her. Nothing. She opened her bag again and took everything out. Books, pens, a pencil, a small notebook, the water bottle, and an old bus map. But no ticket.\n\n\"Oh no,\" she said quietly. \"Where is it?\"\n\nThe bus stopped. The driver looked in his big mirror. He looked at Halima. He was a large man with a grey beard. He called out, \"Young lady! Your ticket, please.\"\n\nHalima's face became hot and red. She stood up. Her hands were shaking. She walked to the front of the bus. The driver held out his hand.\n\n\"I... I am sorry,\" Halima said. Her voice was small. \"I cannot find my ticket. I had it. I really did. I bought it at the station this morning.\"\n\nThe driver looked at her. His face was not angry, but it was not friendly. \"You must have a ticket,\" he said. \"The rules are the rules. Do you have money to buy another one?\"\n\nHalima looked in her small purse. She had some coins. She counted them in her head. But it was not enough. She only had money for her lunch. She shook her head. \"No,\" she said. \"I have only a little money. And my English class is very important.\"\n\nThe driver said nothing. The people on the bus were looking at her. A woman with a small child spoke. \"Let her go, please,\" she said. \"She is a student.\"\n\nBut the driver shook his head. \"I am sorry. The rules are the rules.\"\n\nHalima did not know what to do. She looked at the door. She felt very worried. Then she had an idea. \"Sir,\" she said. \"My teacher, Mr. Green, knows me. I can call him. He can tell you I am a good student. And I will pay for a new ticket tomorrow. Please.\"\n\nThe driver looked at her for a long time. Then he said, \"What is your teacher's number?\"",
+      "word_count": 495,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why was Halima on the bus?",
+          "options": [
+            "She was going to work.",
+            "She was going to English class.",
+            "She was going to the market.",
+            "She was going home."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Today was her English class.' so she was on her way to English class.",
+          "id": "reader-3-ch-1-q1",
+          "chapter_id": "reader-3-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'felt for' mean in the sentence 'She felt for the small paper ticket'?",
+          "options": [
+            "Touched and searched for",
+            "Saw",
+            "Heard",
+            "Smelled"
+          ],
+          "correct": 0,
+          "explanation": "In the story, Halima puts her hand deep in her bag and feels around to find the ticket, so 'felt for' means to search by touching.",
+          "id": "reader-3-ch-1-q2",
+          "chapter_id": "reader-3-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the driver say when a woman asked him to let Halima go?",
+          "options": [
+            "He agreed.",
+            "He said 'The rules are the rules.'",
+            "He asked for money.",
+            "He called the teacher."
+          ],
+          "correct": 1,
+          "explanation": "The driver said 'I am sorry. The rules are the rules.' directly.",
+          "id": "reader-3-ch-1-q3",
+          "chapter_id": "reader-3-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'purse' mean in the story?",
+          "options": [
+            "A small bag for money",
+            "A book",
+            "A water bottle",
+            "A ticket"
+          ],
+          "correct": 0,
+          "explanation": "Halima looked in her small purse and found coins, so a purse is a small bag used to carry money.",
+          "id": "reader-3-ch-1-q4",
+          "chapter_id": "reader-3-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "felt for",
+          "definition": "To search for something by touching."
+        },
+        {
+          "word": "purse",
+          "definition": "A small bag used to carry money and personal items."
+        },
+        {
+          "word": "shaking",
+          "definition": "Trembling or moving quickly back and forth, often from fear or nervousness."
+        },
+        {
+          "word": "beard",
+          "definition": "Hair that grows on a man's face."
+        },
+        {
+          "word": "coins",
+          "definition": "Small, flat pieces of metal used as money."
+        }
+      ]
+    },
+    {
+      "id": "reader-3-ch-2",
+      "title": "Asking for Help",
+      "text": "Halima stood at the front of the bus. Her face was hot, and her hands were shaking. She looked in her bag again. She looked in her small pocket. She looked on the floor near her feet. No ticket. The bus driver was very patient. He waited and looked at her.\n\n\"I am very sorry,\" Halima said. Her voice was small. \"I cannot find my ticket. I had it this morning. I am sure.\"\n\nThe driver smiled a little. His name was on a small card near his seat. It said 'Mr. Okafor'.\n\n\"Do not worry,\" Mr. Okafor said. \"It is okay. These things happen.\"\n\nHalima felt a little better. \"Thank you for your patience,\" she said. \"What can I do?\"\n\nMr. Okafor thought for a moment. \"You have two choices,\" he said. \"You can pay for a new ticket now. It is two pounds. Or you can get off the bus at the next stop. There is a shop near there. You can buy a ticket in the shop.\"\n\nHalima looked at her small purse. She had some money. But she wanted to save it for lunch. She thought about her English class. It was important. She did not want to be late.\n\n\"I will get off,\" she said. \"Can you tell me the name of the next stop?\"\n\n\"Yes,\" Mr. Okafor said. \"The next stop is Market Street. When you get off, turn right. Walk for two minutes. You will see a small shop with a yellow door. They sell bus tickets there.\"\n\n\"Thank you very much,\" Halima said. \"You are very kind.\"\n\nThe bus stopped. The doors opened with a soft sound. Halima walked to the door. She turned back to the driver. \"Goodbye, Mr. Okafor. Thank you for your help.\"\n\n\"Good luck with your class,\" he said. \"And remember, it is always good to ask for help.\"\n\nHalima stepped off the bus. She was on a busy street. She did not know this place. She felt a little lost. She saw a woman with a big red bag standing near a shop. Halima walked to her.\n\n\"Excuse me,\" Halima said. \"I am sorry to ask. Can you help me? I need to find a shop with a yellow door. I need to buy a bus ticket.\"\n\nThe woman smiled. \"Of course,\" she said. \"It is easy. Go straight down this street. Turn right at the coffee shop. The yellow door is after the bank. You cannot miss it.\"\n\n\"Thank you so much,\" Halima said. Her heart was not beating so fast now. She knew what to do. Asking for help was not so hard.",
+      "word_count": 438,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Halima lose?",
+          "options": [
+            "her ticket",
+            "her bag",
+            "her money",
+            "her phone"
+          ],
+          "correct": 0,
+          "explanation": "The text says she looked in her bag and pocket but could not find her ticket.",
+          "id": "reader-3-ch-2-q1",
+          "chapter_id": "reader-3-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'patient' mean in the story?",
+          "options": [
+            "angry and upset",
+            "kind and calm",
+            "fast and quick",
+            "hungry and tired"
+          ],
+          "correct": 1,
+          "explanation": "The driver was patient because he waited and smiled, not getting angry.",
+          "id": "reader-3-ch-2-q2",
+          "chapter_id": "reader-3-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What were Halima's two choices according to Mr. Okafor?",
+          "options": [
+            "pay for a new ticket or get off at the next stop",
+            "walk home or call a friend",
+            "wait for the next bus or take a taxi",
+            "buy a ticket from him or from another passenger"
+          ],
+          "correct": 0,
+          "explanation": "Mr. Okafor said she could pay for a new ticket now or get off at the next stop to buy one at a shop.",
+          "id": "reader-3-ch-2-q3",
+          "chapter_id": "reader-3-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Halima find the shop with the yellow door?",
+          "options": [
+            "She used a map.",
+            "She asked a woman for help.",
+            "She followed the driver.",
+            "She saw it from the bus."
+          ],
+          "correct": 1,
+          "explanation": "Halima asked a woman with a red bag, and the woman gave her directions.",
+          "id": "reader-3-ch-2-q4",
+          "chapter_id": "reader-3-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "patient",
+          "definition": "able to wait calmly without getting angry"
+        },
+        {
+          "word": "purse",
+          "definition": "a small bag used to carry money and personal items"
+        },
+        {
+          "word": "lost",
+          "definition": "unable to find your way or not knowing where you are"
+        },
+        {
+          "word": "kind",
+          "definition": "friendly and helpful"
+        },
+        {
+          "word": "help",
+          "definition": "to do something for someone that makes it easier for them"
+        }
+      ]
+    },
+    {
+      "id": "reader-3-ch-3",
+      "title": "A New Way to Class",
+      "text": "Halima got off the bus. Her heart was beating fast. She stood on the street and looked around. The bus went away and she was alone. She remembered the words of the woman on the bus. \"Go to the small shop on Green Street. It is near the big tree. You can buy a new ticket there.\"\n\nHalima walked down the street. She looked for the big tree. After five minutes, she saw it. The tree was very tall and green. Next to the tree, there was a small shop. The shop had many things in the window: drinks, bread, and bus tickets.\n\nHalima opened the door and went inside. A man stood behind the counter. He smiled at her.\n\n\"Hello,\" he said. \"Can I help you?\"\n\n\"Yes, please,\" Halima said. \"I need a bus ticket.\"\n\n\"Where do you want to go?\" the man asked.\n\n\"To the city centre. I have an English class there.\"\n\nThe man took a ticket from a box. \"That is two pounds, please.\"\n\nHalima put her hand in her bag. She found her money. She gave two pounds to the man. He gave her the ticket. It was small and blue.\n\n\"Thank you very much,\" Halima said.\n\n\"You are welcome,\" the man said. \"The bus stop is outside. The next bus comes in ten minutes.\"\n\nHalima went outside and waited at the bus stop. She held the new ticket in her hand. She did not want to lose it again. Ten minutes passed. Then she saw the bus. It was big and white. The bus stopped in front of her.\n\nHalima got on the bus. She showed her ticket to the driver. The driver looked at it and smiled. \"Good,\" he said. \"Sit down, please.\"\n\nHalima found a seat near the window. She looked outside. The city was busy. People walked on the streets. Cars moved slowly. Halima thought about her English class. She was late now. She felt a little sad.\n\nBut then she thought about her morning. She lost her ticket. She asked for help. She found the shop. She bought a new ticket. She did all of this in English. She used new words: \"ticket,\" \"bus stop,\" \"change,\" \"help.\" She felt proud.\n\nThe bus arrived at the city centre. Halima got off and walked to her school. She opened the door of her classroom. The teacher looked at her.\n\n\"Hello, Halima,\" the teacher said. \"You are late today.\"\n\n\"I am sorry,\" Halima said. \"I lost my bus ticket. But I found a new way to class.\"\n\nThe teacher smiled. \"That is okay,\" she said. \"I am happy you are here. Sit down. We are learning new words today.\"\n\nHalima sat down and opened her book. She felt happy. She solved her problem. She learned new words. She was ready for class.",
+      "word_count": 469,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Halima need to buy?",
+          "options": [
+            "A bus ticket",
+            "A drink",
+            "Bread",
+            "A book"
+          ],
+          "correct": 0,
+          "explanation": "Halima told the man, 'I need a bus ticket.' She needed it to go to the city centre.",
+          "id": "reader-3-ch-3-q1",
+          "chapter_id": "reader-3-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'proud' mean in the text?",
+          "options": [
+            "Happy and pleased about something you did",
+            "Sad and angry",
+            "Tired and hungry",
+            "Afraid and worried"
+          ],
+          "correct": 0,
+          "explanation": "Halima felt proud because she solved her problem and used English to do it.",
+          "id": "reader-3-ch-3-q2",
+          "chapter_id": "reader-3-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How much did the bus ticket cost?",
+          "options": [
+            "One pound",
+            "Two pounds",
+            "Three pounds",
+            "Ten pounds"
+          ],
+          "correct": 1,
+          "explanation": "The man said, 'That is two pounds, please.' Halima gave him two pounds.",
+          "id": "reader-3-ch-3-q3",
+          "chapter_id": "reader-3-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'counter' mean in the text?",
+          "options": [
+            "The long table in a shop where you pay",
+            "The window",
+            "The door",
+            "The bus stop"
+          ],
+          "correct": 0,
+          "explanation": "The man stood behind the counter, which is the typical table in a shop where customers pay.",
+          "id": "reader-3-ch-3-q4",
+          "chapter_id": "reader-3-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ticket",
+          "definition": "A small piece of paper that allows you to travel on a bus, train, etc."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling pleased and satisfied about something you have done."
+        },
+        {
+          "word": "counter",
+          "definition": "A long flat surface in a shop where customers are served and pay."
+        },
+        {
+          "word": "alone",
+          "definition": "Without any other people."
+        },
+        {
+          "word": "bus stop",
+          "definition": "A place where buses stop for passengers to get on or off."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when you lost something important or had a problem when you were traveling. What did you do? Who helped you? Write about what you said and how you felt.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

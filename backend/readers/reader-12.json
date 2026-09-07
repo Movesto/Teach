@@ -1,0 +1,422 @@
+{
+  "id": "reader-12",
+  "title": "The Long Way Home",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "travel",
+    "history"
+  ],
+  "genre": "Realistic fiction",
+  "description": "An old man shares with his grandson the story of his perilous journey from war-torn Somalia to a new life in the West, revealing the choices, fears, and kindnesses that shaped his path.",
+  "word_count": 3637,
+  "reading_time_minutes": 20,
+  "chapters": [
+    {
+      "id": "reader-12-ch-1",
+      "title": "The Price of Leaving",
+      "text": "The evening was quiet. The sun had gone down, and the sky was dark blue. Grandpa Hassan sat on the old wooden chair on the porch. His grandson Adam sat on the steps, close to his feet. A small lamp made a soft yellow light between them. The air was warm, and the smell of tea came from the kitchen.\n\nAdam looked at his grandfather. His hands were old and strong. They had worked hard for many years. Adam loved these quiet evenings. They were the best time to ask questions.\n\n\"Grandpa,\" Adam said softly, \"you told me you came from a far place. A place by the sea. What was its name?\"\n\nGrandpa Hassan smiled. His eyes looked far away, not at Adam, but at something only he could see. \"Mogadishu,\" he said. The name sounded like music. \"My home. The city of white sand and blue water.\"\n\nAdam moved closer. \"Was it beautiful?\"\n\n\"Yes, very beautiful,\" Grandpa said. \"But beauty can hide danger. You see, Adam, there came a time when our city changed. The peace went away. We heard loud noises at night. Gunfire. Sometimes bombs. We saw fear in the eyes of our neighbors. We did not feel safe anymore.\"\n\nAdam was quiet. He did not know these things. His world was safe and calm.\n\n\"One day,\" Grandpa continued, \"I was walking home from the market. I saw a group of men with guns. They were arguing. A car exploded not far from me. The ground shook. I fell to the ground. My heart was beating very fast. I got up and ran home. I ran all the way. When I opened the door, I saw your grandmother holding your mother, who was just a baby then. Her eyes were full of tears.\"\n\nGrandpa stopped for a moment. He looked at his hands.\n\n\"That night, I could not sleep. I lay in bed and listened to the sounds outside. I thought about my family. I thought about my wife. I thought about my little daughter. I knew that if we stayed, something terrible would happen. I could not let that happen.\"\n\n\"So what did you do?\" Adam asked. His voice was small.\n\n\"I made a choice,\" Grandpa said. \"The hardest choice of my life. I decided to leave. But I could not take them with me. The journey was too dangerous. Too long. I did not know if I would survive. I could not put them in that danger. So I decided to go alone. I would find a safe place. I would work hard. And then, when it was safe, I would send for them. I promised them that.\"\n\nAdam's eyes were wide. \"You left them alone?\"\n\nGrandpa nodded slowly. \"Yes. It was the price of leaving. The price was my heart. I felt like I was tearing it out of my chest. But I had to do it. I had to give them a chance.\"\n\nHe remembered that night clearly. His own father had come to him. His father was an old man with white hair and kind eyes. He had taken Grandpa's hands and said, \"My son, you are doing the right thing. A man's first duty is to protect his family. Sometimes, that means leaving them for a while. Go. Find a new home. Build a bridge. Then bring them across. Do not be afraid. Fear is a small thing. Love is a big thing. Let love guide you.\"\n\nGrandpa's eyes became wet. \"My father gave me his small prayer rug. He said, 'Take this. When you feel lost, pray on it. Remember where you come from. Remember who you are.' I still have that rug today. It is in my room.\"\n\nAdam looked at the house. He knew the rug was there. His grandfather had shown it to him once. It was old and worn, but very beautiful.\n\n\"So I packed a small bag,\" Grandpa went on. \"I did not take many things. Only the essentials. A few clothes. Some dried bread. A small bottle of water. My father's rug. A photograph of my family. I put the photograph inside my shirt, close to my heart. I held that bag in my hand. It was so light. But it felt so heavy.\"\n\n\"Why was it heavy?\" Adam asked.\n\n\"Because it carried all my love and all my fear,\" Grandpa said. \"I left before the sun came up. I kissed my wife. I kissed my baby daughter. I did not look back. If I looked back, I would not have the strength to go.\"\n\nAdam was silent for a long time. He thought about his grandfather. He thought about the long journey. He thought about the desert and the sea and the unknown places.\n\n\"Was it very hard?\" Adam finally asked.\n\n\"Yes, very hard,\" Grandpa said. \"But I will tell you about that another night. Tonight, I want you to remember this: leaving was not easy. It was not a happy choice. It was a painful choice. But I made it because I loved them. I carried that love with me. It gave me strength. And after many years, I kept my promise. I built a bridge. I sent for them. And we were together again.\"\n\nGrandpa reached out and touched Adam's head. \"You see, Adam, home is not just a place. It is the people you love. And sometimes, you have to leave a place to keep the people safe. That is the price. But love is worth any price.\"\n\nThe lamp flickered. The night was quiet. Adam leaned his head against his grandfather's knee. He did not ask more questions. He just sat there, feeling the love in the old man's hand. He knew that this story was a treasure. And he would carry it with him, just like his grandfather carried the photograph.",
+      "word_count": 974,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Grandpa Hassan leave Mogadishu alone?",
+          "options": [
+            "He wanted to find work in another city.",
+            "He was forced to leave by the government.",
+            "He left to find a safe place for his family and promised to send for them.",
+            "He left because he was angry with his wife."
+          ],
+          "correct": 2,
+          "explanation": "Grandpa says he made the hardest choice to leave alone because the journey was too dangerous for his family, and he would find a safe place and then send for them.",
+          "id": "reader-12-ch-1-q1",
+          "chapter_id": "reader-12-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the phrase 'the price was my heart' mean in the context of the story?",
+          "options": [
+            "He had to pay money to leave the city.",
+            "He felt deep emotional pain because he left his family.",
+            "He lost his heart during the dangerous journey.",
+            "He gave his heart to his father as a gift."
+          ],
+          "correct": 1,
+          "explanation": "Grandpa says he felt like tearing his heart out of his chest, meaning the decision to leave his family caused him great emotional suffering.",
+          "id": "reader-12-ch-1-q2",
+          "chapter_id": "reader-12-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Grandpa's father give him before he left?",
+          "options": [
+            "A photograph of the family.",
+            "A small bag of clothes.",
+            "A prayer rug.",
+            "A bottle of water."
+          ],
+          "correct": 2,
+          "explanation": "The text states: 'My father gave me his small prayer rug.'",
+          "id": "reader-12-ch-1-q3",
+          "chapter_id": "reader-12-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the story, what does the word 'essentials' mean?",
+          "options": [
+            "Things that are necessary.",
+            "Things that are expensive.",
+            "Things that are beautiful.",
+            "Things that are heavy."
+          ],
+          "correct": 0,
+          "explanation": "Grandpa packed only the essentials, meaning basic items he needed for the journey, like clothes, bread, and water.",
+          "id": "reader-12-ch-1-q4",
+          "chapter_id": "reader-12-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Grandpa put inside his shirt, close to his heart?",
+          "options": [
+            "His prayer rug.",
+            "A photograph of his family.",
+            "Some dried bread.",
+            "A small bottle of water."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'I put the photograph inside my shirt, close to my heart.'",
+          "id": "reader-12-ch-1-q5",
+          "chapter_id": "reader-12-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "porch",
+          "definition": "A covered area attached to the outside of a house, often with a roof and floor."
+        },
+        {
+          "word": "gunfire",
+          "definition": "The shooting of guns, often heard as continuous or repeated shots."
+        },
+        {
+          "word": "flickered",
+          "definition": "Shone with an unsteady or wavering light, as if about to go out."
+        },
+        {
+          "word": "treasure",
+          "definition": "Something very valuable and precious, often kept with care."
+        },
+        {
+          "word": "promise",
+          "definition": "A statement or assurance that one will do something or that something will happen."
+        }
+      ]
+    },
+    {
+      "id": "reader-12-ch-2",
+      "title": "The Road Through the Desert",
+      "text": "The desert surprised me most with its silence. In Mogadishu, there was always noise: people talking, cars moving, music from shops. But in the desert, there was only the sound of our feet on the sand and the wind moving small stones across the ground. It felt like we were walking through a place that did not want us there.\n\nThere were about twenty of us in the group. We did not know each other. We came from different towns, and we had different stories, but we all had the same fear in our eyes. The smugglers told us to walk quickly and not to ask questions. They were young men with hard faces, and they carried sticks. I did not trust them. But I had paid them all the money I had, and there was no way to go back.\n\nWe walked during the night and rested during the day, when the sun was too strong to walk under. Even at night, the air was hot and dry. My mouth felt like paper. My legs felt heavy, heavier than they had ever felt before. We had small bottles of water, and the smugglers told us to drink only a little at a time. I learned very quickly what real thirst was. It is not just a dry mouth. It is a feeling that your whole body is screaming. It is a fear that you will become empty, like a bag with nothing inside.\n\nOn the third day, a man next to me fell down. He could not stand up again. The smugglers shouted at him and pulled his arm, but his body would not move. I watched them leave him there. They said he was slowing us down. I wanted to help him, but I was afraid. If I stopped, they might leave me too. For many nights after that, I saw his face. I still see it sometimes.\n\nThat was when I learned that fear can make you do terrible things. You watch something bad happen, and you say nothing, because you are afraid for yourself. This is a shame that stays with you for a long time. I carried that shame with me across the desert, along with my small bag and my empty bottle.\n\nOn the fourth day, the water ran out. The smugglers had a big container, but they said they needed to keep it for the rest of the journey. They said we must walk faster if we wanted to reach the next town before dark. My legs were shaking. My head felt strange, like it was full of clouds. I thought about my family in Mogadishu. I thought about my promise to send for them. And I thought, \"If I die here, who will take care of them?\"\n\nThen something happened that I have never forgotten. An old woman was walking near me. She was small and thin, and she wore a long dark cloth over her head. She had been silent the whole journey, like most of us. But now she stopped, opened her bag, and took out a small bottle of water. She came to me and put it in my hands. \"Drink,\" she said. \"You are young, but you have a long road still.\"\n\nI wanted to refuse. I thought, \"She is old. She needs this water more than I do.\" But she pushed the bottle into my hands with surprising strength. \"I have walked this road before,\" she said. \"Many years ago. I know how it feels. Drink now, and one day you will help someone else. That is how it works.\"\n\nSo I drank. Just a little, but it was like life coming back into my body. I thanked her, and she smiled. Her face was tired, but her eyes were warm. And then she walked on, quietly, next to me.\n\nThat small act changed something in me. I did not suddenly become strong. I was still tired and thirsty and afraid. But I felt something new. It was a strange feeling, half warmth and half pain. I realized that people can be good, even in terrible places. That thought gave me strength to take the next step. And then the next step. And then the next.\n\nThe old woman did not speak to me again. But whenever I looked at her, I remembered that small bottle of water. I remembered that she did not have to give it to me. She chose to. And that choice made me choose something too. I chose to trust, just a little. Not the smugglers, and not the loud people who made promises they did not keep. But I chose to believe that there were good people in the world, and that I could be one of them.\n\nWe reached the town at midnight. We were dirty and weak, but we were alive. The smugglers led us to a small house on the edge of the town and told us to sleep there until the next night. I lay down on the hard floor, and for the first time in days, my body relaxed. I thought about the old woman. I looked for her, but she had already disappeared into the darkness of the house.\n\nI never saw her again. I never learned her name. But her water kept me walking that night, and her kindness has kept me going for all the years since. That is the thing I want you to understand, Adam. There is always darkness on a long road. But there are always people who carry light. And sometimes, that light is just a small bottle of water.",
+      "word_count": 941,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What surprised the narrator most about the desert?",
+          "options": [
+            "The heat",
+            "The silence",
+            "The sand",
+            "The people"
+          ],
+          "correct": 1,
+          "explanation": "In the first paragraph, the narrator says 'The desert surprised me most with its silence.'",
+          "id": "reader-12-ch-2-q1",
+          "chapter_id": "reader-12-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the narrator not help the man who fell down?",
+          "options": [
+            "He was too weak to help",
+            "He did not like the man",
+            "He was afraid the smugglers would leave him too",
+            "The man told him not to"
+          ],
+          "correct": 2,
+          "explanation": "The narrator says 'I was afraid. If I stopped, they might leave me too.'",
+          "id": "reader-12-ch-2-q2",
+          "chapter_id": "reader-12-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the text, what does 'thirst' mean?",
+          "options": [
+            "A dry mouth",
+            "A desire for water",
+            "A painful need for water that affects the whole body",
+            "A fear of emptiness"
+          ],
+          "correct": 2,
+          "explanation": "The narrator says 'It is not just a dry mouth. It is a feeling that your whole body is screaming.'",
+          "id": "reader-12-ch-2-q3",
+          "chapter_id": "reader-12-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the old woman give to the narrator?",
+          "options": [
+            "Food",
+            "A map",
+            "A small bottle of water",
+            "Her name"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'she stopped, opened her bag, and took out a small bottle of water. She came to me and put it in my hands.'",
+          "id": "reader-12-ch-2-q4",
+          "chapter_id": "reader-12-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What lesson did the narrator learn from the old woman?",
+          "options": [
+            "To always carry water",
+            "To help others as she helped him",
+            "To trust the smugglers",
+            "To be strong"
+          ],
+          "correct": 1,
+          "explanation": "The old woman said 'Drink now, and one day you will help someone else. That is how it works.' The narrator also says 'I chose to believe that there were good people in the world, and that I could be one of them.'",
+          "id": "reader-12-ch-2-q5",
+          "chapter_id": "reader-12-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "silence",
+          "definition": "Complete quietness; the absence of sound."
+        },
+        {
+          "word": "smugglers",
+          "definition": "People who transport goods or people illegally, often across borders."
+        },
+        {
+          "word": "thirst",
+          "definition": "A painful or uncomfortable feeling caused by the need for water."
+        },
+        {
+          "word": "shame",
+          "definition": "A painful feeling of having done something wrong or embarrassing."
+        },
+        {
+          "word": "kindness",
+          "definition": "The quality of being friendly, generous, and considerate."
+        }
+      ]
+    },
+    {
+      "id": "reader-12-ch-3",
+      "title": "The Sea and the Stranger",
+      "text": "When we reached the coast, I thought my journey was almost over. I was wrong. The sea stretched out in front of us, grey and endless, and the small boat that waited for us looked like a toy. It was made of wood, old and worn, with patches of paint peeling from its sides. My heart sank when I saw it. I had crossed a desert, but now I had to cross something much bigger.\n\nThe smuggler pointed at the boat and told us to get in. There were more than forty of us, but the boat was built for maybe twenty. We pressed together, shoulder to shoulder, holding our bags on our knees. Some people were crying quietly. Others stared at the water, their faces empty. I found a place near the middle, where the boat seemed most stable. I did not know then that stability would not last.\n\nWe left the shore just before dark. For the first few hours, the sea was calm. The engine made a low, tired sound, and the boat moved slowly across the water. I watched the coast disappear behind us, and I felt a strange mix of sadness and hope. I was leaving my country. I was going somewhere new. But the feeling did not last long.\n\nThe wind changed in the middle of the night. I felt it first as a cold touch on my skin, and then as a force that pushed against the boat. The waves grew taller and taller. They lifted us up and dropped us down, again and again. Water began to spill over the sides, soaking our clothes and our bags. People screamed. Someone began to pray. The engine coughed and stopped, and for a terrible moment, we were silent and still on the dark water.\n\nI remember thinking that this was the end. The boat tilted to one side, and I heard the sound of water rushing in from below. People pushed against each other, trying to move away from the rising water. But there was nowhere to go. I closed my eyes and thought of my family. I thought of my father's words, and I promised myself that I would not give up. But I did not know how to save myself.\n\nThen I saw him. A sailor from the boat's small crew, a man I had not noticed before. He was tall and thin, with dark skin and a scar above his left eye. He came from a different country, I learned later, but at that moment, he was just a man who refused to let us die. He moved through the crowd with a rope in his hands, shouting words I did not understand. But his meaning was clear. He tied the rope around the mast and pulled it tight. Then he worked on the engine, his hands moving quickly even as the waves crashed over him.\n\nThe storm did not stop, but the boat stopped sinking. The sailor kept working, checking the sides, pushing water out with a small bucket. He passed the bucket to the men near him, and we all worked together. For hours, we bailed water and held the boat steady. My arms ached. My hands were cut and bleeding. But I was alive, and that was enough.\n\nWhen the sun rose, the sea grew calm again. The sailor stood at the front of the boat, looking at the horizon. He did not smile. He did not say anything. But when he turned to look at us, I saw something in his eyes. Relief, maybe. Or pride. I wanted to thank him, but I did not know his language. I only knew his face, and I promised myself that I would never forget it.\n\nWe reached the shore later that day. I do not remember the exact moment we landed. I remember the feeling of solid ground under my feet, and the way my legs shook after so many hours on the water. I remember the confusion too. Men in uniforms came toward us, speaking in a language I did not know. They took our names and our papers. They asked questions, but I could not answer them all. I was processed like a package, moved from one line to another, given a number and a blanket.\n\nThe camp was a place of long queues and loud voices. I waited for food. I waited for a bed. I waited for someone to tell me what would happen next. But I was alive. I had crossed the sea, and I had not drowned. Every time I felt lost in that camp, I thought of the sailor's face. He had risked his life for people he did not know. If he could do that, I told myself, then I could keep going too.",
+      "word_count": 803,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did the narrator feel when they first saw the boat?",
+          "options": [
+            "hopeful",
+            "terrified",
+            "confident",
+            "indifferent"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'My heart sank when I saw it,' indicating fear and discouragement.",
+          "id": "reader-12-ch-3-q1",
+          "chapter_id": "reader-12-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'bail' mean in the passage?",
+          "options": [
+            "to throw out",
+            "to help",
+            "to cry",
+            "to pray"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'we bailed water,' meaning to remove water from the boat using a container.",
+          "id": "reader-12-ch-3-q2",
+          "chapter_id": "reader-12-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the sailor do to help during the storm?",
+          "options": [
+            "He prayed",
+            "He fixed the engine and bailed water",
+            "He shouted at people",
+            "He slept"
+          ],
+          "correct": 1,
+          "explanation": "The sailor 'worked on the engine' and 'passed the bucket' for bailing water, keeping the boat from sinking.",
+          "id": "reader-12-ch-3-q3",
+          "chapter_id": "reader-12-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did the narrator feel after reaching the shore?",
+          "options": [
+            "happy and free",
+            "tired and confused",
+            "angry and sad",
+            "proud and strong"
+          ],
+          "correct": 1,
+          "explanation": "The text mentions 'my legs shook,' 'confusion,' and being 'processed like a package,' indicating exhaustion and disorientation.",
+          "id": "reader-12-ch-3-q4",
+          "chapter_id": "reader-12-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'processed' mean in the context of the last paragraph?",
+          "options": [
+            "treated in a formal way",
+            "cooked",
+            "moved quickly",
+            "thought deeply"
+          ],
+          "correct": 0,
+          "explanation": "The narrator says they were 'processed like a package,' meaning handled systematically and impersonally by officials.",
+          "id": "reader-12-ch-3-q5",
+          "chapter_id": "reader-12-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "smuggler",
+          "definition": "a person who illegally transports goods or people"
+        },
+        {
+          "word": "stable",
+          "definition": "steady and not likely to move or fall"
+        },
+        {
+          "word": "bail",
+          "definition": "to remove water from a boat using a container"
+        },
+        {
+          "word": "horizon",
+          "definition": "the line where the earth's surface and the sky appear to meet"
+        },
+        {
+          "word": "queue",
+          "definition": "a line of people waiting for something"
+        }
+      ]
+    },
+    {
+      "id": "reader-12-ch-4",
+      "title": "Finding Home in a New Land",
+      "text": "The first weeks in the new country were like walking through fog. Everything felt strange, and I understood almost nothing. The signs on the shops, the voices on the street, the numbers on the buses - they all belonged to a world I did not know. I had survived the desert and the sea, but now I faced a different kind of challenge. I had to learn to live again.\n\nThe refugee camp was safe, but it was not a home. People came and went, waiting for papers, waiting for answers, waiting for their lives to begin. I waited too. Every morning, I stood in line with others who looked as tired and confused as I felt. We spoke different languages, but we shared the same hope. We all wanted a chance.\n\nAfter two months, I received permission to stay. It was a small piece of paper, but it meant everything. I could work. I could rent a room. I could begin. But beginning was harder than I had imagined. I knew no one, and I could not speak the language. When I walked down the street, I felt invisible. People passed me without looking, and I passed them the same way. Loneliness sat on my chest like a heavy stone.\n\nI took any job I could find. I washed dishes in a restaurant where the cook shouted at me because I did not understand his instructions. I cleaned offices at night, pushing a heavy machine across carpets that seemed to stretch forever. I carried boxes in a warehouse until my back ached. The work was hard, and the pay was small, but I was grateful. Every coin I earned brought me one step closer to my family.\n\nThe language was my biggest enemy. I carried a small notebook everywhere, and I wrote down new words as I heard them. \"Bread.\" \"Water.\" \"Please.\" \"Thank you.\" At night, I sat in my tiny room and repeated the words until my tongue grew tired. Sometimes I wanted to give up. The sounds felt wrong in my mouth, and the grammar made no sense to me. But then I thought of my wife and my children, waiting for me to bring them over, and I kept going.\n\nOne evening, a man from my country saw me sitting alone in a small park near my room. He approached me and spoke to me in our language, and my heart nearly broke with relief. His name was Farid, and he had come to this country five years earlier. He told me about a community of people from our region who met every Friday at a small community center. They cooked our food, spoke our language, and helped each other with the difficulties of the new life. He invited me to come.\n\nThat Friday, I walked into a room full of familiar faces and sounds. The smell of our spices filled the air, and the sound of our music made my eyes fill with tears. People shook my hand and asked my name. They did not ask what I had done or where I had been. They just welcomed me. For the first time since I arrived, I did not feel alone.\n\nFarid became more than a friend. He became my guide. He helped me understand the papers I had to fill out. He explained how the bus system worked and which shops sold our food at a fair price. And most importantly, he helped me find a better job. A friend of his worked at a factory that made furniture, and they needed a man who was strong and willing to learn. Farid spoke for me, and I got the position. It was not a dream job, but it was steady, and it paid enough for me to save.\n\nThe process of bringing my family over was long and slow. There were forms to complete and letters to write. I had to prove that I had a job, a place to live, and enough money to support them. Every few months, I received a letter from the government telling me that my case was still being reviewed. Each letter felt like a small death. But I did not stop. I saved every coin I could, and I kept working, kept learning, kept hoping.\n\nIt took two years. Two long years of loneliness and hard work. But finally, the letter arrived that I had been waiting for. My family was approved to come. When I read the words, I fell to my knees and cried. The people in my community celebrated with me. They had become my family too, and they understood what this moment meant.\n\nAdam, when I look back at those first months, I understand something important. Home is not just a place with walls and a roof. It is the people who help you build it. The stranger who shared water in the desert. The sailor who risked his life on the boat. Farid, who saw a lonely man in a park and chose to say hello. They were all part of my home, even before I had one.\n\nSo I will tell you this, my grandson. Be brave enough to ask for help, and be grateful enough to give it. The world is full of people who need a hand, and you never know whose kindness will change your life. Hold on to your courage, and hold on to your gratitude. They will carry you further than any map ever could.",
+      "word_count": 919,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What does the narrator compare the first weeks in the new country to?",
+          "options": [
+            "walking through fog",
+            "swimming in the sea",
+            "climbing a mountain",
+            "flying in the sky"
+          ],
+          "correct": 0,
+          "explanation": "The text explicitly states: 'The first weeks in the new country were like walking through fog.'",
+          "id": "reader-12-ch-4-q1",
+          "chapter_id": "reader-12-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'grateful' mean in the context of the chapter?",
+          "options": [
+            "feeling thankful",
+            "feeling sad",
+            "feeling angry",
+            "feeling confused"
+          ],
+          "correct": 0,
+          "explanation": "The narrator says 'I was grateful' after earning coins, which shows he felt thankful for the work and money.",
+          "id": "reader-12-ch-4-q2",
+          "chapter_id": "reader-12-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the narrator feel lonely in the new country?",
+          "options": [
+            "Because he didn't have any money",
+            "Because he couldn't speak the language and knew no one",
+            "Because he missed his family",
+            "Because he had no job"
+          ],
+          "correct": 1,
+          "explanation": "The narrator says: 'I knew no one, and I could not speak the language.' This is what made him feel invisible and lonely.",
+          "id": "reader-12-ch-4-q3",
+          "chapter_id": "reader-12-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'steady' mean in the phrase 'a steady job'?",
+          "options": [
+            "temporary",
+            "reliable and regular",
+            "difficult",
+            "well-paid"
+          ],
+          "correct": 1,
+          "explanation": "In the text, the factory job is described as 'steady', meaning it was consistent and dependable, not temporary or fluctuating.",
+          "id": "reader-12-ch-4-q4",
+          "chapter_id": "reader-12-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the most important help Farid gave the narrator?",
+          "options": [
+            "He cooked food for him",
+            "He helped him find a better job",
+            "He taught him the language",
+            "He gave him money"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'And most importantly, he helped me find a better job.'",
+          "id": "reader-12-ch-4-q5",
+          "chapter_id": "reader-12-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "fog",
+          "definition": "a thick cloud of tiny water droplets that makes it hard to see"
+        },
+        {
+          "word": "permission",
+          "definition": "official approval to do something"
+        },
+        {
+          "word": "loneliness",
+          "definition": "sadness from being alone"
+        },
+        {
+          "word": "grateful",
+          "definition": "feeling thankful"
+        },
+        {
+          "word": "steady",
+          "definition": "regular and dependable"
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think of a difficult choice you or someone you know had to make. What was the fear, and what hope made the decision possible? Write a short reflection about how that choice changed things, and who helped along the way.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "id": "reader-15",
+  "title": "The River and the Dam",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "science & nature",
+    "history"
+  ],
+  "genre": "Non-fiction narrative",
+  "description": "A village's deep connection to its river is tested when a dam is built, bringing both progress and loss, and forcing residents to weigh the costs and benefits of change.",
+  "word_count": 3479,
+  "reading_time_minutes": 19,
+  "chapters": [
+    {
+      "id": "reader-15-ch-1",
+      "title": "The River's Gift",
+      "text": "The village of Kemba sat in a narrow green valley, where the hills rose like gentle giants on either side. Through the centre of this valley ran the river, a wide and patient body of water that the villagers simply called the Mother. No one remembered when the name began, but everyone understood it. The river gave life, and the village returned its love with care and respect.\n\nEach morning, before the sun cleared the eastern hill, the women of Kemba walked down the stone steps to the water's edge. They carried bright plastic basins and bars of yellow soap. They knelt on the flat rocks, dipped their clothes into the cool water, and beat them clean with wooden paddles. The sound of washing filled the air, a steady rhythm that mixed with the calls of birds and the laughter of children who played in the shallow pools nearby. The river did not mind the soap or the noise. It simply flowed on, carrying the dirt away downstream, always fresh, always giving.\n\nThe fishermen knew the river better than anyone. Old Man Temba, who had worked the water for more than sixty years, could read the surface like a book. When the water turned a certain shade of green, he said, the catfish would be moving. When the current slowed near the big bend, the tilapia gathered in the shade of the overhanging trees. He taught the younger men where to cast their nets, how to feel the pull of a fish through the line, and when to stay home because the river was angry. The river had moods, he explained. A wise man learned them.\n\nThe river was also a road. Before the dirt track was built, and even after, the villagers used long wooden boats to travel between the settlements along the valley. Farmers carried baskets of vegetables to the market at the river mouth. Children rode to school in the village downstream when the rains made the land paths too muddy. The boatmen stood at the back of their vessels, pushing long poles into the riverbed, guiding the boats through the shallow channels. They knew every rock, every hidden sandbar, every place where the water ran deep and dark.\n\nThe seasons shaped the river's character. In the dry months, the water level dropped, and the river became lazy and clear. Children could wade across to the other side, and the fishermen caught small fish in the pools that remained. Then came the rains, and the river swelled. It turned brown and fast, carrying branches and leaves from the hills. The villagers watched it carefully during this time. They knew the river could be dangerous when it was full. They moved their boats to higher ground and kept the children away from the banks. But they were not afraid. The river was part of them, and they understood its changes like they understood the turning of the year.\n\nCeremonies brought the whole community to the river's edge. At the beginning of the planting season, the village gathered on the wide sandy beach where the river made a gentle curve. The elders led the prayers, offering maize meal and honey to the water. They asked for good rains, for full nets, for healthy children. The young people sang and danced, and the river seemed to listen, its soft sounds joining the music. At the end of the harvest, there was another ceremony, this one of thanks. The people gave back to the river what the river had given to them, and the cycle continued, year after year.\n\nThe children of Kemba grew up with the river as their playground and their teacher. They learned to swim before they could walk properly, their mothers holding them in the shallows until they kicked and splashed on their own. They learned which plants grew near the water and which ones were useful for medicine. They learned to catch crabs by turning over the flat stones in the shallows. They learned the names of the birds that came to drink and the fish that jumped at sunset. This knowledge was not written in books. It was passed from parent to child, from elder to young one, like a precious gift that grew with each telling.\n\nThe river gave the village everything it needed. It gave water for drinking and cooking, for washing bodies and clothes, for watering the small gardens that lined its banks. It gave fish for the table and reeds for the roofs of their houses. It gave a place for children to play and for old people to sit and remember. It gave the village its identity, its history, its sense of home. The people of Kemba did not think of the river as something separate from themselves. They were the river people, and the river was their life.\n\nBut change was coming to the valley. Far away, in the offices of the capital city, men in suits were drawing plans. They looked at maps and numbers, and they saw the river not as a mother but as a resource. They saw its power, its potential to light cities and water fields. They did not see the women washing clothes or the children playing in the shallows. They did not hear the songs of the harvest ceremonies. They saw only what the river could become, not what it already was. And so, the plans for the dam began to take shape, and the quiet life of Kemba stood on the edge of a great change.",
+      "word_count": 925,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What is the main role of the river in the village of Kemba?",
+          "options": [
+            "It is a source of food and water.",
+            "It is a dangerous force to be feared.",
+            "It is a central part of life and identity.",
+            "It is a barrier between settlements."
+          ],
+          "correct": 2,
+          "explanation": "The text says 'The river gave the village everything it needed... It gave the village its identity, its history, its sense of home.'",
+          "id": "reader-15-ch-1-q1",
+          "chapter_id": "reader-15-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'patient' mean in the phrase 'a wide and patient body of water'?",
+          "options": [
+            "slow-moving",
+            "calm and enduring",
+            "deep and dark",
+            "quiet and still"
+          ],
+          "correct": 1,
+          "explanation": "In context, 'patient' suggests the river is calm and enduring, not just slow or quiet.",
+          "id": "reader-15-ch-1-q2",
+          "chapter_id": "reader-15-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did the villagers react to the river's dangerous times?",
+          "options": [
+            "They moved away from the river.",
+            "They watched carefully and took precautions.",
+            "They built walls to stop the water.",
+            "They stopped using the river."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'They moved their boats to higher ground and kept the children away from the banks.'",
+          "id": "reader-15-ch-1-q3",
+          "chapter_id": "reader-15-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'resource' mean in the context of the last paragraph?",
+          "options": [
+            "a natural supply that can be used",
+            "a source of danger",
+            "a place of beauty",
+            "a religious symbol"
+          ],
+          "correct": 0,
+          "explanation": "The men in suits saw the river as a resource for power and water, meaning a natural supply to be used.",
+          "id": "reader-15-ch-1-q4",
+          "chapter_id": "reader-15-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What change is coming to the valley?",
+          "options": [
+            "A new bridge over the river.",
+            "A dam being built.",
+            "A new settlement.",
+            "A change in the river's course."
+          ],
+          "correct": 1,
+          "explanation": "The final sentence says: 'the plans for the dam began to take shape.'",
+          "id": "reader-15-ch-1-q5",
+          "chapter_id": "reader-15-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "resource",
+          "definition": "A supply of something that can be used, such as water or power."
+        },
+        {
+          "word": "dam",
+          "definition": "A barrier built across a river to hold back water."
+        },
+        {
+          "word": "ceremony",
+          "definition": "A formal event or ritual, often with cultural or religious significance."
+        },
+        {
+          "word": "shallows",
+          "definition": "Areas of water that are not deep."
+        }
+      ]
+    },
+    {
+      "id": "reader-15-ch-2",
+      "title": "The Promise of the Dam",
+      "text": "For many years, the village had known both the river's gifts and its anger. The river gave them fish and water for their crops, but sometimes, after heavy rain, it flooded. The water would rise quickly, covering the fields and entering the houses near the banks. The people knew this, too. They watched the sky and the water level. They knew when to move their animals to higher ground.\n\nOne day, a group of men from the government arrived in the village. They came with maps and papers, and they asked to speak to the elders. Their message was clear and simple. They wanted to build a dam on the river.\n\nThe river, they said, was too wild. It was not useful enough. It had too much water in one season and too little in another. A dam would change all of this. It would be a strong wall of concrete across the water. Behind it, a great lake would form. The government men explained that the dam would serve two great promises.\n\nThe first promise was safety. The dam would hold the river. When the rains came, the dam would stop the flood from reaching the village. The fields below the dam would be safe. The houses would be safe. The danger that the villagers knew so well would be gone forever.\n\nThe second promise was progress. The force of the water, as it fell through the dam, could be used to make electricity. This electricity would be sent to the homes and businesses of the region. Lights would turn on at night. Factories could be built. Machines could work. This, the men said, would bring a new life to the area. They spoke of a bright future, full of opportunity and growth.\n\nThe proposal did not bring joy to everyone. The village was now divided into two sides. The debate happened in homes, in the market, and even by the river itself.\n\nThere were those who believed in the progress. These were often the younger men and women of the village. They had gone to school and seen the world beyond. They had seen pictures and news from the big cities. They wanted lights in their classrooms. They wanted hospitals with machines. They wanted a life where they did not have to worry about the floods each year. For them, the dam was an answer to their prayers. It was a promise they could believe in. One young man, named Arjun, spoke about it often. He loved the river, but he believed the river's great power should be used, not wasted.\n\nHowever, another group, a much larger group, did not agree. Their leader was an old fisherman named Mr. Rao. His father and grandfather were fishermen before him. He had spent his entire life sitting by the river in the morning, listening to the water. He argued that the river was not a problem to be fixed. It was a god to be respected. When the government built the dam, he said, the mighty water would be trapped and kept. The fish would not come. The river would not carry the boats anymore. The fields would be cleaned by the river's water, and this would change. They would have electric lights, but their homes would be gone.\n\nMost importantly, the government announced that the village was too close to the river. The lake, they said, would cover the entire valley where the village sat. The people had to move. They would be relocated to a new town, miles away, on a new road. found a place with houses of concrete and water taps that worked without carrying buckets.\n\nThe construction took over three years. For a long time, the river ran through a great machine of noise, concrete, and metal. The tools was a kind of confusion. Some young men went to work on the dam, earning a weekly wage for the first time in their lives.\n\nThere were many sad days and many emotional goodbyes. Many people did not want to leave. They looked at their old homes and remembered the morning light on the water. They thought of their ceremonies. In the end, they had no choice. The water gave them life; the water would now take its place in their homes.\n\nThe day the people moved, the water was calm. The rain had filled the lake behind the dam, and it was rising slowly. The last truck moved away from the village, heavy with its belongings. Manjun was in the truck, looking back with light, looking to the future. Mr. Rao walked first, leaving, not once looking back at the wall. He wore his grandfather's ring and carried his old fishing net. A moment later, he turned his old back, and walked up and away.\n\nLater, the road was open. The waters of the new lake covered the road in the old village. They covered the market, the temple, and the quiet spot be. Only the top of the great cement wall remained, holding back the river, and giving it nowhere to go.",
+      "word_count": 848,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What were the two promises the government made about the dam?",
+          "options": [
+            "Safety and electricity",
+            "Fish and water",
+            "Jobs and schools",
+            "Roads and hospitals"
+          ],
+          "correct": 0,
+          "explanation": "The text states the first promise was safety from floods, and the second promise was progress through electricity generation.",
+          "id": "reader-15-ch-2-q1",
+          "chapter_id": "reader-15-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Mr. Rao oppose the dam?",
+          "options": [
+            "He wanted to move to a new town",
+            "He believed the river was sacred and would be harmed",
+            "He wanted more fish",
+            "He was afraid of electricity"
+          ],
+          "correct": 1,
+          "explanation": "Mr. Rao argued that the river was a god to be respected, and the dam would trap the water, harm fish, and change their way of life.",
+          "id": "reader-15-ch-2-q2",
+          "chapter_id": "reader-15-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened to the village after the dam was completed?",
+          "options": [
+            "It was flooded underwater",
+            "It became a tourist spot",
+            "It was moved to higher ground",
+            "It remained unchanged"
+          ],
+          "correct": 0,
+          "explanation": "The text says the new lake covered the village, including the market, temple, and old homes, leaving only the dam wall visible.",
+          "id": "reader-15-ch-2-q3",
+          "chapter_id": "reader-15-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'relocated' mean in the context of the chapter?",
+          "options": [
+            "Moved to a new place",
+            "Rebuilt",
+            "Destroyed",
+            "Celebrated"
+          ],
+          "correct": 0,
+          "explanation": "The government said the people would be relocated to a new town, meaning they would be moved to a different location.",
+          "id": "reader-15-ch-2-q4",
+          "chapter_id": "reader-15-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did some young people support the dam?",
+          "options": [
+            "They wanted to become fishermen",
+            "They wanted modern conveniences like electricity and hospitals",
+            "They wanted to move to the city",
+            "They wanted to stop the river"
+          ],
+          "correct": 1,
+          "explanation": "The text says the younger people wanted lights in classrooms, hospitals with machines, and a life without flood worries, which the dam promised.",
+          "id": "reader-15-ch-2-q5",
+          "chapter_id": "reader-15-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dam",
+          "definition": "A wall built across a river to hold back water and control its flow."
+        },
+        {
+          "word": "relocate",
+          "definition": "To move to a new place, often because of forced circumstances."
+        },
+        {
+          "word": "progress",
+          "definition": "Forward development or improvement, especially in technology or society."
+        },
+        {
+          "word": "sacred",
+          "definition": "Regarded as holy or deserving great respect."
+        }
+      ]
+    },
+    {
+      "id": "reader-15-ch-3",
+      "title": "The New Reality",
+      "text": "The dam was finished in the summer of 1987. On the day the last concrete block was placed, the government held a ceremony. Important people came from the capital. They made speeches about progress and the future. The villagers stood in a large crowd and watched the machines stop working. The river, which had always flowed freely, now waited behind a great wall of stone and cement.\n\nAt first, the changes were good. The most important change was electricity. Before the dam, the village had no power. People used candles and oil lamps at night. Now, wires came to every house. When the sun went down, the village became bright. Children could do their homework in the evening. Families could watch television together. The shops could keep food cold. Many people said that this was the greatest gift.\n\nThe second benefit was water for the farms. The government built new channels that carried water from the dam to the fields. Before the dam, farmers depended on the rain. In dry years, their crops died. Now, the water came every day, in every season. The fields were always green. Farmers could grow two crops in one year instead of one. Some families became richer than they had ever been. They bought new tools. They repaired their houses. They sent their children to school in the city.\n\nThe third benefit was safety. In the old days, the river flooded every few years. The water rose quickly and covered the low fields. Sometimes it entered the houses near the bank. People lost their animals and their furniture. After the dam, the river never flooded again. The government said that the village was now safe forever.\n\nBut slowly, the people began to see the costs. The first sign was the fish. In the first year after the dam was built, the fishing boats came back empty. The fish could not pass through the dam. They could not swim up the river to lay their eggs. The water below the dam was cold and strange. The fish that the people had caught for hundreds of years began to disappear. The fishermen sat on the bank and looked at the quiet water. Their nets hung unused. Their boats stayed on the shore. One old fisherman said, \"The river is dead. We did not kill it, but we watched it die.\"\n\nThe second cost was the river itself. Before the dam, the river was wide and strong. It moved quickly and made a sound that the villagers heard in their sleep. After the dam, the river became small. The water that came out of the dam was only a little stream. The wide banks became dry land. Weeds grew where the water used to be. The children could walk across the river without getting wet. The place where families used to wash their clothes was now a muddy field. The ceremonies that the people held on the river bank felt strange and sad. There was no water to celebrate.\n\nThe third cost was far away. The villages downstream, which had also lived beside the river for centuries, began to suffer. The dam stopped the water before it reached them. Their fields became dry. Their wells became empty. The land turned hard and cracked. The people there had to travel many kilometres to find water. Some of them left their homes and moved to the city. They sent letters to the government, but the government said that the dam was more important than a few small villages.\n\nThe people of the village had mixed feelings. Some were happy. They had electricity, water for their farms, and safety from floods. They said that the dam was the best thing that had happened to the village. Others were not so sure. They looked at the small river and remembered the old days. They remembered the sound of the water and the taste of the fish. They remembered the ceremonies and the songs. They asked themselves a difficult question: was progress worth the price?\n\nAn old woman who had lived beside the river for eighty years spoke to her grandchildren. \"The river was our friend,\" she said. \"It gave us food and water. It carried our boats. It sang to us at night. Now it is quiet. I do not know if we made a good choice. I only know that something important has gone away, and I do not think it will ever come back.\" The children listened and looked at the small stream that ran below the great dam. They did not know the river that their grandmother had known. For them, this was the new reality.",
+      "word_count": 778,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the most important change that the dam brought to the village, according to the text?",
+          "options": [
+            "Water for farms",
+            "Electricity",
+            "Safety from floods",
+            "More fish"
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'The most important change was electricity.'",
+          "id": "reader-15-ch-3-q1",
+          "chapter_id": "reader-15-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened to the fish after the dam was built?",
+          "options": [
+            "They grew larger",
+            "They learned to jump over the dam",
+            "They began to disappear",
+            "They became more colorful"
+          ],
+          "correct": 2,
+          "explanation": "The text says: 'The fish that the people had caught for hundreds of years began to disappear.'",
+          "id": "reader-15-ch-3-q2",
+          "chapter_id": "reader-15-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the third cost of the dam mentioned in the chapter?",
+          "options": [
+            "The loss of fish",
+            "The river became small",
+            "The villages downstream suffered",
+            "The ceremonies became sad"
+          ],
+          "correct": 2,
+          "explanation": "The text says: 'The third cost was far away. The villages downstream... began to suffer.'",
+          "id": "reader-15-ch-3-q3",
+          "chapter_id": "reader-15-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'downstream' mean in the text?",
+          "options": [
+            "In the direction the river flows",
+            "Against the flow of the river",
+            "On the river bank",
+            "Near the dam"
+          ],
+          "correct": 0,
+          "explanation": "Downstream refers to the direction that the water flows, away from the source. The villages downstream were affected because the dam stopped the water before it reached them.",
+          "id": "reader-15-ch-3-q4",
+          "chapter_id": "reader-15-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'mixed feelings' mean as used in the chapter?",
+          "options": [
+            "Having both positive and negative emotions",
+            "Feeling confused",
+            "Feeling angry",
+            "Feeling very happy"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'The people of the village had mixed feelings' because some were happy about the benefits, while others were sad about the losses. It means having both positive and negative emotions at the same time.",
+          "id": "reader-15-ch-3-q5",
+          "chapter_id": "reader-15-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dam",
+          "definition": "A barrier built across a river to hold back water, often used to generate electricity or provide water for irrigation."
+        },
+        {
+          "word": "ceremony",
+          "definition": "A formal event or ritual held to mark an important occasion."
+        },
+        {
+          "word": "benefit",
+          "definition": "An advantage or positive effect that something brings."
+        },
+        {
+          "word": "flood",
+          "definition": "An overflow of water onto land that is normally dry, often causing damage."
+        },
+        {
+          "word": "progress",
+          "definition": "The process of improvement or development toward a better or more advanced state."
+        }
+      ]
+    },
+    {
+      "id": "reader-15-ch-4",
+      "title": "Looking Forward",
+      "text": "The first years after the dam were a time of learning for everyone in the village. People understood that they could not continue doing things in the same way. The river had changed, and so their lives had to change too. At first, this was frightening. Many people felt lost, like travelers without a map. But slowly, they began to discover new paths.\n\n.\n\n\n\nSome of the fishermen were the first to adapt. When they saw that the fish had almost disappeared from the river below the dam, they knew they had to find another way to earn money. A man named Ravi, who had fished since he was a boy, had an idea. He had heard about fish farming from a visitor from the city. The idea was simple: you build small ponds, fill them with water, and raise fish inside them. It was not the same as catching wild fish in the river, but it could work. With help from the government, Ravi and a group of other former fishermen built several ponds near the village. They learned how to feed the fish, how to keep the water clean, and how to harvest them at the right time. It took patience and hard work, but after a year, their first harvest was successful. They sold the fish in the market, and although they did not earn as much as before, they earned enough to feed their families. Ravi often said that he missed the freedom of the river, but he was proud that he had learned something new.\n\n\n\nYoung people in the village also found new opportunities. The dam produced electricity, which meant that homes and small businesses could use machines. A young woman named Meera opened a small workshop where she made clothes using an electric sewing machine. Before the dam, she had sewn by hand, which was slow work. Now she could make more clothes in less time, and she sold them in nearby towns. Other young people learned how to repair the new electrical equipment. They became electricians, a job that did not exist in the village before. The dam, they said, had given them a future.\n\n\n\nBut not everyone was happy with these changes. At a village meeting, people gathered to discuss their situation. The meeting was held in the community hall, which was now lit by electric lights. An older woman named Sunita stood up to speak. She had lived by the river all her life, and she remembered when the water was clear and full of life. \"We have electricity now,\" she said, \"but we have lost something more valuable. The river was our teacher, our provider, our friend. Now it is weak and thin. Can we truly call this progress?\" Her words made many people feel sad, because they understood her feelings.\n\n\n\nOthers disagreed. A farmer named Arjun spoke next. He explained that his fields now received water all year round, thanks to the irrigation channels from the dam. Before, his crops had often failed during dry seasons, and his family had suffered. \"The dam has saved us,\" he said. \"It has given us food security. We cannot simply forget that.\" People nodded, because they knew his story was true too.\n\n\n\nThe meeting continued with a debate about whether the dam was worth it. Some people said yes, because of the electricity and the reliable water for farming. Others said no, because of the lost fish, the drier land downstream, and the damage to the river's health. There was no easy answer, and people began to realize that both sides had good points.\n\n\n\nThen a young man named Kiran raised his hand. He had studied environmental science at a college in the city. He suggested that they did not have to choose between the dam and the river. \"We can take steps to help the river recover,\" he said. \"We can ask the dam operators to release more water at certain times of the year, especially during fish breeding season. This will help the fish return. We can also plant trees along the riverbanks. The roots will hold the soil in place, which will reduce erosion and keep the water cleaner.\" He also proposed that the village form a river protection group. This group would monitor the water quality, clean trash from the banks, and educate children about the importance of the river.\n\n\n\nKiran's ideas excited many people. They realized that although they could not turn back the clock, they could work to protect what remained. Over the next few months, the village formed the river protection group, and many people joined. They planted hundreds of trees along the riverbanks. They asked the dam operators to release extra water during the spring, and to their surprise, the operators agreed. Slowly, the river began to show signs of life. A few small fish appeared again in the shallows. The water became slightly clearer. It was not the same as before, but it was a start.\n\n\n\nThe village was different now. It had electricity, better farms, and new skills. But it also had new responsibilities. The people had learned that progress always comes with a cost, and that they must work to balance what they gain with what they lose. As the sun set over the dam one evening, a group of villagers stood on the bank, looking at the water. They wondered: could a village really have both progress and nature? Or would they always have to choose between them? The river flowed quietly, as if waiting for their answer.",
+      "word_count": 928,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the initial reaction of villagers to the changes after the dam?",
+          "options": [
+            "They were excited.",
+            "They were frightened and felt lost.",
+            "They were indifferent.",
+            "They were angry."
+          ],
+          "correct": 1,
+          "explanation": "The text says, 'At first, this was frightening. Many people felt lost, like travelers without a map.'",
+          "id": "reader-15-ch-4-q1",
+          "chapter_id": "reader-15-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'adapt' mean in the passage?",
+          "options": [
+            "To change behavior to suit new conditions",
+            "To give up",
+            "To complain",
+            "To ignore"
+          ],
+          "correct": 0,
+          "explanation": "The fishermen adapted by finding new ways to earn money, like fish farming, instead of continuing as before.",
+          "id": "reader-15-ch-4-q2",
+          "chapter_id": "reader-15-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Ravi solve the problem of disappearing fish?",
+          "options": [
+            "He moved to the city.",
+            "He built fish ponds.",
+            "He stopped fishing.",
+            "He asked for compensation."
+          ],
+          "correct": 1,
+          "explanation": "Ravi learned about fish farming and, with help, built ponds to raise fish, which provided an alternative income.",
+          "id": "reader-15-ch-4-q3",
+          "chapter_id": "reader-15-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Sunita's main concern?",
+          "options": [
+            "She missed the electric lights.",
+            "She thought the river had lost its value.",
+            "She disliked the new jobs.",
+            "She wanted more irrigation."
+          ],
+          "correct": 1,
+          "explanation": "Sunita said, 'We have lost something more valuable. The river was our teacher, our provider, our friend.' She felt the river's decline was a great loss.",
+          "id": "reader-15-ch-4-q4",
+          "chapter_id": "reader-15-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Kiran propose to help the river recover?",
+          "options": [
+            "Build more dams.",
+            "Release more water during breeding season and plant trees.",
+            "Stop using electricity.",
+            "Move the village."
+          ],
+          "correct": 1,
+          "explanation": "Kiran suggested asking dam operators to release more water during fish breeding season and planting trees along riverbanks to reduce erosion and clean the water.",
+          "id": "reader-15-ch-4-q5",
+          "chapter_id": "reader-15-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "adapt",
+          "definition": "To change your behavior or ideas in order to deal with a new situation."
+        },
+        {
+          "word": "harvest",
+          "definition": "The act of collecting crops or animals (like fish) when they are ready to be used or sold."
+        },
+        {
+          "word": "irrigation",
+          "definition": "The supply of water to land or crops to help them grow, often through channels or pipes."
+        },
+        {
+          "word": "erosion",
+          "definition": "The gradual wearing away of soil or rock by water, wind, or other natural forces."
+        },
+        {
+          "word": "monitor",
+          "definition": "To watch and check something regularly over a period of time."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about the village in the story. In your opinion, was building the dam a good decision? Write a short paragraph explaining your view. Use examples from the story to support your opinion.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

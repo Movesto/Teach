@@ -158,6 +158,7 @@ export function ListeningExercise({ exercises, onComplete }) {
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const audioRef = useRef(null);
 
   const exercise = exercises[current];
@@ -168,19 +169,27 @@ export function ListeningExercise({ exercises, onComplete }) {
     return () => { audioRef.current?.pause(); audioRef.current = null; };
   }, []);
 
+  // Warm the on-demand TTS cache as soon as the exercise is shown, so the first
+  // "Play Audio" click isn't stuck waiting for Kokoro to synthesize the clip.
+  useEffect(() => {
+    if (exercise?.audio) fetch(exercise.audio, { credentials: 'include' }).catch(() => {});
+  }, [exercise?.audio]);
+
   const toggleAudio = () => {
-    if (isPlaying) {
+    if (isPlaying || isLoadingAudio) {
       audioRef.current?.pause();
       audioRef.current = null;
       setIsPlaying(false);
+      setIsLoadingAudio(false);
       return;
     }
     const audio = new Audio(exercise.audio);
     audioRef.current = audio;
-    audio.onended = () => { setIsPlaying(false); audioRef.current = null; };
-    audio.onerror = () => { setIsPlaying(false); audioRef.current = null; };
-    audio.play();
-    setIsPlaying(true);
+    setIsLoadingAudio(true);
+    audio.onplaying = () => { setIsLoadingAudio(false); setIsPlaying(true); };
+    audio.onended = () => { setIsPlaying(false); setIsLoadingAudio(false); audioRef.current = null; };
+    audio.onerror = () => { setIsPlaying(false); setIsLoadingAudio(false); audioRef.current = null; };
+    audio.play().catch(() => { setIsPlaying(false); setIsLoadingAudio(false); audioRef.current = null; });
   };
 
   const handleAnswer = (idx) => {
@@ -214,11 +223,22 @@ export function ListeningExercise({ exercises, onComplete }) {
         <button
           onClick={toggleAudio}
           className={`w-full py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 mb-6 ${
-            isPlaying ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'
+            isPlaying ? 'bg-red-500 hover:bg-red-600 text-white'
+            : isLoadingAudio ? 'bg-blue-400 text-white cursor-progress'
+            : 'bg-blue-600 hover:bg-blue-700 text-white'
           }`}
         >
-          <Volume2 className="w-5 h-5" />
-          {isPlaying ? 'Stop Audio' : 'Play Audio'}
+          {isLoadingAudio ? (
+            <>
+              <span className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></span>
+              Preparing audio…
+            </>
+          ) : (
+            <>
+              <Volume2 className="w-5 h-5" />
+              {isPlaying ? 'Stop Audio' : 'Play Audio'}
+            </>
+          )}
         </button>
 
         <div className="space-y-3">
@@ -356,6 +376,23 @@ export function SpeakingRecorder({ tasks, onComplete }) {
       mediaRecorderRef.current = mediaRecorder;
       audioChunksRef.current = [];
       transcriptRef.current = '';
+      let assessed = false;
+      const runAssess = () => {
+        if (assessed || !expectedText) return;
+        assessed = true;
+        const transcript = transcriptRef.current.trim();
+        setIsAssessing(true);
+        apiFetch('/api/speaking/assess', {
+          method: 'POST',
+          body: JSON.stringify({ transcript, expected: expectedText }),
+        })
+          .then(r => (r.ok ? r.json() : null))
+          .then(result => {
+            if (result) setAssessmentResult(prev => ({ ...prev, [taskIndex]: result }));
+            setIsAssessing(false);
+          })
+          .catch(() => setIsAssessing(false));
+      };
 
       // Start speech recognition alongside recording
       const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -370,6 +407,9 @@ export function SpeakingRecorder({ tasks, onComplete }) {
           }
         };
         recognition.onerror = (e) => { if (e.error !== 'no-speech') setMicError('Speech recognition error: ' + e.error); };
+        // Assess only once recognition has delivered its FINAL transcript — reading
+        // it in mediaRecorder.onstop raced ahead of the result and scored 0/100.
+        recognition.onend = runAssess;
         recognitionRef.current = recognition;
         recognition.start();
       }
@@ -385,19 +425,13 @@ export function SpeakingRecorder({ tasks, onComplete }) {
         stream.getTracks().forEach(t => t.stop());
         releaseAudioSession();
 
-        const transcript = transcriptRef.current.trim();
-        if (expectedText) {
-          setIsAssessing(true);
-          apiFetch('/api/speaking/assess', {
-            method: 'POST',
-            body: JSON.stringify({ transcript, expected: expectedText }),
-          })
-            .then(r => r.ok ? r.json() : null)
-            .then(result => {
-              if (result) setAssessmentResult(prev => ({ ...prev, [taskIndex]: result }));
-              setIsAssessing(false);
-            })
-            .catch(() => setIsAssessing(false));
+        if (!SR) {
+          // No Web Speech API (Firefox/Safari): can't transcribe to score. Don't
+          // post an empty transcript (that showed a misleading 0/100).
+          if (expectedText) setMicError('Speech scoring needs Chrome or Edge. Your recording was saved — you can play it back.');
+        } else {
+          // Safety net if recognition.onend is slow or never fires.
+          setTimeout(runAssess, 1500);
         }
       };
 

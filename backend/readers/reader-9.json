@@ -1,0 +1,280 @@
+{
+  "id": "reader-9",
+  "title": "The Library Card",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "everyday life",
+    "tech"
+  ],
+  "genre": "Short fiction",
+  "description": "Fatima, new to the city, finds a warm place full of stories and screens. With a small library card, she opens big doors for herself and her son, learning that help is free and hope is a page away.",
+  "word_count": 1440,
+  "reading_time_minutes": 8,
+  "chapters": [
+    {
+      "id": "reader-9-ch-1",
+      "title": "The Big Building",
+      "text": "Fatima walked past the big building every day. She took her son, Omar, to the shop. She went to the bus stop. She walked to the market. And every day, she passed the library.\n\nThe library was a tall, old building. It had big windows and white walls. Fatima looked at it but she never went inside. She did not know what was in there. She thought libraries were for other people. For students. For people who had time.\n\nBut today was different. Today was very cold. The wind was strong and the rain started to fall. Fatima held Omar's hand. Omar was three years old. He was crying because his hands were cold.\n\n\"Come on, Omar,\" Fatima said. \"We can wait here.\"\n\nShe opened the big door and went inside. It was warm. It was quiet. And it was beautiful.\n\nA woman smiled at her. The woman had grey hair and kind eyes. She wore a blue shirt with a name tag. It said \"Mrs. Hall\".\n\n\"Hello,\" the woman said. \"Welcome to the library. Are you looking for something?\"\n\nFatima felt shy. She looked at the floor. \"No,\" she said. \"It is cold outside. We just want to warm up.\"\n\n\"That is fine,\" Mrs. Hall said. \"You can stay as long as you want. Would you like to see the children's corner?\"\n\nFatima did not know what to say. She looked at Omar. Omar was looking at the big room. His eyes were wide.\n\n\"Come,\" Mrs. Hall said. \"I will show you.\"\n\nThey walked past tall shelves full of books. Omar touched the books with his small hands. Then they came to a special room. It was full of colours. There were small chairs and small tables. There were picture books on low shelves. There was a big rug on the floor.\n\n\"Omar can play here,\" Mrs. Hall said. \"And we have story time every Tuesday. A lady reads stories to the children.\"\n\nOmar sat on the rug. He picked up a book with a red bus on the cover. He smiled.\n\nThen Mrs. Hall showed Fatima the computers. \"You can use these for free,\" she said. \"You can read the news. You can write emails. You can learn new things.\"\n\nFatima looked at the computers. She did not know how to use them. But she wanted to learn.\n\nThen the story time began. A young woman sat in a big chair. Children sat around her. Omar sat with them. The woman opened a book and started to read.\n\n\"Once there was a little duck who wanted to find a friend...\"\n\nOmar laughed. He laughed a big, happy laugh. Fatima heard him. She looked at her son's face. He was happy. He was warm. He was safe.\n\nFatima smiled. It was a small smile, but it was real.\n\nMrs. Hall came back. \"Would you like a library card?\" she asked. \"It is free. You can borrow books. You can use the computers.\"\n\nFatima thought for a moment. Then she said, \"Yes. Yes, I would like that.\"",
+      "word_count": 507,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Fatima go into the library?",
+          "options": [
+            "She was curious about the books.",
+            "It was cold and rainy outside.",
+            "Omar wanted to hear a story.",
+            "She had a meeting with Mrs. Hall."
+          ],
+          "correct": 1,
+          "explanation": "The text says it was very cold, the wind was strong, and rain started to fall. Fatima opened the door to wait inside and said, 'It is cold outside. We just want to warm up.'",
+          "id": "reader-9-ch-1-q1",
+          "chapter_id": "reader-9-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'shy' mean in this story?",
+          "options": [
+            "Happy and excited",
+            "Nervous or embarrassed",
+            "Angry and upset",
+            "Tired and sleepy"
+          ],
+          "correct": 1,
+          "explanation": "When Mrs. Hall spoke to Fatima, Fatima felt shy and looked at the floor, which shows she was nervous or embarrassed.",
+          "id": "reader-9-ch-1-q2",
+          "chapter_id": "reader-9-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happens every Tuesday at the library?",
+          "options": [
+            "A computer class for adults",
+            "Story time for children",
+            "A free lunch for visitors",
+            "A music concert"
+          ],
+          "correct": 1,
+          "explanation": "Mrs. Hall said, 'We have story time every Tuesday. A lady reads stories to the children.'",
+          "id": "reader-9-ch-1-q3",
+          "chapter_id": "reader-9-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'borrow' mean?",
+          "options": [
+            "To buy something",
+            "To give something away",
+            "To take and return later",
+            "To read in the library"
+          ],
+          "correct": 2,
+          "explanation": "In the text, Mrs. Hall says, 'You can borrow books.' This means you can take them home and bring them back later.",
+          "id": "reader-9-ch-1-q4",
+          "chapter_id": "reader-9-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "library",
+          "definition": "A place where books are kept for reading or borrowing."
+        },
+        {
+          "word": "shelf",
+          "definition": "A flat board used for holding books or other things."
+        },
+        {
+          "word": "rug",
+          "definition": "A piece of thick fabric used as a floor covering."
+        },
+        {
+          "word": "borrow",
+          "definition": "To take and use something that belongs to someone else and return it later."
+        },
+        {
+          "word": "shy",
+          "definition": "Nervous or uncomfortable when meeting or talking to other people."
+        }
+      ]
+    },
+    {
+      "id": "reader-9-ch-2",
+      "title": "My Own Card",
+      "text": "The next day, Fatima came back to the library with her son. She felt happier now. The library was warm and bright, and the people were very kind. She wanted a library card like the woman at the desk had said.\n\nShe walked up to the desk. A young man with glasses asked, \"Can I help you?\"\n\nFatima spoke slowly. She was a little shy. \"I would like a library card,\" she said. \"How can I get one?\"\n\nThe man smiled. \"That is easy,\" he said. \"You need two things. One is an ID, and one is a piece of mail.\"\n\nAn ID? Fatima did not understand. The man saw her face. He explained again. \"An ID is a card with your name and your picture. Like a card from your government or your workplace. And a piece of mail, like a letter or a bill that comes to your house.\"\n\n\"Ah, yes,\" Fatima said. She had an ID card from her country. She still had it in her bag. And she sometimes got letters from her brother. She had one in her home.\n\n\"Bring those things tomorrow,\" the man said. \"Then you can fill in a form, and you will get your card. Your son can come too. There is a story time for children at ten o'clock.\"\n\nThe next day, Fatima put her ID and a letter in her bag. She walked to the library with her son. Her heart beat a little fast. But she felt ready.\n\nThe same young man was at the desk. Fatima gave him her two papers. They were the ID card with her picture and a letter. The man looked at them and said, \"Very nice, part.\"\n\nThen he gave her a white form. It was short. Fatima wrote her name, her address, and her phone number. She wrote a small, clear letters. The man took the form and said, \"Wait one minute, please.\"\n\nHe came back with a blue card. \"This is your card,\" he said. He held it out. Fatima took it. The card was blue and white. It had her name: Fatima. It felt in her hand. The librarian showed her how to use it.\n\n\"Now you can borrow books from the library. You can take them home for three weeks. Then you bring them back. If you finish a book and you want it, you can get another one too, here at this machine.\"\n\nThe man showed her a small computer at the side of the desk. It had a scanner. He put the blue card under the red light. *Beep!* Then he put the book under the light. *Beep!* \"Now this book is yours for three weeks,\" he said.\n\nThen he showed her the computers in the corner. \"You can write emails. You can write letters here and print them,\" he said. Fatima touched the keyboard with her finger. It was very different from a pen . He showed her how to open a program and write her name.\n\nFatima smiled. She had her own card and a new way to use a library. It was a good day.",
+      "word_count": 522,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What does Fatima need to get a library card?",
+          "options": [
+            "A passport and a letter",
+            "An ID and a piece of mail",
+            "A photo and a form",
+            "A book and a pen"
+          ],
+          "correct": 1,
+          "explanation": "The man says, 'You need two things. One is an ID, and one is a piece of mail.'",
+          "id": "reader-9-ch-2-q1",
+          "chapter_id": "reader-9-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'ID' mean in this story?",
+          "options": [
+            "A kind of book",
+            "A card with your name and picture",
+            "A letter from a friend",
+            "A library card"
+          ],
+          "correct": 1,
+          "explanation": "The man explains, 'An ID is a card with your name and your picture.'",
+          "id": "reader-9-ch-2-q2",
+          "chapter_id": "reader-9-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How long can Fatima keep a borrowed book?",
+          "options": [
+            "One week",
+            "Two weeks",
+            "Three weeks",
+            "One month"
+          ],
+          "correct": 2,
+          "explanation": "The librarian says, 'You can take them home for three weeks.'",
+          "id": "reader-9-ch-2-q3",
+          "chapter_id": "reader-9-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Fatima learn to do on the computer?",
+          "options": [
+            "Play games",
+            "Write emails and letters and print them",
+            "Watch movies",
+            "Search the internet"
+          ],
+          "correct": 1,
+          "explanation": "The man shows her computers and says, 'You can write emails. You can write letters here and print them.'",
+          "id": "reader-9-ch-2-q4",
+          "chapter_id": "reader-9-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ID",
+          "definition": "A card or document with your name and picture that proves who you are."
+        },
+        {
+          "word": "piece of mail",
+          "definition": "A letter or bill that is sent to your house."
+        },
+        {
+          "word": "form",
+          "definition": "A paper with spaces to write information."
+        },
+        {
+          "word": "scanner",
+          "definition": "A machine that reads codes or information from a card or book."
+        },
+        {
+          "word": "borrow",
+          "definition": "To take something for a short time and then return it."
+        }
+      ]
+    },
+    {
+      "id": "reader-9-ch-3",
+      "title": "A New Door",
+      "text": "The next week, Fatima came back to the library. She smiled at the kind woman at the desk. She knew where to go now. She took her son to the children's corner first. He played with the toys and looked at the picture books. Then Fatima walked to the computers. She sat down and looked at the screen. It was not hard now. She remembered what the librarian had shown her.\n\nShe wanted to find a job. A man at the desk helped her. He said, \"You can search for jobs on the computer.\" He showed her a website. Fatima typed her city and the word \"job\". Many names came up. She read them slowly. Some jobs were for cleaning, some for cooking, some for helping in shops. Fatima wrote down the ones she liked. She felt happy. She could do this.\n\nThe man also showed her how to print a form. \"You need to fill this form for a job,\" he said. He pressed a button, and the paper came out of a big machine. Fatima watched. It was like magic. She took the paper and put it in her bag. She would fill it at home.\n\nHer son came to her. He was a little bored. Fatima had an idea. She asked the librarian, \"Can I read a story on the computer?\" The librarian smiled. \"Yes, of course. There are many stories online.\" She helped Fatima find a simple story about a cat. Fatima read the words on the screen. Her son sat on her lap and listened. He laughed when the cat fell down. Fatima read the story again. Her son loved it. She felt proud.\n\nEvery week, Fatima came back. She learned more. She could search for anything now. She could print forms for school, for the doctor, for the bank. She felt strong and smart.\n\nOne day, a new woman came in. She looked shy, like Fatima had been. She held a small baby and looked around. Fatima saw her and smiled. She walked to her and said, \"Hello. Are you new here?\" The woman nodded. \"I am looking for the children's room,\" she said softly. Fatima said, \"Come with me. I will show you.\" She took the woman to the children's corner. The woman said, \"Thank you.\" Fatima felt warm inside. She was not a new person anymore. She was at home. The library was her place, and she could help others find it too.",
+      "word_count": 411,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Fatima learn to do at the library?",
+          "options": [
+            "Read stories to her son",
+            "Search for jobs and print forms",
+            "Talk to new people",
+            "Cook meals for her family"
+          ],
+          "correct": 1,
+          "explanation": "The chapter says Fatima learned to search for jobs and print forms using the computer.",
+          "id": "reader-9-ch-3-q1",
+          "chapter_id": "reader-9-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Fatima do when she saw the new woman?",
+          "options": [
+            "She hid behind the books",
+            "She smiled and helped her",
+            "She asked for help",
+            "She left the library"
+          ],
+          "correct": 1,
+          "explanation": "Fatima saw the new woman, smiled, walked to her, and showed her the children's corner.",
+          "id": "reader-9-ch-3-q2",
+          "chapter_id": "reader-9-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Fatima feel after helping the new woman?",
+          "options": [
+            "Sad and tired",
+            "Angry and confused",
+            "Warm inside",
+            "Scared and nervous"
+          ],
+          "correct": 2,
+          "explanation": "The text says Fatima felt warm inside after helping the new woman.",
+          "id": "reader-9-ch-3-q3",
+          "chapter_id": "reader-9-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'shy' mean?",
+          "options": [
+            "Happy and excited",
+            "Quiet and nervous",
+            "Brave and strong",
+            "Tired and sleepy"
+          ],
+          "correct": 1,
+          "explanation": "In the story, the new woman looked shy, meaning she was quiet and nervous.",
+          "id": "reader-9-ch-3-q4",
+          "chapter_id": "reader-9-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "shy",
+          "definition": "Feeling nervous or uncomfortable around other people, often being quiet."
+        },
+        {
+          "word": "magic",
+          "definition": "Something that seems impossible or very surprising, like a trick."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling good about what you or someone else has done."
+        },
+        {
+          "word": "strong",
+          "definition": "Having power or ability; not weak."
+        },
+        {
+          "word": "smart",
+          "definition": "Able to learn and understand things quickly."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a place that felt new or scary at first, like a library, a school, or an office. What small step did you take to feel more comfortable? What did you learn that helped you?",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

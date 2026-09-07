@@ -1,0 +1,418 @@
+{
+  "id": "reader-19",
+  "title": "The Money Trap",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "money",
+    "everyday life"
+  ],
+  "genre": "Realistic fiction",
+  "description": "A young worker learns a hard lesson about easy money, interest, and scams, and rebuilds his finances with a sensible plan.",
+  "word_count": 3468,
+  "reading_time_minutes": 19,
+  "chapters": [
+    {
+      "id": "reader-19-ch-1",
+      "title": "The Easy Loan",
+      "text": "Ahmed looked at the pile of bills on his small kitchen table. There was a bill for electricity, one for water, and a letter from his bank. He did not need to open the bank letter. He knew what it said. His account was almost empty. He worked forty hours a week at the warehouse, lifting boxes and moving heavy things. His back hurt at the end of every day. And still, the money was never enough.\n\nHe put his head in his hands. His phone was old and slow. The screen was cracked, and the battery died before the afternoon was over. His clothes were old too. His jacket had a hole in the sleeve, and his shoes let in water when it rained. He wanted new things. He wanted to feel normal, like the other people he saw in the city. They walked with new phones in their hands and wore clean, bright clothes. Ahmed felt invisible in his old, tired clothes.\n\nThat evening, he sat on his bed and looked at his phone. A small advertisement appeared on the screen. It showed a happy man holding a new phone. The words said: \"Need money? Get a loan today! Low monthly payments! No problem! Money in your account in one hour!\"\n\nAhmed's heart beat faster. Low monthly payments. That sounded good. He could pay a little every month. It would be easy. He clicked on the advertisement. A page opened with a simple form. It asked for his name, his address, and his job. It did not ask for many details. It did not ask about his salary or his other bills. The page said, \"No need to explain! We trust you!\"\n\nHe thought about his new phone. He thought about a new jacket and new shoes. He imagined walking into the warehouse with a big smile. His co-workers would see his new things. They would think he was doing well. He typed his name into the form. Then he stopped. His mother's voice came into his head. She always said, \"Read everything before you sign, Ahmed. Look with your eyes, not with your heart.\"\n\nBut the advertisement was so simple. The monthly payment was small. He could manage it. He finished the form and pressed the button that said \"Send.\" A message appeared: \"Congratulations! Your loan is approved! The money will arrive tomorrow. Please come to our office to sign the papers.\"\n\nThe next day, Ahmed went to the office. It was a small room above a shop. A man with a friendly smile sat behind a desk. His name was Mr. Karim. He had a gold watch and a very white smile. \"Ahmed, my friend!\" he said. \"Welcome! You are smart to borrow from us. We are different from the banks. We say yes when they say no.\"\n\nMr. Karim pushed a paper across the desk. \"Sign here,\" he said. \"It is just a form. A small thing. The money is waiting for you.\"\n\nAhmed looked at the paper. There were many words. He saw numbers and small print. He tried to read it, but Mr. Karim talked and talked. \"You will get five thousand pounds,\" he said. \"You will pay back only a little each month. It is a gift, my friend!\"\n\nAhmed's eyes moved over the paper. He saw the word \"interest.\" He did not fully understand it. He saw a number: twenty percent. But the monthly payment was small. He wanted the money. He wanted the new phone. He picked up the pen. His hand shook a little. He signed his name.\n\nMr. Karim smiled and gave him a thick envelope. \"Here you are, my friend. Enjoy! And remember, if you need more money, you can always come back to me.\"\n\nAhmed walked out of the office with the envelope in his pocket. He felt happy. He went straight to the phone shop and bought the newest phone. He bought a new jacket and new shoes. He felt like a new man. He walked home with a big smile.\n\nThat night, he looked at the paper from Mr. Karim again. He read it slowly. The small print was difficult. He saw a sentence: \"If you do not pay on time, the interest will increase.\" He saw another sentence: \"The loan must be paid in full after twelve months.\" He did not understand. Twelve months? He thought he could pay a little every month for years. He looked at the numbers again. The total amount he had to pay back was much more than five thousand pounds. It was almost double.\n\nHis smile disappeared. His hands felt cold. He had signed a paper without reading it carefully. He had trusted a friendly smile. He had bought things he did not need. And now, the trap was closed around him. He looked at his new phone. It did not feel like a gift anymore. It felt like a heavy weight in his pocket.",
+      "word_count": 828,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Ahmed feel invisible?",
+          "options": [
+            "Because he had no friends in the city",
+            "Because he wore old and tired clothes",
+            "Because he worked too many hours",
+            "Because he had no money at all"
+          ],
+          "correct": 1,
+          "explanation": "The text says, 'Ahmed felt invisible in his old, tired clothes.'",
+          "id": "reader-19-ch-1-q1",
+          "chapter_id": "reader-19-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the advertisement promise?",
+          "options": [
+            "A free new phone for signing up",
+            "Low monthly payments and money quickly",
+            "A better job at the warehouse",
+            "New clothes without any cost"
+          ],
+          "correct": 1,
+          "explanation": "The advertisement said: 'Need money? Get a loan today! Low monthly payments! ... Money in your account in one hour!'",
+          "id": "reader-19-ch-1-q2",
+          "chapter_id": "reader-19-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed do right after signing the paper?",
+          "options": [
+            "He read the paper carefully",
+            "He went to the phone shop and bought new things",
+            "He returned the money to Mr. Karim",
+            "He called his mother for advice"
+          ],
+          "correct": 1,
+          "explanation": "After signing, Ahmed went straight to the phone shop and bought the newest phone, a new jacket, and new shoes.",
+          "id": "reader-19-ch-1-q3",
+          "chapter_id": "reader-19-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'interest' mean in this story?",
+          "options": [
+            "A feeling of wanting to know more",
+            "A fee paid for borrowing money",
+            "A type of bank account",
+            "A legal document"
+          ],
+          "correct": 1,
+          "explanation": "In the context of a loan, 'interest' is the extra money you pay back to the lender.",
+          "id": "reader-19-ch-1-q4",
+          "chapter_id": "reader-19-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the main problem with the loan Ahmed took?",
+          "options": [
+            "The monthly payments were too high for him",
+            "The total amount he had to pay back was almost double",
+            "The bank refused to give him the money",
+            "The new phone was broken"
+          ],
+          "correct": 1,
+          "explanation": "The text says, 'The total amount he had to pay back was much more than five thousand pounds. It was almost double.'",
+          "id": "reader-19-ch-1-q5",
+          "chapter_id": "reader-19-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "loan",
+          "definition": "An amount of money borrowed from someone, usually a bank or lender, that must be paid back with interest."
+        },
+        {
+          "word": "interest",
+          "definition": "The extra money you pay when you borrow money, or receive when you save money."
+        },
+        {
+          "word": "trap",
+          "definition": "A hidden or unexpected danger; a situation that seems good but causes problems."
+        },
+        {
+          "word": "approve",
+          "definition": "To officially agree to or accept something, such as a loan request."
+        }
+      ]
+    },
+    {
+      "id": "reader-19-ch-2",
+      "title": "The Big Promise",
+      "text": "Ahmed felt great for the first two weeks. He loved his new phone. The screen was bright and fast. He also enjoyed his new clothes. They looked modern and felt comfortable. His friends at work noticed the change. They said, \"Ahmed, you look so good!\" Ahmed smiled and felt proud. He forgot about the loan for a little while. He thought, \"This is the life I wanted.\"\n\nBut the happiness did not last long. After three weeks, the first payment came. Ahmed opened the letter from the loan company. His eyes went wide. The number was much bigger than he expected. \"This is not right,\" he said to himself. He found the contract in his drawer. He read it again, slowly. He saw a small line at the bottom. It said, \"Annual interest rate: 35%.\" Ahmed did not understand this when he signed. He only saw the small monthly payment in the beginning. Now, he understood. The interest was very high. The payment was almost half of his monthly salary.\n\nAhmed felt a heavy weight in his chest. He paid the first payment, but it hurt. He had very little money left for food and rent. He started to eat less. He stopped going out with his friends. He worked extra hours at the warehouse when he could. But it was not enough. The next payment was coming soon. He felt trapped. He could not sleep at night. He thought about the loan all the time.\n\nOne day, after work, Ahmed met his old friend, Karim. Karim was always smiling. He wore nice shoes and a gold watch. They sat down at a small tea shop. Karim saw Ahmed's tired face. \"What is wrong, my friend?\" Karim asked.\n\nAhmed told him everything. He talked about the phone, the clothes, the high interest, and the difficult payments. He said, \"I made a big mistake, Karim. I am in trouble.\"\n\nKarim listened. Then he leaned closer and spoke in a low voice. \"Ahmed, I have a secret. I know a way to make money fast. Very fast.\"\n\nAhmed looked at him with hope. \"How?\" he asked.\n\nKarim explained. He said he had a friend who worked in a trading company. This company bought and sold gold. The prices went up and down every day. But Karim said they had special information. They knew when the price would go up. They could make a profit of one hundred percent in just one month. \"If you give me five thousand dollars, I can invest it for you. In one month, you will have ten thousand dollars. You can pay off your loan and still have money left.\"\n\nAhmed's heart beat fast. Five thousand dollars was a lot of money. He did not have that much. But he thought about his loan. He thought about the next payment. He thought about the stress. Maybe this was the answer. Maybe this was his way out.\n\n\"Are you sure, Karim?\" Ahmed asked. \"Is it safe?\"\n\nKarim smiled. \"I have done it three times already. Look at my watch. I bought it with the profit. It is a little risky, but the risk is small. The promise is big. You will be free, Ahmed. You will be rich.\"\n\nAhmed wanted to believe him. He wanted to escape his problem. He thought about the future. He could pay the loan. He could buy more nice things. He could help his family. The promise sounded so sweet.\n\nBut he did not have five thousand dollars. He had only two thousand in his savings account. That was his emergency money. He was saving it for a long time.\n\nHe told Karim. Karim thought for a moment. \"Give me two thousand. It is enough. We will make it four thousand in one month. Then you can pay your loan and have some left. Trust me.\"\n\nAhmed felt a fight inside him. One part of him said, \"No, this is dangerous. You do not understand these things.\" But the other part said, \"You are already in trouble. What do you have to lose? This could solve everything.\"\n\nHe remembered the phone in his pocket. He remembered the clothes on his back. He remembered the hungry days. He did not want to go back to that.\n\n\"Okay,\" Ahmed said slowly. His voice was quiet. \"I will do it. I will give you the two thousand dollars.\"\n\nKarim clapped his hands. \"Excellent! You will not regret it. I promise you. In one month, we will celebrate.\"\n\nAhmed went home. He took out his savings. He gave the money to Karim the next day. Karim gave him a piece of paper. It had a name of a company and a number. \"This is your ticket,\" Karim said. \"Wait for my call.\"\n\nAhmed walked home with a strange feeling. He felt hope, but also fear. He looked at the paper in his hand. He thought about the big promise. He thought about the money doubling. He tried to smile. But deep in his heart, a small voice whispered, \"What if it is not true?\" He pushed the voice away. He had to believe. He had no other choice.",
+      "word_count": 861,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Ahmed feel happy during the first two weeks after buying the phone and clothes?",
+          "options": [
+            "He had paid off his loan.",
+            "He enjoyed his new possessions and received compliments.",
+            "He got a promotion at work.",
+            "He found a way to invest his money."
+          ],
+          "correct": 1,
+          "explanation": "The text says Ahmed loved his new phone and clothes, and his friends noticed the change and complimented him, making him feel proud.",
+          "id": "reader-19-ch-2-q1",
+          "chapter_id": "reader-19-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the main reason Ahmed's first loan payment was much larger than he expected?",
+          "options": [
+            "He missed a payment deadline.",
+            "The loan had a high annual interest rate of 35%.",
+            "He borrowed more money than he planned.",
+            "The loan company added extra fees."
+          ],
+          "correct": 1,
+          "explanation": "Ahmed read the contract and found a line stating 'Annual interest rate: 35%', which he had not noticed before, making the payment almost half his salary.",
+          "id": "reader-19-ch-2-q2",
+          "chapter_id": "reader-19-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Ahmed react after paying the first loan payment?",
+          "options": [
+            "He felt relieved and celebrated with friends.",
+            "He started eating less and working extra hours.",
+            "He decided to sell his phone and clothes.",
+            "He asked Karim for a loan."
+          ],
+          "correct": 1,
+          "explanation": "The text says Ahmed had little money left, started to eat less, stopped going out, and worked extra hours at the warehouse, showing his struggle.",
+          "id": "reader-19-ch-2-q3",
+          "chapter_id": "reader-19-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'profit' mean in the context of Karim's investment offer?",
+          "options": [
+            "The amount of money lost in a deal",
+            "The money gained from an investment",
+            "The interest rate on a loan",
+            "The total amount of money borrowed"
+          ],
+          "correct": 1,
+          "explanation": "Karim says they can make a profit of one hundred percent, meaning they can double their money, so profit is the financial gain.",
+          "id": "reader-19-ch-2-q4",
+          "chapter_id": "reader-19-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Ahmed decide to give Karim the money despite his doubts?",
+          "options": [
+            "He was confident the investment was safe.",
+            "He felt desperate to escape his loan troubles.",
+            "He wanted to buy Karim's watch.",
+            "He had no other use for his savings."
+          ],
+          "correct": 1,
+          "explanation": "Ahmed felt trapped by the loan and the stress, and Karim's promise of quick money seemed like a way out, even though he had a small voice of doubt.",
+          "id": "reader-19-ch-2-q5",
+          "chapter_id": "reader-19-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "contract",
+          "definition": "A written legal agreement between two parties."
+        },
+        {
+          "word": "interest",
+          "definition": "The extra money you pay when you borrow money, or the money you earn on savings."
+        },
+        {
+          "word": "profit",
+          "definition": "The money you gain from a business or investment after costs are paid."
+        },
+        {
+          "word": "emergency",
+          "definition": "A sudden, serious situation that needs immediate action."
+        },
+        {
+          "word": "risky",
+          "definition": "Involving the possibility of loss or failure."
+        }
+      ]
+    },
+    {
+      "id": "reader-19-ch-3",
+      "title": "The Hard Truth",
+      "text": "Three weeks passed, and Ahmed checked his phone every morning, hoping for news about his investment. His friend Karim had promised that the money would double quickly. \"It's a special opportunity,\" Karim had said. \"Only a few people know about it. You can make five thousand pounds in one month!\"\n\nBut the news never came. Karim stopped answering his calls. When Ahmed visited Karim's apartment, he found the door locked and the windows dark. A neighbour said that Karim had moved away suddenly, three days ago.\n\nAhmed's heart felt heavy. He sat on the steps outside the building and tried to think clearly. The money he had invested, three thousand pounds, was everything he had saved. He had borrowed two thousand of it from the loan company, and he had used one thousand from his own savings. Now, the money was gone. Karim was gone. And the loan was still there.\n\nThe next morning, his phone rang at seven o'clock. A woman's voice spoke quickly. \"Mr. Ahmed Hassan? This is Quick Finance. Your payment is late. You must pay two hundred and fifty pounds by Friday. If you cannot pay, we will add a late fee. And we will call you every day until you pay.\"\n\nAhmed tried to speak, but his mouth was dry. \"I... I can send some money next week. Please, I need more time.\"\n\n\"I'm sorry,\" the woman said, but her voice did not sound sorry. \"Those are the rules. You signed the contract. You must follow it.\"\n\nAfter the call, Ahmed sat at his small kitchen table and stared at the wall. He thought about the contract he had signed so quickly. He remembered the young man at the loan office who smiled and said, \"Just sign here. The monthly payment is very low. You can pay it easily.\" Ahmed had not read the small print. He had not asked about the interest rate. He had not understood that the payment could go up.\n\nNow, he understood. The low payment was only for the first month. After that, the interest made the payment much higher. And he had no money to pay it.\n\nThe phone rang again at lunchtime. And again in the evening. Each time, the same message. \"You must pay. You must pay.\"\n\nAhmed could not sleep. He lay in bed and looked at the ceiling. His new phone was on the table, but he did not want to look at it. The clothes in his wardrobe were nice, but they did not help him now. He thought about his mother, who lived in another city. She always told him, \"Be careful with money, Ahmed. Do not borrow what you cannot pay back.\" He had not listened.\n\nOn the third day, he received an email from the loan company. The subject line was in red letters: \"FINAL WARNING.\" The email said that if he did not pay within seven days, the company would take legal action. They could take money from his salary. They could even take things from his home.\n\nAhmed felt sick. He had made a terrible mistake. The loan was a trap, and the investment was a lie. He had trusted the wrong people.\n\nBut then, something changed inside him. He sat down with a piece of paper and a pen. He wrote down his problem: he owed two thousand pounds, plus interest. He wrote down his income: one thousand four hundred pounds each month, after tax. He wrote down his expenses: rent, food, transport, phone. He could save about two hundred pounds each month, if he was careful.\n\nTwo hundred pounds. The loan payment was two hundred and fifty. It was not enough.\n\nAhmed thought about his options. He could ask his brother for help. His brother lived in another country and worked as a driver. It would be difficult to ask, but it was better than losing everything. He could also speak to the loan company and explain his situation. Maybe they would agree to a new payment plan. He had heard that some companies could be flexible, if you asked early.\n\nHe took a deep breath. He could not change the past. He could not get his money back from Karim. But he could make a plan for the future. He could call his brother tonight. He could call the loan company tomorrow. He could sell the new phone and the clothes. It would be hard, but he could do it.\n\nHe wrote a list on the paper:\n\n1. Call my brother and ask for help.\n2. Call the loan company and explain everything.\n3. Sell the phone and the clothes.\n4. Make a budget and follow it.\n5. Never sign anything without reading it carefully.\n\nAhmed looked at the list. His hands were shaking, but his mind was clear. He had learned a hard lesson. Money was not easy. Nobody could double it quickly. And a loan was not free money, it was a promise, and promises must be kept.\n\nHe picked up his phone and called his brother. The phone rang once, twice, three times. Then a familiar voice said, \"Hello? Ahmed? Is everything okay?\"\n\nAhmed closed his eyes. \"No, brother. Not everything. I need to tell you something. And I need your help.\"",
+      "word_count": 879,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Ahmed invest money with Karim?",
+          "options": [
+            "Karim promised that the money would double quickly.",
+            "Ahmed wanted to help Karim start a business.",
+            "Ahmed needed money to buy a new phone.",
+            "Ahmed's brother recommended the investment."
+          ],
+          "correct": 0,
+          "explanation": "Karim told Ahmed it was a special opportunity and that he could make five thousand pounds in one month, so Ahmed invested hoping for a quick profit.",
+          "id": "reader-19-ch-3-q1",
+          "chapter_id": "reader-19-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened after three weeks?",
+          "options": [
+            "Karim returned the money with interest.",
+            "Karim disappeared and Ahmed could not reach him.",
+            "Ahmed got a new job and paid off the loan.",
+            "The loan company forgave Ahmed's debt."
+          ],
+          "correct": 1,
+          "explanation": "Karim stopped answering Ahmed's calls, and when Ahmed visited, his apartment was locked and empty; a neighbor said Karim had moved away suddenly.",
+          "id": "reader-19-ch-3-q2",
+          "chapter_id": "reader-19-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the email subject line 'FINAL WARNING' mean in the context?",
+          "options": [
+            "A last notice before the loan company takes legal action.",
+            "A friendly reminder to pay soon.",
+            "A suggestion to call the company for more time.",
+            "A congratulations message for making a payment."
+          ],
+          "correct": 0,
+          "explanation": "The email said that if Ahmed did not pay within seven days, the company would take legal action, such as taking money from his salary or things from his home.",
+          "id": "reader-19-ch-3-q3",
+          "chapter_id": "reader-19-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed do after receiving the email?",
+          "options": [
+            "He called Karim again to ask for help.",
+            "He wrote down his problem and made a plan with steps.",
+            "He sold his phone and clothes immediately.",
+            "He ignored the email and went to sleep."
+          ],
+          "correct": 1,
+          "explanation": "Ahmed sat down with paper and pen, wrote his problem, income, expenses, and then made a list of actions including calling his brother and the loan company, selling items, and making a budget.",
+          "id": "reader-19-ch-3-q4",
+          "chapter_id": "reader-19-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'interest rate' mean in this chapter?",
+          "options": [
+            "The extra money you pay on a loan.",
+            "The amount of money you borrow.",
+            "The monthly payment amount.",
+            "The time you have to repay the loan."
+          ],
+          "correct": 0,
+          "explanation": "The text explains that the low payment was only for the first month, and then the interest made the payment much higher, so interest is the extra cost added to a loan.",
+          "id": "reader-19-ch-3-q5",
+          "chapter_id": "reader-19-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "investment",
+          "definition": "Money put into something (like a business or plan) hoping to get more money back."
+        },
+        {
+          "word": "loan",
+          "definition": "Money borrowed from a bank or company that must be repaid, usually with interest."
+        },
+        {
+          "word": "contract",
+          "definition": "A legal agreement between two people or companies that says what each must do."
+        },
+        {
+          "word": "interest",
+          "definition": "Extra money you pay when you borrow money, or earn when you save money."
+        },
+        {
+          "word": "budget",
+          "definition": "A plan for how to spend and save your money each month."
+        }
+      ]
+    },
+    {
+      "id": "reader-19-ch-4",
+      "title": "A New Plan",
+      "text": "The morning sun felt too bright for Ahmed's tired eyes. He had not slept well. The calls from the loan company were like a loud noise in his head that would not stop. He knew he could not solve this problem alone. He remembered a poster at the community center. It said, \"Free financial advice. We can help you plan.\" That afternoon, he walked to the center with a heavy heart.\n\nInside, a kind woman named Ms. Chen met him. Her office was small but warm. She smiled and asked him to sit. \"Tell me everything,\" she said. Ahmed did not want to, but he knew he must. He told her about the loan, the new phone, the clothes, and the friend with the quick investment. He told her about the money he lost and the calls he received every day. When he finished, he felt empty and ashamed.\n\nMs. Chen listened without interrupting. Then she spoke softly. \"Ahmed, you made some mistakes. But you are not a bad person. You made bad choices. The important thing is that you are here now, ready to learn.\" She took out a piece of paper and a pen. \"First, we need to see the whole picture. We must know exactly how much you earn and how much you spend.\"\n\nAhmed thought for a moment. He earned a fixed salary every month from the warehouse. That was simple. But when she asked about his spending, he could not answer. He had never thought about it. \"I just buy what I need,\" he said. Ms. Chen smiled. \"Do you know what you need? Or do you buy what you want?\" Ahmed had no answer.\n\nTogether, they made a list. Rent, electricity, water, and food were his needs. He also paid for his phone, but he could choose a cheaper plan. He bought coffee every morning and snacks every afternoon. He often took taxis to meet friends. These were wants, not needs. Ms. Chen explained the difference. \"A budget is a plan for your money. You must tell your money where to go, or you will wonder where it went.\"\n\nShe helped him write a simple budget. First, they wrote his income at the top. Then, they subtracted his needs. After that, they looked at his wants. Ahmed was surprised to see how much he spent on small things. \"If you stop buying coffee and snacks, you can save a little. If you take the bus instead of a taxi, you can save more. It is not a big change, but it is a start.\"\n\nAhmed felt a small hope. \"But what about the loan? The payments are too high. I cannot pay them.\" Ms. Chen nodded. \"You must call the loan company. Do not hide from them. Explain your situation. Ask if you can make smaller payments over a longer time. Many companies will agree. They want their money back. They do not want you to disappear.\"\n\nAhmed was afraid to call. He remembered the angry voices on the phone. But Ms. Chen gave him courage. \"You can do this. You must speak clearly and calmly. Tell them you have a plan. You can pay a little each month. It will take longer, but you will pay. This is better for them than nothing.\"\n\nShe also taught him about the loan itself. \"You borrowed money for a phone and clothes. But the interest made the phone cost three times more. You must always read the details. You must ask about the total cost. If a loan seems too easy, you must be careful.\" She warned him about other offers. \"If someone promises to double your money quickly, they are lying. There is no easy money. Anyone who says that wants to take your money.\"\n\nAhmed listened carefully. He wrote everything down in a small notebook. He made a plan. First, he would call the loan company that afternoon. Second, he would start his budget the next day. Third, he would save a small amount every week, even if it was just a few coins. He would put this money in a separate envelope. It was his emergency fund. He would not touch it unless he truly needed it.\n\nOver the next few weeks, Ahmed followed his plan. The call to the loan company was difficult, but he did it. He spoke calmly and honestly. To his surprise, they agreed to a new payment plan. The payments were smaller, but he would pay for a longer time. He could manage this.\n\nHe stopped buying coffee and snacks. He took the bus to work. He cooked simple meals at home instead of eating out. It was not easy at first. He missed his old habits. But every week, he put a little money into his envelope. He watched his savings grow. It was a small amount, but it was his. He felt more in control of his life.\n\nOne evening, he looked at his notebook. He saw his budget, his payment plan, and his savings. He felt proud. He had made a mistake, but he had learned from it. He made a promise to himself. He would never again accept easy money. He would never sign anything without reading it. He would always ask questions. He had a plan now, and he would follow it. The trap was behind him, and the road ahead was clear.",
+      "word_count": 900,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was Ahmed's main problem at the beginning of the story?",
+          "options": [
+            "He was sick.",
+            "He had too much money.",
+            "He had financial trouble.",
+            "He lost his job."
+          ],
+          "correct": 2,
+          "explanation": "The story shows Ahmed struggling with loans, debts, and spending, indicating financial trouble.",
+          "id": "reader-19-ch-4-q1",
+          "chapter_id": "reader-19-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'budget' mean in the story?",
+          "options": [
+            "A plan for spending money.",
+            "A type of loan.",
+            "A savings account.",
+            "A list of wants."
+          ],
+          "correct": 0,
+          "explanation": "Ms. Chen helps Ahmed write a budget, which is a plan for managing income and expenses.",
+          "id": "reader-19-ch-4-q2",
+          "chapter_id": "reader-19-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed learn about his spending habits?",
+          "options": [
+            "He spent too much on needs.",
+            "He spent too much on wants.",
+            "He didn't spend enough.",
+            "He saved too much."
+          ],
+          "correct": 1,
+          "explanation": "Ahmed realized he spent money on coffee, snacks, and taxis, which are wants, not needs.",
+          "id": "reader-19-ch-4-q3",
+          "chapter_id": "reader-19-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'interest' mean in the context of the loan?",
+          "options": [
+            "Extra money paid for borrowing.",
+            "A feeling of curiosity.",
+            "A type of investment.",
+            "A monthly payment."
+          ],
+          "correct": 0,
+          "explanation": "The story says 'the interest made the phone cost three times more,' referring to the extra cost of borrowing.",
+          "id": "reader-19-ch-4-q4",
+          "chapter_id": "reader-19-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed do after meeting with Ms. Chen?",
+          "options": [
+            "He ignored her advice.",
+            "He called the loan company and made a plan.",
+            "He borrowed more money.",
+            "He stopped working."
+          ],
+          "correct": 1,
+          "explanation": "Ahmed called the loan company, agreed to a new payment plan, and started following his budget.",
+          "id": "reader-19-ch-4-q5",
+          "chapter_id": "reader-19-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "budget",
+          "definition": "A plan for how to spend and save money."
+        },
+        {
+          "word": "income",
+          "definition": "Money earned from work or other sources."
+        },
+        {
+          "word": "wants",
+          "definition": "Things that are nice to have but not necessary."
+        },
+        {
+          "word": "needs",
+          "definition": "Things that are necessary for living, like food and rent."
+        },
+        {
+          "word": "interest",
+          "definition": "Extra money paid when borrowing money, or earned when saving."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time you wanted something you couldn't afford. What did you do? How can you plan for big purchases in the future? Write about your ideas.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

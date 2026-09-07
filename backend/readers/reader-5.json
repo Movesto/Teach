@@ -1,0 +1,280 @@
+{
+  "id": "reader-5",
+  "title": "The Community Garden",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "everyday life",
+    "science & nature"
+  ],
+  "genre": "Short fiction",
+  "description": "Neighbours from different countries turn a small empty garden into a shared vegetable patch, work together to fix a water problem, and celebrate with a harvest meal that brings everyone closer.",
+  "word_count": 1455,
+  "reading_time_minutes": 8,
+  "chapters": [
+    {
+      "id": "reader-5-ch-1",
+      "title": "The Empty Garden",
+      "text": "The sun was warm on the small street. Maria looked out of her kitchen window. She saw the empty garden behind the apartment building. It was a sad place. Old leaves and dry grass covered the ground. No flowers grew there. No vegetables. Nothing.\n\nMaria lived in apartment three. Her family was from Mexico. Next door, in apartment four, lived the Chen family. They were from China. In apartment one, Mr. and Mrs. Silva lived. They were from Brazil. And in apartment two, a young man named Ahmed lived. He was from Egypt.\n\nThat evening, Maria went outside. She walked to the empty garden. She looked at the dry ground and thought. Soon, Ahmed came out too. He smiled at Maria.\n\n\"This garden is very sad,\" Maria said.\n\n\"Yes,\" Ahmed said. \"It is a big space. But we do not use it.\"\n\nThen the Chen family came out. Mrs. Chen had a small bag of seeds in her hand. \"We want to plant something,\" she said. \"But where?\"\n\nMr. Silva walked over too. He looked at the garden. \"My father had a garden in Brazil,\" he said. \"He grew many things. I can help.\"\n\nMaria had an idea. \"We can make a community garden,\" she said. \"All of us together. We can plant vegetables from our countries.\"\n\nMrs. Chen smiled. \"A good idea. We can plant Chinese cabbage.\"\n\n\"I want to plant tomatoes,\" Maria said. \"My grandmother grew the best tomatoes in Mexico.\"\n\n\"I can plant peppers,\" Mr. Silva said. \"Hot peppers from Brazil.\"\n\n\"And I will plant mint,\" Ahmed said. \"For tea. My mother always had mint in her garden.\"\n\nSo the neighbours made a plan. The next Saturday, they all came out with tools. Ahmed had an old shovel. Maria found a rake. The Chen family brought a watering can. Mr. Silva had strong hands and a big smile.\n\nThey worked all morning. They pulled the old weeds from the ground. They turned the soil with the shovel. It was hard work, but they worked together. The children helped too. They carried small stones away from the garden.\n\nThe sun was high when they finished. The ground was soft and brown. It was ready. They made four small squares in the soil. In each square, they planted different seeds. Maria put her tomato seeds in one square. Mrs. Chen planted her cabbage in another. Mr. Silva made a small hole for his pepper seeds. And Ahmed planted his mint in the corner.\n\nThen Maria brought water from her house. She poured it slowly on the new seeds. Everyone watched.\n\n\"Now we wait,\" Maria said.\n\n\"Yes,\" Mr. Silva said. \"And we hope.\"\n\nThey all looked at the small garden. It was not empty anymore. It was full of dreams.",
+      "word_count": 460,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Maria see from her kitchen window at the beginning of the story?",
+          "options": [
+            "A garden full of flowers",
+            "An empty garden with old leaves and dry grass",
+            "The Chen family planting vegetables",
+            "A community garden being built"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'She saw the empty garden behind the apartment building. It was a sad place. Old leaves and dry grass covered the ground.'",
+          "id": "reader-5-ch-1-q1",
+          "chapter_id": "reader-5-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'community' mean in the phrase 'community garden'?",
+          "options": [
+            "A garden that is very large",
+            "A garden that is private",
+            "A garden shared by people living in the same area",
+            "A garden with only one type of plant"
+          ],
+          "correct": 2,
+          "explanation": "In the story, Maria says 'We can make a community garden' and all the neighbours work together, so it means a shared garden for the local people.",
+          "id": "reader-5-ch-1-q2",
+          "chapter_id": "reader-5-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Which plant did Ahmed want to grow?",
+          "options": [
+            "Tomatoes",
+            "Chinese cabbage",
+            "Hot peppers",
+            "Mint"
+          ],
+          "correct": 3,
+          "explanation": "Ahmed says: 'And I will plant mint,' and later the text says 'Ahmed planted his mint in the corner.'",
+          "id": "reader-5-ch-1-q3",
+          "chapter_id": "reader-5-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the neighbours do after they planted the seeds?",
+          "options": [
+            "They went home immediately",
+            "They watered the new seeds",
+            "They pulled more weeds",
+            "They built a fence around the garden"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'Then Maria brought water from her house. She poured it slowly on the new seeds. Everyone watched.'",
+          "id": "reader-5-ch-1-q4",
+          "chapter_id": "reader-5-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "garden",
+          "definition": "A piece of land where plants, flowers, or vegetables are grown."
+        },
+        {
+          "word": "seeds",
+          "definition": "Small objects from which plants grow; they are planted in soil."
+        },
+        {
+          "word": "shovel",
+          "definition": "A tool with a handle and a curved blade, used for digging and moving soil."
+        },
+        {
+          "word": "rake",
+          "definition": "A tool with a long handle and a row of teeth, used to gather leaves or smooth soil."
+        },
+        {
+          "word": "community",
+          "definition": "A group of people who live in the same area and share common interests."
+        }
+      ]
+    },
+    {
+      "id": "reader-5-ch-2",
+      "title": "The Water Problem",
+      "text": "The sun was very hot that week. It did not rain for seven days. The small plants in the garden were not happy. Their leaves were yellow and dry. The tomatoes looked sad. The beans did not grow. The children looked at the plants and felt worried.\n\nMaria touched the soil. It was hard and dry, like old bread. \"The plants need water,\" she said. \"But there is no rain.\"\n\nMr. Chen looked at his long green beans. \"We use water from our houses for the kitchen and the bathroom. We cannot use all of it for the garden.\"\n\nThe neighbours were sad. They worked hard to make the garden. Now the plants were dying.\n\nThat evening, all the neighbours met in the garden. They sat on old chairs and boxes. The sun was going down, but the air was still hot.\n\n\"We need a plan,\" said Fatima. She had a small baby and she spoke with a quiet voice. \"The plants are thirsty.\"\n\n\"We can carry water from the river,\" said Tom. \"But the river is very far. It is too much work.\"\n\n\"We can buy water from the shop,\" said Anna. \"But it costs too much money.\"\n\nThen Mr. Chen had an idea. He looked at the roof of the building. \"Look at the roof,\" he said. \"When it rains, the water falls from the roof to the ground. It goes away. But we can catch it!\"\n\nThe neighbours looked at the roof. It was big and flat.\n\n\"Yes!\" said Maria. \"We can make a rain collector. We can use old pipes and barrels.\"\n\nThe next day, everyone worked together. Tom found some old pipes in his garage. Mr. Chen had two big blue barrels. Fatima's husband made a small hole in the bottom of each barrel.\n\nThey put the barrels under the roof. They put the pipes from the roof to the barrels. When it rained, the water would go from the roof, through the pipes, and into the barrels.\n\nIt was hard work. The sun was hot. But they laughed and talked. The children helped too. They carried small tools and brought cold water for the workers.\n\nAfter two days, the rain collector was ready. But the sky was still blue. There was no rain.\n\n\"We need to wait,\" said Tom.\n\nThe neighbours waited. They looked at the sky every morning. They looked at the dry plants.\n\nThen, on the third day, the sky became grey. Dark clouds came. The wind started to blow.\n\n\"Rain is coming!\" shouted the children.\n\nAnd the rain came. It fell on the roof. It went through the pipes. It fell into the barrels. Drip, drip, drip. The barrels started to fill with clean, fresh water.\n\nThe neighbours were very happy. They used the water from the barrels for the plants. They shared the water fairly. Each family had a turn. The plants drank the water and stood up tall again.\n\nThe garden was safe. And the neighbours learned that when they worked together, they could solve any problem.",
+      "word_count": 508,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why were the plants not happy?",
+          "options": [
+            "Too much water",
+            "No rain for seven days",
+            "The children played with them",
+            "The sun was too cold"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'It did not rain for seven days. The small plants in the garden were not happy.'",
+          "id": "reader-5-ch-2-q1",
+          "chapter_id": "reader-5-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'soil' mean?",
+          "options": [
+            "The ground where plants grow",
+            "A type of plant",
+            "Water from the roof",
+            "A tool for digging"
+          ],
+          "correct": 0,
+          "explanation": "In the text, Maria touched the soil, and it was hard and dry, showing it is the ground.",
+          "id": "reader-5-ch-2-q2",
+          "chapter_id": "reader-5-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Mr. Chen's idea?",
+          "options": [
+            "To water plants from the river",
+            "To buy water from the shop",
+            "To catch rainwater from the roof",
+            "To move the garden"
+          ],
+          "correct": 2,
+          "explanation": "Mr. Chen said, 'We can make a rain collector' and pointed to the roof to catch rain.",
+          "id": "reader-5-ch-2-q3",
+          "chapter_id": "reader-5-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'barrels' mean?",
+          "options": [
+            "Large round containers for liquid",
+            "Small tools for gardening",
+            "Types of vegetables",
+            "Pieces of pipe"
+          ],
+          "correct": 0,
+          "explanation": "The text says they used 'two big blue barrels' to collect water, so they are containers.",
+          "id": "reader-5-ch-2-q4",
+          "chapter_id": "reader-5-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "soil",
+          "definition": "The top layer of the ground in which plants grow."
+        },
+        {
+          "word": "barrel",
+          "definition": "A large round container used to hold liquids."
+        },
+        {
+          "word": "plan",
+          "definition": "An idea or method for doing something."
+        },
+        {
+          "word": "thirsty",
+          "definition": "Needing or wanting to drink water."
+        },
+        {
+          "word": "fairly",
+          "definition": "In a way that is equal and just for everyone."
+        }
+      ]
+    },
+    {
+      "id": "reader-5-ch-3",
+      "title": "The Harvest Meal",
+      "text": "The summer passed, and the garden grew full and green. Every day, the neighbours came to look at their plants. They watered them with the rain collector. They pulled out the small weeds. They watched the vegetables grow bigger and bigger.\n\nOne morning, Maria looked at the big red tomatoes. She smiled. \"Look!\" she said. \"The tomatoes are ready. It is time to pick them.\"\n\nThe other neighbours came out of their houses. They brought baskets and bags. They walked between the rows of plants. They picked the long green cucumbers. They pulled the orange carrots from the soft earth. They cut the big green leaves of the lettuce. They picked the round red peppers and the small yellow onions.\n\nThe children helped too. They carried the baskets to the big table in the middle of the garden. The table was full of beautiful vegetables. The colours were bright and happy.\n\n\"Now we must cook!\" said Mr. Chen. \"Everyone brings a dish from their country.\"\n\nThe neighbours went to their homes. The kitchen windows opened. The smells came out into the garden. There were many good smells.\n\nMaria made a big pot of tomato soup. She put fresh tomatoes, onions, and small pieces of bread in it. It was red and warm.\n\nMr. Chen made fried rice with carrots and peppers. He moved the food fast in the hot pan. The rice was yellow and shiny.\n\nMrs. Patel made a dish with potatoes and many spices. It was orange and smelled very strong and good.\n\nThe young woman from Mexico made fresh salsa. She cut the tomatoes and onions into small pieces. She added green pepper and a little lemon. It was fresh and bright.\n\nThe man from Italy made pasta. He cooked the long noodles and put fresh tomato sauce on top. He added green leaves from the garden.\n\nWhen the sun went down, they put all the food on the long table. There was a lot of food. The neighbours sat on chairs and benches around the table. The lights from the houses made the garden warm and soft.\n\nThey ate and talked. They laughed at funny stories. The children ran between the tables. They tasted food from many countries.\n\n\"This tomato soup is so good,\" said Mrs. Patel.\n\n\"Thank you,\" said Maria. \"The tomatoes are from the garden. We all grew them together.\"\n\n\"Yes,\" said Mr. Chen. \"We worked together. We built the rain collector together. And now we eat together.\"\n\nThey looked at the empty plates. They looked at each other. They were tired but happy.\n\n\"This is a good garden,\" said the man from Italy. \"And we are good neighbours.\"\n\nThey cleaned the tables together. They washed the dishes together. Then they went home, one by one. The garden was quiet and dark. But in the morning, the vegetables would grow again. And the neighbours would come back to the garden, together.",
+      "word_count": 487,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did the neighbors use the rain collector for?",
+          "options": [
+            "To drink the rain",
+            "To water the plants",
+            "To wash their cars",
+            "To make soup"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'They watered them with the rain collector.'",
+          "id": "reader-5-ch-3-q1",
+          "chapter_id": "reader-5-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Maria make?",
+          "options": [
+            "Fried rice",
+            "Pasta",
+            "Tomato soup",
+            "Salsa"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'Maria made a big pot of tomato soup.'",
+          "id": "reader-5-ch-3-q2",
+          "chapter_id": "reader-5-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Who made fried rice?",
+          "options": [
+            "Maria",
+            "Mr. Chen",
+            "Mrs. Patel",
+            "The man from Italy"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Mr. Chen made fried rice with carrots and peppers.'",
+          "id": "reader-5-ch-3-q3",
+          "chapter_id": "reader-5-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the children do?",
+          "options": [
+            "They cooked the food",
+            "They cleaned the tables",
+            "They helped carry baskets",
+            "They planted seeds"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'The children helped too. They carried the baskets to the big table.'",
+          "id": "reader-5-ch-3-q4",
+          "chapter_id": "reader-5-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "rain collector",
+          "definition": "A container used to catch and store rainwater."
+        },
+        {
+          "word": "weeds",
+          "definition": "Unwanted plants that grow in a garden."
+        },
+        {
+          "word": "baskets",
+          "definition": "Containers made of woven material, used to carry things."
+        },
+        {
+          "word": "rows",
+          "definition": "Lines of plants growing in a garden."
+        },
+        {
+          "word": "spices",
+          "definition": "Flavorful substances added to food, like pepper or cinnamon."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when you worked with other people to solve a problem. What did you do together? How did you feel at the end? Write about your experience.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

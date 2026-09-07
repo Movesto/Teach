@@ -1,36 +1,45 @@
-version: '3.8'
+# version: '3.8'
 
 services:
 
   # ── AI Services ────────────────────────────────────────────────────────────
 
-  qwen:
-    image: vllm/vllm-openai:latest
-    container_name: qwen-brain
-    restart: unless-stopped
-    ports:
-      - "8010:8000"
-    volumes:
-      - huggingface-cache:/root/.cache/huggingface
-    environment:
-      - HUGGING_FACE_HUB_TOKEN=${HUGGING_FACE_HUB_TOKEN:-}
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    ipc: host
-    command: >
-      --model Qwen/Qwen2.5-3B-Instruct-AWQ
-      --quantization awq
-      --max-model-len 2048
-      --gpu-memory-utilization 0.25
-      --enforce-eager
-      --port 8000
-    networks:
-      - teach-network
+  # The chat "brain" (AI tutor / conversation) now runs on a hosted, FREE
+  # OpenAI-compatible LLM via OpenRouter — see the backend service's QWEN_URL /
+  # QWEN_MODEL / OPENROUTER_API_KEY below and docs/curriculum-architecture.md.
+  # No local GPU model is needed for chat anymore.
+  #
+  # To run the chat brain locally instead (offline / no external API), uncomment
+  # this service and set QWEN_URL=http://qwen-brain:8000/v1/chat/completions on
+  # the backend (leave OPENROUTER_API_KEY unset). Needs ~4 GB VRAM.
+  #
+  # qwen:
+  #   image: vllm/vllm-openai:latest
+  #   container_name: qwen-brain
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8010:8000"
+  #   volumes:
+  #     - huggingface-cache:/root/.cache/huggingface
+  #   environment:
+  #     - HUGGING_FACE_HUB_TOKEN=${HUGGING_FACE_HUB_TOKEN:-}
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   ipc: host
+  #   command: >
+  #     --model Qwen/Qwen2.5-3B-Instruct-AWQ
+  #     --quantization awq
+  #     --max-model-len 2048
+  #     --gpu-memory-utilization 0.25
+  #     --enforce-eager
+  #     --port 8000
+  #   networks:
+  #     - teach-network
 
   nllb:
     build: ./services/nllb
@@ -69,25 +78,36 @@ services:
     networks:
       - teach-network
 
-  pronunciation:
-    image: teach-pronunciation
-    container_name: teach-pronunciation
-    restart: unless-stopped
-    ports:
-      - "5002:5002"
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
-      - PYTHONUNBUFFERED=1
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    networks:
-      - teach-network
+  # Pronunciation (speech scoring) — disabled in Docker to avoid pulling a multi-GB
+  # CUDA + PyTorch image. Run it natively instead, reusing the torch/CUDA already on
+  # your machine:
+  #     cd services/audio
+  #     pip install -r requirements-pronunciation.txt   # torch NOT included — uses yours
+  #     python pronunciation_service.py                 # serves on 0.0.0.0:5002
+  # The backend reaches it via PRONUNCIATION_URL (defaults to host.docker.internal
+  # below). To run it in Docker instead, uncomment this service and set the backend's
+  # PRONUNCIATION_URL back to http://teach-pronunciation:5002.
+  #
+  # pronunciation:
+  #   build: ./services/audio   # builds the local image; `image:` just names/tags it
+  #   image: teach-pronunciation
+  #   container_name: teach-pronunciation
+  #   restart: unless-stopped
+  #   ports:
+  #     - "5002:5002"
+  #   environment:
+  #     - NVIDIA_VISIBLE_DEVICES=all
+  #     - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+  #     - PYTHONUNBUFFERED=1
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   networks:
+  #     - teach-network
 
   kokoro:
     build: ./services/kokoro
@@ -137,8 +157,17 @@ services:
       - DB_USER=${POSTGRES_USER}
       - DB_PASSWORD=${POSTGRES_PASSWORD}
       - NLLB_URL=http://nllb-translator:8001/translate
-      - QWEN_URL=http://qwen-brain:8000/v1/chat/completions
-      - PRONUNCIATION_URL=http://teach-pronunciation:5002
+      # Chat brain: hosted free OpenRouter model by default (values from .env, with
+      # cloud defaults). To use the local qwen container instead, set
+      # QWEN_URL=http://qwen-brain:8000/v1/chat/completions and uncomment that service.
+      - QWEN_URL=${QWEN_URL:-https://openrouter.ai/api/v1/chat/completions}
+      - QWEN_MODEL=${QWEN_MODEL:-inclusionai/ling-3.0-flash-sante:free}
+      - LLM_FALLBACK_MODELS=${LLM_FALLBACK_MODELS:-minimax/minimax-m3:free,liquid/lfm-2.5-2.6b:free}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+      # Pronunciation runs natively on the host by default (see the commented-out
+      # service above). host.docker.internal lets this container reach it. Set to
+      # http://teach-pronunciation:5002 if you re-enable the Docker service.
+      - PRONUNCIATION_URL=${PRONUNCIATION_URL:-http://host.docker.internal:5002}
       - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
       - ADMIN_EMAIL=${ADMIN_EMAIL:-}
@@ -148,6 +177,7 @@ services:
     volumes:
       - ./backend/audio:/app/audio
       - ./backend/books:/app/books:ro
+      - ./backend/readers:/app/readers:ro
       - ./backend/unit-1:/app/unit-1:ro
       - ./backend/unit-2:/app/unit-2:ro
       - ./backend/unit-3:/app/unit-3:ro

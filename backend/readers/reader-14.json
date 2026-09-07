@@ -1,0 +1,414 @@
+{
+  "id": "reader-14",
+  "title": "Learning to Code",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "tech",
+    "work"
+  ],
+  "genre": "Realistic fiction",
+  "description": "Amina joins a free evening coding class, struggles with her first program, and slowly builds a simple app that helps her neighbourhood, learning persistence and technology along the way.",
+  "word_count": 3710,
+  "reading_time_minutes": 21,
+  "chapters": [
+    {
+      "id": "reader-14-ch-1",
+      "title": "The Offer",
+      "text": "Amina counted the coins in her hand for the third time. The afternoon sun was hot, and the small shop felt even smaller. She put the coins in the till and looked at the clock. Four more hours until closing time. Four more hours of the same thing. She had worked at the corner shop for two years now, and every day felt like a copy of the one before. She sold bread, milk, and phone cards. She listened to old Mr. Hassan talk about his garden. She swept the floor. It was a good job, a safe job, but it made her feel like she was standing still while the world moved on around her.\n\nShe was putting new bottles of water on the shelf when she saw it. A bright yellow piece of paper, stuck to the window next to the door. It had big, dark letters that said, \"LEARN TO CODE. FREE CLASSES. NO EXPERIENCE NEEDED.\" Underneath, in smaller letters, it said, \"Build something useful. Change your future.\" Amina stared at it. She had seen the word \"code\" before, of course. It was something that people did on computers. It was something that built websites and apps. It was something that seemed completely impossible for her.\n\n\"You're reading that again,\" said a voice behind her. It was Sam, who worked the evening shift. He was young, maybe a year older than her, and he always seemed to know things. He nodded at the flyer. \"My cousin did that course. He built a little app for his father's taxi business.\"\n\nAmina turned around. \"I don't know anything about computers,\" she said. \"I mean, I use my phone, but that's all.\"\n\nSam smiled. \"That's the point. It says 'no experience needed.' You just need to try.\" He picked up the flyer and looked at it. \"It's at the community centre, on Tuesday nights. Free, remember. What do you have to lose?\"\n\nAmina thought about it. What did she have to lose? An evening, maybe. A little bit of pride if she was no good. But what did she have to gain? Maybe a way out of this shop. Maybe a skill that could lead to something better. The word \"change\" in the flyer seemed to be speaking directly to her. She took the flyer from Sam and put it in her pocket.\n\nOn Tuesday evening, she stood outside the community centre. Her heart was beating fast. She almost turned around and went home. She imagined walking back into the shop the next day, and Sam asking her how it went. She didn't want to say that she was too scared. So she pushed the door open and went inside.\n\nThe room was bright and noisy. There were about fifteen people there. Some were young, like her. Some were older, with grey hair. A few were talking to each other in confident voices, using words she did not understand. \"Python,\" she heard one man say. \"I think the API is better for that.\" Amina felt a cold feeling in her stomach. She did not even know what those words meant. She looked around for a seat in the back, away from the confident talkers.\n\nA woman with kind eyes and a friendly smile came to the front of the room. \"Welcome, everyone,\" she said. \"I'm Maria. I'm your teacher. Tonight, we're going to write our first program. It's very simple. It's just going to say 'Hello, world' on the screen. But it's the first step.\"\n\nAmina opened the laptop that was on the table in front of her. It was an old one, but it worked. She followed Maria's instructions. She opened a program called a \"text editor.\" She typed the words that Maria showed them. It looked like a foreign language. `print(\"Hello, world\")`. She pressed the button to run it. Nothing happened. She looked at the screen. There was a red error message. She had made a mistake. She had copied it exactly, but she had made a mistake.\n\nShe felt her face get hot. She looked around. The man who had talked about the API was already showing his screen to his neighbour. His program was working. Amina wanted to close the laptop and leave. This was a mistake. She was not a person who could do this. She was a shop worker. She was out of place.\n\nMaria came over to her table. She looked at Amina's screen and smiled gently. \"It's okay,\" she said. \"This is the most common error in the world. Look here. You have a small space in the wrong place. The computer is very, very strict. It needs things to be perfect.\" She pointed to the line. \"Delete that space. Try again.\"\n\nAmina deleted the space. She pressed the button again. And then, on the black screen, in white letters, the words appeared. `Hello, world`. It was just two words. It was nothing. But for Amina, sitting in that bright room, it felt like a small miracle. She had told the machine to do something, and it had done it. She looked at the screen and then at Maria. \"I did it,\" she said quietly.\n\nMaria nodded. \"Yes, you did. Now, let's try something a little harder.\" Amina took a deep breath. She was still nervous, still unsure, and she still felt out of place among the others. But for the first time that evening, she did not feel completely lost.",
+      "word_count": 909,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did the flyer advertise?",
+          "options": [
+            "A sale at the shop",
+            "Free coding classes",
+            "A gardening club",
+            "A new phone"
+          ],
+          "correct": 1,
+          "explanation": "The flyer said 'LEARN TO CODE. FREE CLASSES. NO EXPERIENCE NEEDED.' So it advertised free coding classes.",
+          "id": "reader-14-ch-1-q1",
+          "chapter_id": "reader-14-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Amina's initial reaction to the flyer?",
+          "options": [
+            "She was excited and signed up immediately",
+            "She thought it seemed impossible for her",
+            "She showed it to her boss",
+            "She ignored it and continued working"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'It was something that people did on computers. It was something that seemed completely impossible for her.'",
+          "id": "reader-14-ch-1-q2",
+          "chapter_id": "reader-14-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What mistake did Amina make in her first program?",
+          "options": [
+            "She wrote the wrong word",
+            "She forgot to print",
+            "She had a space in the wrong place",
+            "She used the wrong color"
+          ],
+          "correct": 2,
+          "explanation": "The text says 'You have a small space in the wrong place.' So she had an extra space.",
+          "id": "reader-14-ch-1-q3",
+          "chapter_id": "reader-14-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'out of place' mean in the context of the story?",
+          "options": [
+            "Lost",
+            "Not in the correct position",
+            "Feeling uncomfortable because you don't belong",
+            "Confused"
+          ],
+          "correct": 2,
+          "explanation": "In the story, Amina felt 'out of place' among the confident people, meaning she felt she didn't belong.",
+          "id": "reader-14-ch-1-q4",
+          "chapter_id": "reader-14-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What is a 'flyer'?",
+          "options": [
+            "A person who flies",
+            "A type of insect",
+            "A small paper advertisement",
+            "A computer program"
+          ],
+          "correct": 2,
+          "explanation": "In the story, it was a piece of paper stuck to the window with information about classes.",
+          "id": "reader-14-ch-1-q5",
+          "chapter_id": "reader-14-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "flyer",
+          "definition": "a small paper advertisement"
+        },
+        {
+          "word": "till",
+          "definition": "a cash register"
+        },
+        {
+          "word": "code",
+          "definition": "instructions for a computer"
+        },
+        {
+          "word": "program",
+          "definition": "a set of instructions for a computer to follow"
+        }
+      ]
+    },
+    {
+      "id": "reader-14-ch-2",
+      "title": "The First Program",
+      "text": "The instructor, a woman named Maria with kind eyes and a patient voice, stood at the front of the room. A large screen showed her computer desktop, and on it was a simple white box with lines of text. \"Today,\" Maria said, \"we are going to write our first program. It is very simple. We are going to make the computer say 'Hello, World!'\"\n\nAmina watched carefully. She had her own computer in front of her, a bit old and slow, but it worked. She opened the same program Maria was using. It looked like a blank page, waiting for her to fill it.\n\nMaria typed a few lines on her screen. The letters appeared in different colors, blue and green and orange. \"This is called code,\" Maria explained. \"These are instructions we give to the computer. The computer reads them and follows them exactly.\"\n\nAmina tried to copy what Maria had written. Her fingers felt heavy on the keyboard. She was not used to typing so fast. She looked at her screen and then back at Maria's screen. She typed:\n\nprint(\"Hello, World!\")\n\nShe pressed the button to run the program. A small window opened at the bottom of her screen. But instead of the words \"Hello, World!\" there was a red message. It said: \"SyntaxError: invalid syntax.\"\n\nAmina's heart sank. She looked around the room. Other students were smiling. Some of them had already seen their programs work. The person next to her, a young man with glasses, had a green checkmark on his screen. He was moving on to the next exercise.\n\nAmina tried again. She deleted the line and typed it more slowly. She checked every letter. Maybe there was a space missing? She typed it again and ran the program. Another red message. This time it said: \"NameError: name 'print' is not defined.\"\n\nShe did not understand. What did that mean? She looked at Maria's screen again. Maria had written the same thing. But Maria's program worked. Why did hers not work?\n\nAmina felt her face getting hot. She wanted to raise her hand and ask for help, but she felt embarrassed. Everyone else seemed to understand. She was the oldest person in the room, and she felt the most lost. She thought about her shop, about the familiar routine of opening the door every morning, counting the money, talking to customers. That was easy. This was not easy.\n\nShe tried a third time. She copied the line exactly, letter by letter. She pressed the button. Another error. This time it said: \"TypeError: 'str' object is not callable.\"\n\nAmina put her hands in her lap. She stared at the screen. The red message seemed to be laughing at her. She thought about leaving. She could just pack her bag and walk out. Nobody would stop her. She could go back to her shop and forget about all of this. She was not a programmer. She was just a shop owner who had a silly idea.\n\nA soft voice spoke from her left. \"Do you need help?\"\n\nAmina turned. It was the young man with glasses. He had a friendly smile. \"I saw you were having trouble,\" he said. \"It happens to everyone at first.\"\n\nAmina felt a little bit of relief. \"I copied exactly what Maria wrote,\" she said. \"But it keeps giving me errors.\"\n\nThe young man leaned over and looked at her screen. His name was David, she remembered from the introductions at the start of the class. He looked at her code for a moment. Then he pointed at her screen.\n\n\"Look here,\" he said. \"You used a different kind of quotation mark. You used these.\" He pointed at the marks around \"Hello, World!\" on her screen. \"These are called curly quotes. The computer only understands straight quotes. Like these.\" He typed two straight quotation marks on his own screen to show her.\n\nAmina looked at her screen again. She had not noticed. She had typed the quotation marks without thinking. They looked almost the same, but they were different. One pair was curved like little smiles, and the other pair was straight like two small sticks.\n\n\"Is that really the problem?\" she asked.\n\nDavid nodded. \"Computers are very strict,\" he said. \"They do not understand small differences. You have to be very careful. But once you find the problem, it is easy to fix.\"\n\nAmina changed the quotation marks. She ran the program again. The little window opened at the bottom of her screen, and this time, in black letters on a white background, it said: \"Hello, World!\"\n\nAmina smiled. It was a small thing, just two words on a screen. But it felt like a big victory. She had done it. She had made the computer do something.\n\n\"Thank you,\" she said to David. \"Thank you so much.\"\n\n\"No problem,\" David said. \"Remember, everyone makes mistakes. The important thing is to keep trying. And to check your quotation marks.\"\n\nMaria walked over to her desk. \"I see you got it working,\" she said. \"Good job. How do you feel?\"\n\nAmina looked at the words on her screen. \"I feel like I learned something,\" she said. \"I learned that small things matter. And that I should not give up.\"\n\nMaria smiled. \"That is the most important lesson in coding,\" she said. \"And in life.\"\n\nAmina stayed for the rest of the class. She wrote a few more small programs. She made more mistakes, but now she knew how to look for them. She checked her quotation marks first, and then her spelling, and then her punctuation. Each time she fixed a problem, she felt a little bit stronger.\n\nWhen the class ended, she walked out into the cool evening air. The streetlights were on, and the city was quiet. She thought about the next class, and the one after that. She thought about the shop, and about all the things she could do with a computer.\n\nShe still did not know if she could really learn to code. But she knew one thing for sure. She was not going to give up. Not yet. Not when she had finally said hello to the world.",
+      "word_count": 1032,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina's program keep showing errors?",
+          "options": [
+            "She used the wrong programming language.",
+            "She used curly quotes instead of straight quotes.",
+            "She forgot to press the run button.",
+            "She typed the wrong word 'print'."
+          ],
+          "correct": 1,
+          "explanation": "David pointed out that she used curly quotes, and the computer only understands straight quotes.",
+          "id": "reader-14-ch-2-q1",
+          "chapter_id": "reader-14-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did David help Amina?",
+          "options": [
+            "He wrote the program for her.",
+            "He showed her the correct quotation marks.",
+            "He gave her a new computer.",
+            "He told her to give up."
+          ],
+          "correct": 1,
+          "explanation": "He pointed out the difference and typed straight quotes to show her.",
+          "id": "reader-14-ch-2-q2",
+          "chapter_id": "reader-14-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina learn from her experience?",
+          "options": [
+            "Coding is too difficult for her.",
+            "Small details matter in coding.",
+            "She should ask for help earlier.",
+            "She should not use computers."
+          ],
+          "correct": 1,
+          "explanation": "The story emphasizes that small things like quotation marks matter, and she learned to check carefully.",
+          "id": "reader-14-ch-2-q3",
+          "chapter_id": "reader-14-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'code' mean in this story?",
+          "options": [
+            "A secret message.",
+            "Instructions for a computer.",
+            "A type of lock.",
+            "A book."
+          ],
+          "correct": 1,
+          "explanation": "In the story, Maria says 'This is called code. These are instructions we give to the computer.'",
+          "id": "reader-14-ch-2-q4",
+          "chapter_id": "reader-14-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'error' mean as used in the story?",
+          "options": [
+            "A mistake.",
+            "A surprise.",
+            "A success.",
+            "A question."
+          ],
+          "correct": 0,
+          "explanation": "Amina gets error messages, meaning the program has a mistake.",
+          "id": "reader-14-ch-2-q5",
+          "chapter_id": "reader-14-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "code",
+          "definition": "Instructions written for a computer."
+        },
+        {
+          "word": "error",
+          "definition": "A mistake or problem."
+        },
+        {
+          "word": "quotation marks",
+          "definition": "Punctuation marks used to show spoken words or exact text."
+        },
+        {
+          "word": "program",
+          "definition": "A set of instructions that a computer follows."
+        }
+      ]
+    },
+    {
+      "id": "reader-14-ch-3",
+      "title": "The Idea",
+      "text": "The weeks after that first success were a revelation for Amina. The small program she had fixed, the one that printed her name, felt like a tiny door opening in a huge wall. She wanted to open it more. She wanted to see what was on the other side.\n\nShe started a new routine. After her shift at the shop and after dinner, she would sit at her small kitchen table with her old laptop. The laptop was slow and made a loud noise, but it worked. She found online tutorials, just like Leo had suggested. She watched them, paused them, and tried to copy the code. Sometimes it worked on the first try. Often, it did not. Her screen would fill with red error messages, and she would have to read her code line by line, looking for the small mistake. She learned to be patient. She learned that a single missing dot or a small spelling mistake could break everything. It was like following a recipe for a cake and forgetting to add the sugar.\n\nHer neighbours began to notice. Mrs. Okafor from the flat downstairs would sometimes see her through the open door. \"Still working on that computer, Amina?\" she would ask. \"You will become a genius soon.\"\n\nAmina would just smile. She didn't feel like a genius. She felt like a student, a very slow student. But she was learning. She learned about variables, which were like boxes for storing information. She learned about loops, which made the computer repeat actions. And she learned about functions, which were like small machines you could build and use again and again. Each new idea was difficult, but the feeling when she finally understood it was wonderful.\n\nOne evening, she saw Mrs. Okafor in the hallway, looking worried. She was holding a piece of paper and an old mobile phone.\n\n\"Is everything okay, Mrs. Okafor?\" Amina asked.\n\n\"Oh, it's this,\" Mrs. Okafor said, showing her the paper. \"My grandson sent me a message. He wants to video call me, but I don't know how. He tried to explain, but I forgot. I'm too old for this technology.\"\n\nAmina looked at the phone and then at the paper. An idea started to form in her mind. It was a small idea, but it was interesting. Mrs. Okafor wasn't the only person in the building who struggled with technology. Mr. Chen on the second floor always asked his daughter to help him with his online banking. The young couple on the first floor were always looking for a good plumber or an electrician. People were always asking questions in the hallway. Who can fix a broken tap? Who can help me set up my new TV? Who knows a good place to buy fresh vegetables?\n\nThat night, Amina couldn't sleep. She sat at her table, staring at her laptop. The idea was growing. What if she could build something to help? What if she could make a simple app, a small program, where people in her building could share information? They could post that they needed help, or they could offer to help others. They could share recommendations for a good repairman or a trustworthy cleaner. It would be like a digital noticeboard for the whole neighbourhood.\n\nThe idea was exciting, but it was also too big. She was just a beginner. She could only write simple programs. How could she build an entire app? The thought made her feel small again. She closed her laptop and went to bed, but the idea stayed in her mind.\n\nThe next week, at the coding class, she was quiet. Leo, the instructor, noticed.\n\n\"Amina, you look like you have something on your mind,\" he said.\n\nShe hesitated. She was afraid of sounding silly. But she took a deep breath and told him about Mrs. Okafor and the video call. She told him about Mr. Chen and the plumber. She told him about her idea for a neighbourhood app.\n\nLeo listened carefully. When she finished, he didn't laugh. He smiled.\n\n\"That's a fantastic idea, Amina,\" he said. \"It's simple, but it's useful. And it's a real problem. That's the best kind of idea.\"\n\n\"Really?\" she asked. \"But I can't build it. It's too difficult.\"\n\n\"Not all at once,\" Leo said. \"We can break it down. We can start small. We can build a simple version first, just a list of contacts and recommendations. Then we can add more features later.\"\n\nHe looked at the class. \"What do you all think? Amina has proposed a project. Would you like to work on it together? We can make it our class project.\"\n\nThe other students nodded and agreed. Amina felt a wave of relief and happiness. She wasn't alone anymore. She had a team. She had an idea. And for the first time, she felt like she was truly on the other side of the door. The world of coding was opening up to her, and she was ready to step inside.",
+      "word_count": 836,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Amina do after her first success with the small program?",
+          "options": [
+            "She stopped learning to code.",
+            "She started learning from online tutorials.",
+            "She asked Leo for help immediately.",
+            "She built a full app right away."
+          ],
+          "correct": 1,
+          "explanation": "The text says she found online tutorials, just as Leo had suggested, and began watching and copying them.",
+          "id": "reader-14-ch-3-q1",
+          "chapter_id": "reader-14-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'revelation' mean in the context of the first sentence?",
+          "options": [
+            "A sudden surprise or realization",
+            "A difficult problem",
+            "A type of computer program",
+            "A formal announcement"
+          ],
+          "correct": 0,
+          "explanation": "In the text, 'revelation' refers to the surprising and enlightening experience of her first coding success.",
+          "id": "reader-14-ch-3-q2",
+          "chapter_id": "reader-14-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Mrs. Okafor look worried when Amina saw her?",
+          "options": [
+            "She had lost her keys.",
+            "She didn't know how to video call her grandson.",
+            "Her phone was broken.",
+            "She had too much work to do."
+          ],
+          "correct": 1,
+          "explanation": "Mrs. Okafor said her grandson wanted to video call but she didn't know how, which made her worried.",
+          "id": "reader-14-ch-3-q3",
+          "chapter_id": "reader-14-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the text, what does the word 'struggled' mean?",
+          "options": [
+            "Fought physically",
+            "Had difficulty",
+            "Ran quickly",
+            "Shouted loudly"
+          ],
+          "correct": 1,
+          "explanation": "The text says people 'struggled with technology', meaning they had difficulty using it.",
+          "id": "reader-14-ch-3-q4",
+          "chapter_id": "reader-14-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Amina's idea for helping people in her building?",
+          "options": [
+            "To create a social media page",
+            "To build an app for sharing information and help",
+            "To teach a coding class",
+            "To fix everyone's computers"
+          ],
+          "correct": 1,
+          "explanation": "Amina thought of making a simple app where people could share information, ask for help, and offer recommendations, like a digital noticeboard.",
+          "id": "reader-14-ch-3-q5",
+          "chapter_id": "reader-14-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "revelation",
+          "definition": "A surprising and enlightening experience or realization."
+        },
+        {
+          "word": "tutorials",
+          "definition": "Lessons or instructions that teach you how to do something, often step by step."
+        },
+        {
+          "word": "notice",
+          "definition": "To see or become aware of something or someone."
+        },
+        {
+          "word": "struggled",
+          "definition": "Had difficulty or tried hard to do something."
+        },
+        {
+          "word": "recommendations",
+          "definition": "Suggestions about what is good or useful."
+        }
+      ]
+    },
+    {
+      "id": "reader-14-ch-4",
+      "title": "The Launch",
+      "text": "Amina looked at the small, colourful icon on her phone screen. It was just a simple drawing of a house with a heart in the middle. But for her, it represented months of hard work, late nights, and a lot of learning. She tapped the icon, and the app opened. It looked clean and simple, just as she had hoped. There was a map, a list of services, and a button to post a request. It was finally ready.\n\nFor the last few weeks, Amina had been working on this app every spare minute she had. After the coding class ended, Mr. Chen, her instructor, had helped her turn her class project into something more complete. He showed her how to add a map, how to let users create profiles, and how to make the design look professional. Amina learned so much, but she often felt lost. There were so many new words and ideas. Sometimes, she would stare at the code on her screen, and her head would spin. She felt like a small boat on a big, dark ocean.\n\nBut she didn't give up. She remembered the feeling of success from her first simple program. She remembered how good it felt to solve a problem. Her neighbours, who had been so supportive, were also a big reason she continued. Mrs. Davison, the elderly lady from number 12, would often stop her on the street. \"How is my app coming along, dear?\" she would ask with a warm smile. Amina didn't have the heart to tell her it wasn't her app yet. So, she would just smile and say, \"It's coming along well, Mrs. Davison. Soon you will be able to find a gardener or a plumber with just one tap.\"\n\nTesting the app was the next big step. Amina showed it to a few of her neighbours. She asked them to try it. Mr. Okafor, who lived downstairs, was the first to test it. He wanted to find someone to fix his leaking kitchen tap. Amina watched him as he used the app. He moved his finger slowly across the screen. He found the \"Services\" button and tapped it. A list of names and photos appeared. He found a plumber named \"Mike\" and tapped the \"Contact\" button. A simple message box opened. \"This is great, Amina!\" he said. \"It's so easy to use.\" Amina felt a wave of relief. The hard work was paying off.\n\nBut there were also problems. Mrs. Davison found the text too small. \"My eyes aren't what they used to be, dear,\" she said. Amina listened and changed the app. She added a feature that made the text bigger. A young mother, Sarah, said the map was a bit confusing. She wanted to see which services were closest to her. So, Amina worked on that too, making the map clearer and more useful. Every piece of feedback was like a small gift. It helped her make the app better for the people who would actually use it.\n\nFinally, the day of the launch arrived. The community centre was the perfect place. It was the same place where she had first learned to code, where her journey had begun. Amina had set up a small table with a laptop and some printed flyers. She felt nervous, her stomach full of butterflies. What if no one came? What if people didn't like it? She took a deep breath. She thought about her journey. She remembered how she had felt so out of place on that first night. Now, she was standing here, about to show her own creation to the world.\n\nPeople started to arrive. Her neighbours came, of course. Mrs. Davison was there, wearing her best hat. Mr. Okafor came with his wife. Sarah came with her son. But there were other people too, people Amina didn't know. They were curious about the new app that everyone in the neighbourhood was talking about.\n\nAmina gave a short presentation. She explained how the app worked. She showed them how easy it was to find help, whether you needed a babysitter, a dog walker, or someone to fix a broken window. She explained the idea of helping your neighbours. \"This app is not just about services,\" she said, her voice shaking a little. \"It's about building a community. It's about connecting people who can help with people who need help.\"\n\nWhen she finished, there was a moment of silence. Then, people started to clap. It was not just a polite clap; it was a warm, genuine clap. People came up to her, asking questions and shaking her hand. They were downloading the app on their phones. They were already making profiles. Amina watched, and her heart felt full. It was a success.\n\nLater, as she was packing up her things, Mr. Chen came over to her. \"I'm so proud of you, Amina,\" he said. \"You did more than just write a program. You solved a problem for your community. That's what technology is really for.\"\n\nAmina smiled. She looked at the small, colourful icon on her phone screen. It wasn't just an app anymore. It was a part of her. It was the result of her courage, her hard work, and her desire to help. She had started as a student who felt lost. Now, she was a creator. She had launched something that was making a real difference. And in that moment, Amina knew that this was just the beginning. There were many more ideas in her head, and she couldn't wait to see what she would build next.",
+      "word_count": 933,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did the icon on Amina's phone represent to her?",
+          "options": [
+            "A simple drawing of a house",
+            "Months of hard work and learning",
+            "A map of services",
+            "A community of neighbours"
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'It was just a simple drawing of a house with a heart in the middle. But for her, it represented months of hard work, late nights, and a lot of learning.'",
+          "id": "reader-14-ch-4-q1",
+          "chapter_id": "reader-14-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the phrase 'out of place' mean in the text?",
+          "options": [
+            "Feeling comfortable and relaxed",
+            "Feeling like you don't belong",
+            "Feeling excited and happy",
+            "Feeling lost and confused"
+          ],
+          "correct": 1,
+          "explanation": "In the text, Amina remembers 'how she had felt so out of place on that first night' at the coding class, meaning she felt like she didn't belong there.",
+          "id": "reader-14-ch-4-q2",
+          "chapter_id": "reader-14-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Mrs. Davison help improve the app?",
+          "options": [
+            "She suggested fixing a leaking tap",
+            "She asked for a map feature",
+            "She said the text was too small",
+            "She wanted to contact a plumber"
+          ],
+          "correct": 2,
+          "explanation": "The text says: 'Mrs. Davison found the text too small. ... Amina listened and changed the app. She added a feature that made the text bigger.'",
+          "id": "reader-14-ch-4-q3",
+          "chapter_id": "reader-14-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'launch' mean in the context of the story?",
+          "options": [
+            "To close or shut down",
+            "To test something",
+            "To introduce or start something",
+            "To design something"
+          ],
+          "correct": 2,
+          "explanation": "In the text, 'the day of the launch arrived' refers to the day Amina introduced her app to the public, so it means to start or introduce.",
+          "id": "reader-14-ch-4-q4",
+          "chapter_id": "reader-14-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Mr. Chen's main point about Amina's achievement?",
+          "options": [
+            "She wrote a great program",
+            "She learned a lot from him",
+            "She solved a problem for her community",
+            "She created a useful map"
+          ],
+          "correct": 2,
+          "explanation": "Mr. Chen says: 'You did more than just write a program. You solved a problem for your community. That's what technology is really for.'",
+          "id": "reader-14-ch-4-q5",
+          "chapter_id": "reader-14-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "icon",
+          "definition": "A small picture or symbol on a screen that represents a program or function."
+        },
+        {
+          "word": "app",
+          "definition": "A software application designed to run on a mobile device or computer."
+        },
+        {
+          "word": "feedback",
+          "definition": "Comments or information about a product or service that help improve it."
+        },
+        {
+          "word": "launch",
+          "definition": "To introduce or start something, such as a new product or service."
+        },
+        {
+          "word": "community",
+          "definition": "A group of people living in the same area or sharing common interests."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time you tried to learn something new and found it difficult. What made you keep going? Write about your experience and what you learned from it.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

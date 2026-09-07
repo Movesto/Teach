@@ -1,0 +1,410 @@
+{
+  "id": "reader-17",
+  "title": "The Marathon",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "sport",
+    "health"
+  ],
+  "genre": "Realistic fiction",
+  "description": "A woman recovering from a heart condition decides to train for a charity 10K run, facing setbacks and finding strength through her coach and community.",
+  "word_count": 3685,
+  "reading_time_minutes": 20,
+  "chapters": [
+    {
+      "id": "reader-17-ch-1",
+      "title": "The Decision",
+      "text": "The hospital corridor smelled of cleaning products and old coffee. Amina walked slowly, one hand resting on the cool wall for support. Three months ago, she couldn't walk twenty steps without feeling tired. Now, she could walk the entire length of the ward and back. It was a small victory, but it felt huge.\n\nShe stopped by the big notice board near the exit. It was covered with colorful flyers: yoga classes, support groups, and a poster for a local farmers' market. But one poster caught her eye. It was bright orange with bold black letters. \"CITY 10K CHARITY RUN,\" it read. \"Help raise money for the Heart Foundation. Walk, jog, or run. Everyone is welcome.\"\n\nAmina's heart gave a little flutter. Not a dangerous flutter, but the kind that comes from surprise. A 10K. Ten kilometers. Before her surgery, she used to run five kilometers without any problem. She remembered the feeling of the wind on her face, the rhythm of her feet on the pavement. That felt like a lifetime ago. Now, just walking up the stairs made her breathless.\n\nShe stood there, staring at the poster. A nurse walked past and smiled at her. \"Thinking about it, Amina?\" she asked.\n\nAmina shook her head. \"No, I don't think so. It's too much for me.\"\n\n\"Maybe,\" the nurse said gently. \"But it's not until November. That's four months away. A lot can change in four months.\"\n\nAmina tore her eyes away from the poster and walked outside. The autumn sun was warm on her skin. She sat on a bench in the hospital garden and watched the leaves fall from the trees. She thought about her life before the surgery. She had been so active, so full of energy. Now, she felt fragile, like a piece of glass that might break if she pushed too hard.\n\nThe word \"charity\" stayed in her mind. The Heart Foundation had helped her. They had provided information and support for her family during her recovery. Maybe this was a way to give back. But could she really do it? Ten kilometers seemed like a mountain.\n\nThat evening, she talked to her husband, Mark. He was making dinner, chopping vegetables with a steady rhythm.\n\n\"I saw a poster today,\" she said. \"For a 10K run. For the Heart Foundation.\"\n\nMark stopped chopping and looked at her. \"That sounds interesting.\"\n\n\"Interesting?\" Amina laughed, but it wasn't a happy laugh. \"I can't run 10K, Mark. I can barely walk to the end of the street.\"\n\n\"You don't have to run it,\" Mark said. \"You can walk it. The poster says walk, jog, or run. It's not a race. It's about taking part.\"\n\nAmina was quiet for a moment. She thought about her scar, the long line that ran down the center of her chest. It was a reminder of what she had been through. It was also a reminder of how strong she had been.\n\n\"I'm scared,\" she admitted. \"I'm scared that I'll try and fail. I'm scared that my body won't be able to do it.\"\n\nMark put down the knife and came over to her. He took her hand. \"You faced open-heart surgery, Amina. That was the hardest thing you've ever had to do. And you did it. You are the strongest person I know. If you want to do this, we will find a way.\"\n\nHis words gave her a little bit of courage. Not a lot, but enough to make a decision. She took a deep breath. \"Okay,\" she said. \"I'll do it. I'll sign up.\"\n\nThe next day, she went back to the hospital and signed her name on the list. Her hand was shaking a little as she wrote. The woman at the desk gave her a registration pack with a number and a t-shirt.\n\nA week later, she went to her first training session. The running club met in a park near her house. She felt very nervous as she walked towards the group. Everyone looked so fit and fast. She wanted to turn around and go home.\n\nThen a man with a kind face and a grey beard walked up to her. \"You must be Amina,\" he said. \"I'm Daniel. I'm one of the coaches here.\"\n\n\"Nice to meet you,\" Amina said, her voice quiet. \"I'm not sure I'm ready for this.\"\n\nDaniel smiled. \"Nobody is ready on their first day. That's why we train. We start slow. We build up gradually. We listen to our bodies.\"\n\nHe looked at her with serious, kind eyes. \"I heard about your surgery, Amina. It takes a lot of courage to come here. That tells me you have the spirit for this. And we will take care of the rest.\"\n\nHis words made her feel safe. For the first time since her surgery, she felt like she was in the right place.\n\n\"Okay,\" she said, feeling a small smile spread across her face. \"Let's start.\"\n\nThe first training session was hard. After just ten minutes of walking, her legs ached and she felt dizzy. Daniel walked beside her, talking to her, keeping her pace slow.\n\n\"Don't worry about the distance,\" he said. \"Just think about the next step. That's all you have to do. One step at a time.\"\n\nAmina looked down at her feet. One step at a time. She could do that. She had done it before, one day at a time in the hospital. Now, she just had to do it again, one step at a time in the park.\n\nShe walked home that day, tired but happy. For the first time in months, she felt a new feeling. It was hope. The road ahead was long, but for the first time, she was ready to walk it.",
+      "word_count": 961,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel when she first saw the poster for the 10K run?",
+          "options": [
+            "Excited and confident",
+            "Surprised but doubtful",
+            "Angry and frustrated",
+            "Indifferent and uninterested"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Amina's heart gave a little flutter... the kind that comes from surprise,' and then she thought 'It's too much for me,' showing she was surprised but doubtful.",
+          "id": "reader-17-ch-1-q1",
+          "chapter_id": "reader-17-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'flutter' mean in the sentence 'Amina's heart gave a little flutter'?",
+          "options": [
+            "A loud thump",
+            "A quick, light beat",
+            "A painful cramp",
+            "A slow, steady rhythm"
+          ],
+          "correct": 1,
+          "explanation": "In context, 'flutter' describes a quick, light heartbeat, often associated with surprise or nervousness.",
+          "id": "reader-17-ch-1-q2",
+          "chapter_id": "reader-17-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the main reason Amina decided to sign up for the 10K run?",
+          "options": [
+            "She wanted to win the race",
+            "She wanted to prove the nurse wrong",
+            "She wanted to give back to the Heart Foundation and was encouraged by her husband",
+            "She wanted to get back in shape quickly"
+          ],
+          "correct": 2,
+          "explanation": "The text shows Amina thinking about giving back to the Heart Foundation, and after Mark's encouragement, she says 'Okay, I'll do it. I'll sign up.'",
+          "id": "reader-17-ch-1-q3",
+          "chapter_id": "reader-17-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'fragile' mean as used in the text?",
+          "options": [
+            "Strong and healthy",
+            "Easily broken or damaged",
+            "Very heavy",
+            "Extremely fast"
+          ],
+          "correct": 1,
+          "explanation": "Amina compares herself to 'a piece of glass that might break if she pushed too hard,' so 'fragile' means easily broken or damaged.",
+          "id": "reader-17-ch-1-q4",
+          "chapter_id": "reader-17-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Daniel tell Amina during her first training session?",
+          "options": [
+            "To run as fast as she could",
+            "To focus on the distance",
+            "To think only about the next step",
+            "To give up if it was too hard"
+          ],
+          "correct": 2,
+          "explanation": "Daniel says, 'Don't worry about the distance. Just think about the next step. That's all you have to do. One step at a time.'",
+          "id": "reader-17-ch-1-q5",
+          "chapter_id": "reader-17-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "flutter",
+          "definition": "A quick, light beating or movement, often of the heart."
+        },
+        {
+          "word": "fragile",
+          "definition": "Easily broken, damaged, or weakened; delicate."
+        },
+        {
+          "word": "breathless",
+          "definition": "Having difficulty breathing; out of breath."
+        },
+        {
+          "word": "courage",
+          "definition": "The ability to do something difficult despite fear or danger."
+        },
+        {
+          "word": "gradually",
+          "definition": "Slowly over a period of time; step by step."
+        }
+      ]
+    },
+    {
+      "id": "reader-17-ch-2",
+      "title": "First Steps",
+      "text": "The next morning, Amina woke up early. For the first time in months, she felt excited about the day. She put on her old running shoes and a pair of comfortable shorts. They were a little tight, but she did not care. She looked at herself in the mirror and smiled. Then she walked to the park where Coach Marta was waiting for her.\n\nMarta was already there, doing some gentle stretches on the grass. She waved when she saw Amina. \"Good morning! Are you ready for your first lesson?\"\n\nAmina nodded, but her heart was beating fast. \"I think so. I am a little nervous.\"\n\n\"That is normal,\" Marta said. \"We will go very slowly. The most important thing is to listen to your body. If something hurts, we stop. Okay?\"\n\n\"Okay,\" Amina said.\n\nThey started with a warm-up. Marta showed her some simple exercises to move her arms and legs. Then they walked for five minutes. After that, Marta asked her to jog very slowly for one minute. Amina felt strange at first. Her legs felt heavy, and her breathing was quick. But she continued. When the minute was over, Marta told her to walk again.\n\n\"How do you feel?\" Marta asked.\n\n\"I feel tired. But not too tired,\" Amina said. She was surprised. A few months ago, she could not walk up the stairs without stopping. Now she had just run for a whole minute.\n\n\"Good. That was your first run,\" Marta said with a big smile. \"You did it.\"\n\nAmina felt proud. It was a small thing, but it was a start.\n\nOver the next two weeks, Amina trained three times a week with Marta. Each time, she ran a little longer. First, she ran for two minutes. Then three. Then five. She learned to breathe through her nose and out through her mouth. She learned to keep her back straight and her arms relaxed. Marta always told her the same thing: \"Slow and steady. The speed will come later.\"\n\nAmina began to feel stronger. Her legs felt firmer, and her body felt lighter. She slept better at night. She even started to enjoy the early mornings. The park was quiet, and the air was fresh. She saw other runners passing by, and she imagined herself running like them one day.\n\nOne morning, after three weeks of training, Amina ran for ten minutes without stopping. When she finished, she put her hands on her knees and laughed. \"I did it! I really did it!\"\n\nMarta clapped her hands. \"Excellent! You are making wonderful progress. At this rate, you will be ready for the 10K in four months.\"\n\nAmina felt a warm feeling in her chest. For the first time since her surgery, she believed that she could do something difficult. She thought about the race. She imagined crossing the finish line, with people cheering. She wanted that moment.\n\nBut then everything changed.\n\nIt happened on a Tuesday morning. Amina was running her usual route in the park. She felt good. Her body was warm, and her breathing was even. She was thinking about the race and about how far she had come. Suddenly, she felt a sharp pain in her right knee. It was like a small knife cutting into her leg. She stopped immediately and cried out.\n\nMarta ran to her side. \"What happened?\"\n\n\"My knee,\" Amina said, her voice shaking. \"It hurts. It hurts a lot.\"\n\nMarta helped her sit down on a bench. She gently touched Amina's knee and asked her to move it slowly. Amina tried, but the pain was too strong.\n\n\"We need to see a doctor,\" Marta said. Her voice was calm, but her face looked worried.\n\nThe doctor at the clinic told Amina that she had a small injury in her knee. It was not serious, but she needed to rest for at least two weeks. No running. No training. Just rest and ice on the knee three times a day.\n\nAmina sat in the doctor's office and felt her heart sink. Two weeks. Maybe more. She had worked so hard. She had made so much progress. And now everything was stopping.\n\nThat night, she lay in bed and stared at the ceiling. She thought about the race. She thought about the poster that had started everything. She thought about how silly she had been to believe that she could do this. Her body was weak. It had failed her before, and now it was failing her again.\n\nShe called Marta the next morning. \"I think I should stop,\" she said quietly. \"Maybe this is not for me. My body is telling me to give up.\"\n\nThere was a long pause on the other end of the line. Then Marta spoke. \"Amina, listen to me. An injury is not a failure. It is a message. Your body is not telling you to give up. It is telling you to slow down. There is a big difference.\"\n\nAmina said nothing. She wanted to believe Marta, but the doubt was strong.\n\n\"Rest for two weeks,\" Marta continued. \"Then we will start again. Slowly. We will do exercises to make your knee stronger. You will come back. I promise you.\"\n\nAmina closed her eyes. She did not know if she could. But for the first time since the injury, she felt a small spark of hope. Maybe Marta was right. Maybe this was not the end. Maybe it was just a pause.",
+      "word_count": 910,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Amina feel when she woke up early on the first day of training?",
+          "options": [
+            "Tired and unhappy",
+            "Excited about the day",
+            "Scared and wanted to stay in bed",
+            "Angry at herself"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'For the first time in months, she felt excited about the day.'",
+          "id": "reader-17-ch-2-q1",
+          "chapter_id": "reader-17-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Marta say about the injury?",
+          "options": [
+            "It means Amina should stop running forever",
+            "It is a sign that she is not strong enough",
+            "It is a message to slow down, not to give up",
+            "It is nothing and she should ignore it"
+          ],
+          "correct": 2,
+          "explanation": "Marta said: 'An injury is not a failure. It is a message. Your body is not telling you to give up. It is telling you to slow down.'",
+          "id": "reader-17-ch-2-q2",
+          "chapter_id": "reader-17-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "After the injury, what did Amina want to do?",
+          "options": [
+            "Continue training immediately",
+            "Rest for two weeks and then start again",
+            "Give up running",
+            "See another doctor"
+          ],
+          "correct": 2,
+          "explanation": "Amina said: 'I think I should stop. Maybe this is not for me.' She wanted to give up.",
+          "id": "reader-17-ch-2-q3",
+          "chapter_id": "reader-17-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'gentle' mean in the context of 'gentle stretches'?",
+          "options": [
+            "Hard and fast",
+            "Soft and careful",
+            "Painful and difficult",
+            "Quick and energetic"
+          ],
+          "correct": 1,
+          "explanation": "In the text, 'gentle stretches' means slow, careful movements, not forceful or painful.",
+          "id": "reader-17-ch-2-q4",
+          "chapter_id": "reader-17-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'spark' mean in the last paragraph: 'she felt a small spark of hope'?",
+          "options": [
+            "A small flame",
+            "A sudden noise",
+            "A tiny bit of something",
+            "A strong feeling of fear"
+          ],
+          "correct": 2,
+          "explanation": "Here 'spark' means a small amount of hope, like a tiny start of something positive.",
+          "id": "reader-17-ch-2-q5",
+          "chapter_id": "reader-17-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "gentle",
+          "definition": "Soft and careful; not rough or harsh."
+        },
+        {
+          "word": "sharp",
+          "definition": "Very strong and sudden, like a sharp pain."
+        },
+        {
+          "word": "spark",
+          "definition": "A small amount of something, especially a feeling or quality."
+        },
+        {
+          "word": "progress",
+          "definition": "Improvement or development toward a goal."
+        }
+      ]
+    },
+    {
+      "id": "reader-17-ch-3",
+      "title": "Getting Back Up",
+      "text": "The week after her injury was the hardest part of Amina's journey. She stayed at home, resting her leg, but her mind would not rest at all. Every small pain in her leg made her worry. Is it getting worse? Will I ever run again? She looked at her running shoes by the door and felt a heavy sadness in her chest.\n\nOn Thursday afternoon, her coach, Maria, came to visit. She arrived with a paper bag full of fruit and a warm smile. Amina tried to smile back, but it was difficult. She felt like she had failed.\n\n\"You look like someone who has lost a race,\" Maria said gently, sitting down beside her. \"But you have not lost anything. You have simply stopped for a moment. That is all.\"\n\nAmina shook her head. \"我第一次 felt so good, Maria. The running, the fresh air, the feeling that my body was getting stronger after the surgery. Now I cannot even walk without pain.\"\n\nMaria nodded slowly. \"Listen to me, Amina. Your heart is strong. Your leg will heal. But we need to change our plan. We were too fast, too excited. We forgot that your body has been through a lot.\"\n\nThey spent an hour together that afternoon. Maria showed Amina a new training plan on a piece of paper. It had no running at all for two weeks. Instead, it had gentle walking, stretching, and some simple exercises to strengthen her leg and her core. The plan looked small and simple, but for Amina, it felt like a mountain. However, something in Maria's calm voice made her believe that she could climb it.\n\n\"You are not starting again from zero,\" Maria explained. \"You are starting from where your body is ready to begin. And the most important thing you will learn in these two weeks is how to listen to your body. It will tell you when it is ready for more. You just need to be quiet enough to hear it.\"\n\nThat was the hardest lesson for Amina. She was a person who liked to push forward, to finish what she started. But now, she had to learn patience. Every day, she walked slowly in her small garden. She stretched her legs and her arms. She did the gentle exercises that Maria had shown her. Some days, her leg felt peaceful and strong. Other days, there was a small ache that made her stop. In the past, she would have continued anyway. Now, she stopped. She rested. She listened.\n\nHer family noticed the change in her. Her husband, Karim, brought her a glass of water every evening and asked about her day. \"How is the leg today, my champion?\" he would say with a kind smile. Her daughter, Leila, drew a picture of a woman running with a big red heart on it and put it on the fridge. The picture said, \"Mom, you are strong.\" And her sister, Fatima, who lived in another city, called every evening. She did not talk about the race. She talked about ordinary things: her job, her children, the weather. But those ordinary conversations made Amina feel connected and loved.\n\nAfter two weeks, Maria came back again. This time, she drove Amina to a park with a flat, soft path. \"Today, we walk for twenty minutes. No running. Just walking, but a little faster than before.\"\n\nAmina walked. The sun was warm on her face. Her leg felt okay. Then, at the end of the walk, Maria asked her to try a slow jog for just thirty seconds. Amina's heart beat fast, not only from the effort but also from fear. But she did it. Thirty seconds of jogging. Then she stopped and walked again.\n\n\"Perfect,\" Maria said. \"That is the plan. Walk a little, jog a little. Listen to your body between each one.\"\n\nThe weeks passed slowly but surely. Amina began to feel like an athlete againalertly. Five minutes of jogging, then ten, then fifteen. Some days were good, and some days were bad. On the bad days, she used the tools Maria had taught her. She breathed deeply. She reminded herself how far she had come since her surgery. She remembered the small poster that had started everything.\n\nOne afternoon, after finishing her longest run since the injury, twenty-five minutes without stopping, she sat on a bench and looked at her phone. There were messages from Karim, Leila, and Fatima. They had all written the same word: \"Proud.\"\n\nAmina felt tears in her eyes, but they were not sad tears. She thought about the race, still several weeks away. She did not know if she could finish the whole ten kilometres. But for the first time since her injury, she believed that she could try again. And for her, that was everything.",
+      "word_count": 803,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina feel a heavy sadness in her chest?",
+          "options": [
+            "She missed her family.",
+            "She thought she would never run again.",
+            "She was angry at Maria.",
+            "She was tired of resting."
+          ],
+          "correct": 1,
+          "explanation": "The text says she looked at her running shoes and felt heavy sadness, and earlier she worried 'Will I ever run again?' So she feared she couldn't run again.",
+          "id": "reader-17-ch-3-q1",
+          "chapter_id": "reader-17-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'gentle' mean in the phrase 'gentle walking'?",
+          "options": [
+            "fast and energetic",
+            "slow and careful",
+            "difficult and challenging",
+            "noisy and heavy"
+          ],
+          "correct": 1,
+          "explanation": "In the context, 'gentle walking' means easy, slow walking, not intense.",
+          "id": "reader-17-ch-3-q2",
+          "chapter_id": "reader-17-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Maria's new training plan include for the first two weeks?",
+          "options": [
+            "Running short distances",
+            "Swimming and cycling",
+            "Walking, stretching, and simple exercises",
+            "Resting completely with no activity"
+          ],
+          "correct": 2,
+          "explanation": "Maria's plan had no running for two weeks, instead gentle walking, stretching, and simple exercises.",
+          "id": "reader-17-ch-3-q3",
+          "chapter_id": "reader-17-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'patience' mean as used in the text?",
+          "options": [
+            "the ability to wait calmly",
+            "the desire to win",
+            "the fear of failure",
+            "the love of running"
+          ],
+          "correct": 0,
+          "explanation": "The text says she had to learn patience, meaning the ability to wait calmly without getting upset.",
+          "id": "reader-17-ch-3-q4",
+          "chapter_id": "reader-17-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Amina's family show their support during her recovery?",
+          "options": [
+            "They came to visit her every day.",
+            "They sent her money.",
+            "They called and sent encouraging messages.",
+            "They ignored her to give her space."
+          ],
+          "correct": 2,
+          "explanation": "Karim brought water, Leila drew a picture, Fatima called, so they called and sent encouraging messages.",
+          "id": "reader-17-ch-3-q5",
+          "chapter_id": "reader-17-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "injury",
+          "definition": "damage to the body"
+        },
+        {
+          "word": "gentle",
+          "definition": "soft, mild, not harsh"
+        },
+        {
+          "word": "patience",
+          "definition": "the ability to wait calmly"
+        },
+        {
+          "word": "strengthen",
+          "definition": "to make stronger"
+        }
+      ]
+    },
+    {
+      "id": "reader-17-ch-4",
+      "title": "Race Day",
+      "text": "The morning of the race was cool and grey. Amina woke up before her alarm, her heart beating fast in her chest. She lay in bed for a moment and took a deep breath. This is it, she thought. Today is the day. She could hear her family moving quietly in the kitchen, trying not to make noise. But she was already awake. Her stomach felt strange, full of butterflies, and her hands were a little cold.\n\nAt breakfast, she ate a banana and drank some water. She did not want to eat too much. Her mother touched her shoulder gently. \"You have trained so hard, Amina. Whatever happens, we are proud of you.\" Amina nodded and tried to smile)Skip. Her father and her younger brother were already wearing bright yellow T-shirts that said \"Team Amina\" on the back. Seeing those words made her feel warm inside. She finished her breakfast and went to put on her own clothes: her running shoes, her black shorts, and the race T-shirt they had given her at registration.\n\nThe race was in the city park. When they arrived, the place was full of people. There were runners everywhere, some stretching their legs, some talking and laughing, and some looking as nervous as she felt. Music was playing from a large speaker, and volunteers in orange vests were guiding people to the start area. Amina saw many people wearing the same yellow T-shirts as her family. Friends from work, neighbours, and even her cousin had come to support her. Her coach, Maria, arrived and stood beside her.\n\n\"How are you feeling?\" Maria asked.\n\n\"Honestly?\" Amina said. \"My heart feels like it is going to jump out of my chest.\"\n\nMaria smiled. \"That is normal. Everyone feels this way. Just remember what we practised: start slowly, breathe in through your nose and out through your mouth, and do not think about the whole ten kilometres. Only think about the next step.\"\n\nAmina nodded. She looked at the crowd around her. Some runners looked very strong and fast. She felt small next to them, and her confidence began to drop. But then she looked at her family again. They were holding a big sign: \"Go Amina! One step at a time!\" She smiled, and her fears seemed a little smaller.\n\nA loud horn sounded. The race had begun.\n\nThe crowd started to move forward, slowly at first, like a river of people. Amina moved with them. She began to run at a gentle pace, just as Maria had taught her. Around her, some runners went ahead quickly, but she did not try to follow them. She kept her own rhythm. One kilometre passed, then two. The wind was cool on her face, and her legs felt strong. People stood along the path and cheered, holding signs and clapping. For a moment, Amina felt truly happy.\n\nAt the five-kilometre point, she allowed herself to think, I am halfway there. Her breathing was steady Contact, and her body felt good. She drank a little water at the station and kept going. But soon, her feelings changed. The sixth kilometre was harder. Her legs began to feel heavy, like they were made of stone. The seventh kilometre was worse. A sharp pain started in her left knee, and she remembered the injury from her training. Panic rose in her throat. Not again. Please, not again.\n\nShe slowed down and almost stopped. Her chest felt tight, and the pain in her knee was getting stronger. She could see runners passing her one by one. She felt like giving up. The finish line seemed impossibly far away. She wanted to sit down on the grass and let it all end.\n\nBut then she heard a familiar voice. \"Amina!\" It was Maria, running beside her on the outside of the path. For the last kilometre along, the path in good for Could not believe if. \"You are doing so well,\" Maria said, keeping her voice calm. \"You do not have to run fast. You can slow down. Just do not stop. Your body remembers the training. Trust it.\"\n\nAmina thought about the months of work. The early mornings, the rainy days, the long walks when her knee hurt. She thought about her heart, which had been weak once but was now strong. She had come too far to give up now.\n\n\"One step at a time,\" she said to herself. She slowed to a jog, then continued. The pain was still there, but she changed how she thought about it. It is just a message, she told herself. It is telling me I am doing something difficult. I can make it.\n\nThe last kilometre was a blur of cheering voices and pounding feet. Her knee ached, and her lungs burned, but she kept moving. She saw the sign for the final hundred metres. Her family was there, jumping and shouting. The finish line was a bright arch ahead of herandar. She was so tired. She wanted to walk. But seeing her family, she found a little more strength and ran toward the line.\n\nShe crossed it. The warm smile, maria grabbed her gently by the arm. Amina leaned over, breathing hard, her hands on her knees. Her whole body hurt, but in that moment, something else grew inside her. Something bigger than the pain. A volunteer put a medal around her neckchers. Her family ran to her asih und hugged her.\n\nTears mixed with sweat on her face. She had done it. She had trained after heart surgery, she had survived an injury, and she had finished a ten-kilometre race. It took her a long time, but that did not matter. She looked down at her medal and then up at her family.\n\n\"I really did it,\" she said, her voice shaking with joy. \"cept \"Yes,\" her mother said, holding her tightly. \"You did it. And we always believed you could.\"\n\nAmina smiled. The journey had ended, but she knew it was only the beginning. Already, she was thinking about her next goal.",
+      "word_count": 1011,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel the morning of the race?",
+          "options": [
+            "excited",
+            "nervous",
+            "tired",
+            "angry"
+          ],
+          "correct": 1,
+          "explanation": "The text says she had butterflies and her heart was beating fast, indicating nervousness.",
+          "id": "reader-17-ch-4-q1",
+          "chapter_id": "reader-17-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What advice did Maria give Amina before the race?",
+          "options": [
+            "Run as fast as you can from the start",
+            "Start slowly and focus on the next step",
+            "Think about the whole ten kilometres",
+            "Drink lots of water before the race"
+          ],
+          "correct": 1,
+          "explanation": "Maria said: 'start slowly, breathe in... and do not think about the whole ten kilometres. Only think about the next step.'",
+          "id": "reader-17-ch-4-q2",
+          "chapter_id": "reader-17-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened at the sixth and seventh kilometre?",
+          "options": [
+            "She felt very strong",
+            "She got a pain in her knee",
+            "She saw her family cheering",
+            "She stopped to rest"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'The sixth kilometre was harder. Her legs began to feel heavy... The seventh kilometre was worse. A sharp pain started in her left knee.'",
+          "id": "reader-17-ch-4-q3",
+          "chapter_id": "reader-17-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'butterflies' mean in the text?",
+          "options": [
+            "A type of insect",
+            "A feeling of nervousness",
+            "A kind of food",
+            "A song she heard"
+          ],
+          "correct": 1,
+          "explanation": "Butterflies is used idiomatically to describe the nervous feeling in her stomach.",
+          "id": "reader-17-ch-4-q4",
+          "chapter_id": "reader-17-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Amina feel after finishing the race?",
+          "options": [
+            "Disappointed with her time",
+            "Proud and happy",
+            "Angry about the pain",
+            "Tired but sad"
+          ],
+          "correct": 1,
+          "explanation": "She said 'I really did it' and her voice was shaking with joy, and she smiled.",
+          "id": "reader-17-ch-4-q5",
+          "chapter_id": "reader-17-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "butterflies",
+          "definition": "A nervous feeling in the stomach"
+        },
+        {
+          "word": "rhythm",
+          "definition": "A steady, regular pattern of movement"
+        },
+        {
+          "word": "confidence",
+          "definition": "Belief in yourself and your abilities"
+        },
+        {
+          "word": "injury",
+          "definition": "Physical damage to the body"
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a personal goal you have set for yourself. What steps did you take to reach it? What challenges did you face, and how did you stay motivated? Write about your experience.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

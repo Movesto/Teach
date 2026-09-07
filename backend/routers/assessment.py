@@ -115,17 +115,29 @@ async def assess_speaking(req: SpeakingAssessRequest, _=Depends(ai_rate_limit)):
 
     score = round(sum(1 for w in word_scores if w["correct"]) / len(e_words) * 100)
 
-    feedback = await ask_qwen([{
-        "role": "user",
-        "content": (
-            f'A student learning English was asked to say: "{expected}"\n'
-            f'They said: "{transcript}"\n'
-            f'Score: {score}/100\n'
-            f'Give exactly 1 short encouraging sentence of feedback. '
-            f'If score is 80+, praise them. If lower, gently name 1-2 words to practise. '
-            f'Be warm and simple — this is a beginner.'
-        ),
-    }], max_tokens=60)
+    # The score above is deterministic. AI only writes the feedback sentence, so a
+    # failure there must NOT lose the grade — fall back to canned encouragement.
+    try:
+        feedback = await ask_qwen([{
+            "role": "user",
+            "content": (
+                f'A student learning English was asked to say: "{expected}"\n'
+                f'They said: "{transcript}"\n'
+                f'Score: {score}/100\n'
+                f'Give exactly 1 short encouraging sentence of feedback. '
+                f'If score is 80+, praise them. If lower, gently name 1-2 words to practise. '
+                f'Be warm and simple — this is a beginner.'
+            ),
+        }], max_tokens=60)
+    except Exception as e:
+        logger.warning("speaking feedback unavailable, using fallback: %s", e)
+        missed = [w["word"] for w in word_scores if not w["correct"]][:2]
+        if score >= 80:
+            feedback = "Great job! Your speaking was clear."
+        elif missed:
+            feedback = f"Good effort — try practising: {', '.join(missed)}."
+        else:
+            feedback = "Good effort — keep practising, you're improving!"
 
     return {"score": score, "transcript": transcript, "feedback": feedback, "word_scores": word_scores}
 

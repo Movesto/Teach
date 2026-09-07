@@ -1,0 +1,276 @@
+{
+  "id": "reader-7",
+  "title": "The Football Match",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "sport",
+    "everyday life"
+  ],
+  "genre": "Short fiction",
+  "description": "Two friends on a local youth soccer team learn that playing together matters more than winning or losing, in one important match that changes how they see the game.",
+  "word_count": 1264,
+  "reading_time_minutes": 7,
+  "chapters": [
+    {
+      "id": "reader-7-ch-1",
+      "title": "The Big Match",
+      "text": "Sam and Ali were best friends. They played football for the Riverside youth team. Every Tuesday and Thursday, they went to the park after school. They practiced passing, shooting, and running with the ball. Sam was a good player, but he was quiet. Ali was loud and always smiled. They were different, but they were a great team.\n\nOne Tuesday afternoon, their coach, Mr. Green, called all the players together. He had a big smile on his face. \"Listen, everyone,\" he said. \"I have important news. The final match is on Saturday. We play against the City boys. It is the biggest match of the year.\"\n\nThe players shouted and clapped. Ali jumped in the air. \"Yes! We can win!\" he cried. Sam smiled too, but his stomach felt strange.\n\nAll week, the team practiced hard. On Wednesday, they ran around the park five times. On Thursday, they did passing drills. Mr. Green shouted, \"Pass the ball! Move! Shoot!\" The players worked very hard.\n\nAli played very well. He scored three goals in the practice. He laughed and said, \"Sam, we are going to win on Saturday. I know it.\"\n\nSam tried to smile. \"Yes, maybe,\" he said. But inside, he felt worried. What if he made a mistake? What if he lost the ball? What if the City boys were too fast?\n\nOn Thursday night, Sam talked to his mother. \"Mum, I am scared about the match,\" he said. \"What if I do something wrong?\"\n\nHis mother put her hand on his head. \"Sam, you practice hard. You are a good player. Just do your best. That is enough.\"\n\nSam nodded, but the worry did not go away.\n\nFriday came. The team had a short practice. Mr. Green said, \"Rest today. Eat well. Sleep well. The match is tomorrow.\"\n\nThat night, Sam went to bed at nine o'clock. He closed his eyes. But he could not sleep. He thought about the match. He thought about the big crowd. He thought about the City boys. They were tall and strong. They had won many matches this year.\n\nSam turned in his bed. He looked at the clock. Ten o'clock. Eleven o'clock. Still awake. Outside, the wind made a soft sound. His football boots sat on the floor next to his bed. They looked ready for the match.\n\nSam closed his eyes again. He remembered his mother's words. \"Just do your best.\" He took a deep breath. Slowly, slowly, his eyes became heavy.\n\nIn the next room, Ali was also in bed. But Ali was not worried. He smiled in the dark. Saturday was coming. He was ready.",
+      "word_count": 437,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Sam and Ali do every Tuesday and Thursday?",
+          "options": [
+            "They went to the park to practice football.",
+            "They went to the cinema to watch a film.",
+            "They stayed at home and did homework.",
+            "They visited their coach's house."
+          ],
+          "correct": 0,
+          "explanation": "The text says: 'Every Tuesday and Thursday, they went to the park after school. They practiced passing, shooting, and running with the ball.' So they practiced football.",
+          "id": "reader-7-ch-1-q1",
+          "chapter_id": "reader-7-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What important news did Mr. Green give the team?",
+          "options": [
+            "The team would have a holiday.",
+            "The final match was on Saturday against the City boys.",
+            "The team was going to get new uniforms.",
+            "The coach was leaving the team."
+          ],
+          "correct": 1,
+          "explanation": "Mr. Green said: 'The final match is on Saturday. We play against the City boys. It is the biggest match of the year.'",
+          "id": "reader-7-ch-1-q2",
+          "chapter_id": "reader-7-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Sam feel about the upcoming match?",
+          "options": [
+            "Happy and excited.",
+            "Angry and upset.",
+            "Worried and scared.",
+            "Tired and bored."
+          ],
+          "correct": 2,
+          "explanation": "The text says: 'But inside, he felt worried. What if he made a mistake?' and later 'I am scared about the match,' Sam told his mother.",
+          "id": "reader-7-ch-1-q3",
+          "chapter_id": "reader-7-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the text, what does the word 'crowd' mean?",
+          "options": [
+            "A group of players.",
+            "A large number of people watching an event.",
+            "A type of football boot.",
+            "A place where football matches are played."
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'He thought about the big crowd.' In context, it refers to the people watching the match, so a large number of spectators.",
+          "id": "reader-7-ch-1-q4",
+          "chapter_id": "reader-7-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "practice",
+          "definition": "To do an activity repeatedly to improve a skill, or a session for training."
+        },
+        {
+          "word": "worried",
+          "definition": "Feeling anxious or concerned about something that might happen."
+        },
+        {
+          "word": "crowd",
+          "definition": "A large group of people gathered together, especially to watch an event."
+        },
+        {
+          "word": "important",
+          "definition": "Having great value or significance; something that matters a lot."
+        },
+        {
+          "word": "maybe",
+          "definition": "Used to express uncertainty or possibility; perhaps."
+        }
+      ]
+    },
+    {
+      "id": "reader-7-ch-2",
+      "title": "The Match",
+      "text": "On Saturday morning, the sun was bright and the sky was blue. Sam and Ali walked to the football field together. Sam did not say much. He thought about the match and his stomach felt strange. Ali put his hand on Sam's shoulder. \"Today is our day,\" Ali said. \"Do not worry.\"\n\nThe Riverside team wore their red shirts. The other team, the Tigers, wore yellow. Many parents and friends sat near the field. The coach called the players together. \"Remember what we practiced,\" he said. \"Pass the ball. Help each other. Play as one team.\"\n\nThe referee blew his whistle. The match started. Sam ran fast. He watched the ball. He did not think about mistakes. He only thought about the game.\n\nIn the first ten minutes, Riverside played very well. They passed the ball and moved together. Then Ali got the ball near the goal. He saw Sam on the left. He passed the ball to Sam. Sam controlled it with his foot. He looked at the goal. He kicked the ball hard. It went into the net! The crowd shouted and clapped. Sam smiled. His friends ran to him. \"Great goal!\" Ali said.\n\nBut the Tigers did not stop. They played stronger after that. In the twenty-fifth minute, a Tiger player kicked the ball. It went past the goalkeeper. The score was one - one.\n\nIn the second half, the match was fast. Both teams wanted to win. Then Sam got the ball near his own goal. A Tiger player ran to him. Sam tried to pass the ball, but he was too slow. The Tiger player took the ball and kicked it into the goal. The Tigers were winning, two - one.\n\nAli was very angry. He shouted at Sam. \"Why did you do that? What were you thinking?\" Sam looked down. His face was red. He did not say anything. He felt very sad. He wanted to leave the field.\n\nThe coach called them together. He looked at Ali and then at Sam. \"Stop,\" he said. \"This is a team. One mistake is not one player's mistake. We win together and we lose together. Listen to me. We still have time. We must work together.\"\n\nSam looked at the coach. Then he looked at Ali. Ali felt sorry for his angry words. \"I am sorry, Sam,\" Ali said softly. \"Let us play together.\"\n\nThey played hard for the last ten minutes. In the last minute, Ali scored a goal for Riverside. The score was two - two. The referee blew his whistle. The match was a draw.\n\nThe players were tired, but they smiled. They did not win, but they did not lose. Sam learned something important that day. Football is not about one player. It is about the team.",
+      "word_count": 465,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Sam feel before the match?",
+          "options": [
+            "Confident",
+            "Nervous",
+            "Angry",
+            "Excited"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'his stomach felt strange', which shows he was nervous.",
+          "id": "reader-7-ch-2-q1",
+          "chapter_id": "reader-7-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'controlled' mean in the sentence 'Sam controlled it with his foot'?",
+          "options": [
+            "Shouted",
+            "Stopped",
+            "Kicked",
+            "Guided"
+          ],
+          "correct": 3,
+          "explanation": "In football, controlling the ball means to guide it with your foot.",
+          "id": "reader-7-ch-2-q2",
+          "chapter_id": "reader-7-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Ali shout at Sam?",
+          "options": [
+            "Because Sam scored a goal",
+            "Because Sam made a mistake that led to a goal for the Tigers",
+            "Because Sam didn't pass the ball",
+            "Because Sam was too slow"
+          ],
+          "correct": 1,
+          "explanation": "Sam tried to pass the ball but was too slow, and the Tiger player took it and scored. Ali blamed Sam for that mistake.",
+          "id": "reader-7-ch-2-q3",
+          "chapter_id": "reader-7-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Sam learn from the match?",
+          "options": [
+            "He should play alone",
+            "Football is about the team",
+            "He should not make mistakes",
+            "He should be faster"
+          ],
+          "correct": 1,
+          "explanation": "The last line says 'Sam learned something important that day. Football is not about one player. It is about the team.'",
+          "id": "reader-7-ch-2-q4",
+          "chapter_id": "reader-7-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "referee",
+          "definition": "The official who makes sure the rules are followed in a game."
+        },
+        {
+          "word": "whistle",
+          "definition": "A small instrument that makes a high sound, used by the referee to start or stop play."
+        },
+        {
+          "word": "draw",
+          "definition": "A game that ends with equal scores for both teams."
+        },
+        {
+          "word": "mistake",
+          "definition": "An action that is wrong or not correct."
+        }
+      ]
+    },
+    {
+      "id": "reader-7-ch-3",
+      "title": "After the Whistle",
+      "text": "After the final whistle, the players walked off the field. Their heads were down. They felt sad. The match ended in a draw. Sam looked at the ground. He thought about his mistake. He made a bad pass in the second half. That mistake gave the other team a goal. Ali came to Sam. \"Don't be sad,\" Ali said. \"We played well.\"\n\nThe coach called the team together. He smiled at them. \"Listen,\" he said. \"You played a good match. You ran fast. You passed the ball well. You worked as a team. I am proud of you.\" The players listened. Some of them still felt sad. The coach continued. \"A draw is not a loss. You learned a lot today. You learned to never give up. That is important.\"\n\nSam and Ali sat on the grass. Sam said, \"I made a big mistake. I feel bad.\" Ali put his hand on Sam's shoulder. \"Everyone makes mistakes,\" Ali said. \"You are a good player. We are a team. We win together and we lose together. But a draw is not losing. It is a chance to do better.\" Sam looked at Ali. \"You are right,\" he said. \"Winning is not everything. Playing well and having fun is important too.\"\n\nThen the other team came over. They wanted to shake hands. Sam and Ali stood up. They shook hands with the other players. \"Good game,\" everyone said. The other team's captain smiled. \"You played very well,\" he said to Sam. Sam felt a little better.\n\nAfter that, Ali had an idea. \"Let's practice together next week,\" he said to the other team. \"We can get better.\" The other team's captain nodded. \"Yes, let's do it. We can practice together on Tuesday.\" Sam smiled. \"That is a great idea,\" he said.\n\nThe team walked off the field together. They were not sad anymore. They were proud. They played a hard match. They learned something. They made new friends. Sam looked at Ali. \"Thank you,\" he said. \"You are a good friend.\" Ali smiled. \"We are a good team,\" he said.\n\nThey felt proud of their teamwork. They knew that next time, they would do",
+      "word_count": 362,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Sam feel sad after the match?",
+          "options": [
+            "Because his team lost the match",
+            "Because he made a bad pass that led to a goal",
+            "Because Ali was angry with him",
+            "Because the coach was unhappy"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'He made a bad pass in the second half. That mistake gave the other team a goal.'",
+          "id": "reader-7-ch-3-q1",
+          "chapter_id": "reader-7-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'draw' mean in this chapter?",
+          "options": [
+            "A game where both teams score the same number of goals",
+            "A game where one team wins easily",
+            "A game that is stopped early",
+            "A game where no one plays well"
+          ],
+          "correct": 0,
+          "explanation": "The match ended in a draw, and the coach says 'A draw is not a loss.' This means it is a tie, not a win or loss.",
+          "id": "reader-7-ch-3-q2",
+          "chapter_id": "reader-7-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the coach say to the team after the match?",
+          "options": [
+            "He said they played badly and needed to practice more",
+            "He said they played a good match and he was proud of them",
+            "He said that Sam should not play in the next game",
+            "He said that a draw is the same as losing"
+          ],
+          "correct": 1,
+          "explanation": "The coach said: 'You played a good match... I am proud of you.'",
+          "id": "reader-7-ch-3-q3",
+          "chapter_id": "reader-7-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the phrase 'shake hands' mean in this chapter?",
+          "options": [
+            "To show anger by hitting hands",
+            "To greet or say goodbye by holding and moving hands",
+            "To practice playing with hands",
+            "To ask for the ball"
+          ],
+          "correct": 1,
+          "explanation": "The other team came over to shake hands. This is a friendly gesture to show respect after a game.",
+          "id": "reader-7-ch-3-q4",
+          "chapter_id": "reader-7-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "draw",
+          "definition": "A game that ends with equal scores for both teams; a tie."
+        },
+        {
+          "word": "pass",
+          "definition": "In sports, to kick or throw the ball to a teammate."
+        },
+        {
+          "word": "mistake",
+          "definition": "An action that is wrong or not correct."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling pleased and satisfied about something you or others have done."
+        },
+        {
+          "word": "teamwork",
+          "definition": "The ability of a group of people to work together effectively."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when you played a game or did a sport with others. Did you win or lose? What did you learn from that experience? Write about what happened and how you felt.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}
