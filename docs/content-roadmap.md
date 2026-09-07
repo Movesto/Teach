@@ -182,6 +182,13 @@ older Coxhead AWL, for a consistent general+academic target.
 
 ## Phase 6 — Prove it: C1 exam alignment + checkpoints
 
+**Largely done (PR #13).** Progress checks (then-vs-now via placement history) +
+printable certificate; can-do statements per unit (checked off by unit test); and
+the **C1 capstone** (`services/placement_test/capstone-test.json`, served/scored by
+`/api/placement/capstone/*`, launched from Progress, 75%+ = college-ready). Still
+open: distinct per-checkpoint content; units 11–13 exam-shape assessments.
+
+
 - [ ] Checkpoint test after every 2 units, built on the placement-test machinery
       (score → CEFR estimate); show "then vs now" against their placement result
 - [ ] Units 11–13 assessments in exam shapes: timed essay (30–40 min) in
