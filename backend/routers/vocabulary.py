@@ -14,8 +14,22 @@ from core.security import get_current_user
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/vocabulary", tags=["vocabulary"])
 
-_CONTENT_INDEX_PATH = Path(__file__).parent.parent / "data" / "wordlists" / "content-index.json"
+_WORDLISTS_DIR = Path(__file__).parent.parent / "data" / "wordlists"
+_CONTENT_INDEX_PATH = _WORDLISTS_DIR / "content-index.json"
 _content_index = None
+_examples = None
+
+
+def _get_examples():
+    """word -> example sentence (built by scripts/tag_vocabulary.py)."""
+    global _examples
+    if _examples is None:
+        try:
+            with open(_WORDLISTS_DIR / "word-examples.json", encoding="utf-8") as f:
+                _examples = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            _examples = {}
+    return _examples
 
 
 def _get_content_index():
@@ -57,6 +71,9 @@ async def get_vocabulary_due(user=Depends(get_current_user)):
         )
         total = cur.fetchone()["total"]
         cur.close()
+        examples = _get_examples()
+        for r in rows:
+            r["example"] = examples.get((r.get("word") or "").lower())
         return {"words": rows, "total_words": total}
     finally:
         release_db(conn)

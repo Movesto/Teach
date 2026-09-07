@@ -194,3 +194,10 @@ def _mark_chapter_read(user_id, reader_id, chapter_id, score):
         logger.warning("[readers] could not record chapter progress: %s", e)
     finally:
         release_db(conn)
+    # Academic (NAWL) words from this chapter -> SRS deck (reading builds the
+    # academic vocabulary; opens its own connection).
+    try:
+        from core.vocab_seed import academic_words_for_chapter, seed_words
+        seed_words(user_id, academic_words_for_chapter(chapter_id))
+    except Exception as e:
+        logger.warning("[readers] academic vocab seed failed: %s", e)

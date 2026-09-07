@@ -217,6 +217,14 @@ async def _populate_vocabulary(user_id: str, lesson_id: int) -> None:
     if not lesson_data:
         return
 
+    # Academic (NAWL) target words this lesson introduces -> SRS deck (runs even if
+    # the lesson has no target_language.phrases).
+    try:
+        from core.vocab_seed import academic_words_for_lesson, seed_words
+        seed_words(user_id, academic_words_for_lesson(lesson_id))
+    except Exception as e:
+        logger.warning("academic vocab seed failed for lesson %s: %s", lesson_id, e)
+
     phrases = lesson_data.get("target_language", {}).get("phrases", [])
     phrases = [p for p in phrases if isinstance(p, str) and p.strip()]
     if not phrases:
