@@ -2,8 +2,19 @@ import os
 from pathlib import Path
 
 NLLB_URL = os.environ.get("NLLB_URL", "http://localhost:8001/translate")
+# The chat LLM ("brain"): any OpenAI-compatible chat/completions endpoint.
+# Defaults to the local Qwen container; point QWEN_URL/QWEN_MODEL at a hosted
+# provider (OpenRouter, Gemini's OpenAI-compat endpoint, Groq, …) to drop the GPU.
+# LLM_API_KEY is sent as a Bearer token when set (hosted APIs need it; local Qwen
+# does not). OPENROUTER_API_KEY is accepted as a fallback so the existing key works.
 QWEN_URL = os.environ.get("QWEN_URL", "http://localhost:8010/v1/chat/completions")
-QWEN_MODEL = "Qwen/Qwen2.5-3B-Instruct-AWQ"
+QWEN_MODEL = os.environ.get("QWEN_MODEL", "Qwen/Qwen2.5-3B-Instruct-AWQ")
+LLM_API_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("OPENROUTER_API_KEY", "")
+# Comma-separated fallback models. On OpenRouter, if the primary QWEN_MODEL is
+# rate-limited (429) it auto-tries these in order (OpenRouter's `models` routing),
+# so a throttled free model doesn't take the tutor down. Ignored on non-OpenRouter
+# endpoints (they don't accept a `models` array).
+LLM_FALLBACK_MODELS = [m.strip() for m in os.environ.get("LLM_FALLBACK_MODELS", "").split(",") if m.strip()]
 PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
 KOKORO_VOICE = "bm_george"

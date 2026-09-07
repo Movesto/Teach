@@ -3,7 +3,7 @@ import logging
 import httpx
 from fastapi import HTTPException
 
-from .config import QWEN_URL, QWEN_MODEL, NLLB_URL
+from .config import QWEN_URL, QWEN_MODEL, NLLB_URL, LLM_API_KEY, LLM_FALLBACK_MODELS
 
 logger = logging.getLogger(__name__)
 _client: httpx.AsyncClient = None
@@ -53,16 +53,22 @@ async def translate_text(text: str, direction: str) -> str:
 
 
 async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
+    # Bearer auth only when a key is configured (hosted APIs need it; local Qwen doesn't).
+    headers = {}
+    if LLM_API_KEY:
+        headers["Authorization"] = f"Bearer {LLM_API_KEY}"
+        headers["X-Title"] = "Barashada Ingiriisiga"
+    body = {
+        "model": QWEN_MODEL,
+        "messages": messages,
+        "max_tokens": max_tokens,
+        "temperature": 0.7,
+    }
+    # OpenRouter-only: on a 429 for the primary model, fall through this list.
+    if LLM_FALLBACK_MODELS and "openrouter.ai" in QWEN_URL:
+        body["models"] = [QWEN_MODEL, *LLM_FALLBACK_MODELS]
     try:
-        resp = await _client.post(
-            QWEN_URL,
-            json={
-                "model": QWEN_MODEL,
-                "messages": messages,
-                "max_tokens": max_tokens,
-                "temperature": 0.7,
-            },
-        )
+        resp = await _client.post(QWEN_URL, headers=headers, json=body)
         resp.raise_for_status()
         return strip_markdown(resp.json()["choices"][0]["message"]["content"])
     except Exception as e:
