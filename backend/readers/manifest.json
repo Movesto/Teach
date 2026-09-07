@@ -1,0 +1,162 @@
+[
+  {
+    "id": "reader-1",
+    "title": "The New Neighbour",
+    "level": "A2",
+    "interest_tags": ["everyday life", "faith & culture"],
+    "genre": "Short fiction",
+    "premise": "Amina and her family move into a small apartment in a new city. A friendly older neighbour, Mr. Okoro, helps them learn where the market, the clinic, and the mosque are. Warm, everyday domestic scenes; simple present and past tenses."
+  },
+  {
+    "id": "reader-2",
+    "title": "First Day at Work",
+    "level": "A2",
+    "interest_tags": ["work", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "Yusuf starts his first job at a supermarket. He learns to greet customers, stock shelves, and ask his manager for help when he does not understand. Focus on workplace routines and polite requests."
+  },
+  {
+    "id": "reader-3",
+    "title": "The Lost Bus Ticket",
+    "level": "A2",
+    "interest_tags": ["travel", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "Halima takes the city bus to her English class but loses her ticket. She must ask for directions, explain her problem to the driver, and find another way. Practical travel and problem-solving language."
+  },
+  {
+    "id": "reader-4",
+    "title": "A Visit to the Clinic",
+    "level": "A2",
+    "interest_tags": ["health", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "Omar's daughter has a fever. He takes her to the clinic, describes her symptoms to the nurse, and follows the doctor's advice. Health vocabulary, describing feelings and symptoms."
+  },
+  {
+    "id": "reader-5",
+    "title": "The Community Garden",
+    "level": "A2",
+    "interest_tags": ["everyday life", "science & nature"],
+    "genre": "Short fiction",
+    "premise": "Neighbours from many countries share a small garden. They plant vegetables, solve a problem about water, and hold a harvest meal together. Themes of cooperation and simple nature vocabulary."
+  },
+  {
+    "id": "reader-6",
+    "title": "Saving for a Bicycle",
+    "level": "A2",
+    "interest_tags": ["money", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "Ahmed wants a bicycle to get to work faster. He learns to budget, save a little each week, and compare prices at two shops. Money vocabulary, numbers, and comparatives."
+  },
+  {
+    "id": "reader-7",
+    "title": "The Football Match",
+    "level": "A2",
+    "interest_tags": ["sport", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "A local youth team plays an important match. Two friends learn about teamwork, winning, and losing well. Sport vocabulary, describing actions in the past."
+  },
+  {
+    "id": "reader-8",
+    "title": "Grandmother's Recipe",
+    "level": "A2",
+    "interest_tags": ["faith & culture", "everyday life"],
+    "genre": "Short fiction",
+    "premise": "A young woman learns to cook a traditional dish by phone with her grandmother far away. Sequencing words (first, then, next), food and kitchen vocabulary, family warmth."
+  },
+  {
+    "id": "reader-9",
+    "title": "The Library Card",
+    "level": "A2",
+    "interest_tags": ["everyday life", "tech"],
+    "genre": "Short fiction",
+    "premise": "Fatima discovers the public library: free books, computers, and a children's story time. She signs up for a card and learns to use the computers. Everyday services and simple technology words."
+  },
+  {
+    "id": "reader-10",
+    "title": "A Snowy Morning",
+    "level": "A2",
+    "interest_tags": ["everyday life", "science & nature"],
+    "genre": "Short fiction",
+    "premise": "A family experiences their first snow. The children play outside while the parents learn to dress warmly and walk safely on ice. Weather and seasons vocabulary, feelings."
+  },
+  {
+    "id": "reader-11",
+    "title": "The Job Interview",
+    "level": "B1",
+    "interest_tags": ["work", "money"],
+    "genre": "Realistic fiction",
+    "premise": "Nadia prepares for and attends an interview for an office job. She researches the company, practises answers, handles a tricky question about a gap in her CV, and reflects afterwards. Workplace and self-presentation language, conditionals."
+  },
+  {
+    "id": "reader-12",
+    "title": "The Long Way Home",
+    "level": "B1",
+    "interest_tags": ["travel", "history"],
+    "genre": "Realistic fiction",
+    "premise": "An older man tells his grandchild the story of his journey to a new country years ago — the choices, the fears, and the people who helped. Narrative past tenses, cause and effect, migration themes told sensitively."
+  },
+  {
+    "id": "reader-13",
+    "title": "The Small Shop",
+    "level": "B1",
+    "interest_tags": ["work", "money"],
+    "genre": "Realistic fiction",
+    "premise": "A couple opens a small grocery shop. They face a rent increase, a dishonest supplier, and a new competitor, and must decide how to keep the business alive. Business vocabulary, problem-solving, decision language."
+  },
+  {
+    "id": "reader-14",
+    "title": "Learning to Code",
+    "level": "B1",
+    "interest_tags": ["tech", "work"],
+    "genre": "Realistic fiction",
+    "premise": "A young woman joins a free evening coding class, struggles with her first program, doubts herself, and slowly builds a simple app that helps her neighbourhood. Technology and learning vocabulary, expressing difficulty and persistence."
+  },
+  {
+    "id": "reader-15",
+    "title": "The River and the Dam",
+    "level": "B1",
+    "interest_tags": ["science & nature", "history"],
+    "genre": "Non-fiction narrative",
+    "premise": "A clear, accessible non-fiction account of how a village's relationship with its river changed when a dam was built — the benefits, the costs, and the debate. Informational text structure, cause and effect, opinions."
+  },
+  {
+    "id": "reader-16",
+    "title": "A Healthy Heart",
+    "level": "B1",
+    "interest_tags": ["health", "science & nature"],
+    "genre": "Non-fiction narrative",
+    "premise": "Following one man's check-up, an accessible explanation of how the heart works, what raises risk, and small daily changes that help. Health and body vocabulary, explaining processes, giving advice."
+  },
+  {
+    "id": "reader-17",
+    "title": "The Marathon",
+    "level": "B1",
+    "interest_tags": ["sport", "health"],
+    "genre": "Realistic fiction",
+    "premise": "A recovering patient sets herself the goal of finishing a charity 10K. Training setbacks, a supportive coach, and race day. Sport and fitness vocabulary, goals and motivation, sequencing."
+  },
+  {
+    "id": "reader-18",
+    "title": "Two Cities, One Family",
+    "level": "B1",
+    "interest_tags": ["faith & culture", "everyday life"],
+    "genre": "Realistic fiction",
+    "premise": "Siblings raised in different countries reunite and discover how their cultures and habits have grown apart and stayed the same. Comparing and contrasting, cultural identity, feelings and relationships."
+  },
+  {
+    "id": "reader-19",
+    "title": "The Money Trap",
+    "level": "B1",
+    "interest_tags": ["money", "everyday life"],
+    "genre": "Realistic fiction",
+    "premise": "A young worker is tempted by an easy loan and a get-rich-quick offer, learns the hard way about interest and scams, and rebuilds with a sensible plan. Personal-finance vocabulary, warnings and advice, modal verbs."
+  },
+  {
+    "id": "reader-20",
+    "title": "Voices from the Past",
+    "level": "B1",
+    "interest_tags": ["history", "faith & culture"],
+    "genre": "Non-fiction narrative",
+    "premise": "An accessible look at how ordinary people's letters and photographs help us understand a historical period, following a student who researches her own grandmother's life. Historical narrative, reported speech, sequencing time."
+  }
+]

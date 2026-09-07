@@ -1,0 +1,418 @@
+{
+  "id": "reader-18",
+  "title": "Two Cities, One Family",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "faith & culture",
+    "everyday life"
+  ],
+  "genre": "Realistic fiction",
+  "description": "Two siblings, raised on different continents, finally reunite and discover that while their daily lives and faith practices have diverged, the bonds of family and shared heritage still hold them together.",
+  "word_count": 3492,
+  "reading_time_minutes": 19,
+  "chapters": [
+    {
+      "id": "reader-18-ch-1",
+      "title": "The Airport Reunion",
+      "text": "Amina checked her phone for the fifth time in ten minutes. The arrivals board at Heathrow Airport showed that the flight from Mogadishu had landed twenty minutes ago. Her heart beat fast inside her chest. She had not seen her brother Yusuf for fifteen years, not since her mother had taken her to London when she was only seven years old. Yusuf had stayed in Somalia with their father's family.\n\nShe smoothed her dress and looked at her reflection in the glass doors. Her clothes felt right for London - a simple blue dress, a light jacket, comfortable shoes. She had thought carefully about what to wear, but now she wondered if her brother would think she looked too Western. Too different.\n\nThe doors opened and people began to walk out. Families hugged. Business travellers checked their phones. Amina searched the crowd, looking for a face she barely remembered. Then she saw him.\n\nHe was tall, like their father. He wore a long white robe called a *dirac*, and a small white cap sat on his head. In one hand, he carried a simple black bag. He looked around, confused, until his eyes found hers.\n\nFor a moment, neither of them moved. Then Amina walked forward, and Yusuf did the same. They met in the middle and hugged. His arms felt strong and unfamiliar, but his smell - she remembered that smell. It was the same soap their father always used.\n\n\"Welcome,\" she said, her voice shaking a little. \"Welcome to London.\"\n\n\"Thank you, sister,\" he replied. His voice was deep and formal. \"It is good to see you after so many years.\"\n\nThey pulled apart and looked at each other. Amina noticed his careful posture, the way he stood straight and kept his hands at his sides. He noticed her casual way of standing, one hand in her pocket, her weight on one leg.\n\n\"You look well,\" she said.\n\n\"And you also look well,\" he answered. \"You look like our mother.\"\n\nThe words touched her heart. She smiled. \"Come on, let's get your bag. The car is outside.\"\n\nAs they walked, the silence grew between them like a wall. Amina wanted to ask him about his life, about their father's family, about everything. But the words felt strange in her mouth. She spoke English mostly, and some Somali that she had learned from her mother. Yusuf spoke Somali perfectly, and his English was careful and slow.\n\n\"So,\" she said as they reached the car, \"how was the flight?\"\n\n\"Long,\" he said. \"But good. I have never flown so far before.\"\n\nAmina opened the car door for him. He looked at the car - a small silver Ford - and then at her. \"You drive?\" he asked.\n\n\"Yes,\" she said, surprised. \"Of course. I have driven since I was seventeen.\"\n\n\"In Mogadishu, not many women drive,\" he said quietly.\n\nAmina felt a small flash of discomfort. She got into the driver's seat and started the engine. The traffic was heavy, as always in London. Yusuf sat quietly, looking out of the window at the tall buildings, the red buses, the crowds of people.\n\n\"It is very busy here,\" he said.\n\n\"Yes,\" Amina agreed. \"London is always like this. You will get used to it.\"\n\nThey drove in silence for a while. Amina turned on the radio, and soft music filled the car. She saw Yusuf's face relax a little.\n\n\"Mother called me last night,\" she said. \"She is so excited that you are coming. She has been cooking for two days.\"\n\nYusuf smiled for the first time. His smile looked like their mother's. \"She always cooked too much,\" he said. \"Even when we were children.\"\n\nAmina laughed. \"Yes! She never stopped. She still sends me food packages every month.\"\n\nThe laughter felt good. It broke the wall between them, just a little.\n\nThey drove through the streets of West London, past shops selling halal meat, Somali restaurants, and small mosques. Amina saw Yusuf looking at everything with wide eyes.\n\n\"There are many Somali people here,\" he said with surprise.\n\n\"Yes,\" Amina said. \"There is a big community. You will feel at home.\"\n\nFinally, they arrived at the house. It was a small terraced house with a red door. Amina parked the car and turned off the engine. She looked at the house and felt strange. This was her childhood home, but it did not feel like home anymore. She had moved out two years ago to share a flat with friends.\n\n\"Are you ready?\" she asked Yusuf.\n\nHe nodded. \"I have waited a long time to meet our family.\"\n\nThey walked to the door together. Amina pushed it open, and the smell of spices and cooking filled the air. Her mother appeared in the hallway, her face bright with tears.\n\n\"Yusuf! My son!\" she cried, and pulled him into her arms.\n\nBehind her, their father stood, older and greyer than Amina remembered. He held out his arms, and Yusuf went to him. Amina watched them, feeling like an outsider in her own home. She belonged to this family, but she did not quite belong here. She was from London now. And yet, watching her brother and father embrace, she felt a pull in her heart - a connection she could not name.\n\n\"Come,\" her mother said, taking both their hands. \"Come and eat. We have so much to talk about.\"\n\nAmina followed them into the warm, noisy house. And for the first time that day, she felt something that might have been home.",
+      "word_count": 923,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina feel nervous at the airport?",
+          "options": [
+            "She was afraid of flying.",
+            "She had not seen her brother for fifteen years and was anxious.",
+            "She was worried about her mother's cooking.",
+            "She didn't like airports."
+          ],
+          "correct": 1,
+          "explanation": "The text says she had not seen her brother for fifteen years and her heart beat fast.",
+          "id": "reader-18-ch-1-q1",
+          "chapter_id": "reader-18-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Yusuf wear when he arrived?",
+          "options": [
+            "A blue dress and a light jacket.",
+            "A long white robe called a dirac and a small white cap.",
+            "A black bag and a formal suit.",
+            "A traditional Somali dress."
+          ],
+          "correct": 1,
+          "explanation": "The text describes him wearing a long white robe called a dirac and a small white cap.",
+          "id": "reader-18-ch-1-q2",
+          "chapter_id": "reader-18-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'dirac' mean in this context?",
+          "options": [
+            "A type of food.",
+            "A long white robe.",
+            "A small white cap.",
+            "A kind of car."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'He wore a long white robe called a dirac'.",
+          "id": "reader-18-ch-1-q3",
+          "chapter_id": "reader-18-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Amina react to Yusuf's comment about women driving?",
+          "options": [
+            "She felt proud.",
+            "She felt annoyed.",
+            "She felt a small flash of discomfort.",
+            "She didn't care."
+          ],
+          "correct": 2,
+          "explanation": "The text says 'Amina felt a small flash of discomfort.'",
+          "id": "reader-18-ch-1-q4",
+          "chapter_id": "reader-18-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina notice about Yusuf's manner?",
+          "options": [
+            "He was relaxed and casual.",
+            "He had careful posture and kept his hands at his sides.",
+            "He was nervous and fidgety.",
+            "He was friendly and outgoing."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Amina noticed his careful posture, the way he stood straight and kept his hands at his sides.'",
+          "id": "reader-18-ch-1-q5",
+          "chapter_id": "reader-18-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dirac",
+          "definition": "a long white robe worn by Somali men"
+        },
+        {
+          "word": "terraced house",
+          "definition": "a house that is part of a row of similar houses joined together"
+        },
+        {
+          "word": "halal",
+          "definition": "food that is prepared according to Islamic law"
+        },
+        {
+          "word": "embrace",
+          "definition": "to hug someone"
+        },
+        {
+          "word": "flash",
+          "definition": "a sudden brief feeling or expression"
+        }
+      ]
+    },
+    {
+      "id": "reader-18-ch-2",
+      "title": "Two Worlds, One Table",
+      "text": "The dining room was full of noise and warmth. Amina sat at the long table with her aunts and female cousins. The men were in the next room, where the door was open. She could see her father and her uncles, and Yusuf was with them. He sat quietly, listening to the older men talk. He nodded his head slowly and spoke only when someone asked him a question.\n\nAmina felt strange. In London, she was used to eating with everyone together. Her friends sat around one table, men and women, boys and girls. Here, the women laughed and talked loudly. They passed plates of rice and meat. They asked Amina about her job and her flat in London. She smiled and answered, but her eyes kept moving to the other room.\n\nYusuf looked at his sister through the open door. She held her fork in her right hand, and she ate quickly. She did not stop between bites. He had never seen a woman eat so fast. And her phone was on the table, next to her plate. It made a small noise, and she looked at it. She touched the screen and then put it down. Then she picked it up again.\n\nThe food was good. The rice was yellow with spices, and the meat was soft. Amina ate a large spoonful and then checked her phone again. Yusuf watched her. He could not understand. Why was she in such a hurry? Why was she always looking at that small machine? He wanted to ask her, but the men were talking about the price of land in Mogadishu. He listened and waited.\n\nLater, after the plates were empty, the women moved to the sofas in the sitting room. The men stayed with the tea and coffee. Amina sat next to her mother. Yusuf came in and sat on a chair near the window. He held a cup of tea in his hands.\n\n\"You eat very fast,\" Yusuf said to Amina. His voice was calm, but his eyes were curious.\n\nAmina laughed. \"In London, I have no time. I eat at my desk. I have meetings, calls, emails. Lunch is just a break.\"\n\nYusuf shook his head slowly. \"Here, we eat to talk. We eat to be together. The food is not the reason.\"\n\nAmina looked at her phone. She put it in her pocket. \"I know. I'm sorry. It's a habit.\"\n\nThey were quiet for a moment. Their mother sat between them. She smiled but said nothing.\n\n\"Tell me about your day,\" Amina said. \"What do you do every morning?\"\n\nYusuf put down his cup. \"I wake before the sun. I pray. I pray five times a day. On Mondays and Thursdays, I fast. I do not eat or drink from sunrise to sunset.\"\n\nAmina's eyes opened wide. \"Every Monday and Thursday? That's twice a week. All year?\"\n\n\"Yes. It is a good practice. It cleans the body and the mind.\"\n\nAmina looked down at her hands. \"I only fast during Ramadan. And sometimes I miss a day. I'm not very good at it.\"\n\nYusuf did not look angry. He looked sad. \"Our father prays. Our mother prays. We grew up with the same faith.\"\n\n\"I know,\" Amina said. \"But in London, life is different. I work late. I go to the gym. I meet friends. I don't think about it much.\"\n\nYusuf was quiet. He looked at the window. The sun was going down, and the light was orange and soft.\n\n\"I think about it all the time,\" he said. \"It is in my day, like the sun and the moon.\"\n\nTheir mother stood up. She went to the kitchen and came back with a large plate. On it was a dish of rice with lentils and fried onions. Amina's eyes lit up.\n\n\"Is that iskukaris?\" she asked.\n\n\"Yes,\" her mother said. \"You loved it when you were small. You always asked for more.\"\n\nAmina took a small spoonful. She tasted it slowly. The flavour was the same. It was the taste of her childhood. She could see herself as a little girl, sitting on the floor, eating with her hands. Yusuf was there too, a small boy with a big smile.\n\n\"This is our food,\" Yusuf said. \"It is the same for you and for me.\"\n\nAmina nodded. She felt something warm in her chest. \"Yes. It's the same.\"\n\nThey sat together in the soft light. They did not have the same habits. They did not have the same days. But they had the same mother, the same father, and the same table. And at that table, they were still family. Amina did not take out her phone again.",
+      "word_count": 783,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why does Amina eat quickly in London?",
+          "options": [
+            "She has no time and eats at her desk.",
+            "She prefers cold food.",
+            "She does not like the food there.",
+            "She is always hungry."
+          ],
+          "correct": 0,
+          "explanation": "Amina says, 'In London, I have no time. I eat at my desk. I have meetings, calls, emails. Lunch is just a break.'",
+          "id": "reader-18-ch-2-q1",
+          "chapter_id": "reader-18-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Yusuf do on Mondays and Thursdays??",
+          "options": [
+            "He works in the fields.",
+            "He fasts from sunrise to sunset.",
+            "He visits his friends.",
+            "He goes to the market."
+          ],
+          "correct": 1,
+          "explanation": "Yusuf states, 'On Mondays and Thursdays, I fast. I do not eat or drink from sunrise to sunset.'",
+          "id": "reader-18-ch-2-q2",
+          "chapter_id": "reader-18-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "How does Yusuf feel when Amina says she only fasts during Ramadan??",
+          "options": [
+            "He is angry.",
+            "He is amused.",
+            "He is sad.",
+            "He is indifferent."
+          ],
+          "correct": 2,
+          "explanation": "The text says, 'Yusuf did not look angry. He looked sad.'",
+          "id": "reader-18-ch-2-q3",
+          "chapter_id": "reader-18-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'habit' mean in this context?",
+          "options": [
+            "A type of clothing.",
+            "A regular practice or behavior.",
+            "A kind of food.",
+            "A religious ritual."
+          ],
+          "correct": 1,
+          "explanation": "Amina says, 'It's a habit,' referring to her usual behavior of checking her phone and eating quickly.",
+          "id": "reader-18-ch-2-q4",
+          "chapter_id": "reader-18-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What dish does Amina's mother bring that reminds Amina of her childhood??",
+          "options": [
+            "Rice with lentils and fried onions.",
+            "Yellow rice with meat.",
+            "Tea and coffee.",
+            "Bread and honey."
+          ],
+          "correct": 0,
+          "explanation": "The mother brings 'a dish of rice with lentils and fried onions,' and Amina recognizes it as iskukaris, which she loved as a child.",
+          "id": "reader-18-ch-2-q5",
+          "chapter_id": "reader-18-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "fast",
+          "definition": "To eat no food, or to eat very little, for a period of time, often for religious reasons."
+        },
+        {
+          "word": "habit",
+          "definition": "A usual or repeated way of behaving or doing something."
+        },
+        {
+          "word": "spices",
+          "definition": "Substances used to give flavor to food, such as cinnamon, cumin, or pepper."
+        },
+        {
+          "word": "soft",
+          "definition": "Not hard or firm; easy to cut or chew."
+        },
+        {
+          "word": "flavour",
+          "definition": "The particular taste of a food or drink."
+        }
+      ]
+    },
+    {
+      "id": "reader-18-ch-3",
+      "title": "The Misunderstanding",
+      "text": "Three days after the dinner, the house felt quiet. Amina was sitting in the kitchen with a cup of tea, looking at her phone. She had a job interview in two days, and her stomach was full of nerves. She had not told anyone about it, not even her mother. She wanted to do well on her own, to prove that her life in London had been worth it.\n\nYusuf came into the kitchen. He was wearing a simple white shirt and loose trousers. He smiled at her, but it was a careful smile. Since the dinner, they had been polite but distant. They did not know how to talk to each other without feeling strange.\n\n\"Is everything okay?\" he asked.\n\nAmina looked up. \"Yes, fine. Just busy.\"\n\n\"You look worried,\" he said. He sat down across from her.\n\nAmina hesitated. She did not want to share too much. But the silence was uncomfortable, so she said, \"I have a job interview on Friday. It's for a good position at a design company.\"\n\nYusuf's face became serious. \"That is important. I will pray for you. I will ask Allah to guide you and give you success.\"\n\nAmina felt something tighten in her chest. She put her phone down. \"What do you mean by that?\"\n\nYusuf looked surprised. \"I mean I will pray for you. It is a good thing.\"\n\n\"I know what praying is,\" Amina said, her voice getting sharper. \"I just don't understand why you think I need it. I have been handling my life alone for years. I have my own way of coping.\"\n\nYusuf's face changed. His eyes became cold, and he stood up. \"I did not mean to offend you. I was trying to be kind.\"\n\n\"It didn't feel kind,\" Amina said. \"It felt like you were telling me I'm not religious enough. Not good enough.\"\n\nYusuf said nothing. He turned and left the kitchen. Amina heard his footsteps going up the stairs. She felt a hot wave of anger, but under it, something else. Guilt.\n\nThat evening, their father found Amina in the garden. He was an old man with grey hair and kind eyes. He sat next to her on the wooden bench.\n\n\"You and Yusuf are not talking,\" he said. It was not a question.\n\nAmina looked at the ground. \"We had a disagreement.\"\n\n\"He told me,\" the father said. \"He said he offered to pray for you, and you became angry.\"\n\nAmina felt defensive again. \"He made me feel like I was doing everything wrong. Like I don't have faith.\"\n\nHer father was quiet for a moment. Then he said, \"Amina, do you remember when you were a small girl? You were sick, and your mother stayed up all night, praying. She did not tell you. She just did it. Because that is what love looks like in our family.\"\n\nAmina felt tears in her eyes. She remembered. Her mother's soft voice in the dark, the quiet words she could not understand. She had felt safe.\n\n\"Yusuf is not judging you,\" her father continued. \"He is showing you respect. In his world, praying for someone is the highest honour you can give them. It means you are important to him. He was not saying you are not religious. He was saying you are worth his prayers.\"\n\nAmina wiped her eyes. \"I didn't see it that way.\"\n\n\"Because you are from London,\" her father said gently. \"And he is from Mogadishu. You both speak the same language, but you do not always understand each other. That is not a crime. It is just a distance you have to cross.\"\n\nAmina nodded slowly. She thought about her mother, and about Yusuf, alone in his room. She took a deep breath.\n\nShe found Yusuf sitting on the roof, looking at the city lights. She climbed up and sat beside him. For a long moment, neither of them spoke.\n\n\"I'm sorry,\" Amina said finally. \"I was wrong. You weren't judging me. You were being kind, and I didn't see it.\"\n\nYusuf looked at her. His face was soft now. \"I am sorry too. I did not mean to make you feel small.\"\n\nAmina shook her head. \"It's not just you. I feel disconnected here. In London, I don't pray much. I don't think about faith. I think about work, money, my friends. When I come here, I feel like I'm not the right kind of Muslim. Not the right kind of daughter.\"\n\nYusuf was quiet. Then he said, \"Sometimes I feel the opposite. I feel I am too traditional. My friends in Mogadishu, they think I am old-fashioned. They use phones and watch movies. I do not. I feel I am living in the past.\"\n\nAmina turned to look at him. \"That must be hard.\"\n\n\"It is,\" Yusuf said. \"But I do not know how to be different. This is who I am.\"\n\nAmina reached out and touched his hand. \"Maybe we can learn from each other. I can show you my world, and you can show me yours.\"\n\nYusuf smiled. It was the first real smile she had seen from him. \"That sounds good, sister.\"\n\nThey sat together in the dark, looking at the same stars. They were different. But for the first time, that did not feel like a wall between them. It felt like a bridge.",
+      "word_count": 893,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Amina feel angry when Yusuf offered to pray for her?",
+          "options": [
+            "She thought he was implying she was not religious enough.",
+            "She thought he was mocking her job interview.",
+            "She thought he was trying to control her life.",
+            "She thought he was ignoring her mother's memory."
+          ],
+          "correct": 0,
+          "explanation": "Amina says 'It felt like you were telling me I'm not religious enough. Not good enough.' This directly shows her interpretation.",
+          "id": "reader-18-ch-3-q1",
+          "chapter_id": "reader-18-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did their father say about their mother's praying when Amina was sick?",
+          "options": [
+            "She prayed loudly so everyone could hear.",
+            "She prayed quietly without telling anyone.",
+            "She asked Yusuf to pray instead.",
+            "She prayed only in the mosque."
+          ],
+          "correct": 1,
+          "explanation": "The father says 'She did not tell you. She just did it.' and describes her 'soft voice in the dark' indicating quiet, private prayer.",
+          "id": "reader-18-ch-3-q2",
+          "chapter_id": "reader-18-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'distant' mean in the phrase 'they had been polite but distant'?",
+          "options": [
+            "Far away in location",
+            "Emotionally detached or cool",
+            "Very friendly and warm",
+            "Confused and uncertain"
+          ],
+          "correct": 1,
+          "explanation": "In context, 'distant' refers to emotional distance, not physical distance. They were polite but not close.",
+          "id": "reader-18-ch-3-q3",
+          "chapter_id": "reader-18-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Yusuf feel about his own traditional lifestyle?",
+          "options": [
+            "He felt proud and superior.",
+            "He felt it made him disconnected from modern friends.",
+            "He felt it was easy to follow.",
+            "He felt it was exactly like Amina's life."
+          ],
+          "correct": 1,
+          "explanation": "Yusuf says 'I feel I am too traditional... my friends think I am old-fashioned... I feel I am living in the past.' This shows he feels disconnected.",
+          "id": "reader-18-ch-3-q4",
+          "chapter_id": "reader-18-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amina and Yusuf agree to do at the end of the chapter?",
+          "options": [
+            "To avoid discussing religion again",
+            "To learn from each other's worlds",
+            "To move back to London together",
+            "To stop talking to their father"
+          ],
+          "correct": 1,
+          "explanation": "Amina says 'Maybe we can learn from each other. I can show you my world, and you can show me yours.' Yusuf agrees with a smile.",
+          "id": "reader-18-ch-3-q5",
+          "chapter_id": "reader-18-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "nerves",
+          "definition": "Feelings of anxiety or worry"
+        },
+        {
+          "word": "hesitated",
+          "definition": "Paused before doing something because of uncertainty"
+        },
+        {
+          "word": "defensive",
+          "definition": "Feeling the need to protect oneself from criticism"
+        },
+        {
+          "word": "disconnected",
+          "definition": "Feeling separated or not belonging"
+        },
+        {
+          "word": "bridge",
+          "definition": "A connection between two different things or people"
+        }
+      ]
+    },
+    {
+      "id": "reader-18-ch-4",
+      "title": "Common Ground",
+      "text": "The morning sun was soft and golden when Yusuf knocked on Amina's door. She opened it with a smile, her phone already in her hand. \"Ready for our adventure?\" she asked. Yusuf nodded, but he looked at the phone with a small frown. \"In Mogadishu, we look at people's faces, not screens,\" he said gently. Amina laughed and put the phone in her pocket. \"Okay, okay. Today, we do it your way. But later, I have something to show you.\"\n\nThey walked through the old neighborhood, and Amina felt strange. The streets were smaller than she remembered, but the smells were the same. Spices, fresh bread, and the sweet scent of tea came from open doors. Children played football in the street, and old men sat outside a small shop, talking and laughing.\n\nYusuf stopped suddenly. An old woman was walking slowly towards them, carrying a heavy bag. \"Wait,\" he said to Amina. He walked forward and put his hand on his chest, bowing his head slightly. \"Salaam alaykum, Auntie. May I help you with your bag?\" The woman smiled, showing missing teeth. \"You are a good boy,\" she said. \"Your mother raised you well.\" Yusuf took the bag and walked with her to her door. When he returned, Amina was watching him with wide eyes. \"That was beautiful,\" she said. \"We don't do that in London. We just walk past.\"\n\nYusuf shook his head. \"It is our way. The elderly are like treasure. We must show them respect, always.\" He taught her the proper greeting: the hand on the chest, the soft voice, the words of peace. Amina practiced it twice, feeling clumsy. \"Don't worry,\" Yusuf said. \"Your heart is in the right place. That is what matters.\"\n\nThey continued walking, and Amina stopped in front of a small restaurant. \"This is where Dad used to take us for breakfast,\" she said. \"Remember his stories? He always ordered the same thing.\" Yusuf smiled. \"Yes, the sweet bread and the spiced tea. And he always told us the story about the fisherman who caught a golden fish.\" Amina laughed. \"And the fish talked to him and gave him three wishes, but he was so surprised he forgot to wish for anything!\" They both laughed, and for a moment, the years between them disappeared.\n\nInside the restaurant, they sat by the window. Amina ordered the sweet bread and tea, just like their father used to. When the food came, she closed her eyes and took a deep breath. \"It smells like home,\" she said softly. Yusuf watched her. \"It is strange,\" he said. \"You grew up so far away, but you remember these things. You remember him.\" Amina opened her eyes. \"Of course I do. He was my father too. He told me the same stories, even though he was in London for those years.\" They sat quietly, sharing the bread and their memories.\n\nAfter lunch, Amina took out her phone. \"Now it's my turn,\" she said. Yusuf looked nervous. \"What is that for?\" Amina smiled. \"I'm going to show you how to video call our cousins in Dubai.\" Yusuf frowned. \"I have never done that.\" Amina guided him patiently. She showed him how to press the green button, how to hold the phone so his face was visible, and how to speak clearly. When their cousins appeared on the screen, Yusuf's eyes grew wide. \"They are so far away,\" he said, \"but they are right here.\" Their cousins waved and laughed, and Yusuf spoke to them in Somali, his voice warm and happy.\n\nWhen the call ended, Yusuf handed the phone back to Amina. \"This is a good thing,\" he said. \"It brings people together.\" Amina nodded. \"And the greeting you taught me, that brings people together too. We're not so different, are we?\" Yusuf shook his head. \"No, sister. We are not so different.\"\n\nThat evening, they climbed to the rooftop of their parents' house. The city spread out below them, lights beginning to appear in windows. The sky turned orange and pink, then slowly became purple. They sat side by side, not speaking. After a few minutes, Yusuf began to pray quietly, his voice low and peaceful. Amina watched him, and then, without thinking, she bowed her head too. She didn't say the words she heard him say, but she felt something warm in her chest. A sense of peace, of connection.\n\nWhen Yusuf finished, he looked at her. \"Thank you,\" he said. Amina was surprised. \"For what?\" \"For trying to understand me,\" he said. \"And for showing me your world.\" Amina smiled. \"I think we are both looking for the same thing,\" she said. \"Belonging. Love.\" Yusuf nodded. \"Yes. And we have found it in each other.\"\n\nThey made a promise then, under the darkening sky. They would call each other every week. Yusuf would visit London, and Amina would come back to Mogadishu. They would keep the door between their two worlds open.\n\nLater, as they walked down the stairs, Amina felt different. Her feet were on the same ground, but her heart was in a new place. She felt connected to this city, to her family, to her brother. And Yusuf, walking beside her, felt a new door opening in his mind. The modern world was not so strange after all. In it, he had found his sister.",
+      "word_count": 893,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Yusuf do when he saw the old woman?",
+          "options": [
+            "He ignored her.",
+            "He helped her with her bag.",
+            "He took a photo.",
+            "He ran away."
+          ],
+          "correct": 1,
+          "explanation": "Yusuf asked 'May I help you with your bag?' and then took the bag from her, as described in the text.",
+          "id": "reader-18-ch-4-q1",
+          "chapter_id": "reader-18-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'Salaam alaykum' mean in the context of the story?",
+          "options": [
+            "Goodbye",
+            "Hello/peace be upon you",
+            "Thank you",
+            "Sorry"
+          ],
+          "correct": 1,
+          "explanation": "Yusuf uses 'Salaam alaykum' as a greeting when he meets the old woman, so it is a phrase of peace and welcome.",
+          "id": "reader-18-ch-4-q2",
+          "chapter_id": "reader-18-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Amina feel strange while walking through the neighborhood?",
+          "options": [
+            "Because it was too crowded.",
+            "Because the streets were smaller than she remembered.",
+            "Because she was lost.",
+            "Because it was raining."
+          ],
+          "correct": 1,
+          "explanation": "The text states: 'Amina felt strange. The streets were smaller than she remembered.'",
+          "id": "reader-18-ch-4-q3",
+          "chapter_id": "reader-18-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Yusuf teach Amina to do?",
+          "options": [
+            "How to cook sweet bread.",
+            "How to greet elders with respect.",
+            "How to use a phone.",
+            "How to pray."
+          ],
+          "correct": 1,
+          "explanation": "Yusuf taught her the proper greeting: placing a hand on the chest, speaking softly, and saying words of peace, as mentioned in the text.",
+          "id": "reader-18-ch-4-q4",
+          "chapter_id": "reader-18-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'clumsy' mean in the sentence 'Amina practiced it twice, feeling clumsy'?",
+          "options": [
+            "Graceful",
+            "Awkward or uncoordinated",
+            "Happy",
+            "Angry"
+          ],
+          "correct": 1,
+          "explanation": "Feeling clumsy means feeling awkward or uncoordinated, which matches the context of Amina practicing the new greeting.",
+          "id": "reader-18-ch-4-q5",
+          "chapter_id": "reader-18-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "greeting",
+          "definition": "A polite word or sign of welcome or recognition."
+        },
+        {
+          "word": "elderly",
+          "definition": "Old or aging; referring to older people."
+        },
+        {
+          "word": "treasure",
+          "definition": "Something very valuable and precious."
+        },
+        {
+          "word": "clumsy",
+          "definition": "Awkward in movement or handling things."
+        },
+        {
+          "word": "connection",
+          "definition": "A relationship or link between people or things."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": "Think about a time when you felt different from your family or friends because of your culture, faith, or way of life. How did you handle that feeling? Write a short paragraph (60-140 words) describing what you learned from that experience. You can also write about a time when you found common ground with someone who seemed very different from you."
+}

@@ -1,0 +1,414 @@
+{
+  "id": "reader-20",
+  "title": "Voices from the Past",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "history",
+    "faith & culture"
+  ],
+  "genre": "Non-fiction narrative",
+  "description": "A young woman discovers her grandmother's letters and photographs, unlocking a personal history that reveals the everyday lives and faith of her family during a time of change.",
+  "word_count": 3699,
+  "reading_time_minutes": 21,
+  "chapters": [
+    {
+      "id": "reader-20-ch-1",
+      "title": "The Box in the Attic",
+      "text": "The afternoon sun slanted through the dusty window of the attic, making tiny dust motes dance in the air. Hodan wiped her forehead with the back of her hand. She was helping her grandmother, Amina, look for some old curtains, but the attic was a maze of forgotten things. There were old chairs with broken legs, piles of magazines, and suitcases that had not been opened for years.\n\nHodan moved a stack of old books and stopped. In the corner, half-hidden under a faded blanket, was a wooden box. It was not very big, but it looked strong and old. The wood was dark and shiny in places, as if many hands had touched it. A simple metal lock held it closed, but the lock was not clicked shut.\n\nCurious, Hodan lifted the box. It was heavier than she expected. She carried it over to the light coming from the small window and sat on an old chair. She opened the lid slowly. The smell of old paper and something sweet, like dried flowers, came out. Inside, neatly tied with a piece of red ribbon, were piles of letters. Under the letters were photographs, some black and white and some with faded colours. At the very bottom, wrapped in a piece of soft cloth, was a small book with a worn leather cover.\n\nHodan picked up the book. It was a diary. The pages were yellow and thin. She opened it carefully. The handwriting was small and neat, but the ink was a little faded. She could not read much, but she saw a name and a date. The name was Amina. The date was from more than fifty years ago.\n\nHodan's heart beat a little faster. She looked at the photographs. There was a young woman with long dark hair, standing in front of a small house. She was smiling, but her eyes looked serious. In another picture, the same woman was with a group of friends, all of them laughing. They wore clothes that looked strange and old-fashioned to Hodan. She saw a picture of a man in a uniform, and another of a busy street market.\n\nShe carefully put everything back into the box and carried it down the narrow stairs. She found her grandmother in the kitchen, sitting at the table with a cup of tea. The old woman looked up and smiled. Her face was full of lines, but her eyes were bright and clear.\n\n\"Grandma,\" Hodan said, placing the box on the table. \"I found this in the attic. Is it yours?\"\n\nAmina's smile disappeared. She looked at the box for a long time. Then she put her hand on the wood, gently, as if she were touching an old friend. \"My box,\" she said softly. \"I thought I had lost it.\"\n\nShe opened the lid and looked inside. Her fingers touched the letters and then the photographs. She picked up the picture of the young woman in front of the small house.\n\n\"This is me,\" she said. \"When I was your age.\"\n\nHodan sat down opposite her. \"Really? You look so different. And this house, where is it?\"\n\nAmina sighed. \"That was my home. In the village. It is gone now, I think. But I remember every corner of it.\" She looked at another picture, the one of the man in the uniform. Her eyes became distant.\n\n\"Who is he, Grandma?\" Hodan asked quietly.\n\nAmina was silent for a moment. \"His name was Yusuf,\" she said. \"He was a friend. A very good friend.\" She put the picture down and looked at Hodan. Her voice was soft, like she was telling a secret. \"These letters, these pictures... they are not just old things. They are my life. They are the voices of people I loved, people who are gone now.\"\n\nHodan felt a strange feeling. She had always seen her grandmother as just an old woman who liked to cook and tell stories about the past. But now, she saw a young woman in the pictures, with dreams and friends and a life Hodan knew nothing about.\n\n\"Can you tell me about them?\" Hodan asked. \"About Yusuf, and the village, and all these people?\"\n\nAmina looked at the box for a long time. Then she smiled, a real smile this time. \"It is a long story,\" she said. \"And some parts are happy, and some parts are sad. Are you sure you want to hear it?\"\n\nHodan nodded. \"Yes, Grandma. I want to understand.\"\n\nAmina took the diary from the box and held it in her hands. \"Then we will start at the beginning,\" she said. \"But first, let me make some fresh tea. And you can look at the pictures while I talk. It is easier to remember when I can see the faces.\"\n\nShe stood up and went to the stove. Hodan watched her for a moment, then looked back at the photographs. She felt like she was holding a piece of history in her hands. A history that was not in any book, but was written in the letters and faces of her own family. The voices from the past were waiting to be heard.",
+      "word_count": 865,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was Hodan doing in the attic at the beginning of the story?",
+          "options": [
+            "Looking for old curtains",
+            "Searching for a diary",
+            "Cleaning the attic",
+            "Playing hide-and-seek"
+          ],
+          "correct": 0,
+          "explanation": "The text says: 'Hodan was helping her grandmother, Amina, look for some old curtains.'",
+          "id": "reader-20-ch-1-q1",
+          "chapter_id": "reader-20-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Hodan find inside the wooden box?",
+          "options": [
+            "Old clothes and shoes",
+            "Photographs and a diary",
+            "Jewelry and coins",
+            "Only letters"
+          ],
+          "correct": 1,
+          "explanation": "The box contained piles of letters, photographs, and at the very bottom a small book with a worn leather cover, which is revealed to be a diary.",
+          "id": "reader-20-ch-1-q2",
+          "chapter_id": "reader-20-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'The afternoon sun slanted through the dusty window,' what does 'slanted' mean?",
+          "options": [
+            "Shone directly and brightly",
+            "Came at an angle",
+            "Disappeared quickly",
+            "Warmed the room"
+          ],
+          "correct": 1,
+          "explanation": "'Slanted' means tilted or angled, so the sunlight came through the window at an angle rather than straight down.",
+          "id": "reader-20-ch-1-q3",
+          "chapter_id": "reader-20-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Who was Yusuf, according to Amina?",
+          "options": [
+            "Her brother",
+            "Her husband",
+            "A very good friend",
+            "A stranger she met once"
+          ],
+          "correct": 2,
+          "explanation": "Amina says, 'He was a friend. A very good friend.'",
+          "id": "reader-20-ch-1-q4",
+          "chapter_id": "reader-20-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What are 'dust motes' as mentioned in the first paragraph?",
+          "options": [
+            "Tiny specks of dust floating in the air",
+            "Small insects that live in dust",
+            "Rays of light that shine through windows",
+            "Pieces of fabric that gather dust"
+          ],
+          "correct": 0,
+          "explanation": "'Dust motes' are tiny particles of dust that can be seen floating in a beam of light.",
+          "id": "reader-20-ch-1-q5",
+          "chapter_id": "reader-20-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "slanted",
+          "definition": "Tilted or angled; not straight up and down."
+        },
+        {
+          "word": "motes",
+          "definition": "Tiny particles, such as dust, floating in the air."
+        },
+        {
+          "word": "maze",
+          "definition": "A confusing network of paths or passages; here it means a confusing arrangement of objects."
+        },
+        {
+          "word": "faded",
+          "definition": "Having lost color or brightness over time."
+        }
+      ]
+    },
+    {
+      "id": "reader-20-ch-2",
+      "title": "A Village Childhood",
+      "text": "The afternoon sun cast long shadows across the veranda. Hodan sat close to her grandmother, holding a small, faded photograph. The colours had turned brown with age, but the faces were still clear. She saw a group of children standing in front of a simple hut made of mud and sticks. In the middle was a young girl with bright eyes and a shy smile. Hodan knew it was her grandmother.\n\n\"That was me,\" Amina said softly, her voice like the rustle of dry leaves. \"I was about eight years old. That is the village where I grew up, a place called Qoraxley. It means 'place of the sun'.\"\n\nHodan looked at the picture again. \"Tell me about it, Ayeeyo. Tell me what it was like.\"\n\nAmina smiled and leaned back in her chair. Her eyes seemed to look past the wall, into a world far away. \"Life was simple then,\" she began. \"We woke up before the sun. The first sound was the rooster, and then the call to prayer from the small mosque. My mother would be at the fire, making tea and cooking *anjero* - soft, flat pancakes. The smell of the smoke and the tea filled the whole hut.\"\n\nHodan tried to imagine it. \"Did you have a big house?\"\n\n\"No, my dear. We had one room for the whole family. We slept on mats on the floor, close together for warmth. At night, we would lie under the stars and listen to my father tell stories about brave warriors and clever animals. But during the day, there was always work.\"\n\nAmina described her daily routine. The children did not go to a school with desks and books. Instead, they went to the *duksi*, the Quranic school. It was a small hut where an old teacher, a *macallin*, taught them to read the holy book. \"We sat on the sandy floor,\" she said. \"We used wooden boards called *loox*. We wrote the Arabic letters on them with a special ink made from charcoal and gum. I remember the feeling of the smooth wood and the smell of the ink.\"\n\nHodan was fascinated. \"Did you learn other things too?\"\n\n\"Oh yes,\" Amina laughed. \"We learned to work. The girls helped their mothers. We fetched water from the well, which was a long walk away. We carried the heavy jerrycans on our heads, balancing them carefully. We collected firewood and looked after the goats. The boys looked after the camels and the sheep. Everyone had a job. No one was idle.\"\n\nThe photo in Hodan's hand showed the children standing in a line. \"Who are the other children?\" she asked.\n\n\"Those are my cousins and my neighbours,\" Amina said. \"In the village, we were all like one big family. If one mother was sick, another mother would cook for her children. If someone's goat was lost, everyone would help search. We shared our happiness and our sadness.\"\n\nAmina then spoke about the religious holidays. \"Eid was the most wonderful time. Before Eid, we would clean our clothes and our home. The women would make sweet treats, like *sambusa* and *baasto*. On the morning of Eid, we would all go to the open field for the special prayer. We wore our best clothes, even if they were old and mended. After the prayer, we would visit our neighbours. We would hug each other and say, 'Eid Mubarak'. The children would get small gifts - maybe a coin or a piece of candy. Oh, the joy! We would play games in the sun until the evening.\"\n\nHodan noticed her grandmother's face changed when she spoke of hard times. \"Was it always happy?\" she asked gently.\n\nAmina shook her head. \"No. There were difficult years. Sometimes the rains did not come. The land became dry and brown. The animals grew thin, and there was not enough food. I remember one year, the drought was very bad. We had to eat the same simple porridge every day. There was no milk for the tea. But we never felt alone. The community came together. Those who had a little more shared with those who had nothing. My mother always said, 'Allah provides, but we must provide for each other.'\"\n\nShe paused and looked at Hodan. \"It was during those hard times that I learned the most. I learned about patience. I learned to be thankful for a small piece of bread. I learned that faith is not just about praying; it is about helping your neighbour. That is what the Quran teaches us, and that is what my family lived by.\"\n\nHodan looked at the photo again. The girl in the picture looked poor. Her clothes were simple, and her feet were bare. But her eyes were full of life. \"You look happy,\" Hodan said.\n\n\"I was,\" Amina said. \"I had my family. I had my friends. I had my faith. I did not have toys or fancy things, but I had the blue sky above me and the warm sun on my skin. I had the stories of my elders and the laughter of the other children. That was a rich childhood.\"\n\nHodan felt a warmth in her heart. She had always thought of her grandmother as an old woman who liked to sit and pray. But now, she saw her as a young girl, running through a village, carrying water, and laughing with her cousins.\n\n\"Thank you, Ayeeyo,\" Hodan whispered. \"I feel like I was there with you.\"\n\nAmina reached out and touched Hodan's hand. \"You are always with me, my child. Our past is not just a memory. It is a part of who we are. The people in this photo, the lessons we learned, the faith we held - it is all inside you too. Now, let me tell you about the time we tried to catch a wild chicken for the Eid feast...\"\n\nHodan smiled and leaned closer, ready to hear another story from the past. The afternoon sun continued to shine, and the voices of the village seemed to whisper through the air, connecting the generations.",
+      "word_count": 1019,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the name of the village where Amina grew up?",
+          "options": [
+            "Qoraxley",
+            "Ayeeyo",
+            "Macallin",
+            "Duxi"
+          ],
+          "correct": 0,
+          "explanation": "The text states: 'a place called Qoraxley. It means \"place of the sun\".'",
+          "id": "reader-20-ch-2-q1",
+          "chapter_id": "reader-20-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'duksi' refer to in the chapter?",
+          "options": [
+            "A type of pancake",
+            "The Quranic school",
+            "A wooden board",
+            "A water container"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'Instead, they went to the *duksi*, the Quranic school.'",
+          "id": "reader-20-ch-2-q2",
+          "chapter_id": "reader-20-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the children learn to do during the day?",
+          "options": [
+            "They learned to work and help with chores",
+            "They learned to read and write in a big school",
+            "They learned to play games all day",
+            "They learned to cook and clean the mosque"
+          ],
+          "correct": 0,
+          "explanation": "Amina said: 'We learned to work. The girls helped their mothers. We fetched water... The boys looked after the camels and the sheep. Everyone had a job.'",
+          "id": "reader-20-ch-2-q3",
+          "chapter_id": "reader-20-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'macallin' mean in the chapter?",
+          "options": [
+            "A student",
+            "A teacher",
+            "A neighbor",
+            "A parent"
+          ],
+          "correct": 1,
+          "explanation": "The text mentions: 'an old teacher, a *macallin*, taught them to read the holy book.'",
+          "id": "reader-20-ch-2-q4",
+          "chapter_id": "reader-20-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What lesson did Amina say she learned during the hard times?",
+          "options": [
+            "To be patient and thankful, and to help neighbors",
+            "To always have enough food",
+            "To move to a different village",
+            "To rely only on oneself"
+          ],
+          "correct": 0,
+          "explanation": "Amina said: 'I learned about patience. I learned to be thankful... I learned that faith is not just about praying; it is about helping your neighbour.'",
+          "id": "reader-20-ch-2-q5",
+          "chapter_id": "reader-20-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "veranda",
+          "definition": "A porch or covered platform along the outside of a building."
+        },
+        {
+          "word": "anjero",
+          "definition": "A type of soft, flat pancake mentioned as being cooked for breakfast."
+        },
+        {
+          "word": "duksi",
+          "definition": "A Quranic school where children learned to read the holy book."
+        },
+        {
+          "word": "macallin",
+          "definition": "A teacher, specifically the old teacher at the Quranic school."
+        },
+        {
+          "word": "drought",
+          "definition": "A long period of dry weather when there is not enough rain."
+        }
+      ]
+    },
+    {
+      "id": "reader-20-ch-3",
+      "title": "Letters from the City",
+      "text": "The bus moved slowly through the dusty streets, leaving the green fields of my village far behind. I sat by the window, my small bag on my lap, watching my home disappear. My mother stood at the bus stop, her hand raised in goodbye. I waved until I could not see her anymore. Then I turned my face to the front, toward the city, toward my new life.\n\nI was eighteen years old. In my village, that was the age when young people had to make choices. Some married. Some stayed to help their families with the land. But I had a different dream. I wanted to study. I wanted to become a nurse. And for that, I needed to go to the city.\n\nThe city was loud. That was the first thing I noticed. Cars moved everywhere, their horns crying out. People walked fast, talking on small phones, carrying bags, always in a hurry. The buildings were tall, so tall that they seemed to touch the sky. I felt very small among them.\n\nI lived with my aunt, my mother's sister. She was kind, but her home was small and crowded. I slept on a mat in the corner of the living room. Every morning, I woke before the sun to study. Every evening, I returned from my classes, tired and hungry, to help my aunt cook and clean.\n\nThe work was hard. The city was expensive. My mother sent me what she could, but it was never enough. Some days, I ate only one meal. Some nights, I cried into my thin pillow, missing the smell of my village, the sound of the goats, my mother's voice calling me home.\n\nBut I did not give up. I thought of my mother's face at the bus stop. I thought of my father, who had died when I was young, and who had always told me that education was the key to a better life. I thought of my sisters and brothers, who looked up to me. I could not fail them.\n\nSo I wrote letters home. Every week, I sat down with a pen and paper and told my family about my life. I did not tell them about the hunger or the loneliness. I told them about my classes, about the things I was learning, about the small victories. I told them about the hospital where I visited, watching the nurses work, dreaming of the day I would join them.\n\n\"Dear Mama,\" I wrote, \"today I learned how to take a patient's blood pressure. The nurse showed me how to use the machine. It was not so difficult. I am getting better every day. Please do not worry about me. I am eating well and I am healthy. Tell everyone I send my love.\"\n\nMy mother could not read. My younger brother, Ahmed, read my letters to her. And when he wrote back, he wrote her words. \"My daughter,\" she said, \"I am proud of you. I pray for you every night. Remember who you are. Remember where you come from. Do not forget your family.\"\n\nI never forgot. In the city, I met people from many places. They had different languages, different foods, different customs. I learned from them, and I shared my own culture with them. I cooked sorghum porridge for my friends. I taught them a few words of my language. I told them stories that my grandmother had told me, stories about our ancestors, about the land, about our history.\n\nThe city changed me. I learned new things. I saw new ways of living. But inside, I remained the girl from the village. I carried my family with me, in my heart, in my memories, in the letters I wrote and received.\n\nYears passed. I finished my studies. I became a nurse. I found a good job at the hospital. I moved into a small room of my own, with a real bed and a window that looked out at the city. And on the wall, I hung a photo of my family, the same photo that now sits in this box.\n\nHodan looked up from the letters she was holding. Her eyes were wet. \"Grandmother,\" she said softly, \"you were so brave. All alone in the city, so young, so far from home.\"\n\nAmina smiled. \"I was not alone, my dear. I had my family, even though they were far away. I had their love, their prayers, their letters. And I had my dreams. Those were enough to keep me going.\"\n\nShe reached out and touched her granddaughter's hand. \"The city gave me many things, Hodan. A career. A new life. But it never took away my home. Because home is not a place. It is the people who love you, and the memories you carry with you, wherever you go.\"\n\nHodan looked down at the letters in her lap. She thought of her own life, her own dreams, her own plans to leave her small town for the big university in the capital. She felt a new courage growing inside her. She understood now that the path ahead might be difficult, but she would not walk it alone. Her grandmother's story, her family's story, would walk with her.",
+      "word_count": 876,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did the narrator leave her village?",
+          "options": [
+            "to get married",
+            "to help her family with the land",
+            "to study to become a nurse",
+            "to find a better job"
+          ],
+          "correct": 2,
+          "explanation": "The narrator states she wanted to study and become a nurse, so she left for the city.",
+          "id": "reader-20-ch-3-q1",
+          "chapter_id": "reader-20-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the first thing the narrator noticed about the city?",
+          "options": [
+            "The tall buildings",
+            "The fast people",
+            "The noise",
+            "The expensive shops"
+          ],
+          "correct": 2,
+          "explanation": "The text says, 'The city was loud. That was the first thing I noticed.'",
+          "id": "reader-20-ch-3-q2",
+          "chapter_id": "reader-20-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'her home was small and crowded,' what does 'crowded' mean?",
+          "options": [
+            "full of people",
+            "very quiet",
+            "very clean",
+            "very expensive"
+          ],
+          "correct": 0,
+          "explanation": "Crowded means full of people, as the aunt's home was small and had many people.",
+          "id": "reader-20-ch-3-q3",
+          "chapter_id": "reader-20-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'They had different languages, different foods, different customs,' what does 'customs' mean?",
+          "options": [
+            "traditions",
+            "laws",
+            "clothes",
+            "buildings"
+          ],
+          "correct": 0,
+          "explanation": "Customs are traditions or habits, as mentioned in the context of different cultures.",
+          "id": "reader-20-ch-3-q4",
+          "chapter_id": "reader-20-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the narrator say about home at the end of the story?",
+          "options": [
+            "Home is a place",
+            "Home is the people who love you",
+            "Home is the village",
+            "Home is the city"
+          ],
+          "correct": 1,
+          "explanation": "She says, 'Home is not a place. It is the people who love you, and the memories you carry with you.'",
+          "id": "reader-20-ch-3-q5",
+          "chapter_id": "reader-20-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dusty",
+          "definition": "covered with dust"
+        },
+        {
+          "word": "crowded",
+          "definition": "full of people or things"
+        },
+        {
+          "word": "customs",
+          "definition": "traditional practices or habits"
+        },
+        {
+          "word": "ancestors",
+          "definition": "people from whom one is descended"
+        },
+        {
+          "word": "sorghum",
+          "definition": "a type of grain"
+        }
+      ]
+    },
+    {
+      "id": "reader-20-ch-4",
+      "title": "A Story Comes Together",
+      "text": "The afternoon sun cast long shadows across the kitchen table. Hodan had spread everything out before her: the letters, the photographs, and her small notebook filled with notes. For three days, she had listened to her grandmother's stories. Now, it was time to put the pieces together.\n\nShe picked up a photograph from 1972. In it, her grandmother stood in front of a small shop in Mogadishu, wearing a bright yellow dress. Next to it lay a letter written just one year later. In that letter, Amina wrote about her new job at the hospital. Hodan looked from one item to the other and smiled. The photo showed a young woman full of hope. The letter explained the hard work behind that hope. Together, they told a fuller story.\n\nHodan began to organize everything by date. She used her grandmother's diary as a guide. The earliest entries were about village life, about fetching water and helping with the goats. Then came the letters from the city, written in careful handwriting. They spoke of new friends, of learning English, of missing her mother's cooking. Finally, there were the later photographs, showing Amina with her own children, then with her grandchildren.\n\nIt was like building a bridge, Hodan thought. Each letter was a plank. Each photo was a post. Her grandmother's spoken memories were the ropes that held it all together. Without any one piece, the bridge would be incomplete.\n\n\"You look very serious,\" her grandmother said, entering the room with two cups of tea. She sat down slowly, her eyes moving over the collection on the table.\n\n\"I'm trying to understand,\" Hodan said. \"Not just the facts, but how you felt. What you hoped for.\"\n\nAmina nodded. \"That is the right way to look at it. History books tell us what happened. But letters and photos show us what people felt while it was happening.\"\n\nHodan picked up a letter from 1975. In it, her grandmother described a difficult time when she had lost her job at the hospital. She wrote about feeling scared and unsure. But in the next paragraph, she wrote about a friend who helped her find a new position. She ended the letter with a simple sentence: \"Every door that closes opens another one, if you have patience.\"\n\n\"I never knew you lost your job,\" Hodan said softly.\n\n\"It was not a happy memory,\" her grandmother replied. \"But it was an important one. I wrote that letter to your great-aunt because I needed to say the words out loud. Writing made my fear smaller.\"\n\nHodan thought about this. Her grandmother's story was not a straight line from village to city, from poor to comfortable. It was a path with turns and bumps. The letters showed the bumps. The photos showed the beautiful views along the way. Both were necessary for the true picture.\n\nShe looked at her notebook. She had written down questions during their conversations. Now, many of them had answers. But new questions had appeared. She realized that this was how history worked. Every answer led to another question. The process never really ended.\n\n\"I want to write something,\" Hodan said suddenly. \"Not a school paper. Something for myself. For you.\"\n\nHer grandmother raised an eyebrow. \"What kind of something?\"\n\n\"A letter. To you. About what I've learned these past days.\" Hodan hesitated. \"Is that strange?\"\n\nAmina reached across the table and touched her granddaughter's hand. \"It is the most wonderful thing you could do. I have written many letters in my life, but I have never received one from someone who truly wanted to know my story.\"\n\nThat evening, Hodan sat at her desk. The family photos hung on the wall above her. She took out a piece of paper and a pen. She wrote the date at the top. Then she began.\n\n\"Dear Grandma,\" she wrote. \"I thought I knew you. I knew you as the woman who makes the best sambusas, who tells funny stories at family gatherings, who always has a warm hug ready. But these past days, I have met a different you. I have met the young woman who left her village with hope in her heart. I have met the worker who faced difficulties with courage. I have met the writer who found comfort in words.\"\n\nShe paused and looked out the window. The sky was turning orange and pink. She continued writing.\n\n\"Your letters taught me that history is not just dates and events. It is the sound of a mother's voice. It is the smell of rain on dry earth. It is the fear of an empty pocket and the joy of a full plate. It is the love that keeps a family connected across distance and time.\"\n\nHodan wrote for an hour. She filled three pages. She wrote about the village and the city, about joy and sorrow, about the past and the future. She wrote about her own life and how her grandmother's story gave her strength.\n\nWhen she finished, she read the letter aloud. Her voice was quiet in the empty room. The words felt right. They were simple and true.\n\nShe folded the letter carefully and placed it in an envelope. In the morning, she would give it to her grandmother. But for now, she sat in the quiet room, surrounded by photographs and letters. She understood something important. Ordinary people's records were not just pieces of paper and images. They were voices from the past. And those voices, if you listened closely enough, could speak directly to your heart.\n\nHodan smiled. The story had come together. And it was beautiful.",
+      "word_count": 939,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Hodan use to piece together her grandmother's story?",
+          "options": [
+            "A diary and letters",
+            "Photographs and letters",
+            "A diary and photographs",
+            "Letters, photographs, and a diary"
+          ],
+          "correct": 3,
+          "explanation": "Hodan used letters, photographs, and her grandmother's diary as a guide to understand the story.",
+          "id": "reader-20-ch-4-q1",
+          "chapter_id": "reader-20-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened to the grandmother in 1975?",
+          "options": [
+            "She moved to the city",
+            "She lost her job at the hospital",
+            "She got married",
+            "She wrote her first letter"
+          ],
+          "correct": 1,
+          "explanation": "In a letter from 1975, the grandmother described losing her job at the hospital.",
+          "id": "reader-20-ch-4-q2",
+          "chapter_id": "reader-20-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Hodan decide to write at the end of the story?",
+          "options": [
+            "A school paper",
+            "A letter to her grandmother",
+            "A diary entry",
+            "A book about her family"
+          ],
+          "correct": 1,
+          "explanation": "Hodan wrote a letter to her grandmother, expressing what she had learned.",
+          "id": "reader-20-ch-4-q3",
+          "chapter_id": "reader-20-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does the phrase 'history is not just dates and events' mean in the context of the story?",
+          "options": [
+            "History is only about important people",
+            "History includes personal feelings and experiences",
+            "History is boring",
+            "History is about wars and politics"
+          ],
+          "correct": 1,
+          "explanation": "The grandmother explains that letters and photos show how people felt, not just what happened.",
+          "id": "reader-20-ch-4-q4",
+          "chapter_id": "reader-20-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Hodan smile at the end?",
+          "options": [
+            "She finished her homework",
+            "She felt connected to her grandmother's story",
+            "She received a letter",
+            "She found a lost photograph"
+          ],
+          "correct": 1,
+          "explanation": "Hodan smiled because she understood her grandmother's story and felt a deep connection.",
+          "id": "reader-20-ch-4-q5",
+          "chapter_id": "reader-20-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "plank",
+          "definition": "A long, flat piece of wood used in building."
+        },
+        {
+          "word": "post",
+          "definition": "A vertical support, such as a pole or pillar."
+        },
+        {
+          "word": "courage",
+          "definition": "The ability to do something difficult or dangerous without fear."
+        },
+        {
+          "word": "patience",
+          "definition": "The ability to wait calmly without getting angry or upset."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a family member or someone you know well. What is one object, letter, or photograph that reminds you of them? Write a short paragraph describing that object and what it tells you about their life or experiences.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

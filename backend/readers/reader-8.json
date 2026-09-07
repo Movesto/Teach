@@ -1,0 +1,276 @@
+{
+  "id": "reader-8",
+  "title": "Grandmother's Recipe",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "faith & culture",
+    "everyday life"
+  ],
+  "genre": "Short fiction",
+  "description": "A young woman learns to make her grandmother's traditional dish over the phone, discovering that love and family come together across miles.",
+  "word_count": 1387,
+  "reading_time_minutes": 8,
+  "chapters": [
+    {
+      "id": "reader-8-ch-1",
+      "title": "The Long-Distance Call",
+      "text": "Amal sat in her small kitchen and looked at her phone. The city outside was noisy, but inside her apartment everything was quiet. She felt a little sad. She missed her family, and she missed her mother's cooking. Her mother died two years ago, but Amal still remembered the smell of her famous dish. It was a special chicken stew with warm spices. Amal smiled. Tonight, she wanted to cook that dish. But she did not know how.\n\nShe took her phone and called her grandmother. The phone rang two times. Then a warm voice answered.\n\n\"Amal, my dear! How are you?\"\n\n\"I am fine, Grandmother. But I need your help,\" Amal said. \"I want to cook Mama's chicken stew. Can you teach me?\"\n\nHer grandmother laughed. \"Oh, my child. I am so happy you ask. Your mother learned this recipe from me, and now you will learn it too. Are you ready?\"\n\n\"Yes, I am ready,\" Amal said. She opened her notebook and took a pen.\n\n\"First,\" her grandmother said, \"you need a big pot. Put it on the stove and turn the fire to medium heat. Then add some oil. Wait for the oil to get warm.\"\n\nAmal looked at her own pot. It was not as big as her mother's old pot, but it was good. She put it on the stove and added the oil. The kitchen began to feel alive.\n\n\"Next,\" her grandmother continued, \"cut two onions into small pieces. Put them in the oil and cook them slowly. Stir them with a wooden spoon until they are soft and golden.\"\n\nAmal picked up a knife. She cut the onions slowly. Some tears came to her eyes, but she smiled. She remembered her childhood kitchen. Her mother stood at the stove, and Amal sat on a small chair. The kitchen was warm and full of light. Her mother always sang while she cooked. Amal could almost hear her voice now.\n\n\"Then,\" her grandmother said, \"add the garlic and the spices. Do you have the yellow spice and the red one?\"\n\n\"Yes, I have them,\" Amal said.\n\n\"Good. Add one spoon of each. Then add the chicken pieces. Cook them for five minutes. Turn them so they get brown on all sides.\"\n\nAmal did everything her grandmother said. The smell filled her small kitchen. It was the same smell from her childhood. Her heart felt full.\n\n\"Now, next is the most important part,\" her grandmother said softly. \"Add the tomatoes and water. Then let it cook slowly, like love. Good food takes time, Amal. Remember that.\"\n\nAmal wrote the words in her notebook. \"I will, Grandmother. I will remember.\"\n\n\"Good,\" her grandmother said. \"Call me again in one hour. We will finish it together.\"\n\nAmal put down her phone and looked at the pot. The stew bubbled gently. For the first time in a long time, her kitchen felt like home.",
+      "word_count": 485,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why does Amal feel sad at the beginning?",
+          "options": [
+            "She is tired.",
+            "She misses her family and mother's cooking.",
+            "She doesn't like her kitchen.",
+            "She is angry with her grandmother."
+          ],
+          "correct": 1,
+          "explanation": "The text says Amal missed her family and her mother's cooking, which made her feel sad.",
+          "id": "reader-8-ch-1-q1",
+          "chapter_id": "reader-8-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Amal's grandmother say is the most important part of the recipe?",
+          "options": [
+            "Adding the spices.",
+            "Cooking the chicken until brown.",
+            "Adding tomatoes and water and letting it cook slowly.",
+            "Cutting the onions."
+          ],
+          "correct": 2,
+          "explanation": "Grandmother says 'the most important part' is adding tomatoes and water and letting it cook slowly.",
+          "id": "reader-8-ch-1-q2",
+          "chapter_id": "reader-8-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "The word 'bubbled' in the last paragraph most likely means:",
+          "options": [
+            "Made small bubbles and moved gently.",
+            "Boiled very hard.",
+            "Made a loud noise.",
+            "Became cold."
+          ],
+          "correct": 0,
+          "explanation": "'Bubbled gently' suggests a soft, gentle movement of bubbles, so option a is correct.",
+          "id": "reader-8-ch-1-q3",
+          "chapter_id": "reader-8-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Amal use to stir the onions?",
+          "options": [
+            "A metal spoon.",
+            "A wooden spoon.",
+            "A fork.",
+            "A knife."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Stir them with a wooden spoon'.",
+          "id": "reader-8-ch-1-q4",
+          "chapter_id": "reader-8-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stew",
+          "definition": "a dish of meat and vegetables cooked slowly in liquid."
+        },
+        {
+          "word": "recipe",
+          "definition": "a set of instructions for preparing a particular dish."
+        },
+        {
+          "word": "spices",
+          "definition": "dried parts of plants used to add flavor to food."
+        },
+        {
+          "word": "medium heat",
+          "definition": "a level of heat that is moderate, not too high or too low."
+        },
+        {
+          "word": "wooden spoon",
+          "definition": "a spoon made of wood, used for cooking and stirring."
+        }
+      ]
+    },
+    {
+      "id": "reader-8-ch-2",
+      "title": "First Steps and Spices",
+      "text": "Amal put her phone on the table and turned on the speaker. Her grandmother's voice came through, clear and warm. \"First, we need the flour.\" Amal opened her kitchen cupboard. She found a big bag of flour. \"Good,\" her grandmother said. \"Now, put two cups of flour in a big bowl.\"\n\nAmal took out her blue mixing bowl. She remembered it from her childhood. Her mother used the same bowl. Amal smiled and poured two cups of flour. Then her grandmother said, \"Next, add a little salt and some sugar. Not too much. Just a small spoon of each.\"\n\nAmal found the salt and the sugar. She added them to the flour. Her grandmother's voice was calm. \"Now, we need water. Warm water, not hot. Add one cup slowly. Mix with your hand.\"\n\nAmal felt nervous. She had never made dough before. She added the warm water slowly. Then she mixed with her hand. The flour became sticky. \"It's too wet!\" Amal said. Her grandmother laughed softly. \"That is normal, my dear. Add a little more flour. Then mix again.\"\n\nAmal did that. The dough became smooth. She felt happy. \"What now?\" she asked. \"Now, we rest the dough,\" her grandmother said. \"Cover it with a clean cloth. Wait for thirty minutes. Then we make the pancakes.\"\n\nAmal covered the bowl with a white cloth. She waited. She looked at her phone. Thirty minutes felt long. But she was patient. She thought about her mother's kitchen. The smells, the sounds. Her grandmother's voice brought her back.\n\nAfter thirty minutes, her grandmother called again. \"Is it ready?\" Amal asked. \"Yes, my dear. Now, take a small piece of dough. Roll it flat. Then put it on a hot pan.\"\n\nAmal did that. She rolled the dough with a rolling pin. It was thin and round. She put it on the hot pan. The pan was too hot. The pancake burned quickly. Smoke came up. Amal shouted, \"Oh no!\" She took it off quickly. It was black on one side. She felt bad.\n\nHer grandmother laughed gently. \"Do not worry, Amal. The first one is always a mistake. Try again. Lower the heat. Then wait. Turn it when it is golden, not brown.\"\n\nAmal took a deep breath. She tried again. She lowered the the heat. She rolled another piece of dough. She put it on the pan. She watched carefully. After a minute, she saw golden spots. She turned it. The other side cooked slowly. It was perfect. She made more pancakes. Each one was better than the last. She felt proud. She put them on a plate. They were golden, soft, and warm.\n\nHer grandmother said, \"You did well, Amal. Your mother would be proud.\" Amal's eyes were wet. She smiled. \"Thank you, Grandmother. I will call you tomorrow for the next step.\" Her grandmother's voice was full of love. \"I will wait, my dear. Good night.\" Amal looked at the pancakes. She ate one. It tasted like home.",
+      "word_count": 499,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Amal hear her grandmother's instructions?",
+          "options": [
+            "Through a phone speaker",
+            "On the radio",
+            "From a computer",
+            "On the television"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'Amal put her phone on the table and turned on the speaker. Her grandmother's voice came through.'",
+          "id": "reader-8-ch-2-q1",
+          "chapter_id": "reader-8-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amal add to the flour after the salt and sugar?",
+          "options": [
+            "Warm water",
+            "Milk",
+            "Eggs",
+            "Butter"
+          ],
+          "correct": 0,
+          "explanation": "The grandmother said, 'Now, we need water. Warm water, not hot. Add one cup slowly.'",
+          "id": "reader-8-ch-2-q2",
+          "chapter_id": "reader-8-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the first pancake burn?",
+          "options": [
+            "Too much flour",
+            "Too much water",
+            "The pan was too hot",
+            "She left it too long"
+          ],
+          "correct": 2,
+          "explanation": "The text states, 'The pan was too hot. The pancake burned quickly.'",
+          "id": "reader-8-ch-2-q3",
+          "chapter_id": "reader-8-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amal do after the first pancake burned?",
+          "options": [
+            "She gave up",
+            "She lowered the heat and tried again",
+            "She added more flour",
+            "She called her grandmother"
+          ],
+          "correct": 1,
+          "explanation": "After the burn, her grandmother advised, 'Lower the heat. Then wait.' Amal 'took a deep breath. She tried again. She lowered the heat.'",
+          "id": "reader-8-ch-2-q4",
+          "chapter_id": "reader-8-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dough",
+          "definition": "A thick mixture of flour and liquid used to make bread, pancakes, etc."
+        },
+        {
+          "word": "sticky",
+          "definition": "Tending to stick to surfaces; not smooth and dry."
+        },
+        {
+          "word": "rolling pin",
+          "definition": "A cylindrical tool used to flatten dough."
+        },
+        {
+          "word": "golden",
+          "definition": "Having a bright, yellowish-brown color, like cooked pastry."
+        },
+        {
+          "word": "patient",
+          "definition": "Able to wait calmly without getting upset."
+        }
+      ]
+    },
+    {
+      "id": "reader-8-ch-3",
+      "title": "The Taste of Home",
+      "text": "The kitchen was full of good smells. Amal put the pancakes on a big white plate. The pancakes were gold and brown, and their smell was warm and sweet. She looked at them and smiled. Then, she opened the door and called, \"Dinner is ready!\"\n\nHer family came to the table. Their eyes were big when they saw the plate. \"You made this?\" her little brother asked. \"Yes, I did,\" Amal said. Her voice was proud. She put the plate in the middle of the table.\n\nAmal looked at the phone. It was open. At the other end of the line, her grandmother was listening. \"Everyone sit down,\" Amal said. \"Let's eat.\"\n\nFirst, they put one pancake on each plate. For a moment, no one spoke. Then Amal's father put a piece in his mouth. He closed his eyes. His face changed. A smile came to his face, a big, slow smile. He did not open his eyes for a long time.\n\n\"This is her taste,\" he said softly. His voice was not loud. \"This is your mother's taste.\"\n\nThen, Amal's little brother ate a big piece. His face showed the same look. His nose moved and he said, \"It is like a cake from our country. Our grandmother's country.\"\n\nNext, everyone tried the pancakes. \"Sweet, but not too sweet,\" said one aunt. \"And the spices, they are perfect,\" said another. They all began to speak at once. They talked about the old country, about their grandmother's village, about the house with the wood stove. Their voices were happy and loud. They laughed. They remembered. Then, they ate more.\n\nAmal looked at her family. She saw their happy faces. She heard their happy voices. She looked at the phone. She thought, \"My grandmother is listening.\" Her heart was warm. Then, she could hear her grandmother's voice from the phone, small and quiet, but very clear. \"No one is alone tonight,\" she said. \"We eat a food made in the same way, with the same hands, together in different places. This is our home.\"\n\nAmal looked at the pancakes, at her family, and at the phone. She understood the truth. Her grandmother was not far away. The recipe was a long road, a warm bridge, and she was on it. The taste of home he was not just food. It was this connection, this love. She was not far from home. She was home.",
+      "word_count": 403,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Amal make?",
+          "options": [
+            "pancakes",
+            "cake",
+            "bread",
+            "cookies"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'Amal put the pancakes on a big white plate.'",
+          "id": "reader-8-ch-3-q1",
+          "chapter_id": "reader-8-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Amal's father say about the taste?",
+          "options": [
+            "It's from a store",
+            "It's the taste of Amal's mother",
+            "It's too sweet",
+            "It's like a cake"
+          ],
+          "correct": 1,
+          "explanation": "He says 'This is your mother's taste.'",
+          "id": "reader-8-ch-3-q2",
+          "chapter_id": "reader-8-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'recipe' mean?",
+          "options": [
+            "a list of ingredients and instructions for cooking",
+            "a type of pancake",
+            "a phone call",
+            "a family member"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'The recipe was a long road, a warm bridge' showing it is the cooking instructions.",
+          "id": "reader-8-ch-3-q3",
+          "chapter_id": "reader-8-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What are 'spices'?",
+          "options": [
+            "sweet things",
+            "ingredients that add flavor",
+            "plates",
+            "pancakes"
+          ],
+          "correct": 1,
+          "explanation": "The text says 'And the spices, they are perfect' referring to flavorings.",
+          "id": "reader-8-ch-3-q4",
+          "chapter_id": "reader-8-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pancakes",
+          "definition": "thin, flat cakes made from batter and cooked on a hot surface"
+        },
+        {
+          "word": "spices",
+          "definition": "strong-tasting substances from plants, used to flavor food"
+        },
+        {
+          "word": "recipe",
+          "definition": "set of instructions for cooking a dish"
+        },
+        {
+          "word": "connection",
+          "definition": "a relationship or link between people or things"
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a meal that reminds you of home or family. Why is it special? Describe who made it and how you felt when you ate it.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

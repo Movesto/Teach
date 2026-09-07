@@ -1,0 +1,276 @@
+{
+  "id": "reader-2",
+  "title": "First Day at Work",
+  "author": "Barashada Ingiriisiga",
+  "level": "A2",
+  "cefr": "elementary",
+  "interest_tags": [
+    "work",
+    "everyday life"
+  ],
+  "genre": "Short fiction",
+  "description": "Yusuf starts his first job at a supermarket and learns to greet customers, stock shelves, and ask for help, discovering that small steps build confidence at work.",
+  "word_count": 1412,
+  "reading_time_minutes": 8,
+  "chapters": [
+    {
+      "id": "reader-2-ch-1",
+      "title": "First Day at the Market",
+      "text": "Yusuf stood outside the big supermarket and looked at the door. It was seven o'clock in the morning, and the sun was just coming up. He was early for his first day at work. His hands were a little cold, and his heart was beating fast. He took a deep breath and pushed the door open.\n\nInside, the lights were bright. A woman in a blue uniform walked towards him and smiled. \"You must be Yusuf. I am Mrs. Ali, the manager. Welcome.\"\n\n\"Thank you,\" Yusuf said. His voice was quiet.\n\n\"Come with me,\" Mrs. Ali said. \"I will show you around.\"\n\nThey walked down the first aisle. There were boxes of cereal, bags of rice, and jars of jam. Yusuf looked at everything. There was so much to remember.\n\n\"This is Aisle One,\" Mrs. Ali said. \"Here we have breakfast food. Aisle Two has drinks. Aisle Three has bread and cakes. And over there, we have fruit and vegetables.\"\n\nYusuf nodded. He tried to remember the names. Breakfast, drinks, bread, fruit. It was a lot of new information.\n\n\"Don't worry,\" Mrs. Ali said. \"You will learn quickly. Now, let me teach you something important. When a customer comes near you, you say, 'Hello, welcome.' Can you try?\"\n\nYusuf looked at his feet. He felt nervous. \"Hello... welcome,\" he said softly.\n\n\"Good,\" Mrs. Ali said. \"But speak a little louder. The customers need to hear you. Try again.\"\n\nYusuf took a breath. \"Hello, welcome!\" he said, louder this time.\n\n\"Very good,\" Mrs. Ali said. \"Now, let me show you how to stock the shelves. We put the new products at the back and the old products at the front. Do you understand?\"\n\nYusuf was not sure. He wanted to ask, but he felt shy. He looked at the shelf and thought about it. Then he said, \"Excuse me, Mrs. Ali. Can you show me again, please?\"\n\nMrs. Ali smiled. \"Of course, Yusuf. Watch me.\"\n\nShe took a box of cereal from a big cart. She put the old box at the front and the new box behind it. \"See? Old at the front, new at the back. Now you try.\"\n\nYusuf picked up a box. He put the old one at the front and the new one at the back. He did it again and again. Soon, the shelf was full.\n\n\"Excellent work,\" Mrs. Ali said.\n\nJust then, the door opened. A customer came in. Yusuf felt his heart beat again. He looked at the woman and said, \"Hello, welcome!\"\n\nThe customer smiled at him. \"Good morning,\" she said.\n\nYusuf smiled too. It was not so hard. He was ready for his first day.",
+      "word_count": 444,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What time did Yusuf get to the supermarket?",
+          "options": [
+            "7:00 in the morning",
+            "8:00 in the morning",
+            "6:00 in the morning",
+            "12:00 noon"
+          ],
+          "correct": 0,
+          "explanation": "The text says 'It was seven o'clock in the morning' and that he was early.",
+          "id": "reader-2-ch-1-q1",
+          "chapter_id": "reader-2-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'nervous' mean in this chapter?",
+          "options": [
+            "worried and afraid",
+            "hungry and thirsty",
+            "happy and excited",
+            "tired and sleepy"
+          ],
+          "correct": 0,
+          "explanation": "Yusuf's heart was beating fast and his voice was quiet, which shows he was nervous.",
+          "id": "reader-2-ch-1-q2",
+          "chapter_id": "reader-2-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Mrs. Ali say the products should be placed on the shelf?",
+          "options": [
+            "Old products at the front and new products at the back",
+            "New products at the front and old products at the back",
+            "Old and new products mixed together",
+            "All new products on the top shelf"
+          ],
+          "correct": 0,
+          "explanation": "Mrs. Ali said, 'We put the new products at the back and the old products at the front.'",
+          "id": "reader-2-ch-1-q3",
+          "chapter_id": "reader-2-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'stock' mean in the sentence 'let me show you how to stock the shelves'?",
+          "options": [
+            "to fill the shelves with products",
+            "to clean the shelves",
+            "to count the money",
+            "to open the shop"
+          ],
+          "correct": 0,
+          "explanation": "Yusuf put boxes of cereal on the shelf, so stocking means filling the shelves with products.",
+          "id": "reader-2-ch-1-q4",
+          "chapter_id": "reader-2-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "aisle",
+          "definition": "a passage between shelves or rows of things in a shop"
+        },
+        {
+          "word": "manager",
+          "definition": "a person who controls and organizes a shop or business"
+        },
+        {
+          "word": "nervous",
+          "definition": "feeling worried or afraid about something"
+        },
+        {
+          "word": "customer",
+          "definition": "a person who buys things from a shop"
+        },
+        {
+          "word": "stock",
+          "definition": "to put products on shelves so they are ready to be sold"
+        }
+      ]
+    },
+    {
+      "id": "reader-2-ch-2",
+      "title": "Learning the Shelves",
+      "text": "The next morning, Yusuf arrived at the supermarket at eight o'clock. Mrs. Ali was waiting for him near the storeroom. She smiled and said, \"Today you will learn the shelves. We have many products, and every product has a place. When a shelf is empty, we fill it again. This is called stocking.\"\n\nMrs. Ali gave Yusuf a small machine. It was a price checker. She showed him how to use it. \"You point this at the label on a product, and it shows the price. Customers often ask about prices. You can check for them.\"\n\nYusuf nodded. He was nervous but ready to learn.\n\nMrs. Ali took him to the canned goods aisle. There were many cans on the shelves. Beans, tomatoes, soup, and corn. She showed him the labels. \"Each can has a small number on the back. This number tells us the price. We put the cans in rows. The labels must face the front. That looks nice for customers.\"\n\nYusuf started to work. He picked up cans and placed them on the shelves. He worked slowly but carefully. After some time, he saw a box of cans on the floor. The label said \"red beans.\" Yusuf looked at the shelf. He saw red beans and put the new cans there. He felt happy. He was doing well.\n\nBut then a customer came to him. She held a can and asked, \"How much is this?\" Yusuf took his price checker and pointed it at the label. The machine showed a price. Yusuf told the customer, \"It is two dollars.\" The customer looked at the can and said, \"But the label here says one dollar.\" Yusuf looked again. He saw that the shelf had the wrong cans. He had put the red beans in the wrong place. The shelf was for white beans.\n\nYusuf felt his face get hot. He was embarrassed. He did not know what to do. He thought about the cans he had placed. Many of them were wrong.\n\nHe looked for Mrs. Ali. He found her in the next aisle. He said, \"Mrs. Ali, I made a mistake. I put the red beans in the wrong place. I am sorry.\"\n\nMrs. Ali did not look angry. She smiled and said, \"Good. You asked for help. That is the rule here. If you don't know, ask. Never guess. Guessing can make problems. Asking is always better.\"\n\nShe showed him how to read the labels more carefully. Together, they moved the cans to the right shelves. Yusuf watched and learned. When they finished, Mrs. Ali said, \"Now you know. Well done.\"\n\nYusuf felt much better. He was not a bad worker. He just needed to ask. He smiled and said, \"Thank you, Mrs. Ali. I will ask next time.\"",
+      "word_count": 463,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Mrs. Ali give Yusuf to check prices?",
+          "options": [
+            "a shelf",
+            "a price checker",
+            "a can",
+            "a label"
+          ],
+          "correct": 1,
+          "explanation": "Mrs. Ali gave Yusuf a small machine. It was a price checker.",
+          "id": "reader-2-ch-2-q1",
+          "chapter_id": "reader-2-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'stocking' mean in the text?",
+          "options": [
+            "putting products on shelves",
+            "counting money",
+            "cleaning the store",
+            "talking to customers"
+          ],
+          "correct": 0,
+          "explanation": "Mrs. Ali said, 'When a shelf is empty, we fill it again. This is called stocking.'",
+          "id": "reader-2-ch-2-q2",
+          "chapter_id": "reader-2-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did Yusuf feel embarrassed?",
+          "options": [
+            "He dropped a can.",
+            "He put red beans in the wrong place.",
+            "He didn't know how to use the machine.",
+            "He was late."
+          ],
+          "correct": 1,
+          "explanation": "Yusuf had put the red beans in the wrong place, and the shelf was for white beans. He felt his face get hot and was embarrassed.",
+          "id": "reader-2-ch-2-q3",
+          "chapter_id": "reader-2-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'embarrassed' mean?",
+          "options": [
+            "angry",
+            "shy or ashamed",
+            "excited",
+            "tired"
+          ],
+          "correct": 1,
+          "explanation": "Yusuf felt his face get hot and was embarrassed after making a mistake, showing he felt ashamed.",
+          "id": "reader-2-ch-2-q4",
+          "chapter_id": "reader-2-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stocking",
+          "definition": "The act of filling shelves with products so they are ready for customers."
+        },
+        {
+          "word": "aisle",
+          "definition": "A passage between rows of shelves in a store."
+        },
+        {
+          "word": "label",
+          "definition": "A piece of paper or sticker on a product that shows information like price or name."
+        },
+        {
+          "word": "embarrassed",
+          "definition": "Feeling shy, ashamed, or uncomfortable because of a mistake or something awkward."
+        }
+      ]
+    },
+    {
+      "id": "reader-2-ch-3",
+      "title": "A Small Success",
+      "text": "Yusuf arrived at the supermarket for his second day. He felt better than yesterday. He knew the way to the staff room. He knew where to put his bag. He put on his blue uniform and smiled at himself in the mirror.\n\nMrs. Ali was waiting for him near the fruit. \"Good morning, Yusuf,\" she said. \"Today, you will help customers. You will also stock the tea shelves. Do you remember the greeting?\"\n\n\"Yes, Mrs. Ali,\" Yusuf said. \"Hello, welcome.\"\n\n\"Very good,\" she said. \"Let's begin.\"\n\nYusuf walked to the tea section. There were many boxes of tea. Green tea, black tea, and herbal tea. He started to put new boxes on the shelves. He worked slowly and carefully. He checked the prices on the boxes. He made sure the labels faced the front.\n\nAfter an hour, an old woman came to the tea section. She looked at the shelves. She looked at the boxes. She did not look happy.\n\nYusuf remembered his greeting. \"Hello, welcome,\" he said. He tried to smile, but his smile was small.\n\nThe woman looked at him. \"I need some tea,\" she said. \"But I do not know which one to buy. I want something for my stomach. It hurts.\"\n\nYusuf did not know about tea for stomachs. He felt nervous. He wanted to help, but he did not know the answer. Then he remembered what Mrs. Ali said. \"If you don't know, ask.\"\n\n\"One moment, please,\" he said to the woman. He walked to find Mrs. Ali. She was near the bread.\n\n\"Excuse me, Mrs. Ali,\" he said. \"A customer needs tea for her stomach. I do not know which tea is good for that.\"\n\nMrs. Ali smiled. \"Good question, Yusuf. That is the peppermint tea. It is on the top shelf. I will show you.\"\n\nShe walked with Yusuf to the tea section. She pointed to a green box. \"This is peppermint tea,\" she said. \"It is good for stomachs.\"\n\nYusuf took the box. He walked to the woman. \"This is peppermint tea,\" he said. \"It is good for your stomach.\"\n\nThe woman took the box and looked at it. She smiled. \"Thank you,\" she said. \"You are very helpful.\"\n\nYusuf felt warm inside. His smile was big now. \"You're welcome,\" he said. \"Have a nice day.\"\n\nThe woman walked to the checkout. Yusuf watched her go. He felt proud.\n\nLater, Mrs. Ali came to him. \"Yusuf, I saw you help that customer,\" she said. \"You asked for help. That is very good. You did a small thing, but it was a big help for her. You did a good job today.\"\n\n\"Thank you, Mrs. Ali,\" Yusuf said.\n\nAt five o'clock, his shift ended. He took off his uniform and walked out of the store. The sun was warm on his face. He thought about the old woman and her smile. He thought about Mrs. Ali's words.\n\nHe walked home slowly. He felt happy. He had a small success today. And he was ready for his next day.",
+      "word_count": 505,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did Yusuf do on his second day at the supermarket?",
+          "options": [
+            "He stocked tea shelves and helped a customer.",
+            "He cleaned the store.",
+            "He worked at the checkout.",
+            "He stayed in the staff room."
+          ],
+          "correct": 0,
+          "explanation": "The text says Yusuf stocked the tea shelves and later helped an old woman choose tea.",
+          "id": "reader-2-ch-3-q1",
+          "chapter_id": "reader-2-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the old woman look unhappy at the tea section?",
+          "options": [
+            "She couldn't find the bread.",
+            "She had a stomach ache and didn't know which tea to buy.",
+            "She didn't like Yusuf's greeting.",
+            "She was in a hurry."
+          ],
+          "correct": 1,
+          "explanation": "The woman said 'My stomach hurts' and she didn't know which tea to buy.",
+          "id": "reader-2-ch-3-q2",
+          "chapter_id": "reader-2-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'stock' mean in the text?",
+          "options": [
+            "To sell items to customers.",
+            "To put items on shelves.",
+            "To count items.",
+            "To wrap items."
+          ],
+          "correct": 1,
+          "explanation": "In the text, Yusuf 'stocked the tea shelves' meaning he placed boxes on the shelves.",
+          "id": "reader-2-ch-3-q3",
+          "chapter_id": "reader-2-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Mrs. Ali tell Yusuf to do when he doesn't know something?",
+          "options": [
+            "Ask for help.",
+            "Guess the answer.",
+            "Ignore the customer.",
+            "Call his manager."
+          ],
+          "correct": 0,
+          "explanation": "Mrs. Ali said 'If you don't know, ask' and Yusuf did that when he didn't know about the tea.",
+          "id": "reader-2-ch-3-q4",
+          "chapter_id": "reader-2-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "uniform",
+          "definition": "Special clothes worn by workers to show their job."
+        },
+        {
+          "word": "stock",
+          "definition": "To put items on shelves for sale."
+        },
+        {
+          "word": "peppermint",
+          "definition": "A plant with a strong fresh taste, often used in tea."
+        },
+        {
+          "word": "helpful",
+          "definition": "Giving help or useful support."
+        },
+        {
+          "word": "proud",
+          "definition": "Feeling good about something you did."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time you started something new, like a job or a class. What was one thing you were afraid of? What did you do when you didn't understand? Write about it.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

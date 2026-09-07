@@ -1,0 +1,422 @@
+{
+  "id": "reader-16",
+  "title": "A Healthy Heart",
+  "author": "Barashada Ingiriisiga",
+  "level": "B1",
+  "cefr": "intermediate",
+  "interest_tags": [
+    "health",
+    "science & nature"
+  ],
+  "genre": "Non-fiction narrative",
+  "description": "Follow Ahmed, a Somali immigrant in his 40s, through a routine check-up that becomes a life-changing lesson about his heart, the risks he didn't know he carried, and the small daily steps that can make a big difference.",
+  "word_count": 3791,
+  "reading_time_minutes": 21,
+  "chapters": [
+    {
+      "id": "reader-16-ch-1",
+      "title": "The Waiting Room",
+      "text": "The plastic chair was cold, even through his trousers. Ahmed shifted his weight and looked at the clock on the wall. It was 9:15 in the morning, and the clinic was already busy. A young mother sat opposite him, trying to calm a crying baby. An old man with a grey beard read a newspaper, turning the pages slowly. Ahmed watched them for a moment, then looked down at his hands. They were dry and clean, but his fingers tapped nervously on his knee.\n\nHe felt fine. Really, he did. He had no pain in his chest, no difficulty breathing, no strange feelings in his arm. He could walk up the stairs to his office without stopping, most of the time. So why was he here? Because his wife, Mariam, had insisted. \"You are forty-five years old, Ahmed,\" she had said, her hands on her hips. \"Your father had a heart attack at fifty. You must get a check-up. It is time.\"\n\nAhmed sighed. He remembered his father well. A tall, strong man who worked as a taxi driver for thirty years. He worked long hours, ate his meals quickly in the car, and smoked a packet of cigarettes every day. When he came home, he sat in his favourite chair and watched television. He never complained. Then one day, he was gone. A sudden pain in his chest, an ambulance, and a hospital room that smelled of medicine and fear. He survived that first attack, but he was never the same. He was weak, tired, and afraid. He died four years later.\n\nAhmed looked at his own stomach, which pressed gently against his belt. He was not like his father. He did not smoke. He was careful. Well, perhaps he was a little careful. He worked as an accountant for a large company. Every day, he sat at his desk for eight or nine hours, looking at numbers on a computer screen. He drove to work, even though it was only twenty minutes away. In the evening, he was tired, so he sat on the sofa and watched the news. He was not active, not like his father who was always moving, always driving.\n\nAnd his food. Ahmed loved food. His mother was a wonderful cook, and his wife, Mariam, was even better. He loved her cooking, especially the rich, fried dishes. He could almost taste the crispy golden chicken, fried in deep oil, with a side of salty rice and pickles. He loved to add extra salt to everything, even before he tasted it. It was a habit. On his way home from work, he often stopped at the shop for a small bag of salty chips or roasted nuts. He ate them in the car, one after another, while listening to music. It helped him relax after a long day.\n\nA nurse appeared at the door, holding a white clipboard. \"Ahmed Hassan?\" she called.\n\nAhmed stood up, his heart beating a little faster. \"Yes, that's me.\"\n\n\"Please, come this way.\"\n\nHe followed her into a small room. There was a table, a chair, and a machine with a screen and a black band. The room was quiet and clean, and it smelled of soap.\n\n\"Please, sit down,\" the nurse said, smiling. She was a young woman with kind eyes. \"Don't worry. This is just a simple check-up. First, we will measure your blood pressure.\"\n\nShe wrapped the black band around his upper arm. It was tight, but not painful. Then she pressed a button, and the machine began to make a soft whirring sound. The band got tighter and tighter. Ahmed felt his arm go numb for a second. He watched the numbers on the screen change quickly. He didn't understand them.\n\n\"Okay,\" the nurse said, as the band loosened. \"Your blood pressure is 145 over 95. That is a little high. We will talk about that with the doctor later.\"\n\nAhmed felt a small knot in his stomach. High? What did that mean? The nurse did not look worried, but she did not look happy either.\n\n\"Now, let's check your weight,\" she said.\n\nHe stood on the machine. It was a flat scale, and the nurse read the numbers. \"Ninety-two kilograms,\" she said, writing on her clipboard. \"And your height is one meter and seventy-five centimeters. We can calculate your BMI, but the important thing is that you are a bit above the healthy range for your height.\"\n\nAhmed got off the scale. He felt a little foolish. He knew he had put on weight. His trousers were tighter than they were two years ago. But he had told himself it was just middle age. Every man gets a little bigger, he thought.\n\nThe nurse handed him a small plastic cup. \"Now, please give a urine sample in the bathroom down the hall. Then wait here, and the doctor will see you shortly.\"\n\nAhmed took the cup and walked to the bathroom. He looked at himself in the mirror. He saw a man with a tired face and a worried expression. He was not sick. He was not in pain. But he was afraid. What if the doctor found something bad? What if his father's problem was waiting for him too?\n\nHe took a deep breath. He would listen to the doctor. He would answer the questions honestly. Perhaps it was time to make some changes. He looked at his reflection again and made a small promise to himself. He would try. For Mariam, for his children, and for himself.",
+      "word_count": 924,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Ahmed go to the clinic?",
+          "options": [
+            "He felt chest pain.",
+            "His wife insisted he get a check-up.",
+            "He had trouble breathing.",
+            "He wanted to see the nurse."
+          ],
+          "correct": 1,
+          "explanation": "The text says 'Because his wife, Mariam, had insisted.'",
+          "id": "reader-16-ch-1-q1",
+          "chapter_id": "reader-16-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happened to Ahmed's father?",
+          "options": [
+            "He died of a heart attack at fifty.",
+            "He had a stroke and survived.",
+            "He was a taxi driver who retired early.",
+            "He had a heart attack but recovered."
+          ],
+          "correct": 0,
+          "explanation": "The text says 'Your father had a heart attack at fifty' and later 'He died four years later.'",
+          "id": "reader-16-ch-1-q2",
+          "chapter_id": "reader-16-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'insisted' mean in the text?",
+          "options": [
+            "Suggested gently",
+            "Demanded firmly",
+            "Asked politely",
+            "Recommended casually"
+          ],
+          "correct": 1,
+          "explanation": "Mariam 'had insisted' means she strongly urged him to get a check-up.",
+          "id": "reader-16-ch-1-q3",
+          "chapter_id": "reader-16-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Ahmed's blood pressure reading?",
+          "options": [
+            "145 over 95",
+            "135 over 85",
+            "150 over 90",
+            "140 over 100"
+          ],
+          "correct": 0,
+          "explanation": "The nurse said 'Your blood pressure is 145 over 95.'",
+          "id": "reader-16-ch-1-q4",
+          "chapter_id": "reader-16-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'foolish' mean as used in the text?",
+          "options": [
+            "Embarrassed",
+            "Angry",
+            "Tired",
+            "Surprised"
+          ],
+          "correct": 0,
+          "explanation": "Ahmed felt 'a little foolish' after getting off the scale, meaning he felt embarrassed about his weight.",
+          "id": "reader-16-ch-1-q5",
+          "chapter_id": "reader-16-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "insisted",
+          "definition": "To demand or state something firmly, refusing to accept opposition."
+        },
+        {
+          "word": "foolish",
+          "definition": "Feeling or showing a lack of good sense; silly or embarrassing."
+        },
+        {
+          "word": "numb",
+          "definition": "Having no feeling in a part of the body; unable to feel sensation."
+        },
+        {
+          "word": "habit",
+          "definition": "A regular practice or behavior that is hard to give up."
+        },
+        {
+          "word": "reflection",
+          "definition": "An image seen in a mirror or shiny surface; also careful thought."
+        }
+      ]
+    },
+    {
+      "id": "reader-16-ch-2",
+      "title": "The Heart's Secret Work",
+      "text": "Dr. Hassan looked at the papers in front of him, then at Ahmed. He smiled, but Ahmed could see something serious in his eyes.\n\n\"Your numbers are not terrible, Ahmed,\" the doctor said. \"But they are not good either. We need to talk about your heart.\"\n\nAhmed felt his stomach tighten. \"Is something wrong?\"\n\n\"Let me explain how the heart works first,\" Dr. Hassan said. He picked up a small model from his desk. It was a red, fist-sized shape with tubes coming out of it.\n\n\"Think of your heart as a water pump,\" the doctor began. \"You know how a pump in a house moves water through the pipes? Your heart does the same job, but with blood. It pumps blood through your blood vessels to every part of your body.\"\n\nAhmed nodded. This made sense.\n\n\"Your heart is a muscle,\" Dr. Hassan continued. \"And like any muscle, it gets tired when it has to work too hard. When your blood pressure is high, it means your blood is pushing too hard against the walls of your blood vessels. It's like a garden hose with too much water pressure. The hose can handle it for a while, but over time, the walls get weak.\"\n\nThe doctor pointed to Ahmed's test results. \"Your blood pressure is 145 over 90. That is too high. It should be around 120 over 80.\"\n\nAhmed thought about his job. He sat at a desk for eight hours every day. He ate fried chicken and salty snacks at lunch. He rarely exercised. Suddenly, he understood why his numbers were bad.\n\n\"What about cholesterol?\" Ahmed asked. \"The nurse mentioned that too.\"\n\nDr. Hassan nodded. \"Cholesterol is a fatty substance in your blood. Your body needs some of it, but too much is dangerous. Think about cooking oil in a drain. If you pour a little oil, it flows away. But if you pour a lot, day after day, it starts to stick to the pipes. After many years, the pipe becomes narrow or even blocked.\"\n\nHe drew a simple picture on a piece of paper. \"This is your artery,\" he said, drawing a tube. \"When cholesterol builds up inside, it forms something called plaque. Plaque is hard on the outside and soft on the inside. It makes the artery narrow. Your heart has to pump harder to push blood through these narrow passages. That makes your blood pressure go up. And if a piece of plaque breaks open, it can cause a heart attack or a stroke.\"\n\nAhmed looked at the drawing. He thought about his father, who had a heart attack at age fifty-five. His father also had high blood pressure and high cholesterol. Ahmed was forty-five now.\n\n\"Is that why my father had heart problems?\" he asked quietly.\n\n\"Yes, it can run in families,\" Dr. Hassan said gently. \"But that does not mean you cannot change your future. Your body is telling you something now. You can listen to it.\"\n\nThe doctor continued. \"There is another thing that makes your heart work harder: stress. When you are stressed, your body releases hormones. These hormones make your heart beat faster and your blood pressure rise. It is like a car engine running too fast for too long. Eventually, the engine wears out.\"\n\nAhmed thought about his long work hours, his worries about money, and his habit of worrying about everything before he went to sleep.\n\n\"So what can I do?\" Ahmed asked.\n\nDr. Hassan smiled. \"Small changes, Ahmed. You do not need to change everything at once. Start with your food. Choose grilled chicken instead of fried. Eat more vegetables. Use less salt. Walk for thirty minutes every day. Even a short walk after lunch helps.\"\n\n\"What about stress?\"\n\n\"Find ways to relax,\" the doctor said. \"Take deep breaths. Spend time with your family. Do something you enjoy. Your heart needs rest, just like your body needs sleep.\"\n\nAhmed looked at the model of the heart in his hands. It was small, but it worked every second of every day. It never stopped. It deserved better care.\n\n\"I will try,\" Ahmed said.\n\n\"Good,\" Dr. Hassan replied. \"Come back in three months. We will check your numbers again. I think you will see a difference.\"\n\nAhmed stood up and shook the doctor's hand. He felt afraid, but he also felt hopeful. His heart was telling him something. For the first time, he was ready to listen.",
+      "word_count": 740,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What does Dr. Hassan compare the heart to?",
+          "options": [
+            "A water pump",
+            "A car engine",
+            "A garden hose",
+            "A cooking drain"
+          ],
+          "correct": 0,
+          "explanation": "Dr. Hassan says, 'Think of your heart as a water pump.'",
+          "id": "reader-16-ch-2-q1",
+          "chapter_id": "reader-16-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the chapter, what does the word 'artery' mean?",
+          "options": [
+            "A blood vessel that carries blood from the heart",
+            "A small bone in the arm",
+            "A muscle in the chest",
+            "A type of nerve"
+          ],
+          "correct": 0,
+          "explanation": "The doctor draws an artery as a tube through which blood flows, and he talks about plaque building up inside it, so it is a blood vessel.",
+          "id": "reader-16-ch-2-q2",
+          "chapter_id": "reader-16-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What happens to blood vessels when blood pressure is high for a long time?",
+          "options": [
+            "They become weak and damaged",
+            "They become longer",
+            "They fill with water",
+            "They disappear"
+          ],
+          "correct": 0,
+          "explanation": "Dr. Hassan compares it to a garden hose with too much water pressure: the walls get weak over time.",
+          "id": "reader-16-ch-2-q3",
+          "chapter_id": "reader-16-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What is cholesterol?",
+          "options": [
+            "A fatty substance in the blood",
+            "A type of medicine",
+            "A hormone released during stress",
+            "A mineral found in salt"
+          ],
+          "correct": 0,
+          "explanation": "The chapter says, 'Cholesterol is a fatty substance in your blood.'",
+          "id": "reader-16-ch-2-q4",
+          "chapter_id": "reader-16-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Which of these was NOT a change Dr. Hassan recommended?",
+          "options": [
+            "Take medicine every day",
+            "Eat more vegetables",
+            "Use less salt",
+            "Walk for thirty minutes a day"
+          ],
+          "correct": 0,
+          "explanation": "Dr. Hassan suggests food changes, less salt, and walking. He does not mention taking medicine.",
+          "id": "reader-16-ch-2-q5",
+          "chapter_id": "reader-16-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "artery",
+          "definition": "A blood vessel that carries blood away from the heart to the rest of the body."
+        },
+        {
+          "word": "cholesterol",
+          "definition": "A fatty substance in the blood; too much of it can block blood vessels."
+        },
+        {
+          "word": "blood pressure",
+          "definition": "The force of blood pushing against the walls of your blood vessels."
+        },
+        {
+          "word": "plaque",
+          "definition": "A hard, fatty build-up inside arteries that can narrow or block them."
+        },
+        {
+          "word": "stress",
+          "definition": "Mental or emotional pressure that can make your heart beat faster and raise your blood pressure."
+        }
+      ]
+    },
+    {
+      "id": "reader-16-ch-3",
+      "title": "Hidden Risks, Real Choices",
+      "text": "Ahmed sat quietly in the small office. The doctor looked at his notes, then at Ahmed. \"Your test results show some problems,\" the doctor said. \"Your blood pressure is high. Your cholesterol is high too. But we can talk about this. We can make changes.\"\n\nAhmed felt his stomach turn. He thought about his life. He worked long hours at his desk. He sat for most of the day. He ate fried food from the shop near his office. He smoked cigarettes during his breaks. He knew these things were not good. But he did not think about them much. Now he had to.\n\nThe doctor asked him questions. \"How many hours do you work each day?\" she asked.\n\n\"About ten or eleven,\" Ahmed said.\n\n\"Do you exercise?\"\n\nAhmed shook his head. \"I am too tired after work. I just go home and watch television.\"\n\nThe doctor nodded. She did not look angry. She looked calm and kind. \"And what do you eat during the day?\"\n\nAhmed thought about his meals. Breakfast was usually tea with sugar and fried bread. Lunch was often meat and rice from a restaurant. Dinner was sometimes more fried food or a frozen meal. He also loved salty snacks. He ate them at his desk while he worked.\n\n\"I eat a lot of salty and fried food,\" he said quietly.\n\n\"And you smoke,\" the doctor said.\n\n\"Yes,\" Ahmed said. \"About ten cigarettes a day.\"\n\nThe doctor put down her pen. She looked at Ahmed with serious eyes. \"Ahmed, I want to explain something to you. Your heart works very hard. It pumps blood to every part of your body. But when you smoke, when you eat too much salt, when you do not exercise, you make your heart work even harder.\"\n\nShe picked up a small model of a heart from her desk. \"Your arteries are like pipes in your body. They carry blood to your heart and to your brain. When you eat food with a lot of fat, that fat can stick to the inside of your pipes. We call this plaque. Plaque makes the pipes narrow. When the pipes are narrow, blood has a harder time getting through.\"\n\nAhmed remembered the conversation from earlier. The doctor had shown him pictures of narrow arteries. He remembered the garden hose example. When something blocks a hose, the water cannot flow. The same thing happens in his body.\n\n\"Smoking makes this worse,\" the doctor continued. \"Smoking damages the inside of your arteries. It makes them stiff and narrow. It also makes your blood thicker. Thicker blood is harder to pump. Your heart has to work much harder. This can cause a heart attack.\"\n\n\"A heart attack?\" Ahmed said. His voice was small.\n\n\"Yes,\" the doctor said. \"A heart attack happens when blood cannot get to your heart muscle. A stroke happens when blood cannot get to your brain. Both are very serious. Both can change your life or end it.\"\n\nAhmed felt cold. He thought about his father. His father had a heart attack at fifty-five. He survived, but he was never the same. He could not work. He could not play with his grandchildren. He died three years later.\n\n\"I do not want that,\" Ahmed said. His eyes felt wet.\n\nThe doctor's voice became softer. \"That is why we are talking today, Ahmed. You can change this. You do not have to be perfect. You just need to make small changes. Small changes can make a big difference.\"\n\nAhmed looked up. \"Really?\"\n\n\"Really,\" the doctor said. She pulled out a piece of paper. \"Let me show you.\"\n\nShe wrote three things on the paper. \"First, walking. You do not need to run or go to a gym. Just walk for twenty minutes after your lunch or dinner. This helps your heart. It helps your blood pressure. It helps your weight too. Can you do this?\"\n\nAhmed thought about his lunch break. He usually sat at his desk and looked at his phone. He could walk instead. \"Yes, I can do that,\" he said.\n\n\"Second, salt. You do not need to stop eating all salt. But you need to eat less. Salt makes your body hold water. More water means more blood. More blood means your heart has to work harder. Try to cook at home more. Use less salt in your food. Do not add salt to your meals at the table. Can you do this?\"\n\nAhmed thought about his salty snacks. He loved them. But he could eat fewer of them. He could eat fruit instead. \"I can try,\" he said.\n\n\"Third, smoking,\" the doctor said. \"This is the hardest one. But it is the most important. Smoking hurts your heart and your lungs. You do not have to stop all at once. You can reduce slowly. You can smoke two fewer cigarettes each week. You can ask for help. There are patches and gums that can help you. Can you try?\"\n\nAhmed took a deep breath. He had smoked for fifteen years. He did not know if he could stop. But he thought about his father. He thought about his own children. He wanted to see them grow up.\n\n\"I will try,\" Ahmed said.\n\nThe doctor smiled. \"Good. Let us make a plan together. For the first month, you will walk after dinner every day. You will eat one home-cooked meal each day. You will reduce your cigarettes by two each week. We will meet again in one month. We will check your blood pressure. We will see your progress.\"\n\nAhmed felt something new. It was not happiness. It was not excitement. It was hope. He had a plan. He had small steps. He could do this.\n\nAs he left the clinic, he looked at the paper in his hand. Three small changes. He put the paper in his pocket. Tonight, he would walk after dinner. Tomorrow, he would buy vegetables at the market. He would try. For his heart. For his family. For himself.",
+      "word_count": 1003,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What did the doctor say about Ahmed's test results?",
+          "options": [
+            "He had high blood pressure and high cholesterol.",
+            "He had low blood pressure and low cholesterol.",
+            "He had high blood sugar and high cholesterol.",
+            "He had high blood pressure and low cholesterol."
+          ],
+          "correct": 0,
+          "explanation": "The doctor said 'Your blood pressure is high. Your cholesterol is high too.'",
+          "id": "reader-16-ch-3-q1",
+          "chapter_id": "reader-16-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "According to the doctor, what happens when you eat food with a lot of fat?",
+          "options": [
+            "It makes your arteries wider.",
+            "It makes your blood thinner.",
+            "It can stick to the inside of your arteries and make them narrow.",
+            "It makes your heart stronger."
+          ],
+          "correct": 2,
+          "explanation": "The doctor said 'When you eat food with a lot of fat, that fat can stick to the inside of your pipes. Plaque makes the pipes narrow.'",
+          "id": "reader-16-ch-3-q2",
+          "chapter_id": "reader-16-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did the doctor say about smoking?",
+          "options": [
+            "It makes your arteries wider.",
+            "It damages the inside of your arteries and makes your blood thicker.",
+            "It helps your heart work better.",
+            "It only affects your lungs."
+          ],
+          "correct": 1,
+          "explanation": "The doctor said 'Smoking damages the inside of your arteries. It makes them stiff and narrow. It also makes your blood thicker.'",
+          "id": "reader-16-ch-3-q3",
+          "chapter_id": "reader-16-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'plaque' mean in this text?",
+          "options": [
+            "A type of medicine.",
+            "A fat that can stick to the inside of arteries.",
+            "A kind of heart disease.",
+            "A device to help you stop smoking."
+          ],
+          "correct": 1,
+          "explanation": "The doctor said 'When you eat food with a lot of fat, that fat can stick to the inside of your pipes. We call this plaque.'",
+          "id": "reader-16-ch-3-q4",
+          "chapter_id": "reader-16-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What is a 'stroke' according to the text?",
+          "options": [
+            "When blood cannot get to the heart.",
+            "When blood cannot get to the brain.",
+            "When blood pressure is very high.",
+            "When you exercise too much."
+          ],
+          "correct": 1,
+          "explanation": "The doctor said 'A stroke happens when blood cannot get to your brain.'",
+          "id": "reader-16-ch-3-q5",
+          "chapter_id": "reader-16-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "arteries",
+          "definition": "Blood vessels that carry blood away from the heart to the rest of the body."
+        },
+        {
+          "word": "plaque",
+          "definition": "A fatty substance that can build up inside arteries and narrow them."
+        },
+        {
+          "word": "cholesterol",
+          "definition": "A fatty substance found in the blood that can cause plaque if too high."
+        },
+        {
+          "word": "stroke",
+          "definition": "A serious medical condition where blood supply to the brain is cut off."
+        },
+        {
+          "word": "blood pressure",
+          "definition": "The force of blood pushing against the walls of your arteries."
+        }
+      ]
+    },
+    {
+      "id": "reader-16-ch-4",
+      "title": "Small Steps, Strong Heart",
+      "text": "Three months had passed since Ahmed first sat in the clinic waiting room, nervous and unsure. Now, as he walked through the same doors, he felt different. Lighter, somehow. The nurse at the front desk smiled when she saw him. \"Good morning, Ahmed. The doctor is ready for you.\"\n\nAhmed took a deep breath and entered the examination room. Dr. Yusuf was already there, looking at a chart. He raised his head and smiled warmly. \"Ahmed! Come in. I have good news to share with you today.\"\n\nAhmed sat down, but this time he did not feel anxious. He had been waiting for this moment. He had worked hard for three months, and he wanted to see the results.\n\n\"Let's start with your weight,\" the doctor said. Ahmed stepped onto the scale. He had lost seven kilograms. It was not a huge amount, but it was a real change. \"Well done,\" Dr. Yusuf said, writing something in the chart. \"Every kilogram you lose helps your heart work less hard.\"\n\nNext came the blood pressure test. The nurse wrapped the cuff around Ahmed's arm, and the machine made its familiar sound. When the numbers appeared on the screen, Ahmed held his breath. The doctor looked at the screen and nodded. \"Your blood pressure has come down. Last time it was 150 over 95. Today it is 132 over 84. That is a very good improvement.\"\n\nAhmed felt a wave of relief pass through him. He remembered how worried he had been three months ago. His father had suffered from high blood pressure, and Ahmed had always feared he would follow the same path. But now, he was making different choices.\n\n\"What did you do exactly?\" Dr. Yusuf asked, genuinely curious.\n\nAhmed thought for a moment. \"Small things, really. I started walking every day after lunch. Just twenty minutes, nothing fast. At first, my legs hurt and I felt tired. But after two weeks, it became easier. Now I look forward to it. The fresh air clears my head, and I feel more energetic in the afternoon.\"\n\nThe doctor nodded, encouraging him to continue.\n\n\"I also changed how I cook. My wife and I decided together. We use less salt now. At first, the food tasted strange, but after a month, I started to taste the real flavors of the vegetables and herbs. We use olive oil instead of butter, and we eat fish twice a week. I still eat the foods I love, but I eat smaller portions.\"\n\n\"And what about smoking?\" Dr. Yusuf asked gently.\n\nAhmed looked down at his hands. \"That was the hardest part. I smoked for twenty years. In the first week, I felt terrible. I was irritable, and I could not sleep well. But my wife was patient with me, and my brother helped too. I kept a pack of cigarettes in my pocket as a test of willpower. After a month, I did not need it anymore. I have not smoked for over two months now.\"\n\nDr. Yusuf smiled. \"That is a remarkable achievement. Smoking is one of the biggest risks for heart disease. By quitting, you have done more for your heart than any medicine could do.\"\n\nThe doctor then listened to Ahmed's heart with his stethoscope. He moved the small metal disc across Ahmed's chest, listening carefully. \"Your heartbeat is steady and strong,\" he said. \"Your pulse is normal. The heart is a muscle, and like any muscle, it gets stronger when you use it. Your daily walks are making your heart more efficient.\"\n\nAhmed felt proud, but also thoughtful. He knew he still had a long way to go. His cholesterol was better, but not perfect. He still enjoyed fried food sometimes, and there were days when he was too busy to walk.\n\nDr. Yusuf seemed to read his mind. \"You do not need to be perfect, Ahmed. The goal is not to change everything at once. The goal is to make small choices, every day, that add up over time. One walk is good. A hundred walks are much better. One meal without salt is good. A month of healthier cooking is much better. This is how you build a healthy heart.\"\n\nBefore Ahmed left, the doctor gave him a small card with his new numbers. \"Keep this in your wallet. Look at it when you feel like giving up. Remember how far you have come.\"\n\nThat evening, Ahmed sat on his balcony, watching the sun set over the city. His brother Karim came to visit, carrying a bag of sweets. \"For you,\" Karim said, \"to celebrate your good news.\"\n\nAhmed smiled and took one piece. \"Thank you, but just one. I have to be careful.\"\n\nKarim sat down beside him. \"Tell me honestly, is it really worth it? Giving up your old habits?\"\n\nAhmed looked at his brother, who was ten years younger and already had a small belly. He remembered how he had looked in the mirror three months ago. He thought about his father, who had died too young because of a weak heart.\n\n\"Yes, it is worth it,\" Ahmed said slowly. \"But I will not lie to you. It was not easy. There were days when I wanted to stay in bed instead of walking. Days when I wanted to add salt to my food. Days when I really wanted a cigarette. But each time I made the right choice, I felt a little stronger. And now I have proof. My blood pressure is lower. I have more energy. I sleep better. I feel like I have control over my body again.\"\n\nKarim was quiet for a moment. \"Do you think I should start too?\"\n\nAhmed laughed. \"I think you should start with one small step. Not a big plan. Just one thing. Maybe walk with me tomorrow after lunch. Just twenty minutes. That is all. You do not have to change everything at once. Just start somewhere.\"\n\nKarim nodded slowly. \"Okay. Tomorrow, then.\"\n\nAhmed looked at his brother and felt a warmth in his chest that had nothing to do with his heart condition. It was hope. He had not saved his own heart alone. His wife, his brother, and Dr. Yusuf had all helped him. And now, maybe he could help Karim too.\n\nThe sun dipped below the buildings, painting the sky orange and pink. Ahmed took a deep breath of the evening air, clean and cool. He thought about the small card in his wallet, and he made a quiet promise to himself. He would keep walking. He would keep cooking with less salt. He would keep making small choices, one day at a time.\n\nBecause every small step counted. And he had many more steps to take.",
+      "word_count": 1124,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "How did Ahmed feel when he first sat in the clinic waiting room three months ago?",
+          "options": [
+            "Nervous and unsure",
+            "Confident and happy",
+            "Angry and frustrated",
+            "Indifferent and calm"
+          ],
+          "correct": 0,
+          "explanation": "The chapter begins: 'Three months had passed since Ahmed first sat in the clinic waiting room, nervous and unsure.' This directly states his initial feelings.",
+          "id": "reader-16-ch-4-q1",
+          "chapter_id": "reader-16-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "How much weight did Ahmed lose over the three months?",
+          "options": [
+            "Five kilograms",
+            "Seven kilograms",
+            "Ten kilograms",
+            "Two kilograms"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'He had lost seven kilograms.' This is explicitly mentioned during the doctor's visit.",
+          "id": "reader-16-ch-4-q2",
+          "chapter_id": "reader-16-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word 'irritable' mean in the context of Ahmed's experience?",
+          "options": [
+            "Friendly and sociable",
+            "Easily annoyed or angry",
+            "Very sleepy and tired",
+            "Hungry and craving food"
+          ],
+          "correct": 1,
+          "explanation": "Ahmed says: 'I was irritable' when describing his first week without smoking. 'Irritable' means feeling easily annoyed or angered, which fits the context of withdrawal.",
+          "id": "reader-16-ch-4-q3",
+          "chapter_id": "reader-16-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What did Ahmed say was the hardest part of his lifestyle change?",
+          "options": [
+            "Changing his diet",
+            "Quitting smoking",
+            "Starting daily walks",
+            "Reducing salt in meals"
+          ],
+          "correct": 1,
+          "explanation": "When Dr. Yusuf asked about smoking, Ahmed replied: 'That was the hardest part. I smoked for twenty years.' This clearly indicates quitting smoking was the most difficult.",
+          "id": "reader-16-ch-4-q4",
+          "chapter_id": "reader-16-ch-4"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the sentence 'Your heartbeat is steady and strong,' what does 'steady' mean?",
+          "options": [
+            "Irregular and unpredictable",
+            "Regular and even",
+            "Very fast and rapid",
+            "Weak and faint"
+          ],
+          "correct": 1,
+          "explanation": "The doctor uses 'steady' to describe a healthy heartbeat. In this context, 'steady' means regular and consistent, not fluctuating or irregular.",
+          "id": "reader-16-ch-4-q5",
+          "chapter_id": "reader-16-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "anxious",
+          "definition": "Feeling worried or nervous about something."
+        },
+        {
+          "word": "improvement",
+          "definition": "A change that makes something better or more positive."
+        },
+        {
+          "word": "willpower",
+          "definition": "The ability to control oneself and make determined choices."
+        },
+        {
+          "word": "efficient",
+          "definition": "Working in a way that produces good results without wasting time or energy."
+        },
+        {
+          "word": "portion",
+          "definition": "An amount of food served for one person."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about one small change you could make this week to improve your heart health. It could be walking more, eating less salt, drinking more water, or something else. Describe the change, why you chose it, and how you plan to do it. What might be hard about it, and how will you stay motivated?",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}
