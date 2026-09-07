@@ -78,25 +78,36 @@ services:
     networks:
       - teach-network
 
-  pronunciation:
-    image: teach-pronunciation
-    container_name: teach-pronunciation
-    restart: unless-stopped
-    ports:
-      - "5002:5002"
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
-      - PYTHONUNBUFFERED=1
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    networks:
-      - teach-network
+  # Pronunciation (speech scoring) — disabled in Docker to avoid pulling a multi-GB
+  # CUDA + PyTorch image. Run it natively instead, reusing the torch/CUDA already on
+  # your machine:
+  #     cd services/audio
+  #     pip install -r requirements-pronunciation.txt   # torch NOT included — uses yours
+  #     python pronunciation_service.py                 # serves on 0.0.0.0:5002
+  # The backend reaches it via PRONUNCIATION_URL (defaults to host.docker.internal
+  # below). To run it in Docker instead, uncomment this service and set the backend's
+  # PRONUNCIATION_URL back to http://teach-pronunciation:5002.
+  #
+  # pronunciation:
+  #   build: ./services/audio   # builds the local image; `image:` just names/tags it
+  #   image: teach-pronunciation
+  #   container_name: teach-pronunciation
+  #   restart: unless-stopped
+  #   ports:
+  #     - "5002:5002"
+  #   environment:
+  #     - NVIDIA_VISIBLE_DEVICES=all
+  #     - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+  #     - PYTHONUNBUFFERED=1
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   networks:
+  #     - teach-network
 
   kokoro:
     build: ./services/kokoro
@@ -153,7 +164,10 @@ services:
       - QWEN_MODEL=${QWEN_MODEL:-inclusionai/ling-3.0-flash-sante:free}
       - LLM_FALLBACK_MODELS=${LLM_FALLBACK_MODELS:-minimax/minimax-m3:free,liquid/lfm-2.5-2.6b:free}
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
-      - PRONUNCIATION_URL=http://teach-pronunciation:5002
+      # Pronunciation runs natively on the host by default (see the commented-out
+      # service above). host.docker.internal lets this container reach it. Set to
+      # http://teach-pronunciation:5002 if you re-enable the Docker service.
+      - PRONUNCIATION_URL=${PRONUNCIATION_URL:-http://host.docker.internal:5002}
       - KOKORO_URL=http://kokoro-tts:8880
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
       - ADMIN_EMAIL=${ADMIN_EMAIL:-}
@@ -163,6 +177,7 @@ services:
     volumes:
       - ./backend/audio:/app/audio
       - ./backend/books:/app/books:ro
+      - ./backend/readers:/app/readers:ro
       - ./backend/unit-1:/app/unit-1:ro
       - ./backend/unit-2:/app/unit-2:ro
       - ./backend/unit-3:/app/unit-3:ro
