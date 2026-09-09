@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { CheckCircle, BookOpen, MessageSquare, PenTool, ChevronDown, ChevronUp, Eye, EyeOff, Zap, AlertCircle, Target, Mic2, FileText, Volume2 } from 'lucide-react';
 import { Quiz } from './Quiz';
 import { ListeningExercise } from './index';
+import AssignHomeworkButton from '../AssignHomeworkButton';
+import WritingFeedback from '../WritingFeedback';
 
 const SECTIONS = [
   { id: 'objectives',   label: 'Objectives',         icon: Target },
@@ -626,6 +628,17 @@ export default function AdvancedLesson({ lesson, onQuizComplete, onRequestHelp }
                 )}
               </div>
             )}
+
+            <WritingFeedback text={writingText} prompt={lesson.extended_writing.task} />
+
+            <div className="mt-4 mb-2">
+              <AssignHomeworkButton
+                lessonId={lesson.id}
+                title={`Extended writing — ${lesson.title || 'lesson'}`}
+                task={lesson.extended_writing.task}
+                modelAnswer={lesson.extended_writing.model_answer}
+              />
+            </div>
 
             <button onClick={() => finish('writing', nextSection('writing'))}
               className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-semibold transition-colors">

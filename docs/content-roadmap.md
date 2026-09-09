@@ -208,44 +208,44 @@ capstone** (`capstone-test.json`, `/api/placement/capstone/*`, 75%+ = college-re
 **Done when:** "finished unit 13 and passed the capstone" is a measurable,
 defensible C1 claim.
 
-## Phase 7 — Learner experience: retention + the authentic bridge
+## Phase 7 — Learner experience: retention + the authentic bridge  ✅ COMPLETE
 
 The features that keep a learner alive for 18 months and carry them past what
 TTS-and-lessons can teach. All deterministic, all free-tier.
 
 Daily engine ("school feeling"):
-- [ ] Daily plan generator on the dashboard: today's lesson + reading period
+- [x] Daily plan generator on the dashboard: today's lesson + reading period
       (current book) + conversation practice + SRS review, sized to the user's
       available minutes
-- [ ] Homework loop: the lesson's writing task is assigned, due "tomorrow", and
+- [x] Homework loop: the lesson's writing task is assigned, due "tomorrow", and
       reviewed on return (self-check against model answer)
-- [ ] Weekly auto-review session assembled from that week's mistakes and due vocab
-- [ ] Monthly "report card": words learned, words read, hours listened, level line
+- [x] Weekly auto-review session assembled from that week's mistakes and due vocab
+- [x] Monthly "report card": words learned, words read, hours listened, level line
 
 Practice modes (built from existing transcripts/audio/mic code):
-- [ ] **Dictation**: TTS plays a transcript sentence, learner types it; exact-match
+- [x] **Dictation**: TTS plays a transcript sentence, learner types it; exact-match
       scoring with diff highlighting. Highest value-per-effort feature available
-- [ ] **Mistake notebook**: wrong quiz answers and corrected errors auto-collected
+- [x] **Mistake notebook**: wrong quiz answers and corrected errors auto-collected
       into a personal SRS deck
-- [ ] **Shadowing**: play a dialogue line, record, play both back-to-back
-- [ ] Audio variety: multiple edge-tts voices (US/UK + Kenyan/Nigerian/Tanzanian
+- [x] **Shadowing**: play a dialogue line, record, play both back-to-back
+- [x] Audio variety: multiple edge-tts voices (US/UK + Kenyan/Nigerian/Tanzanian
       English) and playback speed control on all audio — authenticity training
       for B1+
 
 The authentic-materials bridge (how learners finish the climb to C1):
-- [ ] Per-level "real world" assignments from B1 up: curated authentic materials
+- [x] Per-level "real world" assignments from B1 up: curated authentic materials
       (news article, talk, podcast episode, academic excerpt) wrapped in the
       app's own task apparatus (comprehension Qs, vocab extraction, summary task).
       Content cost ≈ 0 — we author tasks, not texts
-- [ ] Frame it as the unlock/reward: "you are ready to read this real thing"
+- [x] Frame it as the unlock/reward: "you are ready to read this real thing"
 
 Access + feedback (mission-critical for the free user):
-- [ ] PWA / offline mode: downloadable lessons, readers, and audio for low-data
+- [x] PWA / offline mode: downloadable lessons, readers, and audio for low-data
       Android use — for the target audience this rivals any pedagogical feature
-- [ ] Basic AI writing feedback **free at 1/day** (costs ~a penny; at C1 feedback
+- [x] Basic AI writing feedback **free at 1/day** (costs ~a penny; at C1 feedback
       is load-bearing, not a luxury — the paid tier keeps unlimited + deeper
       feedback and AI conversation). Depends on the platform work (cloud LLM)
-- [ ] Speaking-club prompts: a weekly discussion prompt per level band that
+- [x] Speaking-club prompts: a weekly discussion prompt per level band that
       learners can take to any partner/group (Telegram/WhatsApp community link)
 
 **Done when:** a learner opens the app any day and knows exactly what to do,

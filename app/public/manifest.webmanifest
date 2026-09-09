@@ -1,0 +1,17 @@
+{
+  "name": "Barashada Ingiriisiga",
+  "short_name": "Barashada",
+  "description": "Learn English from zero to C1 — for Somali speakers. Lessons, reading, listening, speaking, and vocabulary, free and offline-friendly.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "lang": "en",
+  "icons": [
+    { "src": "/pwa-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

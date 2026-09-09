@@ -7,6 +7,8 @@ import { cacheGet, cacheSet, clearCache } from '../utils/cache';
 import { STRINGS } from '../utils/strings';
 import ErrorBox from '../components/ErrorBox';
 import FeedbackModal from '../components/FeedbackModal';
+import DailyPlan from '../components/DailyPlan';
+import SpeakingClub from '../components/SpeakingClub';
 
 const UNITS_TTL = 30_000; // 30 seconds
 
@@ -232,6 +234,12 @@ export default function Dashboard() {
           </Link>
         </div>
       )}
+
+      {/* Today's practice plan */}
+      <DailyPlan />
+
+      {/* This week's speaking club prompt */}
+      <SpeakingClub />
 
       {/* Talk with Mr. Hassan */}
       <TalkCard />

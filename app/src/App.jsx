@@ -19,6 +19,13 @@ import VocabularyReview from './pages/VocabularyReview';
 import Progress from './pages/Progress';
 import Certificate from './pages/Certificate';
 import WritingExam from './pages/WritingExam';
+import Dictation from './pages/Dictation';
+import Shadowing from './pages/Shadowing';
+import MistakeNotebook from './pages/MistakeNotebook';
+import Homework from './pages/Homework';
+import WeeklyReview from './pages/WeeklyReview';
+import Authentic from './pages/Authentic';
+import ReportCard from './pages/ReportCard';
 import AdminFeedback from './pages/AdminFeedback';
 
 function LoadingScreen() {
@@ -178,6 +185,13 @@ function AppShell() {
         <Route path="/progress" element={<ProtectedRoute><Progress /></ProtectedRoute>} />
         <Route path="/certificate" element={<ProtectedRoute><Certificate /></ProtectedRoute>} />
         <Route path="/exam/:unitId" element={<ProtectedRoute><WritingExam /></ProtectedRoute>} />
+        <Route path="/dictation" element={<ProtectedRoute><Dictation /></ProtectedRoute>} />
+        <Route path="/shadowing" element={<ProtectedRoute><Shadowing /></ProtectedRoute>} />
+        <Route path="/notebook" element={<ProtectedRoute><MistakeNotebook /></ProtectedRoute>} />
+        <Route path="/homework" element={<ProtectedRoute><Homework /></ProtectedRoute>} />
+        <Route path="/weekly-review" element={<ProtectedRoute><WeeklyReview /></ProtectedRoute>} />
+        <Route path="/authentic" element={<ProtectedRoute><Authentic /></ProtectedRoute>} />
+        <Route path="/report" element={<ProtectedRoute><ReportCard /></ProtectedRoute>} />
         <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
       </Routes>
     </div>

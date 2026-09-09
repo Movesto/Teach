@@ -387,6 +387,14 @@ export default function Progress() {
         {/* Can-do statements */}
         {canDo && canDo.units?.length > 0 && <CanDoCard data={canDo} />}
 
+        {/* Printable progress report */}
+        <button
+          onClick={() => navigate('/report')}
+          className="w-full py-3 rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm font-medium text-gray-700 dark:text-gray-300 hover:border-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-400"
+        >
+          📄 View / print your progress report
+        </button>
+
         {/* Stats grid */}
         <div className="grid grid-cols-2 gap-3">
           <StatCard

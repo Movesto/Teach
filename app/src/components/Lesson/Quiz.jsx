@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
+import { apiFetch } from '../../utils/api';
 
 export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp }) {
   const [currentQ, setCurrentQ] = useState(0);
@@ -53,6 +54,22 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
       const finalScore = scoredCount > 0 ? Math.round((correctCount / scoredCount) * 100) : 100;
       setScore(finalScore);
       setQuizComplete(true);
+
+      // Collect wrong scored answers into the mistake notebook (fire-and-forget).
+      const wrong = [];
+      questions.forEach((q, i) => {
+        if ((q.type === 'multiple-choice' || q.type === 'listening') && answers[i] !== q.correct) {
+          wrong.push({
+            question: q.question,
+            correct_answer: q.options?.[q.correct],
+            your_answer: answers[i] != null ? q.options?.[answers[i]] : '',
+            source: 'quiz',
+          });
+        }
+      });
+      if (wrong.length) {
+        apiFetch('/api/practice/mistakes', { method: 'POST', body: JSON.stringify({ mistakes: wrong }) }).catch(() => {});
+      }
     } else {
       setCurrentQ(currentQ + 1);
     }
