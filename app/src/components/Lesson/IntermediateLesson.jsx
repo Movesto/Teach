@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { CheckCircle, BookOpen, MessageSquare, Volume2, Mic, PenTool, ChevronDown, ChevronUp, Eye, EyeOff, Lightbulb, Target } from 'lucide-react';
 import { Quiz } from './Quiz';
 import { ListeningExercise } from './index';
+import AssignHomeworkButton from '../AssignHomeworkButton';
+import WritingFeedback from '../WritingFeedback';
 
 const SECTIONS = [
   { id: 'objectives',   label: 'Objectives',        icon: Target,        has: () => true },
@@ -441,9 +443,21 @@ export default function IntermediateLesson({ lesson, somali, onQuizComplete, onR
               rows={7}
               className="w-full px-4 py-3 border-2 border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:border-teal-500 dark:focus:border-teal-400 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 resize-none mb-1"
             />
-            <p className="text-xs text-gray-400 dark:text-gray-500 mb-5">
+            <p className="text-xs text-gray-400 dark:text-gray-500 mb-2">
               {writingText.trim().split(/\s+/).filter(Boolean).length} words
             </p>
+
+            <WritingFeedback text={writingText} prompt={lesson.writing_workshop.task} />
+
+            <div className="mt-4 mb-2">
+              <AssignHomeworkButton
+                lessonId={lesson.id}
+                title={`Writing workshop — ${lesson.title || 'lesson'}`}
+                task={lesson.writing_workshop.task}
+                modelAnswer={lesson.writing_workshop.model_text}
+              />
+            </div>
+
             <button onClick={() => finish('writing', 'quiz')}
               className="w-full py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-xl font-semibold transition-colors">
               Take the Quiz →

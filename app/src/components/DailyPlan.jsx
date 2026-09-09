@@ -1,15 +1,21 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Repeat, Ear, BookMarked, MessageCircle, ChevronRight, Mic } from 'lucide-react';
+import { BookOpen, Repeat, Ear, BookMarked, MessageCircle, ChevronRight, Mic, CalendarCheck, Globe } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
 
+const B1_PLUS = ['B1', 'B2', 'C1'];
+
 export default function DailyPlan() {
+  const { user } = useAuth();
   const [due, setDue] = useState(0);
   const [mistakes, setMistakes] = useState(0);
+  const [homework, setHomework] = useState(0);
 
   useEffect(() => {
     apiFetch('/api/vocabulary/due').then(r => (r.ok ? r.json() : null)).then(d => setDue(d?.words?.length ?? 0)).catch(() => {});
     apiFetch('/api/practice/mistakes').then(r => (r.ok ? r.json() : null)).then(d => setMistakes(d?.mistakes?.length ?? 0)).catch(() => {});
+    apiFetch('/api/practice/homework').then(r => (r.ok ? r.json() : null)).then(d => setHomework(d?.pending ?? 0)).catch(() => {});
   }, []);
 
   const items = [
@@ -18,6 +24,9 @@ export default function DailyPlan() {
     { to: '/dictation', icon: Ear, label: 'Dictation practice', color: 'text-blue-500' },
     { to: '/shadowing', icon: Mic, label: 'Shadowing (speak)', color: 'text-pink-500' },
     { to: '/notebook', icon: BookMarked, label: 'Fix your mistakes', color: 'text-red-500', badge: mistakes },
+    { to: '/homework', icon: BookMarked, label: 'Homework', color: 'text-amber-500', badge: homework },
+    { to: '/weekly-review', icon: CalendarCheck, label: 'Weekly review', color: 'text-teal-500' },
+    ...(B1_PLUS.includes(user?.cefr_level) ? [{ to: '/authentic', icon: Globe, label: 'Real-world English', color: 'text-green-600' }] : []),
     { to: '/talk', icon: MessageCircle, label: 'Practice conversation', color: 'text-purple-500' },
   ];
 

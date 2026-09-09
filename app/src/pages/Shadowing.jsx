@@ -5,6 +5,14 @@ import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
 
 const LEVELS = ['A2', 'B1', 'B2', 'C1'];
+const ACCENTS = [
+  { id: 'us', label: 'US' },
+  { id: 'uk', label: 'UK' },
+  { id: 'ke', label: 'Kenya' },
+  { id: 'ng', label: 'Nigeria' },
+  { id: 'tz', label: 'Tanzania' },
+];
+const SPEEDS = [0.75, 1, 1.25];
 
 export default function Shadowing() {
   const navigate = useNavigate();
@@ -16,6 +24,8 @@ export default function Shadowing() {
   const [recording, setRecording] = useState(false);
   const [recUrl, setRecUrl] = useState(null);
   const [micError, setMicError] = useState(false);
+  const [accent, setAccent] = useState('us');
+  const [speed, setSpeed] = useState(1);
 
   const recorderRef = useRef(null);
   const chunksRef = useRef([]);
@@ -34,10 +44,13 @@ export default function Shadowing() {
 
   const item = items && items[idx];
 
+  const audioUrl = () => `${item.audio}?accent=${accent}`;
+
   const playModel = () => {
     if (!item) return;
     audioRef.current?.pause();
-    const a = new Audio(item.audio);
+    const a = new Audio(audioUrl());
+    a.playbackRate = speed;
     audioRef.current = a;
     a.play().catch(() => {});
   };
@@ -66,7 +79,8 @@ export default function Shadowing() {
   const playBoth = () => {
     if (!item) return;
     audioRef.current?.pause();
-    const model = new Audio(item.audio);
+    const model = new Audio(audioUrl());
+    model.playbackRate = speed;
     audioRef.current = model;
     model.onended = () => {
       if (recUrl) { const me = new Audio(recUrl); audioRef.current = me; me.play().catch(() => {}); }
@@ -108,7 +122,28 @@ export default function Shadowing() {
         ) : (
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 p-6">
             <p className="text-xs text-gray-400 dark:text-gray-500 mb-2 text-center">Hear it, then say it the same way.</p>
-            <p className="text-xl font-medium text-gray-900 dark:text-white text-center leading-relaxed mb-6">{item.text}</p>
+            <p className="text-xl font-medium text-gray-900 dark:text-white text-center leading-relaxed mb-5">{item.text}</p>
+
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 mb-5">
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs text-gray-400 dark:text-gray-500">Accent</span>
+                <div className="flex flex-wrap gap-1">
+                  {ACCENTS.map(a => (
+                    <button key={a.id} onClick={() => setAccent(a.id)}
+                      className={`px-2 py-0.5 rounded-md text-xs font-medium ${accent === a.id ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300'}`}>{a.label}</button>
+                  ))}
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs text-gray-400 dark:text-gray-500">Speed</span>
+                <div className="flex gap-1">
+                  {SPEEDS.map(s => (
+                    <button key={s} onClick={() => setSpeed(s)}
+                      className={`px-2 py-0.5 rounded-md text-xs font-medium ${speed === s ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300'}`}>{s}×</button>
+                  ))}
+                </div>
+              </div>
+            </div>
 
             <div className="flex justify-center mb-4">
               <button onClick={playModel} className="flex items-center gap-2 px-5 py-3 rounded-xl bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 font-semibold hover:bg-indigo-100 dark:hover:bg-indigo-900/50">

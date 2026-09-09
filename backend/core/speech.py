@@ -13,17 +13,22 @@ from core.ai_client import get_client
 logger = logging.getLogger(__name__)
 
 
-async def synthesize(text: str, kokoro_voice: str, edge_voice: str, prefix: str = "tts") -> Optional[str]:
+async def synthesize(text: str, kokoro_voice: str, edge_voice: str, prefix: str = "tts",
+                     force_edge: bool = False) -> Optional[str]:
     """Synthesize `text` to a cached mp3 and return its /audio URL (or None).
 
     Caching is keyed by (prefix, kokoro_voice, text), so identical requests reuse
-    the file and audio is only generated on first access.
+    the file and audio is only generated on first access. Set `force_edge` to skip
+    Kokoro entirely — needed when the caller wants a specific edge-tts accent that
+    Kokoro's voice set cannot produce (the cache key uses `edge_voice` in that case
+    so each accent caches separately).
     """
     clean = re.sub(r"[^\x00-\x7F]+", " ", text or "").strip()
     if not clean:
         return None
 
-    cache_key = hashlib.md5(f"{prefix}:{kokoro_voice}:{clean}".encode()).hexdigest()
+    voice_key = edge_voice if force_edge else kokoro_voice
+    cache_key = hashlib.md5(f"{prefix}:{voice_key}:{clean}".encode()).hexdigest()
     filename = f"{prefix}_{cache_key}.mp3"
     cache_file = AUDIO_DIR / filename
     url = f"/audio/{filename}"
@@ -32,16 +37,17 @@ async def synthesize(text: str, kokoro_voice: str, edge_voice: str, prefix: str 
         return url
 
     client = get_client()
-    try:
-        resp = await client.post(
-            f"{KOKORO_URL}/v1/audio/speech",
-            json={"model": "kokoro", "input": clean, "voice": kokoro_voice, "response_format": "mp3"},
-        )
-        if resp.status_code == 200:
-            cache_file.write_bytes(resp.content)
-            return url
-    except Exception as e:
-        logger.warning("Kokoro TTS unavailable (%s), falling back to edge-tts", e)
+    if not force_edge:
+        try:
+            resp = await client.post(
+                f"{KOKORO_URL}/v1/audio/speech",
+                json={"model": "kokoro", "input": clean, "voice": kokoro_voice, "response_format": "mp3"},
+            )
+            if resp.status_code == 200:
+                cache_file.write_bytes(resp.content)
+                return url
+        except Exception as e:
+            logger.warning("Kokoro TTS unavailable (%s), falling back to edge-tts", e)
 
     try:
         import edge_tts

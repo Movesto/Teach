@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
 
 const LEVELS = ['A2', 'B1', 'B2', 'C1'];
+const SPEEDS = [0.75, 1, 1.25];
 
 export default function Dictation() {
   const navigate = useNavigate();
@@ -17,7 +18,10 @@ export default function Dictation() {
   const [scores, setScores] = useState([]);
   const [done, setDone] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
+  const [speed, setSpeed] = useState(1);
   const audioRef = useRef(null);
+  const speedRef = useRef(1);
+  useEffect(() => { speedRef.current = speed; }, [speed]);
 
   useEffect(() => {
     let cancelled = false;
@@ -37,15 +41,18 @@ export default function Dictation() {
     if (!item) return;
     audioRef.current?.pause();
     const a = new Audio(item.audio);
+    a.playbackRate = speedRef.current;
     audioRef.current = a;
     a.play().catch(() => {});
   };
 
-  // auto-play each new sentence (play() touches no React state)
+  // auto-play each new sentence (reads speed via ref so a speed change alone
+  // doesn't replay the sentence)
   useEffect(() => {
     if (item && !result) {
       audioRef.current?.pause();
       const a = new Audio(item.audio);
+      a.playbackRate = speedRef.current;
       audioRef.current = a;
       a.play().catch(() => {});
     }
@@ -113,10 +120,17 @@ export default function Dictation() {
         ) : (
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 p-6">
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4 text-center">Listen and type exactly what you hear.</p>
-            <div className="flex justify-center mb-6">
+            <div className="flex flex-col items-center gap-3 mb-6">
               <button onClick={play} className="flex items-center gap-2 px-5 py-3 rounded-xl bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 font-semibold hover:bg-indigo-100 dark:hover:bg-indigo-900/50">
                 <Volume2 className="w-5 h-5" /> Play again
               </button>
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs text-gray-400 dark:text-gray-500">Speed</span>
+                {SPEEDS.map(s => (
+                  <button key={s} onClick={() => setSpeed(s)}
+                    className={`px-2 py-0.5 rounded-md text-xs font-medium ${speed === s ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300'}`}>{s}×</button>
+                ))}
+              </div>
             </div>
 
             {!result ? (

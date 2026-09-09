@@ -73,6 +73,16 @@ TTS_VOICE_MAP = {
 TTS_VOICE_DEFAULT = "en-US-JennyNeural"
 TEACHER_VOICE = "en-US-ChristopherNeural"
 
+# Accent variety for practice audio (Phase 7). "us" keeps the default Kokoro voice;
+# every other accent is produced by a regional edge-tts voice (Kokoro is bypassed).
+ACCENT_VOICES = {
+    "us": "en-US-JennyNeural",
+    "uk": "en-GB-SoniaNeural",
+    "ke": "en-KE-AsiliaNeural",
+    "ng": "en-NG-EzinneNeural",
+    "tz": "en-TZ-ImaniNeural",
+}
+
 RATE_LIMIT = 20
 RATE_WINDOW = 60
 AUTH_RATE_LIMIT = 5

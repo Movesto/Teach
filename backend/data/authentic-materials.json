@@ -1,0 +1,170 @@
+{
+  "B1": [
+    {
+      "id": "b1-voa-news",
+      "type": "read",
+      "title": "A real news story in simpler English",
+      "source": "VOA Learning English",
+      "url": "https://learningenglish.voanews.com/z/1581",
+      "duration": "10 min",
+      "intro": "This is real news, written for learners. The English is genuine but the pace is gentle. Pick any story from today.",
+      "comprehension": [
+        "What is the main event or topic of the story you chose?",
+        "Where and when did it happen?",
+        "Name two facts the writer gives to support the main idea.",
+        "Why do you think this story is important to the people involved?"
+      ],
+      "vocab_task": "Find 5 new words. Write each word, guess its meaning from the sentence, then check a dictionary.",
+      "summary_task": "Write 4-5 sentences retelling the story in your own words. Do not copy sentences from the article.",
+      "min_words": 60
+    },
+    {
+      "id": "b1-6min-english",
+      "type": "listen",
+      "title": "6 Minute English podcast",
+      "source": "BBC Learning English",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+      "duration": "15 min",
+      "intro": "Two real BBC presenters discuss one topic for six minutes. Listen once for the general idea, then again with the transcript.",
+      "comprehension": [
+        "What question do the presenters ask at the start?",
+        "What was the answer to their quiz question?",
+        "Explain two of the vocabulary words they taught in this episode.",
+        "Do you agree with the opinions the speakers shared? Why or why not?"
+      ],
+      "vocab_task": "The episode teaches 5-6 words. Write them down with the example sentence the presenters used.",
+      "summary_task": "In 4-5 sentences, tell a friend what this episode was about and one thing you learned.",
+      "min_words": 60
+    },
+    {
+      "id": "b1-single-story",
+      "type": "listen",
+      "title": "The danger of a single story",
+      "source": "TED — Chimamanda Ngozi Adichie",
+      "url": "https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story",
+      "duration": "25 min",
+      "intro": "A Nigerian writer explains how one story about a place or people can be misleading. Turn on English subtitles. This speaker is clear and slow.",
+      "comprehension": [
+        "What does the speaker mean by 'a single story'?",
+        "Give one example she uses from her own life.",
+        "How can a single story create a stereotype?",
+        "What is one 'single story' people sometimes believe about your country?"
+      ],
+      "vocab_task": "Find 5 words or phrases you did not know. Note the time in the video where you heard each one.",
+      "summary_task": "Write 5-6 sentences: what is the speaker's main message, and why does it matter?",
+      "min_words": 70
+    }
+  ],
+  "B2": [
+    {
+      "id": "b2-bbc-news",
+      "type": "read",
+      "title": "A full BBC news article",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news",
+      "duration": "15 min",
+      "intro": "This is native-speed journalism — no simplification. Choose a longer article (not a short update) on a topic you care about.",
+      "comprehension": [
+        "Summarise the article's main argument or event in one sentence.",
+        "What evidence or sources does the journalist use?",
+        "Identify one fact and one opinion in the article.",
+        "What information do you think was left out, and why might that matter?"
+      ],
+      "vocab_task": "Collect 6 words or collocations that are new or used in an unfamiliar way. Write your own sentence for each.",
+      "summary_task": "Write a 6-8 sentence summary suitable for someone who has not read the article.",
+      "min_words": 90
+    },
+    {
+      "id": "b2-body-language",
+      "type": "listen",
+      "title": "Your body language may shape who you are",
+      "source": "TED — Amy Cuddy",
+      "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are",
+      "duration": "25 min",
+      "intro": "A social psychologist argues that how we stand can change how we feel. Watch at full speed if you can; use subtitles only when stuck.",
+      "comprehension": [
+        "What is the speaker's central claim about 'power posing'?",
+        "How does she support the claim — what experiment does she describe?",
+        "What is the personal story she tells near the end?",
+        "Are you convinced by her argument? What would make it stronger?"
+      ],
+      "vocab_task": "Note 6 academic or descriptive words. For each, write a synonym and an antonym.",
+      "summary_task": "Write an 8-sentence summary that explains both her claim and her evidence.",
+      "min_words": 100
+    },
+    {
+      "id": "b2-guardian-long",
+      "type": "read",
+      "title": "A Guardian long read",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/series/the-long-read",
+      "duration": "30 min",
+      "intro": "Long-form journalism on one topic in depth. These essays use rich vocabulary and complex sentences — exactly the stretch you need.",
+      "comprehension": [
+        "What is the writer's thesis (main point of view)?",
+        "How is the article structured — how does it move from start to finish?",
+        "Find two places where the writer uses a story or example to make a point.",
+        "What counter-arguments, if any, does the writer address?"
+      ],
+      "vocab_task": "Choose 8 advanced words. Group them: which are formal, which are figurative (metaphor/idiom)?",
+      "summary_task": "Write a paragraph (8-10 sentences) summarising the argument and your reaction to it.",
+      "min_words": 120
+    }
+  ],
+  "C1": [
+    {
+      "id": "c1-economist",
+      "type": "read",
+      "title": "An analytical article on world affairs",
+      "source": "The Economist",
+      "url": "https://www.economist.com/",
+      "duration": "25 min",
+      "intro": "Dense, argument-driven writing with a distinctive voice and dry humour. Read an article to the end and follow the line of reasoning.",
+      "comprehension": [
+        "State the article's argument in one precise sentence.",
+        "Trace the reasoning: what are the two or three steps that lead to the conclusion?",
+        "Where does the writer use irony, understatement, or wit? Quote it.",
+        "What assumption underlies the argument? Would you challenge it?"
+      ],
+      "vocab_task": "Collect 8-10 items: advanced vocabulary, idioms, and any culturally specific references. Explain each.",
+      "summary_task": "Write a critical response (10-12 sentences): summarise the argument, then evaluate whether it holds up.",
+      "min_words": 150
+    },
+    {
+      "id": "c1-single-story-adv",
+      "type": "listen",
+      "title": "How great leaders inspire action",
+      "source": "TED — Simon Sinek",
+      "url": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
+      "duration": "25 min",
+      "intro": "A fast, rhetorical talk built on a single model ('start with why'). Follow the rhetoric at native speed and notice how he persuades.",
+      "comprehension": [
+        "Explain the 'golden circle' model in your own words.",
+        "What examples does he use, and why does he choose them?",
+        "Identify two rhetorical techniques (repetition, contrast, rhetorical question, etc.) and where he uses them.",
+        "How persuasive is the talk? Distinguish the strength of the idea from the strength of the delivery."
+      ],
+      "vocab_task": "Note 8 phrases used for persuasion or emphasis. Mark which you could use in a presentation of your own.",
+      "summary_task": "Write a 10-12 sentence analysis of both what he argues and how he argues it.",
+      "min_words": 150
+    },
+    {
+      "id": "c1-gutenberg",
+      "type": "read",
+      "title": "A chapter of classic literature",
+      "source": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/search/?sort_order=downloads",
+      "duration": "40 min",
+      "intro": "Read one chapter of a classic novel (try Orwell, Austen, or Dickens). Literary English stretches you further than any news article.",
+      "comprehension": [
+        "What happens in the chapter, and from whose point of view is it told?",
+        "Describe the tone or mood. What creates it?",
+        "Find a sentence whose meaning depends on style (irony, metaphor, long syntax). Unpack it.",
+        "What does this chapter suggest about the writer's world or values?"
+      ],
+      "vocab_task": "Collect 10 words: some archaic/literary, some still current. Note which you would actually use today.",
+      "summary_task": "Write a literary response (12-15 sentences): what happened, and what the writing does well.",
+      "min_words": 180
+    }
+  ]
+}
