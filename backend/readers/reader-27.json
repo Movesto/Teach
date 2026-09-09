@@ -1,0 +1,584 @@
+{
+  "id": "reader-27",
+  "title": "The Pivot",
+  "author": "Barashada Ingiriisiga",
+  "level": "B2",
+  "cefr": "upper-intermediate",
+  "interest_tags": [
+    "tech",
+    "work"
+  ],
+  "genre": "Realistic fiction",
+  "description": "Three friends launch a small tech product, but when it fails to gain traction, they must confront their fears and decide whether to give up or reinvent their dream.",
+  "word_count": 6816,
+  "reading_time_minutes": 38,
+  "chapters": [
+    {
+      "id": "reader-27-ch-1",
+      "title": "The Idea",
+      "text": "The idea started with a leaky faucet. Maya had been staring at it for three days, a steady, rhythmic drip that echoed through her small apartment like a metronome counting down to her sanity. She had watched three different online tutorials, borrowed a wrench from her neighbor, and even attempted to disassemble the entire fixture, only to reassemble it with two pieces left over and a spray of water that soaked her kitchen ceiling. It was a disaster. The landlord's recommended plumber was booked for two weeks, and every other professional she called quoted a price that felt like a personal insult.\n\nThat evening, she sat in Omar's garage, which served as their unofficial headquarters, a cluttered space filled with spare computer parts, a 3D printer that rarely worked, and the lingering smell of burnt coffee. Omar and Lena were there, Lena hunched over her laptop, Omar fiddling with a circuit board. Maya pushed her glasses up her nose and sighed dramatically.\n\n\"I have a problem,\" she announced. \"The modern world has failed me. I am a capable, intelligent woman, and I am being defeated by a piece of metal and rubber.\"\n\nOmar didn't look up. \"The faucet again?\"\n\n\"The faucet,\" she confirmed. \"I've spent more time on that thing than I have on my own thesis. And it's not just me. My entire building is falling apart. The hallway light flickers, the elevator makes a sound like a dying animal, and the paint is peeling in the bathroom. There's no way to find anyone to fix any of it quickly.\"\n\nLena finally closed her laptop, her brow furrowed. \"That's the real problem, isn't it? It's not the faucet. It's the discovery process. You either get a huge, expensive company that treats your small job like a nuisance, or you try to find a 'guy' who knows a 'guy' and hope he shows up. There's no middle ground. No transparency. No reviews. It's a mess.\"\n\nMaya's frustration suddenly crystallized. It wasn't just her problem; it was a systemic issue. \"Exactly! We're in the middle of a digital revolution, and we still find handymen through crumpled flyers on a bulletin board at the grocery store. Why isn't there an app for this?\"\n\nOmar put down his circuit board. A slow smile spread across his face. He was the visionary, the one who always saw the potential in a chaotic idea. \"An app... that connects people with local, vetted professionals. You could see their profiles, their past work, read reviews from your actual neighbors. You could get a price estimate upfront, schedule a time that works for you, and pay securely through the platform.\"\n\nLena, the pragmatist, was already thinking in code and business models. \"We could have a rating system for both sides. Professionals get rated on their punctuality and quality of work, and clients get rated on their clarity and payment speed. It creates a community of trust. We could call it... 'FixIt'? No, too generic. 'HandyMate'? Too casual.\"\n\n\"What about 'LocalFix'?\" Maya suggested, the excitement beginning to build in her chest. \"It emphasizes the community aspect. It's about getting help from the people who live in your neighborhood.\"\n\nThe three of them looked at each other. This was it. The spark. They had been looking for a project, something real to pour their skills into, something beyond their day jobs and their academic pursuits. Maya was a designer with an eye for user experience, Lena was a brilliant software developer, and Omar could talk anyone into anything and had a knack for understanding the market. They were the perfect team.\n\nFor the next three weeks, the garage became their world. They named the company \"LocalFix.\" The energy was electric. They lived on a diet of pizza, energy drinks, and pure ambition. Maya spent hours sketching wireframes on a whiteboard, creating a user interface that was so simple and intuitive that even her technologically-challenged grandmother could use it. She drew the profile page, the booking calendar, and the review screen, constantly refining the flow of the app.\n\nLena, in the meantime, was in her element. She wrote thousands of lines of code, building the backend system that would handle user accounts, job postings, payment processing, and the complex search algorithm. She worked late into the night, her face illuminated by the glow of her monitor, muttering to herself as she debugged a particularly stubborn piece of code. \"It's a logic problem,\" she'd say, more to the screen than to them. \"It's always a logic problem.\"\n\nOmar was the strategist. He wasn't writing code or designing screens; he was out in the field. He'd spend his days talking to plumbers, electricians, and carpenters, asking them about their business. He learned about their struggles with no-shows, with clients who haggled, with the constant chase for new work. He came back with a notepad full of insights. \"They're not just looking for jobs,\" he told them one evening, his voice hoarse from talking. \"They're looking for reliability. They want to know they're going to get paid. If we can guarantee that, we have them.\"\n\nThe first version of the app, or the \"Minimum Viable Product\" as Lena insisted on calling it, was a clunky thing. It was slow, it crashed occasionally, and the color scheme was a garish shade of orange that Maya had already decided to change. But it worked. They could create a profile, post a job, and theoretically, find a professional. They tested it on themselves, on their friends, and on their very reluctant families.\n\nMaya's father was their first real-world test. He was skeptical, as always. \"An app? For a handyman?\" He grumbled, looking at the phone Maya had shoved into his hand. \"What's wrong with the yellow pages?\"\n\n\"Dad, just try it,\" she pleaded. \"I posted a job for fixing your squeaky door.\"\n\nHe grumbled some more, but he tapped through the screens. He saw a list of three local carpenters, each with a profile, a photo, and a five-star rating. He read a review from a woman who lived two streets over, praising one of them for being prompt and polite. He looked up from the phone, his expression shifting from skepticism to surprise. \"Huh. This is... actually pretty useful.\"\n\nThat small victory was enough to fuel them for another week. They were convinced. This wasn't just a project; it was a mission. They were solving a problem, connecting their community, and building a business from the ground up. The garage, once a cluttered storage space, now felt like a mission control center. The whiteboard was covered in diagrams and user-flow charts, and the walls were plastered with sticky notes containing ideas for new features.\n\nBut as the days turned into weeks, the initial euphoria began to fray at the edges. They had a prototype, but they didn't have a launch strategy. They had a few dozen beta testers, but they didn't have a marketing budget. And the questions, which had once seemed simple, were becoming more complicated.\n\n\"What if a professional does a bad job?\" Maya asked one night, staring at the whiteboard. \"What if a client tries to scam a professional?\"\n\n\"We'll have a dispute resolution system,\" Lena said, but her voice lacked its usual confidence.\n\n\"How are we going to get our first hundred users?\" Omar asked, more to himself than to them. \"A good app is nothing without a network.\"\n\nThe doubts were starting to creep in. They had poured their time, their energy, and their savings into this idea. They had believed in it with all their hearts. But now, standing on the edge of the launch, they were beginning to see the vast, uncertain space that lay before them. The idea was brilliant, but the execution was a different story. They had built a small machine in a garage, but they were about to find out if it could survive in the real world. They were fueled by hope, but they were starting to taste the fear of failure.",
+      "word_count": 1338,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the initial problem that led to the idea for LocalFix?",
+          "options": [
+            "A leaky faucet.",
+            "A broken elevator.",
+            "A faulty circuit board.",
+            "A peeling paint."
+          ],
+          "correct": 0,
+          "explanation": "The story begins with Maya's leaky faucet, which frustrated her and sparked the idea for an app to find local professionals.",
+          "id": "reader-27-ch-1-q1",
+          "chapter_id": "reader-27-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "Which of the following is NOT a feature of the LocalFix app as described?",
+          "options": [
+            "Profiles of professionals.",
+            "Reviews from neighbors.",
+            "Price estimates upfront.",
+            "A chat feature for messaging."
+          ],
+          "correct": 3,
+          "explanation": "The text mentions profiles, reviews, price estimates, and secure payment, but no chat feature is ever described.",
+          "id": "reader-27-ch-1-q2",
+          "chapter_id": "reader-27-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the main concern that the friends had after the initial success?",
+          "options": [
+            "Lack of funding.",
+            "Competition from other apps.",
+            "How to get their first hundred users.",
+            "The app crashing."
+          ],
+          "correct": 2,
+          "explanation": "Omar asks 'How are we going to get our first hundred users?' and the text describes doubts about the launch, highlighting user acquisition as the main worry.",
+          "id": "reader-27-ch-1-q3",
+          "chapter_id": "reader-27-ch-1"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did Maya's father react after trying the app?",
+          "options": [
+            "He was impressed and praised it.",
+            "He was skeptical but then found it useful.",
+            "He thought it was too complicated.",
+            "He refused to use it."
+          ],
+          "correct": 1,
+          "explanation": "He grumbled initially, but after using it, he said 'This is... actually pretty useful,' showing he was skeptical at first but then saw its value.",
+          "id": "reader-27-ch-1-q4",
+          "chapter_id": "reader-27-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the text, the word 'crystallized' (as in 'Maya's frustration suddenly crystallized') most nearly means:",
+          "options": [
+            "Became solid.",
+            "Became clear and definite.",
+            "Turned into ice.",
+            "Disappeared."
+          ],
+          "correct": 1,
+          "explanation": "In context, her frustration became focused and concrete, turning into a clear idea, so 'became clear and definite' is the best meaning.",
+          "id": "reader-27-ch-1-q5",
+          "chapter_id": "reader-27-ch-1"
+        },
+        {
+          "type": "vocabulary",
+          "question": "The word 'pragmatist' (referring to Lena) means someone who:",
+          "options": [
+            "Is idealistic.",
+            "Focuses on practical results.",
+            "Is a dreamer.",
+            "Avoids risks."
+          ],
+          "correct": 1,
+          "explanation": "A pragmatist is practical and realistic, focusing on what works, which matches Lena's role in thinking about code and business models.",
+          "id": "reader-27-ch-1-q6",
+          "chapter_id": "reader-27-ch-1"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "crystallized",
+          "definition": "Became clear and definite; turned into a concrete form or idea."
+        },
+        {
+          "word": "pragmatist",
+          "definition": "Someone who focuses on practical results rather than theories or ideals."
+        },
+        {
+          "word": "visionary",
+          "definition": "A person with original and imaginative ideas about the future."
+        },
+        {
+          "word": "skeptical",
+          "definition": "Having doubts or reservations; not easily convinced."
+        },
+        {
+          "word": "euphoria",
+          "definition": "Intense excitement and happiness, often felt in the early stages of a project."
+        }
+      ]
+    },
+    {
+      "id": "reader-27-ch-2",
+      "title": "The Launch",
+      "text": "The morning of the launch felt different from all the weeks that had come before it. For the first time, the garage seemed less like a workshop and more like a command centre. Maya had arrived early, her laptop open on the workbench, a fresh cup of coffee cooling beside her. Omar was pacing the concrete floor, checking his phone every few seconds. Lena was adjusting the settings on the app's dashboard, her fingers moving with the kind of careful precision that had become her trademark.\n\nThey had prepared a small marketing push: a few posts on social media, some flyers placed in local hardware stores, and a message sent to friends and family asking them to try the app and share it with anyone they knew. It wasn't much, but it was what they could afford. Their combined savings had already gone into hosting and basic tools, and none of them had wanted to ask their parents for more money. This was their project. Their test of whether they could build something real.\n\nAt ten o'clock, Lena pressed a button and the app went live. For the first hour, nothing happened. The three of them sat in the garage, refreshing the download numbers like impatient children watching a kettle boil. Then, slowly, the numbers began to move. A download here, another there. By midday, they had passed fifty. By the late afternoon, they were over two hundred. Maya let out a small cheer when the counter ticked past three hundred, and Omar clapped his hands together with a sound that echoed off the garage walls.\n\n\"This is it,\" he said, grinning. \"People are actually interested. We're not just imagining it.\"\n\nLena was more cautious, but even she allowed herself a smile. \"Three hundred people in one day is decent. Not spectacular, but decent. If we can keep this going for a week, we might hit a thousand.\"\n\nThey celebrated that evening with cheap pizza and a bottle of warm lemonade from the fridge at the back of the garage. They talked about the future as if it were already written: a larger team, proper offices, investors knocking on their door. It felt good to believe, even for just a few hours, that their idea was working.\n\nBut reality arrived the next morning, in the form of emails.\n\nLena opened the first one before she had even finished her coffee. A user named Carlos had written to say that the app kept crashing when he tried to upload photos of his kitchen sink. Another message, from a woman named Priya, complained that the booking system had charged her twice. A third came from a handyman who said he had received three separate requests for the same job because of a mistake in the matching algorithm.\n\nThe enthusiasm from the night before did not disappear all at once. Instead, it faded slowly, like a light being turned down in careful stages. At first, they joked about the bugs. Every startup had them, Omar said. The important thing was that people were using the app, and where there was use, there was evidence that the concept could work. Maya agreed, but her voice was less certain. She had spent the morning trying to reproduce the double-charging issue, and her screen was covered in test transactions and error logs.\n\nBy the third day, the volume of complaints had grown. There were still new downloads, but they were slower now, and each download seemed to bring another report of something going wrong. Lena spent her days in the dashboard, tracking user behaviour and looking for patterns. She found one fairly quickly: the app's map feature was failing on phones that had older operating systems. It was a technical problem she could fix, but only if she had time, and time was being eaten by her role as the unofficial customer support team.\n\nThe support requests came in through every channel they had provided: an email address, a simple contact form, and a handful of social media messages. There was no system to manage them, no way to sort the serious issues from the trivial ones. So Lena did what she could, replying to each message by hand, trying to sound calm and helpful while her list of unresolved problems grew longer. She wrote short scripts that she could copy and paste, but the scripts did not solve the problems themselves)Skip.\n\nOmar took responsibility for the technical fixes. He worked late into the night, often falling asleep on the old sofa in the corner of the garage with his laptop still open on his chest. But every fix seemed to create a new problem somewhere else. He fixed the map issue, and suddenly the payment system began sending confirmation emails to the wrong addresses. He corrected the email bug, and a new error appeared in the scheduling feature cancelling bookings made more than thirty minutes in advance.\n\nMaya tried to keep the bigger picture in mind. She was the one who had pushed for a public launch. She had argued that waiting for a perfect product was a form of fear, and that real progress meant putting something out into the world and learning from the response. Now she wondered whether her confidence had been misplaced. She spent her days reading the reviews, watching the rating on the app store fall from 4.2 to 3.8, and trying to decide which complaints needed answers and which could be ignored.\n\nBy the end of the first week, they had received more than five hundred downloads. It was a number they had once dreamed of reaching, but it no longer felt like a victory. It felt like a responsibility they were failing to manage. The email inbox had grown to over a hundred messages, most of them unanswered. The rating had dropped again. A few of the handymen who had signed up in the early days had already written to say they were removing themselves from the platform because the bookings were unreliable.\n\nThe garage no longer felt like a command centre. It felt like a place where three tired people went to fight the same battles every day, with no clear ground being gained. The laughter that had followed the launch had disappeared, replaced by short conversations about error codes and database queries. Even the pizza boxes from that first night were still stacked in the corner, a reminder of a moment that already seemed distant.\n\nOne evening, after another long day of damage control, Maya called them together. She did not have a plan, not exactly. She just needed to say something honest. \"We have a choice here,\" she said, her voice quieter than usual. \"We can keep going like this, fixing things one by one, hoping that eventually we get ahead of the problems. Or we can stop. We can turn the app off, take what we've learned, and think about whether we're building the right thing in the right way.\"\n\nOmar looked up from his laptop. His eyes were red from the lack of sleep. \"You're not serious. We can't just quit. We have hundreds of users. That's proof that there's demand.\"\n\n\"It's proof that people are interested,\" Maya said carefully. \"But it's also proof that we didn't test this enough before we showed it to the world. We were so excited to launch that we skipped the hard part, and now we're paying for it.\"\n\nLena said nothing at first. She was still scrolling through the list of unresolved tickets, her face lit by the glow of the screen. When she finally spoke, her voice was flat with exhaustion. \"Whatever we decide, we can't keep doing this. Not like this. We're going to burn out, and then we'll have nothing at all.\"\n\nThey sat in silence for a moment, the weight of the decision pressing down on them. Outside, the evening was quiet. Somewhere in the neighbourhood, a dog barked, and a car engine turned over and faded into the distance. Inside the garage, the question hung in the air between them: was this the end, or could it still become something else?",
+      "word_count": 1360,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was the initial reaction of the team after the app went live?",
+          "options": [
+            "They were immediately discouraged by the lack of downloads.",
+            "They celebrated with pizza and lemonade after seeing promising numbers.",
+            "They decided to turn off the app because of technical issues.",
+            "They spent the first hour fixing a major bug."
+          ],
+          "correct": 1,
+          "explanation": "The text says they celebrated that evening with cheap pizza and warm lemonade after reaching over three hundred downloads by the late afternoon.",
+          "id": "reader-27-ch-2-q1",
+          "chapter_id": "reader-27-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the main problem that Lena discovered in the app?",
+          "options": [
+            "The payment system was charging users twice.",
+            "The map feature failed on older operating systems.",
+            "The booking system cancelled appointments after 30 minutes.",
+            "The confirmation emails went to wrong addresses."
+          ],
+          "correct": 1,
+          "explanation": "Lena found that the map feature was failing on phones with older operating systems, which was a technical issue she could fix but lacked time for.",
+          "id": "reader-27-ch-2-q2",
+          "chapter_id": "reader-27-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "In the context of the chapter, what does 'trademark' mean in the phrase 'her trademark'?",
+          "options": [
+            "A legal symbol for a brand",
+            "A characteristic quality or habit",
+            "A type of software bug",
+            "A marketing tool"
+          ],
+          "correct": 1,
+          "explanation": "Here 'trademark' refers to Lena's distinctive, characteristic way of doing things-her careful precision-not a legal symbol.",
+          "id": "reader-27-ch-2-q3",
+          "chapter_id": "reader-27-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "Why did the team's enthusiasm fade by the third day?",
+          "options": [
+            "They had run out of money for hosting.",
+            "The number of downloads had stopped completely.",
+            "They were overwhelmed by user complaints and bugs.",
+            "Their parents asked them to stop the project."
+          ],
+          "correct": 2,
+          "explanation": "The text says the volume of complaints grew, and each download seemed to bring another report of something going wrong, leading to a slow fade of enthusiasm.",
+          "id": "reader-27-ch-2-q4",
+          "chapter_id": "reader-27-ch-2"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'damage control' mean as used in the chapter?",
+          "options": [
+            "Repairing physical damage to the garage",
+            "Actions taken to limit the negative impact of problems",
+            "Controlling the app's download numbers",
+            "A type of software testing"
+          ],
+          "correct": 1,
+          "explanation": "The team was dealing with complaints and bugs, so 'damage control' refers to efforts to minimize the harm caused by the app's issues.",
+          "id": "reader-27-ch-2-q5",
+          "chapter_id": "reader-27-ch-2"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Maya's main concern at the end of the week?",
+          "options": [
+            "That they had not received enough downloads",
+            "That they had launched too early without proper testing",
+            "That Omar was sleeping too much",
+            "That Lena was ignoring support requests"
+          ],
+          "correct": 1,
+          "explanation": "Maya admitted they were so excited to launch that they skipped the hard part (testing), and now they were paying for it.",
+          "id": "reader-27-ch-2-q6",
+          "chapter_id": "reader-27-ch-2"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "command centre",
+          "definition": "A place where operations are coordinated and controlled."
+        },
+        {
+          "word": "trademark",
+          "definition": "A distinctive characteristic or habit that is typical of a person."
+        },
+        {
+          "word": "reproduce",
+          "definition": "To recreate or cause to happen again, especially in a test."
+        },
+        {
+          "word": "damage control",
+          "definition": "Efforts to limit the negative effects of a problem or mistake."
+        },
+        {
+          "word": "burn out",
+          "definition": "To become exhausted, physically or mentally, from overwork."
+        }
+      ]
+    },
+    {
+      "id": "reader-27-ch-3",
+      "title": "The Setback",
+      "text": "The email from Nathan arrived on a Tuesday morning, three weeks after the launch. Maya read it three times, unable to process the words. The cheerful greeting, the praise for their \"innovative concept,\" the awkward transition into \"after careful consideration,\" and finally, the brutal truth: he was pulling out. The initial offer of sixty thousand dollars, which had seemed like a life raft in a stormy sea, vanished with a single click of the send button.\n\nWhen the group video call began that evening, the mood was heavy. Omar's face was pale, his usual energetic demeanour replaced by a tight, nervous quiet. Lena had dark circles under her eyes, a testament to the sleepless nights she had spent responding to user complaints. Maya recounted the email in a flat, level voice, reading the key phrases aloud as if to prove they were real. The silence that followed was filled with the low hum of their respective computers and the distant sound of traffic from Omar's open garage door.\n\nOmar was the first to break the silence. \"We could try to get a meeting with him. Explain the user growth. The downloads are still climbing, even with the bugs.\" He was defensive, his hands moving in the air, painting a picture of a future that still felt manageable.\n\n\"That's the problem, Omar,\" Maya said, her voice weary. \"No new signups have come in for three days. The existing users are frustrated. The download numbers are frozen. Potential users are, frankly put, scared off by the bad reviews.\"\n\nLena nodded slowly. \"He didn't want a project that was bleeding users. He wanted to catch a wave of interest. We had a small one for about a week, but it's passed. Our brand is the blue one, and not in a good way.\"\n\nThe conversation was interrupted by a notification sound on Omar's laptop. He glanced at the screen, and a visible change seemed to pass through his body. His shoulders, already slumped, sagged further. He looked up, his face pale. \"It's Daniel. He's out.\"\n\nMaya and Lena exchanged a look of shock. Daniel was their third key partner, a developer who had designed the app's core system architecture. He was a free agent, and his skills were vital. Lena's voice was sharp, cutting through the silence. \"Out? What do you mean?\"\n\n\"He's accepted a full-time position at a larger software company in the city. He says our \"trajectory isn't in his risk profile\" anymore. He has a family to think about. He's made a good decision, he says.\"\n\nThe news that Daniel was leaving was a different kind of blow. It wasn't just a loss of potential money; it was a loss of a skilled person. His departure meant they couldn't promise a fix for the core bugs in the application. They would have to do it themselves, working on less sleep and with less certainty.\n\nTheir meeting, which was supposed to be a strategy session, quickly transformed into an emotional conflict. Omar, who had poured his own savings into the venture, grew frustrated. \"So what's the point? We worked on this for months. We believed in it. And, just because one market guy and one developer decide to jump ship, we throw everything away?\"\n\n\"It's not about simply throwing it away, Omar,\" Maya retorted, a note of frustration in her own voice. \"It's about our responsibility to ourselves. We are burning money, and now we're about to burn our own time for a product that the market has explicitly rejected. There's a difference between persistence and stubbornness.\"\n\n\"Stubbornness?\" Lena interjected, surprised at her words. \"I agree with Omar. We've already got a loyal segment. Some users have given us excellent feedback. They want us to fix the lag. They're waiting.\"\n\n\"That's a tiny sliver of users, Lena!\" Maya shot back, her voice rising to match Lena's. \"Five thousand users initially downloaded the app. Two thousand have uninstalled it. That leaves roughly three thousand, and a large portion of those are \"casual users\" who haven't opened the app in weeks. We're not a \"dedicated community\". We're a ghost town, holding a couple of loyal shopkeepers.\"\n\nThe clash was raw. It was personal now. They argued about the future, but the real topic was their own connection. Was this project worth their friendship? Was it worth another month of zero sleep and mounting failed promises? Could they learn to pivot, or was it a sunk-cost trap?\n\nLena, who often acted as a mediator, slammed her hand on the table. \"Stop! We need to be logical. Stop yelling at each other and accept the reality.\"\n\nIn the tense silence that followed, she drew a deep breath. \"Look, Omar, you want to fight. I understand. Maya, you want to look at the numbers. I also understand. But we are at a decision point. Do we continue down this path, or do we fundamentally change the lanes we are running in?\"\n\n\"We can't just \"pivot\" the app. That takes time we don't have,\" Maya said, her voice low but firm. \"And it would still be a beta. The source code is a mess. We're running out of funds. I've only have about two weeks of runway left. And without Daniel... our progress is delayed.\"\n\n\"That's exactly it,\" Omar said, pointing at Maya. \"We don't have Daniel to do the heavy lifting. So now is the moment to step up. We are capable developers. We stay up until it's fixed. We prioritize the three most high-priority crashing reports, and we release something so good that users have to come back. And as for investor, we'll find another. The idea is the real product-not the investment.\"\n\nMaya looked from one to the other. For the first time, her stoic exterior cracked. \"I... I just think we're being naive. Daniel saw it. Your \"frame-savvy\" potential user checks hands down. It was a nice, little, weekend project possibility. But it's not a business. And trying to make it one is just a waste of our last savings and our last energy.\"\n\nHer words hung in the air like a wet blanket. She hadn't meant to be cruel, but she hadn't seen the point. The persistency was a mask for fear. Fear of being seen a failure, fear of going back to a 9-to-5 job.\n\nLena looked at Omar. \"What would you do remotely? Don't ride on her coat \"Omar, tell me. What if we get no more money? What if we fail again?\"\n\nOmar fell back in his chair. His jaw tightened. \"Then I will have tried,\" he said, the words coming out slowly. \"That's how I look at it. In a lifetime, this is a blip. I don't want to look back with a regret of giving up too easily. I want to see this to its rightful conclusion. Whether that's a hundred user or a million.\"\n\nMaya let out a long, slow breath. She looked at Omar across the composite gray table. In the dim blue light of her, she saw the stubbornness of the man. He was a craftsman, and the ability to walk away was foreign to him. But her instinct was to protect her own.\n\n\"Alright,\" she said quietly. \"We have one more shot. We have two weeks, you and I, Lena, and if we can fix the three major bugs, stabilize the server, and have a substantial update in the store, then we'll see. That's the deal. If we can't do it, Omar, or if the numbers continue to fall, we shut it down. That is the pivot too. Pivoting to silence.\"\n\nOmar offered a hesitant nod. \"Two weeks is all I'm asking. We work as a team. We get this done.\"\n\nTheir meeting came to an end with no clear winner, only an uneasy truce. The path had no victory song; it was a matter of survival. In the quiet after they hung up, Maya stared at their business plan, the numbers now mocking her. The choice wasn't about a success or failure but about the manner in which they would face their own reality. The silence of the empty room answered her with a cold echo.",
+      "word_count": 1364,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "Why did Nathan send the email?",
+          "options": [
+            "a) To praise their concept",
+            "b) To offer more money",
+            "c) To withdraw his investment",
+            "d) To request a meeting"
+          ],
+          "correct": 2,
+          "explanation": "The text states that Nathan was 'pulling out' and that the initial offer of sixty thousand dollars 'vanished,' indicating he withdrew his investment.",
+          "id": "reader-27-ch-3-q1",
+          "chapter_id": "reader-27-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was Daniel's news?",
+          "options": [
+            "a) He wanted to leave but changed his mind",
+            "b) He accepted a job at a larger company",
+            "c) He decided to invest more",
+            "d) He found a new investor"
+          ],
+          "correct": 1,
+          "explanation": "The text says: 'He's accepted a full-time position at a larger software company.'",
+          "id": "reader-27-ch-3-q2",
+          "chapter_id": "reader-27-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "According to Maya, what was the state of the app?",
+          "options": [
+            "a) User numbers were growing",
+            "b) There were no new signups and users were frustrated",
+            "c) Downloads were increasing",
+            "d) Reviews were positive"
+          ],
+          "correct": 1,
+          "explanation": "Maya states: 'No new signups have come in for three days. The existing users are frustrated. The download numbers are frozen.'",
+          "id": "reader-27-ch-3-q3",
+          "chapter_id": "reader-27-ch-3"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the final decision they made?",
+          "options": [
+            "a) To shut down immediately",
+            "b) To give themselves two weeks to fix bugs and update",
+            "c) To find a new investor",
+            "d) To continue without changes"
+          ],
+          "correct": 1,
+          "explanation": "Maya says: 'We have two weeks... if we can fix the three major bugs, stabilize the server, and have a substantial update in the store, then we'll see.'",
+          "id": "reader-27-ch-3-q4",
+          "chapter_id": "reader-27-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'pulling out' mean in the context?",
+          "options": [
+            "a) Leaving a place",
+            "b) Withdrawing support or investment",
+            "c) Removing something from a container",
+            "d) Moving away quickly"
+          ],
+          "correct": 1,
+          "explanation": "In the text, Nathan is 'pulling out' his financial support, meaning he is withdrawing his investment.",
+          "id": "reader-27-ch-3-q5",
+          "chapter_id": "reader-27-ch-3"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does 'pivot' mean in a business context?",
+          "options": [
+            "a) To spin around",
+            "b) To change direction or strategy",
+            "c) To turn a lever",
+            "d) To rotate a device"
+          ],
+          "correct": 1,
+          "explanation": "In the text, they discuss 'pivot' as changing the app's direction or strategy, a common business term for a fundamental shift.",
+          "id": "reader-27-ch-3-q6",
+          "chapter_id": "reader-27-ch-3"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pulling out",
+          "definition": "Withdrawing support or investment from a venture."
+        },
+        {
+          "word": "pivot",
+          "definition": "To change direction or strategy, especially in business."
+        },
+        {
+          "word": "frustrated",
+          "definition": "Feeling annoyed or upset because of inability to change or achieve something."
+        },
+        {
+          "word": "trajectory",
+          "definition": "The path or course of development something follows."
+        },
+        {
+          "word": "stubbornness",
+          "definition": "The quality of being determined not to change one's attitude or position."
+        }
+      ]
+    },
+    {
+      "id": "reader-27-ch-4",
+      "title": "The Debate",
+      "text": "The garage felt colder than usual, as if the disappointment of the past week had seeped into the concrete floor. The three of them sat around the same folding table where they had built their prototype, but now the laptop in the center was closed, a silent symbol of their stalled project. Empty coffee cups littered the surface, and the air was thick with the residue of their last, heated argument.\n\nMaya broke the silence. She had been staring at her phone, scrolling through a spreadsheet of user data. \"I've been going through the numbers all night,\" she said, her voice steady but carrying an undercurrent of urgency. \"We have over four hundred downloads. That's not nothing. But the real story is in the feedback. Look at this.\" She turned her phone around to face the others. \"The most common complaint isn't that the service is bad. It's that the booking process is too complicated. People want to see a photo of the handyman and their past work before they commit. They don't trust a name and a star rating.\"\n\nOmar rubbed his eyes, which were red from lack of sleep. \"Maya, we've been over this. We don't have the resources to build a whole new photo and review system. We can barely keep the current app from crashing. Every hour we spend on this new feature is an hour we're not fixing the bugs that are driving people away.\" His voice was flat, drained of the passion that had once powered their late-night coding sessions. \"The investor backed out. The partner left. The market has spoken. The smartest thing we can do is stop the bleeding.\"\n\nLena, who had been quietly listening, leaned forward. She had a habit of tilting her head when she was thinking, and she did so now. \"Omar, you're not wrong about the bugs. But I think you're drawing the wrong conclusion. The problem isn't that people don't want our service. The problem is that we've made it too hard for them to use it.\"\n\n\"That's the same problem,\" Omar countered. \"If we can't fix it, it doesn't matter why they're leaving.\"\n\n\"No, it's different,\" Lena insisted. \"A bug is a technical issue. You can fix it with time and code. A bad market fit is a fundamental flaw in the idea. I think we have a good idea trapped inside a bad interface.\" She pulled a printed report from her bag. \"I talked to three of our users yesterday. Two of them said they would use the app again if they could see the handyman's face and read a genuine review. One of them said they'd even pay a small fee for a premium booking service. They didn't abandon us because the concept was wrong. They abandoned us because we made them work too hard.\"\n\nMaya nodded vigorously. \"Exactly. That's why I'm proposing we pivot. Not to a whole new product, but to a new core feature. We keep the matching engine, but we make the visual profile the center of the experience. We can build a simple photo upload and a basic comment system. It's not a massive overhaul.\"\n\nOmar threw his hands up. \"You're talking about weeks of work. We have maybe three months of savings left before we have to start paying back the loans we took out for equipment. And what do we have to show for it? A few hundred users who are mostly angry. We're not a startup anymore; we're a sinking ship. The most persuasive argument I have is our bank account.\"\n\nHe stood up and walked to the whiteboard, where a timeline of their project was still drawn. He pointed to the launch date. \"We had a plan. We executed it. It failed. There's no shame in that. But there is shame in throwing good money after bad. I say we shut it down, sell the equipment, and each take a job. We can start something new in a few years, with more experience and a better idea.\"\n\nThe silence that followed was heavy. Maya looked at the closed laptop, then at Omar. \"I hear you, and I respect the logic. But I don't think you're seeing the whole picture. You're looking at the data as a failure. I'm looking at it as a map.\" She pulled up another screen on her phone. \"Look at the usage time. The people who do manage to book a handyman spend an average of eleven minutes in the app. That's a long time. They're engaged. They're not clicking away in frustration. They're trying to figure out how to use it. The problem is the step where they have to choose a provider. They have no information, so they hesitate. That hesitation is our enemy, not the idea.\"\n\nLena interjected, her voice calm and measured. \"I think there's a middle path. Omar is right that we can't afford a full pivot. Maya is right that we have a signal in the data. So what if we do a small, controlled test? We don't rebuild the whole app. We add a simple 'photo gallery' feature to the existing profiles for the next two weeks. We manually upload pictures for the handymen we already have. We also add a one-line review box. We don't build a complex system; we just make a small modification to the existing code. We then measure the booking completion rate before and after the change.\"\n\nMaya's eyes lit up. \"That's a great idea. It's a minimal viable test. We're not betting the whole company on it. We're just gathering more data.\"\n\nBut Omar was shaking his head. \"You're both ignoring the basic math. Even a small change takes time. Time is money. We don't have a team of developers; we have us. I'm not willing to spend another month of my life and another thousand dollars on a test that has a high probability of failing. I've seen the reviews. People are complaining about the handymen themselves, not just the interface. One guy said the plumber was late and rude. A photo isn't going to fix that.\"\n\n\"That's a quality control issue, not a product issue,\" Maya countered. \"We can vet our handymen better. We can ask for references. That's a process change, not a code change.\"\n\nOmar sighed, a deep, weary sound. \"I don't know if I have the energy for another 'process change.' I feel like we're trying to rearrange the deck chairs on the Titanic.\"\n\nLena looked at him, her expression soft. \"I understand that feeling. I really do. We've all worked incredibly hard. But consider this: what have we actually learned? We learned that the basic concept of connecting people with local professionals has real demand. We learned that the execution was flawed. That's a valuable lesson. If we walk away now, we walk away with nothing but debt and a broken dream. If we try this one small test, we walk away with a clear answer. We'll know if the problem is fixable or not.\"\n\nShe paused, letting the words sink in. \"Let's not make a decision based on fear or exhaustion. Let's make it based on evidence. We have a hypothesis: visual trust will improve bookings. Let's test it. It's a two-week commitment. If it works, we have a path forward. If it doesn't, we close down with a clear conscience, knowing we tried our best with the information we had.\"\n\nMaya reached across the table and touched Omar's arm. \"I know you're tired. I am too. But I'm more afraid of the regret of quitting than the risk of trying. We have a chance to learn something. Let's not throw it away.\"\n\nOmar looked at the two of them. He saw the hope in Maya's eyes and the steady pragmatism in Lena's. He thought about the empty bank account and the sleepless nights. He thought about the investor who had walked away and the partner who had left. He looked back at the whiteboard, at the timeline that ended in failure. But then he thought about the eleven minutes of engagement, the users who had tried so hard to use their flawed app.\n\nHe let out a long breath. \"Two weeks,\" he said finally, his voice barely a whisper. \"One small test. We do it on a strict budget. And we all agree: if the numbers don't improve, we walk away. No hard feelings, no more debates. We accept the result.\"\n\nMaya smiled, a genuine smile that reached her eyes. \"Agreed.\"\n\nLena nodded. \"Agreed. Let's get to work.\"",
+      "word_count": 1428,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "According to the feedback, what is the most common complaint from users?",
+          "options": [
+            "The service is bad.",
+            "The booking process is too complicated.",
+            "The handymen are rude.",
+            "The app crashes frequently."
+          ],
+          "correct": 1,
+          "explanation": "Maya says: 'The most common complaint isn't that the service is bad. It's that the booking process is too complicated.'",
+          "id": "reader-27-ch-4-q1",
+          "chapter_id": "reader-27-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is Omar's main argument for shutting down the project?",
+          "options": [
+            "They don't have enough users.",
+            "They lack resources and money.",
+            "Users don't like the handymen.",
+            "He is too tired to continue."
+          ],
+          "correct": 1,
+          "explanation": "Omar mentions lack of resources, the investor backing out, and the need to 'stop the bleeding' due to financial constraints.",
+          "id": "reader-27-ch-4-q2",
+          "chapter_id": "reader-27-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What feature does Maya propose to add to the app?",
+          "options": [
+            "A completely new matching engine.",
+            "A photo upload and review system.",
+            "A chat support feature.",
+            "A loyalty program."
+          ],
+          "correct": 1,
+          "explanation": "Maya says: 'We can build a simple photo upload and a basic comment system' to make visual profiles central.",
+          "id": "reader-27-ch-4-q3",
+          "chapter_id": "reader-27-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is Lena's compromise suggestion?",
+          "options": [
+            "Immediately pivot to a new product.",
+            "Shut down after a month.",
+            "Run a small two-week test with photo galleries and one-line reviews.",
+            "Hire more developers to fix bugs."
+          ],
+          "correct": 2,
+          "explanation": "Lena proposes: 'We add a simple photo gallery feature to the existing profiles for the next two weeks. We also add a one-line review box.'",
+          "id": "reader-27-ch-4-q4",
+          "chapter_id": "reader-27-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What does Maya's data about usage time indicate?",
+          "options": [
+            "Users are frustrated and leave quickly.",
+            "Users are engaged but hesitate when choosing a provider.",
+            "Users do not understand the app at all.",
+            "Users prefer a competitor's app."
+          ],
+          "correct": 1,
+          "explanation": "Maya says: 'The people who do manage to book a handyman spend an average of eleven minutes in the app... They're engaged... The problem is the step where they have to choose a provider. They have no information, so they hesitate.'",
+          "id": "reader-27-ch-4-q5",
+          "chapter_id": "reader-27-ch-4"
+        },
+        {
+          "type": "comprehension",
+          "question": "What is the final decision made by the three?",
+          "options": [
+            "They decide to shut down immediately.",
+            "They decide to do a two-week test.",
+            "They decide to build a new app from scratch.",
+            "They decide to continue as is without changes."
+          ],
+          "correct": 1,
+          "explanation": "Omar agrees: 'Two weeks. One small test. We do it on a strict budget.' and the others agree.",
+          "id": "reader-27-ch-4-q6",
+          "chapter_id": "reader-27-ch-4"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prototype",
+          "definition": "An original or preliminary model of a product, used for testing and development."
+        },
+        {
+          "word": "pivot",
+          "definition": "To change direction or strategy, especially in business, to adapt to new circumstances."
+        },
+        {
+          "word": "hypothesis",
+          "definition": "A proposed explanation or assumption based on limited evidence, used as a starting point for further investigation."
+        },
+        {
+          "word": "vet",
+          "definition": "To examine or investigate someone or something carefully, especially before making a decision."
+        }
+      ]
+    },
+    {
+      "id": "reader-27-ch-5",
+      "title": "The Pivot",
+      "text": "The silence in Omar's garage felt heavier than the humid summer air. The three friends sat around the folding table, laptops closed, coffee cups empty. Maya had just finished her presentation, and the numbers still hung in the air like an unwelcome guest. Omar rubbed his eyes and leaned back in his chair.\n\n\"Okay,\" he said finally. \"I hear you. Both of you. But I need to be honest about something.\"\n\nLena looked up from her notebook. \"Go on.\"\n\n\"When I said we should quit, I wasn't being entirely rational.\" Omar paused, choosing his words carefully. \"I was tired. I was frustrated. And honestly, I was scared that we would keep throwing good time and money into something that was never going to work.\"\n\nMaya felt a small wave of relief. This was the first time Omar had admitted any doubt about his position. \"So what are you saying?\"\n\n\"I'm saying I'm willing to look at the data again. But I need us to be realistic about what we can actually achieve.\" He turned to the whiteboard where Maya had drawn a simple chart. \"You're proposing we focus on a much smaller group of users. That feels like a step backward.\"\n\nLena stood up and walked to the whiteboard. She picked up a marker and circled the segment Maya had highlighted. \"It's not a step backward. It's a step sideways. We were trying to serve everyone, and we ended up serving no one properly. The feedback we collected showed a clear pattern.\"\n\nMaya nodded. \"The users who complained most were the ones who needed help with urgent repairs, not scheduled maintenance. They wanted someone who could arrive within hours, not days. Our app was too slow and too complicated for that use case.\"\n\nOmar studied the chart. The data was there, in black and white. Users who searched for emergency plumbing or electrical work abandoned the app within minutes. They wanted speed, simplicity, and trust. The current version offered none of those things.\n\n\"Fine,\" he said, and the word felt like a door opening. \"Let's say we agree to focus on emergency repairs in a single city. What does that actually mean for the product?\"\n\nThe question sparked a new energy in the room. For the first time in weeks, they were not arguing about whether to continue but about how to continue. Maya pulled up her laptop and opened a document she had been working on all night.\n\n\"We strip the app down to three core functions,\" she explained. \"Request a repair, track the handyman's arrival, and pay securely. Nothing else. No reviews, no profiles, no messaging. Just the essentials.\"\n\nLena added, \"And we build a verification system for the handymen. We personally interview and check every single person who joins. That gives users confidence, which was one of the biggest complaints in our feedback.\"\n\nOmar raised an eyebrow. \"Personally interview? How many handymen are we talking about?\"\n\n\"Twenty, maybe thirty to start,\" Maya said. \"We're focusing on one district, remember. That's manageable.\"\n\nThe conversation continued for another two hours. They debated the pricing model, the response time targets, and the marketing approach. Omar, once the most skeptical, became the most detail-oriented, questioning every assumption and pushing for concrete numbers. By the time the sun began to set, they had a plan.\n\nThe next three weeks were intense. They worked in shifts, often overlapping in the garage, surrounded by empty takeaway containers and energy drink cans. Maya rewrote the entire user interface, simplifying it to the point where a person with limited technical skills could navigate it without help. Lena built a new backend system that matched users with available handymen based on location and skill, and she designed a simple payment system that held funds until the job was completed.\n\nOmar took on the task of recruiting handymen. He visited local hardware stores, community centers, and even a few construction sites, explaining the new approach. He was surprised by how many people were interested. The promise of steady work, fair payment, and a simple system appealed to them. Within two weeks, he had signed up twenty-two handymen, all of whom had passed the verification process.\n\nThe relaunch was deliberately quiet. They chose a single district, a mix of older apartment buildings and newer developments, and they targeted their marketing at local community groups and building managers. Instead of a big launch event, they sent personal emails to the users who had given them the most detailed feedback, inviting them to try the new version.\n\nThe first week was nerve-wracking. They watched the dashboard obsessively, refreshing the page every few minutes. The download numbers were modest, but the usage patterns were different. People were actually completing requests. The average response time was under two hours, and the completion rate was high.\n\nThen came the moment that changed everything. A woman in her sixties, living alone in an old apartment building, submitted a request for a leaking pipe at nine in the evening. Within twenty minutes, a handyman named Carlos accepted the job. He arrived at her door forty minutes later, fixed the pipe in under an hour, and sent the payment request through the app. The woman left a note in the feedback form: \"I didn't think an app could do this. Thank you.\"\n\nMaya read the note aloud to the team the next morning. No one said anything for a moment. Then Omar smiled, a genuine smile that reached his eyes.\n\n\"That's what we were trying to build all along,\" he said quietly.\n\nThe second week brought more requests, and with them, new challenges. A handyman cancelled at the last minute, leaving a customer frustrated. Another job took longer than expected, and the customer complained about the cost. They handled each issue personally, calling the customers, apologizing, and finding solutions. It was exhausting, but it was also clarifying.\n\nAt the end of the third week, they sat down to review the numbers. The app had processed forty-seven completed jobs, with an average rating of 4.6 out of five. The retention rate was significantly higher than the previous version. They were still losing money, but the losses were smaller, and the trend was moving in the right direction.\n\n\"We're not profitable yet,\" Lena said, stating the obvious. \"But we have something we didn't have before.\"\n\n\"What's that?\" Omar asked.\n\n\"Proof. Proof that people want this, that the model can work, that we can deliver.\" She paused. \"And proof that we can adapt.\"\n\nMaya looked at her two friends. They were tired, thinner, and covered in the dust of hard work. But there was something different in their eyes. The fear and doubt that had filled the garage three weeks ago had been replaced by something quieter and more solid.\n\n\"We didn't get it right the first time,\" she said. \"But we got it right this time. And that's the lesson, isn't it? The first version was never going to be the final version. We just had to be willing to change.\"\n\nOmar nodded slowly. \"I thought quitting was the brave choice. But actually, staying and changing direction took more courage.\" He looked at the dashboard, where a new request had just appeared. \"So what's next?\"\n\nLena smiled. \"We keep going. We learn from every job, every complaint, every success. And we build from here.\"\n\nThe garage felt different now. The same folding table, the same whiteboard, the same coffee stains. But the atmosphere had shifted. They were no longer three friends trying to save a failing project. They were three partners who had discovered that resilience was not about avoiding failure but about moving through it.\n\nOutside, the summer sun was setting, casting long shadows across the driveway. Inside, the screen glowed with the promise of another request, another chance to prove that they had learned the most valuable lesson of all: the pivot was not the end of their story. It was the beginning.",
+      "word_count": 1326,
+      "questions": [
+        {
+          "type": "comprehension",
+          "question": "What was Omar's initial position regarding the project?",
+          "options": [
+            "He wanted to continue but with changes.",
+            "He wanted to quit.",
+            "He was neutral.",
+            "He wanted to expand to more cities."
+          ],
+          "correct": 1,
+          "explanation": "Omar admits he had said they should quit and that he was scared and frustrated, indicating his initial stance was to quit.",
+          "id": "reader-27-ch-5-q1",
+          "chapter_id": "reader-27-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "What major change did the team decide to implement?",
+          "options": [
+            "Focus on scheduled maintenance instead of emergency repairs.",
+            "Expand to multiple cities.",
+            "Focus on emergency repairs in a single city and simplify the app.",
+            "Add more features to attract users."
+          ],
+          "correct": 2,
+          "explanation": "Maya proposed focusing on emergency repairs in a single district and stripping the app to three core functions, which they agreed to.",
+          "id": "reader-27-ch-5-q2",
+          "chapter_id": "reader-27-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "How did the team build trust with users regarding handymen?",
+          "options": [
+            "They relied on user reviews.",
+            "They let handymen join freely.",
+            "They personally interviewed and verified each handyman.",
+            "They offered guarantees."
+          ],
+          "correct": 2,
+          "explanation": "Lena said they would build a verification system and personally interview and check every person who joins, giving users confidence.",
+          "id": "reader-27-ch-5-q3",
+          "chapter_id": "reader-27-ch-5"
+        },
+        {
+          "type": "comprehension",
+          "question": "What was the outcome after the first week of the relaunch?",
+          "options": [
+            "High downloads but low completion rate.",
+            "Modest downloads but high completion rate and different usage patterns.",
+            "No downloads at all.",
+            "Many complaints."
+          ],
+          "correct": 1,
+          "explanation": "The text states download numbers were modest, but usage patterns were different, people completed requests, and the completion rate was high.",
+          "id": "reader-27-ch-5-q4",
+          "chapter_id": "reader-27-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does the word \"pivot\" mean in the context of the last paragraph?",
+          "options": [
+            "A physical turn.",
+            "A change in strategy or direction.",
+            "A type of tool.",
+            "A failure."
+          ],
+          "correct": 1,
+          "explanation": "In the text, \"the pivot\" refers to the change in their business approach from serving everyone to focusing on a specific need, so it means a strategic change.",
+          "id": "reader-27-ch-5-q5",
+          "chapter_id": "reader-27-ch-5"
+        },
+        {
+          "type": "vocabulary",
+          "question": "What does \"retention\" refer to in the third week?",
+          "options": [
+            "The number of handymen.",
+            "The ability to keep users using the app.",
+            "The amount of money earned.",
+            "The speed of response."
+          ],
+          "correct": 1,
+          "explanation": "The text says \"retention rate was significantly higher,\" which refers to the percentage of users who continue to use the app over time.",
+          "id": "reader-27-ch-5-q6",
+          "chapter_id": "reader-27-ch-5"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pivot",
+          "definition": "A change in strategy or direction, especially in business."
+        },
+        {
+          "word": "retention",
+          "definition": "The ability to keep customers or users over time."
+        },
+        {
+          "word": "verification",
+          "definition": "The process of checking or proving that something is true or valid."
+        },
+        {
+          "word": "abandoned",
+          "definition": "Left or given up; in the text, users left the app quickly."
+        }
+      ]
+    }
+  ],
+  "writing_prompt": {
+    "prompt": "Think about a time when you had to decide whether to keep trying or give up on a goal. What factors helped you make that decision? Write about how you persuaded yourself or others to choose a path.",
+    "word_count_min": 60,
+    "word_count_max": 140
+  }
+}

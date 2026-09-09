@@ -12,10 +12,12 @@ Phase 4 item and is not built here.
 import json
 import logging
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import RedirectResponse
 
 from core.config import READERS_DIR, KOKORO_VOICE, TTS_VOICE_DEFAULT
+from core.db import get_db, release_db
+from core.security import get_optional_user
 from core.speech import synthesize
 
 logger = logging.getLogger(__name__)
@@ -122,8 +124,11 @@ async def reader_chapter_audio(reader_id: str, idx: int):
 
 
 @router.post("/readers/{reader_id}/chapters/{idx}/submit")
-async def submit_chapter(reader_id: str, idx: int, submission: dict):
-    """Grade a chapter's multiple-choice answers against the stored key.
+async def submit_chapter(reader_id: str, idx: int, submission: dict,
+                         current_user=Depends(get_optional_user)):
+    """Grade a chapter's multiple-choice answers against the stored key, and (for a
+    logged-in reader) record the chapter as read so it counts toward vocabulary
+    coverage — reusing user_chapter_progress (book_id = reader id).
 
     submission: {"answers": [{"question_id": str, "answer": int}, ...]}
     """
@@ -133,7 +138,8 @@ async def submit_chapter(reader_id: str, idx: int, submission: dict):
     chapters = reader.get("chapters", [])
     if not (0 <= idx < len(chapters)):
         raise HTTPException(status_code=404, detail="Chapter not found")
-    qmap = {q["id"]: q for q in chapters[idx].get("questions", [])}
+    chapter = chapters[idx]
+    qmap = {q["id"]: q for q in chapter.get("questions", [])}
 
     correct = 0
     detailed = []
@@ -151,9 +157,47 @@ async def submit_chapter(reader_id: str, idx: int, submission: dict):
             "explanation": q.get("explanation"),
         })
     total = len(qmap)
+    score = round(correct / total * 100) if total else 0
+
+    if current_user:
+        _mark_chapter_read(current_user["id"], reader_id, chapter.get("id"), score)
+
     return {
-        "score": round(correct / total * 100) if total else 0,
+        "score": score,
         "correct_answers": correct,
         "total_questions": total,
         "detailed_results": detailed,
     }
+
+
+def _mark_chapter_read(user_id, reader_id, chapter_id, score):
+    """Record a read reader-chapter in user_chapter_progress (shared with books)."""
+    if not chapter_id:
+        return
+    conn = None
+    try:
+        conn = get_db()
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO user_chapter_progress
+                    (user_id, book_id, chapter_id, quiz_score, writing_passed)
+                VALUES (%s, %s, %s, %s, TRUE)
+                ON CONFLICT (user_id, book_id, chapter_id) DO UPDATE SET
+                    completed_at = CURRENT_TIMESTAMP,
+                    quiz_score   = EXCLUDED.quiz_score
+                """,
+                (user_id, reader_id, chapter_id, score),
+            )
+            conn.commit()
+    except Exception as e:
+        logger.warning("[readers] could not record chapter progress: %s", e)
+    finally:
+        release_db(conn)
+    # Academic (NAWL) words from this chapter -> SRS deck (reading builds the
+    # academic vocabulary; opens its own connection).
+    try:
+        from core.vocab_seed import academic_words_for_chapter, seed_words
+        seed_words(user_id, academic_words_for_chapter(chapter_id))
+    except Exception as e:
+        logger.warning("[readers] academic vocab seed failed: %s", e)

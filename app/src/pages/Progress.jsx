@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award } from 'lucide-react';
+import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award, Target } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
 const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -111,9 +111,49 @@ function VocabBar({ learning, mastered }) {
   );
 }
 
+function CoverageCard({ cov }) {
+  const pct = cov.target_total ? Math.min(100, Math.round((cov.learned / cov.target_total) * 100)) : 0;
+  const ngsl = cov.by_list?.ngsl || { learned: 0, total: 0 };
+  const nawl = cov.by_list?.nawl || { learned: 0, total: 0 };
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center gap-2 mb-3">
+        <Target className="w-4 h-4 text-purple-500" />
+        <p className="font-semibold text-gray-900 dark:text-white text-sm">Vocabulary toward C1</p>
+      </div>
+      <p className="text-3xl font-bold text-gray-900 dark:text-white">
+        {cov.learned.toLocaleString()}
+        <span className="text-lg font-medium text-gray-400 dark:text-gray-500"> of {cov.target_total.toLocaleString()} words</span>
+      </p>
+      <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+        Core + academic words you have met in completed lessons and reading.
+      </p>
+      <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+        <div className="h-3 rounded-full bg-purple-500 transition-all duration-700" style={{ width: `${pct}%` }} />
+      </div>
+      {cov.reader_chapters_read > 0 && (
+        <p className="text-xs text-purple-600 dark:text-purple-400 mt-2">
+          +{cov.reading_added} new from reading · {cov.reader_chapters_read} reader chapter{cov.reader_chapters_read !== 1 ? 's' : ''} read
+        </p>
+      )}
+      <div className="grid grid-cols-2 gap-3 mt-4">
+        <div>
+          <p className="text-xs text-gray-500 dark:text-gray-400">Core (NGSL)</p>
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">{ngsl.learned} / {ngsl.total.toLocaleString()}</p>
+        </div>
+        <div>
+          <p className="text-xs text-gray-500 dark:text-gray-400">Academic (NAWL)</p>
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">{nawl.learned} / {nawl.total.toLocaleString()}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Progress() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
+  const [coverage, setCoverage] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -122,6 +162,10 @@ export default function Progress() {
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => { setStats(data); setLoading(false); })
       .catch(() => { setError('Could not load progress.'); setLoading(false); });
+    apiFetch('/api/vocabulary/coverage')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setCoverage)
+      .catch(() => {});
   }, []);
 
   if (loading) {
@@ -182,6 +226,9 @@ export default function Progress() {
             ))}
           </div>
         </div>
+
+        {/* Vocabulary coverage toward C1 */}
+        {coverage && <CoverageCard cov={coverage} />}
 
         {/* Stats grid */}
         <div className="grid grid-cols-2 gap-3">

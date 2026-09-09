@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, RotateCcw, Check, X, BookOpen, Star } from 'lucide-react';
+import { ChevronLeft, RotateCcw, Check, X, BookOpen, Star, Volume2 } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 import ErrorBox from '../components/ErrorBox';
 
@@ -67,6 +67,15 @@ export default function VocabularyReview() {
   const knew = () => submitResult(true);
   const didntKnow = () => submitResult(false);
   const knewCount = results.filter(r => r.knew).length;
+
+  const audioRef = useRef(null);
+  const playAudio = (text) => {
+    if (!text) return;
+    audioRef.current?.pause();
+    const a = new Audio(`/api/tts?text=${encodeURIComponent(text)}`);
+    audioRef.current = a;
+    a.play().catch(() => {});
+  };
 
   if (loading) {
     return (
@@ -239,6 +248,30 @@ export default function VocabularyReview() {
               </>
             )}
           </button>
+
+          {/* Audio + example */}
+          <div className="mt-4 flex flex-col items-center gap-3">
+            <button
+              onClick={() => playAudio(word.word)}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-900/50"
+            >
+              <Volume2 className="w-3.5 h-3.5" /> Hear it
+            </button>
+            {flipped && word.example && (
+              <div className="w-full bg-gray-50 dark:bg-gray-800 rounded-xl p-3 flex items-start gap-2">
+                <p className="flex-1 text-sm text-gray-700 dark:text-gray-300 italic leading-relaxed">
+                  &ldquo;{word.example}&rdquo;
+                </p>
+                <button
+                  onClick={() => playAudio(word.example)}
+                  className="shrink-0 text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400"
+                  title="Hear the sentence"
+                >
+                  <Volume2 className="w-4 h-4" />
+                </button>
+              </div>
+            )}
+          </div>
 
           {/* Prompt */}
           {!flipped && (

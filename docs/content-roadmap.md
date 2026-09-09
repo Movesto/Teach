@@ -162,16 +162,23 @@ with audio, for free.
 
 ## Phase 5 — Vocabulary with a destination
 
-- [ ] Add word lists to the repo: NGSL core (~2,800 words) mapped to units 1–8;
-      Academic Word List (~570 families) mapped to units 9–13
-- [ ] Tag each lesson and reader with the list-words it introduces (script over
-      existing content; new content tagged at authoring time)
-- [ ] Somali glosses for all list words (from Phase 1 script output; fill any
-      remainder **[GPU box]**)
-- [ ] SRS upgrades: seed from tagged content; example sentence + audio per card
-- [ ] Coverage display: "you know N of ~8,500 C1-level words" on dashboard/progress
+**Done 2026-09-07** (PR #12). Used NGSL 2801 + NAWL 959 + 47 supplementary (~3,807
+target words) from one authoritative NGSL-project source — NAWL rather than the
+older Coxhead AWL, for a consistent general+academic target.
 
-**Done when:** vocabulary progress is a visible number tied to a real C1 target.
+- [x] Add word lists to the repo (`backend/data/wordlists/`): NGSL general core +
+      NAWL academic + supplementary. Static txt, no runtime dependency.
+- [x] Tag each lesson and reader with the list-words it introduces
+      (`scripts/tag_vocabulary.py` → `content-index.json`; content covers 3535/3807).
+- [x] Somali glosses for all list words (`scripts/gloss_wordlists.py` via NLLB →
+      `glosses-so.json`). *Machine-generated — flag for native-speaker review.*
+- [x] SRS upgrades: seed academic (NAWL) words from completed lessons/readers
+      (`core/vocab_seed.py`); example sentence (`word-examples.json`) + audio
+      (`/api/tts`) per card in VocabularyReview.
+- [x] Coverage display: "Vocabulary toward C1 — N of ~3,807" on the Progress page
+      (counts completed lessons **and** reader chapters read).
+
+**Done when:** vocabulary progress is a visible number tied to a real C1 target. ✅
 
 ## Phase 6 — Prove it: C1 exam alignment + checkpoints
 
