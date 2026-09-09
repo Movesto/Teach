@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-10",
+ "title": "Unit 10 Checkpoint",
+ "description": "A quick B2 progress check after unit 10.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "If I had known about the meeting earlier, I ______ attended it.",
+     "options": [
+      "would have",
+      "would",
+      "will have",
+      "had"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g2",
+     "question": "The report ______ by the end of the day, so please hurry.",
+     "options": [
+      "must be finished",
+      "must finish",
+      "must have finished",
+      "must be finishing"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g3",
+     "question": "She suggested ______ to the new restaurant downtown.",
+     "options": [
+      "going",
+      "to go",
+      "go",
+      "gone"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g4",
+     "question": "That's the artist ______ paintings were displayed in the gallery.",
+     "options": [
+      "whose",
+      "who",
+      "whom",
+      "which"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g5",
+     "question": "By the time we arrived, the film ______ for ten minutes.",
+     "options": [
+      "had been running",
+      "has been running",
+      "was running",
+      "ran"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g6",
+     "question": "You ______ have told me about the change in schedule; I waited for an hour.",
+     "options": [
+      "should",
+      "must",
+      "couldn't",
+      "needn't"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g7",
+     "question": "Not only ______ the exam, but she also got the highest score.",
+     "options": [
+      "did she pass",
+      "she passed",
+      "she had passed",
+      "passed she"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g8",
+     "question": "I'd rather you ______ your phone during the lecture.",
+     "options": [
+      "not use",
+      "don't use",
+      "didn't use",
+      "not to use"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "B2"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "The Rise of the Digital Nomad",
+     "text": "The concept of the digital nomad—a person who uses technology to earn a living while traveling the world—has evolved from a fringe lifestyle into a mainstream career option. Advances in high-speed internet, cloud-based collaboration tools, and the widespread acceptance of remote work have dismantled the traditional office-bound model. For many, the appeal is undeniable: the freedom to choose one's location, the opportunity to immerse in different cultures, and the potential for a lower cost of living while earning a global salary. However, this lifestyle is not without its challenges. Digital nomads often grapple with time zone differences that can disrupt communication with colleagues or clients, and the lack of a stable community can lead to feelings of isolation. Moreover, visa regulations rarely accommodate long-term stays, forcing many to engage in 'visa runs'—frequent border crossings that are both exhausting and financially draining. Despite these hurdles, the trend shows no sign of slowing down. Countries such as Portugal, Estonia, and Thailand have introduced special visas designed to attract remote workers, recognizing the economic benefits they bring. These 'nomad visas' often require proof of income and health insurance, but in return, they offer the chance to reside legally for up to a year or more. Critics argue that the influx of digital nomads can drive up local housing prices and create a transient, gentrified atmosphere that erodes the character of neighborhoods. Yet proponents counter that these workers spend money in local businesses, pay taxes, and contribute to a diverse, globalized community. For the individual considering this path, the decision is deeply personal. It demands a blend of self-discipline, adaptability, and financial planning. The ability to work effectively from a beachside café in Bali or a co-working space in Lisbon is a skill in itself, one that requires constant negotiation between professional obligations and personal desires. As remote work becomes increasingly normalized, the digital nomad may well become a permanent fixture of the global economy, redefining what it means to have a career in the twenty-first century.",
+     "level": "B2",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What is the main reason the digital nomad lifestyle has become more common?",
+       "options": [
+        "A desire to escape office politics",
+        "Technological advances and acceptance of remote work",
+        "Lower taxes in foreign countries",
+        "The need for frequent travel"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "According to the passage, which of the following is a challenge digital nomads face?",
+       "options": [
+        "Finding reliable internet connections",
+        "Lack of cultural experiences",
+        "Difficulty in maintaining a stable social network",
+        "High cost of living in most destinations"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "What are 'visa runs'?",
+       "options": [
+        "Special visas for remote workers",
+        "Frequent border crossings to extend stays",
+        "Short-term work contracts",
+        "Methods of earning money while traveling"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "Why have some countries introduced 'nomad visas'?",
+       "options": [
+        "To restrict the number of foreign workers",
+        "To increase tourism revenue",
+        "To attract remote workers and boost the economy",
+        "To promote local culture"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "What is a potential negative effect of digital nomads on local communities?",
+       "options": [
+        "They often fail to pay taxes",
+        "They may cause housing costs to rise",
+        "They refuse to interact with locals",
+        "They decrease the diversity of the area"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "What does the passage suggest is essential for someone to succeed as a digital nomad?",
+       "options": [
+        "A permanent home base",
+        "Knowledge of multiple languages",
+        "Self-discipline and adaptability",
+        "A high salary from a large corporation"
+       ],
+       "correct": 2,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "I used to work in a bank, but I felt stuck. So I decided to move to a tech startup. The pay is actually lower, but I'm learning so much about software development. It's a risk, but I think it'll pay off in the long run. I also enjoy the flexible hours, but that wasn't the main reason. I wanted to challenge myself.",
+     "question": "Why did the speaker leave the bank?",
+     "options": [
+      "to earn more money",
+      "to have flexible hours",
+      "to develop new skills",
+      "to be closer to home"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "Our trip to Greece was amazing, but we had one big issue. On the first day, our flight was delayed for six hours, so we missed our connection. We arrived a day late. But the weather was perfect and we loved the food. The only other problem was that we couldn't understand the locals, but we managed with gestures.",
+     "question": "What was the biggest problem during the trip?",
+     "options": [
+      "the food",
+      "the weather",
+      "the language",
+      "the flight delay"
+     ],
+     "correct": 3,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "I think recycling is important, but it's not the whole answer. Many people believe that if they recycle, they can use as much as they want. But we need to reduce consumption first. Recycling alone won't solve the waste problem. It's better than nothing, but we have to change our habits.",
+     "question": "What is the speaker's view on recycling?",
+     "options": [
+      "It is the most effective solution",
+      "It is unnecessary",
+      "It is not sufficient on its own",
+      "It costs too much"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "We tried that new Italian place last night. The pasta was tasty, but the portions were small. And the prices were quite high for what you get. The service was excellent though. My friend thought the sauce was too spicy, but I didn't agree.",
+     "question": "What does the speaker think about the food?",
+     "options": [
+      "It's too spicy",
+      "It's good but overpriced",
+      "It's bland",
+      "It's excellent"
+     ],
+     "correct": 1,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Intermediate",
+    "cefr": "B1",
+    "recommended_unit": 9,
+    "unit_name": "Advanced Communication",
+    "description": "Below the B2 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Upper-Intermediate",
+    "cefr": "B2",
+    "recommended_unit": 11,
+    "unit_name": "Academic English",
+    "description": "Right on track — you are performing at B2.",
+    "message": "Great work — you are at B2. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Advanced",
+    "cefr": "C1",
+    "recommended_unit": 11,
+    "unit_name": "Academic English",
+    "description": "Ahead of schedule — you are already reaching C1.",
+    "message": "Excellent — you are ahead, performing at C1."
+   }
+  ]
+ }
+}

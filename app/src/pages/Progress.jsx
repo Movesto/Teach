@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award, Target } from 'lucide-react';
+import { ChevronLeft, BookOpen, Clock, Flame, Star, TrendingUp, Award, Target, CheckCircle2, Circle } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
 const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -150,10 +150,128 @@ function CoverageCard({ cov }) {
   );
 }
 
+const CEFR_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+function ProgressCheckCard({ attempts, navigate }) {
+  const first = attempts[0];
+  const latest = attempts[attempts.length - 1];
+  const improved = attempts.length >= 2
+    && CEFR_ORDER.indexOf(latest.cefr) > CEFR_ORDER.indexOf(first.cefr);
+  const fmt = (iso) => iso ? new Date(iso).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '';
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="w-4 h-4 text-teal-500" />
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">Prove your progress</p>
+        </div>
+        <button onClick={() => navigate('/certificate')} className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline font-medium">
+          Certificate →
+        </button>
+      </div>
+
+      {attempts.length >= 2 ? (
+        <div className="flex items-center justify-center gap-4 mb-4">
+          <div className="text-center">
+            <p className="text-xs text-gray-400 dark:text-gray-500">Then · {fmt(first.taken_at)}</p>
+            <p className="text-2xl font-bold text-gray-400 dark:text-gray-500">{first.cefr}</p>
+          </div>
+          <div className={`text-2xl ${improved ? 'text-green-500' : 'text-gray-300 dark:text-gray-600'}`}>→</div>
+          <div className="text-center">
+            <p className="text-xs text-gray-400 dark:text-gray-500">Now · {fmt(latest.taken_at)}</p>
+            <p className="text-2xl font-bold text-teal-600 dark:text-teal-400">{latest.cefr}</p>
+          </div>
+        </div>
+      ) : (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+          Your baseline is <strong>{first?.cefr || 'not set'}</strong>. Take a progress check after
+          a couple more units to see how far you&rsquo;ve come.
+        </p>
+      )}
+
+      <button
+        onClick={() => navigate('/placement?retake=1')}
+        className="w-full py-2.5 rounded-lg bg-teal-600 text-white hover:bg-teal-700 text-sm font-medium"
+      >
+        Take a progress check
+      </button>
+      <button
+        onClick={() => navigate('/placement?capstone=1')}
+        className="w-full mt-2 py-2.5 rounded-lg border border-teal-600 text-teal-700 dark:text-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 text-sm font-medium"
+      >
+        Take the C1 Capstone 🎓
+      </button>
+    </div>
+  );
+}
+
+function CanDoCard({ data }) {
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <CheckCircle2 className="w-4 h-4 text-green-500" />
+          <p className="font-semibold text-gray-900 dark:text-white text-sm">What you can do</p>
+        </div>
+        <span className="text-xs text-gray-500 dark:text-gray-400">{data.achieved_units} of {data.units.length} units</span>
+      </div>
+      <div className="max-h-72 overflow-y-auto space-y-4 pr-1">
+        {data.units.map((u) => (
+          <div key={u.unit_id} className={u.achieved ? '' : 'opacity-60'}>
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">Unit {u.unit_id}</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400">{u.cefr}</span>
+              {u.achieved && <span className="text-[10px] text-green-600 dark:text-green-400 font-medium">achieved</span>}
+            </div>
+            <ul className="space-y-1 pl-1">
+              {u.statements.map((s, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  {u.achieved
+                    ? <CheckCircle2 className="w-4 h-4 text-green-500 shrink-0 mt-0.5" />
+                    : <Circle className="w-4 h-4 text-gray-300 dark:text-gray-600 shrink-0 mt-0.5" />}
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">Pass a unit test to check off its skills.</p>
+    </div>
+  );
+}
+
+function CheckpointsCard({ navigate }) {
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center gap-2 mb-1">
+        <Award className="w-4 h-4 text-teal-500" />
+        <p className="font-semibold text-gray-900 dark:text-white text-sm">Unit checkpoints</p>
+      </div>
+      <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+        A short, level-calibrated check after every 2 units — it updates your level.
+      </p>
+      <div className="grid grid-cols-3 gap-2">
+        {[2, 4, 6, 8, 10, 12].map((n) => (
+          <button
+            key={n}
+            onClick={() => navigate(`/placement?checkpoint=${n}`)}
+            className="py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-300 hover:border-teal-500 hover:text-teal-600 dark:hover:text-teal-400"
+          >
+            Unit {n}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Progress() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
   const [coverage, setCoverage] = useState(null);
+  const [attempts, setAttempts] = useState(null);
+  const [canDo, setCanDo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -165,6 +283,14 @@ export default function Progress() {
     apiFetch('/api/vocabulary/coverage')
       .then(r => (r.ok ? r.json() : null))
       .then(setCoverage)
+      .catch(() => {});
+    apiFetch('/api/placement/history')
+      .then(r => (r.ok ? r.json() : { attempts: [] }))
+      .then(d => setAttempts(d.attempts || []))
+      .catch(() => {});
+    apiFetch('/api/progress/can-do')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setCanDo)
       .catch(() => {});
   }, []);
 
@@ -227,8 +353,39 @@ export default function Progress() {
           </div>
         </div>
 
+        {/* Prove your progress — then vs now + certificate */}
+        {attempts && attempts.length > 0 && <ProgressCheckCard attempts={attempts} navigate={navigate} />}
+
+        {/* Unit checkpoints */}
+        <CheckpointsCard navigate={navigate} />
+
+        {/* C1 writing exams (units 11-13) */}
+        <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+          <div className="flex items-center gap-2 mb-1">
+            <Award className="w-4 h-4 text-purple-500" />
+            <p className="font-semibold text-gray-900 dark:text-white text-sm">C1 writing exams</p>
+          </div>
+          <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+            Timed C1 essay + listen-then-write, graded by AI (units 11–13).
+          </p>
+          <div className="grid grid-cols-3 gap-2">
+            {[11, 12, 13].map((n) => (
+              <button
+                key={n}
+                onClick={() => navigate(`/exam/${n}`)}
+                className="py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-300 hover:border-purple-500 hover:text-purple-600 dark:hover:text-purple-400"
+              >
+                Unit {n}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Vocabulary coverage toward C1 */}
         {coverage && <CoverageCard cov={coverage} />}
+
+        {/* Can-do statements */}
+        {canDo && canDo.units?.length > 0 && <CanDoCard data={canDo} />}
 
         {/* Stats grid */}
         <div className="grid grid-cols-2 gap-3">

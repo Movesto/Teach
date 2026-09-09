@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-6",
+ "title": "Unit 6 Checkpoint",
+ "description": "A quick B1 progress check after unit 6.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "If I ___ you, I would apologize to her.",
+     "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g2",
+     "question": "She has been working here ___ 2015.",
+     "options": [
+      "for",
+      "since",
+      "during",
+      "by"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g3",
+     "question": "The report ___ by the end of the day.",
+     "options": [
+      "will finish",
+      "will be finished",
+      "finishes",
+      "is finishing"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g4",
+     "question": "I'm not sure where ___ last night.",
+     "options": [
+      "did he go",
+      "he went",
+      "has he gone",
+      "he has gone"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g5",
+     "question": "You ___ pay for the tickets; they're free.",
+     "options": [
+      "mustn't",
+      "don't have to",
+      "shouldn't",
+      "couldn't"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g6",
+     "question": "That's the man ___ car was stolen.",
+     "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g7",
+     "question": "By the time we arrived, the movie ___.",
+     "options": [
+      "started",
+      "had started",
+      "has started",
+      "was starting"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    },
+    {
+     "id": "g8",
+     "question": "She asked me if I ___ help her with the project.",
+     "options": [
+      "can",
+      "could",
+      "will",
+      "would"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B1"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "The New Way of Working",
+     "text": "Over the past few years, remote work has changed from a rare privilege to a common practice. Many companies now allow their employees to work from home several days a week. This shift was accelerated by the pandemic, but it seems here to stay. There are clear benefits to working remotely. Employees save time and money by not commuting. They can also arrange their schedules more flexibly, which helps them balance work and family life. Some people find they are more productive at home because there are fewer distractions from colleagues. However, remote work is not without challenges. Many workers report feeling isolated and miss the social interaction of the office. Communication can be more difficult, and sometimes misunderstandings happen because people are not face to face. Additionally, it is harder for managers to monitor performance, so they must trust their teams more. Companies are now trying to find a middle ground. Many are adopting a hybrid model, where employees come to the office two or three days a week and work remotely the rest of the time. This approach seems to satisfy both employers and workers. It allows for collaboration and team spirit, while still offering flexibility. Experts believe that the future of work will be flexible. Offices will not disappear, but they will be used differently - more for meetings and social events than for individual tasks. Workers will need to develop new skills, such as self-discipline and digital communication, to succeed in this new environment. In conclusion, remote work has brought both opportunities and challenges. The key is to find the right balance for each company and each individual.",
+     "level": "B1",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What is the main reason remote work became common?",
+       "options": [
+        "Companies always preferred it",
+        "The pandemic accelerated the change",
+        "Employees demanded it",
+        "Offices became too expensive"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "Which of the following is mentioned as a benefit of remote work?",
+       "options": [
+        "Better communication with colleagues",
+        "Easier for managers to monitor work",
+        "Saving time and money on commuting",
+        "More social interaction"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "What is a disadvantage of remote work mentioned in the text?",
+       "options": [
+        "Employees earn less money",
+        "Workers feel lonely and isolated",
+        "Offices will disappear",
+        "It is difficult to find a job"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "What is the hybrid model?",
+       "options": [
+        "Working only from home",
+        "Working only in the office",
+        "Combining office days with remote days",
+        "Working for two companies at the same time"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "According to experts, what will happen to offices in the future?",
+       "options": [
+        "They will disappear completely",
+        "They will be used mainly for meetings and social events",
+        "They will be used for individual tasks only",
+        "They will become bigger"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "What skills will workers need to develop for the future of work?",
+       "options": [
+        "Typing and reading",
+        "Self-discipline and digital communication",
+        "Cooking and cleaning",
+        "Driving and navigation"
+       ],
+       "correct": 1,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "Good morning! Here's the weather forecast for today. It's going to be sunny in the morning, but clouds will move in by afternoon, and it will rain in the evening. Temperatures will be around 20 degrees Celsius.",
+     "question": "What will the weather be like in the evening?",
+     "options": [
+      "Sunny",
+      "Cloudy",
+      "Rainy",
+      "Snowy"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "A: Do you want to go to the cinema tonight? B: I'd rather stay home and watch a movie on Netflix. A: Okay, let's do that. We can order pizza too.",
+     "question": "What are they going to do tonight?",
+     "options": [
+      "Go to the cinema",
+      "Stay home and watch a movie",
+      "Go out for dinner",
+      "Visit friends"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "Hi, this is a message for John. The meeting has been moved to 3 PM on Thursday instead of 10 AM on Friday. Please let me know if you can make it.",
+     "question": "When is the meeting now?",
+     "options": [
+      "10 AM Friday",
+      "3 PM Thursday",
+      "10 AM Thursday",
+      "3 PM Friday"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "I work as a nurse at the city hospital. I usually start at 7 in the morning and finish at 3 in the afternoon. I help doctors take care of patients, and I also give them their medicine.",
+     "question": "What is the speaker's job?",
+     "options": [
+      "Doctor",
+      "Nurse",
+      "Pharmacist",
+      "Receptionist"
+     ],
+     "correct": 1,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Elementary",
+    "cefr": "A2",
+    "recommended_unit": 5,
+    "unit_name": "Transport & Travel",
+    "description": "Below the B1 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Intermediate",
+    "cefr": "B1",
+    "recommended_unit": 7,
+    "unit_name": "Food & Eating",
+    "description": "Right on track — you are performing at B1.",
+    "message": "Great work — you are at B1. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Upper-Intermediate",
+    "cefr": "B2",
+    "recommended_unit": 7,
+    "unit_name": "Food & Eating",
+    "description": "Ahead of schedule — you are already reaching B2.",
+    "message": "Excellent — you are ahead, performing at B2."
+   }
+  ]
+ }
+}

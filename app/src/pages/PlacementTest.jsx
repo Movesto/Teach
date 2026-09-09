@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Mic, Square, Play, ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../utils/api';
@@ -45,6 +45,16 @@ function flattenSections(sections) {
 export default function PlacementTest() {
   const navigate = useNavigate();
   const { updateUser } = useAuth();
+  const [searchParams] = useSearchParams();
+  const isCapstone = searchParams.get('capstone') === '1';
+  const checkpointN = searchParams.get('checkpoint');
+  const isCheckpoint = !!checkpointN;
+  const testPath = isCapstone ? '/api/placement/capstone/test'
+    : isCheckpoint ? `/api/placement/checkpoint/${checkpointN}/test`
+    : '/api/placement/test';
+  const submitPath = isCapstone ? '/api/placement/capstone/submit'
+    : isCheckpoint ? `/api/placement/checkpoint/${checkpointN}/submit`
+    : '/api/placement/submit';
 
   const [testData, setTestData] = useState(null);
   const [allCards, setAllCards] = useState([]);
@@ -78,14 +88,14 @@ export default function PlacementTest() {
   }, []);
 
   useEffect(() => {
-    apiFetch('/api/placement/test')
+    apiFetch(testPath)
       .then(r => r.json())
       .then(data => {
         setTestData(data);
         setAllCards(flattenSections(data.sections || []));
       })
       .catch(() => {});
-  }, []);
+  }, [testPath]);
 
   if (!testData) {
     return (
@@ -161,7 +171,7 @@ export default function PlacementTest() {
     setIsSubmitting(true);
     const timeTaken = Math.round((Date.now() - startTime) / 60000);
     try {
-      const res = await apiFetch('/api/placement/submit', {
+      const res = await apiFetch(submitPath, {
         method: 'POST',
         body: JSON.stringify({ answers: Object.values(answers), time_taken_minutes: timeTaken }),
       });
@@ -176,14 +186,14 @@ export default function PlacementTest() {
     }
   };
 
-  const savePlacement = async (payload, userUpdate) => {
+  const savePlacement = async (payload, userUpdate, dest = '/dashboard') => {
     setIsSaving(true);
     setSaveError(false);
     try {
       const r = await apiFetch('/api/placement/save', { method: 'POST', body: JSON.stringify(payload) });
       if (!r.ok) throw new Error();
       updateUser({ placement_done: true, ...userUpdate });
-      navigate('/dashboard');
+      navigate(dest);
     } catch {
       setSaveError(true);
     } finally {
@@ -198,10 +208,19 @@ export default function PlacementTest() {
 
   const handleStartLearning = () => {
     if (!result) return;
+    if (isCapstone) {
+      // Capstone is a standalone C1 check — don't overwrite the placement level;
+      // hand the result straight to the certificate.
+      navigate(`/certificate?cefr=${encodeURIComponent(result.cefr)}&score=${Math.round(result.percentage)}`);
+      return;
+    }
+    // Checkpoints and the placement test both record a result (updates level +
+    // the then-vs-now history). Checkpoints return to Progress to show it.
     savePlacement(
       { score: result.total_score, percentage: result.percentage, level: result.level,
         cefr: result.cefr, recommended_unit: result.recommended_unit, breakdown: result.breakdown },
-      { cefr_level: result.cefr, recommended_unit: result.recommended_unit }
+      { cefr_level: result.cefr, recommended_unit: result.recommended_unit },
+      isCheckpoint ? '/progress' : '/dashboard'
     );
   };
 
@@ -210,8 +229,8 @@ export default function PlacementTest() {
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-10">
           <div className="text-5xl mb-4">🎯</div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">English Placement Test</h1>
-          <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg mb-6">Imtixaanka Heerka Ingiriisiga</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{isCapstone ? 'C1 Capstone Assessment' : isCheckpoint ? `Unit ${checkpointN} Checkpoint` : 'English Placement Test'}</h1>
+          <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg mb-6">{isCapstone ? 'Prove you are college-ready (CEFR C1)' : isCheckpoint ? 'A quick check of how far you have come' : 'Imtixaanka Heerka Ingiriisiga'}</p>
           <div className="text-left space-y-3 mb-8">
             <p className="text-gray-700 dark:text-gray-300">
               This short test helps us find your exact English level so you can start at the right place.
@@ -234,13 +253,15 @@ export default function PlacementTest() {
           >
             Start Test / Bilow Imtixaanka →
           </button>
-          <button
-            onClick={handleSkip}
-            disabled={isSaving}
-            className="w-full mt-3 py-3 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 text-sm font-medium transition-colors disabled:opacity-50"
-          >
-            {isSaving ? 'Saving...' : 'Skip for now — start from Unit 1 / Bilow Cutubka 1'}
-          </button>
+          {!isCapstone && !isCheckpoint && (
+            <button
+              onClick={handleSkip}
+              disabled={isSaving}
+              className="w-full mt-3 py-3 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 text-sm font-medium transition-colors disabled:opacity-50"
+            >
+              {isSaving ? 'Saving...' : 'Skip for now — start from Unit 1 / Bilow Cutubka 1'}
+            </button>
+          )}
         </div>
       </div>
     );
@@ -314,7 +335,7 @@ export default function PlacementTest() {
                 Saving...
               </>
             ) : (
-              'Bilow Barashada → / Start Learning'
+              isCapstone ? 'View Certificate →' : isCheckpoint ? 'See my progress →' : 'Bilow Barashada → / Start Learning'
             )}
           </button>
           {saveError && (

@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-4",
+ "title": "Unit 4 Checkpoint",
+ "description": "A quick A2 progress check after unit 4.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "I ___ to the cinema yesterday.",
+     "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g2",
+     "question": "She ___ a book right now.",
+     "options": [
+      "reads",
+      "is reading",
+      "read",
+      "reading"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g3",
+     "question": "This is ___ than that one.",
+     "options": [
+      "more cheap",
+      "cheaper",
+      "cheapest",
+      "most cheap"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g4",
+     "question": "___ you like some coffee?",
+     "options": [
+      "Do",
+      "Would",
+      "Are",
+      "Can"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g5",
+     "question": "They ___ to London next week.",
+     "options": [
+      "travel",
+      "are traveling",
+      "traveled",
+      "travels"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g6",
+     "question": "I have lived here ___ 2010.",
+     "options": [
+      "for",
+      "since",
+      "from",
+      "at"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g7",
+     "question": "He can ___ French very well.",
+     "options": [
+      "speaks",
+      "speak",
+      "speaking",
+      "to speak"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g8",
+     "question": "___ you help me with this bag?",
+     "options": [
+      "Must",
+      "Should",
+      "Could",
+      "May"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "A2"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "Anna's Sunday Morning",
+     "text": "Anna usually gets up late on Sundays. She does not go to work, so she can relax. This morning, she wakes up at ten o'clock. She feels happy because the sun is shining. First, she makes a cup of coffee and drinks it in the kitchen. Then, she reads a book for an hour. At twelve, she decides to go to the park. She puts on her favorite dress and takes her dog, Max, with her. In the park, she meets her friend Tom. They walk together and talk about their week. After an hour, Anna feels hungry. She buys a sandwich from a small shop. She sits on a bench and eats it while Max plays nearby. At two o'clock, she goes home. She thinks it is a perfect Sunday.",
+     "level": "A2",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What time does Anna wake up on Sunday morning?",
+       "options": [
+        "At eight o'clock",
+        "At nine o'clock",
+        "At ten o'clock",
+        "At eleven o'clock"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "What does Anna do after drinking her coffee?",
+       "options": [
+        "She goes to the park.",
+        "She reads a book.",
+        "She takes a shower.",
+        "She calls her friend."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "Who does Anna meet in the park?",
+       "options": [
+        "Her sister",
+        "Her neighbor",
+        "Her teacher",
+        "Her friend Tom"
+       ],
+       "correct": 3,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "Why does Anna buy a sandwich?",
+       "options": [
+        "She is thirsty.",
+        "She is hungry.",
+        "She wants to share with Max.",
+        "She wants to eat at home."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "Where does Anna eat her sandwich?",
+       "options": [
+        "At home",
+        "In the shop",
+        "On a bench",
+        "On the grass"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "How does Anna feel about her Sunday?",
+       "options": [
+        "She is bored.",
+        "She is tired.",
+        "She thinks it is perfect.",
+        "She wants to work."
+       ],
+       "correct": 2,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "I usually get up at seven o'clock. Then I have breakfast and go to work.",
+     "question": "What time does she get up?",
+     "options": [
+      "6:00",
+      "7:00",
+      "8:00",
+      "9:00"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "I go to the shop. I buy some milk.",
+     "question": "What does he buy?",
+     "options": [
+      "bread",
+      "milk",
+      "eggs",
+      "cheese"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "Excuse me, where is the bank? It's next to the post office.",
+     "question": "Where is the bank?",
+     "options": [
+      "next to the post office",
+      "across from the park",
+      "behind the school",
+      "on the corner"
+     ],
+     "correct": 0,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "Today is sunny. Let's go to the beach.",
+     "question": "What's the weather like?",
+     "options": [
+      "sunny",
+      "rainy",
+      "cloudy",
+      "windy"
+     ],
+     "correct": 0,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Beginner",
+    "cefr": "A1",
+    "recommended_unit": 3,
+    "unit_name": "Work & Money",
+    "description": "Below the A2 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Elementary",
+    "cefr": "A2",
+    "recommended_unit": 5,
+    "unit_name": "Transport & Travel",
+    "description": "Right on track — you are performing at A2.",
+    "message": "Great work — you are at A2. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Intermediate",
+    "cefr": "B1",
+    "recommended_unit": 5,
+    "unit_name": "Transport & Travel",
+    "description": "Ahead of schedule — you are already reaching B1.",
+    "message": "Excellent — you are ahead, performing at B1."
+   }
+  ]
+ }
+}

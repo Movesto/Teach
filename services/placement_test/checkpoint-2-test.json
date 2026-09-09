@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-2",
+ "title": "Unit 2 Checkpoint",
+ "description": "A quick A2 progress check after unit 2.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "She ___ to work by bus every day.",
+     "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g2",
+     "question": "There aren't ___ chairs in the room.",
+     "options": [
+      "some",
+      "any",
+      "a",
+      "an"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g3",
+     "question": "I ___ my keys yesterday.",
+     "options": [
+      "lose",
+      "lost",
+      "losed",
+      "losing"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g4",
+     "question": "___ you like some coffee?",
+     "options": [
+      "Do",
+      "Does",
+      "Are",
+      "Is"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g5",
+     "question": "My brother is ___ than me.",
+     "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "more tall"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g6",
+     "question": "We ___ to the cinema last night.",
+     "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g7",
+     "question": "Please turn ___ the lights when you leave.",
+     "options": [
+      "off",
+      "on",
+      "up",
+      "down"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "A2"
+    },
+    {
+     "id": "g8",
+     "question": "She has lived in London ___ 2010.",
+     "options": [
+      "for",
+      "since",
+      "from",
+      "by"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "A2"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "A Day at the Beach",
+     "text": "Last Saturday, Maria and her friend Tom went to the beach. The weather was sunny and warm. They took a big bag with towels, sunscreen, and sandwiches. When they arrived, they found a nice place near the water. Maria put on sunscreen because the sun was strong. Tom went swimming first. The water was cool and clean. After swimming, they ate their sandwiches and drank some juice. Then they played with a ball on the sand. Later, they walked along the shore and collected shells. They saw a small crab near a rock. Maria took a photo of it. At five o'clock, they packed their things and went home. They were tired but happy. On the way home, Tom said, 'I love the beach.' Maria agreed and said, 'Let's come again next weekend.' They both smiled. It was a perfect day.",
+     "level": "A2",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What did Maria and Tom do last Saturday?",
+       "options": [
+        "went to the beach",
+        "went to the park",
+        "went to the cinema",
+        "went to the mountains"
+       ],
+       "correct": 0,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "What did they take with them?",
+       "options": [
+        "umbrellas",
+        "towels and sandwiches",
+        "books",
+        "toys"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "Why did Maria put on sunscreen?",
+       "options": [
+        "because it was cold",
+        "because the sun was strong",
+        "because she wanted to swim",
+        "because Tom asked her"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "What did they do after swimming?",
+       "options": [
+        "they went home",
+        "they played with a ball",
+        "they ate sandwiches and drank juice",
+        "they collected shells"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "What did they see near a rock?",
+       "options": [
+        "a fish",
+        "a crab",
+        "a starfish",
+        "a shell"
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "What did Tom say on the way home?",
+       "options": [
+        "I love the beach",
+        "I'm tired",
+        "Let's go home",
+        "I don't like the sun"
+       ],
+       "correct": 0,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "Woman: Are you free this weekend? Man: I have to work on Saturday, but Sunday is free. Woman: Let's go to the beach then. Man: Good idea.",
+     "question": "When can the man go to the beach?",
+     "options": [
+      "Saturday",
+      "Sunday",
+      "Friday",
+      "Monday"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "Attention please. A black backpack was found in the library. Please come to the front desk to pick it up.",
+     "question": "Where was the backpack found?",
+     "options": [
+      "In the classroom",
+      "In the library",
+      "In the cafeteria",
+      "In the gym"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "Waiter: What would you like to drink? Customer: I'll have a glass of orange juice, please. Waiter: Anything else? Customer: No, that's all.",
+     "question": "What does the customer order?",
+     "options": [
+      "Coffee",
+      "Tea",
+      "Orange juice",
+      "Water"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "Today will be sunny and warm, with a high of 25 degrees. Tomorrow will be cloudy with rain in the afternoon.",
+     "question": "What will the weather be like tomorrow afternoon?",
+     "options": [
+      "Sunny",
+      "Warm",
+      "Cloudy with rain",
+      "Snowy"
+     ],
+     "correct": 2,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Beginner",
+    "cefr": "A1",
+    "recommended_unit": 1,
+    "unit_name": "Daily Life",
+    "description": "Below the A2 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Elementary",
+    "cefr": "A2",
+    "recommended_unit": 3,
+    "unit_name": "Work & Money",
+    "description": "Right on track — you are performing at A2.",
+    "message": "Great work — you are at A2. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Intermediate",
+    "cefr": "B1",
+    "recommended_unit": 3,
+    "unit_name": "Work & Money",
+    "description": "Ahead of schedule — you are already reaching B1.",
+    "message": "Excellent — you are ahead, performing at B1."
+   }
+  ]
+ }
+}

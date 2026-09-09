@@ -1,0 +1,50 @@
+{
+ "11": {
+  "unit": 11,
+  "essay": {
+   "prompt": "Critically evaluate the assertion that the rise of interdisciplinary research has diminished the relevance of traditional academic disciplines. Argue a clear thesis, drawing on specific examples from at least two fields, and engage with counterarguments to demonstrate a nuanced understanding of academic evolution.",
+   "minutes": 40,
+   "min_words": 250,
+   "max_words": 350
+  },
+  "listen_write": {
+   "transcript": "Recent studies suggest that the shift to remote work has not diminished productivity as many feared. In fact, a meta-analysis of over 30 peer-reviewed papers indicates a modest increase in output, particularly in roles requiring deep focus. However, this benefit is not uniform. Collaborative tasks often suffer due to the lack of spontaneous interaction. Moreover, the long-term effects on innovation remain uncertain. While some argue that remote work fosters better work-life balance, others contend that it blurs boundaries, leading to burnout. The evidence is mixed, yet the trend seems irreversible. Therefore, we must consider how to structure remote work to maximize its advantages while mitigating its drawbacks. The challenge is not whether to adopt remote work, but how to adapt our management practices accordingly.",
+   "prompt": "You have listened to a short lecture on the impact of remote work on productivity and innovation. Summarise the lecturer's key points and then present your own argument on whether the advantages of remote work justify its widespread adoption. Use specific evidence and maintain an academic tone throughout your response.",
+   "minutes": 25,
+   "min_words": 150,
+   "max_words": 250
+  }
+ },
+ "12": {
+  "unit": 12,
+  "essay": {
+   "prompt": "In the arena of executive diplomacy, persuasive power is often attributed to eloquence and logical rigor, yet some contend that strategic restraint and empathetic listening yield greater influence. To what extent do you agree that in high-stakes negotiations, the ability to manage ambiguity and build relational trust outweighs the force of explicit, data-driven argumentation? Justify your position with concrete examples from international relations, corporate leadership, or political crises.",
+   "minutes": 40,
+   "min_words": 250,
+   "max_words": 350
+  },
+  "listen_write": {
+   "transcript": "Ladies and gentlemen, in high-stakes negotiations, persuasion is not about dominance but about strategic empathy. The executive who listens before speaking gains a map of the other party's priorities. Diplomatic communication hinges on framing—not manipulation, but aligning your proposal with their core values. Consider the 'win-win' fallacy: truly effective negotiators create value by expanding the pie, yet they also know when to walk away. Silence, paradoxically, is a powerful tool; it signals confidence and invites concession. Moreover, your credibility rests on consistency between verbal and non-verbal cues. A slight hesitation or a defensive posture can undermine hours of careful argument. Finally, prepare for the 'second conversation'—the internal dialogue your counterpart has after the meeting. Leave them with a memorable, concise takeaway that resonates. Mastery here is not a technique but a mindset: curiosity over ego, adaptability over rigidity.",
+   "prompt": "Summarise the key principles of executive/diplomatic communication and persuasion presented in the briefing. Then, respond with your own analysis: evaluate which principle you consider most critical in a real-world negotiation, justify your choice with a concrete example, and propose one additional strategy not mentioned in the transcript that could enhance persuasive impact in a cross-cultural context.",
+   "minutes": 25,
+   "min_words": 150,
+   "max_words": 250
+  }
+ },
+ "13": {
+  "unit": 13,
+  "essay": {
+   "prompt": "In contemporary American society, informal register and casual communication styles have permeated professional and public domains, blurring the lines between formality and familiarity. Critically examine how this phenomenon reflects broader cultural values in the United States, using specific social contexts to illustrate your argument, and assess whether this trend enhances or undermines social fluency in diverse settings.",
+   "minutes": 40,
+   "min_words": 250,
+   "max_words": 350
+  },
+  "listen_write": {
+   "transcript": "So, you're moving to the States, huh? Big step. Let me give you the real scoop on fitting in socially. First off, small talk isn't optional—it's the glue. People expect a quick 'How's it going?' and they don't want a real answer. Just say 'Good, you?' and move on. Also, don't be shocked by how friendly everyone seems at first. That's not fake; it's just a surface-level warmth that opens doors. But don't mistake it for deep friendship overnight. That takes time. And watch out for the word 'awesome'—it's overused, but you gotta use it too, or you'll sound stiff. Lastly, Americans love giving directions and recommendations. If you ask for help, you'll make their day. So, loosen up, smile, and don't overthink the rules. You'll get the hang of it in no time.",
+   "prompt": "Summarise the main points of the briefing about American social norms. Then, write a response in which you evaluate how useful these tips would be for someone adapting to life in the US, and add one cultural observation of your own that you think is important for social fluency. Use an informal but fluent register.",
+   "minutes": 25,
+   "min_words": 150,
+   "max_words": 250
+  }
+ }
+}

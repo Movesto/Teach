@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-12",
+ "title": "Unit 12 Checkpoint",
+ "description": "A quick C1 progress check after unit 12.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "Never before ___ such a magnificent performance as the one we saw last night.",
+     "options": [
+      "had I seen",
+      "I had seen",
+      "have I seen",
+      "I have seen"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g2",
+     "question": "When I was younger, I ___ a lot of patience.",
+     "options": [
+      "would have",
+      "used to have",
+      "had had",
+      "have had"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g3",
+     "question": "If she ___ harder, she would have passed the exam.",
+     "options": [
+      "had studied",
+      "studied",
+      "would study",
+      "has studied"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g4",
+     "question": "I wish I ___ that embarrassing mistake at the meeting.",
+     "options": [
+      "didn't make",
+      "hadn't made",
+      "haven't made",
+      "wouldn't make"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g5",
+     "question": "The company is believed ___ significant losses last year.",
+     "options": [
+      "to have suffered",
+      "to suffer",
+      "suffering",
+      "to be suffered"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g6",
+     "question": "He talks as if he ___ everything, but he actually knows very little.",
+     "options": [
+      "knows",
+      "knew",
+      "had known",
+      "would know"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g7",
+     "question": "Not only ___ the project on time, but they also exceeded all expectations.",
+     "options": [
+      "did they complete",
+      "they completed",
+      "had they completed",
+      "they had completed"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "C1"
+    },
+    {
+     "id": "g8",
+     "question": "___ the heavy rain, the match went ahead.",
+     "options": [
+      "Despite",
+      "Although",
+      "Even though",
+      "However"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "C1"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "The Digital Memory Paradox",
+     "text": "In the digital age, the human memory system is undergoing a profound transformation, one that is both liberating and disquieting. The advent of search engines, cloud storage, and smartphones has created an externalized memory, a vast repository of information accessible at the touch of a button. This phenomenon, first identified by psychologist Betsy Sparrow in 2011, has since become a central topic in the field of cognitive psychology. Often referred to as the 'Google effect' or 'digital amnesia,' it has sparked a heated debate among cognitive scientists about the implications for our internal memory processes. Proponents of this technological shift argue that offloading memory to digital devices frees up cognitive resources for higher-order thinking. They contend that the brain, relieved of the burden of rote memorization, can devote more energy to creativity, problem-solving, and critical analysis. Indeed, studies have shown that when individuals know information is readily available online, they are more likely to remember where to find it than the information itself. This 'transactive memory' system, where the internet acts as a partner, could be seen as an adaptive response to the information explosion. Conversely, critics warn of a cognitive atrophy. They point to research indicating that the constant use of GPS navigation diminishes the hippocampus's role in spatial memory, and that reliance on digital reminders may weaken our ability to form long-term memories. For instance, a 2020 study from University College London found that taxi drivers who relied on GPS had reduced activity in the hippocampus compared to those who navigated traditionally. The concern is that we are outsourcing not just facts, but the very processes of encoding and consolidation that are essential for deep understanding. Furthermore, the fragmented nature of digital information, with its constant interruptions and hyperlinks, may undermine sustained attention and reflective thought, leading to a more superficial engagement with knowledge. The paradox lies in the fact that while we have unprecedented access to information, our internal capacity to retain and synthesize that information may be dwindling. Some researchers suggest that this is not a zero-sum game; rather, we are developing new cognitive strategies suited to a networked world. The key, they argue, is to cultivate a mindful use of technology, one that leverages the benefits of external memory without sacrificing the depth of internal cognition. Ultimately, the digital memory paradox challenges our very notion of what it means to know. Is knowledge merely the ability to retrieve information, or does it require an internalized understanding? As we navigate this uncharted territory, the answer may redefine the essence of human intelligence. This is not merely an academic debate; it has profound implications for education, workplace productivity, and personal well-being.",
+     "level": "C1",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What is the main idea of the passage?",
+       "options": [
+        "The internet has made human memory obsolete.",
+        "The digital age has both positive and negative effects on memory.",
+        "GPS navigation is harmful to the brain.",
+        "Cognitive scientists agree on the impact of technology."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "According to the passage, what is the 'Google effect'?",
+       "options": [
+        "The tendency to forget information that can be easily found online.",
+        "The improved ability to memorize facts when using search engines.",
+        "The phenomenon of spending too much time on the internet.",
+        "The reliance on search engines for creative thinking."
+       ],
+       "correct": 0,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "What does the 2020 study from University College London suggest?",
+       "options": [
+        "GPS use enhances spatial memory.",
+        "Taxi drivers have better memories than others.",
+        "Reliance on GPS may reduce hippocampal activity.",
+        "Traditional navigation is more efficient than GPS."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "The author's attitude towards the digital memory paradox can best be described as:",
+       "options": [
+        "Dismissive",
+        "Alarmed",
+        "Objective and analytical",
+        "Enthusiastic"
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "The word 'transactive' in the passage most nearly means:",
+       "options": [
+        "Interactive",
+        "Transactional",
+        "Transformative",
+        "Transient"
+       ],
+       "correct": 0,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "What is the author's purpose in writing this passage?",
+       "options": [
+        "To persuade readers to stop using digital devices.",
+        "To compare different studies on memory.",
+        "To explore the implications of technology on memory.",
+        "To criticize the research on digital amnesia."
+       ],
+       "correct": 2,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "While the proliferation of high-rise apartments addresses the urgent demand for housing, it inadvertently erodes the intricate social fabric that once defined our neighborhoods. The relentless pace of construction, driven by profit margins, often overlooks the communal spaces that foster interaction. Consequently, we risk creating sterile environments that, albeit efficient, lack the soul of a community.",
+     "question": "What is the speaker's primary concern?",
+     "options": [
+      "The lack of green spaces",
+      "The cost of housing",
+      "The pace of development",
+      "The loss of community character"
+     ],
+     "correct": 3,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "I finally watched that film everyone's been raving about. The cinematography was stunning, and the performances were top-notch. However, the ending left me pondering long after the credits rolled. It didn't offer easy answers; instead, it posed questions that lingered, challenging my initial assumptions about the protagonist's journey.",
+     "question": "What does the speaker imply about the ending?",
+     "options": [
+      "It was predictable",
+      "It was disappointing",
+      "It was thought-provoking",
+      "It was too long"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "The recent breakthrough in quantum computing has been hailed as revolutionary, but we must temper our enthusiasm with caution. While the theoretical framework is sound, practical applications remain fraught with technical hurdles. Moreover, the ethical implications of such computational power are yet to be fully understood. Therefore, prudent scientists advocate a measured approach rather than unbridled optimism.",
+     "question": "What is the speaker's attitude toward the discovery?",
+     "options": [
+      "Skeptical",
+      "Enthusiastic",
+      "Indifferent",
+      "Cautious"
+     ],
+     "correct": 3,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "In our team meetings, you often defer to others, even when you have valuable insights. While collaboration is essential, consistently suppressing your own perspective can hinder your professional growth. I'd suggest you start voicing your opinions more forcefully, albeit respectfully, to ensure your contributions are recognized.",
+     "question": "What is the speaker's advice?",
+     "options": [
+      "To be more assertive",
+      "To be more patient",
+      "To be more flexible",
+      "To be more cooperative"
+     ],
+     "correct": 0,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Upper-Intermediate",
+    "cefr": "B2",
+    "recommended_unit": 11,
+    "unit_name": "Academic English",
+    "description": "Below the C1 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Advanced",
+    "cefr": "C1",
+    "recommended_unit": 13,
+    "unit_name": "Next unit",
+    "description": "Right on track — you are performing at C1.",
+    "message": "Great work — you are at C1. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Advanced",
+    "cefr": "C1",
+    "recommended_unit": 13,
+    "unit_name": "Next unit",
+    "description": "Ahead of schedule — you are already reaching C1.",
+    "message": "Excellent — you are ahead, performing at C1."
+   }
+  ]
+ }
+}

@@ -17,6 +17,8 @@ import UnitTest from './pages/UnitTest';
 import ConversationPractice from './pages/ConversationPractice';
 import VocabularyReview from './pages/VocabularyReview';
 import Progress from './pages/Progress';
+import Certificate from './pages/Certificate';
+import WritingExam from './pages/WritingExam';
 import AdminFeedback from './pages/AdminFeedback';
 
 function LoadingScreen() {
@@ -124,7 +126,7 @@ function PlacementRoute() {
   const [searchParams] = useSearchParams();
   if (loading) return <LoadingScreen />;
   if (!user) return <Navigate to="/auth" replace />;
-  if (user.placement_done && !searchParams.get('retake')) return <Navigate to="/dashboard" replace />;
+  if (user.placement_done && !searchParams.get('retake') && !searchParams.get('capstone') && !searchParams.get('checkpoint')) return <Navigate to="/dashboard" replace />;
   return <PlacementTest />;
 }
 
@@ -174,6 +176,8 @@ function AppShell() {
         <Route path="/talk" element={<ProtectedRoute><ConversationPractice /></ProtectedRoute>} />
         <Route path="/vocabulary" element={<ProtectedRoute><VocabularyReview /></ProtectedRoute>} />
         <Route path="/progress" element={<ProtectedRoute><Progress /></ProtectedRoute>} />
+        <Route path="/certificate" element={<ProtectedRoute><Certificate /></ProtectedRoute>} />
+        <Route path="/exam/:unitId" element={<ProtectedRoute><WritingExam /></ProtectedRoute>} />
         <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
       </Routes>
     </div>

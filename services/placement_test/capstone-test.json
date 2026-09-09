@@ -1,0 +1,546 @@
+{
+ "id": "c1-capstone",
+ "title": "C1 Capstone Assessment",
+ "description": "A full-length C1 (college-ready) assessment: grammar, reading, listening, and speaking.",
+ "version": "1.0",
+ "total_time_minutes": 90,
+ "total_points": 107,
+ "instructions": "Work carefully. Passing (75%+) means you are performing at CEFR C1.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar & Usage",
+   "description": "Advanced structures",
+   "points": 24,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "Not until the final whistle ______ the extent of the team's defeat.",
+     "options": [
+      "did the fans realise",
+      "the fans realised",
+      "had the fans realised",
+      "the fans had realised"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g2",
+     "question": "______ the economic downturn that the government was forced to intervene.",
+     "options": [
+      "It was such",
+      "Such was",
+      "So was",
+      "That was"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g3",
+     "question": "The evidence is overwhelming; you ______ have been the one who leaked the report.",
+     "options": [
+      "must",
+      "can't",
+      "might",
+      "could"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g4",
+     "question": "______ earlier, we could have caught the train.",
+     "options": [
+      "If we left",
+      "Had we left",
+      "Were we to leave",
+      "Should we leave"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g5",
+     "question": "The new policy is expected to ______ a significant impact on the local economy.",
+     "options": [
+      "make",
+      "do",
+      "have",
+      "take"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g6",
+     "question": "In light of the recent findings, the committee ______ that the project be postponed indefinitely.",
+     "options": [
+      "reckons",
+      "suggests",
+      "proposes",
+      "figures"
+     ],
+     "correct": 2,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g7",
+     "question": "If she hadn't been so obstinate, she ______ the promotion now.",
+     "options": [
+      "would have",
+      "would be having",
+      "will have",
+      "had"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g8",
+     "question": "______ I find most irritating about his behaviour is his constant interruption.",
+     "options": [
+      "That",
+      "What",
+      "Which",
+      "It"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g9",
+     "question": "You ______ have told me about the meeting; I was left completely in the dark.",
+     "options": [
+      "must",
+      "should",
+      "needn't",
+      "couldn't"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g10",
+     "question": "So ______ that the entire building shook.",
+     "options": [
+      "the explosion was loud",
+      "loud was the explosion",
+      "was the explosion loud",
+      "the loud explosion was"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g11",
+     "question": "The manager was ______ disappointed with the quarterly results that she called an emergency meeting.",
+     "options": [
+      "deeply",
+      "strongly",
+      "heavily",
+      "hugely"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "advanced"
+    },
+    {
+     "id": "g12",
+     "question": "The author's latest novel ______ the themes of identity and exile.",
+     "options": [
+      "looks into",
+      "explores",
+      "checks out",
+      "goes over"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "advanced"
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "Academic listening",
+   "points": 18,
+   "questions": [
+    {
+     "id": "cl1",
+     "transcript": "Now, while it is tempting to view the agricultural repercussions of climate change solely through the lens of reduced yields, the more insidious threat lies in the destabilization of global supply chains. When major breadbasket regions experience simultaneous, unprecedented weather anomalies, the resultant price volatility cascades through commodity markets, disproportionately affecting net-importing nations. This interdependency, I argue, transforms a biophysical challenge into a geopolitical one, where adaptation strategies must be negotiated collectively rather than pursued unilaterally, lest we inadvertently create new forms of food insecurity.",
+     "question": "What is the lecturer's main argument regarding climate change and agriculture?",
+     "options": [
+      "Reduced crop yields are the most critical consequence of climate change.",
+      "The primary risk is the disruption of international food distribution systems.",
+      "Adaptation should be left to individual nations to maximize efficiency.",
+      "Geopolitical tensions are more important than actual food shortages."
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "cl2",
+     "transcript": "The advent of the printing press in the fifteenth century is often celebrated as a democratizing force, yet this perspective overlooks the profound commercial motivations that underpinned its dissemination. Early printers, such as Gutenberg, operated as entrepreneurs, and the rapid expansion of print culture was driven less by an altruistic pursuit of knowledge than by the lucrative markets for religious indulgences and legal texts. Consequently, the very technologies that enabled the Reformation also entrenched existing power structures, as those with capital controlled the presses, shaping public discourse in ways that mirrored their economic interests.",
+     "question": "According to the lecture, what is a common misconception about the printing press?",
+     "options": [
+      "It was primarily used for religious purposes.",
+      "It was initially a money-making venture for printers.",
+      "Its spread was driven by a desire to share knowledge widely.",
+      "It had little impact on political power structures."
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "cl3",
+     "transcript": "Interviewer: Dr. Evans, you've argued that urban green spaces are not just aesthetic additions but critical infrastructure. Could you elaborate? Dr. Evans: Certainly. In cities like Singapore, vertical gardens and rooftop forests have reduced ambient temperatures by up to 4 degrees, cutting energy demand for cooling by nearly a third. But the less obvious benefit is social. These spaces foster community interaction, which correlates with lower crime rates and improved mental health. However, we're seeing a disparity: affluent districts get these investments, while poorer areas are neglected, exacerbating health inequalities. The data is clear—if we treat greenery as a luxury, we're essentially designing cities that fail their most vulnerable residents.",
+     "question": "What is Dr. Evans's main concern about urban green spaces?",
+     "options": [
+      "They are too expensive for most cities to implement.",
+      "They disproportionately benefit wealthier neighborhoods.",
+      "They have not been proven to reduce crime rates.",
+      "They primarily serve aesthetic rather than functional purposes."
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "cl4",
+     "transcript": "Interviewer: You've spent decades studying the decline of native bee populations. What surprised you most? Dr. Reyes: The resilience of certain species, honestly. We assumed all bees were equally vulnerable, but some, like the blue orchard bee, have adapted to fragmented habitats by nesting in human-made structures. Yet, the real shocker was the role of pesticides—not the direct kill, but the sublethal effects. Bees exposed to neonicotinoids often forget how to navigate back to the hive, which is a death sentence for the colony. And we've found these chemicals persist in soil for years, even after they're banned. That's the quiet catastrophe nobody anticipated.",
+     "question": "According to Dr. Reyes, what was the unexpected finding about pesticide effects?",
+     "options": [
+      "Pesticides directly kill most bee species.",
+      "Some bees have adapted to pesticide exposure.",
+      "Pesticides impair bees' navigation abilities long-term.",
+      "Banned pesticides break down quickly in soil."
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "cl5",
+     "transcript": "In this analysis, the economist argues that the automation wave, while displacing routine jobs, paradoxically creates a premium on uniquely human skills like empathy and complex problem-solving. She cautions against simplistic doomsday narratives, pointing to historical precedents where technological shifts ultimately expanded labor markets. However, she acknowledges a critical caveat: the transition period demands robust retraining infrastructure, otherwise inequality will widen. The analyst concludes that the real challenge is not job elimination but the pace of adaptation, urging policymakers to treat workforce development as a strategic investment rather than a safety net.",
+     "question": "What is the economist's primary contention regarding automation?",
+     "options": [
+      "It will inevitably lead to mass unemployment despite retraining efforts.",
+      "Its negative effects are overstated, and the main issue is the speed of workforce adaptation.",
+      "It primarily benefits those with technical skills while harming all others equally.",
+      "Historical precedents show that automation always reduces the number of available jobs."
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "cl6",
+     "transcript": "This news analysis examines the lasting shift to remote work, noting that while productivity metrics remain stable, the real impact is spatial. The commentator observes that urban commercial districts, once reliant on commuter footfall, are being repurposed into residential and mixed-use zones. He argues this is not a temporary blip but a structural realignment, with companies downsizing office footprints. Yet he warns that this decentralization could exacerbate the divide between thriving suburbs and neglected city cores, unless local governments proactively invest in public transit and affordable housing. The analysis ultimately frames remote work as a catalyst for urban reinvention, not decay.",
+     "question": "What does the commentator suggest about the future of urban centers?",
+     "options": [
+      "They will become obsolete as remote work permanently empties them out.",
+      "They will adapt by transforming commercial spaces, but require deliberate policy to avoid inequality.",
+      "They will see a revival as companies realize the benefits of office collaboration.",
+      "They will maintain their current structure but with reduced public transit needs."
+     ],
+     "correct": 1,
+     "points": 3
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "C1 academic texts",
+   "points": 45,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "The Paradox of Technological Transparency",
+     "text": "The relentless pursuit of technological transparency, long heralded as the hallmark of user-centric design, has paradoxically engendered a new form of opacity. As digital interfaces strive to become invisible, seamlessly integrating into the fabric of daily life, the underlying mechanisms that govern their operation grow ever more inscrutable. This dichotomy—between the apparent simplicity of the front end and the labyrinthine complexity of the back end—poses profound challenges for individual autonomy and democratic accountability. The very ease with which we navigate our devices masks a profound ignorance of the forces shaping our choices, a phenomenon that scholars have termed the 'black box society.' At the heart of this paradox lies the algorithmic mediation of reality. Search engines, social media feeds, and recommendation systems are not neutral conduits but active curators, employing machine learning models of such sophistication that even their creators often cannot fully explain their outputs. The opacity is not merely a technical limitation but a deliberate design choice, as proprietary algorithms are shielded from public scrutiny to protect competitive advantage. Consequently, users are subjected to a form of algorithmic governance that operates beyond the reach of traditional regulatory frameworks, raising urgent questions about consent, bias, and the erosion of epistemic trust. Moreover, the drive for transparency at the user interface level has exacerbated the problem. By simplifying interactions to the point of frictionlessness, designers have eliminated the cognitive friction that once prompted users to question the veracity of information or the motives behind its presentation. The seamless experience engenders a passive acceptance, a cognitive offloading that cedes critical thinking to the very systems that purport to serve us. This is particularly alarming in the realm of news consumption, where algorithmic curation can create echo chambers that reinforce pre-existing beliefs, undermining the shared factual basis necessary for democratic discourse. Critics argue that the solution lies in a more robust form of transparency—not of the interface, but of the underlying logic. They advocate for 'algorithmic impact assessments' and 'right to explanation' provisions, which would compel corporations to disclose the criteria used in decision-making processes. However, such proposals face formidable obstacles: the technical complexity of explaining deep learning models, the proprietary interests of tech giants, and the inherent difficulty of rendering probabilistic reasoning in accessible terms. The author's stance is not one of Luddite rejection but of cautious skepticism. The benefits of intelligent systems are undeniable, from medical diagnostics to climate modeling. Yet, the uncritical embrace of technological efficiency without corresponding mechanisms of oversight is a recipe for a subtle but pervasive erosion of human agency. The challenge is to strike a balance—to preserve the conveniences of seamless interaction while ensuring that the citizenry retains the capacity to understand, challenge, and ultimately govern the forces that shape their informational environment.",
+     "level": "advanced",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What is the central paradox described in the passage?",
+       "options": [
+        "Technology becomes more complex as it becomes easier to use.",
+        "Transparency in design leads to hidden algorithmic processes.",
+        "Users demand transparency but reject complexity.",
+        "Machine learning models are too advanced for their creators."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "The phrase 'black box society' (paragraph 1) most likely refers to a society where:",
+       "options": [
+        "technological failures are hidden from the public.",
+        "the workings of influential technologies are opaque to users.",
+        "information is freely accessible but unreliable.",
+        "privacy is compromised by surveillance."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "According to the author, the simplification of user interfaces has led to:",
+       "options": [
+        "increased user engagement and satisfaction.",
+        "a decline in critical evaluation of information.",
+        "greater demand for algorithmic transparency.",
+        "more frequent technical errors."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "The author's stance on intelligent systems can best be described as:",
+       "options": [
+        "enthusiastic endorsement.",
+        "unconditional opposition.",
+        "measured support with reservations.",
+        "complete indifference."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "Which of the following is NOT mentioned as an obstacle to algorithmic transparency?",
+       "options": [
+        "Technical complexity of models.",
+        "Corporate proprietary interests.",
+        "Difficulty in explaining probabilistic reasoning.",
+        "Lack of user interest in understanding algorithms."
+       ],
+       "correct": 3,
+       "points": 3
+      }
+     ]
+    },
+    {
+     "id": "rp2",
+     "title": "The Tyranny of Gross Domestic Product",
+     "text": "For decades, gross domestic product (GDP) has served as the principal barometer of national economic health, a figure so deeply entrenched in policy discourse that its limitations are often overlooked. Yet the very construction of GDP reveals a fundamental paradox: it measures the monetary value of goods and services produced, but it says nothing about the distribution of that wealth, the sustainability of its generation, or the intangible factors that constitute human flourishing. The economist Simon Kuznets, who helped design the metric in the 1930s, warned against its use as a measure of welfare, yet his cautionary note has been largely forgotten in the relentless pursuit of quarterly growth figures. The consequence is a policy-making framework that conflates economic expansion with social progress, leading to decisions that may ultimately undermine the very well-being they purport to enhance. Consider the environmental externalities. A nation that depletes its natural forests, pollutes its rivers, and emits carbon dioxide into the atmosphere records a higher GDP, as these activities generate revenue and employment. But the degradation of these assets is not subtracted from the national accounts; rather, it is treated as an income gain, a perverse accounting that rewards the liquidation of the very resources future generations will need. Similarly, the rise of defensive expenditures—such as spending on security systems, healthcare for stress-related illnesses, or the cleanup of industrial accidents—contributes to GDP, even though these expenditures do not represent an improvement in the quality of life; they are, in essence, the costs of maintaining a precarious status quo. The metric also fails to capture the value of unpaid labor, which disproportionately falls on women, and ignores the social cohesion that underpins a functioning economy. The fetishization of GDP has thus produced a distorted lens through which policymakers view progress. It encourages a bias towards material consumption over investment in public goods, towards short-term growth over long-term resilience, and towards aggregate figures that obscure the stark inequalities that fracture societies. While alternative indices—such as the Human Development Index, the Genuine Progress Indicator, and Bhutan's Gross National Happiness—have been proposed, they remain marginal in mainstream economic governance, dismissed as either too subjective or too complex to operationalize. The persistence of GDP as the dominant metric is not merely a technical oversight; it is a political choice, one that privileges the interests of those who benefit from the current structure of production and consumption. To challenge the supremacy of GDP is to question the very logic of endless accumulation that defines modern capitalism. Yet as ecological limits become increasingly apparent and social discontent simmers, the imperative to rethink our measures of prosperity has never been more urgent. The tyranny of GDP lies not in its mathematical formula, but in its power to shape our collective imagination, reducing the rich tapestry of human existence to a single, reductive number.",
+     "level": "advanced",
+     "questions": [
+      {
+       "id": "rp2q1",
+       "question": "What is the main argument of the passage?",
+       "options": [
+        "GDP is an outdated metric that should be replaced by more holistic measures of well-being.",
+        "GDP accurately reflects economic health but fails to account for environmental costs.",
+        "The use of GDP as a measure of progress is fundamentally flawed and has harmful consequences.",
+        "Alternative indices like the Human Development Index are superior to GDP and should be adopted immediately."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp2q2",
+       "question": "The author's stance towards the continued use of GDP can best be described as:",
+       "options": [
+        "Neutral and objective.",
+        "Cautiously supportive.",
+        "Critical and adversarial.",
+        "Ambivalent and uncertain."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp2q3",
+       "question": "In the context of the passage, the word 'fetishization' (paragraph 3) most nearly means:",
+       "options": [
+        "Obsessive focus or exaggerated importance.",
+        "Scientific measurement and analysis.",
+        "Historical development and evolution.",
+        "Political manipulation and distortion."
+       ],
+       "correct": 0,
+       "points": 3
+      },
+      {
+       "id": "rp2q4",
+       "question": "The author implies that the failure to adopt alternative indices is primarily due to:",
+       "options": [
+        "Their technical complexity and subjective nature.",
+        "A lack of political will to challenge existing power structures.",
+        "The absence of reliable data to construct them.",
+        "The dominance of GDP in academic economics."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp2q5",
+       "question": "Which of the following best illustrates the 'perverse accounting' mentioned in paragraph 2?",
+       "options": [
+        "A country's GDP increases when it spends more on healthcare for pollution-related illnesses.",
+        "A country's GDP decreases when it invests in renewable energy infrastructure.",
+        "A country's GDP remains unchanged when unpaid household work is performed.",
+        "A country's GDP rises when it exports natural resources, even if they are depleted."
+       ],
+       "correct": 3,
+       "points": 3
+      }
+     ]
+    },
+    {
+     "id": "rp3",
+     "title": "The Fragile Persistence of Cultural Memory",
+     "text": "Cultural memory, that intricate web of shared narratives, rituals, and artifacts, is often presumed to be a stable repository of a community's essence. Yet, a closer examination reveals its profoundly ephemeral nature, subject to constant renegotiation and, at times, deliberate erasure. Monuments, for instance, are not inert stones but active participants in the construction of a collective past. They are, as the historian Pierre Nora famously argued, *lieux de mémoire*—sites where memory crystallizes and secretes. However, this crystallization is never permanent; it is a palimpsest upon which successive generations inscribe their own anxieties and aspirations, often obscuring earlier layers. The recent global reassessment of colonial statues exemplifies this dynamic, as communities grapple with the dissonance between a heroic narrative and a brutal historical reality. To demand their removal is not to erase history, but to acknowledge that a monument's meaning is contingent, not fixed. This contingency extends beyond the physical realm. The digital age, with its promise of infinite storage, paradoxically exacerbates the fragility of cultural memory. While we can now archive vast quantities of data, the sheer volume leads to a kind of informational entropy, where the significant is buried under the trivial. Moreover, digital platforms are subject to algorithmic curation, which prioritizes engagement over accuracy, thus shaping memory in ways that are often opaque and unaccountable. The result is a paradoxical amnesia: we are drowning in data yet starving for meaningful recollection. This is not to romanticize a pre-digital past, which had its own forms of selective forgetting, but to highlight that the medium of memory is never neutral. Ultimately, the ephemerality of cultural memory is not a deficiency but a condition of its vitality. A living culture is one that continually reinterprets its past, not one that preserves it in amber. The danger lies not in change, but in the illusion of permanence, which can lead to a complacent and uncritical relationship with our heritage. To engage with memory as a process, rather than a possession, is to embrace a more honest and dynamic understanding of who we are. It requires a willingness to confront uncomfortable truths and to recognize that our identity is not a fixed essence but a narrative we constantly rewrite. In this light, the fragility of memory is not a threat but a call to vigilance, a reminder that the past is never truly past, but a living force that shapes our present and our future.",
+     "level": "advanced",
+     "questions": [
+      {
+       "id": "rp3q1",
+       "question": "What does the author imply about the demand to remove colonial statues?",
+       "options": [
+        "It is a misguided attempt to erase history.",
+        "It reflects an understanding that monuments' meanings are not fixed.",
+        "It is a purely emotional reaction without historical basis.",
+        "It is a necessary step to create a new cultural memory."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp3q2",
+       "question": "What is the central thesis of the passage?",
+       "options": [
+        "Cultural memory is stable and enduring.",
+        "Digital archives are superior to physical monuments.",
+        "Cultural memory is inherently unstable and subject to reinterpretation.",
+        "Monuments should be preserved at all costs."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp3q3",
+       "question": "In the context of the passage, what does 'palimpsest' most nearly mean?",
+       "options": [
+        "A permanent inscription.",
+        "A surface that has been reused and altered.",
+        "A type of monument.",
+        "A digital archive."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp3q4",
+       "question": "How does the author view the ephemerality of cultural memory?",
+       "options": [
+        "As a problem to be solved.",
+        "As a positive and necessary condition.",
+        "As a neutral fact with no implications.",
+        "As a sign of cultural decline."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp3q5",
+       "question": "What can be inferred about the author's attitude towards digital preservation?",
+       "options": [
+        "It is a perfect solution to memory loss.",
+        "It is inherently flawed and should be abandoned.",
+        "It has both benefits and drawbacks, but its drawbacks are significant.",
+        "It is superior to traditional methods."
+       ],
+       "correct": 2,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "speaking",
+   "title": "Speaking",
+   "description": "Extended C1 speaking",
+   "points": 20,
+   "prompts": [
+    {
+     "id": "s1",
+     "prompt": "Argue for or against the proposition that university education should be free for all citizens, considering economic and social implications.",
+     "example": "While free university education might seem like a progressive step toward equality, I would argue that it risks devaluing academic credentials and placing an unsustainable burden on public finances.",
+     "points": 5
+    },
+    {
+     "id": "s2",
+     "prompt": "Compare and contrast the viewpoints that remote work enhances productivity versus the traditional office environment fosters collaboration and innovation.",
+     "example": "Although remote work is often praised for its flexibility, I believe that the structured, face-to-face interactions of a physical office are indispensable for sparking creative synergy and building a cohesive corporate culture.",
+     "points": 5
+    },
+    {
+     "id": "s3",
+     "prompt": "Speculate on how the widespread adoption of artificial intelligence in healthcare might transform the doctor-patient relationship over the next decade.",
+     "example": "If AI becomes a standard diagnostic tool, I suspect that physicians will shift from being primary decision-makers to interpreters of algorithmic insights, which could fundamentally alter the trust and communication dynamics with their patients.",
+     "points": 5
+    },
+    {
+     "id": "s4",
+     "prompt": "Summarise and evaluate the main arguments in the debate over whether social media platforms should be held legally responsible for user-generated content.",
+     "example": "To summarise, proponents argue that platforms are mere conduits, while critics insist they are active curators, and on balance, I find the case for accountability more compelling given their algorithmic amplification of harmful material.",
+     "points": 5
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 107,
+  "breakdown": {
+   "grammar": 24,
+   "listening": 18,
+   "reading": 45,
+   "speaking": 20
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 59.9,
+    "level": "Approaching C1",
+    "cefr": "B2",
+    "recommended_unit": 12,
+    "unit_name": "C1 Capstone",
+    "description": "Strong B2 — not yet C1. Keep working through units 12–13 and the C1 readers.",
+    "message": "So close. Review the C1 material and try again."
+   },
+   {
+    "min_score": 60,
+    "max_score": 74.9,
+    "level": "Nearly C1",
+    "cefr": "B2",
+    "recommended_unit": 13,
+    "unit_name": "C1 Capstone",
+    "description": "On the C1 threshold. A little more consolidation will get you there.",
+    "message": "Almost there — polish the areas you missed and retake."
+   },
+   {
+    "min_score": 75,
+    "max_score": 100,
+    "level": "C1 — College Ready",
+    "cefr": "C1",
+    "recommended_unit": 13,
+    "unit_name": "C1 Capstone",
+    "description": "You are performing at CEFR C1 — genuinely college-ready in English.",
+    "message": "Outstanding. You have reached C1 — college-ready. Claim your certificate."
+   }
+  ]
+ }
+}
