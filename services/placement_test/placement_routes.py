@@ -222,6 +222,62 @@ async def submit_capstone(submission: SubmitTestRequest):
         raise HTTPException(status_code=500, detail="Error processing capstone")
 
 
+CHECKPOINT_UNITS = {2, 4, 6, 8, 10, 12}
+
+
+def load_checkpoint_test(n):
+    with open(Path(__file__).parent / f"checkpoint-{n}-test.json", 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+@router.get("/checkpoint/{n}/test")
+async def get_checkpoint_test(n: int):
+    if n not in CHECKPOINT_UNITS:
+        raise HTTPException(status_code=404, detail="No checkpoint for that unit")
+    try:
+        return _strip_for_client(load_checkpoint_test(n), f"/api/placement/checkpoint/{n}/listen")
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Checkpoint is not available yet")
+
+
+@router.get("/checkpoint/{n}/listen/{question_id}")
+async def checkpoint_listening_audio(n: int, question_id: str):
+    from core.config import KOKORO_VOICE, TTS_VOICE_DEFAULT
+    from core.speech import synthesize
+    try:
+        test_data = load_checkpoint_test(n)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Checkpoint not found")
+    for section in test_data.get("sections", []):
+        for q in section.get("questions", []):
+            if q.get("id") == question_id and q.get("transcript"):
+                url = await synthesize(q["transcript"], KOKORO_VOICE, TTS_VOICE_DEFAULT,
+                                       prefix=f"checkpoint{n}_{question_id}")
+                if not url:
+                    raise HTTPException(status_code=503, detail="Audio generation unavailable")
+                return RedirectResponse(url)
+    raise HTTPException(status_code=404, detail="Listening question not found")
+
+
+@router.post("/checkpoint/{n}/submit", response_model=PlacementResult)
+async def submit_checkpoint(n: int, submission: SubmitTestRequest):
+    if n not in CHECKPOINT_UNITS:
+        raise HTTPException(status_code=404, detail="No checkpoint for that unit")
+    try:
+        test_data = load_checkpoint_test(n)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Checkpoint not found")
+    total, mx, pct, breakdown, level = _score_test(test_data, submission.answers)
+    return PlacementResult(
+        total_score=total, max_score=mx, percentage=pct,
+        level=level["level"], cefr=level["cefr"], description=level["description"],
+        recommended_unit=level["recommended_unit"], unit_name=level["unit_name"],
+        message=level["message"], breakdown=breakdown,
+        completed_at=datetime.now().isoformat(), can_retake=True,
+        certificate_available=pct >= 50,
+    )
+
+
 @router.get("/history")
 async def placement_history(user=Depends(get_current_user)):
     """The learner's assessment timeline (baseline placement + later progress

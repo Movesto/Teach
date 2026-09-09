@@ -47,8 +47,14 @@ export default function PlacementTest() {
   const { updateUser } = useAuth();
   const [searchParams] = useSearchParams();
   const isCapstone = searchParams.get('capstone') === '1';
-  const testPath = isCapstone ? '/api/placement/capstone/test' : '/api/placement/test';
-  const submitPath = isCapstone ? '/api/placement/capstone/submit' : '/api/placement/submit';
+  const checkpointN = searchParams.get('checkpoint');
+  const isCheckpoint = !!checkpointN;
+  const testPath = isCapstone ? '/api/placement/capstone/test'
+    : isCheckpoint ? `/api/placement/checkpoint/${checkpointN}/test`
+    : '/api/placement/test';
+  const submitPath = isCapstone ? '/api/placement/capstone/submit'
+    : isCheckpoint ? `/api/placement/checkpoint/${checkpointN}/submit`
+    : '/api/placement/submit';
 
   const [testData, setTestData] = useState(null);
   const [allCards, setAllCards] = useState([]);
@@ -180,14 +186,14 @@ export default function PlacementTest() {
     }
   };
 
-  const savePlacement = async (payload, userUpdate) => {
+  const savePlacement = async (payload, userUpdate, dest = '/dashboard') => {
     setIsSaving(true);
     setSaveError(false);
     try {
       const r = await apiFetch('/api/placement/save', { method: 'POST', body: JSON.stringify(payload) });
       if (!r.ok) throw new Error();
       updateUser({ placement_done: true, ...userUpdate });
-      navigate('/dashboard');
+      navigate(dest);
     } catch {
       setSaveError(true);
     } finally {
@@ -208,10 +214,13 @@ export default function PlacementTest() {
       navigate(`/certificate?cefr=${encodeURIComponent(result.cefr)}&score=${Math.round(result.percentage)}`);
       return;
     }
+    // Checkpoints and the placement test both record a result (updates level +
+    // the then-vs-now history). Checkpoints return to Progress to show it.
     savePlacement(
       { score: result.total_score, percentage: result.percentage, level: result.level,
         cefr: result.cefr, recommended_unit: result.recommended_unit, breakdown: result.breakdown },
-      { cefr_level: result.cefr, recommended_unit: result.recommended_unit }
+      { cefr_level: result.cefr, recommended_unit: result.recommended_unit },
+      isCheckpoint ? '/progress' : '/dashboard'
     );
   };
 
@@ -220,8 +229,8 @@ export default function PlacementTest() {
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-10">
           <div className="text-5xl mb-4">🎯</div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{isCapstone ? 'C1 Capstone Assessment' : 'English Placement Test'}</h1>
-          <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg mb-6">{isCapstone ? 'Prove you are college-ready (CEFR C1)' : 'Imtixaanka Heerka Ingiriisiga'}</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{isCapstone ? 'C1 Capstone Assessment' : isCheckpoint ? `Unit ${checkpointN} Checkpoint` : 'English Placement Test'}</h1>
+          <p className="text-indigo-600 dark:text-indigo-400 font-semibold text-lg mb-6">{isCapstone ? 'Prove you are college-ready (CEFR C1)' : isCheckpoint ? 'A quick check of how far you have come' : 'Imtixaanka Heerka Ingiriisiga'}</p>
           <div className="text-left space-y-3 mb-8">
             <p className="text-gray-700 dark:text-gray-300">
               This short test helps us find your exact English level so you can start at the right place.
@@ -244,7 +253,7 @@ export default function PlacementTest() {
           >
             Start Test / Bilow Imtixaanka →
           </button>
-          {!isCapstone && (
+          {!isCapstone && !isCheckpoint && (
             <button
               onClick={handleSkip}
               disabled={isSaving}
@@ -326,7 +335,7 @@ export default function PlacementTest() {
                 Saving...
               </>
             ) : (
-              isCapstone ? 'View Certificate →' : 'Bilow Barashada → / Start Learning'
+              isCapstone ? 'View Certificate →' : isCheckpoint ? 'See my progress →' : 'Bilow Barashada → / Start Learning'
             )}
           </button>
           {saveError && (

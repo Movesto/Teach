@@ -241,6 +241,31 @@ function CanDoCard({ data }) {
   );
 }
 
+function CheckpointsCard({ navigate }) {
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+      <div className="flex items-center gap-2 mb-1">
+        <Award className="w-4 h-4 text-teal-500" />
+        <p className="font-semibold text-gray-900 dark:text-white text-sm">Unit checkpoints</p>
+      </div>
+      <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+        A short, level-calibrated check after every 2 units — it updates your level.
+      </p>
+      <div className="grid grid-cols-3 gap-2">
+        {[2, 4, 6, 8, 10, 12].map((n) => (
+          <button
+            key={n}
+            onClick={() => navigate(`/placement?checkpoint=${n}`)}
+            className="py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-300 hover:border-teal-500 hover:text-teal-600 dark:hover:text-teal-400"
+          >
+            Unit {n}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Progress() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
@@ -330,6 +355,9 @@ export default function Progress() {
 
         {/* Prove your progress — then vs now + certificate */}
         {attempts && attempts.length > 0 && <ProgressCheckCard attempts={attempts} navigate={navigate} />}
+
+        {/* Unit checkpoints */}
+        <CheckpointsCard navigate={navigate} />
 
         {/* Vocabulary coverage toward C1 */}
         {coverage && <CoverageCard cov={coverage} />}

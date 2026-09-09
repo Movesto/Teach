@@ -1,0 +1,311 @@
+{
+ "id": "checkpoint-8",
+ "title": "Unit 8 Checkpoint",
+ "description": "A quick B2 progress check after unit 8.",
+ "version": "1.0",
+ "total_time_minutes": 15,
+ "total_points": 46,
+ "instructions": "Answer as many as you can — this shows how far you've come.",
+ "sections": [
+  {
+   "id": "grammar",
+   "title": "Grammar",
+   "description": "",
+   "points": 16,
+   "questions": [
+    {
+     "id": "g1",
+     "question": "If I had known about the meeting, I ___ attended.",
+     "options": [
+      "would have",
+      "would",
+      "will have",
+      "had"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g2",
+     "question": "She looks tired. She ___ have been working late.",
+     "options": [
+      "must",
+      "can't",
+      "should",
+      "might"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g3",
+     "question": "The bridge is reported ___ in 2010.",
+     "options": [
+      "to build",
+      "to be built",
+      "to have built",
+      "to have been built"
+     ],
+     "correct": 3,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g4",
+     "question": "The office ___ I work is very modern.",
+     "options": [
+      "which",
+      "where",
+      "that",
+      "what"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g5",
+     "question": "Hardly ___ the train when it started to move.",
+     "options": [
+      "had I boarded",
+      "I had boarded",
+      "I boarded",
+      "did I board"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g6",
+     "question": "If she had studied harder, she ___ a better job now.",
+     "options": [
+      "would have",
+      "would have had",
+      "would",
+      "will have"
+     ],
+     "correct": 0,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g7",
+     "question": "I wish I ___ speak French fluently.",
+     "options": [
+      "can",
+      "could",
+      "will",
+      "would"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B2"
+    },
+    {
+     "id": "g8",
+     "question": "She said she ___ to the party the next day.",
+     "options": [
+      "will go",
+      "would go",
+      "goes",
+      "went"
+     ],
+     "correct": 1,
+     "points": 2,
+     "level": "B2"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "description": "",
+   "points": 18,
+   "passages": [
+    {
+     "id": "rp1",
+     "title": "The Rise of Remote Work and Its Impact on Urban Life",
+     "text": "Over the past decade, remote work has evolved from a rare perk to a mainstream practice, accelerated by the pandemic and sustained by technological advances. While many employees relish the flexibility and the elimination of daily commutes, the shift has profound implications for cities, which have long thrived on dense concentrations of office workers. Urban planners and economists are now grappling with a paradox: as remote work becomes entrenched, the very fabric of urban life is being rewoven in unexpected ways.\n\nInitially, the exodus from city centers seemed catastrophic. Restaurants, coffee shops, and retail outlets that depended on lunchtime crowds and after-work foot traffic saw revenues plummet. Commercial real estate vacancies reached record highs, forcing landlords to reconsider the value of office towers. However, a more nuanced picture is emerging. Many cities are not shrinking but transforming. Former office districts are being repurposed into mixed-use neighborhoods, with residential units, green spaces, and cultural venues filling empty floors. This shift aligns with a growing preference for walkable, amenity-rich areas, which remote workers now seek closer to home.\n\nYet, the benefits are unevenly distributed. High-skilled professionals in tech and finance often enjoy the luxury of remote work, while service workers—baristas, cleaners, delivery drivers—still must commute to serve those who stay home. This creates a new spatial inequality, where affluent suburbs gain vitality at the expense of struggling downtowns. Additionally, the psychological toll of remote work is becoming apparent: isolation, blurred boundaries between work and life, and a decline in spontaneous collaboration, which many argue fuels innovation.\n\nCities are adapting by investing in digital infrastructure and public spaces, but the long-term outcome remains uncertain. Some predict a hybrid model where offices become hubs for occasional meetings, not daily routines. Others foresee a permanent decentralization, with smaller cities and rural areas benefiting from an influx of teleworkers. Whichever path prevails, one thing is clear: the relationship between where we work and how we live is undergoing a fundamental reset, and urban policy must evolve accordingly.",
+     "level": "B2",
+     "questions": [
+      {
+       "id": "rp1q1",
+       "question": "What is the main paradox mentioned in the first paragraph?",
+       "options": [
+        "Remote work reduces productivity but increases happiness.",
+        "Cities thrive on dense offices, yet remote work undermines that.",
+        "Technology enables remote work but also isolates workers.",
+        "Urban planners welcome remote work while economists oppose it."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q2",
+       "question": "According to the text, what happened to city centers initially?",
+       "options": [
+        "They became more residential.",
+        "They experienced a severe economic downturn.",
+        "They attracted more tourists.",
+        "They invested in digital infrastructure."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q3",
+       "question": "How are former office districts being transformed?",
+       "options": [
+        "They are being demolished for parking lots.",
+        "They are converted into mixed-use areas with homes and amenities.",
+        "They are turned into temporary shelters.",
+        "They are left vacant indefinitely."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q4",
+       "question": "What does the text suggest about the benefits of remote work?",
+       "options": [
+        "They are shared equally across all workers.",
+        "They mainly favor high-skilled professionals.",
+        "They are negligible for most employees.",
+        "They depend on the size of the city."
+       ],
+       "correct": 1,
+       "points": 3
+      },
+      {
+       "id": "rp1q5",
+       "question": "What is a negative psychological effect of remote work mentioned?",
+       "options": [
+        "Increased commuting time.",
+        "Lack of access to office supplies.",
+        "Feelings of isolation and blurred work-life boundaries.",
+        "Difficulty in using technology."
+       ],
+       "correct": 2,
+       "points": 3
+      },
+      {
+       "id": "rp1q6",
+       "question": "What is one possible long-term outcome mentioned for cities?",
+       "options": [
+        "All cities will become obsolete.",
+        "A hybrid model with offices used for occasional meetings.",
+        "Remote work will be completely reversed.",
+        "Cities will ban remote work policies."
+       ],
+       "correct": 1,
+       "points": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "Listening",
+   "description": "",
+   "points": 12,
+   "questions": [
+    {
+     "id": "l1",
+     "transcript": "I was thinking we could fly to Barcelona, but the tickets are quite expensive. Maybe we should take the train instead, even though it's longer. We could also consider driving, but parking might be a problem.",
+     "question": "What does the speaker suggest as an alternative to flying?",
+     "options": [
+      "Taking a train",
+      "Driving",
+      "Staying home",
+      "Taking a bus"
+     ],
+     "correct": 0,
+     "points": 3
+    },
+    {
+     "id": "l2",
+     "transcript": "The novel's strength lies in its vivid descriptions and complex characters. However, some readers might find the pacing too slow, especially in the middle chapters. Overall, it's a thought-provoking read.",
+     "question": "What is the speaker's main criticism of the novel?",
+     "options": [
+      "The characters are poorly developed",
+      "The pacing is slow in parts",
+      "The descriptions are too vivid",
+      "The ending is disappointing"
+     ],
+     "correct": 1,
+     "points": 3
+    },
+    {
+     "id": "l3",
+     "transcript": "I had my interview yesterday, and I think it went well. They asked about my experience with teamwork, and I gave examples from my previous job. But then they asked about my weaknesses, and I wasn't sure what to say.",
+     "question": "What aspect of the interview did the speaker find difficult?",
+     "options": [
+      "Discussing teamwork",
+      "Describing previous job",
+      "Answering about weaknesses",
+      "Scheduling the interview"
+     ],
+     "correct": 2,
+     "points": 3
+    },
+    {
+     "id": "l4",
+     "transcript": "Join us this Saturday for the annual community clean-up. We'll meet at the park entrance at 9 a.m. Gloves and bags will be provided, but please bring your own water. After the clean-up, there will be a barbecue and live music.",
+     "question": "What should participants bring to the clean-up?",
+     "options": [
+      "Gloves and bags",
+      "Water",
+      "Food",
+      "Music instruments"
+     ],
+     "correct": 1,
+     "points": 3
+    }
+   ]
+  }
+ ],
+ "scoring": {
+  "total_points": 46,
+  "breakdown": {
+   "grammar": 16,
+   "reading": 18,
+   "listening": 12
+  },
+  "levels": [
+   {
+    "min_score": 0,
+    "max_score": 49.9,
+    "level": "Intermediate",
+    "cefr": "B1",
+    "recommended_unit": 7,
+    "unit_name": "Food & Eating",
+    "description": "Below the B2 target — a little more practice will get you there.",
+    "message": "Keep going — review earlier units, then retake."
+   },
+   {
+    "min_score": 50,
+    "max_score": 79.9,
+    "level": "Upper-Intermediate",
+    "cefr": "B2",
+    "recommended_unit": 9,
+    "unit_name": "Advanced Communication",
+    "description": "Right on track — you are performing at B2.",
+    "message": "Great work — you are at B2. Keep moving forward."
+   },
+   {
+    "min_score": 80,
+    "max_score": 100,
+    "level": "Advanced",
+    "cefr": "C1",
+    "recommended_unit": 9,
+    "unit_name": "Advanced Communication",
+    "description": "Ahead of schedule — you are already reaching C1.",
+    "message": "Excellent — you are ahead, performing at C1."
+   }
+  ]
+ }
+}
