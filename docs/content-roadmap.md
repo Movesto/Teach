@@ -185,8 +185,10 @@ older Coxhead AWL, for a consistent general+academic target.
 **Largely done (PR #13).** Progress checks (then-vs-now via placement history) +
 printable certificate; can-do statements per unit (checked off by unit test); and
 the **C1 capstone** (`services/placement_test/capstone-test.json`, served/scored by
-`/api/placement/capstone/*`, launched from Progress, 75%+ = college-ready). Still
-open: distinct per-checkpoint content; units 11–13 exam-shape assessments.
+`/api/placement/capstone/*`, launched from Progress, 75%+ = college-ready); and
+**per-checkpoint tests** after units 2/4/6/8/10/12 (`checkpoint-{n}-test.json`,
+`/api/placement/checkpoint/{n}/*`). Only remaining: units 11–13 exam-shape
+assessments (timed essay, listen-then-write).
 
 
 - [ ] Checkpoint test after every 2 units, built on the placement-test machinery
