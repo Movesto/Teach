@@ -117,6 +117,7 @@ from routers.tts import router as tts_router
 from routers.assessment import router as assessment_router
 from routers.books import router as books_router
 from routers.readers import router as readers_router
+from routers.practice import router as practice_router
 from routers.progress import router as progress_router
 from routers.conversation import router as conversation_router
 
@@ -129,6 +130,7 @@ app.include_router(tts_router)
 app.include_router(assessment_router)
 app.include_router(books_router)
 app.include_router(readers_router)
+app.include_router(practice_router)
 app.include_router(progress_router)
 app.include_router(conversation_router)
 app.include_router(feedback_router)
