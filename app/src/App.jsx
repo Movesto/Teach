@@ -21,6 +21,7 @@ import Certificate from './pages/Certificate';
 import WritingExam from './pages/WritingExam';
 import Dictation from './pages/Dictation';
 import MistakeNotebook from './pages/MistakeNotebook';
+import ReportCard from './pages/ReportCard';
 import AdminFeedback from './pages/AdminFeedback';
 
 function LoadingScreen() {
@@ -182,6 +183,7 @@ function AppShell() {
         <Route path="/exam/:unitId" element={<ProtectedRoute><WritingExam /></ProtectedRoute>} />
         <Route path="/dictation" element={<ProtectedRoute><Dictation /></ProtectedRoute>} />
         <Route path="/notebook" element={<ProtectedRoute><MistakeNotebook /></ProtectedRoute>} />
+        <Route path="/report" element={<ProtectedRoute><ReportCard /></ProtectedRoute>} />
         <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
       </Routes>
     </div>
