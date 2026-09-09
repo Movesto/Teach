@@ -359,6 +359,28 @@ export default function Progress() {
         {/* Unit checkpoints */}
         <CheckpointsCard navigate={navigate} />
 
+        {/* C1 writing exams (units 11-13) */}
+        <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+          <div className="flex items-center gap-2 mb-1">
+            <Award className="w-4 h-4 text-purple-500" />
+            <p className="font-semibold text-gray-900 dark:text-white text-sm">C1 writing exams</p>
+          </div>
+          <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+            Timed C1 essay + listen-then-write, graded by AI (units 11–13).
+          </p>
+          <div className="grid grid-cols-3 gap-2">
+            {[11, 12, 13].map((n) => (
+              <button
+                key={n}
+                onClick={() => navigate(`/exam/${n}`)}
+                className="py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-300 hover:border-purple-500 hover:text-purple-600 dark:hover:text-purple-400"
+              >
+                Unit {n}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Vocabulary coverage toward C1 */}
         {coverage && <CoverageCard cov={coverage} />}
 

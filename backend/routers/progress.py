@@ -3,11 +3,22 @@ import logging
 from datetime import date, timedelta
 from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 
 from core.db import get_db, release_db
 from core.security import get_current_user, get_optional_user
 from core.config import UNIT_TESTS_DIR
+
+_WRITING_EXAMS_PATH = Path(__file__).parent.parent / "services" / "placement_test" / "writing-exams.json"
+
+
+def _load_writing_exams():
+    try:
+        with open(_WRITING_EXAMS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {}
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["progress"])
@@ -105,6 +116,34 @@ async def get_progress_stats(user=Depends(get_current_user)):
         }
     finally:
         release_db(conn)
+
+
+@router.get("/writing-exam/{unit}")
+async def get_writing_exam(unit: int, user=Depends(get_current_user)):
+    """Units 11-13 exam-shape writing tasks: a timed C1 essay + an integrated
+    listen-then-write. The listen-then-write transcript is NOT sent (the learner
+    must listen); it's pointed at server-side audio. Grading via /api/writing/assess."""
+    exam = _load_writing_exams().get(str(unit))
+    if not exam:
+        raise HTTPException(status_code=404, detail="No writing exam for that unit")
+    lw = dict(exam.get("listen_write", {}))
+    lw.pop("transcript", None)
+    lw["audio"] = f"/api/writing-exam/{unit}/listen"
+    return {"unit": unit, "essay": exam.get("essay"), "listen_write": lw}
+
+
+@router.get("/writing-exam/{unit}/listen")
+async def writing_exam_audio(unit: int):
+    from core.config import KOKORO_VOICE, TTS_VOICE_DEFAULT
+    from core.speech import synthesize
+    exam = _load_writing_exams().get(str(unit))
+    transcript = (exam or {}).get("listen_write", {}).get("transcript")
+    if not transcript:
+        raise HTTPException(status_code=404, detail="No audio for that exam")
+    url = await synthesize(transcript, KOKORO_VOICE, TTS_VOICE_DEFAULT, prefix=f"writingexam_{unit}")
+    if not url:
+        raise HTTPException(status_code=503, detail="Audio generation unavailable")
+    return RedirectResponse(url)
 
 
 @router.get("/unit-tests/{unit_id}")

@@ -18,6 +18,7 @@ import ConversationPractice from './pages/ConversationPractice';
 import VocabularyReview from './pages/VocabularyReview';
 import Progress from './pages/Progress';
 import Certificate from './pages/Certificate';
+import WritingExam from './pages/WritingExam';
 import AdminFeedback from './pages/AdminFeedback';
 
 function LoadingScreen() {
@@ -176,6 +177,7 @@ function AppShell() {
         <Route path="/vocabulary" element={<ProtectedRoute><VocabularyReview /></ProtectedRoute>} />
         <Route path="/progress" element={<ProtectedRoute><Progress /></ProtectedRoute>} />
         <Route path="/certificate" element={<ProtectedRoute><Certificate /></ProtectedRoute>} />
+        <Route path="/exam/:unitId" element={<ProtectedRoute><WritingExam /></ProtectedRoute>} />
         <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
       </Routes>
     </div>
