@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Repeat, Ear, BookMarked, MessageCircle, ChevronRight } from 'lucide-react';
+import { BookOpen, Repeat, Ear, BookMarked, MessageCircle, ChevronRight, Mic } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
 export default function DailyPlan() {
@@ -16,6 +16,7 @@ export default function DailyPlan() {
     { to: '/library', icon: BookOpen, label: 'Read a story', color: 'text-emerald-500' },
     { to: '/vocabulary', icon: Repeat, label: 'Review vocabulary', color: 'text-indigo-500', badge: due },
     { to: '/dictation', icon: Ear, label: 'Dictation practice', color: 'text-blue-500' },
+    { to: '/shadowing', icon: Mic, label: 'Shadowing (speak)', color: 'text-pink-500' },
     { to: '/notebook', icon: BookMarked, label: 'Fix your mistakes', color: 'text-red-500', badge: mistakes },
     { to: '/talk', icon: MessageCircle, label: 'Practice conversation', color: 'text-purple-500' },
   ];

@@ -1,0 +1,50 @@
+{
+ "A2": [
+  "What do you usually eat for breakfast on weekends?",
+  "Tell me about a person in your family who is very important to you.",
+  "What is your favorite job or work activity, and why?",
+  "How do you spend your free time after work or school?",
+  "What is a typical day like for you from morning to night?",
+  "What food from your country do you think everyone should try?",
+  "What do you do to relax when you feel tired?",
+  "What is a special tradition in your family or community?",
+  "What is something new you would like to learn or try?",
+  "How do you stay healthy in your daily life?"
+ ],
+ "B1": [
+  "What is one place you have visited that you would recommend to a friend, and why?",
+  "If you could travel anywhere for free for one week, where would you go and what would you do?",
+  "How do you usually decide how to spend your money on fun activities or things you want?",
+  "Do you prefer saving money for something big or spending it on small everyday pleasures? Why?",
+  "What is one technology or app that you use every day, and how does it make your life easier?",
+  "How has technology changed the way you keep in touch with friends or family?",
+  "What is something you like about your neighborhood or community? What would you change if you could?",
+  "In what ways do you help or support the people around you in your community?",
+  "Have you ever had a positive experience with someone from a different culture? What did you learn from it?",
+  "What is a common tradition or celebration in your community that you enjoy, and why is it special to you?"
+ ],
+ "B2": [
+  "How might schools better prepare students for a world where technology changes rapidly?",
+  "What everyday habits could people adopt to reduce their environmental impact without major lifestyle changes?",
+  "In what ways can communities preserve local traditions while also embracing global influences?",
+  "How can media consumers tell the difference between reliable news and misinformation?",
+  "Should education focus more on teaching practical skills or on developing critical thinking?",
+  "What role should individuals play in tackling climate change compared to governments and businesses?",
+  "How do cultural festivals help people understand each other better in a diverse society?",
+  "What are the potential benefits and drawbacks of social media for young people's learning?",
+  "If you could redesign one aspect of your country's education system, what would it be and why?",
+  "How can people respectfully discuss controversial topics without damaging relationships?"
+ ],
+ "C1": [
+  "To what extent should individual freedom be limited for the sake of collective security?",
+  "Can technological progress ever truly be neutral, or does it always carry the values of its creators?",
+  "In an increasingly globalized world, does national identity become more or less important?",
+  "Is it ethical to prioritize the needs of future generations over the current population's comfort?",
+  "What role should empathy play in making fair societal decisions, and where might it fall short?",
+  "Does the concept of 'progress' always imply improvement, or can it sometimes lead to regress?",
+  "How do we balance the right to personal privacy with the benefits of shared data in modern society?",
+  "Can a society truly be just if it doesn't address historical injustices?",
+  "Is it possible to maintain a distinct cultural identity while embracing global influences, and at what cost?",
+  "Should we hold individuals or systems primarily accountable for ethical failures in society?"
+ ]
+}

@@ -1,6 +1,7 @@
 """Phase 7 practice modes. Dictation: the app plays a sentence, the learner types
 what they hear, and the server scores it against the hidden text (the text is never
 sent to the client until after they answer). Audio reuses the Kokoro TTS cache."""
+import datetime
 import difflib
 import json
 import logging
@@ -45,6 +46,44 @@ async def dictation_set(level: str = "A2", n: int = 10):
     picked = random.sample(items, min(n, len(items))) if items else []
     return {"level": level, "items": [
         {"id": it["id"], "audio": f"/api/practice/dictation/{it['id']}/listen"} for it in picked]}
+
+
+_SC_PATH = Path(__file__).parent.parent / "data" / "speaking-club.json"
+_sc = None
+
+
+def _load_sc():
+    global _sc
+    if _sc is None:
+        try:
+            with open(_SC_PATH, encoding="utf-8") as f:
+                _sc = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            _sc = {}
+    return _sc
+
+
+@router.get("/speaking-club")
+async def speaking_club(level: str = "A2"):
+    """This week's discussion prompt for the level (rotates by ISO week)."""
+    sc = _load_sc()
+    prompts = sc.get(level) or sc.get("A2") or []
+    if not prompts:
+        return {"level": level, "prompt": None}
+    week = datetime.date.today().isocalendar()[1]
+    return {"level": level, "week": week, "prompt": prompts[week % len(prompts)]}
+
+
+@router.get("/shadowing")
+async def shadowing_set(level: str = "A2", n: int = 8):
+    """Shadowing shows the text (you read, hear the model, then record + compare),
+    so unlike dictation the text IS returned. Audio reuses the dictation endpoint."""
+    d, _ = _load()
+    items = d.get(level) or d.get("A2") or []
+    picked = random.sample(items, min(n, len(items))) if items else []
+    return {"level": level, "items": [
+        {"id": it["id"], "text": it["text"], "audio": f"/api/practice/dictation/{it['id']}/listen"}
+        for it in picked]}
 
 
 @router.get("/dictation/{item_id}/listen")

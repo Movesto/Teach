@@ -20,6 +20,7 @@ import Progress from './pages/Progress';
 import Certificate from './pages/Certificate';
 import WritingExam from './pages/WritingExam';
 import Dictation from './pages/Dictation';
+import Shadowing from './pages/Shadowing';
 import MistakeNotebook from './pages/MistakeNotebook';
 import ReportCard from './pages/ReportCard';
 import AdminFeedback from './pages/AdminFeedback';
@@ -182,6 +183,7 @@ function AppShell() {
         <Route path="/certificate" element={<ProtectedRoute><Certificate /></ProtectedRoute>} />
         <Route path="/exam/:unitId" element={<ProtectedRoute><WritingExam /></ProtectedRoute>} />
         <Route path="/dictation" element={<ProtectedRoute><Dictation /></ProtectedRoute>} />
+        <Route path="/shadowing" element={<ProtectedRoute><Shadowing /></ProtectedRoute>} />
         <Route path="/notebook" element={<ProtectedRoute><MistakeNotebook /></ProtectedRoute>} />
         <Route path="/report" element={<ProtectedRoute><ReportCard /></ProtectedRoute>} />
         <Route path="/admin/feedback" element={<ProtectedRoute><AdminFeedback /></ProtectedRoute>} />
