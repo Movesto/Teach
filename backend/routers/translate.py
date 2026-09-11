@@ -1,6 +1,6 @@
 import logging
 from typing import Optional
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
 from core.rate_limit import ai_rate_limit
@@ -9,6 +9,7 @@ from core.config import support_level_for_unit
 from core.ai_client import translate_text, ask_folded, sanitize_user_message
 from core.curriculum import tutor_support_policy
 from core.prompts import FOLDED_TUTOR_SOMALI, FOLDED_TUTOR_ENGLISH
+from core.usage import tutor_requests_today, daily_limit_for
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["ai"])
@@ -40,6 +41,17 @@ def _support_level(unit_id: Optional[int]) -> str:
     return support_level_for_unit(unit_id) if unit_id else "english_first"
 
 
+def _enforce_tutor_quota(user: dict) -> None:
+    """Block a turn once the user has hit their plan's daily tutor limit."""
+    limit = daily_limit_for(user.get("plan"))
+    if tutor_requests_today(user["id"]) >= limit:
+        raise HTTPException(
+            status_code=429,
+            detail=("You've reached today's limit for the AI tutor. "
+                    "It resets tomorrow — or upgrade for a much higher daily limit."),
+        )
+
+
 @router.post("/translate")
 async def translate(req: TranslateRequest, _=Depends(ai_rate_limit)):
     direction = req.direction
@@ -58,6 +70,7 @@ async def translate(req: TranslateRequest, _=Depends(ai_rate_limit)):
 
 @router.post("/explain")
 async def explain(req: ExplainRequest, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
+    _enforce_tutor_quota(user)
     english = sanitize_user_message(req.english)
     context = sanitize_user_message(req.context)
     brevity = "Remember: answer in 3 to 5 short plain sentences only. No lists. No formatting."
@@ -97,7 +110,7 @@ async def explain(req: ExplainRequest, _=Depends(ai_rate_limit), user=Depends(ge
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
     ]
-    explanation = await ask_folded(messages, max_tokens=400)
+    explanation = await ask_folded(messages, user_id=user["id"], feature="tutor", max_tokens=400)
     return {"explanation": explanation, "explanation_english": explanation}
 
 
@@ -108,6 +121,7 @@ async def chat(req: ChatRequest, _=Depends(ai_rate_limit), user=Depends(get_curr
     the reply/reply_english/user_message_english shape the frontend expects; in
     folded mode the model works in the raw language, so the *_english fields mirror
     the reply and the raw message (they seed the next turn's history)."""
+    _enforce_tutor_quota(user)
     message = sanitize_user_message(req.message)
     suffix, translate_reply = tutor_support_policy(_support_level(req.unit_id))
 
@@ -125,7 +139,7 @@ async def chat(req: ChatRequest, _=Depends(ai_rate_limit), user=Depends(get_curr
             messages.append({"role": msg["role"], "content": content})
     messages.append({"role": "user", "content": message})
 
-    reply = await ask_folded(messages, max_tokens=350)
+    reply = await ask_folded(messages, user_id=user["id"], feature="tutor", max_tokens=350)
 
     return {
         "reply": reply,

@@ -156,7 +156,8 @@ async def get_current_user(
         conn = get_db()
         cur = conn.cursor()
         cur.execute(
-            "SELECT id, name, email, placement_done, cefr_level, recommended_unit FROM users WHERE id = %s",
+            "SELECT id, name, email, placement_done, cefr_level, recommended_unit, "
+            "COALESCE(plan, 'free') AS plan FROM users WHERE id = %s",
             (user_id,),
         )
         row = cur.fetchone()

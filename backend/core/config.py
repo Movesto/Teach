@@ -31,6 +31,11 @@ FOLDED_OUTPUT_PER_M = float(os.environ.get("FOLDED_OUTPUT_PER_M", "0.18"))
 # serves everyone from the free fallback for the rest of the day. 0 = never use paid.
 LLM_DAILY_SPEND_CAP_USD = float(os.environ.get("LLM_DAILY_SPEND_CAP_USD", "5.0"))
 
+# Per-user daily tutor limit (chat + explain turns), by plan. Enforced via the
+# strict per-user accounting in core/usage.py. See docs/translation-model-decision.md.
+TUTOR_FREE_DAILY_LIMIT = int(os.environ.get("TUTOR_FREE_DAILY_LIMIT", "25"))
+TUTOR_PAID_DAILY_LIMIT = int(os.environ.get("TUTOR_PAID_DAILY_LIMIT", "500"))
+
 PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
 KOKORO_VOICE = "bm_george"

@@ -91,6 +91,38 @@ is served free for the rest of the day.
 NLLB stays available for the standalone `/api/translate` endpoint and as an offline
 content-baking tool; it is no longer on the runtime path for the tutor.
 
+## Paid tier & strict per-user accounting (2026-09-10)
+
+Free-tier users are served the same folded tutor; the difference is a **daily usage
+limit**. Enforced by strict per-user accounting so cost is bounded and there's a real
+reason to upgrade.
+
+**Accounting** — `user_llm_usage` (migration 0008): one aggregate row per
+(user, day, feature), incremented on every folded call with requests + tokens + cost.
+Best-effort (an accounting failure never blocks the tutor). This is the source of
+truth for limits and cost reporting; the global daily spend cap remains a soft
+in-process guardrail (the hard stop is the OpenRouter account billing limit).
+
+**Plan flag** — `users.plan` ('free' | 'paid', default 'free'), read into the user
+object and surfaced in `/api/auth/me` alongside a `usage` block
+(used today / daily limit / remaining / month cost).
+
+**Limits** (env-configurable):
+
+| Tier | Daily limit (chat + explain) | LLM cost ceiling |
+|---|---|---|
+| Free (`TUTOR_FREE_DAILY_LIMIT`) | 25/day | ~$0.15/user/month (usually far less) |
+| Paid (`TUTOR_PAID_DAILY_LIMIT`) | 500/day (fair-use) | ~$3/user/month worst case; ~$0.90 at a heavy 150/day |
+
+Rationale: 25/day supports real daily practice while capping free cost and giving an
+upgrade reason; 500/day is effectively unlimited for a human but blocks scripted
+abuse. Even a very active paid user costs under $1/month in LLM, so any price of
+$3–5/mo keeps a wide margin. Over the limit, `/chat` and `/explain` return **429**
+with a friendly "resets tomorrow / upgrade" message.
+
+Payment integration (Stripe etc.) is out of scope here — flipping `users.plan` to
+'paid' is the only hook the limits need; wire a checkout to set it later.
+
 ## Notes / follow-ups
 
 - The spend cap is per-process and resets on restart — a guardrail, not billing. If

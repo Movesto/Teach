@@ -6,6 +6,26 @@ from unittest.mock import AsyncMock
 import pytest
 
 import core.ai_client as ai
+import core.usage as usage
+from tests.conftest import _connect
+
+
+def _uid(client, auth_headers):
+    return client.get("/api/auth/me", headers=auth_headers).json()["id"]
+
+
+def _set_usage(user_id, requests, plan=None):
+    conn = _connect(); conn.autocommit = True
+    cur = conn.cursor()
+    if plan:
+        cur.execute("UPDATE users SET plan = %s WHERE id = %s", (plan, user_id))
+    cur.execute(
+        """INSERT INTO user_llm_usage (user_id, day, feature, requests)
+           VALUES (%s, CURRENT_DATE, 'tutor', %s)
+           ON CONFLICT (user_id, day, feature) DO UPDATE SET requests = EXCLUDED.requests""",
+        (user_id, requests),
+    )
+    cur.close(); conn.close()
 
 
 # ── /chat and /explain endpoints (ask_folded mocked) ─────────────────────────
@@ -110,3 +130,38 @@ def test_ask_folded_skips_primary_when_cap_zero(monkeypatch):
     assert out == "free reply"
     assert ai.FOLDED_MODEL not in seen  # primary never called
     assert seen == [ai.FOLDED_FALLBACK_MODEL]
+
+
+# ── Strict per-user accounting + tier limits ─────────────────────────────────
+
+def test_usage_recorded_per_user(client, auth_headers, monkeypatch):
+    uid = _uid(client, auth_headers)
+    monkeypatch.setattr(ai, "_call_model",
+                        AsyncMock(return_value=("hi", {"prompt_tokens": 100, "completion_tokens": 50})))
+    monkeypatch.setattr(ai, "LLM_DAILY_SPEND_CAP_USD", 5.0)
+    asyncio.run(ai.ask_folded([{"role": "user", "content": "hi"}], user_id=uid))
+    assert usage.tutor_requests_today(uid) == 1
+
+
+def test_chat_blocks_free_user_over_daily_limit(client, auth_headers, monkeypatch):
+    uid = _uid(client, auth_headers)
+    _set_usage(uid, usage.TUTOR_FREE_DAILY_LIMIT)  # already at the free cap
+    monkeypatch.setattr("routers.translate.ask_folded", AsyncMock(return_value="should not run"))
+    r = client.post("/api/chat", json={"message": "hi", "unit_id": 1}, headers=auth_headers)
+    assert r.status_code == 429
+
+
+def test_chat_allows_paid_user_past_free_limit(client, auth_headers, monkeypatch):
+    uid = _uid(client, auth_headers)
+    _set_usage(uid, usage.TUTOR_FREE_DAILY_LIMIT, plan="paid")  # past free cap, but paid
+    monkeypatch.setattr("routers.translate.ask_folded", AsyncMock(return_value="ok"))
+    r = client.post("/api/chat", json={"message": "hi", "unit_id": 1}, headers=auth_headers)
+    assert r.status_code == 200, r.text
+    assert r.json()["reply"] == "ok"
+
+
+def test_me_reports_usage_and_plan(client, auth_headers):
+    d = client.get("/api/auth/me", headers=auth_headers).json()
+    assert d["plan"] == "free"
+    assert d["usage"]["tutor_daily_limit"] == usage.TUTOR_FREE_DAILY_LIMIT
+    assert d["usage"]["tutor_remaining_today"] == usage.TUTOR_FREE_DAILY_LIMIT

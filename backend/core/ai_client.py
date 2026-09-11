@@ -135,28 +135,47 @@ async def _call_model(model: str, messages: list, max_tokens: int, temperature: 
     return strip_markdown(content), (data.get("usage") or {})
 
 
-async def ask_folded(messages: list, max_tokens: int = 500, temperature: float = 0.5) -> str:
+async def ask_folded(messages: list, user_id=None, feature: str = "tutor",
+                     max_tokens: int = 500, temperature: float = 0.5) -> str:
     """Ask the folded tutor: paid primary within the daily cap, else free fallback,
-    else the existing free ask_qwen chain. Never raises for model failure alone."""
+    else the existing free ask_qwen chain. Never raises for model failure alone.
+
+    When `user_id` is given, the turn is recorded in the strict per-user accounting
+    (core.usage) — requests always, plus tokens/cost when the paid model was used."""
+    content = used_model = None
+    usage: dict = {}
+    cost = 0.0
+
     if LLM_DAILY_SPEND_CAP_USD > 0 and folded_spend_today() < LLM_DAILY_SPEND_CAP_USD:
         try:
             content, usage = await _call_model(FOLDED_MODEL, messages, max_tokens, temperature)
             cost = (usage.get("prompt_tokens", 0) * FOLDED_INPUT_PER_M
                     + usage.get("completion_tokens", 0) * FOLDED_OUTPUT_PER_M) / 1_000_000
             _add_spend(cost)
-            return content
+            used_model = FOLDED_MODEL
         except Exception as e:
             logger.warning("Folded primary (%s) failed, falling back: %s", FOLDED_MODEL, e)
     else:
         logger.info("Daily LLM spend cap reached (~$%.2f) — using free fallback", folded_spend_today())
 
-    try:
-        content, _ = await _call_model(FOLDED_FALLBACK_MODEL, messages, max_tokens, temperature)
-        return content
-    except Exception as e:
-        logger.warning("Folded fallback (%s) failed, using ask_qwen chain: %s", FOLDED_FALLBACK_MODEL, e)
+    if content is None:
+        try:
+            content, usage = await _call_model(FOLDED_FALLBACK_MODEL, messages, max_tokens, temperature)
+            used_model, cost = FOLDED_FALLBACK_MODEL, 0.0
+        except Exception as e:
+            logger.warning("Folded fallback (%s) failed, using ask_qwen chain: %s", FOLDED_FALLBACK_MODEL, e)
 
-    return await ask_qwen(messages, max_tokens=max_tokens)
+    if content is None:
+        content = await ask_qwen(messages, max_tokens=max_tokens)
+        used_model, usage, cost = QWEN_MODEL, {}, 0.0
+
+    if user_id:
+        # Imported lazily so core.usage (which imports the DB) isn't a hard
+        # dependency of ai_client at module load.
+        from core.usage import record_usage
+        record_usage(user_id, feature, used_model,
+                     usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0), cost)
+    return content
 
 
 async def translate_preserving_english(text: str) -> str:
