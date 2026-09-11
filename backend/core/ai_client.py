@@ -1,9 +1,14 @@
+import datetime
 import re
 import logging
 import httpx
 from fastapi import HTTPException
 
-from .config import QWEN_URL, QWEN_MODEL, NLLB_URL, LLM_API_KEY, LLM_FALLBACK_MODELS
+from .config import (
+    QWEN_URL, QWEN_MODEL, NLLB_URL, LLM_API_KEY, LLM_FALLBACK_MODELS,
+    FOLDED_MODEL, FOLDED_FALLBACK_MODEL, FOLDED_INPUT_PER_M, FOLDED_OUTPUT_PER_M,
+    LLM_DAILY_SPEND_CAP_USD,
+)
 
 logger = logging.getLogger(__name__)
 _client: httpx.AsyncClient = None
@@ -85,6 +90,73 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
             status_code=503,
             detail="The AI tutor is temporarily unavailable. Please try again in a moment.",
         )
+
+
+# ── Folded tutor: one call does understand-Somali + reply-in-Somali ───────────
+# Primary is a cheap paid model (quality + no free-tier 429s); on failure or once
+# the daily spend cap is hit, fall back to a free model, then the free ask_qwen
+# chain. A per-day in-process spend estimate enforces the cap (approximate: it
+# resets on restart and is not shared across workers — a guardrail, not billing).
+_spend = {"date": None, "usd": 0.0}
+
+
+def _today() -> str:
+    return datetime.date.today().isoformat()
+
+
+def folded_spend_today() -> float:
+    return _spend["usd"] if _spend["date"] == _today() else 0.0
+
+
+def _add_spend(usd: float) -> None:
+    if _spend["date"] != _today():
+        _spend["date"] = _today()
+        _spend["usd"] = 0.0
+    _spend["usd"] += usd
+
+
+async def _call_model(model: str, messages: list, max_tokens: int, temperature: float):
+    """Single OpenAI-compatible call to one model. Returns (content, usage_dict).
+    Raises on HTTP error or empty content so the caller can fall back."""
+    headers = {}
+    if LLM_API_KEY:
+        headers["Authorization"] = f"Bearer {LLM_API_KEY}"
+        headers["X-Title"] = "Barashada Ingiriisiga"
+    body = {"model": model, "messages": messages,
+            "max_tokens": max_tokens, "temperature": temperature}
+    if "openrouter.ai" in QWEN_URL:
+        body["reasoning"] = {"enabled": False}
+    resp = await _client.post(QWEN_URL, headers=headers, json=body)
+    resp.raise_for_status()
+    data = resp.json()
+    content = (data["choices"][0]["message"].get("content") or "").strip()
+    if not content:
+        raise ValueError("model returned empty content")
+    return strip_markdown(content), (data.get("usage") or {})
+
+
+async def ask_folded(messages: list, max_tokens: int = 500, temperature: float = 0.5) -> str:
+    """Ask the folded tutor: paid primary within the daily cap, else free fallback,
+    else the existing free ask_qwen chain. Never raises for model failure alone."""
+    if LLM_DAILY_SPEND_CAP_USD > 0 and folded_spend_today() < LLM_DAILY_SPEND_CAP_USD:
+        try:
+            content, usage = await _call_model(FOLDED_MODEL, messages, max_tokens, temperature)
+            cost = (usage.get("prompt_tokens", 0) * FOLDED_INPUT_PER_M
+                    + usage.get("completion_tokens", 0) * FOLDED_OUTPUT_PER_M) / 1_000_000
+            _add_spend(cost)
+            return content
+        except Exception as e:
+            logger.warning("Folded primary (%s) failed, falling back: %s", FOLDED_MODEL, e)
+    else:
+        logger.info("Daily LLM spend cap reached (~$%.2f) — using free fallback", folded_spend_today())
+
+    try:
+        content, _ = await _call_model(FOLDED_FALLBACK_MODEL, messages, max_tokens, temperature)
+        return content
+    except Exception as e:
+        logger.warning("Folded fallback (%s) failed, using ask_qwen chain: %s", FOLDED_FALLBACK_MODEL, e)
+
+    return await ask_qwen(messages, max_tokens=max_tokens)
 
 
 async def translate_preserving_english(text: str) -> str:

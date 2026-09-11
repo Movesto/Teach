@@ -6,12 +6,9 @@ from pydantic import BaseModel, Field
 from core.rate_limit import ai_rate_limit
 from core.security import get_current_user
 from core.config import support_level_for_unit
-from core.ai_client import (
-    translate_text, ask_qwen, translate_preserving_english,
-    sanitize_user_message,
-)
-from core.curriculum import tutor_support_policy, strip_english_markers
-from core.prompts import QWEN_SYSTEM_PROMPT
+from core.ai_client import translate_text, ask_folded, sanitize_user_message
+from core.curriculum import tutor_support_policy
+from core.prompts import FOLDED_TUTOR_SOMALI, FOLDED_TUTOR_ENGLISH
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["ai"])
@@ -92,46 +89,46 @@ async def explain(req: ExplainRequest, _=Depends(ai_rate_limit), user=Depends(ge
         )
 
     suffix, translate_reply = tutor_support_policy(_support_level(req.unit_id))
-    system_prompt = QWEN_SYSTEM_PROMPT + (f"\n\n{suffix}" if suffix else "")
+    # Folded: one call replies in the target language directly (Somali for lower
+    # tiers, English for immersion) — no NLLB round-trip.
+    base = FOLDED_TUTOR_SOMALI if translate_reply else FOLDED_TUTOR_ENGLISH
+    system_prompt = base + (f"\n\n{suffix}" if suffix else "")
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
     ]
-    explanation_english = await ask_qwen(messages, max_tokens=400)
-    # Immersion tier keeps the reply in English; lower tiers render it into Somali.
-    if translate_reply:
-        explanation_combined = await translate_preserving_english(explanation_english)
-    else:
-        explanation_combined = strip_english_markers(explanation_english)
-    return {"explanation": explanation_combined, "explanation_english": explanation_english}
+    explanation = await ask_folded(messages, max_tokens=400)
+    return {"explanation": explanation, "explanation_english": explanation}
 
 
 @router.post("/chat")
 async def chat(req: ChatRequest, _=Depends(ai_rate_limit), user=Depends(get_current_user)):
+    """Folded tutor: one model call understands the student (Somali or English) and
+    replies in the tier's language directly — no NLLB round-trip. The response keeps
+    the reply/reply_english/user_message_english shape the frontend expects; in
+    folded mode the model works in the raw language, so the *_english fields mirror
+    the reply and the raw message (they seed the next turn's history)."""
     message = sanitize_user_message(req.message)
     suffix, translate_reply = tutor_support_policy(_support_level(req.unit_id))
-    # Immersion students type in English, so don't run their message through som_to_eng.
-    user_english = message if not translate_reply else await translate_text(message, "som_to_eng")
 
-    system_parts = [QWEN_SYSTEM_PROMPT + (f"\n\n{suffix}" if suffix else "")]
+    base = FOLDED_TUTOR_SOMALI if translate_reply else FOLDED_TUTOR_ENGLISH
+    system_parts = [base + (f"\n\n{suffix}" if suffix else "")]
     if req.units_context:
         system_parts.append(f"The full curriculum the student is working through: {req.units_context}")
     if req.lesson_context:
         system_parts.append(f"The student is currently studying: {req.lesson_context}")
 
-    qwen_messages = [{"role": "system", "content": "\n\n".join(system_parts)}]
+    messages = [{"role": "system", "content": "\n\n".join(system_parts)}]
     for msg in req.history:
-        qwen_messages.append({"role": msg["role"], "content": msg.get("content_english") or msg["content"]})
-    qwen_messages.append({"role": "user", "content": user_english})
+        content = msg.get("content_english") or msg.get("content")
+        if content:
+            messages.append({"role": msg["role"], "content": content})
+    messages.append({"role": "user", "content": message})
 
-    reply_english = await ask_qwen(qwen_messages, max_tokens=350)
-    reply_combined = (
-        await translate_preserving_english(reply_english)
-        if translate_reply else strip_english_markers(reply_english)
-    )
+    reply = await ask_folded(messages, max_tokens=350)
 
     return {
-        "reply": reply_combined,
-        "reply_english": reply_english,
-        "user_message_english": user_english,
+        "reply": reply,
+        "reply_english": reply,
+        "user_message_english": message,
     }
