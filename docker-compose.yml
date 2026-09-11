@@ -41,42 +41,13 @@ services:
   #   networks:
   #     - teach-network
 
-  nllb:
-    build: ./services/nllb
-    container_name: nllb-translator
-    restart: unless-stopped
-    ports:
-      - "8001:8001"
-    environment:
-      # ct2 = CTranslate2 int8 (~1.3 GB, ~2x faster). On first boot it merges the
-      # LoRA into the base and converts to CT2 (cached in huggingface-cache).
-      # Set to "transformers" for an instant rollback to fp16 base + LoRA.
-      - NLLB_BACKEND=ct2
-      - NLLB_CT2_QUANTIZATION=int8   # int8 (memory win) | float16 (lossless, less saving)
-      - NLLB_DEVICE=auto             # auto | cuda | cpu (auto → CPU if CT2 lacks GPU kernels)
-    volumes:
-      - C:/Users/pscad/Documents/somali-nllb-training/nllb-somali-english-v3:/app/model:ro
-      - huggingface-cache:/root/.cache/huggingface
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    ipc: host
-    healthcheck:
-      # /health only responds once the startup event finishes — including the
-      # one-time LoRA-merge + CT2 conversion on first boot. The long start_period
-      # (+ retries) gives that conversion room before the container is marked
-      # unhealthy; the backend waits on this via depends_on.
-      test: ["CMD-SHELL", "python3 -c \"import urllib.request; urllib.request.urlopen('http://localhost:8001/health')\""]
-      interval: 30s
-      timeout: 10s
-      retries: 20
-      start_period: 600s
-    networks:
-      - teach-network
+  # NLLB (Somali↔English translation) — RETIRED from the runtime path (2026-09).
+  # The tutor now translates via a single folded OpenRouter call (no GPU); NLLB is
+  # no longer needed at runtime and the standalone /api/translate endpoint is unused
+  # by the frontend. Kept out of production to free the GPU. The full service
+  # definition (GPU + CT2 int8 + LoRA volume) is in git history — restore it there
+  # (and re-add NLLB_URL + the backend depends_on) to revive for offline baking or
+  # other projects. See docs/translation-model-decision.md.
 
   # Pronunciation (speech scoring) — disabled in Docker to avoid pulling a multi-GB
   # CUDA + PyTorch image. Run it natively instead, reusing the torch/CUDA already on
@@ -109,16 +80,10 @@ services:
   #   networks:
   #     - teach-network
 
-  kokoro:
-    build: ./services/kokoro
-    container_name: kokoro-tts
-    restart: unless-stopped
-    ports:
-      - "8880:8880"
-    environment:
-      - USE_GPU=false   # runs on CPU — same 82M model, identical audio, frees ~1.5 GB VRAM
-    networks:
-      - teach-network
+  # Kokoro (TTS) — RETIRED (2026-09). Text-to-speech now uses OpenRouter's free
+  # flux-tts (primary) with edge-tts as the keyless fallback — no local model, no
+  # GPU (see core/speech.py + TTS_* in .env). Full service definition is in git
+  # history if you ever want a self-hosted TTS again.
 
   # ── Data ───────────────────────────────────────────────────────────────────
 
@@ -156,7 +121,6 @@ services:
       - DB_NAME=${POSTGRES_DB}
       - DB_USER=${POSTGRES_USER}
       - DB_PASSWORD=${POSTGRES_PASSWORD}
-      - NLLB_URL=http://nllb-translator:8001/translate
       # Chat brain: hosted free OpenRouter model by default (values from .env, with
       # cloud defaults). To use the local qwen container instead, set
       # QWEN_URL=http://qwen-brain:8000/v1/chat/completions and uncomment that service.
@@ -168,7 +132,15 @@ services:
       # service above). host.docker.internal lets this container reach it. Set to
       # http://teach-pronunciation:5002 if you re-enable the Docker service.
       - PRONUNCIATION_URL=${PRONUNCIATION_URL:-http://host.docker.internal:5002}
-      - KOKORO_URL=http://kokoro-tts:8880
+      # Folded tutor (chat/explain) — OpenRouter, no GPU. See docs/translation-model-decision.md.
+      - FOLDED_MODEL=${FOLDED_MODEL:-deepseek/deepseek-v4-flash-0731}
+      - FOLDED_FALLBACK_MODEL=${FOLDED_FALLBACK_MODEL:-nex-agi/nex-n2.5-pro:free}
+      - LLM_DAILY_SPEND_CAP_USD=${LLM_DAILY_SPEND_CAP_USD:-5.0}
+      - TUTOR_FREE_DAILY_LIMIT=${TUTOR_FREE_DAILY_LIMIT:-25}
+      - TUTOR_PAID_DAILY_LIMIT=${TUTOR_PAID_DAILY_LIMIT:-500}
+      # Text-to-speech — OpenRouter flux-tts primary, edge-tts fallback (no GPU).
+      - TTS_MODEL=${TTS_MODEL:-deepgram/flux-tts:free}
+      - TTS_FLUX_VOICE=${TTS_FLUX_VOICE:-flux-alexis-en}
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
       - ADMIN_EMAIL=${ADMIN_EMAIL:-}
       - FRONTEND_URL=${FRONTEND_URL:-}
@@ -196,8 +168,6 @@ services:
     depends_on:
       database:
         condition: service_healthy
-      nllb:
-        condition: service_healthy   # wait for NLLB's first-boot LoRA-merge + CT2 conversion
     healthcheck:
       test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/api/units')\""]
       interval: 15s
@@ -229,19 +199,22 @@ services:
   #   3. Run: cloudflared tunnel create teach
   #   4. Copy the tunnel token into .env as CLOUDFLARE_TUNNEL_TOKEN
   #   5. In Cloudflare dashboard, add a Public Hostname: yourdomain.com → http://teach-frontend:3000
-  #   6. Uncomment this service and run: docker compose up -d cloudflared
-  #
-  # cloudflared:
-  #   image: cloudflare/cloudflared:latest
-  #   container_name: teach-cloudflared
-  #   restart: unless-stopped
-  #   command: tunnel --no-autoupdate run
-  #   environment:
-  #     - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
-  #   depends_on:
-  #     - frontend
-  #   networks:
-  #     - teach-network
+  #   6. Put the tunnel token in .env as CLOUDFLARE_TUNNEL_TOKEN, then start it with:
+  #      docker compose --profile tunnel up -d
+  # It's behind the "tunnel" profile so a plain `docker compose up` does NOT start it
+  # (avoids a restart loop when the token is unset). Add the profile flag to expose.
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: teach-cloudflared
+    restart: unless-stopped
+    profiles: ["tunnel"]
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - frontend
+    networks:
+      - teach-network
 
   # ── Observability ───────────────────────────────────────────────────────────
   # Stack: OTel Collector → Tempo (traces) + Loki (logs) + Prometheus (metrics)
