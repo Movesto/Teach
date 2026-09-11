@@ -1,17 +1,27 @@
 /* Barashada Ingiriisiga service worker — offline app shell + runtime asset cache.
    Bump CACHE when the shell changes to force an update. */
-const CACHE = 'barashada-v1';
+const CACHE = 'barashada-v3';
+const OFFLINE = 'barashada-offline';   // user-downloaded content (readers + audio) — preserved across updates
 const SHELL = ['/', '/index.html', '/manifest.webmanifest', '/pwa-192.png', '/pwa-512.png'];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // Do NOT skipWaiting here: a new SW stays "waiting" so the page can show an
+  // update prompt and activate it on the user's command (see SKIP_WAITING below).
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)));
 });
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    // Keep the current shell cache AND the offline-downloads cache; drop old shells.
+    caches.keys()
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== OFFLINE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
+});
+
+// The page posts this when the user accepts the "new version" prompt.
+self.addEventListener('message', (e) => {
+  if (e.data === 'SKIP_WAITING' || e.data?.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('fetch', (e) => {
@@ -20,8 +30,13 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  // Never cache API or generated audio — always go to network.
-  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/audio/')) return;
+  // API + generated audio: network-first (always fresh online), but fall back to a
+  // downloaded copy when offline. Only explicitly downloaded items are in a cache,
+  // so non-downloaded requests just fail offline as before.
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/audio/')) {
+    e.respondWith(fetch(request).catch(() => caches.match(request)));
+    return;
+  }
 
   // SPA navigations: network-first, fall back to the cached app shell offline.
   if (request.mode === 'navigate') {

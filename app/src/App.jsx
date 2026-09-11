@@ -3,6 +3,7 @@ import { Moon, Sun } from 'lucide-react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
 import ErrorBoundary from './components/ErrorBoundary';
+import PwaPrompts from './components/PwaPrompts';
 import { STRINGS } from './utils/strings';
 import LessonView from './pages/LessonView';
 import Dashboard from './pages/Dashboard';
@@ -168,6 +169,7 @@ function AppShell() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <NavBar />
       <SessionExpiredBanner />
+      <PwaPrompts />
       <Routes>
         <Route path="/" element={<RootRoute />} />
         <Route path="/auth" element={<AuthRoute />} />

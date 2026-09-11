@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Clock, ArrowRight } from 'lucide-react';
+import { BookOpen, Clock, ArrowRight, Check } from 'lucide-react';
 import { apiFetch } from '../utils/api';
+import { listOfflineReaders } from '../utils/offline';
 
 const LEVEL_ORDER = ['A2', 'B1', 'B2', 'C1'];
 
@@ -58,6 +59,7 @@ function Library() {
     );
   }
 
+  const offlineReaders = listOfflineReaders();
   const levels = LEVEL_ORDER.filter((l) => readers.some((r) => r.level === l));
   const tags = [...new Set(readers.flatMap((r) => r.interest_tags || []))].sort();
   const shown = readers.filter(
@@ -121,6 +123,11 @@ function Library() {
               <div className="flex items-center gap-2 mb-2">
                 <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300">{r.level}</span>
                 <span className="text-xs text-gray-500 dark:text-gray-400">{r.genre}</span>
+                {offlineReaders[r.id] && (
+                  <span className="ml-auto inline-flex items-center gap-1 text-[11px] font-medium text-green-600 dark:text-green-400" title="Available offline">
+                    <Check className="w-3 h-3" /> Offline
+                  </span>
+                )}
               </div>
               <h3 className="font-bold text-gray-900 dark:text-white mb-1">{r.title}</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 flex-1 leading-relaxed">{r.description}</p>
