@@ -15,6 +15,27 @@ LLM_API_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("OPENROUTER_API_KE
 # so a throttled free model doesn't take the tutor down. Ignored on non-OpenRouter
 # endpoints (they don't accept a `models` array).
 LLM_FALLBACK_MODELS = [m.strip() for m in os.environ.get("LLM_FALLBACK_MODELS", "").split(",") if m.strip()]
+
+# ── Folded tutor translation (see docs/translation-model-decision.md) ─────────
+# The in-lesson tutor (chat/explain) does understand-Somali + reply-in-Somali in a
+# SINGLE model call — no NLLB round-trip. Primary is a cheap paid model for quality
+# and reliability; on failure or once the daily spend cap is hit it falls back to a
+# free model, then to the existing free chain (ask_qwen). This keeps the GPU free
+# and, unlike separate translate calls, does not multiply the request count.
+FOLDED_MODEL = os.environ.get("FOLDED_MODEL", "deepseek/deepseek-v4-flash-0731")
+FOLDED_FALLBACK_MODEL = os.environ.get("FOLDED_FALLBACK_MODEL", "nex-agi/nex-n2.5-pro:free")
+# Primary-model pricing (USD per 1M tokens) — used only to enforce the daily cap.
+FOLDED_INPUT_PER_M = float(os.environ.get("FOLDED_INPUT_PER_M", "0.065"))
+FOLDED_OUTPUT_PER_M = float(os.environ.get("FOLDED_OUTPUT_PER_M", "0.18"))
+# Once the estimated spend on the primary model reaches this (USD/day), the tutor
+# serves everyone from the free fallback for the rest of the day. 0 = never use paid.
+LLM_DAILY_SPEND_CAP_USD = float(os.environ.get("LLM_DAILY_SPEND_CAP_USD", "5.0"))
+
+# Per-user daily tutor limit (chat + explain turns), by plan. Enforced via the
+# strict per-user accounting in core/usage.py. See docs/translation-model-decision.md.
+TUTOR_FREE_DAILY_LIMIT = int(os.environ.get("TUTOR_FREE_DAILY_LIMIT", "25"))
+TUTOR_PAID_DAILY_LIMIT = int(os.environ.get("TUTOR_PAID_DAILY_LIMIT", "500"))
+
 PRONUNCIATION_URL = os.environ.get("PRONUNCIATION_URL", "http://localhost:5002")
 KOKORO_URL = os.environ.get("KOKORO_URL", "http://kokoro-tts:8880")
 KOKORO_VOICE = "bm_george"

@@ -95,7 +95,10 @@ async def logout(response: Response):
 
 @auth_router.get("/me")
 async def get_me(user=Depends(get_current_user)):
-    return _with_admin_flag(dict(user))
+    from core.usage import usage_summary
+    data = _with_admin_flag(dict(user))
+    data["usage"] = usage_summary(user["id"], user.get("plan"))
+    return data
 
 
 @placement_router.post("/save")
