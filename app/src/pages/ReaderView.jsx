@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Clock, Volume2, CheckCircle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Clock, Volume2, CheckCircle, Download, Check, Trash2 } from 'lucide-react';
 import { apiFetch } from '../utils/api';
+import { downloadReader, removeReader, isReaderOffline } from '../utils/offline';
 
 function ReaderView() {
   const { readerId } = useParams();
@@ -108,6 +109,7 @@ function ReaderView() {
           <span>·</span>
           <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> ~{Math.max(1, Math.round((chapter.word_count || 0) / 180))} min</span>
         </div>
+        <OfflineDownload reader={reader} readerId={readerId} />
       </div>
 
       {/* READING */}
@@ -293,6 +295,46 @@ function FinishBlock({ reader, reflection, setReflection, readerId }) {
         Back to Library
       </Link>
     </div>
+  );
+}
+
+function OfflineDownload({ reader, readerId }) {
+  const [state, setState] = useState(() => (isReaderOffline(readerId) ? 'done' : 'idle'));
+  const [pct, setPct] = useState(0);
+
+  if (typeof window !== 'undefined' && !('caches' in window)) return null;
+
+  const download = async () => {
+    setState('downloading'); setPct(0);
+    try {
+      await downloadReader(readerId, reader, setPct);
+      setState('done');
+    } catch {
+      setState('idle');
+    }
+  };
+
+  const remove = async () => {
+    await removeReader(readerId, reader);
+    setState('idle'); setPct(0);
+  };
+
+  if (state === 'downloading') {
+    return <span className="mt-2 inline-flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+      <span className="w-3.5 h-3.5 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin" />
+      Downloading… {pct}%
+    </span>;
+  }
+  if (state === 'done') {
+    return <span className="mt-2 inline-flex items-center gap-3 text-xs">
+      <span className="inline-flex items-center gap-1 text-green-600 dark:text-green-400 font-medium"><Check className="w-3.5 h-3.5" /> Available offline</span>
+      <button onClick={remove} className="inline-flex items-center gap-1 text-gray-400 hover:text-red-500"><Trash2 className="w-3.5 h-3.5" /> Remove</button>
+    </span>;
+  }
+  return (
+    <button onClick={download} className="mt-2 inline-flex items-center gap-1.5 text-xs font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 border border-indigo-200 dark:border-indigo-800 rounded-lg px-2.5 py-1 hover:bg-indigo-50 dark:hover:bg-indigo-900/30">
+      <Download className="w-3.5 h-3.5" /> Download for offline
+    </button>
   );
 }
 
