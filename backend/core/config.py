@@ -94,6 +94,13 @@ TTS_VOICE_MAP = {
 TTS_VOICE_DEFAULT = "en-US-JennyNeural"
 TEACHER_VOICE = "en-US-ChristopherNeural"
 
+# Text-to-speech: OpenRouter's free flux-tts is primary (no GPU, no local model);
+# edge-tts is the keyless fallback (429 resilience + regional accents flux lacks).
+# Called via the OpenAI-compatible /audio/speech endpoint with an LLM_API_KEY bearer.
+TTS_URL = os.environ.get("TTS_URL", "https://openrouter.ai/api/v1/audio/speech")
+TTS_MODEL = os.environ.get("TTS_MODEL", "deepgram/flux-tts:free")
+TTS_FLUX_VOICE = os.environ.get("TTS_FLUX_VOICE", "flux-alexis-en")
+
 # Accent variety for practice audio (Phase 7). "us" keeps the default Kokoro voice;
 # every other accent is produced by a regional edge-tts voice (Kokoro is bypassed).
 ACCENT_VOICES = {
