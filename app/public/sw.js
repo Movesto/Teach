@@ -1,10 +1,12 @@
 /* Barashada Ingiriisiga service worker — offline app shell + runtime asset cache.
    Bump CACHE when the shell changes to force an update. */
-const CACHE = 'barashada-v1';
+const CACHE = 'barashada-v2';
 const SHELL = ['/', '/index.html', '/manifest.webmanifest', '/pwa-192.png', '/pwa-512.png'];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // Do NOT skipWaiting here: a new SW stays "waiting" so the page can show an
+  // update prompt and activate it on the user's command (see SKIP_WAITING below).
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)));
 });
 
 self.addEventListener('activate', (e) => {
@@ -12,6 +14,11 @@ self.addEventListener('activate', (e) => {
     caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
+});
+
+// The page posts this when the user accepts the "new version" prompt.
+self.addEventListener('message', (e) => {
+  if (e.data === 'SKIP_WAITING' || e.data?.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('fetch', (e) => {
