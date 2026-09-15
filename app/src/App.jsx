@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useSearchParams } from 'react-router-dom';
-import { Moon, Sun } from 'lucide-react';
+import { Moon, Sun, Menu, X } from 'lucide-react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -52,6 +53,12 @@ function ThemeToggle() {
 
 function NavBar() {
   const { user, logout } = useAuth();
+  const [open, setOpen] = useState(false);
+  const close = () => setOpen(false);
+
+  const linkClass = "text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium";
+  const mobileLinkClass = "block px-2 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-800 text-sm font-medium";
+
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -61,24 +68,16 @@ function NavBar() {
               📚 Barashada Ingiriisiga
             </Link>
           </div>
-          <div className="flex items-center space-x-3">
+
+          {/* Desktop links */}
+          <div className="hidden md:flex items-center space-x-3">
             {user ? (
               <>
-                <Link to="/dashboard" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Dashboard
-                </Link>
-                <Link to="/library" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Library
-                </Link>
-                <Link to="/grammar" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Grammar Guide
-                </Link>
-                <Link to="/progress" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Progress
-                </Link>
-                <Link to="/vocabulary" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Vocabulary
-                </Link>
+                <Link to="/dashboard" className={linkClass}>Dashboard</Link>
+                <Link to="/library" className={linkClass}>Library</Link>
+                <Link to="/grammar" className={linkClass}>Grammar Guide</Link>
+                <Link to="/progress" className={linkClass}>Progress</Link>
+                <Link to="/vocabulary" className={linkClass}>Vocabulary</Link>
                 {user.is_admin && (
                   <Link to="/admin/feedback" className="text-xs px-2 py-1 bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 rounded-lg font-medium hover:bg-indigo-200 dark:hover:bg-indigo-900/60">
                     Feedback
@@ -94,9 +93,7 @@ function NavBar() {
               </>
             ) : (
               <>
-                <Link to="/auth" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-medium">
-                  Sign In
-                </Link>
+                <Link to="/auth" className={linkClass}>Sign In</Link>
                 <Link
                   to="/auth?mode=register"
                   className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 text-sm font-medium"
@@ -107,8 +104,58 @@ function NavBar() {
             )}
             <ThemeToggle />
           </div>
+
+          {/* Mobile controls: theme toggle + hamburger */}
+          <div className="flex md:hidden items-center gap-1">
+            <ThemeToggle />
+            <button
+              onClick={() => setOpen(o => !o)}
+              className="w-9 h-9 flex items-center justify-center rounded-lg text-gray-500 hover:text-indigo-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-indigo-400 dark:hover:bg-gray-800"
+              aria-label={open ? 'Close menu' : 'Open menu'}
+            >
+              {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
       </div>
+
+      {/* Mobile dropdown menu */}
+      {open && (
+        <div className="md:hidden border-t border-gray-200 dark:border-gray-700 px-4 py-3 space-y-1">
+          {user ? (
+            <>
+              <Link to="/dashboard" className={mobileLinkClass} onClick={close}>Dashboard</Link>
+              <Link to="/library" className={mobileLinkClass} onClick={close}>Library</Link>
+              <Link to="/grammar" className={mobileLinkClass} onClick={close}>Grammar Guide</Link>
+              <Link to="/progress" className={mobileLinkClass} onClick={close}>Progress</Link>
+              <Link to="/vocabulary" className={mobileLinkClass} onClick={close}>Vocabulary</Link>
+              {user.is_admin && (
+                <Link to="/admin/feedback" className={mobileLinkClass} onClick={close}>Feedback</Link>
+              )}
+              <div className="flex items-center justify-between px-2 pt-2 mt-2 border-t border-gray-200 dark:border-gray-700">
+                <span className="text-sm text-gray-500 dark:text-gray-400">{user.name}</span>
+                <button
+                  onClick={() => { close(); logout(); }}
+                  className="text-sm text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300 font-medium"
+                >
+                  Logout
+                </button>
+              </div>
+            </>
+          ) : (
+            <>
+              <Link to="/auth" className={mobileLinkClass} onClick={close}>Sign In</Link>
+              <Link
+                to="/auth?mode=register"
+                onClick={close}
+                className="block px-3 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 text-sm font-medium text-center"
+              >
+                Get Started
+              </Link>
+            </>
+          )}
+        </div>
+      )}
     </nav>
   );
 }
