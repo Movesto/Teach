@@ -267,7 +267,27 @@
           "How do I get to downtown? (asking for the method/way)"
         ],
         "question": "What's the difference between 'which' and 'how'?",
-        "explanation": "'Which' asks you to choose from options (which bus, which stop). 'How' asks about the method or way to do something (how do I get there)."
+        "explanation": "'Which' asks you to choose from options (which bus, which stop). 'How' asks about the method or way to do something (how do I get there).",
+        "practice": [
+          {
+            "sentence": "___ bus goes to the library?",
+            "blank": "Which",
+            "options": [
+              "Which",
+              "How",
+              "What"
+            ]
+          },
+          {
+            "sentence": "___ do I get to the library?",
+            "blank": "How",
+            "options": [
+              "How",
+              "Which",
+              "Why"
+            ]
+          }
+        ]
       },
       {
         "title": "Commands and instructions",
@@ -277,7 +297,27 @@
           "Go to the library"
         ],
         "question": "How do we give directions and instructions?",
-        "explanation": "We use the base form of the verb (take, get, go) to give instructions. No 'I' or 'you' needed."
+        "explanation": "We use the base form of the verb (take, get, go) to give instructions. No 'I' or 'you' needed.",
+        "practice": [
+          {
+            "sentence": "___ off at Main Street.",
+            "blank": "Get",
+            "options": [
+              "Get",
+              "Getting",
+              "Gets"
+            ]
+          },
+          {
+            "sentence": "___ bus number 5.",
+            "blank": "Take",
+            "options": [
+              "Take",
+              "Taking",
+              "Takes"
+            ]
+          }
+        ]
       },
       {
         "title": "Yes/No questions with 'does'",
@@ -287,7 +327,58 @@
           "Does it cost money?"
         ],
         "question": "How do we ask yes/no questions about things?",
-        "explanation": "We use 'does' to ask yes/no questions about things. Pattern: Does + [thing] + [verb]?"
+        "explanation": "We use 'does' to ask yes/no questions about things. Pattern: Does + [thing] + [verb]?",
+        "practice": [
+          {
+            "sentence": "___ this bus go to the library?",
+            "blank": "Does",
+            "options": [
+              "Does",
+              "Do",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "Yes, it ___.",
+            "blank": "does",
+            "options": [
+              "does",
+              "do",
+              "is"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking About the Fare",
+        "examples": [
+          "How much is the fare?",
+          "The fare is two dollars.",
+          "How much is a ticket?",
+          "Tickets are three dollars."
+        ],
+        "question": "How do we ask how much the bus costs?",
+        "explanation": "Use 'How much is + [thing]?' to ask the price, just like at a store. The answer is usually 'The fare is...' or 'It is...' plus a price.",
+        "practice": [
+          {
+            "sentence": "___ is the fare?",
+            "blank": "How much",
+            "options": [
+              "How much",
+              "How many",
+              "What time"
+            ]
+          },
+          {
+            "sentence": "The fare ___ two dollars.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -414,15 +505,121 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'Which' wuxuu ku waydiinayaa inaad ikhtiyaarro ka dooratid (baska kee, joogsiga kee). 'How' wuxuu waydiinayaa habka ama sida loo sameeyo (sidee ku tagaa)."
+          "explanation": "'Which' wuxuu ku waydiinayaa inaad ikhtiyaarro ka dooratid (baska kee, joogsiga kee). 'How' wuxuu waydiinayaa habka ama sida loo sameeyo (sidee ku tagaa).",
+          "examples": [
+            "Bas kee baa u tagaya xarunta magaalada? (waxaad weydiineysaa inaad doorato mid)",
+            "Sidee baan u tagaa xarunta magaalada? (waxaad weydiineysaa habka)"
+          ]
         },
         {
-          "explanation": "Falka qaabkiisa aasaasiga ah (take, get, go) waxaan u isticmaalnaa tilmaan-bixinta. Uma baahnid 'I' ama 'you'."
+          "explanation": "Falka qaabkiisa aasaasiga ah (take, get, go) waxaan u isticmaalnaa tilmaan-bixinta. Uma baahnid 'I' ama 'you'.",
+          "examples": [
+            "Raac baska 5",
+            "Ka deg waddada Main",
+            "Tag maktabadda"
+          ]
         },
         {
-          "explanation": "'does' waxaan u isticmaalnaa su'aalaha haa/maya ee waxyaabaha. Qaabka: Does + [shay] + [fal]?"
+          "explanation": "'does' waxaan u isticmaalnaa su'aalaha haa/maya ee waxyaabaha. Qaabka: Does + [shay] + [fal]?",
+          "examples": [
+            "Baskani ma aadaa Main Street?",
+            "Basku ma halkan ku joogsadaa?",
+            "Ma lacag bay ku kacdaa?"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'How much is + [thing]?' si aad u weydiiso qiimaha, sida dukaanka. Jawaabta badanaa waa 'The fare is...' ama 'It is...' iyo qiimo.",
+          "examples": [
+            "Kirada waa imisa?",
+            "Kirada waa laba dollar.",
+            "Tigidh waa imisa?",
+            "Tigidho waa saddex dollar."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Bas kee baa tagaya [place]?",
+      "Sideen ku gaadhaa [place]?",
+      "Xaggee baan ka degaa?",
+      "Waa imisa lacagta baska?",
+      "Baskan ma tagayaa [place]?",
+      "Raac bas nambarka [number]",
+      "Ka deg [stop]"
+    ],
+    "dialogue": [
+      "Cafis. Ma i caawin kartaa?",
+      "Haa, waayahay. Maxaad u baahan tahay?",
+      "Waxaan u baahanahay inaan tago maktabadda. Bas kee ayaa maktabadda taga?",
+      "Fuul bas lambar 5. Wuxuu ku tagaa maktabadda.",
+      "Halkee ayaan ka degaa?",
+      "Ka deg Main Street.",
+      "Waa imisa kirada?",
+      "Kirada waa laba doolar.",
+      "Aad baad u mahadsan tahay!",
+      "Adaa mudan. Basku wuu imanayaa hadda."
+    ],
+    "vocabulary": [
+      {
+        "definition": "gaari weyn oo dad badan ku qaada waddooyinka",
+        "example": "Baskiishee baa tagaya maktabadda?"
+      },
+      {
+        "definition": "lacagta aad bixiso si aad u raacdo bas ama tareen",
+        "example": "Waa imisa kirada?"
+      },
+      {
+        "definition": "ka degista bas, tareen, ama gaari",
+        "example": "Xaggee baan ka degaa?"
+      },
+      {
+        "definition": "magaca waddo (halkan loo adeegsaday magac tusaale ah)",
+        "example": "Ka deg wadada weyn."
+      },
+      {
+        "definition": "meel buugaag badan oo aad akhriyi karto ama amaahsan karto",
+        "example": "Waxaan u baahanahay inaan tago maktabadda."
+      },
+      {
+        "definition": "dhawaan soo gaaraya",
+        "example": "Basku wuu imanayaa hadda."
+      }
+    ]
+  },
+  "related_grammar": [
+    "question",
+    "present-simple"
+  ],
+  "vocabulary": [
+    {
+      "word": "bus",
+      "definition": "a large vehicle that carries many people on roads",
+      "example": "Which bus goes to the library?"
+    },
+    {
+      "word": "fare",
+      "definition": "the money you pay to ride a bus or train",
+      "example": "How much is the fare?"
+    },
+    {
+      "word": "get off",
+      "definition": "to leave a bus, train, or car",
+      "example": "Where do I get off?"
+    },
+    {
+      "word": "Main Street",
+      "definition": "the name of a street (used here as an example street name)",
+      "example": "Get off at Main Street."
+    },
+    {
+      "word": "library",
+      "definition": "a place with many books you can read or borrow",
+      "example": "I need to go to the library."
+    },
+    {
+      "word": "coming",
+      "definition": "arriving soon",
+      "example": "The bus is coming now."
     }
-  }
+  ]
 }

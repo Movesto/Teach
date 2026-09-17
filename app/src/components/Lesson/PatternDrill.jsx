@@ -210,7 +210,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
 
             {/* Input and submit */}
             {promptFeedback === null && (
-              <div className="flex gap-3">
+              <div className="flex flex-col sm:flex-row gap-3">
                 <input
                   ref={inputRef}
                   type="text"
@@ -219,12 +219,12 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                   onKeyDown={handleKeyDown}
                   placeholder="Type the missing word..."
                   autoFocus
-                  className="flex-1 px-4 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none text-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
+                  className="min-w-0 flex-1 px-4 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none text-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
                 />
                 <button
                   onClick={handlePromptSubmit}
                   disabled={!promptInput.trim()}
-                  className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Check
                 </button>
@@ -288,7 +288,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
               Record yourself saying this{drill.repetitions > 1 ? ` ${drill.repetitions} times` : ''}.
             </p>
 
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               <button
                 onClick={() => {
                   if (isRecording) {
@@ -297,7 +297,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                     startRecording();
                   }
                 }}
-                className={`flex-1 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 ${
+                className={`min-w-0 flex-1 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 ${
                   isRecording
                     ? 'bg-red-500 text-white hover:bg-red-600'
                     : recordings[currentDrill]

@@ -293,7 +293,27 @@
           "I want to withdraw $50."
         ],
         "question": "What pattern do you see for saying what you want to do?",
-        "explanation": "We use 'I want to + verb' to say what we want to do. The verb after 'to' is always the base form (open, deposit, withdraw — not opening, depositing)."
+        "explanation": "We use 'I want to + verb' to say what we want to do. The verb after 'to' is always the base form (open, deposit, withdraw — not opening, depositing).",
+        "practice": [
+          {
+            "sentence": "I ___ to open an account.",
+            "blank": "want",
+            "options": [
+              "want",
+              "wants",
+              "wanting"
+            ]
+          },
+          {
+            "sentence": "I want ___ deposit $200.",
+            "blank": "to",
+            "options": [
+              "to",
+              "for",
+              "at"
+            ]
+          }
+        ]
       },
       {
         "title": "Checking and Savings",
@@ -303,7 +323,27 @@
           "I want a checking account."
         ],
         "question": "What is the difference between checking and savings?",
-        "explanation": "A checking account is for daily use — paying bills, buying things. A savings account is for keeping money safe and growing it over time."
+        "explanation": "A checking account is for daily use — paying bills, buying things. A savings account is for keeping money safe and growing it over time.",
+        "practice": [
+          {
+            "sentence": "A ___ account is for everyday spending.",
+            "blank": "checking",
+            "options": [
+              "checking",
+              "savings",
+              "saving"
+            ]
+          },
+          {
+            "sentence": "A ___ account is for saving money.",
+            "blank": "savings",
+            "options": [
+              "savings",
+              "checking",
+              "check"
+            ]
+          }
+        ]
       },
       {
         "title": "Banking actions",
@@ -314,7 +354,58 @@
           "Statement = a record of your money"
         ],
         "question": "What do these banking words mean?",
-        "explanation": "Deposit means putting money into your account. Withdraw means taking money out. Your balance is how much money is in your account. A statement shows all your transactions."
+        "explanation": "Deposit means putting money into your account. Withdraw means taking money out. Your balance is how much money is in your account. A statement shows all your transactions.",
+        "practice": [
+          {
+            "sentence": "___ I deposit money today?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Do",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "Please ___ here.",
+            "blank": "sign",
+            "options": [
+              "sign",
+              "signs",
+              "signing"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Depositing and Withdrawing Money",
+        "examples": [
+          "I want to deposit $200.",
+          "I want to withdraw $50.",
+          "Can I deposit a check?",
+          "Can I withdraw cash?"
+        ],
+        "question": "How do we talk about putting in or taking out money?",
+        "explanation": "Use 'deposit' when you put money IN your account, and 'withdraw' when you take money OUT. Both follow 'I want to + [verb]'.",
+        "practice": [
+          {
+            "sentence": "I want to ___ $200.",
+            "blank": "deposit",
+            "options": [
+              "deposit",
+              "withdraw",
+              "balance"
+            ]
+          },
+          {
+            "sentence": "I want to ___ $50.",
+            "blank": "withdraw",
+            "options": [
+              "withdraw",
+              "deposit",
+              "save"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -441,15 +532,127 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'I want to + fal' waxaan u isticmaalnaa si aan u sheegno waxa aan rabno inaan samayno. Falka 'to' ka dambeeya mar walba waa qaabka aasaasiga ah (open, deposit, withdraw — ma aha opening, depositing)."
+          "explanation": "'I want to + fal' waxaan u isticmaalnaa si aan u sheegno waxa aan rabno inaan samayno. Falka 'to' ka dambeeya mar walba waa qaabka aasaasiga ah (open, deposit, withdraw — ma aha opening, depositing).",
+          "examples": [
+            "Waxaan rabaa in aan furo akoon.",
+            "Waxaan rabaa in aan dhigto lacag.",
+            "Waxaan rabaa in aan ka qaado 50 dollar."
+          ]
         },
         {
-          "explanation": "Checking account waa akoon isticmaalka maalinlaha ah — biilasha bixinta iyo wax-iibsiga. Savings account waa akoon lacagta lagu keydiyo si ay u nabad gasho, waqti ka dibna u korto."
+          "explanation": "Checking account waa akoon isticmaalka maalinlaha ah — biilasha bixinta iyo wax-iibsiga. Savings account waa akoon lacagta lagu keydiyo si ay u nabad gasho, waqti ka dibna u korto.",
+          "examples": [
+            "Akoon jeeg waa mid loogu talagalay kharashka maalinlaha ah.",
+            "Akoon kayd waa mid loogu talagalay kaydinta lacagta.",
+            "Waxaan rabaa akoon jeeg."
+          ]
         },
         {
-          "explanation": "Deposit waxay ka dhigan tahay lacag gelinta akoonkaaga. Withdraw waxay ka dhigan tahay lacag ka bixinta. Balance waa inta lacag ah ee akoonkaaga ku jirta. Statement wuxuu muujiyaa dhammaan dhaqdhaqaaqa lacagtaada."
+          "explanation": "Deposit waxay ka dhigan tahay lacag gelinta akoonkaaga. Withdraw waxay ka dhigan tahay lacag ka bixinta. Balance waa inta lacag ah ee akoonkaaga ku jirta. Statement wuxuu muujiyaa dhammaan dhaqdhaqaaqa lacagtaada.",
+          "examples": [
+            "Deposit waa lacag dhigid",
+            "Withdraw waa lacag soo saarid",
+            "Balance waa inta lacag ee aad haysato",
+            "Statement waa diiwaanka lacagtaada"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'deposit' markaad lacag dhigto akoontigaaga, iyo 'withdraw' markaad lacag ka qaaddo. Labaduba waxay raacaan 'I want to + [verb]'.",
+          "examples": [
+            "Waxaan rabaa inaan $200 dhigto.",
+            "Waxaan rabaa inaan $50 ka bixiyo.",
+            "Ma jeeg dhigmi karaa?",
+            "Ma lacag ka bixi karaa?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan rabaa inaan xisaab furto",
+      "Waxaan rabaa inaan lacag dhigto / ka bixiyo",
+      "Immisa ayaa ku jira xisaabtayda?",
+      "Waa imisa haraaga xisaabtayda?",
+      "Ma arki karaa bayaan xisaabtayda?",
+      "Waxaan u baahanahay inaan lacag diro",
+      "Fadlan halkan saxiix"
+    ],
+    "dialogue": [
+      "Salaan. Soo dhowow Bangiga Qaranka Koowaad. Sideen kaa caawin karaa?",
+      "Salaan. Waxaan rabaa inaan furto akoon bangi.",
+      "Haa. Ma rabtaa akoon maalinle ama akoon kayd?",
+      "Waa maxay farqiga u dhexeeya?",
+      "Akoonka maalinlaha waxaa loo isticmaalaa kharashka maalinkasta. Akoonka kaydka waxaa loo isticmaalaa kaydinta lacagta.",
+      "Waxaan rabaa akoon maalinle, fadlan.",
+      "Hagaag. Waxaan u baahanahay aqoonsigaaga iyo cinwaankaaga. Fadlan buuxi foomkan.",
+      "Waa kan aqoonsigayga. Cinwaankaygu waa 250 Oak Street, guri 4B.",
+      "Mahadsanid. Ma rabtaa inaad lacag dhigto maanta?",
+      "Haa. Waxaan rabaa inaan $200 dhigo.",
+      "Hagaag. Fadlan halkan saxiix. Akoonkaagu hadda waa furan yahay. Waa kan kaarkaaga bangiga.",
+      "Mahadsanid. Sideen u ogaan karaa inta lacag ee akoonkeyga ku jirta?",
+      "Waxaad isticmaali kartaa ATM-ka ama app-ka moobilka.",
+      "Aad baad u mahadsan tahay!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "meesha lacagta lagu kaydiyo bangiga",
+        "example": "Waxaan rabaa in aan furo akoon bangia."
+      },
+      {
+        "definition": "koonto bang oo loogu talagalay kharashka maalin kasta",
+        "example": "Akoon bangia ee lagu bixiyo waa mid loogu talagalay kharashka maalinlaha ah."
+      },
+      {
+        "definition": "koonto bang oo loogu talagalay kaydinta lacagta",
+        "example": "Akoon kayd waa mid loogu talagalay in lagu kaydiyo lacag."
+      },
+      {
+        "definition": "in lacag la dhigto koonto bang",
+        "example": "Waxaan rabaa in aan kaydiyo $200."
+      },
+      {
+        "definition": "kaadh muujinaya cidda aad tahay",
+        "example": "Waxaan u baahanahay aqoonsigaaga iyo cinwaankaaga."
+      },
+      {
+        "definition": "intii lacag ee koontadaada ku jirta",
+        "example": "Sideen u ogaan karaa inta lacag ee ku harta akoonkeyga?"
+      }
+    ]
+  },
+  "related_grammar": [
+    "modal",
+    "present-simple"
+  ],
+  "vocabulary": [
+    {
+      "word": "account",
+      "definition": "where your money is kept at a bank",
+      "example": "I want to open a bank account."
+    },
+    {
+      "word": "checking account",
+      "definition": "a bank account for everyday spending",
+      "example": "A checking account is for everyday spending."
+    },
+    {
+      "word": "savings account",
+      "definition": "a bank account for saving money",
+      "example": "A savings account is for saving money."
+    },
+    {
+      "word": "deposit",
+      "definition": "to put money into a bank account",
+      "example": "I want to deposit $200."
+    },
+    {
+      "word": "ID",
+      "definition": "a card that shows who you are",
+      "example": "I need your ID and your address."
+    },
+    {
+      "word": "balance",
+      "definition": "the amount of money you have in your account",
+      "example": "How do I check my balance?"
     }
-  }
+  ]
 }

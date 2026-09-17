@@ -273,7 +273,27 @@
           "Walk two blocks (not: You walk two blocks)"
         ],
         "question": "How do we give directions?",
-        "explanation": "When giving directions or instructions, we use the base verb without 'you'. Just say: 'Turn left' or 'Go straight'. This is called the imperative form."
+        "explanation": "When giving directions or instructions, we use the base verb without 'you'. Just say: 'Turn left' or 'Go straight'. This is called the imperative form.",
+        "practice": [
+          {
+            "sentence": "___ straight on this street.",
+            "blank": "Go",
+            "options": [
+              "Go",
+              "Going",
+              "Goes"
+            ]
+          },
+          {
+            "sentence": "___ left at Oak Street.",
+            "blank": "Turn",
+            "options": [
+              "Turn",
+              "Turns",
+              "Turning"
+            ]
+          }
+        ]
       },
       {
         "title": "Prepositions of location",
@@ -284,7 +304,27 @@
           "On the corner = at the corner"
         ],
         "question": "How do we describe where something is?",
-        "explanation": "We use prepositions (next to, across from, between) to show location. These help people find places."
+        "explanation": "We use prepositions (next to, across from, between) to show location. These help people find places.",
+        "practice": [
+          {
+            "sentence": "The library is ___ to the post office.",
+            "blank": "next",
+            "options": [
+              "next",
+              "on",
+              "at"
+            ]
+          },
+          {
+            "sentence": "It's ___ the right.",
+            "blank": "on",
+            "options": [
+              "on",
+              "at",
+              "to"
+            ]
+          }
+        ]
       },
       {
         "title": "Left vs Right, On the left vs To the left",
@@ -294,7 +334,58 @@
           "To the left of the bank (position relative to something)"
         ],
         "question": "What's the difference?",
-        "explanation": "'Turn left' means change your direction. 'On the left' means something is located on the left side. Both use the same word 'left' but in different ways."
+        "explanation": "'Turn left' means change your direction. 'On the left' means something is located on the left side. Both use the same word 'left' but in different ways.",
+        "practice": [
+          {
+            "sentence": "Turn left ___ the second street.",
+            "blank": "at",
+            "options": [
+              "at",
+              "to",
+              "on"
+            ]
+          },
+          {
+            "sentence": "The library is on the ___.",
+            "blank": "right",
+            "options": [
+              "right",
+              "left",
+              "straight"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking for Clarification",
+        "examples": [
+          "Where?",
+          "Which way?",
+          "Can you say that again?",
+          "Turn left at Oak Street? Did I hear that right?"
+        ],
+        "question": "What do we say if we don't understand the directions?",
+        "explanation": "If you don't understand directions, ask 'Where?' or 'Which way?' to get more help, or 'Can you say that again?' to hear it once more.",
+        "practice": [
+          {
+            "sentence": "___ way? Left or right?",
+            "blank": "Which",
+            "options": [
+              "Which",
+              "Where",
+              "What"
+            ]
+          },
+          {
+            "sentence": "Can you say that ___?",
+            "blank": "again",
+            "options": [
+              "again",
+              "once",
+              "more"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -421,15 +512,125 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Marka aan jiho ama tilmaan bixinayno, waxaan isticmaalnaa falka aasaasiga ah 'you' la'aan. Kaliya dheh: 'Turn left' ama 'Go straight'. Tan waxaa la yidhaahdaa qaabka amarka (imperative)."
+          "explanation": "Marka aan jiho ama tilmaan bixinayno, waxaan isticmaalnaa falka aasaasiga ah 'you' la'aan. Kaliya dheh: 'Turn left' ama 'Go straight'. Tan waxaa la yidhaahdaa qaabka amarka (imperative).",
+          "examples": [
+            "Turn left (ma aha: You turn left)",
+            "Go straight (ma aha: You go straight)",
+            "Walk two blocks (ma aha: You walk two blocks)"
+          ]
         },
         {
-          "explanation": "Meelaha waxaan ku muujinnaa erayada meeleeyayaasha ah (next to, across from, between). Kuwani waxay dadka ka caawiyaan inay meelaha helaan."
+          "explanation": "Meelaha waxaan ku muujinnaa erayada meeleeyayaasha ah (next to, across from, between). Kuwani waxay dadka ka caawiyaan inay meelaha helaan.",
+          "examples": [
+            "Next to = agta, dhinaca",
+            "Across from = dhinaca ka soo horjeeda",
+            "Between = dhexda, laba shay dhexdooda",
+            "On the corner = geeska"
+          ]
         },
         {
-          "explanation": "'Turn left' waxay ka dhigan tahay beddel jihadaada. 'On the left' waxay ka dhigan tahay in shay uu yaal dhinaca bidix. Labaduba waxay isticmaalaan isla erayga 'left' laakiin siyaabo kala duwan."
+          "explanation": "'Turn left' waxay ka dhigan tahay beddel jihadaada. 'On the left' waxay ka dhigan tahay in shay uu yaal dhinaca bidix. Labaduba waxay isticmaalaan isla erayga 'left' laakiin siyaabo kala duwan.",
+          "examples": [
+            "U leexo bidix (beddel jihada bidix)",
+            "Waxaa ku yaal bidix (goobta: dhinaca bidix)",
+            "Bidixda bankiga (booska marka loo eego wax)"
+          ]
+        },
+        {
+          "explanation": "Haddii aadan fahmin jihooyinka, weydii 'Where?' ama 'Which way?' si aad caawimo dheeri ah u hesho, ama 'Can you say that again?' si aad mar kale u maqasho.",
+          "examples": [
+            "Xaggee?",
+            "Xaggee loo jeedaa?",
+            "Ma mar kale dhihi kartaa?",
+            "Dhanka bidix ku leexo Oak Street? Miyaan si sax ah u maqlay?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Leexo bidix / Leexo midig",
+      "Sii soco",
+      "Waxay ku taal dhanka bidix / dhanka midig",
+      "Ku xigta [meel]",
+      "Ka soo horjeeda [meel]",
+      "U dhaxaysa [meel] iyo [meel]",
+      "Geeska"
+    ],
+    "dialogue": [
+      "I cafi. Ma i caawin kartaa?",
+      "Haa. Maxaad u baahan tahay?",
+      "Waxaan raadinayaa maktabadda. Xagay ku taal?",
+      "Maktabadda? Ma aha mid fog. Si toos u soco waddankan.",
+      "Si toos u soco. Waayahay.",
+      "Ka dib leexo bidix waddada labaad. Taasi waa Oak Street.",
+      "Leexo bidix waddada Oak Street?",
+      "Haa. Maktabaddu waxay ku taal midigta. Waxay ku xigtaa boostada.",
+      "Boostada ku xigta. Waan fahmay. Aad baad u mahadsan tahay!",
+      "Waxba maaha. Waa qiyaastii 5 daqiiqo socod.",
+      "Waa hagaag. Mahadsanid mar kale!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "si toos ah, oo aan leexan",
+        "example": "Sii soco wadadan si toos ah."
+      },
+      {
+        "definition": "in aad u leexato, sida bidix ama midig",
+        "example": "U leexo bidix waddada labaad."
+      },
+      {
+        "definition": "dhinaca; wax ku xiga",
+        "example": "Waxay ku xigtaa xafiiska boostada."
+      },
+      {
+        "definition": "meel aad ku dirto oo aad ka hesho waraaqaha",
+        "example": "Waxay ku xigtaa xafiiska boostada."
+      },
+      {
+        "definition": "fog; meel aad u jirta",
+        "example": "Waa meel aan fogayn."
+      },
+      {
+        "definition": "daqiiqo intee le'eg ayay qaadataa in aad u socotid meel",
+        "example": "Waa socod qiyaastii 5 daqiiqo."
+      }
+    ]
+  },
+  "related_grammar": [
+    "imperative",
+    "preposition",
+    "question"
+  ],
+  "vocabulary": [
+    {
+      "word": "straight",
+      "definition": "in a direct line, not turning",
+      "example": "Go straight on this street."
+    },
+    {
+      "word": "turn",
+      "definition": "to change direction, like left or right",
+      "example": "Turn left at the second street."
+    },
+    {
+      "word": "next to",
+      "definition": "beside; right next to something",
+      "example": "It's next to the post office."
+    },
+    {
+      "word": "post office",
+      "definition": "a place where you send and get mail",
+      "example": "It's next to the post office."
+    },
+    {
+      "word": "far",
+      "definition": "a long distance away",
+      "example": "It's not far."
+    },
+    {
+      "word": "minute walk",
+      "definition": "how many minutes it takes to walk somewhere",
+      "example": "It's about a 5-minute walk."
     }
-  }
+  ]
 }

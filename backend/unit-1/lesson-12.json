@@ -10,7 +10,8 @@
     "Call 911 and explain an emergency",
     "Describe what happened (There is a fire / Someone is hurt)",
     "Give your address and location clearly",
-    "Ask for urgent help"
+    "Ask for urgent help",
+    "Preview: talk about someone else using he/she (ready for Unit 2)"
   ],
   "target_language": {
     "phrases": [
@@ -289,7 +290,27 @@
           "There is a problem."
         ],
         "question": "How do we report that something is happening?",
-        "explanation": "We use 'There is + a/an + [thing]' to report that something exists or is happening. In emergencies, we say this urgently. Notice: 'a fire' but 'an accident' — we use 'an' before vowel sounds (a, e, i, o, u)."
+        "explanation": "We use 'There is + a/an + [thing]' to report that something exists or is happening. In emergencies, we say this urgently. Notice: 'a fire' but 'an accident' — we use 'an' before vowel sounds (a, e, i, o, u).",
+        "practice": [
+          {
+            "sentence": "___ a fire!",
+            "blank": "There is",
+            "options": [
+              "There is",
+              "It is",
+              "This is"
+            ]
+          },
+          {
+            "sentence": "___ a lot of smoke.",
+            "blank": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "It has"
+            ]
+          }
+        ]
       },
       {
         "title": "Describing conditions with 'Someone is'",
@@ -299,7 +320,27 @@
           "Someone is not breathing."
         ],
         "question": "How do we describe what is wrong with a person?",
-        "explanation": "We use 'Someone is + [condition]' when we see a person who needs help but don't know their name. If you know the person, use their name: 'Marcus is hurt.'"
+        "explanation": "We use 'Someone is + [condition]' when we see a person who needs help but don't know their name. If you know the person, use their name: 'Marcus is hurt.'",
+        "practice": [
+          {
+            "sentence": "___ hurt.",
+            "blank": "Someone is",
+            "options": [
+              "Someone is",
+              "Someone are",
+              "Someone has"
+            ]
+          },
+          {
+            "sentence": "I don't ___ anyone.",
+            "blank": "see",
+            "options": [
+              "see",
+              "sees",
+              "seeing"
+            ]
+          }
+        ]
       },
       {
         "title": "Important safety words",
@@ -310,7 +351,98 @@
           "Police = law enforcement"
         ],
         "question": "What are the most important emergency words?",
-        "explanation": "In America, call 911 for any emergency. The operator will send the right help: an ambulance for medical emergencies, the fire department for fires, or the police for crimes or danger. Always give your address clearly."
+        "explanation": "In America, call 911 for any emergency. The operator will send the right help: an ambulance for medical emergencies, the fire department for fires, or the police for crimes or danger. Always give your address clearly.",
+        "practice": [
+          {
+            "sentence": "Use the ___, not the elevator.",
+            "blank": "stairs",
+            "options": [
+              "stairs",
+              "elevator",
+              "door"
+            ]
+          },
+          {
+            "sentence": "Do not ___ the elevator.",
+            "blank": "use",
+            "options": [
+              "use",
+              "uses",
+              "using"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Before Unit 2: Talking About Someone by Name",
+        "examples": [
+          "Marcus is hurt. He is my neighbor.",
+          "The doctor is busy. She helps sick people.",
+          "Marcus has a phone. He calls 911.",
+          "The doctor has medicine. She gives it to patients."
+        ],
+        "question": "What happens to 'is' and action verbs when we use a name like 'Marcus' or 'the doctor' instead of 'I' or 'you'?",
+        "explanation": "With a name, or with he/she/it, we use 'is' — not 'am' or 'are' — just like 'Someone is hurt' above. Action verbs change too: 'I help' becomes 'she helps', 'I have' becomes 'he has'. You'll practice this a lot in Unit 2, when you talk about your family and other people.",
+        "practice": [
+          {
+            "sentence": "Marcus ___ my neighbor.",
+            "blank": "is",
+            "options": [
+              "is",
+              "am",
+              "are"
+            ]
+          },
+          {
+            "sentence": "The doctor ___ sick people.",
+            "blank": "helps",
+            "options": [
+              "help",
+              "helps",
+              "helping"
+            ]
+          },
+          {
+            "sentence": "Marcus ___ a phone.",
+            "blank": "has",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Giving Your Address",
+        "examples": [
+          "My address is 250 Oak Street.",
+          "I am at 250 Oak Street, apartment 4A.",
+          "The fire is on the fourth floor.",
+          "I am on Main Street, near the library."
+        ],
+        "question": "How do we tell the operator where we are?",
+        "explanation": "Use 'My address is + [address]' or 'I am at + [address]' to give your location clearly. Include the street, number, and apartment or floor if you can — this helps help arrive faster.",
+        "practice": [
+          {
+            "sentence": "My address ___ 250 Oak Street.",
+            "blank": "is",
+            "options": [
+              "is",
+              "am",
+              "are"
+            ]
+          },
+          {
+            "sentence": "I ___ at 250 Oak Street.",
+            "blank": "am",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -432,20 +564,141 @@
       "Wac 911 oo sharax xaaladda degdegga ah",
       "Sharax waxa dhacay (There is a fire / Someone is hurt)",
       "Si cad u sheeg cinwaankaaga iyo meesha aad joogto",
-      "Waydiiso caawimo degdeg ah"
+      "Waydiiso caawimo degdeg ah",
+      "Horudhac: ka hadal qof kale adigoo isticmaalaya he/she (diyaar u ah Unit 2)"
     ],
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'There is + a/an + [shay]' waxaan u isticmaalnaa si aan u sheegno in wax jiro ama dhacayo. Xaaladaha degdegga ah, si degdeg ah ayaan u nidhaahnaa. Fiiri: 'a fire' laakiin 'an accident' — 'an' waxaan isticmaalnaa dhawaaqyada shaqalka ka hor (a, e, i, o, u)."
+          "explanation": "'There is + a/an + [shay]' waxaan u isticmaalnaa si aan u sheegno in wax jiro ama dhacayo. Xaaladaha degdegga ah, si degdeg ah ayaan u nidhaahnaa. Fiiri: 'a fire' laakiin 'an accident' — 'an' waxaan isticmaalnaa dhawaaqyada shaqalka ka hor (a, e, i, o, u).",
+          "examples": [
+            "Waxaa jira dab.",
+            "Waxaa jira shil.",
+            "Waxaa jira dhib."
+          ]
         },
         {
-          "explanation": "'Someone is + [xaalad]' waxaan isticmaalnaa marka aan aragno qof caawimo u baahan oo aanan magaciisa aqoon. Haddii aad qofka taqaanno, isticmaal magaciisa: 'Marcus is hurt.'"
+          "explanation": "'Someone is + [xaalad]' waxaan isticmaalnaa marka aan aragno qof caawimo u baahan oo aanan magaciisa aqoon. Haddii aad qofka taqaanno, isticmaal magaciisa: 'Marcus is hurt.'",
+          "examples": [
+            "Qof baa dhaawacmay.",
+            "Qof baa buka.",
+            "Qof baa neefsanayn."
+          ]
         },
         {
-          "explanation": "Ameerika dhexdeeda, wac 911 xaalad degdeg ah kasta. Hawlwadeenku wuxuu soo diri doonaa caawimada saxda ah: ambalaas xaaladaha caafimaadka, dab-demiska dabka, ama booliiska dembiyada iyo khatarta. Mar walba si cad u sheeg cinwaankaaga."
+          "explanation": "Ameerika dhexdeeda, wac 911 xaalad degdeg ah kasta. Hawlwadeenku wuxuu soo diri doonaa caawimada saxda ah: ambalaas xaaladaha caafimaadka, dab-demiska dabka, ama booliiska dembiyada iyo khatarta. Mar walba si cad u sheeg cinwaankaaga.",
+          "examples": [
+            "911 = lambarka telefoonka degdegga ah",
+            "Ambulance = gaariga caafimaadka degdegga ah",
+            "Fire department = dab-demiyayaal",
+            "Police = ilaaliyeyaasha sharciga"
+          ]
+        },
+        {
+          "explanation": "Marka la isticmaalo magac, ama isaga/iyada/ay, waxaanu isticmaalnaa 'is' — ma aha 'am' ama 'are' — sida 'Someone is hurt' kor ku qoran. Ficillada ayaa sidoo kale isbeddela: 'I help' wuxuu noqdaa 'she helps', 'I have' wuxuu noqdaa 'he has'. Tan waxaad badan ku celcelin doontaa Unit 2, markaad ka hadlaysid qoyskaaga iyo dadka kale.",
+          "examples": [
+            "Marcus wuu dhaawacmay. Isagu waa deriskeyga.",
+            "Dhakhtarku waa mashquul. Waxay caawisaa dadka jiran.",
+            "Marcus wuxuu leeyahay telefoon. Wuxuu wacaa 911.",
+            "Dhakhtarku waxay leedahay dawo. Waxay siisaa daawada bukaanada."
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'My address is + [address]' ama 'I am at + [address]' si aad si cad u sheegto meesha aad joogto. Ku dar wadada, lambarka, iyo guriga ama dabaqa haddii aad awooddo — tani waxay ka caawinaysaa inay dhaqso u yimaadaan.",
+          "examples": [
+            "Cinwaankaygu waa 250 Oak Street.",
+            "Waxaan joogaa 250 Oak Street, guri 4A.",
+            "Dabku wuxuu ku yaal dabaqa afaraad.",
+            "Waxaan joogaa Main Street, oo u dhow maktabadda."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Caawimaad! / Waxaan u baahanahay caawimaad!",
+      "Wac 911",
+      "Dab baa jira / shil baa jira",
+      "Qof baa dhaawacmay",
+      "Waxaan u baahanahay ambalaas / booliis / dab-demiska",
+      "Cinwaankaygu waa [address]",
+      "Fadlan dhaqso"
+    ],
+    "dialogue": [
+      "911. Waa maxay degdeggaagu?",
+      "Waxaa jira dab! Dhismaha gurigayga!",
+      "Haa. Waa maxay cinwaankaaga?",
+      "250 Oak Street. Waa dhismo guriyeed.",
+      "Dabku wuxuu ku yaalaa dabaqada kee?",
+      "Dabaqada afaraad. Apartment 4A.",
+      "Ma jiraa qof dhaawacmay?",
+      "Ma aqaan. Ma arko qof. Waxaa jira qiiq badan.",
+      "Haa. Waaxda dab-demiska way imanaysaa. Ka bax dhismaha hadda. Ha isticmaalin elevator-ka. Isticmaal jaranjarooyinka.",
+      "Haa. Hadda waan baxayaa.",
+      "Ka bax dibadda oo sug gawaarida dab-demiska. Joog talefoonka aniga ila.",
+      "Haa. Hadda waxaan ku degayaa jaranjarooyinka. Fadlan dhaqso!",
+      "Waxay ku dhow yihiin inay yimaadaan. Nabad qabo oo sii soco."
+    ],
+    "vocabulary": [
+      {
+        "definition": "xaalad khatar ah oo u baahan caawimo degdeg ah",
+        "example": "Waa maxay degdeggaagu?"
+      },
+      {
+        "definition": "adeegga degdegga ah ee dabka damiya",
+        "example": "Dab-demiska ayaa jidka ku sii socda."
+      },
+      {
+        "definition": "qiiqa cirro ee dabka ka soo baxa",
+        "example": "Qiiq badan baa jira."
+      },
+      {
+        "definition": "jaranjarooyinka aad ku kacdo ama ku soo degto dhismaha",
+        "example": "Isticmaal jaranjarooyinka."
+      },
+      {
+        "definition": "mashiinka dadka kor iyo hoos u qaada gudaha dhismaha",
+        "example": "Ha isticmaalin wiishka."
+      },
+      {
+        "definition": "dhaawac ama xanuun qaba",
+        "example": "Ma qof baa dhaawacmay?"
+      }
+    ]
+  },
+  "related_grammar": [
+    "to-be",
+    "present-simple"
+  ],
+  "vocabulary": [
+    {
+      "word": "emergency",
+      "definition": "a dangerous situation that needs help right away",
+      "example": "What is your emergency?"
+    },
+    {
+      "word": "fire department",
+      "definition": "the emergency service that stops fires",
+      "example": "The fire department is on the way."
+    },
+    {
+      "word": "smoke",
+      "definition": "the gray cloud that comes from fire",
+      "example": "There is a lot of smoke."
+    },
+    {
+      "word": "stairs",
+      "definition": "steps you use to go up or down a building",
+      "example": "Use the stairs."
+    },
+    {
+      "word": "elevator",
+      "definition": "a machine that carries people up and down in a building",
+      "example": "Do not use the elevator."
+    },
+    {
+      "word": "hurt",
+      "definition": "injured or in pain",
+      "example": "Is anyone hurt?"
     }
-  }
+  ]
 }

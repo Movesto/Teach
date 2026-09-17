@@ -277,7 +277,27 @@
           "Can I have water?"
         ],
         "question": "What pattern do you see for asking for something politely?",
-        "explanation": "We use 'Can I have + [thing]?' to ask for something politely. This is very common in stores."
+        "explanation": "We use 'Can I have + [thing]?' to ask for something politely. This is very common in stores.",
+        "practice": [
+          {
+            "sentence": "___ I have bread?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Is",
+              "Are"
+            ]
+          },
+          {
+            "sentence": "Can I ___ milk?",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          }
+        ]
       },
       {
         "title": "Asking if something exists",
@@ -287,7 +307,27 @@
           "Do you have eggs?"
         ],
         "question": "How do we ask if a store has something?",
-        "explanation": "We use 'Do you have + [thing]?' to ask if something is available."
+        "explanation": "We use 'Do you have + [thing]?' to ask if something is available.",
+        "practice": [
+          {
+            "sentence": "___ you have milk?",
+            "blank": "Do",
+            "options": [
+              "Do",
+              "Does",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "Yes, we ___ milk.",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          }
+        ]
       },
       {
         "title": "Singular vs Plural",
@@ -298,7 +338,58 @@
           "The eggs are two dollars. (many)"
         ],
         "question": "What's different between 'is' and 'are'?",
-        "explanation": "We use 'is' for one thing (singular) and 'are' for many things (plural)."
+        "explanation": "We use 'is' for one thing (singular) and 'are' for many things (plural).",
+        "practice": [
+          {
+            "sentence": "one apple, two ___",
+            "blank": "apples",
+            "options": [
+              "apple",
+              "apples",
+              "apple's"
+            ]
+          },
+          {
+            "sentence": "one bottle, two ___",
+            "blank": "bottles",
+            "options": [
+              "bottle",
+              "bottles",
+              "bottley"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking About Prices",
+        "examples": [
+          "How much is this?",
+          "How much is the milk? It is one dollar.",
+          "How much are the eggs? They are two dollars.",
+          "The bread is three dollars."
+        ],
+        "question": "How do we ask how much something costs?",
+        "explanation": "Use 'How much is + [thing]?' for one item, or 'How much are + [things]?' for more than one. The answer usually starts with 'It is' or 'They are' and a price — dollars are counted just like other numbers: one dollar, two dollars, three dollars.",
+        "practice": [
+          {
+            "sentence": "___ is the milk?",
+            "blank": "How much",
+            "options": [
+              "How much",
+              "How many",
+              "What"
+            ]
+          },
+          {
+            "sentence": "How much ___ the eggs?",
+            "blank": "are",
+            "options": [
+              "are",
+              "is",
+              "am"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -425,15 +516,124 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'Can I have + [shay]?' waxaan u isticmaalnaa si aan si edeb leh wax u waydiisanno. Tani aad bay ugu badan tahay dukaammada."
+          "explanation": "'Can I have + [shay]?' waxaan u isticmaalnaa si aan si edeb leh wax u waydiisanno. Tani aad bay ugu badan tahay dukaammada.",
+          "examples": [
+            "Ma heli karaa caano?",
+            "Ma heli karaa rooti?",
+            "Ma heli karaa biyo?"
+          ]
         },
         {
-          "explanation": "'Do you have + [shay]?' waxaan u isticmaalnaa si aan u waydiinno in shaygu jiro iyo in kale."
+          "explanation": "'Do you have + [shay]?' waxaan u isticmaalnaa si aan u waydiinno in shaygu jiro iyo in kale.",
+          "examples": [
+            "Ma haysaa caano?",
+            "Ma haysaa rooti?",
+            "Ma haysaa beedo?"
+          ]
         },
         {
-          "explanation": "'is' waxaan u isticmaalnaa hal shay (keli), 'are'-na waxyaabo badan (wadar)."
+          "explanation": "'is' waxaan u isticmaalnaa hal shay (keli), 'are'-na waxyaabo badan (wadar).",
+          "examples": [
+            "Kani waa imisa? (hal shay)",
+            "Kuwan waa imisa? (shayo badan)",
+            "Caanaha waa saddex dollar. (hal)",
+            "Beedada waa laba dollar. (badan)"
+          ]
+        },
+        {
+          "explanation": "U isticmaal 'How much is + [thing]?' marka ay tahay hal shay, ama 'How much are + [things]?' marka ay yihiin wax ka badan hal. Jawaabtu badanaa waxay ku bilowdaa 'It is' ama 'They are' iyo qiimo. Dollar waxaa loo tiriyaa sida tirooyinka kale: hal dollar, laba dollar, saddex dollar.",
+          "examples": [
+            "Kani waa imisa?",
+            "Caanaha waa imisa? Waa hal dollar.",
+            "Ukunta waa imisa? Waa laba dollar.",
+            "Rootiga waa saddex dollar."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Ma heli karaa [item]?",
+      "Waa imisa?",
+      "Waxaan u baahanahay [item]",
+      "Ma haysaa [item]?",
+      "Mahadsanid / Adigaa mudan",
+      "Waa kuwan",
+      "Waa intaas"
+    ],
+    "dialogue": [
+      "Iska waran.",
+      "Iska waran! Sideen kuu caawin karaa?",
+      "Waxaan u baahanahay caano. Ma haysaa caano?",
+      "Haa, waxaan haysanaa caano. Waa ku hays.",
+      "Mahadsanid. Ma heli karaa rooti sidoo kale?",
+      "Waa hagaag. Waa ku hays rootiga.",
+      "Kani waa imisa?",
+      "Caanku waa saddex dollar. Rootigu waa laba dollar.",
+      "Hagaag. Waa intaas. Mahadsanid.",
+      "Adigaa mudan. Maalin wanaagsan!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "qof dukaan ka shaqeeya oo caawiya macaamiisha",
+        "example": "Shaandhaha wuxuu yiri, \"How can I help you?\""
+      },
+      {
+        "definition": "cabitaan cad oo laga helo saca, oo inta badan dukaan laga iibsado",
+        "example": "Ma haysaa caano?"
+      },
+      {
+        "definition": "cunto caadi ah oo laga sameeyo bur la dubay",
+        "example": "Ma heli karaa rooti sidoo kale?"
+      },
+      {
+        "definition": "halbeeg lacag ah oo laga isticmaalo Maraykanka",
+        "example": "Rootigu waa laba dollar."
+      },
+      {
+        "definition": "ereyo aad tidhaahdo markaad qof wax siinayso",
+        "example": "Waa kuu."
+      },
+      {
+        "definition": "ereyo macnahoodu yahay inaadan wax kale u baahnayn",
+        "example": "Okay. Waa intaas. Mahadsanid."
+      }
+    ]
+  },
+  "related_grammar": [
+    "modal",
+    "plural",
+    "question"
+  ],
+  "vocabulary": [
+    {
+      "word": "clerk",
+      "definition": "a person who works in a store and helps customers",
+      "example": "The clerk said, \"How can I help you?\""
+    },
+    {
+      "word": "milk",
+      "definition": "a white drink from cows, often bought at a store",
+      "example": "Do you have milk?"
+    },
+    {
+      "word": "bread",
+      "definition": "a common food made from baked flour",
+      "example": "Can I have bread too?"
+    },
+    {
+      "word": "dollar",
+      "definition": "a unit of money used in the United States",
+      "example": "The bread is two dollars."
+    },
+    {
+      "word": "here you go",
+      "definition": "words you say when giving something to someone",
+      "example": "Here you go."
+    },
+    {
+      "word": "that's all",
+      "definition": "words that mean you don't need anything else",
+      "example": "Okay. That's all. Thank you."
     }
-  }
+  ]
 }

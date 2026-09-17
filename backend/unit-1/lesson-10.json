@@ -287,7 +287,27 @@
           "It is sunny."
         ],
         "question": "What word do we use as the subject when talking about weather?",
-        "explanation": "We use 'It' as the subject for weather. We say 'It is hot' not 'The weather hot'. This 'it' doesn't mean a specific thing — it just means 'the weather'."
+        "explanation": "We use 'It' as the subject for weather. We say 'It is hot' not 'The weather hot'. This 'it' doesn't mean a specific thing — it just means 'the weather'.",
+        "practice": [
+          {
+            "sentence": "It ___ cold today.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          },
+          {
+            "sentence": "It is very ___.",
+            "blank": "cold",
+            "options": [
+              "cold",
+              "colding",
+              "colds"
+            ]
+          }
+        ]
       },
       {
         "title": "Weather actions use -ing",
@@ -297,7 +317,27 @@
           "It is getting cold."
         ],
         "question": "What do you notice about the verb form?",
-        "explanation": "When weather is happening right now, we add -ing to the verb: rain → raining, snow → snowing. This is the present continuous tense."
+        "explanation": "When weather is happening right now, we add -ing to the verb: rain → raining, snow → snowing. This is the present continuous tense.",
+        "practice": [
+          {
+            "sentence": "It is going to ___.",
+            "blank": "rain",
+            "options": [
+              "rain",
+              "raining",
+              "rains"
+            ]
+          },
+          {
+            "sentence": "It ___ raining.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          }
+        ]
       },
       {
         "title": "Giving clothing advice",
@@ -307,7 +347,57 @@
           "Bring an umbrella."
         ],
         "question": "How do we tell someone what to wear?",
-        "explanation": "We can say 'You need + [item]' to suggest clothing, or use the command form: 'Wear a hat' or 'Bring an umbrella'. These are helpful and friendly."
+        "explanation": "We can say 'You need + [item]' to suggest clothing, or use the command form: 'Wear a hat' or 'Bring an umbrella'. These are helpful and friendly.",
+        "practice": [
+          {
+            "sentence": "You ___ a jacket.",
+            "blank": "need",
+            "options": [
+              "need",
+              "needs",
+              "needing"
+            ]
+          },
+          {
+            "sentence": "Wear a ___ too!",
+            "blank": "hat",
+            "options": [
+              "hat",
+              "hats",
+              "hat's"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking About the Weather",
+        "examples": [
+          "What is the weather like today?",
+          "Is it cold outside?",
+          "Is it going to rain?"
+        ],
+        "question": "How do we ask what the weather is like?",
+        "explanation": "Use 'What is the weather like?' to ask in general, or 'Is it + [weather word]?' for a yes/no question about specific weather.",
+        "practice": [
+          {
+            "sentence": "___ is the weather like today?",
+            "blank": "What",
+            "options": [
+              "What",
+              "How",
+              "Where"
+            ]
+          },
+          {
+            "sentence": "___ it cold outside?",
+            "blank": "Is",
+            "options": [
+              "Is",
+              "Are",
+              "Does"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -434,15 +524,126 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Cimilada waxaan mawduuc uga dhignaa 'It'. Waxaan nidhaahnaa 'It is hot', ma aha 'The weather hot'. 'It'-kani shay gaar ah ma aha — wuxuu uun ka dhigan yahay 'cimilada'."
+          "explanation": "Cimilada waxaan mawduuc uga dhignaa 'It'. Waxaan nidhaahnaa 'It is hot', ma aha 'The weather hot'. 'It'-kani shay gaar ah ma aha — wuxuu uun ka dhigan yahay 'cimilada'.",
+          "examples": [
+            "Waa kulul.",
+            "Waa qabow.",
+            "Waa roob da'aya.",
+            "Waa qorrax."
+          ]
         },
         {
-          "explanation": "Marka cimiladu hadda socoto, falka waxaan ku darnaa -ing: rain (roob) → raining, snow (baraf) → snowing. Tani waa present continuous."
+          "explanation": "Marka cimiladu hadda socoto, falka waxaan ku darnaa -ing: rain (roob) → raining, snow (baraf) → snowing. Tani waa present continuous.",
+          "examples": [
+            "Waa roob da'ayaa.",
+            "Waa baraf da'ayaa.",
+            "Waa qabow noqonayaa."
+          ]
         },
         {
-          "explanation": "Waxaan odhan karnaa 'You need + [shay]' si aan dhar u soo jeedinno, ama waxaan isticmaali karnaa qaabka amarka: 'Wear a hat' ama 'Bring an umbrella'. Kuwani waa talooyin saaxiibtinimo leh."
+          "explanation": "Waxaan odhan karnaa 'You need + [shay]' si aan dhar u soo jeedinno, ama waxaan isticmaali karnaa qaabka amarka: 'Wear a hat' ama 'Bring an umbrella'. Kuwani waa talooyin saaxiibtinimo leh.",
+          "examples": [
+            "Jaakad baad u baahan tahay.",
+            "Xidh koofiyad.",
+            "Soo qaado dallad."
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'What is the weather like?' si aad guud ahaan u weydiiso, ama 'Is it + [weather word]?' su'aal haa/maya ah oo ku saabsan cimilada gaarka ah.",
+          "examples": [
+            "Sidee tahay cimilada maanta?",
+            "Ma qabow baa banaanka?",
+            "Ma roob baa da'i doona?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Sidee tahay cimilidu maanta?",
+      "Waa kulul / qabow / diirran / qabow",
+      "Waa roob / baraf / qorrax / daruuri",
+      "Waxaad u baahan tahay jaakad / dallad",
+      "Waxaan xiranahay [dharka]",
+      "Roob baa da'i doonaa",
+      "Keena dallad"
+    ],
+    "dialogue": [
+      "Subax wanaagsan! Xaggee baad tagaysaa?",
+      "Subax wanaagsan. Waxaan tagayaa dukaanka.",
+      "Waxaad u baahan tahay jaakad. Maanta aad bay u qabow tahay.",
+      "Runtii? Sidee tahay cimiladu?",
+      "Waa qabow oo waa daruuro. Waxaan u malaynayaa inay roob da'ayo.",
+      "Oh. Uma hayo dallad.",
+      "Waxaad amaahsan kartaa tayda. Waa kan.",
+      "Aad baad u mahadsan tahay! Ma baraf da'ayaa?",
+      "Maya, maanta ma da'ayo. Laakiin aad bay u qabow tahay. Laga yaabaa 30 darajo.",
+      "30 darajo! Taasi aad bay u qabow tahay. Waxaan u baahanahay jaakadkayga diiran.",
+      "Haa, xiro koofiyadna!",
+      "Fikrad wanaagsan. Mahadsanid, Marcus!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "heerkul hoose; ma aha mid diirran",
+        "example": "Maanta aad bay u qabow tahay."
+      },
+      {
+        "definition": "marka cirka ay daboolaan daruuraha",
+        "example": "Waa qabow oo daruuro leh."
+      },
+      {
+        "definition": "wax aad kor ku qabato si aad roobka uga qoyan",
+        "example": "Dallad ma haysto."
+      },
+      {
+        "definition": "dharka diirran ee aad ku xidhato bannaanka",
+        "example": "Waxaad u baahan tahay jaakad."
+      },
+      {
+        "definition": "wax qof kale leeyahay inaad isticmaasho, ka dibna aad celiso",
+        "example": "Waxaad amaahsan kartaa tayda."
+      },
+      {
+        "definition": "halbeegga loo isticmaalo in lagu qiyaaso heerkulka",
+        "example": "Laga yaabaa 30 darajo."
+      }
+    ]
+  },
+  "related_grammar": [
+    "to-be",
+    "present-continuous",
+    "adjective",
+    "question"
+  ],
+  "vocabulary": [
+    {
+      "word": "cold",
+      "definition": "low temperature; not warm",
+      "example": "It is very cold today."
+    },
+    {
+      "word": "cloudy",
+      "definition": "when the sky is covered with clouds",
+      "example": "It is cold and cloudy."
+    },
+    {
+      "word": "umbrella",
+      "definition": "something you hold over you to stay dry in rain",
+      "example": "I don't have an umbrella."
+    },
+    {
+      "word": "jacket",
+      "definition": "a warm piece of clothing you wear outside",
+      "example": "You need a jacket."
+    },
+    {
+      "word": "borrow",
+      "definition": "to use something that belongs to someone else and give it back",
+      "example": "You can borrow mine."
+    },
+    {
+      "word": "degrees",
+      "definition": "the unit used to measure temperature",
+      "example": "Maybe 30 degrees."
     }
-  }
+  ]
 }

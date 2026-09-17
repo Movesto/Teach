@@ -11,7 +11,7 @@ function voiceFor(speaker) {
 }
 
 // StorySection Component
-export function StorySection({ story, onComplete }) {
+export function StorySection({ story, onComplete, somali }) {
   const [playingIdx, setPlayingIdx] = useState(null); // index of currently playing line, or null
   const [playingAll, setPlayingAll] = useState(false);
   const audioRef = useRef(null);
@@ -135,6 +135,9 @@ export function StorySection({ story, onComplete }) {
                   playingIdx === idx ? 'text-indigo-600 dark:text-indigo-400' : 'text-gray-900 dark:text-white'
                 }`}>{line.speaker}</p>
                 <p className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed">{line.text}</p>
+                {somali?.[idx] && (
+                  <p className="text-gray-500 dark:text-gray-400 text-sm italic mt-0.5">{somali[idx]}</p>
+                )}
               </div>
             </div>
           </div>
@@ -817,9 +820,11 @@ function detectConcepts(content) {
 }
 
 // GrammarDiscovery Component
-export function GrammarDiscovery({ content, onComplete, unitId, somali }) {
+export function GrammarDiscovery({ content, onComplete, unitId, somali, relatedGrammar }) {
   const [practiceAnswers, setPracticeAnswers] = useState({});
-  const conceptIds = (unitId == null || unitId <= 8) ? detectConcepts(content) : [];
+  const conceptIds = relatedGrammar?.length > 0
+    ? relatedGrammar
+    : (unitId == null || unitId <= 8) ? detectConcepts(content) : [];
 
   const renderPracticeSentence = (sentence, item, answered, selectedIdx) => {
     const correctIdx = item.options.indexOf(item.blank)
@@ -877,7 +882,12 @@ export function GrammarDiscovery({ content, onComplete, unitId, somali }) {
             {section.examples && (
               <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 mb-4">
                 {section.examples.map((ex, i) => (
-                  <p key={i} className="font-mono text-gray-800 dark:text-gray-200 mb-1">{ex}</p>
+                  <div key={i} className="mb-1 last:mb-0">
+                    <p className="font-mono text-gray-800 dark:text-gray-200">{ex}</p>
+                    {somali?.sections?.[idx]?.examples?.[i] && (
+                      <p className="text-gray-500 dark:text-gray-400 text-xs italic">{somali.sections[idx].examples[i]}</p>
+                    )}
+                  </div>
                 ))}
               </div>
             )}

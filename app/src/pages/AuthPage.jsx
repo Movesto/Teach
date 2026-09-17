@@ -83,13 +83,13 @@ export default function AuthPage() {
           {mode === 'register' && (
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                Full Name <span className="text-gray-400 font-normal">/ Magacaaga</span>
+                Name <span className="text-gray-400 font-normal">/ Magacaaga</span>
               </label>
               <input
                 type="text"
                 value={form.name}
                 onChange={e => set('name', e.target.value)}
-                placeholder="Ahmed Hassan"
+                placeholder="Ahmed"
                 className={inputClass('name')}
               />
               {errors.name && <p className="mt-1 text-xs text-red-600 dark:text-red-400">{errors.name}</p>}

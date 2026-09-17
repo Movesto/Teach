@@ -258,7 +258,27 @@
           "I am good."
         ],
         "question": "What do you notice? What comes after 'I'?",
-        "explanation": "All three sentences use 'I am'. We use 'I am' to tell people about yourself."
+        "explanation": "All three sentences use 'I am'. We use 'I am' to tell people about yourself.",
+        "practice": [
+          {
+            "sentence": "I ___ Ahmed.",
+            "blank": "am",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          },
+          {
+            "sentence": "I ___ from Somalia.",
+            "blank": "am",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          }
+        ]
       },
       {
         "title": "Now look at these:",
@@ -268,7 +288,27 @@
           "You are good."
         ],
         "question": "What is different from the first group?",
-        "explanation": "When talking to someone else, we use 'you are' instead of 'I am'."
+        "explanation": "When talking to someone else, we use 'you are' instead of 'I am'.",
+        "practice": [
+          {
+            "sentence": "You ___ Marcus.",
+            "blank": "are",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          },
+          {
+            "sentence": "You ___ from America.",
+            "blank": "are",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          }
+        ]
       },
       {
         "title": "What can come after 'I am' or 'you are'?",
@@ -278,7 +318,27 @@
           "I am good (how you feel)"
         ],
         "question": "Can you think of other things that could come after 'I am'?",
-        "explanation": "You can use 'I am' with your name, where you're from, how you feel, and many other things about yourself."
+        "explanation": "You can use 'I am' with your name, where you're from, how you feel, and many other things about yourself.",
+        "practice": [
+          {
+            "sentence": "I ___ good.",
+            "blank": "am",
+            "options": [
+              "am",
+              "are",
+              "is"
+            ]
+          },
+          {
+            "sentence": "You ___ good.",
+            "blank": "are",
+            "options": [
+              "am",
+              "are",
+              "is"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -405,15 +465,112 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Saddexda jumladood oo dhan waxay isticmaalaan 'I am'. Waxaan u isticmaalnaa 'I am' si aan dadka uga sheegno wax nafteena ku saabsan."
+          "explanation": "Saddexda jumladood oo dhan waxay isticmaalaan 'I am'. Waxaan u isticmaalnaa 'I am' si aan dadka uga sheegno wax nafteena ku saabsan.",
+          "examples": [
+            "Waxaan ahay Ahmed.",
+            "Waxaan ka soo jeedaa Soomaaliya.",
+            "Waan fiicanahay."
+          ]
         },
         {
-          "explanation": "Markaad la hadlayso qof kale, waxaan isticmaalnaa 'you are' halkii 'I am'."
+          "explanation": "Markaad la hadlayso qof kale, waxaan isticmaalnaa 'you are' halkii 'I am'.",
+          "examples": [
+            "Waxaad tahay Marcus.",
+            "Waxaad ka tahay Ameerika.",
+            "Waxaad tahay wanaagsan."
+          ]
         },
         {
-          "explanation": "'I am' waxaad ku isticmaali kartaa magacaaga, meesha aad ka timid, sida aad dareemayso, iyo waxyaabo kale oo badan oo adiga kugu saabsan."
+          "explanation": "'I am' waxaad ku isticmaali kartaa magacaaga, meesha aad ka timid, sida aad dareemayso, iyo waxyaabo kale oo badan oo adiga kugu saabsan.",
+          "examples": [
+            "Waxaan ahay Ahmed",
+            "Waxaan ka soo jeedaa Soomaaliya",
+            "Waan fiicanahay"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Salaan / Haye",
+      "Magacaygu waa [magac]",
+      "Waxaan ka soo jeedaa [meel]",
+      "Waan ku faraxsanahay",
+      "Sidee tahay?",
+      "Waan wanaagsanahay / Waan fiicanahay",
+      "Mahadsanid"
+    ],
+    "dialogue": [
+      "Hay!",
+      "Hay.",
+      "Waxaan ahay Marcus. Waxaan ku noolahay 4C.",
+      "Magacaygu waa Ahmed. Waxaan ka soo jeedaa Soomaaliya. Waxaan ku noolahay 4B.",
+      "Waxaan ku faraxsanahay inaan kula kulmo!",
+      "Aniguna waxaan ku faraxsanahay inaan kula kulmo.",
+      "Sidee tahay?",
+      "Waan fiicanahay. Mahadsanid. Sidee tahay?",
+      "Waan fiicanahay. Soo dhawoow dhismaha!",
+      "Mahadsanid."
+    ],
+    "vocabulary": [
+      {
+        "definition": "in aad deggan tahay meel",
+        "example": "Waxaan ku noolahay guri 4B."
+      },
+      {
+        "definition": "qof agagaarkaaga ku nool",
+        "example": "Marcus waa deriskeyga."
+      },
+      {
+        "definition": "dhismo leh qolal, sida dhismo dad badani ku nool yihiin",
+        "example": "So dhawoow dhismaha!"
+      },
+      {
+        "definition": "in aad qof aragto oo aad la hadasho markii ugu horreysay",
+        "example": "Waan ku faraxsanahay inaan kula kulmo."
+      },
+      {
+        "definition": "salaan saaxiibtinimo oo loo jeediyo qof soo gaaray",
+        "example": "So dhawoow dhismaha!"
+      },
+      {
+        "definition": "fiican, ama isku fiican",
+        "example": "Waan fiicanahay, mahadsanid."
+      }
+    ]
+  },
+  "related_grammar": [
+    "to-be"
+  ],
+  "vocabulary": [
+    {
+      "word": "live",
+      "definition": "to have your home in a place",
+      "example": "I live in apartment 4B."
+    },
+    {
+      "word": "neighbor",
+      "definition": "a person who lives near you",
+      "example": "Marcus is my neighbor."
+    },
+    {
+      "word": "building",
+      "definition": "a structure with rooms, like an apartment building",
+      "example": "Welcome to the building!"
+    },
+    {
+      "word": "meet",
+      "definition": "to see and talk to someone for the first time",
+      "example": "Nice to meet you."
+    },
+    {
+      "word": "welcome",
+      "definition": "a friendly greeting to someone arriving",
+      "example": "Welcome to the building!"
+    },
+    {
+      "word": "good",
+      "definition": "well, or feeling fine",
+      "example": "I am good, thank you."
     }
-  }
+  ]
 }

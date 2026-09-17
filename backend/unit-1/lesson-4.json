@@ -276,7 +276,27 @@
           "At what time?"
         ],
         "question": "What words do we use to ask about time?",
-        "explanation": "We use 'What time' or 'When' to ask about time. These are question words for time."
+        "explanation": "We use 'What time' or 'When' to ask about time. These are question words for time.",
+        "practice": [
+          {
+            "sentence": "What ___ is it?",
+            "blank": "time",
+            "options": [
+              "time",
+              "day",
+              "name"
+            ]
+          },
+          {
+            "sentence": "___ time is it?",
+            "blank": "What",
+            "options": [
+              "What",
+              "Where",
+              "Who"
+            ]
+          }
+        ]
       },
       {
         "title": "Prepositions with time",
@@ -286,7 +306,27 @@
           "In the morning"
         ],
         "question": "What small words come before times and days?",
-        "explanation": "We use 'at' for specific times (at 9 AM), 'on' for days (on Monday), and 'in' for parts of the day (in the morning)."
+        "explanation": "We use 'at' for specific times (at 9 AM), 'on' for days (on Monday), and 'in' for parts of the day (in the morning).",
+        "practice": [
+          {
+            "sentence": "I have an appointment ___ 9 AM.",
+            "blank": "at",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ]
+          },
+          {
+            "sentence": "See you ___ Monday.",
+            "blank": "on",
+            "options": [
+              "on",
+              "at",
+              "in"
+            ]
+          }
+        ]
       },
       {
         "title": "Time expressions",
@@ -297,7 +337,58 @@
           "10 PM (night)"
         ],
         "question": "How do we talk about different parts of the day?",
-        "explanation": "We use AM for morning times (before noon) and PM for afternoon/evening times (after noon). We can also say 'in the morning', 'in the afternoon', 'in the evening', or 'at night'."
+        "explanation": "We use AM for morning times (before noon) and PM for afternoon/evening times (after noon). We can also say 'in the morning', 'in the afternoon', 'in the evening', or 'at night'.",
+        "practice": [
+          {
+            "sentence": "___ the morning, please.",
+            "blank": "In",
+            "options": [
+              "In",
+              "At",
+              "On"
+            ]
+          },
+          {
+            "sentence": "Monday ___ 9 AM.",
+            "blank": "at",
+            "options": [
+              "at",
+              "in",
+              "on"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Telling the Time",
+        "examples": [
+          "It is 3 o'clock.",
+          "It is 9 AM.",
+          "It is 11:30.",
+          "It is noon."
+        ],
+        "question": "How do we say what time it is?",
+        "explanation": "Use 'It is + [time]' to tell the time. For the hour alone, add 'o'clock' (3 o'clock). For AM/PM times, just say the numbers (9 AM, 11:30).",
+        "practice": [
+          {
+            "sentence": "___ 3 o'clock.",
+            "blank": "It is",
+            "options": [
+              "It is",
+              "I am",
+              "There is"
+            ]
+          },
+          {
+            "sentence": "It ___ 9 AM.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -424,15 +515,134 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'What time' ama 'When' waxaan u isticmaalnaa si aan wakhtiga u waydiinno. Kuwani waa erayada su'aalaha wakhtiga."
+          "explanation": "'What time' ama 'When' waxaan u isticmaalnaa si aan wakhtiga u waydiinno. Kuwani waa erayada su'aalaha wakhtiga.",
+          "examples": [
+            "Waa imisa saacad?",
+            "Goorma ayuu ballanku yahay?",
+            "Waqtigee?"
+          ]
         },
         {
-          "explanation": "'at' waxaan u isticmaalnaa saacado gaar ah (at 9 AM), 'on' maalmaha (on Monday), 'in'-na qaybaha maalinta (in the morning)."
+          "explanation": "'at' waxaan u isticmaalnaa saacado gaar ah (at 9 AM), 'on' maalmaha (on Monday), 'in'-na qaybaha maalinta (in the morning).",
+          "examples": [
+            "Sagaalka subaxnimo",
+            "Isniinta",
+            "Subaxnimo"
+          ]
         },
         {
-          "explanation": "AM waxaan u isticmaalnaa wakhtiyada subaxa (duhurka ka hor), PM-na galabta iyo fiidka (duhurka ka dib). Waxaan sidoo kale odhan karnaa 'in the morning', 'in the afternoon', 'in the evening', ama 'at night'."
+          "explanation": "AM waxaan u isticmaalnaa wakhtiyada subaxa (duhurka ka hor), PM-na galabta iyo fiidka (duhurka ka dib). Waxaan sidoo kale odhan karnaa 'in the morning', 'in the afternoon', 'in the evening', ama 'at night'.",
+          "examples": [
+            "9 AM (subax)",
+            "2 PM (galab)",
+            "6 PM (fiid)",
+            "10 PM (habeen)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'It is + [time]' si aad u sheegto waqtiga. Haddii ay tahay saacad dhammaystiran, ku dar 'o'clock' (3 o'clock). Waqtiyada AM/PM, kaliya dheh tirooyinka (9 AM, 11:30).",
+          "examples": [
+            "Waa 3 saac.",
+            "Waa 9 subaxnimo.",
+            "Waa 11 iyo bar.",
+            "Waa duhur."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "What time is it? = Waa imisa saacad?",
+      "It is [time] = Waa [waqtiga]",
+      "When is the appointment? = Goorma ayay tahay ballanka?",
+      "At [time] = Waa [waqtiga]",
+      "In the morning / afternoon / evening = Subaxnimo / galabnimo / fiidnimo",
+      "On [day] = Maalinta [maalin]",
+      "See you at [time] = Kugu arkayaa [waqtiga]"
+    ],
+    "dialogue": [
+      "Subax wanaagsan. City Clinic. Sideen ku caawin karaa?",
+      "Hello. Waxaan u baahanahay in aan ballan sameeyo.",
+      "Hagaag. Goormaad rabtaa in aad timaado?",
+      "Isniinta ma iman karaa?",
+      "Haa. Waqti intee ayaa kuu fiican?",
+      "Subaxdii, fadlan.",
+      "Waxaan haystaa 9 AM ama 11 AM. Kee?",
+      "9 AM waa fiican.",
+      "Waa fiican. Isniinta 9 AM. Magacaa?",
+      "Magacaygu waa Ahmed Hassan.",
+      "Waa fiican. Isniinta 9 AM ayaan ku arki.",
+      "Mahadsanid!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "waqti la ballansan yahay oo aad la kulmi doonto qof, sida dhakhtar",
+        "example": "Waxaan u baahanahay in aan ballan sameeyo."
+      },
+      {
+        "definition": "qof ka jawaaba taleefanka oo caawiya dadka soo booqda xafiiska",
+        "example": "Subax wanaagsan. Klinikada Magaalada. Sideen ku caawin karaa?"
+      },
+      {
+        "definition": "waqtiga hore ee maalinta",
+        "example": "Subaxdii, fadlan."
+      },
+      {
+        "definition": "maalinta koowaad ee usbuuca shaqada",
+        "example": "Ma iman karaa Isniinta?"
+      },
+      {
+        "definition": "sax ah; aad u fiican",
+        "example": "Waa fiican. Isniinta 9 subaxnimo."
+      },
+      {
+        "definition": "ereyo aad dhahdo marka aad qof la kulmi doonto hadhow",
+        "example": "Isniinta 9 subaxnimo waan ku arki."
+      },
+      {
+        "definition": "Isniin, Talaado, Arbaco, Khamiis, Jimco, Sabti, Axad",
+        "example": "Ballankaygu waa Talaadada."
+      }
+    ]
+  },
+  "related_grammar": [
+    "question",
+    "preposition"
+  ],
+  "vocabulary": [
+    {
+      "word": "appointment",
+      "definition": "a planned time to meet someone, like a doctor",
+      "example": "I need to make an appointment."
+    },
+    {
+      "word": "receptionist",
+      "definition": "a person who answers calls and helps visitors at an office",
+      "example": "Good morning. City Clinic. How can I help you?"
+    },
+    {
+      "word": "morning",
+      "definition": "the early part of the day",
+      "example": "In the morning, please."
+    },
+    {
+      "word": "Monday",
+      "definition": "the first day of the work week",
+      "example": "Can I come on Monday?"
+    },
+    {
+      "word": "perfect",
+      "definition": "exactly right; very good",
+      "example": "Perfect. Monday at 9 AM."
+    },
+    {
+      "word": "see you",
+      "definition": "words you say when you will meet someone later",
+      "example": "See you on Monday at 9 AM."
+    },
+    {
+      "word": "days of the week",
+      "definition": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+      "example": "My appointment is on Tuesday."
     }
-  }
+  ]
 }

@@ -4,6 +4,34 @@ import { BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
 
 const CONCEPTS = [
   {
+    id: 'to-be',
+    en: 'The Verb "To Be" (am / is / are)',
+    so: 'Falka "To Be" (am/is/are)',
+    color: 'blue',
+    definition: 'The most common verb in English. It connects the subject to a name, place, feeling, or description. Its form changes depending on who or what the subject is.',
+    definitionSo: 'Waa falka ugu isticmaalka badan ee Ingiriisiga. Wuxuu isku xiraa mawduuca iyo magac, meel, dareen, ama sharaxaad. Qaabkiisu wuu isbadalaa waxay ku xiran tahay cidda ama waxa mawduucu yahay.',
+    examples: [
+      'I am Ahmed.',
+      'You are kind.',
+      'He is a teacher.',
+      'She is from Kenya.',
+      'It is cold today.',
+      'We are students.',
+      'They are happy.'
+    ],
+    examplesSo: [
+      'Waxaan ahay Ahmed.',
+      'Waxaad tahay qof naxariis badan.',
+      'Isagu waa macallin.',
+      'Iyadu waxay ka timid Kenya.',
+      'Maanta waa qabow.',
+      'Annagu waxaynu nahay arday.',
+      'Iyagu way faraxsan yihiin.'
+    ],
+    pattern: 'I am  ·  he/she/it is  ·  you/we/they are',
+    extra: 'Negative: am/is/are + not → "I am not tired."\nQuestion: Am/Is/Are + subject...? → "Are you tired?"',
+  },
+  {
     id: 'noun',
     en: 'Noun',
     so: 'Magac',
@@ -11,6 +39,7 @@ const CONCEPTS = [
     definition: 'A word for a person, place, thing, or idea.',
     definitionSo: 'Eray loogu talagalay qof, meel, shay, ama fikir.',
     examples: ['Ahmed is my friend.', 'The school is big.', 'I like music.'],
+    examplesSo: ['Ahmed waa saaxiibkay.', 'Dugsigu waa weyn yahay.', 'Waan jeclahay muusikada.'],
     exampleNotes: ['Ahmed → person / qof', 'school → place / meel', 'music → thing / shay'],
     pattern: 'subject + verb + noun',
   },
@@ -22,6 +51,7 @@ const CONCEPTS = [
     definition: 'A word that shows an action or a state of being.',
     definitionSo: 'Eray muujinaya fal ama xaalad.',
     examples: ['I eat rice every day.', 'She runs to school.', 'He is tired.'],
+    examplesSo: ['Waxaan cunaa bariis maalin kasta.', 'Waxay u oroddaa dugsiga.', 'Wuu daallan yahay.'],
     exampleNotes: ['eat → action / fal', 'runs → action / fal', 'is → state / xaalad'],
     pattern: 'subject + verb + ...',
   },
@@ -33,6 +63,7 @@ const CONCEPTS = [
     definition: 'A word that describes a noun — it tells us more about it.',
     definitionSo: 'Eray sharaxaya magac — waxay noo sheegaysaa wax dheeraad ah.',
     examples: ['Ahmed is a kind man.', 'The food is hot.', 'I have a small house.'],
+    examplesSo: ['Ahmed waa nin naxariis leh.', 'Cuntadu waa kulul.', 'Waxaan haystaa guri yar.'],
     exampleNotes: ['kind → describes "man"', 'hot → describes "food"', 'small → describes "house"'],
     pattern: 'adjective + noun   OR   noun + is + adjective',
   },
@@ -44,6 +75,7 @@ const CONCEPTS = [
     definition: 'A word that describes a verb, adjective, or another adverb — it tells us HOW, WHEN, WHERE, or HOW MUCH.',
     definitionSo: 'Eray sharaxaya fal, sifo, ama sifada kale — waxay noo sheegaysaa SIDEEd, GOORta, MEEsha, ama INTEE LE\'EG.',
     examples: ['She speaks slowly.', 'He always wakes up early.', 'The test was very hard.'],
+    examplesSo: ['Waxay si gaabis ah u hadashaa.', 'Wuxuu had iyo jeer goor hore u toosaa.', 'Imtixaanku aad buu u adkaa.'],
     exampleNotes: ['slowly → HOW she speaks', 'always, early → HOW OFTEN / WHEN', 'very → HOW MUCH hard'],
     pattern: 'verb + adverb   OR   very/really + adjective',
   },
@@ -55,6 +87,7 @@ const CONCEPTS = [
     definition: 'A word that replaces a noun so we don\'t repeat it.',
     definitionSo: 'Eray bedela magac si aan u soo celi doonin.',
     examples: ['Ahmed is tired. He needs rest.', 'Give the book to Sara. Give it to her.'],
+    examplesSo: ['Ahmed wuu daalan yahay. Wuxuu u baahan yahay nasasho.', 'Sii buugga Sara. Sii iyada.'],
     exampleNotes: ['He = Ahmed', 'it = book, her = Sara'],
     pattern: 'I / you / he / she / it / we / they',
     extra: 'Possessive: my, your, his, her, its, our, their',
@@ -67,6 +100,7 @@ const CONCEPTS = [
     definition: 'The person or thing doing the action in a sentence.',
     definitionSo: 'Qofka ama shayga fuliya fala ee jumlada.',
     examples: ['Ahmed eats lunch.', 'The dog barks loudly.', 'They study English.'],
+    examplesSo: ['Ahmed wuxuu cunaa qado.', 'Eeygu wuxuu qayliyaa si qayaxan.', 'Waxay bartaan Ingiriisiga.'],
     exampleNotes: ['Ahmed → subject', 'The dog → subject', 'They → subject'],
     pattern: '[Subject] + verb + ...',
   },
@@ -78,6 +112,7 @@ const CONCEPTS = [
     definition: 'The person or thing that receives the action.',
     definitionSo: 'Qofka ama shayga helaya fala.',
     examples: ['Ahmed eats lunch.', 'She called her mother.', 'I bought a car.'],
+    examplesSo: ['Ahmed wuxuu cunaa qado.', 'Waxay wacday hooyadeed.', 'Waxaan iibsaday baabuur.'],
     exampleNotes: ['lunch → object (what is eaten)', 'her mother → object (who is called)', 'a car → object (what is bought)'],
     pattern: 'subject + verb + [Object]',
   },
@@ -89,6 +124,7 @@ const CONCEPTS = [
     definition: 'Used for habits, routines, and facts that are always true.',
     definitionSo: 'Waxaa loo isticmaalaa caadooyinka, jirka, iyo xaqiiqooyinka had iyo jeer saxda ah.',
     examples: ['I eat breakfast every morning.', 'She works at a hospital.', 'Water boils at 100°C.'],
+    examplesSo: ['Waxaan cunaa quraac subax kasta.', 'Waxay ka shaqeysaa isbitaal.', 'Biyuhu waxay ku kulaalaan 100°C.'],
     exampleNotes: ['habit / caado', 'routine / jir', 'fact / xaqiiqo'],
     pattern: 'I/you/we/they + verb   |   he/she/it + verb+s',
     extra: 'Add -s/-es for he/she/it:  eat → eats,  go → goes,  watch → watches',
@@ -101,6 +137,7 @@ const CONCEPTS = [
     definition: 'Used for actions happening RIGHT NOW or around this time.',
     definitionSo: 'Waxaa loo isticmaalaa falalka HADDA dhacaya ama muddadan dhacaya.',
     examples: ['I am eating lunch right now.', 'She is studying for the test.', 'They are building a new school.'],
+    examplesSo: ['Waxaan hadda qadada cunayaa.', 'Waxay u baranaysaa imtixaanka.', 'Waxay dhisanayaan dugsi cusub.'],
     exampleNotes: ['right now', 'around this time', 'currently happening'],
     pattern: 'subject + am/is/are + verb-ing',
     extra: 'am (I) · is (he/she/it) · are (you/we/they)',
@@ -113,6 +150,7 @@ const CONCEPTS = [
     definition: 'Used for completed actions in the past.',
     definitionSo: 'Waxaa loo isticmaalaa falalka oo dhammaatay ee hore.',
     examples: ['I ate lunch yesterday.', 'She worked at the hospital last year.', 'He went to school in 2010.'],
+    examplesSo: ['Waxaan shalay cunay qado.', 'Waxay shaqaysay isbitaalka sannadkii hore.', 'Wuxuu tagay dugsiga 2010.'],
     exampleNotes: ['yesterday / shalay', 'last year / sanadkii hore', 'specific past time'],
     pattern: 'subject + verb(past form)',
     extra: 'Regular: walk → walked, work → worked\nIrregular: go → went, eat → ate, have → had',
@@ -125,6 +163,7 @@ const CONCEPTS = [
     definition: 'Used for things that will happen later.',
     definitionSo: 'Waxaa loo isticmaalaa waxyaalaha mustaqbalka dhici doona.',
     examples: ['I will call you tomorrow.', 'She is going to study medicine.', 'The exam starts at 9am.'],
+    examplesSo: ['Waxaan kuu soo wici doonaa berri.', 'Waxay baran doontaa cilmiga caafimaadka.', 'Imtixaanku wuxuu bilaabmayaa sagaalka subaxnimo.'],
     exampleNotes: ['will + verb → simple future', 'going to + verb → planned future', 'present simple → scheduled future'],
     pattern: 'will + verb   OR   am/is/are going to + verb',
   },
@@ -140,7 +179,14 @@ const CONCEPTS = [
       'You should rest. (advice / taalo)',
       'We must pay the bill. (obligation / waajib)',
       'Could you help me? (polite request)',
-      'It might rain today. (possibility)',
+      'It might rain today. (possibility)'
+    ],
+    examplesSo: [
+      'Waan ku hadli karaa Ingiriisiga.',
+      'Waa inaad nasato.',
+      'Waa inaan bixino biilka.',
+      'Ma i caawin kartaa?',
+      'Waxaa laga yaabaa inay maanta roob da\'o.'
     ],
     exampleNotes: ['can / could', 'should / ought to', 'must / have to', 'would', 'may / might'],
     pattern: 'subject + modal + base verb (no -s, no -ed)',
@@ -154,6 +200,7 @@ const CONCEPTS = [
     definition: 'A word that shows the relationship between things — usually place, time, or direction.',
     definitionSo: 'Eray muujinaya xiriirka shayga — caadi ahaan meel, waqti, ama jiho.',
     examples: ['The book is on the table.', 'I wake up at 7am.', 'She walked to the store.'],
+    examplesSo: ['Buuggu wuxuu saaran yahay miiska.', 'Waxaan soo toosaa saacadda 7da subaxnimo.', 'Waxay u socotay dukaanka.'],
     exampleNotes: ['on → place / meel', 'at → time / waqti', 'to → direction / jiho'],
     pattern: 'noun + preposition + noun/time',
     extra: 'Place: in, on, at, under, between, next to\nTime: at (7am), on (Monday), in (January/2020)',
@@ -166,6 +213,7 @@ const CONCEPTS = [
     definition: '"A/an" is used for any one thing. "The" is used for a specific thing both speaker and listener know.',
     definitionSo: '"A/an" waxaa loo isticmaalaa shay kasta oo mid ah. "The" waxaa loo isticmaalaa shay gaar ah labaduba yaqaanaan.',
     examples: ['I saw a dog. The dog was big.', 'She is a teacher.', 'Please close the door.'],
+    examplesSo: ['Waxaan arkay ey. Eyga waa weynaa.', 'Iyadu waa macallinad.', 'Fadlan xidh albaabka.'],
     exampleNotes: ['a dog → any dog / the dog → that specific dog', 'a teacher → her job (general)', 'the door → both know which door'],
     pattern: 'a + consonant sound  |  an + vowel sound  |  the + specific',
     extra: 'a dog, a car, a university\nan apple, an hour, an elephant',
@@ -178,6 +226,7 @@ const CONCEPTS = [
     definition: 'A word that connects two words, phrases, or sentences.',
     definitionSo: 'Eray ku xidha laba eray, xarafood, ama jumlood.',
     examples: ['I like tea and coffee.', 'She is tired but she keeps working.', 'I stayed home because it was raining.'],
+    examplesSo: ['Waxaan jeclahay shaah iyo qaxwe.', 'Way daashay laakiin way sii shaqaynaysaa.', 'Waxaan joogay guriga sababtoo ah roob da\'ayay.'],
     exampleNotes: ['and → adds / ku daraa', 'but → contrast / ka soo horjeedaa', 'because → reason / sababta'],
     pattern: 'sentence + conjunction + sentence',
     extra: 'Coordinating: and, but, or, so, yet\nSubordinating: because, although, when, if, since',
@@ -190,6 +239,7 @@ const CONCEPTS = [
     definition: 'A sentence that gives a command, instruction, or polite request.',
     definitionSo: 'Jumlad bixinaysa amar, tilmaame, ama codsi xushmad leh.',
     examples: ['Open the window.', 'Please sit down.', 'Don\'t touch that.'],
+    examplesSo: ['Fur daaqadda.', 'Fadlan fadhiiso.', 'Ha taabanin taas.'],
     exampleNotes: ['command / amar', 'polite request / codsi', 'negative command'],
     pattern: 'verb + ... (no subject needed)',
     extra: 'Negative: Don\'t + verb → "Don\'t run."',
@@ -202,6 +252,7 @@ const CONCEPTS = [
     definition: 'Comparative compares two things. Superlative shows the most extreme of a group.',
     definitionSo: 'Isbarbardhiggu wuxuu barbardhigayaa laba shay. Ugu sareystu waxay muujisaa ugu dambaysta.',
     examples: ['Ahmed is taller than Omar.', 'This exam is harder than the last one.', 'She is the best student in the class.'],
+    examplesSo: ['Ahmed wuu ka dheer yahay Omar.', 'Imtixaankan wuu ka adag yahay kii hore.', 'Iyadu waa ardayda ugu fiican fasalka.'],
     exampleNotes: ['taller → comparative (than)', 'harder → comparative (than)', 'best → superlative (the ... in)'],
     pattern: 'adj + -er + than  |  the + adj + -est',
     extra: 'Short: tall→taller→tallest\nLong: beautiful→more beautiful→most beautiful\nIrregular: good→better→best  |  bad→worse→worst',
@@ -213,7 +264,18 @@ const CONCEPTS = [
     color: 'indigo',
     definition: 'Words used to ask for specific information.',
     definitionSo: 'Erayo la isticmaalo si loo weydiiyo macluumaad gaar ah.',
-    examples: ['What is your name?', 'Where do you live?', 'Why are you late?', 'How do you feel?'],
+    examples: [
+      'What is your name?',
+      'Where do you live?',
+      'Why are you late?',
+      'How do you feel?'
+    ],
+    examplesSo: [
+      'Waa maxay magacaaga?',
+      'Xaggee ku nooshahay?',
+      'Maxaad u daahday?',
+      'Sidee dareemaysaa?'
+    ],
     exampleNotes: ['What → thing/shay', 'Where → place/meel', 'Why → reason/sababta', 'How → way/qaab'],
     pattern: 'Question word + auxiliary + subject + verb?',
     extra: 'What · Where · When · Who · Why · How · How much · How many · Which',
@@ -226,6 +288,7 @@ const CONCEPTS = [
     definition: 'Used when there is more than one of something.',
     definitionSo: 'Waxaa loo isticmaalaa marka ka badan mid jiro.',
     examples: ['one book → two books', 'one child → three children', 'one person → many people'],
+    examplesSo: ['hal buug → laba buug', 'hal cunug → saddex carruur', 'hal qof → dad badan'],
     exampleNotes: ['regular: +s / +es', 'irregular: child→children', 'irregular: person→people'],
     pattern: 'noun + s/es  (regular)',
     extra: 'Regular: book→books, bus→buses, watch→watches\nIrregular: man→men, woman→women, foot→feet',
@@ -238,6 +301,7 @@ const CONCEPTS = [
     definition: 'Used for past actions that are connected to now — the exact time is not important.',
     definitionSo: 'Waxaa loo isticmaalaa falalka hore ee xiriir la leh hadda — waqtiga saxda ah muhiim ma aha.',
     examples: ['I have lived here for 5 years.', 'She has visited London.', 'Have you ever eaten sushi?'],
+    examplesSo: ['Waxaan halkan ku noolaa shan sano.', 'Waxay booqatay London.', 'Waligaa ma cuntay sushi?'],
     exampleNotes: ['for/since → ongoing duration', 'life experience (ever/never)', 'question about experience'],
     pattern: 'subject + have/has + past participle',
     extra: 'have (I/you/we/they) · has (he/she/it)\neat → eaten · go → gone · see → seen',
@@ -292,10 +356,15 @@ function ConceptCard({ concept }) {
             <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2 mt-3">Examples / Tusaalooyin</p>
             <div className="space-y-2">
               {concept.examples.map((ex, i) => (
-                <div key={i} className={`rounded-lg px-4 py-2 flex items-start gap-3 ${c.bg} dark:bg-opacity-20`}>
-                  <span className="font-mono text-gray-900 dark:text-gray-100 flex-1 text-sm">{ex}</span>
-                  {concept.exampleNotes?.[i] && (
-                    <span className="text-xs text-gray-500 dark:text-gray-400 flex-shrink-0 pt-0.5">← {concept.exampleNotes[i]}</span>
+                <div key={i} className={`rounded-lg px-4 py-2 ${c.bg} dark:bg-opacity-20`}>
+                  <div className="flex items-start gap-3">
+                    <span className="font-mono text-gray-900 dark:text-gray-100 flex-1 text-sm">{ex}</span>
+                    {concept.exampleNotes?.[i] && (
+                      <span className="text-xs text-gray-500 dark:text-gray-400 flex-shrink-0 pt-0.5">← {concept.exampleNotes[i]}</span>
+                    )}
+                  </div>
+                  {concept.examplesSo?.[i] && (
+                    <p className="text-xs text-gray-500 dark:text-gray-400 italic mt-1">{concept.examplesSo[i]}</p>
                   )}
                 </div>
               ))}
@@ -402,6 +471,7 @@ export default function GrammarGuide() {
 // Helper used by GrammarDiscovery to detect relevant concept IDs from text
 // eslint-disable-next-line react-refresh/only-export-components
 export const GRAMMAR_KEYWORDS = [
+  { id: 'to-be',            keywords: ["'i am'", "'you are'", 'to be', 'am/is/are', 'am / is / are'] },
   { id: 'verb',             keywords: ['verb', 'action word'] },
   { id: 'noun',             keywords: ['noun'] },
   { id: 'adjective',        keywords: ['adjective', 'describing word', 'adjective order'] },

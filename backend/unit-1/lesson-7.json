@@ -272,7 +272,27 @@
           "On phone: I am Ahmed (sounds strange)"
         ],
         "question": "What do we say on the phone?",
-        "explanation": "On the phone, we say 'This is [name]' not 'I am [name]'. This is a special phone rule in English."
+        "explanation": "On the phone, we say 'This is [name]' not 'I am [name]'. This is a special phone rule in English.",
+        "practice": [
+          {
+            "sentence": "Hi, ___ Ahmed.",
+            "blank": "this is",
+            "options": [
+              "this is",
+              "I am",
+              "I have"
+            ]
+          },
+          {
+            "sentence": "___ Marcus there?",
+            "blank": "Is",
+            "options": [
+              "Is",
+              "Am",
+              "Are"
+            ]
+          }
+        ]
       },
       {
         "title": "Is [person] there? vs Can I speak to [person]?",
@@ -281,7 +301,27 @@
           "Can I speak to Marcus? (asking to talk to him)"
         ],
         "question": "What's the difference?",
-        "explanation": "Both questions are asking if you can talk to someone. 'Is [person] there?' is slightly more casual. Both are polite and common."
+        "explanation": "Both questions are asking if you can talk to someone. 'Is [person] there?' is slightly more casual. Both are polite and common.",
+        "practice": [
+          {
+            "sentence": "Can I ___ to Marcus?",
+            "blank": "speak",
+            "options": [
+              "speak",
+              "speaking",
+              "spoke"
+            ]
+          },
+          {
+            "sentence": "___ Marcus there?",
+            "blank": "Is",
+            "options": [
+              "Is",
+              "Does",
+              "Can"
+            ]
+          }
+        ]
       },
       {
         "title": "Hold on vs Wait",
@@ -292,7 +332,58 @@
           "Please wait"
         ],
         "question": "What do these mean?",
-        "explanation": "These all mean 'wait a short time'. 'Hold on' and 'One moment' are very common on the phone. They're all polite ways to ask someone to wait."
+        "explanation": "These all mean 'wait a short time'. 'Hold on' and 'One moment' are very common on the phone. They're all polite ways to ask someone to wait.",
+        "practice": [
+          {
+            "sentence": "___ on, please.",
+            "blank": "Hold",
+            "options": [
+              "Hold",
+              "Wait",
+              "Stop"
+            ]
+          },
+          {
+            "sentence": "I'll ___ him.",
+            "blank": "get",
+            "options": [
+              "get",
+              "gets",
+              "getting"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Taking a Message and Ending the Call",
+        "examples": [
+          "Can I take a message?",
+          "Can you tell him Ahmed called?",
+          "I'll tell him you called.",
+          "Talk to you later. Goodbye."
+        ],
+        "question": "How do we take a message or end a phone call politely?",
+        "explanation": "Use 'Can I take a message?' when the person isn't there, and 'Can you tell [name]...' to leave information. End calls with 'Goodbye' or 'Talk to you later'.",
+        "practice": [
+          {
+            "sentence": "___ I take a message?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Do",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "I'll ___ him you called.",
+            "blank": "tell",
+            "options": [
+              "tell",
+              "tells",
+              "telling"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -419,15 +510,123 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Telefoonka waxaan ku nidhaahnaa 'This is [magac]', ma aha 'I am [magac]'. Kani waa qaanuun gaar ah oo telefoonka Ingiriisiga ah."
+          "explanation": "Telefoonka waxaan ku nidhaahnaa 'This is [magac]', ma aha 'I am [magac]'. Kani waa qaanuun gaar ah oo telefoonka Ingiriisiga ah.",
+          "examples": [
+            "Telefoonka: This is Ahmed (sax)",
+            "Qof ahaan: I am Ahmed (sax)",
+            "Telefoonka: I am Ahmed (qariib)"
+          ]
         },
         {
-          "explanation": "Labada su'aalood waxay waydiinayaan inaad qof la hadli karto. 'Is [qofka] there?' ayaa xoogaa ka caadi ah. Labaduba waa edeb oo waa caadi."
+          "explanation": "Labada su'aalood waxay waydiinayaan inaad qof la hadli karto. 'Is [qofka] there?' ayaa xoogaa ka caadi ah. Labaduba waa edeb oo waa caadi.",
+          "examples": [
+            "Marcus ma joogaa? (weydiinaysa inuu guriga joogo ama uu heli karo)",
+            "Ma la hadli karaa Marcus? (weydiinaysa inaad la hadasho)"
+          ]
         },
         {
-          "explanation": "Kuwani dhammaantood waxay ka dhigan yihiin 'sug wakhti yar'. 'Hold on' iyo 'One moment' aad bay ugu badan yihiin telefoonka. Dhammaantood waa siyaabo edeb leh oo qofka looga codsado inuu sugo."
+          "explanation": "Kuwani dhammaantood waxay ka dhigan yihiin 'sug wakhti yar'. 'Hold on' iyo 'One moment' aad bay ugu badan yihiin telefoonka. Dhammaantood waa siyaabo edeb leh oo qofka looga codsado inuu sugo.",
+          "examples": [
+            "Sug, fadlan",
+            "Hal daqiiqad, fadlan",
+            "Daqiiqad kaliya",
+            "Fadlan sug"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'Can I take a message?' marka qofku uu maqan yahay, iyo 'Can you tell [name]...' si aad macluumaad uga tagto. Ku dhamee wicitaanka 'Goodbye' ama 'Talk to you later'.",
+          "examples": [
+            "Ma qaadan karaa farriin?",
+            "Ma u sheegi kartaa in Ahmed wacay?",
+            "Waxaan u sheegi doonaa in aad wacday.",
+            "Hadhow waan kula hadli doonaa. Nabadgelyo."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Haloo? / Haye, waxaan ahay [magac]",
+      "Ma la hadli karaa [magac]?",
+      "Ma joogaa [magac]?",
+      "Yaa wacaya? / Kuma tahay?",
+      "Sug, fadlan / Hal daqiiqad",
+      "Ma qaadan karaa farriin?",
+      "Ma dib u wici kartaa hadhow?"
+    ],
+    "dialogue": [
+      "Hello?",
+      "Hay. Waa Ahmed. Marcus ma joogaa?",
+      "Sug, fadlan. Waan soo yeedhayaa.",
+      "Waan ka xumahay, hadda ma joogo. Farriin ma qaadan karaa?",
+      "Haa, fadlan. Ma u sheegi kartaa in Ahmed soo wacay?",
+      "Haa, Ahmed. Ma haystaa nambarkaga?",
+      "Haa, wuu haystaa nambarkayga.",
+      "Hagaag. Waan u sheegi doonaa inaad soo wacday.",
+      "Mahadsanid!",
+      "Dhib ma leh. Nabadgelyo.",
+      "Nabadgelyo."
+    ],
+    "vocabulary": [
+      {
+        "definition": "qof aad la wadaagto guriga",
+        "example": "Haa? (Waxaa ka jawaabaya qofka kula nool)"
+      },
+      {
+        "definition": "fariin aad uga tagto qof aan joogin",
+        "example": "Ma qaadan karaa farriin?"
+      },
+      {
+        "definition": "ereyo macnahoodu yahay \"wait a moment\"",
+        "example": "Sug, fadlan. Waan keeni doonaa."
+      },
+      {
+        "definition": "in aad qof wacdo",
+        "example": "Ma u sheegi kartaa in Ahmed uu wacay?"
+      },
+      {
+        "definition": "nambarka telefoonka",
+        "example": "Ma haystaa lambarkaaga?"
+      },
+      {
+        "definition": "erey aad tidhaahdo markaad wada hadalka dhamayso ama aad tagto",
+        "example": "Waa hagaag. Nabadgelyo."
+      }
+    ]
+  },
+  "related_grammar": [
+    "to-be",
+    "modal"
+  ],
+  "vocabulary": [
+    {
+      "word": "roommate",
+      "definition": "a person you share a home with",
+      "example": "Hello? (Roommate answers the phone)"
+    },
+    {
+      "word": "message",
+      "definition": "information you leave for someone who isn't there",
+      "example": "Can I take a message?"
+    },
+    {
+      "word": "hold on",
+      "definition": "words that mean \"wait a moment\"",
+      "example": "Hold on, please. I'll get him."
+    },
+    {
+      "word": "call",
+      "definition": "to phone someone",
+      "example": "Can you tell him Ahmed called?"
+    },
+    {
+      "word": "number",
+      "definition": "a phone number",
+      "example": "Does he have your number?"
+    },
+    {
+      "word": "goodbye",
+      "definition": "a word you say when you finish a conversation or leave",
+      "example": "Okay. Goodbye."
     }
-  }
+  ]
 }

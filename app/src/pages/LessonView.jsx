@@ -81,6 +81,7 @@ export default function LessonView() {
   const allSections = [
     { id: 'objectives', label: 'Learning Objectives', icon: CheckCircle, key: 'objectives' },
     { id: 'target', label: 'Target Language', icon: BookOpen, key: 'target_language' },
+    { id: 'vocabulary', label: 'Key Words', icon: BookOpen, key: 'vocabulary' },
     { id: 'story', label: 'Situation', icon: BookOpen, key: 'story' },
     { id: 'reading', label: 'Reading Practice', icon: BookOpen, key: 'story' },
     { id: 'drills', label: 'Pattern Drills', icon: Volume2, key: 'drills' },
@@ -125,11 +126,11 @@ export default function LessonView() {
     <div className="max-w-7xl mx-auto p-4 md:p-8">
       {/* Header */}
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-6 mb-6">
-        <div className="flex items-center justify-between mb-2">
+        <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
           <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">
             Unit {lesson.unit_id} • Lesson {lesson.lesson_number}
           </span>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <button
               onClick={() => setShowFeedback(true)}
               className="flex items-center gap-2 px-4 py-2 border border-yellow-500 text-yellow-600 dark:text-yellow-400 rounded-lg hover:border-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-400/10 transition-colors text-sm font-medium"
@@ -326,7 +327,39 @@ export default function LessonView() {
                 ) : null}
 
                 <button
-                  onClick={() => { markSectionComplete('target'); setCurrentSection('story'); }}
+                  onClick={() => { markSectionComplete('target'); setCurrentSection(lesson.vocabulary ? 'vocabulary' : 'story'); }}
+                  className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                >
+                  {lesson.vocabulary ? 'Continue to Key Words' : 'Continue to Situation'}
+                </button>
+              </div>
+            )}
+
+            {currentSection === 'vocabulary' && lesson.vocabulary && (
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Key Words</h2>
+                <p className="text-gray-600 dark:text-gray-400 mb-6">New words you'll see in this lesson.</p>
+                <div className="space-y-3 mb-6">
+                  {lesson.vocabulary.map((v, idx) => (
+                    <div key={idx} className="bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                      <p className="font-bold text-gray-900 dark:text-white text-lg">{v.word}</p>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm mt-1">{v.definition}</p>
+                      {so?.vocabulary?.[idx]?.definition && (
+                        <p className="text-gray-500 dark:text-gray-400 text-sm italic mt-0.5">{so.vocabulary[idx].definition}</p>
+                      )}
+                      {v.example && (
+                        <div className="bg-white dark:bg-gray-900 rounded-lg p-3 mt-2">
+                          <p className="text-gray-800 dark:text-gray-200 text-sm italic">"{v.example}"</p>
+                          {so?.vocabulary?.[idx]?.example && (
+                            <p className="text-gray-500 dark:text-gray-400 text-xs italic mt-0.5">{so.vocabulary[idx].example}</p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+                <button
+                  onClick={() => { markSectionComplete('vocabulary'); setCurrentSection('story'); }}
                   className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   Continue to Situation
@@ -337,6 +370,7 @@ export default function LessonView() {
             {currentSection === 'story' && lesson.story && (
               <StorySection
                 story={lesson.story}
+                somali={so?.dialogue}
                 onComplete={() => { markSectionComplete('story'); setCurrentSection('reading'); }}
                 onRequestHelp={requestHelp}
               />
@@ -352,6 +386,9 @@ export default function LessonView() {
                       <div key={idx} className="mb-4">
                         <p className="font-semibold text-gray-900 dark:text-white">{line.speaker}:</p>
                         <p className="text-gray-800 dark:text-gray-200 ml-4">{line.text}</p>
+                        {so?.dialogue?.[idx] && (
+                          <p className="text-gray-500 dark:text-gray-400 text-sm italic ml-4 mt-0.5">{so.dialogue[idx]}</p>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -407,6 +444,7 @@ export default function LessonView() {
               <GrammarDiscovery
                 content={lesson.grammar_discovery}
                 somali={so?.grammar_discovery}
+                relatedGrammar={lesson.related_grammar}
                 unitId={lesson.unit_id}
                 onComplete={() => { markSectionComplete('grammar'); setCurrentSection('quiz'); }}
                 onRequestHelp={requestHelp}

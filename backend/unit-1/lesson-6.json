@@ -276,7 +276,27 @@
           "Can I have a burger? (polite)"
         ],
         "question": "Which sounds more polite in a restaurant?",
-        "explanation": "'I would like' is more polite than 'I want'. In restaurants and formal situations, we use 'I would like' or 'Can I have' to sound polite."
+        "explanation": "'I would like' is more polite than 'I want'. In restaurants and formal situations, we use 'I would like' or 'Can I have' to sound polite.",
+        "practice": [
+          {
+            "sentence": "I ___ like water, please.",
+            "blank": "would",
+            "options": [
+              "would",
+              "will",
+              "do"
+            ]
+          },
+          {
+            "sentence": "___ I have a hamburger?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Would",
+              "Do"
+            ]
+          }
+        ]
       },
       {
         "title": "For here vs To go",
@@ -285,7 +305,27 @@
           "To go, please (take the food with you)"
         ],
         "question": "What do these mean?",
-        "explanation": "'For here' means you will eat in the restaurant. 'To go' (or 'takeout') means you will take the food with you to eat somewhere else."
+        "explanation": "'For here' means you will eat in the restaurant. 'To go' (or 'takeout') means you will take the food with you to eat somewhere else.",
+        "practice": [
+          {
+            "sentence": "___ here or to go?",
+            "blank": "For",
+            "options": [
+              "For",
+              "To",
+              "At"
+            ]
+          },
+          {
+            "sentence": "For here, ___.",
+            "blank": "please",
+            "options": [
+              "please",
+              "thanks",
+              "welcome"
+            ]
+          }
+        ]
       },
       {
         "title": "That's all vs Anything else",
@@ -295,7 +335,58 @@
           "You: Yes, can I have water? (I want something more)"
         ],
         "question": "What does the waiter mean by 'Anything else?'",
-        "explanation": "'Anything else?' means 'Do you want anything more?' You can say 'No, that's all' if you're finished ordering, or tell them what else you want."
+        "explanation": "'Anything else?' means 'Do you want anything more?' You can say 'No, that's all' if you're finished ordering, or tell them what else you want.",
+        "practice": [
+          {
+            "sentence": "No, that's ___.",
+            "blank": "all",
+            "options": [
+              "all",
+              "else",
+              "more"
+            ]
+          },
+          {
+            "sentence": "___ else?",
+            "blank": "Anything",
+            "options": [
+              "Anything",
+              "Something",
+              "Nothing"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking About the Menu",
+        "examples": [
+          "What is the soup of the day?",
+          "What is in this dish?",
+          "Do you have chicken?",
+          "Do you have a vegetarian option?"
+        ],
+        "question": "How do we ask what something on the menu is?",
+        "explanation": "Use 'What is + [menu item]?' to ask what something is, and 'Do you have + [food]?' to ask if the restaurant serves it.",
+        "practice": [
+          {
+            "sentence": "___ is the soup of the day?",
+            "blank": "What",
+            "options": [
+              "What",
+              "How",
+              "Where"
+            ]
+          },
+          {
+            "sentence": "___ you have chicken?",
+            "blank": "Do",
+            "options": [
+              "Do",
+              "Does",
+              "Are"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -422,15 +513,123 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'I would like' ayaa ka edeb badan 'I want'. Makhaayadaha iyo xaaladaha rasmiga ah, waxaan isticmaalnaa 'I would like' ama 'Can I have' si aan edeb ugu muuqanno."
+          "explanation": "'I would like' ayaa ka edeb badan 'I want'. Makhaayadaha iyo xaaladaha rasmiga ah, waxaan isticmaalnaa 'I would like' ama 'Can I have' si aan edeb ugu muuqanno.",
+          "examples": [
+            "Waxaan jeclaan lahaa burger",
+            "Waxaan rabaa burger",
+            "Ma heli karaa burger?"
+          ]
         },
         {
-          "explanation": "'For here' waxay ka dhigan tahay inaad makhaayadda dhexdeeda wax ku cunayso. 'To go' (ama 'takeout') waxay ka dhigan tahay inaad cuntada qaadanayso oo meel kale ku cunayso."
+          "explanation": "'For here' waxay ka dhigan tahay inaad makhaayadda dhexdeeda wax ku cunayso. 'To go' (ama 'takeout') waxay ka dhigan tahay inaad cuntada qaadanayso oo meel kale ku cunayso.",
+          "examples": [
+            "Halkan, fadlan (ku cun makhaayadda)",
+            "La qaado, fadlan (qaado cuntada)"
+          ]
         },
         {
-          "explanation": "'Anything else?' waxay ka dhigan tahay 'Ma doonaysaa wax kale?' Waxaad odhan kartaa 'No, that's all' haddii aad dalabkaaga dhammaysay, ama u sheeg waxa kale ee aad rabto."
+          "explanation": "'Anything else?' waxay ka dhigan tahay 'Ma doonaysaa wax kale?' Waxaad odhan kartaa 'No, that's all' haddii aad dalabkaaga dhammaysay, ama u sheeg waxa kale ee aad rabto.",
+          "examples": [
+            "Shaqaale: Wax kale? (Ma rabtaa wax kale?)",
+            "Adiga: Maya, waa intaas oo dhan. (Ma doonayo wax dheeraad ah)",
+            "Adiga: Haa, biyo ma i siin kartaa? (Wax dheeraad ah ayaan rabaa)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'What is + [menu item]?' si aad u weydiiso waxa uu yahay, iyo 'Do you have + [food]?' si aad u weydiiso haddii makhaayaddu ay bixiso.",
+          "examples": [
+            "Waa maxay maraqa maanta?",
+            "Maxaa ku jira saxankan?",
+            "Ma haysaa digaag?",
+            "Ma haysaa cunto khudrad ah?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan jeclaan lahaa [food/drink]",
+      "Ma heli karaa [food/drink]?",
+      "Waa maxay [menu item]?",
+      "Ma haysaan [food]?",
+      "Ma heli karaa xisabka, fadlan?",
+      "Halkan ama la qaado?",
+      "Waa intaas"
+    ],
+    "dialogue": [
+      "Maalin wanaagsan! Soo dhawoow Joe's Diner. Ma diyaar tahay inaad dalbato?",
+      "Haa. Hamburger ma heli karaa, fadlan?",
+      "Haa! Halkan mise la qaado?",
+      "Halkan, fadlan.",
+      "Waa hagaag. Maxaad rabtaa inaad cabto?",
+      "Biyo baan rabaa, fadlan.",
+      "Wax kale ma rabtaa?",
+      "Maya, waa intaas. Mahadsanid.",
+      "Waa fiicnaa. Isla markiibaan kuu keeni doonaa.",
+      "Cafi. Biilka ma heli karaa, fadlan?",
+      "Dabcan. Waa halkan.",
+      "Mahadsanid!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "qof dalabkaaga qaada oo cuntada kuu keena maqaayadda",
+        "example": "Ma diyaar baa tahay inaad dalbato?"
+      },
+      {
+        "definition": "in aad dalbato cunto ama cabitaan maqaayadda",
+        "example": "Ma diyaar baa tahay inaad dalbato?"
+      },
+      {
+        "definition": "sandwiis hilib leh oo ah cunto degdeg ah oo caan ah",
+        "example": "Fadlan, hamburger ma heli karaa?"
+      },
+      {
+        "definition": "biilka aad u bixiso cuntada",
+        "example": "Fadlan, biilka ma heli karaa?"
+      },
+      {
+        "definition": "su'aal ku weydiineysa in aad rabto wax dheeri ah",
+        "example": "Wax kale?"
+      },
+      {
+        "definition": "aad u dhawaan",
+        "example": "Isla markiiba baan keeni doonaa."
+      }
+    ]
+  },
+  "related_grammar": [
+    "modal",
+    "question"
+  ],
+  "vocabulary": [
+    {
+      "word": "waiter",
+      "definition": "a person who takes your order and brings food at a restaurant",
+      "example": "Are you ready to order?"
+    },
+    {
+      "word": "order",
+      "definition": "to ask for food or drink at a restaurant",
+      "example": "Are you ready to order?"
+    },
+    {
+      "word": "hamburger",
+      "definition": "a type of sandwich with meat, common fast food",
+      "example": "Can I have a hamburger, please?"
+    },
+    {
+      "word": "check",
+      "definition": "the bill you pay for your food",
+      "example": "Can I have the check, please?"
+    },
+    {
+      "word": "anything else",
+      "definition": "a question asking if you want more",
+      "example": "Anything else?"
+    },
+    {
+      "word": "right out",
+      "definition": "very soon",
+      "example": "I'll bring that right out."
     }
-  }
+  ]
 }

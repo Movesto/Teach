@@ -10,7 +10,7 @@
     "Describe how you feel (I have a headache / My stomach hurts)",
     "Answer the doctor's questions about symptoms",
     "Understand basic medical instructions",
-    "Make and confirm a doctor's appointment"
+    "Know when to follow up if you don't feel better"
   ],
   "target_language": {
     "phrases": [
@@ -289,7 +289,27 @@
           "I have a cold."
         ],
         "question": "What pattern do you see for telling the doctor what is wrong?",
-        "explanation": "We use 'I have + a + symptom' to describe what is wrong. Common symptoms: a headache, a fever, a stomachache, a cold, a cough."
+        "explanation": "We use 'I have + a + symptom' to describe what is wrong. Common symptoms: a headache, a fever, a stomachache, a cold, a cough.",
+        "practice": [
+          {
+            "sentence": "I ___ a headache.",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "am"
+            ]
+          },
+          {
+            "sentence": "Do you ___ a fever?",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          }
+        ]
       },
       {
         "title": "Saying what hurts",
@@ -299,7 +319,27 @@
           "My back hurts."
         ],
         "question": "How do we say which body part has pain?",
-        "explanation": "We use 'My + [body part] + hurts' to say where the pain is. This is very useful at the doctor."
+        "explanation": "We use 'My + [body part] + hurts' to say where the pain is. This is very useful at the doctor.",
+        "practice": [
+          {
+            "sentence": "My head ___.",
+            "blank": "hurts",
+            "options": [
+              "hurts",
+              "hurt",
+              "hurting"
+            ]
+          },
+          {
+            "sentence": "My stomach ___.",
+            "blank": "hurts",
+            "options": [
+              "hurts",
+              "hurt",
+              "am hurt"
+            ]
+          }
+        ]
       },
       {
         "title": "Describing how you feel",
@@ -310,7 +350,58 @@
           "I feel better."
         ],
         "question": "How do we describe our general feeling?",
-        "explanation": "We use 'I feel + [adjective]' to describe our general condition. The doctor will often ask 'How do you feel?' or 'How are you feeling?'"
+        "explanation": "We use 'I feel + [adjective]' to describe our general condition. The doctor will often ask 'How do you feel?' or 'How are you feeling?'",
+        "practice": [
+          {
+            "sentence": "I ___ sick.",
+            "blank": "feel",
+            "options": [
+              "feel",
+              "feels",
+              "feeling"
+            ]
+          },
+          {
+            "sentence": "I ___ hot and dizzy.",
+            "blank": "feel",
+            "options": [
+              "feel",
+              "am feel",
+              "feels"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Understanding the Doctor's Instructions",
+        "examples": [
+          "Take one pill in the morning.",
+          "Rest and drink water.",
+          "Open your mouth, please.",
+          "Come back in one week."
+        ],
+        "question": "How does the doctor tell you what to do?",
+        "explanation": "Doctors often give instructions as commands, starting with the action verb: 'Take...', 'Rest...', 'Open...', 'Come back...'. No 'you' is needed at the start.",
+        "practice": [
+          {
+            "sentence": "___ one pill in the morning.",
+            "blank": "Take",
+            "options": [
+              "Take",
+              "Takes",
+              "Taking"
+            ]
+          },
+          {
+            "sentence": "___ and drink water.",
+            "blank": "Rest",
+            "options": [
+              "Rest",
+              "Rests",
+              "Resting"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -432,20 +523,132 @@
       "Sharax sida aad dareemayso (I have a headache / My stomach hurts)",
       "Ka jawaab su'aalaha dhakhtarka ee calaamadaha jirrada",
       "Faham tilmaamaha caafimaadka aasaasiga ah",
-      "Qabso oo xaqiiji ballan dhakhtar"
+      "Ogow goorta aad dib u tagto dhakhtarka haddii aadan ka fiicnayn"
     ],
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'I have + a + calaamad' waxaan u isticmaalnaa si aan u sheegno waxa khaldan. Calaamadaha caadiga ah: a headache (madax-xanuun), a fever (qandho), a stomachache (calool-xanuun), a cold (hargab), a cough (qufac)."
+          "explanation": "'I have + a + calaamad' waxaan u isticmaalnaa si aan u sheegno waxa khaldan. Calaamadaha caadiga ah: a headache (madax-xanuun), a fever (qandho), a stomachache (calool-xanuun), a cold (hargab), a cough (qufac).",
+          "examples": [
+            "Waxaan qabaa madax xanuun.",
+            "Waxaan qabaa qandho.",
+            "Waxaan qabaa hargab."
+          ]
         },
         {
-          "explanation": "'My + [xubin jidhka] + hurts' waxaan u isticmaalnaa si aan u sheegno meesha xanuunku yahay. Tani aad bay faa'iido ugu leedahay dhakhtarka."
+          "explanation": "'My + [xubin jidhka] + hurts' waxaan u isticmaalnaa si aan u sheegno meesha xanuunku yahay. Tani aad bay faa'iido ugu leedahay dhakhtarka.",
+          "examples": [
+            "Madaxa i xanuunaya.",
+            "Caloosha i xanuunaya.",
+            "Dhabarka i xanuunaya."
+          ]
         },
         {
-          "explanation": "'I feel + [tilmaame]' waxaan u isticmaalnaa si aan u sharaxno xaaladdeena guud. Dhakhtarku wuxuu inta badan waydiiyaa 'How do you feel?' ama 'How are you feeling?'"
+          "explanation": "'I feel + [tilmaame]' waxaan u isticmaalnaa si aan u sharaxno xaaladdeena guud. Dhakhtarku wuxuu inta badan waydiiyaa 'How do you feel?' ama 'How are you feeling?'",
+          "examples": [
+            "Waan xanuunsanahay.",
+            "Waan wareersanahay.",
+            "Waan daalanahay.",
+            "Waan ka fiicanahay."
+          ]
+        },
+        {
+          "explanation": "Dhakhaatiirtu waxay badanaa bixiyaan amarro, iyagoo ka bilaabaya fal-weedhaha: 'Take...', 'Rest...', 'Open...', 'Come back...'. Uma baahnid 'you' bilowga.",
+          "examples": [
+            "Qaado hal kiniin subaxdii.",
+            "Naso oo cab biyo.",
+            "Fur afkaaga, fadlan.",
+            "Soo noqo hal toddobaad."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan qabaa xanuun madaxeed / calool xanuun / qandho",
+      "Waxaa i xanuunaya [qaybta jidhka]",
+      "Waxaan dareemayaa xanuun / wareer / daal",
+      "Intee in le'eg ayay sidan kuu ahayd?",
+      "Qaado dawadan",
+      "Waxaad u baahan tahay inaad nasato",
+      "Soo noqo [muddo] ka dib"
+    ],
+    "dialogue": [
+      "Iska warran. Maanta sideed dareemaysaa?",
+      "Waan xanuunsanayaa. Madaxay i xanuunaysaa.",
+      "Haa, waan fahmay. Ma qandho baad qabtaa?",
+      "Haa. Waan kululaystay oo waan wareersanahay.",
+      "Intee in la eg ayaad sidan dareemaysaa?",
+      "Labo maalmood.",
+      "Haa. Aan eego. Afkaaga kala fur, fadlan.",
+      "Haa.",
+      "Waxaad qabtaa hargab. Waxaan ku siin doonaa dawo.",
+      "Mahadsanid. Sideen u qaataa?",
+      "Subaxdii hal kiniin qaado, habeenkiina hal. Waxaad u baahan tahay inaad nasato oo aad cabto biyo badan.",
+      "Haa. Mahadsanid, dhaqtarow.",
+      "Haddii aadan ka fiicnayn, hal usbuuc kadib soo noqo."
+    ],
+    "vocabulary": [
+      {
+        "definition": "marka jidhku uu ka kululaado caadiga ah sababtoo ah xanuun",
+        "example": "Ma qandho baa ku haysa?"
+      },
+      {
+        "definition": "dareenka ah in wax walba ay wareegayaan; aan degganayn",
+        "example": "Waxaan dareemayaa kulayl iyo wareer."
+      },
+      {
+        "definition": "xanuun caadi ah oo leh qandho, qufac, iyo xanuun jidh",
+        "example": "Waxaad qabtaa hargab."
+      },
+      {
+        "definition": "wax aad qaadato markaad xanuunsan tahay si aad u fiicnaato",
+        "example": "Waxaan ku siin doonaa dawo."
+      },
+      {
+        "definition": "kiniin yar oo wareegsan oo aad liqto",
+        "example": "Subaxda qaado hal kiniin."
+      },
+      {
+        "definition": "inaad nasato oo seexato si jidhku uu u fiicnaado",
+        "example": "Waxaad u baahan tahay inaad nasato."
+      }
+    ]
+  },
+  "related_grammar": [
+    "present-simple",
+    "adjective",
+    "imperative"
+  ],
+  "vocabulary": [
+    {
+      "word": "fever",
+      "definition": "when your body is hotter than normal because you are sick",
+      "example": "Do you have a fever?"
+    },
+    {
+      "word": "dizzy",
+      "definition": "feeling like everything is spinning; unsteady",
+      "example": "I feel hot and dizzy."
+    },
+    {
+      "word": "flu",
+      "definition": "a common sickness with fever, cough, and body aches",
+      "example": "You have the flu."
+    },
+    {
+      "word": "medicine",
+      "definition": "something you take to help you feel better when sick",
+      "example": "I will give you medicine."
+    },
+    {
+      "word": "pill",
+      "definition": "a small, round piece of medicine you swallow",
+      "example": "Take one pill in the morning."
+    },
+    {
+      "word": "rest",
+      "definition": "to relax and sleep so your body can get better",
+      "example": "You need to rest."
     }
-  }
+  ]
 }

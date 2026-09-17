@@ -286,7 +286,27 @@
           "Can you wait?"
         ],
         "question": "What pattern do you see for making polite requests?",
-        "explanation": "We use 'Can you + verb?' to ask someone to do something politely. This is very common and polite."
+        "explanation": "We use 'Can you + verb?' to ask someone to do something politely. This is very common and polite.",
+        "practice": [
+          {
+            "sentence": "___ you help me?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Do",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "Can you ___ me the library?",
+            "blank": "show",
+            "options": [
+              "show",
+              "shows",
+              "showing"
+            ]
+          }
+        ]
       },
       {
         "title": "Asking about locations",
@@ -296,7 +316,27 @@
           "Where is Marcus?"
         ],
         "question": "How do we ask where something or someone is?",
-        "explanation": "We use 'Where is + [thing/person]?' to ask about location. This is one of the most useful questions."
+        "explanation": "We use 'Where is + [thing/person]?' to ask about location. This is one of the most useful questions.",
+        "practice": [
+          {
+            "sentence": "___ is the basement?",
+            "blank": "Where",
+            "options": [
+              "Where",
+              "What",
+              "Who"
+            ]
+          },
+          {
+            "sentence": "The laundry room ___ in the basement.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          }
+        ]
       },
       {
         "title": "Getting attention politely",
@@ -306,7 +346,58 @@
           "Excuse me, where is the bathroom?"
         ],
         "question": "What do we say before asking a question to a stranger?",
-        "explanation": "We say 'Excuse me' to get someone's attention politely before asking a question. This is very important for politeness."
+        "explanation": "We say 'Excuse me' to get someone's attention politely before asking a question. This is very important for politeness.",
+        "practice": [
+          {
+            "sentence": "___ me, can you help me?",
+            "blank": "Excuse",
+            "options": [
+              "Excuse",
+              "Sorry",
+              "Please"
+            ]
+          },
+          {
+            "sentence": "___! Can you help me?",
+            "blank": "Excuse me",
+            "options": [
+              "Excuse me",
+              "Thank you",
+              "Goodbye"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Saying What You Need",
+        "examples": [
+          "I need help.",
+          "I need a doctor.",
+          "I have a problem.",
+          "I have a question."
+        ],
+        "question": "How do we say we need something or have a problem?",
+        "explanation": "Use 'I need + [thing]' when you want something. Use 'I have a problem' or 'I have a question' to start explaining what's wrong, before asking for help.",
+        "practice": [
+          {
+            "sentence": "I ___ help.",
+            "blank": "need",
+            "options": [
+              "need",
+              "needs",
+              "needing"
+            ]
+          },
+          {
+            "sentence": "I ___ a problem.",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -433,15 +524,125 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'Can you + fal?' waxaan u isticmaalnaa si aan qof uga codsanno inuu wax sameeyo si edeb leh. Aad bay u caadi tahay, waana edeb."
+          "explanation": "'Can you + fal?' waxaan u isticmaalnaa si aan qof uga codsanno inuu wax sameeyo si edeb leh. Aad bay u caadi tahay, waana edeb.",
+          "examples": [
+            "Ma i caawin kartaa?",
+            "Ma i tusin kartaa?",
+            "Ma i sheegin kartaa?",
+            "Ma sugi kartaa?"
+          ]
         },
         {
-          "explanation": "'Where is + [shay/qof]?' waxaan u isticmaalnaa si aan meesha u waydiinno. Waa mid ka mid ah su'aalaha ugu faa'iidada badan."
+          "explanation": "'Where is + [shay/qof]?' waxaan u isticmaalnaa si aan meesha u waydiinno. Waa mid ka mid ah su'aalaha ugu faa'iidada badan.",
+          "examples": [
+            "Aaway musqusha?",
+            "Aaway dukaanka?",
+            "Aaway Marcus?"
+          ]
         },
         {
-          "explanation": "Waxaan nidhaahnaa 'Excuse me' si aan si edeb leh dareenka qofka u soo jiidanno ka hor inta aanan su'aal waydiin. Tani aad bay muhiim ugu tahay edebta."
+          "explanation": "Waxaan nidhaahnaa 'Excuse me' si aan si edeb leh dareenka qofka u soo jiidanno ka hor inta aanan su'aal waydiin. Tani aad bay muhiim ugu tahay edebta.",
+          "examples": [
+            "Cafis",
+            "Cafis, ma i caawin kartaa?",
+            "Cafis, musqusha xaggee bay tahay?"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'I need + [thing]' markaad rabto wax. Isticmaal 'I have a problem' ama 'I have a question' si aad u bilowdo inaad sharaxdo waxa khaldan, ka hor intaadan weydiisan caawimaad.",
+          "examples": [
+            "Waxaan u baahanahay caawimaad.",
+            "Waxaan u baahanahay dhakhtar.",
+            "Waxaan qabaa dhibaato.",
+            "Waxaan qabaa su'aal."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Ma i caawin kartaa?",
+      "Waxaan u baahanahay caawimo.",
+      "Dhibaato baan qabaa.",
+      "Xaggee ayay tahay [meel/ shay]?",
+      "Cafi.",
+      "Fadlan.",
+      "Ma fahmin."
+    ],
+    "dialogue": [
+      "Cafi, Marcus.",
+      "Haye! Sidee tahay?",
+      "Waan fiicanahay. Ma i caawin kartaa?",
+      "Dabcan! Maxaad u baahan tahay?",
+      "Waa xaggee qolka dharka lagu maydho?",
+      "Qolka dharka lagu maydho wuxuu ku yaallaa qolka hoose.",
+      "Waa xaggee qolka hoose?",
+      "Waan ku tusi karaa. Ila soco.",
+      "Mahadsanid!",
+      "Adigaa mudan. Waa kan. Kani waa qolka dharka lagu maydho.",
+      "Aad baad u mahadsan tahay!",
+      "Dhib ma leh. Haddii aad caawimaad u baahan tahay, i weydii."
+    ],
+    "vocabulary": [
+      {
+        "definition": "erayo edeb ah oo aad ku yeerto qof",
+        "example": "Cafi, Marcus."
+      },
+      {
+        "definition": "qol aad dhar ku dhaqdo",
+        "example": "Qolka dharka lagu maydho waa xaggee?"
+      },
+      {
+        "definition": "dabaqa dhismaha ee ka hooseeya dhulka",
+        "example": "Qolka dharka lagu maydho wuxuu ku yaal hooska."
+      },
+      {
+        "definition": "in aad qof ka caawiso inuu arko ama helo wax",
+        "example": "Waan ku tusi karaa."
+      },
+      {
+        "definition": "erayo aad ku casuumo qof inuu kula socdo",
+        "example": "Ila soo raac."
+      },
+      {
+        "definition": "si saaxiibtinimo leh oo lagu dhaho \"you're welcome\"",
+        "example": "Dhib malahan. Haddii aad caawimaad u baahatid, i weydii."
+      }
+    ]
+  },
+  "related_grammar": [
+    "modal",
+    "question"
+  ],
+  "vocabulary": [
+    {
+      "word": "excuse me",
+      "definition": "polite words to get someone's attention",
+      "example": "Excuse me, Marcus."
+    },
+    {
+      "word": "laundry room",
+      "definition": "a room where you wash clothes",
+      "example": "Where is the laundry room?"
+    },
+    {
+      "word": "basement",
+      "definition": "a floor of a building that is below ground level",
+      "example": "The laundry room is in the basement."
+    },
+    {
+      "word": "show",
+      "definition": "to help someone see or find something",
+      "example": "I can show you."
+    },
+    {
+      "word": "come with me",
+      "definition": "words that invite someone to go with you",
+      "example": "Come with me."
+    },
+    {
+      "word": "no problem",
+      "definition": "a friendly way to say \"you're welcome\"",
+      "example": "No problem. If you need help, just ask me."
     }
-  }
+  ]
 }
