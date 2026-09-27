@@ -352,6 +352,37 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Talking About Daily Activities",
+        "examples": [
+          "I work every day.",
+          "I study English at night.",
+          "She works from 9 to 5.",
+          "He studies at the community college."
+        ],
+        "question": "How do we talk about what we do regularly for work or school?",
+        "explanation": "Use 'I work' or 'I study' to talk about your daily routine, just like 'I am a driver' tells your job. Add 'at/in + [place]' to say where.",
+        "practice": [
+          {
+            "sentence": "I ___ every day.",
+            "blank": "work",
+            "options": [
+              "work",
+              "works",
+              "working"
+            ]
+          },
+          {
+            "sentence": "She ___ English at night.",
+            "blank": "studies",
+            "options": [
+              "studies",
+              "study",
+              "studying"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -502,6 +533,15 @@
             "Waxaan ka shaqeeyaa daryeelka caafimaadka (heer guud).",
             "Waxaan ka shaqeeyaa Nike (shirkad gaar ah).",
             "Waxaan ka shaqeeyaa iibka (qayb guud)."
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'I work' ama 'I study' si aad uga hadasho waxyaabaha aad maalin kasta sameyso, sida 'I am a driver' oo sheegta shaqadaada. Ku dar 'at/in + [place]' si aad u sheegto meesha.",
+          "examples": [
+            "Waxaan shaqeeyaa maalin kasta.",
+            "Waxaan bartaa Ingiriisiga habeenkii.",
+            "Waxay ka shaqeysaa 9 ilaa 5.",
+            "Wuxuu ku barta kulliyadda bulshada."
           ]
         }
       ]

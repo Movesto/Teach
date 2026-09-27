@@ -357,6 +357,37 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Describing the Weather",
+        "examples": [
+          "It is hot today.",
+          "It is cold and rainy.",
+          "It's a nice day, isn't it?",
+          "It is very windy."
+        ],
+        "question": "How do we describe the weather in English?",
+        "explanation": "Use 'It is + [weather word]' to describe the weather — 'it' doesn't refer to anything specific, it's just how English talks about weather. Add 'today' or ask 'isn't it?' to invite a reply.",
+        "practice": [
+          {
+            "sentence": "It ___ hot today.",
+            "blank": "is",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ]
+          },
+          {
+            "sentence": "It's a nice day, ___ it?",
+            "blank": "isn't",
+            "options": [
+              "isn't",
+              "doesn't",
+              "wasn't"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -507,6 +538,15 @@
             "What did you watch? (su'aal daba socota)",
             "Cool! Tell me more. (dhiirigelin)"
           ]
+        },
+        {
+          "explanation": "Isticmaal 'It is + [weather word]' si aad u qeexdo cimilada — 'it' kuma jeedo wax gaar ah, waa sida Ingiriisigu uga hadlo cimilada. Ku dar 'today' ama weydii 'isn't it?' si aad u martiqaad jawaab.",
+          "examples": [
+            "Maanta waa kulul.",
+            "Waa qabow oo roobab.",
+            "Waa maalin fiican, ma aha?",
+            "Waa dabayl aad u badan."
+          ]
         }
       ]
     },
@@ -644,6 +684,7 @@
   "related_grammar": [
     "past-simple",
     "question",
-    "adjective"
+    "adjective",
+    "to-be"
   ]
 }

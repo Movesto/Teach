@@ -356,6 +356,37 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Saying What You Don't Like",
+        "examples": [
+          "I don't like basketball.",
+          "She doesn't like spicy food.",
+          "I don't like waking up early.",
+          "We don't like loud music."
+        ],
+        "question": "How do we say we don't like something?",
+        "explanation": "Use 'don't like' (I/you/we/they) or 'doesn't like' (he/she/it) + [thing]. This is the negative form of 'like'.",
+        "practice": [
+          {
+            "sentence": "I ___ like basketball.",
+            "blank": "don't",
+            "options": [
+              "don't",
+              "doesn't",
+              "not"
+            ]
+          },
+          {
+            "sentence": "She ___ like spicy food.",
+            "blank": "doesn't",
+            "options": [
+              "doesn't",
+              "don't",
+              "not"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -506,6 +537,15 @@
             "Waa inaan mar uun qaxwa cabno",
             "Waa inaan daawanno filim",
             "Waa inaad timaado beerta"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'don't like' (aniga/adiga/annaga/iyaga) ama 'doesn't like' (isaga/iyada) + [wax]. Kani waa qaabka diidmada ee 'like'.",
+          "examples": [
+            "Ma jecli basketball.",
+            "Iyadu ma jecla cunto basbaas leh.",
+            "Ma jecli in aan goor hore tooso.",
+            "Innagu ma jeclayn muusig qaylo badan."
           ]
         }
       ]

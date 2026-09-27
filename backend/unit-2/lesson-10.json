@@ -331,6 +331,68 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Asking About Work Hours",
+        "examples": [
+          "What are the hours for this job?",
+          "What time do I start?",
+          "What time does the shift end?",
+          "What days do I work?"
+        ],
+        "question": "How do we ask an employer about work hours?",
+        "explanation": "Use 'What + [question word] + ...?' to ask about a schedule: 'What are the hours?', 'What time do I start?', 'What days do I work?'",
+        "practice": [
+          {
+            "sentence": "___ are the hours for this job?",
+            "blank": "What",
+            "options": [
+              "What",
+              "How",
+              "When"
+            ]
+          },
+          {
+            "sentence": "What time ___ the shift end?",
+            "blank": "does",
+            "options": [
+              "does",
+              "do",
+              "is"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Saying When You're Available",
+        "examples": [
+          "I'm available on Mondays.",
+          "I'm not available on Sundays.",
+          "I can work weekends.",
+          "I can't work late nights."
+        ],
+        "question": "How do we say when we can and cannot work?",
+        "explanation": "Use 'I'm available on + [day]' to say when you CAN work, and 'I'm not available on + [day]' or 'I can't work + [time]' to say when you CANNOT.",
+        "practice": [
+          {
+            "sentence": "I'm ___ on Mondays.",
+            "blank": "available",
+            "options": [
+              "available",
+              "availability",
+              "avail"
+            ]
+          },
+          {
+            "sentence": "I ___ work on Sundays.",
+            "blank": "can't",
+            "options": [
+              "can't",
+              "don't",
+              "not"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -477,6 +539,24 @@
             "Overtime = saacadaha lagu shaqeeyo oo ka badan jadwalkaaga caadiga ah (intoo badan waxaa lagu siiyaa mushahar dheeri ah)",
             "Off = aan shaqeeyn (I'm off on Sundays. Today is my day off.)"
           ]
+        },
+        {
+          "explanation": "Si aad wax uga weydiiso jadwalka, isticmaal 'What + [question word] + ...?' sida: 'What are the hours?', 'What time do I start?', 'What days do I work?'",
+          "examples": [
+            "Waa maxay saacadaha shaqadan?",
+            "Waa imisa saacad aan bilaabo?",
+            "Waa imisa saacad ay shifku dhamaato?",
+            "Maalmaha intee ayaan shaqeeyaa?"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'I'm available on + [day]' si aad u sheegto marka aad shaqeyn karto, iyo 'I'm not available on + [day]' ama 'I can't work + [time]' si aad u sheegto marka aadan shaqeyn karin.",
+          "examples": [
+            "Isniinta waan diyaar ahay.",
+            "Axadda ma diyaar ihi.",
+            "Waan shaqayn karaa dhammaadka usbuuca.",
+            "Ma shaqayn karo habeennada dambe."
+          ]
         }
       ]
     },
@@ -611,6 +691,7 @@
     }
   ],
   "related_grammar": [
-    "preposition"
+    "preposition",
+    "question"
   ]
 }

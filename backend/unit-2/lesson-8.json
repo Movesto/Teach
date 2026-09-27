@@ -365,6 +365,37 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Asking About a Confusing Requirement",
+        "examples": [
+          "What does 'background check' mean?",
+          "Is a diploma required?",
+          "Do I have to have experience?",
+          "What does 'preferred' mean?"
+        ],
+        "question": "How do we ask about a job requirement we don't understand?",
+        "explanation": "Use 'What does [word] mean?' to ask about a confusing word, or 'Is [thing] required?' / 'Do I have to [thing]?' to check if something is necessary.",
+        "practice": [
+          {
+            "sentence": "What does 'background check' ___?",
+            "blank": "mean",
+            "options": [
+              "mean",
+              "means",
+              "meaning"
+            ]
+          },
+          {
+            "sentence": "___ a diploma required?",
+            "blank": "Is",
+            "options": [
+              "Is",
+              "Do",
+              "Are"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -519,6 +550,15 @@
             "Weli ma haysto, laakiin waan ka shaqaynayaa.",
             "Taas waan samayn karaa."
           ]
+        },
+        {
+          "explanation": "Isticmaal 'What does [word] mean?' si aad u weydiiso eray aadan fahmin, ama 'Is [thing] required?' / 'Do I have to [thing]?' si aad u hubiso in wax loo baahan yahay.",
+          "examples": [
+            "Waa maxay 'background check'?",
+            "Shahaado ma loo baahan yahay?",
+            "Ma inaan lahaa khibrad?",
+            "Waa maxay 'preferred'?"
+          ]
         }
       ]
     },
@@ -654,6 +694,7 @@
     }
   ],
   "related_grammar": [
-    "modal"
+    "modal",
+    "question"
   ]
 }
