@@ -276,7 +276,27 @@
           "Her name (a woman's name)"
         ],
         "question": "How do we show that something belongs to someone?",
-        "explanation": "We use 'my' for ourselves, 'his' for males, and 'her' for females. These show possession or relationship."
+        "explanation": "We use 'my' for ourselves, 'his' for males, and 'her' for females. These show possession or relationship.",
+        "practice": [
+          {
+            "sentence": "This is ___ mother.",
+            "blank": "my",
+            "options": [
+              "my",
+              "his",
+              "her"
+            ]
+          },
+          {
+            "sentence": "___ name is Mohamed.",
+            "blank": "His",
+            "options": [
+              "His",
+              "Her",
+              "My"
+            ]
+          }
+        ]
       },
       {
         "title": "Have vs Has",
@@ -287,7 +307,27 @@
           "She has two brothers"
         ],
         "question": "When do we use 'have' and when do we use 'has'?",
-        "explanation": "We use 'have' with I, you, we, they. We use 'has' with he, she, it. This is an important pattern."
+        "explanation": "We use 'have' with I, you, we, they. We use 'has' with he, she, it. This is an important pattern.",
+        "practice": [
+          {
+            "sentence": "I ___ two brothers.",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "having"
+            ]
+          },
+          {
+            "sentence": "She ___ one sister.",
+            "blank": "has",
+            "options": [
+              "has",
+              "have",
+              "having"
+            ]
+          }
+        ]
       },
       {
         "title": "Questions with 'Do you have'",
@@ -297,7 +337,27 @@
           "Does he have sisters?"
         ],
         "question": "How do we ask if someone has something?",
-        "explanation": "We use 'Do you have...?' for you, and 'Does he/she have...?' for other people."
+        "explanation": "We use 'Do you have...?' for you, and 'Does he/she have...?' for other people.",
+        "practice": [
+          {
+            "sentence": "___ you have brothers or sisters?",
+            "blank": "Do",
+            "options": [
+              "Do",
+              "Does",
+              "Is"
+            ]
+          },
+          {
+            "sentence": "___ he have children?",
+            "blank": "Does",
+            "options": [
+              "Does",
+              "Do",
+              "Is"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -424,15 +484,117 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'my' waxaan u isticmaalnaa nafteena, 'his' ragga, 'her'-na dumarka. Kuwani waxay muujiyaan lahaansho ama xidhiidh."
+          "explanation": "'my' waxaan u isticmaalnaa nafteena, 'his' ragga, 'her'-na dumarka. Kuwani waxay muujiyaan lahaansho ama xidhiidh.",
+          "examples": [
+            "Hooyaday (waxaan ka hadlayaa hooyaday)",
+            "Magaciisa (magac nin)",
+            "Magaceeda (magac naag)"
+          ]
         },
         {
-          "explanation": "'have' waxaan la isticmaalnaa I, you, we, they. 'has' waxaan la isticmaalnaa he, she, it. Kani waa qaab muhiim ah."
+          "explanation": "'have' waxaan la isticmaalnaa I, you, we, they. 'has' waxaan la isticmaalnaa he, she, it. Kani waa qaab muhiim ah.",
+          "examples": [
+            "Waxaan leeyahay laba walaalo",
+            "Waxaad leedahay hal walaal",
+            "Wuxuu leeyahay saddex carruur",
+            "Waxay leedahay laba walaalo"
+          ]
         },
         {
-          "explanation": "'Do you have...?' waxaan u isticmaalnaa adiga, 'Does he/she have...?'-na dadka kale."
+          "explanation": "'Do you have...?' waxaan u isticmaalnaa adiga, 'Does he/she have...?'-na dadka kale.",
+          "examples": [
+            "Walaalo ma haysataa?",
+            "Carruur ma haysataa?",
+            "Habro ma haystaa?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Kani waa [xubinta qoyska]",
+      "Waxaan haystaa [walaal/wiil]",
+      "Magaciisa/magaceeda waa ...",
+      "Isagu/iyadu waa [da'da] sano jir.",
+      "Ma walaalo baad leedahay?",
+      "Immisa [carruur/walaalo] baad leedahay?",
+      "Walaalo ma haysto."
+    ],
+    "dialogue": [
+      "Kan ma qoyskaagaa?",
+      "Haa! Tani waa sawirka qoyskayga.",
+      "Waa kuma kani?",
+      "Tani waa hooyaday. Magaceedu waa Halima.",
+      "Oo kan waa aabahaa?",
+      "Haa. Magaciisu waa Maxamed.",
+      "Ma leedahay walaalo?",
+      "Haa. Waxaan leeyahay laba walaal oo lab ah iyo hal walaal dhedig ah.",
+      "Wow! Qoys weyn! Magacyadoodu waa maxay?",
+      "Walaalahay lab waa Cali iyo Cumar. Walaashay waa Amina. Iyada ayaa ugu yar.",
+      "Waa fiican! Ma leedahay carruur?",
+      "Maya, weli ma haysto carruur."
+    ],
+    "vocabulary": [
+      {
+        "definition": "waalid haweenay ah",
+        "example": "Tani waa hooyaday."
+      },
+      {
+        "definition": "waalid nin ah",
+        "example": "Oo kani waa aabahaa?"
+      },
+      {
+        "definition": "walaal lab ah",
+        "example": "Waxaan leeyahay laba walaal oo lab ah."
+      },
+      {
+        "definition": "walaal dhedig ah",
+        "example": "Walaashay waa Amina."
+      },
+      {
+        "definition": "dadka kuu qaraabo, sida waalidka iyo walaalaha",
+        "example": "Kani waa sawirka qoyskayga."
+      },
+      {
+        "definition": "qofka ugu dambeeya ee dhasha, da'da ugu yar ee walaalaha",
+        "example": "Iyada ayaa ugu yar."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "mother",
+      "definition": "a female parent",
+      "example": "This is my mother."
+    },
+    {
+      "word": "father",
+      "definition": "a male parent",
+      "example": "And this is your father?"
+    },
+    {
+      "word": "brother",
+      "definition": "a male sibling",
+      "example": "I have two brothers."
+    },
+    {
+      "word": "sister",
+      "definition": "a female sibling",
+      "example": "My sister is Amina."
+    },
+    {
+      "word": "family",
+      "definition": "the people related to you, like parents and siblings",
+      "example": "This is my family photo."
+    },
+    {
+      "word": "youngest",
+      "definition": "the person born last, the smallest in age among siblings",
+      "example": "She is the youngest."
     }
-  }
+  ],
+  "related_grammar": [
+    "pronoun",
+    "present-simple",
+    "question"
+  ]
 }

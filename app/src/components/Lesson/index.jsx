@@ -306,7 +306,6 @@ export function SpeakingRecorder({ tasks, onComplete }) {
   const [isAssessing, setIsAssessing] = useState(false);
   const [micError, setMicError] = useState(null);
   const mediaRecorderRef = useRef(null);
-  const audioChunksRef = useRef([]);
   const playbackAudioRef = useRef(null);
   const recognitionRef = useRef(null);
   const transcriptRef = useRef('');
@@ -363,6 +362,7 @@ export function SpeakingRecorder({ tasks, onComplete }) {
   };
 
   const startRecording = async () => {
+    if (isRecording) return; // guard against a double-invocation race from rapid clicks
     if (isSpeakingDemo) {
       playbackAudioRef.current?.pause();
       playbackAudioRef.current = null;
@@ -375,9 +375,21 @@ export function SpeakingRecorder({ tasks, onComplete }) {
     const expectedText = task.example || task.instruction || '';
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mediaRecorder = new MediaRecorder(stream);
+      // Explicitly pick a supported mimeType rather than letting the browser default
+      // silently — and later build the Blob with whatever mediaRecorder.mimeType
+      // actually reports, so the Blob's declared type always matches what was really
+      // recorded. A mismatch here (e.g. hardcoding 'audio/webm' when the browser
+      // recorded something else) is a common cause of a recording that "works" but
+      // is silently unplayable.
+      const mimeCandidates = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg;codecs=opus'];
+      const mimeType = typeof MediaRecorder.isTypeSupported === 'function'
+        ? mimeCandidates.find(t => MediaRecorder.isTypeSupported(t))
+        : undefined;
+      const mediaRecorder = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
-      audioChunksRef.current = [];
+      // Local to this recording session (not a shared ref) so a fast re-record can
+      // never clobber a previous session's still-in-flight chunks/blob.
+      const audioChunks = [];
       transcriptRef.current = '';
       let assessed = false;
       const runAssess = () => {
@@ -397,29 +409,55 @@ export function SpeakingRecorder({ tasks, onComplete }) {
           .catch(() => setIsAssessing(false));
       };
 
-      // Start speech recognition alongside recording
+      // Start speech recognition alongside recording (best-effort only — must never
+      // block actual audio recording/playback if it fails for any reason: unsupported
+      // context, permissions policy, etc. Previously this was in the same try block as
+      // MediaRecorder, so a thrown error here skipped mediaRecorder.start() entirely
+      // and surfaced a misleading "microphone access denied" message).
       const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      let recognitionStarted = false;
       if (SR) {
-        const recognition = new SR();
-        recognition.lang = 'en-US';
-        recognition.continuous = true;
-        recognition.interimResults = false;
-        recognition.onresult = (e) => {
-          for (let i = e.resultIndex; i < e.results.length; i++) {
-            if (e.results[i].isFinal) transcriptRef.current += ' ' + e.results[i][0].transcript;
-          }
-        };
-        recognition.onerror = (e) => { if (e.error !== 'no-speech') setMicError('Speech recognition error: ' + e.error); };
-        // Assess only once recognition has delivered its FINAL transcript — reading
-        // it in mediaRecorder.onstop raced ahead of the result and scored 0/100.
-        recognition.onend = runAssess;
-        recognitionRef.current = recognition;
-        recognition.start();
+        try {
+          const recognition = new SR();
+          recognition.lang = 'en-US';
+          recognition.continuous = true;
+          recognition.interimResults = false;
+          recognition.onresult = (e) => {
+            for (let i = e.resultIndex; i < e.results.length; i++) {
+              if (e.results[i].isFinal) transcriptRef.current += ' ' + e.results[i][0].transcript;
+            }
+          };
+          recognition.onerror = (e) => {
+            // 'no-speech' and 'aborted' are benign/expected (aborted fires when a
+            // fast re-record stops this instance to start a new one, or when we
+            // restart after the browser's own silence timeout) — not real errors.
+            if (e.error !== 'no-speech' && e.error !== 'aborted') setMicError('Speech recognition error: ' + e.error);
+          };
+          // Even with continuous=true, Chrome's recognizer still auto-stops itself
+          // after a few seconds of silence — which happens naturally mid-recording
+          // when reading a longer, multi-turn scripted dialogue (a pause between
+          // "characters"). If the mic is still actively recording when onend fires,
+          // this was that early auto-stop, not the user finishing — restart
+          // recognition seamlessly so the rest of the recording still gets
+          // transcribed, instead of treating a mid-recording pause as "done".
+          recognition.onend = () => {
+            if (mediaRecorderRef.current?.state === 'recording') {
+              try { recognition.start(); } catch { /* transient start/stop race — ignore */ }
+            } else {
+              runAssess();
+            }
+          };
+          recognitionRef.current = recognition;
+          recognition.start();
+          recognitionStarted = true;
+        } catch (err) {
+          recognitionRef.current = null;
+        }
       }
 
-      mediaRecorder.ondataavailable = (e) => audioChunksRef.current.push(e.data);
+      mediaRecorder.ondataavailable = (e) => audioChunks.push(e.data);
       mediaRecorder.onstop = () => {
-        const blob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        const blob = new Blob(audioChunks, { type: mediaRecorder.mimeType || 'audio/webm' });
         const url = URL.createObjectURL(blob);
         setRecordings(prev => {
           if (prev[taskIndex]) URL.revokeObjectURL(prev[taskIndex]);
@@ -428,8 +466,8 @@ export function SpeakingRecorder({ tasks, onComplete }) {
         stream.getTracks().forEach(t => t.stop());
         releaseAudioSession();
 
-        if (!SR) {
-          // No Web Speech API (Firefox/Safari): can't transcribe to score. Don't
+        if (!recognitionStarted) {
+          // No Web Speech API, or it failed to start: can't transcribe to score. Don't
           // post an empty transcript (that showed a misleading 0/100).
           if (expectedText) setMicError('Speech scoring needs Chrome or Edge. Your recording was saved — you can play it back.');
         } else {
@@ -460,11 +498,21 @@ export function SpeakingRecorder({ tasks, onComplete }) {
       return;
     }
     if (!recordings[current]) return;
+    setMicError(null);
     const audio = new Audio(recordings[current]);
     playbackAudioRef.current = audio;
     audio.onended = () => { setIsPlayingBack(false); playbackAudioRef.current = null; };
-    audio.play();
-    setIsPlayingBack(true);
+    audio.onerror = () => {
+      setIsPlayingBack(false);
+      playbackAudioRef.current = null;
+      setMicError('Could not play back the recording — please try recording again.');
+    };
+    audio.play()
+      .then(() => setIsPlayingBack(true))
+      .catch(() => {
+        playbackAudioRef.current = null;
+        setMicError('Could not play back the recording — please try recording again.');
+      });
   };
 
   const next = () => {

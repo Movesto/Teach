@@ -271,7 +271,27 @@
           "Would you like to have dinner? (more polite, formal)"
         ],
         "question": "What's the difference?",
-        "explanation": "'Do you want to' is casual and common with friends. 'Would you like to' is more polite and formal, good for new acquaintances or professional situations."
+        "explanation": "'Do you want to' is casual and common with friends. 'Would you like to' is more polite and formal, good for new acquaintances or professional situations.",
+        "practice": [
+          {
+            "sentence": "___ you want to get coffee?",
+            "blank": "Do",
+            "options": [
+              "Do",
+              "Would",
+              "Are"
+            ]
+          },
+          {
+            "sentence": "___ you like to come?",
+            "blank": "Would",
+            "options": [
+              "Would",
+              "Do",
+              "Are"
+            ]
+          }
+        ]
       },
       {
         "title": "Declining politely",
@@ -282,7 +302,27 @@
           "I'd love to, but I can't (shows interest)"
         ],
         "question": "How do we say no politely?",
-        "explanation": "In English, we soften rejection by: apologizing ('sorry'), giving a reason ('I'm busy'), or suggesting alternatives ('maybe next time'). This is more polite than just 'no'."
+        "explanation": "In English, we soften rejection by: apologizing ('sorry'), giving a reason ('I'm busy'), or suggesting alternatives ('maybe next time'). This is more polite than just 'no'.",
+        "practice": [
+          {
+            "sentence": "I ___, sorry. I'm busy.",
+            "blank": "can't",
+            "options": [
+              "can't",
+              "don't",
+              "won't"
+            ]
+          },
+          {
+            "sentence": "___ next time.",
+            "blank": "Maybe",
+            "options": [
+              "Maybe",
+              "Never",
+              "Always"
+            ]
+          }
+        ]
       },
       {
         "title": "Future plans: I'm going to vs I'm -ing",
@@ -292,7 +332,58 @@
           "What are you doing Saturday? (asking about plans)"
         ],
         "question": "How do we talk about future plans?",
-        "explanation": "Both work! 'I'm going to' expresses intention. 'I'm -ing' (present continuous) is used for definite plans/arrangements."
+        "explanation": "Both work! 'I'm going to' expresses intention. 'I'm -ing' (present continuous) is used for definite plans/arrangements.",
+        "practice": [
+          {
+            "sentence": "I'm ___ to meet Lisa on Sunday.",
+            "blank": "going",
+            "options": [
+              "going",
+              "go",
+              "goes"
+            ]
+          },
+          {
+            "sentence": "I'm ___ Lisa on Sunday.",
+            "blank": "meeting",
+            "options": [
+              "meeting",
+              "meet",
+              "meets"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Accepting an Invitation",
+        "examples": [
+          "That sounds great!",
+          "Sure!",
+          "Sunday works!",
+          "Perfect!"
+        ],
+        "question": "What do we say when we want to say yes to a plan?",
+        "explanation": "To accept an invitation, use short, enthusiastic phrases like 'That sounds great!', 'Sure!', or repeat the day/time with 'works': 'Sunday works!' These show you're happy to say yes.",
+        "practice": [
+          {
+            "sentence": "Do you want to get coffee? — ___!",
+            "blank": "Sure",
+            "options": [
+              "Sure",
+              "Sorry",
+              "Maybe"
+            ]
+          },
+          {
+            "sentence": "That ___ great!",
+            "blank": "sounds",
+            "options": [
+              "sounds",
+              "sound",
+              "sounding"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -419,15 +510,124 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'Do you want to' waa caadi, saaxiibbadana waa lagu isticmaalaa. 'Would you like to' waa ka edeb iyo rasmi badan, waxayna ku fiican tahay dadka aad cusub isbarateen ama xaaladaha shaqada."
+          "explanation": "'Do you want to' waa caadi, saaxiibbadana waa lagu isticmaalaa. 'Would you like to' waa ka edeb iyo rasmi badan, waxayna ku fiican tahay dadka aad cusub isbarateen ama xaaladaha shaqada.",
+          "examples": [
+            "Ma rabtaa inaad qaxwo cabto? (aan rasmi ahayn, saaxiibbo)",
+            "Ma jeclaan lahayd inaad casho cunto? (si ixtiraam leh, rasmi ah)"
+          ]
         },
         {
-          "explanation": "Ingiriisiga, diidmada waxaan ku jilcinnaa: raalligelin ('sorry'), sabab bixin ('I'm busy'), ama soo jeedin kale ('maybe next time'). Tani waa ka edeb badan 'no' keliya."
+          "explanation": "Ingiriisiga, diidmada waxaan ku jilcinnaa: raalligelin ('sorry'), sabab bixin ('I'm busy'), ama soo jeedin kale ('maybe next time'). Tani waa ka edeb badan 'no' keliya.",
+          "examples": [
+            "Ma karo, waan ka xumahay",
+            "Maalintaas waan mashquulsanahay",
+            "Laga yaabaa mar kale?",
+            "Waan jeclaan lahaa, laakiin ma karo"
+          ]
         },
         {
-          "explanation": "Labaduba waa shaqeeyaan! 'I'm going to' waxay muujinaysaa niyad. 'I'm -ing' (present continuous) waxaa loo isticmaalaa qorshayaal go'an."
+          "explanation": "Labaduba waa shaqeeyaan! 'I'm going to' waxay muujinaysaa niyad. 'I'm -ing' (present continuous) waxaa loo isticmaalaa qorshayaal go'an.",
+          "examples": [
+            "Waxaan daawan doonaa filim (ujeedo, qorshe)",
+            "Waxaan daawanayaa filim Sabti (qorshe go'an)",
+            "Maxaad sameynaysaa Sabti? (wax weydiinaysa qorshaha)"
+          ]
+        },
+        {
+          "explanation": "Si aad u aqbasho casuumaad, isticmaal jumlado gaagaaban oo farxad leh sida 'That sounds great!', 'Sure!', ama ku celi maalinta/wakhtiga adigoo isticmaalaya 'works': 'Sunday works!' Kuwani waxay muujinayaan inaad ku faraxsan tahay inaad yiraahdo haa.",
+          "examples": [
+            "Taasi way fiicantahay!",
+            "Hubaal!",
+            "Axad waa fiican yahay!",
+            "Kaamil!"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Ma rabtaa inaad [activity]?",
+      "Ma jeclaan lahayd inaad [activity]?",
+      "Ma firax baad tahay [day]?",
+      "Haa! / Taasi waa fiican!",
+      "Ma karro, waan ka xumahay. / Waan mashquul ahay.",
+      "Malaha marka xigta.",
+      "Maxa samaynaysaa [day]?"
+    ],
+    "dialogue": [
+      "Hi Lisa! Ma rabtaa inaad koofe qaadato usbuuca dhammaadka?",
+      "Waa fiican! Goorma?",
+      "Sabti galab ma firaaqo baa tahay?",
+      "Sabti? Aan eego... Waan ka xumahay, ma awoodi karo. Sabti waan mashquulsanahay.",
+      "Oh, waayahay. Axad ka warran?",
+      "Axad waa hagaag! Saacad goorma?",
+      "Ka warran 2 galabnimo?",
+      "Waa fiican! Xagee rabtaa inaad ku kulanto?",
+      "Kafe ku yaal Main Street?",
+      "Waa hagaag! Axad 2 ayaan ku arki.",
+      "Waa fiican! Markaas ayaan ku arki."
+    ],
+    "vocabulary": [
+      {
+        "definition": "Sabti iyo Axad",
+        "example": "Ma rabtaa inaad qahwo cabto usbuuca dhammaadka?"
+      },
+      {
+        "definition": "aan mashquul ahayn; diyaar",
+        "example": "Ma bannaan tahay sabti galab?"
+      },
+      {
+        "definition": "shaqo badan; aan firaaqo lahayn",
+        "example": "Sabti waan mashquul ahay."
+      },
+      {
+        "definition": "in la isugu yimaado qof meel",
+        "example": "Halkee rabtaa inaad ku kulanto?"
+      },
+      {
+        "definition": "dhab ahaan sax ah",
+        "example": "Waa kaamil! Waqti intee?"
+      },
+      {
+        "definition": "ereyo muujinaya inaad raalli ka tahay qorshe",
+        "example": "Waa hagaag! Waa ku arki Axada 2-ka!"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "weekend",
+      "definition": "Saturday and Sunday",
+      "example": "Do you want to get coffee this weekend?"
+    },
+    {
+      "word": "free",
+      "definition": "not busy; available",
+      "example": "Are you free on Saturday afternoon?"
+    },
+    {
+      "word": "busy",
+      "definition": "having a lot to do; not free",
+      "example": "I'm busy on Saturday."
+    },
+    {
+      "word": "meet",
+      "definition": "to come together with someone at a place",
+      "example": "Where do you want to meet?"
+    },
+    {
+      "word": "perfect",
+      "definition": "exactly right",
+      "example": "Perfect! What time?"
+    },
+    {
+      "word": "sounds good",
+      "definition": "words that mean you agree with a plan",
+      "example": "Sounds good! See you Sunday at 2!"
     }
-  }
+  ],
+  "related_grammar": [
+    "modal",
+    "future",
+    "question"
+  ]
 }

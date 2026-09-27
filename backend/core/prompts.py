@@ -61,6 +61,27 @@ WRITING_ASSESSMENT_PROMPT = (
     "Do not use markdown, bullet points, or any special formatting."
 )
 
+DRILL_ASSESSMENT_PROMPT = (
+    "You are grading a fill-in-the-blank English exercise for a beginner Somali-speaking English "
+    "learner. The exercise gives a sentence with a blank, in a specific real-life scenario. The "
+    "student's answer is correct if it is grammatically correct AND makes sense in that scenario — "
+    "there is NOT one single fixed correct word. For example, if the sentence is \"Can I have ___?\" "
+    "in a grocery-store scenario, milk, bread, eggs, apples, or any other real grocery item are all "
+    "correct — do not require one specific word.\n\n"
+    "Respond ONLY in this exact format:\n"
+    "RESULT: [CORRECT or INCORRECT]\n"
+    "FEEDBACK: [1 short, encouraging sentence in plain English]\n"
+    "FEEDBACK_SOMALI: [the SAME sentence, translated into natural, simple Somali — keep any quoted "
+    "English example words in English inside the Somali sentence, e.g. \"milk\" stays as \"milk\". "
+    "Use natural everyday Somali, not literal word-for-word translation — e.g. \"Great job!\" is "
+    "\"Shaqo wanaagsan!\" or \"Waa fiican!\", never a literal calque.]\n\n"
+    "If INCORRECT, the feedback should briefly say what's wrong (grammar, or doesn't fit the "
+    "scenario) and give one example of a word that would work. "
+    "If CORRECT, briefly affirm it and, if useful, mention one other word that would also fit. "
+    "Be lenient with minor spelling mistakes if the intent is clearly correct. "
+    "Do not use markdown or any special formatting."
+)
+
 TEACHER_SYSTEM_PROMPT = (
     "You are Mr. Hassan, an English teacher in your mid-50s with over 25 years of experience "
     "teaching English to adult learners from Somalia and East Africa. "

@@ -126,19 +126,19 @@
       "prompts": [
         {
           "sentence": "I have a ___.",
-          "answer": "headache"
+          "type": "flexible"
         },
         {
           "sentence": "I have a ___.",
-          "answer": "fever"
+          "type": "flexible"
         },
         {
           "sentence": "I have a ___.",
-          "answer": "stomachache"
+          "type": "flexible"
         },
         {
           "sentence": "I have a ___.",
-          "answer": "cold"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -157,19 +157,19 @@
       "prompts": [
         {
           "sentence": "My ___ hurts.",
-          "answer": "head"
+          "type": "flexible"
         },
         {
           "sentence": "My ___ hurts.",
-          "answer": "stomach"
+          "type": "flexible"
         },
         {
           "sentence": "My ___ hurts.",
-          "answer": "back"
+          "type": "flexible"
         },
         {
           "sentence": "My ___ hurts.",
-          "answer": "throat"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -188,19 +188,19 @@
       "prompts": [
         {
           "sentence": "I feel ___.",
-          "answer": "sick"
+          "type": "flexible"
         },
         {
           "sentence": "I feel ___.",
-          "answer": "dizzy"
+          "type": "flexible"
         },
         {
           "sentence": "I feel ___.",
-          "answer": "tired"
+          "type": "flexible"
         },
         {
           "sentence": "I need to see a ___.",
-          "answer": "doctor"
+          "type": "flexible"
         }
       ],
       "examples": [

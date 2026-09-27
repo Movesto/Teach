@@ -284,7 +284,27 @@
           "Please repeat. ✗ (too direct — sounds like a command)"
         ],
         "question": "When should I use COULD instead of CAN?",
-        "explanation": "CAN is fine for quick requests with coworkers you know well. COULD sounds more polite and respectful — use it with supervisors, customers, or in more formal situations. Adding 'please' to either makes it even more polite. The most important rule: avoid using the imperative ('Repeat.' / 'Show me.') — always soften with CAN, COULD, or WOULD YOU MIND."
+        "explanation": "CAN is fine for quick requests with coworkers you know well. COULD sounds more polite and respectful — use it with supervisors, customers, or in more formal situations. Adding 'please' to either makes it even more polite. The most important rule: avoid using the imperative ('Repeat.' / 'Show me.') — always soften with CAN, COULD, or WOULD YOU MIND.",
+        "practice": [
+          {
+            "sentence": "___ you repeat that, please?",
+            "blank": "Could",
+            "options": [
+              "Could",
+              "Can",
+              "Do"
+            ]
+          },
+          {
+            "sentence": "___ you help me? (casual)",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Could",
+              "Would"
+            ]
+          }
+        ]
       },
       {
         "title": "WOULD YOU MIND + verb-ing — a very polite structure",
@@ -296,7 +316,58 @@
           "The answer 'No, not at all' = Yes, I will help you (confusing for learners!)"
         ],
         "question": "What form does the verb take after WOULD YOU MIND?",
-        "explanation": "After WOULD YOU MIND, always use verb-ing (the gerund). Never use 'to + verb'. This structure is very polite and appropriate for any work situation. One important note: when someone answers 'No, not at all' — they mean 'I don't mind, I'm happy to help.' It sounds like 'no' but means 'yes, I will help.'"
+        "explanation": "After WOULD YOU MIND, always use verb-ing (the gerund). Never use 'to + verb'. This structure is very polite and appropriate for any work situation. One important note: when someone answers 'No, not at all' — they mean 'I don't mind, I'm happy to help.' It sounds like 'no' but means 'yes, I will help.'",
+        "practice": [
+          {
+            "sentence": "Would you mind ___ me the form?",
+            "blank": "showing",
+            "options": [
+              "showing",
+              "show",
+              "shows"
+            ]
+          },
+          {
+            "sentence": "Would you mind ___ that again?",
+            "blank": "repeating",
+            "options": [
+              "repeating",
+              "repeat",
+              "repeats"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asking What Something Means",
+        "examples": [
+          "What does 'receiving report' mean?",
+          "What does that word mean?",
+          "I don't understand. Could you explain?",
+          "Excuse me, what does this mean?"
+        ],
+        "question": "How do we ask about a word or instruction we don't understand?",
+        "explanation": "Use 'What does [word] mean?' to ask about a specific word. You can also say 'I don't understand' or 'Could you explain?' for a whole instruction.",
+        "practice": [
+          {
+            "sentence": "What ___ 'receiving report' mean?",
+            "blank": "does",
+            "options": [
+              "does",
+              "do",
+              "is"
+            ]
+          },
+          {
+            "sentence": "I don't ___.",
+            "blank": "understand",
+            "options": [
+              "understand",
+              "understands",
+              "understanding"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -423,12 +494,120 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "CAN way ku fiican tahay codsiyada degdegga ah ee shaqo-wadaagta aad si fiican u taqaanno. COULD waxay u dhawaaqdaa si edeb iyo ixtiraam badan — la isticmaal kormeerayaasha, macaamiisha, ama xaaladaha rasmiga ah. 'please' ku darista waxay ka dhigaysaa mid ka sii edeb badan. Qaanuunka ugu muhiimsan: iska ilaali qaabka amarka ('Repeat.' / 'Show me.') — mar walba ku jilci CAN, COULD, ama WOULD YOU MIND."
+          "explanation": "CAN way ku fiican tahay codsiyada degdegga ah ee shaqo-wadaagta aad si fiican u taqaanno. COULD waxay u dhawaaqdaa si edeb iyo ixtiraam badan — la isticmaal kormeerayaasha, macaamiisha, ama xaaladaha rasmiga ah. 'please' ku darista waxay ka dhigaysaa mid ka sii edeb badan. Qaanuunka ugu muhiimsan: iska ilaali qaabka amarka ('Repeat.' / 'Show me.') — mar walba ku jilci CAN, COULD, ama WOULD YOU MIND.",
+          "examples": [
+            "Can you help me? (aan rasmiga ahayn, dabiici ah asxaabta shaqada)",
+            "Could you help me? (ka ixtiyaar badan — waxaa ku habboon kormeerayaasha)",
+            "Can you repeat that? ✓ (waxay ku fiican tahay asxaabta shaqada dhexdooda)",
+            "Could you repeat that, please? ✓ (ka ixtiyaar badan — waxaa ku habboon xaaladaha rasmiga ah)",
+            "Please repeat. ✗ (aad bay u toosantahay — waxay u egtahay amar)"
+          ]
         },
         {
-          "explanation": "WOULD YOU MIND ka dib, mar walba isticmaal fal-ing (gerund). Weligaa ha isticmaalin 'to + fal'. Qaabkani aad buu u edeb badan yahay, wuxuuna ku habboon yahay xaalad kasta oo shaqo ah. Hal qodob oo muhiim ah: marka qofku ku jawaabo 'No, not at all' — waxay ka dhigan tahay 'Dhib igama haysato, waan ku faraxsanahay inaan ku caawiyo.' Waxay u dhawaaqdaa 'maya' laakiin waxay ka dhigan tahay 'haa, waan ku caawin doonaa.'"
+          "explanation": "WOULD YOU MIND ka dib, mar walba isticmaal fal-ing (gerund). Weligaa ha isticmaalin 'to + fal'. Qaabkani aad buu u edeb badan yahay, wuxuuna ku habboon yahay xaalad kasta oo shaqo ah. Hal qodob oo muhiim ah: marka qofku ku jawaabo 'No, not at all' — waxay ka dhigan tahay 'Dhib igama haysato, waan ku faraxsanahay inaan ku caawiyo.' Waxay u dhawaaqdaa 'maya' laakiin waxay ka dhigan tahay 'haa, waan ku caawin doonaa.'",
+          "examples": [
+            "Would you mind showing me? ✓",
+            "Would you mind to show me? ✗ (ma jiro 'to' ka dib 'mind')",
+            "Would you mind repeat? ✗ (waa inaad ku darto -ing)",
+            "Would you mind speaking more slowly? ✓",
+            "Jawaabta 'No, not at all' waxay la macna tahay 'Yes, I will help you' (taas oo ardayda ku khaldami kartaa!)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'What does [word] mean?' si aad u weydiiso erey gaar ah. Waxa kale oo dhahdaa 'I don't understand' ama 'Could you explain?' tilmaan dhan.",
+          "examples": [
+            "Waa maxay macnaha 'receiving report'?",
+            "Waa maxay macnaha ereygaas?",
+            "Ma fahmin. Ma i sharxi kartaa?",
+            "Cafis, waa maxay macnaha tan?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Fadlan, ma ku celin kartaa taas?",
+      "Fadlan, ma hadli kartaa si qunyar?",
+      "Waa maxay macnaha [word]?",
+      "Waan ka xumahay, ma fahmin. Fadlan, mar kale dhihi kartaa?",
+      "Ma i tusi kartaa sida tan loo sameeyo?",
+      "Ma ku weydiin karaa su'aal?",
+      "Ma sax baa, mise qalad baan sameeyay?"
+    ],
+    "dialogue": [
+      "Subax wanaagsan, Ahmed. Maanta waxaan ku tusi doonaa sida loo qaado alaabta soo gasha. Marka hore, waxaad skaan gareeysaa barcode-ka sanduuq kasta.",
+      "Waan ka xumahay — ma mar kale dhihi kartaa? Qaybtii hore ma aan maqlin.",
+      "Dabcan! Waxaad skaan gareeysaa barcode-ka sanduuq kasta skaanerkan. Kadibna sanduuqa waxaad saartaa shelf-ka saxda ah.",
+      "Mahadsanid. Ma i tusi kartaa sida loo isticmaalo skaanerka? Weligay mid ma aan isticmaalin.",
+      "Haa! Halkan ku jeedi, badhankan riix, oo sug dhawaqa. Waa fududahay, miyaanay ahayn?",
+      "Haa! Ma aan isku dayi karaa?",
+      "Samee. Hadda, markaad wax walba skaan gareeyso, waxaad buuxinaysaa foomka alaabta soo gasha.",
+      "Cafis — maxaa loola jeedaa 'receiving report'?",
+      "Su'aal wanaagsan. Waa foom lagu qoro waxa soo galay — inta sanduuq, waxa ku jira, iyo dhaawac kasta.",
+      "Hadda waan fahmay. Ma i tusi kartaa foomka? Waxaan rabaa inaan hubiyo inaan si sax ah u buuxiyo.",
+      "Hubaal. Ahmed, fadlan had iyo jeer waydii haddii aadan hubin. Inaad weydiiso ayaa ka fiican inaad qalad sameyso.",
+      "Mahadsanid, Lisa. Had iyo jeer waan waydiin doonaa. Waxaan doonayaa inaan shaqadan si fiican u qabto."
+    ],
+    "vocabulary": [
+      {
+        "definition": "in aad wax mar kale dhahdo",
+        "example": "Ma ku celin kartaa?"
+      },
+      {
+        "definition": "in aad qalabka barcode-ka dushiisa ku dhaafto si aad u akhrido",
+        "example": "Waxaad skanaysaa barcode-ka sanduuq kasta."
+      },
+      {
+        "definition": "xariijimaha yaryar ee madow iyo cad ee ku yaal baakadda, kuwaas oo mashiinku akhriyo",
+        "example": "Waxaad skanaysaa barcode-ka sanduuq kasta."
+      },
+      {
+        "definition": "meel fidsan oo lagu kaydiyo alaabta",
+        "example": "Waxaad sanduuqa saartaa shelf-ka saxda ah."
+      },
+      {
+        "definition": "foom lagu qoro alaabta soo gaadhay",
+        "example": "Waxaad buuxisaa warbixinta helista."
+      },
+      {
+        "definition": "qalad",
+        "example": "Waxaa ka fiican inaad weydiiso intii aad qalad samayn lahayd."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "repeat",
+      "definition": "to say something again",
+      "example": "Could you repeat that?"
+    },
+    {
+      "word": "scan",
+      "definition": "to pass a device over a barcode to read it",
+      "example": "You scan the barcode on each box."
+    },
+    {
+      "word": "barcode",
+      "definition": "the small black-and-white lines on a package that a scanner reads",
+      "example": "You scan the barcode on each box."
+    },
+    {
+      "word": "shelf",
+      "definition": "a flat surface for storing things",
+      "example": "You put the box on the correct shelf."
+    },
+    {
+      "word": "receiving report",
+      "definition": "a form recording what items arrived",
+      "example": "You fill out a receiving report."
+    },
+    {
+      "word": "mistake",
+      "definition": "an error",
+      "example": "It's better to ask than to make a mistake."
     }
-  }
+  ],
+  "related_grammar": [
+    "modal",
+    "question"
+  ]
 }

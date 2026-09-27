@@ -109,19 +109,19 @@
       "prompts": [
         {
           "sentence": "Hello, ___ is Ahmed.",
-          "answer": "this"
+          "type": "flexible"
         },
         {
           "sentence": "Hi, this ___ Sarah.",
-          "answer": "is"
+          "type": "flexible"
         },
         {
           "sentence": "Hello, this is ___ Hassan.",
-          "answer": "Ahmed"
+          "type": "flexible"
         },
         {
           "sentence": "Good ___, this is Ahmed.",
-          "answer": "morning"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -140,19 +140,19 @@
       "prompts": [
         {
           "sentence": "Is ___ there?",
-          "answer": "Marcus"
+          "type": "flexible"
         },
         {
           "sentence": "Can I ___ to Marcus?",
-          "answer": "speak"
+          "type": "flexible"
         },
         {
           "sentence": "Is Dr. Smith ___?",
-          "answer": "available"
+          "type": "flexible"
         },
         {
           "sentence": "Can I speak to the ___?",
-          "answer": "manager"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -171,19 +171,19 @@
       "prompts": [
         {
           "sentence": "Can I take a ___?",
-          "answer": "message"
+          "type": "flexible"
         },
         {
           "sentence": "Would you like to ___ a message?",
-          "answer": "leave"
+          "type": "flexible"
         },
         {
           "sentence": "Can I ___ him you called?",
-          "answer": "tell"
+          "type": "flexible"
         },
         {
           "sentence": "Do you want him to call you ___?",
-          "answer": "back"
+          "type": "flexible"
         }
       ],
       "examples": [

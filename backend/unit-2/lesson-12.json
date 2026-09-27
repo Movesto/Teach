@@ -285,7 +285,27 @@
           "Would you like me to bring a resume? ✓ (offering help politely)"
         ],
         "question": "When is WOULD LIKE better than WANT?",
-        "explanation": "WANT is direct and informal. I'D LIKE is a softer, more polite and professional form of the same idea. In job interviews, emails, and professional conversations, always use I'D LIKE instead of I WANT. It shows respect and language maturity. The contraction I'D = I WOULD — both are correct."
+        "explanation": "WANT is direct and informal. I'D LIKE is a softer, more polite and professional form of the same idea. In job interviews, emails, and professional conversations, always use I'D LIKE instead of I WANT. It shows respect and language maturity. The contraction I'D = I WOULD — both are correct.",
+        "practice": [
+          {
+            "sentence": "I ___ like to apply for this position. (formal)",
+            "blank": "would",
+            "options": [
+              "would",
+              "do",
+              "will"
+            ]
+          },
+          {
+            "sentence": "I ___ to apply. (casual)",
+            "blank": "want",
+            "options": [
+              "want",
+              "would",
+              "need"
+            ]
+          }
+        ]
       },
       {
         "title": "PRESENT PERFECT for accumulated experience",
@@ -297,7 +317,27 @@
           "I've never worked in an office. (zero experience up to now)"
         ],
         "question": "When do we use present perfect instead of simple past for work experience?",
-        "explanation": "Simple past (I worked) describes a specific finished event. Present perfect (I've worked) describes experience that is still relevant — it connects your past to your present self. In a job interview, say 'I've worked in logistics for seven years' to show that experience is part of who you are today. Use it to introduce your background. Use simple past when telling the details (then I drove, then I organized...)."
+        "explanation": "Simple past (I worked) describes a specific finished event. Present perfect (I've worked) describes experience that is still relevant — it connects your past to your present self. In a job interview, say 'I've worked in logistics for seven years' to show that experience is part of who you are today. Use it to introduce your background. Use simple past when telling the details (then I drove, then I organized...).",
+        "practice": [
+          {
+            "sentence": "I ___ worked in warehousing for seven years.",
+            "blank": "have",
+            "options": [
+              "have",
+              "had",
+              "has"
+            ]
+          },
+          {
+            "sentence": "I ___ driven a delivery truck.",
+            "blank": "have",
+            "options": [
+              "have",
+              "has",
+              "had"
+            ]
+          }
+        ]
       },
       {
         "title": "Closing an interview — formal phrases",
@@ -310,7 +350,27 @@
           "I'm very excited for this job. ✓ (enthusiastic but less formal)"
         ],
         "question": "What do you say at the end of an interview?",
-        "explanation": "Closing an interview well makes a strong final impression. The two most important phrases are: 'Thank you for your time' and 'I look forward to hearing from you.' Note: LOOK FORWARD TO is always followed by verb-ing. Never say 'I look forward to hear' — it must be 'I look forward to hearing.'"
+        "explanation": "Closing an interview well makes a strong final impression. The two most important phrases are: 'Thank you for your time' and 'I look forward to hearing from you.' Note: LOOK FORWARD TO is always followed by verb-ing. Never say 'I look forward to hear' — it must be 'I look forward to hearing.'",
+        "practice": [
+          {
+            "sentence": "Thank you for your ___.",
+            "blank": "time",
+            "options": [
+              "time",
+              "times",
+              "timing"
+            ]
+          },
+          {
+            "sentence": "I look forward to ___ from you.",
+            "blank": "hearing",
+            "options": [
+              "hearing",
+              "hear",
+              "heard"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -437,15 +497,123 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "WANT waa toos oo aan rasmi ahayn. I'D LIKE waa qaab jilicsan oo edeb iyo xirfad badan oo isla fikraddaas ah. Wareysiyada shaqada, iimaylada, iyo wada-hadallada xirfadeed, mar walba isticmaal I'D LIKE halkii I WANT. Waxay muujinaysaa ixtiraam iyo qaangaadhnimo luqadeed. Soo gaabinta I'D = I WOULD — labaduba waa sax."
+          "explanation": "WANT waa toos oo aan rasmi ahayn. I'D LIKE waa qaab jilicsan oo edeb iyo xirfad badan oo isla fikraddaas ah. Wareysiyada shaqada, iimaylada, iyo wada-hadallada xirfadeed, mar walba isticmaal I'D LIKE halkii I WANT. Waxay muujinaysaa ixtiraam iyo qaangaadhnimo luqadeed. Soo gaabinta I'D = I WOULD — labaduba waa sax.",
+          "examples": [
+            "I want this job. (aan rasmi ahayn — saaxiibbo ayaa ku fiican)",
+            "I'd like to apply for this job. (rasmi ah — waxay ku habboon tahay wareysiyada)",
+            "I want to know the hours. → I'd like to know the hours. (xirfadeed)",
+            "Give me the form. ✗ (aad u toos ah)",
+            "I'd like the application form, please. ✓",
+            "Would you like me to bring a resume? ✓ (si edeb ah u bixin caawimaad)"
+          ]
         },
         {
-          "explanation": "Simple past (I worked) wuxuu sharaxayaa dhacdo gaar ah oo dhammaatay. Present perfect (I've worked) wuxuu sharaxayaa khibrad weli khusaysa — wuxuu isku xidhaa waagii hore iyo qofkaaga maanta. Wareysiga shaqada, dheh 'I've worked in logistics for seven years' si aad u muujiso in khibraddaasi qayb ka tahay qofka aad maanta tahay. Simple past isticmaal marka aad faahfaahinta sheegayso."
+          "explanation": "Simple past (I worked) wuxuu sharaxayaa dhacdo gaar ah oo dhammaatay. Present perfect (I've worked) wuxuu sharaxayaa khibrad weli khusaysa — wuxuu isku xidhaa waagii hore iyo qofkaaga maanta. Wareysiga shaqada, dheh 'I've worked in logistics for seven years' si aad u muujiso in khibraddaasi qayb ka tahay qofka aad maanta tahay. Simple past isticmaal marka aad faahfaahinta sheegayso.",
+          "examples": [
+            "Waxaan ka shaqeeyay bakhaarro muddo shan sano ah. (waqti hore — waa dhamaaday)",
+            "Waxaan ka shaqeeyay bakhaarro muddo shan sano ah. (waqti hadda quseeya — weli waa mid hadda quseeya)",
+            "Waxaan waday gaari xamuul ah. (waqti hore — hal dhacdo, waa dhamaatay)",
+            "Waxaan waday gaadiid xamuul ah muddo shan sano ah. (khibrad aad maanta haysatid)",
+            "Weligay kuma shaqeysan xafiis. (waayo-aragnimo toona ilaa hadda)"
+          ]
         },
         {
-          "explanation": "Wareysiga si fiican u soo gabagabayntu waxay reebtaa raad kama dambays ah oo xoog leh. Labada weedhood ee ugu muhiimsan waa: 'Thank you for your time' iyo 'I look forward to hearing from you.' Fiiro: LOOK FORWARD TO waxaa mar walba raaca fal-ing. Weligaa ha odhan 'I look forward to hear' — waa inay noqotaa 'I look forward to hearing.'"
+          "explanation": "Wareysiga si fiican u soo gabagabayntu waxay reebtaa raad kama dambays ah oo xoog leh. Labada weedhood ee ugu muhiimsan waa: 'Thank you for your time' iyo 'I look forward to hearing from you.' Fiiro: LOOK FORWARD TO waxaa mar walba raaca fal-ing. Weligaa ha odhan 'I look forward to hear' — waa inay noqotaa 'I look forward to hearing.'",
+          "examples": [
+            "Thank you for your time. ✓",
+            "I look forward to hearing from you. ✓ (forward to + fal-ka 'ing' ah!)",
+            "I look forward to hear from you. ✗",
+            "I appreciate this opportunity. ✓",
+            "I believe I am a good fit for this role. ✓",
+            "I'm very excited for this job. ✓ (xiiso leh, laakiin aan ahayn rasmi ah)"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan raadinayaa shaqo sida [darawal / kashiish / shaqaale bakhaar]",
+      "Waxaan doonayaa inaan codsado booskan",
+      "Waxaan leeyahay khibrad [wadista / adeegga cuntada / nadiifinta]",
+      "Waxaan ahay qof la isku halleyn karo oo aad u shaqeeya",
+      "Goormaad bilaabi kartaa? — Waxaan bilaabi karaa [Isniin / isla markiiba]",
+      "Waad ku mahadsan tahay waqtigaaga",
+      "Waxaan rajeynayaa inaan kaa war helo"
+    ],
+    "dialogue": [
+      "Hay, soo dheh. Waa adiga Ahmed, sax? Anigu waxaan ahay Tom. Fadlan fadhiiso.",
+      "Mahadsanid, Tom. Waan ku faraxsanahay inaan kula kulmo. Waxaan rabaa inaan codsado shaqada shaqaalaha bakhaarka.",
+      "Waa hagaag. Wax yar iiga sheekayso naftaada.",
+      "Anigu waxaan ahay Ahmed. Waxaan ka shaqeeyay gaadiidka iyo bakhaarrada muddo toddoba sano ah oo Soomaaliya ah. Waxaan waday gaari xamuul ah, waxaana alaabta bakhaarka ku habeeyay. Waan aamin ahay oo si hagar la'aan ah baan u shaqeeyaa.",
+      "Taasi waa khibrad aad u fiican. Maxaad shaqo halkan ugu raadineysaa?",
+      "Qoyskaygu waxay u guureen Maraykanka laba sano ka hor. Waxaan raadinayaa shaqo buuxda oo saadka ama bakhaarrada ku saabsan. Shaqadani waxay si aad ah ugu habboon tahay khibartayda.",
+      "Waxaan jeclahay sida aad si cad ugu sharaxday taariikhdaada. Ma waxaad i weydiinaysaa su'aalo?",
+      "Haa — waxaan jeclaan lahaa inaan ogaado jadwalka. Ma shaqo buuxda, Isniinta ilaa Jimcaha?",
+      "Waa shaqo buuxda. 6 subaxnimo ilaa 2:30 galabnimo. Goormaad bilaabi kartaa?",
+      "Waxaan diyaar ahay inaan bilaabo isla markiiba. Ama Isniinta, haddii ay kuu fiican tahay.",
+      "Isniin ha ahaato. Waxaan u malaynayaa inaad tahay musharax xooggan, Ahmed. Waxaanu ku soo wici doonnaa Khamiista.",
+      "Aad baad u mahadsan tahay waqtigaaga, Tom. Waxaan rajeynayaa inaan kaa maqlo dhawaan."
+    ],
+    "vocabulary": [
+      {
+        "definition": "shaqo ama jago shirkad",
+        "example": "Waxaan rabi lahaa inaan codsado jagada bakhaarka."
+      },
+      {
+        "definition": "qof la tixgelinayo shaqo",
+        "example": "Waxaan u malaynayaa inaad tahay musharax xooggan."
+      },
+      {
+        "definition": "qof lagu kalsoonaan karo inuu sameeyo wuxuu yiraahdo",
+        "example": "Waxaan ahay qof la isku halleyn karo, oo si adag u shaqeeya."
+      },
+      {
+        "definition": "khibradda iyo taariikhda qof",
+        "example": "Waxaan jeclahay sida aad si cad u sharaxdo taariikhdaada shaqo."
+      },
+      {
+        "definition": "hadda, iyadoo aan la sugin",
+        "example": "Waxaan diyaar u ahay inaan isla markiiba bilaabo."
+      },
+      {
+        "definition": "in qof u farxo wax dhow dhacaya",
+        "example": "Waxaan rajeynayaa inaan kaa maqlo."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "position",
+      "definition": "a job or role at a company",
+      "example": "I'd like to apply for the warehouse associate position."
+    },
+    {
+      "word": "candidate",
+      "definition": "a person being considered for a job",
+      "example": "I think you're a strong candidate."
+    },
+    {
+      "word": "reliable",
+      "definition": "someone who can be trusted to do what they say",
+      "example": "I'm reliable and I work hard."
+    },
+    {
+      "word": "background",
+      "definition": "a person's past experience and history",
+      "example": "I like how clearly you explain your background."
+    },
+    {
+      "word": "immediately",
+      "definition": "right now, without waiting",
+      "example": "I'm available to start immediately."
+    },
+    {
+      "word": "look forward to",
+      "definition": "to feel happy about something that will happen soon",
+      "example": "I look forward to hearing from you."
     }
-  }
+  ],
+  "related_grammar": [
+    "modal",
+    "present-perfect"
+  ]
 }

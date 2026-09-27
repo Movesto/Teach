@@ -130,19 +130,19 @@
       "prompts": [
         {
           "sentence": "I want to ___ an account.",
-          "answer": "open"
+          "type": "flexible"
         },
         {
           "sentence": "I want to ___ money.",
-          "answer": "deposit"
+          "type": "flexible"
         },
         {
           "sentence": "I want to ___ $50.",
-          "answer": "withdraw"
+          "type": "flexible"
         },
         {
           "sentence": "I want to ___ money to my family.",
-          "answer": "send"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -161,19 +161,19 @@
       "prompts": [
         {
           "sentence": "What is my ___?",
-          "answer": "balance"
+          "type": "flexible"
         },
         {
           "sentence": "How much is in my ___?",
-          "answer": "account"
+          "type": "flexible"
         },
         {
           "sentence": "Can I see my ___?",
-          "answer": "statement"
+          "type": "flexible"
         },
         {
           "sentence": "Where is the ___?",
-          "answer": "ATM"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -192,19 +192,19 @@
       "prompts": [
         {
           "sentence": "I want to deposit ___.",
-          "answer": "$100"
+          "type": "flexible"
         },
         {
           "sentence": "I want to withdraw ___.",
-          "answer": "$50"
+          "type": "flexible"
         },
         {
           "sentence": "I need to send ___.",
-          "answer": "$200"
+          "type": "flexible"
         },
         {
           "sentence": "My balance is ___.",
-          "answer": "$500"
+          "type": "flexible"
         }
       ],
       "examples": [

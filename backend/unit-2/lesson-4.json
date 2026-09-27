@@ -273,7 +273,27 @@
           "I like watching movies (verb-ing)"
         ],
         "question": "Can we use both?",
-        "explanation": "Yes! 'I like soccer' and 'I like playing soccer' are both correct. Using verb-ing is more specific about the activity."
+        "explanation": "Yes! 'I like soccer' and 'I like playing soccer' are both correct. Using verb-ing is more specific about the activity.",
+        "practice": [
+          {
+            "sentence": "I like ___ soccer.",
+            "blank": "playing",
+            "options": [
+              "playing",
+              "play",
+              "plays"
+            ]
+          },
+          {
+            "sentence": "Do you like ___?",
+            "blank": "running",
+            "options": [
+              "running",
+              "run",
+              "runs"
+            ]
+          }
+        ]
       },
       {
         "title": "Me too vs Me neither",
@@ -284,7 +304,27 @@
           "I don't enjoy cooking. - Me neither!"
         ],
         "question": "Which do we use when?",
-        "explanation": "Use 'Me too' to agree with positive statements. Use 'Me neither' to agree with negative statements (don't/doesn't)."
+        "explanation": "Use 'Me too' to agree with positive statements. Use 'Me neither' to agree with negative statements (don't/doesn't).",
+        "practice": [
+          {
+            "sentence": "I love soccer! ___!",
+            "blank": "Me too",
+            "options": [
+              "Me too",
+              "Me neither",
+              "Me also"
+            ]
+          },
+          {
+            "sentence": "I don't like basketball. ___.",
+            "blank": "Me neither",
+            "options": [
+              "Me neither",
+              "Me too",
+              "Me either"
+            ]
+          }
+        ]
       },
       {
         "title": "Making suggestions: We should...",
@@ -295,7 +335,27 @@
           "You should come to the park"
         ],
         "question": "How do we suggest activities?",
-        "explanation": "'We should...' or 'You should...' are friendly ways to suggest doing something together. It's common when making plans with new friends."
+        "explanation": "'We should...' or 'You should...' are friendly ways to suggest doing something together. It's common when making plans with new friends.",
+        "practice": [
+          {
+            "sentence": "We ___ go running together.",
+            "blank": "should",
+            "options": [
+              "should",
+              "shoulds",
+              "shoulding"
+            ]
+          },
+          {
+            "sentence": "You ___ come play with us!",
+            "blank": "should",
+            "options": [
+              "should",
+              "shoulds",
+              "will"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -422,15 +482,117 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Haa! 'I like soccer' iyo 'I like playing soccer' labaduba waa sax. Isticmaalka fal-ing wuxuu si gaar ah u sheegayaa hawsha."
+          "explanation": "Haa! 'I like soccer' iyo 'I like playing soccer' labaduba waa sax. Isticmaalka fal-ing wuxuu si gaar ah u sheegayaa hawsha.",
+          "examples": [
+            "Waan jeclahay kubbadda cagta (magac - ciyaarta guud ahaan)",
+            "Waan jeclahay ciyaarista kubbadda cagta (fal-ka -ing - waxqabadka)",
+            "Waan jeclahay filimada (magac)",
+            "Waan jeclahay daawashada filimada (fal-ka -ing - waxqabadka)"
+          ]
         },
         {
-          "explanation": "'Me too' waxaan u isticmaalnaa inaan ku raacno hadallada togan. 'Me neither' waxaan u isticmaalnaa hadallada diidmada ah (don't/doesn't)."
+          "explanation": "'Me too' waxaan u isticmaalnaa inaan ku raacno hadallada togan. 'Me neither' waxaan u isticmaalnaa hadallada diidmada ah (don't/doesn't).",
+          "examples": [
+            "Waxaan jeclahay kubbadda cagta. - Me too! (waa marka aad raacsan tahay hadal togan)",
+            "Waxaan aad u jeclahay akhriska. - Me too!",
+            "Ma jecli kubbadda koleyga. - Me neither! (waa marka aad raacsan tahay hadal taban)",
+            "Ma ku raaxaysto karinta. - Me neither!"
+          ]
         },
         {
-          "explanation": "'We should...' ama 'You should...' waa siyaabo saaxiibtinimo leh oo lagu soo jeediyo inaad wax wada samaysaan. Waa caadi marka aad qorshe la samaysanayso saaxiibbo cusub."
+          "explanation": "'We should...' ama 'You should...' waa siyaabo saaxiibtinimo leh oo lagu soo jeediyo inaad wax wada samaysaan. Waa caadi marka aad qorshe la samaysanayso saaxiibbo cusub.",
+          "examples": [
+            "Waa inaan wada ciyaarno kubbadda cagta",
+            "Waa inaan mar uun qaxwa cabno",
+            "Waa inaan daawanno filim",
+            "Waa inaad timaado beerta"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan jeclahay [waxqabad/ shay]",
+      "Waxaan aad u jeclahay [waxqabad/ shay]",
+      "Anigu ma jecli [waxqabad/ shay]",
+      "Ma jeclahay [waxqabad]?",
+      "Aniguna! / Anigana!",
+      "Maxaad jeclahay inaad samayso?",
+      "Waa inaan mar uun [wada fadhiisanno / kafee wada cabno]"
+    ],
+    "dialogue": [
+      "Hi! Ma cusub baad tahay halkan?",
+      "Haa, waxaan hadda bilaabay inaan halkan imaado. Waxaan ahay Ahmed.",
+      "Kulanti wanaagsan! Waxaan ahay Tom. Maxaad jeceshahay inaad samayso?",
+      "Waxaan jeclahay inaan ciyaaro kubbadda cagta. Ma ciyaartaa isboorti?",
+      "Haa! Waan jeclahay kubbadda cagta! Waan ciyaaraa sabti kasta.",
+      "Runti? Aniguna! Xaggee baad ku ciyaartaa?",
+      "Lincoln Park. Waa inaad timaaddo oo nala ciyaarto!",
+      "Taasi waa wax fiican! Ma jeclahay kubbadda koleyga sidoo kale?",
+      "Runtii ma jecli. Ma jecli kubbadda koleyga. Laakiin waxaan jeclahay orodka.",
+      "Aniguna ma jecli! Waxaan ula jeedaa, anigu ma jecli kubbadda koleyga sidoo kale. Laakiin waxaan ku raaxaystaa orodka.",
+      "Waa fiican! Waa inaan wada orodno mar uun."
+    ],
+    "vocabulary": [
+      {
+        "definition": "ciyaaraha ama hawlaha jirka, sida kubbadda cagta ama kubbadda koleyga",
+        "example": "Ma ciyaartaa isboorti?"
+      },
+      {
+        "definition": "ka qayb qaadasho ciyaar ama isboorti",
+        "example": "Waxaan ciyaaraa Sabti kasta."
+      },
+      {
+        "definition": "in aad wax si aad ah u jeceshahay",
+        "example": "Waan jeclahay kubbadda cagta!"
+      },
+      {
+        "definition": "in aad ku raaxaysato wax samaynta",
+        "example": "Waan ku raaxaystaa orodka."
+      },
+      {
+        "definition": "waxaa la isticmaalaa ka dib diidmo, oo macnaheedu yahay 'also not'",
+        "example": "Ma jecli kubbadda koleyga sidoo kale."
+      },
+      {
+        "definition": "qof kale la joog, oo aan keligaa ahayn",
+        "example": "Waa inaan isla orodno mar qaar."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "sports",
+      "definition": "physical games or activities, like soccer or basketball",
+      "example": "Do you play any sports?"
+    },
+    {
+      "word": "play",
+      "definition": "to take part in a game or sport",
+      "example": "I play every Saturday."
+    },
+    {
+      "word": "love",
+      "definition": "to like something very much",
+      "example": "I love soccer!"
+    },
+    {
+      "word": "enjoy",
+      "definition": "to get pleasure from doing something",
+      "example": "I enjoy running."
+    },
+    {
+      "word": "either",
+      "definition": "used after a negative to mean 'also not'",
+      "example": "I don't like basketball either."
+    },
+    {
+      "word": "together",
+      "definition": "with another person, not alone",
+      "example": "We should go running together sometime."
     }
-  }
+  ],
+  "related_grammar": [
+    "modal",
+    "question"
+  ]
 }

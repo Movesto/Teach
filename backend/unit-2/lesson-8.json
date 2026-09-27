@@ -280,7 +280,27 @@
           "'Need to' sounds more like a practical step."
         ],
         "question": "Are MUST and NEED TO different in meaning?",
-        "explanation": "MUST and NEED TO both express obligation — something that is required. However, MUST sounds more formal and strict (like a law or a firm rule), while NEED TO sounds more practical (like a step in a process). Job postings often use MUST. When asking questions, we usually use NEED TO or HAVE TO, not MUST."
+        "explanation": "MUST and NEED TO both express obligation — something that is required. However, MUST sounds more formal and strict (like a law or a firm rule), while NEED TO sounds more practical (like a step in a process). Job postings often use MUST. When asking questions, we usually use NEED TO or HAVE TO, not MUST.",
+        "practice": [
+          {
+            "sentence": "You ___ have a license.",
+            "blank": "must",
+            "options": [
+              "must",
+              "might",
+              "could"
+            ]
+          },
+          {
+            "sentence": "You ___ to lift 50 pounds.",
+            "blank": "need",
+            "options": [
+              "need",
+              "must",
+              "can"
+            ]
+          }
+        ]
       },
       {
         "title": "REQUIRED vs PREFERRED in job postings",
@@ -293,7 +313,58 @@
           "If you don't meet a PREFERRED item, you can still apply."
         ],
         "question": "What is the practical difference between 'required' and 'preferred'?",
-        "explanation": "REQUIRED means the employer will not hire you without this qualification. PREFERRED means the employer would like it, but they will still consider your application without it. Always check carefully: if you are missing a REQUIRED qualification, your application will likely be rejected. Missing a PREFERRED qualification is usually acceptable."
+        "explanation": "REQUIRED means the employer will not hire you without this qualification. PREFERRED means the employer would like it, but they will still consider your application without it. Always check carefully: if you are missing a REQUIRED qualification, your application will likely be rejected. Missing a PREFERRED qualification is usually acceptable.",
+        "practice": [
+          {
+            "sentence": "A license is ___ — you must have it.",
+            "blank": "required",
+            "options": [
+              "required",
+              "preferred",
+              "optional"
+            ]
+          },
+          {
+            "sentence": "Experience is ___, not required.",
+            "blank": "preferred",
+            "options": [
+              "preferred",
+              "required",
+              "must"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Saying If You Meet a Requirement",
+        "examples": [
+          "I meet that requirement.",
+          "I have a driver's license.",
+          "I don't have that yet, but I'm working on it.",
+          "I can do that."
+        ],
+        "question": "How do we tell an employer if we have or don't have something they need?",
+        "explanation": "Use 'I meet that requirement' or 'I have + [thing]' when you qualify. If you don't yet, be honest but positive: 'I don't have that yet, but I'm working on it.'",
+        "practice": [
+          {
+            "sentence": "I ___ that requirement.",
+            "blank": "meet",
+            "options": [
+              "meet",
+              "meets",
+              "meeting"
+            ]
+          },
+          {
+            "sentence": "I don't have that yet, but I'm ___ on it.",
+            "blank": "working",
+            "options": [
+              "working",
+              "work",
+              "works"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -420,12 +491,119 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "MUST iyo NEED TO labaduba waxay muujiyaan waajib — wax loo baahan yahay. Si kastaba, MUST waxay u dhawaaqdaa si rasmi iyo adag (sida sharci ama qaanuun adag), halka NEED TO ay u dhawaaqdo si wax-ku-ool ah (sida tallaabo hab-socod). Xayaysiisyada shaqadu inta badan waxay isticmaalaan MUST. Su'aalaha, waxaan caadi ahaan isticmaalnaa NEED TO ama HAVE TO, ma aha MUST."
+          "explanation": "MUST iyo NEED TO labaduba waxay muujiyaan waajib — wax loo baahan yahay. Si kastaba, MUST waxay u dhawaaqdaa si rasmi iyo adag (sida sharci ama qaanuun adag), halka NEED TO ay u dhawaaqdo si wax-ku-ool ah (sida tallaabo hab-socod). Xayaysiisyada shaqadu inta badan waxay isticmaalaan MUST. Su'aalaha, waxaan caadi ahaan isticmaalnaa NEED TO ama HAVE TO, ma aha MUST.",
+          "examples": [
+            "Waa inaad haysato aqoonsi sax ah. = Waxaa loo baahan yahay inaad haysato aqoonsi sax ah.",
+            "Waa inaad 18 jir ahaato. = Waxaa loo baahan yahay inaad 18 jir ahaato.",
+            "Dalbadayaasha waa inay ku hadlaan Ingiriisiga. = Dalbadayaasha waxaa loo baahan yahay inay ku hadlaan Ingiriisiga.",
+            "Laakiin: 'must' wuxuu u muuqdaa mid ka sii rasmi ah oo ka sii adag.",
+            "'Need to' wuxuu u muuqdaa inuu yahay tallaabo wax ku ool ah."
+          ]
         },
         {
-          "explanation": "REQUIRED waxay ka dhigan tahay in shaqo-bixiyuhu aanu ku shaqaalaysiin la'aanteed. PREFERRED waxay ka dhigan tahay in shaqo-bixiyuhu jeclaan lahaa, laakiin weli codsigaaga way tixgelin doonaan la'aanteed. Mar walba si taxaddar leh u hubi: haddii aad ka maqan tahay shuruud REQUIRED ah, codsigaaga waxay u badan tahay in la diido. Ka maqnaanshaha shuruud PREFERRED ah caadi ahaan waa la aqbali karaa."
+          "explanation": "REQUIRED waxay ka dhigan tahay in shaqo-bixiyuhu aanu ku shaqaalaysiin la'aanteed. PREFERRED waxay ka dhigan tahay in shaqo-bixiyuhu jeclaan lahaa, laakiin weli codsigaaga way tixgelin doonaan la'aanteed. Mar walba si taxaddar leh u hubi: haddii aad ka maqan tahay shuruud REQUIRED ah, codsigaaga waxay u badan tahay in la diido. Ka maqnaanshaha shuruud PREFERRED ah caadi ahaan waa la aqbali karaa.",
+          "examples": [
+            "Required: Ruqsatada darawalnimo ← Waa inaad haysataa",
+            "Preferred: Shahaadada jaamacadeed ← Waa fiican tahay inaad haysato, ma aha qasab",
+            "Required: Awoodda inaad qaaddo 50 rodol ← Waa lagama maarmaan",
+            "Preferred: Labo luuqadood (Isbaanish) ← Waa faa'iido laakiin ma aha qasab",
+            "Haddii aadan buuxin qodob REQUIRED ah, ha qalmin.",
+            "Haddii aadan buuxin qodob PREFERRED ah, waxaad weli qalmi kartaa."
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'I meet that requirement' ama 'I have + [thing]' markaad buuxiso shuruudaha. Haddii aadan weli buuxin, run sheeg laakiin si togan: 'I don't have that yet, but I'm working on it.'",
+          "examples": [
+            "Waxaan buuxinayaa shuruuddaas.",
+            "Waxaan haystaa shahaadada darawalnimada.",
+            "Weli ma haysto, laakiin waan ka shaqaynayaa.",
+            "Taas waan samayn karaa."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waa inaad haysato [ruksad darawalnimo].",
+      "Khibrad ayaa loo baahan yahay / waa la door bidaa.",
+      "Waxaad u baahan tahay [inaad qaadi karto 50 rodol].",
+      "Ma waa inaan [haysto shahaado]?",
+      "Ma loo baahan yahay [baaritaan asalka]?",
+      "Waan buuxiyaa shuruuddaas.",
+      "Weli ma haysto, laakiin waan ka shaqaynayaa."
+    ],
+    "dialogue": [
+      "Ms. Kim, ma i caawin kartaa? Waxaan helay shaqo, laakiin kuma fahmayo ereyada oo dhan.",
+      "Dabcan! Aan eego. Waxay qoran tahay: 'Warehouse Associate — Full Time. $18/hour.' Qaybtee kugu jahwareersan?",
+      "Halkan waxaa ku qoran 'required' halkanna waxaa ku qoran 'preferred.' Waa maxay farqiga?",
+      "Su'aal wanaagsan. 'Required' waxay ka dhigan tahay waa inaad haysataa — wax ka reeb ma jiro. 'Preferred' waxay ka dhigan tahay waa caawin, laakiin wali waad codsan kartaa adigoon haysan.",
+      "Okay. Marka waxay qoran tahay shahaadada darawalnimo waa loo baahan yahay. Wali ma haysto liisanska Maraykanka.",
+      "Marka ma codsan kartid booskaas. Laakiin eeg halkan — xayaysiiskan kale wuxuu qoran yahay liisanska waa la doorbidaa oo kaliya.",
+      "Oh! Waxayna qoran tahay 'must be able to lift 50 pounds.' Taas waan qaban karaa. Iyo 'experience preferred, not required.' Marka waan codsan karaa?",
+      "Haa! Waxaad buuxinaysaa inta badan shuruudaha. Ma waxaad haysaa su'aalo aad jeclaan lahayd inaad weydiiso loo-shaqeeyaha?",
+      "Haa — ma waa inaan shaqeeyo sabtida iyo axada? Iyo ma waxbaan u baahanahay inaan keeno wareysiga?",
+      "Kuwani waa su'aalo aad u wanaagsan. Waa inaad sidoo kale weydiisaa: ma waxaa loo baahan yahay baaritaan asalka ah?",
+      "Hadda waan fahmay. 'Required' waxay ka dhigan tahay waa inaan haysto. 'Preferred' waxay ka dhigan tahay waa caawin laakiin loogama baahna. Waan qaban karaa!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "wax lagama maarmaan ah — wax laga reebi karo ma jiro",
+        "example": "Shahaadada darawalnimada waa loo baahan yahay."
+      },
+      {
+        "definition": "wax caawinaya laakiin aan lagama maarmaan ahayn",
+        "example": "Khibrada waa la door bidaa, laakiin looma baahna."
+      },
+      {
+        "definition": "dhismo weyn oo alaabta lagu kaydiyo",
+        "example": "Shaqaale Bakhaar — Waqti buuxa."
+      },
+      {
+        "definition": "dokumenti rasmi ah oo kuu ogolaanaya inaad wax sameysid, sida baabuur wadid",
+        "example": "Wali ma haysto shahaadada darawalnimada ee Maraykanka."
+      },
+      {
+        "definition": "si rasmi ah shaqo u codsan",
+        "example": "Markaa ma codsan karaa?"
+      },
+      {
+        "definition": "dib-u-eegis lagu eego taariikhda qofka ka hor inta aan la shaqaaleysiin",
+        "example": "Ma loo baahan yahay baaritaanka asalka?"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "required",
+      "definition": "something you must have — no exceptions",
+      "example": "A driver's license is required."
+    },
+    {
+      "word": "preferred",
+      "definition": "something that helps but isn't necessary",
+      "example": "Experience is preferred, not required."
+    },
+    {
+      "word": "warehouse",
+      "definition": "a large building where goods are stored",
+      "example": "Warehouse Associate — Full Time."
+    },
+    {
+      "word": "license",
+      "definition": "an official document that allows you to do something, like drive",
+      "example": "I don't have a U.S. license yet."
+    },
+    {
+      "word": "apply",
+      "definition": "to formally ask for a job",
+      "example": "So I can apply?"
+    },
+    {
+      "word": "background check",
+      "definition": "a review of a person's history before hiring them",
+      "example": "Is a background check required?"
     }
-  }
+  ],
+  "related_grammar": [
+    "modal"
+  ]
 }

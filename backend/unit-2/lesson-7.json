@@ -285,7 +285,27 @@
           "Do you can lift 50 pounds? ✗"
         ],
         "question": "What comes after CAN? Does CAN change for he/she?",
-        "explanation": "CAN is always followed by a base verb (no 'to'). CAN never adds -s, even for he/she/it. To ask a question, put CAN before the person: 'Can you...?' — never use 'do' with CAN."
+        "explanation": "CAN is always followed by a base verb (no 'to'). CAN never adds -s, even for he/she/it. To ask a question, put CAN before the person: 'Can you...?' — never use 'do' with CAN.",
+        "practice": [
+          {
+            "sentence": "I ___ drive.",
+            "blank": "can",
+            "options": [
+              "can",
+              "cans",
+              "canning"
+            ]
+          },
+          {
+            "sentence": "___ you use a computer?",
+            "blank": "Can",
+            "options": [
+              "Can",
+              "Do",
+              "Are"
+            ]
+          }
+        ]
       },
       {
         "title": "GOOD AT + verb-ing",
@@ -297,7 +317,27 @@
           "Are you good at speaking English? ✓"
         ],
         "question": "What form does the verb take after 'good at'?",
-        "explanation": "After 'good at', the verb always ends in -ing (the gerund form). This is the same as after 'like', 'enjoy', and 'love'. Think: I like cooking → I'm good at cooking."
+        "explanation": "After 'good at', the verb always ends in -ing (the gerund form). This is the same as after 'like', 'enjoy', and 'love'. Think: I like cooking → I'm good at cooking.",
+        "practice": [
+          {
+            "sentence": "I'm good at ___.",
+            "blank": "organizing",
+            "options": [
+              "organizing",
+              "organize",
+              "organizes"
+            ]
+          },
+          {
+            "sentence": "I'm good at ___ heavy things.",
+            "blank": "lifting",
+            "options": [
+              "lifting",
+              "lift",
+              "lifts"
+            ]
+          }
+        ]
       },
       {
         "title": "CAN vs KNOW HOW TO",
@@ -309,7 +349,27 @@
           "Do you know how to use this machine?"
         ],
         "question": "What is the difference between 'can' and 'know how to'?",
-        "explanation": "'Can' is general and natural for most situations. 'Know how to' emphasizes that you learned a specific skill. Both mean the same thing but 'know how to' sounds more deliberate, like a trained skill. In a job interview, 'I know how to operate a forklift' sounds more professional than 'I can operate a forklift.'"
+        "explanation": "'Can' is general and natural for most situations. 'Know how to' emphasizes that you learned a specific skill. Both mean the same thing but 'know how to' sounds more deliberate, like a trained skill. In a job interview, 'I know how to operate a forklift' sounds more professional than 'I can operate a forklift.'",
+        "practice": [
+          {
+            "sentence": "I ___ how to use email.",
+            "blank": "know",
+            "options": [
+              "know",
+              "can",
+              "am"
+            ]
+          },
+          {
+            "sentence": "I ___ drive a truck.",
+            "blank": "can",
+            "options": [
+              "can",
+              "know",
+              "am"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -436,15 +496,122 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "CAN waxaa mar walba raaca fal aasaasi ah ('to' la'aan). CAN weligiis ma qaato -s, xitaa he/she/it. Su'aal, CAN geli qofka ka hor: 'Can you...?' — weligaa 'do' ha la isticmaalin CAN."
+          "explanation": "CAN waxaa mar walba raaca fal aasaasi ah ('to' la'aan). CAN weligiis ma qaato -s, xitaa he/she/it. Su'aal, CAN geli qofka ka hor: 'Can you...?' — weligaa 'do' ha la isticmaalin CAN.",
+          "examples": [
+            "I can drive. ✓",
+            "I can to drive. ✗ (Marna ha ku darin 'to' ka dib 'can')",
+            "She cans drive. ✗ (can marna isma beddelo — -s laguma daro)",
+            "She can drive. ✓",
+            "Can you lift 50 pounds? ✓",
+            "Do you can lift 50 pounds? ✗"
+          ]
         },
         {
-          "explanation": "'good at' ka dib, falku mar walba wuxuu ku dhammaadaa -ing (qaabka gerund). Tani waa la mid tan ka dambaysa 'like', 'enjoy', iyo 'love'. Ka fikir: I like cooking → I'm good at cooking."
+          "explanation": "'good at' ka dib, falku mar walba wuxuu ku dhammaadaa -ing (qaabka gerund). Tani waa la mid tan ka dambaysa 'like', 'enjoy', iyo 'love'. Ka fikir: I like cooking → I'm good at cooking.",
+          "examples": [
+            "Waan ku fiicanahay abaabulka. ✗",
+            "Waan ku fiicanahay abaabulka. ✓",
+            "Way ku fiican tahay qaadista. ✗",
+            "Way ku fiican tahay qaadista. ✓",
+            "Ma ku fiican tahay hadalka Ingiriisiga? ✓"
+          ]
         },
         {
-          "explanation": "'Can' waa guud, waana dabiici xaalado badan. 'Know how to' waxay xoogga saaraysaa inaad baratay xirfad gaar ah. Labaduba isku macne bay leeyihiin, laakiin 'know how to' waxay u dhawaaqdaa xirfad la tababaray. Wareysiga shaqada, 'I know how to operate a forklift' ayaa ka xirfad badan 'I can operate a forklift.'"
+          "explanation": "'Can' waa guud, waana dabiici xaalado badan. 'Know how to' waxay xoogga saaraysaa inaad baratay xirfad gaar ah. Labaduba isku macne bay leeyihiin, laakiin 'know how to' waxay u dhawaaqdaa xirfad la tababaray. Wareysiga shaqada, 'I know how to operate a forklift' ayaa ka xirfad badan 'I can operate a forklift.'",
+          "examples": [
+            "Waan dabaalan karaa. (dabiici ah, gaaban)",
+            "Waan garanayaa sida loo dabaalo. (si gaar ah — waxaan bartay xirfaddan)",
+            "Waan karin karaa. (awood guud)",
+            "Waan garanayaa sida loo kariyo cuntada Soomaaliyeed. (xirfad gaar ah)",
+            "Ma garanaysaa sida loo isticmaalo mashiinkan?"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waan karaa in aan [wado/kariyo/isticmaalo kombiyuutar]",
+      "Waan yaqaan sida aan u [hagaajiyo baabuurta/ku hadlo Carabiga]",
+      "Waan ku fiicanahay [habaynta/qaadista waxyaabaha culus]",
+      "Wali ma [sameeyn] karo, laakiin waan baranayaa",
+      "Ma [sameeyn] kartaa?",
+      "Ma ku fiican tahay ...?",
+      "Wali waan baranayaa sida aan u ..."
+    ],
+    "dialogue": [
+      "Ahmed! Waxaad halkaan joogtay dhawr bilood hadda. Ma ka fikiraysaa inaad shaqo raadsato?",
+      "Haa, waxaan rabaa inaan dhawaan shaqo helo. Laakiin ma garanayo shaqooyinka aan qaban karo.",
+      "Aynu ka fikirono xirfadahaaga. Ma wadi kartaa?",
+      "Haa, waan wadi karaa. Waxaan Soomaaliya waday gaari xamuul ah shan sano.",
+      "Waa hagaag! Taasi waa xirfad dhab ah. Ma isticmaali kartaa kombiyuutar?",
+      "In yar. Waan ogahay sida loo isticmaalo email. Weli waxaan baranayaa barnaamijyada kale.",
+      "Waa hagaag. Maxaad ku fiican tahay? Dadku maxay had iyo jeer kaa weydiistaan inaad ka caawiso?",
+      "Waxaan ku fiicanahay abaabulka iyo qaadista waxyaalaha culus. Sidoo kale waxaan ku fiicanahay inaan si adag u shaqeeyo muddo dheer.",
+      "Ahmed, waxaad leedahay xirfado ka badan inta aad qiyaasaysid. Ma la shaqayn kartaa dad kale koox?",
+      "Haa, waan karaa. Soomaaliya, had iyo jeer waxaan la shaqeeyay koox.",
+      "Haddaba waad diyaar tahay. Wadi kartaa, qaadi kartaa, waxaad la shaqeysaa koox. Waxaad leedahay xirfado!",
+      "Hadda waan fiicnahay. Mahadsanid, Carlos. Waxaan shaqo raadin doonaa usbuucan."
+    ],
+    "vocabulary": [
+      {
+        "definition": "wax aad taqaanid sida loo qabto si fiican",
+        "example": "Taasi waa xirfad dhab ah."
+      },
+      {
+        "definition": "in wax loo qabanqaabiyo si nidaam ah",
+        "example": "Waxaan ku fiicanahay abaabulka."
+      },
+      {
+        "definition": "in wax la qaado",
+        "example": "Waxaan ku fiicanahay qaadista waxyaabaha culus."
+      },
+      {
+        "definition": "koox dad ah oo wada shaqeeya",
+        "example": "Ma la shaqayn kartaa dad kale koox ahaan?"
+      },
+      {
+        "definition": "gaari weyn oo alaab qaada",
+        "example": "Waxaan waday gaari xamuul ah Soomaaliya shan sano."
+      },
+      {
+        "definition": "in hadda wax la baranayo, oo aan weli dhammaan",
+        "example": "Weli waxaan baranayaa barnaamijyo kale."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "skill",
+      "definition": "something you know how to do well",
+      "example": "That's a real skill."
+    },
+    {
+      "word": "organize",
+      "definition": "to arrange things in order",
+      "example": "I'm good at organizing."
+    },
+    {
+      "word": "lift",
+      "definition": "to pick something up",
+      "example": "I'm good at lifting heavy things."
+    },
+    {
+      "word": "team",
+      "definition": "a group of people working together",
+      "example": "Can you work with other people on a team?"
+    },
+    {
+      "word": "truck",
+      "definition": "a large vehicle used to carry goods",
+      "example": "I drove a truck in Somalia for five years."
+    },
+    {
+      "word": "still learning",
+      "definition": "in the process of learning something now, not finished yet",
+      "example": "I'm still learning other programs."
     }
-  }
+  ],
+  "related_grammar": [
+    "modal",
+    "present-simple"
+  ]
 }

@@ -1,95 +1,54 @@
-import { useState, useRef, useEffect } from 'react';
-import { Volume2, Mic, ChevronRight, Check, X } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { ChevronRight, Check, X } from 'lucide-react';
 import { apiFetch } from '../../utils/api';
 
-export function PatternDrill({ drills, onComplete, onRequestHelp }) {
+export function PatternDrill({ drills, lessonTitle, onComplete, onRequestHelp }) {
   const [currentDrill, setCurrentDrill] = useState(0);
   const [currentPrompt, setCurrentPrompt] = useState(0);
   const [promptInput, setPromptInput] = useState('');
   const [promptFeedback, setPromptFeedback] = useState(null);
+  const [drillFeedbackText, setDrillFeedbackText] = useState('');
+  const [checkingAnswer, setCheckingAnswer] = useState(false);
   const [completedPrompts, setCompletedPrompts] = useState({});
-  const [showYourTurn, setShowYourTurn] = useState(false);
-  const [recordings, setRecordings] = useState({});
-  const [isRecording, setIsRecording] = useState(false);
-  const mediaRecorderRef = useRef(null);
-  const audioChunksRef = useRef([]);
+  const [promptsComplete, setPromptsComplete] = useState(false);
   const inputRef = useRef(null);
-  const [pronunciationResult, setPronunciationResult] = useState({})
-  const [isAssessing, setIsAssessing] = useState(false)
-
-  // Clean up blob URLs on unmount to prevent memory leaks
-  useEffect(() => {
-    return () => {
-      Object.values(recordings).forEach(url => URL.revokeObjectURL(url));
-    };
-  }, [recordings]);
 
   const drill = drills[currentDrill];
   const isLastDrill = currentDrill === drills.length - 1;
   const hasPrompts = drill.prompts && drill.prompts.length > 0;
 
-  const startRecording = async () => {
-    const drillIndex = currentDrill;
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mediaRecorder = new MediaRecorder(stream);
-      mediaRecorderRef.current = mediaRecorder;
-      audioChunksRef.current = [];
-
-      mediaRecorder.ondataavailable = (event) => {
-        audioChunksRef.current.push(event.data);
-      };
-
-      mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
-        const audioUrl = URL.createObjectURL(audioBlob);
-        setRecordings({
-          ...recordings,
-          [drillIndex]: audioUrl
-        });
-        stream.getTracks().forEach(track => track.stop());
-
-        const formData = new FormData()
-        formData.append('audio', audioBlob, 'recording.webm')
-        formData.append('language', 'english')
-        formData.append('expected_text', drills[drillIndex].your_turn)
-        setIsAssessing(true)
-        apiFetch('/api/pronunciation/assess', { method: 'POST', body: formData })
-          .then(r => r.json())
-          .then(result => {
-            setPronunciationResult(prev => ({ ...prev, [drillIndex]: result }))
-            setIsAssessing(false)
-          })
-          .catch(() => setIsAssessing(false))
-      };
-
-      mediaRecorder.start();
-      setIsRecording(true);
-    } catch {
-      alert('Could not access microphone. Please check permissions.');
-    }
-  };
-
-  const stopRecording = () => {
-    if (mediaRecorderRef.current && isRecording) {
-      mediaRecorderRef.current.stop();
-      setIsRecording(false);
-    }
-  };
-
-  const playRecording = () => {
-    if (recordings[currentDrill]) {
-      const audio = new Audio(recordings[currentDrill]);
-      audio.play();
-    }
-  };
-
   const normalizePunctuation = (s) =>
     s.trim().toLowerCase().replace(/[.,!?;:'"()-]/g, '').replace(/\s+/g, ' ').trim();
 
-  const handlePromptSubmit = () => {
-    if (!promptInput.trim()) return;
-    const correct = normalizePunctuation(promptInput) === normalizePunctuation(drill.prompts[currentPrompt].answer);
+  const handlePromptSubmit = async () => {
+    if (!promptInput.trim() || checkingAnswer) return;
+    const prompt = drill.prompts[currentPrompt];
+
+    if (prompt.type === 'open') {
+      setPromptFeedback('open');
+      return;
+    }
+
+    if (prompt.type === 'flexible') {
+      setCheckingAnswer(true);
+      try {
+        const res = await apiFetch('/api/drill/assess', {
+          method: 'POST',
+          body: JSON.stringify({ sentence: prompt.sentence, scenario: lessonTitle || '', answer: promptInput }),
+        });
+        const data = await res.json();
+        setDrillFeedbackText(data.feedback || '');
+        setPromptFeedback(data.correct ? 'correct' : 'wrong');
+      } catch {
+        setDrillFeedbackText('');
+        setPromptFeedback('correct'); // don't block the lesson if grading is unreachable
+      } finally {
+        setCheckingAnswer(false);
+      }
+      return;
+    }
+
+    const correct = normalizePunctuation(promptInput) === normalizePunctuation(prompt.answer);
     setPromptFeedback(correct ? 'correct' : 'wrong');
   };
 
@@ -99,9 +58,10 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
     setCompletedPrompts({ ...completedPrompts, [currentDrill]: done });
     setPromptInput('');
     setPromptFeedback(null);
+    setDrillFeedbackText('');
 
     if (nextPrompt >= drill.prompts.length) {
-      setShowYourTurn(true);
+      setPromptsComplete(true);
     } else {
       setCurrentPrompt(nextPrompt);
       setTimeout(() => inputRef.current?.focus(), 50);
@@ -126,7 +86,8 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
       setCurrentPrompt(0);
       setPromptInput('');
       setPromptFeedback(null);
-      setShowYourTurn(false);
+      setDrillFeedbackText('');
+      setPromptsComplete(false);
     }
   };
 
@@ -176,7 +137,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         <p className="text-blue-800 dark:text-blue-300 mb-4">{drill.instruction}</p>
 
         {/* Interactive prompts mode */}
-        {hasPrompts && !showYourTurn && (
+        {hasPrompts && !promptsComplete && (
           <div>
             {/* Prompt progress */}
             <div className="flex items-center gap-2 mb-4">
@@ -199,13 +160,16 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
               </div>
             </div>
 
-            {/* Sentence with blank */}
+            {/* Sentence with blank, or open question */}
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border border-blue-200 dark:border-blue-700 mb-4 text-center">
-              {renderSentence(
-                drill.prompts[currentPrompt].sentence,
-                drill.prompts[currentPrompt].answer,
-                promptFeedback === 'correct'
-              )}
+              {drill.prompts[currentPrompt].type === 'open'
+                ? <span className="text-xl text-gray-900 dark:text-white">{drill.prompts[currentPrompt].question}</span>
+                : renderSentence(
+                    drill.prompts[currentPrompt].sentence,
+                    drill.prompts[currentPrompt].type === 'flexible' ? promptInput : drill.prompts[currentPrompt].answer,
+                    promptFeedback === 'correct'
+                  )
+              }
             </div>
 
             {/* Input and submit */}
@@ -217,33 +181,54 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                   value={promptInput}
                   onChange={(e) => setPromptInput(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Type the missing word..."
+                  placeholder={drill.prompts[currentPrompt].type === 'open' ? 'Write your answer...' : 'Type the missing word...'}
                   autoFocus
                   className="min-w-0 flex-1 px-4 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none text-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
                 />
                 <button
                   onClick={handlePromptSubmit}
-                  disabled={!promptInput.trim()}
+                  disabled={!promptInput.trim() || checkingAnswer}
                   className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Check
+                  {checkingAnswer ? 'Checking...' : 'Check'}
                 </button>
               </div>
             )}
 
             {/* Feedback */}
+            {promptFeedback === 'open' && (
+              <div className="bg-blue-50 dark:bg-blue-900/20 border-2 border-blue-300 dark:border-blue-700 rounded-lg p-4 mb-4">
+                <p className="text-sm text-blue-900 dark:text-blue-300 mb-1">
+                  <span className="font-semibold">Your answer:</span> {promptInput}
+                </p>
+                <p className="text-sm text-blue-700 dark:text-blue-400 italic">
+                  Example answer: {drill.prompts[currentPrompt].model_answer}
+                </p>
+                <button
+                  onClick={handlePromptNext}
+                  autoFocus
+                  className="mt-3 px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                >
+                  {currentPrompt + 1 >= drill.prompts.length ? 'Finish' : 'Next'}
+                </button>
+              </div>
+            )}
+
             {promptFeedback === 'correct' && (
               <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-300 dark:border-green-700 rounded-lg p-4 mb-4">
                 <div className="flex items-center gap-2 mb-1">
                   <Check className="w-6 h-6 text-green-600" />
                   <span className="font-bold text-green-800 dark:text-green-300 text-lg">Correct!</span>
                 </div>
+                {drillFeedbackText && (
+                  <p className="text-green-700 dark:text-green-400 text-sm">{drillFeedbackText}</p>
+                )}
                 <button
                   onClick={handlePromptNext}
                   autoFocus
                   className="mt-2 px-6 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors"
                 >
-                  {currentPrompt + 1 >= drill.prompts.length ? 'Continue to Your Turn' : 'Next'}
+                  {currentPrompt + 1 >= drill.prompts.length ? 'Finish' : 'Next'}
                 </button>
               </div>
             )}
@@ -255,14 +240,17 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
                   <span className="font-bold text-red-800 dark:text-red-300 text-lg">Not quite</span>
                 </div>
                 <p className="text-red-700 dark:text-red-400">
-                  The correct answer is: <strong>{drill.prompts[currentPrompt].answer}</strong>
+                  {drill.prompts[currentPrompt].type === 'flexible'
+                    ? (drillFeedbackText || "That doesn't quite fit — try again next time.")
+                    : <>The correct answer is: <strong>{drill.prompts[currentPrompt].answer}</strong></>
+                  }
                 </p>
                 <button
                   onClick={handlePromptNext}
                   autoFocus
                   className="mt-2 px-6 py-2 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-colors"
                 >
-                  {currentPrompt + 1 >= drill.prompts.length ? 'Continue to Your Turn' : 'Next'}
+                  {currentPrompt + 1 >= drill.prompts.length ? 'Finish' : 'Next'}
                 </button>
               </div>
             )}
@@ -270,83 +258,13 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         )}
 
         {/* Passive mode fallback (no prompts) — show examples list */}
-        {!hasPrompts && !showYourTurn && (
+        {!hasPrompts && (
           <div className="space-y-3 mb-6">
             {drill.examples.map((example, idx) => (
               <div key={idx} className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-blue-200 dark:border-blue-700">
                 <p className="text-gray-800 dark:text-gray-200 font-medium">{example}</p>
               </div>
             ))}
-          </div>
-        )}
-
-        {/* Your Turn section */}
-        {(showYourTurn || !hasPrompts) && (
-          <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-200 dark:border-green-700 rounded-lg p-4">
-            <p className="font-semibold text-green-900 dark:text-green-200 mb-3">Your Turn: {drill.your_turn}</p>
-            <p className="text-sm text-green-800 dark:text-green-300 mb-4">
-              Record yourself saying this{drill.repetitions > 1 ? ` ${drill.repetitions} times` : ''}.
-            </p>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <button
-                onClick={() => {
-                  if (isRecording) {
-                    stopRecording();
-                  } else {
-                    startRecording();
-                  }
-                }}
-                className={`min-w-0 flex-1 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 ${
-                  isRecording
-                    ? 'bg-red-500 text-white hover:bg-red-600'
-                    : recordings[currentDrill]
-                    ? 'bg-green-500 text-white hover:bg-green-600'
-                    : 'bg-blue-600 text-white hover:bg-blue-700'
-                }`}
-              >
-                <Mic className="w-5 h-5" />
-                {isRecording ? 'Stop Recording' : recordings[currentDrill] ? 'Recorded' : 'Start Recording'}
-              </button>
-
-              {recordings[currentDrill] && (
-                <button
-                  onClick={playRecording}
-                  className="px-6 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition-colors flex items-center gap-2"
-                >
-                  <Volume2 className="w-5 h-5" />
-                  Playback
-                </button>
-              )}
-            </div>
-
-            {isAssessing && (
-              <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 animate-pulse">Assessing pronunciation...</p>
-            )}
-            {pronunciationResult[currentDrill] && !isAssessing && (
-              <div className="mt-4 p-3 bg-white dark:bg-gray-800 border border-green-200 dark:border-green-700 rounded-lg">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="text-lg font-bold text-gray-900 dark:text-white">
-                    {pronunciationResult[currentDrill].overall_score}/100
-                  </span>
-                  <span className="text-sm text-gray-700 dark:text-gray-300">
-                    {pronunciationResult[currentDrill].feedback}
-                  </span>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {pronunciationResult[currentDrill].word_scores?.map((w, i) => (
-                    <span
-                      key={i}
-                      className={`text-xs px-2 py-1 rounded-full font-medium ${
-                        w.correct ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
-                      }`}
-                    >
-                      {w.expected} ({w.score}%)
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         )}
       </div>
@@ -359,7 +277,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
               setCurrentPrompt(0);
               setPromptInput('');
               setPromptFeedback(null);
-              setShowYourTurn(false);
+              setPromptsComplete(false);
             }}
             className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
@@ -368,7 +286,7 @@ export function PatternDrill({ drills, onComplete, onRequestHelp }) {
         )}
         <button
           onClick={nextDrill}
-          disabled={hasPrompts ? !showYourTurn : !recordings[currentDrill]}
+          disabled={hasPrompts && !promptsComplete}
           className="flex-1 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
           {isLastDrill ? 'Complete Drills' : 'Next Drill'}

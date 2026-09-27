@@ -114,19 +114,19 @@
       "prompts": [
         {
           "sentence": "Can I have ___?",
-          "answer": "milk"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have ___?",
-          "answer": "bread"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have ___?",
-          "answer": "eggs"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have ___?",
-          "answer": "water"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -145,19 +145,19 @@
       "prompts": [
         {
           "sentence": "Do you have ___?",
-          "answer": "milk"
+          "type": "flexible"
         },
         {
           "sentence": "Do you have ___?",
-          "answer": "bread"
+          "type": "flexible"
         },
         {
           "sentence": "Do you have ___?",
-          "answer": "apples"
+          "type": "flexible"
         },
         {
           "sentence": "Do you have ___?",
-          "answer": "coffee"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -176,19 +176,19 @@
       "prompts": [
         {
           "sentence": "How much is ___?",
-          "answer": "this"
+          "type": "flexible"
         },
         {
           "sentence": "How much is the ___?",
-          "answer": "milk"
+          "type": "flexible"
         },
         {
           "sentence": "How much is the ___?",
-          "answer": "bread"
+          "type": "flexible"
         },
         {
           "sentence": "How much are the ___?",
-          "answer": "eggs"
+          "type": "flexible"
         }
       ],
       "examples": [

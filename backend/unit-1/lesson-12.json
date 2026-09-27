@@ -127,19 +127,19 @@
       "prompts": [
         {
           "sentence": "There is a ___!",
-          "answer": "fire"
+          "type": "flexible"
         },
         {
           "sentence": "There is an ___!",
-          "answer": "accident"
+          "type": "flexible"
         },
         {
           "sentence": "Someone is ___!",
-          "answer": "hurt"
+          "type": "flexible"
         },
         {
           "sentence": "Someone is ___!",
-          "answer": "sick"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -158,19 +158,19 @@
       "prompts": [
         {
           "sentence": "I need an ___.",
-          "answer": "ambulance"
+          "type": "flexible"
         },
         {
           "sentence": "I need the ___.",
-          "answer": "police"
+          "type": "flexible"
         },
         {
           "sentence": "I need the ___ department.",
-          "answer": "fire"
+          "type": "flexible"
         },
         {
           "sentence": "Please call ___.",
-          "answer": "911"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -189,19 +189,19 @@
       "prompts": [
         {
           "sentence": "My ___ is 250 Oak Street.",
-          "answer": "address"
+          "type": "flexible"
         },
         {
           "sentence": "I am on the fourth ___.",
-          "answer": "floor"
+          "type": "flexible"
         },
         {
           "sentence": "I am in ___ 4B.",
-          "answer": "apartment"
+          "type": "flexible"
         },
         {
           "sentence": "I am at the ___ on Main Street.",
-          "answer": "store"
+          "type": "flexible"
         }
       ],
       "examples": [

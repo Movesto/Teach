@@ -123,19 +123,19 @@
       "prompts": [
         {
           "sentence": "It is ___ today.",
-          "answer": "hot"
+          "type": "flexible"
         },
         {
           "sentence": "It is ___ today.",
-          "answer": "cold"
+          "type": "flexible"
         },
         {
           "sentence": "It is ___ today.",
-          "answer": "sunny"
+          "type": "flexible"
         },
         {
           "sentence": "It is ___ outside.",
-          "answer": "cloudy"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -154,19 +154,19 @@
       "prompts": [
         {
           "sentence": "It is ___.",
-          "answer": "raining"
+          "type": "flexible"
         },
         {
           "sentence": "It is ___.",
-          "answer": "snowing"
+          "type": "flexible"
         },
         {
           "sentence": "It is going to ___.",
-          "answer": "rain"
+          "type": "flexible"
         },
         {
           "sentence": "It is getting ___.",
-          "answer": "cold"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -185,19 +185,19 @@
       "prompts": [
         {
           "sentence": "You need a ___.",
-          "answer": "jacket"
+          "type": "flexible"
         },
         {
           "sentence": "You need an ___.",
-          "answer": "umbrella"
+          "type": "flexible"
         },
         {
           "sentence": "You need a ___.",
-          "answer": "hat"
+          "type": "flexible"
         },
         {
           "sentence": "You need ___.",
-          "answer": "boots"
+          "type": "flexible"
         }
       ],
       "examples": [

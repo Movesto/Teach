@@ -110,19 +110,19 @@
       "prompts": [
         {
           "sentence": "Turn ___.",
-          "answer": "left"
+          "type": "flexible"
         },
         {
           "sentence": "Turn ___.",
-          "answer": "right"
+          "type": "flexible"
         },
         {
           "sentence": "Go ___.",
-          "answer": "straight"
+          "type": "flexible"
         },
         {
           "sentence": "Walk two ___.",
-          "answer": "blocks"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -141,19 +141,19 @@
       "prompts": [
         {
           "sentence": "It's on the ___.",
-          "answer": "left"
+          "type": "flexible"
         },
         {
           "sentence": "It's on the ___.",
-          "answer": "right"
+          "type": "flexible"
         },
         {
           "sentence": "It's ___ to the bank.",
-          "answer": "next"
+          "type": "flexible"
         },
         {
           "sentence": "It's ___ from the store.",
-          "answer": "across"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -172,19 +172,19 @@
       "prompts": [
         {
           "sentence": "Go straight, then turn ___.",
-          "answer": "left"
+          "type": "flexible"
         },
         {
           "sentence": "Turn right at the ___.",
-          "answer": "corner"
+          "type": "flexible"
         },
         {
           "sentence": "Walk two blocks and turn ___.",
-          "answer": "left"
+          "type": "flexible"
         },
         {
           "sentence": "It's on the right, ___ to the bank.",
-          "answer": "next"
+          "type": "flexible"
         }
       ],
       "examples": [

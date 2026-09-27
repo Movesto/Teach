@@ -269,7 +269,27 @@
           "I study at university"
         ],
         "question": "What does 'What do you do?' mean?",
-        "explanation": "'What do you do?' is asking about your job or studies. It's a very common question when meeting new people."
+        "explanation": "'What do you do?' is asking about your job or studies. It's a very common question when meeting new people.",
+        "practice": [
+          {
+            "sentence": "What ___ you do?",
+            "blank": "do",
+            "options": [
+              "do",
+              "does",
+              "are"
+            ]
+          },
+          {
+            "sentence": "I ___ a driver.",
+            "blank": "am",
+            "options": [
+              "am",
+              "is",
+              "are"
+            ]
+          }
+        ]
       },
       {
         "title": "Present Simple: -s with he/she",
@@ -280,7 +300,27 @@
           "It starts (add -s)"
         ],
         "question": "When do we add -s to verbs?",
-        "explanation": "We add -s (or -es/-ies) to verbs when the subject is he, she, or it. This is a very important rule in English."
+        "explanation": "We add -s (or -es/-ies) to verbs when the subject is he, she, or it. This is a very important rule in English.",
+        "practice": [
+          {
+            "sentence": "She ___ at City Hospital.",
+            "blank": "works",
+            "options": [
+              "works",
+              "work",
+              "working"
+            ]
+          },
+          {
+            "sentence": "He ___ every day.",
+            "blank": "works",
+            "options": [
+              "works",
+              "work",
+              "working"
+            ]
+          }
+        ]
       },
       {
         "title": "Work at vs Work in",
@@ -291,7 +331,27 @@
           "I work in sales (general department)"
         ],
         "question": "What's the difference?",
-        "explanation": "We usually use 'at' for specific places/companies and 'in' for fields, departments, or general areas."
+        "explanation": "We usually use 'at' for specific places/companies and 'in' for fields, departments, or general areas.",
+        "practice": [
+          {
+            "sentence": "I work ___ City Hospital.",
+            "blank": "at",
+            "options": [
+              "at",
+              "in",
+              "for"
+            ]
+          },
+          {
+            "sentence": "I work ___ healthcare.",
+            "blank": "in",
+            "options": [
+              "in",
+              "at",
+              "for"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -418,15 +478,117 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'What do you do?' waxay waydiinaysaa shaqadaada ama waxbarashadaada. Waa su'aal aad u caadi ah marka aad dad cusub la kulanto."
+          "explanation": "'What do you do?' waxay waydiinaysaa shaqadaada ama waxbarashadaada. Waa su'aal aad u caadi ah marka aad dad cusub la kulanto.",
+          "examples": [
+            "Maxaad qabataa? = Waa maxay shaqadaadu?",
+            "Waxaan ahay macallin",
+            "Waxaan u shaqeeyaa kalkaaliye",
+            "Waxaan wax ku bartaa jaamacadda"
+          ]
         },
         {
-          "explanation": "Falka waxaan ku darnaa -s (ama -es/-ies) marka mawduucu yahay he, she, ama it. Kani waa qaanuun aad muhiim ugu ah Ingiriisiga."
+          "explanation": "Falka waxaan ku darnaa -s (ama -es/-ies) marka mawduucu yahay he, she, ama it. Kani waa qaanuun aad muhiim ugu ah Ingiriisiga.",
+          "examples": [
+            "I work ( -s la'aan)",
+            "He works ( -s ku dar)",
+            "She studies (y beddel ies)",
+            "It starts ( -s ku dar)"
+          ]
         },
         {
-          "explanation": "Caadi ahaan 'at' waxaan u isticmaalnaa meelo/shirkado gaar ah, 'in'-na waaxaha iyo goobaha guud."
+          "explanation": "Caadi ahaan 'at' waxaan u isticmaalnaa meelo/shirkado gaar ah, 'in'-na waaxaha iyo goobaha guud.",
+          "examples": [
+            "Waxaan ka shaqeeyaa isbitaal (meel gaar ah).",
+            "Waxaan ka shaqeeyaa daryeelka caafimaadka (heer guud).",
+            "Waxaan ka shaqeeyaa Nike (shirkad gaar ah).",
+            "Waxaan ka shaqeeyaa iibka (qayb guud)."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Shaqadaadu waa maxay?",
+      "Waxaan ahay [shaqo]",
+      "Waxaan ka shaqeeyaa [meel]",
+      "Waxaan wax ku bartaa [dugsi]",
+      "Waa maxay shaqadiisa/shaqadeeda?",
+      "Wuxuu u shaqeeyaa / Waxay u shaqeysaa [shaqo]",
+      "Xaggee ka shaqaysaa?"
+    ],
+    "dialogue": [
+      "Hi! Waxaan ahay Sarah. Waxaan dhowaan u guuray guriga ku xiga.",
+      "Hi Sarah! Waxaan ahay Ahmed. Waan ku faraxsanahay.",
+      "Waan ku faraxsanahay sidoo kale. Maxaad ka shaqeysaa?",
+      "Waxaan ahay darawal. Waxaan u shaqeeyaa shirkad gaarsiin. Adiga?",
+      "Waxaan ahay kalkaliye. Waxaan ka shaqeeyaa Isbitaalka Magaalada.",
+      "Oh, taasi waa wax weyn! Ma jeceshahay shaqadaada?",
+      "Haa, waan jeclahay. Waa shaqo adag, laakiin waxaan jeclahay inaan caawiyo dadka.",
+      "Waa wax fiican. Saacad intee ayaad shaqada ka bilowdaa?",
+      "Waxaan ka bilaabaa 7 subaxnimo. Waxaan shaqeeyaa xilliga subax. Adiga?",
+      "Waxaan ka bilaabaa 9 subaxnimo waxaana dhammeeyaa 6 galabnimo."
+    ],
+    "vocabulary": [
+      {
+        "definition": "wuxuu bilaabay inuu ku noolaado guri cusub",
+        "example": "Waxaan dhowaan u guuray guriga ku xiga."
+      },
+      {
+        "definition": "qof shaqadiisu tahay wadista gaari",
+        "example": "Waxaan ahay darawal."
+      },
+      {
+        "definition": "ganacsi xirmo u keena dadka",
+        "example": "Waxaan u shaqeeyaa shirkad gaarsiinta."
+      },
+      {
+        "definition": "qof daryeela dadka buka ee isbitaalka",
+        "example": "Waxaan ahay kalkaaliso."
+      },
+      {
+        "definition": "waqti go'an oo shaqo ah",
+        "example": "Waxaan shaqeeyaa shifta subaxa."
+      },
+      {
+        "definition": "in la joojiyo shaqada; dhamaadka waqtiga shaqada",
+        "example": "Waxaan bilaabaa 9 subaxnimo, waxaana dhameeyaa 6 galabnimo."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "moved in",
+      "definition": "started living in a new home",
+      "example": "I just moved in next door."
+    },
+    {
+      "word": "driver",
+      "definition": "a person whose job is driving a vehicle",
+      "example": "I am a driver."
+    },
+    {
+      "word": "delivery company",
+      "definition": "a business that brings packages to people",
+      "example": "I work for a delivery company."
+    },
+    {
+      "word": "nurse",
+      "definition": "a person who takes care of sick people at a hospital",
+      "example": "I am a nurse."
+    },
+    {
+      "word": "shift",
+      "definition": "a set block of work hours",
+      "example": "I work the morning shift."
+    },
+    {
+      "word": "finish",
+      "definition": "to stop working; the end of your work time",
+      "example": "I start at 9 AM and finish at 6 PM."
     }
-  }
+  ],
+  "related_grammar": [
+    "present-simple",
+    "question",
+    "preposition"
+  ]
 }

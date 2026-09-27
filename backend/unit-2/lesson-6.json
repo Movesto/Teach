@@ -274,7 +274,27 @@
           "It's cold this morning."
         ],
         "question": "Why is weather such a common topic?",
-        "explanation": "In English-speaking cultures, weather is a safe, neutral topic to start conversations. It's polite small talk before deeper conversation. Everyone experiences weather, so it's easy to relate to."
+        "explanation": "In English-speaking cultures, weather is a safe, neutral topic to start conversations. It's polite small talk before deeper conversation. Everyone experiences weather, so it's easy to relate to.",
+        "practice": [
+          {
+            "sentence": "The weather ___ beautiful today.",
+            "blank": "is",
+            "options": [
+              "is",
+              "was",
+              "are"
+            ]
+          },
+          {
+            "sentence": "It's a nice day, ___ it?",
+            "blank": "isn't",
+            "options": [
+              "isn't",
+              "doesn't",
+              "wasn't"
+            ]
+          }
+        ]
       },
       {
         "title": "Past Simple for past events",
@@ -285,7 +305,27 @@
           "What did you do? (do → did)"
         ],
         "question": "How do we talk about the past?",
-        "explanation": "For completed past actions, we use Past Simple. Many common verbs are irregular (went, saw, had). In questions, we use 'did' + base verb."
+        "explanation": "For completed past actions, we use Past Simple. Many common verbs are irregular (went, saw, had). In questions, we use 'did' + base verb.",
+        "practice": [
+          {
+            "sentence": "I ___ to the park yesterday.",
+            "blank": "went",
+            "options": [
+              "went",
+              "go",
+              "goes"
+            ]
+          },
+          {
+            "sentence": "I ___ a movie.",
+            "blank": "watched",
+            "options": [
+              "watched",
+              "watch",
+              "watches"
+            ]
+          }
+        ]
       },
       {
         "title": "Keeping conversation going",
@@ -296,7 +336,27 @@
           "Cool! Tell me more. (encouraging)"
         ],
         "question": "How do we keep conversations flowing?",
-        "explanation": "Good conversations involve: asking back ('How about you?'), showing interest ('That sounds fun!'), and asking follow-up questions. This shows you're listening and engaged."
+        "explanation": "Good conversations involve: asking back ('How about you?'), showing interest ('That sounds fun!'), and asking follow-up questions. This shows you're listening and engaged.",
+        "practice": [
+          {
+            "sentence": "How ___ you?",
+            "blank": "about",
+            "options": [
+              "about",
+              "are",
+              "is"
+            ]
+          },
+          {
+            "sentence": "That sounds ___!",
+            "blank": "fun",
+            "options": [
+              "fun",
+              "funny",
+              "funniest"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -423,15 +483,117 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Dhaqamada Ingiriisiga lagu hadlo, cimiladu waa mawduuc ammaan ah oo dhexdhexaad ah oo sheekada lagu bilaabo. Waa sheeko fudud oo edeb leh ka hor wada-hadal qoto dheer. Qof walba cimilada wuu la kulmaa, sidaas darteed way fudud tahay in laga sheekaysto."
+          "explanation": "Dhaqamada Ingiriisiga lagu hadlo, cimiladu waa mawduuc ammaan ah oo dhexdhexaad ah oo sheekada lagu bilaabo. Waa sheeko fudud oo edeb leh ka hor wada-hadal qoto dheer. Qof walba cimilada wuu la kulmaa, sidaas darteed way fudud tahay in laga sheekaysto.",
+          "examples": [
+            "Maanta waa kulul, sow ma aha?",
+            "Cimilo fiican!",
+            "Subaxaan waa qabow."
+          ]
         },
         {
-          "explanation": "Falalka dhammaystiran ee la soo dhaafay, waxaan isticmaalnaa Past Simple. Falal badan oo caadi ah qaanuun ma laha (went, saw, had). Su'aalaha, waxaan isticmaalnaa 'did' + falka aasaasiga ah."
+          "explanation": "Falalka dhammaystiran ee la soo dhaafay, waxaan isticmaalnaa Past Simple. Falal badan oo caadi ah qaanuun ma laha (went, saw, had). Su'aalaha, waxaan isticmaalnaa 'did' + falka aasaasiga ah.",
+          "examples": [
+            "Waxaan aaday beerta (go → went)",
+            "Waxaan arkay filim (see → saw)",
+            "Waxaan cunay casho (have → had)",
+            "Maxaad sameysay? (do → did)"
+          ]
         },
         {
-          "explanation": "Sheekooyinka wanaagsan waxay leeyihiin: dib u waydiin ('How about you?'), xiiso muujin ('That sounds fun!'), iyo su'aalo dabagal ah. Tani waxay muujinaysaa inaad dhegaysanayso oo aad danaynayso."
+          "explanation": "Sheekooyinka wanaagsan waxay leeyihiin: dib u waydiin ('How about you?'), xiiso muujin ('That sounds fun!'), iyo su'aalo dabagal ah. Tani waxay muujinaysaa inaad dhegaysanayso oo aad danaynayso.",
+          "examples": [
+            "How about you? (dib u weydiin)",
+            "That sounds fun! (xiiso muujin)",
+            "What did you watch? (su'aal daba socota)",
+            "Cool! Tell me more. (dhiirigelin)"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Sidee tahay? / Iska warran?",
+      "Wiikend-kii / usbuucii sidee ahaa?",
+      "Maanta waa [kulul/qabow/fiican/roob]",
+      "Maxaad samaysay [wiikendkan/shalay]?",
+      "Taasi waa [madadaalo/fiican/xiiso leh]!",
+      "Adiguna?",
+      "Maalin/wiikend wanaagsan!"
+    ],
+    "dialogue": [
+      "Subax wanaagsan! Sidee tahay?",
+      "Subax wanaagsan! Waan fiicanahay, mahadsanid. Adigu sidee tahay?",
+      "Waan fiicanahay. Maanta waa maalin fiican, sow ma aha?",
+      "Haa! Cimiladu waa qurux badan tahay. Kuma kululayn.",
+      "Dhammaadkii usbuuca sidee ahaa?",
+      "Waa fiicnaa! Waxaan qoyskayga la tegey jardiinada. Adiga sidee ahaa?",
+      "Taasi waa fiicantahay! Waxaan joogay guriga oo waxaan daawaday filimo. Waxay ahayd nasasho.",
+      "Taasi waa madadaalo! Filimo sidee baad daawatay?",
+      "Waxaan daawaday filim majaajillo cusub. Runtiiba waa qosol badnaa!",
+      "Waa fiican! Hagaag, maalin wanaagsan!",
+      "Mahadsanid! Adigana!"
+    ],
+    "vocabulary": [
+      {
+        "definition": "xaaladda bannaanka, sida kulayl, qabow, ama roob",
+        "example": "Cimiladu way qurux badan tahay."
+      },
+      {
+        "definition": "degan oo nasasho leh",
+        "example": "Waxay ahayd nasasho leh."
+      },
+      {
+        "definition": "filim ama bandhig qosol leh",
+        "example": "Waxaan daawaday majaajillo cusub."
+      },
+      {
+        "definition": "wax kaa qosliya",
+        "example": "Runtii aad bay u qoslaysay!"
+      },
+      {
+        "definition": "ma bixin; guriga ayuu ku hadhay",
+        "example": "Waxaan joogay guriga oo waxaan daawaday filimo."
+      },
+      {
+        "definition": "aad u qurux badan oo la eego ama la arko",
+        "example": "Cimiladu way qurux badan tahay."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "weather",
+      "definition": "the condition outside, like hot, cold, or rainy",
+      "example": "The weather is beautiful."
+    },
+    {
+      "word": "relaxing",
+      "definition": "calm and restful",
+      "example": "It was relaxing."
+    },
+    {
+      "word": "comedy",
+      "definition": "a funny movie or show",
+      "example": "I watched a new comedy."
+    },
+    {
+      "word": "funny",
+      "definition": "making you laugh",
+      "example": "It was really funny!"
+    },
+    {
+      "word": "stayed home",
+      "definition": "didn't go out; remained at home",
+      "example": "I stayed home and watched movies."
+    },
+    {
+      "word": "beautiful",
+      "definition": "very nice to look at or experience",
+      "example": "The weather is beautiful."
     }
-  }
+  ],
+  "related_grammar": [
+    "past-simple",
+    "question",
+    "adjective"
+  ]
 }

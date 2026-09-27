@@ -281,7 +281,27 @@
           "have → had ✗ NOT haved (irregular!)"
         ],
         "question": "Why do some verbs change completely in the past?",
-        "explanation": "English has many irregular past tense verbs. These must be memorized — there is no pattern. Common work verbs: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Regular verbs simply add -ed: work→worked, organize→organized, deliver→delivered."
+        "explanation": "English has many irregular past tense verbs. These must be memorized — there is no pattern. Common work verbs: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Regular verbs simply add -ed: work→worked, organize→organized, deliver→delivered.",
+        "practice": [
+          {
+            "sentence": "I ___ as a driver. (regular verb)",
+            "blank": "worked",
+            "options": [
+              "worked",
+              "work",
+              "working"
+            ]
+          },
+          {
+            "sentence": "I ___ a truck. (irregular verb: drive)",
+            "blank": "drove",
+            "options": [
+              "drove",
+              "drived",
+              "driven"
+            ]
+          }
+        ]
       },
       {
         "title": "USED TO — past habit, not present",
@@ -293,7 +313,58 @@
           "She used to teach. (She was a teacher — no longer)"
         ],
         "question": "When do we use 'used to' instead of simple past?",
-        "explanation": "'Used to' is for habits or states that were true in the past but are NOT true now. It signals a contrast between then and now. 'I used to drive a truck' means: I drove trucks regularly in the past, but I do not drive trucks anymore (now I am here looking for work). It is very useful when talking to employers about your experience in your home country."
+        "explanation": "'Used to' is for habits or states that were true in the past but are NOT true now. It signals a contrast between then and now. 'I used to drive a truck' means: I drove trucks regularly in the past, but I do not drive trucks anymore (now I am here looking for work). It is very useful when talking to employers about your experience in your home country.",
+        "practice": [
+          {
+            "sentence": "I ___ to drive every day.",
+            "blank": "used",
+            "options": [
+              "used",
+              "use",
+              "using"
+            ]
+          },
+          {
+            "sentence": "I used to drive, but now I ___.",
+            "blank": "don't",
+            "options": [
+              "don't",
+              "doesn't",
+              "not"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Saying How Long",
+        "examples": [
+          "I worked there for five years.",
+          "I was a driver from 2017 to 2022.",
+          "I have five years of experience.",
+          "I lived there for two years."
+        ],
+        "question": "How do we say how long we did something, or when we started and finished?",
+        "explanation": "Use 'for + [amount of time]' to say a length of time (for five years). Use 'from + [start] to + [end]' to say exact dates or years (from 2017 to 2022).",
+        "practice": [
+          {
+            "sentence": "I worked there ___ five years.",
+            "blank": "for",
+            "options": [
+              "for",
+              "from",
+              "since"
+            ]
+          },
+          {
+            "sentence": "I was a driver from 2017 ___ 2022.",
+            "blank": "to",
+            "options": [
+              "to",
+              "for",
+              "at"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -420,12 +491,119 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "Ingiriisigu wuxuu leeyahay falal badan oo past tense ah oo aan qaanuun lahayn. Kuwan waa in la xafido — qaanuun ma jiro. Falalka shaqada ee caadiga ah: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Falalka qaanuunka leh waxay ku daraan -ed keliya: work→worked, organize→organized, deliver→delivered."
+          "explanation": "Ingiriisigu wuxuu leeyahay falal badan oo past tense ah oo aan qaanuun lahayn. Kuwan waa in la xafido — qaanuun ma jiro. Falalka shaqada ee caadiga ah: drive→drove, teach→taught, have→had, be→was/were, make→made, come→came, sell→sold, build→built. Falalka qaanuunka leh waxay ku daraan -ed keliya: work→worked, organize→organized, deliver→delivered.",
+          "examples": [
+            "work → worked ✓ (joogto: ku dar -ed)",
+            "clean → cleaned ✓ (joogto: ku dar -ed)",
+            "drive → drove ✗ ma aha drived (aan joogto ahayn!)",
+            "teach → taught ✗ ma aha teached (aan joogto ahayn!)",
+            "be → was/were ✗ ma aha beed (aan joogto ahayn!)",
+            "have → had ✗ ma aha haved (aan joogto ahayn!)"
+          ]
         },
         {
-          "explanation": "'Used to' waxaa loo isticmaalaa caadooyin ama xaalado waagii hore run ahaa laakiin HADDA aan run ahayn. Waxay muujinaysaa isbeddel u dhexeeya waagaas iyo hadda. 'I used to drive a truck' waxay ka dhigan tahay: waagii hore si joogto ah ayaan gaadhi weyn u wadi jiray, laakiin hadda ma wado. Aad bay faa'iido u leedahay markaad shaqo-bixiyayaasha kala hadlayso khibraddaadii dalkaagii hooyo."
+          "explanation": "'Used to' waxaa loo isticmaalaa caadooyin ama xaalado waagii hore run ahaa laakiin HADDA aan run ahayn. Waxay muujinaysaa isbeddel u dhexeeya waagaas iyo hadda. 'I used to drive a truck' waxay ka dhigan tahay: waagii hore si joogto ah ayaan gaadhi weyn u wadi jiray, laakiin hadda ma wado. Aad bay faa'iido u leedahay markaad shaqo-bixiyayaasha kala hadlayso khibraddaadii dalkaagii hooyo.",
+          "examples": [
+            "Waxaan gaari wadi jiray. (Waan waday horay, laakiin hadda ma wado)",
+            "Waxaan wadaa gaari. (Waxaan hadda wadaa — wakhtiga hadda)",
+            "Waxaan waday gaari. (Waxaan waday waqti gaar ah oo tagay)",
+            "Waxaan shaqayn jiray habeenkii. (Waa caado joogto ah oo aan hore u lahaa)",
+            "Waxay dhigi jirtay. (Waxay ahayd macallimad — mar dambe ma aha)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'for + [amount of time]' si aad u sheegto muddada (tusaale: for five years). Isticmaal 'from + [start] to + [end]' si aad u sheegto taariikh ama sano sax ah (tusaale: from 2017 to 2022).",
+          "examples": [
+            "Waxaan halkaas ka shaqeeyay shan sano.",
+            "Waxaan ahaa darawal intii u dhaxaysay 2017 ilaa 2022.",
+            "Waxaan leeyahay shan sano oo khibrad ah.",
+            "Waxaan halkaas ku noolaa laba sano."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waxaan shaqeeyay [job] muddo [time] ah",
+      "Waxaan ahaa [job] laga bilaabo [year] ilaa [year]",
+      "Waxaan [work/drive/teach] jiray",
+      "Ka hor intaan halkan iman, waxaan ...",
+      "Shaqadaydii ugu dambeysay waxay ahayd ...",
+      "Waxaan ka tagay sababtoo ah ...",
+      "Waxaan haystaa [X] sano oo khibrad ah oo ku saabsan [field]"
+    ],
+    "dialogue": [
+      "Subax wanaagsan, Ahmed. Maanta waan ku caawin doonaa. Aan ku bilowno taariikhda shaqadaada. Maxay ahayd shaqadaadii Soomaaliya?",
+      "Waxaan shan sano ka shaqeeyay darawalnimo gaarsiin. Waxaan maalin kasta wadi jiray gaari weyn.",
+      "Waa hagaag. Ka hor intaas? Ma shaqooyin kale qabtay?",
+      "Haa. Ka hor intaan darawal ahaa, waxaan laba sano ka shaqeeyay bakhaar. Waxaan habeeyay sanduuqyada waxaana tirin jiray alaabta.",
+      "Taasi waa khibrad aad u fiican. Sidee ku dhahdaa markaad bilowday iyo markaad dhammeysay?",
+      "Waxaan darawal ahaa laga bilaabo 2017 ilaa 2022. Ka dib waxaan imid Maraykanka.",
+      "Waa sax. Hadda, maxaad uga tagtay shaqadaadii ugu dambaysay?",
+      "Waxaan ka tagay sababtoo ah qoyskaygu halkan yimid. Dhibku shaqada kuma jirin. Qofkii i shaqaysiiyay ayaa jeclaa shaqadayda.",
+      "Taasi waa muhiim in si cad loo dhaho. 'I left because my family moved to the U.S.' — taasi waa jawaab aad u fiican. Maxaad halkaas ku qaban jirtay oo aad halkan rabto inaad ku qabato?",
+      "Waxaan maalin kasta wadi jiray, waana jeclaa. Waxaan rabaa inaan halkan mar kale darawal noqdo. Waxaan haystaa shan sano oo khibrad ah.",
+      "Sheekadaada si fiican baad u sheegtay, Ahmed. Khibradaas waa qiimo leh. Aan ku qorno arjigaaga."
+    ],
+    "vocabulary": [
+      {
+        "definition": "diiwaanka shaqooyinka aad horey u qabtay",
+        "example": "Aan ku bilowno taariikhda shaqadaada."
+      },
+      {
+        "definition": "liiska ama kaydka alaabta uu ganacsigu haysto",
+        "example": "Waxaan tiriyay alaabta."
+      },
+      {
+        "definition": "qofka ama shirkadda aad u shaqeyso",
+        "example": "Shaqo-siiyaha wuu jeclaa shaqadayda."
+      },
+      {
+        "definition": "aqoonta ama xirfadda laga helo shaqada",
+        "example": "Waxaan haystaa shan sano oo khibrad ah."
+      },
+      {
+        "definition": "shaqada ka tagay (waqtigii hore ee 'leave')",
+        "example": "Waxaan ka tagay sababtoo ah qoyskaygu wuxuu u guuray halkan."
+      },
+      {
+        "definition": "aad u faa'iido badan ama caawimaad badan",
+        "example": "Khibradaas waa qiimo leh."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "work history",
+      "definition": "a record of the jobs you have had",
+      "example": "Let's start with your work history."
+    },
+    {
+      "word": "inventory",
+      "definition": "the list or stock of items a business has",
+      "example": "I counted the inventory."
+    },
+    {
+      "word": "employer",
+      "definition": "the person or company you work for",
+      "example": "My employer liked my work."
+    },
+    {
+      "word": "experience",
+      "definition": "knowledge or skill gained from doing a job",
+      "example": "I have five years of experience."
+    },
+    {
+      "word": "left",
+      "definition": "stopped working at a job (past tense of 'leave')",
+      "example": "I left because my family moved here."
+    },
+    {
+      "word": "valuable",
+      "definition": "very useful or important",
+      "example": "That experience is valuable."
     }
-  }
+  ],
+  "related_grammar": [
+    "past-simple"
+  ]
 }

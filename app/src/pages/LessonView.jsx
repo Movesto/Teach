@@ -410,6 +410,7 @@ export default function LessonView() {
             {currentSection === 'drills' && lesson.drills && (
               <PatternDrill
                 drills={lesson.drills}
+                lessonTitle={lesson.title}
                 onComplete={() => { markSectionComplete('drills'); setCurrentSection('listening'); }}
                 onRequestHelp={requestHelp}
               />

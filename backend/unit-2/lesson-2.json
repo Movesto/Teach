@@ -269,7 +269,27 @@
           "She HAS brown eyes (physical feature)"
         ],
         "question": "When do we use 'is' and when do we use 'has'?",
-        "explanation": "We use 'is' for adjectives (tall, friendly, nice). We use 'has' for nouns that the person possesses (hair, eyes, glasses)."
+        "explanation": "We use 'is' for adjectives (tall, friendly, nice). We use 'has' for nouns that the person possesses (hair, eyes, glasses).",
+        "practice": [
+          {
+            "sentence": "He ___ tall.",
+            "blank": "is",
+            "options": [
+              "is",
+              "has",
+              "are"
+            ]
+          },
+          {
+            "sentence": "He ___ short black hair.",
+            "blank": "has",
+            "options": [
+              "has",
+              "is",
+              "have"
+            ]
+          }
+        ]
       },
       {
         "title": "Adjective order",
@@ -279,7 +299,27 @@
           "She is young and friendly (age + personality)"
         ],
         "question": "Can we use more than one adjective?",
-        "explanation": "Yes! We usually describe size/height first, then color. For personality, we can use 'and' to connect adjectives."
+        "explanation": "Yes! We usually describe size/height first, then color. For personality, we can use 'and' to connect adjectives.",
+        "practice": [
+          {
+            "sentence": "He has short ___ hair.",
+            "blank": "black",
+            "options": [
+              "black",
+              "blacking",
+              "blacked"
+            ]
+          },
+          {
+            "sentence": "He is wearing a ___ shirt.",
+            "blank": "blue",
+            "options": [
+              "blue",
+              "blues",
+              "blueing"
+            ]
+          }
+        ]
       },
       {
         "title": "What does he/she look like?",
@@ -289,7 +329,58 @@
           "She looks like her mother (resembles her mother)"
         ],
         "question": "What does this question mean?",
-        "explanation": "'What does he/she look like?' asks for a physical description. We answer with appearance details."
+        "explanation": "'What does he/she look like?' asks for a physical description. We answer with appearance details.",
+        "practice": [
+          {
+            "sentence": "What does he ___ like?",
+            "blank": "look",
+            "options": [
+              "look",
+              "looks",
+              "looking"
+            ]
+          },
+          {
+            "sentence": "He ___ very friendly.",
+            "blank": "looks",
+            "options": [
+              "looks",
+              "look",
+              "looking"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Describing Personality",
+        "examples": [
+          "He is very nice and friendly.",
+          "She is quiet and kind.",
+          "He is funny and outgoing.",
+          "She is hardworking and honest."
+        ],
+        "question": "How do we describe someone's character, not just their looks?",
+        "explanation": "Personality words go after 'is' just like appearance words: 'He is nice' (personality) works the same way as 'He is tall' (appearance). Common personality words: nice, friendly, kind, quiet, funny, hardworking, honest.",
+        "practice": [
+          {
+            "sentence": "He is very ___ and friendly.",
+            "blank": "nice",
+            "options": [
+              "nice",
+              "tall",
+              "glasses"
+            ]
+          },
+          {
+            "sentence": "She ___ quiet and kind.",
+            "blank": "is",
+            "options": [
+              "is",
+              "has",
+              "are"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -416,15 +507,124 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "'is' waxaan la isticmaalnaa tilmaamayaasha (tall, friendly, nice). 'has' waxaan la isticmaalnaa waxyaabaha uu qofku leeyahay (timo, indho, muraayado)."
+          "explanation": "'is' waxaan la isticmaalnaa tilmaamayaasha (tall, friendly, nice). 'has' waxaan la isticmaalnaa waxyaabaha uu qofku leeyahay (timo, indho, muraayado).",
+          "examples": [
+            "He IS tall (tilmaamaysaa qofka)",
+            "He HAS black hair (tilmaamaysaa sifo uu qofku leeyahay)",
+            "She IS friendly (dabeecad)",
+            "She HAS brown eyes (sifo jireed)"
+          ]
         },
         {
-          "explanation": "Haa! Caadi ahaan waxaan marka hore sharaxnaa cabbirka/dhererka, ka dibna midabka. Dabeecadda, waxaan isticmaali karnaa 'and' si aan tilmaamayaal isugu xidhno."
+          "explanation": "Haa! Caadi ahaan waxaan marka hore sharaxnaa cabbirka/dhererka, ka dibna midabka. Dabeecadda, waxaan isticmaali karnaa 'and' si aan tilmaamayaal isugu xidhno.",
+          "examples": [
+            "Isagu waa dheer (dherer)",
+            "Wuxuu leeyahay timo gaagaaban oo madow (dherer + midab)",
+            "Iyadu waa da' yar oo saaxiibnimo leh (da' + dabeecad)"
+          ]
         },
         {
-          "explanation": "'What does he/she look like?' waxay waydiinaysaa sharaxaad muuqaal. Waxaan ku jawaabnaa faahfaahinta muuqaalka."
+          "explanation": "'What does he/she look like?' waxay waydiinaysaa sharaxaad muuqaal. Waxaan ku jawaabnaa faahfaahinta muuqaalka.",
+          "examples": [
+            "Wuxuu u eg yahay sidee? (waxaad weydiinaysaa sharaxaad)",
+            "Wuxuu u eg yahay qof saaxiib ah (wuxuu u muuqdaa mid saaxiib ah)",
+            "Waxay u eg tahay hooyadeed (waxay la mid tahay hooyadeed)"
+          ]
+        },
+        {
+          "explanation": "Erayada shakhsiyadda waxay ka dambeeyaan 'is' sida erayada muuqaalka: 'He is nice' (shakhsiyad) waxay u shaqeysaa si la mid ah 'He is tall' (muuqaal). Erayada shakhsiyadda ee caadiga ah: wanaagsan, saaxiibtinimo leh, naxariis badan, aamusan, qosol badan, shaqo badan, daacad ah.",
+          "examples": [
+            "Aad buu u fiican yahay oo saaxiibtinimo buu la yahay.",
+            "Waa qof deggan oo naxariis leh.",
+            "Waa qof qosol badan oo dadka la dhexgala.",
+            "Waa qof wax badan shaqeeya oo daacad ah."
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Isagu/Iyadu waa [dheer/gaaban/yar/weyn]",
+      "Isagu/Iyadu wuxuu/way leeyahay/leedahay timo [bunni/madow/dheer/gaaban]",
+      "Muxuu/maxay u eg yahay/tahay?",
+      "Isagu/Iyadu waa aad u [fiican/saaxiib badan/naxariis badan]",
+      "Isagu/Iyadu wuxuu/way xidhaa/xidhataa muraayad",
+      "Isagu/Iyadu waa qiyaastii [da'da] sano jir",
+      "Isagu/Iyadu wuxuu/way u eg yahay/tahay..."
+    ],
+    "dialogue": [
+      "Haye! Waxaan joogaa kafe. Sidee buu saaxiibkaa u eg yahay?",
+      "Magiciisu waa Cali. Wuu dheer yahay, wuxuuna leeyahay timo gaagaaban oo madow.",
+      "Waayahay. Dheer, timo gaagaaban oo madow. Imis jir buu yahay?",
+      "Qiyaastii 30 jir buu yahay.",
+      "Muraayado ma xidhaa?",
+      "Haa! Wuxuu xidhaa muraayado.",
+      "Maxuu maanta xidhan yahay?",
+      "Wuxuu xidhan yahay shaati buluug ah iyo jeans.",
+      "Waa hagaag! Waan arkaa. Wuxuu u eg yahay qof aad u saaxiibtinimo leh.",
+      "Haa, waa qof aad u fiican oo saaxiibtinimo leh."
+    ],
+    "vocabulary": [
+      {
+        "definition": "dherer ka badan celceliska",
+        "example": "Isagu waa dheer, wuxuuna leeyahay timo gaaban oo madow."
+      },
+      {
+        "definition": "waxa ka baxa madaxaaga",
+        "example": "Wuxuu leeyahay timo gaaban oo madow."
+      },
+      {
+        "definition": "muraayadaha aad xidhato indhahaaga si aad u aragto si fiican",
+        "example": "Ma xidhaa muraayad?"
+      },
+      {
+        "definition": "in aad dharka xidhan tahay",
+        "example": "Wuxuu xidhan yahay shaati buluug."
+      },
+      {
+        "definition": "naxariis badan oo sahlan in lagula hadlo",
+        "example": "Wuxuu u eg yahay qof aad u saaxiibnimo badan."
+      },
+      {
+        "definition": "ku dhow tiro, aan qummanayn",
+        "example": "Isagu waa qiyaastii 30 jir."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "tall",
+      "definition": "having a greater than average height",
+      "example": "He is tall with short black hair."
+    },
+    {
+      "word": "hair",
+      "definition": "what grows on your head",
+      "example": "He has short black hair."
+    },
+    {
+      "word": "glasses",
+      "definition": "lenses you wear over your eyes to see better",
+      "example": "Does he wear glasses?"
+    },
+    {
+      "word": "wearing",
+      "definition": "having clothes on your body",
+      "example": "He is wearing a blue shirt."
+    },
+    {
+      "word": "friendly",
+      "definition": "kind and easy to talk to",
+      "example": "He looks very friendly."
+    },
+    {
+      "word": "about",
+      "definition": "close to a number, not exact",
+      "example": "He is about 30 years old."
     }
-  }
+  ],
+  "related_grammar": [
+    "to-be",
+    "adjective",
+    "question"
+  ]
 }

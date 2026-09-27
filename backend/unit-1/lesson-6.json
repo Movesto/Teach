@@ -113,19 +113,19 @@
       "prompts": [
         {
           "sentence": "I would like a ___.",
-          "answer": "hamburger"
+          "type": "flexible"
         },
         {
           "sentence": "I would like a ___.",
-          "answer": "salad"
+          "type": "flexible"
         },
         {
           "sentence": "I would like ___.",
-          "answer": "coffee"
+          "type": "flexible"
         },
         {
           "sentence": "I would like ___.",
-          "answer": "pizza"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -144,19 +144,19 @@
       "prompts": [
         {
           "sentence": "Can I have a ___?",
-          "answer": "burger"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have ___?",
-          "answer": "water"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have the ___?",
-          "answer": "menu"
+          "type": "flexible"
         },
         {
           "sentence": "Can I have ___?",
-          "answer": "french fries"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -175,19 +175,19 @@
       "prompts": [
         {
           "sentence": "What is the ___ of the day?",
-          "answer": "soup"
+          "type": "flexible"
         },
         {
           "sentence": "Do you have ___ options?",
-          "answer": "vegetarian"
+          "type": "flexible"
         },
         {
           "sentence": "What is ___ the salad?",
-          "answer": "in"
+          "type": "flexible"
         },
         {
           "sentence": "Do you have iced ___?",
-          "answer": "tea"
+          "type": "flexible"
         }
       ],
       "examples": [

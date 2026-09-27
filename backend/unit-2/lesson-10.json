@@ -278,7 +278,27 @@
           "I'm available on weekdays. ✓ (weekdays = Monday–Friday)"
         ],
         "question": "When do we use ON vs AT vs FROM...TO?",
-        "explanation": "Use ON with days of the week (on Monday, on weekends). Use AT with specific clock times (at 6 AM, at noon). Use FROM...TO or FROM...UNTIL for ranges (from 8 to 4, from Monday to Friday). Never mix them: 'at Monday' or 'on 6 AM' are mistakes."
+        "explanation": "Use ON with days of the week (on Monday, on weekends). Use AT with specific clock times (at 6 AM, at noon). Use FROM...TO or FROM...UNTIL for ranges (from 8 to 4, from Monday to Friday). Never mix them: 'at Monday' or 'on 6 AM' are mistakes.",
+        "practice": [
+          {
+            "sentence": "I start ___ 6 AM.",
+            "blank": "at",
+            "options": [
+              "at",
+              "on",
+              "from"
+            ]
+          },
+          {
+            "sentence": "I work ___ Monday to Friday.",
+            "blank": "from",
+            "options": [
+              "from",
+              "at",
+              "on"
+            ]
+          }
+        ]
       },
       {
         "title": "Full-time, Part-time, Shift, Overtime — important work schedule words",
@@ -290,7 +310,27 @@
           "Off = not working (I'm off on Sundays. Today is my day off.)"
         ],
         "question": "What is the difference between a shift and overtime?",
-        "explanation": "A shift is your regular scheduled work period. Overtime is extra time worked beyond your regular hours — often on a day off or after your shift ends. Overtime is usually paid at a higher rate. Knowing these words will help you understand job postings and conversations with employers."
+        "explanation": "A shift is your regular scheduled work period. Overtime is extra time worked beyond your regular hours — often on a day off or after your shift ends. Overtime is usually paid at a higher rate. Knowing these words will help you understand job postings and conversations with employers.",
+        "practice": [
+          {
+            "sentence": "This position is ___.",
+            "blank": "full-time",
+            "options": [
+              "full-time",
+              "part-time",
+              "overtime"
+            ]
+          },
+          {
+            "sentence": "Extra hours are called ___.",
+            "blank": "overtime",
+            "options": [
+              "overtime",
+              "shift",
+              "part-time"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -417,12 +457,110 @@
     "grammar_discovery": {
       "sections": [
         {
-          "explanation": "ON waxaan la isticmaalnaa maalmaha toddobaadka (on Monday, on weekends). AT waxaan la isticmaalnaa saacadaha gaarka ah (at 6 AM, at noon). FROM...TO ama FROM...UNTIL waxaan u isticmaalnaa xilliyada (from 8 to 4, from Monday to Friday). Ha isku qasin: 'at Monday' ama 'on 6 AM' waa khalad."
+          "explanation": "ON waxaan la isticmaalnaa maalmaha toddobaadka (on Monday, on weekends). AT waxaan la isticmaalnaa saacadaha gaarka ah (at 6 AM, at noon). FROM...TO ama FROM...UNTIL waxaan u isticmaalnaa xilliyada (from 8 to 4, from Monday to Friday). Ha isku qasin: 'at Monday' ama 'on 6 AM' waa khalad.",
+          "examples": [
+            "I work on Mondays. ✓ (on + maalinta toddobaadka)",
+            "I work at Monday. ✗ (ha isticmaalin 'at' maalmaha)",
+            "The shift starts at 6 AM. ✓ (at + waqti go'an)",
+            "The shift starts on 6 AM. ✗ (waa qalad)",
+            "I work from 8 to 4. ✓ (from waa bilow, to waa dhamaad)",
+            "I work from 8 until 4. ✓ (until waxay la mid tahay 'to')",
+            "I'm available on weekdays. ✓ (weekdays = Isniin–Jimce)"
+          ]
         },
         {
-          "explanation": "Shift waa xilligaaga shaqo ee joogtada ah. Overtime waa wakhti dheeraad ah oo laga shaqeeyo saacadahaaga caadiga ah ka dib — inta badan maalin fasax ah ama wardiyadaada ka dib. Overtime caadi ahaan waxaa lagu bixiyaa qiimo ka sarreeya. Aqoonta erayadan waxay kaa caawin doontaa inaad fahamto xayaysiisyada shaqada iyo wada-hadallada shaqo-bixiyayaasha."
+          "explanation": "Shift waa xilligaaga shaqo ee joogtada ah. Overtime waa wakhti dheeraad ah oo laga shaqeeyo saacadahaaga caadiga ah ka dib — inta badan maalin fasax ah ama wardiyadaada ka dib. Overtime caadi ahaan waxaa lagu bixiyaa qiimo ka sarreeya. Aqoonta erayadan waxay kaa caawin doontaa inaad fahamto xayaysiisyada shaqada iyo wada-hadallada shaqo-bixiyayaasha.",
+          "examples": [
+            "Full-time = 40 saacadood todobaadkii (caadiyan Isniin–Jimce)",
+            "Part-time = wax ka yar 40 saacadood (waa kala duwanaan kara)",
+            "Shift = waqti go'an oo shaqo ah (shift-ka subaxnimo: 6–2, shift-ka galabnimo: 2–10, shift-ka habeenimo: 10–6)",
+            "Overtime = saacadaha lagu shaqeeyo oo ka badan jadwalkaaga caadiga ah (intoo badan waxaa lagu siiyaa mushahar dheeri ah)",
+            "Off = aan shaqeeyn (I'm off on Sundays. Today is my day off.)"
+          ]
         }
       ]
+    },
+    "target_phrases": [
+      "Waa maxay saacadaha shaqadan?",
+      "Waxaan diyaar u ahay [Isniinta / maalmaha shaqada / usbuuca dhammaadka]",
+      "Waxaan ka shaqayn karaa [7 subaxnimo] ilaa [4 galabnimo]",
+      "Ma shaqayn karo [Axadda]",
+      "Ma bixisaa shaqo buuxda ama shaqo qayb ah?",
+      "Ma jiraan saacado dheeri ah?",
+      "Waa maxay shifka aan shaqayn doono?"
+    ],
+    "dialogue": [
+      "Waad mahadsan tahay inaad timaaddo, Ahmed. Ka hor inta aanan ka hadlin shaqada, aan ku weydiiyo — saacadaha intee baad shaqayn kartaa?",
+      "Waxaan shaqayn karaa maalmo kasta, Isniin ilaa Sabti. Waxaan door bidaa shifta subaxnimo ama maalintii.",
+      "Waa fiican. Shaqadan waa waqti-buuxa, Isniin ilaa Jimce. Shifta waa 6 subaxnimo ilaa 2:30 galabnimo. Ma kugu habboon tahay?",
+      "Haa, waan ku qanacsanahay. Waxaan bilaabi karaa 6 subaxnimo. Waqtigee ayay shifta dhammaataa — ma waa 2:30 maalin kasta?",
+      "Haa, had iyo jeer waa 2:30. Mararka qaarkood waxaan bixinaa saacado dheeri ah Sabtida — ma diyaar baad u tahay taas?",
+      "Haa, Sabtida sidoo kale waan diyaar ahay. Ma waxay tahay saacadaha dheeriga ah wax caadi ah?",
+      "Laga yaabaa hal ama laba Sabti bishiiba. Had iyo jeer waa ikhtiyaar, lama qasbo. Ma diyaar baad u tahay Axadaha qaarkood haddii aan aad u mashquul ahayn?",
+      "Ma diyaari Axadaha. Maalinta kaliya ee aan shaqayn karin waa taasi. Laakiin maalmo kale oo dhan waa fiican yihiin.",
+      "Taasi waa aad u fiican tahay. Axad ma aha maalin shaqo oo caadi ah halkan. Marka waqti-buuxa, Isniin ilaa Jimce, 6 ilaa 2:30. Ma u egtahay mid fiican?",
+      "Haa, waxay u egtahay mid aad u fiican. Diyaar baan ahay inaan bilaabo sida ugu dhakhsaha badan."
+    ],
+    "vocabulary": [
+      {
+        "definition": "xirmo saacado oo shaqo ah",
+        "example": "Waqtiga shaqada waa laga bilaabo 6 subaxnimo ilaa 2:30 galabnimo."
+      },
+      {
+        "definition": "saacado dheeri ah oo la shaqeeyo ka dib jadwalka caadiga ah",
+        "example": "Ma caadi badan yihiin saacadaha dheeraadka ah halkan?"
+      },
+      {
+        "definition": "in qiyaastii 40 saacadood todobaadkii la shaqeeyo",
+        "example": "Jagadan waa shaqo buuxda."
+      },
+      {
+        "definition": "in la shaqeeyo saacado ka yar shaqada buuxda",
+        "example": "Ma bixisaa shaqo buuxda ama shaqo qayb ah?"
+      },
+      {
+        "definition": "xor ah inuu shaqeeyo ama wax sameeyo waqti cayiman",
+        "example": "Sabtida sidoo kale waan diyaar ahay."
+      },
+      {
+        "definition": "inuu wax ka sii jeclaado wax kale",
+        "example": "Waxaan door bidaa waqtiyada shaqada ee subax ama maalin."
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "shift",
+      "definition": "a set block of work hours",
+      "example": "The shift is from 6 AM to 2:30 PM."
+    },
+    {
+      "word": "overtime",
+      "definition": "extra hours worked beyond the normal schedule",
+      "example": "Is overtime common here?"
+    },
+    {
+      "word": "full-time",
+      "definition": "working about 40 hours a week",
+      "example": "This position is full-time."
+    },
+    {
+      "word": "part-time",
+      "definition": "working fewer hours than full-time",
+      "example": "Do you offer full-time or part-time work?"
+    },
+    {
+      "word": "available",
+      "definition": "free to work or do something at a certain time",
+      "example": "I'm available on Saturdays too."
+    },
+    {
+      "word": "prefer",
+      "definition": "to like one thing more than another",
+      "example": "I prefer morning or daytime shifts."
     }
-  }
+  ],
+  "related_grammar": [
+    "preposition"
+  ]
 }

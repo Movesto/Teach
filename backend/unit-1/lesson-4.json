@@ -113,19 +113,19 @@
       "prompts": [
         {
           "sentence": "What ___ is it?",
-          "answer": "time"
+          "type": "flexible"
         },
         {
           "sentence": "Excuse me, what time ___ it?",
-          "answer": "is"
+          "type": "flexible"
         },
         {
           "sentence": "Can you ___ me the time?",
-          "answer": "tell"
+          "type": "flexible"
         },
         {
           "sentence": "Do you ___ the time?",
-          "answer": "have"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -144,19 +144,19 @@
       "prompts": [
         {
           "sentence": "It is 9 ___.",
-          "answer": "AM"
+          "type": "flexible"
         },
         {
           "sentence": "It is 2 ___.",
-          "answer": "PM"
+          "type": "flexible"
         },
         {
           "sentence": "It is 6 ___.",
-          "answer": "o'clock"
+          "type": "flexible"
         },
         {
           "sentence": "It is ___.",
-          "answer": "10:30"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -175,19 +175,19 @@
       "prompts": [
         {
           "sentence": "___ at 9 AM",
-          "answer": "Monday"
+          "type": "flexible"
         },
         {
           "sentence": "Tuesday at 2 ___",
-          "answer": "PM"
+          "type": "flexible"
         },
         {
           "sentence": "Wednesday at ___ AM",
-          "answer": "11"
+          "type": "flexible"
         },
         {
           "sentence": "___ at 3 PM",
-          "answer": "Friday"
+          "type": "flexible"
         }
       ],
       "examples": [

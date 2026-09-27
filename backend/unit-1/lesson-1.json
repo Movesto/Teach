@@ -91,94 +91,86 @@
   },
   "drills": [
     {
-      "title": "Drill 1: Substitute the name",
-      "instruction": "Fill in the blank with the correct name",
+      "title": "Drill 1: Read and Respond",
+      "instruction": "Someone asks you a question. Write your own real answer.",
       "prompts": [
         {
-          "sentence": "My name is ___.",
-          "answer": "Marcus"
+          "type": "open",
+          "question": "Marcus asks: \"What is your name?\" Write your answer.",
+          "model_answer": "My name is Ahmed."
         },
         {
-          "sentence": "My name is ___.",
-          "answer": "Sarah"
+          "type": "open",
+          "question": "Someone asks: \"Where are you from?\" Write your answer.",
+          "model_answer": "I am from Somalia."
         },
         {
-          "sentence": "My name is ___.",
-          "answer": "Ahmed"
-        },
-        {
-          "sentence": "My name is ___.",
-          "answer": "Fatima"
+          "type": "open",
+          "question": "You meet a new neighbor for the first time. Introduce yourself: say your name AND where you're from.",
+          "model_answer": "Hi! My name is Ahmed. I am from Somalia."
         }
       ],
       "examples": [
         "My name is Marcus.",
-        "My name is Sarah.",
-        "My name is Ahmed.",
-        "My name is Fatima."
-      ],
-      "your_turn": "Now say 'My name is [YOUR NAME]' out loud and record it",
-      "repetitions": 1,
-      "audio": []
-    },
-    {
-      "title": "Drill 2: Substitute the place",
-      "instruction": "Fill in the blank with the correct country",
-      "prompts": [
-        {
-          "sentence": "I am from ___.",
-          "answer": "Somalia"
-        },
-        {
-          "sentence": "I am from ___.",
-          "answer": "America"
-        },
-        {
-          "sentence": "I am from ___.",
-          "answer": "England"
-        },
-        {
-          "sentence": "I am from ___.",
-          "answer": "Kenya"
-        }
-      ],
-      "examples": [
         "I am from Somalia.",
-        "I am from America.",
-        "I am from England.",
-        "I am from Kenya."
+        "Hi! My name is Sarah. I am from England."
       ],
-      "your_turn": "Now say 'I am from [YOUR COUNTRY]' out loud and record it",
+      "your_turn": "Now introduce yourself out loud to a new neighbor (name + where you're from) and record it",
       "repetitions": 1,
       "audio": []
     },
     {
-      "title": "Drill 3: Complete introduction",
-      "instruction": "Fill in the blank to complete the introduction",
+      "title": "Drill 2: Notice the Pattern",
+      "instruction": "Use what you noticed about 'I am' and 'you are' to complete each sentence",
       "prompts": [
         {
-          "sentence": "Hi. My name is Marcus. I am from ___.",
-          "answer": "America"
+          "sentence": "Marcus says: \"I am from America.\" Now talk about yourself: I ___ from Somalia.",
+          "answer": "am"
         },
         {
-          "sentence": "Hi. My name is Sarah. I am from ___.",
-          "answer": "England"
+          "sentence": "You want to ask how Marcus feels. Ask him: \"___ you good?\"",
+          "answer": "Are"
         },
         {
-          "sentence": "Hi. My name is ___. I am from Somalia.",
-          "answer": "Ahmed"
-        },
-        {
-          "sentence": "Hi. ___ name is Fatima. I am from Kenya.",
-          "answer": "My"
+          "sentence": "Complete Marcus's reply: \"I ___ good. Thank you.\"",
+          "answer": "am"
         }
       ],
       "examples": [
-        "Hi. My name is Marcus. I am from America.",
-        "Hi. My name is Sarah. I am from England.",
-        "Hi. My name is Ahmed. I am from Somalia."
+        "I am Ahmed. I am from Somalia.",
+        "Are you good?",
+        "I am good, thank you."
       ],
-      "your_turn": "Now introduce yourself completely out loud (Hi + name + where you're from) and record it",
+      "your_turn": "Now say a full sentence about how YOU feel today, using 'I am ___', out loud and record it",
+      "repetitions": 1,
+      "audio": []
+    },
+    {
+      "title": "Drill 3: A New Neighbor",
+      "instruction": "Put it all together in a new situation",
+      "prompts": [
+        {
+          "type": "open",
+          "question": "A neighbor knocks and says: \"Hi! I'm Lisa. I live in 2A.\" Write a full reply: introduce yourself (name + where you're from) and say something polite.",
+          "model_answer": "Hi Lisa! My name is Ahmed. I am from Somalia. Nice to meet you!"
+        },
+        {
+          "type": "open",
+          "question": "Lisa says: \"Nice to meet you!\" What do you say back?",
+          "model_answer": "Nice to meet you too."
+        },
+        {
+          "type": "open",
+          "question": "Lisa asks: \"How are you?\" Write your answer.",
+          "model_answer": "I am good, thank you. How are you?"
+        }
+      ],
+      "examples": [
+        "Hi! My name is Ahmed. I am from Somalia. Nice to meet you!",
+        "Nice to meet you too.",
+        "I am good, thank you. How are you?"
+      ],
+      "your_turn": "Now act out the whole conversation with a new neighbor out loud and record it",
       "repetitions": 1,
       "audio": []
     }
@@ -491,7 +483,7 @@
       ]
     },
     "target_phrases": [
-      "Salaan / Haye",
+      "Salaan / Salaan",
       "Magacaygu waa [magac]",
       "Waxaan ka soo jeedaa [meel]",
       "Waan ku faraxsanahay",
@@ -504,8 +496,8 @@
       "Hay.",
       "Waxaan ahay Marcus. Waxaan ku noolahay 4C.",
       "Magacaygu waa Ahmed. Waxaan ka soo jeedaa Soomaaliya. Waxaan ku noolahay 4B.",
-      "Waxaan ku faraxsanahay inaan kula kulmo!",
-      "Aniguna waxaan ku faraxsanahay inaan kula kulmo.",
+      "Waxaan ku faraxsanahay inaan kula kulmay!",
+      "Aniguna waxaan ku faraxsanahay inaan kula kulmay.",
       "Sidee tahay?",
       "Waan fiicanahay. Mahadsanid. Sidee tahay?",
       "Waan fiicanahay. Soo dhawoow dhismaha!",
@@ -513,7 +505,7 @@
     ],
     "vocabulary": [
       {
-        "definition": "in aad deggan tahay meel",
+        "definition": "in aad meel ku noolaato",
         "example": "Waxaan ku noolahay guri 4B."
       },
       {
@@ -529,7 +521,7 @@
         "example": "Waan ku faraxsanahay inaan kula kulmo."
       },
       {
-        "definition": "salaan saaxiibtinimo oo loo jeediyo qof soo gaaray",
+        "definition": "salaan soo dhoweyn oo loo jeediyo qof soo gaaraya",
         "example": "So dhawoow dhismaha!"
       },
       {

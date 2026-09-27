@@ -122,19 +122,19 @@
       "prompts": [
         {
           "sentence": "Can you ___ me?",
-          "answer": "help"
+          "type": "flexible"
         },
         {
           "sentence": "Can you help me, ___?",
-          "answer": "please"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ help.",
-          "answer": "need"
+          "type": "flexible"
         },
         {
           "sentence": "Excuse me, ___ you help me?",
-          "answer": "can"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -153,19 +153,19 @@
       "prompts": [
         {
           "sentence": "Where is the ___?",
-          "answer": "bathroom"
+          "type": "flexible"
         },
         {
           "sentence": "Where is the ___?",
-          "answer": "laundry room"
+          "type": "flexible"
         },
         {
           "sentence": "Where is the ___?",
-          "answer": "store"
+          "type": "flexible"
         },
         {
           "sentence": "Where is the ___?",
-          "answer": "bus stop"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -184,19 +184,19 @@
       "prompts": [
         {
           "sentence": "Can you ___ me?",
-          "answer": "show"
+          "type": "flexible"
         },
         {
           "sentence": "Can you ___ me?",
-          "answer": "tell"
+          "type": "flexible"
         },
         {
           "sentence": "Can you ___ me?",
-          "answer": "call"
+          "type": "flexible"
         },
         {
           "sentence": "Can you ___?",
-          "answer": "wait"
+          "type": "flexible"
         }
       ],
       "examples": [

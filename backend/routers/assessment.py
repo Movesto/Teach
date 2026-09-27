@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 from core.rate_limit import ai_rate_limit
 from core.ai_client import ask_qwen, translate_preserving_english, sanitize_text
-from core.prompts import WRITING_ASSESSMENT_PROMPT
+from core.prompts import WRITING_ASSESSMENT_PROMPT, DRILL_ASSESSMENT_PROMPT
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api", tags=["assessment"])
@@ -21,6 +21,12 @@ class WritingAssessRequest(BaseModel):
     prompt_instruction: str = Field(..., max_length=1000)
     example: str = Field("", max_length=500)
     min_words: int = Field(20, ge=1, le=500)
+
+
+class DrillAssessRequest(BaseModel):
+    sentence: str = Field(..., max_length=300)   # the fill-in-blank sentence, contains "___"
+    scenario: str = Field("", max_length=200)    # lesson/scenario context, e.g. "At the grocery store"
+    answer: str = Field(..., max_length=100)     # the student's submitted text for the blank
 
 
 def _similarity_ratio(a: str, b: str) -> float:
@@ -150,3 +156,41 @@ async def assess_writing(req: WritingAssessRequest, _=Depends(ai_rate_limit)):
         sanitize_text(req.example, max_len=500),
         req.min_words,
     )
+
+
+@router.post("/drill/assess")
+async def assess_drill(req: DrillAssessRequest, _=Depends(ai_rate_limit)):
+    answer = sanitize_text(req.answer, max_len=100).strip()
+    if not answer:
+        return {"correct": False, "feedback": "Please write an answer."}
+
+    user_prompt = (
+        f'Scenario: {req.scenario or "general English practice"}\n'
+        f'Sentence with blank: "{req.sentence}"\n'
+        f'Student\'s answer for the blank: "{answer}"\n\n'
+        f"Grade this answer."
+    )
+    messages = [
+        {"role": "system", "content": DRILL_ASSESSMENT_PROMPT},
+        {"role": "user", "content": user_prompt},
+    ]
+
+    try:
+        response = await ask_qwen(messages, max_tokens=280)
+    except Exception as e:
+        logger.warning("drill assessment unavailable: %s", e)
+        return {"correct": True, "feedback": "Good effort! (Grading is temporarily unavailable.)"}
+
+    result_match = re.search(r'RESULT:\s*(CORRECT|INCORRECT)', response, re.IGNORECASE)
+    feedback_match = re.search(r'FEEDBACK:\s*(.+?)(?=\nFEEDBACK_SOMALI:|\Z)', response, re.DOTALL)
+    feedback_so_match = re.search(r'FEEDBACK_SOMALI:\s*(.+)', response, re.DOTALL)
+
+    correct = bool(result_match) and result_match.group(1).upper() == "CORRECT"
+    feedback = feedback_match.group(1).strip() if feedback_match else response.strip()
+    feedback_somali = feedback_so_match.group(1).strip() if feedback_so_match else feedback
+
+    return {
+        "correct": correct,
+        "feedback": feedback,
+        "feedback_somali": feedback_somali,
+    }
