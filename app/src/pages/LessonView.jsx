@@ -476,6 +476,7 @@ export default function LessonView() {
                   questions={lesson.quiz}
                   somaliQuestions={so?.quiz}
                   somaliExplanations={so?.quiz_explanations}
+                  lessonTitle={lesson.title}
                   lessonId={lessonId}
                   onComplete={(score) => {
                     markSectionComplete('quiz');

@@ -2,14 +2,16 @@ import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
 import { apiFetch } from '../../utils/api';
 
-export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplete, onRequestHelp }) {
+export function Quiz({ questions, somaliQuestions, somaliExplanations, lessonTitle, onComplete, onRequestHelp }) {
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState({});
+  const [matchAnswers, setMatchAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizComplete, setQuizComplete] = useState(false);
   const [score, setScore] = useState(0);
   const [writingError, setWritingError] = useState(false);
   const [writingResults, setWritingResults] = useState({});
+  const [matchResults, setMatchResults] = useState({});
   const [assessing, setAssessing] = useState(false);
   const audioRef = useRef(null);
 
@@ -28,9 +30,26 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
 
   const question = questions[currentQ];
   const isLastQuestion = currentQ === questions.length - 1;
-  const hasAnswered = answers[currentQ] !== undefined;
   const isScoredType = question.type === 'multiple-choice' || question.type === 'listening';
-  const isWritingType = question.type === 'writing' || question.type === 'open-ended';
+  // Some unit-3-style quiz questions (fill-blank, matching) get flattened to
+  // 'open-ended'/'writing' by the backend's normalize_lesson, but they aren't
+  // genuine long-form prompts -- they still carry their original grading data
+  // (a short 'correct' string, or a 'pairs' array), which we use to tell them
+  // apart from real reflection/essay prompts.
+  const isMatchingType = Array.isArray(question.pairs) && question.pairs.length > 0;
+  const hasShortCorrect = typeof question.correct === 'string' && question.correct.trim().length > 0;
+  const isWritingType = (question.type === 'writing' || question.type === 'open-ended') && !isMatchingType;
+  const hasAnswered = isMatchingType
+    ? question.pairs.every((_, i) => matchAnswers[currentQ]?.[i])
+    : answers[currentQ] !== undefined;
+
+  // Stable shuffled right-side options per question (memoized so they don't
+  // reshuffle on every re-render/keystroke).
+  const shuffledRightRef = useRef({});
+  if (isMatchingType && !shuffledRightRef.current[currentQ]) {
+    shuffledRightRef.current[currentQ] = [...question.pairs.map(p => p.right)].sort(() => Math.random() - 0.5);
+  }
+  const shuffledRight = shuffledRightRef.current[currentQ] || [];
 
   const handleAnswer = (answerIndex) => {
     setAnswers({ ...answers, [currentQ]: answerIndex });
@@ -41,8 +60,42 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
     setAnswers({ ...answers, [currentQ]: text });
   };
 
-  const submitWriting = async () => {
+  const submitOpenEnded = async () => {
     const text = (answers[currentQ] || '').trim();
+
+    if (hasShortCorrect) {
+      // A fill-blank style question (one short correct answer) got relabeled
+      // 'open-ended' by the backend normalizer -- grade it like a Pattern
+      // Drill blank (flexible/contextual), not like a paragraph. A single
+      // word is a complete, valid answer here, so no length minimum.
+      if (!text) { setWritingError(true); return; }
+      setWritingError(false);
+      setAssessing(true);
+      try {
+        const res = await apiFetch('/api/drill/assess', {
+          method: 'POST',
+          body: JSON.stringify({ sentence: question.question, scenario: lessonTitle || '', answer: text }),
+        });
+        const data = res.ok ? await res.json() : null;
+        setWritingResults(prev => ({
+          ...prev,
+          [currentQ]: data
+            ? { score: data.correct ? 100 : 0, feedback: data.feedback, feedback_somali: data.feedback_somali }
+            : { score: 70, feedback: 'Assessment unavailable — your answer was accepted.', feedback_somali: '' },
+        }));
+      } catch {
+        setWritingResults(prev => ({
+          ...prev,
+          [currentQ]: { score: 70, feedback: 'Assessment unavailable — your answer was accepted.', feedback_somali: '' },
+        }));
+      } finally {
+        setAssessing(false);
+        setShowFeedback(true);
+      }
+      return;
+    }
+
+    // Genuine long-form reflection/essay prompt.
     if (text.length < 20) {
       setWritingError(true);
       return;
@@ -75,6 +128,18 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
     }
   };
 
+  const setMatchAnswer = (leftIdx, rightValue) => {
+    setMatchAnswers(prev => ({ ...prev, [currentQ]: { ...(prev[currentQ] || {}), [leftIdx]: rightValue } }));
+  };
+
+  const submitMatching = () => {
+    const picks = matchAnswers[currentQ] || {};
+    let correct = 0;
+    question.pairs.forEach((p, i) => { if (picks[i] === p.right) correct++; });
+    setMatchResults(prev => ({ ...prev, [currentQ]: { correct, total: question.pairs.length } }));
+    setShowFeedback(true);
+  };
+
   const nextQuestion = () => {
     setShowFeedback(false);
 
@@ -82,9 +147,14 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
       let correctCount = 0;
       let scoredCount = 0;
       questions.forEach((q, idx) => {
+        const qIsMatching = Array.isArray(q.pairs) && q.pairs.length > 0;
         if (q.type === 'multiple-choice' || q.type === 'listening') {
           scoredCount++;
           if (answers[idx] === q.correct) correctCount++;
+        } else if (qIsMatching) {
+          scoredCount++;
+          const mr = matchResults[idx];
+          correctCount += mr ? mr.correct / mr.total : 0;
         } else if (q.type === 'writing' || q.type === 'open-ended') {
           scoredCount++;
           correctCount += (writingResults[idx]?.score ?? 70) / 100;
@@ -225,6 +295,46 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
           </button>
         )}
 
+        {isMatchingType && (
+          <div className="space-y-3">
+            {question.pairs.map((pair, i) => {
+              const picked = matchAnswers[currentQ]?.[i];
+              const isCorrect = picked === pair.right;
+              return (
+                <div key={i} className="flex items-center gap-3">
+                  <span className="w-1/3 font-medium text-gray-900 dark:text-white">{pair.left}</span>
+                  <select
+                    value={picked || ''}
+                    onChange={(e) => setMatchAnswer(i, e.target.value)}
+                    disabled={showFeedback}
+                    className={`flex-1 p-3 rounded-lg border-2 ${
+                      showFeedback
+                        ? isCorrect
+                          ? 'border-green-500 bg-green-50 dark:bg-green-900/20 text-green-900 dark:text-green-200'
+                          : 'border-red-500 bg-red-50 dark:bg-red-900/20 text-red-900 dark:text-red-200'
+                        : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white'
+                    }`}
+                  >
+                    <option value="" disabled>Choose a match...</option>
+                    {shuffledRight.map((opt, oi) => (
+                      <option key={oi} value={opt}>{opt}</option>
+                    ))}
+                  </select>
+                  {showFeedback && (isCorrect
+                    ? <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    : <X className="w-5 h-5 text-red-600 flex-shrink-0" />
+                  )}
+                </div>
+              );
+            })}
+            {showFeedback && matchResults[currentQ] && (
+              <p className="text-sm text-gray-600 dark:text-gray-400 pt-1">
+                {matchResults[currentQ].correct} of {matchResults[currentQ].total} correct
+              </p>
+            )}
+          </div>
+        )}
+
         {(question.type === 'multiple-choice' || question.type === 'listening') && (
           <div className="space-y-3">
             {question.options.map((option, idx) => {
@@ -260,7 +370,22 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
           </div>
         )}
 
-        {(question.type === 'open-ended' || question.type === 'writing') && (
+        {isWritingType && hasShortCorrect && (
+          <div>
+            <input
+              type="text"
+              value={answers[currentQ] || ''}
+              onChange={(e) => { handleTextAnswer(e.target.value); setWritingError(false); }}
+              placeholder="Type your answer..."
+              className="w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg focus:border-blue-500 focus:outline-none text-lg text-gray-900 dark:text-white bg-white dark:bg-gray-700 placeholder-gray-400 dark:placeholder-gray-500"
+            />
+            {writingError && (
+              <p className="mt-1 text-sm text-red-500 dark:text-red-400">Please write an answer.</p>
+            )}
+          </div>
+        )}
+
+        {isWritingType && !hasShortCorrect && (
           <div>
             <textarea
               value={answers[currentQ] || ''}
@@ -330,11 +455,14 @@ export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplet
           </button>
         ) : (
           <button
-            onClick={() => { if (isWritingType) submitWriting(); }}
+            onClick={() => {
+              if (isWritingType) submitOpenEnded();
+              else if (isMatchingType) submitMatching();
+            }}
             disabled={!hasAnswered || assessing}
             className="flex-1 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {isScoredType
+            {isScoredType || isMatchingType
               ? 'Submit Answer'
               : assessing ? 'Grading...' : 'Submit for Grading'}
           </button>

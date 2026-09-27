@@ -89,6 +89,16 @@
         "When is my phone bill due?",
         "When is my internet bill due?",
         "When is my water bill due?"
+      ],
+      "prompts": [
+        {
+          "sentence": "When is my ___ due?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "My ___ bill is due on the 5th.",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -101,6 +111,16 @@
         "I can pay by phone",
         "I can pay at the store",
         "I can pay with my debit card"
+      ],
+      "prompts": [
+        {
+          "sentence": "I can pay ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I can pay with a ___.",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -113,6 +133,16 @@
         "I'd like to set up autopay for my phone",
         "I'd like to set up autopay for my internet",
         "I'd like to set up autopay for my credit card"
+      ],
+      "prompts": [
+        {
+          "sentence": "I'd like to set up autopay for my ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Can I set up ___ for my rent?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -497,5 +527,161 @@
     "You can often change your due date if it doesn't work with your payday.",
     "Keep records of all bill payments for at least a year in case of disputes.",
     "Some utilities have programs to help low-income people pay their bills."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Faham biilasha caadiga ah ee bisha (kirada, korontada, iyo telefoonka)",
+      "Bixi biilasha waqtigooda oo iska ilaali khidmadda daahista",
+      "Deji bixinta tooska ah ee biilasha",
+      "La soco maalmaha bixinta biilasha oo maaree jadwalka bixinta"
+    ],
+    "target_phrases": [
+      "Goorma la bixiyaa biilkan?",
+      "Sideen u bixin karaa biilkan?",
+      "Waxaan rabaa inaan sameeyo bixinta tooska ah.",
+      "Maxaa dhacaya haddii aan bixinta daahiyo?",
+      "Ma ku bixin karaa internetka?",
+      "Waxaan u baahanahay inaan beddelo maalinta bixinta.",
+      "Ma jiraa khidmad daahid?"
+    ],
+    "dialogue": [
+      "Marcus, waxaan ku helay biilalkan boostada. Ma hubo waxa aan ku qabto.",
+      "Ha welwel, waan ku caawin doonaa. Aynu midba mid eegno. Kan waa biilkaaga korontada ee Portland General Electric.",
+      "Goorma ayuu la bixiyaa?",
+      "Halkan - waxaa ku qoran \"Due Date: March 15.\" Taasi waa 10 maalmood. Waxaad u baahan tahay inaad bixiso $75.",
+      "Sideen u bixin karaa? Ma waxaan u diraa jeeg boostada?",
+      "Waad bixin kartaa, laakiin waxay ka dhakhso badan tahay inaad online ku bixiso. Ma aragtaa website-kan? Tag halkaas oo samee account. Waxaad kaloo samayn kartaa autopay si ay otomaatig u noqoto bil kasta.",
+      "Waa maxay autopay?",
+      "Autopay waxay ka dhigan tahay in lacagta ka baxdo account-kaaga bangiga si otomaatig ah maalinta la bixiyo. Uma baahnid inaad xasuusato inaad bixiso.",
+      "Taasi waxay u egtahay wax ku habboon! Maxaa dhacaya haddii aan daahiyo bixinta?",
+      "Badanaa waxaa jira lacag daahid - laga yaabee $10 ama $15. Sidoo kale, haddii aad aad u daahdo, waxay xiri karaan korontadaada. Marka had iyo jeer bixi waqtiga!",
+      "Waan fahmay. Ka warran kan - biilka taleefankayga?",
+      "Waa isku mid. Waa in la bixiyo 20-ka. Waxaan kugula talinayaa inaad samaysato autopay dhammaan biilashaada caadiga ah. Waxay nolosha ka fududaysaa.",
+      "Fikrad wanaagsan. Waan sameyn doonaa usbuuca dhammaadkiisa. Waad ku mahadsan tahay sharaxaadda!"
+    ],
+    "drills": [
+      {
+        "instruction": "Goorma ayuu la bixiyaa [bill]-kayga?"
+      },
+      {
+        "instruction": "Waxaan ku bixin karaa [method]"
+      },
+      {
+        "instruction": "Waxaan rabaa inaan dejiyo bixinta otomaatiga ah ee [bill]-kayga."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa goorma la bixiyaa biilka biyaha bil kasta?"
+      },
+      {
+        "question": "Waa maxay ganaaxa daahista kirada?"
+      },
+      {
+        "question": "Maxaa dhacaa ka hor bixinta otomaatiga ah ee kasta?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Wac shirkadda korontada. Duub naftaada adigoo dhahaya: 'Hello, I'd like to set up autopay for my electric bill. How do I do that? Also, when is my bill due each month?' Ugu hadal si cad."
+      },
+      {
+        "instruction": "U sharax saaxiibkaa sababta ay muhiim tahay in biilasha la bixiyo waqtigooda. Bixi 3 sababood. Duub codkaaga ugu yaraan 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Liis qor bilyadaada bisha (ama bilyo caadi ah oo qofku yeelan karo). Bilyo kasta, qor goorta la bixiyo iyo inta ay ku kacdo. Qor ugu yaraan 5 jumlo."
+      },
+      {
+        "instruction": "Waxaad hal maalin ku daahday bixinta bilyada korontada. Qor iimayl u qorto shirkadda oo aad ku sharraxaysid sababta, oo aad ku weydiisanaysid inay ka dhaafi karaan ganaaxa daahista. (Qor ugu yaraan 4 jumlo)"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'will' si aad uga hadasho biilasha iyo bixinta mustaqbalka.",
+          "examples": [
+            "Waxaan bixin doonaa kirada berri. (fal mustaqbal)",
+            "Bilku wuxuu imaan doonaa usbuuca soo socda. (dhacdo mustaqbal)",
+            "Waxay ku qaadi doonaan khidmad daahid. (natiijo mustaqbal)",
+            "Ma ilaawi doono inaan bixiyo. (diidmo mustaqbal - won't = will not)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'on', 'by', 'before', 'after' taariikhaha. Isticmaal 'in' bilaha.",
+          "examples": [
+            "Kiro waa in la bixiyo taariikhda 1aad. (taariikh go'an)",
+            "Bixi Maarso 15ka ugu dambayn. (waqtiga ugu dambeeya)",
+            "Bixi ka hor 10ka. (wakhti kasta ilaa 10ka)",
+            "Ka dib 15ka, waxaa jira ganaax. (muddada)",
+            "Waxaan bixin doonaa bisha Maarso. (muddada)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal kuwaan si aad uga hadasho waajibaadka iyo talooyinka biilasha.",
+          "examples": [
+            "Waa inaan kirada bixiyo waqtigeeda. (waajib)",
+            "Waxaa fiican inaad dejiso bixinta tooska ah. (talo)",
+            "Waxaan u baahanahay inaan hubiyo biilka. (baahi)",
+            "Waa inaad lahaato akoon bangi. (shuruud)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "dalab bixin oo loogu talagalay adeegyada",
+        "example": "Maanta waxaan boostada ka helay biilka korontadayda."
+      },
+      {
+        "definition": "maalin ay tahay in lacagta la bixiyo",
+        "example": "Kirodayda waa in la bixiyaa maalinta 1aad ee bil kasta."
+      },
+      {
+        "definition": "khidmad dheeri ah oo lagu qaado haddii aad bixiso ka dib maalintii la qorsheeyay",
+        "example": "Waxaa jira ganaax $25 ah haddii aan bixiyo ka dib maalinta 15aad."
+      },
+      {
+        "definition": "bixin toos ah oo ka timaadda akoonka bangigaaga",
+        "example": "Waxaan iska dhigay bixinta tooska ah si aanan u ilaawin inaan bixiyo."
+      },
+      {
+        "definition": "adeegyo sida biyaha, korontada, iyo gaaska",
+        "example": "Adeegyadaydu waxay ku kacaan qiyaastii $150 bishii."
+      },
+      {
+        "definition": "lacag bille ah oo aad ku bixiso gurigaaga",
+        "example": "Kirodaydu waa $1,200 bishii."
+      },
+      {
+        "definition": "wakhti dheeri ah oo aad ku bixin kartid lacagta adigoon ganaax la kulmin",
+        "example": "Kirada waxay leedahay muddo 3 maalmood oo dheeri ah."
+      },
+      {
+        "definition": "jooji bixinta adeegga",
+        "example": "Waxay xiri doonaan korontada haddii aadan bixin."
+      },
+      {
+        "definition": "lacagta aad qabto",
+        "example": "Waxaa igu hara $75 bishan."
+      },
+      {
+        "definition": "sida aad u bixiso (jeeg, online, iwm.)",
+        "example": "Waa maxay habka bixinta aad door bidayso?"
+      }
+    ],
+    "quiz": {
+      "q1": "Dialoogga, goorma ayay tahay in la bixiyo biilka korontada Ahmed?",
+      "q2": "Waa maxay 'autopay'?",
+      "q3": "Maxaa dhacaya haddii aad biil dib u bixiso?",
+      "q4": "Dhammeystir: 'My rent is due ___ the 1st.'",
+      "q5": "Bixinta tooska ah waxay ka dhigan tahay inaad xasuusato inaad bixiso biilkaaga bil kasta.",
+      "q6": "Haddii aadan bixin biilkaaga korontada, waxay goyn karaan korontadaada.",
+      "q7": "I ___ pay my bills on time. (fal-caawiye: waajib xooggan)",
+      "q8": "I ___ pay my rent tomorrow. (mustaqbal 'will')",
+      "q9": "Isku xir biilka iyo waxa uu bixiyo:",
+      "q10": "Waa maxay habka ugu fiican ee lagaga fogaado ganaaxyada dib u bixinta?"
+    }
+  }
 }

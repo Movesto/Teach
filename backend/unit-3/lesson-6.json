@@ -85,6 +85,16 @@
         "My paycheck is $1,200 every two weeks",
         "I bring home about $2,000 per month",
         "My monthly income is $2,500"
+      ],
+      "prompts": [
+        {
+          "sentence": "I earn ___ per month.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I make ___ per hour.",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -97,6 +107,16 @@
         "Food is a need - everyone must eat",
         "Going to movies is a want - it's entertainment",
         "Electricity is a need - I use it every day"
+      ],
+      "prompts": [
+        {
+          "sentence": "___ is a need — I must have it.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "___ is a want — I don't really need it.",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -109,6 +129,16 @@
         "I'm trying to save money for my education",
         "I'm trying to save money for my family",
         "I'm trying to save money for a vacation"
+      ],
+      "prompts": [
+        {
+          "sentence": "I'm trying to save money for ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I'm saving for ___ this year.",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -303,6 +333,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "grammar-4",
+      "title": "Needs vs. Wants",
+      "explanation": "Use '[Item] is a need' for things you must have to live (rent, food), and '[Item] is a want' for things that are nice but not necessary.",
+      "examples": [
+        "Rent is a need — I must pay it.",
+        "A new phone is a want — I don't need it.",
+        "Food is a need.",
+        "A vacation is a want."
+      ],
+      "practice": [
+        {
+          "sentence": "Rent ___ a need.",
+          "blank": "is",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ]
+        },
+        {
+          "sentence": "A new TV is a ___.",
+          "blank": "want",
+          "options": [
+            "want",
+            "need",
+            "goal"
+          ]
+        }
+      ]
     }
   ],
   "quiz": {
@@ -489,5 +550,168 @@
     "Credit card debt is common but dangerous - the interest rates are very high (15-25%).",
     "Many employers offer 401(k) retirement plans and will match your contributions - free money!",
     "Community colleges offer free financial literacy classes to help people learn about money."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Samee miisaaniyad fudud bil kasta.",
+      "La soco dakhliga iyo kharashka.",
+      "Garto baahida iyo rabita.",
+      "Deji hadafyo dhaqaale oo kaydso lacag."
+    ],
+    "target_phrases": [
+      "Intee baan bishii kasbadaa?",
+      "Maxay yihiin kharashaadkayga bishii?",
+      "Waxaan u baahanahay inaan lacag kaydsado...",
+      "Kani waa baahi / Kani waa rabitaan",
+      "Waxaan aad ugu kharash gareeyaa...",
+      "Waxaan isku dayayaa inaan lacag kaydsado",
+      "Sidee baan lacag u kaydsan karaa?"
+    ],
+    "dialogue": [
+      "Haye Ahmed! Shaqada cusub sidee u socotaa?",
+      "Waa socotaa si fiican, laakiin lacag ayaan ka walwalsanahay. Ma garanayo halka lacagtayda oo dhan ay bishiiba ku baxdo.",
+      "Waxay u egtahay inaad u baahan tahay qorshe lacageed! Ma aha wax adag. Marka hore, imisa ayaad bishiiba kasbataa marka cashuurta laga gooyo?",
+      "Qiyaastii $2,400 bishiiba. Taasi ma ku filan tahay?",
+      "Taasi waxay ku xidhan tahay kharashyadaada. Aynu qorno. Ijaartu waa imisa?",
+      "Ijaartu waa $900. Waxaa kaloo iigu jira koronto, biyo, taleefan, cunto, iyo shidaal gaarigayga.",
+      "Haa, kuwani dhammaantood waa baahiyo - waxyaabo ay tahay inaad bixiso. Ma haysaa waxyaabo aad rabto - waxyaabo aadan runti u baahnayn laakiin aad ku raaxaysato?",
+      "Waxaan aad ugu cunaa maqaayadaha - qiyaastii $300 bishiiba. Waxaana haystaa xubinnimada jimicsiga oo ah $50.",
+      "Halkaas ayaad lacag ku kaydin kartaa! Cunista maqaayadaha waa qaali. Haddaad guriga ku kariso wax badan, waxaad kaydin kartaa $200 bishiiba. Taasi waa $2,400 sanadkii!",
+      "Wow, waligay sidan uma fikirin. Maxaan ku sameeyaa lacagta aan kaydiyo?",
+      "Ku rid xisaabta kaydkaaga. Isku day inaad kaydiso ugu yaraan $200 bishiiba. Taasi waa kaydkaaga degdegga ah ee kharashyada lama filaanka ah.",
+      "Talo fiican! Waxaan bilaabayaa inaan la socdo kharashkayga oo aan yareeyo cunista maqaayadaha. Mahadsanid, Lisa!"
+    ],
+    "drills": [
+      {
+        "instruction": "Waxaan kasbanayaa [amount] bishii"
+      },
+      {
+        "instruction": "[Item] waa baahi / [Item] waa doon"
+      },
+      {
+        "instruction": "Waxaan isku dayayaa in aan lacag kaydiyo [goal]"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Marka loo eego qaanuunka 50-30-20, intee ayaad keydin kartaa haddii aad hesho $2,000?"
+      },
+      {
+        "question": "Waa maxay ujeedka kaydka degdegga ah?"
+      },
+      {
+        "question": "Intee ayaad keydin kartaa haddii aad guriga ku kariso?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Sharax miisaaniyaddaada bilaha. Duub naftaada adigoo dhihi: 'I earn [amount] per month. My biggest expenses are rent, food, and [other]. I try to save [amount] each month.' La hadlo ugu yaraan 30 ilbiriqsi."
+      },
+      {
+        "instruction": "Sii talo saaxiib kuugta lacagta badan. Duub naftaada adigoo siinaya 3 talo oo ku saabsan kaydinta lacagta. La hadlo ugu yaraan 25 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Samee miisaaniyad fudud. Qor dakhligaaga bisha oo liis 5 kharash (kirada, cuntada, talefanka, iwm.). Kadib qor inta aad rabto inaad kaydiso. Isticmaal tirooyin."
+      },
+      {
+        "instruction": "Qor wax ku saabsan farqiga u dhexeeya baahida iyo rabitaanka. Bixi 3 tusaale oo baahi ah iyo 3 tusaale oo rabitaan ah. Sharax sababta farqigu u muhiim u yahay."
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'too much' oo leh magacyada aan la tirin karin. Isticmaal 'too many' oo leh magacyada la tirin karo. Labaduba waxay macnaheedu yihiin 'in ka badan inta fiican ama lagama maarmaanka ah'.",
+          "examples": [
+            "Waxaan ku bixiyaa lacag aad u badan cuntada. (lacag = aan la tirin karin)",
+            "Waxaan haystaa kharashyo aad u badan. (kharashyo = la tirin karo)",
+            "Waxay waqti aad u badan ku bixisaa iibsashada. (waqti = aan la tirin karin)",
+            "Waxay iibsadaan waxyaabo aad u badan oo ayna u baahnayn. (waxyaabo = la tirin karo)"
+          ]
+        },
+        {
+          "explanation": "Markaad isbarbardhigayso laba shay, isticmaal qaabka isbarbardhigga. Markaad isbarbardhigayso saddex ama ka badan, isticmaal qaabka ugu sarreeya.",
+          "examples": [
+            "Cuntada guriga lagu kariyo way ka jaban tahay in lagu cuno makhaayad. (comparative)",
+            "Gaadiidka dadweynaha way ka jaban tahay wadista gaariga. (comparative)",
+            "Kani waa kharashkayga ugu weyn. (superlative)",
+            "Kaydinta lacagta waa hadafka ugu muhiimsan. (superlative)"
+          ]
+        },
+        {
+          "explanation": "U isticmaal 'I'm trying to' himilooyinka aad ka shaqaynayso. U isticmaal 'I want to' himilooyinka aad rajayso inaad gaadho.",
+          "examples": [
+            "Waxaan isku dayayaa in aan $500 kaydiyo bishii. (hadda waan ka shaqeynayaa)",
+            "Waxaan rabaa in aan iibsado baabuur sannadka soo socda. (hadafka mustaqbalka)",
+            "Waxay isku dayaysaa in ay yarayso kharashka dharka. (dadaal hadda jira)",
+            "Waxay rabaan in ay u kaydiyaan guri. (hadafka mustaqbalka)"
+          ]
+        },
+        {
+          "explanation": "U isticmaal '[Item] is a need' waxyaabaha aad u baahan tahay inaad ku noolaato (sida kirada iyo cuntada), iyo '[Item] is a want' waxyaabaha wanaagsan laakiin aan ahayn kuwa lagama maarmaan.",
+          "examples": [
+            "Kirada waa baahi — waa inaan bixiyo.",
+            "Taleefan cusub waa shay la doonayo — uma baahni.",
+            "Cuntadu waa baahi.",
+            "Fasaxu waa shay la doonayo."
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "qorshe lacag lagu kharash gareeyo",
+        "example": "Waxaan sameeyay miisaaniyad si aan ula socdo kharashkayga."
+      },
+      {
+        "definition": "lacag aad ka kasbato shaqada",
+        "example": "Dakhligayga bishii waa $2,400."
+      },
+      {
+        "definition": "lacag aad ku bixiso waxyaabaha",
+        "example": "Kharashkayga ugu weyn waa kiro iyo cunto."
+      },
+      {
+        "definition": "lacag aad kaydiso oo aadan kharash gareyn",
+        "example": "Waxaan haystaa $1,000 oo kayd ah."
+      },
+      {
+        "definition": "wax lagama maarmaan ah inaad haysato",
+        "example": "Cunto iyo hoy waa baahiyo."
+      },
+      {
+        "definition": "wax aad jeclaan lahayd laakiin aan lagama maarmaan ahayn",
+        "example": "Taleefan cusub waa rabitaan, ma aha baahi."
+      },
+      {
+        "definition": "lacag loo kaydiyo dhibaatooyin lama filaan ah",
+        "example": "Kaydkayga degdegga ah wuxuu leeyahay $3,000."
+      },
+      {
+        "definition": "wax aad doonayso inaad gaarto",
+        "example": "Hadafkeygu waa inaan kaydiyo $5,000 sanadkan."
+      },
+      {
+        "definition": "in aad qorto oo aad la socoto",
+        "example": "Waxaan ula socdaa kharashkayga app-ka."
+      },
+      {
+        "definition": "in aad yareyso kharashka",
+        "example": "Waxaan u baahanahay inaan yareeyo kharashka anigoo guriga ku karisa."
+      }
+    ],
+    "quiz": {
+      "q1": "Wadahadalka, Ahmed bishii intee buu kasbanayaa?",
+      "q2": "Waa maxay 'need'?",
+      "q3": "Waa maxay kaydka degdegga ah?",
+      "q4": "Dhammeystir: 'I spend ___ much money on eating out.'",
+      "q5": "Sida Lisa sheegtay, guriga cuntada lagu kariyo wuxuu badbaadin karaa lacag.",
+      "q6": "TV cusub waa baahi sababtoo ah qof kastaa waa inuu lahaadaa.",
+      "q7": "Dhammeystir: 'I'm ___ to save $300 per month.' (wakhtiga socda: try)",
+      "q8": "Dhammeystir: 'Cooking at home is ___ than eating out.' (isbarbardhig: cheap)",
+      "q9": "Ku xidh shay kasta haddii uu yahay baahi ama rabitaan:",
+      "q10": "Lisa maxay ku talinaysaa Ahmed inuu bishii kaydsado?"
+    }
+  }
 }

@@ -89,6 +89,16 @@
         "I'd like to withdraw $100",
         "I'd like to check my balance",
         "I'd like to transfer money"
+      ],
+      "prompts": [
+        {
+          "sentence": "I'd like to ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I'd like to ___ this check.",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -101,6 +111,16 @@
         "Can I transfer money with this account?",
         "Can I get checks with this account?",
         "Can I set up direct deposit with this account?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Can I ___ with this account?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Can I ___ online?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -113,6 +133,16 @@
         "Is there a charge for checks?",
         "Is there a fee for online banking?",
         "Is there a cost for debit cards?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Is there a ___ for using ATMs?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Is there a ___ for this account?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -493,5 +523,160 @@
     "Many banks have apps that let you deposit checks by taking a photo with your phone.",
     "Credit unions are similar to banks but are non-profit and often have lower fees.",
     "It's normal to have both a checking account (for spending) and a savings account (for saving)."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Fur xisaab bangiga ee Maraykanka",
+      "Faham kala duwanaanshaha xisaabta jeeg iyo kaydka",
+      "Isticmaal ATM-ka si ammaan ah",
+      "Weydiiso khidmadaha iyo adeegyada bangiga"
+    ],
+    "target_phrases": [
+      "Waxaan rabaa in aan xisaab furto",
+      "Waa maxay dukumentiyada aan u baahanahay?",
+      "Ma jiraa khidmad bille ah?",
+      "Sidee baan lacag ku dhigaa?",
+      "Waxaan u baahanahay in aan lacag ka qaato",
+      "Ma heli karaa kaadhka bangi?",
+      "Waa maxay lacagta ugu yar ee xisaabta ku jirta?"
+    ],
+    "dialogue": [
+      "Galab wanaagsan! Ku soo dhawoow Chase Bank. Sideen kaa caawin karaa maanta?",
+      "Salaan. Waxaan rabaa inaan furto akoon bangiga. Kani waa akoonkaygii ugu horreeyay ee Maraykanka.",
+      "Waa fiicantahay! Waan kaa caawin karaa arrintaas. Waxaanu leenahay laba nooc oo waaweyn: akoonka isticmaalka iyo akoonka kaydka. Ma ogtahay midkee aad u baahan tahay?",
+      "Ma hubo. Waa maxay farqiga u dhexeeya?",
+      "Akoonka isticmaalka wuxuu loogu talagalay adeegsiga maalin kasta - bixinta biilasha iyo iibsiga alaabta. Akoonka kaydka wuxuu loogu talagalay inaad ku kaydiso lacagta aadan hadda u baahnayn.",
+      "Waxaan u baahanahay inaan bixiyo kirada iyo biilasha, marka akoonka isticmaalka, sax?",
+      "Sax! Waxaad kaloo ka heli kartaa kaadhka lacag-bixinta ee akoonka isticmaalka si aad wax uga iibsato dukaamada.",
+      "Waa fiican. Waa maxay waraaqaha aan u baahanahay si aan akoonka u furto?",
+      "Waxaan u baahanahay laba nooc oo aqoonsi ah - baasaboor ama shahaadada darawalnimada, iyo kaadhka social security-ka ama rukhsadda shaqada. Ma leedahay kuwaas?",
+      "Haa, waxaan haystaa baasaboorkayga iyo kaadhkayga social security-ka. Ma jirtaa khidmad bille ah?",
+      "Waxaa jira khidmad bille ah oo dhan $12, laakiin waan ka saarnaa haddii mushaharkaagu shaqadaada si toos ah kuugu yimaado. Ma mushaharkaagu si toos ah kuugu yimaadaa?",
+      "Haa, mushaharkaygu wuxuu si toos ah ugu shubmaa bangigayga. Marka khidmad ii ma jirto, sax?",
+      "Taasi waa sax! Khidmad ma jirto ilaa intaad mushaharkaaga si toos ah ka hesho shaqada. Aynu ku bilawno codsigaaga."
+    ],
+    "drills": [
+      {
+        "instruction": "Waxaan jeclaan lahaa inaan [action]"
+      },
+      {
+        "instruction": "Ma ku [action] karaa akoonkan?"
+      },
+      {
+        "instruction": "Ma jiraa [fee/requirement] [service]?"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Sidee baad uga fogaaneysaa khidmadda bishaha?"
+      },
+      {
+        "question": "Maxaa ugu horayn ay tahay inaad samayso markaad isticmaalayso ATM-ka?"
+      },
+      {
+        "question": "Maxay qabtaa akoonka kaydka?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Qiyaas inaad joogto bangiga. Duub naftaada adigoo dhihi: 'I'd like to open a checking account. What documents do I need? Is there a monthly fee?' Ku celi hadalka si cad."
+      },
+      {
+        "instruction": "Sharax farqiga u dhexeeya akoonka jeeg iyo akoonka kaydka. Duub naftaada adigoo hadlaya ugu yaraan 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlo oo ku saabsan sababta koonto bangigu muhiim u tahay. Isticmaal weedho sidan ah: 'A bank account helps me...', 'I can...', 'It's safer than...'"
+      },
+      {
+        "instruction": "Waxaad rabtaa inaad koonto bangiga ka furtid. Qor 4 su'aal oo aad weydiin lahayd shaqaalaha bangiga. Ku bilow su'aal kasta: 'What...?', 'How...?', 'Is there...?', ama 'Can I...?'"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "'I'd like to' waa 'I would like to' - hab aad u edeb ah oo wax ku weydiisato. Waxay ka fiican tahay 'I want'.",
+          "examples": [
+            "Waxaan jeclaan lahaa inaan akoon furto. (edeb leh, sax ah)",
+            "Waxaan rabaa inaan akoon furto. (waa hagaag, laakiin edeb yar)",
+            "Waxaan jeclaan lahaa inaan eego haraagayga. (edeb leh)",
+            "Waxaan jeclaan lahaa inaan la hadlo maamulaha. (edeb leh)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'Can I...?' si aad u weydiiso haddii wax suurtagal yahay. Isticmaal 'Do I...?' si aad u weydiiso waxa loo baahan yahay.",
+          "examples": [
+            "Ma isticmaali karaa ATM kasta? (ma suurtagal miyaa?)",
+            "Ma u baahanahay laba nooc oo aqoonsi? (ma qasab miyaa?)",
+            "Ma furi karaa xisaab online? (ma suurtagal miyaa?)",
+            "Ma waa inaan bixiyo khidmad? (ma qasab miyaa?)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal wakhtiga hadda ee fudud si aad u qeexdo hawlaha bangiga ee joogtada ah iyo sifooyinka akoonka.",
+          "examples": [
+            "Bankigu wuxuu furaa 9 subaxnimo. (jadwal caadi ah)",
+            "Waxaan dhigtaa mushaarkayga Jimce kasta. (fal joogto ah)",
+            "Xisaabtani waxay kasbataa 0.5% dulsaar. (sifo xisaabeed)",
+            "ATM-yadu waxay qaadaan khidmad. (xaqiiqo guud)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "koonto banki oo loogu talagalay kharaashka maalinlaha ah",
+        "example": "Waxaan u isticmaalaa xisaabta jeeganka si aan kirada ugu bixiyo."
+      },
+      {
+        "definition": "koonto banki oo lagu kaydiyo lacag muddo dheer",
+        "example": "Waxaan bishiiba $200 ku dhigtaa xisaabta kaydka."
+      },
+      {
+        "definition": "in lacag lagu geliyo koonto",
+        "example": "Waxaan Jimce kasta dhigtaa jeegga mushaharkayga."
+      },
+      {
+        "definition": "in lacag laga soo saaro koonto",
+        "example": "Waxaan u baahanahay in aan $100 ka soo saaro ATM-ka."
+      },
+      {
+        "definition": "qadarka lacagta ee koontadaada ku jira",
+        "example": "Hadhaaga xisaabtaydu waa $450."
+      },
+      {
+        "definition": "kaadhka lagu bixiyo lacagta koontadaada banki ee maalinlaha ah",
+        "example": "Waxaan u isticmaalaa kaadhka bixinta si aan raashinka ugu iibsado."
+      },
+      {
+        "definition": "Nambarka Aqoonsiga Shakhsiga - koodhka sirta ah ee kaadhkaaga",
+        "example": "Weligaa PIN-kaaga ha la wadaagin qofna."
+      },
+      {
+        "definition": "lacag si otomaatik ah loogu xareeyo koontadaada",
+        "example": "Shaqaaleeyuhu wuxuu mushaharkayga si toos ah iigu dhigaa."
+      },
+      {
+        "definition": "Mashiinka Otomaatiga ah ee Lacagta - mashiin lagaga helo lacag ceyriin ah",
+        "example": "Waxaa geeska ku yaal ATM."
+      },
+      {
+        "definition": "lacagta bangigu ku siiyo kaydka",
+        "example": "Xisaabtan kaydka waxay 0.5% dulsaar ku kasbataa."
+      }
+    ],
+    "quiz": {
+      "q1": "Xisaabta jeegga maxaa inta badan loogu isticmaalaa?",
+      "q2": "Wadahadalka, sidee buu Ahmed uga fogaadaa khidmadda bilaha ah?",
+      "q3": "Maxay 'PIN' u taagan tahay?",
+      "q4": "Dhammeystir: '___ like to open a savings account.'",
+      "q5": "Xisaabta keydka waxay kuu soo saartaa dulsaar lacagtaada.",
+      "q6": "Waa inaad PIN-kaaga la wadaagtaa xubnaha qoyska.",
+      "q7": "___ I use any ATM with this debit card? (weydiin haddii ay suurtagal tahay)",
+      "q8": "I ___ my paycheck every Friday. (joogtada fudud: deposit)",
+      "q9": "Isku dhig ereyga bangiga iyo macnihiisa.",
+      "q10": "Waa kuwee dokumentiyada Ahmed uu u baahan yahay si uu xisaab u furto?"
+    }
+  }
 }

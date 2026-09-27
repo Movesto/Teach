@@ -89,6 +89,16 @@
         "How much is that jacket?",
         "How much are those shoes?",
         "How much is this TV?"
+      ],
+      "prompts": [
+        {
+          "sentence": "How much is this ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "How much are these ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -101,6 +111,16 @@
         "Do you have this in a larger size?",
         "Do you have this in black?",
         "Do you have this in extra large?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Do you have this in ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Do you have this shirt in a different ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -113,6 +133,16 @@
         "Everything is 50% off today",
         "This jacket is 30% off the original price",
         "Buy one, get one 50% off"
+      ],
+      "prompts": [
+        {
+          "sentence": "This shirt is ___ off.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "These shoes are ___ for $40.",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -493,5 +523,160 @@
     "Outlet stores sell brand-name items at discounted prices.",
     "'Clearance' items are usually final sale with no returns, so check carefully.",
     "Thrift stores (Goodwill, Salvation Army) have very cheap used items and support good causes."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Isbarbardhig qiimaha oo raadso heshiis wanaagsan",
+      "Faham iibka, qiimo dhimista, iyo kuponada",
+      "Weydii siyaasadaha soo celinta iyo beddelka",
+      "Akhri sumadaha qiimaha, rasiidka, oo faham cashuurta iibka"
+    ],
+    "target_phrases": [
+      "Waa imisa tan?",
+      "Ma waa qiimo dhimis?",
+      "Ma haysaa tan cabbir kale?",
+      "Ma soo celin karaa tan haddii aanay ku habboonayn?",
+      "Ma aqbashaa kubon?",
+      "Waa maxay siyaasaddaada soo celinta?",
+      "Ma cashuur baa ku jirta qiimahan?"
+    ],
+    "dialogue": [
+      "Haye! Ma kaa caawin karaa inaad wax hesho maanta?",
+      "Haa, fadlan. Waxaan u baahanahay surwaal shaqo iyo shaati shaqo. Xaggeen ka heli karaa dharka ragga?",
+      "Dharka ragga waxay ku yaalliin safka 12. Maanta waxaan haynaa qiimo-dhac - dhammaan surwaalka shaqada waxaa ka baxaya 25%!",
+      "Waa aad u fiican! Immisa ayay caadiyan ku kacaan surwaalku?",
+      "Caadiyan waxay yihiin $32, laakiin qiima-dhaca waxay noqonaysaa $24.",
+      "Waa kaamil! Ma haysaa tan cabbirka 34?",
+      "Aan eego... Haa, waa kuu soo saaray. Waxaan sidoo kale haynaa shaati qiimo-dhac ah - mid iibso, midka kalena 50% ka baxay.",
+      "Waa kaamil! Ma soo celin karaa kuwaan haddii aysan ku habboonayn?",
+      "Haa, waxaad haysataa 90 maalmood oo aad ku soo celin kartid adigoo wata rasiidka. Haddii aadan hubin cabbirka, ha ka qaadin summada.",
+      "Waa wanaagsan tahay in la ogaado. Su'aal kale - miyay canshuurtu ku jirtaa qiimahan?",
+      "Maya, Oregon ma laha canshuur iib, marka qiimaha aad aragto waa kan aad bixiso. Taasi waa fiican tahay, sax?",
+      "Haa, taas ayaa fududaysa! Waxaan qaadanayaa laba surwaal iyo saddex shaati.",
+      "Waa doorasho fiican! Aan kuugu xisaabiyo khasnadda."
+    ],
+    "drills": [
+      {
+        "instruction": "Waa imisa [shay]?"
+      },
+      {
+        "instruction": "Ma haysaa kan [cabir/midab]?"
+      },
+      {
+        "instruction": "Kani waa [boqolkiiba] dhimis / qiimo jaban."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa maxay qiimo dhimista dharka xagaaga?"
+      },
+      {
+        "question": "Muddo intee le'eg ayaad haysataa si aad u soo celiso alaabta?"
+      },
+      {
+        "question": "Waa imisa wadarta lacagta la bixiyay, oo ay ku jirto cashuurtu?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad ku jirtaa dukaanka. Duub naftaada adigoo weydiinaya: 'Excuse me, how much is this jacket? Do you have it in medium? Is it on sale?' Ku celceli inaad u hadasho si cad oo ixtiraam leh."
+      },
+      {
+        "instruction": "U sharax saaxiibkaa sida loo kaydiyo lacagta markaad wax iibsanayso. Duub adigoo bixinaya 3 talo. U hadal ugu yaraan 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlood oo ku saabsan sida aad u jeceshahay inaad wax ku iibsato. Ma jeceshahay qiimo-dhimista? Ma isbarbardhigtaa qiimaha? Ma waxaad ku iibsataa internetka mise dukaamada? Isticmaal oraahyo sida: 'I always...', 'I usually...', 'I never...'"
+      },
+      {
+        "instruction": "Fiiri rasiidkan oo ka jawaab su'aalaha:\n\nShaati: $20\nSurwaal: $35\nWadarta (subtotal): $55\nCanshuur (6%): $3.30\nWadarta guud: $58.30\nWaxaad badbaadisay: $15\n\nSu'aalaha: 1) Immisa ayuu ahaa wadarta (subtotal)? 2) Immisa ayay ahayd canshuurtu? 3) Immisa ayaad badbaadisay?"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "U isticmaal 'this/these' waxyaalaha kugu dhow. U isticmaal 'that/those' waxyaalaha kaa fog. 'This/that' waa keli. 'These/those' waa jamac.",
+          "examples": [
+            "Waa imisa shaatigan? (hal shaati, agtayda)",
+            "Waa imisa shaatiyadan? (shaatiyo badan, agtayda)",
+            "Waxaan jeclahay jaakadaas. (hal jaako, halkaas)",
+            "Surwaalladaas waa qurxoon yihiin. (surwaallo badan, halkaas)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal comparatives si aad u barbar dhigto qiimaha iyo tayada. Ku dar '-er' sifooyinka gaagaaban. Isticmaal 'more' sifooyinka dhaadheer.",
+          "examples": [
+            "Shaatigani waa ka jaban kaas. (cheap → cheaper)",
+            "Jaakadkani waa ka qaalisan. (expensive → more expensive)",
+            "Kabahani waa tayo ka fiican. (good → better)",
+            "Dukaankaasi waa ka dhow yahay gurigayga. (close → closer)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'if' si aad u weydiiso xaaladaha ama fursadaha marka aad wax iibsato.",
+          "examples": [
+            "Ma soo celin karaa haddii aanu ku habboonayn?",
+            "Maxaa dhacaya haddii aan lumiyo rasiidkayga?",
+            "Ma beddeli karaa haddii aan beddelo fikirkayga?",
+            "Ma dalacsiisaa wax dheeri ah haddii aan ku bixiyo kaadhka?"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "alaabta lagu iibiyo qiimo la yareeyay",
+        "example": "Waxaa jira iib weyn oo ka dhacaya suuqa usbuucan."
+      },
+      {
+        "definition": "dhimista qiimaha",
+        "example": "Waxaan helay qiimo dhimis 20% ah oo aan ku isticmaalay kubbonkeyga."
+      },
+      {
+        "definition": "warqad ama koodh qiimo dhimis ku siiya",
+        "example": "Waxaan haystaa kubbon $5 oo qiimo dhimis ah."
+      },
+      {
+        "definition": "warqad muujinaysa waxaad iibsatay iyo waxa aad bixisay",
+        "example": "Hayso rasiidkaaga haddii aad u baahato inaad ku celiso wax."
+      },
+      {
+        "definition": "in aad alaab ku celiso dukaanka",
+        "example": "Ma ku celin karaa haddii aanu ku habboonayn?"
+      },
+      {
+        "definition": "in aad alaab ku beddesho mid kale",
+        "example": "Waxaan rabaa inaan ku beddelo mid ka weyn."
+      },
+      {
+        "definition": "lacagta dib laguugu celiyo marka aad shay celiso",
+        "example": "Waxaan helay lacag celin buuxda oo ah shayga jaban."
+      },
+      {
+        "definition": "alaab lagu iibiyo qiimo aad u jaban si loo faarujiyo kaydka",
+        "example": "Fiiri rack-ka qiimo dhimista si aad u hesho heshiisyo wanaagsan."
+      },
+      {
+        "definition": "lacag dheeri ah oo ay dawladdu ku kordhiso qiimaha",
+        "example": "Canshuurta shaygan waa 6%."
+      },
+      {
+        "definition": "qiimaha ka hor intaan cashuurta lagu darin",
+        "example": "Wadarta hoose waa $50, oo lagu daray $3 canshuur."
+      }
+    ],
+    "quiz": {
+      "q1": "Dialoogga, waa maxay qiimo dhimista surwaalka shaqada?",
+      "q2": "Waa maxay macnaha 'buy one, get one 50% off'?",
+      "q3": "Buuxi: 'Do you have this ___ blue?'",
+      "q4": "Intee ayuu Ahmed u haystaa inuu ku celiyo alaabta Target?",
+      "q5": "Oregon waxay ku leedahay cashuurta iibka dharka.",
+      "q6": "Waa inaad kaydisaa rasiidka haddii aad suurtagal tahay inaad ku celiso wax.",
+      "q7": "Imisa ___ kabahan? (su'aal ku saabsan walxo badan)",
+      "q8": "Shaatigani waa ___ kaas ka. (isbarbardhig: jaban)",
+      "q9": "Isku xir ereyga iibsashada iyo macnihiisa:",
+      "q10": "Kee ayaa sax ah?"
+    }
+  }
 }
