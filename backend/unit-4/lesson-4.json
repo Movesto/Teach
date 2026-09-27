@@ -81,6 +81,16 @@
         "I need the fire department!",
         "I need help immediately!",
         "I need emergency medical assistance!"
+      ],
+      "prompts": [
+        {
+          "sentence": "I need ___!",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I need an ___ right now!",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -93,6 +103,16 @@
         "There's been a car accident",
         "There's a person who fell and can't get up",
         "There's smoke coming from the apartment upstairs"
+      ],
+      "prompts": [
+        {
+          "sentence": "There's a ___!",
+          "type": "flexible"
+        },
+        {
+          "sentence": "There's a ___ at my house!",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -105,6 +125,16 @@
         "I'm in the parking lot of Safeway",
         "I'm on Highway 26 near the tunnel",
         "I'm at Powell Park on SE Division"
+      ],
+      "prompts": [
+        {
+          "sentence": "I'm at ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I'm at 250 ___ Street.",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -483,5 +513,158 @@
     "Most 911 centers have translation services for non-English speakers.",
     "Teaching children to call 911 and know their address can save lives.",
     "For non-emergencies, use the non-emergency police number (often 311 or local number)."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Ogow waqtiga lagu waco 911",
+      "Si cad u sheeg meesha aad joogto",
+      "Sharax xaaladda degdegga ah",
+      "Xasilow oo raac tilmaamaha qofka kaa caawinaya"
+    ],
+    "target_phrases": [
+      "Waxaan u baahanahay caawimaad! Waxaa jira...",
+      "Cinwaankaygu waa...",
+      "Qof baa dhaawacmay",
+      "Fadlan soo dir ambalaas",
+      "Waa xaalad degdeg ah!",
+      "Waxaan u baahanahay booliiska ama dab-demiska",
+      "Ma soo diri kartaa caawimaad isla markiiba?"
+    ],
+    "dialogue": [
+      "Maanta waxaan ku celcelinaynaa wicitaannada 911. Xusuuso: isdeg deg, u hadal si cad, kana jawaab su'aalaha oo dhan.",
+      "Ka warran haddii aan aad u walwalo in aan si cad u hadlo?",
+      "Neefso qoto dheer. Qofka wicitaanka qaada waa tababaran yahay inuu ku caawiyo. Waxay ku weydiin doonaan su'aalo fudud.",
+      "Hagaag, aan tababarno. Waxaan iska dhigayaa in dab jiro.",
+      "Waa hagaag. Anigu waxaan noqon doonaa qofka wicitaanka qaada. Bilaabi wicitaankaaga.",
+      "Hello! Caawimaad baan u baahanahay! Dab baa ka kacay daarta aan ku noolahay!",
+      "Waa hagaag! Waa maxay cinwaankaaga?",
+      "8234 SE 82nd Avenue, Guri 12.",
+      "Waa fiican! Ma jirtaa qof dhaawacmay? Ma waxaad ku sugantahay meel ammaan ah?",
+      "Qof walba wuu banaanka yahay. Dhammaanteen waanu nabad qalnaa. Fadlan soo dir dab-demiska!",
+      "Waa aad u fiican! Gawaarida dab-demiska ayaa imanaya. Ha ka bixin xariiqda. Aad baad u fiicnaatay, Ahmed!"
+    ],
+    "drills": [
+      {
+        "instruction": "Waxaan u baahanahay [adeegga degdegga ah]!"
+      },
+      {
+        "instruction": "Waxaa jira [xaalad degdeg ah]"
+      },
+      {
+        "instruction": "Waxaan ku joogaa [cinwaanka/goobta]"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa goorma inaad wacdo 911?"
+      },
+      {
+        "question": "Maxaad tahay inaad samayso ka dib markaad ka jawaabto su'aalaha qofka wicitaanka qaada?"
+      },
+      {
+        "question": "Maxuu samayn doonaa qofka wicitaanka qaada haddii qof uusan neefsanayn?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Ku celi wicitaanka 911. Dheh: 'I need an ambulance! Someone fell and is bleeding. The address is [your address]. Please hurry!' Si cad isu duub."
+      },
+      {
+        "instruction": "Sharax saddex nooc oo xaalado degdeg ah oo ay tahay inaad wacdo 911. Ku hadal 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor cinwaankaaga si cad, sida aad u sheegi lahayd qofka 911. Kadib qor saddex jumlood oo ku saabsan sababta ay muhiim u tahay inaad ogaato cinwaankaaga xaalad degdeg ah."
+      },
+      {
+        "instruction": "Qor waxa aad dhihi lahayd xaalad degdeg ah: Guriga deriskaaga waa gubanaya, dad ayaa gudaha ku xayiran. (4-5 jumlood)"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "U adeegso qaabka amarka (fal aasaasi ah) amarrada degdegga ah. Mawduuc looma baahna.",
+          "examples": [
+            "Call 911! (amar degdeg ah)",
+            "Send help! (codsi degdeg ah)",
+            "Stay calm! (tilmaan)",
+            "Don't move! (amar diidmo ah)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal present continuous (am/is/are + -ing) si aad u sharaxdo waxa hadda ka dhacaya.",
+          "examples": [
+            "Gurigu waa gubanaya! (hadda dhacaya)",
+            "Qof baa guriga jabsanaya! (hadda dhacaya)",
+            "Iyadu ma neefsanayso! (hadda jira)",
+            "Waa lagu xannibay gudaha! (hadda jira)"
+          ]
+        },
+        {
+          "explanation": "Istcmaal 'There is/are' si aad u sharaxdo waxa aad ku aragto goobta.",
+          "examples": [
+            "Waxaa jira dab! (keli)",
+            "Waxaa jira dad ku xanniban! (jamac)",
+            "Waxaa jira qiiq meel walba! (aan la tirin karin)",
+            "Waxaa jira laba baabuur oo shilmay! (jamac)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "xaalad halis ah oo degdeg u baahan",
+        "example": "Dabku waa xaalad degdeg ah."
+      },
+      {
+        "definition": "qofka ka jawaaba 911 oo gargaar dira",
+        "example": "Qofkii wicitaanka qaabilsanaa wuxuu i weydiiyay cinwaankayga."
+      },
+      {
+        "definition": "gaadhi u qaada dadka buka ama dhaawacmay isbitaalka",
+        "example": "Ambulance-kii wuxuu yimid 5 daqiiqo gudahood."
+      },
+      {
+        "definition": "dadka dabka damiya",
+        "example": "Wac dab-demiska haddii uu dab jiro."
+      },
+      {
+        "definition": "aan soo jeedin, aan wax ka jawaabin",
+        "example": "Waa miyir beeshay oo ma dhaqaaqeyso."
+      },
+      {
+        "definition": "neef qaadashada iyo siideynta",
+        "example": "Hubi haddii ay weli neefsadaan."
+      },
+      {
+        "definition": "dhaawac ama waxyeello jirka ku dhaca",
+        "example": "Wuxuu qabaa dhaawac madax oo halis ah."
+      },
+      {
+        "definition": "ku xayiran oo aan baxayn",
+        "example": "Dad ayaa ku xanniban gudaha elevator-ka."
+      },
+      {
+        "definition": "fal sharci darro ah",
+        "example": "Wac 911 haddii aad aragto dambi."
+      },
+      {
+        "definition": "gargaar caafimaad oo degdeg ah ka hor inta takhaatiirtu iman",
+        "example": "Waan yaqaan gargaarka koowaad ee aasaasiga ah."
+      }
+    ],
+    "quiz": {
+      "q1": "Goorma waa inaad wacdaa 911?",
+      "q2": "Waa maxay waxa ugu horayn ee aad u sheegto qofka 911 qaada?",
+      "q3": "Goorma ayaad talefoonka dhigi kartaa ka dib markaad 911 wacdo?",
+      "q4": "Waa inaad degganaataa markaad 911 wacayso.",
+      "q5": "Wac 911 haddii aad cabanayso buuqa deriska.",
+      "q6": "___ help immediately! (amar: send)",
+      "q7": "The house ___ burning! (waqti socda: be)",
+      "q8": "___ a fire! (there is)",
+      "q9": "Isku xidh xaaladda degdegga ah iyo adeegga.",
+      "q10": "Waa maxay macluumaadka aad u baahan tahay inaad diyaar u haysato 911?"
+    }
+  }
 }

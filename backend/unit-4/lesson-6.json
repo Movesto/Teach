@@ -24,19 +24,58 @@
     "title": "Learning About Free Resources",
     "context": "Ahmed visits a community center to learn about free programs and services available to him and his family.",
     "lines": [
-      {"speaker": "Social Worker", "text": "Welcome to the Portland Immigrant Resource Center. I'm Maria, a social worker. How can I help you today?"},
-      {"speaker": "Ahmed", "text": "Hi Maria. I just moved here from Somalia. I'm looking for help finding resources for my family."},
-      {"speaker": "Social Worker", "text": "I'm glad you came! We have many free services. What do you need most right now?"},
-      {"speaker": "Ahmed", "text": "Well, I need to improve my English. Do you have ESL classes?"},
-      {"speaker": "Social Worker", "text": "Yes! We offer free ESL classes Monday through Friday, morning and evening sessions. We also have computer classes and job training."},
-      {"speaker": "Ahmed", "text": "That's wonderful! My wife is at home with our children. Are there programs for her?"},
-      {"speaker": "Social Worker", "text": "Absolutely. We have a women's support group, childcare during classes, and parenting workshops. Is she interested in working?"},
-      {"speaker": "Ahmed", "text": "Yes, when the kids are older. Right now, we sometimes need help with food. Is there a food bank?"},
-      {"speaker": "Social Worker", "text": "Yes, the Oregon Food Bank has a location three blocks away. They're open Tuesdays and Thursdays, 10 AM to 2 PM. No appointment needed."},
-      {"speaker": "Ahmed", "text": "Do I need to prove anything? I'm working, but money is tight."},
-      {"speaker": "Social Worker", "text": "No proof needed at food banks. Everyone is welcome. We also have a clothing closet here with free clothes for your family. Would you like me to show you around?"},
-      {"speaker": "Ahmed", "text": "Yes, please! And how do I sign up for ESL classes?"},
-      {"speaker": "Social Worker", "text": "Just fill out this simple form. Classes start next Monday. I'll also give you a list of other community resources - health clinics, legal help, and more."}
+      {
+        "speaker": "Social Worker",
+        "text": "Welcome to the Portland Immigrant Resource Center. I'm Maria, a social worker. How can I help you today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hi Maria. I just moved here from Somalia. I'm looking for help finding resources for my family."
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "I'm glad you came! We have many free services. What do you need most right now?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Well, I need to improve my English. Do you have ESL classes?"
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "Yes! We offer free ESL classes Monday through Friday, morning and evening sessions. We also have computer classes and job training."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "That's wonderful! My wife is at home with our children. Are there programs for her?"
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "Absolutely. We have a women's support group, childcare during classes, and parenting workshops. Is she interested in working?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, when the kids are older. Right now, we sometimes need help with food. Is there a food bank?"
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "Yes, the Oregon Food Bank has a location three blocks away. They're open Tuesdays and Thursdays, 10 AM to 2 PM. No appointment needed."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Do I need to prove anything? I'm working, but money is tight."
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "No proof needed at food banks. Everyone is welcome. We also have a clothing closet here with free clothes for your family. Would you like me to show you around?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Yes, please! And how do I sign up for ESL classes?"
+      },
+      {
+        "speaker": "Social Worker",
+        "text": "Just fill out this simple form. Classes start next Monday. I'll also give you a list of other community resources - health clinics, legal help, and more."
+      }
     ]
   },
   "pattern_drills": [
@@ -50,6 +89,16 @@
         "Where can I find help with healthcare?",
         "Where can I find help with job searching?",
         "Where can I find help with English classes?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Where can I find help with ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Where can I find ___ for my family?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -62,6 +111,16 @@
         "Is there a free clinic near here?",
         "Is there a job training program near here?",
         "Is there an immigration lawyer near here?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Is there a ___ near here?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Is there a food bank ___ here?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -74,6 +133,16 @@
         "Am I eligible for free healthcare?",
         "Am I eligible for childcare help?",
         "Am I eligible for job training?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Am I eligible for ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "___ I eligible for this program?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -160,9 +229,33 @@
         "Where can I apply for assistance? (asking where to apply)"
       ],
       "practice": [
-        {"sentence": "Where ___ I find help?", "blank": "can", "options": ["can", "do", "am"]},
-        {"sentence": "Where can I ___ for classes?", "blank": "sign up", "options": ["sign up", "signing up", "signed up"]},
-        {"sentence": "___ can I get free food?", "blank": "Where", "options": ["Where", "What", "When"]}
+        {
+          "sentence": "Where ___ I find help?",
+          "blank": "can",
+          "options": [
+            "can",
+            "do",
+            "am"
+          ]
+        },
+        {
+          "sentence": "Where can I ___ for classes?",
+          "blank": "sign up",
+          "options": [
+            "sign up",
+            "signing up",
+            "signed up"
+          ]
+        },
+        {
+          "sentence": "___ can I get free food?",
+          "blank": "Where",
+          "options": [
+            "Where",
+            "What",
+            "When"
+          ]
+        }
       ]
     },
     {
@@ -176,9 +269,33 @@
         "Are there programs for children? (plural)"
       ],
       "practice": [
-        {"sentence": "___ there a community center nearby?", "blank": "Is", "options": ["Is", "Are", "Do"]},
-        {"sentence": "___ there free classes available?", "blank": "Are", "options": ["Is", "Are", "Do"]},
-        {"sentence": "Is ___ any help for housing?", "blank": "there", "options": ["there", "their", "they"]}
+        {
+          "sentence": "___ there a community center nearby?",
+          "blank": "Is",
+          "options": [
+            "Is",
+            "Are",
+            "Do"
+          ]
+        },
+        {
+          "sentence": "___ there free classes available?",
+          "blank": "Are",
+          "options": [
+            "Is",
+            "Are",
+            "Do"
+          ]
+        },
+        {
+          "sentence": "Is ___ any help for housing?",
+          "blank": "there",
+          "options": [
+            "there",
+            "their",
+            "they"
+          ]
+        }
       ]
     },
     {
@@ -192,9 +309,33 @@
         "Call 211 to find services. (purpose)"
       ],
       "practice": [
-        {"sentence": "I came here ___ learn English.", "blank": "to", "options": ["to", "for", "at"]},
-        {"sentence": "She wants ___ sign up for classes.", "blank": "to", "options": ["to", "for", "at"]},
-        {"sentence": "We need help ___ find housing.", "blank": "to", "options": ["to", "for", "with"]}
+        {
+          "sentence": "I came here ___ learn English.",
+          "blank": "to",
+          "options": [
+            "to",
+            "for",
+            "at"
+          ]
+        },
+        {
+          "sentence": "She wants ___ sign up for classes.",
+          "blank": "to",
+          "options": [
+            "to",
+            "for",
+            "at"
+          ]
+        },
+        {
+          "sentence": "We need help ___ find housing.",
+          "blank": "to",
+          "options": [
+            "to",
+            "for",
+            "with"
+          ]
+        }
       ]
     }
   ],
@@ -244,7 +385,12 @@
         "id": "q4",
         "type": "multiple-choice",
         "question": "Complete: '___ can I find a food bank?'",
-        "options": ["What", "Where", "When", "Who"],
+        "options": [
+          "What",
+          "Where",
+          "When",
+          "Who"
+        ],
         "correct": 1,
         "points": 10
       },
@@ -267,7 +413,10 @@
         "type": "fill-blank",
         "question": "___ there a community center nearby? (asking about availability)",
         "correct": "Is",
-        "accept": ["Is", "is"],
+        "accept": [
+          "Is",
+          "is"
+        ],
         "points": 10
       },
       {
@@ -275,7 +424,9 @@
         "type": "fill-blank",
         "question": "I came here ___ get help. (infinitive of purpose)",
         "correct": "to",
-        "accept": ["to"],
+        "accept": [
+          "to"
+        ],
         "points": 10
       },
       {
@@ -283,9 +434,18 @@
         "type": "matching",
         "question": "Match the resource to what it provides:",
         "pairs": [
-          {"left": "Food bank", "right": "Free groceries"},
-          {"left": "ESL classes", "right": "English lessons"},
-          {"left": "211 helpline", "right": "Resource information"}
+          {
+            "left": "Food bank",
+            "right": "Free groceries"
+          },
+          {
+            "left": "ESL classes",
+            "right": "English lessons"
+          },
+          {
+            "left": "211 helpline",
+            "right": "Resource information"
+          }
         ],
         "points": 10
       },
@@ -305,16 +465,56 @@
     ]
   },
   "vocabulary": [
-    {"word": "food bank", "definition": "place that gives free groceries to people in need", "example": "I get food from the food bank twice a month."},
-    {"word": "assistance", "definition": "help or support", "example": "She received assistance with rent payments."},
-    {"word": "nonprofit", "definition": "organization that helps people, not make profit", "example": "Many community centers are nonprofit organizations."},
-    {"word": "community center", "definition": "place offering programs and services for local residents", "example": "The community center has free computer classes."},
-    {"word": "resource", "definition": "something that helps meet a need", "example": "The library is a great resource for job seekers."},
-    {"word": "program", "definition": "organized set of services or activities", "example": "They offer a job training program."},
-    {"word": "eligibility", "definition": "meeting requirements to receive something", "example": "Check your eligibility for food assistance."},
-    {"word": "volunteer", "definition": "person who works without pay to help others", "example": "She volunteers at the food bank every Tuesday."},
-    {"word": "donation", "definition": "something given to help others", "example": "Food banks depend on donations from the community."},
-    {"word": "support group", "definition": "people who meet to help each other with similar challenges", "example": "There's a support group for new immigrants."}
+    {
+      "word": "food bank",
+      "definition": "place that gives free groceries to people in need",
+      "example": "I get food from the food bank twice a month."
+    },
+    {
+      "word": "assistance",
+      "definition": "help or support",
+      "example": "She received assistance with rent payments."
+    },
+    {
+      "word": "nonprofit",
+      "definition": "organization that helps people, not make profit",
+      "example": "Many community centers are nonprofit organizations."
+    },
+    {
+      "word": "community center",
+      "definition": "place offering programs and services for local residents",
+      "example": "The community center has free computer classes."
+    },
+    {
+      "word": "resource",
+      "definition": "something that helps meet a need",
+      "example": "The library is a great resource for job seekers."
+    },
+    {
+      "word": "program",
+      "definition": "organized set of services or activities",
+      "example": "They offer a job training program."
+    },
+    {
+      "word": "eligibility",
+      "definition": "meeting requirements to receive something",
+      "example": "Check your eligibility for food assistance."
+    },
+    {
+      "word": "volunteer",
+      "definition": "person who works without pay to help others",
+      "example": "She volunteers at the food bank every Tuesday."
+    },
+    {
+      "word": "donation",
+      "definition": "something given to help others",
+      "example": "Food banks depend on donations from the community."
+    },
+    {
+      "word": "support group",
+      "definition": "people who meet to help each other with similar challenges",
+      "example": "There's a support group for new immigrants."
+    }
   ],
   "cultural_notes": [
     "The U.S. has many nonprofit organizations that help people for free. Don't hesitate to ask for help when you need it.",
@@ -323,5 +523,160 @@
     "Many churches, mosques, and temples offer community services even if you're not a member.",
     "Libraries offer free resources: computers, internet, printing, resume help, and often ESL classes.",
     "Community colleges often have free or low-cost ESL classes and job training programs."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Hel barnaamijyada iyo adeegyada caawinta bulshada",
+      "Hel bangiyada cuntada iyo barnaamijyada gargaarka",
+      "Ku biir xarumaha bulshada iyo fasallada bilaashka ah",
+      "La xiriir ururrada taageerada soo-galootiga"
+    ],
+    "target_phrases": [
+      "Xaggee ayaan ka heli karaa caawimaad ku saabsan ...?",
+      "Ma jiraa bangi cunto oo halkan ku dhow?",
+      "Ma leedihiin fasallo Ingiriisi?",
+      "Sidee baan isu qori karaa?",
+      "Waa maxay adeegyada aad bixisaan?",
+      "Ma u qalmaa caawimaad?",
+      "Ma jiraa khidmad?"
+    ],
+    "dialogue": [
+      "Kusoo dhawoow Xarunta Kheyraadka Soogalootiga ee Portland. Anigu waxaan ahay Maria, shaqaale bulsho. Sideen kaa caawin karaa maanta?",
+      "Salaan Maria. Waxaan hadda ka soo guuray halkan Soomaaliya. Waxaan raadinayaa caawimaad si aan u helo kheyraadka qoyskayga.",
+      "Waan ku faraxsanahay inaad timaad! Waxaan haynaa adeegyo badan oo bilaash ah. Maxaa ugu baahan tahay hadda?",
+      "Hagaag, waxaan u baahanahay inaan horumariyo Ingiriisigayga. Ma waxaad haysaan fasalada Ingiriisiga?",
+      "Haa! Waxaan bixinaa fasalada Ingiriisiga oo bilaash ah Isniin ilaa Jimce, subax iyo galab. Waxaan kaloo haynaa fasalada kombiyuutarka iyo tababarka shaqada.",
+      "Waa wax aad u fiican! Xaaskayga wuxuu joogaa guriga carruurtayada. Ma waxaa jira barnaamijyo iyada loogu talagalay?",
+      "Haa sidaas. Waxaan haynaa koox taageero haweenka, daryeel carruur inta lagu jiro fasallada, iyo tababaro waalidnimo. Ma waxay danaynaysaa inay shaqayso?",
+      "Haa, marka carruurtu weynaadaan. Hadda, waxaan mararka qaar u baahanahay caawimaad cunto. Ma jiraa banki cuntada?",
+      "Haa, Bankiga Cuntada ee Oregon wuxuu leeyahay goob saddex dariiq oo ka fog. Waxay furan yihiin Talaado iyo Khamiis, 10 subaxnimo ilaa 2 galabnimo. Ballan lagama baahna.",
+      "Ma waxaan u baahanahay inaan caddeeyo wax? Waan shaqeeyaa, laakiin lacagtu waa cidhiidhi.",
+      "Ma jiro wax caddayn ah oo loo baahan yahay ee bankiyada cuntada. Qof kastaa waa soo dhawayn. Waxaan kaloo halkan ku haynaa qol dharka oo leh dharka bilaashka ah oo qoyskaaga loogu talagalay. Ma doonaysaa inaan ku tuso meesha?",
+      "Haa, fadlan! Sideen ugu qormaa fasalada Ingiriisiga?",
+      "Kaliya buuxi foomkan fudud. Fasallada waxay bilaabaan Isniinta soo socota. Sidoo kale waxaan ku siin doonaa liiska kheyraadka kale ee bulshada - xarumaha caafimaadka, caawimaad sharci, iyo kuwo kale."
+    ],
+    "drills": [
+      {
+        "instruction": "Xagee aan ka heli karaa caawimaad [baahi]?"
+      },
+      {
+        "instruction": "Ma jiraa [adeeg/meel] halkan ku dhow?"
+      },
+      {
+        "instruction": "Ma anigu u qalmaa [barnaamij/adeeg]?"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Maxaad u baahan tahay si aad u isticmaasho adeegyada xarunta?"
+      },
+      {
+        "question": "Intee jeer ayay baanka cuntada caadi ahaan furan yahay?"
+      },
+      {
+        "question": "Goorma ayay khadka caawinta 211 la heli karaa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad joogtaa xarun bulsho. Weydii: 'What services do you offer? Do you have ESL classes? Is there a fee? How do I sign up?' U duub codkaaga si cad."
+      },
+      {
+        "instruction": "Sharax saddex nooc oo ka mid ah caawimaadaha ay bixiyaan hay'adaha bulshada. Ka hadal 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor wax ku saabsan 3 khayraad bulsho oo waxtar u yeelan kara qoys soo-galooti ah. Sharax waxa khayraad kasta sameeyo. (5-6 jumladood)"
+      },
+      {
+        "instruction": "Ka tasawwur inaad saaxiib kuugu sheegayso khadka caawimada ee 211. Qor waxaad dhihi lahayd. (4-5 jumladood)"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'Where can I...?' si aad u weydiiso halka ay ku yaalliin adeegyada ama goobaha.",
+          "examples": [
+            "Xaggee ayaan ka heli karaa bankiga cuntada? (waxaad weydiinaysaa meesha)",
+            "Xaggee ayaan ka heli karaa daryeel caafimaad bilaash ah? (waxaad weydiinaysaa halka aad aado)",
+            "Xaggee ayaan iska qori karaa fasallada? (waxaad weydiinaysaa meesha ama habka)",
+            "Xaggee ayaan ka codsan karaa caawimaad? (waxaad weydiinaysaa halka aad ka codsato)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'Is there...?' (keli) ama 'Are there...?' (jamac) si aad u weydiiso haddii shay uu jiro ama uu la heli karo.",
+          "examples": [
+            "Ma jiraa banki cunto oo agagaarkan?",
+            "Ma jiraan fasalada Ingiriisiga?",
+            "Ma jiraa caawimaad la heli karo?",
+            "Ma jiraan barnaamijyo carruurta?"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'to + base verb' si aad u sharaxdo sababta aad wax u samaynaysid ama waxa uu shay u yahay.",
+          "examples": [
+            "Waxaan halkan u imid si aan caawimaad u helo.",
+            "Waxaan isku dayaynaa inaan helno agab.",
+            "Waxay bixiyaan fasallo si ay u baraan Ingiriisiga.",
+            "Wac 211 si aad u hesho adeegyada."
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "meel siisa cunto bilaash ah dadka baahan",
+        "example": "Waxaan ka helaa cunto bangi cuntada laba jeer bishii."
+      },
+      {
+        "definition": "caawimaad ama taageero",
+        "example": "Waxay heshay caawimaad bixinta kirada."
+      },
+      {
+        "definition": "urur dadka caawiya, oo aan faa'iido doonin",
+        "example": "Xarumo badan oo bulshada waa ururo aan faa'iido doon ahayn."
+      },
+      {
+        "definition": "meel bixisa barnaamijyo iyo adeegyo dadka deegaanka",
+        "example": "Xarunta bulshada waxay leedahay fasallo kombuyuutar oo bilaash ah."
+      },
+      {
+        "definition": "wax ka caawiya in la buuxiyo baahi",
+        "example": "Maktabadda waa kheyraad weyn oo loogu talagalay dadka shaqo raadinaya."
+      },
+      {
+        "definition": "adeegyo ama hawlo habaysan",
+        "example": "Waxay bixiyaan barnaamij tababarka shaqada."
+      },
+      {
+        "definition": "buuxinta shuruudaha lagu helo wax",
+        "example": "Hubi inaad u qalanto caawimaadda cuntada."
+      },
+      {
+        "definition": "qof si bilaash ah u shaqeeya oo dadka caawiya",
+        "example": "Waxay tabaruc ku samaysaa bangi cuntada Talaado kasta."
+      },
+      {
+        "definition": "wax la siiyo si dadka loo caawiyo",
+        "example": "Bangi cuntada waxay ku tiirsan yihiin deeqaha bulshada."
+      },
+      {
+        "definition": "dad isu yimaada si ay isugu caawiyaan caqabado isku mid ah",
+        "example": "Waxaa jira koox taageero ah oo loogu talagalay soo-galootiga cusub."
+      }
+    ],
+    "quiz": {
+      "q1": "Waa goorma la bixiyo fasallada ESL ee wada-hadalka?",
+      "q2": "Maxaad u baahan tahay si aad u isticmaasho bankiga cuntada?",
+      "q3": "Waa maxay ujeedka khadka caawinta 211?",
+      "q4": "Dhamaystir: '___ baan ka heli karaa bankiga cuntada?'",
+      "q5": "Kheyraadka bulshada waxay u keliya yihiin muwaadiniinta Maraykanka.",
+      "q6": "Khadka caawinta 211 wuxuu diyaar yahay 24 saacadood maalintii.",
+      "q7": "___ jiro xarun bulsho oo dhow? (wax weydiinaysa helitaanka)",
+      "q8": "Waxaan imid ___ caawimo. (ujeeddo infinitiv)",
+      "q9": "Isku xidh kheyraadka waxa uu bixiyo:",
+      "q10": "Sida Maria sheegtay, maxaa Ahmed uusan u baahnayn inuu isticmaalo bankiyada cuntada?"
+    }
+  }
 }

@@ -81,6 +81,16 @@
         "Do you have audiobooks?",
         "Do you have children's books?",
         "Do you have magazines?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Do you have ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Do you have any ___ in Somali?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -93,6 +103,16 @@
         "When are these books due?",
         "When is my audiobook due?",
         "When do I need to return this?"
+      ],
+      "prompts": [
+        {
+          "sentence": "When is this ___ due?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "When is my ___ due back?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -105,6 +125,16 @@
         "Where can I find books about history?",
         "Where can I find children's books?",
         "Where can I find the printers?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Where can I find ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Where can I find books about ___?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -486,5 +516,158 @@
     "Libraries offer much more than books: WiFi, printing, computers, meeting rooms, and classes.",
     "Many immigrants use libraries for ESL classes, citizenship resources, and job search help.",
     "You can often download ebooks and audiobooks to your device through library apps."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Heli kaadh maktabadda",
+      "Amaahato oo soo celi buugaagta",
+      "Isticmaal kombiyuutarada iyo agabka maktabadda",
+      "Faham xeerarka maktabadda iyo taariikhaha soo celinta"
+    ],
+    "target_phrases": [
+      "Waxaan rabaa inaan helo kaadhka maktabadda.",
+      "Goorma ayay tahay in la celiyo buuggan?",
+      "Ma kordhin karaa waqtiga buuggan?",
+      "Xagay ku yaalliin kombiyuutarrada?",
+      "Immisa buug ayaan soo qaadan karaa?",
+      "Ma jiraa ganaax daahid?",
+      "Ma haysaan agabka barashada Ingiriisiga?"
+    ],
+    "dialogue": [
+      "Galab wanaagsan! Sideen maanta kuu caawin karaa?",
+      "Salaan, waxaan rabaa inaan helo kaadhka maktabadda. Waxaan dhowaan u soo guuray Portland.",
+      "Soo dhawoow! Waan kaa caawin karaa arrintaas. Ma haysataa caddayn cinwaankaaga? Biil ama heshiis kiro oo cinwaankaaga Portland ku qoran?",
+      "Haa, waxaan haystaa biilka korontada. Taasi ma shaqaynaysaa?",
+      "Waa fiicantahay! Aan kuu sameeyo kaadhkaaga. Waa bilaash, waxaadna amaahsan kartaa ilaa 100 shay markiiba.",
+      "Wow, 100! Muddada intee le'eg ayaan buugaagta hayn karaa?",
+      "Buugaagta badankood waa in la soo celiyaa saddex usbuuc gudahood. Waxaad ku cusboonaysiin kartaa internetka ama taleefoonka haddii aan qof kale dalban.",
+      "Maxaa dhacaya haddii aan buug daahiyo?",
+      "Mar dambe kuma qaadno khidmad daahitaan! Kaliya soo celi alaabta sida ugu dhakhsaha badan. Waa kan kaadhkaaga!",
+      "Aad bay u fiican tahay! Ma haysaan agabka ESL? Waxaan bartayaa Ingiriisiga.",
+      "Haa! Waxaan ku haynaa qayb ESL oo dhan dabaqa kore. Waxaan sidoo kale bixinaa fasallo ESL oo bilaash ah iyo kooxo wada hadal. Aan ku siiyo jadwal."
+    ],
+    "drills": [
+      {
+        "instruction": "Ma haysataa [nooc alaabo ah]?"
+      },
+      {
+        "instruction": "Goorma ayuu [shaygan] la soo celinayaa?"
+      },
+      {
+        "instruction": "Xaggee ayaan ka heli karaa [alaabta]?"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Intee muddo ayaad maalin kasta isticmaali kartaa kombuyutarada maktabka?"
+      },
+      {
+        "question": "Maxaa dhacaa haddii alaabtu ka daahdo in ka badan 21 maalmood?"
+      },
+      {
+        "question": "Immisa jeer ayaad dib u dheereyn kartaa alaabta intooda badan?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad joogtaa maktabadda. Weydii: 'I'd like to get a library card. What do I need? How many books can I check out?' Duub codkaaga si edeb ah."
+      },
+      {
+        "instruction": "Sharax saddex wax oo aad ku qaban karto maktabadda. K hadal 30 ilbidhiqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlado oo ku saabsan waxa aad jeceshahay inaad akhrido ama daawato. Isticmaal: 'I like to read...', 'My favorite books are...', 'I enjoy...'"
+      },
+      {
+        "instruction": "Bal qiyaas inaad soo amaahanatay 3 buug laba usbuuc ka hor. Mid waa maanta la soo celinayaa. Qor waxa aad ku oran lahayd qofka maktabadda ka shaqeeya (3-4 jumlado)."
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'can' ogolaanshaha, 'may' ogolaanshaha edebta leh, 'must' shuruudaha.",
+          "examples": [
+            "Waxaad amaahsan kartaa 100 buug. (ogolaansho)",
+            "Ma isticmaali karaa kombuyuutarka? (ogolaansho edeb leh)",
+            "Waa inaad haysataa aqoonsi si aad u hesho kaadh. (shardi)",
+            "Ma cuni kartid maktabadda. (lama ogola)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal waqtiga xaadirka ee dhammaystiran si aad u weydiiso khibrad ama ficillo la dhammeeyay.",
+          "examples": [
+            "Ma soo celisay buugga? (waxaa la weydiinayaa in la soo celiyay iyo in kale)",
+            "Ma horay booqatay maktabaddan? (waxaa la weydiinayaa khibrad hore)",
+            "Weli ma aan cusboonaysiin. (aan la dhammaystirin)",
+            "Waxay soo qaadatay shan buug. (ficil dhammaaday)"
+          ]
+        },
+        {
+          "explanation": "'Until' = ilaa waqti, 'By' = ka hor/waqtiga ugu dambeysa, 'For' = muddo",
+          "examples": [
+            "Buugga waa in la celiyo Jimcaha. (waqtiga ugu dambeeya)",
+            "Waxaad hayn kartaa illaa usbuuca dambe. (ilaa waqtigaas)",
+            "Waxaan haystay buuggan laba usbuuc. (muddada)",
+            "Ku celi saac 9 habeenimo. (ka hor xirista)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "in aad alaab ka amaahato maktabadda",
+        "example": "Waxaan rabaa inaan amaahdo saddex buug."
+      },
+      {
+        "definition": "in aad dib u dhigto waqtiga lagu celiyo alaabta maktabadda",
+        "example": "Waxaan u baahanahay inaan buuggan kordhiyo saddex toddobaad oo kale."
+      },
+      {
+        "definition": "waqtiga ay tahay in alaabta maktabadda la celiyo",
+        "example": "Taariikhda la soo celiyo buuggan waa 15-ka Maarso."
+      },
+      {
+        "definition": "la celiyay ka dib waqtigii la go’ay",
+        "example": "Buuggan waa laba maalmood ka daahay."
+      },
+      {
+        "definition": "lacag laga qaado haddii alaabta dib loo celiyo",
+        "example": "Maktabado qaarkood waxay ganaax ka qaadaan 25 senti maalintii."
+      },
+      {
+        "definition": "in aad dalbato shay si aad hadhow u qaadato",
+        "example": "Waxaan dalab dhigay buugga cusub."
+      },
+      {
+        "definition": "alaabta ay tahay in lagu isticmaalo maktabadda",
+        "example": "Buugta tixraaca lama amaahin karo."
+      },
+      {
+        "definition": "liis la raadin karo oo alaabta maktabadda ku qoran",
+        "example": "Isticmaal katalogka internetka si aad buug u hesho."
+      },
+      {
+        "definition": "goob maktabadda",
+        "example": "Gobolka waxaa ku yaal 19 laamood oo maktabad ah."
+      },
+      {
+        "definition": "koodh la scan gareyn karo oo ku yaal alaabta maktabadda",
+        "example": "Maamulaha maktabaddu wuxuu akhriyay barcode-ka buugga."
+      }
+    ],
+    "quiz": {
+      "q1": "Immisa shay ayaad ka amaahan kartaa kaadhka Maktabadda Multnomah County?",
+      "q2": "Intee in yar ayaad sida caadiga ah ku hayn kartaa buugaagta maktabadda?",
+      "q3": "Maktabadda Multnomah County ma ku qaaddaa ganaax daahitaan?",
+      "q4": "Maxaad u baahan tahay si aad u hesho kaadhka maktabadda?",
+      "q5": "Waxaad ku cusboonaysiin kartaa buugaagta internetka.",
+      "q6": "Waxaad ku cuni kartaa cunto maktabadda.",
+      "q7": "Waxaad ___ buugaag ku amaahan kaadhkaaga maktabadda. (ogolaansho)",
+      "q8": "___ aad buugga soo celisay? (waqtiga la soo dhaafay ee hadda)",
+      "q9": "Isku xir ereyga maktabadda:",
+      "q10": "Maxay maktabadda bixisaa wax aan ahayn buugaag?"
+    }
+  }
 }

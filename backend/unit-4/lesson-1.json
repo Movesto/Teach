@@ -24,18 +24,54 @@
     "title": "Sending a Package Home",
     "context": "Ahmed needs to send a package to his family in Somalia. He goes to the post office and talks to the clerk.",
     "lines": [
-      {"speaker": "Clerk", "text": "Good morning! How can I help you today?"},
-      {"speaker": "Ahmed", "text": "Hi. I need to send this package to Somalia. What's the best way to do that?"},
-      {"speaker": "Clerk", "text": "Let me weigh it first. Okay, it's 3 pounds. You have three options: First Class International takes 2-3 weeks and costs $45. Priority Mail International takes 6-10 days and costs $75. Or Express Mail arrives in 3-5 days but costs $120."},
-      {"speaker": "Ahmed", "text": "How long will it take to arrive with Priority Mail?"},
-      {"speaker": "Clerk", "text": "Usually 6 to 10 business days. It also comes with tracking so you can see where it is."},
-      {"speaker": "Ahmed", "text": "That sounds good. Can I track the package online?"},
-      {"speaker": "Clerk", "text": "Yes, I'll give you a tracking number. You can check it on usps.com."},
-      {"speaker": "Ahmed", "text": "Perfect. Do I need to fill out any forms?"},
-      {"speaker": "Clerk", "text": "Yes, you need a customs form. Write down what's inside and the value. What's in the package?"},
-      {"speaker": "Ahmed", "text": "Just clothes and some gifts for my family. The value is about $50."},
-      {"speaker": "Clerk", "text": "Great. Fill out this form and sign here. Your total is $75. How would you like to pay?"},
-      {"speaker": "Ahmed", "text": "I'll pay with my debit card. Thank you for your help!"}
+      {
+        "speaker": "Clerk",
+        "text": "Good morning! How can I help you today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hi. I need to send this package to Somalia. What's the best way to do that?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Let me weigh it first. Okay, it's 3 pounds. You have three options: First Class International takes 2-3 weeks and costs $45. Priority Mail International takes 6-10 days and costs $75. Or Express Mail arrives in 3-5 days but costs $120."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "How long will it take to arrive with Priority Mail?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Usually 6 to 10 business days. It also comes with tracking so you can see where it is."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "That sounds good. Can I track the package online?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, I'll give you a tracking number. You can check it on usps.com."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Perfect. Do I need to fill out any forms?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, you need a customs form. Write down what's inside and the value. What's in the package?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Just clothes and some gifts for my family. The value is about $50."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Great. Fill out this form and sign here. Your total is $75. How would you like to pay?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'll pay with my debit card. Thank you for your help!"
+      }
     ]
   },
   "pattern_drills": [
@@ -49,6 +85,16 @@
         "How much does it cost to send this overnight?",
         "How much does it cost to mail this internationally?",
         "How much does it cost to insure this package?"
+      ],
+      "prompts": [
+        {
+          "sentence": "How much does it cost to ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "How much does it cost to mail a ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -61,6 +107,16 @@
         "How long will it take to reach Somalia?",
         "How long will it take with express mail?",
         "How long will it take if I send it today?"
+      ],
+      "prompts": [
+        {
+          "sentence": "How long will it take to ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "How long will it take for this package to ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -73,6 +129,16 @@
         "I'd like to send this certified mail",
         "I'd like to send this with tracking",
         "I'd like to send this insured"
+      ],
+      "prompts": [
+        {
+          "sentence": "I'd like to send this ___.",
+          "type": "flexible"
+        },
+        {
+          "sentence": "I'd like to send a ___ to my family.",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -82,7 +148,12 @@
       "audio": "/audio/unit4-lesson1-listen1.mp3",
       "transcript": "Welcome to the post office. We offer several mailing services. First Class Mail is our standard service for letters and small packages within the U.S. - it takes 2-5 days. Priority Mail is faster, arriving in 1-3 days, and includes tracking. Priority Mail Express is our fastest option - overnight or 2-day delivery with a money-back guarantee.",
       "question": "How long does First Class Mail take?",
-      "options": ["1-2 days", "2-5 days", "1-3 days", "6-10 days"],
+      "options": [
+        "1-2 days",
+        "2-5 days",
+        "1-3 days",
+        "6-10 days"
+      ],
       "correct": 1
     },
     {
@@ -154,9 +225,33 @@
         "I will send it today. (future)"
       ],
       "practice": [
-        {"sentence": "The package ___ arrive next week.", "blank": "will", "options": ["will", "is", "does"]},
-        {"sentence": "How long ___ it take?", "blank": "will", "options": ["will", "is", "does"]},
-        {"sentence": "I ___ mail this tomorrow.", "blank": "will", "options": ["will", "am", "do"]}
+        {
+          "sentence": "The package ___ arrive next week.",
+          "blank": "will",
+          "options": [
+            "will",
+            "is",
+            "does"
+          ]
+        },
+        {
+          "sentence": "How long ___ it take?",
+          "blank": "will",
+          "options": [
+            "will",
+            "is",
+            "does"
+          ]
+        },
+        {
+          "sentence": "I ___ mail this tomorrow.",
+          "blank": "will",
+          "options": [
+            "will",
+            "am",
+            "do"
+          ]
+        }
       ]
     },
     {
@@ -170,9 +265,33 @@
         "How long is the delivery time? (duration)"
       ],
       "practice": [
-        {"sentence": "___ much does it cost?", "blank": "How", "options": ["How", "What", "When"]},
-        {"sentence": "___ long will it take?", "blank": "How", "options": ["How", "What", "Where"]},
-        {"sentence": "___ much is the postage?", "blank": "How", "options": ["How", "What", "Who"]}
+        {
+          "sentence": "___ much does it cost?",
+          "blank": "How",
+          "options": [
+            "How",
+            "What",
+            "When"
+          ]
+        },
+        {
+          "sentence": "___ long will it take?",
+          "blank": "How",
+          "options": [
+            "How",
+            "What",
+            "Where"
+          ]
+        },
+        {
+          "sentence": "___ much is the postage?",
+          "blank": "How",
+          "options": [
+            "How",
+            "What",
+            "Who"
+          ]
+        }
       ]
     },
     {
@@ -186,9 +305,33 @@
         "International mail takes longer than domestic. (time)"
       ],
       "practice": [
-        {"sentence": "Express is ___ than Priority.", "blank": "faster", "options": ["fast", "faster", "fastest"]},
-        {"sentence": "First Class is ___ expensive.", "blank": "less", "options": ["less", "least", "little"]},
-        {"sentence": "This is the ___ option.", "blank": "cheapest", "options": ["cheap", "cheaper", "cheapest"]}
+        {
+          "sentence": "Express is ___ than Priority.",
+          "blank": "faster",
+          "options": [
+            "fast",
+            "faster",
+            "fastest"
+          ]
+        },
+        {
+          "sentence": "First Class is ___ expensive.",
+          "blank": "less",
+          "options": [
+            "less",
+            "least",
+            "little"
+          ]
+        },
+        {
+          "sentence": "This is the ___ option.",
+          "blank": "cheapest",
+          "options": [
+            "cheap",
+            "cheaper",
+            "cheapest"
+          ]
+        }
       ]
     }
   ],
@@ -199,7 +342,12 @@
         "id": "q1",
         "type": "multiple-choice",
         "question": "In the dialogue, how much does Priority Mail International cost for Ahmed's package?",
-        "options": ["$45", "$75", "$120", "$50"],
+        "options": [
+          "$45",
+          "$75",
+          "$120",
+          "$50"
+        ],
         "correct": 1,
         "points": 10
       },
@@ -220,7 +368,12 @@
         "id": "q3",
         "type": "multiple-choice",
         "question": "Complete: 'How long ___ it take to arrive?'",
-        "options": ["is", "does", "will", "can"],
+        "options": [
+          "is",
+          "does",
+          "will",
+          "can"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -256,7 +409,10 @@
         "type": "fill-blank",
         "question": "The package ___ arrive in 3 days. (future with 'will')",
         "correct": "will",
-        "accept": ["will", "'ll"],
+        "accept": [
+          "will",
+          "'ll"
+        ],
         "points": 10
       },
       {
@@ -264,7 +420,10 @@
         "type": "fill-blank",
         "question": "___ much does it cost to mail this? (question word for price)",
         "correct": "How",
-        "accept": ["How", "how"],
+        "accept": [
+          "How",
+          "how"
+        ],
         "points": 10
       },
       {
@@ -272,9 +431,18 @@
         "type": "matching",
         "question": "Match the mail type to its speed:",
         "pairs": [
-          {"left": "First Class", "right": "2-5 days"},
-          {"left": "Priority Mail", "right": "1-3 days"},
-          {"left": "Express", "right": "Overnight"}
+          {
+            "left": "First Class",
+            "right": "2-5 days"
+          },
+          {
+            "left": "Priority Mail",
+            "right": "1-3 days"
+          },
+          {
+            "left": "Express",
+            "right": "Overnight"
+          }
         ],
         "points": 10
       },
@@ -294,16 +462,56 @@
     ]
   },
   "vocabulary": [
-    {"word": "package", "definition": "a box or wrapped item sent by mail", "example": "I need to send this package to my family."},
-    {"word": "tracking number", "definition": "code to see where your package is", "example": "Use your tracking number to check delivery status."},
-    {"word": "customs", "definition": "government inspection of international mail", "example": "You need a customs form for international packages."},
-    {"word": "delivery", "definition": "when a package arrives at its destination", "example": "Delivery usually takes 3-5 days."},
-    {"word": "priority mail", "definition": "faster mail service with tracking", "example": "Priority Mail arrives in 1-3 days."},
-    {"word": "express", "definition": "fastest mail service", "example": "Express Mail delivers overnight."},
-    {"word": "weigh", "definition": "to measure how heavy something is", "example": "The clerk will weigh your package."},
-    {"word": "postage", "definition": "the cost of mailing something", "example": "The postage for this letter is $0.55."},
-    {"word": "certified mail", "definition": "mail with proof of delivery", "example": "Send important documents by certified mail."},
-    {"word": "P.O. Box", "definition": "Post Office Box - private mailbox at post office", "example": "My mailing address is P.O. Box 1234."}
+    {
+      "word": "package",
+      "definition": "a box or wrapped item sent by mail",
+      "example": "I need to send this package to my family."
+    },
+    {
+      "word": "tracking number",
+      "definition": "code to see where your package is",
+      "example": "Use your tracking number to check delivery status."
+    },
+    {
+      "word": "customs",
+      "definition": "government inspection of international mail",
+      "example": "You need a customs form for international packages."
+    },
+    {
+      "word": "delivery",
+      "definition": "when a package arrives at its destination",
+      "example": "Delivery usually takes 3-5 days."
+    },
+    {
+      "word": "priority mail",
+      "definition": "faster mail service with tracking",
+      "example": "Priority Mail arrives in 1-3 days."
+    },
+    {
+      "word": "express",
+      "definition": "fastest mail service",
+      "example": "Express Mail delivers overnight."
+    },
+    {
+      "word": "weigh",
+      "definition": "to measure how heavy something is",
+      "example": "The clerk will weigh your package."
+    },
+    {
+      "word": "postage",
+      "definition": "the cost of mailing something",
+      "example": "The postage for this letter is $0.55."
+    },
+    {
+      "word": "certified mail",
+      "definition": "mail with proof of delivery",
+      "example": "Send important documents by certified mail."
+    },
+    {
+      "word": "P.O. Box",
+      "definition": "Post Office Box - private mailbox at post office",
+      "example": "My mailing address is P.O. Box 1234."
+    }
   ],
   "cultural_notes": [
     "USPS (United States Postal Service) is the government-run mail service. UPS and FedEx are private companies.",
@@ -313,5 +521,159 @@
     "Media Mail is a cheap option for shipping books and educational materials.",
     "International packages can take 2-8 weeks depending on the destination country.",
     "Always save your receipt and tracking number until the package is delivered."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Boostada ku dir waraaqo iyo baakado",
+      "Faham hababka kala duwan ee dirista iyo qiimahooda",
+      "Weydii waqtiyada gaarsiinta iyo raadraaca",
+      "Buuxi foomamka kastamka ee dirista caalamiga ah"
+    ],
+    "target_phrases": [
+      "Waxaan u baahanahay inaan diro baqshadkan",
+      "Imisa ayay kugu kacday inaad dirto tan?",
+      "Intee ayay qaadanaysaa inay timaado?",
+      "Ma raadin karaa baqshadkan?",
+      "Waxaan doonayaa inaan diro baqshadkan boostada degdegga ah",
+      "Ma u baahanahay foomka kastamka?",
+      "Waa maxay habka ugu degdegga ah inaan diro tan?"
+    ],
+    "dialogue": [
+      "Subax wanaagsan! Maxaan ku caawin karaa maanta?",
+      "Salaan. Waxaan u baahanahay inaan baakadkan u diro Soomaaliya. Habka ugu fiican waa sidee?",
+      "Aan marka hore miiso. Haa, waa 3 rodol. Waxaad haysataa saddex ikhtiyaar: First Class International wuxuu qaataa 2-3 toddobaad, wuxuuna ku kacayaa $45. Priority Mail International wuxuu qaataa 6-10 maalmood, wuxuuna ku kacayaa $75. Express Mail wuxuu yimaadaa 3-5 maalmood, laakiin waa $120.",
+      "Intee in yar ayay ku qaadanaysaa inay timaado Priority Mail?",
+      "Caadi ahaan waa 6 ilaa 10 maalmood oo shaqo. Waxa kaloo ku jira tracking, si aad u aragto halka uu ku yaallo.",
+      "Taasi way fiican tahay. Ma raadraaci karaa baakadka internetka?",
+      "Haa, waxaan ku siin doonaa nambarka tracking-ga. Waxaad ku hubin kartaa usps.com.",
+      "Waa fiican. Ma wax foom ah baan u baahanahay inaan buuxiyo?",
+      "Haa, waxaad u baahan tahay foomka kastamka. Qor waxa ku jira iyo qiimihiisa. Maxaa ku jira baakadka?",
+      "Kaliya dhar iyo hadiyado qaar oo qoyskayga ah. Qiimihiisu waa qiyaastii $50.",
+      "Hagaag. Buuxi foomkan oo halkan saxiix. Wadartaadu waa $75. Sidee rabtaa inaad ku bixiso?",
+      "Waxaan ku bixin doonaa debit card-kayga. Waad ku mahadsan tahay caawimaaddaada!"
+    ],
+    "drills": [
+      {
+        "instruction": "Waa imisa qiimaha [falka dirista]?"
+      },
+      {
+        "instruction": "Intee ayay qaadanaysaa inay [timaaddo/gaarto]?"
+      },
+      {
+        "instruction": "Waxaan rabaa inaan diro [nooca boostada]."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa imisa waqtiga ay qaadato First Class Mail?"
+      },
+      {
+        "question": "Maxaa aan loo diri karin dibadda?"
+      },
+      {
+        "question": "Sidee baad u raadraaci kartaa baqshaddaada?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad joogtaa xafiiska boostada. Duub codkaaga adigoo dhihi: 'I need to send this package to [country]. How much does it cost? How long will it take?' U adeegso cod cad oo edeb leh."
+      },
+      {
+        "instruction": "U sharax saaxiibkaa sida loo diro baqshad xafiiska boostada. Bixi saddex tallaabo. Duub ugu yaraan 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlado oo ku saabsan sababta aad u baahan karto inaad isticmaasho boostada. Isticmaal weedho sida: 'I need to...', 'The post office helps me...', 'I can...'"
+      },
+      {
+        "instruction": "Waxaad buuxinaysaa foomka boostada. Ku qor 3-4 jumlado waxa ku jira baqshaddaada. Ku dar: alaabta ku jirta, qiimaha, iyo cidda loogu talagalay."
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'will' si aad uga hadasho wakhtiyada gaarsiinta iyo imaatinka mustaqbalka.",
+          "examples": [
+            "Waxay iman doontaa saddex maalmood gudahood. (mustaqbal)",
+            "Baqshadda waxay ku kici doontaa $75. (mustaqbal)",
+            "Waxay keeni doonaan berri. (mustaqbal)",
+            "Waxaan diri doonaa maanta. (mustaqbal)"
+          ]
+        },
+        {
+          "explanation": "'How much' waxay weydiisaa qiimaha ama inta. 'How long' waxay weydiisaa muddada.",
+          "examples": [
+            "Waa imisa? (qiimaha)",
+            "Intee ayay qaadanaysaa? (waqtiga)",
+            "Waa imisa culeyskiisu? (xaddiga)",
+            "Intee ayay tahay muddada gaarsiinta? (muddada)"
+          ]
+        },
+        {
+          "explanation": "Istcmaal ereyada isbarbardhiga si aad u kala barbardhigto xawaaraha iyo qiimaha boostada ee kala duwan.",
+          "examples": [
+            "Boostada Mudnaanta leh way ka dhakhso badan tahay Boostada Heerka Koowaad. (xawaare)",
+            "Boostada Degdegga ah way ka qaalisan tahay Boostada Mudnaanta leh. (qiimo)",
+            "Xulashadan way ka jaban tahay laakiin way ka gaabis badan tahay. (isbarbardhig)",
+            "Boostada caalamiga ah way ka waqti dheer qaadataa tan gudaha. (isbarbardhig)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "sanduuq ama shay la duubay oo boostada lagu diro",
+        "example": "Waxaan u baahanahay inaan package-kan u diro qoyskayga."
+      },
+      {
+        "definition": "koodh lagu ogaado halka uu ku yaallo xirmadaagu",
+        "example": "Isticmaal tracking number-kaaga si aad u hubiso delivery status-ka."
+      },
+      {
+        "definition": "kormeer dawladeed oo lagu sameeyo boostada caalamiga ah",
+        "example": "Waxaad u baahan tahay customs form markaad dirayso international packages."
+      },
+      {
+        "definition": "marka xirmadu gaadho meeshii loo diray",
+        "example": "Delivery badanaa wuxuu qaataa 3-5 maalmood."
+      },
+      {
+        "definition": "adeeg boosta oo ka dhakhso badan oo leh raadraac",
+        "example": "Priority Mail wuxuu yimaadaa 1-3 maalmood gudahood."
+      },
+      {
+        "definition": "adeegga boosta ee ugu dhakhsaha badan",
+        "example": "Express Mail wuxuu keenaa hal habeen."
+      },
+      {
+        "definition": "in la cabbiro culeyska shay",
+        "example": "Clerk-ku wuxuu miisaamayaa package-kaaga."
+      },
+      {
+        "definition": "qiimaha boostada lagu diro shay",
+        "example": "Postage-ka waraaqaddan waa $0.55."
+      },
+      {
+        "definition": "boosto leh caddayn ah in la dhiibay",
+        "example": "Dukumentiyada muhiimka ah u dir certified mail."
+      },
+      {
+        "definition": "Sanduuqa Boostada - sanduuq gaar ah oo ku yaal xafiiska boostada",
+        "example": "Mailing address-kaygu waa P.O. Box 1234."
+      }
+    ],
+    "quiz": {
+      "q1": "Wadahadalka, intee ayay ku kacdaa Priority Mail International ee xirmada Ahmed?",
+      "q2": "Foomkee ayaad u baahan tahay xirmooyinka caalamiga ah?",
+      "q3": "Dhammeystir: 'How long ___ it take to arrive?'",
+      "q4": "Maxaad ku samayn kartaa lambarka raadraaca?",
+      "q5": "Priority Mail Express waa doorashada ugu dhaqsaha badan ee USPS.",
+      "q6": "Waxaad si caalami ah u diri kartaa cadarka iyo baytariyada.",
+      "q7": "Xirmadu ___ imaan doontaa 3 maalmood gudahood. (mustaqbalka 'will')",
+      "q8": "___ ayay ku kacdaa in tan la soo diro? (ereyga su'aasha ee qiimaha)",
+      "q9": "Isku dhig nooca boostada iyo xawaarihiisa:",
+      "q10": "Maxaad ku qortaa foomka kastamka?"
+    }
+  }
 }

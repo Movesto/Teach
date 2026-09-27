@@ -24,17 +24,50 @@
     "title": "Getting an Oregon Driver's License",
     "context": "Ahmed goes to the DMV to get his Oregon driver's license. He talks to a DMV clerk.",
     "lines": [
-      {"speaker": "Clerk", "text": "Next! How can I help you today?"},
-      {"speaker": "Ahmed", "text": "Hi, I need to get an Oregon driver's license. I have a license from Somalia but not a U.S. one."},
-      {"speaker": "Clerk", "text": "Okay, you'll need to take both the written test and the driving test. First, what documents do you have?"},
-      {"speaker": "Ahmed", "text": "I have my passport, my work permit, and two bills showing my Oregon address."},
-      {"speaker": "Clerk", "text": "Perfect. That's everything we need. The written test costs $90. If you pass, you can schedule your driving test."},
-      {"speaker": "Ahmed", "text": "Can I take the written test today?"},
-      {"speaker": "Clerk", "text": "Yes, you can take it right now on the computer. It's 35 questions and you need to get 28 correct to pass."},
-      {"speaker": "Ahmed", "text": "Is it in English? My English is okay but not perfect."},
-      {"speaker": "Clerk", "text": "We have the test in many languages including Arabic and Somali. Which would you prefer?"},
-      {"speaker": "Ahmed", "text": "I'll try it in English first. If I fail, can I retake it?"},
-      {"speaker": "Clerk", "text": "Yes, you can retake it after 24 hours. You get three attempts included in the $90 fee. Let me get you set up."}
+      {
+        "speaker": "Clerk",
+        "text": "Next! How can I help you today?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Hi, I need to get an Oregon driver's license. I have a license from Somalia but not a U.S. one."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Okay, you'll need to take both the written test and the driving test. First, what documents do you have?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I have my passport, my work permit, and two bills showing my Oregon address."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Perfect. That's everything we need. The written test costs $90. If you pass, you can schedule your driving test."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Can I take the written test today?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, you can take it right now on the computer. It's 35 questions and you need to get 28 correct to pass."
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "Is it in English? My English is okay but not perfect."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "We have the test in many languages including Arabic and Somali. Which would you prefer?"
+      },
+      {
+        "speaker": "Ahmed",
+        "text": "I'll try it in English first. If I fail, can I retake it?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, you can retake it after 24 hours. You get three attempts included in the $90 fee. Let me get you set up."
+      }
     ]
   },
   "pattern_drills": [
@@ -48,6 +81,16 @@
         "What forms do I need to fill out?",
         "What identification do I need?",
         "What proof of address do I need?"
+      ],
+      "prompts": [
+        {
+          "sentence": "What ___ do I need?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "What documents do I need for my ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -60,6 +103,16 @@
         "How do I change my address?",
         "How do I schedule my test?",
         "How do I get my license plates?"
+      ],
+      "prompts": [
+        {
+          "sentence": "How do I ___ my license?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "How do I renew my ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -72,6 +125,16 @@
         "If I move, can I keep my license?",
         "If I lose my license, can I get a replacement?",
         "If I'm under 18, can I get a permit?"
+      ],
+      "prompts": [
+        {
+          "sentence": "If I ___ the written test, can I get my permit?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "If I pass the road test, can I ___?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -81,7 +144,12 @@
       "audio": "/audio/unit4-lesson5-listen1.mp3",
       "transcript": "To get an Oregon driver's license, you need: proof of identity like a passport, proof of Social Security number, and two documents showing your Oregon address. You must pass a vision test, a written knowledge test with 35 questions, and a driving skills test. The license costs $90 and is valid for 8 years.",
       "question": "How many years is an Oregon driver's license valid?",
-      "options": ["4 years", "5 years", "8 years", "10 years"],
+      "options": [
+        "4 years",
+        "5 years",
+        "8 years",
+        "10 years"
+      ],
       "correct": 2
     },
     {
@@ -102,7 +170,12 @@
       "audio": "/audio/unit4-lesson5-listen3.mp3",
       "transcript": "For the driving test, bring a properly insured and registered vehicle. The examiner will check your lights, signals, brakes, and horn. The test takes about 20 minutes and includes parking, turning, and highway driving. If you fail, you must wait at least one week before retesting.",
       "question": "How long must you wait to retake the driving test if you fail?",
-      "options": ["24 hours", "3 days", "One week", "One month"],
+      "options": [
+        "24 hours",
+        "3 days",
+        "One week",
+        "One month"
+      ],
       "correct": 2
     }
   ],
@@ -148,9 +221,33 @@
         "Do I need to make an appointment? (asking about requirement)"
       ],
       "practice": [
-        {"sentence": "You ___ to take the vision test.", "blank": "need", "options": ["need", "needs", "needing"]},
-        {"sentence": "I ___ to bring my passport.", "blank": "need", "options": ["need", "needs", "needed"]},
-        {"sentence": "She ___ to renew her license.", "blank": "needs", "options": ["need", "needs", "needing"]}
+        {
+          "sentence": "You ___ to take the vision test.",
+          "blank": "need",
+          "options": [
+            "need",
+            "needs",
+            "needing"
+          ]
+        },
+        {
+          "sentence": "I ___ to bring my passport.",
+          "blank": "need",
+          "options": [
+            "need",
+            "needs",
+            "needed"
+          ]
+        },
+        {
+          "sentence": "She ___ to renew her license.",
+          "blank": "needs",
+          "options": [
+            "need",
+            "needs",
+            "needing"
+          ]
+        }
       ]
     },
     {
@@ -164,9 +261,33 @@
         "What happens if I don't pass? (asking about consequence)"
       ],
       "practice": [
-        {"sentence": "If I ___ the test, can I retake it?", "blank": "fail", "options": ["fail", "fails", "failed"]},
-        {"sentence": "If you pass, you ___ get your license.", "blank": "can", "options": ["can", "could", "may"]},
-        {"sentence": "___ I lose my license, what do I do?", "blank": "If", "options": ["If", "When", "Because"]}
+        {
+          "sentence": "If I ___ the test, can I retake it?",
+          "blank": "fail",
+          "options": [
+            "fail",
+            "fails",
+            "failed"
+          ]
+        },
+        {
+          "sentence": "If you pass, you ___ get your license.",
+          "blank": "can",
+          "options": [
+            "can",
+            "could",
+            "may"
+          ]
+        },
+        {
+          "sentence": "___ I lose my license, what do I do?",
+          "blank": "If",
+          "options": [
+            "If",
+            "When",
+            "Because"
+          ]
+        }
       ]
     },
     {
@@ -180,9 +301,33 @@
         "When can I drive with my permit? (asking about timing)"
       ],
       "practice": [
-        {"sentence": "When ___ I take the driving test?", "blank": "can", "options": ["can", "will", "do"]},
-        {"sentence": "When can I ___ my registration?", "blank": "renew", "options": ["renew", "renewing", "renewed"]},
-        {"sentence": "___ can I schedule an appointment?", "blank": "When", "options": ["When", "What", "Where"]}
+        {
+          "sentence": "When ___ I take the driving test?",
+          "blank": "can",
+          "options": [
+            "can",
+            "will",
+            "do"
+          ]
+        },
+        {
+          "sentence": "When can I ___ my registration?",
+          "blank": "renew",
+          "options": [
+            "renew",
+            "renewing",
+            "renewed"
+          ]
+        },
+        {
+          "sentence": "___ can I schedule an appointment?",
+          "blank": "When",
+          "options": [
+            "When",
+            "What",
+            "Where"
+          ]
+        }
       ]
     }
   ],
@@ -193,7 +338,12 @@
         "id": "q1",
         "type": "multiple-choice",
         "question": "In the dialogue, how much does the written test cost?",
-        "options": ["$50", "$75", "$90", "$120"],
+        "options": [
+          "$50",
+          "$75",
+          "$90",
+          "$120"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -201,7 +351,12 @@
         "id": "q2",
         "type": "multiple-choice",
         "question": "How many questions are on Oregon's written driving test?",
-        "options": ["20", "25", "35", "50"],
+        "options": [
+          "20",
+          "25",
+          "35",
+          "50"
+        ],
         "correct": 2,
         "points": 10
       },
@@ -222,7 +377,12 @@
         "id": "q4",
         "type": "multiple-choice",
         "question": "Complete: 'I ___ to bring my passport.'",
-        "options": ["need", "needs", "needed", "needing"],
+        "options": [
+          "need",
+          "needs",
+          "needed",
+          "needing"
+        ],
         "correct": 0,
         "points": 10
       },
@@ -245,7 +405,10 @@
         "type": "fill-blank",
         "question": "___ can I schedule my driving test? (asking about time)",
         "correct": "When",
-        "accept": ["When", "when"],
+        "accept": [
+          "When",
+          "when"
+        ],
         "points": 10
       },
       {
@@ -253,7 +416,9 @@
         "type": "fill-blank",
         "question": "If I pass, ___ I drive immediately? (conditional question)",
         "correct": "can",
-        "accept": ["can"],
+        "accept": [
+          "can"
+        ],
         "points": 10
       },
       {
@@ -261,9 +426,18 @@
         "type": "matching",
         "question": "Match the DMV term:",
         "pairs": [
-          {"left": "Written test", "right": "Traffic laws knowledge"},
-          {"left": "Driving test", "right": "Behind-the-wheel exam"},
-          {"left": "Vision test", "right": "Check eyesight"}
+          {
+            "left": "Written test",
+            "right": "Traffic laws knowledge"
+          },
+          {
+            "left": "Driving test",
+            "right": "Behind-the-wheel exam"
+          },
+          {
+            "left": "Vision test",
+            "right": "Check eyesight"
+          }
         ],
         "points": 10
       },
@@ -283,16 +457,56 @@
     ]
   },
   "vocabulary": [
-    {"word": "license", "definition": "official document allowing you to drive", "example": "I got my driver's license last week."},
-    {"word": "permit", "definition": "temporary license for learning to drive", "example": "Teenagers get a learner's permit before a full license."},
-    {"word": "registration", "definition": "official record of vehicle ownership", "example": "Keep your car registration in the glove box."},
-    {"word": "insurance", "definition": "protection that pays for car accidents", "example": "You must have car insurance to drive legally."},
-    {"word": "vision test", "definition": "eye exam to check if you can see well enough", "example": "The vision test checks if you need glasses."},
-    {"word": "written exam", "definition": "test about traffic laws and road signs", "example": "Study the driver manual for the written exam."},
-    {"word": "road test", "definition": "driving test with an examiner", "example": "I passed my road test on the first try."},
-    {"word": "renewal", "definition": "getting a new license when old one expires", "example": "My license renewal is due next month."},
-    {"word": "appointment", "definition": "scheduled time to visit DMV", "example": "Make an appointment online to avoid waiting."},
-    {"word": "fee", "definition": "money you must pay for service", "example": "The license fee is $90."}
+    {
+      "word": "license",
+      "definition": "official document allowing you to drive",
+      "example": "I got my driver's license last week."
+    },
+    {
+      "word": "permit",
+      "definition": "temporary license for learning to drive",
+      "example": "Teenagers get a learner's permit before a full license."
+    },
+    {
+      "word": "registration",
+      "definition": "official record of vehicle ownership",
+      "example": "Keep your car registration in the glove box."
+    },
+    {
+      "word": "insurance",
+      "definition": "protection that pays for car accidents",
+      "example": "You must have car insurance to drive legally."
+    },
+    {
+      "word": "vision test",
+      "definition": "eye exam to check if you can see well enough",
+      "example": "The vision test checks if you need glasses."
+    },
+    {
+      "word": "written exam",
+      "definition": "test about traffic laws and road signs",
+      "example": "Study the driver manual for the written exam."
+    },
+    {
+      "word": "road test",
+      "definition": "driving test with an examiner",
+      "example": "I passed my road test on the first try."
+    },
+    {
+      "word": "renewal",
+      "definition": "getting a new license when old one expires",
+      "example": "My license renewal is due next month."
+    },
+    {
+      "word": "appointment",
+      "definition": "scheduled time to visit DMV",
+      "example": "Make an appointment online to avoid waiting."
+    },
+    {
+      "word": "fee",
+      "definition": "money you must pay for service",
+      "example": "The license fee is $90."
+    }
   ],
   "cultural_notes": [
     "In the U.S., each state issues its own driver's licenses. If you move states, you usually need to get a new license within 30-90 days.",
@@ -301,5 +515,158 @@
     "The written test is available in many languages, so you don't have to take it in English.",
     "If you're under 18, you need a learner's permit first and must have supervised driving hours.",
     "Car insurance is REQUIRED in all states. Driving without insurance can result in fines and license suspension."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Codsasho shati darawalnimo ama kaadhka aqoonsiga",
+      "Faham dukumentiyada aad u baahan tahay",
+      "Qorsheeyso oo qaad imtixaannada darawalnimo",
+      "Cusbooneysii shatiyada iyo diiwaangelinta"
+    ],
+    "target_phrases": [
+      "Waxaan u baahanahay inaan helo shati darawalnimo",
+      "Waa kuwee dukumeentiyada aan u baahanahay?",
+      "Goorma ayaan dalban karaa imtixaanka darawalnimo?",
+      "Sidee ayaan u cusboonaysiiyaa diiwaangelintayda?",
+      "Ma jiraa imtixaan qoraal ah?",
+      "Waa imisa qiimihiisu?",
+      "Ma u baahanahay ballan?"
+    ],
+    "dialogue": [
+      "Kan xiga! Maxaan kuu qaban karaa maanta?",
+      "Salaan, waxaan u baahanahay inaan helo shati darawalnimo oo Oregon ah. Waxaan haystaa shati ka yimid Soomaaliya, laakiin ma haysto shati Mareykan ah.",
+      "Haa, waxaad u baahan doontaa inaad qaaddo imtixaanka qoraalka iyo imtixaanka darawalnimada. Marka hore, waa kuwee dukumeentiyada aad haysato?",
+      "Waxaan haystaa baasaboor, rukhsadda shaqada, iyo laba biil oo muujinaya cinwaankayga Oregon.",
+      "Waa fiican. Waa intaas oo dhan oo aan u baahan nahay. Imtixaanka qoraalku waa $90. Haddaad ka gudubto, waxaad qorshan kartaa imtixaanka darawalnimada.",
+      "Ma qaadan karaa imtixaanka qoraalka maanta?",
+      "Haa, waxaad qaadan kartaa hadda kumbuyuutarka. Waa 35 su'aal, waxaadna u baahan tahay inaad 28 ka saxdo si aad uga gudubto.",
+      "Ma af Ingiriisi ayaa lagu qoray? Ingiriisigaygu waa fiican yahay laakiin ma aha mid qumman.",
+      "Waxaan haynaa imtixaanka oo ku qoran luqado badan, oo ay ku jiraan Carabi iyo Soomaali. Kee aad door bidaysaa?",
+      "Waxaan marka hore ku tijaabin doonaa af Ingiriisiga. Haddii aan ku dhaco, ma mar kale ayaan qaadan karaa?",
+      "Haa, waxaad dib u qaadan kartaa 24 saacadood ka dib. Waxaad helaysaa saddex isku day oo ku jira khidmadda $90. Aan kuu diyaariyo."
+    ],
+    "drills": [
+      {
+        "instruction": "Waa maxay [waraaqaha/imitixaannada] aan u baahanahay?"
+      },
+      {
+        "instruction": "Sideen u [action] [item]kayga?"
+      },
+      {
+        "instruction": "Haddii aan [action], ma [action] karaa?"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Immisa sano ayuu shati darawalnimo ee Oregon shaqeeyaa?"
+      },
+      {
+        "question": "Xagee ayaad ka qaadan kartaa imtixaan tababbar?"
+      },
+      {
+        "question": "Immisa ayay tahay inaad sugtid ka hor intaad dib u qaadan imtixaanka darawalnimo haddii aad fashilantid?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad joogtaa xafiiska DMV. Weydii: 'I need to get a driver's license. What documents do I need? How much does it cost? Can I take the test today?' Duub codkaaga."
+      },
+      {
+        "instruction": "Sharax tillaabooyinka lagu helo shahaadada darawalnimada ee Maraykanka. Bixi ugu yaraan afar tillaabo. Ku hadal 30 ilbidhiqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor liis ka kooban 5 waraaqood oo laga yaabo inaad u baahato inaad keento DMV-ga. Kadib qor 2 jumlad oo sharaxaya sababta ay waraaqahani muhiim u yihiin."
+      },
+      {
+        "instruction": "Qiyaas inaad ku dhacday imtixaanka darawalnimada. Qor email saaxiibkaa oo ku sharax waxa dhacay iyo waxa xiga ee aad qaban doonto. (4-5 jumlad)"
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Istcmaal 'need to' si aad ugala hadasho waxyaabaha loo baahan yahay ama lagama maarmaanka ah.",
+          "examples": [
+            "Waxaan u baahanahay inaan helo shati darawalnimo. (shardi)",
+            "Waxaad u baahan tahay inaad keentid laba nooc oo aqoonsi. (lagama maarmaan)",
+            "Wuxuu u baahan yahay inuu ku gudbo imtixaanka qoran marka hore. (shardi)",
+            "Ma waxaan u baahanahay inaan ballan qabto? (weydiin ku saabsan shardi)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'if' si aad u weydiiso shuruud ama suurtagalnimo. 'If + present, can/will + base verb'",
+          "examples": [
+            "Haddii aan ka gudbo, maanta waa aan kaxaysan karaa? (shardi + su'aal)",
+            "Haddii aan ku guuldarreysto, ma waxaan heli doonaa lacag celin? (shardi + su'aal)",
+            "Haddii aan guuro, ma waxaan u baahanahay shati cusub? (shardi + su'aal)",
+            "Maxaa dhaca haddii aan ka gudbin? (su'aal ku saabsan cawaaqibta)"
+          ]
+        },
+        {
+          "explanation": "Isticmaal 'When can I...?' si aad wax uga weydiiso qorsheynta ama habaynta arrimaha mustaqbalka.",
+          "examples": [
+            "Goorma ayaan ballan u dhigi karaa imtixaankayga? (qorshaynta ballanka mustaqbalka)",
+            "Goorma ayaan ruksadkayga qaadan karaa? (fal mustaqbal)",
+            "Goorma ayaan imtixaanka dib u qaadan karaa? (suurtagal mustaqbal)",
+            "Goorma ayaan wadi karaa anoo wata ogolaanshahayga? (weydiin waqti)"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "waraaq rasmi ah oo kuu ogolaanaysa inaad wado",
+        "example": "Waxaan helay shahaadada darawalnimada usbuucii hore."
+      },
+      {
+        "definition": "ruqsin ku-meel-gaar ah oo lagu baranayo wadista",
+        "example": "Dhallinyaradu waxay helaan ogolaanshaha barashada ka hor shahaadada buuxda."
+      },
+      {
+        "definition": "diiwaan rasmi ah oo muujinaya lahaanshaha gaariga",
+        "example": "Ku kaydi diiwaanka gaariga sanduuqa hore ee gaariga."
+      },
+      {
+        "definition": "ilaalin bixisa shilalka baabuurta",
+        "example": "Waa inaad haysataa caymis gaari si aad u wado si sharci ah."
+      },
+      {
+        "definition": "baaritaan indhaha ah oo lagu hubinayo inaad si fiican u aragto",
+        "example": "Imtixaanka araggu wuxuu hubinayaa inaad u baahan tahay muraayadaha indhaha."
+      },
+      {
+        "definition": "imtixaan ku saabsan sharciyada taraafigga iyo calaamadaha waddooyinka",
+        "example": "Baro buugga darawalnimada si aad ugu diyaar garowdo imtixaanka qoraalka."
+      },
+      {
+        "definition": "imtixaan wadista oo uu ku jiro kormeere",
+        "example": "Waxaan ku gudbay imtixaanka wadista markii ugu horraysay."
+      },
+      {
+        "definition": "qaadashada ruqsin cusub marka ruqsaddii hore ay waqtigeedu dhammaato",
+        "example": "Waa inaan cusboonaysiiyaa shahaadadayda bisha soo socota."
+      },
+      {
+        "definition": "waqti ballan ah oo aad ku tagto xafiiska DMV",
+        "example": "Ballan samee internetka si aad uga fogaato sugitaanka."
+      },
+      {
+        "definition": "lacag ay tahay inaad ku bixiso adeega",
+        "example": "Kharashka shahaadada darawalnimadu waa $50."
+      }
+    ],
+    "quiz": {
+      "q1": "Wadahadalka, imisa ayay ku kacdaa imtixaanka qoraalka?",
+      "q2": "Imisa su'aal ayaa ku jira imtixaanka qoraalka ee darawalnimada ee Oregon?",
+      "q3": "Maxaad tahay inaad sameyso haddii aad ku dhacdo imtixaanka qoraalka?",
+      "q4": "Dhammeystir: 'I ___ to bring my passport.'",
+      "q5": "Imtixaanka qoraalka ee DMV wuxuu kaliya ku yahay Ingiriisiga.",
+      "q6": "Waxaad u baahan tahay caddaynta cinwaanka Oregon si aad u hesho shati Oregon.",
+      "q7": "___ ayaan ku qorsheyn karaa imtixaanka darawalnimada? (wax weydiineysa waqtiga)",
+      "q8": "Haddii aan gudbo, ___ ayaan wadi karaa isla markiiba? (su'aal shardiyeed)",
+      "q9": "Isku xir ereyga DMV:",
+      "q10": "Maxaa Ahmed samayn karaa haddii uu ka walwalsan yahay inuu imtixaanka ku qaato Ingiriisiga?"
+    }
+  }
 }

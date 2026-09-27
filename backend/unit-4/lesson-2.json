@@ -77,6 +77,16 @@
         "Which bus goes to the mall?",
         "Which train goes to Beaverton?",
         "Which bus goes to the hospital?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Which bus goes to ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Which ___ goes to downtown?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -89,6 +99,16 @@
         "How often does the 72 bus run?",
         "How often does the MAX run?",
         "How often does the express bus come?"
+      ],
+      "prompts": [
+        {
+          "sentence": "How often does the ___ run?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "How often does this bus ___?",
+          "type": "flexible"
+        }
       ]
     },
     {
@@ -101,6 +121,16 @@
         "Do I need to transfer to get to the zoo?",
         "Do I need to transfer to get to Gresham?",
         "Do I need to transfer to get to OHSU?"
+      ],
+      "prompts": [
+        {
+          "sentence": "Do I need to transfer to get to ___?",
+          "type": "flexible"
+        },
+        {
+          "sentence": "Do I need to ___ to get to the airport?",
+          "type": "flexible"
+        }
       ]
     }
   ],
@@ -296,6 +326,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "grammar-4",
+      "title": "Talking About Passes and Fares",
+      "explanation": "Use 'I need a [type] pass' to buy a pass, and 'Does my pass cover [zone]?' to ask if it works in a certain area.",
+      "examples": [
+        "I need a monthly pass, please.",
+        "Does my pass cover this zone?",
+        "How much is a weekly pass?",
+        "This pass works for the whole system."
+      ],
+      "practice": [
+        {
+          "sentence": "I need a ___ pass, please.",
+          "blank": "monthly",
+          "options": [
+            "monthly",
+            "monthing",
+            "month"
+          ]
+        },
+        {
+          "sentence": "___ my pass cover this zone?",
+          "blank": "Does",
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ]
+        }
+      ]
     }
   ],
   "quiz": {
@@ -482,5 +543,167 @@
     "Many transit systems have apps for real-time tracking, tickets, and trip planning.",
     "It's polite to give up your seat for elderly people, pregnant women, or people with disabilities.",
     "Rush hour (7-9 AM, 4-6 PM) is when buses and trains are most crowded."
-  ]
+  ],
+  "somali": {
+    "objectives": [
+      "Akhri jadwalka baska ama tareenka si aad u qorsheysato safarka",
+      "Weydiiso wax ku saabsan beddelka, isku xirka, iyo dib u dhacyada",
+      "Iibso tigidhada socdaalka badan oo faham aagagga qiimaha tigidhada",
+      "Istcmaal app-ka gaadiidka si aad u hesho waddooyinka iyo waqtiyada imaatinka la qiyaasay"
+    ],
+    "target_phrases": [
+      "Waa goorma uu yimaadaa baska/tareenka xiga?",
+      "Ma waxaan u baahanahay in aan isku beddelo si aan halkaas u gaaro?",
+      "Khadka kee ayaan qaataa, xaggee ayaan isku beddelaa?",
+      "Intee ayuu safarku qaadanayaa?",
+      "Khadka [nambarka] ma jiraa dib u dhac?",
+      "Waxaan u baahanahay baas bille, fadlan.",
+      "Baaskaygu ma daboolayaa aaggan?"
+    ],
+    "dialogue": [
+      "Cafis, waxaan u baahanahay inaan tago Swan Island. Bas kee baa halkaas u socda?",
+      "Waxaad rabtaa bas lambar 17. Wuxuu ku joogsadaa meel bannaanka ah wuxuuna socdaa 15 daqiiqo kasta.",
+      "Waa imisa qiimaha raaca?",
+      "$2.50 hal safar, ama waxaad iibsan kartaa kaadhadh maalinle ah $5. Kaadhadhka maalinle ayaa ka fiican haddii aad samaynayso in ka badan laba safar.",
+      "Waxaan iibsan doonaa kaadhadh maalinle. Xaggee baan ka iibsanayaa?",
+      "Halkan mashiinkan. Wuxuu aqbalaa lacag caddaan ah ama kaarar. Waxaad kaloo isticmaali kartaa kaarka Hop - waa kaar raac oo dib loo buuxin karo.",
+      "Ma u baahanahay inaan isku beddelo si aan u tago Swan Island?",
+      "Maya, baska 17 waa toos. Kaliya ku sii joog ilaa 20 daqiiqo. Darawalka ayaa ku dhawaaqi doona joogsiyada.",
+      "Waa fiicantahay! Waa goorma baska xiga?",
+      "Ilaa 5 daqiiqo. Waxaad ku arki doontaa calaamadda dhijitaalka ah ee halkaas."
+    ],
+    "drills": [
+      {
+        "instruction": "[bus/train] kee baa tagaa [destination]?"
+      },
+      {
+        "instruction": "Intee jeer baa [vehicle] socdaa?"
+      },
+      {
+        "instruction": "Ma waxaan u baahanahay in aan iska beddelo si aan u gaaro [place]?"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Intee ayay ku qaadataa Blue Line si ay u gaadho Hillsboro?"
+      },
+      {
+        "question": "Intee ayuu ku jiraa tigidhka hal mar?"
+      },
+      {
+        "question": "Sidee u weydiisataa joogsigaaga?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Waxaad joogtaa istaagga baska. Weydii qof: 'Excuse me, which bus goes to downtown? How much is the fare? Do I need exact change?' Duub codkaaga si cad."
+      },
+      {
+        "instruction": "U sharax saaxiibkaa sida loo isticmaalo gaadiidka dadweynaha ee magaaladaada. Bixi 3 talo. Hadal 30 ilbiriqsi."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlood oo ku saabsan isticmaalka gaadiidka dadweynaha. Isticmaal oraahyo sida 'I take the bus...', 'The fare is...', 'I need to transfer...'"
+      },
+      {
+        "instruction": "Waxaad qoraysaa tilmaamaha gurigaaga adigoo isticmaalaya gaadiidka dadweynaha. Qor tilmaamo tallaabo-tallaabo ah (4-5 jumlood)."
+      }
+    ],
+    "grammar_discovery": {
+      "sections": [
+        {
+          "explanation": "Isticmaal 'which' markaad weydiiso qof inuu ka doorto ikhtiyaaro gaar ah.",
+          "examples": [
+            "Bas kee ayaa tagaya magaalada? (waxaa jira dhowr bas)",
+            "Tareen kee ayaa ka dhakhso badan? (doorashada u dhaxaysa tareenada)",
+            "Joogsi kee ayaan ka degaa? (doorashada joogsiga saxda ah)",
+            "Platform kee yahay? (nambarka platform-ka)"
+          ]
+        },
+        {
+          "explanation": "'How often' waxay waydiinaysaa inta jeer ee ay dhacdo. Ku jawaab tibaaxaha wakhtiga.",
+          "examples": [
+            "Intee jeer buu basku socdaa? - 15 daqiiqo kasta",
+            "Intee jeer baad raacdaa tareenka? - Maalintii laba jeer",
+            "Intee jeer buu yimaadaa? - Nus saac kasta",
+            "Intee jeer baad raacdaa baska? - Toddobaadkii shan maalmood"
+          ]
+        },
+        {
+          "explanation": "U isticmaal 'on' basaska iyo tareenada, 'at' joogsiyada iyo saldhigyada, 'to' meelaha la tagayo.",
+          "examples": [
+            "Waxaan baska ku jiraa (raacaya).",
+            "Waxaan joogaa joogsiga baska (sugaya).",
+            "Basku wuxuu aadaa xarunta magaalada (meesha la aado).",
+            "Ka fuul Main Street (fuul).",
+            "Ka dego 5th Avenue (dego)."
+          ]
+        },
+        {
+          "explanation": "Ku isticmaal 'I need a [type] pass' si aad u iibsato kaadhka, iyo 'Does my pass cover [zone]?' si aad u weydiiso in uu ka shaqeeyo aag gaar ah.",
+          "examples": [
+            "Waxaan u baahanahay baas bille ah, fadlan.",
+            "Baaskaygu miyuu daboolayaa aaggan?",
+            "Waa imisa baas toddobaadle?",
+            "Baaskan wuxuu u shaqeeyaa nidaamka oo dhan."
+          ]
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "definition": "kharashka raacidda gaadiidka dadweynaha",
+        "example": "Qiimaha baska waa $2.50."
+      },
+      {
+        "definition": "isku beddelka bas ama tareen kale",
+        "example": "Waxaan u baahanahay inaan beddelo baska si aan u gaaro meesha aan aaday."
+      },
+      {
+        "definition": "wadada uu maro bas ama tareen",
+        "example": "Baska nambarka 17 wuxuu raacaa jidkan."
+      },
+      {
+        "definition": "waqtiyada ay basaska ama tareenadu yimaadaan",
+        "example": "Hubi jadwalka si aad u aragto marka uu baska xiga yimaado."
+      },
+      {
+        "definition": "goobta aad ku sugto tareenada",
+        "example": "Tareenku wuxuu ku yimaadaa platform 2."
+      },
+      {
+        "definition": "tigidh raacis aan xad lahayn",
+        "example": "Waxaan haystaa baas bilaha ah oo loogu talagalay dhammaan adeegyada TriMet."
+      },
+      {
+        "definition": "qadarka saxda ah ee lacagta loo baahan yahay",
+        "example": "Darawallada basku ma bixin karaan lacag beddel ah, marka keena lacag sax ah."
+      },
+      {
+        "definition": "aagga saameeya qiimaha tigidhka",
+        "example": "Portland waxay leedahay aagag kala duwan oo qiimaha baska."
+      },
+      {
+        "definition": "saldhigga weyn ama dhamaadka wadada",
+        "example": "Baskan wuxuu ku dhamaadaa terminalka bartamaha magaalada."
+      },
+      {
+        "definition": "adeeg ka degdeg badan oo joogsiyo ka yar",
+        "example": "Raac baska degdegga ah - wuu ka dhakhso badan yahay."
+      }
+    ],
+    "quiz": {
+      "q1": "Wadahadalka, waa imisa baas maalinle?",
+      "q2": "'Transfer' waa maxay?",
+      "q3": "Buuxi: '___ bus goes to the airport?'",
+      "q4": "Sidee baad weyddiisataa joogsigaaga baska?",
+      "q5": "Kirada hal mar ee TriMet waa ansax 2.5 saac.",
+      "q6": "Waa inaad mar kale bixisaa haddii aad isku beddesho baska 2.5 saac gudahood.",
+      "q7": "I'm riding ___ the bus. (horudhac)",
+      "q8": "___ often does this bus run? (su'aal inta jeer)",
+      "q9": "Isku dar ereyga iyo macnihiisa.",
+      "q10": "Ma Ahmed wuxuu u baahan yahay inuu baska isku beddelo si uu u gaaro Swan Island?"
+    }
+  }
 }
