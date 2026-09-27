@@ -111,19 +111,19 @@
       "prompts": [
         {
           "sentence": "It's ___ today.",
-          "answer": "hot"
+          "type": "flexible"
         },
         {
           "sentence": "It's ___ today.",
-          "answer": "cold"
+          "type": "flexible"
         },
         {
           "sentence": "It's ___.",
-          "answer": "raining"
+          "type": "flexible"
         },
         {
           "sentence": "The weather is ___!",
-          "answer": "nice"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -142,19 +142,19 @@
       "prompts": [
         {
           "sentence": "How was your ___?",
-          "answer": "weekend"
+          "type": "flexible"
         },
         {
           "sentence": "What did you ___ this weekend?",
-          "answer": "do"
+          "type": "flexible"
         },
         {
           "sentence": "Did you do anything ___?",
-          "answer": "fun"
+          "type": "flexible"
         },
         {
           "sentence": "How was your ___?",
-          "answer": "week"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -173,19 +173,19 @@
       "prompts": [
         {
           "sentence": "That sounds ___!",
-          "answer": "fun"
+          "type": "flexible"
         },
         {
           "sentence": "That sounds ___!",
-          "answer": "nice"
+          "type": "flexible"
         },
         {
           "sentence": "That's ___!",
-          "answer": "interesting"
+          "type": "flexible"
         },
         {
           "sentence": "Cool! How ___ it?",
-          "answer": "was"
+          "type": "flexible"
         }
       ],
       "examples": [

@@ -105,19 +105,19 @@
       "prompts": [
         {
           "sentence": "He is ___.",
-          "answer": "tall"
+          "type": "flexible"
         },
         {
           "sentence": "She is ___.",
-          "answer": "short"
+          "type": "flexible"
         },
         {
           "sentence": "He is ___.",
-          "answer": "young"
+          "type": "flexible"
         },
         {
           "sentence": "She is ___.",
-          "answer": "friendly"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -136,19 +136,19 @@
       "prompts": [
         {
           "sentence": "He has ___ hair.",
-          "answer": "black"
+          "type": "flexible"
         },
         {
           "sentence": "She has ___ eyes.",
-          "answer": "brown"
+          "type": "flexible"
         },
         {
           "sentence": "He has ___ hair.",
-          "answer": "short"
+          "type": "flexible"
         },
         {
           "sentence": "She has ___ hair.",
-          "answer": "long"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -167,19 +167,19 @@
       "prompts": [
         {
           "sentence": "What does ___ look like?",
-          "answer": "he"
+          "type": "flexible"
         },
         {
           "sentence": "What does ___ look like?",
-          "answer": "she"
+          "type": "flexible"
         },
         {
           "sentence": "What does your ___ look like?",
-          "answer": "brother"
+          "type": "flexible"
         },
         {
           "sentence": "What ___ your friend look like?",
-          "answer": "does"
+          "type": "flexible"
         }
       ],
       "examples": [

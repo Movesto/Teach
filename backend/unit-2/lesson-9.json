@@ -112,19 +112,19 @@
       "prompts": [
         {
           "sentence": "I ___ at the warehouse for two years. (work)",
-          "answer": "worked"
+          "type": "flexible"
         },
         {
           "sentence": "She ___ the boxes every morning. (organize)",
-          "answer": "organized"
+          "type": "flexible"
         },
         {
           "sentence": "He ___ packages across the city. (deliver)",
-          "answer": "delivered"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ the storeroom and kitchen. (clean)",
-          "answer": "cleaned"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -144,19 +144,19 @@
       "prompts": [
         {
           "sentence": "I ___ a delivery truck for five years. (drive)",
-          "answer": "drove"
+          "type": "flexible"
         },
         {
           "sentence": "She ___ English at a primary school. (teach)",
-          "answer": "taught"
+          "type": "flexible"
         },
         {
           "sentence": "He ___ a security guard at a bank. (be)",
-          "answer": "was"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ a small business in my city. (have)",
-          "answer": "had"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -176,19 +176,19 @@
       "prompts": [
         {
           "sentence": "I worked there ___ three years.",
-          "answer": "for"
+          "type": "flexible"
         },
         {
           "sentence": "I was a teacher ___ 2015 ___ 2020.",
-          "answer": "from / to"
+          "type": "flexible"
         },
         {
           "sentence": "I drove a truck ___ I moved here.",
-          "answer": "until"
+          "type": "flexible"
         },
         {
           "sentence": "She worked at the hospital ___ six months.",
-          "answer": "for"
+          "type": "flexible"
         }
       ],
       "examples": [

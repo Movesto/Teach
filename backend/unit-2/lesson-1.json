@@ -113,19 +113,19 @@
       "prompts": [
         {
           "sentence": "This is my ___.",
-          "answer": "mother"
+          "type": "flexible"
         },
         {
           "sentence": "This is my ___.",
-          "answer": "father"
+          "type": "flexible"
         },
         {
           "sentence": "This is my ___.",
-          "answer": "brother"
+          "type": "flexible"
         },
         {
           "sentence": "This is my ___.",
-          "answer": "sister"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -144,19 +144,19 @@
       "prompts": [
         {
           "sentence": "___ name is Halima.",
-          "answer": "Her"
+          "type": "flexible"
         },
         {
           "sentence": "___ name is Mohamed.",
-          "answer": "His"
+          "type": "flexible"
         },
         {
           "sentence": "Her name is ___.",
-          "answer": "Amina"
+          "type": "flexible"
         },
         {
           "sentence": "His name is ___.",
-          "answer": "Ali"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -175,19 +175,19 @@
       "prompts": [
         {
           "sentence": "I have two ___.",
-          "answer": "brothers"
+          "type": "flexible"
         },
         {
           "sentence": "I have one ___.",
-          "answer": "sister"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ three children.",
-          "answer": "have"
+          "type": "flexible"
         },
         {
           "sentence": "I don't have any ___.",
-          "answer": "brothers"
+          "type": "flexible"
         }
       ],
       "examples": [

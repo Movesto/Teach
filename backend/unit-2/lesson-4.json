@@ -109,19 +109,19 @@
       "prompts": [
         {
           "sentence": "I like ___.",
-          "answer": "soccer"
+          "type": "flexible"
         },
         {
           "sentence": "I like ___.",
-          "answer": "reading"
+          "type": "flexible"
         },
         {
           "sentence": "I don't like ___.",
-          "answer": "basketball"
+          "type": "flexible"
         },
         {
           "sentence": "I don't like ___.",
-          "answer": "cooking"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -140,19 +140,19 @@
       "prompts": [
         {
           "sentence": "Do you like ___?",
-          "answer": "soccer"
+          "type": "flexible"
         },
         {
           "sentence": "Do you like ___?",
-          "answer": "reading"
+          "type": "flexible"
         },
         {
           "sentence": "Do you like ___?",
-          "answer": "cooking"
+          "type": "flexible"
         },
         {
           "sentence": "Do you like ___?",
-          "answer": "movies"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -171,19 +171,19 @@
       "prompts": [
         {
           "sentence": "I like soccer. — Me ___!",
-          "answer": "too"
+          "type": "flexible"
         },
         {
           "sentence": "I love reading. — Me ___!",
-          "answer": "too"
+          "type": "flexible"
         },
         {
           "sentence": "I don't like basketball. — Me ___!",
-          "answer": "neither"
+          "type": "flexible"
         },
         {
           "sentence": "I don't enjoy cooking. — Me ___!",
-          "answer": "neither"
+          "type": "flexible"
         }
       ],
       "examples": [

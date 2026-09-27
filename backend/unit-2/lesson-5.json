@@ -109,19 +109,19 @@
       "prompts": [
         {
           "sentence": "Do you want to get ___?",
-          "answer": "coffee"
+          "type": "flexible"
         },
         {
           "sentence": "Do you want to see a ___?",
-          "answer": "movie"
+          "type": "flexible"
         },
         {
           "sentence": "Would you like to have ___?",
-          "answer": "dinner"
+          "type": "flexible"
         },
         {
           "sentence": "Do you want to go ___?",
-          "answer": "shopping"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -140,19 +140,19 @@
       "prompts": [
         {
           "sentence": "Do you want to get coffee? — ___!",
-          "answer": "Sure"
+          "type": "flexible"
         },
         {
           "sentence": "Do you want to see a movie? — That sounds ___!",
-          "answer": "great"
+          "type": "flexible"
         },
         {
           "sentence": "Would you like to have dinner? — Yes, I'd ___ to!",
-          "answer": "love"
+          "type": "flexible"
         },
         {
           "sentence": "Do you want to go shopping? — ___!",
-          "answer": "Perfect"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -171,19 +171,19 @@
       "prompts": [
         {
           "sentence": "I'm sorry, I ___.",
-          "answer": "can't"
+          "type": "flexible"
         },
         {
           "sentence": "I'm ___ that day.",
-          "answer": "busy"
+          "type": "flexible"
         },
         {
           "sentence": "Maybe another ___?",
-          "answer": "time"
+          "type": "flexible"
         },
         {
           "sentence": "I can't, sorry. Maybe next ___?",
-          "answer": "week"
+          "type": "flexible"
         }
       ],
       "examples": [

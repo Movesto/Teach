@@ -116,19 +116,19 @@
       "prompts": [
         {
           "sentence": "Ahmed ___ drive a truck. (yes)",
-          "answer": "can"
+          "type": "flexible"
         },
         {
           "sentence": "Ahmed ___ speak French. (no)",
-          "answer": "can't"
+          "type": "flexible"
         },
         {
           "sentence": "Maria ___ use a computer. (yes)",
-          "answer": "can"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ lift 50 pounds. (yes)",
-          "answer": "can"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -148,19 +148,19 @@
       "prompts": [
         {
           "sentence": "I ___ how to cook Somali food. (yes)",
-          "answer": "know"
+          "type": "flexible"
         },
         {
           "sentence": "She ___ how to use a cash register. (yes)",
-          "answer": "knows"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ how to use that machine yet. (no)",
-          "answer": "don't know"
+          "type": "flexible"
         },
         {
           "sentence": "___ you know how to drive a forklift?",
-          "answer": "Do"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -180,19 +180,19 @@
       "prompts": [
         {
           "sentence": "I'm good at ___ heavy things. (lift)",
-          "answer": "lifting"
+          "type": "flexible"
         },
         {
           "sentence": "She's good at ___ with customers. (work)",
-          "answer": "working"
+          "type": "flexible"
         },
         {
           "sentence": "I'm not very good at ___ on the phone. (speak)",
-          "answer": "speaking"
+          "type": "flexible"
         },
         {
           "sentence": "Are you good at ___ people? (help)",
-          "answer": "helping"
+          "type": "flexible"
         }
       ],
       "examples": [

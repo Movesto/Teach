@@ -116,19 +116,19 @@
       "prompts": [
         {
           "sentence": "I ___ like to apply for this job.",
-          "answer": "would / 'd"
+          "type": "flexible"
         },
         {
           "sentence": "I'd like ___ schedule an interview.",
-          "answer": "to"
+          "type": "flexible"
         },
         {
           "sentence": "___ you like me to bring my resume?",
-          "answer": "Would"
+          "type": "flexible"
         },
         {
           "sentence": "I'd like ___ know more about the hours.",
-          "answer": "to"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -148,19 +148,19 @@
       "prompts": [
         {
           "sentence": "I've ___ in warehouses for five years. (work)",
-          "answer": "worked"
+          "type": "flexible"
         },
         {
           "sentence": "I've ___ a delivery truck. (drive)",
-          "answer": "driven"
+          "type": "flexible"
         },
         {
           "sentence": "I've ___ customers at a store. (help)",
-          "answer": "helped"
+          "type": "flexible"
         },
         {
           "sentence": "I've ___ for the same company for six years. (work)",
-          "answer": "worked"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -180,19 +180,19 @@
       "prompts": [
         {
           "sentence": "I'm ___ for a full-time position in logistics.",
-          "answer": "looking"
+          "type": "flexible"
         },
         {
           "sentence": "I'm ___ in the warehouse associate position.",
-          "answer": "interested"
+          "type": "flexible"
         },
         {
           "sentence": "I believe I am a good ___ for this role.",
-          "answer": "fit"
+          "type": "flexible"
         },
         {
           "sentence": "I am ___ to start immediately.",
-          "answer": "available"
+          "type": "flexible"
         }
       ],
       "examples": [

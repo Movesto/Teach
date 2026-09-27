@@ -116,19 +116,19 @@
       "prompts": [
         {
           "sentence": "___ you repeat that, please?",
-          "answer": "Could"
+          "type": "flexible"
         },
         {
           "sentence": "Could you ___ more slowly?",
-          "answer": "speak"
+          "type": "flexible"
         },
         {
           "sentence": "Could you ___ me how to do this?",
-          "answer": "show"
+          "type": "flexible"
         },
         {
           "sentence": "Could you ___ that down for me?",
-          "answer": "write"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -148,19 +148,19 @@
       "prompts": [
         {
           "sentence": "Would you mind ___ that again? (explain)",
-          "answer": "explaining"
+          "type": "flexible"
         },
         {
           "sentence": "Would you mind ___ me? (show)",
-          "answer": "showing"
+          "type": "flexible"
         },
         {
           "sentence": "Would you mind ___ more slowly? (speak)",
-          "answer": "speaking"
+          "type": "flexible"
         },
         {
           "sentence": "Would you mind ___ my report? (check)",
-          "answer": "checking"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -180,19 +180,19 @@
       "prompts": [
         {
           "sentence": "I'm sorry, I ___ catch that. Could you repeat?",
-          "answer": "didn't"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ understand that word. What does it mean?",
-          "answer": "didn't"
+          "type": "flexible"
         },
         {
           "sentence": "Excuse me, I didn't hear you ___.",
-          "answer": "clearly"
+          "type": "flexible"
         },
         {
           "sentence": "I'm not ___ I understood. Could you explain?",
-          "answer": "sure"
+          "type": "flexible"
         }
       ],
       "examples": [

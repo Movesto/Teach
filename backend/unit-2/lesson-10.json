@@ -108,19 +108,19 @@
       "prompts": [
         {
           "sentence": "I ___ work Monday through Friday. (yes)",
-          "answer": "can"
+          "type": "flexible"
         },
         {
           "sentence": "I ___ work on Sundays. (no)",
-          "answer": "can't"
+          "type": "flexible"
         },
         {
           "sentence": "She ___ work the night shift. (no)",
-          "answer": "can't"
+          "type": "flexible"
         },
         {
           "sentence": "He ___ work overtime on Saturdays. (yes)",
-          "answer": "can"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -140,19 +140,19 @@
       "prompts": [
         {
           "sentence": "I work ___ Mondays and Wednesdays.",
-          "answer": "on"
+          "type": "flexible"
         },
         {
           "sentence": "The shift starts ___ 6 AM.",
-          "answer": "at"
+          "type": "flexible"
         },
         {
           "sentence": "I work ___ 8 AM ___ 4 PM.",
-          "answer": "from / to"
+          "type": "flexible"
         },
         {
           "sentence": "I can stay ___ 6 PM if needed.",
-          "answer": "until"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -172,19 +172,19 @@
       "prompts": [
         {
           "sentence": "___ are the hours for this job?",
-          "answer": "What"
+          "type": "flexible"
         },
         {
           "sentence": "___ shift would I be working?",
-          "answer": "What"
+          "type": "flexible"
         },
         {
           "sentence": "Is overtime ___?",
-          "answer": "available"
+          "type": "flexible"
         },
         {
           "sentence": "Do you offer ___ or part-time work?",
-          "answer": "full-time"
+          "type": "flexible"
         }
       ],
       "examples": [

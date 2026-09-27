@@ -112,19 +112,19 @@
       "prompts": [
         {
           "sentence": "You ___ be 18 years or older to apply.",
-          "answer": "must"
+          "type": "flexible"
         },
         {
           "sentence": "You ___ to fill out the application form online.",
-          "answer": "need"
+          "type": "flexible"
         },
         {
           "sentence": "Applicants ___ have a valid ID.",
-          "answer": "must"
+          "type": "flexible"
         },
         {
           "sentence": "You ___ to bring two references to the interview.",
-          "answer": "need"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -144,19 +144,19 @@
       "prompts": [
         {
           "sentence": "___ I have to work on weekends?",
-          "answer": "Do"
+          "type": "flexible"
         },
         {
           "sentence": "___ I have to have a high school diploma?",
-          "answer": "Do"
+          "type": "flexible"
         },
         {
           "sentence": "___ she have to speak Spanish?",
-          "answer": "Does"
+          "type": "flexible"
         },
         {
           "sentence": "___ we have to bring our own tools?",
-          "answer": "Do"
+          "type": "flexible"
         }
       ],
       "examples": [
@@ -176,19 +176,19 @@
       "prompts": [
         {
           "sentence": "A diploma is ___. You cannot apply without one.",
-          "answer": "required"
+          "type": "flexible"
         },
         {
           "sentence": "Experience is ___. It helps, but you can still apply.",
-          "answer": "preferred"
+          "type": "flexible"
         },
         {
           "sentence": "A background check is ___. Everyone must pass it.",
-          "answer": "required"
+          "type": "flexible"
         },
         {
           "sentence": "Spanish is ___. It is useful but not necessary.",
-          "answer": "preferred"
+          "type": "flexible"
         }
       ],
       "examples": [
