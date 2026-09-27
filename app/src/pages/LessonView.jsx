@@ -410,6 +410,7 @@ export default function LessonView() {
             {currentSection === 'drills' && lesson.drills && (
               <PatternDrill
                 drills={lesson.drills}
+                somali={so?.drills}
                 lessonTitle={lesson.title}
                 onComplete={() => { markSectionComplete('drills'); setCurrentSection('listening'); }}
                 onRequestHelp={requestHelp}
@@ -419,6 +420,7 @@ export default function LessonView() {
             {currentSection === 'listening' && lesson.listening && (
               <ListeningExercise
                 exercises={lesson.listening}
+                somali={so?.listening}
                 onComplete={() => { markSectionComplete('listening'); setCurrentSection('speaking'); }}
                 onRequestHelp={requestHelp}
               />
@@ -427,6 +429,7 @@ export default function LessonView() {
             {currentSection === 'speaking' && lesson.speaking && (
               <SpeakingRecorder
                 tasks={lesson.speaking}
+                somali={so?.speaking}
                 onComplete={() => { markSectionComplete('speaking'); setCurrentSection('writing'); }}
                 onRequestHelp={requestHelp}
               />
@@ -435,6 +438,7 @@ export default function LessonView() {
             {currentSection === 'writing' && lesson.writing && (
               <WritingExercise
                 tasks={lesson.writing}
+                somali={so?.writing}
                 storageKey={lessonId}
                 onComplete={() => { markSectionComplete('writing'); setCurrentSection('grammar'); }}
                 onRequestHelp={requestHelp}
@@ -470,6 +474,7 @@ export default function LessonView() {
                 )}
                 <Quiz
                   questions={lesson.quiz}
+                  somaliQuestions={so?.quiz}
                   somaliExplanations={so?.quiz_explanations}
                   lessonId={lessonId}
                   onComplete={(score) => {

@@ -557,7 +557,57 @@
         "definition": "aad u qurux badan oo la eego ama la arko",
         "example": "Cimiladu way qurux badan tahay."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga cimilo ee saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Sidee ahaa usbuuca Ahmed?"
+      },
+      {
+        "question": "Dhageyso: Muxuu sameeyay Ahmed?"
+      },
+      {
+        "question": "Dhageyso: Sidee tahay cimigu?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo ka hadlaya cimilada maanta."
+      },
+      {
+        "instruction": "Duub adigoo ka jawaabaya: How was your weekend? What did you do?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumladood oo ku saabsan waxa aad sameysay usbuucii hore."
+      },
+      {
+        "instruction": "Qor wada hadal (10-12 sadar) oo aad la hadlaysid shaqaale. Ku dar: salaanta, cimilada, iyo weydiinta usbuucii hore."
+      }
+    ],
+    "quiz": {
+      "0": "Waa subaxnimada Isniin. Shaqo-wadaagaagu wuxuu kugu yidhi \"Good morning!\" Maxaad dhahdaa?",
+      "1": "Waxaad rabtaa inaad weydiiso qof dhammaadka usbuuciisa. Maxaad dhahdaa?",
+      "2": "Qof wuxuu kuu sheekaynaa dhammaadka usbuuciisa. Waxaad rabtaa inaad muujiso xiisaha. Maxaad dhahdaa?",
+      "3": "Buuxi meesha bannaan: It ___ hot today.",
+      "4": "Qof baa ku weydiiyay \"How was your weekend?\" Waxaad lahayd dhammaad usbuuc wanaagsan. Maxaad dhahdaa?",
+      "5": "Waxaad rabtaa inaad weydiiso waxa qofku shalay sameeyay. Maxaad dhahdaa?",
+      "6": "Qof wuxuu kuu sheekaynaa dhammaadka usbuuciisa. Waxaad rabtaa inaad su'aal dib ugu weydiiso. Maxaad dhahdaa?",
+      "7": "Waa dhamaadka wada hadalka. Maxaad dhahdaa?",
+      "8": "Qor wada hadal fudud oo 6-8 xariiq ah. Ku dar: salaanta, cimilada, iyo weydiinta dhammaadka usbuuciisa.",
+      "9": "Waa maxay mawduucyada caadiga u ah wada hadalka fudud ee dhaqankaaga? Sidee uga duwan yahay ama ugu eg yahay wada hadalka fudud ee Ameerikaanka?"
+    }
   },
   "vocabulary": [
     {

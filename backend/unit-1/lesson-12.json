@@ -663,7 +663,57 @@
         "definition": "dhaawac ama xanuun qaba",
         "example": "Ma qof baa dhaawacmay?"
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah ee xaaladda degdegga ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan adeegga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah ee goobta"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Waa maxay degdegga?"
+      },
+      {
+        "question": "Dhageyso: Maxaa qofka waca u baahan yahay?"
+      },
+      {
+        "question": "Dhageyso: Maxaa uu hawlwadeenku ku yidhi qofkii inuu sameeyo?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo wacaya 911. Dheh: there is a fire, sheeg cinwaankaaga, oo sheeg dabaqa aad ku jirto."
+      },
+      {
+        "instruction": "Duub wicitaan 911 oo buuxa oo qof dhaawacmay oo aad u baahan tahay ambuulaans."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlado oo aad dhihi karto xaalad degdeg ah. Isticmaal 'There is...', 'Someone is...', iyo 'I need...'"
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad ku wacdo 911 si aad u sheegto shil baabuur."
+      }
+    ],
+    "quiz": {
+      "0": "Dhismahaaga waxaa ka dhacay dab. Nambarkee ayaad wacdaa?",
+      "1": "Qof aad buu u bukaa wuxuuna u baahan yahay inuu isbitaalka tago. Waxaad dhahdaa:",
+      "2": "Operatorka 911 wuxuu ku weydiinayaa \"What is your address?\" Waxaad dhahdaa:",
+      "3": "Buuxi meesha bannaan: There is ___ accident on Main Street.",
+      "4": "Operatorka wuxuu yidhi \"Do not use the elevator. Use the stairs.\" Sababta?",
+      "5": "Buuxi meesha bannaan: Someone ___ hurt.",
+      "6": "Waxaad aragtaa shil baabuur. Maxaad ku dhahdaa operatorka?",
+      "7": "Maxaa ugu muhiimsan inaad u sheegto operatorka 911?",
+      "8": "Qor wicitaan 911 oo 6 sadar ah oo aad ku sheegayso in qof uu dhacay oo ku dhaawacmay dukaanka raashinka.",
+      "9": "Qor cinwaankaaga dhabta ah. Kadib qor 2 jumladood oo ku saabsan waxa aad dhihi lahayd haddii aad u baahan lahayd inaad wacdo 911."
+    }
   },
   "related_grammar": [
     "to-be",

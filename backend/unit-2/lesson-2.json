@@ -588,7 +588,57 @@
         "definition": "ku dhow tiro, aan qummanayn",
         "example": "Isagu waa qiyaastii 30 jir."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan sifada saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan astaanta saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan erayga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegeyso: Ali sidee buu u eg yahay?"
+      },
+      {
+        "question": "Dhegeyso: Ali ma xidhaa muraayado?"
+      },
+      {
+        "question": "Dhegeyso: Ali muxuu xidhanyahay?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo ku sifaynaya saaxiib ama xubin qoyskaaga. Ku dar: dhererka, timaha, da'da, iyo shakhsiyadda."
+      },
+      {
+        "instruction": "Qof baa ku weydiinaya 'What does your mother look like?' Duub jawaabtaada."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor sharaxaad 3 qof oo aad taqaan. Ku dar muuqaalka iyo dabeecadda qof kasta."
+      },
+      {
+        "instruction": "Qor faqraad (6-8 jumladood) oo ku sharaxaysa naftaada. Ku dar muuqaalkaaga iyo dabeecaddaada."
+      }
+    ],
+    "quiz": {
+      "0": "Buuxi meesha bannaan: He ___ tall.",
+      "1": "Buuxi meesha bannaan: She ___ black hair.",
+      "2": "Haddii aad rabto inaad ogaato sida qof u eg yahay, maxaad weydiinaysaa?",
+      "3": "Kee tilmaamaya shakhsiyadda?",
+      "4": "Kee tilmaamaya muuqaalka jirka?",
+      "5": "Buuxi meesha bannaan: He ___ glasses.",
+      "6": "Kee baa sax ah?",
+      "7": "Haddii aad rabto inaad qeexdo timaha iyo indhaha qof, kee baa sax ah?",
+      "8": "Qeex saaxiibkaa ugu fiican. Ku dar: dhererka, timaha, da'da, iyo shakhsiyadda. U qor ugu yaraan 5 jumladood.",
+      "9": "Waa maxay sifada jirka ama dabeecadda ay dadku marka hore kugu ogaadaan? Maxaad u malaynaysaa sababta?"
+    }
   },
   "vocabulary": [
     {

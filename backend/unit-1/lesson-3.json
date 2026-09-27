@@ -607,7 +607,57 @@
         "definition": "si saaxiibtinimo leh oo lagu dhaho \"you're welcome\"",
         "example": "Dhib malahan. Haddii aad caawimaad u baahatid, i weydii."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Ku buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Ku buuxi meesha bannaan goobta saxda ah"
+      },
+      {
+        "instruction": "Ku buuxi meesha bannaan falka saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhagayso: Maxaa qofku u baahan yahay?"
+      },
+      {
+        "question": "Dhagayso: Xaggee ayay tahay musqusha?"
+      },
+      {
+        "question": "Dhagayso: Ma uu caawin karaa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adiga oo weydiinaya halka ay ku yaalliin saddex meelood: musqusha, dukaanka, iyo joogsiga baska."
+      },
+      {
+        "instruction": "Duub wada hadal adiga oo Marcus weydiinaya inuu ku caawiyo helista qolka dharka lagu maydho."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 su'aalood oo weydiineysa meelaha kala duwan. Isticmaal 'Where is...'"
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad weydiiso qof caawimaad. Waxba ma heli kartid ama wax dhibaato ah ayaa kugu jira."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad u baahan tahay caawimaad. Maxaad dhahdaa?",
+      "1": "Waxaad rabtaa inaad ogaato halka musqusha ku taal. Maxaad weydiisaa?",
+      "2": "Ka hor intaadan weydiin su'aal qof aan aqoon, waxaad dhahdaa:",
+      "3": "Buuxi meesha bannaan: Can you ___ me?",
+      "4": "Qof baa ku caawiyay. Waxaad dhahdaa:",
+      "5": "Waxaad rabtaa qof inuu ku tuso wax. Waxaad dhahdaa:",
+      "6": "Kee baa ah kan ugu edebka badan?",
+      "7": "Buuxi meesha bannaan: Where ___ the store?",
+      "8": "Qor wada hadal 6 sadar ah oo aad weydiiso qof halka isbitaalku ku yaal.",
+      "9": "Ka fikir noloshaada. Goorma ayaad u baahan tahay inaad caawimaad weydiisato? Maxaad dhahdaa?"
+    }
   },
   "related_grammar": [
     "modal",

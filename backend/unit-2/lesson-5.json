@@ -591,7 +591,57 @@
         "definition": "ereyo muujinaya inaad raalli ka tahay qorshe",
         "example": "Waa hagaag! Waa ku arki Axada 2-ka!"
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan jawaabta saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Goorma ayuu Ahmed rabaa inuu kulmo?"
+      },
+      {
+        "question": "Dhegayso: Ma kulmi karaa Lisa Sabtida?"
+      },
+      {
+        "question": "Dhegayso: Waqti goorma ayay kulmi doonaan?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub naftaada adigoo qof ku casinaya inuu qaxwo cabbo Sabtida."
+      },
+      {
+        "instruction": "Duub naftaada adigoo aqbalaya hal casuumaad oo diidaya mid kale."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor farriin qoraal ah oo aad ku casaynayso saaxiib wax qabad. Ku dar: waxa aad qabanaysaan, maalinta, saacadda, iyo goobta."
+      },
+      {
+        "instruction": "Qor wada hadal (10-12 sadar) oo aad ku casayso qof, uu mashquulsan yahay, waxaad soo jeedinaysaa maalin kale, oo uu aqbalo."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad saaxiib ku cashato qaxwe. Maxaad dhahdaa?",
+      "1": "Qof baa ku casheeyay casho, adiguna rabtaa inaad aqbasho. Maxaad dhahdaa?",
+      "2": "Ma aqbali kartid casuumaad. Waa maxay qaabka ugu edebta badan ee diidmada?",
+      "3": "Waxaad rabtaa inaad ogaato haddii qof uu firaaqo yahay Sabti. Maxaad weydiisaa?",
+      "4": "Buuxi meesha bannaan: Do you want ___ a movie?",
+      "5": "Qof baa ku weydiisay 'What are you doing Saturday?' Wuxuu rabaa inuu ogaado:",
+      "6": "Kee baa ka sii edeb badan?",
+      "7": "Qof baa soo jeediyay inaad 3 galabnimo kulanta, adiguna waad ogolaatay. Maxaad dhahdaa?",
+      "8": "Qor wada hadal (6-8 sadar) oo aad qof ku cashato inuu filim daawado, laakiin uu mashquul yahay. Soo jeedi maalin kale.",
+      "9": "Marka qof ku casheeyo adiguna mashquul tahay, sidee ugu diidataa si edeb leh dhaqankaaga? Ma la mid baa Ingiriisiga?"
+    }
   },
   "vocabulary": [
     {

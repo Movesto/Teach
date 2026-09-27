@@ -156,7 +156,7 @@ export function StorySection({ story, onComplete, somali }) {
 }
 
 // ListeningExercise Component
-export function ListeningExercise({ exercises, onComplete }) {
+export function ListeningExercise({ exercises, somali, onComplete }) {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -221,7 +221,10 @@ export function ListeningExercise({ exercises, onComplete }) {
       </div>
 
       <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
-        <p className="text-gray-900 dark:text-white font-semibold mb-4">{exercise.question}</p>
+        <p className="text-gray-900 dark:text-white font-semibold mb-0.5">{exercise.question}</p>
+        {somali?.[current]?.question && (
+          <p className="text-gray-500 dark:text-gray-400 text-sm italic mb-4">{somali[current].question}</p>
+        )}
 
         <button
           onClick={toggleAudio}
@@ -296,7 +299,7 @@ export function ListeningExercise({ exercises, onComplete }) {
 }
 
 // SpeakingRecorder Component
-export function SpeakingRecorder({ tasks, onComplete }) {
+export function SpeakingRecorder({ tasks, somali, onComplete }) {
   const [current, setCurrent] = useState(0);
   const [recordings, setRecordings] = useState({});
   const [isRecording, setIsRecording] = useState(false);
@@ -544,7 +547,10 @@ export function SpeakingRecorder({ tasks, onComplete }) {
 
       <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
         <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{task.title}</h3>
-        <p className="text-gray-700 dark:text-gray-300 mb-4">{task.instruction}</p>
+        <p className="text-gray-700 dark:text-gray-300 mb-0.5">{task.instruction}</p>
+        {somali?.[current]?.instruction && (
+          <p className="text-gray-500 dark:text-gray-400 text-sm italic mb-4">{somali[current].instruction}</p>
+        )}
 
         {exampleText && (
           <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-lg p-4 mb-4">
@@ -660,7 +666,7 @@ export function SpeakingRecorder({ tasks, onComplete }) {
 }
 
 // WritingExercise Component
-export function WritingExercise({ tasks, onComplete, storageKey }) {
+export function WritingExercise({ tasks, somali, onComplete, storageKey }) {
   const lsKey = storageKey ? `writing_draft_${storageKey}` : null;
 
   const [current, setCurrent] = useState(0);
@@ -754,7 +760,10 @@ export function WritingExercise({ tasks, onComplete, storageKey }) {
 
       <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
         <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{task.title}</h3>
-        <p className="text-gray-700 dark:text-gray-300 mb-4">{task.instruction}</p>
+        <p className="text-gray-700 dark:text-gray-300 mb-0.5">{task.instruction}</p>
+        {somali?.[current]?.instruction && (
+          <p className="text-gray-500 dark:text-gray-400 text-sm italic mb-4">{somali[current].instruction}</p>
+        )}
 
         {task.example && (
           <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 mb-4 border border-gray-200 dark:border-gray-600">

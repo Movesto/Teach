@@ -617,7 +617,57 @@
         "definition": "intii lacag ee koontadaada ku jirta",
         "example": "Sideen u ogaan karaa inta lacag ee ku harta akoonkeyga?"
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ee falka saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ee erayga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ee qadarka saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Maxaa macmiilku rabo inuu sameeyo?"
+      },
+      {
+        "question": "Dhegayso: Immisa ayuu macmiilku rabo inuu dhigto?"
+      },
+      {
+        "question": "Dhegayso: Waa noocee akoon ayuu macmiilku rabo?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo sheegaya saddex wax aad rabto inaad ku qabato bangiga."
+      },
+      {
+        "instruction": "Duub wada hadal gaaban oo aad bangiga u tagto si aad lacag u dhigto."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlood oo ku saabsan waxyaabaha aad ku samayn karto bangi. Isticmaal 'I want to...' ama 'Can I...'"
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad ku booqato bangi si aad u furto akoon oo aad dhigto lacag."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad lacag ku dhigto akoonkaaga bangiga. Maxaad dhahdaa?",
+      "1": "Waxaad rabtaa inaad lacag ka soo saarto akoonkaaga. Maxaad dhahdaa?",
+      "2": "Waxaad rabtaa inaad ogaato inta lacag ee aad haysato. Waxaad weyddiinaysaa:",
+      "3": "Buuxi meesha bannaan: I want to ___ an account.",
+      "4": "Akoonkee baa loogu talagalay kharashka maalinlaha ah?",
+      "5": "Kaariyaha bangigu wuxuu dhahaa 'Sign here.' Maxaad samaysaa?",
+      "6": "Waa maxay ATM?",
+      "7": "Jumladdee baa sax ah?",
+      "8": "Qor wadahadal 6 sadar ah oo aad bangiga ku tagto si aad $100 uga soo bixiso.",
+      "9": "Ma isticmaashaa bangiga? Maxaad sida caadiga ah bangiga ku samaysaa? Qor 3-4 jumladood."
+    }
   },
   "related_grammar": [
     "modal",

@@ -2,13 +2,15 @@ import { useState, useRef, useEffect } from 'react';
 import { Check, X, Volume2, ChevronRight, Trophy, HelpCircle } from 'lucide-react';
 import { apiFetch } from '../../utils/api';
 
-export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp }) {
+export function Quiz({ questions, somaliQuestions, somaliExplanations, onComplete, onRequestHelp }) {
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizComplete, setQuizComplete] = useState(false);
   const [score, setScore] = useState(0);
   const [writingError, setWritingError] = useState(false);
+  const [writingResults, setWritingResults] = useState({});
+  const [assessing, setAssessing] = useState(false);
   const audioRef = useRef(null);
 
   // Stop audio on unmount
@@ -28,6 +30,7 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
   const isLastQuestion = currentQ === questions.length - 1;
   const hasAnswered = answers[currentQ] !== undefined;
   const isScoredType = question.type === 'multiple-choice' || question.type === 'listening';
+  const isWritingType = question.type === 'writing' || question.type === 'open-ended';
 
   const handleAnswer = (answerIndex) => {
     setAnswers({ ...answers, [currentQ]: answerIndex });
@@ -36,6 +39,40 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
 
   const handleTextAnswer = (text) => {
     setAnswers({ ...answers, [currentQ]: text });
+  };
+
+  const submitWriting = async () => {
+    const text = (answers[currentQ] || '').trim();
+    if (text.length < 20) {
+      setWritingError(true);
+      return;
+    }
+    setWritingError(false);
+    setAssessing(true);
+    try {
+      const res = await apiFetch('/api/writing/assess', {
+        method: 'POST',
+        body: JSON.stringify({
+          writing_text: text,
+          prompt_instruction: question.question,
+          example: '',
+          min_words: 15,
+        }),
+      });
+      const data = res.ok ? await res.json() : null;
+      setWritingResults(prev => ({
+        ...prev,
+        [currentQ]: data || { score: 70, feedback: 'Assessment unavailable — your answer was accepted.', feedback_somali: '' },
+      }));
+    } catch {
+      setWritingResults(prev => ({
+        ...prev,
+        [currentQ]: { score: 70, feedback: 'Assessment unavailable — your answer was accepted.', feedback_somali: '' },
+      }));
+    } finally {
+      setAssessing(false);
+      setShowFeedback(true);
+    }
   };
 
   const nextQuestion = () => {
@@ -48,6 +85,9 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
         if (q.type === 'multiple-choice' || q.type === 'listening') {
           scoredCount++;
           if (answers[idx] === q.correct) correctCount++;
+        } else if (q.type === 'writing' || q.type === 'open-ended') {
+          scoredCount++;
+          correctCount += (writingResults[idx]?.score ?? 70) / 100;
         }
       });
 
@@ -76,8 +116,7 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
   };
 
   if (quizComplete) {
-    const scoredCount = questions.filter(q => q.type === 'multiple-choice' || q.type === 'listening').length;
-    const practiceCount = questions.filter(q => q.type === 'writing' || q.type === 'open-ended').length;
+    const scoredCount = questions.length;
 
     return (
       <div className="text-center py-12">
@@ -87,8 +126,7 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Quiz Complete!</h2>
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-2">Your Score: {score}%</p>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          Based on {scoredCount} scored question{scoredCount !== 1 ? 's' : ''}
-          {practiceCount > 0 && ` (${practiceCount} writing/reflection question${practiceCount !== 1 ? 's' : ''} not scored)`}
+          Based on {scoredCount} question{scoredCount !== 1 ? 's' : ''}
         </p>
 
         <div className="max-w-md mx-auto mb-8">
@@ -154,7 +192,12 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
 
       <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
         <div className="flex items-start justify-between mb-4">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{question.question}</h3>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{question.question}</h3>
+            {somaliQuestions?.[String(question.id ?? currentQ)] && (
+              <p className="text-sm text-gray-500 dark:text-gray-400 italic mt-0.5">{somaliQuestions[String(question.id ?? currentQ)]}</p>
+            )}
+          </div>
           <button
             onClick={() => onRequestHelp({ type: 'question', content: question })}
             className="p-2 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors"
@@ -164,11 +207,10 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
           </button>
         </div>
 
-        {/* Not-scored badge for writing/open-ended */}
-        {!isScoredType && (
+        {isWritingType && !showFeedback && (
           <div className="mb-4 px-3 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Writing answers are for practice — not scored.
+              Write a real answer — it will be graded automatically.
             </p>
           </div>
         )}
@@ -245,15 +287,25 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
           </div>
         )}
 
-        {!isScoredType && showFeedback && (
+        {isWritingType && showFeedback && writingResults[currentQ] && (
           <div className="mt-4 space-y-2">
-            {question.correct && (
-              <div className="p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
-                <p className="text-sm font-semibold text-blue-900 dark:text-blue-300 mb-1">Model answer:</p>
-                <p className="text-sm text-blue-800 dark:text-blue-200">{question.correct}</p>
-              </div>
-            )}
-            <p className="text-xs text-gray-500 dark:text-gray-400">This question is for practice — not scored.</p>
+            <div className={`p-4 rounded-lg border-l-4 ${
+              writingResults[currentQ].score >= 60
+                ? 'bg-green-50 dark:bg-green-900/20 border-green-500'
+                : 'bg-amber-50 dark:bg-amber-900/20 border-amber-500'
+            }`}>
+              <p className={`text-sm font-bold mb-1 ${
+                writingResults[currentQ].score >= 60
+                  ? 'text-green-900 dark:text-green-300'
+                  : 'text-amber-900 dark:text-amber-300'
+              }`}>
+                {writingResults[currentQ].score}/100
+              </p>
+              <p className="text-sm text-gray-700 dark:text-gray-300">{writingResults[currentQ].feedback}</p>
+              {writingResults[currentQ].feedback_somali && (
+                <p className="text-sm text-gray-500 dark:text-gray-400 italic mt-1">{writingResults[currentQ].feedback_somali}</p>
+              )}
+            </div>
           </div>
         )}
       </div>
@@ -278,22 +330,13 @@ export function Quiz({ questions, somaliExplanations, onComplete, onRequestHelp 
           </button>
         ) : (
           <button
-            onClick={() => {
-              if (question.type === 'open-ended' || question.type === 'writing') {
-                if (answers[currentQ] && answers[currentQ].length > 20) {
-                  setWritingError(false);
-                  setShowFeedback(true);
-                } else {
-                  setWritingError(true);
-                }
-              }
-            }}
-            disabled={!hasAnswered}
+            onClick={() => { if (isWritingType) submitWriting(); }}
+            disabled={!hasAnswered || assessing}
             className="flex-1 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isScoredType
               ? 'Submit Answer'
-              : 'Submit & Continue'}
+              : assessing ? 'Grading...' : 'Submit for Grading'}
           </button>
         )}
       </div>

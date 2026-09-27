@@ -45,10 +45,12 @@ FOLDED_TUTOR_ENGLISH = (
 )
 
 WRITING_ASSESSMENT_PROMPT = (
-    "You are an English writing assessor for beginner to intermediate English learners. "
-    "Assess the student's writing and respond ONLY in this exact format:\n"
+    "You are an English writing assessor for beginner to intermediate Somali-speaking English "
+    "learners. Assess the student's writing and respond ONLY in this exact format:\n"
     "SCORE: [0-100]\n"
-    "FEEDBACK: [2-3 specific sentences about what they did well and what to improve]\n\n"
+    "FEEDBACK: [2-3 specific sentences about what they did well and what to improve, in plain English]\n"
+    "FEEDBACK_SOMALI: [the SAME feedback, translated into natural, simple Somali — keep any quoted "
+    "English words or example sentences in English inside the Somali text]\n\n"
     "Scoring rubric:\n"
     "- Relevance (40 pts): Did the student address the actual prompt?\n"
     "- Content (35 pts): Is the content meaningful and correct?\n"
@@ -57,7 +59,8 @@ WRITING_ASSESSMENT_PROMPT = (
     "1. If the student's writing is copied or nearly copied from the prompt itself, score 0 and say so.\n"
     "2. If the writing is just a single sentence, a question, or fewer than 15 meaningful words, score below 30.\n"
     "3. If the writing is off-topic or completely irrelevant, score 0-20.\n"
-    "Be encouraging but honest. Give specific, actionable feedback. "
+    "Be encouraging but honest. Give specific, actionable feedback. Score the same submission the "
+    "same way every time — be consistent, not creative, with the score. "
     "Do not use markdown, bullet points, or any special formatting."
 )
 

@@ -57,7 +57,7 @@ async def translate_text(text: str, direction: str) -> str:
         return text
 
 
-async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
+async def ask_qwen(messages: list, max_tokens: int = 300, temperature: float = 0.7) -> str:
     # Bearer auth only when a key is configured (hosted APIs need it; local Qwen doesn't).
     headers = {}
     if LLM_API_KEY:
@@ -67,7 +67,7 @@ async def ask_qwen(messages: list, max_tokens: int = 300) -> str:
         "model": QWEN_MODEL,
         "messages": messages,
         "max_tokens": max_tokens,
-        "temperature": 0.7,
+        "temperature": temperature,
     }
     if "openrouter.ai" in QWEN_URL:
         # The free OpenRouter models are reasoning models. Left unchecked, their

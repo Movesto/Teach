@@ -602,7 +602,57 @@
         "definition": "Isniin, Talaado, Arbaco, Khamiis, Jimco, Sabti, Axad",
         "example": "Ballankaygu waa Talaadada."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Meesha bannaan ku buuxi ereyga saxda ah"
+      },
+      {
+        "instruction": "Meesha bannaan ku buuxi waqtiga saxda ah"
+      },
+      {
+        "instruction": "Meesha bannaan ku buuxi maalinta ama waqtiga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Ballanku waa imisa?"
+      },
+      {
+        "question": "Dhageyso: Ballanku waa maalintee?"
+      },
+      {
+        "question": "Dhageyso: Hadda waa imisa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo sheegaya waqtiyadan: 9 AM, 2 PM, 6 o'clock"
+      },
+      {
+        "instruction": "Duub adigoo samaynaya ballan dhakhtar Isniin 10 AM."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 ballan oo leh maalin iyo waqti."
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad ku wacdo si aad ballan uga qaadato rugta caafimaadka."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad ogaato saacadda. Maxaad weydiisaa?",
+      "1": "Waa 9 subaxnimo. Waxaad dhahdaa:",
+      "2": "Ballankaagu waa Isniin 2 galabnimo. Kee baa sax ah?",
+      "3": "Buuxi meesha bannaan: I have an appointment ___ 3 PM.",
+      "4": "Buuxi meesha bannaan: The appointment is ___ Monday.",
+      "5": "Waa 6 fiidnimo. Waxaad dhahdaa:",
+      "6": "Waxaad rabtaa inaad ballan ku qabsato galabnimo. Waxaad dhahdaa:",
+      "7": "Kee baa sax ah?",
+      "8": "Qor wada hadal 6 sadar ah oo aad ballan dhakhtarka ilkaha ku qabsato Talaado 3 galabnimo.",
+      "9": "Ka fikir jadwalkaaga. Qor 3 ballan oo dhab ah oo aad haysatid (ama u baahan tahay inaad qabsato) oo ay ku qoran yihiin maalinta iyo saacadda."
+    }
   },
   "related_grammar": [
     "question",

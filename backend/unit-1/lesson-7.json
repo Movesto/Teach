@@ -591,7 +591,57 @@
         "definition": "erey aad tidhaahdo markaad wada hadalka dhamayso ama aad tagto",
         "example": "Waa hagaag. Nabadgelyo."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan magaca ama ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Yaa wacaya?"
+      },
+      {
+        "question": "Dhegayso: Marcus ma joogaa?"
+      },
+      {
+        "question": "Dhegayso: Maxuu doonayaa qofka wacaya?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo ka jawaabaya taleefanka oo naftaada soo bandhigaya."
+      },
+      {
+        "instruction": "Duub adigoo wacaya qof aan joogin. Ka tag farriin ah inay ku soo wacaan."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor farriin telefoon ah. Ku dar: ciddii soo wacday, cidda ay doonayaan inay la hadlaan, iyo waxa ay doonayaan."
+      },
+      {
+        "instruction": "Qor wada hadal (10-12 sadar) oo aad wacdid guriga qof, isaguna guriga ma joogo. Ka tag farriin."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad u wacdaa qof. Sidee baad isu soo bandhigtaa taleefanka?",
+      "1": "Waxaad rabtaa inaad la hadasho Marcus. Maxaad dhahdaa?",
+      "2": "Qof baa u wacay Marcus, laakiin guriga ma joogo. Waxaad dhahdaa:",
+      "3": "Qof baa raadinaya Marcus. Waxaad u baahan tahay inaad hubiso. Waxaad dhahdaa:",
+      "4": "Waxaad rabtaa inaad farriin ka tagto. Maxaad dhahdaa?",
+      "5": "Qof baa ka jawaabay taleefanka 'Hello?' Maxaad marka hore dhahdaa?",
+      "6": "Waxaad ka jawaabtaa taleefanka shaqada. Qof baa weydiisanaya madaxaaga. Madaxaagu wuxuu ku jiraa shir. Waxaad dhahdaa:",
+      "7": "Kee baa ugu edeb badan?",
+      "8": "Qor wada hadal taleefan oo 6 sadar ah halkaas oo aad u wacdo xafiiska Dr. Smith, mana joogo. Ka tag farriin.",
+      "9": "Ka fikir wicitaan taleefan oo dhab ah oo aad u baahan tahay inaad sameyso. Yaa aad u wici doonta? Maxaad dhahdo? Qor 2-3 jumladood."
+    }
   },
   "related_grammar": [
     "to-be",

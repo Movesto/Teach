@@ -569,7 +569,57 @@
         "definition": "aad u faa'iido badan ama caawimaad badan",
         "example": "Khibradaas waa qiimo leh."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Falka u beddel waqtiga tagay. Isticmaal: I + [verb-ed]"
+      },
+      {
+        "instruction": "Isticmaal qaabka waqtiga tagay ee falka aan caadiga ahayn."
+      },
+      {
+        "instruction": "Dhammeystir tibaaxda waqtiga. Isticmaal: for, from, to, ama until."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Muddo intee le'eg ayay haweeneydu ka shaqaysay cashiye?"
+      },
+      {
+        "question": "Sababtee ayuu ninku uga tagay shaqadii ugu dambeysay?"
+      },
+      {
+        "question": "Waa maxay shaqadii ay horay u qaban jirtay, oo ay rabto inay mar kale qabato?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub naftaada adigoo sharaxaya taariikhda shaqadaada. Ku dar: shaqada aad qabtay, meesha aad ka shaqaysay, muddo intee le'eg aad ka shaqaysay, iyo sababta aad uga tagtay. Haddii aadan lahayn khibrad shaqo, sharax mas'uuliyad aad ku lahayd guriga ama bulshadaada."
+      },
+      {
+        "instruction": "Duub 4 jumladood oo ku saabsan waxyaabaha aad ku samayn jirtay dalkaaga hooyo, kuwaas oo aad rabto inaad mar kale halkan ku samayso. Isticmaal: I used to..."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor cutub (5-7 jumlo) oo ku saabsan waayo-aragnimadaada shaqo. Ku dar ugu yaraan 3 fal oo kala duwan oo wakhti hore ah. Sheeg: waxaad qabtay, halka, muddada, iyo waxaad baratay."
+      },
+      {
+        "instruction": "Qor 4 jumlo oo isku xira waayo-aragnimadii hore iyo waxa aad rabto inaad hadda qabato. Isticmaal: I used to..., I have experience in..., I want to..."
+      }
+    ],
+    "quiz": {
+      "0": "Waa maxay past tense ee 'DRIVE'?",
+      "1": "Jumladee baa si sax ah u isticmaasha 'for'?",
+      "2": "Ahmed wuxuu yidhi 'I used to drive every day.' Maxay taasi macneheedu tahay?",
+      "3": "Jumladee baa sax ah?",
+      "4": "Waa maxay past tense ee 'TEACH'?",
+      "5": "Sidee u sharaxdaa inaad ka tagtay shaqo sababtoo ah waxaad u guurtay Maraykanka?",
+      "6": "Waa maxay past tense ee 'ORGANIZE'?",
+      "7": "Maxay macneheedu tahay 'I have five years of experience'?",
+      "8": "Qor 3 jumladood oo ku saabsan shaqo hore ama mas'uuliyad adoo isticmaalaya falalka waqtiga la soo dhaafay. Ku dar 'for' ama 'from...to' si aad u sheegto muddada.",
+      "9": "Qof wareysi ku qaadaya ayaa ku weydiinaya: 'Why did you leave your last job?' Qor jawaabtaada 2 jumladood. Noqo daacad oo wanaagsan."
+    }
   },
   "vocabulary": [
     {

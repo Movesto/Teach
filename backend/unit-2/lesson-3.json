@@ -552,7 +552,57 @@
         "definition": "in la joojiyo shaqada; dhamaadka waqtiga shaqada",
         "example": "Waxaan bilaabaa 9 subaxnimo, waxaana dhameeyaa 6 galabnimo."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Ku buuxi meesha banaan shaqada saxda ah."
+      },
+      {
+        "instruction": "Ku buuxi meesha banaan goobta saxda ah."
+      },
+      {
+        "instruction": "Ku buuxi meesha banaan erayga saxda ah."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Ahmed muxuu qabtaa?"
+      },
+      {
+        "question": "Dhageyso: Sarah halkee ka shaqeysaa?"
+      },
+      {
+        "question": "Dhageyso: Sarah shaqada immisa ayay bilaabataa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub codkaaga adigoo ka jawaabaya su'aalahan: What do you do? Where do you work/study?"
+      },
+      {
+        "instruction": "Duub codkaaga adigoo sharaxaya shaqada qof qoyskaaga ka mid ah. What do they do? Where do they work?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlado oo ku saabsan waxa aad qabato. Ku dar: shaqadaada ama waxa aad barato, halka, iyo goorta."
+      },
+      {
+        "instruction": "Qor wadahadal (8-10 xariiqood) oo aad qof weydiiso shaqadiisa."
+      }
+    ],
+    "quiz": {
+      "0": "Qof baa ku weydiiya 'What do you do?' Qofkaasi wuxuu rabaa inuu ogaado:",
+      "1": "Buuxi meesha bannaan: I ___ as a teacher.",
+      "2": "Buuxi meesha bannaan: He ___ at a hospital.",
+      "3": "Buuxi meesha bannaan: She ___ English at the university.",
+      "4": "Waxaad ka shaqeysaa isbitaal gaar ah. Maxaad dhahdaa?",
+      "5": "Waxaad rabtaa inaad ka weydiiso shaqada qof. Maxaad dhahdaa?",
+      "6": "Saaxiibkaa waa dhakhtar. Qof baa wax ka weydiiya isaga. Waxaad dhahdaa:",
+      "7": "Kee ayaa sax ah?",
+      "8": "Qor 5 jumladood oo ku saabsan qof aad taqaan iyo shaqadiisa. Waa maxay shaqadiisu? Halkuu ka shaqeeyaa? Goorma ayuu shaqeeyaa?",
+      "9": "Waa maxay shaqada riyadaada? Sababta? Qor 3-4 jumladood."
+    }
   },
   "vocabulary": [
     {

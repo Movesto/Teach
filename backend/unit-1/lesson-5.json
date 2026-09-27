@@ -584,7 +584,57 @@
         "definition": "dhawaan soo gaaraya",
         "example": "Basku wuu imanayaa hadda."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan goobta saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan goobta saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan goobta saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Bas kee baa tagaya maktabadda?"
+      },
+      {
+        "question": "Dhegayso: Xaggee baad ka degi?"
+      },
+      {
+        "question": "Dhegayso: Waa imisa qiimaha baska?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo weydiinaya baska teed u socota meelaha kala ah: maktabadda, isbitaalka, iyo bartamaha magaalada."
+      },
+      {
+        "instruction": "Duub wadahadal adigoo qof weydiinaya sida loogu tago maktabadda iyadoo la raacayo bas."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qof baa ku weydiisa sida loo tago isbitaalka. Qor 3-4 jumlado oo aad tilmaamaha baska u siiso."
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad qof weydiiso joogsiga baska sida loo tago suuqa."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad ogaato baska aad raacdo. Maxaad weydiisaa?",
+      "1": "Waxaad rabtaa inaad ogaato sida loo tago meel. Maxaad weydiisaa?",
+      "2": "Qof baa ku tusaya jidka. Wuxuu ku yidhi 'Take bus 5'. Waa maxay macnaha 'take'?",
+      "3": "Waxaad rabtaa inaad xaqiijiso in basku aado Main Street. Maxaad weydiisaa?",
+      "4": "Buuxi meesha bannaan: ___ bus goes to the hospital?",
+      "5": "Qof baa yidhi 'Get off at Park Street'. Waa maxay macnaha 'get off'?",
+      "6": "Buuxi meesha bannaan: How ___ I get to downtown?",
+      "7": "Waa kee qaabka ugu edebta badan ee wax loo weydiisto?",
+      "8": "Qor wada hadal 6 sadar ah oo aad ku weydiisayso qof jooga istaagga baska sida loo tago isbitaalka.",
+      "9": "Xaggee baad u baahan tahay inaad bas ku tagto? Qor su'aasha aad weydiisan lahayd: 'Which bus goes to ___?' ama 'How do I get to ___?'"
+    }
   },
   "related_grammar": [
     "question",

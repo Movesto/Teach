@@ -572,7 +572,57 @@
         "definition": "qalad",
         "example": "Waxaa ka fiican inaad weydiiso intii aad qalad samayn lahayd."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Samee codsi edeb ah. Isticmaal: Could you + [verb] + please?"
+      },
+      {
+        "instruction": "Samee codsi aad u edeb badan. Isticmaal: Would you mind + [verb-ing]?"
+      },
+      {
+        "instruction": "Dheh inaadan fahmin oo weydii caawimo. Isticmaal weedhaha caddaynta."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Shaqaalaha muxuu kormeeraha weydiisanayaa inuu sameeyo?"
+      },
+      {
+        "question": "Sidee ayay shaqaalaha weydiisataa erey ayna aqoon?"
+      },
+      {
+        "question": "Muxuu kormeeraha dhahaa marka shaqaalaha caawimaad weydiisto?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Diiwaan geli naftaada adigoo isticmaalaya 3 weedhood oo kala duwan oo caddayn ah, 3 jumladood oo gaagaaban. Qiyaas in kormeerahaagu hadda ku siiyay tilmaamo aadan si buuxda u fahmin."
+      },
+      {
+        "instruction": "Diiwaan geli naftaada adigoo sameynaya 3 codsi oo edeb leh, adigoo isticmaalaya: Could you...?, Would you mind...?, iyo May I...?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor wada hadal gaaban (5-6 sadar) oo shaqaale cusub uu weydiisto caawimaad ama caddayn shaqada. Isticmaal ugu yaraan 2 qaab oo codsi edeb leh (\"Could you...?\", \"Would you mind...?\", \"May I...?\")."
+      },
+      {
+        "instruction": "Qor 4 jumlad adigoo isticmaalaya luqad codsi edeb leh oo ku saabsan xaaladaha aad la kulmi karto shaqada. Ka fikir waxyaabo dhab ah oo aadan fahmi karin: tilmaamo, ereyo, qalab, habab."
+      }
+    ],
+    "quiz": {
+      "0": "Waa kee habka ugu xushmadda badan ee aad weydiisan karto maamulahaaga inuu ku celiyo tilmaamaha?",
+      "1": "Waa kee jumlada si sax ah u isticmaasha 'WOULD YOU MIND'?",
+      "2": "Ahmed wuxuu yidhi 'I'm sorry, I didn't catch that.' Waa maxay macnaha 'catch' halkan?",
+      "3": "Sidee ku weydiisataa macnaha eray goobta shaqada?",
+      "4": "Lisa waxay tiri 'It's better to ask than to make a mistake.' Maxay ku dhiirigelinaysaa?",
+      "5": "Marka maamulahaagu yidhaahdo 'Would you mind checking this?', maxaad tahay inaad sameyso?",
+      "6": "Waa kee weedha si sax ah u weydiisata ogolaansho inaad wax tijaabiso?",
+      "7": "Waa maxay farqiga u dhexeeya 'CAN YOU' iyo 'COULD YOU'?",
+      "8": "Qor 2 codsi oo xushmad leh oo laga yaabo inaad u baahato maalintaada koowaad ee shaqada. Isticmaal 'Could you...?' ama 'Would you mind...?'?",
+      "9": "Maamulahaagu wuxuu ku siinayaa liis dheer oo tilmaamo ah si aad u degdeg badan. Maadan fahmin wax walba. Maxaad tidhaahdaa? Qor 2-3 jumladood."
+    }
   },
   "vocabulary": [
     {

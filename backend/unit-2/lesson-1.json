@@ -558,7 +558,57 @@
         "definition": "qofka ugu dambeeya ee dhasha, da'da ugu yar ee walaalaha",
         "example": "Iyada ayaa ugu yar."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan xubinta qoyska ee saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhagayso: Imisa walaal lab ah ayuu qofku leeyahay?"
+      },
+      {
+        "question": "Dhagayso: Waa maxay magaca hooyada?"
+      },
+      {
+        "question": "Dhagayso: Qofku ma leeyahay carruur?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo soo bandhigaya 3 xubnood oo qoyskaaga ah. Sheeg xiriirka ay kula yihiin iyo magacyadooda."
+      },
+      {
+        "instruction": "Duub adigoo ka jawaabaya su'aalahan: Ma leedahay walaalo? Immisa? Waa maxay magacyadooda?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlo oo ku saabsan qoyskaaga. Ku dar: waalidiinta, walaalaha, iyo carruurta (haddii ay jiraan)."
+      },
+      {
+        "instruction": "Qor faqrad (6-8 jumlo) oo sharraxaysa qoyskaaga. Waa kuwani? Magacyadoodu waa maxay?"
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad soo bandhagto hooyadaa. Maxaad dhahdaa?",
+      "1": "Magaca aabahaa waa Mohamed. Maxaad dhahdaa?",
+      "2": "Magaca walaashaa waa Amina. Maxaad dhahdaa?",
+      "3": "Buuxi meesha bannaan: I ___ two brothers.",
+      "4": "Buuxi meesha bannaan: She ___ three children.",
+      "5": "Waxaad weydiinaysaa in qof walaalo leeyahay. Maxaad dhahdaa?",
+      "6": "Qof baa ku weydiinaya 'Do you have children?' Carruur ma haysatid. Maxaad dhahdaa?",
+      "7": "Kee baa sax ah?",
+      "8": "Qor 5 jumladood oo ku saabsan qoyskaaga. Ku dar ugu yaraan 3 xubnood oo kala duwan.",
+      "9": "Yaa qofka ugu muhiimsan qoyskaaga? Waa maxay sababta?"
+    }
   },
   "vocabulary": [
     {

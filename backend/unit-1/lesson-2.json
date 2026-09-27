@@ -597,7 +597,57 @@
         "definition": "ereyo macnahoodu yahay inaadan wax kale u baahnayn",
         "example": "Okay. Waa intaas. Mahadsanid."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan shayga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan shayga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan erayga saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Muxuu u baahan yahay macmiilku?"
+      },
+      {
+        "question": "Dhegayso: Rootigu waa imisa?"
+      },
+      {
+        "question": "Dhegayso: Dukaanku ma leeyahay ukun?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub codkaaga adigoo weydiisanaya saddex shay: caano, rooti, iyo ukun. Isticmaal 'Can I have...'"
+      },
+      {
+        "instruction": "Duub wadahadal dukaanka. Weydii caano, weydii qiimaha, oo dheh mahadsanid."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 shay oo aad u baahan tahay oo dukaanka laga iibiyo. U adeegso 'I need...' shay kasta."
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo dhex mara adiga iyo ka shaqeeya dukaanka. Weydii 2 shay, weydii qiimaha, oo dheh mahadsanid."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad iibiso caano. Maxaad dhahdaa?",
+      "1": "Waxaad rabtaa inaad ogaato haddii dukaanku uu rooti hayo. Maxaad weydiisaa?",
+      "2": "Waxaad rabtaa inaad ogaato qiimaha. Maxaad dhahdaa?",
+      "3": "Ka buuxi meel bannaan: \"Can I ___ bread?\"",
+      "4": "Ka shaqeeyuhu wuxuu ku siinayaa wax. Waxaad dhahdaa:",
+      "5": "Ka buuxi meel bannaan: \"The milk ___ three dollars.\"",
+      "6": "Ka buuxi meel bannaan: \"The eggs ___ two dollars.\"",
+      "7": "Kee baa sax ah?",
+      "8": "Qor wada hadal 6 sadar ah oo aad caano ku iibsanayso oo aad qiimaha weydiisanayso.",
+      "9": "Waa maxay weedha ugu muhiimsan ee casharkan nolol maalmeedkaaga? Sabab?"
+    }
   },
   "related_grammar": [
     "modal",

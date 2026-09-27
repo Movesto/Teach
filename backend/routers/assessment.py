@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
 
 from core.rate_limit import ai_rate_limit
-from core.ai_client import ask_qwen, translate_preserving_english, sanitize_text
+from core.ai_client import ask_qwen, sanitize_text
 from core.prompts import WRITING_ASSESSMENT_PROMPT, DRILL_ASSESSMENT_PROMPT
 
 logger = logging.getLogger(__name__)
@@ -37,6 +37,28 @@ def _similarity_ratio(a: str, b: str) -> float:
     return len(a_words & b_words) / max(len(a_words), len(b_words))
 
 
+TOO_SHORT_EN = "Your response is too short. Please write at least a few sentences addressing the prompt."
+TOO_SHORT_SO = "Jawaabtaadu way gaaban tahay. Fadlan qor ugu yaraan dhawr jumladood oo ka jawaabaya su'aasha."
+
+COPIED_PROMPT_EN = (
+    "It looks like you copied the question instead of answering it. "
+    "Please write your own original response to the prompt in your own words."
+)
+COPIED_PROMPT_SO = (
+    "Waxay u egtahay inaad koobtay su'aasha halkii aad ka jawaabi lahayd. "
+    "Fadlan qor jawaab adiga kuu gaar ah oo ku qoran ereyadaada."
+)
+
+COPIED_EXAMPLE_EN = (
+    "It looks like you copied the example answer instead of writing your own. "
+    "Please write your own original response using your own words and ideas."
+)
+COPIED_EXAMPLE_SO = (
+    "Waxay u egtahay inaad koobtay jawaabta tusaalaha ah halkii aad qori lahayd jawaab adiga kuu gaar ah. "
+    "Fadlan qor jawaab adiga kuu gaar ah oo adeegsada ereyadaada iyo fikradahaada."
+)
+
+
 async def run_writing_assessment(
     writing_text: str,
     prompt_instruction: str,
@@ -47,23 +69,13 @@ async def run_writing_assessment(
     word_count = len(text.split())
 
     if word_count < 10:
-        feedback = "Your response is too short. Please write at least a few sentences addressing the prompt."
-        return {
-            "score": 0, "passed": False,
-            "feedback": feedback,
-            "feedback_somali": await translate_preserving_english(feedback),
-        }
+        return {"score": 0, "passed": False, "feedback": TOO_SHORT_EN, "feedback_somali": TOO_SHORT_SO}
 
     if _similarity_ratio(text, prompt_instruction.strip()) > 0.70:
-        feedback = (
-            "It looks like you copied the question instead of answering it. "
-            "Please write your own original response to the prompt in your own words."
-        )
-        return {
-            "score": 0, "passed": False,
-            "feedback": feedback,
-            "feedback_somali": await translate_preserving_english(feedback),
-        }
+        return {"score": 0, "passed": False, "feedback": COPIED_PROMPT_EN, "feedback_somali": COPIED_PROMPT_SO}
+
+    if example and _similarity_ratio(text, example.strip()) > 0.80:
+        return {"score": 0, "passed": False, "feedback": COPIED_EXAMPLE_EN, "feedback_somali": COPIED_EXAMPLE_SO}
 
     user_prompt = (
         f'Writing prompt given to student: "{prompt_instruction}"\n'
@@ -76,20 +88,25 @@ async def run_writing_assessment(
         {"role": "system", "content": WRITING_ASSESSMENT_PROMPT},
         {"role": "user", "content": user_prompt},
     ]
-    response = await ask_qwen(messages, max_tokens=200)
+    # temperature=0.2: grading must be near-deterministic -- the same submission
+    # scoring very differently across resubmissions (e.g. 40 then 85 for identical
+    # text) was a real reported bug caused by the default chat temperature (0.7).
+    response = await ask_qwen(messages, max_tokens=450, temperature=0.2)
 
     score_match = re.search(r'SCORE:\s*(\d+)', response, re.IGNORECASE)
-    feedback_match = re.search(r'FEEDBACK:\s*(.+)', response, re.DOTALL)
+    feedback_match = re.search(r'FEEDBACK:\s*(.+?)(?=\nFEEDBACK_SOMALI:|\Z)', response, re.DOTALL)
+    feedback_so_match = re.search(r'FEEDBACK_SOMALI:\s*(.+)', response, re.DOTALL)
 
     score = int(score_match.group(1)) if score_match else 50
     score = max(0, min(100, score))
     feedback_english = feedback_match.group(1).strip() if feedback_match else response.strip()
+    feedback_somali = feedback_so_match.group(1).strip() if feedback_so_match else feedback_english
 
     return {
         "score": score,
         "passed": score >= 60,
         "feedback": feedback_english,
-        "feedback_somali": await translate_preserving_english(feedback_english),
+        "feedback_somali": feedback_somali,
     }
 
 

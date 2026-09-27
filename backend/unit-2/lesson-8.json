@@ -569,7 +569,57 @@
         "definition": "dib-u-eegis lagu eego taariikhda qofka ka hor inta aan la shaqaaleysiin",
         "example": "Ma loo baahan yahay baaritaanka asalka?"
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Dhammeystir shuruudda. Isticmaal: must / need to + [verb]"
+      },
+      {
+        "instruction": "Weydiiso shuruudaha. Isticmaal: Do I have to + [verb]?"
+      },
+      {
+        "instruction": "Dhegeyso oo go'aanso: ma waa required ama preferred? Isticmaal ereyadaas jawaabtaada."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Sida ku qoran xayaysiiska shaqada, maxaa loo baahan yahay?"
+      },
+      {
+        "question": "Waa maxay macnaha 'preferred but not required' ee booskan?"
+      },
+      {
+        "question": "Su'aaltee ayuu ninku weydiiyay loo-shaqeeyaha?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Fiiri xayaysiiskan shaqada oo ku akhri si cod dheer oo cad: \"Cashier needed. Must be 18+. Must be able to work weekends. Experience preferred but not required. Apply in person with a valid ID.\" Kadib ku sheeg erayadaada waxa loo baahan yahay iyo waxa la door bidaayo."
+      },
+      {
+        "instruction": "Qiyaas inaad rabto inaad codsato shaqo bakhaar. Duub adigoo weydiinaya qofka shaqada bixiya 3 su'aalood oo ku saabsan shuruudaha adigoo isticmaalaya: \"Do I have to...? Do I need to...? Is ... required?\""
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 4 jumlood oo ku tilmaamaya shuruudaha shaqo aad taqaan (dukaan, makhaayad, bakhaar, dugsi). Isticmaal: must, need to, required, preferred."
+      },
+      {
+        "instruction": "Akhri ogaysiiska shaqadan: 'Driver needed. Must have a valid license. Must speak English. Lifting ability required. Computer skills preferred.' Qor 4 jumlood oo sharaxaya shuruudaha aad buuxiso iyo kuwa aad weli ma haysato."
+      }
+    ],
+    "quiz": {
+      "0": "Ogeysiis shaqo ayaa dhahdaa 'Driver's license required.' Waa maxay macnaheedu?",
+      "1": "Jumladee kee baa si sax ah u adeegsata MUST?",
+      "2": "Sidee baad si edeb ah u weydiisataa shuruud?",
+      "3": "Ogeysiis shaqo ayaa dhahdaa 'Experience preferred.' Ahmed ma laha khibrad. Maxay tahay inuu sameeyo?",
+      "4": "Su'aasha ugu muhiimsan ee la weydiisto ka hor intaadan codsato waa kee?",
+      "5": "Waa maxay macnaha 'You need to fill out an application'?",
+      "6": "Wadahalka dhexdiisa, ereygee ay Ms. Kim u isticmaashay si ay u sharaxdo 'required' waa kee?",
+      "7": "Jumladee kee baa si sax ah u adeegsata SHOULD?",
+      "8": "Qor liis 3 shay oo ah shuruud shaqo khayaali ah. Adeegso: must, required, iyo need to.",
+      "9": "Akhri shuruudan: 'Must be able to work Monday to Friday, 7 AM to 4 PM.' Ma sami kartaa? Qor 2 jumlood oo sharaxaya jawaabtaada."
+    }
   },
   "vocabulary": [
     {

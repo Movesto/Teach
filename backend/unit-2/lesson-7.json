@@ -576,7 +576,57 @@
         "definition": "in hadda wax la baranayo, oo aan weli dhammaan",
         "example": "Weli waxaan baranayaa barnaamijyo kale."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Sheeg waxa qof karin ama aan karin. Isticmaal: I can / I can't + [verb]"
+      },
+      {
+        "instruction": "Sheeg waxa aad taqaanid sida loo sameeyo. Isticmaal: I know how to / I don't know how to + [verb]"
+      },
+      {
+        "instruction": "Ka hadal waxa aad ku fiican tahay. Isticmaal: I'm good at / I'm not good at + [verb-ing]"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Maxay Maria ka qaban kartaa shaqadeeda?"
+      },
+      {
+        "question": "Waa maxay xirfadda uu qofka hadlaya wali baranayo?"
+      },
+      {
+        "question": "Waa maxay xirfadda uu shaqaaleeyuhu marka hore wax ka weydiiyo?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo ka hadlaya 3 waxyaabood oo aad qaban karto iyo 1 wax aad weli baranayso. Isticmaal: I can..., I know how to..., I'm good at..., and I'm still learning..."
+      },
+      {
+        "instruction": "Duub adigoo weydiinaya saaxiib wax ku saabsan awoodihiisa. Weydii 3 su'aal adigoo isticmaalaya: Can you...?, Are you good at...?, and Do you know how to...?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlood oo ku saabsan xirfadahaaga iyo kartidaada. Ku dar ugu yaraan hal shay oo aad qaban karto, hal shay oo aad aqoon u leedahay, hal shay oo aad ku fiican tahay, iyo hal shay oo aad weli baranayso."
+      },
+      {
+        "instruction": "Ka fikir shaqo aad rabto. Qor 4 jumlood oo sharxaya sababta xirfadahaagu ugu fiican yihiin shaqadaas. Isticmaal: I can, I know how to, I'm good at."
+      }
+    ],
+    "quiz": {
+      "0": "Jumladee baa sax ah?",
+      "1": "Sidee ayaad u weydiisaa qofka xirfadiisa adigoo isticmaalaya CAN?",
+      "2": "Dooro jumlada saxda ah.",
+      "3": "Ahmed wuxuu yidhi 'I'm still learning how to use a computer.' Maxay taasi ka dhigan tahay?",
+      "4": "Weedhee baa ugu habboon shaqo wareysiga?",
+      "5": "Waa maxay qaabka diidmada ee saxda ah?",
+      "6": "Carlos ayaa Ahmed weydiisay: '___ you work in a team?' Waa eraygee meesha bannaan?",
+      "7": "Wada hadalka, Carlos wuxuu caawiyaa Ahmed inuu ogaado maxay?",
+      "8": "Qor saddex jumladood oo ku saabsan xirfadahaaga adigoo isticmaalaya: I can..., I know how to..., I'm good at...",
+      "9": "Ka fikir shaqo aad rabto. Waa maxay xirfad keliya oo aad leedahay oo kaa dhigeysa mid ku fiican shaqadaas? Ku sharax laba jumladood."
+    }
   },
   "vocabulary": [
     {

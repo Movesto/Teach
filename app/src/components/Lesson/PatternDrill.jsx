@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { ChevronRight, Check, X } from 'lucide-react';
 import { apiFetch } from '../../utils/api';
 
-export function PatternDrill({ drills, lessonTitle, onComplete, onRequestHelp }) {
+export function PatternDrill({ drills, somali, lessonTitle, onComplete, onRequestHelp }) {
   const [currentDrill, setCurrentDrill] = useState(0);
   const [currentPrompt, setCurrentPrompt] = useState(0);
   const [promptInput, setPromptInput] = useState('');
@@ -134,7 +134,12 @@ export function PatternDrill({ drills, lessonTitle, onComplete, onRequestHelp })
 
       <div className="bg-blue-50 dark:bg-blue-900/20 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6 mb-6">
         <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-200 mb-4">{drill.title}</h3>
-        <p className="text-blue-800 dark:text-blue-300 mb-4">{drill.instruction}</p>
+        <div className="mb-4">
+          <p className="text-blue-800 dark:text-blue-300">{drill.instruction}</p>
+          {somali?.[currentDrill]?.instruction && (
+            <p className="text-blue-600 dark:text-blue-400 text-sm italic mt-0.5">{somali[currentDrill].instruction}</p>
+          )}
+        </div>
 
         {/* Interactive prompts mode */}
         {hasPrompts && !promptsComplete && (

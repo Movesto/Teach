@@ -557,7 +557,57 @@
         "definition": "qof kale la joog, oo aan keligaa ahayn",
         "example": "Waa inaan isla orodno mar qaar."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan jawaabta saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Waa maxay ciyaaraha uu Ahmed jecla?"
+      },
+      {
+        "question": "Dhegayso: Tom wuxuu jeclaa basketball miyaa?"
+      },
+      {
+        "question": "Dhegayso: Goorma ayuu Tom ciyaaraa kubbadda cagta?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Isku duub adigoo ka hadlaya 3 waxyaabood oo aad jeceshahay iyo 2 waxyaabood oo aadan jeclayn."
+      },
+      {
+        "instruction": "Isku duub adigoo weydiinaya qof kale waxa uu jeclahay, oo helaya wax aad wadaagtaan."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 6 jumlood: 3 waxyaabood oo aad jeceshahay iyo 3 waxyaabood oo aadan jeclayn."
+      },
+      {
+        "instruction": "Qor wada hadal (10-12 sadar) oo aad qof cusub la kulanto oo aad heshaan wax aad wada jeceshihiin."
+      }
+    ],
+    "quiz": {
+      "0": "Buuxi meesha bannaan: I ___ soccer.",
+      "1": "Buuxi meesha bannaan: He ___ playing basketball.",
+      "2": "Saaxiibkaa wuxuu dhahaa 'I like soccer'. Adiguna waad jeceshahay soccer. Maxaad dhahdaa?",
+      "3": "Saaxiibkaa wuxuu dhahaa 'I don't like basketball'. Adiguna ma jeceshahay. Maxaad dhahdaa?",
+      "4": "Waxaad rabtaa inaad weydiiso in qof uu jecel yahay akhriska. Maxaad dhahdaa?",
+      "5": "Kee baa sax ah?",
+      "6": "Waxaad rabtaa inaad soo jeediso inaad wada ciyaartaan soccer. Maxaad dhahdaa?",
+      "7": "Kee baa weydiiya waxyaabaha qofku xiiseeyo?",
+      "8": "Qor wada hadal gaaban (6 sadar) oo adiga iyo saaxiib cusub aad ku ogaataan inaad wada jeceshihiin wax isku mid ah.",
+      "9": "Waa maxay hiwaayad ama xiise kaa caawinaysa inaad saaxiibo yeesho? Maxaa sabab ah?"
+    }
   },
   "vocabulary": [
     {

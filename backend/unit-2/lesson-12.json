@@ -578,7 +578,57 @@
         "definition": "in qof u farxo wax dhow dhacaya",
         "example": "Waxaan rajeynayaa inaan kaa maqlo."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Samee hadal edeb leh oo xirfadeed. Isticmaal: I'd like to + [verb]"
+      },
+      {
+        "instruction": "Ka hadal khibradaada adigoo isticmaalaya present perfect. Isticmaal: I've + [past participle]"
+      },
+      {
+        "instruction": "Dhammeystir jumlada xirfadeed. Isticmaal weedhaha rasmiga ah ee aad baratay."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa maxay shaqada uu ninku codsanayo?"
+      },
+      {
+        "question": "Waa goorma ayay naagtu tidhi inay bilaabi karto?"
+      },
+      {
+        "question": "Sidee ayuu wareystuhu u dhammeeyaa kulanka?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duwaaq qaad adigoo iska dhigaya inaad joogto wareysi shaqo. Sheeg: magacaaga, shaqada aad raadinaysid, waayo-aragnimadaada (isticmaal 'I've worked...'), iyo goorta aad bilaabi karto. Ku hadal si cad oo kalsooni leh."
+      },
+      {
+        "instruction": "Duwaaq qaad adigoo ku soo gabagabeynaya wareysiga shaqada. U mahadnaq qofka wareysiga ku haya, sheeg hal sabab oo muujinaya inaad tahay qofka ku habboon, oo dheh inaad sugaysid inay kaa soo xiriirto."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor cutub yar (5-6 jumlood) adigoo is-baraya si aad u codsato shaqo. Ku dar: shaqada aad rabto, waaya-aragnimadaada (adeegso 'I've...'), sababta aad u tahay qof ku habboon, iyo waqtiga aad bilaabi karto."
+      },
+      {
+        "instruction": "Qor 4-5 jumlood oo ka tarjumaya waxa aad ka baratay cutubkan. Maxaad hadda samayn karto oo aadan hore u samayn? Adeegso: I can now..., I've learned how to..., I feel more confident about..."
+      }
+    ],
+    "quiz": {
+      "0": "Waa kee habka ugu xirfad badan ee aad ku sheegto inaad shaqo rabto?",
+      "1": "Jumladee baa si sax ah u isticmaasha waqtiga xaadirka ee dhamaystiran marka laga hadlayo khibrada shaqada?",
+      "2": "Ahmed wuxuu yidhi \"I look forward to hearing from you.\" Maxay tani ka dhigan tahay?",
+      "3": "Jumladee baa sax ah?",
+      "4": "Sidee baad wareystaha ugu sheegtaa inaad isla markiiba diyaar tahay?",
+      "5": "Ahmed wuxuu isu soo bandhigay isagoo yidhi \"I'm reliable and I work hard.\" Maxay tani muhiim ugu tahay wareysiga?",
+      "6": "Waa kee weedha si sax ah u soo bandhigaysa khibradaada shaqo?",
+      "7": "Maxay \"I believe I am a good fit for this role\" ka dhigan tahay?",
+      "8": "Qor 3 jumlood oo aad ku tidhaahdo bilowga wareysiga shaqada. Ku dar: magacaaga, shaqada aad rabto (I'd like to...), iyo hal shay oo ku saabsan khibradaada (I've...).",
+      "9": "Wareystuhu wuxuu ku weydiinayaa: \"Why should we hire you?\" Qor 2-3 jumlood. Isticmaal xirfadahaaga, khibradaada, iyo hal astaan oo shakhsiyaddaada ah (reliable, organized, hard-working, iwm.)."
+    }
   },
   "vocabulary": [
     {

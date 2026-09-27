@@ -594,7 +594,57 @@
         "definition": "aad u dhawaan",
         "example": "Isla markiiba baan keeni doonaa."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan cuntada ama cabitaanka saxda ah."
+      },
+      {
+        "instruction": "Buuxi meesha bannaan shayga saxda ah."
+      },
+      {
+        "instruction": "Buuxi meesha bannaan erayga saxda ah."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhagayso: Maxaa macmiilku dalbanayaa?"
+      },
+      {
+        "question": "Dhagayso: Ma halkan lagu cunaa mise waa la qaataa?"
+      },
+      {
+        "question": "Dhagayso: Maxaa cabitaan ah qofku rabaa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo dalbanaya: hamburger, baradho shiilan, iyo biyo. Isticmaal 'I would like' ama 'Can I have'."
+      },
+      {
+        "instruction": "Duub wada hadal buuxa oo makhaayad ah. Dalbo cunto, ka jawaab haddii ay tahay halkan lagu cuno ama la qaado, iyo weydii biilka."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Waxaad joogtaa makhaayad. Qor waxa aad dalban lahayd: saxan weyn, cunto dhinac ah, iyo cabitaan. Isticmaal 'I would like...'"
+      },
+      {
+        "instruction": "Qor wadahadal (10-12 sadar) oo ka dhacaya makhaayad. Ku dar: salaanta, dalbashada cuntada iyo cabitaanka, ka jawaabista su'aalaha, iyo weydiinta xisaabta."
+      }
+    ],
+    "quiz": {
+      "0": "Waa maxay habka ugu edebta badan ee cuntada loo dalbado?",
+      "1": "Waiterku wuxuu waydiiyaa 'For here or to go?' Maxay weydiinayaan?",
+      "2": "Waxaad rabtaa biilka. Maxaad tidhaahdaa?",
+      "3": "Waiterku wuxuu waydiiyaa 'Anything else?' Waxaad dhammaysay dalbashada. Maxaad tidhaahdaa?",
+      "4": "Buuxi meesha bannaan: I ___ like a salad.",
+      "5": "Waxaad rabtaa inaad ogaato waxa 'chicken alfredo' yahay. Maxaad weydiisaa?",
+      "6": "Waxaad rabtaa inaad cuntaa maqaayadda. Waiterku wuxuu ku waydiiyaa 'For here or to go?' Waxaad dhahdaa:",
+      "7": "Waa kee jumlada saxda ah ee cuntada lagu dalbado maqaayadda?",
+      "8": "Qor wada hadal 8 sadar ah oo aad ku dalbanayso pizza, soda, oo aad weydiisanayso biilka.",
+      "9": "Waa maxay cuntada aad ugu jeceshahay? Sideed ku dalban lahayd maqaayadda? Qor 2-3 jumladood."
+    }
   },
   "related_grammar": [
     "modal",

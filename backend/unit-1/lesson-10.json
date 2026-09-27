@@ -606,7 +606,57 @@
         "definition": "halbeegga loo isticmaalo in lagu qiyaaso heerkulka",
         "example": "Laga yaabaa 30 darajo."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan ereyga cimilada ee saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ereyga dharka ee saxda ah"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Sidee tahay cimiladu?"
+      },
+      {
+        "question": "Dhageyso: Maxay qofku u baahan yahay?"
+      },
+      {
+        "question": "Dhageyso: Ma baraf da'ayaa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo sharaxaya cimilada maanta. Isticmaal ugu yaraan saddex jumladood."
+      },
+      {
+        "instruction": "Duub wada hadal oo saaxiib kuu sheegayo cimilada, adiguna go'aansato waxa aad xidhato."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlo oo ku saabsan noocyada cimilada ee kala duwan."
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad saaxiib kula wada hadasho cimilada iyo waxa aad xidhato."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabto inaad ogaato cimilada. Maxaad weydiinaysaa?",
+      "1": "Dibadda baa roob ka da'aya. Maxaad u baahan tahay?",
+      "2": "Buuxi meesha bannaan: It is ___ today. (biyaha samada ka da'aya)",
+      "3": "Heerkulku waa 95 darajo Fahrenheit. Waxaad dhahdaa:",
+      "4": "Buuxi meesha bannaan: You ___ a jacket. It is cold.",
+      "5": "Jumladee baa sax ah?",
+      "6": "Waxyaalo cad ayaa samada ka da'aya. Waa:",
+      "7": "Buuxi meesha bannaan: I am ___ a warm jacket. (waxaad jidhkaaga ku haysaa)",
+      "8": "Qor wada-hadal 6 sadar ah oo ku saabsan cimilada. Qof baa weydiisa cimilada, kan kalena wuu sharaxaa oo soo jeediyaa dharka.",
+      "9": "Sidee tahay cimilada badanaa meesha aad ka timid? Qor 3-4 jumlood oo isbarbar dhigaya cimilada halkan."
+    }
   },
   "related_grammar": [
     "to-be",

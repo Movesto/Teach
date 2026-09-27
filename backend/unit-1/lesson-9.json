@@ -612,7 +612,57 @@
         "definition": "inaad nasato oo seexato si jidhku uu u fiicnaado",
         "example": "Waxaad u baahan tahay inaad nasato."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan calaamadda saxda ah."
+      },
+      {
+        "instruction": "Buuxi meesha bannaan qaybta jidhka ee saxda ah."
+      },
+      {
+        "instruction": "Buuxi meesha bannaan si aad u dhammaystirto jumlada."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Maxaa bukaanka ku qaba?"
+      },
+      {
+        "question": "Dhegayso: Dhakhtarku muxuu ku yidhi bukaanka inuu sameeyo?"
+      },
+      {
+        "question": "Dhegayso: Muddo intee le'eg ayuu qofku jiran yahay?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo u sheegaya dhakhtarka saddex calaamadood: madax-xanuun, qandho, iyo cun-xanuun."
+      },
+      {
+        "instruction": "Duub wada hadal gaaban oo aad dhakhtarka u tagto sababtoo ah calooshaadu xanuunaysaa."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 5 jumlood oo ku tilmaamaya astaamaha kala duwan. Isticmaal 'I have...', 'My ... hurts', ama 'I feel...'"
+      },
+      {
+        "instruction": "Qor wada hadal (8-10 sadar) oo aad tagto dhakhtarka sababtoo ah waxaad dareemeysaa xanuun."
+      }
+    ],
+    "quiz": {
+      "0": "Madaxu wuu ku xanuunaa. Maxaad dhakhtarka u sheegtaa?",
+      "1": "Dhakhtarku wuxuu ku weydiinayaa 'How are you feeling?' Waad xanuunsanaysaa. Waxaad dhahdaa:",
+      "2": "Buuxi meesha bannaan: My stomach ___.",
+      "3": "Dhakhtarku wuxuu yidhi 'Take one pill in the morning.' Kani macneheedu waa maxay?",
+      "4": "Buuxi meesha bannaan: I have a ___. (heerkulka jidhkaagu wuu sarreeyaa)",
+      "5": "Dhakhtarku wuxuu yidhi 'You need to rest.' Maxaad tahay inaad sameyso?",
+      "6": "Jumladdee baa sax ah?",
+      "7": "Waxaad dareemaysaa in qolku wareegayo. Waxaad dhahdaa:",
+      "8": "Qor wada hadal 6 sadar ah oo aad dhakhtarka u tagto sababtoo ah waxaa ku haysta caloolxanuun iyo qandho.",
+      "9": "Ka fikir waqti aad xanuunsanayd. Qor 3 jumlad oo ku qeexaya sida aad dareentay, adigoo isticmaalaya weedhaha casharkan."
+    }
   },
   "related_grammar": [
     "present-simple",

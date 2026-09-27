@@ -594,7 +594,57 @@
         "definition": "daqiiqo intee le'eg ayay qaadataa in aad u socotid meel",
         "example": "Waa socod qiyaastii 5 daqiiqo."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Buuxi meesha bannaan erayga jihada ee saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan erayga goobta ee saxda ah"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan si aad u dhamaystirto jihada"
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhegayso: Dhinac kee ayaad u leexanaysaa?"
+      },
+      {
+        "question": "Dhegayso: Maktabaddu xaggee ku taallaa?"
+      },
+      {
+        "question": "Dhegayso: Maktabaddu maxay ku xigtaa?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo ku siinaya jihada maktabadda: Si toos ah u soco, bidix u leexo Wadada Oak, waxay ku taal dhanka midig."
+      },
+      {
+        "instruction": "Duub wada hadal aad qof weydiisanayso jihada xafiiska boostada."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor tilmaanta gurigaaga ilaa dukaanka ugu dhow. Isticmaal: go straight, turn left/right, it's on the left/right."
+      },
+      {
+        "instruction": "Qor wada hadal (10-12 sadar) oo qof ku weydiiyo tilmaanta meel kuu dhow."
+      }
+    ],
+    "quiz": {
+      "0": "Waxaad rabtaa inaad u sheegto qof inuu jihada u beddelo dhanka bidix. Maxaad tidhaahdaa?",
+      "1": "Maktabaddu waxay ku ag taallaa bangiga. Maxaad dhahdaa?",
+      "2": "Dukaanku wuxuu ku yaal dhinaca waddada ee ka soo horjeeda bangiga. Maxaad dhahdaa?",
+      "3": "Qofku waa inuusan leexan. Waa inuu ku sii socdaa isla jihada. Waxaad tidhaahdaa:",
+      "4": "Xafiiska boostada wuxuu ku yaal dhexda bangiga iyo maktabadda. Maxaad dhahdaa?",
+      "5": "Kee waa tilmaamo dhamaystiran?",
+      "6": "Maxay 'at the corner' macneheedu yahay?",
+      "7": "Qof baa weydiiya 'Which way?' Wuxuu rabaa inuu ogaado:",
+      "8": "Qor tilmaamaha joogsiga baska ilaa gurigaaga. Isticmaal ugu yaraan 4 erey ama weedhood oo tilmaamaya jihada.",
+      "9": "Ka fikir meel aad inta badan tagto (shaqo, iskuul, dukaan). Sidee u siin lahayd qof tilmaamo uu ku gaadho meeshaas gurigaaga ka soo bilaabaya?"
+    }
   },
   "related_grammar": [
     "imperative",

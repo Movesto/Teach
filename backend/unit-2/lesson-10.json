@@ -526,7 +526,57 @@
         "definition": "inuu wax ka sii jeclaado wax kale",
         "example": "Waxaan door bidaa waqtiyada shaqada ee subax ama maalin."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Sheeg inaad diyaar tahay iyo inaadan diyaar ahayn. Isticmaal: I can / I can't work + [waqti ama maalin]"
+      },
+      {
+        "instruction": "Buuxi meesha bannaan ee preposition-ka saxda ah: on, at, from, to, ama until."
+      },
+      {
+        "instruction": "Weydiiso macluumaadka jadwalka. Isticmaal su'aal-ereyada iyo weedhaha aad baratay."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Waa maxay saacadaha shaqada ee shaqada lagu sheegay duubista?"
+      },
+      {
+        "question": "Muxay naagtu ka tidhi maalmaha sabtida iyo axada?"
+      },
+      {
+        "question": "Waa maxay macnaha 'full-time' ee ku qoran sharaxaadda shaqada?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub naftaada adoo sharaxaya waqtiyada aad shaqayn karto iyo kuwa aadan shaqayn karin. Ku dar: maalmaha, saacadaha, iyo inaad shaqo dheeri ah qaban karto iyo in kale. Isticmaal: I can work..., I'm available..., I can't work..."
+      },
+      {
+        "instruction": "Ka soo qaad inaad wacayso oo aad shaqo raadinaysid. Duub naftaada adoo weydiinaya 3 su'aalood oo ku saabsan jadwalka iyo saacadaha. Isticmaal: What are the hours?, What shift...?, Is ... available?"
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Qor 4-5 jumlado oo ku tilmaamaya waqtiyadaaga shaqada. Ku dar: maalmaha aad shaqayn karto, saacadaha aad doorbidayso, iyo ugu yaraan hal waqti oo aadan shaqayn karin. Isticmaal: on, at, from...to, until."
+      },
+      {
+        "instruction": "Qor wada-hadal gaaban (4-6 sadar) oo u dhexeeya shaqaale iyo loo-shaqeeye, oo ku saabsan jadwalka iyo saacadaha. Ku dar ugu yaraan hal su'aal iyo hal jawaab oo ku saabsan jadwalka iyo saacadaha."
+      }
+    ],
+    "quiz": {
+      "0": "Jumladee baa si sax ah u isticmaasha hor-dhigga wakhtiga?",
+      "1": "Ahmed wuxuu yidhi 'I can't work on Sundays.' Maxay taasi macneheedu tahay?",
+      "2": "Waa maxay 'shift'?",
+      "3": "Sidee baad ku weydiisaa saacadaha shaqada marka lagu wareysanayo shaqo?",
+      "4": "Tom wuxuu bixiyaa shaqo dheeri ah Sabtida. Sidee buu Ahmed si sax ah u yiraahdaa inuu qaban karo?",
+      "5": "Maxay 'full-time' caadi ahaan macneheedu tahay?",
+      "6": "Jumladee baa si sax ah u isticmaasha 'UNTIL'?",
+      "7": "Waa maxay shaqada dheeraadka ah?",
+      "8": "Qor saddex jumlood oo ku saabsan wakhtiga aad shaqada u diyaar tahay. Isticmaal: I can work..., I'm available..., I can't...",
+      "9": "Shaqaale-siiyuhu wuxuu ku weydiinayaa: 'What shift do you prefer — morning, afternoon, or night?' Qor jawaabtaada laba jumlood. Sharax midka aad doorbidayso iyo sababta."
+    }
   },
   "vocabulary": [
     {

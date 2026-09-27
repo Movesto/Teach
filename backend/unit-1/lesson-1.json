@@ -528,7 +528,57 @@
         "definition": "fiican, ama isku fiican",
         "example": "Waan fiicanahay, mahadsanid."
       }
-    ]
+    ],
+    "drills": [
+      {
+        "instruction": "Qof baa su'aal ku weydiinaya. Qor jawaabtaada dhabta ah."
+      },
+      {
+        "instruction": "Isticmaal waxa aad ka ogaatay 'I am' iyo 'you are' si aad u dhamaystirtid jumlad kasta."
+      },
+      {
+        "instruction": "Isku dar waxaas oo dhan xaalad cusub."
+      }
+    ],
+    "listening": [
+      {
+        "question": "Dhageyso: Magaceeda waa maxay?"
+      },
+      {
+        "question": "Dhageyso: Xaggee buu ka yimid?"
+      },
+      {
+        "question": "Dhageyso: Sidee ayay tahay?"
+      }
+    ],
+    "speaking": [
+      {
+        "instruction": "Duub adigoo dhihi: 'Hi, my name is [YOUR NAME]. I am from [YOUR PLACE].'"
+      },
+      {
+        "instruction": "Feker inaad la kulanto Marcus. Duub wada hadalka oo dhan ee sheekada. Adigu waxaad tahay qofka 'You' ee wada hadalka."
+      }
+    ],
+    "writing": [
+      {
+        "instruction": "Buuxi jumladahan oo ku saabsan adiga:"
+      },
+      {
+        "instruction": "Qor wada hadal gaaban (6-8 sadar) oo ay laba qof markii ugu horreysay kulmayaan. Isticmaal weedhaha casharkan."
+      }
+    ],
+    "quiz": {
+      "0": "Sidee qof magiciisa u sheegtaa?",
+      "1": "Qof wuxuu yiraahdaa 'Nice to meet you.' Maxaad tiraahdaa?",
+      "2": "Buuxi meesha bannaan: I ___ from Somalia.",
+      "3": "Buuxi meesha bannaan: You ___ Marcus.",
+      "4": "Markuu Marcus yiraahdo 'How are you?', maxuu doonaya inuu ogaado?",
+      "5": "Waxaad rabto inaad weydiiso dareenka ama xaaladda qof. Maxaad tiraahdaa?",
+      "6": "Jumladee baa sax ah?",
+      "7": "Waa maxay macnaha 'Hi'?",
+      "8": "Qor wada hadal 4 sadar ah oo aad kula kulayso qof la yiraahdo Sarah oo ka timid England. Isticmaal weedhaha aad baratay.",
+      "9": "Ka fikir casharka. Qor 2-3 jumlood: Waa maxay weedha aad ugu faa'iidaysan? Waa maxay sababta?"
+    }
   },
   "related_grammar": [
     "to-be"
